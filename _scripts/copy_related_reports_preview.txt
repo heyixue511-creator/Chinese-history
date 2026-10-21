@@ -1,0 +1,42 @@
+1-01	B511	 12 files	赵农：《中国艺术设计史》
+1-02	B477	 12 files	夏燕靖：《中国艺术设计史》
+1-03	B476	 13 files	夏燕靖：《中国艺术设计史(升级版)》，2017
+1-07	B500	 11 files	沈榆：《观念的演进：中国现代设计史》，2021
+1-08	B485	 11 files	曹小鸥：《中国现代设计思想：生活、启蒙、变迁》，2018
+1-09	B472	 14 files	周博：《断裂与绵延：中国现代设计史研究》，2019
+1-10	B493	 21 files	杭间：《中国工艺美学史(第三版修订本)》，2018
+1-11	B495	  9 files	杭间：《设计道：中国设计的基本问题》，2008
+1-12	B494	  7 files	杭间：《手艺的思想(修订版)》，2017
+1-13	B491	 10 files	李砚祖：《造物之美：产品设计的艺术与文化》，2000
+1-14	B496	  7 files	柳冠中：《事理学方法论》，2013
+1-15	B497	  6 files	柳冠中：《设计方法论》，2011
+2-10	B473	  8 files	周博：《现代设计伦理思想史》，2014
+3-01	B471	 18 files	周博：《中国现代文字设计图史》，2017
+3-04	B517	 21 files	靳埭强：《中国现代设计与包豪斯＝BAUHAUS CHINESE MODERN DESIGN》
+3-05	B492	 12 files	杭间, 靳埭强, 胡恩威：《包豪斯道路：历史、遗泽、世界与中国》，2010
+3-06	B501	 19 files	王受之：《世界平面设计史》，2001
+3-07	B514	 10 files	邹德侬：《中国现代建筑史》，2001
+3-08	B516	 15 files	霍维国, 霍光：《中国室内设计史(第2版)》，2015
+3-09	B499	 12 files	樊进, 龙红：《中国当代设计全集 第4卷 平面类编 图案篇》，2015
+4-01	B480	  9 files	尼古拉斯·佩夫斯纳：《现代设计的先驱者：从威廉·莫里斯到沃尔特·格罗皮乌斯》，2019
+4-02	B503	 13 files	王受之：《世界现代设计史》，2015
+4-03	B486	 12 files	朱和平：《世界现代设计史》，2004
+4-04	B487	 11 files	朱和平：《现代设计史》，2012
+4-05	B498	  8 files	梁梅：《世界现代设计史》，2013
+4-06	B478	 18 files	大卫·瑞兹曼 (David Raizman)：《现代设计史（第2版）》，2013
+4-06	B102	 25 files	David Raizman：《History of Modern Design》，2023
+4-07	B506	 21 files	维克多·马格林：《世界设计史1：史前至一战》，2015
+4-07	B507	 20 files	维克多·马格林：《世界设计史2：一战至二战》，2015
+4-08	B515	 14 files	阿德里安·福蒂：《欲求之物：1750年以来的设计与社会》，2001
+4-09	B509	 14 files	英彭妮·斯帕克(Penny Sparke)：《唯有粉红 审美品位的性别政治学》
+4-10	B318	 23 files	Muneyoshi Yanagi：《The Unknown Craftsman A Japanese Insight into Beauty》，1972
+4-11	B242	 12 files	Junichiro Tanizaki：《In Praise of Shadows》，1933
+4-12	B131	 16 files	Dr Maxine Berg：《The Age of Manufactures, 1700-1820 - Industry, Innovation and Work in Britain》
+4-13	B304	 12 files	Maxine Berg：《Luxury and Pleasure in Eighteenth-Century Britain (2007)》
+4-14	B168	 15 files	Giorgio Riello：《Cotton The Fabric That Made the Modern World》
+4-15	B040	 93 files	Beckert, Sven：Empire of Cotton：A Global History, 2014
+4-16	B258	  9 files	Kenneth Pomeranz：《The Great Divergence China, Europe, and the Making of the Modern World Economy》
+4-17	B004	 16 files	Adamson, Glenn; Riello, Giorgio; Teasley, Sarah (eds.), Global Design History, 2011
+4-18	B089	  9 files	Craig Clunas：《Superfluous Things Material Culture and Social Status in Early Modern China》
+
+条目 38；分析报告文件夹 40；文件 618
