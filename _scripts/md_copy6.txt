@@ -1,0 +1,98 @@
+B511	中国艺术设计史                             	赵农：《中国艺术设计史》_clean.md
+B477	中国艺术设计史                             	夏燕靖：《中国艺术设计史》_clean.md
+B476	中国艺术设计史（升级版）                        	夏燕靖：《中国艺术设计史(升级版)》，2017_clean.md
+B516	中国室内设计史（第2版）                        	霍维国, 霍光：《中国室内设计史(第2版)》，2015_clean.md
+B514	中国现代建筑史                             	邹德侬：《中国现代建筑史》，2001_clean.md
+B469	中国平面设计史论稿                           	刘小羊：《中国平面设计史论稿》，2016_clean.md
+B465	香港平面设计史                             	万长林：《香港平面设计史》，2012_clean.md
+B472	断裂与绵延：中国现代设计史研究                     	周博：《断裂与绵延：中国现代设计史研究》，2019_clean.md
+B500	观念的演进：中国现代设计史                       	沈榆：《观念的演进：中国现代设计史》，2021_clean.md
+B485	中国现代设计思想：生活、启蒙、变迁                   	曹小鸥：《中国现代设计思想：生活、启蒙、变迁》，2018_clean.md
+B495	设计道：中国设计的基本问题                       	杭间：《设计道：中国设计的基本问题》，2008_clean.md
+B493	中国工艺美学史（第三版修订本）                     	杭间：《中国工艺美学史(第三版修订本)》，2018_clean.md
+B494	手艺的思想（修订版）                          	杭间：《手艺的思想(修订版)》，2017_clean.md
+B491	造物之美：产品设计的艺术与文化                     	李砚祖：《造物之美：产品设计的艺术与文化》，2000_clean.md
+B479	物用之美：中国设计艺术的历史与理论                   	孔铮桢，綦明著：《物用之美_中国设计艺术的历史与理论》，2014.md
+B496	事理学方法论                              	柳冠中：《事理学方法论》，2013.md
+B497	设计方法论                               	柳冠中：《设计方法论》，2011_clean.md
+B512	设计艺术的含义                             	赵江洪：《设计艺术的含义》，1999_clean.md
+B471	中国现代文字设计图史                          	周博：《中国现代文字设计图史》，2017.md
+B499	中国当代设计全集 第4卷 平面类编 图案篇               	樊进, 龙红：《中国当代设计全集 第4卷 平面类编 图案篇》，2015.md
+B492	包豪斯道路：历史、遗泽、世界与中国                   	杭间, 靳埭强, 胡恩威：《包豪斯道路：历史、遗泽、世界与中国》，2010.md
+B517	中国现代设计与包豪斯                          	靳埭强：《中国现代设计与包豪斯＝BAUHAUS CHINESE MODERN DESIGN》.md
+B505	移动的美术馆：20世纪初中国的书籍装帧设计与商业美术          	移动的美术馆 20世纪初中国的书籍装帧设计与商业美术.md
+B089	Superfluous Things: Material Culture	Craig Clunas：《Superfluous Things Material Culture and Social Status in Early Modern China》.md
+B079	Gutenberg in Shanghai: Chinese Print	Christopher A. Reed：《Gutenberg in Shanghai Chinese Print Capitalism, 1876-1937》.md
+B326	China Design Now                    	None：《China design now , None》.md
+B288	世界设计史（第1卷：史前至一战）                    	维克多·马格林：《世界设计史1：史前至一战》，2015_clean.md
+B289	World History of Design, Vol. 2: Wor	Victor Margolin：《World History of Design World War I to World War II》_clean.md
+B004	Global Design History               	Adamson, Glenn; Riello, Giorgio; Teasley, Sarah (eds.), Global Design History, 2011.md
+B102	History of Modern Design (3rd ed.)  	David Raizman：《History of Modern Design》，2023_clean.md
+B103	Design History: An Anthology        	Dennis P. Doordan：《Design History An Anthology》_clean.md
+B153	The Pilgrim Art: Cultures of Porcela	Finlay Robert：《The pilgrim art cultures of porcelain in world history》_clean.md
+B168	Cotton: The Fabric That Made the Mod	Giorgio Riello：《Cotton The Fabric That Made the Modern World》_clean.md
+B383	Chinese Pottery and Porcelain: From 	S. J. Vainker：《Chinese pottery and porcelain from prehistory to the present》_clean.md
+B147	Ten Thousand Years of Pottery       	Emmanuel Cooper：《Ten Thousand Years of Pottery》，2000_clean.md
+B180	Woven Cargoes: Indian Textiles in th	Guy, John：Woven Cargoes：Indian Textiles in the East, 1998_clean.md
+B073	Art Deco 1910–1939                  	Charlotte Benton, Tim Benton：《Art Deco 1910–1939》_clean.md
+B164	The Landscape of Man                	Geoffrey Alan Jellicoe, Susan Jellicoe：《The Landscape of Man》，1975_clean.md
+B425	Colonialism and the Object: Empire, 	Tom Flynn Tim Barringer：《Colonialism and the object empire, material culture and the museum》.md
+B265	Chinese Propaganda Posters: From Rev	Landsberger：《Chinese propaganda posters from revolution to modernization》.md
+B503	世界现代设计史（第2版）                        	王受之：《世界现代设计史》，2015.md
+B501	世界平面设计史                             	王受之：《世界平面设计史》，2001.md
+B486	世界现代设计史                             	朱和平：《世界现代设计史》，2004_clean.md
+B487	现代设计史（五南繁体版）                        	朱和平：《现代设计史》，2012_clean.md
+B498	世界现代设计史                             	梁梅：《世界现代设计史》，2013_clean.md
+B481	外国工艺美术史（第2版）                        	张夫也：《外国工艺美术史(第2版)》，2015_clean.md
+B482	外国现代设计史                             	张夫也：《外国现代设计史》，2009.md
+B468	工业设计史（第4版）                          	何人可：《工业设计史(第四版)》，2010_clean.md
+B508	外国近现代设计史                            	胡天璇, 曾山, 王庆：《外国近现代设计史》，2012_clean.md
+B504	现代设计史（白金版）                          	王树良, 张玉花：《现代设计史(白金版)》，2010_clean.md
+B513	西方设计：一部为生活制作艺术的历史                   	邵宏：《西方设计：一部为生活制作艺术的历史》，2010_clean.md
+B489	外国设计艺术经典论著选读（上）                     	李砚祖：《外国设计艺术经典论著选读(上)》，2004_clean.md
+B490	外国设计艺术经典论著选读（下）                     	李砚祖：《外国设计艺术经典论著选读(下)》，2004_clean.md
+B480	现代设计的先驱者：从威廉·莫里斯到沃尔特·格罗皮乌斯          	尼古拉斯·佩夫斯纳：《现代设计的先驱者：从威廉·莫里斯到沃尔特·格罗皮乌斯》，2019_clean.md
+B515	欲求之物：1750年以来的设计与社会                  	阿德里安·福蒂：《欲求之物：1750年以来的设计与社会》，2001_clean.md
+B478	现代设计史（第2版）                          	大卫·瑞兹曼 (David Raizman)：《现代设计史（第2版）》，2013_clean.md
+B466	世界设计史（第2卷）                          	维克多·马格林：《世界设计史2：一战至二战》，2015_clean.md
+B065	设计的观念：设计问题读本                        	马格林, 布坎南：《设计的观念：设计问题读本》，2018.md
+B509	唯有粉红：审美品位的性别政治学                     	英彭妮·斯帕克(Penny Sparke)：《唯有粉红 审美品位的性别政治学》.md
+B510	设计与历史的质疑                            	设计与历史的质疑.md
+B470	平面设计200年（第4版）                       	史蒂文·海勒, 西摩·切瓦斯特：《平面设计200年》，2018_clean.md
+B233	Dictionary of Modern Design         	Jonathan M. Woodham：《Dictionary of Modern Design》_clean.md
+B463	设计教育 教育设计                           	teaching design -- (德)克劳斯·雷曼(Klaus Lehmann)：《设计教育 教育设计》.md
+B462	MUJI 無印良品                           	[日]良品計畫株式會社：《MUJI 無印良品》，朱锷 译，2004_clean.md
+B284	A World History of Design and the Hi	Margolin, Victor, A World History of Design and the History of the World, 2005.md
+B139	Decolonizing Design: A Cultural Just	Elizabeth (Dori) Tunstall：《Decolonizing Design A Cultural Justice Guidebook》_clean.md
+B031	Designs for the Pluriverse          	Arturo Escobar：《Designs for the Pluriverse Radical Interdependence, Autonomy, and the Making of Worlds》，2018_clean.md
+B461	Displaying the Orient: Architecture 	Zeynep Çelik：《Displaying the Orient Architecture of Islam at Nineteenth-Century Worlds Fairs》_clean.md
+B174	Grand Designs: Labor, Empire, and th	Grand Designs Labor, Empire, and the Museum in Victorian Culture.md
+B082	Camera Indica: The Social Life of In	Christopher Pinney：《Camera Indica The Social Life of Indian Photographs》.md
+B038	Goods, Power, History: Latin America	Bauer, Arnold J：《Goods, power, history Latin Americas material culture》_clean.md
+B209	Domesticating the World: African Con	Jeremy Prestholdt：《Domesticating the World African Consumerism and the Genealogies of Globalization》_clean.md
+B019	The Arabic Print Revolution: Cultura	Ami Ayalon：《The Arabic Print Revolution Cultural Production and Mass Readership》_clean.md
+B414	The Politics of Design              	The Politics of Design： A (Not So) Global Design Manual for -- [writer and desig.md
+B422	Problematizing Global Knowledge (The	Theory Culture：《and Society 23 2 3 Problematizing Global Knowledge，2006》.md
+B245	Gods in the Bazaar: The Economies of	Kajri Jain：《Gods in the Bazaar The Economies of Indian Calendar Art》.md
+B258	The Great Divergence                	Kenneth Pomeranz：《The Great Divergence China, Europe, and the Making of the Modern World Economy》_clean.md
+B483	伟大的中国工业革命                           	文一：《伟大的中国工业革命发展政治经济学一般原理批判纲要》_clean.md
+B040	Empire of Cotton: A Global History  	Beckert, Sven：Empire of Cotton：A Global History, 2014_clean.md
+B304	Luxury and Pleasure in Eighteenth-Ce	Maxine Berg：《Luxury and Pleasure in Eighteenth-Century Britain (2007)》_clean.md
+B212	The Lever of Riches                 	Joel Mokyr：《The lever of riches - technological creativity and economic progress (1990)》.md
+B131	The Age of Manufactures, 1700–1820  	Dr Maxine Berg：《The Age of Manufactures, 1700-1820 - Industry, Innovation and Work in Britain》_clean.md
+B189	The Age of Revolution 1789–1848     	Hobsbawm, Eric：《Age of Revolution 1789-1848》_clean.md
+B484	全球通史：1500年以后的世界                     	斯塔夫里阿诺斯, L.S.：《全球通史-1500年以后的世界》_clean.md
+B163	Mavo: Japanese Artists and the Avant	Gennifer Weisenfeld.：《Mavo Japanese Artists and the Avant-Garde, 1905-1931》.md
+B197	Japanese Modern Graphic Design Betwe	James H. Fraser, Steven Heller：《Japanese Modern Graphic Design Between the Wars》，1996_clean.md
+B318	The Unknown Craftsman: A Japanese In	Muneyoshi Yanagi：《The Unknown Craftsman A Japanese Insight into Beauty》，1972_clean.md
+B293	The Making of Modern Japan          	Marius B. Jansen：《The Making of Modern Japan》，2000_clean.md
+B450	Japonisme: The Japanese Influence on	Wichmann：《Japonisme the Japanese influence on Western art since 1858》.md
+B242	In Praise of Shadows（阴翳礼赞）          	Junichiro Tanizaki：《In Praise of Shadows》，1933_clean.md
+B252	Japanese Design: A Survey since 1950	Kathryn B Hiesinger：《JAPANESE DESIGN A SURVEY SINCE 1950》.md
+B259	Designing Design                    	Kenya Hara：《Designing Design》，2007.md
+P044	Border Thinking and Disidentificatio	Madina Tlostanova, Redi Koobak：《Border thinking and disidentification Postcolonial and postsocialist feminist dialogues》_paged_clean.md
+P030	Towards a Critical Regionalism: Six 	Frampton, Kenneth：Towards a Critical Regionalism：Six Points for an Architecture of Resistance, 1983_paged_clean.md
+
+核心 94 种，外围 9 种，缺 MD 0 种
+Copied 94 + 9 files into D:\中国设计史研究\01-文献md
+Wrote 00_文献md对照索引.md

@@ -1,0 +1,9 @@
+# 基础文献 PDF 库约 5.5 GB，超出 GitHub 单文件/仓库限制，仅本地保存；
+# 目录内的索引与清单（.md/.csv）仍纳入版本管理。
+00-基础文献/**/*.pdf
+
+# 编辑器与 AI 工具元数据
+.specstory/
+.vscode/
+__pycache__/
+*.pyc

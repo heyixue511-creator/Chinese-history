@@ -1,0 +1,9 @@
+W01	140.3	The Poster: A Worldwide Survey and Histo	B009	books/Alain Weill：《The Poster A Worldwide Survey and History》，1985.md
+W02	140.2	A History of Interior Design	B223	books/John Pile & Judith Gura：《A History of Interior Design》.md
+W03	140.2	The Grammar of Ornament	B331	books/Owen Jones：《The Grammar of Ornament》_clean.md
+W04	140.3	Meggs' History of Graphic Design	B306	books/Meggs, Philip B.; Purvis, Alston W.：Meggs' History of Graphic Design, 2016_clean.md
+W05	140.3	Graphic Design History: A Critical Guide	B214	books/Johanna Drucker, Emily McVarish：《Graphic Design History…》.md
+W06	19.4	Why Europe Grew Rich and Asia Did Not	B207	books/Jenifer Tidwell：《Designing Interfaces》.md
+W07	140.2	Late Victorian Holocausts	B313	books/Mike Davis：《Late Victorian Holocausts El Nino Famines and the Making of the Third World》_clean.md
+W08	148.3	Batik: Design, Style & History	B154	books/Fiona Kerlogue, Tara Sosrowardoyo：《Batik design, style & history featuring selections from》，2004_clean.md
+W09	140.1	现代设计伦理思想史	B473	books/周博：《现代设计伦理思想史》，2014_clean.md

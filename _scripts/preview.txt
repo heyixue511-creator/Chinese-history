@@ -1,0 +1,68 @@
+Source PDFs: 348
+Matched: 60
+Missing entries (declared): 50
+====================================================================================================
+01 | B511           | 赵农                     | 中国艺术设计史                                  | 2004  | 281-  中国艺术设计史 (赵农) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B477           | 夏燕靖                    | 中国艺术设计史                                  | 2010  | 280-  中国艺术设计史 (夏燕靖著) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B476           | 夏燕靖                    | 中国艺术设计史（升级版）                             | 2016  | 中国艺术设计史 升级版 (夏燕靖著) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B472           | 周博                     | 断裂与绵延：中国现代设计史研究                          | 2023  | 周博：《断裂与绵延：中国现代设计史研究》.pdf
+01 | B500           | 沈榆                     | 观念的演进：中国现代设计史                            | 2021  | 观念的演进_中国现代设计史 -- 沈榆 -- 2021 -- 上海人民美术出版社 -- 72469aaefdc73be0
+01 | B493           | 杭间                     | 中国工艺美学史（第三版修订本）                          | 2018  | 中国工艺美学史(第三版修订本) (杭间（北京：人民美术出版社 2018年）) (z-library.sk, 1lib.s
+01 | B494           | 杭间                     | 手艺的思想（修订版）                               | 2017  | 手艺的思想(修订版) (杭间) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B491           | 李砚祖                    | 造物之美：产品设计的艺术与文化                          | 2000  | 造物之美 产品设计的艺术与文化 (李砚祖著, 李砚祖著, 李砚祖, 李硯祖) (z-library.sk, 1lib.s
+01 | B496           | 柳冠中                    | 事理学方法论                                   | 2019  | 事理学方法论 (柳冠中) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B497           | 柳冠中                    | 设计方法论                                    |       | 设计方法论 (柳冠中) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B512           | 赵江洪                    | 设计艺术的含义                                  | 1999  | 设计艺术的含义 = Art design -- 赵江洪编著, 赵江洪, author, 赵江洪, 1954-, 赵江洪编
+01 | B471           | 周博                     | 中国现代文字设计图史                               | 2017  | 中国现代文字设计图史 (周博) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+01 | B492           | 杭间、靳埭强、胡恩威             | 包豪斯道路：历史、遗泽、世界与中国                        | 2014  | 包豪斯道路 历史、遗泽、世界与中国 (Pdg2Pic, 杭间，靳埭强，胡恩威主编) (z-library.sk, 1li
+01 | B089           | Craig Clunas           | Superfluous Things                       | 1991  | 366-  Superfluous Things Material Culture and Social Status 
+01 | B289           | Victor Margolin        | World History of Design, Vol. 2          | 2015  | 15-  World History of Design World War I to World War II (Vi
+01 | B103           | Dennis P. Doordan (ed. | Design History: An Anthology             |       | 5-  Design History An Anthology (Dennis P. Doordan) (z-libra
+01 | B153           | Robert Finlay          | The Pilgrim Art                          | 2010  | 364-  The pilgrim art  cultures of porcelain in world histor
+01 | B168           | Giorgio Riello         | Cotton: The Fabric That Made the Modern  | 2013  | 360-  Cotton The Fabric That Made the Modern World (Giorgio 
+01 | B383           | S. J. Vainker          | Chinese Pottery and Porcelain            | 1991  | Chinese pottery and porcelain  from prehistory to the presen
+01 | B147           | Emmanuel Cooper        | Ten Thousand Years of Pottery            |       | Ten Thousand Years of Pottery (Emmanuel Cooper) (z-library.s
+01 | B180           | John Guy               | Woven Cargoes                            | 1998  | 369-  Woven cargoes _ Indian textiles in the East -- Guy, Jo
+01 | B073           | Benton, Benton, Wood ( | Art Deco 1910–1939                       | 2003  | Art Deco 1910–1939 (Charlotte Benton, Tim Benton etc.) (z-li
+01 | B164           | Geoffrey & Susan Jelli | The Landscape of Man                     | 1975  | The landscape of man  shaping the environment from prehistor
+02 | B482           | 张夫也                    | 外国现代设计史                                  | 2009  | 外国现代设计史 (张夫也) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+02 | B468           | 何人可                    | 工业设计史（第4版）                               | 2010  | 工业设计史(何人可第四版) (何人可) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+02 | B513           | 邵宏                     | 西方设计：一部为生活制作艺术的历史                        | 2010  | 西方设计一部为生活制作艺术的历史-邵宏主编2010 (邵宏主编) (z-library.sk, 1lib.sk, z-l
+03 | B480           | Nikolaus Pevsner       | Pioneers of Modern Design（英文原版，非2019中译）  |       | 12-  Pioneers of modern design from william morris to walter
+03 | B515           | Adrian Forty           | Objects of Desire（英文原版，非2001中译）          | 1986  | 7-  Objects of desire _ Adrian Forty_ -- Forty, Adrian, 1948
+03 | B065           | Victor Margolin & Rich | The Idea of Design（英文原版，非2018中译）         |       | 13-  The idea of design _ a design issues reader -- Margolin
+03 | B509           | 彭妮·斯帕克                 | 唯有粉红：审美品位的性别政治学                          | 2018  | 唯有粉红 审美品位的性别政治学 = As long as it's pink _ the sexual politics
+03 | B462           | 良品计划                   | MUJI 無印良品                                | 2010  | MUJI 無印良品 ([日]良品計畫株式會社 著 朱锷 译) (z-library.sk, 1lib.sk, z-lib
+04 | B139           | Elizabeth (Dori) Tunst | Decolonizing Design                      |       | Decolonizing Design A Cultural Justice Guidebook (Elizabeth 
+04 | B031／B032      | Arturo Escobar         | Designs for the Pluriverse               | 2018  | Designs for the Pluriverse_ Radical Interdependence, -- Artu
+04 | P044           | Tlostanova et al.      | Border Thinking and Disidentification    |       | Border thinking and disidentification Postcolonial and posts
+04 | B461           | Zeynep Çelik           | Displaying the Orient                    |       | 375-  Displaying the Orient Architecture of Islam at Ninetee
+04 | B038           | Arnold J. Bauer        | Goods, Power, History                    |       | 380-  Goods, power, history  Latin Americas material culture
+04 | B209           | Jeremy Prestholdt      | Domesticating the World                  |       | 378-  Domesticating the World African Consumerism and the Ge
+04 | B019           | Ami Ayalon             | The Arabic Print Revolution              |       | 373-  The Arabic Print Revolution Cultural Production and Ma
+04 | P030           | Kenneth Frampton       | Towards a Critical Regionalism: Six Poin |       | kenneth-frampton-towards-a-critical-regionalism-six-points-f
+05 | B258           | Kenneth Pomeranz       | The Great Divergence                     |       | 359-  The Great Divergence China, Europe, and the Making of 
+05 | B483           | 文一                     | 伟大的中国工业革命                                |       | 367-  伟大的中国工业革命发展政治经济学一般原理批判纲要 (文一) (z-library.sk, 1lib.sk, 
+05 | B040           | Sven Beckert           | Empire of Cotton                         | 2014  | 357-  Empire of Cotton _ A Global History -- Beckert, Sven -
+05 | B304           | Maxine Berg            | Luxury and Pleasure in Eighteenth-Centur | 2007  | 365-  Luxury and Pleasure in Eighteenth-Century Britain (200
+05 | B131           | Maxine Berg            | The Age of Manufactures, 1700–1820       |       | 347-  The Age of Manufactures, 1700-1820 - Industry, Innovat
+05 | B189           | Eric Hobsbawm          | The Age of Revolution 1789–1848          |       | 358-  Age of Revolution 1789-1848 (Eric Hobsbawm [Hobsbawm, 
+05 | B484           | L. S. Stavrianos       | 全球通史：1500年以后的世界                          | 2001  | 368-  《全球通史-1500年以后的世界》[美]L.S．斯塔夫里阿诺斯.txt (《全球通史-1500年以后的世界》
+06 | B197           | James H. Fraser & Stev | Japanese Modern Graphic Design Between t | 1996  | Japanese Modern Graphic Design Between the Wars (James H. Fr
+06 | B318           | 柳宗悦                    | The Unknown Craftsman                    |       | The unknown craftsman  a Japanese insight into beauty (Yanag
+06 | B293           | Marius B. Jansen       | The Making of Modern Japan               | 2000  | The Making of Modern Japan (Belknap Press, 2000) (Marius B. 
+06 | B242           | 谷崎润一郎                  | In Praise of Shadows（阴翳礼赞）               |       | In Praise of Shadows (Junichiro Tanizaki) (z-library.sk, 1li
+06 | B259           | 原研哉                    | Designing Design                         |       | Designing Design (Kenya Hara) (z-library.sk, 1lib.sk, z-lib.
+07 | W01            | Alain Weill            | The Poster: A Worldwide Survey and Histo | 2004  | The poster  a worldwide survey and history (Weill, Alain, 19
+07 | W02            | John F. Pile & Judith  | A History of Interior Design             |       | A History of Interior Design (John F. Pile, Judith Gura) (z-
+07 | W03            | Owen Jones             | The Grammar of Ornament                  |       | 390-  The Grammar of Ornament (Owen Jones) (z-library.sk, 1l
+07 | W04            | Philip B. Meggs & Alst | Meggs' History of Graphic Design         |       | 215-  Meggs’ History of Graphic Design (Philip B. Meggs Alst
+07 | W05            | Johanna Drucker & Emil | Graphic Design History: A Critical Guide |       | Graphic design history  a critical guide (Drucker, Johanna, 
+07 | W06            | Prasannan Parthasarath | Why Europe Grew Rich and Asia Did Not    | 2011  | 361-  Why Europe Grew Rich and Asia Did Not _ Global Economi
+07 | W07            | Mike Davis             | Late Victorian Holocausts                |       | 363-  Late Victorian Holocausts El Nino Famines and the Maki
+07 | W08            | Fiona Kerlogue         | Batik: Design, Style & History           | 2004  | 370-  Batik _ design, style & history _ featuring selections
+07 | W09            | 周博                     | 现代设计伦理思想史（边界文献，不立条）                      | 2018  | 现代设计伦理思想史＝MODERN DISIGN AND ETHICAL THINKING (周博著) (z-librar
+====================================================================================================
+No matching problems.
+
+Total size of matched files: 2.52 GB

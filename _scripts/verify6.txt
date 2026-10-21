@@ -1,0 +1,12 @@
+CSV rows: 102 | unique ids: 102
+status: Counter({'已入库': 94, '互见': 8})
+01-对象层_中国设计造物: 40
+02-视角层_中国学者世界设计史: 13
+03-接受层_外来文本中译: 11
+04-方法层_去殖民与全球设计史: 14
+05-结构层_全球史与经济史: 8
+06-区域层_东亚日本: 8
+total: 94 | leftover with ID prefix: []
+CSV dest names all exist: False
+sample: ['Adamson et al_Global Design History_2011.pdf', 'Barringer & Flynn_Colonialism and the Object_1998.pdf', 'Benton_Art Deco 1910-1939_2003.pdf']
+CSV names still with ID: [] 0

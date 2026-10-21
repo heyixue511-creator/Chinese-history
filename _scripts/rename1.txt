@@ -1,0 +1,113 @@
+PDF pool: 564
+Register rows: 102  unique ids: 102
+Unique files: 94
+Missing rows: 0
+Alias rows: 8
+==============================================================================================================
+B511 | 01 | 已入库 | 中国艺术设计史                                       | 赵农_中国艺术设计史_2004.pdf
+B477 | 01 | 已入库 | 中国艺术设计史                                       | 夏燕靖_中国艺术设计史_2010.pdf
+B476 | 01 | 已入库 | 中国艺术设计史（升级版）                                  | 夏燕靖_中国艺术设计史（升级版）_2016.pdf
+B516 | 01 | 已入库 | 中国室内设计史（第2版）                                  | 霍维国等_中国室内设计史（第2版）_2007.pdf
+B514 | 01 | 已入库 | 中国现代建筑史                                       | 邹德侬等_中国现代建筑史_2010.pdf
+B469 | 01 | 已入库 | 中国平面设计史论稿                                     | 刘小羊_中国平面设计史论稿_2016.pdf
+B465 | 01 | 已入库 | 香港平面设计史                                       | 万长林_香港平面设计史_2012.pdf
+B472 | 01 | 已入库 | 断裂与绵延：中国现代设计史研究                               | 周博_断裂与绵延_2023.pdf
+B500 | 01 | 已入库 | 观念的演进：中国现代设计史                                 | 沈榆_观念的演进_2021.pdf
+B485 | 01 | 已入库 | 中国现代设计思想：生活、启蒙、变迁                             | 曹小鸥_中国现代设计思想_2018.pdf
+B495 | 01 | 已入库 | 设计道：中国设计的基本问题                                 | 杭间_设计道_2008.pdf
+B493 | 01 | 已入库 | 中国工艺美学史（第三版修订本）                               | 杭间_中国工艺美学史（第三版修订本）_2018.pdf
+B494 | 01 | 已入库 | 手艺的思想（修订版）                                    | 杭间_手艺的思想（修订版）_2017.pdf
+B491 | 01 | 已入库 | 造物之美：产品设计的艺术与文化                               | 李砚祖_造物之美_2000.pdf
+B479 | 01 | 已入库 | 物用之美：中国设计艺术的历史与理论                             | 孔铮桢等_物用之美_2014.pdf
+B496 | 01 | 已入库 | 事理学方法论                                        | 柳冠中_事理学方法论_2019.pdf
+B497 | 01 | 已入库 | 设计方法论                                         | 柳冠中_设计方法论.pdf
+B512 | 01 | 已入库 | 设计艺术的含义                                       | 赵江洪_设计艺术的含义_1999.pdf
+B471 | 01 | 已入库 | 中国现代文字设计图史                                    | 周博_中国现代文字设计图史_2017.pdf
+B499 | 01 | 已入库 | 中国当代设计全集 第4卷 平面类编 图案篇                         | 樊进等_中国当代设计全集第4卷_2015.pdf
+B492 | 01 | 已入库 | 包豪斯道路：历史、遗泽、世界与中国                             | 杭间等_包豪斯道路_2014.pdf
+B517 | 01 | 已入库 | 中国现代设计与包豪斯                                    | 靳埭强等_中国现代设计与包豪斯_2013.pdf
+B505 | 01 | 已入库 | 移动的美术馆：20世纪初中国的书籍装帧设计与商业美术                    | 林素幸_移动的美术馆.pdf
+B089 | 01 | 已入库 | Superfluous Things: Material Culture and Soci | Clunas_Superfluous Things_1991.pdf
+B079 | 01 | 已入库 | Gutenberg in Shanghai: Chinese Print Capitali | Reed_Gutenberg in Shanghai_2004.pdf
+B326 | 01 | 已入库 | China Design Now                              | Zhang & Parker_China Design Now_2008.pdf
+B288 | 01 | 已入库 | 世界设计史（第1卷：史前至一战）                              | 马格林_世界设计史（第1卷）_2020.pdf
+B289 | 01 | 已入库 | World History of Design, Vol. 2: World War I  | Margolin_World History of Design Vol.2_2015.pdf
+B004 | 01 | 已入库 | Global Design History                         | Adamson et al_Global Design History_2011.pdf
+B102 | 01 | 已入库 | History of Modern Design (3rd ed.)            | Raizman_History of Modern Design_3rd_2023.pdf
+B103 | 01 | 已入库 | Design History: An Anthology                  | Doordan_Design History An Anthology.pdf
+B153 | 01 | 已入库 | The Pilgrim Art: Cultures of Porcelain in Wor | Finlay_The Pilgrim Art_2010.pdf
+B168 | 01 | 已入库 | Cotton: The Fabric That Made the Modern World | Riello_Cotton_2013.pdf
+B383 | 01 | 已入库 | Chinese Pottery and Porcelain: From Prehistor | Vainker_Chinese Pottery and Porcelain_1991.pdf
+B147 | 01 | 已入库 | Ten Thousand Years of Pottery                 | Cooper_Ten Thousand Years of Pottery.pdf
+B180 | 01 | 已入库 | Woven Cargoes: Indian Textiles in the East    | Guy_Woven Cargoes_1998.pdf
+B073 | 01 | 已入库 | Art Deco 1910–1939                            | Benton_Art Deco 1910-1939_2003.pdf
+B164 | 01 | 已入库 | The Landscape of Man                          | Jellicoe_The Landscape of Man_1975.pdf
+B425 | 01 | 已入库 | Colonialism and the Object: Empire, Material  | Barringer & Flynn_Colonialism and the Object_1998.pdf
+B265 | 01 | 已入库 | Chinese Propaganda Posters: From Revolution t | Landsberger_Chinese Propaganda Posters_1995.pdf
+B503 | 02 | 已入库 | 世界现代设计史（第2版）                                  | 王受之_世界现代设计史（第2版）_2015.pdf
+B501 | 02 | 已入库 | 世界平面设计史                                       | 王受之_世界平面设计史_2002.pdf
+B486 | 02 | 已入库 | 世界现代设计史                                       | 朱和平_世界现代设计史_2013.pdf
+B487 | 02 | 已入库 | 现代设计史（五南繁体版）                                  | 朱和平_现代设计史（五南版）_2012.pdf
+B498 | 02 | 已入库 | 世界现代设计史                                       | 梁梅_世界现代设计史_2013.pdf
+B481 | 02 | 已入库 | 外国工艺美术史（第2版）                                  | 张夫也_外国工艺美术史（第2版）_2015.pdf
+B482 | 02 | 已入库 | 外国现代设计史                                       | 张夫也_外国现代设计史_2009.pdf
+B468 | 02 | 已入库 | 工业设计史（第4版）                                    | 何人可_工业设计史（第4版）_2010.pdf
+B508 | 02 | 已入库 | 外国近现代设计史                                      | 胡天璇等_外国近现代设计史_2012.pdf
+B504 | 02 | 已入库 | 现代设计史（白金版）                                    | 王树良等_现代设计史（白金版）_2012.pdf
+B513 | 02 | 已入库 | 西方设计：一部为生活制作艺术的历史                             | 邵宏_西方设计_2010.pdf
+B489 | 02 | 已入库 | 外国设计艺术经典论著选读（上）                               | 李砚祖_外国设计艺术经典论著选读（上）_2006.pdf
+B490 | 02 | 已入库 | 外国设计艺术经典论著选读（下）                               | 李砚祖_外国设计艺术经典论著选读（下）.pdf
+B480 | 03 | 已入库 | 现代设计的先驱者：从威廉·莫里斯到沃尔特·格罗皮乌斯                    | 佩夫斯纳_现代设计的先驱者_2019.pdf
+B515 | 03 | 已入库 | 欲求之物：1750年以来的设计与社会                            | 福蒂_欲求之物_2001.pdf
+B478 | 03 | 已入库 | 现代设计史（第2版）                                    | 瑞兹曼_现代设计史（第2版）_2013.pdf
+B467 | 03 | 互见 | 世界设计史（第1卷）                                    | 马格林_世界设计史（第1卷）_2020.pdf
+B506 | 03 | 互见 | 世界设计史（第1卷）                                    | 马格林_世界设计史（第1卷）_2020.pdf
+B466 | 03 | 已入库 | 世界设计史（第2卷）                                    | 马格林_世界设计史（第2卷）_2015.pdf
+B507 | 03 | 互见 | 世界设计史（第2卷）                                    | 马格林_世界设计史（第2卷）_2015.pdf
+B065 | 03 | 已入库 | 设计的观念：设计问题读本                                  | 马格林等_设计的观念_2018.pdf
+B509 | 03 | 已入库 | 唯有粉红：审美品位的性别政治学                               | 斯帕克_唯有粉红_2018.pdf
+B510 | 03 | 已入库 | 设计与历史的质疑                                      | 弗赖等_设计与历史的质疑_2020.pdf
+B470 | 03 | 已入库 | 平面设计200年（第4版）                                 | 海勒等_平面设计200年.pdf
+B233 | 03 | 已入库 | Dictionary of Modern Design                   | Woodham_Dictionary of Modern Design_2007.pdf
+B463 | 03 | 已入库 | 设计教育 教育设计                                     | 雷曼_设计教育 教育设计_2016.pdf
+B462 | 03 | 已入库 | MUJI 無印良品                                     | 良品计划_MUJI 無印良品_2010.pdf
+B169 | 04 | 互见 | Global Design History                         | Adamson et al_Global Design History_2011.pdf
+B284 | 04 | 已入库 | A World History of Design and the History of  | Margolin_A World History of Design and the History of t
+B292 | 04 | 互见 | World History of Design, Vol. 2               | Margolin_World History of Design Vol.2_2015.pdf
+B431 | 04 | 互见 | World History of Design, Vol. 2               | Margolin_World History of Design Vol.2_2015.pdf
+B459 | 04 | 互见 | World History of Design, Vol. 2               | Margolin_World History of Design Vol.2_2015.pdf
+B139 | 04 | 已入库 | Decolonizing Design: A Cultural Justice Guide | Tunstall_Decolonizing Design.pdf
+B031 | 04 | 已入库 | Designs for the Pluriverse                    | Escobar_Designs for the Pluriverse_2018.pdf
+B032 | 04 | 互见 | Designs for the Pluriverse                    | Escobar_Designs for the Pluriverse_2018.pdf
+P044 | 04 | 已入库 | Border Thinking and Disidentification         | Tlostanova_Border Thinking and Disidentification.pdf
+B461 | 04 | 已入库 | Displaying the Orient: Architecture of Islam  | Celik_Displaying the Orient.pdf
+B174 | 04 | 已入库 | Grand Designs: Labor, Empire, and the Museum  | Kriegel_Grand Designs.pdf
+B082 | 04 | 已入库 | Camera Indica: The Social Life of Indian Phot | Pinney_Camera Indica.pdf
+B038 | 04 | 已入库 | Goods, Power, History: Latin America's Materi | Bauer_Goods, Power, History.pdf
+B209 | 04 | 已入库 | Domesticating the World: African Consumerism  | Prestholdt_Domesticating the World.pdf
+B019 | 04 | 已入库 | The Arabic Print Revolution: Cultural Product | Ayalon_The Arabic Print Revolution.pdf
+B414 | 04 | 已入库 | The Politics of Design                        | Pater_The Politics of Design_2016.pdf
+B422 | 04 | 已入库 | Problematizing Global Knowledge (Theory, Cult | Featherstone_Problematizing Global Knowledge_2006.pdf
+B245 | 04 | 已入库 | Gods in the Bazaar: The Economies of Indian C | Jain_Gods in the Bazaar.pdf
+P030 | 04 | 已入库 | Towards a Critical Regionalism: Six Points fo | Frampton_Six Points towards a Critical Regionalism.pdf
+B258 | 05 | 已入库 | The Great Divergence                          | Pomeranz_The Great Divergence.pdf
+B483 | 05 | 已入库 | 伟大的中国工业革命                                     | 文一_伟大的中国工业革命.pdf
+B040 | 05 | 已入库 | Empire of Cotton: A Global History            | Beckert_Empire of Cotton_2014.pdf
+B304 | 05 | 已入库 | Luxury and Pleasure in Eighteenth-Century Bri | Berg_Luxury and Pleasure_2007.pdf
+B212 | 05 | 已入库 | The Lever of Riches                           | Mokyr_The Lever of Riches.pdf
+B131 | 05 | 已入库 | The Age of Manufactures, 1700–1820            | Berg_The Age of Manufactures 1700-1820.pdf
+B189 | 05 | 已入库 | The Age of Revolution 1789–1848               | Hobsbawm_Age of Revolution 1789-1848.pdf
+B484 | 05 | 已入库 | 全球通史：1500年以后的世界                               | Stavrianos_全球通史_1500年以后的世界.pdf
+B163 | 06 | 已入库 | Mavo: Japanese Artists and the Avant-Garde, 1 | Weisenfeld_Mavo.pdf
+B197 | 06 | 已入库 | Japanese Modern Graphic Design Between the Wa | Fraser & Heller_Japanese Modern Graphic Design.pdf
+B318 | 06 | 已入库 | The Unknown Craftsman: A Japanese Insight int | Yanagi_The Unknown Craftsman.pdf
+B293 | 06 | 已入库 | The Making of Modern Japan                    | Jansen_The Making of Modern Japan_2000.pdf
+B450 | 06 | 已入库 | Japonisme: The Japanese Influence on Western  | Wichmann_Japonisme.pdf
+B242 | 06 | 已入库 | In Praise of Shadows（阴翳礼赞）                    | Tanizaki_In Praise of Shadows.pdf
+B252 | 06 | 已入库 | Japanese Design: A Survey since 1950          | Hiesinger & Fischer_Japanese Design since 1950.pdf
+B259 | 06 | 已入库 | Designing Design                              | Hara_Designing Design.pdf
+Renamed 94 files, 0 unchanged/already renamed
+==============================================================================================================
+Copied 94 files into D:\中国设计史研究\00-基础文献
+Copied 9 peripheral files into D:\中国设计史研究\00-外围参照
+Wrote 00_文献对照索引.md and 00_入库清单.csv

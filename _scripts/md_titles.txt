@@ -1,0 +1,104 @@
+B511	赵农	中国艺术设计史	2004
+B477	夏燕靖	中国艺术设计史	2010
+B476	夏燕靖	中国艺术设计史（升级版）	2016
+B516	霍维国、霍光	中国室内设计史（第2版）	2007
+B514	邹德侬、戴路、张向炜	中国现代建筑史	2010
+B469	刘小羊	中国平面设计史论稿	2016
+B465	万长林	香港平面设计史	2012
+B472	周博	断裂与绵延：中国现代设计史研究	2023
+B500	沈榆	观念的演进：中国现代设计史	2021
+B485	曹小鸥	中国现代设计思想：生活、启蒙、变迁	2018
+B495	杭间	设计道：中国设计的基本问题	2008
+B493	杭间	中国工艺美学史（第三版修订本）	2018
+B494	杭间	手艺的思想（修订版）	2017
+B491	李砚祖	造物之美：产品设计的艺术与文化	2000
+B479	孔铮桢、綦明	物用之美：中国设计艺术的历史与理论	2014
+B496	柳冠中	事理学方法论	2019
+B497	柳冠中	设计方法论	
+B512	赵江洪	设计艺术的含义	1999
+B471	周博	中国现代文字设计图史	2017
+B499	樊进、龙红（主编）	中国当代设计全集 第4卷 平面类编 图案篇	2015
+B492	杭间、靳埭强、胡恩威	包豪斯道路：历史、遗泽、世界与中国	2014
+B517	靳埭强、杭间（主编）	中国现代设计与包豪斯	2013
+B505	林素幸	移动的美术馆：20世纪初中国的书籍装帧设计与商业美术	
+B089	Craig Clunas	Superfluous Things: Material Culture and Social Status in Early Modern China	1991
+B079	Christopher A. Reed	Gutenberg in Shanghai: Chinese Print Capitalism, 1876–1937	2004
+B326	Zhang Hongxing & Parker	China Design Now	2008
+B288	维克多·马格林	世界设计史（第1卷：史前至一战）	2020
+B289	Victor Margolin	World History of Design, Vol. 2: World War I to World War II	2015
+B004	Glenn Adamson, Giorgio Riello, Sarah Teasley (eds.)	Global Design History	2011
+B102	David Raizman	History of Modern Design (3rd ed.)	2023
+B103	Dennis P. Doordan (ed.)	Design History: An Anthology	
+B153	Robert Finlay	The Pilgrim Art: Cultures of Porcelain in World History	2010
+B168	Giorgio Riello	Cotton: The Fabric That Made the Modern World	2013
+B383	S. J. Vainker	Chinese Pottery and Porcelain: From Prehistory to the Present	1991
+B147	Emmanuel Cooper	Ten Thousand Years of Pottery	
+B180	John Guy	Woven Cargoes: Indian Textiles in the East	1998
+B073	Charlotte Benton, Tim Benton, Ghislaine Wood (eds.)	Art Deco 1910–1939	2003
+B164	Geoffrey & Susan Jellicoe	The Landscape of Man	1975
+B425	Tim Barringer & Tom Flynn (eds.)	Colonialism and the Object: Empire, Material Culture and the Museum	1998
+B265	Stefan R. Landsberger	Chinese Propaganda Posters: From Revolution to Modernization	1995
+B503	王受之	世界现代设计史（第2版）	2015
+B501	王受之	世界平面设计史	2002
+B486	朱和平	世界现代设计史	2013
+B487	朱和平	现代设计史（五南繁体版）	2012
+B498	梁梅	世界现代设计史	2013
+B481	张夫也	外国工艺美术史（第2版）	2015
+B482	张夫也	外国现代设计史	2009
+B468	何人可	工业设计史（第4版）	2010
+B508	胡天璇、曾山、王庆	外国近现代设计史	2012
+B504	王树良、张玉花（主编）	现代设计史（白金版）	2012
+B513	邵宏（主编）	西方设计：一部为生活制作艺术的历史	2010
+B489	李砚祖（编）	外国设计艺术经典论著选读（上）	2006
+B490	李砚祖（编）	外国设计艺术经典论著选读（下）	
+B480	尼古拉斯·佩夫斯纳	现代设计的先驱者：从威廉·莫里斯到沃尔特·格罗皮乌斯	2019
+B515	阿德里安·福蒂	欲求之物：1750年以来的设计与社会	2001
+B478	大卫·瑞兹曼	现代设计史（第2版）	2013
+B466	维克多·马格林	世界设计史（第2卷）	2015
+B065	维克多·马格林、理查德·布坎南（编）	设计的观念：设计问题读本	2018
+B509	彭妮·斯帕克	唯有粉红：审美品位的性别政治学	2018
+B510	托尼·弗赖、克莱夫·迪尔诺特、苏珊·斯图尔特	设计与历史的质疑	2020
+B470	史蒂文·海勒、西摩·切瓦斯特	平面设计200年（第4版）	
+B233	Jonathan M. Woodham	Dictionary of Modern Design	2007
+B463	克劳斯·雷曼	设计教育 教育设计	2016
+B462	良品计划	MUJI 無印良品	2010
+B284	Victor Margolin	A World History of Design and the History of the World（2005 论文）	2005
+B139	Elizabeth (Dori) Tunstall	Decolonizing Design: A Cultural Justice Guidebook	
+B031	Arturo Escobar	Designs for the Pluriverse	2018
+P044	Madina Tlostanova et al.	Border Thinking and Disidentification	
+B461	Zeynep Çelik	Displaying the Orient: Architecture of Islam at Nineteenth-Century World's Fairs	
+B174	Alexis Kriegel	Grand Designs: Labor, Empire, and the Museum in Victorian Culture	
+B082	Christopher Pinney	Camera Indica: The Social Life of Indian Photographs	
+B038	Arnold J. Bauer	Goods, Power, History: Latin America's Material Culture	
+B209	Jeremy Prestholdt	Domesticating the World: African Consumerism and the Genealogies of Globalization	
+B019	Ami Ayalon	The Arabic Print Revolution: Cultural Production and Mass Readership	
+B414	Ruben Pater	The Politics of Design	2016
+B422	Mike Featherstone et al. (eds.)	Problematizing Global Knowledge (Theory, Culture & Society 23:2–3)	2006
+B245	Kajri Jain	Gods in the Bazaar: The Economies of Indian Calendar Art	
+P030	Kenneth Frampton	Towards a Critical Regionalism: Six Points for an Architecture of Resistance	
+B258	Kenneth Pomeranz	The Great Divergence	
+B483	文一	伟大的中国工业革命	
+B040	Sven Beckert	Empire of Cotton: A Global History	2014
+B304	Maxine Berg	Luxury and Pleasure in Eighteenth-Century Britain	2007
+B212	Joel Mokyr	The Lever of Riches	
+B131	Maxine Berg	The Age of Manufactures, 1700–1820	
+B189	Eric Hobsbawm	The Age of Revolution 1789–1848	
+B484	L. S. Stavrianos	全球通史：1500年以后的世界	2001
+B163	Gennifer Weisenfeld	Mavo: Japanese Artists and the Avant-Garde, 1905–1931	
+B197	James H. Fraser & Steven Heller	Japanese Modern Graphic Design Between the Wars	1996
+B318	柳宗悦	The Unknown Craftsman: A Japanese Insight into Beauty	
+B293	Marius B. Jansen	The Making of Modern Japan	2000
+B450	Siegfried Wichmann	Japonisme: The Japanese Influence on Western Art since 1858	
+B242	谷崎润一郎	In Praise of Shadows（阴翳礼赞）	
+B252	Kathryn B. Hiesinger & Felice Fischer	Japanese Design: A Survey since 1950	
+B259	原研哉	Designing Design	
+--PERI--
+W01	Alain Weill	The Poster: A Worldwide Survey and History	2004
+W02	John F. Pile & Judith Gura	A History of Interior Design	
+W03	Owen Jones	The Grammar of Ornament	
+W04	Philip B. Meggs & Alston W. Purvis	Meggs' History of Graphic Design	
+W05	Johanna Drucker & Emily McVarish	Graphic Design History: A Critical Guide	
+W06	Prasannan Parthasarathi	Why Europe Grew Rich and Asia Did Not	2011
+W07	Mike Davis	Late Victorian Holocausts	
+W08	Fiona Kerlogue	Batik: Design, Style & History	2004
+W09	周博	现代设计伦理思想史	
