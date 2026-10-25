@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:a4370c4f4497e6198d1eceb10a38e70048eed0166ac0d9f6c0a94095cec35e4a",
+  "baseline_input_fingerprint": "sha256:22b6b77f8c42067347a39820790279eb03418e324a056fea9ba382e448d95bdd",
   "input_state": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
     "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
@@ -22,7 +22,7 @@
     "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl": "sha256:fc3a01d9a146784aeb8d64ea7937cbd09c101033c3c9b25b7f63f037cf15d2b6",
     "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl": "sha256:c60b661d8a8218f691053d5cbaa5ffb62887720675dce1d58c14738635ffdb11",
     "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl": "sha256:f14583d3c8c8123265c45cd3421d967d853046532aaeda80877cba7758e965f6",
-    "06-runtime/automation/2026-10-25-overlap-candidates-batch/candidate-decision-ledger.jsonl": "sha256:dc42ac0b2b09d951edd477989551f849e1bbd162444747503aee08e72363c665",
+    "06-runtime/automation/2026-10-25-overlap-candidates-batch/candidate-decision-ledger.jsonl": "sha256:d81fbb963ca067f1dafc59fcb0a0f9a7ff4fbc13082a76dc7dbcee70ca7dd009",
     "06-runtime/automation/2026-10-25-person-doc2-batch-l/candidate-decision-ledger.jsonl": "sha256:f584540fe6d8c1d7dd35e1dacd4f7dc74a00731375db9bc8022b6ef1305b6e88",
     "06-runtime/automation/2026-10-25-person-doc2-batch-m/candidate-decision-ledger.jsonl": "sha256:9ad0ce7a9ffd3d4cc2031d9f14aac20c2040140ff6d7a32d28d3d5a7b794159c",
     "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl": "sha256:d5ccfa78ff0309ead1e50ccb1894aac9f1094967199aba08503dc5598b0e3e0a",

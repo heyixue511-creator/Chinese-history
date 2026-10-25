@@ -7,7 +7,7 @@
 
 - Batch directories: `39`
 - Files: `173`
-- Size: `3638731` bytes
+- Size: `3638561` bytes
 
 ## Retention Signals
 

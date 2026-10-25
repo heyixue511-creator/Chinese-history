@@ -105,7 +105,7 @@
       },
       "outputs": {
         "06-runtime/state/candidate-index.jsonl": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b",
-        "06-runtime/state/discovery-manifest.json": "sha256:63ac649ae7d7772f486bd9ac43adddfbe5d6c5e2dbb665e3e832059627d7cc56"
+        "06-runtime/state/discovery-manifest.json": "sha256:0a1e432c5584799813bcad54f8b46d1e989dbba588a6844a0f7462b029418392"
       },
       "missing_outputs": []
     },
@@ -159,7 +159,7 @@
         "digest": "sha256:e55faefda59dededf3460b413aa9022d8a44f3f6d9bb04ecf8b601e248fd723b"
       },
       "outputs": {
-        "06-runtime/automation/index.md": "sha256:f36b223370f8fa0791d196ed09058862d22672d6cfc78250d68a1ea8a2fc1e95"
+        "06-runtime/automation/index.md": "sha256:dbccf6ea6b364a53a9bbb4bc2b37d4b0ebe2dcfa587508f934454f092daa4a69"
       },
       "missing_outputs": []
     },
