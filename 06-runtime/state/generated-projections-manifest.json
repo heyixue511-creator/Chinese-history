@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 861,
-    "digest": "sha256:5eaa069e27a84d83c3d952fafbcb35871de55aa193dde638ebd81326fac534fd"
+    "units": 868,
+    "digest": "sha256:8a7f7438b8d6e8117fa7b0c0ff0815464e1b07cdd6aa4a361431f3e5dcf3768d"
   },
   "projections": [
     {
@@ -19,8 +19,8 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/01-intake/ingest/references/relation-types.yml"
         ],
-        "files": 870,
-        "digest": "sha256:0aaf184ebde6fde74dce70fc728da977d92ccbd3db6e809fa1bb9f061ad525e1"
+        "files": 877,
+        "digest": "sha256:54ce4c5592a440e3a1b3ce5b2c0d2c8285078493ffe66fecf2c504b3144c9853"
       },
       "outputs": {
         "04-knowledge/quality/relation-index.yml": "sha256:dfcc637a75c19d6c7b4162523b631d920ac3b948e8b630cfaa827a4372bdf9c0"
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 870,
-        "digest": "sha256:d0101b6389015377f49c597f4cf61e624d68c8ff45680390f7f5187cb8790031"
+        "files": 877,
+        "digest": "sha256:0b4bbebc290641f03e06c48d45e9d79303b9ebbc46c0aae636579836c8ac242b"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,8 +59,8 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 862,
-        "digest": "sha256:e2ed24ac3b49d264a2b6bc11c022139b81b0eb9cf2277578c909902d7567febf"
+        "files": 869,
+        "digest": "sha256:a04440d591cd89adc6a0460bd84373b4afe1a2cd7b83f681fdc3ff9e83f1fb6c"
       },
       "outputs": {
         "04-knowledge/quality/translation-index.yml": "sha256:5e1b83d365cba4045572f7a8a67bbaab9acf2acf76c1b27f80c28426e144fb04"
@@ -79,12 +79,12 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 869,
-        "digest": "sha256:00a3408acd7a937f1a2c76573cbc76560ac2e35fb10916a2299173223acb48b8"
+        "files": 876,
+        "digest": "sha256:82175cdafce82d7de327608979c66eb887842b448943d9973effbd834df6fcaf"
       },
       "outputs": {
-        "05-outputs/knowledge-graph-data.json": "sha256:2c871314e9085cc10a2f0328b0da3680ff35b63e66206419ef3c825adc05fdfc",
-        "05-outputs/knowledge-graph-data.js": "sha256:2cad0e0e6dc6a5e583da0a1ef25ea227550f0106f6e77d0ce1f696c5e65c5928"
+        "05-outputs/knowledge-graph-data.json": "sha256:49e575faacf2c00bfa3bd6d700d47943cedb5f22aeb6a05cb5d4cca269aba019",
+        "05-outputs/knowledge-graph-data.js": "sha256:cd23d62504e75f6035acb47e8f0ab0b864d462abeaaa52228aee5d6cb5a2e73a"
       },
       "missing_outputs": []
     },
@@ -120,7 +120,7 @@
           "05-outputs/**/*"
         ],
         "files": 19,
-        "digest": "sha256:2d9c846081e93ce8e0fcd69e0be5f2ce122c6b80f7a04a4619aace8048ad62ea"
+        "digest": "sha256:5a6d614c911574a845b752fb1a3799d653aa78b4002cbbe9310c90627be605b0"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:10655bbc374b8bfcd0089d68aa3efc023775991b9e470914a19b87b7ed8c016b"
@@ -138,10 +138,10 @@
           "06-runtime/state/current-health.json"
         ],
         "files": 1,
-        "digest": "sha256:89e823d222d63e152355b475957303f0bd7cd57030be8daeda35fb9c8ccfc111"
+        "digest": "sha256:b546235b80cc498372141954c015fa59b224d61fdf11957c726390762d40841b"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:8762dea6708827314e1a41a17c75944ee7eba1efc055a779d814c8bfb8fcd45d"
+        "05-outputs/index/index.md": "sha256:bb55f5e61f7247fb99c6e83e40b6b2c3c099698092fea371b2c48766ec041eda"
       },
       "missing_outputs": []
     },
@@ -194,12 +194,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 899,
-        "digest": "sha256:649c1e89cda3b974bc93d73aa361f9b70418f070676b60d1795a4556a22ba95d"
+        "files": 906,
+        "digest": "sha256:83909922dfd030f3448853d465f33eeba20cbe1aaba0e91583c6eac655ad9f67"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:3f55e95b3c115491b45c3401dfbf3bb75d9477faf387e8bca00e49a3314ca5f2",
-        "06-runtime/governance/governance-backlog.md": "sha256:7a080597aa7633ac6619842e6eef11279782f9fcd02699d803baaa4197aa3580"
+        "06-runtime/state/current-health.json": "sha256:a932aff95396ec987102f85ecabb181c20527949d9b4ad5403ada6a92e941e02",
+        "06-runtime/governance/governance-backlog.md": "sha256:02e32fdc7b89e2508e2558684900360270f6e180144aa9019a0da325fd67de95"
       },
       "missing_outputs": []
     }

@@ -10396,6 +10396,36 @@
       "hierarchy_scope_note": "汉长安城是 D 维度下西汉都城市场制度与城制条目；夯土板筑与未央宫木构属 B 维度的营造技术。本条同时登记东汉至北周该城的衰落与重修，作为都城生命周期的样本。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:hejiacun-jiaocang",
+      "title": "何家村窖藏（Hejiacun Hoard）",
+      "name_en": "Hejiacun Hoard",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "唐代",
+        "金银器",
+        "窖藏",
+        "何家村",
+        "银熏球"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "archaeological_site",
+      "source_count": "2",
+      "evidence_status": "source_backed",
+      "description": "何家村窖藏是唐代金银器的埋藏地点，在陕西西安。1970 年 10 月出土，夏燕靖 2016 记该窖藏出土金银器 270 件，赵农则以《刻花金碗》《刻花银碗》《金花银碗》《鎏金舞马衔杯银壶》《金花八曲银杯》《金花鹦鹉提梁银罐》《镂空银熏球》七件为例，称其“精美绝伦，令人叹为观止”。\n\n两册的取材角度不同：赵农取单件器物的构造与工艺细节（尤其银熏球的机环结构、舞马银壶的皮囊壶型），夏燕靖 2016 取",
+      "path": "places/hejiacun-jiaocang.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "B",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "何家村窖藏是 B 维度下唐代金银器实物群与工艺技术条目；其萨珊波斯与契丹造型渊源接到 E 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:hemudu-site",
       "title": "河姆渡遗址（Hemudu Site）",
       "name_en": "Hemudu Site",
@@ -11170,6 +11200,36 @@
       "hierarchy_scope_note": "瓯窑是 B 维度下六朝至唐青瓷窑系条目。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:qianling",
+      "title": "乾陵（Qianling Mausoleum）",
+      "name_en": "Qianling Mausoleum",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "唐代",
+        "唐高宗",
+        "武则天",
+        "唐十八陵",
+        "无字碑"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "archaeological_site",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "乾陵是唐高宗李治与武则天的合葬陵，在陕西乾县梁山，与昭陵相望。甬道两边设置大量石狮、石马、石人、鸵鸟、华表及无字碑，现仍存石刻作品 100 余件。赵农把它与昭陵并列为唐陵地表构筑的代表，并给出两者石刻风格的对照：昭陵洗练刚健，乾陵典雅华美。\n\n乾陵也是唐陵中唯一可由陪葬墓外推地宫形制的陵：唐代帝王陵墓尚未发掘，只有乾陵陪葬的章怀太子、懿德太子、永泰公主三墓及昭陵等处的贵妃、公主、大臣墓被发掘。此点",
+      "path": "places/qianling.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "B",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "乾陵是 B 维度下唐陵石刻（蹲狮、翼马、鸵鸟、无字碑）与陵园布局的条目；合葬制度与陪葬墓等级属 D 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:qishan-fengchucun-yizhi",
       "title": "岐山凤雏村西周建筑遗址（Western Zhou Building Site at Fengchu Village, Qishan）",
       "name_en": "Western Zhou Building Site at Fengchu Village, Qishan",
@@ -11497,6 +11557,36 @@
       "hierarchy_scope_note": "苏州网师园是 D 维度下清代园林设计条目。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:suzhou",
+      "title": "苏州（Suzhou）",
+      "name_en": "Suzhou",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "春秋",
+        "宋代",
+        "平江府",
+        "平江图",
+        "水陆并行"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "苏州是春秋吴国伍子胥所建阊阖城的延续，隋开皇年间因城西姑苏山得名苏州，宋代称平江府，南宋时确立为陪都。它临近太湖、大运河从城西穿过，经唐宋经营成为鱼米之乡，丝绸生产天下闻名，城市形成“水陆并行，河街相临”的特点。南宋《平江图》碑刻保存了宋代苏州的城市格局，是六册中少见的以石刻地图为城市设计证据的案例。\n\n赵农把苏州与开封、临安并列为五代至宋代“最为著名”的三座城市：开封是北宋都城，临安是南宋都城，",
+      "path": "places/suzhou.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "苏州是 D 维度下宋代地方城市与水域城制条目；丝绸生产与河街格局的工艺面属 B 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:wuliangci",
       "title": "武梁祠（Wuliang Shrine）",
       "name_en": "Wuliang Shrine",
@@ -11525,6 +11615,35 @@
       "role_in_theme": "",
       "topic_memberships": [],
       "hierarchy_scope_note": "武梁祠是 C 维度下汉代画像石中“规矩”图像条目。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:wuzhou-kiln",
+      "title": "婺州窑（Wuzhou Kiln）",
+      "name_en": "Wuzhou Kiln",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "青瓷",
+        "唐代",
+        "浙江",
+        "南青"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "kiln_site",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "婺州窑是浙江金华一带生产青瓷的唐代窑口。赵农把它与瓯窑、岳州窑并列，作为越窑之外“南青”系统的另外几支：与越窑、瓯窑的温润不同，婺州窑的胎釉特征是质地厚重、釉色深暗，釉色中带点状白斑。来源只给这一句对比性描述，未给窑址、年代与器物清单。",
+      "path": "places/wuzhou-kiln.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "B",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "婺州窑是 B 维度下唐代青瓷窑口条目。Theme/Topic 尚未 materialize。"
     },
     {
       "id": "places:xianrendong-site",
@@ -11942,6 +12061,36 @@
       "role_in_theme": "",
       "topic_memberships": [],
       "hierarchy_scope_note": "越窑作为陶瓷生产地点进入 B 维度；其唐代贡瓷与宫廷制度内容也可支持 D 维度，但当前只选定 B 为暂定主导航。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:yuezhou-kiln",
+      "title": "岳州窑（Yuezhou Kiln）",
+      "name_en": "Yuezhou Kiln",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "青瓷",
+        "唐代",
+        "湖南",
+        "匣钵",
+        "冰裂片"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "kiln_site",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "岳州窑是唐代青瓷系统的窑口。赵农给它的两项判断使它区别于浙江诸窑：一是最早利用匣钵烧制青瓷、提高了制瓷效率，二是产品的胎釉与越窑相反——胎质轻巧、釉色泛白、多有冰裂片、玻璃质感明显。来源只有这一段，未给窑址地点、窑炉形制与器物清单。",
+      "path": "places/yuezhou-kiln.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "B",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "岳州窑是 B 维度下唐代青瓷窑口与匣钵装烧工艺条目。Theme/Topic 尚未 materialize。"
     },
     {
       "id": "places:yungang-shiku",
@@ -25697,14 +25846,14 @@
     "topics": []
   },
   "stats": {
-    "total_nodes": 861,
+    "total_nodes": 866,
     "total_links": 0,
     "relation_index_total": 0,
     "skipped_non_unit_relations": 0,
     "by_type": {
       "person": 74,
       "institution": 144,
-      "place": 75,
+      "place": 80,
       "work": 72,
       "publication": 68,
       "term": 192,
@@ -25712,8 +25861,8 @@
       "event": 115
     },
     "hierarchy": {
-      "domain_assigned": 861,
-      "dimension_assigned": 861,
+      "domain_assigned": 866,
+      "dimension_assigned": 866,
       "theme_assigned": 0,
       "topic_assigned": 0
     },
