@@ -1,0 +1,151 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-procedures-batch-f",
+  "goal": "处理田自秉《中国工艺美术史》2010 册第 16—30 个 procedure 候选：11 个新建、4 个更新；无 no_delta、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:df8689e7eab91637112551608733ca0a085c2d6f66a1918d79136598edcaeef7",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 736,
+        "needs_evidence": 3759,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L2125-L2129",
+        "L2565",
+        "L2589",
+        "L2617-L2641",
+        "L2829-L2843",
+        "L1970, L2537, L2931, L3274, L4655",
+        "L3258, L3826, L5128",
+        "L3262",
+        "L3264",
+        "L3274",
+        "L3404",
+        "L3440, L3456",
+        "L3528, L3554",
+        "L3601"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "procedure 候选按实体而非 slug 对账：先与既有 procedure KU 的标题与内容对齐，再定 create／update。",
+      "工序条目只写来源所记材料、步骤、工具、产量与实例；来源未载的工序参数写入证据边界。",
+      "同一段落中的相邻工序按实体拆分：可独立成工序的另立条目，属于既有条目的补写则判 update。",
+      "原文异体、同名异指与两册表述差异照录并注明，不据来源外材料裁定。"
+    ],
+    "source_policy": "02-sources 只读；本批写 04-knowledge/units/procedures，11 条新建、4 条更新。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-procedures-batch-f\\apply-plan.jsonl",
+      "rows": 15,
+      "create": 11,
+      "update": 4
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-procedures-batch-f\\candidate-decision-ledger.jsonl",
+      "rows": 45,
+      "candidates": 15,
+      "applied": 15,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-procedures-batch-f\\canonical-mapping.json",
+      "entries": 15
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 45,
+      "candidates": 15,
+      "final_applied": 15,
+      "plan_rows": 15,
+      "create": 11,
+      "update": 4,
+      "fingerprints_verified": 15,
+      "mapping_entries": 15,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 681,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 681,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/681",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "681/681",
+      "events": 115,
+      "procedures": 84
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 681
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "17/19",
+      "status": "blocked",
+      "reason": "工作树有 9 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 9
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 266,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:8fd6ad4475d98fe25a0b937dc5378bce97815d59774f9ee5a99b5d15291e86ff",
+      "counts": {
+        "applied": 751,
+        "needs_evidence": 3744,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    }
+  },
+  "state_after": {
+    "applied": 751,
+    "needs_evidence": 3744,
+    "no_delta": 43,
+    "rejected": 801,
+    "total": 5339
+  }
+}

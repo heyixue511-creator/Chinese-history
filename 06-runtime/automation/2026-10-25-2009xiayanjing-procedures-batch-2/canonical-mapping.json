@@ -1,0 +1,52 @@
+[
+  {
+    "entity": "髹漆",
+    "target_ref": "04-knowledge/units/procedures/xiu-qi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "炼钢技术",
+    "target_ref": "04-knowledge/units/procedures/lian-gang-ji-shu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代织锦与刺绣工艺",
+    "target_ref": "04-knowledge/units/procedures/han-dai-zhijin-cixiu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-107",
+    "merged_candidates": []
+  },
+  {
+    "entity": "支圈覆烧",
+    "target_ref": "04-knowledge/units/procedures/zhi-quan-fu-shao.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "珍珠地划花",
+    "target_ref": "04-knowledge/units/procedures/pearl-ground-sgraffito.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-95",
+    "merged_candidates": []
+  },
+  {
+    "entity": "明清彩瓷装饰技法",
+    "target_ref": "04-knowledge/units/procedures/ming-qing-caici-zhuangshi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-95",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蜡染（蜡缬）",
+    "target_ref": "04-knowledge/units/procedures/la-ran.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-26",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 的西南少数民族秦汉蜡染、“阑干斑布”名称、点线结合纹样、向中原与亚洲传播及民丰蓝白印花布的命名差异。"
+  }
+]

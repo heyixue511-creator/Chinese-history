@@ -1,0 +1,165 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-events-batch",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册的 22 个 event 候选：12 个新建 event KU，8 个补入既有 KU，2 个由既有 KU 覆盖判 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:1d7195a284cbbd1b143a373fd55747db366724cbb36047a6b9396dd5da71ed9b",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 623,
+        "needs_evidence": 3876,
+        "no_delta": 39,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L1282",
+        "L1397, L1292",
+        "L2625",
+        "L2725",
+        "L3020",
+        "L3388",
+        "L4927-L4937",
+        "L4599",
+        "L5005-L5009",
+        "L5214-L5216",
+        "L5385",
+        "L5721-L5737",
+        "L1280",
+        "L2075-L2079",
+        "L3327",
+        "L3476",
+        "L3476",
+        "L4174",
+        "L5051",
+        "L5194-L5196",
+        "L5051",
+        "L5725-L5727"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "既有同题 KU 可承载但缺田自秉 2010 记载的判 update，按 exact change-set 补入来源、描述、核心内容、匹配质量与参考文献。",
+      "已有专条完整覆盖候选内容的判 no_delta，并在 mapping 记明覆盖点。",
+      "无对应实体的判 create，只写来源所记时间、地点、参与者、过程与结果。",
+      "两册年份、人数或评价不一致者并列保留并写明差异，不作来源外裁决。"
+    ],
+    "source_policy": "02-sources 只读；本批写 04-knowledge/units/events 与 04-knowledge/units/institutions 的既有条目。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-events-batch\\apply-plan.jsonl",
+      "rows": 20,
+      "create": 12,
+      "update": 8
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-events-batch\\candidate-decision-ledger.jsonl",
+      "rows": 66,
+      "candidates": 22,
+      "applied": 20,
+      "no_delta": 2,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-events-batch\\canonical-mapping.json",
+      "entries": 22
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 66,
+      "ledger_candidates": 22,
+      "final_applied": 20,
+      "final_no_delta": 2,
+      "plan_rows": 20,
+      "plan_create": 12,
+      "plan_update": 8,
+      "plan_fingerprints_match_disk": 20,
+      "mapping_entries": 22,
+      "cross_check_errors": 0,
+      "rebuild_idempotent": true
+    },
+    "content_quality": {
+      "units": 598,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structural_health": "122/130",
+      "knowledge_structure": "55/65",
+      "evidence_chain": "55/55",
+      "evidence_citations": "598/598",
+      "broken_links": 0,
+      "frontmatter_missing": 0,
+      "type_coverage": "8/8",
+      "event_units": 104,
+      "duplicate_cross_type_groups": 4,
+      "duplicate_groups_disambiguated": 8,
+      "duplicate_groups_without_disambiguation": 0
+    },
+    "rule_drift": {
+      "findings": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0
+    },
+    "whitespace_check": "pass",
+    "generated_snapshot_check": {
+      "status": "blocked",
+      "step": "17/19",
+      "exit_code": 1,
+      "reason": "工作树未提交，9 个生成态文件与 HEAD 不一致；--check-generated 按设计阻断，待授权提交后复核。",
+      "differing_files": [
+        "05-outputs/index/index.md",
+        "05-outputs/knowledge-graph-data.js",
+        "05-outputs/knowledge-graph-data.json",
+        "06-runtime/automation/index.md",
+        "06-runtime/governance/governance-backlog.md",
+        "06-runtime/state/candidate-index.jsonl",
+        "06-runtime/state/current-health.json",
+        "06-runtime/state/discovery-manifest.json",
+        "06-runtime/state/generated-projections-manifest.json"
+      ]
+    },
+    "system_upgrade_chain": {
+      "total_checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "status": "pass"
+    },
+    "post_apply_check": {
+      "errors": 0,
+      "candidate_states": {
+        "needs_evidence": 3854,
+        "applied": 643,
+        "no_delta": 41,
+        "rejected": 801
+      },
+      "index_rows": 5339,
+      "index_sha256": "sha256:781faf8b4d7d1a637c32b71bf676fa85374c290d789ba91e1e5140fb5cd7f603"
+    }
+  },
+  "state_after": {
+    "applied": 643,
+    "no_delta": 41,
+    "rejected": 801,
+    "needs_evidence": 3854,
+    "total": 5339
+  }
+}

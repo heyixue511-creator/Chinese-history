@@ -1,0 +1,206 @@
+{
+  "work_package": "2026-10-25-zhaonong2009-places-batch-aa",
+  "goal": "处理赵农《中国艺术设计史》2009 册前 37 个 place 候选（至昭陵）：新建 13、更新 4、no_delta 5、补写 4、前批已终态无需动作 11。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:f5e45108c46288cc74c368add37cfa0f1bb037c70cdbad84caaa4a1dd3d5dba7",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 957,
+        "needs_evidence": 3512,
+        "no_delta": 58,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        "L863-L881",
+        "L1220-L1272",
+        "L1696-L1721",
+        "L1817-L1839",
+        "L2479-L2890",
+        "L3637-L3700",
+        "L4036-L4066",
+        "L4067-L4082",
+        "L4207-L4231",
+        "L4232-L4246",
+        "L4624-L4651"
+      ],
+      "spans_scope": "13 个 create 候选 source_span 的并集（L2479-L2890 为洛阳候选的宽跨段，实际引用窄于此）；update 与补写另引 L372-L1019、L1323-L1363、L2106、L2186、L3519、L4186-L4205、L4530-L4750 等段",
+      "candidates_in_scope": 37
+    }
+  },
+  "method": {
+    "rules": [
+      "37 个 place 候选先按实体与既有 place KU 对账，再逐条定 create／update／no_delta／rejected；同一实体多候选走 canonical create + merged_candidates。",
+      "新建 13 条：西山古城遗址（cand-02-12）、郑州商城（cand-02-41）、三星堆祭祀坑（cand-03-45）、三门峡虢国墓地（cand-03-73）、汉长安城（cand-04-59）、汉魏洛阳城（cand-05-94，落 places/luoyang.md）、邺城（cand-05-99）、麦积山石窟（cand-06-43）、巩义石窟寺（cand-06-46）、栖霞山千佛崖（cand-06-47）、隋唐洛阳城（cand-06-65，落 places/luoyang-cheng.md）、扬州（cand-06-69）、昭陵（cand-07-58）。",
+      "更新 4 条（applied 状态转移）：雍城（cand-03-123）、南京（cand-05-97）、大兴城（cand-06-60）、法门寺塔基地宫（cand-07-29）；均为既有条目补赵农新段落，version +1，source_count 按新增来源实计。",
+      "no_delta 5 条：良渚文化（cand-01-40，既有 terms/liangzhu-culture.md 已覆盖）、殷墟（cand-02-42）、二里头遗址（cand-03-15）、郑州商城（cand-03-122，作为 cand-02-41 canonical 的合并候选）、汉长安城（cand-05-98，作为 cand-04-59 canonical 的合并候选）。",
+      "同实体分列：汉魏洛阳城与隋唐洛阳城按赵农“舍魏晋故城西移”分列（luoyang.md／luoyang-cheng.md）；汉长安城与隋大兴城按“夯土板筑周长 25 公里”与“另建新城”分列（han-chang-an.md／daxing-cheng.md）。",
+      "补写 4 条（expected_state == state，状态不变）：cand-02-26（applied，three-book-place-units）补二里头青铜戈与扁平圆叶形箭簇；cand-02-56（applied，place-doc2-batch）补妇好墓 4 面铜镜与制镜起源；cand-01-14（rejected，eleven-mixed-unit-reconciliation）补半坡六项（村落遗存价值、浐河泥土、人面鱼纹释读、骨角质渔钩、聚落量化、刻画符号）；cand-05-77（rejected，pilot-seven-canonical-units）补越窑 L3519 六朝青瓷南北分流与四处早期青瓷窑址。补写的理由是原批 rejected/applied 结论声称“已并入”，而 change-set 未落入对应行号；补写使原结论成为事实，不改变候选终态。",
+      "前批已终态无需动作 11 条：cand-01-61、cand-02-03、cand-02-09、cand-02-11、cand-02-40、cand-02-43、cand-03-65、cand-04-62、cand-06-31、cand-06-35、cand-06-39（分别在 place-doc2-batch、three-book-place-units、eleven-mixed-unit-reconciliation、nine-route-institution-craft-term-units、overlap-candidates-batch 终态），本批不写行。",
+      "口径分歧一律并列不裁定：坊数 108（夏燕靖两册）／110（赵农两处）／“100 多个”（李立新）；大兴城工期 9 个月（夏燕靖）／30 余年（赵农）；秘色瓷十余件（赵农）／13 件（李立新，相容）；赵农把二里头青铜戈系于“商王朝”，与高丰、夏燕靖“夏代”相反。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/places；不 commit、不 push。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 13,
+      "update": 4,
+      "paths_created": [
+        "04-knowledge/units/places/xishan-chengzhi.md",
+        "04-knowledge/units/places/zhengzhou-shangcheng.md",
+        "04-knowledge/units/places/sanxingdui-altar-pit.md",
+        "04-knowledge/units/places/sanmenxia-guoguo-tomb.md",
+        "04-knowledge/units/places/han-chang-an.md",
+        "04-knowledge/units/places/luoyang.md",
+        "04-knowledge/units/places/yecheng.md",
+        "04-knowledge/units/places/maijishan-shiku.md",
+        "04-knowledge/units/places/gongyi-shiku-si.md",
+        "04-knowledge/units/places/qixiashan-qianfoya.md",
+        "04-knowledge/units/places/luoyang-cheng.md",
+        "04-knowledge/units/places/yangzhou.md",
+        "04-knowledge/units/places/zhaoling.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/yong-cheng.md",
+        "04-knowledge/units/places/nanjing.md",
+        "04-knowledge/units/places/daxing-cheng.md",
+        "04-knowledge/units/places/famen-si-digong.md"
+      ],
+      "paths_supplemented": [
+        "04-knowledge/units/places/banpo-site.md",
+        "04-knowledge/units/places/erlitou-site.md",
+        "04-knowledge/units/places/fuhao-tomb.md",
+        "04-knowledge/units/places/yue-kiln.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-aa\\apply-plan.jsonl",
+      "rows": 21,
+      "create": 13,
+      "update": 8
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-aa\\candidate-decision-ledger.jsonl",
+      "rows": 70,
+      "candidates": 26,
+      "applied": 19,
+      "no_delta": 5,
+      "rejected": 2,
+      "note": "19 applied = 17 本批状态转移 + 2 补写行（cand-02-26、cand-02-56）；2 rejected 均为补写行（cand-01-14、cand-05-77），不是新裁定。全批 37 个候选 = ledger 26 + 前批已终态且无需动作 11。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-aa\\canonical-mapping.json",
+      "entries": 21,
+      "merged_candidates": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-122",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-98"
+      ]
+    },
+    "supplemental_updates": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-aa\\supplemental-updates.json",
+      "entries": 4
+    }
+  },
+  "state_after": {
+    "applied": 974,
+    "needs_evidence": 3490,
+    "no_delta": 63,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 70,
+      "candidates_in_ledger": 26,
+      "candidates_in_scope": 37,
+      "final_applied_transitions": 17,
+      "final_no_delta": 5,
+      "final_rejected_new": 0,
+      "supplement_rows": 4,
+      "plan_rows": 21,
+      "create": 13,
+      "update": 8,
+      "merged_candidates": 2,
+      "fingerprints_verified": 21,
+      "mapping_entries": 21,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 861,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 861,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/861",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "861/861",
+      "persons": 74,
+      "institutions": 144,
+      "places": 75,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 861,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:ba35ce5582f9984bc5e605278d92ab40b87ec10aa1d995ff9119dbd7b694a12d",
+      "counts": {
+        "applied": 974,
+        "needs_evidence": 3490,
+        "no_delta": 63,
+        "rejected": 812
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

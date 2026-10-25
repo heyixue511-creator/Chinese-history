@@ -1,0 +1,107 @@
+[
+  {
+    "entity": "彩陶制作工艺",
+    "target_ref": "04-knowledge/units/procedures/caihui-tao-zhizuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "封窑技术",
+    "target_ref": "04-knowledge/units/procedures/fengyao-jishu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "缫丝漂白与晾丝法",
+    "target_ref": "04-knowledge/units/procedures/sao-si-piaobai.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蚌泡镶嵌",
+    "target_ref": "04-knowledge/units/procedures/bangpao-xiangqian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-39",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三叠法",
+    "target_ref": "04-knowledge/units/procedures/san-die-fa.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-41",
+    "merged_candidates": []
+  },
+  {
+    "entity": "焊接",
+    "target_ref": "04-knowledge/units/procedures/hanjie.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-91",
+    "merged_candidates": []
+  },
+  {
+    "entity": "刻划",
+    "target_ref": "04-knowledge/units/procedures/kehua.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "青铜镶嵌",
+    "target_ref": "04-knowledge/units/procedures/qingtong-xiangqian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "磨制石器",
+    "target_ref": "04-knowledge/units/procedures/mozhi-shiqi.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "轮制法",
+    "target_ref": "04-knowledge/units/procedures/lunzhi-fa.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "编织",
+    "target_ref": "04-knowledge/units/procedures/bianzhi.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-02",
+    "merged_candidates": []
+  },
+  {
+    "entity": "合范法",
+    "target_ref": "04-knowledge/units/procedures/hefan-fa.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "染色",
+    "target_ref": "04-knowledge/units/procedures/dyeing.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "错金银与错铜",
+    "target_ref": "04-knowledge/units/procedures/cuo-jin-yin-cuo-tong.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "印纹（模印）装饰",
+    "target_ref": "04-knowledge/units/procedures/yin-wen-mo-yin.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-36",
+    "merged_candidates": []
+  }
+]

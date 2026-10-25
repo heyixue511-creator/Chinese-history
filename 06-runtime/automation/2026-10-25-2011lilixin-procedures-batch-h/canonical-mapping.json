@@ -1,0 +1,67 @@
+[
+  {
+    "entity": "嵌铸法与铆铸法",
+    "target_ref": "04-knowledge/units/procedures/qianzhu-maozhu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石器打制三法",
+    "target_ref": "04-knowledge/units/procedures/shiqi-dazhi-sanfa.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-06",
+    "merged_candidates": []
+  },
+  {
+    "entity": "提花技术",
+    "target_ref": "04-knowledge/units/procedures/tihua-jishu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "银熏炉制作工序",
+    "target_ref": "04-knowledge/units/procedures/yin-xunlu-zhizuo.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-76",
+    "merged_candidates": []
+  },
+  {
+    "entity": "粉本复制",
+    "target_ref": "04-knowledge/units/procedures/fenben-fuzhi.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "合范法",
+    "target_ref": "04-knowledge/units/procedures/hefan-fa.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-35",
+    "merged_candidates": [
+      "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-44"
+    ]
+  },
+  {
+    "entity": "琢玉",
+    "target_ref": "04-knowledge/units/procedures/zhuo-yu.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-40",
+    "merged_candidates": []
+  },
+  {
+    "entity": "造纸术",
+    "target_ref": "04-knowledge/units/procedures/zaozhishu.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-78",
+    "merged_candidates": []
+  },
+  {
+    "entity": "短版套印",
+    "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-07",
+    "merged_candidates": []
+  }
+]

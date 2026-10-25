@@ -1,0 +1,185 @@
+{
+  "work_package": "2026-10-25-2016-modern-events-batch",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册现代设计大事记的 37 个 event 候选：33 个新建 event KU，4 个由既有 KU 覆盖判 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:533311a7dd8652a9c5c3bc7616e46cbf7bea6657caa8e77966e0a2124bc36f33",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 570,
+        "needs_evidence": 3936,
+        "no_delta": 32,
+        "rejected": 801
+      },
+      "rows_after": 5339,
+      "sha256_after": "sha256:83ce7412c8090ffc659c9816c44e16c671dbcb4c037a663fa57ffd9ef519c280",
+      "needs_evidence_after": 3899,
+      "rebuild_idempotent": true
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L4869-L4891",
+        "L5167",
+        "L5276-L5656",
+        "L5286-L5318",
+        "L5300-L5318",
+        "L5346-L5385",
+        "L5403-L5432",
+        "L5547-L5560",
+        "L5657-L5668",
+        "L5747-L5764",
+        "L5747-L5764",
+        "L5747-L5764",
+        "L5765-L5776",
+        "L5789-L5798",
+        "L5823-L5842",
+        "L5823-L5842",
+        "L5877-L5890",
+        "L5877-L5890",
+        "L5953-L5972",
+        "L5953-L5972",
+        "L6009-L6018",
+        "L6019-L6026",
+        "L6043-L6058",
+        "L6059-L6072",
+        "L6059-L6072",
+        "L6073-L6090",
+        "L6073-L6090",
+        "L6073-L6090",
+        "L6091-L6110",
+        "L6091-L6110",
+        "L6091-L6110",
+        "L6091-L6110",
+        "L6091-L6110",
+        "L5063-L5090",
+        "L5641-L5656",
+        "L5891-L5912",
+        "L6073-L6090"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "事件若无既有 KU 可承载，且来源给出时间、地点、参与者、过程或行业信息，建 event KU。",
+      "事件若已被既有 work/person/institution KU 完整覆盖，判 no_delta，不重复建条。",
+      "事件条目只写来源所记事实；未给出处、主办、展品数、议程或统计口径时写入证据边界。",
+      "展览类用 sub_type: exhibition；会议、学会、论坛、设计周用 professional_event；政策、建筑、行业变动用 historical_event。"
+    ],
+    "source_policy": "02-sources 只读；本批只写 04-knowledge/units/events。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016-modern-events-batch\\apply-plan.jsonl",
+      "rows": 33,
+      "create": 33,
+      "update": 0
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016-modern-events-batch\\candidate-decision-ledger.jsonl",
+      "rows": 111,
+      "candidates": 37,
+      "applied": 33,
+      "no_delta": 4,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016-modern-events-batch\\canonical-mapping.json",
+      "entries": 37
+    }
+  },
+  "state_after": {
+    "applied": 603,
+    "no_delta": 36,
+    "rejected": 801,
+    "needs_evidence": 3899,
+    "total": 5339
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 111,
+      "ledger_candidates": 37,
+      "final_applied": 33,
+      "final_no_delta": 4,
+      "plan_rows": 33,
+      "plan_fingerprints_match_disk": 33,
+      "mapping_entries": 37,
+      "cross_check_errors": 0
+    },
+    "content_quality": {
+      "units": 566,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structural_health": "122/130",
+      "knowledge_structure": "55/65",
+      "evidence_chain": "55/55",
+      "evidence_citations": "566/566",
+      "broken_links": 0,
+      "frontmatter_missing": 0,
+      "type_coverage": "8/8",
+      "event_units": 72,
+      "duplicate_cross_type_groups": 4,
+      "duplicate_groups_disambiguated": 8,
+      "duplicate_groups_without_disambiguation": 0
+    },
+    "rule_drift": {
+      "findings": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0
+    },
+    "whitespace_check": "pass",
+    "generated_snapshot_check": {
+      "status": "blocked",
+      "step": "17/19",
+      "exit_code": 1,
+      "reason": "工作树未提交，9 个生成态文件与 HEAD 不一致；--check-generated 按设计阻断，待授权提交后复核。",
+      "differing_files": [
+        "05-outputs/index/index.md",
+        "05-outputs/knowledge-graph-data.js",
+        "05-outputs/knowledge-graph-data.json",
+        "06-runtime/automation/index.md",
+        "06-runtime/governance/governance-backlog.md",
+        "06-runtime/state/candidate-index.jsonl",
+        "06-runtime/state/current-health.json",
+        "06-runtime/state/discovery-manifest.json",
+        "06-runtime/state/generated-projections-manifest.json"
+      ]
+    },
+    "system_upgrade_chain": {
+      "total_checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "status": "pass"
+    },
+    "post_apply_check": {
+      "errors": 0,
+      "candidate_states": {
+        "needs_evidence": 3899,
+        "applied": 603,
+        "rejected": 801,
+        "no_delta": 36
+      }
+    }
+  },
+  "notes": [
+    "4 个 no_delta 分别由 works/zhongshan-ling-1929.md、persons/pang-xunqin.md、institutions/central-academy-arts-design.md 覆盖；其中后两者共用机构条。",
+    "展览类 12 条用 exhibition；会议、学会、论坛、设计周 11 条用 professional_event；其余 10 条用 historical_event。",
+    "1972 年全国工艺美术展览会的“4 个多月”与“民族文化宫、17000 余件”分见来源两处，KU 并列保留，不代为拼合。",
+    "1959 年书籍装帧展、1982 年广告展、1999 年书籍装帧展等只记来源所载日期、地点、主办与结果，未补外部展史资料。"
+  ]
+}

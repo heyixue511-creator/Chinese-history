@@ -1,0 +1,153 @@
+[
+  {
+    "entity": "半坡遗址",
+    "target_ref": "04-knowledge/units/places/banpo-site.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-14",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑州西山城址",
+    "target_ref": "04-knowledge/units/places/xishan-chengzhi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "二里头遗址",
+    "target_ref": "04-knowledge/units/places/erlitou-site.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-26",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑州商城",
+    "target_ref": "04-knowledge/units/places/zhengzhou-shangcheng.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-41",
+    "merged_candidates": [
+      "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-122"
+    ]
+  },
+  {
+    "entity": "妇好墓",
+    "target_ref": "04-knowledge/units/places/fuhao-tomb.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三星堆祭坛坑",
+    "target_ref": "04-knowledge/units/places/sanxingdui-altar-pit.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三门峡虢国墓地",
+    "target_ref": "04-knowledge/units/places/sanmenxia-guoguo-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "凤翔雍城",
+    "target_ref": "04-knowledge/units/places/yong-cheng.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉长安城",
+    "target_ref": "04-knowledge/units/places/han-chang-an.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-59",
+    "merged_candidates": [
+      "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-98"
+    ]
+  },
+  {
+    "entity": "越窑",
+    "target_ref": "04-knowledge/units/places/yue-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "洛阳",
+    "target_ref": "04-knowledge/units/places/luoyang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-94",
+    "merged_candidates": []
+  },
+  {
+    "entity": "建康",
+    "target_ref": "04-knowledge/units/places/nanjing.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-97",
+    "merged_candidates": []
+  },
+  {
+    "entity": "邺城",
+    "target_ref": "04-knowledge/units/places/yecheng.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-99",
+    "merged_candidates": []
+  },
+  {
+    "entity": "麦积山石窟",
+    "target_ref": "04-knowledge/units/places/maijishan-shiku.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "巩义石窟寺",
+    "target_ref": "04-knowledge/units/places/gongyi-shiku-si.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-46",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南京栖霞山千佛崖",
+    "target_ref": "04-knowledge/units/places/qixiashan-qianfoya.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-47",
+    "merged_candidates": []
+  },
+  {
+    "entity": "长安城",
+    "target_ref": "04-knowledge/units/places/daxing-cheng.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "隋唐洛阳城",
+    "target_ref": "04-knowledge/units/places/luoyang-cheng.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "扬州",
+    "target_ref": "04-knowledge/units/places/yangzhou.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-69",
+    "merged_candidates": []
+  },
+  {
+    "entity": "法门寺唐代地宫",
+    "target_ref": "04-knowledge/units/places/famen-si-digong.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-29",
+    "merged_candidates": []
+  },
+  {
+    "entity": "昭陵",
+    "target_ref": "04-knowledge/units/places/zhaoling.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-58",
+    "merged_candidates": []
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "entity": "二次烧成法",
+    "target_ref": "04-knowledge/units/procedures/erci-shaocheng-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "支钉支烧法",
+    "target_ref": "04-knowledge/units/procedures/zhiding-zhishao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-18",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-31"
+    ]
+  },
+  {
+    "entity": "介质印花",
+    "target_ref": "04-knowledge/units/procedures/jiezhi-yinhua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋代建筑彩画",
+    "target_ref": "04-knowledge/units/procedures/song-dai-jianzhu-caihua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "拼合梁",
+    "target_ref": "04-knowledge/units/procedures/pinhe-liang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浸铜法",
+    "target_ref": "04-knowledge/units/procedures/jintong-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-100",
+    "merged_candidates": []
+  },
+  {
+    "entity": "挑花结本",
+    "target_ref": "04-knowledge/units/procedures/tiaohua-jieben.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "踹染",
+    "target_ref": "04-knowledge/units/procedures/chuai-ran.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "吹釉法",
+    "target_ref": "04-knowledge/units/procedures/chuiyou-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-83",
+    "merged_candidates": []
+  },
+  {
+    "entity": "凤翔泥塑",
+    "target_ref": "04-knowledge/units/procedures/fengxiang-nisu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-79",
+    "merged_candidates": []
+  },
+  {
+    "entity": "叠烧",
+    "target_ref": "04-knowledge/units/procedures/die-shao.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-49",
+    "merged_candidates": []
+  },
+  {
+    "entity": "捻金与片金",
+    "target_ref": "04-knowledge/units/procedures/nianjin-pianjin.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "活字印刷",
+    "target_ref": "04-knowledge/units/procedures/huozi-yinshua.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "短版套印",
+    "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "吹灰法（Cupellation）",
+    "target_ref": "04-knowledge/units/procedures/chuihui-fa.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-55",
+    "merged_candidates": [],
+    "note": "2016 L2794 与 2009 L2227 及既有 KU 所据田自秉文同文，已记唐代炼银渣块、吹灰法提高纯度与回收率，无新增语义"
+  },
+  {
+    "entity": "碾轧（Calendering）",
+    "target_ref": "04-knowledge/units/procedures/nian-ya.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-26",
+    "merged_candidates": [],
+    "note": "2016 L3258 所述加拈与碾轧两法，已被既有 KU 据田自秉 2010 完整收录（浆液后下机碾轧、光平洁满），2016 更简，无新增语义"
+  },
+  {
+    "entity": "青花瓷（Blue-and-white Porcelain）",
+    "target_ref": "04-knowledge/units/terms/blue-and-white-porcelain.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-50",
+    "merged_candidates": [],
+    "note": "既有 term KU 已逐字收录 2016 L3663 的青花定义（氧化钴、罩透明釉、1300℃ 还原焰一次烧成），无工序增量"
+  },
+  {
+    "entity": "釉里红（Underglaze Red）",
+    "target_ref": "04-knowledge/units/terms/youlihong.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-51",
+    "merged_candidates": [],
+    "note": "既有 term KU 已逐字收录 2016 L3720 的线绘、拔白、涂绘三法与飞红判断，无新增语义"
+  }
+]

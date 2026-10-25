@@ -1,0 +1,128 @@
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-88	L774-L787	禹铸九鼎	yu-casts-nine-cauldrons
+  summary: 相传夏禹收九牧之金铸九鼎于荆山之下，以象征九州，并在上面镌刻魑魅魍魉图形；国灭则鼎迁，九鼎成为中央政权象征。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-45	L893-L921	甘泽之战	ganshi-battle
+  summary: 甘泽之战是夏启与有扈氏在甘泽进行的战争，《尚书·甘誓》载其誓师词，被称为我国历史上有记载的最早车战，比喜克索斯人使用战车早300年；商汤灭夏军中主力为良车七十乘。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-86	L899-L921	商汤灭夏	shang-tang-overthrows-xia
+  summary: 商汤灭夏时，其军中主力为良车七十乘，表明商早期车战已具相当规模。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-87	L922-L930	武王伐纣	king-wu-conquers-zhou
+  summary: 武王伐纣时率战车300辆、近卫军3000人、甲士4.5万人，在孟津渡过黄河，是船只用于战争的最早记载。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-65	L1077-L1084	晋国铸刑鼎	jin-casting-legal-cauldron
+  summary: 公元前513年，晋国在汝水旁筑城，赋晋国一鼓铁以铸刑鼎，鼎上铭刻法律条文，说明工匠已较好掌握生铁冶铸技术。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-55	L1487-L1499	墨子止楚攻宋	mozi-zhi-chu-gong-song
+  summary: 《墨子·公输》载约公元前444年公输盘为楚造云梯预备攻宋，墨子以带为城、以堞为械九距公输盘攻城机变，并称弟子禽滑厘等三百人已持守围之器待楚寇，事见“墨守成规”成语。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-82	L1609-L1619	秦灭六国	qin-mie-liuguo
+  summary: 公元前221年秦灭六国，建立我国历史上第一个大一统的多民族封建帝国；秦统一文字、货币、度量衡，为经济文化发展提供重要条件，并修万里长城及庞大宫室陵墓。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-92	L1635-L1642	张骞出使西域	zhangqian-chushi-xiyu
+  summary: 公元前138年和前119年，张骞两次出使西域，开辟了从长安直达中亚、西亚许多国家，直至地中海东岸的陆上“丝绸之路”。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-93	L1643-L1660	秦迁六国冶铁豪族	qin-qian-yetie-haozu
+  summary: 《史记》载秦每得一地，必先将该地冶铁业强迁到秦的大后方或统治稳固地区，如迁卓氏、程氏于四川，迁孔氏于南阳；原文称其目的在集中控制冶铁业、缴除六国敌对势力武装，客观上促进各地冶铁技术交流。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-121	L1790-L1799	汉武帝独尊儒术	han-wudi-duzun-rushu
+  summary: 汉代儒学受统治者尊信，汉武帝罢黜百家、独尊儒术；董仲舒以儒家宗法思想为核心，结合阴阳五行学说，将神权、君权、父权、夫权结成一体，形成统一的封建思想体系。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-50	L2225-L2228	孝文改制（汉化政策）	xiao-wen-gai-zhi
+  summary: 北魏孝文帝推行汉化政策，改拓跋姓氏，并率“群臣皆服汉魏衣冠”，史称“孝文改制”；它使秦汉以来冠服旧制得以继续，推动华夏服饰发展。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-03	L3060-L3067	靖康之难	jingkang-zhibian
+  summary: 1126-1127年金人掳徽、钦二帝，宋室被迫南迁临安（今浙江杭州），与金以淮水、大散关为界，史称南宋。原文以此作为宋代设计与社会转折的背景。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-30	L3301-L3330	浮仓山南宋墓	fucangshan-tomb
+  summary: 1975年在福建省浮仓山出土的南宋贵族妇女墓，陪葬衣饰齐全，有袍、袄、裙、衫、裤、肚兜、绶带、鞋、袜、香囊、粉扑、裹脚布、荷包等，为研究宋代女子衣饰特别是贵妇、宫妃服饰提供极好材料。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-81	L3397-L3397	德阳孝泉镇宋代银器出土	deyang-xiaoquan-silver-find
+  summary: 1959年在四川德阳孝泉镇清真寺发现的宋代银器，共117件，有瓶、匜、钵、勺、杯、筷、钗、盒、执壶、茶托、熏炉等24种。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-54	L3530-L3542	西夏王陵发掘	xixia-mausoleum
+  summary: 20世纪70年代初发掘的西夏王陵，出土丝织品和棉织品，丝织残片10余片可辨锦、罗，棉织品有茂花闪色绵3片，反映西夏纺织工艺已具备一定生产能力。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-59	L3619-L3629	元代科举废止	yuan-abolish-keju
+  summary: 元朝蒙古人入主中原后取消科举制度，使大批汉族士人失去仕途，只能浪迹酒楼茶肆、填词作曲、与民间艺人结合；原文认为这是元朝民间工艺发达的主要原因之一。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-56	L3678-L3691	2005年“鬼谷下山”青花罐伦敦拍卖	2005-guiguxiashan-paimai
+  summary: 2005年7月12日，元代“鬼谷下山”青花瓷罐在伦敦克里斯蒂拍卖行由古董商埃斯凯纳齐以1568.8万英镑（约2.45亿人民币）竞得，创亚洲艺术品拍卖最高成交价。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-62	L3728-L3745	1955年北京庆寿寺双塔出土丝织品	1955-qingshousi
+  summary: 1955年拆除北京西长安街庆寿寺及其双塔时，发现4片纳石失金锦（唐草纹）、紫阳荷花缂丝、酱色素绸与织花绸；金锦出土时“金光耀日”，旋渐褪色。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-60	L3786-L3789	1321年元英宗定制质孙服	1321-zhisunfu
+  summary: 1321年元英宗参照古制，制定天子和百官上衣连下裳、上紧下短的“深衣”制式，腰间加襞积、肩背挂大珠，汉语称“质孙服”为“一色衣”，糅合汉族与蒙古民族特点。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-59	L3790-L3798	1272年伯颜收取宋宫冕服图籍	1272-boyan-qu-song
+  summary: 至元十二年（1272），元代右丞相伯颜遣人入宋宫收取衮冕、圭壁、符玺、图籍、宝玩、车辂、仪仗等，元代始借鉴汉制逐步改变服饰。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-61	L3822-L3842	延祐元年（1314）贵族夫人服色规定	1314-fuse-zhidu
+  summary: 延祐元年（1314）元廷规定贵族夫人服饰等级：一品至三品服浑金，四品五品服金答子，六品以下唯服销金并金纱答子。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-57	L3928-L3951	1276年设太史局编《授时历》	1276-shoushili
+  summary: 1276年忽必烈诏令编制新历法，设太史局，以王恂、郭守敬为主要负责人，1280年编成《授时历》；编历四年间郭守敬创制简仪、高表等17种天文仪器。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-58	L3958-L3972	至元八年建妙应寺白塔	1271-miaoyingsi-baita
+  summary: 至元八年（1271）修建北京妙应寺白塔，由尼泊尔匠师阿尼哥设计，高50.9米，是元代覆钵式塔中年代最早、规模最大者。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-87	L4264-L4269	清初剃发易服	tiifa-yifu
+  summary: 清初推行易服之令，采取“留头不留发，留发不留头”的极端措施，引起汉人强烈不满和抵制；康熙时期采纳金之俊“十从十不从”建议，在服饰方面尽量保持明代汉制，缓解民怨。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-88	L4403-L4422	郑和下西洋	zhenghe-xia-xiyang
+  summary: 明永乐三年（1405）左右开始，郑和七下西洋，航程远至亚非沿海诸国，掀起对中国瓷器的热捧，形成贸易瓷第一次高峰。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-89	L4423-L4426	克拉克号被捕获	kelakehao-beibu
+  summary: 1602年荷兰东印度公司在海上捕获一艘葡萄牙商船“克拉克号”，船上装有大量中国青花瓷，欧洲人因不明产地而将这种瓷器命名为“克拉克瓷”。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-90	L4596-L4618	1684年清廷开放海禁	kaifang-haijin-1684
+  summary: 1684年清廷开放海禁，造船业得到恢复和发展；清代官府造船以福建为中心，设福州、泉州、漳州、台湾4个船厂，民间造船主要在苏州、扬州、厦门等地并发展到工场手工业阶段。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-10	L4869-L4891	1912年剪辫易服	jianbian-yifu-1912
+  summary: 辛亥革命后孙中山颁布剪辫易服法令，限20天剪除辫子，并讨论改易服装，最终设计中山装；民国政府同时颁《剪辫通令》《服制条例》。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-50	L5063-L5090	中山陵建筑设计竞图	sun-yat-sen-mausoleum-competition
+  summary: 1927年民国政府公开征求中山陵建筑设计图，条例要求祭堂采用中国式或依中国建筑精神创新，开我国建筑竞图风气，吕彦直获首奖。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-139	L5167-L5167	新中国初期工艺美术生产的恢复与改造	craft-recovery-transformation-1950s
+  summary: 20世纪50年代起，人民政府扶持手工业失业人员生产自救，将民间艺人组织起来走合作化道路、建社办厂，形成以集体所有制为主体、城乡结合、专业生产与副业加工结合的生产体系；周恩来称传统工艺美术为“石头加人工等于外汇”的行业；20世纪50年代初外贸口岸恢复工艺品出口，海外需求推动国内生产，一些老字号传统工艺品企业在此期间建立和恢复。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-69	L5276-L5656	全国工艺美术艺人代表会议	national-craft-artists-conference-1957
+  summary: 1957年7月在北京举行的新中国建立以来第一次工艺美术界盛大集会，提出对工艺美术行业“保护、发展、提高”的方针和“适用、经济、美观”的生产原则。1957年7月22日在北京举行，会议提出对工艺美术“保护、发展和提高”的方针以及“适用、经济、美观”的生产原则，原文称为第二个五年计划的工艺美术发展指明方向。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-72	L5286-L5318	北京十大建筑	beijing-ten-great-buildings
+  summary: 1958年9月中央人民政府为迎接新中国成立10周年确定国庆工程，在北京兴建人民大会堂等十项大型建筑；人民大会堂、民族文化宫、中国美术馆等为其代表。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-74	L5300-L5318	第一届全国书籍装帧艺术展览会	national-book-design-exhibition-1959
+  summary: 1959年4月举办的全国第一届书籍装帧艺术展览会，涌现大批书装作品；同年秋我国书装界首次组团参加东德莱比锡国际书籍装帧艺术展览会，获10枚金质奖章、9枚银质奖章。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-83	L5346-L5385	全国工艺美术展览会（1972）	national-craft-exhibition-1972
+  summary: 1972年9月在北京举办的新中国建立以来规模最大的全国工艺美术展览会，历时4个多月，展景德镇青花天球瓶、寿山石雕花果篮、浏阳菊花石雕、斑铜孔雀瓶、象牙雕刻嫦娥奔月、镂雕象牙球“友谊第一”等。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-88	L5403-L5432	全国工艺美术展览（1978）	national-craft-exhibition-1978
+  summary: 1978年2至5月在北京中国美术馆举行的全国工艺美术展览，观众达105万人，邓小平、李先念等观看，展14个大类、400多个品种、1万多件作品。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-22	L5547-L5560	开国大典天安门城楼布置装饰	founding-ceremony-tiananmen-decoration-1949
+  summary: 1949年9月中旬，开国大典的天安门城楼布置装饰任务由天安门国庆工程指挥部下达给华北军区政治部文工团舞美设计；原文未记具体设计方案。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-34	L5641-L5656	1957年对庞薰琴为首的反党集团的斗争	pang-xunqin-struggle-1957
+  summary: 1957年7—9月中央工艺美术学院展开为期3个月的“对庞薰琴为首的反党集团的斗争”；原文以当时政治定性直述，未作评价。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-36	L5657-L5668	首都十大建筑美术工作会议	capital-ten-buildings-art-conference-1958
+  summary: 1958年11月10日在北京举行，与首都十大建筑建设中的美术工作相关；原文仅记会议名称、时间与地点。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-41	L5747-L5764	“文化大革命”中传统工艺品被打成“四旧”	cultural-revolution-crafts-four-olds
+  summary: 1966年5月“文化大革命”开始后，全国工艺美术行业受到严重破坏，传统工艺品一律被打成“四旧”而遭禁锢。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-42	L5747-L5764	周恩来提出“手工艺要大力提倡”	zhou-enlai-handicraft-1972
+  summary: 1972年4月9日周恩来在广州接见广交会代表时指出“手工艺要大力提倡”，此后北京、上海、江苏、广东等地工艺美术行业开始出现转机，生产逐步得到恢复。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-43	L5747-L5764	我国政府向联合国总部赠送《长城》壁毯和牙雕《成昆铁路》	united-nations-gift-1974
+  summary: 1974年10月7日我国政府向联合国总部赠送《长城》壁毯（天津生产）和牙雕《成昆铁路》（北京制作）。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-44	L5765-L5776	工艺美术高等院校恢复统一招生考试	crafts-college-entrance-exam-resumption-1977
+  summary: 1977年12月10日，全国多数设有工艺美术系科的高等院校恢复中断10年的全国统一招生考试，招收“文革”后工艺美术本、专科生和研究生。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-45	L5789-L5798	授予“工艺美术家”荣誉称号	crafts-artist-title-1979
+  summary: 1979年8月8—16日轻工业部在北京召开全国工艺美术艺人、创作设计人员代表大会，会议授予杨士惠等34人优秀艺人、设计人员“工艺美术家”荣誉称号。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-47	L5823-L5842	第一届全国广告装潢设计展览	national-advertising-design-exhibition-1982
+  summary: 1982年2月21—28日由中华全国广告协会、中国工业美术协会和中国广告联合总公司主办，在北京中国美术馆举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-48	L5823-L5842	全国高等院校工艺美术教学座谈会	national-crafts-education-symposium-1982
+  summary: 1982年4月16—28日在北京举行，由文化部和轻工业部联合委托中央工艺美术学院筹备召开。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-50	L5877-L5890	全国高校工业设计学会成立	industrial-design-society-1985
+  summary: 1985年3月2—6日，全国高校工业设计学会成立暨第一次全国工业设计教育学术交流会在北京召开。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-51	L5877-L5890	伊夫·圣·洛朗25年作品回顾展	ysl-retrospective-1985
+  summary: 1985年5月7日—7月7日“法国服装设计家伊夫·圣·洛朗25年作品回顾展”在北京中国美术馆展出；同年7月《中国美术报》创刊号以整版篇幅介绍其服装设计。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-53	L5891-L5912	中央工艺美术学院获工艺美术历史及理论专业博士学位授予点	phd-program-crafts-1986
+  summary: 1986年7月中央工艺美术学院经国务院学位委员会批准，获得工艺美术历史及理论专业博士学位授予点。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-54	L5953-L5972	“包豪斯——现代艺术设计的革命”展览	bauhaus-exhibition-hongkong-1989
+  summary: 1989年2月中旬在香港文化艺术中心展出，由德国史图嘉德海外文化关系部筹划、香港艺术中心等单位联合主办。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-55	L5953-L5972	中国工业设计代表团首次参加ICSID年会	icsid-1989-nagoya
+  summary: 1989年10月17—21日，中国工业设计代表团一行三人首次参加在日本名古屋举行的第16届世界工业设计协会联合会年会（ICSID'89）。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-57	L6009-L6018	全国技术美学研讨会	technical-aesthetics-symposium-1994
+  summary: 1994年10月下旬在天津举行，原文称这是美学第一次对艺术设计进行理论思考的专题研讨会。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-58	L6019-L6026	首届中国计算机艺术研讨会暨作品展示会	computer-art-symposium-1995
+  summary: 1995年3月15—19日在北京举行，由国家科委和计算机学会主办，中央工艺美术学院、中国美术学院、东南大学等高校承办。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-59	L6043-L6058	“'97中国艺术大展·中国当代艺术设计展”	china-art-expo-design-1997
+  summary: 1997年6月23日—7月3日由文化部主办、中国工业设计协会等协办，在北京中国美术馆展出。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-01	L6059-L6072	1998年教育部本科专业目录调整	1998-moe-major-catalog
+  summary: 1998年7月教育部颁布《普通高等学校本科专业目录》，将“工艺美术专业”改为“艺术设计专业”。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-02	L6059-L6072	第五届全国家具展览	1998-national-furniture-exhibition
+  summary: 4月29日-5月2日由中国家具协会主办的第五届全国家具展览在北京农业展览馆举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-03	L6073-L6090	中央工艺美术学院与清华大学合并	1999-tsinghua-academy-merger
+  summary: 11月20日中央工艺美术学院与清华大学合并，成立清华大学美术学院。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-04	L6073-L6090	新世纪中国设计教育发展高层论坛	1999-design-education-forum
+  summary: 10月28日-30日“新世纪中国设计教育发展高层论坛”及与大学生对话的“设计与21世纪论坛”在南京艺术学院举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-05	L6073-L6090	第五届全国书籍装帧艺术展览	1999-book-design-exhibition
+  summary: 5月11日-16日第五届全国书籍装帧艺术展览在北京中国美术馆举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-112	L6073-L6090	中国—意大利工业设计周	1999-china-italy-industrial-design-week
+  summary: 1999年10月中国—意大利工业设计周在上海举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-06	L6091-L6110	上海生态景观大道建成	2000-shanghai-eco-landscape-avenue
+  summary: 年初上海建成中国第一条生态景观大道，原文称为上海迎接新世纪的标志性工程。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-07	L6091-L6110	2000北京国际平面设计展	2000-beijing-intl-graphic-design-exhibition
+  summary: 12月15日“2000北京国际平面设计展”在北京中国美术馆展出。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-08	L6091-L6110	第三届计算机辅助工业设计及计算机辅助概念设计国际会议	2000-cad-industrial-design-conference
+  summary: 11月26日-28日第三届计算机辅助工业设计及计算机辅助概念设计国际会议在香港举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-113	L6091-L6110	中国民族民间工艺美术大展	2000-national-folk-craft-art-exhibition
+  summary: 2000年5月14日“中国民族民间工艺美术大展”在四川成都举行。
+2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-114	L6091-L6110	中国工艺美术精品展	2000-china-craft-art-exhibition
+  summary: 2000年9月下旬，中国艺术节活动项目“中国工艺美术精品展”在南京举行。

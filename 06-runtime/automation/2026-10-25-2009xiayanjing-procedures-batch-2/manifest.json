@@ -1,0 +1,152 @@
+{
+  "work_package": "2026-10-25-2009xiayanjing-procedures-batch-2",
+  "goal": "处理夏燕靖《中国设计史》2009 册剩余 7 个 procedure 候选：6 个新建，1 个补入既有蜡染 KU；无 no_delta、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:6cf8954a8170f21e78358517f435623b9f702e7a91b8f9dc366380790069b410",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 675,
+        "needs_evidence": 3820,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        "L956-L961",
+        "L1140-L1147",
+        "L1426-L1431",
+        "L1433-L1441",
+        "L2548-L2551",
+        "L2552-L2589",
+        "L3589-L3591"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "procedure 候选按实体而非 slug 对账：先与既有 procedure KU 的标题与内容对齐，再定 create／update。",
+      "工序条目只写来源所记材料、步骤、工具、产量与实例；来源未载的工序参数写入证据边界。",
+      "来源的判断与推测照录并标明主语；原文截断处照录并注明。",
+      "两种来源对同一出土物的命名不一致时并列记录，不裁定名称。"
+    ],
+    "source_policy": "02-sources 只读；本批写 04-knowledge/units/procedures，并对既有蜡染 KU 补入夏燕靖 2009 来源。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-procedures-batch-2\\apply-plan.jsonl",
+      "rows": 7,
+      "create": 6,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-procedures-batch-2\\candidate-decision-ledger.jsonl",
+      "rows": 21,
+      "candidates": 7,
+      "applied": 7,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-procedures-batch-2\\canonical-mapping.json",
+      "entries": 7
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 21,
+      "candidates": 7,
+      "final_applied": 7,
+      "plan_rows": 7,
+      "create": 6,
+      "update": 1,
+      "fingerprints_verified": 7,
+      "mapping_entries": 7,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 627,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "rule_authority": "20/20",
+      "frontmatter": "20/20",
+      "verification_semantics": "20/20",
+      "traceability": "7/15",
+      "data_flow": "10/10",
+      "report_freshness": "10/10",
+      "engineering_safety": "5/5",
+      "knowledge_units": 627,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/627",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "627/627",
+      "events": 115,
+      "procedures": 30
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 627
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "17/19",
+      "status": "blocked",
+      "reason": "工作树有 9 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 9
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 266,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:f25748ccaf593f1a825641b8a5565cbd07f6a71fe80784ff23602ab4abd40ada",
+      "counts": {
+        "applied": 682,
+        "needs_evidence": 3813,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    }
+  },
+  "state_after": {
+    "applied": 682,
+    "needs_evidence": 3813,
+    "no_delta": 43,
+    "rejected": 801,
+    "total": 5339
+  }
+}

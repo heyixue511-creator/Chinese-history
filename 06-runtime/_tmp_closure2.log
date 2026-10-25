@@ -1,0 +1,205 @@
+build_relation_index.py v2.1
+  关系总数: 0
+  来源: explicit=0 inferred_by_rule=0 migrated_from_related=0
+  双向补全: 0
+  类型覆盖: 0/67
+  written: D:\中国设计史研究\04-knowledge\quality\relation-index.yml
+plan_relation_candidates.py v2.3
+  已排除正式 relation pairs: 0
+  已排除 weak_associations pairs: 0
+  候选关系总数: 3
+  s7_name_overlap: 3
+  [DRY RUN]
+wrote=D:\中国设计史研究\06-runtime\automation\index.md
+  written: D:\中国设计史研究\04-knowledge\quality\translation-index.yml (443 entries)
+Generated D:\中国设计史研究\05-outputs\knowledge-graph-data.json and D:\中国设计史研究\05-outputs\knowledge-graph-data.js: 533 nodes, 0 links
+  event: 39
+  institution: 37
+  person: 74
+  place: 39
+  procedure: 12
+  publication: 68
+  term: 192
+  work: 72
+{"total": 5339, "by_origin_type": {"source": 5339}, "by_candidate_type": {"claim": 1363, "unit": 3976}, "by_state": {"applied": 570, "needs_evidence": 3936, "no_delta": 32, "rejected": 801}, "by_lifecycle_class": {"active": 3936, "terminal": 1403}}
+Exported registry to D:\中国设计史研究\06-runtime\state\skill-registry.json
+content_quality_findings=0
+wrote=D:\中国设计史研究\06-runtime\state\current-health.json
+structural_health=122
+wrote=D:\中国设计史研究\06-runtime\governance\governance-backlog.md
+system_p0=0
+system_p1=0
+system_p2=0
+research_debt=4
+candidate_opportunities=2
+written=05-outputs/index/output-gallery.md outputs=2
+written=05-outputs/index/index.md health_snapshot=synchronized
+wrote=D:\中国设计史研究\06-runtime\state\generated-projections-manifest.json
+审查范围: 533 个知识元
+
+总发现: 0
+
+============================================================
+ 内容质量全量审查报告
+ 审查范围: 533 个知识元 | 总发现: 0
+============================================================
+
+边界: 仅检查可机械判定的结构、编码、占位、链接和状态一致性；不评估语义细节密度、事实充分性或知识价值。
+
+audit_relation_consistency.py
+  broken target: 0
+  invalid relation_type: 0
+  missing inverse: 0
+  weak evidence: 0
+  unbaselined generic evidence-backed: 0
+  isolated units (0 relations): 533
+  isolated preview rows: 100
+  over-connected (>50): 0
+{
+  "structural_health": {
+    "score_kind": "structural_contract_health",
+    "max_score": 130,
+    "total": 122,
+    "rule_authority": 20,
+    "frontmatter": 20,
+    "verification_semantics": 20,
+    "traceability": 7,
+    "dataflow": 10,
+    "report_freshness": 10,
+    "engineering_safety": 5,
+    "recall_quality": 15,
+    "semantic_artifact_integrity": 15
+  },
+  "knowledge_maturity": {
+    "metric_kind": "unscored_semantic_maturity",
+    "total_units": 533,
+    "source_count_distribution": {
+      "multi_source": 496,
+      "single_source": 37
+    },
+    "confidence_distribution": {
+      "medium": 533
+    },
+    "consensus_distribution": {
+      "tentative": 533
+    },
+    "evidence_status_distribution": {
+      "source_backed": 533
+    },
+    "isolated_units": {
+      "count": 533,
+      "sample": [
+        "events/anshi-zhiluan.md",
+        "events/banama-saihui.md",
+        "events/boyan-collects-song-regalia.md",
+        "events/deyang-xiaoquan-silver-find.md",
+        "events/donghulin-muzang.md",
+        "events/fucangshan-tomb.md",
+        "events/ganshi-battle.md",
+        "events/han-wudi-duzun-rushu.md",
+        "events/hufu-qishe.md",
+        "events/jin-casting-legal-cauldron.md",
+        "events/jingkang-zhibian.md",
+        "events/king-wu-conquers-zhou.md",
+        "events/mashan-yihao-mu-sichupin.md",
+        "events/mawangdui-yihao-mu-fajue.md",
+        "events/mozi-zhi-chu-gong-song.md",
+        "events/nanyang-quanyehui.md",
+        "events/opium-war.md",
+        "events/pangeng-move-to-yin.md",
+        "events/qin-mie-liuguo.md",
+        "events/qin-qian-yetie-haozu.md",
+        "events/qing-opens-sea-ban-1684.md",
+        "events/qingshousi-tomb-textiles.md",
+        "events/quanguo-gongyi-meishu-zhanlanhui-1959.md",
+        "events/quanguo-minjian-meishu-gongyipin-zhanlanhui.md",
+        "events/queue-and-dress-edicts.md"
+      ]
+    },
+    "candidate_debt": {
+      "total": 3936,
+      "by_origin_type": {
+        "source": 3936
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 2573
+      },
+      "by_state": {
+        "needs_evidence": 3936
+      }
+    },
+    "candidate_inventory": {
+      "total": 5339,
+      "by_origin_type": {
+        "source": 5339
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 3976
+      },
+      "by_state": {
+        "applied": 570,
+        "needs_evidence": 3936,
+        "no_delta": 32,
+        "rejected": 801
+      },
+      "by_lifecycle_class": {
+        "active": 3936,
+        "terminal": 1403
+      }
+    },
+    "research_debt": {
+      "single_source_units": 37,
+      "tentative_units": 533,
+      "low_confidence_units": 0,
+      "candidates_needing_evidence": 3936,
+      "units_missing_hierarchy_assignment": 533
+    }
+  },
+  "summary": {
+    "total_units": 533,
+    "type_coverage": "8/8",
+    "base_type_coverage": "8/8",
+    "structure_node_coverage": "0/4",
+    "deprecated_type_drift": 0,
+    "hierarchy_version": "v0.1"
+  },
+  "rule_authority": {
+    "agents_dir_exists": true,
+    "agents_settings_exists": true,
+    "codex_hooks_exists": true,
+    "claude_entry_exists": true,
+    "claude_settings_exists": true,
+    "claude_skill_adapters_exist": true,
+    "agent_guard_exists": true,
+    "adapter_issues": [],
+    "legacy_references": 0
+  },
+  "verification_semantic_issues": {
+    "l7_high_confidence": [],
+    "source_count_1_high_confidence": [],
+    "confirmed_without_external_or_multisource": [],
+    "body_status_frontmatter_conflict": [],
+    "identity_only_external_overreach": []
+  }
+}
+规则漂移: 0 (所有规则文档与磁盘一致)
+OK: 18 个 Skill（18 leaf, 0 router）均由磁盘契约确定
+[1/16] build relation index
+[2/16] build relation candidates
+[3/16] build runtime index
+[4/16] build translation index
+[5/16] build knowledge graph data
+[6/16] build discovery index
+[7/16] export skill registry
+[8/16] write health and backlog
+[9/16] build output gallery and navigation
+[10/16] build generated projection manifest
+[11/16] audit content quality
+[12/16] audit relation consistency
+[13/16] audit repository
+[14/16] audit rule drift
+[15/16] validate skill registry
+[16/16] check whitespace
+sync closure passed

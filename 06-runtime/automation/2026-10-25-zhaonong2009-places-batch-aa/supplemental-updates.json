@@ -1,0 +1,26 @@
+[
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-14",
+    "pre_state": "rejected",
+    "source_batch": "2026-10-25-eleven-mixed-unit-reconciliation",
+    "target_ref": "04-knowledge/units/places/banpo-site.md"
+  },
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-26",
+    "pre_state": "applied",
+    "source_batch": "2026-10-25-three-book-place-units",
+    "target_ref": "04-knowledge/units/places/erlitou-site.md"
+  },
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-56",
+    "pre_state": "applied",
+    "source_batch": "2026-10-25-place-doc2-batch",
+    "target_ref": "04-knowledge/units/places/fuhao-tomb.md"
+  },
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-77",
+    "pre_state": "rejected",
+    "source_batch": "2026-10-25-pilot-seven-canonical-units",
+    "target_ref": "04-knowledge/units/places/yue-kiln.md"
+  }
+]

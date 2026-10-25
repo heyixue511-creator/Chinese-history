@@ -1,0 +1,130 @@
+{
+  "structural_health": {
+    "score_kind": "structural_contract_health",
+    "max_score": 130,
+    "total": 122,
+    "rule_authority": 20,
+    "frontmatter": 20,
+    "verification_semantics": 20,
+    "traceability": 7,
+    "dataflow": 10,
+    "report_freshness": 10,
+    "engineering_safety": 5,
+    "recall_quality": 15,
+    "semantic_artifact_integrity": 15
+  },
+  "knowledge_maturity": {
+    "metric_kind": "unscored_semantic_maturity",
+    "total_units": 792,
+    "source_count_distribution": {
+      "multi_source": 545,
+      "single_source": 247
+    },
+    "confidence_distribution": {
+      "low": 10,
+      "medium": 782
+    },
+    "consensus_distribution": {
+      "tentative": 792
+    },
+    "evidence_status_distribution": {
+      "source_backed": 792
+    },
+    "isolated_units": {
+      "count": 792,
+      "sample": [
+        "events/1851-wanguo-bolanhui.md",
+        "events/1972-1976-dingci-huifu.md",
+        "events/1998-moe-major-catalog.md",
+        "events/1998-national-furniture-exhibition.md",
+        "events/1999-book-design-exhibition.md",
+        "events/1999-china-italy-industrial-design-week.md",
+        "events/1999-design-education-forum.md",
+        "events/2000-beijing-intl-graphic-design-exhibition.md",
+        "events/2000-cad-industrial-design-conference.md",
+        "events/2000-china-craft-art-exhibition.md",
+        "events/2000-national-folk-craft-art-exhibition.md",
+        "events/2000-shanghai-eco-landscape-avenue.md",
+        "events/6th-century-fangzhi-jishu-waichuan.md",
+        "events/anshi-zhiluan.md",
+        "events/banama-saihui.md",
+        "events/bauhaus-exhibition-hongkong-1989.md",
+        "events/beijing-ten-great-buildings.md",
+        "events/boyan-collects-song-regalia.md",
+        "events/capital-ten-buildings-art-conference-1958.md",
+        "events/chenqiao-mutiny.md",
+        "events/china-art-expo-design-1997.md",
+        "events/computer-art-symposium-1995.md",
+        "events/craft-recovery-transformation-1950s.md",
+        "events/crafts-artist-title-1979.md",
+        "events/crafts-college-entrance-exam-resumption-1977.md"
+      ]
+    },
+    "candidate_debt": {
+      "total": 3588,
+      "by_origin_type": {
+        "source": 3588
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 2225
+      },
+      "by_state": {
+        "needs_evidence": 3588
+      }
+    },
+    "candidate_inventory": {
+      "total": 5339,
+      "by_origin_type": {
+        "source": 5339
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 3976
+      },
+      "by_state": {
+        "applied": 887,
+        "needs_evidence": 3588,
+        "no_delta": 56,
+        "rejected": 808
+      },
+      "by_lifecycle_class": {
+        "active": 3588,
+        "terminal": 1751
+      }
+    },
+    "research_debt": {
+      "single_source_units": 247,
+      "tentative_units": 792,
+      "low_confidence_units": 10,
+      "candidates_needing_evidence": 3588,
+      "units_missing_hierarchy_assignment": 792
+    }
+  },
+  "summary": {
+    "total_units": 792,
+    "type_coverage": "8/8",
+    "base_type_coverage": "8/8",
+    "structure_node_coverage": "0/4",
+    "deprecated_type_drift": 0,
+    "hierarchy_version": "v0.1"
+  },
+  "rule_authority": {
+    "agents_dir_exists": true,
+    "agents_settings_exists": true,
+    "codex_hooks_exists": true,
+    "claude_entry_exists": true,
+    "claude_settings_exists": true,
+    "claude_skill_adapters_exist": true,
+    "agent_guard_exists": true,
+    "adapter_issues": [],
+    "legacy_references": 0
+  },
+  "verification_semantic_issues": {
+    "l7_high_confidence": [],
+    "source_count_1_high_confidence": [],
+    "confirmed_without_external_or_multisource": [],
+    "body_status_frontmatter_conflict": [],
+    "identity_only_external_overreach": []
+  }
+}

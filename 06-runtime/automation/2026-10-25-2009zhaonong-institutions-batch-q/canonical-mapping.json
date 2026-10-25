@@ -1,0 +1,66 @@
+[
+  {
+    "entity": "司农司",
+    "target_ref": "04-knowledge/units/institutions/sinongsi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-64",
+    "merged_candidates": []
+  },
+  {
+    "entity": "会通馆",
+    "target_ref": "04-knowledge/units/institutions/huitongguan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-105",
+    "merged_candidates": []
+  },
+  {
+    "entity": "金陵书局",
+    "target_ref": "04-knowledge/units/institutions/jinling-shuju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-148",
+    "merged_candidates": []
+  },
+  {
+    "entity": "湖南思贤书局",
+    "target_ref": "04-knowledge/units/institutions/hunan-sixian-shuju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-149",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浙江书局",
+    "target_ref": "04-knowledge/units/institutions/zhejiang-shuju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-150",
+    "merged_candidates": []
+  },
+  {
+    "entity": "成都存古书局",
+    "target_ref": "04-knowledge/units/institutions/chengdu-cungu-shuju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-151",
+    "merged_candidates": []
+  },
+  {
+    "entity": "六必居",
+    "target_ref": "04-knowledge/units/institutions/liubiju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-47",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王麻子剪刀铺",
+    "target_ref": "04-knowledge/units/institutions/wangmazi-jiandao-pu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-48",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武英殿",
+    "target_ref": "04-knowledge/units/institutions/wuyingdian-xiushuchu.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-110",
+    "merged_candidates": [],
+    "note": "更新既有武英殿修书处：补入赵农2009官刻序列（内府本—英武殿本—殿本）、殿本《十三经》《二十一史》、《大藏经》经版数与《武英殿聚珍版程式》；source_count 1→2、version 1→2"
+  }
+]

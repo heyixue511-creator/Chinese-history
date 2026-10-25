@@ -1,0 +1,165 @@
+{
+  "work_package": "2026-10-25-2009zhaonong-events-batch",
+  "goal": "处理赵农《中国艺术设计史》2009 册的 23 个 event 候选：20 个新建 event KU，3 个由既有 KU 覆盖判 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:83ce7412c8090ffc659c9816c44e16c671dbcb4c037a663fa57ffd9ef519c280",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 603,
+        "needs_evidence": 3899,
+        "no_delta": 36,
+        "rejected": 801
+      },
+      "rows_after": 5339,
+      "sha256_after": "sha256:1d7195a284cbbd1b143a373fd55747db366724cbb36047a6b9396dd5da71ed9b",
+      "needs_evidence_after": 3876,
+      "rebuild_idempotent": true
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        "L1051, L1133-L1139",
+        "L1058, L1141",
+        "L1907",
+        "L1646",
+        "L1788, L2459",
+        "L2505, L2741",
+        "L3684",
+        "L3287, L3691",
+        "L3297",
+        "L3571",
+        "L4803",
+        "L4957",
+        "L4966-L4968, L5805",
+        "L4968, L5805",
+        "L6621",
+        "L8523",
+        "L8533",
+        "L8765",
+        "L8502, L8751",
+        "L8749",
+        "L5405-L5430",
+        "L8006-L8055",
+        "L8359-L8409"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "事件已有同题专条且内容完整覆盖时判 no_delta；仅被更大事件条顺带提及者仍建专条。",
+      "事件条目只写来源所记时间、地点、参与者、过程与结果；来源未载的年份、人物、数据与过程写入证据边界。",
+      "传说事件与来源作“传说”者照录传说属性，不据外部考订改写为史实。",
+      "来源两处记载并见者并列保留，不代为拼合成单一事实。"
+    ],
+    "source_policy": "02-sources 只读；本批只写 04-knowledge/units/events。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-events-batch\\apply-plan.jsonl",
+      "rows": 20,
+      "create": 20,
+      "update": 0
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-events-batch\\candidate-decision-ledger.jsonl",
+      "rows": 69,
+      "candidates": 23,
+      "applied": 20,
+      "no_delta": 3,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-events-batch\\canonical-mapping.json",
+      "entries": 23
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 69,
+      "ledger_candidates": 23,
+      "final_applied": 20,
+      "final_no_delta": 3,
+      "plan_rows": 20,
+      "plan_fingerprints_match_disk": 20,
+      "mapping_entries": 23,
+      "cross_check_errors": 0
+    },
+    "content_quality": {
+      "units": 586,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structural_health": "122/130",
+      "knowledge_structure": "55/65",
+      "evidence_chain": "55/55",
+      "evidence_citations": "586/586",
+      "broken_links": 0,
+      "frontmatter_missing": 0,
+      "type_coverage": "8/8",
+      "event_units": 92,
+      "duplicate_cross_type_groups": 4,
+      "duplicate_groups_disambiguated": 8,
+      "duplicate_groups_without_disambiguation": 0
+    },
+    "rule_drift": {
+      "findings": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0
+    },
+    "whitespace_check": "pass",
+    "generated_snapshot_check": {
+      "status": "blocked",
+      "step": "17/19",
+      "exit_code": 1,
+      "reason": "工作树未提交，9 个生成态文件与 HEAD 不一致；--check-generated 按设计阻断，待授权提交后复核。",
+      "differing_files": [
+        "05-outputs/index/index.md",
+        "05-outputs/knowledge-graph-data.js",
+        "05-outputs/knowledge-graph-data.json",
+        "06-runtime/automation/index.md",
+        "06-runtime/governance/governance-backlog.md",
+        "06-runtime/state/candidate-index.jsonl",
+        "06-runtime/state/current-health.json",
+        "06-runtime/state/discovery-manifest.json",
+        "06-runtime/state/generated-projections-manifest.json"
+      ]
+    },
+    "system_upgrade_chain": {
+      "total_checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "status": "pass"
+    },
+    "post_apply_check": {
+      "errors": 0,
+      "candidate_states": {
+        "needs_evidence": 3876,
+        "applied": 623,
+        "no_delta": 39,
+        "rejected": 801
+      }
+    }
+  },
+  "state_after": {
+    "applied": 623,
+    "no_delta": 39,
+    "rejected": 801,
+    "needs_evidence": 3876,
+    "total": 5339
+  }
+}

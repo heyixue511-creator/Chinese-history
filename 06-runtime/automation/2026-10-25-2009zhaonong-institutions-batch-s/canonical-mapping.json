@@ -1,0 +1,79 @@
+[
+  {
+    "entity": "纶章造纸局",
+    "target_ref": "04-knowledge/units/institutions/lunzhang-zaozhi-ju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "广州造纸厂",
+    "target_ref": "04-knowledge/units/institutions/guangzhou-zaozhichang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-29",
+    "merged_candidates": []
+  },
+  {
+    "entity": "英美烟草公司",
+    "target_ref": "04-knowledge/units/institutions/yingmei-yancao-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国人民银行",
+    "target_ref": "04-knowledge/units/institutions/zhongguo-renmin-yinhang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "福州马尾船政学堂绘事院",
+    "target_ref": "04-knowledge/units/institutions/fuzhou-mawei-chuanzheng-xuetang-huishiyuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江南船政局工艺学堂",
+    "target_ref": "04-knowledge/units/institutions/jiangnan-chuanzhengju-gongyi-xuetang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北平国立艺专",
+    "target_ref": "04-knowledge/units/institutions/beiping-guoli-yizhuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "杭州国立艺专",
+    "target_ref": "04-knowledge/units/institutions/hangzhou-guoli-yizhuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "无锡、大连、北京、西北轻工学院",
+    "target_ref": "04-knowledge/units/institutions/qinggongbu-qinggong-xueyuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-95",
+    "merged_candidates": []
+  },
+  {
+    "entity": "大生纱厂",
+    "target_ref": "04-knowledge/units/institutions/dasheng-shachang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-137",
+    "merged_candidates": []
+  },
+  {
+    "entity": "伊文思图书公司",
+    "target_ref": "04-knowledge/units/institutions/yiwensi-tushu-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-165",
+    "merged_candidates": []
+  }
+]

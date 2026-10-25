@@ -1,0 +1,66 @@
+[
+  {
+    "entity": "元代画局",
+    "target_ref": "04-knowledge/units/institutions/yuan-dai-huaju.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-06",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武英殿修书处",
+    "target_ref": "04-knowledge/units/institutions/wuyingdian-xiushuchu.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "湖南瓷业公司",
+    "target_ref": "04-knowledge/units/institutions/hunan-ciye-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-14",
+    "merged_candidates": []
+  },
+  {
+    "entity": "继昌隆缫丝厂",
+    "target_ref": "04-knowledge/units/institutions/jichanglong-sichang.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海机器织布局",
+    "target_ref": "04-knowledge/units/institutions/shanghai-jiqi-zhibuju.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "景德镇瓷业公司（江西瓷业公司）",
+    "target_ref": "04-knowledge/units/institutions/jingdezhen-ciye-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-36",
+    "merged_candidates": []
+  },
+  {
+    "entity": "点石斋石印局",
+    "target_ref": "04-knowledge/units/institutions/dian-shizhai.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-37",
+    "merged_candidates": []
+  },
+  {
+    "entity": "奇异公司",
+    "target_ref": "04-knowledge/units/institutions/qiyi-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "两江师范学堂图画手工科",
+    "target_ref": "04-knowledge/units/institutions/liangjiang-shifan-xuetang.md",
+    "action": "update",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-22",
+    "merged_candidates": [],
+    "note": "候选“两江师范学堂图画手工科”以既有两江师范学堂 KU 为落点；补入高丰 2004 的设科程序、科目结构、两届招生与毕业生，保留李立新“1906 设科”、赵农“1905 开课”的层面差异。"
+  }
+]

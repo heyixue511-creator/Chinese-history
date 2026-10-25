@@ -1,0 +1,40 @@
+[
+  {
+    "entity": "汉代官营丝织作坊",
+    "target_ref": "04-knowledge/units/institutions/han-dai-guan-ying-sizhi-zuofang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-20",
+    "merged_candidates": []
+  },
+  {
+    "entity": "全国高校工业设计学会",
+    "target_ref": "04-knowledge/units/institutions/quanguo-gaoxiao-gongye-sheji-xuehui.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代官营漆器作坊",
+    "target_ref": "04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-37",
+    "merged_candidates": [],
+    "note": "既有 KU 已据夏燕靖 2016 升级版覆盖 2009 L1516-L1518 的全部语义：秦代设官府管理的漆器作坊、汉代中央到郡国设作坊官员、山东河南陕西江苏广东广西分布、漆器商品化、蜀郡广汉郡著名、金属铸器铭文记录地点年代工序工官、六至八道工序、金银扣器价值十倍；2009 为同一作者较早版本，无新增语义"
+  },
+  {
+    "entity": "西夏刻字司",
+    "target_ref": "04-knowledge/units/institutions/kezisi.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-14",
+    "merged_candidates": [],
+    "note": "既有 KU 已据夏燕靖 2016 升级版覆盖 2009 L2874 的全部语义：朝廷设刻字司专印书籍、佛经最多、兼刻文学法律医术日历卜筮咒文、西夏活字印本与西传桥梁推见；2009 为同一作者较早版本，无新增语义"
+  },
+  {
+    "entity": "中央手工业管理局",
+    "target_ref": "04-knowledge/units/institutions/zhongyang-shougongye-guanliju.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-54",
+    "merged_candidates": [],
+    "note": "既有 KU 已据夏燕靖 2016 升级版覆盖 2009 L4550-L4568 的全部语义：1954 年 12 月 8 日中央手工业管理局成立、之后举行第四次全国手工业生产合作会议；2016 另含 1955 年总社筹委会、1956 年毛泽东谈话、1960 年教育会议、1961 年恢复与 1965 年撤消改建；2009 为同一作者较早版本，无新增语义"
+  }
+]

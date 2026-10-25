@@ -1,0 +1,81 @@
+[
+  {
+    "entity": "国务院学位委员会",
+    "target_ref": "04-knowledge/units/institutions/guowuyuan-xuewei-weiyuanhui.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中央历史语言研究所",
+    "target_ref": "04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东南大学",
+    "target_ref": "04-knowledge/units/institutions/southeast-university.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-56",
+    "merged_candidates": [
+      "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-03"
+    ]
+  },
+  {
+    "entity": "瑞典远东古物博物馆",
+    "target_ref": "04-knowledge/units/institutions/swedish-museum-of-far-eastern-antiquities.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-91",
+    "merged_candidates": []
+  },
+  {
+    "entity": "正仓院",
+    "target_ref": "04-knowledge/units/institutions/shosoin.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋代宫廷画院",
+    "target_ref": "04-knowledge/units/institutions/song-dai-huayuan.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "清江船厂",
+    "target_ref": "04-knowledge/units/institutions/qingjiang-chuanchang.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "成衣公所",
+    "target_ref": "04-knowledge/units/institutions/chengyi-gongsuo.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江南制造局",
+    "target_ref": "04-knowledge/units/institutions/jiangnan-zhizao-zongju.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-17",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国商业美术作家协会",
+    "target_ref": "04-knowledge/units/institutions/china-commercial-art-writers-association.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-25",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宫廷玻璃厂",
+    "target_ref": "04-knowledge/units/institutions/neiwufu-zaobanchu.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-09",
+    "merged_candidates": []
+  }
+]

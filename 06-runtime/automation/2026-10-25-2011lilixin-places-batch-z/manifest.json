@@ -1,0 +1,181 @@
+{
+  "work_package": "2026-10-25-2011lilixin-places-batch-z",
+  "goal": "处理李立新《中国设计艺术史论》2011 册 place 候选 25 个：21 个新建、3 个更新、1 个 no_delta、0 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:39f64e7d09fa93c28f0c8598fb85dbe77cb6e4df03d5d3d2025bdafa437841f0",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 933,
+        "needs_evidence": 3537,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        "L318-L319",
+        "L326-L328",
+        "L421",
+        "L421-L427",
+        "L495-L504",
+        "L540",
+        "L635",
+        "L640",
+        "L642",
+        "L651-L658",
+        "L685-L688",
+        "L701",
+        "L704",
+        "L757",
+        "L773-L775",
+        "L786",
+        "L814",
+        "L863-L871",
+        "L916",
+        "L964-L1028",
+        "L1070-L1071",
+        "L1447-L1454",
+        "L1658",
+        "L1681-L1683",
+        "L1755-L1757"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "place 候选先与既有 41 个 place KU 对账，再定 create／update／no_delta／rejected。",
+      "唐长安城判 update 既有 `places/daxing-cheng.md`：大兴城为唐长安城前身与同城异名，不新建 `tang-changancheng.md`；补李立新图注明德门中轴、100多个坊市与“规模最大”判断，source_count 2→3、version 1→2。",
+      "殷墟妇好墓判 update 既有 `places/fuhao-tomb.md`：补李立新 755 件玉器与刮摩治玉技术判断；赵农 426 件与李立新 755 件数目不同，统计口径未明，两说并列不改数。",
+      "马王堆一号汉墓判 update 既有 `places/mawangdui-hanmu.md`：补李立新成套漆食具与耳杯盒；原文“耳环”按器物组合疑为“耳杯”，照录并标疑。",
+      "法门寺塔基地宫与法门寺地宫两个候选同指一地：以 `cand-03-30` 为 canonical 新建 `famen-si-digong.md`，两段内容合并写入；`cand-05-08` 判 no_delta 并记入 `merged_candidates`。",
+      "其余 18 个候选按遗址／地点实体新建；图注单条、单句列举或地点宽泛者 confidence 定 low，器物与判断较完整者定 medium；全部 consensus 为 tentative，不评 L1–L7。",
+      "place 的 sub_type 使用 archaeological_site、garden、geographical_region；所在地与年代只写来源可证者，来源未记者不据来源外常识补写。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/places；不 commit、不 push。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-places-batch-z\\apply-plan.jsonl",
+      "rows": 24,
+      "create": 21,
+      "update": 3
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-places-batch-z\\candidate-decision-ledger.jsonl",
+      "rows": 75,
+      "candidates": 25,
+      "applied": 24,
+      "no_delta": 1,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-places-batch-z\\canonical-mapping.json",
+      "entries": 24,
+      "merged_candidates": [
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-08"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 957,
+    "needs_evidence": 3512,
+    "no_delta": 58,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 75,
+      "candidates": 25,
+      "final_applied": 24,
+      "final_no_delta": 1,
+      "final_rejected": 0,
+      "plan_rows": 24,
+      "create": 21,
+      "update": 3,
+      "merged_candidates": 1,
+      "fingerprints_verified": 24,
+      "mapping_entries": 24,
+      "place_files": 62,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 848,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 848,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/848",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "848/848",
+      "events": 115,
+      "institutions": 144,
+      "places": 62,
+      "persons": 74,
+      "procedures": 121,
+      "publications": 68,
+      "terms": 192,
+      "works": 72
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 848,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:f5e45108c46288cc74c368add37cfa0f1bb037c70cdbad84caaa4a1dd3d5dba7",
+      "counts": {
+        "applied": 957,
+        "needs_evidence": 3512,
+        "no_delta": 58,
+        "rejected": 812
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "薄肉雕",
+    "target_ref": "04-knowledge/units/procedures/bo-rou-diao.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "灌钢法",
+    "target_ref": "04-knowledge/units/procedures/guan-gang-fa.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-57",
+    "merged_candidates": []
+  },
+  {
+    "entity": "拓本",
+    "target_ref": "04-knowledge/units/procedures/ta-ben.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "活字印刷",
+    "target_ref": "04-knowledge/units/procedures/huozi-yinshua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-146",
+    "merged_candidates": []
+  },
+  {
+    "entity": "覆烧法",
+    "target_ref": "04-knowledge/units/procedures/fu-shao-fa.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-132",
+    "merged_candidates": []
+  },
+  {
+    "entity": "造甲",
+    "target_ref": "04-knowledge/units/procedures/zao-jia.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-205",
+    "merged_candidates": []
+  },
+  {
+    "entity": "造剑",
+    "target_ref": "04-knowledge/units/procedures/zao-jian.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-206",
+    "merged_candidates": []
+  },
+  {
+    "entity": "套色印刷",
+    "target_ref": "04-knowledge/units/procedures/tao-se-yinshua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-14",
+    "merged_candidates": []
+  }
+]

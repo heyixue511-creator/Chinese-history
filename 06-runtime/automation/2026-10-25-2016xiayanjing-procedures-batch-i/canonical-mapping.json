@@ -1,0 +1,103 @@
+[
+  {
+    "entity": "榫卯结构",
+    "target_ref": "04-knowledge/units/procedures/sunmao-jiegou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-74",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浑铸法",
+    "target_ref": "04-knowledge/units/procedures/hunzhu-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "焚失法",
+    "target_ref": "04-knowledge/units/procedures/fenshi-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-24",
+    "merged_candidates": []
+  },
+  {
+    "entity": "排橐鼓风",
+    "target_ref": "04-knowledge/units/procedures/paituo-gufeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "车轮检测法",
+    "target_ref": "04-knowledge/units/procedures/chelun-jiance-fa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "叠铸技术",
+    "target_ref": "04-knowledge/units/procedures/diezhu-jishu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-97",
+    "merged_candidates": []
+  },
+  {
+    "entity": "水力鼓风冶铁",
+    "target_ref": "04-knowledge/units/procedures/shuili-gufeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-98",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石器打制三法",
+    "target_ref": "04-knowledge/units/procedures/shiqi-dazhi-sanfa.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "磨制石器",
+    "target_ref": "04-knowledge/units/procedures/mozhi-shiqi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-29",
+    "merged_candidates": []
+  },
+  {
+    "entity": "生铁柔化技术",
+    "target_ref": "04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "染色",
+    "target_ref": "04-knowledge/units/procedures/dyeing.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "轮制法（Wheel Throwing）",
+    "target_ref": "04-knowledge/units/procedures/lunzhi-fa.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-39",
+    "merged_candidates": [],
+    "note": "2016 升级版同段与 2009 版基本一致，既有 KU 已据 2009 版完整收录轮制工序、慢轮与器物特征，无新增语义"
+  },
+  {
+    "entity": "合范法（Piece-Mold Casting）",
+    "target_ref": "04-knowledge/units/procedures/hefan-fa.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-19",
+    "merged_candidates": [],
+    "note": "2016 升级版同段与 2009 版基本一致，既有 KU 已据 2009 版及田自秉、李立新完整收录合范工序，无新增语义"
+  },
+  {
+    "entity": "印纹（模印）装饰（Stamp Impression Decoration）",
+    "target_ref": "04-knowledge/units/procedures/yin-wen-mo-yin.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-73",
+    "merged_candidates": [],
+    "note": "2016 升级版同段与 2009 版基本一致，既有 KU 已据 2009 版及田自秉完整收录印纹工序与纹样格式演变，无新增语义"
+  }
+]

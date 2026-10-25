@@ -1,0 +1,96 @@
+[
+  {
+    "entity": "商代王室制陶作坊",
+    "target_ref": "04-knowledge/units/institutions/shang-royal-pottery-workshop.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-39",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周代制陶职官",
+    "target_ref": "04-knowledge/units/institutions/zhou-pottery-officials.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周代染人与掌染草",
+    "target_ref": "04-knowledge/units/institutions/zhou-ranren-zhangrancao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-85",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-143",
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-144"
+    ]
+  },
+  {
+    "entity": "长安东、西织室",
+    "target_ref": "04-knowledge/units/institutions/dongxi-zhishi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-110",
+    "merged_candidates": []
+  },
+  {
+    "entity": "稷下学宫",
+    "target_ref": "04-knowledge/units/institutions/jixia-xuegong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "秦代工室与工官",
+    "target_ref": "04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "秦汉官营陶窑",
+    "target_ref": "04-knowledge/units/institutions/qin-han-guan-ying-tao-yao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-02",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代漆器作坊官员",
+    "target_ref": "04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "工部",
+    "target_ref": "04-knowledge/units/institutions/gongbu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-110",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中尚署",
+    "target_ref": "04-knowledge/units/institutions/zhongshang-shu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-111",
+    "merged_candidates": []
+  },
+  {
+    "entity": "太府寺",
+    "target_ref": "04-knowledge/units/institutions/taifu-si.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-14",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西夏官营手工业机构",
+    "target_ref": "04-knowledge/units/institutions/xi-xia-guan-ying-shou-gong-ye-jigou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "染织署",
+    "target_ref": "04-knowledge/units/institutions/zhiranshu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-44",
+    "merged_candidates": []
+  }
+]

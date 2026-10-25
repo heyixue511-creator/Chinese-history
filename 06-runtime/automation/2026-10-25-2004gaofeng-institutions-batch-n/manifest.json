@@ -1,0 +1,153 @@
+{
+  "work_package": "2026-10-25-2004gaofeng-institutions-batch-n",
+  "goal": "处理高丰《中国设计史》2004 册 institution 候选 9 个：8 个新建、1 个更新、0 个 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:502e105303bc01eb6092553db1e3d433ae2a1353d2ba241f973ab3f646469e6e",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 837,
+        "needs_evidence": 3643,
+        "no_delta": 52,
+        "rejected": 807
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        "L3558",
+        "L5161",
+        "L5239",
+        "L5243",
+        "L5245",
+        "L5247",
+        "L5261-L5268",
+        "L5461"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体而非 slug 对账：先与既有 institution KU 的标题、别名和正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“两江师范学堂图画手工科”以既有两江师范学堂 KU 为落点：高丰 2004 补出李瑞清呈准学部、主副科结构、两届招生与毕业生，判 update；李立新 1906 设科、赵农 1905 开课并录。",
+      "候选“元代画局”按官方设计机构立目：只设计不制作、工匠百余户、包揽各局院产品设计均入本体，不写成将作院制度通史。",
+      "候选“武英殿修书处”按清代内府出版机构立目：三朝 500 余种、金简主持枣木活字 25.3 万个、《武英殿珍版丛书》134 种 2389 卷均入本体。",
+      "候选“湖南瓷业公司”“景德镇瓷业公司”分别立目：前者以学校—公司—釉下花瓷为主线，后者以本厂守旧、分厂试验的双轨结构为主线，不互相替代。",
+      "候选“继昌隆缫丝厂”“上海机器织布局”按企业本体立目：前者记法国蒸气加热与直缫坐缫机，后者记英美机器与 1890 开机，不写成近代纺织通史。",
+      "候选“点石斋石印局”“奇异公司”按机构本体立目：只写来源给出的创设年份、创办者国籍、动力、工人数、业务或产品定位，不补英文原名与母子公司关系。",
+      "来源内部异文（“奇异公司”与 General Electric 的关系、“拟用机器制瓷”是否落实）保留为未释或待核，不推定。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，8 条新建、1 条更新。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-institutions-batch-n\\apply-plan.jsonl",
+      "rows": 9,
+      "create": 8,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-institutions-batch-n\\candidate-decision-ledger.jsonl",
+      "rows": 27,
+      "candidates": 9,
+      "applied": 9,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-institutions-batch-n\\canonical-mapping.json",
+      "entries": 9,
+      "merged_candidates": []
+    }
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 27,
+      "candidates": 9,
+      "final_applied": 9,
+      "final_no_delta": 0,
+      "final_rejected": 0,
+      "plan_rows": 9,
+      "create": 8,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 9,
+      "mapping_entries": 9,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 754,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 754,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/754",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "754/754",
+      "events": 115,
+      "institutions": 73
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 754
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:160a6fa5552b9eb4c67225576d189b4e1610cfb7f25a9ae122203442b06e0cc1",
+      "counts": {
+        "applied": 846,
+        "needs_evidence": 3634,
+        "no_delta": 52,
+        "rejected": 807
+      }
+    }
+  },
+  "state_after": {
+    "applied": 846,
+    "needs_evidence": 3634,
+    "no_delta": 52,
+    "rejected": 807,
+    "total": 5339
+  }
+}

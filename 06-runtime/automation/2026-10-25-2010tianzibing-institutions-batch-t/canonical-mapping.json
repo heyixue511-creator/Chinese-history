@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "尚方",
+    "target_ref": "04-knowledge/units/institutions/shangfang.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "长安东、西织室",
+    "target_ref": "04-knowledge/units/institutions/dongxi-zhishi.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蜀郡、成都、广汉郡工官",
+    "target_ref": "04-knowledge/units/institutions/shujun-chengdu-guanghanjun-gongguan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-07",
+    "merged_candidates": []
+  },
+  {
+    "entity": "暴室",
+    "target_ref": "04-knowledge/units/institutions/baoshi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "平准令",
+    "target_ref": "04-knowledge/units/institutions/pingzhunling.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代漆器作坊官员",
+    "target_ref": "04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "严道木官",
+    "target_ref": "04-knowledge/units/institutions/yandao-muguan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南朝染署",
+    "target_ref": "04-knowledge/units/institutions/nanchao-ranshu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-06",
+    "merged_candidates": []
+  }
+]

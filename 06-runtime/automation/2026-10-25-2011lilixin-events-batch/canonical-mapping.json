@@ -1,0 +1,82 @@
+[
+  {
+    "entity": "东南大学设立我国第一个艺术学系",
+    "target_ref": "04-knowledge/units/events/dongnan-daxue-yishuxuexi-1994.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "研究生专业目录以“设计艺术学”取代“工艺美术学”",
+    "target_ref": "04-knowledge/units/events/sheji-yishuxue-1998.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "佛教传入中国",
+    "target_ref": "04-knowledge/units/events/fojiao-chuanru-zhongguo.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-79",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北魏孝文帝奖劝农桑",
+    "target_ref": "04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-80",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋代宫廷画院设立",
+    "target_ref": "04-knowledge/units/events/song-dai-huayuan-sheli.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "徐寿、华衡芳研制中国第一部蒸汽机",
+    "target_ref": "04-knowledge/units/events/xu-shou-hua-hengfang-zhengqi-ji.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王子朝事件",
+    "target_ref": "04-knowledge/units/events/wangzichao-shijian.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-36",
+    "merged_candidates": []
+  },
+  {
+    "entity": "李立新博士论文答辩",
+    "target_ref": "04-knowledge/units/events/li-lixin-doctoral-defense-2002.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北魏孝文帝、孝明帝服饰改制",
+    "target_ref": "04-knowledge/units/events/xiaomingdi-fushi-gaige.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-121",
+    "merged_candidates": [],
+    "note": "补入李立新 2011 所记孝文帝制订朝服吸收熟悉南朝典制者参与设计、孝明帝改制后服饰趋向博大程度超过南朝、胡服后演变为隋唐流行服装；候选兼含两帝，孝文帝整体汉化另见 events/xiao-wen-gai-zhi.md。"
+  },
+  {
+    "entity": "1987 年法门寺塔基地宫发现十三件秘色瓷",
+    "target_ref": "04-knowledge/units/terms/mise-porcelain.md",
+    "action": "no_delta",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-81",
+    "merged_candidates": [],
+    "note": "既有 term KU 已记 1987 年法门寺地宫发现、李立新“十三件”说与三说并存，并已引李立新 2011 原文。"
+  },
+  {
+    "entity": "《天工开物》成书（1636 年）",
+    "target_ref": "04-knowledge/units/publications/tiangong-kaiwu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-83",
+    "merged_candidates": [],
+    "note": "既有 publication KU 已记李立新作 1636 年撰成、与高丰与夏燕靖 1637 年刊行说并列，并已引李立新 2011。"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "entity": "建华瓷厂",
+    "target_ref": "04-knowledge/units/institutions/jianhua-cichang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "解放区第一个陶瓷研究所",
+    "target_ref": "04-knowledge/units/institutions/jiefangqu-diyige-taoci-yanjiusuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-83",
+    "merged_candidates": []
+  },
+  {
+    "entity": "延安玻璃厂",
+    "target_ref": "04-knowledge/units/institutions/yanan-bolichang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "云锦研究所",
+    "target_ref": "04-knowledge/units/institutions/nanjing-yunjin-yanjiusuo.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-81",
+    "merged_candidates": []
+  },
+  {
+    "entity": "苏州刺绣研究所",
+    "target_ref": "04-knowledge/units/institutions/suzhou-cixiu-yanjiusuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北京珐琅厂",
+    "target_ref": "04-knowledge/units/institutions/beijing-falangchang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-14",
+    "merged_candidates": []
+  },
+  {
+    "entity": "广东南海藤厂",
+    "target_ref": "04-knowledge/units/institutions/guangdong-nanhai-tengchang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-16",
+    "merged_candidates": []
+  }
+]

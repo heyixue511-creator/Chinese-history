@@ -1,0 +1,160 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-institutions-batch-u",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册 institution 候选 10 个：6 个新建、3 个更新、0 个 no_delta、1 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:05dd4761a548d3bdf08e6cb7516d57135ad2f5e2263a6f836a6c2de4290ce6cc",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 895,
+        "needs_evidence": 3578,
+        "no_delta": 56,
+        "rejected": 810
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L2918",
+        "L3388-L3392",
+        "L3488",
+        "L3494",
+        "L3693",
+        "L3792-L3794",
+        "L3830-L3832",
+        "L4030",
+        "L4036-L4042",
+        "L4072"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“后赵邺城织锦署”判 create：田自秉 L2918 引《邺中记》记后赵邺城织锦署及锦名、色名；与东晋锦署同名异实，`institutions/jinshu.md` 已将其作为对照，本条不并入东晋锦署。",
+      "候选“正仓院（日本）”判 rejected：L3392 与 L3388 都只把正仓院作唐代漆器的收藏地，未给机构沿革、职能、管理制度、隶属或院址，与“中国历史博物馆”同类。",
+      "候选“辽代绫锦院”判 update 既有 `institutions/lingjinyuan.md`：补田自秉 L3488 上京、祖州设院、灵锦显霸四州植桑麻、宜州织纴、对外赠与品种与赤峰辽墓织金丝织品；同名跨朝代合并条不拆。",
+      "候选“西夏官营手工业机构群”判 update 既有 `institutions/xi-xia-guan-ying-shou-gong-ye-jigou.md`：补田自秉 L3494 同一七机构清单、“出车（造车）院”异写、毡毯氆氇毛布与银川墓葬；不另立第八机构。",
+      "候选“瓷窑官”判 create：辽代因瓷业兴起设专管窑务的瓷窑官，引《宋会要辑稿》太平兴国四年事，作者判断设置当在太平兴国以前；窑场与“官”字款只作旁证，不推断瓷窑官驻窑。",
+      "候选“四川锦院”判 create：元丰六年建院、军匠 500 人、四类工种、织机 154 张、用丝与染料数、四类产品均明确；与汴梁绫锦院分条，不把“锦院”通名当作同一机构。",
+      "候选“绣院”判 create：宋代绣院 300 余人、神针、向画绣发展；来源作“绣院”，与“文绣院”是否同一机构未说明，不合并、不互训。",
+      "候选“建康织染局”判 update 既有 `institutions/jiankanglu-zhiranju.md`：补田自秉 L4030 同引《金陵新志》东织染局数字与元代设司／局背景；并录“三千六户／三千六百户”两写。",
+      "候选“纳失失局”判 create：弘州、荨麻林、别失八里、忽丹八里诸局；3,300 多户回族工匠；织染杂造人匠都总管府隶属；并录纳石失／纳失失／纳失思／纳克实与“畏兀兀”译名张力，不强行判定各局同级。",
+      "候选“木棉提举司”判 create：至元二十六年（1289）设于浙东、江东、江西、湖广、福建，以都提举司总管，每年上缴棉布 10 万匹；黄道婆条只作人物与技术传播背景，不并入。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，6 条新建、3 条更新、1 条 rejected。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-u\\apply-plan.jsonl",
+      "rows": 9,
+      "create": 6,
+      "update": 3
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-u\\candidate-decision-ledger.jsonl",
+      "rows": 28,
+      "candidates": 10,
+      "applied": 9,
+      "no_delta": 0,
+      "rejected": 1
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-u\\canonical-mapping.json",
+      "entries": 9,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 904,
+    "needs_evidence": 3568,
+    "no_delta": 56,
+    "rejected": 811,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 28,
+      "candidates": 10,
+      "final_applied": 9,
+      "final_no_delta": 0,
+      "final_rejected": 1,
+      "plan_rows": 9,
+      "create": 6,
+      "update": 3,
+      "merged_candidates": 0,
+      "fingerprints_verified": 9,
+      "mapping_entries": 9,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 803,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 803,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/803",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "803/803",
+      "events": 115,
+      "institutions": 122
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 803,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:85ff2f6b65cb718336440e288ff6f4a190decfd2975c2039c614899a5d9b18d9",
+      "counts": {
+        "applied": 904,
+        "needs_evidence": 3568,
+        "no_delta": 56,
+        "rejected": 811
+      }
+    }
+  }
+}

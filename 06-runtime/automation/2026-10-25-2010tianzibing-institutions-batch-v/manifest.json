@@ -1,0 +1,157 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-institutions-batch-v",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册 institution 候选 9 个：7 个新建、1 个更新、0 个 no_delta、1 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:85ff2f6b65cb718336440e288ff6f4a190decfd2975c2039c614899a5d9b18d9",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 904,
+        "needs_evidence": 3568,
+        "no_delta": 56,
+        "rejected": 811
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L4385-L4391",
+        "L4629-L4631",
+        "L4659",
+        "L4707-L4778",
+        "L4933",
+        "L4995",
+        "L5023-L5025"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“果园厂”判 create：田自秉 L4385-L4391 明言其为明代封建官营漆器生产机构，永乐时期设厂，张德刚、包亮掌理制漆技艺，出雕漆、填漆；高丰 L4626 补永乐迁都北京后设厂、《嘉兴府志》张德刚召入与嘉兴派／云南派风格。洪武南京漆园等与果园厂不是同一机构，不合并。",
+      "候选“苏州织造”判 rejected：田自秉 L4629-L4631 以“苏州的丝织”为主语，末句明言“苏州织造，虽只是一个地区产品”；全段只给产业数字、品种、纹样与补子等级，未给织造局／署的设置、隶属、设官、衙署、匠役、产量与管理制度，不足以立 institution 条目；相关数字已作为“三大织造中心”的对照保留在 `institutions/jiangning-zhizaoju.md`。",
+      "候选“吴彩霞绣坊”判 create：田自秉 L4659 记胡莲仙光绪年间在长沙司门口开设吴彩霞绣坊，湘绣之名渐为人知；魏氏共同提高技艺并在长沙近郊农村传授。绣坊坊名、开设者、时间、地点与作用明确，规模与存续缺失。",
+      "候选“造办处”判 update 既有 `institutions/neiwufu-zaobanchu.md`：补田自秉 L4707、L4729、L4743、L4747、L4778 的珐琅作康熙五十七年合并、画珐琅广东产地、造办处漆作、雕漆与玉器管理；不另建“珐琅作”“造办处漆作”薄条目。",
+      "候选“诸匠营”判 create：田自秉 L4933 记太平天国设诸匠营，按军制编组，列土营、木营、金匠营、织营、绣锦营、镌刻营等；与百工衙并列，不合并。",
+      "候选“百工衙”判 create：田自秉 L4933 记百工衙分服用、建筑、日用品、印刷、美术五类，列各衙名；与诸匠营并列，不合并；并录“典织衙后改为织营”“绣锦衙／绣锦营”两处交叉线索，不据名强行归一。",
+      "候选“中国纺织建设公司”判 create：田自秉 L4995 只一句，记抗战胜利后江南较大棉纺织业为四大家族“中国纺织建设公司”所垄断；名称、时期、性质与垄断对象明确，组织细节全缺，confidence 定为 low。",
+      "候选“中国蚕丝公司”判 create：田自秉 L4995 只一句，记江浙丝绸敌伪时为“中支蚕丝组织”掠夺，抗战胜利后为国民党“中国蚕丝公司”垄断，盛泽产丝区没落；两主体先后并列，来源未说明接收或继承关系，confidence 定为 low。",
+      "候选“桥儿沟陶瓷厂”判 create：田自秉 L5023-L5025 引 1944 年 5 月 13 日《解放日报》记桥儿沟陶瓷厂用石膏模型、改造窑炉、出品近 200 种、能制白瓷杯碟、原料为本地瓷土，中共七大代表用其茶具；与子长瓷窑、建华瓷厂、磁州陶瓷研究所分条。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，7 条新建、1 条更新、1 条 rejected。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-v\\apply-plan.jsonl",
+      "rows": 8,
+      "create": 7,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-v\\candidate-decision-ledger.jsonl",
+      "rows": 25,
+      "candidates": 9,
+      "applied": 8,
+      "no_delta": 0,
+      "rejected": 1
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-v\\canonical-mapping.json",
+      "entries": 8,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 912,
+    "needs_evidence": 3559,
+    "no_delta": 56,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 25,
+      "candidates": 9,
+      "final_applied": 8,
+      "final_no_delta": 0,
+      "final_rejected": 1,
+      "plan_rows": 8,
+      "create": 7,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 8,
+      "mapping_entries": 8,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 810,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 810,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/810",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "810/810",
+      "events": 115,
+      "institutions": 129
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 810,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:0f317aa0940599417617c2dbf16b5abba561d4d258d564a005dac5889366553a",
+      "counts": {
+        "applied": 912,
+        "needs_evidence": 3559,
+        "no_delta": 56,
+        "rejected": 812
+      }
+    }
+  }
+}

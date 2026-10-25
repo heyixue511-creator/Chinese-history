@@ -1,0 +1,149 @@
+{
+  "work_package": "2026-10-25-2004gaofeng-procedures-batch",
+  "goal": "处理高丰《中国设计史》2004 册的 5 个 procedure 候选：4 个新建 procedure KU，1 个补入既有雕版印刷 KU；无 no_delta、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:3a715412cd64619e7787b9e749c77955a1aabf7b1f5da627bc744bcb38262bb0",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 662,
+        "needs_evidence": 3833,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        "L3102-L3118",
+        "L3692-L3697",
+        "L2181",
+        "L5174"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "既有同题 KU 可承载但缺高丰 2004 记载的判 update；无对应实体的判 create。",
+      "工序条目只写来源所记材料、步骤、工具、产量与实例；来源未载的工序参数写入证据边界。",
+      "来源的判断与推测照录并标明主语，不提升为定论。",
+      "同一来源行同时记两种工艺的，分建两条并在相关知识元互指，不合并为一条。"
+    ],
+    "source_policy": "02-sources 只读；本批写 04-knowledge/units/procedures，并对既有 procedure KU 补入高丰来源。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-procedures-batch\\apply-plan.jsonl",
+      "rows": 5,
+      "create": 4,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-procedures-batch\\candidate-decision-ledger.jsonl",
+      "rows": 15,
+      "candidates": 5,
+      "applied": 5,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2004gaofeng-procedures-batch\\canonical-mapping.json",
+      "entries": 5
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 15,
+      "candidates": 5,
+      "final_applied": 5,
+      "plan_rows": 5,
+      "create": 4,
+      "update": 1,
+      "fingerprints_verified": 5,
+      "mapping_entries": 5,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 613,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "rule_authority": "20/20",
+      "frontmatter": "20/20",
+      "verification_semantics": "20/20",
+      "traceability": "7/15",
+      "data_flow": "10/10",
+      "report_freshness": "10/10",
+      "engineering_safety": "5/5",
+      "knowledge_units": 613,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/613",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "613/613",
+      "events": 115,
+      "procedures": 16
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 613
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "17/19",
+      "status": "blocked",
+      "reason": "工作树有 9 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 9
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 266,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:d7c810b762cf18d89acaa6a3c672ca8c68981447cab53063fac8663dfc89213f",
+      "counts": {
+        "applied": 667,
+        "needs_evidence": 3828,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    }
+  },
+  "state_after": {
+    "applied": 667,
+    "needs_evidence": 3828,
+    "no_delta": 43,
+    "rejected": 801,
+    "total": 5339
+  }
+}

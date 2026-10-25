@@ -1,0 +1,65 @@
+[
+  {
+    "entity": "后赵邺城织锦署",
+    "target_ref": "04-knowledge/units/institutions/houzhao-yecheng-zhijinshu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-07",
+    "merged_candidates": []
+  },
+  {
+    "entity": "辽代绫锦院",
+    "target_ref": "04-knowledge/units/institutions/lingjinyuan.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西夏官营手工业机构群",
+    "target_ref": "04-knowledge/units/institutions/xi-xia-guan-ying-shou-gong-ye-jigou.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "瓷窑官",
+    "target_ref": "04-knowledge/units/institutions/ciyaoguan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-95",
+    "merged_candidates": []
+  },
+  {
+    "entity": "四川锦院",
+    "target_ref": "04-knowledge/units/institutions/sichuan-jinyuan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "绣院",
+    "target_ref": "04-knowledge/units/institutions/xiuyuan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "建康织染局",
+    "target_ref": "04-knowledge/units/institutions/jiankanglu-zhiranju.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "纳失失局",
+    "target_ref": "04-knowledge/units/institutions/nashishiju.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "木棉提举司",
+    "target_ref": "04-knowledge/units/institutions/mumian-tijusi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-72",
+    "merged_candidates": []
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "work_package": "2026-10-25-2009xiayanjing-institutions-batch-o",
+  "goal": "处理夏燕靖《中国设计史》2009 册 institution 候选 5 个：2 个新建、0 个更新、3 个 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:160a6fa5552b9eb4c67225576d189b4e1610cfb7f25a9ae122203442b06e0cc1",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 846,
+        "needs_evidence": 3634,
+        "no_delta": 52,
+        "rejected": 807
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        "L1405-L1416",
+        "L1516-L1518",
+        "L2874",
+        "L4550-L4568",
+        "L4824"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体而非 slug 对账：先与既有 institution KU 的标题、别名和正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“汉代官营丝织作坊”按官营生产网络合并立目：承载作坊规模、提花织机、织物品种、成都蜀锦集散、长安东、西织室、临淄与襄邑服官及产品流向；东、西织室与三服官已有独立 KU，本条不重复其制度细节。",
+      "候选“汉代官营漆器作坊”判 no_delta：既有 han-dai-qiqi-zuofang-guan-yuan.md 已据 2016 升级版完整覆盖 2009 同段全部语义；2009 为同一作者较早版本，无新增语义。",
+      "候选“西夏刻字司”判 no_delta：既有 kezisi.md 已据 2016 升级版完整覆盖 2009 同段，包括佛经最多、书籍门类、活字印本与西传桥梁推见。",
+      "候选“中央手工业管理局”判 no_delta：既有 zhongyang-shougongye-guanliju.md 已据 2016 升级版覆盖 2009 的 1954 年成立与第四次全国手工业生产合作会议，并另含后续沿革。",
+      "候选“全国高校工业设计学会”按 professional_society 立目：只登记 1985 年 3 月 2—6 日在北京成立及第一次全国工业设计教育学术交流会；成立大会另见 events/industrial-design-society-1985.md，两条并存不互相替代。",
+      "2009 夏燕靖与 2016 夏燕靖为同一作者的前后版本；对 2016 已覆盖而 2009 无新增语义的候选，不重复立目，判 no_delta 并在 mapping 说明中登记。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，2 条新建、0 条更新。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-institutions-batch-o\\apply-plan.jsonl",
+      "rows": 2,
+      "create": 2,
+      "update": 0
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-institutions-batch-o\\candidate-decision-ledger.jsonl",
+      "rows": 15,
+      "candidates": 5,
+      "applied": 2,
+      "no_delta": 3,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-institutions-batch-o\\canonical-mapping.json",
+      "entries": 5,
+      "merged_candidates": []
+    }
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 15,
+      "candidates": 5,
+      "final_applied": 2,
+      "final_no_delta": 3,
+      "final_rejected": 0,
+      "plan_rows": 2,
+      "create": 2,
+      "update": 0,
+      "merged_candidates": 0,
+      "fingerprints_verified": 2,
+      "mapping_entries": 5,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 756,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 756,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/756",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "756/756",
+      "events": 115,
+      "institutions": 75
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 756,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:701e4dace6ff5b09abc52578683f7e384f3834f695e5410f962ce74ac2bf4a9c",
+      "counts": {
+        "applied": 848,
+        "needs_evidence": 3629,
+        "no_delta": 55,
+        "rejected": 807
+      }
+    }
+  },
+  "state_after": {
+    "applied": 848,
+    "needs_evidence": 3629,
+    "no_delta": 55,
+    "rejected": 807,
+    "total": 5339
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "entity": "苏州网师园",
+    "target_ref": "04-knowledge/units/places/suzhou-wangshiyuan.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "奥杜韦峡谷",
+    "target_ref": "04-knowledge/units/places/olduvai-gorge.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "甘肃庆阳",
+    "target_ref": "04-knowledge/units/places/gansu-qingyang.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-158",
+    "merged_candidates": []
+  },
+  {
+    "entity": "薛家岗遗址",
+    "target_ref": "04-knowledge/units/places/xuejiagang-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "火烧沟遗址",
+    "target_ref": "04-knowledge/units/places/huoshaogou-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "张家坡遗址",
+    "target_ref": "04-knowledge/units/places/zhangjiapo-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-157",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西水坡遗址",
+    "target_ref": "04-knowledge/units/places/xishuipo-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-46",
+    "merged_candidates": []
+  },
+  {
+    "entity": "包山楚墓",
+    "target_ref": "04-knowledge/units/places/baoshan-chumu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江陵马山一号楚墓",
+    "target_ref": "04-knowledge/units/places/jiangling-mashan-yihao-chumu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-156",
+    "merged_candidates": []
+  },
+  {
+    "entity": "子弹库楚墓",
+    "target_ref": "04-knowledge/units/places/zidanku-chumu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "荣成松郭家村遗址",
+    "target_ref": "04-knowledge/units/places/rongcheng-songguojia-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-78",
+    "merged_candidates": []
+  },
+  {
+    "entity": "长沙伍家岭",
+    "target_ref": "04-knowledge/units/places/changsha-wujialing.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武梁祠",
+    "target_ref": "04-knowledge/units/places/wuliangci.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "阿斯塔那古墓",
+    "target_ref": "04-knowledge/units/places/asitana-gumu.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "孔望山摩崖造像",
+    "target_ref": "04-knowledge/units/places/kongwangshan-moya-zaoxiang.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "尼雅遗址",
+    "target_ref": "04-knowledge/units/places/niya-site.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-29",
+    "merged_candidates": []
+  },
+  {
+    "entity": "法门寺塔基地宫",
+    "target_ref": "04-knowledge/units/places/famen-si-digong.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-30",
+    "merged_candidates": [
+      "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-08"
+    ]
+  },
+  {
+    "entity": "嘉兴西塘扬汇",
+    "target_ref": "04-knowledge/units/places/jiaxing-xitang-yanghui.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "岐山凤雏村西周建筑遗址",
+    "target_ref": "04-knowledge/units/places/qishan-fengchucun-yizhi.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "山东博山",
+    "target_ref": "04-knowledge/units/places/shandong-boshan.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-07",
+    "merged_candidates": []
+  },
+  {
+    "entity": "花厅墓地",
+    "target_ref": "04-knowledge/units/places/huating-mudi.md",
+    "action": "create",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-20",
+    "merged_candidates": []
+  },
+  {
+    "entity": "唐长安城",
+    "target_ref": "04-knowledge/units/places/daxing-cheng.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "殷墟妇好墓",
+    "target_ref": "04-knowledge/units/places/fuhao-tomb.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马王堆一号汉墓",
+    "target_ref": "04-knowledge/units/places/mawangdui-hanmu.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-95",
+    "merged_candidates": []
+  }
+]

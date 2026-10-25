@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:22b6b77f8c42067347a39820790279eb03418e324a056fea9ba382e448d95bdd",
+  "baseline_input_fingerprint": "sha256:3eec0277360c72f463d93a5e81ad80593dcbd179a5da4e20bceeba1811b80d3d",
   "input_state": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
     "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
@@ -11,6 +11,41 @@
     "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/candidate-ledger.jsonl": "sha256:570a9f97940e9b65c36b00d1e9184b3630454fd6b2d918a81d02e16de919d34b",
     "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade/candidate-ledger.jsonl": "sha256:d92e5a13be4024ac622f79cc9a888f46b469059565ef4e8ea8c03db961ab957b",
     "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88",
+    "06-runtime/automation/2026-10-25-2004gaofeng-institutions-batch-n/candidate-decision-ledger.jsonl": "sha256:c3797891ab065cf679993af94d99bf39b6920e16f1096ba01110bab7872b81cf",
+    "06-runtime/automation/2026-10-25-2004gaofeng-procedures-batch/candidate-decision-ledger.jsonl": "sha256:77dbdeb1e42cce061dba64904ecc0817c30dbfdb5acc7f7c113fd529f44475dc",
+    "06-runtime/automation/2026-10-25-2009xiayanjing-events-batch/candidate-decision-ledger.jsonl": "sha256:ccacded420b3ddeccf7af2650ff1e15a87cc18cdc879b12ad0379c22dc4b36d8",
+    "06-runtime/automation/2026-10-25-2009xiayanjing-institutions-batch-o/candidate-decision-ledger.jsonl": "sha256:cfcaabbf0679072e587d2cf041718685c72d84d79cf374573c850b16a3d8c298",
+    "06-runtime/automation/2026-10-25-2009xiayanjing-procedures-batch-1/candidate-decision-ledger.jsonl": "sha256:bd1d7cbfdf70c2f24d7ec7f5952ed784a12c4c72c171227771c7168ca508a152",
+    "06-runtime/automation/2026-10-25-2009xiayanjing-procedures-batch-2/candidate-decision-ledger.jsonl": "sha256:9d2c1e69beb31a63bc621262e30e1a7981cae4f44ab82fec3af0eca4a60bde49",
+    "06-runtime/automation/2026-10-25-2009zhaonong-events-batch/candidate-decision-ledger.jsonl": "sha256:960149a830cd8899ce605d60fae774be6048933f6d44d54033612a4473cfc41d",
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-p/candidate-decision-ledger.jsonl": "sha256:f5f6d4a72a8cd7caca40b381fa98af4c3f7dde94e1ed69aa3e3f8d54c8d837c3",
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-q/candidate-decision-ledger.jsonl": "sha256:e0f8e24dc094fdc39b32b22b9f522c85a794edc5416eb1eef45ddfed850a6e8f",
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-r/candidate-decision-ledger.jsonl": "sha256:6ecf4905d69f8c1f361578781ef74796a013c5b9987b9f2ce969178a4b67b802",
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-s/candidate-decision-ledger.jsonl": "sha256:898652862cbb4c8c7e69d23fd1cc1e8813ad8009c1aa154ee809d8db42d2eeb3",
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-a/candidate-decision-ledger.jsonl": "sha256:0ab40a5b20fc978512fd9e01ea6b6df205a4658ab712771da03e4e2d06c09d7a",
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-b/candidate-decision-ledger.jsonl": "sha256:2524bdf7a4593f82f29b7179e0b748b750bfb84c7fdb941f1ae8f1590800be38",
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-c/candidate-decision-ledger.jsonl": "sha256:61697a53a0cac4d21c3ddd714537118ae0e41d06a975110797ea5f390d628047",
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-d/candidate-decision-ledger.jsonl": "sha256:438c3cb35705cfef1b764cbc6084b24c345edb09f5273ca8345e622c26001f68",
+    "06-runtime/automation/2026-10-25-2010tianzibing-events-batch/candidate-decision-ledger.jsonl": "sha256:ef38dfa33c27c5123014be116d03626d3b3a299f0e537b92c2f05dfab464d56c",
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-t/candidate-decision-ledger.jsonl": "sha256:91f205917a45d01ce567937938daeaad07012097898991f98b1bb35fd00d9149",
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-u/candidate-decision-ledger.jsonl": "sha256:5511c17e4610fb14e2abae0b298c4fa565783502a6deb3b276106e27011fe9ae",
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-v/candidate-decision-ledger.jsonl": "sha256:7a124733871cccd808d6159833eb14f72d17fbc8a3d378764f09f0eb6f7d7343",
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-w/candidate-decision-ledger.jsonl": "sha256:a62716ecf65e3e69cb087f83a0d06ef7f820d7fb45a64db16ca4dcea4434afa6",
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-e/candidate-decision-ledger.jsonl": "sha256:eda8bef98a544ee744b528e2b3de4c1a12aeb7f422de7fccd7829b608fe7141c",
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-f/candidate-decision-ledger.jsonl": "sha256:19e913a945f5aa95d56d3306ce5d35a3c1c03f86fe29a46e2cf3eb78585bf663",
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-g/candidate-decision-ledger.jsonl": "sha256:3e0f84ae46d9069603974941537d47d3adcd3f14dda51df80d0f002f7730d22a",
+    "06-runtime/automation/2026-10-25-2011lilixin-events-batch/candidate-decision-ledger.jsonl": "sha256:fb652b8ff2eaec1e18838288f8e252b92c886f51dbbab5cc5f8d2a178bb66509",
+    "06-runtime/automation/2026-10-25-2011lilixin-institutions-batch-x/candidate-decision-ledger.jsonl": "sha256:1409edda2030753d56d2c2ea92398e55e123d5efb3e569cb41dd7d61a5a5301d",
+    "06-runtime/automation/2026-10-25-2011lilixin-places-batch-z/candidate-decision-ledger.jsonl": "sha256:706c80b10a4517706d370c64319592c2d4aba25a56f568b05a69f5b1e639d8bc",
+    "06-runtime/automation/2026-10-25-2011lilixin-procedures-batch-h/candidate-decision-ledger.jsonl": "sha256:37de66991271f426ddd8baa3c1a1de8b62ba6a22a56f41c33841533a9a9b91b6",
+    "06-runtime/automation/2026-10-25-2016-ancient-events-batch/candidate-decision-ledger.jsonl": "sha256:9ab98c759004b434afea7d4439345f9acfd605f8978e21ead86cccf07b00e3ca",
+    "06-runtime/automation/2026-10-25-2016-modern-events-batch/candidate-decision-ledger.jsonl": "sha256:8161ed5178b96e5da67bb9f78d64d5d4c9668c505187c88fd85c8e0955477aa3",
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-k/candidate-decision-ledger.jsonl": "sha256:897204cc5e1f550d3f7e5ae611f0bb51095e3740a8b8b14f441b2d0abd8b2638",
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-l/candidate-decision-ledger.jsonl": "sha256:02f3f63095661ff6394ee27e67bbc7daab27ce1375cd3dbfb26d0cfeb74e78dd",
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-m/candidate-decision-ledger.jsonl": "sha256:7636c3c02c439d965adee7a60488e2c2e296f0311acfb48d0d239a85ee8608a8",
+    "06-runtime/automation/2026-10-25-2016xiayanjing-procedures-batch-i/candidate-decision-ledger.jsonl": "sha256:27526bb125353cb773ed2b000fff0b2d9e7d6e95c3f33930abd5b0569aca8256",
+    "06-runtime/automation/2026-10-25-2016xiayanjing-procedures-batch-j/candidate-decision-ledger.jsonl": "sha256:7f0fa5aa9615dfe77d279509908ced41a3ad6e1ac38a950d544acb7666c994d6",
+    "06-runtime/automation/2026-10-25-discovery-events-batch/candidate-decision-ledger.jsonl": "sha256:c68bf37b5a49b7b80af4ce216cfe4089ed8077de67dfd6c460acd765dec5ec05",
     "06-runtime/automation/2026-10-25-doc1-groups-batch/candidate-decision-ledger.jsonl": "sha256:d5816afc90687e61712b7ac0a1edfed6bb7dc68209663efeec59e544b0c9aa3f",
     "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/candidate-decision-ledger.jsonl": "sha256:802a00025d81de87ca78a38b84d31c98efef3e1c0f594770a1d0961334ac7f81",
     "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/candidate-decision-ledger.jsonl": "sha256:a64708eb35ad63f80c2fc80b70e638070371214494c7d15e6377ce37a7f6df64",
@@ -47,7 +82,9 @@
     "06-runtime/automation/2026-10-25-three-book-work-units-b/candidate-decision-ledger.jsonl": "sha256:2b2b011a8b2a8d7ac2f8a8071896fd6154daab4059a57dbf5518c3074658dfac",
     "06-runtime/automation/2026-10-25-three-book-work-units-c/candidate-decision-ledger.jsonl": "sha256:e11c3e29779c54a67833cdc4a003dcc52dcf1cb7232be60a032a2487576f2313",
     "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:e35c6e11360285235bd6903bd6dd9d97e688168b82afffb7c56cbf45ef291fec",
-    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:92b46094275a60fee28b5c61dc63a8d92cc8a38dc24440ea33c1b2f7ee8b5e8a"
+    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:92b46094275a60fee28b5c61dc63a8d92cc8a38dc24440ea33c1b2f7ee8b5e8a",
+    "06-runtime/automation/2026-10-25-xiayanjing2009-places-batch-y/candidate-decision-ledger.jsonl": "sha256:ed10d1d9673dc044024f8e496ca3cfe2a9efc031be29d2866cdcafe0a4e4a0b4",
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": "sha256:ca661af5f4bda4257f826658134901b0ef3694b6050f08f2117a074652bc363f"
   },
   "source_counts": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": 223,
@@ -59,6 +96,41 @@
     "04-knowledge/quality/relation-candidates.yml": 0
   },
   "candidate_transition_source_counts": {
+    "06-runtime/automation/2026-10-25-2004gaofeng-institutions-batch-n/candidate-decision-ledger.jsonl": 27,
+    "06-runtime/automation/2026-10-25-2004gaofeng-procedures-batch/candidate-decision-ledger.jsonl": 15,
+    "06-runtime/automation/2026-10-25-2009xiayanjing-events-batch/candidate-decision-ledger.jsonl": 30,
+    "06-runtime/automation/2026-10-25-2009xiayanjing-institutions-batch-o/candidate-decision-ledger.jsonl": 15,
+    "06-runtime/automation/2026-10-25-2009xiayanjing-procedures-batch-1/candidate-decision-ledger.jsonl": 24,
+    "06-runtime/automation/2026-10-25-2009xiayanjing-procedures-batch-2/candidate-decision-ledger.jsonl": 21,
+    "06-runtime/automation/2026-10-25-2009zhaonong-events-batch/candidate-decision-ledger.jsonl": 69,
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-p/candidate-decision-ledger.jsonl": 30,
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-q/candidate-decision-ledger.jsonl": 28,
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-r/candidate-decision-ledger.jsonl": 30,
+    "06-runtime/automation/2026-10-25-2009zhaonong-institutions-batch-s/candidate-decision-ledger.jsonl": 33,
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-a/candidate-decision-ledger.jsonl": 27,
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-b/candidate-decision-ledger.jsonl": 24,
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-c/candidate-decision-ledger.jsonl": 24,
+    "06-runtime/automation/2026-10-25-2009zhaonong-procedures-batch-d/candidate-decision-ledger.jsonl": 42,
+    "06-runtime/automation/2026-10-25-2010tianzibing-events-batch/candidate-decision-ledger.jsonl": 66,
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-t/candidate-decision-ledger.jsonl": 26,
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-u/candidate-decision-ledger.jsonl": 28,
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-v/candidate-decision-ledger.jsonl": 25,
+    "06-runtime/automation/2026-10-25-2010tianzibing-institutions-batch-w/candidate-decision-ledger.jsonl": 24,
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-e/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-f/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-2010tianzibing-procedures-batch-g/candidate-decision-ledger.jsonl": 51,
+    "06-runtime/automation/2026-10-25-2011lilixin-events-batch/candidate-decision-ledger.jsonl": 33,
+    "06-runtime/automation/2026-10-25-2011lilixin-institutions-batch-x/candidate-decision-ledger.jsonl": 33,
+    "06-runtime/automation/2026-10-25-2011lilixin-places-batch-z/candidate-decision-ledger.jsonl": 75,
+    "06-runtime/automation/2026-10-25-2011lilixin-procedures-batch-h/candidate-decision-ledger.jsonl": 30,
+    "06-runtime/automation/2026-10-25-2016-ancient-events-batch/candidate-decision-ledger.jsonl": 81,
+    "06-runtime/automation/2026-10-25-2016-modern-events-batch/candidate-decision-ledger.jsonl": 111,
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-k/candidate-decision-ledger.jsonl": 49,
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-l/candidate-decision-ledger.jsonl": 33,
+    "06-runtime/automation/2026-10-25-2016xiayanjing-institutions-batch-m/candidate-decision-ledger.jsonl": 27,
+    "06-runtime/automation/2026-10-25-2016xiayanjing-procedures-batch-i/candidate-decision-ledger.jsonl": 42,
+    "06-runtime/automation/2026-10-25-2016xiayanjing-procedures-batch-j/candidate-decision-ledger.jsonl": 59,
+    "06-runtime/automation/2026-10-25-discovery-events-batch/candidate-decision-ledger.jsonl": 21,
     "06-runtime/automation/2026-10-25-doc1-groups-batch/candidate-decision-ledger.jsonl": 24,
     "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/candidate-decision-ledger.jsonl": 48,
     "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/candidate-decision-ledger.jsonl": 66,
@@ -95,14 +167,18 @@
     "06-runtime/automation/2026-10-25-three-book-work-units-b/candidate-decision-ledger.jsonl": 36,
     "06-runtime/automation/2026-10-25-three-book-work-units-c/candidate-decision-ledger.jsonl": 39,
     "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": 108,
-    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": 100
+    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": 100,
+    "06-runtime/automation/2026-10-25-xiayanjing2009-places-batch-y/candidate-decision-ledger.jsonl": 9,
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": 70
   },
   "applied_candidate_transition_counts": {
-    "approved->applied": 542,
-    "approved->no_delta": 26,
-    "needs_evidence->ready_for_review": 568,
-    "needs_evidence->rejected": 800,
-    "ready_for_review->approved": 568
+    "applied->applied": 2,
+    "approved->applied": 974,
+    "approved->no_delta": 63,
+    "needs_evidence->ready_for_review": 1037,
+    "needs_evidence->rejected": 811,
+    "ready_for_review->approved": 1037,
+    "rejected->rejected": 2
   },
   "candidate_counts": {
     "total": 5339,
@@ -114,32 +190,32 @@
       "unit": 3976
     },
     "by_state": {
-      "applied": 542,
-      "needs_evidence": 3970,
-      "no_delta": 26,
-      "rejected": 801
+      "applied": 974,
+      "needs_evidence": 3490,
+      "no_delta": 63,
+      "rejected": 812
     },
     "by_lifecycle_class": {
-      "active": 3970,
-      "terminal": 1369
+      "active": 3490,
+      "terminal": 1849
     }
   },
   "actionable_candidate_counts": {
-    "total": 3970,
+    "total": 3490,
     "by_origin_type": {
-      "source": 3970
+      "source": 3490
     },
     "by_candidate_type": {
       "claim": 1363,
-      "unit": 2607
+      "unit": 2127
     },
     "by_state": {
-      "needs_evidence": 3970
+      "needs_evidence": 3490
     }
   },
   "legacy_projection_normalizations": {},
   "issues": [],
   "output_hashes": {
-    "06-runtime/state/candidate-index.jsonl": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b"
+    "06-runtime/state/candidate-index.jsonl": "sha256:953da5bda2ab8de2f83c0efb7e46ec1639116a7bad753fc4a1ec459872166fc8"
   }
 }

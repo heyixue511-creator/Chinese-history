@@ -1,0 +1,129 @@
+
+### cand-09-10 ['剪辫', '服制条例', '中山装']
+   15 04-knowledge/units/persons/sun-yat-sen.md
+    7 04-knowledge/units/terms/zhongshanzhuang.md
+    1 04-knowledge/units/works/xiangyun-huoju.md
+    1 04-knowledge/units/terms/yuanling-paoshan.md
+    1 04-knowledge/units/terms/hufu.md
+
+### cand-09-50 ['中山陵', '吕彦直', '竞图']
+   27 04-knowledge/units/works/zhongshan-ling-1929.md
+   20 04-knowledge/units/persons/lu-yanzhi.md
+    3 04-knowledge/units/places/nanjing.md
+    1 04-knowledge/units/works/renmin-dahuitang-1959.md
+    1 04-knowledge/units/works/guohui-1950.md
+
+### cand-09-139 ['生产自救', '合作化', '石头加人工', '工艺美术生产合作社']
+  (no hits)
+
+### cand-09-69 ['全国工艺美术艺人代表会议', '适用、经济、美观']
+  (no hits)
+
+### cand-09-72 ['十大建筑', '人民大会堂', '民族文化宫']
+   28 04-knowledge/units/works/renmin-dahuitang-1959.md
+    3 04-knowledge/units/institutions/zhongguo-meishuguan.md
+    1 04-knowledge/units/works/shanghai-expo-china-pavilion-2010.md
+
+### cand-09-74 ['书籍装帧艺术展览会', '莱比锡']
+  (no hits)
+
+### cand-09-83 ['全国工艺美术展览会', '天球瓶', '友谊第一']
+    2 04-knowledge/units/places/jingdezhen.md
+    2 04-knowledge/units/institutions/zhongguo-gongyi-meishuguan.md
+    2 04-knowledge/units/events/quanguo-gongyi-meishu-zhanlanhui-1959.md
+
+### cand-09-88 ['105万', '全国工艺美术展览', '400多个品种']
+    2 04-knowledge/units/institutions/zhongguo-gongyi-meishuguan.md
+    2 04-knowledge/units/events/quanguo-gongyi-meishu-zhanlanhui-1959.md
+    1 04-knowledge/units/places/jingdezhen.md
+
+### cand-10-22 ['开国大典', '天安门城楼', '舞美']
+  (no hits)
+
+### cand-10-34 ['庞薰琴', '反党集团']
+    9 04-knowledge/units/persons/pang-xunqin.md
+
+### cand-10-36 ['首都十大建筑美术工作会议']
+  (no hits)
+
+### cand-10-41 ['四旧', '文化大革命']
+    1 04-knowledge/units/places/jingdezhen.md
+
+### cand-10-42 ['手工艺要大力提倡']
+  (no hits)
+
+### cand-10-43 ['成昆铁路', '联合国']
+    1 04-knowledge/units/terms/feiyi.md
+
+### cand-10-44 ['统一招生考试', '1977']
+    5 04-knowledge/units/events/zenghouyi-mu-fajue.md
+    4 04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md
+    1 04-knowledge/units/procedures/lost-wax-casting.md
+
+### cand-10-45 ['工艺美术家', '杨士惠']
+  (no hits)
+
+### cand-10-47 ['广告装潢设计展览']
+  (no hits)
+
+### cand-10-48 ['高等院校工艺美术教学座谈会']
+  (no hits)
+
+### cand-10-50 ['高校工业设计学会']
+  (no hits)
+
+### cand-10-51 ['伊夫·圣·洛朗']
+  (no hits)
+
+### cand-10-53 ['博士学位授予点']
+    1 04-knowledge/units/institutions/central-academy-arts-design.md
+
+### cand-10-54 ['包豪斯']
+    5 04-knowledge/units/persons/chen-zhifo.md
+    3 04-knowledge/units/persons/pang-xunqin.md
+    1 04-knowledge/units/terms/industrial-design.md
+
+### cand-10-55 ['ICSID', '世界工业设计协会']
+    1 04-knowledge/units/terms/industrial-design.md
+
+### cand-10-57 ['技术美学']
+  (no hits)
+
+### cand-10-58 ['计算机艺术']
+  (no hits)
+
+### cand-10-59 ['中国当代艺术设计展']
+  (no hits)
+
+### cand-11-01 ['本科专业目录', '艺术设计专业']
+  (no hits)
+
+### cand-11-02 ['全国家具展览']
+  (no hits)
+
+### cand-11-03 ['清华大学美术学院']
+    4 04-knowledge/units/institutions/central-academy-arts-design.md
+
+### cand-11-04 ['新世纪中国设计教育发展高层论坛']
+  (no hits)
+
+### cand-11-05 ['第五届全国书籍装帧艺术展览']
+  (no hits)
+
+### cand-11-112 ['意大利工业设计周']
+  (no hits)
+
+### cand-11-06 ['生态景观大道']
+  (no hits)
+
+### cand-11-07 ['2000北京国际平面设计展']
+  (no hits)
+
+### cand-11-08 ['计算机辅助工业设计']
+  (no hits)
+
+### cand-11-113 ['中国民族民间工艺美术大展']
+  (no hits)
+
+### cand-11-114 ['中国工艺美术精品展']
+  (no hits)

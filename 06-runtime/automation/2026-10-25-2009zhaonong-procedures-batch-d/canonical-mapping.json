@@ -1,0 +1,100 @@
+[
+  {
+    "entity": "拱花",
+    "target_ref": "04-knowledge/units/procedures/gong-hua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-102",
+    "merged_candidates": []
+  },
+  {
+    "entity": "瓷活字",
+    "target_ref": "04-knowledge/units/procedures/ci-huazi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-116",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石印本",
+    "target_ref": "04-knowledge/units/procedures/shiyin-ben.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-120",
+    "merged_candidates": []
+  },
+  {
+    "entity": "线装",
+    "target_ref": "04-knowledge/units/procedures/xian-zhuang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-122",
+    "merged_candidates": []
+  },
+  {
+    "entity": "明长城墙体构筑",
+    "target_ref": "04-knowledge/units/procedures/ming-changcheng-qiangti-gouzhu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-140",
+    "merged_candidates": []
+  },
+  {
+    "entity": "火炮铸造",
+    "target_ref": "04-knowledge/units/procedures/huo-pao-zhuzao.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-068",
+    "merged_candidates": []
+  },
+  {
+    "entity": "现代造纸技术",
+    "target_ref": "04-knowledge/units/procedures/xiandai-zaozhi-jishu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铅字印刷",
+    "target_ref": "04-knowledge/units/procedures/qianzi-yinshua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "照相制版",
+    "target_ref": "04-knowledge/units/procedures/zhaoxiang-zhiban.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "丝网印刷",
+    "target_ref": "04-knowledge/units/procedures/siwang-yinshua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铜版印刷",
+    "target_ref": "04-knowledge/units/procedures/tongban-yinshua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "电子照排",
+    "target_ref": "04-knowledge/units/procedures/dianzi-zhaopai.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-36",
+    "merged_candidates": []
+  },
+  {
+    "entity": "活字印刷",
+    "target_ref": "04-knowledge/units/procedures/huozi-yinshua.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "短版套印",
+    "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-101",
+    "merged_candidates": []
+  }
+]

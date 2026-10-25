@@ -1,0 +1,107 @@
+[
+  {
+    "entity": "模塑结合制陶俑",
+    "target_ref": "04-knowledge/units/procedures/mosu-jiehe-zhi-taoyong.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-46",
+    "merged_candidates": []
+  },
+  {
+    "entity": "漆器木胎三作法",
+    "target_ref": "04-knowledge/units/procedures/qiqi-mutai-san-zuofa.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "平面剔地法",
+    "target_ref": "04-knowledge/units/procedures/pingmian-tidi-fa.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "六朝青瓷装饰六法",
+    "target_ref": "04-knowledge/units/procedures/liuchao-qingci-zhuangshi-liufa.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-61",
+    "merged_candidates": []
+  },
+  {
+    "entity": "辫绣",
+    "target_ref": "04-knowledge/units/procedures/bian-xiu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "碱印",
+    "target_ref": "04-knowledge/units/procedures/jian-yin.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-61",
+    "merged_candidates": []
+  },
+  {
+    "entity": "拓印（印花）",
+    "target_ref": "04-knowledge/units/procedures/ta-yin-yinhua.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-62",
+    "merged_candidates": []
+  },
+  {
+    "entity": "纭裥绣",
+    "target_ref": "04-knowledge/units/procedures/yun-jian-xiu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "拨镂",
+    "target_ref": "04-knowledge/units/procedures/bo-lou.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-24",
+    "merged_candidates": []
+  },
+  {
+    "entity": "画花",
+    "target_ref": "04-knowledge/units/procedures/hua-hua.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "雕釉",
+    "target_ref": "04-knowledge/units/procedures/diao-you.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代漆器制作分工",
+    "target_ref": "04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蜡染",
+    "target_ref": "04-knowledge/units/procedures/la-ran.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "圈叠法",
+    "target_ref": "04-knowledge/units/procedures/quan-die-fa.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "覆烧法（定窑与景德镇）",
+    "target_ref": "04-knowledge/units/procedures/fu-shao-fa.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-40",
+    "merged_candidates": []
+  }
+]

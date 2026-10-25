@@ -1,0 +1,51 @@
+[
+  {
+    "entity": "仙人洞陶器出土",
+    "target_ref": "04-knowledge/units/events/xianrendong-taoci-chutu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-46",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东胡林墓葬发现",
+    "target_ref": "04-knowledge/units/events/donghulin-muzang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-48",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西阴村蚕茧发现",
+    "target_ref": "04-knowledge/units/events/xixiacun-canjian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-49",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曾侯乙墓发掘",
+    "target_ref": "04-knowledge/units/events/zenghouyi-mu-fajue.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马山一号墓丝织品出土",
+    "target_ref": "04-knowledge/units/events/mashan-yihao-mu-sichupin.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马王堆一号汉墓发掘",
+    "target_ref": "04-knowledge/units/events/mawangdui-yihao-mu-fajue.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "舞蹈纹彩陶盆",
+    "target_ref": "04-knowledge/units/works/wudaowen-caitao-pen.md",
+    "action": "no_delta",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-47",
+    "merged_candidates": []
+  }
+]

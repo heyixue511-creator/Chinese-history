@@ -1,0 +1,166 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-procedures-batch-j",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册剩余 21 个 procedure 候选：10 个新建、4 个更新、4 个 no_delta、2 个 rejected；其中 cand-05-31 并入 cand-06-18。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:b365aa4ab33c2b82b6fc23d1130c436ee2523eb9412fd39604cec3e4a00ad38c",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 789,
+        "needs_evidence": 3703,
+        "no_delta": 46,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L2600-L2606",
+        "L2607-L2627",
+        "L2709-L2714",
+        "L2790-L2795",
+        "L3152-L3155",
+        "L3254-L3259",
+        "L3407-L3426",
+        "L3427-L3434",
+        "L3452-L3469",
+        "L3661-L3664",
+        "L3718-L3727",
+        "L3728-L3745",
+        "L3851-L3870",
+        "L4025",
+        "L4173-L4188",
+        "L4201-L4210",
+        "L4341-L4367",
+        "L4619-L4656",
+        "L4783-L4813",
+        "L5346-L5385",
+        "L5480-L5501"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "procedure 候选按实体而非 slug 对账：先与既有 procedure KU 的标题、别名和正文对齐，再定 create／update／no_delta／rejected。",
+      "夏燕靖 2016《中国艺术设计史（升级版）》与 2009《中国设计史》为同一作者前后版本；2016 段落与既有 KU 所据 2009 段落语义一致时判 no_delta，不以新版年份充当新增证据。",
+      "既有 term KU 已完整承载工艺定义与分类时，procedure 候选判 no_delta，不重复立条。",
+      "非可复现工序的对象（包买主购销方式、广告语意传达框架）判 rejected，单行记录，不进入 mapping。",
+      "同一工艺的两个候选（支钉撑烧法与支钉支烧法）合并为一个实体，保留 merged_candidates 映射。"
+    ],
+    "source_policy": "03基础书籍-md文档只读；本批写 04-knowledge/units/procedures，10 条新建、4 条更新。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-j\\apply-plan.jsonl",
+      "rows": 14,
+      "create": 10,
+      "update": 4
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-j\\candidate-decision-ledger.jsonl",
+      "rows": 59,
+      "candidates": 21,
+      "applied": 15,
+      "no_delta": 4,
+      "rejected": 2
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-j\\canonical-mapping.json",
+      "entries": 18,
+      "merged_candidates": [
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-31"
+      ]
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 59,
+      "candidates": 21,
+      "final_applied": 15,
+      "final_no_delta": 4,
+      "final_rejected": 2,
+      "plan_rows": 14,
+      "create": 10,
+      "update": 4,
+      "merged_candidates": 1,
+      "fingerprints_verified": 14,
+      "mapping_entries": 18,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 718,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 718,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/718",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "718/718",
+      "events": 115,
+      "procedures": 121
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 718
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 9 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 9
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:11c953156359976c341e07e27c9c59fef9ea19cca38a41a5f5d4d558e6343f87",
+      "counts": {
+        "applied": 804,
+        "needs_evidence": 3682,
+        "no_delta": 50,
+        "rejected": 803
+      }
+    }
+  },
+  "state_after": {
+    "applied": 804,
+    "needs_evidence": 3682,
+    "no_delta": 50,
+    "rejected": 803,
+    "total": 5339
+  }
+}

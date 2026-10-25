@@ -1,0 +1,196 @@
+[
+  {
+    "entity": "禹铸九鼎",
+    "target_ref": "04-knowledge/units/events/yu-casts-nine-cauldrons.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "甘泽之战",
+    "target_ref": "04-knowledge/units/events/ganshi-battle.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "商汤灭夏",
+    "target_ref": "04-knowledge/units/events/shang-tang-overthrows-xia.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武王伐纣",
+    "target_ref": "04-knowledge/units/events/king-wu-conquers-zhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "晋国铸刑鼎",
+    "target_ref": "04-knowledge/units/events/jin-casting-legal-cauldron.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "墨子止楚攻宋",
+    "target_ref": "04-knowledge/units/events/mozi-zhi-chu-gong-song.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "秦灭六国",
+    "target_ref": "04-knowledge/units/events/qin-mie-liuguo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "张骞出使西域",
+    "target_ref": "04-knowledge/units/events/zhangqian-chushi-xiyu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "秦迁六国冶铁豪族",
+    "target_ref": "04-knowledge/units/events/qin-qian-yetie-haozu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉武帝独尊儒术",
+    "target_ref": "04-knowledge/units/events/han-wudi-duzun-rushu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "孝文改制",
+    "target_ref": "04-knowledge/units/events/xiao-wen-gai-zhi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "靖康之难",
+    "target_ref": "04-knowledge/units/events/jingkang-zhibian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浮仓山南宋墓",
+    "target_ref": "04-knowledge/units/events/fucangshan-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "德阳孝泉镇宋代银器出土",
+    "target_ref": "04-knowledge/units/events/deyang-xiaoquan-silver-find.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-81",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西夏王陵发掘",
+    "target_ref": "04-knowledge/units/events/xixia-mausoleum.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "元代科举废止",
+    "target_ref": "04-knowledge/units/events/yuan-abolish-keju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "1955年北京庆寿寺双塔出土丝织品",
+    "target_ref": "04-knowledge/units/events/qingshousi-tomb-textiles.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-62",
+    "merged_candidates": []
+  },
+  {
+    "entity": "1272年伯颜收取宋宫冕服图籍",
+    "target_ref": "04-knowledge/units/events/boyan-collects-song-regalia.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "延祐元年（1314）贵族夫人服色规定",
+    "target_ref": "04-knowledge/units/events/yanyou-fuse.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-61",
+    "merged_candidates": []
+  },
+  {
+    "entity": "清初剃发易服",
+    "target_ref": "04-knowledge/units/events/queue-and-dress-edicts.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑和下西洋",
+    "target_ref": "04-knowledge/units/events/zhenghe-voyages.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "1684年清廷开放海禁",
+    "target_ref": "04-knowledge/units/events/qing-opens-sea-ban-1684.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "2005年“鬼谷下山”青花罐伦敦拍卖",
+    "target_ref": "04-knowledge/units/works/guiguxiashan-qinghua-guan.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-56",
+    "merged_candidates": [],
+    "note": "既有 work KU 已完整记录 2005-07-12、1568.8 万英镑、尺寸与存世 8 件"
+  },
+  {
+    "entity": "1321年元英宗定制质孙服",
+    "target_ref": "04-knowledge/units/terms/zhisun-fu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-60",
+    "merged_candidates": [],
+    "note": "既有 term KU 已完整记录 1321 年定制、一色衣、上衣连下裳与等级"
+  },
+  {
+    "entity": "1276年设太史局编《授时历》",
+    "target_ref": "04-knowledge/units/persons/guo-shoujing.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-57",
+    "merged_candidates": [],
+    "note": "既有 person KU 已完整记录 1276 年设太史局、1280 年成历与 17 种仪器"
+  },
+  {
+    "entity": "至元八年建妙应寺白塔",
+    "target_ref": "04-knowledge/units/works/miaoying-si-baita.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-58",
+    "merged_candidates": [],
+    "note": "既有 work KU 已完整记录 1271 年、阿尼哥、50.9 米与覆钵式形制"
+  },
+  {
+    "entity": "克拉克号被捕获",
+    "target_ref": "04-knowledge/units/terms/blue-and-white-porcelain.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-89",
+    "merged_candidates": [],
+    "note": "既有 term KU 已记录 1602 年荷兰东印度公司捕获克拉克号与命名由来"
+  }
+]

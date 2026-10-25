@@ -1,0 +1,166 @@
+[
+  {
+    "entity": "平王东迁",
+    "target_ref": "04-knowledge/units/events/ping-wang-dong-qian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周初禁酒",
+    "target_ref": "04-knowledge/units/events/zhou-initial-wine-ban.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "黄巾大起义",
+    "target_ref": "04-knowledge/units/events/huangjin-uprising.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "六朝佛教石窟开凿",
+    "target_ref": "04-knowledge/units/events/liuchao-buddhist-caves.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "隋灭陈统一",
+    "target_ref": "04-knowledge/units/events/sui-conquers-chen.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "唐肃宗、代宗禁止金银平脱",
+    "target_ref": "04-knowledge/units/events/tang-ban-jinyin-pingtuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "太平天国",
+    "target_ref": "04-knowledge/units/events/taiping-tianguo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-100",
+    "merged_candidates": []
+  },
+  {
+    "entity": "康熙五十一年废除机户织机限额",
+    "target_ref": "04-knowledge/units/events/kangxi-abolish-loom-quota-1712.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-16",
+    "merged_candidates": []
+  },
+  {
+    "entity": "大生产运动",
+    "target_ref": "04-knowledge/units/events/da-shengchan-yundong.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-57",
+    "merged_candidates": []
+  },
+  {
+    "entity": "1959年全国漆器交流参观会议",
+    "target_ref": "04-knowledge/units/events/national-lacquer-conference-1959.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "党的三中全会",
+    "target_ref": "04-knowledge/units/events/party-third-plenum.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-14-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《中国工艺美术史》编写完成",
+    "target_ref": "04-knowledge/units/events/zhongguo-gongyi-meishushi-completed.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-14-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武王伐纣",
+    "target_ref": "04-knowledge/units/events/king-wu-conquers-zhou.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-42",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记周文王时国势渐强、武王联合反对商的各部落灭商建周并建都镐京；另加别名“武王灭商”。"
+  },
+  {
+    "entity": "秦灭六国",
+    "target_ref": "04-knowledge/units/events/qin-mie-liuguo.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-49",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记商鞅变法基础、灭六国顺序、吸收他国文化、没收民间兵器运咸阳销毁与“统一性和巨大性”判断。"
+  },
+  {
+    "entity": "千秋节",
+    "target_ref": "04-knowledge/units/events/qianqiu-festival.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-03",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所引《唐书·礼乐志》、群臣献甘露寿酒与铜镜祝寿互赠、“千秋金鉴节”别称及皇室赏赐、纪念品、有柄舞镜等用途。"
+  },
+  {
+    "entity": "陈桥驿兵变",
+    "target_ref": "04-knowledge/units/events/chenqiao-mutiny.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-28",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记 960 年赵匡胤夺取政权、建立宋朝、定都东京（今开封）、结束唐末以来分裂割据与辽、西夏并立形势；田自秉未用“陈桥驿”之名。"
+  },
+  {
+    "entity": "靖康之难",
+    "target_ref": "04-knowledge/units/events/jingkang-zhibian.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-29",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记 1125 年辽亡于金、1127 年金兵破开封、宋室南迁临安与宋金对峙、1279 年南宋亡于元；南宋亡年与夏燕靖 2016 的 1276 年并存。"
+  },
+  {
+    "entity": "郑和下西洋",
+    "target_ref": "04-knowledge/units/events/zhenghe-voyages.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-18",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记成祖派太监郑和七下西洋、远到亚非等 30 多个国家、扩大中外经济文化交流，并记迁都北京与安定西北的同期举措。"
+  },
+  {
+    "entity": "1958 年首次全国艺人代表会议",
+    "target_ref": "04-knowledge/units/events/national-craft-artists-conference-1957.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-58",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记 1958 年首次全国艺人代表会议与 1979 年代表会议；与夏燕靖 2016 的 1957 年 7 月 22 日相差一年，两说并存，不作来源外裁决。"
+  },
+  {
+    "entity": "1914 年巴拿马博览会北京雕漆获奖",
+    "target_ref": "04-knowledge/units/events/banama-saihui.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-61",
+    "merged_candidates": [],
+    "note": "补入田自秉 2010 所记北京雕漆 1914 年在巴拿马博览会获一等奖、民国初年畸形发展、多仿清作品，以及解放后雕漆厂品种与镂空手法；获奖年份比开幕早一年。"
+  },
+  {
+    "entity": "1979 年全国工艺美术艺人、创作设计人员代表大会",
+    "target_ref": "04-knowledge/units/events/crafts-artist-title-1979.md",
+    "action": "no_delta",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-59",
+    "merged_candidates": [],
+    "note": "既有 event KU 已记 1979-08-08—16 会议、杨士惠等 34 人获“工艺美术家”称号与 8 月 11 日学会恢复。"
+  },
+  {
+    "entity": "中央工艺美术学院成立",
+    "target_ref": "04-knowledge/units/institutions/central-academy-arts-design.md",
+    "action": "no_delta",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-14-18",
+    "merged_candidates": [],
+    "note": "既有 institution KU 已记 1956-05-21 国务院批准、11-01 建院典礼，并明记田自秉只记 1956 年学院成立。"
+  }
+]

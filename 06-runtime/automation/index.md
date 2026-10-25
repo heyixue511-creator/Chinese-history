@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `39`
-- Files: `174`
-- Size: `3652486` bytes
+- Batch directories: `76`
+- Files: `360`
+- Size: `5250771` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `174` files
+- R1 provenance: `360` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -34,10 +34,14 @@
 | `hierarchy` | 0 | - |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 39 | [summary](2026-10-25-work-doc2-batch-b/summary.md) |
+| `other` | 76 | [summary](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md) |
 
 ## Recent Batches (15)
 
+- [2026-10-25-2009xiayanjing-procedures-batch-2](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md)
+- [2026-10-25-2009xiayanjing-procedures-batch-1](2026-10-25-2009xiayanjing-procedures-batch-1/summary.md)
+- [2026-10-25-zhaonong2009-places-batch-aa](2026-10-25-zhaonong2009-places-batch-aa/summary.md)
+- [2026-10-25-xiayanjing2009-places-batch-y](2026-10-25-xiayanjing2009-places-batch-y/summary.md)
 - [2026-10-25-work-doc2-batch-b](2026-10-25-work-doc2-batch-b/summary.md)
 - [2026-10-25-work-doc2-batch-a](2026-10-25-work-doc2-batch-a/summary.md)
 - [2026-10-25-three-book-work-units-c](2026-10-25-three-book-work-units-c/summary.md)
@@ -49,10 +53,6 @@
 - [2026-10-25-three-book-person-units-b](2026-10-25-three-book-person-units-b/summary.md)
 - [2026-10-25-three-book-person-units](2026-10-25-three-book-person-units/summary.md)
 - [2026-10-25-three-book-canonical-units](2026-10-25-three-book-canonical-units/summary.md)
-- [2026-10-25-term-doc2-batch-e](2026-10-25-term-doc2-batch-e/summary.md)
-- [2026-10-25-term-doc2-batch-d](2026-10-25-term-doc2-batch-d/summary.md)
-- [2026-10-25-term-doc2-batch-c](2026-10-25-term-doc2-batch-c/summary.md)
-- [2026-10-25-term-doc2-batch-b](2026-10-25-term-doc2-batch-b/summary.md)
 
 ## Current State
 

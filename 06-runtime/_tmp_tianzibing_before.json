@@ -1,0 +1,10 @@
+{
+ "banama-saihui": {"sha256": "sha256:bed9be44557b2baa96f0d1479176f4fc26cceba71573e106196212a17b04a58c", "bytes": 3955, "lines": 88},
+ "chenqiao-mutiny": {"sha256": "sha256:68db1972db05685306db76785e041e68fd586c6770d474d95adacd502813d00c", "bytes": 3276, "lines": 78},
+ "jingkang-zhibian": {"sha256": "sha256:2f9de25fc39f5af30fc63c26e99d0a2c380f70c167605f9565bcb02ee0b4c354", "bytes": 3571, "lines": 79},
+ "king-wu-conquers-zhou": {"sha256": "sha256:81456597d9bba847d98b5b4b936557e043e89340a19d0bde4c0bdc07c5475a76", "bytes": 3458, "lines": 79},
+ "national-craft-artists-conference-1957": {"sha256": "sha256:7332e523dff379ad2869d41b624efa5bf9a2bb191f6250e9680cdcc321b86731", "bytes": 4004, "lines": 80},
+ "qianqiu-festival": {"sha256": "sha256:fa3cd409a04c9400ff5593061204d809cfcbac48043f0a1e67ea6424bd833d7c", "bytes": 3471, "lines": 81},
+ "qin-mie-liuguo": {"sha256": "sha256:4535ce560588163bad73e9876454ecbfdec21d876a287f8f7533afec3f38c5dc", "bytes": 3510, "lines": 79},
+ "zhenghe-voyages": {"sha256": "sha256:f61f8eb8bce50f996054e1394b175a6a16ffb54d7681916beb76666ce7056d7a", "bytes": 4125, "lines": 80}
+}

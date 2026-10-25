@@ -1,0 +1,74 @@
+[
+  {
+    "entity": "台湾邮政总局",
+    "target_ref": "04-knowledge/units/institutions/taiwan-youzheng-zongju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "经厂",
+    "target_ref": "04-knowledge/units/institutions/jingchang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "建阳书坊",
+    "target_ref": "04-knowledge/units/institutions/jianyang-shufang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-98",
+    "merged_candidates": []
+  },
+  {
+    "entity": "包豪斯（Bauhaus）",
+    "target_ref": "04-knowledge/units/institutions/bauhaus.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-105",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国营造学社",
+    "target_ref": "04-knowledge/units/institutions/zhongguo-yingzao-xueshe.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-130",
+    "merged_candidates": []
+  },
+  {
+    "entity": "金陵机器局",
+    "target_ref": "04-knowledge/units/institutions/jinling-jiqiju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-132",
+    "merged_candidates": []
+  },
+  {
+    "entity": "天津机器局",
+    "target_ref": "04-knowledge/units/institutions/tianjin-jiqiju.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-134",
+    "merged_candidates": []
+  },
+  {
+    "entity": "湖北枪炮厂",
+    "target_ref": "04-knowledge/units/institutions/hubei-qiangpaochang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-135",
+    "merged_candidates": []
+  },
+  {
+    "entity": "养心殿造办处",
+    "target_ref": "04-knowledge/units/institutions/neiwufu-zaobanchu.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-045",
+    "merged_candidates": [],
+    "note": "更新既有内务府造办处：加别名“养心殿造办处”、补赵农2009“对皇室用具及服饰进行严格管理”与名称差异说明；source_count 2→3、version 1→2"
+  },
+  {
+    "entity": "江南织造",
+    "target_ref": "04-knowledge/units/institutions/jiangning-zhizaoju.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-046",
+    "merged_candidates": [],
+    "note": "更新既有江宁织造局：加别名“江南织造”、补赵农2009“在南京设立”“采买丝绸织物”与指称范围说明；source_count 3→4、version 1→2"
+  }
+]

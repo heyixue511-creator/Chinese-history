@@ -1,0 +1,166 @@
+[
+  {
+    "entity": "大禹治水",
+    "target_ref": "04-knowledge/units/events/dayu-flood-control.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-24",
+    "merged_candidates": []
+  },
+  {
+    "entity": "禹传启",
+    "target_ref": "04-knowledge/units/events/yu-chuan-qi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "季札赠剑",
+    "target_ref": "04-knowledge/units/events/ji-zha-gift-sword.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-154",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宝鸡眉县杨家村青铜器出土",
+    "target_ref": "04-knowledge/units/events/yangjiacun-bronze-hoard-2003.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "商鞅变法",
+    "target_ref": "04-knowledge/units/events/shang-yang-reforms.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "文景之治",
+    "target_ref": "04-knowledge/units/events/wen-jing-zhi-zhi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-140",
+    "merged_candidates": []
+  },
+  {
+    "entity": "隋文帝平毁建康",
+    "target_ref": "04-knowledge/units/events/sui-pinghui-jiankang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-101",
+    "merged_candidates": []
+  },
+  {
+    "entity": "淝水之战",
+    "target_ref": "04-knowledge/units/events/feishui-zhizhan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-41",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北魏孝文帝迁都洛阳",
+    "target_ref": "04-knowledge/units/events/xiaowendi-qian-du-luoyang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北魏孝明帝服饰改革",
+    "target_ref": "04-knowledge/units/events/xiaomingdi-fushi-gaige.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "千秋节",
+    "target_ref": "04-knowledge/units/events/qianqiu-festival.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-112",
+    "merged_candidates": []
+  },
+  {
+    "entity": "陈桥驿兵变",
+    "target_ref": "04-knowledge/units/events/chenqiao-mutiny.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-140",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王安石变法",
+    "target_ref": "04-knowledge/units/events/wang-anshi-reforms.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-141",
+    "merged_candidates": []
+  },
+  {
+    "entity": "庆历新政",
+    "target_ref": "04-knowledge/units/events/qingli-xinzheng.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-176",
+    "merged_candidates": []
+  },
+  {
+    "entity": "康熙时期中国地图测绘",
+    "target_ref": "04-knowledge/units/events/kangxi-ditu-cehui.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-137",
+    "merged_candidates": []
+  },
+  {
+    "entity": "甲午海战",
+    "target_ref": "04-knowledge/units/events/jiawu-haizhan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-138",
+    "merged_candidates": []
+  },
+  {
+    "entity": "新文化运动",
+    "target_ref": "04-knowledge/units/events/xinwenhua-yundong.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-147",
+    "merged_candidates": []
+  },
+  {
+    "entity": "2010年上海世界博览会",
+    "target_ref": "04-knowledge/units/events/shanghai-expo-2010.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-155",
+    "merged_candidates": []
+  },
+  {
+    "entity": "1851年英国万国博览会",
+    "target_ref": "04-knowledge/units/events/1851-wanguo-bolanhui.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马葛尔尼使华",
+    "target_ref": "04-knowledge/units/events/ma-gaerni-shihua.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-153",
+    "merged_candidates": []
+  },
+  {
+    "entity": "靖康之变",
+    "target_ref": "04-knowledge/units/events/jingkang-zhibian.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-210",
+    "merged_candidates": [],
+    "note": "既有 event KU 已记 1126—1127 年靖康之变、徽钦二帝北迁与北宋灭亡"
+  },
+  {
+    "entity": "剪辫子",
+    "target_ref": "04-knowledge/units/events/jianbian-yifu-1912.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-155",
+    "merged_candidates": [],
+    "note": "既有 event KU 已记 1912 年《剪辫通令》《服制条例》与中山装定礼服"
+  },
+  {
+    "entity": "1998年高等教育专业学科目录调整",
+    "target_ref": "04-knowledge/units/events/1998-moe-major-catalog.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-96",
+    "merged_candidates": [],
+    "note": "既有 event KU 已记 1998 年 7 月教育部本科专业目录调整与“艺术设计专业”设置"
+  }
+]

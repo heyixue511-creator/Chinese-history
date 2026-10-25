@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "磨制石器",
+    "target_ref": "04-knowledge/units/procedures/mozhi-shiqi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-16",
+    "merged_candidates": []
+  },
+  {
+    "entity": "轮制法",
+    "target_ref": "04-knowledge/units/procedures/lunzhi-fa.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "合范法",
+    "target_ref": "04-knowledge/units/procedures/hefan-fa.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "冶铁术在中国的出现",
+    "target_ref": "04-knowledge/units/procedures/ye-tie-shu-qi-yuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "生铁冶铸技术",
+    "target_ref": "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "生铁柔化技术",
+    "target_ref": "04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-06",
+    "merged_candidates": []
+  },
+  {
+    "entity": "印纹（模印）装饰",
+    "target_ref": "04-knowledge/units/procedures/yin-wen-mo-yin.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "错金银与错铜",
+    "target_ref": "04-knowledge/units/procedures/cuo-jin-yin-cuo-tong.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-17",
+    "merged_candidates": []
+  }
+]

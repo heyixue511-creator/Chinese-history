@@ -1,0 +1,324 @@
+build_relation_index.py v2.1
+  关系总数: 0
+  来源: explicit=0 inferred_by_rule=0 migrated_from_related=0
+  双向补全: 0
+  类型覆盖: 0/67
+  written: D:\中国设计史研究\04-knowledge\quality\relation-index.yml
+plan_relation_candidates.py v2.3
+  已排除正式 relation pairs: 0
+  已排除 weak_associations pairs: 0
+  候选关系总数: 3
+  s7_name_overlap: 3
+  [DRY RUN]
+wrote=D:\中国设计史研究\06-runtime\automation\index.md
+  written: D:\中国设计史研究\04-knowledge\quality\translation-index.yml (541 entries)
+Generated D:\中国设计史研究\05-outputs\knowledge-graph-data.json and D:\中国设计史研究\05-outputs\knowledge-graph-data.js: 816 nodes, 0 links
+  event: 115
+  institution: 135
+  person: 74
+  place: 39
+  procedure: 121
+  publication: 68
+  term: 192
+  work: 72
+{"total": 5339, "by_origin_type": {"source": 5339}, "by_candidate_type": {"claim": 1363, "unit": 3976}, "by_state": {"applied": 919, "needs_evidence": 3551, "no_delta": 57, "rejected": 812}, "by_lifecycle_class": {"active": 3551, "terminal": 1788}}
+Exported registry to D:\中国设计史研究\06-runtime\state\skill-registry.json
+content_quality_findings=0
+wrote=D:\中国设计史研究\06-runtime\state\current-health.json
+structural_health=122
+wrote=D:\中国设计史研究\06-runtime\governance\governance-backlog.md
+system_p0=0
+system_p1=0
+system_p2=0
+research_debt=5
+candidate_opportunities=2
+written=05-outputs/index/output-gallery.md outputs=2
+written=05-outputs/index/index.md health_snapshot=synchronized
+wrote=D:\中国设计史研究\06-runtime\state\generated-projections-manifest.json
+审查范围: 816 个知识元
+
+总发现: 0
+
+============================================================
+ 内容质量全量审查报告
+ 审查范围: 816 个知识元 | 总发现: 0
+============================================================
+
+边界: 仅检查可机械判定的结构、编码、占位、链接和状态一致性；不评估语义细节密度、事实充分性或知识价值。
+
+audit_relation_consistency.py
+  broken target: 0
+  invalid relation_type: 0
+  missing inverse: 0
+  weak evidence: 0
+  unbaselined generic evidence-backed: 0
+  isolated units (0 relations): 816
+  isolated preview rows: 100
+  over-connected (>50): 0
+{
+  "structural_health": {
+    "score_kind": "structural_contract_health",
+    "max_score": 130,
+    "total": 122,
+    "rule_authority": 20,
+    "frontmatter": 20,
+    "verification_semantics": 20,
+    "traceability": 7,
+    "dataflow": 10,
+    "report_freshness": 10,
+    "engineering_safety": 5,
+    "recall_quality": 15,
+    "semantic_artifact_integrity": 15
+  },
+  "knowledge_maturity": {
+    "metric_kind": "unscored_semantic_maturity",
+    "total_units": 816,
+    "source_count_distribution": {
+      "multi_source": 551,
+      "single_source": 265
+    },
+    "confidence_distribution": {
+      "low": 15,
+      "medium": 801
+    },
+    "consensus_distribution": {
+      "tentative": 816
+    },
+    "evidence_status_distribution": {
+      "source_backed": 816
+    },
+    "isolated_units": {
+      "count": 816,
+      "sample": [
+        "events/1851-wanguo-bolanhui.md",
+        "events/1972-1976-dingci-huifu.md",
+        "events/1998-moe-major-catalog.md",
+        "events/1998-national-furniture-exhibition.md",
+        "events/1999-book-design-exhibition.md",
+        "events/1999-china-italy-industrial-design-week.md",
+        "events/1999-design-education-forum.md",
+        "events/2000-beijing-intl-graphic-design-exhibition.md",
+        "events/2000-cad-industrial-design-conference.md",
+        "events/2000-china-craft-art-exhibition.md",
+        "events/2000-national-folk-craft-art-exhibition.md",
+        "events/2000-shanghai-eco-landscape-avenue.md",
+        "events/6th-century-fangzhi-jishu-waichuan.md",
+        "events/anshi-zhiluan.md",
+        "events/banama-saihui.md",
+        "events/bauhaus-exhibition-hongkong-1989.md",
+        "events/beijing-ten-great-buildings.md",
+        "events/boyan-collects-song-regalia.md",
+        "events/capital-ten-buildings-art-conference-1958.md",
+        "events/chenqiao-mutiny.md",
+        "events/china-art-expo-design-1997.md",
+        "events/computer-art-symposium-1995.md",
+        "events/craft-recovery-transformation-1950s.md",
+        "events/crafts-artist-title-1979.md",
+        "events/crafts-college-entrance-exam-resumption-1977.md"
+      ]
+    },
+    "candidate_debt": {
+      "total": 3551,
+      "by_origin_type": {
+        "source": 3551
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 2188
+      },
+      "by_state": {
+        "needs_evidence": 3551
+      }
+    },
+    "candidate_inventory": {
+      "total": 5339,
+      "by_origin_type": {
+        "source": 5339
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 3976
+      },
+      "by_state": {
+        "applied": 919,
+        "needs_evidence": 3551,
+        "no_delta": 57,
+        "rejected": 812
+      },
+      "by_lifecycle_class": {
+        "active": 3551,
+        "terminal": 1788
+      }
+    },
+    "research_debt": {
+      "single_source_units": 265,
+      "tentative_units": 816,
+      "low_confidence_units": 15,
+      "candidates_needing_evidence": 3551,
+      "units_missing_hierarchy_assignment": 816
+    }
+  },
+  "summary": {
+    "total_units": 816,
+    "type_coverage": "8/8",
+    "base_type_coverage": "8/8",
+    "structure_node_coverage": "0/4",
+    "deprecated_type_drift": 0,
+    "hierarchy_version": "v0.1"
+  },
+  "rule_authority": {
+    "agents_dir_exists": true,
+    "agents_settings_exists": true,
+    "codex_hooks_exists": true,
+    "claude_entry_exists": true,
+    "claude_settings_exists": true,
+    "claude_skill_adapters_exist": true,
+    "agent_guard_exists": true,
+    "adapter_issues": [],
+    "legacy_references": 0
+  },
+  "verification_semantic_issues": {
+    "l7_high_confidence": [],
+    "source_count_1_high_confidence": [],
+    "confirmed_without_external_or_multisource": [],
+    "body_status_frontmatter_conflict": [],
+    "identity_only_external_overreach": []
+  }
+}
+规则漂移: 0 (所有规则文档与磁盘一致)
+OK: 18 个 Skill（18 leaf, 0 router）均由磁盘契约确定
+warning: in the working copy of '04-knowledge/units/events/banama-saihui.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiangnan-zhizao-zongju.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiangning-zhizaoju.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/liangjiang-shifan-xuetang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/lingjinyuan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/nanjing-yunjin-yanjiusuo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/neiwufu-zaobanchu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/yuqichang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/zhiranshu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/diaoban-yinshua.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/lost-wax-casting.md', LF will be replaced by CRLF the next time Git touches it
+{
+  "summary": {
+    "total_checks": 18,
+    "pass": 18,
+    "fail": 0,
+    "behavioral_ready": true
+  },
+  "checks": [
+    {
+      "check": "required upgrade contracts",
+      "status": "pass",
+      "detail": "all current contracts exist"
+    },
+    {
+      "check": "event routing replaces fixed pipeline",
+      "status": "pass",
+      "detail": "router defines loops and event routes without fixed stage numbering"
+    },
+    {
+      "check": "new processing uses the compact profile",
+      "status": "pass",
+      "detail": "new sources use five compact artifacts; legacy packages are history only"
+    },
+    {
+      "check": "duplicate and conflict screening is signal-routed",
+      "status": "pass",
+      "detail": "every source candidate is screened; full reconcile runs only on conflict signals"
+    },
+    {
+      "check": "hierarchy roles and attachment debt are explicit",
+      "status": "pass",
+      "detail": "domain, dimension, theme, topic and KU roles are distinct; Cluster is discovery-only; missing attachment is measured"
+    },
+    {
+      "check": "skill names are unique",
+      "status": "pass",
+      "detail": "18 declared names are unique"
+    },
+    {
+      "check": "skill roles match the lean architecture",
+      "status": "pass",
+      "detail": "18 active skills are classified as independent leaf workflows"
+    },
+    {
+      "check": "Codex and Claude use thin project adapters",
+      "status": "pass",
+      "detail": "both clients share AGENTS and the executable guard without duplicating semantic rules"
+    },
+    {
+      "check": "repository has one active skill root",
+      "status": "pass",
+      "detail": ".agents/skills is the only repository Skill root"
+    },
+    {
+      "check": "navigation categories are not runnable skills",
+      "status": "pass",
+      "detail": "quality, growth and output are README navigation categories"
+    },
+    {
+      "check": "retired skill semantics stay absent",
+      "status": "pass",
+      "detail": "fixed loops, implicit enrich and count-based promotion are absent"
+    },
+    {
+      "check": "skill registry fails closed",
+      "status": "pass",
+      "detail": "registry returns non-zero when issues exist"
+    },
+    {
+      "check": "generated refresh is explicit",
+      "status": "pass",
+      "detail": "default closure is read-only; generated refresh is opt-in"
+    },
+    {
+      "check": "batch runner cannot perform git closeout",
+      "status": "pass",
+      "detail": "runner has no git add/commit/push executor"
+    },
+    {
+      "check": "verification state is batch-local",
+      "status": "pass",
+      "detail": "verify apply fingerprints batch input, commits atomically and uses only batch-local state"
+    },
+    {
+      "check": "candidate and file-back contract is traceable",
+      "status": "pass",
+      "detail": "unified candidate envelope and honest file-back state are present"
+    },
+    {
+      "check": "relation discovery excludes formal pairs",
+      "status": "pass",
+      "detail": "relation candidates use the unified envelope and exclude already-formal pairs"
+    },
+    {
+      "check": "entrypoint versions agree",
+      "status": "pass",
+      "detail": "version 5.3.0 is consistent"
+    }
+  ]
+}
+........................................................ [ 22%]
+........................................................................ [ 51%]
+........................................................................ [ 80%]
+..................................................                       [100%]
+250 passed, 16 subtests passed in 11.13s
+[1/18] build relation index
+[2/18] build relation candidates
+[3/18] build runtime index
+[4/18] build translation index
+[5/18] build knowledge graph data
+[6/18] build discovery index
+[7/18] export skill registry
+[8/18] write health and backlog
+[9/18] build output gallery and navigation
+[10/18] build generated projection manifest
+[11/18] audit content quality
+[12/18] audit relation consistency
+[13/18] audit repository
+[14/18] audit rule drift
+[15/18] validate skill registry
+[16/18] check whitespace
+[17/18] audit system upgrade chain
+[18/18] run tests
+sync closure passed

@@ -1,0 +1,23 @@
+[
+  {
+    "entity": "三星堆遗址",
+    "target_ref": "04-knowledge/units/places/sanxingdui.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑韩故城制陶作坊遗址",
+    "target_ref": "04-knowledge/units/places/zhenghan-gucheng-taofang-yizhi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三山五园",
+    "target_ref": "04-knowledge/units/places/sanshan-wuyuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-07",
+    "merged_candidates": []
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-institutions-batch-l",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册 institution 候选第二组（宋元明清至近代）11 个：9 个新建、1 个更新、1 个 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:a39b9cdfd9e849e3be99e8635c5eb1c82f7764af76b832a31a75e076766d3f9d",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 819,
+        "needs_evidence": 3663,
+        "no_delta": 50,
+        "rejected": 807
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L3254-L3259",
+        "L3499",
+        "L3553-L3564",
+        "L3706-L3715",
+        "L3928-L3951",
+        "L4341-L4367",
+        "L4341-L4426",
+        "L4596-L4618",
+        "L4783-L4813",
+        "L4835-L4838"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体而非 slug 对账：先与既有 institution KU 的标题、别名和正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“宋代染织管理机构”是机构群而非单一衙署：中央四院中文思院、绫锦院已有独立 KU，本条只承载“中央四院＋地方九处”的网络范围，不拆薄条目。",
+      "候选“景德镇官窑”以既有御器厂 KU 为落点；来源 L4345 以“官窑”统称，未出现“御器厂”，58 座官窑与珠山一处的对应关系不推定。",
+      "候选“金代绫锦院”与既有 lingjinyuan KU 的 2016 L3499 内容逐句比对，无新增，判 no_delta。",
+      "来源只给机构名、地点或一句制度描述者，降低 confidence 并在正文标注证据边界，不以来源外知识补写。",
+      "来源内部数字或地理异文（宝船舵杆 11 米／11.07 米、青州（蓬莱））照录并标注，不裁定。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，9 条新建、1 条更新。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-l\\apply-plan.jsonl",
+      "rows": 10,
+      "create": 9,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-l\\candidate-decision-ledger.jsonl",
+      "rows": 33,
+      "candidates": 11,
+      "applied": 10,
+      "no_delta": 1,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-l\\canonical-mapping.json",
+      "entries": 11,
+      "merged_candidates": []
+    }
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 33,
+      "candidates": 11,
+      "final_applied": 10,
+      "final_no_delta": 1,
+      "final_rejected": 0,
+      "plan_rows": 10,
+      "create": 9,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 10,
+      "mapping_entries": 11,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 739,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 739,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/739",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "739/739",
+      "events": 115,
+      "institutions": 58
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 739
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:6fc239d0d49d8d921d48262a74e7fbcc5e434ddf24c8c3cdc13f551c6246ca72",
+      "counts": {
+        "applied": 829,
+        "needs_evidence": 3652,
+        "no_delta": 51,
+        "rejected": 807
+      }
+    }
+  },
+  "state_after": {
+    "applied": 829,
+    "needs_evidence": 3652,
+    "no_delta": 51,
+    "rejected": 807,
+    "total": 5339
+  }
+}

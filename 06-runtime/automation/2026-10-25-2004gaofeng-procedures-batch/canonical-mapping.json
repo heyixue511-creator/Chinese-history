@@ -1,0 +1,38 @@
+[
+  {
+    "entity": "圈叠法",
+    "target_ref": "04-knowledge/units/procedures/quan-die-fa.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蜡染",
+    "target_ref": "04-knowledge/units/procedures/la-ran.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蓝印花布",
+    "target_ref": "04-knowledge/units/procedures/lan-yinhua-bu.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "短版套印",
+    "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+    "action": "create",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-75",
+    "merged_candidates": []
+  },
+  {
+    "entity": "雕版印刷术",
+    "target_ref": "04-knowledge/units/procedures/diaoban-yinshua.md",
+    "action": "update",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-13",
+    "merged_candidates": [],
+    "note": "补入高丰 2004 的发明时间考辨、四步工艺程序、梓木梨木枣木用材、刻工作用与日印 1500—2000 印张的产量。"
+  }
+]

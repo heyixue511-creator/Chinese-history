@@ -1,0 +1,67 @@
+[
+  {
+    "entity": "刀耕火种",
+    "target_ref": "04-knowledge/units/procedures/daogeng-huozhong.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "制陶",
+    "target_ref": "04-knowledge/units/procedures/zhitao.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "编织",
+    "target_ref": "04-knowledge/units/procedures/bianzhi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "占卜",
+    "target_ref": "04-knowledge/units/procedures/divination.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "染色",
+    "target_ref": "04-knowledge/units/procedures/dyeing.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "夯土板筑",
+    "target_ref": "04-knowledge/units/procedures/rammed-earth-board-construction.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "错石工艺",
+    "target_ref": "04-knowledge/units/procedures/turquoise-inlay.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-143",
+    "merged_candidates": []
+  },
+  {
+    "entity": "磨制技术",
+    "target_ref": "04-knowledge/units/procedures/mozhi-shiqi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-18",
+    "merged_candidates": [],
+    "note": "补入赵农 2009 的砺石加砂子与水的磨制介质、石质与玉质区分、刀脊刀刃与工具武器分离、石纺轮、复合绑捆与玉材位置。"
+  },
+  {
+    "entity": "错金银",
+    "target_ref": "04-knowledge/units/procedures/cuo-jin-yin-cuo-tong.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-142",
+    "merged_candidates": [],
+    "note": "补入赵农 2009 的错金银技术定义与磨石错平磨光工序、战国兵器带钩车器铜镜等器类、汲县《水陆攻战图鉴》错铜作品；错石另列。"
+  }
+]

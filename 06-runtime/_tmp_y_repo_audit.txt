@@ -1,0 +1,55 @@
+知识库健康报告 - 2026-10-25T23:29:30
+结构门禁健康: 122/130 | 知识结构完整性: 55/65 | 证据链完整性: 55/55
+  规则权威: 20/20 | Frontmatter: 20/20
+  验证语义: 20/20 | 可追溯性: 7/15
+  数据流: 10/10 | 报告时效: 10/10
+  工程安全: 5/5
+知识元总数: 827 | 类型覆盖: 8/8 | 基础类型覆盖: 8/8 | 层级: v0.1
+  结构节点: 0/4 | 废弃类型残留: 0
+  层级完整挂载: 0/827
+  翻译字段: persons name_original=74/74
+
+规则权威:
+  .agents/ 目录: ✓ | settings.json: ✓
+  Codex Hook: ✓ | shared guard: ✓
+  Claude 入口: ✓ | settings: ✓ | Skill adapters: ✓
+  客户端适配问题: 0 (✓ 干净)
+
+类型计数:
+  - persons: 74
+  - institutions: 144
+  - places: 41
+  - works: 72
+  - publications: 68
+  - terms: 192
+  - procedures: 121
+  - events: 115
+
+Frontmatter 缺失: 0 | Frontmatter 格式错误: 0
+Frontmatter 必需字段缺失: 0
+正文冒充字段: 0 (✓ 无冒充)
+
+类型值不匹配: 0
+
+非法 confidence 值: 0 | 非法 consensus 值: 0
+
+验证语义问题:
+  L7 + high confidence（单源）: 0
+  source_count=1 + high confidence: 0
+  confirmed 无外部多源: 0
+  正文/元数据验证状态矛盾: 0
+  identity/term 单源越权 externally_verified: 0
+
+推荐字段缺失: 0
+Markdown 断链: 0
+local_file 问题: 0
+同名跨类型组: 4
+  有消歧说明: 8 | 无消歧说明: 0
+UNVERIFIED: 0
+MIGRATION_TODO: 0
+数据流问题: 0
+Chunk 元数据: 总计 0, 缺 meta.json 0
+证据引用: 827/827 (可解析: 827)
+来源哈希: 总计 0, 缺 hash 0
+快照声明缺失: 0 | current-health: ✓ | governance-backlog: ✓
+验证状态矛盾: 0

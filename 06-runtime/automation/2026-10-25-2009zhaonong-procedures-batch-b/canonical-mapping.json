@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "琢玉",
+    "target_ref": "04-knowledge/units/procedures/zhuo-yu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "百炼钢",
+    "target_ref": "04-knowledge/units/procedures/bai-lian-gang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "炒钢",
+    "target_ref": "04-knowledge/units/procedures/chao-gang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-91",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铬盐氧化防锈处理",
+    "target_ref": "04-knowledge/units/procedures/chromate-oxidation-treatment.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "造纸术",
+    "target_ref": "04-knowledge/units/procedures/zaozhishu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代漆器制作分工",
+    "target_ref": "04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "活动帘床纸模抄纸法",
+    "target_ref": "04-knowledge/units/procedures/huodong-lianchuang-zhimo.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "染纸（潢纸）",
+    "target_ref": "04-knowledge/units/procedures/ran-zhi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-56",
+    "merged_candidates": []
+  }
+]

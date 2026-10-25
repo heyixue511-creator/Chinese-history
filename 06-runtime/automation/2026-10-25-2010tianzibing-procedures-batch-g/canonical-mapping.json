@@ -1,0 +1,121 @@
+[
+  {
+    "entity": "木叶与剪纸贴花",
+    "target_ref": "04-knowledge/units/procedures/muye-jianzhi-tiehua.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "瓷绣花",
+    "target_ref": "04-knowledge/units/procedures/ci-xiu-hua.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-97",
+    "merged_candidates": []
+  },
+  {
+    "entity": "叠烧",
+    "target_ref": "04-knowledge/units/procedures/die-shao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "花罗织机与织造",
+    "target_ref": "04-knowledge/units/procedures/hualuo-zhiji.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "印经",
+    "target_ref": "04-knowledge/units/procedures/yin-jing.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "碾轧",
+    "target_ref": "04-knowledge/units/procedures/nian-ya.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-16",
+    "merged_candidates": []
+  },
+  {
+    "entity": "捻金与片金",
+    "target_ref": "04-knowledge/units/procedures/nianjin-pianjin.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-69",
+    "merged_candidates": []
+  },
+  {
+    "entity": "卷素胎骨与黑光",
+    "target_ref": "04-knowledge/units/procedures/juan-su-tai-gu-hei-guang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "景泰蓝制作七过程",
+    "target_ref": "04-knowledge/units/procedures/jingtailan-zhizuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "攒边",
+    "target_ref": "04-knowledge/units/procedures/cuanbian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "刷印法",
+    "target_ref": "04-knowledge/units/procedures/shua-yin-fa.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铁画制作",
+    "target_ref": "04-knowledge/units/procedures/tiehua-zhizuo.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "套料",
+    "target_ref": "04-knowledge/units/procedures/taoliao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-89",
+    "merged_candidates": []
+  },
+  {
+    "entity": "玉雕套裁与巧色",
+    "target_ref": "04-knowledge/units/procedures/yudiao-taocai-qiaose.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "竹编艺术加工方法",
+    "target_ref": "04-knowledge/units/procedures/zhubian-yishu-jiagong.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "失蜡法",
+    "target_ref": "04-knowledge/units/procedures/lost-wax-casting.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蓝印花布",
+    "target_ref": "04-knowledge/units/procedures/lan-yinhua-bu.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-44",
+    "merged_candidates": []
+  }
+]

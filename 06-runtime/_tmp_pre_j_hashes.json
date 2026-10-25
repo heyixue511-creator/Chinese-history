@@ -1,0 +1,22 @@
+{
+  "die-shao": {
+    "sha256": "sha256:9f7a211932209660483b1b263501e42d1376294bab6906b0a30c5b51370da33f",
+    "bytes": 3595,
+    "lines": 78
+  },
+  "nianjin-pianjin": {
+    "sha256": "sha256:86c40e187d986e859bff2160a65344541e520b6fd91263babb8aa51e5db7a072",
+    "bytes": 5002,
+    "lines": 87
+  },
+  "huozi-yinshua": {
+    "sha256": "sha256:e58704e0b0ad329a7fd44dafaa2962ee251c2238364e9558c1ce0b5c8b6993ce",
+    "bytes": 8752,
+    "lines": 105
+  },
+  "duanban-taoyin": {
+    "sha256": "sha256:b637d36802e3ed676fc1f3636f7f8f810cad2a2837856a980f43ff0a3f88f7e5",
+    "bytes": 8620,
+    "lines": 118
+  }
+}

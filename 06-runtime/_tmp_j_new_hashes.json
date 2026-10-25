@@ -1,0 +1,146 @@
+{
+  "erci-shaocheng-fa": {
+    "sha256": "sha256:d65ea5a75e62740c827b014e56b774c6000dec7dd846db8ede2ba705286d8dca",
+    "bytes": 6157,
+    "lines": 102,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "二次烧成法（Twice-Fired Glazing）"
+  },
+  "zhiding-zhishao": {
+    "sha256": "sha256:3883e00b511418838d0f687bdc4f54698142ac427acfc8a182d1f8b80be0a944",
+    "bytes": 7401,
+    "lines": 108,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "支钉支烧法（Spurred Firing）"
+  },
+  "jiezhi-yinhua": {
+    "sha256": "sha256:0ca1c50fe175b2da83b1bf957e7f0c326881560b3e4b85acc874b1b63b540e4e",
+    "bytes": 5073,
+    "lines": 100,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "介质印花（Medium Printing）"
+  },
+  "song-dai-jianzhu-caihua": {
+    "sha256": "sha256:1ab1294508055cd581630f36a88f16f64c62a486a9a4c9f2416ebc3742639e83",
+    "bytes": 6050,
+    "lines": 102,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "宋代建筑彩画（Song Architectural Polychrome Painting）"
+  },
+  "pinhe-liang": {
+    "sha256": "sha256:ec48102e43606918f55f8b9bed690101520d8139977a41cef211c2049286cf49",
+    "bytes": 5641,
+    "lines": 100,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "拼合梁（Built-up Beam）"
+  },
+  "jintong-fa": {
+    "sha256": "sha256:3a00e5172fa2b5ffb539920bd3edcc6f272ae63bce4b7272ab84ad673ec6c380",
+    "bytes": 6045,
+    "lines": 95,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "low",
+    "errors": [],
+    "title": "浸铜法（Copper Cementation）"
+  },
+  "tiaohua-jieben": {
+    "sha256": "sha256:052171fc5f4fb2870c768d6bee3f548ef13fc2d5015fe10ca1ef895c56b75aee",
+    "bytes": 6500,
+    "lines": 103,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "挑花结本（Pattern-Heddle Drafting）"
+  },
+  "chuai-ran": {
+    "sha256": "sha256:5daac757450e12aa9bae36615d247329633773f628a98ef41c7c0ddcfb9b8692",
+    "bytes": 7239,
+    "lines": 105,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "踹染（Calendering）"
+  },
+  "chuiyou-fa": {
+    "sha256": "sha256:78beb7250dfc199df6ec22ef7553ca545bbee2778e688b9a3f0ef51f0b307122",
+    "bytes": 5390,
+    "lines": 96,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "吹釉法（Blown Glazing）"
+  },
+  "fengxiang-nisu": {
+    "sha256": "sha256:81bda8fe19b3ceb0105e33c9471bb575b8436a72f8ff5c0bd27763d38dfc8a40",
+    "bytes": 5391,
+    "lines": 97,
+    "source_count": 2,
+    "version": 1,
+    "confidence": "medium",
+    "errors": [],
+    "title": "凤翔泥塑（Fengxiang Clay Sculpture）"
+  },
+  "die-shao": {
+    "sha256": "sha256:cec7f9794e9d61ab2e9af9508b050c106e14a849af3653519fbd4a036984be42",
+    "bytes": 5927,
+    "lines": 98,
+    "source_count": 2,
+    "version": 2,
+    "confidence": "medium",
+    "errors": [],
+    "title": "叠烧（Stack Firing）"
+  },
+  "nianjin-pianjin": {
+    "sha256": "sha256:7b48f174ea9d5890eaa084d206f936c5dae348eb2c0524b51d0385866107e166",
+    "bytes": 8128,
+    "lines": 107,
+    "source_count": 2,
+    "version": 2,
+    "confidence": "medium",
+    "errors": [],
+    "title": "捻金与片金（Twisted Gold and Flat Gold）"
+  },
+  "huozi-yinshua": {
+    "sha256": "sha256:116d04986e21cbe11188e383d0624daeb3034b09f602c7475c9941c77a28888b",
+    "bytes": 11638,
+    "lines": 125,
+    "source_count": 2,
+    "version": 2,
+    "confidence": "medium",
+    "errors": [
+      "dim"
+    ],
+    "title": "活字印刷（Movable-Type Printing）"
+  },
+  "duanban-taoyin": {
+    "sha256": "sha256:57a29d4ba821a049e298e1f6090e9383625180087ade0bda2b8d1884abadf089",
+    "bytes": 11427,
+    "lines": 138,
+    "source_count": 4,
+    "version": 3,
+    "confidence": "medium",
+    "errors": [
+      "dim"
+    ],
+    "title": "短版套印（Duoban Color Printing）"
+  }
+}

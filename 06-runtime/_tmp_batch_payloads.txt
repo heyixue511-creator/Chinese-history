@@ -1,0 +1,215 @@
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-46
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": [],
+  "name": "1962年仙人洞陶器出土",
+  "notes": "出土距今8000多年陶器，原文称为我国目前发现最早的陶器资料。",
+  "place": "江西万年县仙人洞",
+  "time": "1962年"
+ },
+ "proposed_slug": "1962-xian-ren-dong-pottery-excavation",
+ "source_span": {
+  "block_ids": [
+   "b0025"
+  ],
+  "line_end": 484,
+  "line_start": 484
+ },
+ "summary": "1962年在江西万年县仙人洞出土距今8000多年的陶器，原文称为我国目前发现最早的陶器资料。",
+ "title": "1962年仙人洞陶器出土",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-47
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": [],
+  "name": "1973年舞蹈纹彩陶盆发现",
+  "notes": "出土于马家窑型墓葬，盆高14厘米、口径29厘米、底径10厘米。",
+  "place": "青海大通县上孙家寨",
+  "time": "1973年秋"
+ },
+ "proposed_slug": "1973-dance-pattern-basin-discovery",
+ "source_span": {
+  "block_ids": [
+   "b0029"
+  ],
+  "line_end": 583,
+  "line_start": 583
+ },
+ "summary": "1973年秋在青海大通县上孙家寨马家窑型墓葬中发现舞蹈纹彩陶盆，盆高14厘米、口径29厘米、底径10厘米。",
+ "title": "1973年舞蹈纹彩陶盆发现",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-48
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": [],
+  "name": "1966年东胡林墓葬发现",
+  "notes": "新石器时代早期墓葬，出土螺壳项链、骨镯。",
+  "place": "北京门头沟东胡林村",
+  "time": "1966年"
+ },
+ "proposed_slug": "1966-dong-hu-lin-burial-discovery",
+ "source_span": {
+  "block_ids": [
+   "b0022"
+  ],
+  "line_end": 443,
+  "line_start": 443
+ },
+ "summary": "1966年在北京门头沟东胡林村发现新石器时代早期墓葬，少女遗骸项部有小螺壳项链、腕部有牛肋骨骨镯。",
+ "title": "1966年东胡林墓葬发现",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-49
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": [],
+  "name": "1926年夏县蚕茧发现",
+  "notes": "新石器时代遗址发现半个蚕茧。",
+  "place": "山西夏县",
+  "time": "1926年"
+ },
+ "proposed_slug": "1926-xia-xian-silk-cocoon-discovery",
+ "source_span": {
+  "block_ids": [
+   "b0041"
+  ],
+  "line_end": 829,
+  "line_start": 829
+ },
+ "summary": "1926年在山西夏县新石器时代遗址发现半个蚕茧，原文据以说明祖先在很古年代已开始养蚕。",
+ "title": "1926年夏县蚕茧发现",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-54
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": null,
+  "name": "江陵马山砖厂一号墓战国丝织品出土",
+  "notes": "出土丝织品与刺绣；彩版12，图版未视觉核验。",
+  "place": "湖北江陵马山砖厂一号墓",
+  "time": "1982年1月"
+ },
+ "proposed_slug": "jiangling-mashan-yihao-mu-sichupin-chutu",
+ "source_span": {
+  "block_ids": [
+   "b0111"
+  ],
+  "line_end": 1972,
+  "line_start": 1962
+ },
+ "summary": "1982年1月在湖北江陵马山砖厂一号墓出土大批战国丝织品，有绢、罗、纱、锦及组、绦，几乎包括战国所有丝织品种；原文称这是继长沙马王堆汉墓之后丝织品方面的又一重大发现，超过以前多次发现的战国丝织品的品种和数量。",
+ "title": "江陵马山砖厂一号墓战国丝织品出土",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-55
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": null,
+  "name": "随县曾侯乙墓发掘",
+  "notes": "出土失蜡法铜尊、铜盘；彩版11，图版未视觉核验。",
+  "place": "湖北随县",
+  "time": "1977年"
+ },
+ "proposed_slug": "suixian-zenghouyi-mu-fajue",
+ "source_span": {
+  "block_ids": [
+   "b0100"
+  ],
+  "line_end": 1814,
+  "line_start": 1814
+ },
+ "summary": "1977年湖北随县战国曾侯乙墓发掘，出土铜尊、铜盘，其上玲珑透剔的装饰用失蜡法制作，原文以此作为失蜡法工艺的重要实例。",
+ "title": "随县曾侯乙墓发掘",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-50
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "actors": "考古发掘",
+  "name": "马王堆一号汉墓发掘",
+  "notes": "出土丝织品100多件，46段、58件。",
+  "place": "湖南长沙东郊",
+  "time": "1972年"
+ },
+ "proposed_slug": "mawangdui-yihao-fajue",
+ "source_span": {
+  "block_ids": [
+   "b0145"
+  ],
+  "line_end": 2466,
+  "line_start": 2466
+ },
+ "summary": "1972年湖南长沙东郊马王堆一号汉墓发掘，出土基本完整丝织品100多件，包括匹端单幅丝织物46段、成件衣服58件。原文称其如同打开一座汉代“丝绸之库”。",
+ "title": "马王堆一号汉墓发掘",
+ "unit_type": "event"
+}
+
+### 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-81
+{
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_fields": {
+  "category": "金器",
+  "culture": "汉文化",
+  "notes": "1966年西安南郊沙坡出土；上有“日利”二字；仅指尖大小，釜中米粒可数。",
+  "period": "汉代",
+  "title": "小金灶"
+ },
+ "proposed_slug": "xiao-jinzao",
+ "source_span": {
+  "block_ids": [
+   "b0136"
+  ],
+  "line_end": 2343,
+  "line_start": 2343
+ },
+ "summary": "1966年西安南郊沙坡出土的汉代小金灶一枚，上有“日利”二字；器物只有指尖大小，但灶上釜中的米粒却历历可数，制作极为精巧。",
+ "title": "小金灶",
+ "unit_type": "work"
+}

@@ -1,0 +1,159 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-institutions-batch-t",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册 institution 候选 10 个：5 个新建、3 个更新、0 个 no_delta、2 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:8cefbf52f6898b906cc24f846ed2f8cb8e5d6dff7cc95953d44460c6e94d3cf8",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 887,
+        "needs_evidence": 3588,
+        "no_delta": 56,
+        "rejected": 808
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L23-L61",
+        "L953-L1445",
+        "L2145",
+        "L2249",
+        "L2442",
+        "L2519",
+        "L2561-L2567",
+        "L2697",
+        "L2912-L2916"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“东方出版中心”判 rejected：L23-L61 为 CIP／版权页，只有出版发行、地址、电话、印刷、开本、字数、印张、版次、ISBN、定价，非设计史机构。",
+      "候选“中国历史博物馆”判 rejected：仅 L953 记司母戊鼎现陈列于该馆，无机构沿革、职能或设计史活动，只作展陈地点。",
+      "候选“尚方”判 update 既有 `institutions/shangfang.md`：补少府隶属、汉武帝分左中右三官署、中尚方制鼎壶、左中右产品分工；赵农蔡伦条与田自秉制度条并录，不裁断官制层级。",
+      "候选“东织室、西织室”判 update 既有 `institutions/dongxi-zhishi.md`：补《汉书·百官公卿表》少府属东织室令丞、西织室令丞、河平元年省东织更名西织为织室、绥和废；与夏燕靖 2016“东汉”说并录，标时代冲突。",
+      "候选“蜀郡、广汉郡工官”判 create：按来源所列“蜀郡、成都、广汉郡工官”立目，合铜器 L2145 与漆器 L2561 两处；成都与蜀郡的层级关系来源未给，不擅自合并为二。",
+      "候选“暴室”判 create：未央宫主掖庭织作染练之署；与平准令并列，来源未给二者分工。",
+      "候选“平准令”判 create：汉代主练染作彩色的官署；不据官名补入来源未记的平准物价职能，也不与南朝平准令合并。",
+      "候选“汉代八郡漆器工官”判 update 既有 `institutions/han-dai-qiqi-zuofang-guan-yuan.md`：补八郡名单、蜀郡成都广汉工官每年各用费五百万、梓潼武都工官、乐浪铭文与铭文年代；11 种分工另见 procedure KU，不重复展开；6—8 道与 11 种分工、金属铸器铭文与漆器铭文两说并录。",
+      "候选“严道木官”判 create：专事运输木材的官吏；作者“规模很大，品种繁多”标为来源判断，不当作独立数据。",
+      "候选“染署”判 create 南朝染署：南朝少府下平准令避宋顺帝刘准讳改名；北朝司染署与隋唐织染署不并入本条，沿革关系来源未给。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，5 条新建、3 条更新、2 条 rejected。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-t\\apply-plan.jsonl",
+      "rows": 8,
+      "create": 5,
+      "update": 3
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-t\\candidate-decision-ledger.jsonl",
+      "rows": 26,
+      "candidates": 10,
+      "applied": 8,
+      "no_delta": 0,
+      "rejected": 2
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-t\\canonical-mapping.json",
+      "entries": 8,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 895,
+    "needs_evidence": 3578,
+    "no_delta": 56,
+    "rejected": 810,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 26,
+      "candidates": 10,
+      "final_applied": 8,
+      "final_no_delta": 0,
+      "final_rejected": 2,
+      "plan_rows": 8,
+      "create": 5,
+      "update": 3,
+      "merged_candidates": 0,
+      "fingerprints_verified": 8,
+      "mapping_entries": 8,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 797,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 797,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/797",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "797/797",
+      "events": 115,
+      "institutions": 116
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 797,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:05dd4761a548d3bdf08e6cb7516d57135ad2f5e2263a6f836a6c2de4290ce6cc",
+      "counts": {
+        "applied": 895,
+        "needs_evidence": 3578,
+        "no_delta": 56,
+        "rejected": 810
+      }
+    }
+  }
+}

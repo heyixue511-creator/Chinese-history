@@ -1,0 +1,521 @@
+{
+  "timestamp": "2026-10-25T22:34:26",
+  "rule_authority": {
+    "agents_dir_exists": true,
+    "agents_settings_exists": true,
+    "codex_hooks_exists": true,
+    "claude_entry_exists": true,
+    "claude_settings_exists": true,
+    "claude_skill_adapters_exist": true,
+    "agent_guard_exists": true,
+    "adapter_issues": [],
+    "legacy_references": 0
+  },
+  "summary": {
+    "total_units": 797,
+    "type_coverage": "8/8",
+    "base_type_coverage": "8/8",
+    "structure_node_coverage": "0/4",
+    "deprecated_type_drift": 0,
+    "hierarchy_version": "v0.1"
+  },
+  "structure_node_counts": {
+    "domains": 0,
+    "dimensions": 0,
+    "themes": 0,
+    "topics": 0
+  },
+  "structure_node_type_issues": [],
+  "hierarchy_structure_issues": [],
+  "hierarchy_assignment": {
+    "total_units": 797,
+    "complete_assignments": 0,
+    "units_missing_any_assignment": 797,
+    "field_coverage": {
+      "primary_domain": "797/797",
+      "primary_dimension": "797/797",
+      "primary_theme": "0/797",
+      "topic_memberships": "0/797"
+    }
+  },
+  "counts_by_type": {
+    "persons": 74,
+    "institutions": 116,
+    "places": 39,
+    "works": 72,
+    "publications": 68,
+    "terms": 192,
+    "procedures": 121,
+    "events": 115
+  },
+  "required_field_missing": {
+    "title": [],
+    "name_en": [],
+    "type": [],
+    "sources": [],
+    "created": [],
+    "updated": [],
+    "confidence": [],
+    "consensus": [],
+    "source_count": [],
+    "last_verified": [],
+    "review_due": [],
+    "version": []
+  },
+  "recommended_field_missing": {
+    "sub_type": [],
+    "tags": [],
+    "evidence_status": []
+  },
+  "recommended_field_missing_by_type": {
+    "persons": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "institutions": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "places": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "works": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "publications": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "terms": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "procedures": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    },
+    "events": {
+      "sub_type": 0,
+      "tags": 0,
+      "evidence_status": 0
+    }
+  },
+  "frontmatter_missing": [],
+  "frontmatter_malformed": [],
+  "body_only_field_issues": [],
+  "type_mismatches": [],
+  "invalid_enums": {
+    "invalid_confidence": [],
+    "invalid_consensus": []
+  },
+  "verification_semantic_issues": {
+    "l7_high_confidence": [],
+    "source_count_1_high_confidence": [],
+    "confirmed_without_external_or_multisource": [],
+    "body_status_frontmatter_conflict": [],
+    "identity_only_external_overreach": []
+  },
+  "verification_state_conflicts": [],
+  "unverified_by_type": {},
+  "migration_todo_sources": [],
+  "obsidian_syntax": [],
+  "local_file_issues": [],
+  "markdown_link_issues": [],
+  "duplicate_basenames": {
+    "mengzi": [
+      "persons/mengzi.md",
+      "publications/mengzi.md"
+    ],
+    "xunzi": [
+      "persons/xunzi.md",
+      "publications/xunzi.md"
+    ],
+    "zhuangzi": [
+      "persons/zhuangzi.md",
+      "publications/zhuangzi.md"
+    ],
+    "national-craft-exhibition": [
+      "events/national-craft-exhibition-1972.md",
+      "events/national-craft-exhibition-1978.md"
+    ]
+  },
+  "disambiguation": {
+    "duplicate_basenames": 4,
+    "duplicates_with_disambiguation": 8,
+    "duplicates_without_disambiguation": 0
+  },
+  "growth_candidate_signals": {
+    "unknown_type_dirs": [],
+    "duplicate_basename_groups": 4,
+    "type_candidate_rows": 5,
+    "dimension_candidate_rows": 5
+  },
+  "dataflow_issues": [],
+  "snapshot_disclaimer_missing": [],
+  "current_health_exists": true,
+  "governance_backlog_exists": true,
+  "chunk_meta": {
+    "total_chunks": 0,
+    "chunk_meta_missing": 0
+  },
+  "evidence_ref": {
+    "sources_with_evidence_ref": 797,
+    "sources_without_evidence_ref": 0,
+    "evidence_ref_resolvable": 797,
+    "evidence_ref_broken": 0
+  },
+  "claim_traceability": {
+    "claim_registry_exists": true,
+    "total_claims": 0,
+    "claims_with_source": 0,
+    "claims_with_source_span": 0,
+    "claims_with_supports": 0,
+    "claims_with_supported_by": 0,
+    "claims_with_statement_en": 0
+  },
+  "relation_traceability": {
+    "relation_index_exists": true,
+    "explicit_relations": 0,
+    "explicit_relations_with_evidence": 0
+  },
+  "source_hash": {
+    "total_sources": 0,
+    "source_hash_missing": 0,
+    "source_hash_drift": 0,
+    "declared_source_assets": 0,
+    "metadata_files": 0,
+    "reopened_packages": [],
+    "missing_sample": [],
+    "drift_sample": []
+  },
+  "verification_schema": {
+    "missing_evidence_status": {
+      "count": 0,
+      "files": []
+    },
+    "missing_verification_level_when_not_tentative": {
+      "count": 0,
+      "files": []
+    }
+  },
+  "recall_quality": {
+    "total_chapters": 6,
+    "chapters_without_candidate": [],
+    "chapters_without_decision": [],
+    "chapters_without_recall": [],
+    "semantic_maps_with_unresolved": [],
+    "manifests_scaffolded": 0
+  },
+  "semantic_artifact_integrity": {
+    "metric_label": "语义工件完整性",
+    "metric_boundary": "只检查覆盖工件与引用闭合，不代表语义验收",
+    "total_chapters": 6,
+    "chapters_without_reading_ledger": [],
+    "chapters_without_continuity_map": [],
+    "chapters_without_semantic_stitch_log": [],
+    "chapters_without_source_structure_map": [],
+    "chapters_without_extraction_coverage_matrix": []
+  },
+  "semantic_acceptance": {
+    "metric_kind": "unscored_agent_semantic_acceptance",
+    "total_packages": 6,
+    "legacy_packages_without_acceptance": 0,
+    "legacy_sample": [],
+    "accepted": 0,
+    "accepted_with_findings": 6,
+    "pending_or_invalid": 0,
+    "reopened_source_drift": 0,
+    "packages": [
+      {
+        "package": "03-processing/2004-gaofeng-zhongguo-shejishi",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:b3295895271742bbb175b0063f43b594dbd97344e02f15fd985ea9e87e55b177",
+        "omission_count": 0,
+        "acceptance_boundary": "七块独立复读发现 28 处遗漏、18 条准确性 findings、8 条类型 findings（7 个唯一候选）、3 条覆盖 findings；已补立 28 个语义单元与 43 个候选，并完成 source-map 回挂。四组独立增量复读逐项确认 28/28 遗漏闭合，无 blocking；17 条 minor 中 16 条已修正，1 条为候选层 claim_scope 简写与正式 *_claim 枚举的映射差异，保留至写回阶段统一处理。验收只覆盖原文语义召回与复读状态，不证明候选已写入 04-knowledge，不证明事实经外部核实，也不声称已逐张视觉核验图版；图版判断仅依据图注与正文。"
+      },
+      {
+        "package": "03-processing/2009-xiayanjing-zhongguo-shejishi",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:06f74a5337ffc9ab52c5eb68d9c6db9d6c71a86a53a2e56b97e55d57cc1c6029",
+        "omission_count": 0,
+        "acceptance_boundary": "七块独立复读共发现 24 处遗漏，均已补立语义单元与候选，并经四组独立增量复读逐项确认 24/24 闭合，无 blocking；11 条 minor 已修订或在包内明确保留为清单级聚合/近似标注。本验收只覆盖原文语义召回与复读状态，不证明候选已写入 04-knowledge，不证明事实经外部核实，也不声称已逐张视觉核验图版；图版判断仅依据图注与正文。"
+      },
+      {
+        "package": "03-processing/2009-zhaonong-zhongguo-yishu-shejishi",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:8205f54c5dbc80c38a01c32d9cf491e3f242274c2734d70034e43c051603d951",
+        "omission_count": 0,
+        "acceptance_boundary": "12 个分段独立复读、首轮补立与修正、四组增量复读（127 个语义单元/322 个候选）及定点复核均已完成；初判 30 条 findings（blocking 1、major 5、minor 24），group 1 后续三轮定点复核另记录 3 条 minor（daf-1-07、dcf-1-02、daf-1-08），最终 33 条全部 closed，0 条 still_open，omission_count 0。该状态只证明来源覆盖、语义单元与候选召回流程闭合，不证明候选已写入 04-knowledge，不证明事实已外部核实，也不声称图版已逐张视觉核验；全部 1696 个候选仍为 needs_evidence / pending。来源文件未改写。"
+      },
+      {
+        "package": "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:b269d1519eecebb1c6450ece930da553c884b1ed31d09c300a61aefbc04a04c6",
+        "omission_count": 0,
+        "acceptance_boundary": "语义验收覆盖来源全文 L1-L5738（378 块），含正文、标题、图注、表格、目录与参考书目。14 个分块均完成独立复读（13 个 accepted_with_findings、1 个 needs_revision）；chunk-07 已定向修补并完成 delta 复评。去重专项经独立复核（needs_revision，8 项发现：1 blocking、6 major、1 minor），修补补并 6 个候选后为 39 组、43 个折叠候选、1068 个候选，并完成 delta 复评（accepted_with_findings，1 minor）；该 minor 指 auxiliary 记录未同步，已更新 cross-type-decisions.json、dedupe-log.json、equivalents-final.json 与 remediation log，并经只读复核确认 resolved。全部复读与复核合计 237 项发现（2 blocking、103 major、132 minor），2 项 blocking 均已修复并复评。机械审计与反向引用检查均为零异常。本验收不含图版逐张视觉核验、外部书目/窑址/实物核对，也不构成 OCR 异文的版本校勘；图注只按文字处理，涉及图版均注明“图版未视觉核验”。2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-01、2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-08、2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-11 的 culture 字段沿用出土地/墓葬信息，属已知字段语义限制，未计为事实错误。全部候选仍为 needs_evidence/pending，未写入 04-knowledge。"
+      },
+      {
+        "package": "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:76a0d14b9bcc29b56170cb15c9a16cc62b8dc21d504970dfd805bc6168370f99",
+        "omission_count": 0,
+        "acceptance_boundary": "语义验收覆盖来源全文 L1-L2495（149 块）。6 个分块均完成独立复读（4 个 accepted_with_findings、2 个 needs_revision）；chunk-03、chunk-04 已定向修复并完成 delta 复评。去重与指南车跨类型裁决经独立复核，3 项发现已修补；补充复核 6 项发现（2 blocking、1 major、3 minor）已修补，并经定向 delta 复评确认 accepted、findings=[]。机械审计与反向引用检查均为零异常。本验收不含图版视觉核验、外部书目或实物核对，也不构成 OCR 异文的版本校勘；全部候选仍为 needs_evidence/pending（1 个去重 rejected），未写入 04-knowledge。"
+      },
+      {
+        "package": "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+        "reread_status": "accepted_with_findings",
+        "effective_status": "accepted_with_findings",
+        "source_version": "sha256:2e6be085828a3688f5568e8f4cf1a4e5788be8c849a215fa8c336cd2cb97e682",
+        "omission_count": 0,
+        "acceptance_boundary": "语义验收覆盖来源全文 L1-L6538（754 块）及图注文字。11 个分块均完成独立复读；3 个 needs_revision 分块已定向修复并复评；去重专项 blocking 已修复，8 个受影响候选纳入最终聚焦复评。最终聚焦复评 44 条变更候选，首轮 14 项发现（3 major、11 minor）已修订；独立重试复评 15 项发现（3 major、12 minor），新增的 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-102 跨页接续与 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-100 水法冶金表述两项已补修并复核。重试复评列出的 13 项疑似漏立对象经全账本核对均已有候选承载（含冕服并入 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-57 的明确界定），omission_count=0。本验收不含图版视觉核验、外部书目或实物核对，也不构成 OCR 异文的版本校勘；全部候选仍为 needs_evidence/pending，未写入 04-knowledge。 重试修复另经定向复核（1 minor：span 扩展后 b0114、b0484、b0514 三处块级反向引用未回填），已按候选 span 全量重建并复核。"
+      }
+    ]
+  },
+  "rule_drift": {
+    "findings": 1,
+    "details": [
+      {
+        "issue": "runtime_index_snapshot_stale",
+        "file": "06-runtime/automation/index.md",
+        "declared": {
+          "directories": 68,
+          "files": 319
+        },
+        "actual": {
+          "directories": 69,
+          "files": 323
+        }
+      }
+    ]
+  },
+  "architecture_drift": {
+    "deprecated_type_drift": 0,
+    "deprecated_details": {},
+    "hierarchy_version": "v0.1",
+    "hierarchy_has_old_type_refs": false,
+    "hierarchy_has_old_statistics": false
+  },
+  "translation_health": {
+    "persons": {
+      "total": 74,
+      "coverage": {
+        "name_original": "74/74",
+        "language_original": "74/74",
+        "name_zh": "74/74",
+        "translation_status": "74/74"
+      }
+    },
+    "institutions": {
+      "total": 116,
+      "coverage": {
+        "name_original": "116/116",
+        "name_original_language": "116/116",
+        "name_zh": "116/116",
+        "translation_status": "116/116"
+      }
+    },
+    "works": {
+      "total": 72,
+      "coverage": {
+        "title_original": "72/72",
+        "title_original_language": "72/72",
+        "title_zh": "72/72"
+      }
+    },
+    "publications": {
+      "total": 68,
+      "coverage": {
+        "title_original": "68/68",
+        "title_original_language": "68/68",
+        "title_zh": "68/68"
+      }
+    },
+    "terms": {
+      "total": 192,
+      "coverage": {
+        "term_original": "192/192",
+        "term_zh": "192/192",
+        "academic_translation_status": "192/192"
+      }
+    }
+  },
+  "translation_index_integrity": {
+    "index_exists": true,
+    "expected": 522,
+    "indexed": 517,
+    "declared_total": 517,
+    "missing": [
+      "institutions/baoshi",
+      "institutions/nanchao-ranshu",
+      "institutions/pingzhunling",
+      "institutions/shujun-chengdu-guanghanjun-gongguan",
+      "institutions/yandao-muguan"
+    ],
+    "stale": [],
+    "duplicate": [],
+    "declared_total_mismatch": false
+  },
+  "relation_health": {
+    "relation_index_exists": true,
+    "relation_index_total": 0,
+    "explicit_relation_count": 0,
+    "inferred_relation_count": 0,
+    "migrated_from_related_count": 0,
+    "weak_inference_count": 0,
+    "weak_evidence_count": 0,
+    "needs_evidence_count": 0,
+    "relation_type_coverage": "0/67"
+  },
+  "output_file_back": {
+    "total_outputs": 2,
+    "status_counts": {
+      "rejected": 2
+    },
+    "deferred": 0
+  },
+  "runtime_artifact_retention": {
+    "files": 323,
+    "r1_provenance": 323,
+    "r2_validated": 0,
+    "review_required": 0,
+    "ephemeral_residue": 0,
+    "duplicate_capacity_signal": 0,
+    "metric_boundary": "容量和重复仅是信号；review_required 与 R3 残留是治理问题，不自动授权删除。"
+  },
+  "structural_health": {
+    "score_kind": "structural_contract_health",
+    "max_score": 130,
+    "total": 122,
+    "rule_authority": 20,
+    "frontmatter": 20,
+    "verification_semantics": 20,
+    "traceability": 7,
+    "dataflow": 10,
+    "report_freshness": 10,
+    "engineering_safety": 5,
+    "recall_quality": 15,
+    "semantic_artifact_integrity": 15
+  },
+  "knowledge_structure_quality": {
+    "score_kind": "knowledge_schema_and_state_integrity",
+    "max_score": 65,
+    "total": 55,
+    "disambiguation": 15,
+    "type_correctness": 10,
+    "enum_validity": 10,
+    "verification_coverage": 10,
+    "recommended_fields": 10,
+    "hierarchy_assignment": 0
+  },
+  "evidence_quality": {
+    "score_kind": "evidence_chain_integrity",
+    "max_score": 55,
+    "total": 55,
+    "evidence_ref_coverage": 20,
+    "chunk_meta_completeness": 15,
+    "source_hash_completeness": 10,
+    "verification_schema_coverage": 10
+  },
+  "knowledge_maturity": {
+    "metric_kind": "unscored_semantic_maturity",
+    "total_units": 797,
+    "source_count_distribution": {
+      "multi_source": 548,
+      "single_source": 249
+    },
+    "confidence_distribution": {
+      "low": 10,
+      "medium": 787
+    },
+    "consensus_distribution": {
+      "tentative": 797
+    },
+    "evidence_status_distribution": {
+      "source_backed": 797
+    },
+    "isolated_units": {
+      "count": 797,
+      "sample": [
+        "events/1851-wanguo-bolanhui.md",
+        "events/1972-1976-dingci-huifu.md",
+        "events/1998-moe-major-catalog.md",
+        "events/1998-national-furniture-exhibition.md",
+        "events/1999-book-design-exhibition.md",
+        "events/1999-china-italy-industrial-design-week.md",
+        "events/1999-design-education-forum.md",
+        "events/2000-beijing-intl-graphic-design-exhibition.md",
+        "events/2000-cad-industrial-design-conference.md",
+        "events/2000-china-craft-art-exhibition.md",
+        "events/2000-national-folk-craft-art-exhibition.md",
+        "events/2000-shanghai-eco-landscape-avenue.md",
+        "events/6th-century-fangzhi-jishu-waichuan.md",
+        "events/anshi-zhiluan.md",
+        "events/banama-saihui.md",
+        "events/bauhaus-exhibition-hongkong-1989.md",
+        "events/beijing-ten-great-buildings.md",
+        "events/boyan-collects-song-regalia.md",
+        "events/capital-ten-buildings-art-conference-1958.md",
+        "events/chenqiao-mutiny.md",
+        "events/china-art-expo-design-1997.md",
+        "events/computer-art-symposium-1995.md",
+        "events/craft-recovery-transformation-1950s.md",
+        "events/crafts-artist-title-1979.md",
+        "events/crafts-college-entrance-exam-resumption-1977.md"
+      ]
+    },
+    "candidate_debt": {
+      "total": 3578,
+      "by_origin_type": {
+        "source": 3578
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 2215
+      },
+      "by_state": {
+        "needs_evidence": 3578
+      }
+    },
+    "candidate_inventory": {
+      "total": 5339,
+      "by_origin_type": {
+        "source": 5339
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 3976
+      },
+      "by_state": {
+        "applied": 895,
+        "needs_evidence": 3578,
+        "no_delta": 56,
+        "rejected": 810
+      },
+      "by_lifecycle_class": {
+        "active": 3578,
+        "terminal": 1761
+      }
+    },
+    "research_debt": {
+      "single_source_units": 249,
+      "tentative_units": 797,
+      "low_confidence_units": 10,
+      "candidates_needing_evidence": 3578,
+      "units_missing_hierarchy_assignment": 797
+    }
+  }
+}

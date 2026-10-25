@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "total_checks": 18,
+    "pass": 18,
+    "fail": 0,
+    "behavioral_ready": true
+  },
+  "checks": [
+    {
+      "check": "required upgrade contracts",
+      "status": "pass",
+      "detail": "all current contracts exist"
+    },
+    {
+      "check": "event routing replaces fixed pipeline",
+      "status": "pass",
+      "detail": "router defines loops and event routes without fixed stage numbering"
+    },
+    {
+      "check": "new processing uses the compact profile",
+      "status": "pass",
+      "detail": "new sources use five compact artifacts; legacy packages are history only"
+    },
+    {
+      "check": "duplicate and conflict screening is signal-routed",
+      "status": "pass",
+      "detail": "every source candidate is screened; full reconcile runs only on conflict signals"
+    },
+    {
+      "check": "hierarchy roles and attachment debt are explicit",
+      "status": "pass",
+      "detail": "domain, dimension, theme, topic and KU roles are distinct; Cluster is discovery-only; missing attachment is measured"
+    },
+    {
+      "check": "skill names are unique",
+      "status": "pass",
+      "detail": "18 declared names are unique"
+    },
+    {
+      "check": "skill roles match the lean architecture",
+      "status": "pass",
+      "detail": "18 active skills are classified as independent leaf workflows"
+    },
+    {
+      "check": "Codex and Claude use thin project adapters",
+      "status": "pass",
+      "detail": "both clients share AGENTS and the executable guard without duplicating semantic rules"
+    },
+    {
+      "check": "repository has one active skill root",
+      "status": "pass",
+      "detail": ".agents/skills is the only repository Skill root"
+    },
+    {
+      "check": "navigation categories are not runnable skills",
+      "status": "pass",
+      "detail": "quality, growth and output are README navigation categories"
+    },
+    {
+      "check": "retired skill semantics stay absent",
+      "status": "pass",
+      "detail": "fixed loops, implicit enrich and count-based promotion are absent"
+    },
+    {
+      "check": "skill registry fails closed",
+      "status": "pass",
+      "detail": "registry returns non-zero when issues exist"
+    },
+    {
+      "check": "generated refresh is explicit",
+      "status": "pass",
+      "detail": "default closure is read-only; generated refresh is opt-in"
+    },
+    {
+      "check": "batch runner cannot perform git closeout",
+      "status": "pass",
+      "detail": "runner has no git add/commit/push executor"
+    },
+    {
+      "check": "verification state is batch-local",
+      "status": "pass",
+      "detail": "verify apply fingerprints batch input, commits atomically and uses only batch-local state"
+    },
+    {
+      "check": "candidate and file-back contract is traceable",
+      "status": "pass",
+      "detail": "unified candidate envelope and honest file-back state are present"
+    },
+    {
+      "check": "relation discovery excludes formal pairs",
+      "status": "pass",
+      "detail": "relation candidates use the unified envelope and exclude already-formal pairs"
+    },
+    {
+      "check": "entrypoint versions agree",
+      "status": "pass",
+      "detail": "version 5.3.0 is consistent"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "work_package": "2026-10-25-2011lilixin-institutions-batch-x",
+  "goal": "处理李立新《中国设计艺术史论》2011 册 institution 候选 11 个：9 个新建、2 个更新、0 个 no_delta、0 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:d4acbebb5344a706051add749ada42c0817bc1ce735aaedc6d927182232687c8",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 919,
+        "needs_evidence": 3551,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        "L179-L181",
+        "L283",
+        "L341, L2446-L2448",
+        "L794",
+        "L1020-L1023",
+        "L1155-L1157",
+        "L1204",
+        "L1261",
+        "L1293",
+        "L1313",
+        "L1683"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“国务院学位委员会”判 create：李立新 L179-L181 记其在本科目录用“艺术设计”、研究生目录用“设计艺术”，作者判二者内涵相同、通用；补夏燕靖 2016 L5905 的 1986 年学位授权与高丰 2004 L136-L140 的学科评议职务；1998 年两次目录调整已由事件条目承载，不在本条重复。",
+      "候选“中央历史语言研究所”判 create：李立新 L283 记傅斯年主持该所、倡导“上穷碧落下黄泉，动手动脚找东西”，并引“一分材料出一分货”与“史学便是史料学”三句话；来源只作史学方法例证，未给成立年份、隶属、所址、组织与人员，confidence 定为 low。",
+      "候选“东南大学”判 create：候选合并 cand-06-03；李立新 L341 记 1994 年 6 月张道一倡导组建我国第一个艺术学系，L2446-L2448 记李立新 1999 年 9 月入学、2002 年 6 月 15 日答辩；补高丰 2004 题署的“东南大学艺术学系主任”与夏燕靖 2016 L6021 的 1995 年计算机艺术会议承办；设立、答辩、会议三个事件分记，本条只登记学校与艺术学系本体。",
+      "候选“瑞典远东古物博物馆”判 create：李立新 L794 只一句，记该馆藏中国青铜钺、钺上丝织物残痕为平纹底起菱形花纹的提花织物；来源只作提花技术证据，未给馆史、藏品总目与入藏信息，confidence 定为 low；英文名按该馆通名，来源未给英译，名实对应待外部核对。",
+      "候选“正仓院”判 create：李立新 L1020-L1023 记日本奈良正仓院所藏中国设计物品可证中国造物东传日本；补田自秉 2010 L3254、L3392 的唐代夹缬屏风与螺钿琵琶、阮咸，高丰 2004 L2998 的 55 面唐代铜镜，夏燕靖 2009 L2148 的“奈良东大寺正仓院”称法与夹缬屏风；四源称法并存，不写日本寺院史或藏品总目。",
+      "候选“宋代宫廷画院”判 create：李立新 L1155-L1157 记宋代宫廷画院、院体画及对文思院、甲库、文绣院、绫锦院等工艺机构的影响；既有 `events/song-dai-huayuan-sheli.md` 记同一来源的设立事件，本条与其分工为“机构本体”与“设立事件”，不判 no_delta，因 type 与指称侧面不同。",
+      "候选“清江船厂”判 create：李立新 L1204 引《漕船志》记 8,873 名工匠、七类工种与十六府及“军余工办”征调；夏燕靖 2009 L3750、2016 L4607 记江苏淮南清江船厂主要造内河漕船、也造部分海船；明初官营 2 万余人、年造 3,000 余只是合计，不归本厂；与南京龙江船厂分记。",
+      "候选“成衣公所”判 create：李立新 L1261 引《长州县禁止无业游民在成衣公所寻衅滋扰碑》，判当时已有专业衣工与成衣业行会；来源未给成立年份、公所址、行规、成员、经费与存续时间，未引碑文，confidence 定为 low；同段江南成衣业与衣庄背景不归公所。",
+      "候选“江南制造局”判 update 既有 `institutions/jiangnan-zhizao-zongju.md`：既有条目已记 1865 年创办、曾国藩／李鸿章、兵工厂、造船与 1868 年翻译馆；补李立新 2011 L1293 的 1904 年前产量与官办企业定位，source_count 3→4、version 2→3，alias 增“江南制造局”“上海江南制造局”，不另建重复条目。",
+      "候选“中国商业美术作家协会”判 create：李立新 L1313 记 1934 年上海成立、入会者 500 余人、同年办展览、先后出版工商业美术作品选集两辑；同段尚美图案馆、大熊工商美术社、上海美术供应社与月份牌画家工作室不并入；来源写作“庞薰栗”，照录并标“原文如此”。",
+      "候选“宫廷玻璃厂”判 update 既有 `institutions/neiwufu-zaobanchu.md`：既有条目已据高丰 2004 列造办处下设玻璃厂但无细节；补李立新 2011 L1683 的康熙时设厂、雇用欧洲工匠、玻璃器生产恢复，并区分博山作坊与近代大型玻璃厂；李立新未明说隶属造办处，按高丰所记合并，名实待考；source_count 4→5、version 3→4，不另建 `gongting-boli-chang`。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，9 条新建、2 条更新；不 commit、不 push。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-institutions-batch-x\\apply-plan.jsonl",
+      "rows": 11,
+      "create": 9,
+      "update": 2
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-institutions-batch-x\\candidate-decision-ledger.jsonl",
+      "rows": 33,
+      "candidates": 11,
+      "applied": 11,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2011lilixin-institutions-batch-x\\canonical-mapping.json",
+      "entries": 11,
+      "merged_candidates": [
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-03"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 930,
+    "needs_evidence": 3540,
+    "no_delta": 57,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 33,
+      "candidates": 11,
+      "final_applied": 11,
+      "final_no_delta": 0,
+      "final_rejected": 0,
+      "plan_rows": 11,
+      "create": 9,
+      "update": 2,
+      "merged_candidates": 1,
+      "fingerprints_verified": 11,
+      "mapping_entries": 11,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 825,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 825,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/825",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "825/825",
+      "events": 115,
+      "institutions": 144
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 825,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:0fb76ef90783b643feeb2a8543cba07fc4617ab1bddf6986ca3d3d70319964c4",
+      "counts": {
+        "applied": 930,
+        "needs_evidence": 3540,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    }
+  }
+}

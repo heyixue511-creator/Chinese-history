@@ -1,0 +1,156 @@
+{
+  "work_package": "2026-10-25-2009zhaonong-institutions-batch-q",
+  "goal": "处理赵农《中国艺术设计史》2009 册 institution 候选 10 个：8 个新建、1 个更新、0 个 no_delta、1 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:bb92c619b1c3003bb661c6dd4ee7d8e54b3f5a93a7da18472afac1251a3d9f25",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 857,
+        "needs_evidence": 3619,
+        "no_delta": 56,
+        "rejected": 807
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        "L6486-L6519",
+        "L7125-L7209",
+        "L7210-L7258",
+        "L6613",
+        "L7221-L7227",
+        "L6836-L6866"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“司农司”按元代劝农行政机构立目：官方设司农司、各地选派劝农官、鼓励开荒、禁止毁田、诏诸路劝课农桑；不补品秩、员额与《元史》原文以外的制度细节。",
+      "候选“会通馆”按明代无锡华家铜活字印书工坊立目：印《宋诸臣奏议》为现存最早铜活字印刷书籍，镌刻、排字、施墨、印刷形成秩序化操作；不补主人姓名与活字数量。",
+      "候选“武英殿”判 update：既有 wuyingdian-xiushuchu.md 即武英殿修书处，补入赵农 2009 官刻序列、殿本代表作、《大藏经》经版数与《武英殿聚珍版程式》；2009 册只称“武英殿”，正文并录两册隶属表述，不据一说改写另一说。",
+      "候选“奴儿干都指挥使司”判 rejected：来源仅一句女真族背景，机构属东北边疆军事行政建置，未涉设计、工艺、生产组织或设计制度，不立设计史 institution 条目。",
+      "候选“金陵书局”按清末南京官办书局立目：同治年间曾国藩开设，与其他地方官书局联刻《二十四史》，“流布雅俗，开启民思”。",
+      "候选“湖南思贤书局”按清末湖南官办书局立目：出版《王船山遗书》，整理出版王船山遗著并推动清末社会变革。",
+      "候选“浙江书局”按清末浙江官办书局立目：出版《二十二子》；影响句为四局并列，不单独归因于浙江书局。",
+      "候选“成都存古书局”按清末成都官办书局立目：出版《说文解字注》；与《说文解字》本体条目分条，不合并。",
+      "候选“六必居”按明清北京酱菜老字号立目：来源以之为招牌（商铺匾额）例证，记其明代、北京、酱菜与流传至今；不并入幌子条目对“六必居”三字的释义。",
+      "候选“王麻子剪刀铺”按明清北京剪刀铺立目：图 9-15 图题与“长年累月获得良好商业信誉”正文；与幌子条目“王麻子刀剪铺”分条并存，不合并。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，8 条新建、1 条更新、1 条 rejected。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-institutions-batch-q\\apply-plan.jsonl",
+      "rows": 9,
+      "create": 8,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-institutions-batch-q\\candidate-decision-ledger.jsonl",
+      "rows": 28,
+      "candidates": 10,
+      "applied": 9,
+      "no_delta": 0,
+      "rejected": 1
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2009zhaonong-institutions-batch-q\\canonical-mapping.json",
+      "entries": 9,
+      "merged_candidates": []
+    }
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 28,
+      "candidates": 10,
+      "final_applied": 9,
+      "final_no_delta": 0,
+      "final_rejected": 1,
+      "plan_rows": 9,
+      "create": 8,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 9,
+      "mapping_entries": 9,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 773,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 773,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/773",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "773/773",
+      "events": 115,
+      "institutions": 92
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 773,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:c9aee8261718e648b5eccc3df691136cb7906b683e950a9bfdad40b64cfe01f3",
+      "counts": {
+        "applied": 866,
+        "needs_evidence": 3609,
+        "no_delta": 56,
+        "rejected": 808
+      }
+    }
+  },
+  "state_after": {
+    "applied": 866,
+    "needs_evidence": 3609,
+    "no_delta": 56,
+    "rejected": 808,
+    "total": 5339
+  }
+}

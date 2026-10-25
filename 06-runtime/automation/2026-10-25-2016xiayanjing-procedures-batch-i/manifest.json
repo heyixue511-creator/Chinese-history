@@ -1,0 +1,163 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-procedures-batch-i",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册 14 个 procedure 候选：7 个新建、4 个更新、3 个 no_delta；无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:995b121f8f2e6c9ea13fc05de485815a3eb5e2f960f066001fe6942f83b5937a",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 778,
+        "needs_evidence": 3717,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L353",
+        "L359",
+        "L361",
+        "L363",
+        "L367",
+        "L380",
+        "L384",
+        "L414",
+        "L416",
+        "L432",
+        "L570",
+        "L666-L675",
+        "L688",
+        "L1081",
+        "L1087",
+        "L1120",
+        "L1124",
+        "L1258",
+        "L1562",
+        "L1659"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "procedure 候选按实体而非 slug 对账：先与既有 procedure KU 的标题、别名和正文对齐，再定 create／update／no_delta。",
+      "夏燕靖 2016《中国艺术设计史（升级版）》与 2009《中国设计史》为同一作者前后版本；2016 段落与既有 KU 所据 2009 段落语义一致时判 no_delta，不以新版年份充当新增证据。",
+      "2016 版新增内容（元谋、蓝田、丁村、峙峪、下川石器序列，练染业 7 工官，铁鐏／铁鏤异文等）写入既有 KU；2016 版独立成条的新工艺另建 KU。",
+      "来源只给名称、未给工序的条目（榫卯、焚失）照立条目，confidence 定为 low，并在证据边界写明缺失项。",
+      "同名异指不合并：车轮检测法与陶器轮制法分列；浑铸法与合范法、分铸法分列。"
+    ],
+    "source_policy": "03基础书籍-md文档只读；本批写 04-knowledge/units/procedures，7 条新建、4 条更新。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-i\\apply-plan.jsonl",
+      "rows": 11,
+      "create": 7,
+      "update": 4
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-i\\candidate-decision-ledger.jsonl",
+      "rows": 42,
+      "candidates": 14,
+      "applied": 11,
+      "no_delta": 3,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-procedures-batch-i\\canonical-mapping.json",
+      "entries": 14,
+      "merged_candidates": []
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 42,
+      "candidates": 14,
+      "final_applied": 11,
+      "final_no_delta": 3,
+      "final_rejected": 0,
+      "plan_rows": 11,
+      "create": 7,
+      "update": 4,
+      "merged_candidates": 0,
+      "fingerprints_verified": 11,
+      "mapping_entries": 14,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 708,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 708,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/708",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "708/708",
+      "events": 115,
+      "procedures": 111
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 708
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 9 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 9
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:b365aa4ab33c2b82b6fc23d1130c436ee2523eb9412fd39604cec3e4a00ad38c",
+      "counts": {
+        "applied": 789,
+        "needs_evidence": 3703,
+        "no_delta": 46,
+        "rejected": 801
+      }
+    }
+  },
+  "state_after": {
+    "applied": 789,
+    "needs_evidence": 3703,
+    "no_delta": 46,
+    "rejected": 801,
+    "total": 5339
+  }
+}

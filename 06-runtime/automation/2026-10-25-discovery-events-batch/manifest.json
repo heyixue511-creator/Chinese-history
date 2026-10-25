@@ -1,0 +1,129 @@
+{
+  "work_package": "2026-10-25-discovery-events-batch",
+  "goal": "处理田自秉《中国工艺美术史》中的 7 个考古发现事件候选：6 个新建 event KU，1 个由既有 work KU 覆盖判 no_delta。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b",
+      "needs_evidence_before": 3970,
+      "rows_after": 5339,
+      "sha256_after": "sha256:bf61969fb455edb027c076ab28873d5f6407ea0292780903d468af900a0e3235",
+      "needs_evidence_after": 3963,
+      "rebuild_idempotent": true
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L443",
+        "L484",
+        "L583",
+        "L829",
+        "L1814",
+        "L1962",
+        "L1972",
+        "L2466",
+        "L2470"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "发现事件若无既有 KU，且来源给出时间、地点、出土物与工艺意义，建 event KU。",
+      "发现事件若已被既有 work KU 完整记录（时间、地点、尺寸、纹样），判 no_delta，不重复建条。",
+      "事件条目只写来源所记事实；未给器形、尺寸、发掘者时明确写入证据边界。"
+    ],
+    "source_policy": "02-sources 只读；本批只写 04-knowledge/units/events。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-25-discovery-events-batch/apply-plan.jsonl",
+      "rows": 6,
+      "create": 6,
+      "update": 0
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-25-discovery-events-batch/candidate-decision-ledger.jsonl",
+      "rows": 21,
+      "candidates": 7,
+      "applied": 6,
+      "no_delta": 1,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-25-discovery-events-batch/canonical-mapping.json",
+      "entries": 7
+    }
+  },
+  "state_after": {
+    "applied": 548,
+    "no_delta": 27,
+    "rejected": 801,
+    "needs_evidence": 3963,
+    "total": 5339
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 21,
+      "ledger_candidates": 7,
+      "plan_rows": 6,
+      "plan_fingerprints_match_disk": 6,
+      "mapping_entries": 7,
+      "cross_check_errors": 0
+    },
+    "content_quality": {"units": 511, "findings": 0},
+    "relation_consistency": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 511
+    },
+    "repository_audit": {
+      "structural_health": "122/130",
+      "knowledge_structure": "55/65",
+      "evidence_chain": "55/55",
+      "evidence_citations": "511/511",
+      "broken_links": 0,
+      "frontmatter_missing": 0,
+      "type_coverage": "8/8",
+      "event_units": 17
+    },
+    "rule_drift": 0,
+    "skill_registry": {"skills": 18, "leaf": 18, "router": 0},
+    "whitespace_check": "pass",
+    "generated_snapshot_check": {
+      "result": "blocked",
+      "step": "17/19 check generated snapshots",
+      "reason": "工作树未提交：9 个生成态文件与 HEAD 不一致，git diff --exit-code 按设计返回 1",
+      "files_differing": [
+        "05-outputs/index/index.md",
+        "05-outputs/knowledge-graph-data.js",
+        "05-outputs/knowledge-graph-data.json",
+        "06-runtime/automation/index.md",
+        "06-runtime/governance/governance-backlog.md",
+        "06-runtime/state/candidate-index.jsonl",
+        "06-runtime/state/current-health.json",
+        "06-runtime/state/discovery-manifest.json",
+        "06-runtime/state/generated-projections-manifest.json"
+      ]
+    },
+    "system_upgrade_chain": {"total": 18, "pass": 18, "fail": 0, "behavioral_ready": true},
+    "pytest": {"result": "pass", "tests": 250}
+  },
+  "repository_state": {
+    "head": "e2154e2",
+    "origin_main": "e2154e2",
+    "session_git_writes": "none",
+    "note": "批次期间工作树由外部自动流程提交并推送至 e2154e2；本会话未执行 commit 或 push。"
+  },
+  "notes": [
+    "舞蹈纹彩陶盆事件由 works/wudaowen-caitao-pen.md 完整覆盖，判 no_delta。",
+    "马王堆事件与 works/susha-chanyi.md 分工：后者记器物，本条记发掘数量、品种、织法与绒圈锦。",
+    "曾侯乙墓发掘年份照录田自秉 1977 年，不据外部资料校正。"
+  ]
+}

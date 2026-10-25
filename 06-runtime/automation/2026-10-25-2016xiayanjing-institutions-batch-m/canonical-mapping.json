@@ -1,0 +1,67 @@
+[
+  {
+    "entity": "安庆军械所",
+    "target_ref": "04-knowledge/units/institutions/anqing-junxiesuo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "第一汽车制造厂",
+    "target_ref": "04-knowledge/units/institutions/diyi-qiche-zhizaochang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-75",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海砖瓦锯木厂",
+    "target_ref": "04-knowledge/units/institutions/shanghai-zhuanwa-jumuchang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-120",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盖茨公司（Getz Bros. & Co.）",
+    "target_ref": "04-knowledge/units/institutions/getz-bros.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉诺威工业设计论坛",
+    "target_ref": "04-knowledge/units/institutions/hannuowei-gongye-sheji-luntan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中央手工业管理局（中央手工业管理总局）",
+    "target_ref": "04-knowledge/units/institutions/zhongyang-shougongye-guanliju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "教育部",
+    "target_ref": "04-knowledge/units/institutions/jiaoyubu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江南机器制造总局",
+    "target_ref": "04-knowledge/units/institutions/jiangnan-zhizao-zongju.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-20",
+    "merged_candidates": [],
+    "note": "候选“江南机器制造总局”以既有江南制造总局 KU 为落点；补入 2016 L4959、L4965，并保留“曾国藩支持下由李鸿章创办”与“曾国藩同李鸿章共同筹建”的表述差异。"
+  },
+  {
+    "entity": "清华大学美术学院",
+    "target_ref": "04-knowledge/units/institutions/central-academy-arts-design.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-10",
+    "merged_candidates": [],
+    "note": "既有 central-academy-arts-design KU 的 2016 source location 已含 L6073-L6087，正文已记1999-11-20中央工艺美术学院与清华大学合并成立清华大学美术学院，候选无新增内容"
+  }
+]

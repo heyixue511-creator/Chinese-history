@@ -1,0 +1,153 @@
+{
+  "work_package": "2026-10-25-2009xiayanjing-events-batch",
+  "goal": "处理夏燕靖《中国设计史》2009 册的 10 个 event 候选：3 个新建 event KU，7 个补入既有 event KU；无 no_delta、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:aaa3c28b584f8ce731d3c7e2762e4996875adb653be6768622cf0db54e2c3826",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 652,
+        "needs_evidence": 3843,
+        "no_delta": 43,
+        "rejected": 801
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        "L1764-L1766",
+        "L1773-L1776",
+        "L4331",
+        "L4594-L4607",
+        "L4694-L4711",
+        "L4694-L4711",
+        "L4736-L4745",
+        "L4758-L4819",
+        "L4768-L4787",
+        "L4896-L4915"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "既有同题 KU 可承载但缺夏燕靖 2009 记载的判 update；既有专条已完整覆盖且已引夏燕靖 2009 的判 no_delta；无对应实体的判 create。",
+      "2009 与 2016 两版条目文字基本一致的，在 update 中并列两版并注明差异，不以新版覆盖旧版。",
+      "事件条目只写来源所记时间、地点、参与者、过程与结果；来源未载的年份、人物、数据与过程写入证据边界。",
+      "来源的判断与推测照录并标明主语，不提升为定论。"
+    ],
+    "source_policy": "02-sources 只读；本批写 04-knowledge/units/events，并对既有 event KU 补入 2009 来源。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-events-batch\\apply-plan.jsonl",
+      "rows": 10,
+      "create": 3,
+      "update": 7
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-events-batch\\candidate-decision-ledger.jsonl",
+      "rows": 30,
+      "candidates": 10,
+      "applied": 10,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2009xiayanjing-events-batch\\canonical-mapping.json",
+      "entries": 10
+    }
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 30,
+      "ledger_candidates": 10,
+      "final_applied": 10,
+      "final_no_delta": 0,
+      "plan_rows": 10,
+      "plan_create": 3,
+      "plan_update": 7,
+      "plan_fingerprints_match_disk": 10,
+      "mapping_entries": 10,
+      "cross_check_errors": 0,
+      "rebuild_idempotent": true
+    },
+    "content_quality": {
+      "units": 609,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structural_health": "122/130",
+      "knowledge_structure": "55/65",
+      "evidence_chain": "55/55",
+      "evidence_citations": "609/609",
+      "broken_links": 0,
+      "frontmatter_missing": 0,
+      "type_coverage": "8/8",
+      "event_units": 115,
+      "duplicate_cross_type_groups": 4,
+      "duplicate_groups_disambiguated": 8,
+      "duplicate_groups_without_disambiguation": 0
+    },
+    "rule_drift": {
+      "findings": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0
+    },
+    "whitespace_check": "pass",
+    "generated_snapshot_check": {
+      "status": "blocked",
+      "step": "17/19",
+      "exit_code": 1,
+      "reason": "工作树未提交，9 个生成态文件与 HEAD 不一致；--check-generated 按设计阻断，待授权提交后复核。",
+      "differing_files": [
+        "05-outputs/index/index.md",
+        "05-outputs/knowledge-graph-data.js",
+        "05-outputs/knowledge-graph-data.json",
+        "06-runtime/automation/index.md",
+        "06-runtime/governance/governance-backlog.md",
+        "06-runtime/state/candidate-index.jsonl",
+        "06-runtime/state/current-health.json",
+        "06-runtime/state/discovery-manifest.json",
+        "06-runtime/state/generated-projections-manifest.json"
+      ]
+    },
+    "system_upgrade_chain": {
+      "total_checks": 18,
+      "pass": 18,
+      "fail": 0,
+      "behavioral_ready": true
+    },
+    "pytest": {
+      "tests": 266,
+      "subtests": 16,
+      "status": "pass"
+    },
+    "post_apply_check": {
+      "errors": 0,
+      "candidate_states": {
+        "needs_evidence": 3833,
+        "applied": 662,
+        "no_delta": 43,
+        "rejected": 801
+      },
+      "index_rows": 5339,
+      "index_sha256": "sha256:3a715412cd64619e7787b9e749c77955a1aabf7b1f5da627bc744bcb38262bb0"
+    }
+  },
+  "state_after": {
+    "applied": 662,
+    "no_delta": 43,
+    "rejected": 801,
+    "needs_evidence": 3833,
+    "total": 5339
+  }
+}

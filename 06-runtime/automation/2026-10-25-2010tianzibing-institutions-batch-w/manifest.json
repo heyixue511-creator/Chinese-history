@@ -1,0 +1,155 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-institutions-batch-w",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册 institution 候选 8 个：6 个新建、1 个更新、1 个 no_delta、0 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:0f317aa0940599417617c2dbf16b5abba561d4d258d564a005dac5889366553a",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 912,
+        "needs_evidence": 3559,
+        "no_delta": 56,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L5023-L5027",
+        "L5103",
+        "L5138-L5142",
+        "L5176-L5178",
+        "L5256-L5258",
+        "L5723"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体对账：先与既有 institution KU 的标题、别名与正文对齐，再定 create／update／no_delta／rejected。",
+      "候选“建华瓷厂”判 create：田自秉 L5025 记关中衣食村的建华瓷厂生产质地较好的细瓷，有古铜、淡红、白、黑等色釉，产品供应本区并运销陇东；厂名、地点、产品与销售范围明确，创设年份与隶属缺失。",
+      "候选“解放区第一个陶瓷研究所”判 create：田自秉 L5025 记河北磁州解放后立即恢复陶瓷生产并成立解放区第一个陶瓷研究所；来源未给正式所名、成立年份、隶属、人员与研究内容，confidence 定为 low，不补造正式所名。",
+      "候选“延安玻璃厂”判 create：田自秉 L5027 记 1941 年在延安白手起家创建第一个玻璃厂，克服原料调配与坩埚制作困难，产出杯、瓶、灯罩等器皿；来源未给正式厂名，条目名按地点与通称转写，并在正文标注。",
+      "候选“云锦研究所”判 update 既有 `institutions/nanjing-yunjin-yanjiusuo.md`：该条已记南京市云锦研究所 1957 年 7 月由江苏省人民政府批准建立；田自秉 L5103 的“云锦研究所”在南京、名称与“解放后建立”时期上一致，按同一机构合并记录，补田自秉的建立背景、研究所工作、八句口诀、图案组织与新创生活用品，不另建重复条目；来源未明说同指，名实张力写入验证状态。",
+      "候选“苏州刺绣研究所”判 create：田自秉 L5140 记 1957 年成立苏州刺绣研究所，专门从事苏绣传统技艺的研究和创新工作；同段“猫”“金鱼”、双面绣与乱针绣的叙述不全部归所，正文标注段内指代不明。",
+      "候选“北京珐琅厂”判 create：田自秉 L5178 只一句，记景泰蓝仍以北京为生产中心，北京珐琅厂规模较大，北京工艺美术厂设景泰蓝车间，上海等地也发展生产；名称、地点与规模判断明确，组织细节全缺，confidence 定为 low。",
+      "候选“广东南海藤厂”判 create：田自秉 L5258 只一句，记解放后建立许多大型藤编工艺厂，广东南海藤厂为其中之一；同段藤编工艺背景不专属该厂，confidence 定为 low。",
+      "候选“杭州国立艺术专科学校”判 no_delta：既有 `institutions/hangzhou-guoli-yizhuan.md` 已含田自秉 2010 L5723 为第二源，正文完整照录“解放前在杭州国立艺术专科学校做学生、常去浙江省图书馆阅览《格古要论》《骨董琐记》”并讨论校名差异，候选无新增语义。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，6 条新建、1 条更新、1 条 no_delta。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-w\\apply-plan.jsonl",
+      "rows": 7,
+      "create": 6,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-w\\candidate-decision-ledger.jsonl",
+      "rows": 24,
+      "candidates": 8,
+      "applied": 7,
+      "no_delta": 1,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-institutions-batch-w\\canonical-mapping.json",
+      "entries": 7,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 919,
+    "needs_evidence": 3551,
+    "no_delta": 57,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 24,
+      "candidates": 8,
+      "final_applied": 7,
+      "final_no_delta": 1,
+      "final_rejected": 0,
+      "plan_rows": 7,
+      "create": 6,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 7,
+      "mapping_entries": 7,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 816,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 816,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/816",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "816/816",
+      "events": 115,
+      "institutions": 135
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 816,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:d4acbebb5344a706051add749ada42c0817bc1ce735aaedc6d927182232687c8",
+      "counts": {
+        "applied": 919,
+        "needs_evidence": 3551,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    }
+  }
+}

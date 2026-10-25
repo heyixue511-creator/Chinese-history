@@ -1,0 +1,79 @@
+[
+  {
+    "entity": "中国纺织印染技术外传",
+    "target_ref": "04-knowledge/units/events/6th-century-fangzhi-jishu-waichuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-108",
+    "merged_candidates": []
+  },
+  {
+    "entity": "定瓷恢复",
+    "target_ref": "04-knowledge/units/events/1972-1976-dingci-huifu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国工艺美术品百花奖",
+    "target_ref": "04-knowledge/units/events/zhongguo-gongyi-meishupin-baihuajiang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "孝文改制",
+    "target_ref": "04-knowledge/units/events/xiao-wen-gai-zhi.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-81",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表同条记载，文字与 2016 升级版基本一致；两版互证孝文改制内容。"
+  },
+  {
+    "entity": "全国工艺美术艺人代表会议（1957）",
+    "target_ref": "04-knowledge/units/events/national-craft-artists-conference-1957.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-04",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表 7 月 22 日的明确日期与“保护、发展和提高”方针、“适用、经济、美观”原则；2009 与 2016 正文月份一致。"
+  },
+  {
+    "entity": "周恩来1972年提倡手工艺",
+    "target_ref": "04-knowledge/units/events/zhou-enlai-handicraft-1972.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-11",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表同条记载，文字与 2016 升级版基本一致。"
+  },
+  {
+    "entity": "中国向联合国总部赠送工艺品（1974）",
+    "target_ref": "04-knowledge/units/events/united-nations-gift-1974.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-12",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表所记 10 月 7 日赠送与天津、北京产地；任务下达与尺寸仍仅 2016 所记。"
+  },
+  {
+    "entity": "全国工艺美术艺人、创作设计人员代表大会（1979）",
+    "target_ref": "04-knowledge/units/events/crafts-artist-title-1979.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-13",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表同条记载，文字与 2016 升级版基本一致，并同记 1 月赴日展览与 8 月 11 日学会恢复。"
+  },
+  {
+    "entity": "全国高等院校工艺美术教学座谈会（1982）",
+    "target_ref": "04-knowledge/units/events/national-crafts-education-symposium-1982.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-16",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表同条记载，文字与 2016 升级版基本一致。"
+  },
+  {
+    "entity": "中国工业设计代表团首次参加ICSID'89",
+    "target_ref": "04-knowledge/units/events/icsid-1989-nagoya.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-20",
+    "merged_candidates": [],
+    "note": "补入夏燕靖 2009 年表同条记载，文字与 2016 升级版基本一致。"
+  }
+]

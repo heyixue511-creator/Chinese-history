@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "果园厂",
+    "target_ref": "04-knowledge/units/institutions/guoyuanchang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-53",
+    "merged_candidates": []
+  },
+  {
+    "entity": "吴彩霞绣坊",
+    "target_ref": "04-knowledge/units/institutions/wucaixia-xiufang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "造办处",
+    "target_ref": "04-knowledge/units/institutions/neiwufu-zaobanchu.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "诸匠营",
+    "target_ref": "04-knowledge/units/institutions/zhujiangying.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-102",
+    "merged_candidates": []
+  },
+  {
+    "entity": "百工衙",
+    "target_ref": "04-knowledge/units/institutions/baigongya.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-103",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国纺织建设公司",
+    "target_ref": "04-knowledge/units/institutions/zhongguo-fangzhi-jianshe-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国蚕丝公司",
+    "target_ref": "04-knowledge/units/institutions/zhongguo-cansi-gongsi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "桥儿沟陶瓷厂",
+    "target_ref": "04-knowledge/units/institutions/qiaoergou-taocichang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-12",
+    "merged_candidates": []
+  }
+]

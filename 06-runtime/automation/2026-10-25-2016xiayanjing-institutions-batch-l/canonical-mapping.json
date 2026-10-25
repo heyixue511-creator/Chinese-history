@@ -1,0 +1,81 @@
+[
+  {
+    "entity": "宋代染织管理机构",
+    "target_ref": "04-knowledge/units/institutions/song-dai-ranzhi-guanli-jigou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-24",
+    "merged_candidates": []
+  },
+  {
+    "entity": "刻字司",
+    "target_ref": "04-knowledge/units/institutions/kezisi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "建康路织染局",
+    "target_ref": "04-knowledge/units/institutions/jiankanglu-zhiranju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "太史局",
+    "target_ref": "04-knowledge/units/institutions/taishiju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "荷兰东印度公司",
+    "target_ref": "04-knowledge/units/institutions/dutch-east-india-company.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙江船厂",
+    "target_ref": "04-knowledge/units/institutions/longjiang-chuanchang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "德昌花边庄",
+    "target_ref": "04-knowledge/units/institutions/dechang-huabianzhuang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-25",
+    "merged_candidates": []
+  },
+  {
+    "entity": "广东工艺局",
+    "target_ref": "04-knowledge/units/institutions/guangdong-gongyiju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-26",
+    "merged_candidates": []
+  },
+  {
+    "entity": "恒沅轧花厂",
+    "target_ref": "04-knowledge/units/institutions/hengyuan-zhahuachang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "御器厂（景德镇官窑）",
+    "target_ref": "04-knowledge/units/institutions/yuqichang.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-18",
+    "merged_candidates": [],
+    "note": "候选“景德镇官窑”以既有御器厂 KU 为落点；补入 2016 L4345 明清官窑总述，并保留“官窑”泛称与“御器厂”专名之间的口径差异。"
+  },
+  {
+    "entity": "金代绫锦院",
+    "target_ref": "04-knowledge/units/institutions/lingjinyuan.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-84",
+    "merged_candidates": [],
+    "note": "既有 lingjinyuan KU 已含 2016 L3499 金代真定、平阳、太原、河间、怀州5处绫锦院及“掌织造常课匹段之事”，候选无新增内容"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "entity": "典丝",
+    "target_ref": "04-knowledge/units/institutions/dian-si.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "大乐司",
+    "target_ref": "04-knowledge/units/institutions/da-yuesi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石渠阁",
+    "target_ref": "04-knowledge/units/institutions/shiquge.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-116",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上林三官",
+    "target_ref": "04-knowledge/units/institutions/shanglin-sanguan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "尚方（尚方令）",
+    "target_ref": "04-knowledge/units/institutions/shangfang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "交子务",
+    "target_ref": "04-knowledge/units/institutions/jiaoziwu.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-39",
+    "merged_candidates": []
+  },
+  {
+    "entity": "市舶司",
+    "target_ref": "04-knowledge/units/institutions/shibosi.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-64",
+    "merged_candidates": []
+  },
+  {
+    "entity": "驿站",
+    "target_ref": "04-knowledge/units/institutions/yuan-dai-yizhan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-26",
+    "merged_candidates": []
+  },
+  {
+    "entity": "文思院（西夏）",
+    "target_ref": "04-knowledge/units/institutions/xi-xia-wensiyuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-61",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉代长安官营纺织业",
+    "target_ref": "04-knowledge/units/institutions/han-dai-guan-ying-sizhi-zuofang.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-105",
+    "merged_candidates": [],
+    "note": "既有 KU 已覆盖候选语义：长安设东、西织室，织作缯帛和文绣之服；官作坊精美丝麻织物供皇室、赏赐与对外贸易。2009 L3038 的“长安有专门生产服饰的纺织业官营结构”与 L1405-L1416 同书同段网络一致，无新增机构名或制度细节，判 no_delta"
+  }
+]

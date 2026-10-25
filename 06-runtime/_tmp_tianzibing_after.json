@@ -1,0 +1,106 @@
+[
+ {
+  "slug": "banama-saihui",
+  "before": {
+   "sha256": "sha256:bed9be44557b2baa96f0d1479176f4fc26cceba71573e106196212a17b04a58c",
+   "bytes": 3955,
+   "lines": 88
+  },
+  "after_sha256": "sha256:35a8084d7dba0163d48ec805ef68d95f54fab232f0937564ac4a0b9d9e594f98",
+  "bytes": 5816,
+  "lines": 100,
+  "sources": 3,
+  "refs": 3
+ },
+ {
+  "slug": "chenqiao-mutiny",
+  "before": {
+   "sha256": "sha256:68db1972db05685306db76785e041e68fd586c6770d474d95adacd502813d00c",
+   "bytes": 3276,
+   "lines": 78
+  },
+  "after_sha256": "sha256:e8067ddce0bb391019a049f734e7e43540e7a35c4ca194b7dae229d3842e5e6b",
+  "bytes": 4659,
+  "lines": 89,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "jingkang-zhibian",
+  "before": {
+   "sha256": "sha256:2f9de25fc39f5af30fc63c26e99d0a2c380f70c167605f9565bcb02ee0b4c354",
+   "bytes": 3571,
+   "lines": 79
+  },
+  "after_sha256": "sha256:53a5edf0ea3f3e99d470122063664ecf2b8673aa2b5519f569901f7c58698197",
+  "bytes": 5216,
+  "lines": 90,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "king-wu-conquers-zhou",
+  "before": {
+   "sha256": "sha256:81456597d9bba847d98b5b4b936557e043e89340a19d0bde4c0bdc07c5475a76",
+   "bytes": 3458,
+   "lines": 79
+  },
+  "after_sha256": "sha256:696310f63dbbe5bf60809fa42f41c43f6af92d71a681ee17d006813c651a4f27",
+  "bytes": 4338,
+  "lines": 90,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "national-craft-artists-conference-1957",
+  "before": {
+   "sha256": "sha256:7332e523dff379ad2869d41b624efa5bf9a2bb191f6250e9680cdcc321b86731",
+   "bytes": 4004,
+   "lines": 80
+  },
+  "after_sha256": "sha256:cbb335a28d80194dd5dde9c8cffff6d534e7561a5d8bd5fecb68a9ac72ff7ef0",
+  "bytes": 5701,
+  "lines": 91,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "qianqiu-festival",
+  "before": {
+   "sha256": "sha256:fa3cd409a04c9400ff5593061204d809cfcbac48043f0a1e67ea6424bd833d7c",
+   "bytes": 3471,
+   "lines": 81
+  },
+  "after_sha256": "sha256:d9ac8a6ad77268d79e9b4d362d635d48cb9635b9cf5f8d2990f93b3ebc88baa0",
+  "bytes": 5049,
+  "lines": 94,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "qin-mie-liuguo",
+  "before": {
+   "sha256": "sha256:4535ce560588163bad73e9876454ecbfdec21d876a287f8f7533afec3f38c5dc",
+   "bytes": 3510,
+   "lines": 79
+  },
+  "after_sha256": "sha256:cea02b139883644be34a2172deb66a39504585b35fa6a515bbdaac1eb3e523ab",
+  "bytes": 5136,
+  "lines": 92,
+  "sources": 2,
+  "refs": 2
+ },
+ {
+  "slug": "zhenghe-voyages",
+  "before": {
+   "sha256": "sha256:f61f8eb8bce50f996054e1394b175a6a16ffb54d7681916beb76666ce7056d7a",
+   "bytes": 4125,
+   "lines": 80
+  },
+  "after_sha256": "sha256:023fb5ec6142d6b964b00bd90ed5fb0cc4536f9250eba2119d26e643b95d19df",
+  "bytes": 5469,
+  "lines": 92,
+  "sources": 2,
+  "refs": 2
+ }
+]

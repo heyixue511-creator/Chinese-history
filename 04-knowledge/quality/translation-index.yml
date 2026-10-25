@@ -1,5 +1,5 @@
 generated: '2026-10-25'
-total: 443
+total: 550
 index:
 - slug: persons/anige
   type: persons
@@ -2437,6 +2437,42 @@ index:
   title: 拙政园（Humble Administrator's Garden）
   name_original: ''
   language_original: ''
+- slug: institutions/anqing-junxiesuo
+  type: institutions
+  name_en: Anqing Arsenal
+  title: 安庆军械所（Anqing Arsenal）
+  name_original: 安庆军械所
+  language_original: ''
+- slug: institutions/baigongya
+  type: institutions
+  name_en: Hundred Crafts Offices
+  title: 百工衙（Hundred Crafts Offices）
+  name_original: 百工衙
+  language_original: ''
+- slug: institutions/baoshi
+  type: institutions
+  name_en: Baoshi Palace Workshop
+  title: 暴室（Baoshi Palace Workshop）
+  name_original: 暴室
+  language_original: ''
+- slug: institutions/bauhaus
+  type: institutions
+  name_en: Bauhaus
+  title: 包豪斯（Bauhaus）
+  name_original: Bauhaus
+  language_original: ''
+- slug: institutions/beijing-falangchang
+  type: institutions
+  name_en: Beijing Enamel Factory
+  title: 北京珐琅厂（Beijing Enamel Factory）
+  name_original: 北京珐琅厂
+  language_original: ''
+- slug: institutions/beiping-guoli-yizhuan
+  type: institutions
+  name_en: Beiping National Art College
+  title: 北平国立艺术专科学校（Beiping National Art College）
+  name_original: 北平国立艺专
+  language_original: ''
 - slug: institutions/bintieju
   type: institutions
   name_en: Bintie Bureau
@@ -2449,17 +2485,89 @@ index:
   title: 中央工艺美术学院（Central Academy of Arts and Design）
   name_original: 中央工艺美术学院
   language_original: ''
+- slug: institutions/chengdu-cungu-shuju
+  type: institutions
+  name_en: Chengdu Cungu Book Bureau
+  title: 成都存古书局（Chengdu Cungu Book Bureau）
+  name_original: 成都存古书局
+  language_original: ''
+- slug: institutions/chengyi-gongsuo
+  type: institutions
+  name_en: Chengyi Guild
+  title: 成衣公所（Chengyi Guild）
+  name_original: 成衣公所
+  language_original: ''
+- slug: institutions/china-commercial-art-writers-association
+  type: institutions
+  name_en: China Commercial Art Writers Association
+  title: 中国商业美术作家协会（China Commercial Art Writers Association）
+  name_original: 中国商业美术作家协会
+  language_original: ''
 - slug: institutions/chuangong
   type: institutions
   name_en: Chuangong Shipyard
   title: 船宫（Chuangong Shipyard）
   name_original: 船宫
   language_original: ''
+- slug: institutions/ciyaoguan
+  type: institutions
+  name_en: Porcelain Kiln Officer
+  title: 瓷窑官（Porcelain Kiln Officer）
+  name_original: 瓷窑官
+  language_original: ''
+- slug: institutions/da-yuesi
+  type: institutions
+  name_en: Office of Great Music
+  title: 大乐司（Office of Great Music）
+  name_original: 大乐司
+  language_original: ''
+- slug: institutions/dasheng-shachang
+  type: institutions
+  name_en: Dasheng Cotton Mill
+  title: 大生纱厂（Dasheng Cotton Mill）
+  name_original: 大生纱厂
+  language_original: ''
+- slug: institutions/dechang-huabianzhuang
+  type: institutions
+  name_en: Dechang Lace Workshop
+  title: 德昌花边庄（Dechang Lace Workshop）
+  name_original: 德昌花边庄
+  language_original: ''
+- slug: institutions/dian-shizhai
+  type: institutions
+  name_en: Dianshizhai Lithographic Press
+  title: 点石斋石印局（Dianshizhai Lithographic Press）
+  name_original: 点石斋石印局
+  language_original: ''
+- slug: institutions/dian-si
+  type: institutions
+  name_en: Dian Si
+  title: 典丝（Dian Si）
+  name_original: 典丝
+  language_original: ''
 - slug: institutions/dier-qinggongyebu
   type: institutions
   name_en: Second Ministry of Light Industry
   title: 第二轻工业部（Second Ministry of Light Industry）
   name_original: 第二轻工业部
+  language_original: ''
+- slug: institutions/diyi-qiche-zhizaochang
+  type: institutions
+  name_en: First Automobile Works
+  title: 第一汽车制造厂（First Automobile Works）
+  name_original: 第一汽车制造厂
+  language_original: ''
+- slug: institutions/dongxi-zhishi
+  type: institutions
+  name_en: Eastern and Western Weaving Rooms in Chang'an
+  title: 长安东、西织室（Eastern and Western Weaving Rooms in Chang'an）
+  name_original: 长安东、西织室
+  language_original: ''
+- slug: institutions/dutch-east-india-company
+  type: institutions
+  name_en: Dutch East India Company
+  title: 荷兰东印度公司（Dutch East India Company）
+  name_original: 荷兰东印度公司
   language_original: ''
 - slug: institutions/fujian-chuanzhengju
   type: institutions
@@ -2473,11 +2581,125 @@ index:
   title: 浮梁瓷局（Fuliang Porcelain Bureau）
   name_original: 浮梁瓷局
   language_original: ''
+- slug: institutions/fuzhou-mawei-chuanzheng-xuetang-huishiyuan
+  type: institutions
+  name_en: Fuzhou Mawei Naval School Drawing Institute
+  title: 福州马尾船政学堂绘事院（Fuzhou Mawei Naval School Drawing Institute）
+  name_original: 绘事院
+  language_original: ''
+- slug: institutions/getz-bros
+  type: institutions
+  name_en: Getz Bros. & Co.
+  title: 盖茨公司（Getz Bros. & Co.）
+  name_original: 盖茨公司
+  language_original: ''
+- slug: institutions/gongbu
+  type: institutions
+  name_en: Ministry of Works
+  title: 工部（Ministry of Works）
+  name_original: 工部
+  language_original: ''
+- slug: institutions/guangdong-gongyiju
+  type: institutions
+  name_en: Guangdong Craft Bureau
+  title: 广东工艺局（Guangdong Craft Bureau）
+  name_original: 广东工艺局
+  language_original: ''
+- slug: institutions/guangdong-nanhai-tengchang
+  type: institutions
+  name_en: Guangdong Nanhai Rattan Factory
+  title: 广东南海藤厂（Guangdong Nanhai Rattan Factory）
+  name_original: 广东南海藤厂
+  language_original: ''
+- slug: institutions/guangzhou-zaozhichang
+  type: institutions
+  name_en: Guangzhou Paper Mill
+  title: 广州造纸厂（Guangzhou Paper Mill）
+  name_original: 广州造纸厂
+  language_original: ''
 - slug: institutions/gugong-bowuyuan
   type: institutions
   name_en: The Palace Museum
   title: 故宫博物院（The Palace Museum）
   name_original: 故宫博物院
+  language_original: ''
+- slug: institutions/guowuyuan-xuewei-weiyuanhui
+  type: institutions
+  name_en: Academic Degrees Committee of the State Council
+  title: 国务院学位委员会（Academic Degrees Committee of the State Council）
+  name_original: 国务院学位委员会
+  language_original: ''
+- slug: institutions/guoyuanchang
+  type: institutions
+  name_en: Guoyuan Lacquer Workshop
+  title: 果园厂（Guoyuan Lacquer Workshop）
+  name_original: 果园厂
+  language_original: ''
+- slug: institutions/han-dai-guan-ying-sizhi-zuofang
+  type: institutions
+  name_en: Han Dynasty State-Run Silk Workshops
+  title: 汉代官营丝织作坊（Han Dynasty State-Run Silk Workshops）
+  name_original: 汉代官营丝织作坊
+  language_original: ''
+- slug: institutions/han-dai-qiqi-zuofang-guan-yuan
+  type: institutions
+  name_en: Han Lacquer Workshop Officials
+  title: 汉代漆器作坊官员（Han Lacquer Workshop Officials）
+  name_original: 汉代漆器作坊官员
+  language_original: ''
+- slug: institutions/hangzhou-guoli-yizhuan
+  type: institutions
+  name_en: Hangzhou National Art College
+  title: 国立杭州艺术专科学校（Hangzhou National Art College）
+  name_original: 杭州国立艺专
+  language_original: ''
+- slug: institutions/hannuowei-gongye-sheji-luntan
+  type: institutions
+  name_en: Hannover Industrial Design Forum
+  title: 汉诺威工业设计论坛（Hannover Industrial Design Forum）
+  name_original: 汉诺威工业设计论坛
+  language_original: ''
+- slug: institutions/hengyuan-zhahuachang
+  type: institutions
+  name_en: Hengyuan Cotton Ginning Factory
+  title: 恒沅轧花厂（Hengyuan Cotton Ginning Factory）
+  name_original: 恒沅轧花厂
+  language_original: ''
+- slug: institutions/houzhao-yecheng-zhijinshu
+  type: institutions
+  name_en: Later Zhao Yecheng Brocade Office
+  title: 后赵邺城织锦署（Later Zhao Yecheng Brocade Office）
+  name_original: 织锦署
+  language_original: ''
+- slug: institutions/hubei-qiangpaochang
+  type: institutions
+  name_en: Hubei Arsenal
+  title: 湖北枪炮厂（Hubei Arsenal）
+  name_original: 湖北枪炮厂
+  language_original: ''
+- slug: institutions/huitongguan
+  type: institutions
+  name_en: Huitong Guan
+  title: 会通馆（Huitong Guan）
+  name_original: 会通馆
+  language_original: ''
+- slug: institutions/hunan-ciye-gongsi
+  type: institutions
+  name_en: Hunan Porcelain Company
+  title: 湖南瓷业公司（Hunan Porcelain Company）
+  name_original: 湖南瓷业公司
+  language_original: ''
+- slug: institutions/hunan-sixian-shuju
+  type: institutions
+  name_en: Hunan Sixian Book Bureau
+  title: 湖南思贤书局（Hunan Sixian Book Bureau）
+  name_original: 湖南思贤书局
+  language_original: ''
+- slug: institutions/jiangnan-chuanzhengju-gongyi-xuetang
+  type: institutions
+  name_en: Jiangnan Naval Yard Technical School
+  title: 江南船政局工艺学堂（Jiangnan Naval Yard Technical School）
+  name_original: 江南船政局工艺学堂
   language_original: ''
 - slug: institutions/jiangnan-zhizao-zongju
   type: institutions
@@ -2497,11 +2719,77 @@ index:
   title: 将作监（Directorate of Imperial Construction）
   name_original: 将作监
   language_original: ''
+- slug: institutions/jianhua-cichang
+  type: institutions
+  name_en: Jianhua Porcelain Factory
+  title: 建华瓷厂（Jianhua Porcelain Factory）
+  name_original: 建华瓷厂
+  language_original: ''
+- slug: institutions/jiankanglu-zhiranju
+  type: institutions
+  name_en: Jiankang Route Weaving and Dyeing Bureau
+  title: 建康路织染局（Jiankang Route Weaving and Dyeing Bureau）
+  name_original: 建康路织染局
+  language_original: ''
+- slug: institutions/jianyang-shufang
+  type: institutions
+  name_en: Jianyang Bookshops
+  title: 建阳书坊（Jianyang Bookshops）
+  name_original: 建阳书坊
+  language_original: ''
+- slug: institutions/jiaoyubu
+  type: institutions
+  name_en: Ministry of Education of the People's Republic of China
+  title: 教育部（Ministry of Education）
+  name_original: 教育部
+  language_original: ''
+- slug: institutions/jiaoziwu
+  type: institutions
+  name_en: Jiaozi Office
+  title: 交子务（Jiaozi Office）
+  name_original: 交子务
+  language_original: ''
+- slug: institutions/jichanglong-sichang
+  type: institutions
+  name_en: Jichanglong Silk Reeling Factory
+  title: 继昌隆缫丝厂（Jichanglong Silk Reeling Factory）
+  name_original: 继昌隆缫丝厂
+  language_original: ''
+- slug: institutions/jiefangqu-diyige-taoci-yanjiusuo
+  type: institutions
+  name_en: First Ceramics Research Institute of the Liberated Areas in Cizhou
+  title: 解放区第一个陶瓷研究所（First Ceramics Research Institute of the Liberated Areas in Cizhou）
+  name_original: 解放区第一个陶瓷研究所
+  language_original: ''
 - slug: institutions/jiguge
   type: institutions
   name_en: Jiguge
   title: 汲古阁（Jiguge）
   name_original: 汲古阁
+  language_original: ''
+- slug: institutions/jingchang
+  type: institutions
+  name_en: Jingchang Printing Office
+  title: 经厂（Jingchang Printing Office）
+  name_original: 经厂
+  language_original: ''
+- slug: institutions/jingdezhen-ciye-gongsi
+  type: institutions
+  name_en: Jingdezhen Porcelain Company
+  title: 景德镇瓷业公司（Jingdezhen Porcelain Company）
+  name_original: 景德镇瓷业公司
+  language_original: ''
+- slug: institutions/jinling-jiqiju
+  type: institutions
+  name_en: Jinling Arsenal
+  title: 金陵机器局（Jinling Arsenal）
+  name_original: 金陵机器局
+  language_original: ''
+- slug: institutions/jinling-shuju
+  type: institutions
+  name_en: Jinling Book Bureau
+  title: 金陵书局（Jinling Book Bureau）
+  name_original: 金陵书局
   language_original: ''
 - slug: institutions/jinshu
   type: institutions
@@ -2515,6 +2803,18 @@ index:
   title: 金银作坊院（Gold and Silver Workshop Institute）
   name_original: 金银作坊院
   language_original: ''
+- slug: institutions/jixia-xuegong
+  type: institutions
+  name_en: Jixia Academy
+  title: 稷下学宫（Jixia Academy）
+  name_original: 稷下学宫
+  language_original: ''
+- slug: institutions/kezisi
+  type: institutions
+  name_en: Western Xia Block-Printing Office
+  title: 刻字司（Western Xia Block-Printing Office）
+  name_original: 刻字司
+  language_original: ''
 - slug: institutions/liangjiang-shifan-xuetang
   type: institutions
   name_en: Liangjiang Normal College
@@ -2527,11 +2827,41 @@ index:
   title: 绫锦院（Brocade and Silk Weaving Office）
   name_original: 绫锦院
   language_original: ''
+- slug: institutions/liubiju
+  type: institutions
+  name_en: Liubiju
+  title: 六必居（Liubiju）
+  name_original: 六必居
+  language_original: ''
+- slug: institutions/longjiang-chuanchang
+  type: institutions
+  name_en: Longjiang Shipyard
+  title: 龙江船厂（Longjiang Shipyard）
+  name_original: 龙江船厂
+  language_original: ''
 - slug: institutions/lunchuan-zhaoshangju
   type: institutions
   name_en: China Merchants Steam Navigation Company
   title: 轮船招商局（China Merchants Steam Navigation Company）
   name_original: 轮船招商局
+  language_original: ''
+- slug: institutions/lunzhang-zaozhi-ju
+  type: institutions
+  name_en: Lunzhang Paper Mill
+  title: 纶章造纸局（Lunzhang Paper Mill）
+  name_original: 纶章造纸局
+  language_original: ''
+- slug: institutions/mumian-tijusi
+  type: institutions
+  name_en: Cotton Promotion Office
+  title: 木棉提举司（Cotton Promotion Office）
+  name_original: 木棉提举司
+  language_original: ''
+- slug: institutions/nanchao-ranshu
+  type: institutions
+  name_en: Southern Dynasties Dye Office
+  title: 南朝染署（Southern Dynasties Dye Office）
+  name_original: 染署
   language_original: ''
 - slug: institutions/nanjing-yunjin-yanjiusuo
   type: institutions
@@ -2539,11 +2869,65 @@ index:
   title: 南京市云锦研究所（Nanjing Yunjin Research Institute）
   name_original: 南京市云锦研究所
   language_original: ''
+- slug: institutions/nashishiju
+  type: institutions
+  name_en: Nasish Bureau
+  title: 纳失失局（Nasish Bureau）
+  name_original: 纳失失局
+  language_original: ''
 - slug: institutions/neiwufu-zaobanchu
   type: institutions
   name_en: Imperial Household Department Workshops
   title: 内务府造办处（Imperial Household Department Workshops）
   name_original: 内务府造办处
+  language_original: ''
+- slug: institutions/pingzhunling
+  type: institutions
+  name_en: Pingzhunling
+  title: 平准令（Pingzhunling）
+  name_original: 平准令
+  language_original: ''
+- slug: institutions/qiaoergou-taocichang
+  type: institutions
+  name_en: Qiao'ergou Ceramics Factory
+  title: 桥儿沟陶瓷厂（Qiao'ergou Ceramics Factory）
+  name_original: 桥儿沟陶瓷厂
+  language_original: ''
+- slug: institutions/qin-gongshi-gongguan
+  type: institutions
+  name_en: Qin Workshops and Craft Officials
+  title: 秦代工室与工官（Qin Workshops and Craft Officials）
+  name_original: 秦代工室与工官
+  language_original: ''
+- slug: institutions/qin-han-guan-ying-tao-yao
+  type: institutions
+  name_en: Qin and Han State Pottery Kilns
+  title: 秦汉官营陶窑（Qin and Han State Pottery Kilns）
+  name_original: 秦汉官营陶窑
+  language_original: ''
+- slug: institutions/qinggongbu-qinggong-xueyuan
+  type: institutions
+  name_en: Four Light Industry Colleges under the Ministry of Light Industry
+  title: 轻工业部属四所轻工学院（Four Light Industry Colleges under the Ministry of Light Industry）
+  name_original: 无锡轻工学院、大连轻工学院、北京轻工学院、西北轻工学院
+  language_original: ''
+- slug: institutions/qingjiang-chuanchang
+  type: institutions
+  name_en: Qingjiang Shipyard
+  title: 清江船厂（Qingjiang Shipyard）
+  name_original: 清江船厂
+  language_original: ''
+- slug: institutions/qiyi-gongsi
+  type: institutions
+  name_en: Shanghai GE Lamp Works
+  title: 奇异公司（Shanghai GE Lamp Works）
+  name_original: 奇异公司
+  language_original: ''
+- slug: institutions/quanguo-gaoxiao-gongye-sheji-xuehui
+  type: institutions
+  name_en: National Higher Education Industrial Design Society
+  title: 全国高校工业设计学会（National Higher Education Industrial Design Society）
+  name_original: 全国高校工业设计学会
   language_original: ''
 - slug: institutions/sanfuguan
   type: institutions
@@ -2551,11 +2935,41 @@ index:
   title: 三服官（Three-Season Silk Office）
   name_original: 三服官
   language_original: ''
+- slug: institutions/shang-royal-pottery-workshop
+  type: institutions
+  name_en: Shang Royal Pottery Workshop
+  title: 商代王室制陶作坊（Shang Royal Pottery Workshop）
+  name_original: 商代王室制陶作坊
+  language_original: ''
+- slug: institutions/shangfang
+  type: institutions
+  name_en: Shangfang
+  title: 尚方（Shangfang）
+  name_original: 尚方
+  language_original: ''
+- slug: institutions/shanghai-jiqi-zhibuju
+  type: institutions
+  name_en: Shanghai Machine Weaving Mill
+  title: 上海机器织布局（Shanghai Machine Weaving Mill）
+  name_original: 上海机器织布局
+  language_original: ''
 - slug: institutions/shanghai-meishu-dianying-zhipianchang
   type: institutions
   name_en: Shanghai Animation Film Studio
   title: 上海美术电影制片厂（Shanghai Animation Film Studio）
   name_original: 上海美术电影制片厂
+  language_original: ''
+- slug: institutions/shanghai-zhuanwa-jumuchang
+  type: institutions
+  name_en: Shanghai Brick, Tile and Sawmill
+  title: 上海砖瓦锯木厂（Shanghai Brick, Tile and Sawmill）
+  name_original: 上海砖瓦锯木厂
+  language_original: ''
+- slug: institutions/shanglin-sanguan
+  type: institutions
+  name_en: Three Offices of Shanglin
+  title: 上林三官（Three Offices of Shanglin）
+  name_original: 上林三官
   language_original: ''
 - slug: institutions/shangmei-tuananguan
   type: institutions
@@ -2581,10 +2995,130 @@ index:
   title: 申新纺织公司（Shenxin Textile Company）
   name_original: 申新纺织公司
   language_original: ''
+- slug: institutions/shibosi
+  type: institutions
+  name_en: Maritime Trade Office
+  title: 市舶司（Maritime Trade Office）
+  name_original: 市舶司
+  language_original: ''
+- slug: institutions/shiquge
+  type: institutions
+  name_en: Shiqu Pavilion
+  title: 石渠阁（Shiqu Pavilion）
+  name_original: 石渠阁
+  language_original: ''
+- slug: institutions/shosoin
+  type: institutions
+  name_en: Shōsōin
+  title: 正仓院（Shōsōin）
+  name_original: 正仓院
+  language_original: ''
+- slug: institutions/shujun-chengdu-guanghanjun-gongguan
+  type: institutions
+  name_en: Craft Offices of Shu, Chengdu and Guanghan Commanderies
+  title: 蜀郡、成都、广汉郡工官（Craft Offices of Shu, Chengdu and Guanghan Commanderies）
+  name_original: 蜀郡、成都、广汉郡工官
+  language_original: ''
+- slug: institutions/sichuan-jinyuan
+  type: institutions
+  name_en: Sichuan Brocade Institute
+  title: 四川锦院（Sichuan Brocade Institute）
+  name_original: 锦院
+  language_original: ''
+- slug: institutions/sinongsi
+  type: institutions
+  name_en: Directorate of Agriculture
+  title: 司农司（Directorate of Agriculture）
+  name_original: 司农司
+  language_original: ''
+- slug: institutions/song-dai-huayuan
+  type: institutions
+  name_en: Song Imperial Painting Academy
+  title: 宋代宫廷画院（Song Imperial Painting Academy）
+  name_original: 宫廷画院
+  language_original: ''
+- slug: institutions/song-dai-ranzhi-guanli-jigou
+  type: institutions
+  name_en: Song Dynasty Weaving and Dyeing Administration
+  title: 宋代染织管理机构（Song Dynasty Weaving and Dyeing Administration）
+  name_original: 宋代染织管理机构
+  language_original: ''
+- slug: institutions/southeast-university
+  type: institutions
+  name_en: Southeast University
+  title: 东南大学（Southeast University）
+  name_original: 东南大学
+  language_original: ''
+- slug: institutions/suzhou-cixiu-yanjiusuo
+  type: institutions
+  name_en: Suzhou Embroidery Research Institute
+  title: 苏州刺绣研究所（Suzhou Embroidery Research Institute）
+  name_original: 苏州刺绣研究所
+  language_original: ''
+- slug: institutions/swedish-museum-of-far-eastern-antiquities
+  type: institutions
+  name_en: Swedish Museum of Far Eastern Antiquities
+  title: 瑞典远东古物博物馆（Swedish Museum of Far Eastern Antiquities）
+  name_original: 瑞典远东古物博物馆
+  language_original: ''
+- slug: institutions/taifu-si
+  type: institutions
+  name_en: Taifu Si
+  title: 太府寺（Taifu Si）
+  name_original: 太府寺
+  language_original: ''
+- slug: institutions/taishiju
+  type: institutions
+  name_en: Yuan Astronomical Bureau
+  title: 太史局（Yuan Astronomical Bureau）
+  name_original: 太史局
+  language_original: ''
+- slug: institutions/taiwan-youzheng-zongju
+  type: institutions
+  name_en: Taiwan Postal Administration
+  title: 台湾邮政总局（Taiwan Postal Administration）
+  name_original: 台湾邮政总局
+  language_original: ''
+- slug: institutions/tianjin-jiqiju
+  type: institutions
+  name_en: Tianjin Arsenal
+  title: 天津机器局（Tianjin Arsenal）
+  name_original: 天津机器局
+  language_original: ''
+- slug: institutions/wangmazi-jiandao-pu
+  type: institutions
+  name_en: Wang Mazi Scissors Shop
+  title: 王麻子剪刀铺（Wang Mazi Scissors Shop）
+  name_original: 王麻子剪刀铺
+  language_original: ''
 - slug: institutions/wensiyuan
   type: institutions
   name_en: Wensi Yuan
   title: 文思院（Wensi Yuan）
+  name_original: 文思院
+  language_original: ''
+- slug: institutions/wucaixia-xiufang
+  type: institutions
+  name_en: Wucaixia Embroidery Workshop
+  title: 吴彩霞绣坊（Wucaixia Embroidery Workshop）
+  name_original: 吴彩霞绣坊
+  language_original: ''
+- slug: institutions/wuyingdian-xiushuchu
+  type: institutions
+  name_en: Wuyingdian Book Repair Office
+  title: 武英殿修书处（Wuyingdian Book Repair Office）
+  name_original: 武英殿修书处
+  language_original: ''
+- slug: institutions/xi-xia-guan-ying-shou-gong-ye-jigou
+  type: institutions
+  name_en: Western Xia State Handicraft Bureaus
+  title: 西夏官营手工业机构（Western Xia State Handicraft Bureaus）
+  name_original: 西夏官营手工业机构
+  language_original: ''
+- slug: institutions/xi-xia-wensiyuan
+  type: institutions
+  name_en: Western Xia Wensi Yuan
+  title: 西夏文思院（Western Xia Wensi Yuan）
   name_original: 文思院
   language_original: ''
 - slug: institutions/xingwenshu
@@ -2593,11 +3127,53 @@ index:
   title: 兴文署（Xingwen Shu）
   name_original: 兴文署
   language_original: ''
+- slug: institutions/xiuyuan
+  type: institutions
+  name_en: Song Embroidery Institute
+  title: 绣院（Song Embroidery Institute）
+  name_original: 绣院
+  language_original: ''
+- slug: institutions/yanan-bolichang
+  type: institutions
+  name_en: Yan'an Glass Factory
+  title: 延安玻璃厂（Yan'an Glass Factory）
+  name_original: 延安玻璃厂
+  language_original: ''
+- slug: institutions/yandao-muguan
+  type: institutions
+  name_en: Yandao Timber Office
+  title: 严道木官（Yandao Timber Office）
+  name_original: 严道木官
+  language_original: ''
 - slug: institutions/yaping-yishu-zhuangshi-gongsi
   type: institutions
   name_en: Yaping Art Decoration Company
   title: 亚平艺术装饰公司（Yaping Art Decoration Company）
   name_original: 亚平艺术装饰公司
+  language_original: ''
+- slug: institutions/yingmei-yancao-gongsi
+  type: institutions
+  name_en: Yingmei Tobacco Company
+  title: 英美烟草公司（Yingmei Tobacco Company）
+  name_original: 英美烟草公司
+  language_original: ''
+- slug: institutions/yiwensi-tushu-gongsi
+  type: institutions
+  name_en: Yiwensi Book Company
+  title: 伊文思图书公司（Yiwensi Book Company）
+  name_original: 伊文思图书公司
+  language_original: ''
+- slug: institutions/yuan-dai-huaju
+  type: institutions
+  name_en: Yuan Painting Bureau
+  title: 元代画局（Yuan Painting Bureau）
+  name_original: 画局
+  language_original: ''
+- slug: institutions/yuan-dai-yizhan
+  type: institutions
+  name_en: Yuan Dynasty Postal Relay Stations
+  title: 元代驿站（Yuan Dynasty Postal Relay Stations）
+  name_original: 驿站
   language_original: ''
 - slug: institutions/yunjin-yanjiu-gongzuozu
   type: institutions
@@ -2611,11 +3187,29 @@ index:
   title: 御器厂（Imperial Porcelain Factory）
   name_original: 御器厂
   language_original: ''
+- slug: institutions/zhejiang-shuju
+  type: institutions
+  name_en: Zhejiang Book Bureau
+  title: 浙江书局（Zhejiang Book Bureau）
+  name_original: 浙江书局
+  language_original: ''
 - slug: institutions/zhiranshu
   type: institutions
   name_en: Weaving and Dyeing Bureau
   title: 织染署（Weaving and Dyeing Bureau）
   name_original: 织染署
+  language_original: ''
+- slug: institutions/zhongguo-cansi-gongsi
+  type: institutions
+  name_en: China Silk Company
+  title: 中国蚕丝公司（China Silk Company）
+  name_original: 中国蚕丝公司
+  language_original: ''
+- slug: institutions/zhongguo-fangzhi-jianshe-gongsi
+  type: institutions
+  name_en: China Textile Construction Company
+  title: 中国纺织建设公司（China Textile Construction Company）
+  name_original: 中国纺织建设公司
   language_original: ''
 - slug: institutions/zhongguo-gongyi-meishu-xuehui
   type: institutions
@@ -2635,6 +3229,24 @@ index:
   title: 中国美术馆（National Art Museum of China）
   name_original: 中国美术馆
   language_original: ''
+- slug: institutions/zhongguo-renmin-yinhang
+  type: institutions
+  name_en: People's Bank of China
+  title: 中国人民银行（People's Bank of China）
+  name_original: 中国人民银行
+  language_original: ''
+- slug: institutions/zhongguo-yingzao-xueshe
+  type: institutions
+  name_en: Society for the Study of Chinese Architecture
+  title: 中国营造学社（Society for the Study of Chinese Architecture）
+  name_original: 中国营造学社
+  language_original: ''
+- slug: institutions/zhongshang-shu
+  type: institutions
+  name_en: Zhongshang Shu
+  title: 中尚署（Zhongshang Shu）
+  name_original: 中尚署
+  language_original: ''
 - slug: institutions/zhongtian-dianjichang
   type: institutions
   name_en: Zhongtian Electric Motor Factory
@@ -2647,11 +3259,41 @@ index:
   title: 中央工艺美术科学研究所（Central Research Institute of Arts and Crafts Science）
   name_original: 中央工艺美术科学研究所
   language_original: ''
+- slug: institutions/zhongyang-lishi-yuyan-yanjiusuo
+  type: institutions
+  name_en: Central Institute of History and Philology
+  title: 中央历史语言研究所（Central Institute of History and Philology）
+  name_original: 中央历史语言研究所
+  language_original: ''
 - slug: institutions/zhongyang-meishu-xueyuan
   type: institutions
   name_en: Central Academy of Fine Arts
   title: 中央美术学院（Central Academy of Fine Arts）
   name_original: 中央美术学院
+  language_original: ''
+- slug: institutions/zhongyang-shougongye-guanliju
+  type: institutions
+  name_en: Central Handicraft Administration
+  title: 中央手工业管理局（Central Handicraft Administration）
+  name_original: 中央手工业管理局
+  language_original: ''
+- slug: institutions/zhou-pottery-officials
+  type: institutions
+  name_en: Zhou Pottery Officials
+  title: 周代制陶职官（Zhou Pottery Officials）
+  name_original: 周代制陶职官
+  language_original: ''
+- slug: institutions/zhou-ranren-zhangrancao
+  type: institutions
+  name_en: Zhou Dyers and Dye-Plant Officers
+  title: 周代染人与掌染草（Zhou Dyers and Dye-Plant Officers）
+  name_original: 周代染人与掌染草
+  language_original: ''
+- slug: institutions/zhujiangying
+  type: institutions
+  name_en: Craftsmen Battalions
+  title: 诸匠营（Craftsmen Battalions）
+  name_original: 诸匠营
   language_original: ''
 - slug: institutions/zhujingju
   type: institutions

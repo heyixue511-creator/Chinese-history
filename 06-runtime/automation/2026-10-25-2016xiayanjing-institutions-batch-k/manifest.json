@@ -1,0 +1,161 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-institutions-batch-k",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册 institution 候选第一组（先秦至西夏）19 个：12 个新建、1 个更新、4 个 rejected；染人、掌染草并入周代染人与掌染草。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:11c953156359976c341e07e27c9c59fef9ea19cca38a41a5f5d4d558e6343f87",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 804,
+        "needs_evidence": 3682,
+        "no_delta": 50,
+        "rejected": 803
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L11-L100",
+        "L872-L879",
+        "L971-L990",
+        "L1368-L1371",
+        "L1536-L1555",
+        "L1622-L1634",
+        "L1731-L1736",
+        "L1808-L1855",
+        "L1860-L1870",
+        "L2243",
+        "L2506-L2511",
+        "L2675-L2702",
+        "L2790-L2795",
+        "L3012-L3021",
+        "L3092-L3124"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "institution 候选按实体而非 slug 对账：先与既有 37 个 institution KU 的标题、别名和正文对齐，再定 create／update／no_delta／rejected。",
+      "职官、职业名与机构名混称时，只有能承载机构或职官制度内容者建 institution；纯作者单位、出版社、军事组织、官位等级判 rejected。",
+      "同一句证据下的染人、掌染草与周代染人与掌染草合并为一个实体，保留 merged_candidates 映射。",
+      "来源只给一句隶属关系、机构本体信息不足者，降低 confidence 并在正文标注证据边界，不以来源外知识补写。",
+      "来源表述与通行制度史有张力时（太府寺“工部下设”、东西织室“东汉”与长安），照录并标注，不据通行说法改写。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/institutions，12 条新建、1 条更新。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-k\\apply-plan.jsonl",
+      "rows": 13,
+      "create": 12,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-k\\candidate-decision-ledger.jsonl",
+      "rows": 49,
+      "candidates": 19,
+      "applied": 15,
+      "no_delta": 0,
+      "rejected": 4
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-institutions-batch-k\\canonical-mapping.json",
+      "entries": 13,
+      "merged_candidates": [
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-143",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-144"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 819,
+    "needs_evidence": 3663,
+    "no_delta": 50,
+    "rejected": 807,
+    "total": 5339
+  },
+  "verification": {
+    "status": "passed_with_generated_block",
+    "batch_checks": {
+      "ledger_rows": 49,
+      "candidates": 19,
+      "final_applied": 15,
+      "final_no_delta": 0,
+      "final_rejected": 4,
+      "plan_rows": 13,
+      "create": 12,
+      "update": 1,
+      "merged_candidates": 2,
+      "fingerprints_verified": 13,
+      "mapping_entries": 13,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 730,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 730,
+      "type_coverage": "8/8",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/730",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "730/730",
+      "events": 115,
+      "institutions": 49
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 730
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:a39b9cdfd9e849e3be99e8635c5eb1c82f7764af76b832a31a75e076766d3f9d",
+      "counts": {
+        "applied": 819,
+        "needs_evidence": 3663,
+        "no_delta": 50,
+        "rejected": 807
+      }
+    }
+  }
+}

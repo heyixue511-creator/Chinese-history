@@ -1,0 +1,56 @@
+﻿rows 1696
+keys ['candidate_id', 'origin_type', 'origin_ref', 'candidate_type', 'payload', 'evidence_refs', 'state', 'decision', 'created_at', 'updated_at']
+{
+ "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-01",
+ "origin_type": "source",
+ "origin_ref": "03�����鼮-md�ĵ�/�й��������ʷ_��ũ_2009_�ߵȽ���������.md",
+ "candidate_type": "unit",
+ "payload": {
+  "knowledge_match": {
+   "status": "novel",
+   "target_refs": [],
+   "notes": "04-knowledge ��ǰ�� KU�����˹����ˡ�"
+  },
+  "unit_type": "publication",
+  "proposed_slug": "zhongguo-yishu-shejishi",
+  "title": "�й��������ʷ����ũ��2009��",
+  "summary": "���й��������ʷ������ũ������2009��4���ɸߵȽ�����������棬ISBN 978-7-04-015040-7��������Ҫ��ȫ���Ϊʮ�£�����ʷʱ���ظ�����ʯ����������������������������԰�֡���֯�����Ρ����ߡ�ũ�ߡ�������������ʳ�������֡����ҡ��Ҿߡ������ȣ���ͼ�����������й��������ʷѧ��������",
+  "source_span": {
+   "line_start": 10,
+   "line_end": 111,
+   "block_ids": [
+    "b0002",
+    "b0003"
+   ],
+   "chapter": null,
+   "section": null
+  },
+  "proposed_fields": {
+   "title": "�й��������ʷ",
+   "author": "��ũ����",
+   "publisher": "�ߵȽ���������",
+   "period": "2009��4�µ�1��"
+  }
+ },
+ "evidence_refs": [
+  "03�����鼮-md�ĵ�/�й��������ʷ_��ũ_2009_�ߵȽ���������.md#L10-L24",
+  "03�����鼮-md�ĵ�/�й��������ʷ_��ũ_2009_�ߵȽ���������.md#L70-L70"
+ ],
+ "state": "needs_evidence",
+ "decision": {
+  "status": "pending",
+  "reason": null,
+  "decided_by": null,
+  "decided_at": null
+ },
+ "created_at": "2026-10-24T19:30:47+08:00",
+ "updated_at": "2026-10-24T19:30:47+08:00"
+}
+--- type-ish keys ---
+origin_type {'source': 1696}
+origin_ref {'03�����鼮-md�ĵ�/�й��������ʷ_��ũ_2009_�ߵȽ���������.md': 1696}
+candidate_type {'unit': 1320, 'claim': 376}
+state {'needs_evidence': 1696}
+decision {"{'status': 'pending', 'reason': None, 'decided_by': None, 'decided_at': None}": 1696}
+created_at {'2026-10-24T19:30:47+08:00': 1455, '2026-10-24T19:51:48+08:00': 237, '2026-10-24T20:07:33+08:00': 4}
+updated_at {'2026-10-24T19:30:47+08:00': 1370, '2026-10-24T19:51:48+08:00': 285, '2026-10-24T20:07:33+08:00': 37, '2026-10-24T20:13:15+08:00': 3, '2026-10-24T20:12:04+08:00': 1}

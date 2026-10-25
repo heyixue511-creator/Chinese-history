@@ -1,0 +1,149 @@
+{
+  "work_package": "2026-10-25-xiayanjing2009-places-batch-y",
+  "goal": "处理夏燕靖《中国设计史》2009 册 place 候选 3 个：2 个新建、1 个更新、0 个 no_delta、0 个 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:0fb76ef90783b643feeb2a8543cba07fc4617ab1bddf6986ca3d3d70319964c4",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 930,
+        "needs_evidence": 3540,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        "L748-L766",
+        "L883-L888",
+        "L3688-L3698"
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "place 候选按地名实体与既有 39 个 place KU 对账，再定 create／update／no_delta／rejected。",
+      "候选“三星堆遗址”判 update 既有 `places/sanxingdui.md`：既有条目已引夏燕靖 2016 L971-L990 与赵农 2009，但正文只概括“衣料、式样、配饰的差异”，未收 2009 L748-L766 的材质与织造细节；补“皮、革、丝、麻”“极薄的绸和提花几何纹的锦、绮”“奴隶主和贵族以穿着此种材质为荣”，source_count 2→3、version 1→2。2009 与 2016 为同一作者前后版，正文基本对应；更新不把两版重复计为独立互证。",
+      "候选“郑韩故城制陶作坊遗址”判 create：夏燕靖 2009 L883-L888 记郑韩故城新郑的东周大型制陶作坊遗址，遗迹有窑址群、作坊建筑群、陶制排水管道、陶洗池，出土大型存储类陶器与带印证筒板瓦；来源只有一段，未给发掘年份、面积、窑数、布局、产品谱系、工匠组织与存续时间，confidence 定为 low；同页“明器”定义与陶瓷器皿纹样图版不归本遗址。",
+      "候选“三山五园”判 create：夏燕靖 2009 L3688-L3698 记清代康熙、乾隆年间皇家园林建设高潮中在北京筑“三山五园”，即万寿山清漪园（后改颐和园）、玉泉山静明园、香山静宜园、圆明园（含圆明、长春、万春三园）；来源只给群名与园名，未给各园始建／毁废年份、占地、设计者、工程组织与存续细节，confidence 定为 medium；同段私家园林与《园冶》不并入。",
+      "place 的文件名使用无声调小写汉语拼音 kebab-case；三星堆走既有条目 update，不新建 `sanxingdui-yizhi.md`，避免同实体重复。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units/places；不 commit、不 push。"
+    ]
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-xiayanjing2009-places-batch-y\\apply-plan.jsonl",
+      "rows": 3,
+      "create": 2,
+      "update": 1
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-xiayanjing2009-places-batch-y\\candidate-decision-ledger.jsonl",
+      "rows": 9,
+      "candidates": 3,
+      "applied": 3,
+      "no_delta": 0,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-xiayanjing2009-places-batch-y\\canonical-mapping.json",
+      "entries": 3,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 933,
+    "needs_evidence": 3537,
+    "no_delta": 57,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 9,
+      "candidates": 3,
+      "final_applied": 3,
+      "final_no_delta": 0,
+      "final_rejected": 0,
+      "plan_rows": 3,
+      "create": 2,
+      "update": 1,
+      "merged_candidates": 0,
+      "fingerprints_verified": 3,
+      "mapping_entries": 3,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 827,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 827,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/827",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "827/827",
+      "events": 115,
+      "institutions": 144,
+      "places": 41
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 827,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "skill_registry": {
+      "leaf_skills": 18
+    },
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "16/19",
+      "status": "blocked",
+      "reason": "工作树有 10 个生成态文件与 HEAD 不一致；commit 未获授权，按设计阻断。",
+      "files": 10
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:39f64e7d09fa93c28f0c8598fb85dbe77cb6e4df03d5d3d2025bdafa437841f0",
+      "counts": {
+        "applied": 933,
+        "needs_evidence": 3537,
+        "no_delta": 57,
+        "rejected": 812
+      }
+    }
+  }
+}
