@@ -24,6 +24,13 @@ sources:
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L3522."
+    location: "L3522"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3160-L3179."
     location: "L3160-L3179"
     evidence_ref:
@@ -35,10 +42,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,7 @@ hierarchy_scope_note: "五大名窑是 B 维度下宋瓷分类的总目。Theme/
 - **区域差异**: 不同地域的窑制自然体现区域特点（赵农）
 - **设计史意义**: 2016 以此概括宋代制瓷业的地域流派与工艺成就，是宋瓷叙事的分类骨架
 - **与单窑条目的关系**: 官窑、哥窑、汝窑、钧窑、定窑各自另有专条；本条只登记合称与分类性质
+- **“偏颇”之评**: 田自秉称论瓷者以定、汝、官、哥、钧为宋代五大名窑“显然有偏颇之处”，并举北方磁州窑、南方吉州窑等民窑以其清新朴质风格大放异彩（田自秉）
 
 ## 在层级体系中的位置
 
@@ -75,7 +83,7 @@ hierarchy_scope_note: "五大名窑是 B 维度下宋瓷分类的总目。Theme/
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两册名单一致而排序不同；赵农的“习惯说法”限定仅见 2009，2016 未收。
+- 匹配质量: 两册名单一致而排序不同；赵农的“习惯说法”限定仅见 2009，2016 未收；2026-10-25 复核补：补田自秉“显然有偏颇”之评与磁州窑、吉州窑民窑贡献
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

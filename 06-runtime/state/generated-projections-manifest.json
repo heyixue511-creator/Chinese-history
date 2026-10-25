@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 504,
-    "digest": "sha256:4d6a085af9e38166e81a9da50ebae49ea6fc9be37094f9d717a52e7020f717bd"
+    "units": 505,
+    "digest": "sha256:ec426b732e43843fd5a11a0c6555959ae26d076d24b451cbca741622f5249428"
   },
   "projections": [
     {
@@ -19,8 +19,8 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/01-intake/ingest/references/relation-types.yml"
         ],
-        "files": 513,
-        "digest": "sha256:7af0b01a89081c607e3d8560a165fa44c4148bce1c3cae0f32807c129b29e8bd"
+        "files": 514,
+        "digest": "sha256:b42dc04cc0eaaa94ac00f6a0cd03273cd4a1ea41e13df6c0b61db49d9ac94a8f"
       },
       "outputs": {
         "04-knowledge/quality/relation-index.yml": "sha256:dfcc637a75c19d6c7b4162523b631d920ac3b948e8b630cfaa827a4372bdf9c0"
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 513,
-        "digest": "sha256:fe77008f6123fdd3d1950ab257c8ea91873d3bb4d0c20deb71736b78ba0054af"
+        "files": 514,
+        "digest": "sha256:9ad253871014bc8cf6f8fcf87509e416d6668f8e6b6b587d8f4067cc79172642"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,8 +59,8 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 505,
-        "digest": "sha256:3a512f2217d0cacb2751a637da3d42614904cb52ea1326c2381a24f07f44b271"
+        "files": 506,
+        "digest": "sha256:12b6552e08332ecd5fc45d49dfc32e66ae42fdf675fd41d283e33f55789c045c"
       },
       "outputs": {
         "04-knowledge/quality/translation-index.yml": "sha256:2e12fa4d193d5b477add5068933855d9ed9baaa397b97115389882e3d01ee0e1"
@@ -79,12 +79,12 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 512,
-        "digest": "sha256:ab630efd7de5be3b0941bd342758f836a40e328408da2bc2c6e56302d11f5fbe"
+        "files": 513,
+        "digest": "sha256:bbb9c977c8c898c06f9ecad3aa9b2edf2e86e2496ce9757dae58ec88995c92e8"
       },
       "outputs": {
-        "05-outputs/knowledge-graph-data.json": "sha256:8616254dec15dfab183bea3850d408c1ee12d15abb89da68126bb23c0e929fca",
-        "05-outputs/knowledge-graph-data.js": "sha256:eab1596422418609d27513fc3bf2b59a378e66143fb15e39b7644e5cf24c4b92"
+        "05-outputs/knowledge-graph-data.json": "sha256:8baa23ca3716bac9cac306eb483970cfaf32dd9fbfd6c870cab3f6a8283289e7",
+        "05-outputs/knowledge-graph-data.js": "sha256:82b79c8773d73648d7ef897469d729f0c26208434c21082b8da57fcce8fe93ca"
       },
       "missing_outputs": []
     },
@@ -104,8 +104,8 @@
         "digest": "sha256:d30b2e77ab11d97b14ecc18d5b5663ae3dd4d2d9284364600ae8eb3b14066800"
       },
       "outputs": {
-        "06-runtime/state/candidate-index.jsonl": "sha256:d5229189c1f55a2c7f0a0c41ab11a8146aeaaf21898ae6a4d95bdf5b3a341cc8",
-        "06-runtime/state/discovery-manifest.json": "sha256:a90be699927c6df55e5639b6a552d9d1afc05b1ee6de19df59310226ae607005"
+        "06-runtime/state/candidate-index.jsonl": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b",
+        "06-runtime/state/discovery-manifest.json": "sha256:63ac649ae7d7772f486bd9ac43adddfbe5d6c5e2dbb665e3e832059627d7cc56"
       },
       "missing_outputs": []
     },
@@ -120,7 +120,7 @@
           "05-outputs/**/*"
         ],
         "files": 19,
-        "digest": "sha256:8743294237af0a9c6162ff7613871572450e84b233396b4fec0a0d40bdc14a55"
+        "digest": "sha256:c47acaf62df921ff76a8d692ec4b53487a0098d69aeedc1728e0ab6994bf49eb"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:10655bbc374b8bfcd0089d68aa3efc023775991b9e470914a19b87b7ed8c016b"
@@ -138,10 +138,10 @@
           "06-runtime/state/current-health.json"
         ],
         "files": 1,
-        "digest": "sha256:7e55c9671fe090f2f96ad15afcab521bff5b50126b4870f39eddceb26592fb6b"
+        "digest": "sha256:ceb0d32db152428fc012d7c39cd187f20ec729f700984cec69e0965d1ac98c6d"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:1824e00bfbaf65267715af5d855a0748a1c523b2a0ece4b5b73339f90e18b36e"
+        "05-outputs/index/index.md": "sha256:b86b2141ac9a4ad1d0080ab33a239fc75bbee34ba11245a07f0813670ffb8178"
       },
       "missing_outputs": []
     },
@@ -155,11 +155,11 @@
         "patterns": [
           "06-runtime/automation/**/*"
         ],
-        "files": 169,
-        "digest": "sha256:3be69092209a7a4024c738860ec7bfc1f746b32350a26e5e5e059141c9bf4ffc"
+        "files": 173,
+        "digest": "sha256:e55faefda59dededf3460b413aa9022d8a44f3f6d9bb04ecf8b601e248fd723b"
       },
       "outputs": {
-        "06-runtime/automation/index.md": "sha256:543b13a2fe82d45e07651b6636b102e8a1e6fadf57566d99fd5c06a78bf22fc9"
+        "06-runtime/automation/index.md": "sha256:f36b223370f8fa0791d196ed09058862d22672d6cfc78250d68a1ea8a2fc1e95"
       },
       "missing_outputs": []
     },
@@ -194,12 +194,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 542,
-        "digest": "sha256:1f93bc3d6e5b8f462c5e040c2480facb1615b4d86ebd068a45857d21110e6de8"
+        "files": 543,
+        "digest": "sha256:e798fa9572b562d995f62f6ca9d56b9212b71b5f28b264cf897fcb56e22df5aa"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:4fc3811f07cd38e385738b7a4f9f545274c6f5efa1a5a3e6a3b5142842e128f0",
-        "06-runtime/governance/governance-backlog.md": "sha256:972db1f5930211cb87c7ef44ef6c3195a473dd1b73c5ad01532c96e5a4446cd2"
+        "06-runtime/state/current-health.json": "sha256:4275dd542849ed76da1037afb550b2d56a2b801d6482d7f439a9d9c9430bd50f",
+        "06-runtime/governance/governance-backlog.md": "sha256:d15a52ebbaa6d3113c6cc59ca4991270abd3c64668efc3a95c33d5bef9e05214"
       },
       "missing_outputs": []
     }

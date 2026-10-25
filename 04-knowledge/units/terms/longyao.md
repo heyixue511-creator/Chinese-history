@@ -16,6 +16,13 @@ tags:
 aliases:
   - 龙窑窑炉
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1472-L1490."
+    location: "L1472-L1490"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L3539-L5533."
     location: "L3539-L5533"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,8 @@ hierarchy_scope_note: "龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/
 - **分段烧成**: 魏晋时期在窑顶或窑身两侧设置投柴孔，保证烧制温度平均、防止生烧（赵农）
 - **温度**: 田自秉记汉代早期青瓷使用的窑型烧成温度达 1300℃ 左右，是当时制瓷科学技术成熟的条件之一
 - **设计史意义**: 龙窑把地形坡度转化为抽力与温升，是“以场地条件替代机械动力”的窑炉设计思路
+- **东汉窑址**: 20 世纪五六十年代在浙江上虞、余姚、宁波、永嘉等地发现大量东汉窑址，多属陶、瓷共烧，后又出现专门瓷窑（夏燕靖 2009）
+- **原料**: 选用高岭土之类材料为制瓷原料，能在较低火候中烧出强度较高的瓷器（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -76,7 +85,7 @@ hierarchy_scope_note: "龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 赵农给结构演进与分段烧成，田自秉给温度；赵农条 location L3539-L5533 跨度极大，系多段拼接，具体段落位置待核；两册均未给窑长或坡度。
+- 匹配质量: 赵农给结构演进与分段烧成，田自秉给温度；赵农条 location L3539-L5533 跨度极大，系多段拼接，具体段落位置待核；两册均未给窑长或坡度；2026-10-25 复核补：补浙江上虞等地东汉窑址、陶瓷共烧转专窑及高岭土原料
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

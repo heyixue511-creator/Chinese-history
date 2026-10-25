@@ -22,6 +22,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L3148-L3152."
+    location: "L3148-L3152"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1720-L1726."
     location: "L1720-L1726"
     evidence_ref:
@@ -33,10 +40,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,9 @@ hierarchy_scope_note: "本 KU 是 B 维度下东汉铜制科学仪器的器物�
 - **整体评价**: 整个地动仪如精巧工艺品（两版）
 - **图版说明**: 2016 记原文图版为模型，未视觉核验
 - **设计史意义**: 地动仪把“感应—传递—指示”三段机构封装在酒尊形外壳内，是科学仪器同时承担礼器造型的案例
+- **纪年**: 《后汉书·张衡传》记“阳嘉元年，复造候风地动仪”（赵农）
+- **饰纹与机构**: 尊上饰以篆文山龟鸟兽之形，中有都柱，傍行八道，施关发机（赵农）
+- **验证**: 一龙发机而七首不动，寻其方面乃知震之所在，验之以事合契若神；今人复制了地动仪的木质模型（赵农）
 
 ## 在层级体系中的位置
 
@@ -76,7 +86,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下东汉铜制科学仪器的器物�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版文字几乎一致，2016 注明图版为模型；两册均未给内部尺寸或复原争议。
+- 匹配质量: 两版文字几乎一致，2016 注明图版为模型；两册均未给内部尺寸或复原争议；2026-10-25 复核补：补阳嘉元年、篆文山龟鸟兽饰纹、一龙发机七首不动与合契若神、木质模型
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

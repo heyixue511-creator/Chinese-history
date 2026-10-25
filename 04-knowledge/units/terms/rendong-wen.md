@@ -24,8 +24,8 @@ sources:
       source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
       chapter_id: null
       chunk_id: null
-  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L2853."
-    location: "L2853"
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L2992."
+    location: "L2853, L2992"
     evidence_ref:
       doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
       source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
@@ -38,7 +38,7 @@ consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
@@ -57,6 +57,7 @@ hierarchy_scope_note: "忍冬纹是 C 维度下六朝外来植物纹样的条目
 - **前身**: 汉代铜镜边饰卷云纹是其前身（田自秉）
 - **跨门类传播**: 东晋北魏之后与莲花纹一起渗透于铜器、金银器、砖瓦、石刻、藻井、柱础等造物类型（李立新，图 2-9 忍冬纹龛楣石刻，北朝）
 - **演变**: 唐代演变为繁复的卷草，成为中国造物装饰的主题（两册）；近代称香草（田自秉）
+- **卷草结构与实例**: 卷草纹枝干成二方连续卷曲状，主要由叶子组成，叶形变化丰富；响堂山石窟浮雕卷草为代表，并见于佛光、石碑边侧与敦煌藻井（田自秉）
 
 ## 在层级体系中的位置
 
@@ -76,7 +77,7 @@ hierarchy_scope_note: "忍冬纹是 C 维度下六朝外来植物纹样的条目
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 田自秉给构成与前身，李立新给跨门类传播与图像出处；两册对来源（忍冬花／莲花）说法不同，并列保留。
+- 匹配质量: 田自秉给构成与前身，李立新给跨门类传播与图像出处；两册对来源（忍冬花／莲花）说法不同，并列保留；2026-10-25 复核补：扩展田自秉位置至 L2992，补二方连续卷曲结构、响堂山浮雕及佛光、石碑边侧、敦煌藻井实例
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

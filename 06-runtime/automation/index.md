@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `38`
-- Files: `169`
-- Size: `3542338` bytes
+- Batch directories: `39`
+- Files: `173`
+- Size: `3638731` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `169` files
+- R1 provenance: `173` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -34,7 +34,7 @@
 | `hierarchy` | 0 | - |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 38 | [summary](2026-10-25-work-doc2-batch-b/summary.md) |
+| `other` | 39 | [summary](2026-10-25-work-doc2-batch-b/summary.md) |
 
 ## Recent Batches (15)
 

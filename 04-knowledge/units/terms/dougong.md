@@ -17,6 +17,13 @@ aliases:
   - 斗栱
   - 铺作
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1594-L1606."
+    location: "L1594-L1606"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L1273-L2890."
     location: "L1273-L2890"
     evidence_ref:
@@ -35,10 +42,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,8 @@ hierarchy_scope_note: "斗拱是 B 维度下木构建筑构件的条目。Theme/
 - **汉代发展**: 有直拱、人字拱、单层拱、多层拱的运用，并出现一斗二升、一斗三升，东汉还有一斗四升；即在拱上出现两组短木，一则节省木材，二则减少结构和重量（赵农）
 - **功能演变**: 唐宋时期主要为结构构件，到明清演变为以装饰构件为主（2016）
 - **设计史意义**: 斗拱是“结构即装饰”的典型——早期的受力需要最终转化为等级与审美的形式语言
+- **秦汉木构体系**: 以木结构为主的建筑体系秦汉时已初步形成，广泛使用斗栱，硬山、悬山、歇山、庑殿顶均已出现（夏燕靖 2009）
+- **门窗与层叠**: 板门、交棂窗十分广泛；东汉多层建筑发展，梁柱上再加梁柱的叠架技术有重大发展（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -76,7 +85,7 @@ hierarchy_scope_note: "斗拱是 B 维度下木构建筑构件的条目。Theme/
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 赵农给商周至汉的形制演进与力学解释，2016 给定义与唐宋明清的功能转变；两册均未给具体建筑的斗拱测绘数据。
+- 匹配质量: 赵农给商周至汉的形制演进与力学解释，2016 给定义与唐宋明清的功能转变；两册均未给具体建筑的斗拱测绘数据；2026-10-25 复核补：补斗栱所处的秦汉木构体系、四类屋顶、板门交棂窗与梁柱叠架
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

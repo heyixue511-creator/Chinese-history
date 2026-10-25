@@ -31,14 +31,21 @@ sources:
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L1305-L1311."
+    location: "L1305-L1311"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
 created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
@@ -57,6 +64,8 @@ hierarchy_scope_note: "月份牌是 C 维度下近代商业广告形式的条目
 - **鼎盛期**: 二三十年代达到鼎盛（高丰）
 - **发布机制**: 英美烟草公司邀请画家绘制、随赠送发布广告，大药房、保险公司相继效仿（赵农）
 - **题材与代表作者**: 多为中国传统戏曲人物故事、时装美女和花鸟鱼虫，彩图印制、广为散发；代表设计者有郑曼陀、杭穉英、金梅生、李慕白（赵农）
+- **作者与渊源**: 月份牌作者大都未接受正规西洋画训练，最初以木刻形式出现，似有年画影子，后融会中西表现手法（李立新）
+- **评价**: 以通俗内容、多样形式赢得普通民众欢迎，虽对中西结合的理解简单甚至肤浅，其独特形式却“空前绝后”（李立新）
 
 ## 在层级体系中的位置
 
@@ -76,7 +85,7 @@ hierarchy_scope_note: "月份牌是 C 维度下近代商业广告形式的条目
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 高丰给起源、最早实物与分期，赵农给发布机制、题材与作者；两册均未给发行量或印刷工艺细节。
+- 匹配质量: 高丰给起源、最早实物与分期，赵农给发布机制、题材与作者；两册均未给发行量或印刷工艺细节；2026-10-25 复核补：补作者多未受正规西画训练、木刻与年画渊源、“简单甚至肤浅”及“空前绝后”之评
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

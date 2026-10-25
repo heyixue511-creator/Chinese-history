@@ -24,6 +24,13 @@ sources:
       source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
       chapter_id: null
       chunk_id: null
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L1461."
+    location: "L1461"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L4368-L5275."
     location: "L4368-L5275"
     evidence_ref:
@@ -35,10 +42,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,8 @@ hierarchy_scope_note: "紫砂陶是 B 维度下宜兴陶器类型的条目。The
 - **当代产业史**: 1950 年 11 月恢复生产，1954 年组织流散艺人，1955 年成立紫砂生产合作社（2016）
 - **代表艺人**: 任淦庭、吴云根等老艺人从事传统工艺研究与新产品开发，顾景舟与高庄合作“提璧茶具”（2016）
 - **设计史意义**: 紫砂以不施釉的泥胎本色和造型变化立身，是“材料即装饰”的陶瓷类型
+- **明代名家**: 龚春、时大彬等工艺大师明代不在少数；董翰、赵梁、元畅、时朋称“制壶四大家”（李立新）
+- **清代名家与风格**: 清代高手林立，著名者有陈鸣远、杨彭年兄妹和邵大亨；诸家依托前贤遗存各抒其长，形成宜兴紫砂造物的“块团形式”（李立新）
 
 ## 在层级体系中的位置
 
@@ -76,7 +85,7 @@ hierarchy_scope_note: "紫砂陶是 B 维度下宜兴陶器类型的条目。The
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 田自秉给原料与烧成，2016 给性能与当代产业史；两册均未给泥料配比或窑温曲线。
+- 匹配质量: 田自秉给原料与烧成，2016 给性能与当代产业史；两册均未给泥料配比或窑温曲线；2026-10-25 复核补：补龚春、时大彬、制壶四大家、陈鸣远、杨彭年兄妹、邵大亨与“块团形式”
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

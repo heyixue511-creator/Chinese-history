@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T17:41:28",
+  "timestamp": "2026-10-25T17:58:03",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -12,7 +12,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 504,
+    "total_units": 505,
     "type_coverage": "8/8",
     "base_type_coverage": "8/8",
     "structure_node_coverage": "0/4",
@@ -28,14 +28,14 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 504,
+    "total_units": 505,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 504,
+    "units_missing_any_assignment": 505,
     "field_coverage": {
-      "primary_domain": "504/504",
-      "primary_dimension": "504/504",
-      "primary_theme": "0/504",
-      "topic_memberships": "0/504"
+      "primary_domain": "505/505",
+      "primary_dimension": "505/505",
+      "primary_theme": "0/505",
+      "topic_memberships": "0/505"
     }
   },
   "counts_by_type": {
@@ -46,7 +46,7 @@
     "publications": 68,
     "terms": 192,
     "procedures": 12,
-    "events": 10
+    "events": 11
   },
   "required_field_missing": {
     "title": [],
@@ -164,9 +164,9 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 504,
+    "sources_with_evidence_ref": 505,
     "sources_without_evidence_ref": 0,
-    "evidence_ref_resolvable": 504,
+    "evidence_ref_resolvable": 505,
     "evidence_ref_broken": 0
   },
   "claim_traceability": {
@@ -365,8 +365,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 169,
-    "r1_provenance": 169,
+    "files": 173,
+    "r1_provenance": 173,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -409,25 +409,26 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 504,
+    "total_units": 505,
     "source_count_distribution": {
       "multi_source": 496,
-      "single_source": 8
+      "single_source": 9
     },
     "confidence_distribution": {
-      "medium": 504
+      "medium": 505
     },
     "consensus_distribution": {
-      "tentative": 504
+      "tentative": 505
     },
     "evidence_status_distribution": {
-      "source_backed": 504
+      "source_backed": 505
     },
     "isolated_units": {
-      "count": 504,
+      "count": 505,
       "sample": [
         "events/anshi-zhiluan.md",
         "events/banama-saihui.md",
+        "events/hufu-qishe.md",
         "events/nanyang-quanyehui.md",
         "events/opium-war.md",
         "events/pangeng-move-to-yin.md",
@@ -449,21 +450,20 @@
         "institutions/jiguge.md",
         "institutions/jinshu.md",
         "institutions/jinyin-zuofangyuan.md",
-        "institutions/liangjiang-shifan-xuetang.md",
-        "institutions/lingjinyuan.md"
+        "institutions/liangjiang-shifan-xuetang.md"
       ]
     },
     "candidate_debt": {
-      "total": 4023,
+      "total": 3970,
       "by_origin_type": {
-        "source": 4023
+        "source": 3970
       },
       "by_candidate_type": {
         "claim": 1363,
-        "unit": 2660
+        "unit": 2607
       },
       "by_state": {
-        "needs_evidence": 4023
+        "needs_evidence": 3970
       }
     },
     "candidate_inventory": {
@@ -476,22 +476,22 @@
         "unit": 3976
       },
       "by_state": {
-        "applied": 500,
-        "needs_evidence": 4023,
-        "no_delta": 15,
+        "applied": 542,
+        "needs_evidence": 3970,
+        "no_delta": 26,
         "rejected": 801
       },
       "by_lifecycle_class": {
-        "active": 4023,
-        "terminal": 1316
+        "active": 3970,
+        "terminal": 1369
       }
     },
     "research_debt": {
-      "single_source_units": 8,
-      "tentative_units": 504,
+      "single_source_units": 9,
+      "tentative_units": 505,
       "low_confidence_units": 0,
-      "candidates_needing_evidence": 4023,
-      "units_missing_hierarchy_assignment": 504
+      "candidates_needing_evidence": 3970,
+      "units_missing_hierarchy_assignment": 505
     }
   },
   "content_quality": {
@@ -511,7 +511,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 504,
+    "total_files": 505,
     "total_findings": 0
   }
 }

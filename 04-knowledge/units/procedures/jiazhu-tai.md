@@ -27,14 +27,28 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L2963."
+    location: "L1990, L2963"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1873."
+    location: "L1195, L1873"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
 created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -54,6 +68,8 @@ hierarchy_scope_note: "夹纻胎是 B 维度下战国漆器胎骨成形工艺条
 - **性能**：胎体轻巧牢固，漆液渗透性与黏附力强（高丰）
 - **评价**：中国漆器工艺的独特创造（高丰）
 - **时代背景**：战国中期以后漆器胎骨向轻巧方向发展，除木、竹胎外还出现木片卷粘胎与夹纻胎（2009xy）
+- **行像**: 魏晋南北朝佛教盛行，教徒用夹纻工艺塑佛像以便车载游行，称“行像”；晋代戴逵以夹纻行像著名，为南京瓦棺寺作夹纻佛像五躯，与顾恺之维摩诘像、狮子国玉像并称“瓦棺寺三绝”（田自秉）
+- **汉代硬胎**: 2016 记汉代制作方法有木胎、竹胎和夹纻胎（用漆夹麻布制成硬胎），以木胎为主（夏燕靖 2016）
 
 ## 在层级体系中的位置
 
@@ -73,7 +89,7 @@ hierarchy_scope_note: "夹纻胎是 B 维度下战国漆器胎骨成形工艺条
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两册工序步骤一致（泥/木内模—贴麻—干实去胎—髹漆）；材料表述一作纻麻、一作麻布或丝绸，未互校。
+- 匹配质量: 两册工序步骤一致（泥/木内模—贴麻—干实去胎—髹漆）；材料表述一作纻麻、一作麻布或丝绸，未互校；2026-10-25 复核补：新增田自秉与 2016 两源，补行像、戴逵瓦棺寺三绝与汉代夹纻硬胎；同组“夹纻胎”候选合并写入本 KU
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

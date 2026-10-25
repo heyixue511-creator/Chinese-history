@@ -23,20 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
   - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L2841-L3011."
-    location: "L2841-L3011"
+    location: "L2674-L2676, L2841-L3011"
     evidence_ref:
       doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1671-L1675."
+    location: "L1671-L1675"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -58,6 +65,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下秦代陵墓的器物锚点，也�
 - **现存**: 今仅遗存一个巨大的覆斗型封丘（赵农）
 - **设计评价**: 赵农认为这是将地理概念用于陵墓地宫，体现帝王专制心理的膨胀
 - **设计史意义**: 秦始皇陵把“上具天文、下具地理”的宇宙模型埋入地下，是规模最大的观念性空间设计
+- **铜车马出土与复原**: 1980 年发掘两组大型铜制御车马，出土时破碎为 1555 块，复原花费 12 年；各由 3000 多个部件构成（夏燕靖 2016）
+- **比例与重量**: 两组铜车马是秦始皇生前出巡车马的复制品，比原车马缩小 1/2，总重 1200 多千克（夏燕靖 2016）
+- **工艺**: 综合使用铸造、焊接、嵌铸、镶嵌及多种机械连接工艺，解决了车舆、马饰名称与系驾关系等问题（夏燕靖 2016）
+- **两车形制**: 一为戎车，长 2.25 米、高 1.52 米；一为安车，长 3.28 米、高 1.04 米；伞盖分别 1.12 与 2.3 平方米，厚仅 0.4 厘米（赵农）
 
 ## 在层级体系中的位置
 
@@ -77,7 +88,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下秦代陵墓的器物锚点，也�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 夏燕靖给封丘尺寸与工程数字，赵农给《史记》引文与观念判断；两册均未给地宫实测或封土现状。
+- 匹配质量: 夏燕靖给封丘尺寸与工程数字，赵农给《史记》引文与观念判断；两册均未给地宫实测或封土现状；2026-10-25 复核补：新增 2016 源并扩展赵农位置至 L2674-L2676，补 1980 年两组铜车马、1555 块／12 年复原、3000 部件、1:2 与 1200 千克、工艺及戎车安车尺寸伞盖
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

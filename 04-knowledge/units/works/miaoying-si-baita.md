@@ -22,6 +22,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L6198."
+    location: "L6198"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3958-L3972."
     location: "L3958-L3972"
     evidence_ref:
@@ -33,10 +40,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -58,6 +65,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下元代宗教建筑的器物锚点�
 - **华盖**: 40 块铜板瓦构成，四周悬 36 只铜质透雕流苏和风铃（两版）
 - **刹顶**: 铜制小喇嘛塔高 5 米、重约 40 吨（两版）
 - **设计史意义**: 白塔由尼泊尔工匠主持、以铜华盖与流苏风铃构成上部，是元代跨文化建筑技术直接进入都城地标的证据
+- **高度异文**: 赵农记塔高 53 米，与两版所记 50.9 米不同，并列保留（赵农）
+- **塔身**: 呈现宝瓶塔身，是元大都建筑的喇嘛塔样式（赵农）
 
 ## 在层级体系中的位置
 
@@ -77,7 +86,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下元代宗教建筑的器物锚点�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版数据一致，2009 补阿尼哥与“最早最大”判断；两册均未给塔身比例或铜华盖单件尺寸。
+- 匹配质量: 两版数据一致，2009 补阿尼哥与“最早最大”判断；两册均未给塔身比例或铜华盖单件尺寸；2026-10-25 复核补：补赵农 53 米异文与宝瓶塔身、元大都喇嘛塔样式；高度两说并列不裁定
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

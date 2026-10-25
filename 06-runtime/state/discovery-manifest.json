@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:61e5663b80de2378976c41eda59eb5d002fd94255686fbfba6782f51301bc3c5",
+  "baseline_input_fingerprint": "sha256:a4370c4f4497e6198d1eceb10a38e70048eed0166ac0d9f6c0a94095cec35e4a",
   "input_state": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
     "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
@@ -22,6 +22,7 @@
     "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl": "sha256:fc3a01d9a146784aeb8d64ea7937cbd09c101033c3c9b25b7f63f037cf15d2b6",
     "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl": "sha256:c60b661d8a8218f691053d5cbaa5ffb62887720675dce1d58c14738635ffdb11",
     "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl": "sha256:f14583d3c8c8123265c45cd3421d967d853046532aaeda80877cba7758e965f6",
+    "06-runtime/automation/2026-10-25-overlap-candidates-batch/candidate-decision-ledger.jsonl": "sha256:dc42ac0b2b09d951edd477989551f849e1bbd162444747503aee08e72363c665",
     "06-runtime/automation/2026-10-25-person-doc2-batch-l/candidate-decision-ledger.jsonl": "sha256:f584540fe6d8c1d7dd35e1dacd4f7dc74a00731375db9bc8022b6ef1305b6e88",
     "06-runtime/automation/2026-10-25-person-doc2-batch-m/candidate-decision-ledger.jsonl": "sha256:9ad0ce7a9ffd3d4cc2031d9f14aac20c2040140ff6d7a32d28d3d5a7b794159c",
     "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl": "sha256:d5ccfa78ff0309ead1e50ccb1894aac9f1094967199aba08503dc5598b0e3e0a",
@@ -69,6 +70,7 @@
     "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl": 45,
     "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl": 55,
     "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl": 46,
+    "06-runtime/automation/2026-10-25-overlap-candidates-batch/candidate-decision-ledger.jsonl": 159,
     "06-runtime/automation/2026-10-25-person-doc2-batch-l/candidate-decision-ledger.jsonl": 54,
     "06-runtime/automation/2026-10-25-person-doc2-batch-m/candidate-decision-ledger.jsonl": 80,
     "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl": 56,
@@ -96,11 +98,11 @@
     "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": 100
   },
   "applied_candidate_transition_counts": {
-    "approved->applied": 500,
-    "approved->no_delta": 15,
-    "needs_evidence->ready_for_review": 515,
+    "approved->applied": 542,
+    "approved->no_delta": 26,
+    "needs_evidence->ready_for_review": 568,
     "needs_evidence->rejected": 800,
-    "ready_for_review->approved": 515
+    "ready_for_review->approved": 568
   },
   "candidate_counts": {
     "total": 5339,
@@ -112,32 +114,32 @@
       "unit": 3976
     },
     "by_state": {
-      "applied": 500,
-      "needs_evidence": 4023,
-      "no_delta": 15,
+      "applied": 542,
+      "needs_evidence": 3970,
+      "no_delta": 26,
       "rejected": 801
     },
     "by_lifecycle_class": {
-      "active": 4023,
-      "terminal": 1316
+      "active": 3970,
+      "terminal": 1369
     }
   },
   "actionable_candidate_counts": {
-    "total": 4023,
+    "total": 3970,
     "by_origin_type": {
-      "source": 4023
+      "source": 3970
     },
     "by_candidate_type": {
       "claim": 1363,
-      "unit": 2660
+      "unit": 2607
     },
     "by_state": {
-      "needs_evidence": 4023
+      "needs_evidence": 3970
     }
   },
   "legacy_projection_normalizations": {},
   "issues": [],
   "output_hashes": {
-    "06-runtime/state/candidate-index.jsonl": "sha256:d5229189c1f55a2c7f0a0c41ab11a8146aeaaf21898ae6a4d95bdf5b3a341cc8"
+    "06-runtime/state/candidate-index.jsonl": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b"
   }
 }

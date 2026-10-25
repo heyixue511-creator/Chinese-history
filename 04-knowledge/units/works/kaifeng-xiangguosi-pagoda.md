@@ -23,6 +23,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L5444-L5458."
+    location: "L5444-L5458"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3411."
     location: "L3411"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下宋代琉璃砖塔的器物锚点�
 - **雕饰**: 飞天、麒麟、菩萨、力士、狮子等 50 多种纹样，雕工精细（两版）
 - **整体评价**: 整座塔宛如一件大型的琉璃工艺品（两版）
 - **设计史意义**: 相国寺塔以 28 种预制琉璃砖拼出仿木构件与 50 多种雕饰，是“构件标准化＋表面多样化”的宋代砖塔方案
+- **琉璃与色泽**: 塔身加筑褐色琉璃瓦，如锈铁色泽，坚硬如铁，故名“铁塔”（赵农）
+- **塔内结构**: 塔身有螺旋式蹬道，使塔壁与中心塔柱紧密联结；宋塔多六角或八角形、以楼阁式为主（赵农）
 
 ## 在层级体系中的位置
 
@@ -75,7 +84,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下宋代琉璃砖塔的器物锚点�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版文字逐字一致；两册均未给塔高、层数或琉璃砖尺寸。
+- 匹配质量: 两版文字逐字一致；两册均未给塔高、层数或琉璃砖尺寸；2026-10-25 复核补：补褐色琉璃瓦与锈铁色泽得名、螺旋蹬道联结塔壁与中心塔柱；与既有“28 种琉璃砖”说并列
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

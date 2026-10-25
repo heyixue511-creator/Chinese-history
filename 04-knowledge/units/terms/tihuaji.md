@@ -17,6 +17,13 @@ aliases:
   - 花楼提花机
   - 束综提花机
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1418-L1432."
+    location: "L1418-L1432"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L4578-L4599."
     location: "L4578-L4599"
     evidence_ref:
@@ -35,10 +42,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,8 @@ hierarchy_scope_note: "提花机是 B 维度下织造设备的条目。Theme/Top
 - **隋唐改进**: 提花机不断改进，使唐代织物花团锦簇、富丽堂皇（赵农）
 - **汉代官营使用**: 官营丝织作坊已采用提花织机生产锦绣绮罗，东汉王逸《机妇赋》描绘其生产情形（2016）
 - **实物证据**: 马王堆 1 号汉墓绒圈锦证明两千多年前已有织造起绒的提花机（2016）
+- **从斜织机发展**: 汉代布机已广泛使用脚踏提综斜织机，提花机由布机发展而来并用于生产，效果显著（夏燕靖 2009）
+- **西传**: 李约瑟《中国古代科技史》称西方提花机由中国传去，采用时代比中国晚 4 个世纪（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -76,7 +85,7 @@ hierarchy_scope_note: "提花机是 B 维度下织造设备的条目。Theme/Top
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 赵农给机型演进与 120 蹑数据，2016 给官营使用与马王堆实物证据；两册均未给机架尺寸或复原图。
+- 匹配质量: 赵农给机型演进与 120 蹑数据，2016 给官营使用与马王堆实物证据；两册均未给机架尺寸或复原图；2026-10-25 复核补：补脚踏提综斜织机到提花机的发展关系与李约瑟“西方晚 4 个世纪”说
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

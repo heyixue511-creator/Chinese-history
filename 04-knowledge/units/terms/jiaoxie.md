@@ -18,6 +18,13 @@ aliases:
   - 撮晕缬
   - 撮花
 sources:
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L3260."
+    location: "L3260"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L2185-L2205."
     location: "L2185-L2205"
     evidence_ref:
@@ -36,10 +43,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,7 @@ hierarchy_scope_note: "绞缬是 B 维度下防染印花技术的条目。Theme/
 - **魏晋南北朝应用**: 应用广泛的防染印花工艺，一般为缝线缚结法，即扎结防染（2009）
 - **花纹类型**: 疏大者有鹿胎缬、玛瑙缬，细密者有鱼子缬等，亦可用谷粒包扎法形成细小的菱形圈（2009）
 - **设计史意义**: 绞缬以捆扎的松紧控制染液渗透，晕色边界不可完全复制，是最早的“随机纹理”设计技法之一
+- **唐代实物**: 新疆阿斯塔那古墓出土唐垂拱四年（688）绞缬裙，由绛紫、茄紫等色形成菱形网格图案，制作精巧（田自秉）
 
 ## 在层级体系中的位置
 
@@ -76,7 +84,7 @@ hierarchy_scope_note: "绞缬是 B 维度下防染印花技术的条目。Theme/
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 2016 给完整工艺与异称，2009 给花纹类型与年代；两册均未给具体织物或染程参数。
+- 匹配质量: 2016 给完整工艺与异称，2009 给花纹类型与年代；两册均未给具体织物或染程参数；2026-10-25 复核补：补阿斯塔那唐垂拱四年（688）绞缬裙及绛紫、茄紫菱形网格
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

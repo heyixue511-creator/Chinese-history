@@ -1,0 +1,358 @@
+[
+  {
+    "entity": "案",
+    "target_ref": "04-knowledge/units/terms/an-furniture.md",
+    "action": "update",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "匠户",
+    "target_ref": "04-knowledge/units/terms/jianghu.md",
+    "action": "update",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "元代银镜架",
+    "target_ref": "04-knowledge/units/works/yuan-yinjingjia.md",
+    "action": "update",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "提花机",
+    "target_ref": "04-knowledge/units/terms/tihuaji.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙窑",
+    "target_ref": "04-knowledge/units/terms/longyao.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "斗拱",
+    "target_ref": "04-knowledge/units/terms/dougong.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "云冈石窟",
+    "target_ref": "04-knowledge/units/places/yungang-shiku.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "柴窑",
+    "target_ref": "04-knowledge/units/terms/chai-yao.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "官窑",
+    "target_ref": "04-knowledge/units/terms/guan-yao.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "缂丝",
+    "target_ref": "04-knowledge/units/terms/kesi.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-81",
+    "merged_candidates": []
+  },
+  {
+    "entity": "青铜礼器",
+    "target_ref": "04-knowledge/units/terms/qingtong-liqi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三脚耧",
+    "target_ref": "04-knowledge/units/works/san-jiao-lou.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-101",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周易",
+    "target_ref": "04-knowledge/units/publications/zhouyi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "墨子",
+    "target_ref": "04-knowledge/units/persons/mozi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "候风地动仪",
+    "target_ref": "04-knowledge/units/works/houfeng-dizhenyi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "独轮车",
+    "target_ref": "04-knowledge/units/terms/dulunche.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-81",
+    "merged_candidates": [
+      "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-59"
+    ]
+  },
+  {
+    "entity": "敦煌莫高窟",
+    "target_ref": "04-knowledge/units/places/dunhuang-mogao-ku.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "里坊制",
+    "target_ref": "04-knowledge/units/terms/lifang-zhi.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-79",
+    "merged_candidates": []
+  },
+  {
+    "entity": "开封相国寺塔",
+    "target_ref": "04-knowledge/units/works/kaifeng-xiangguosi-pagoda.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-94",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北京妙应寺白塔",
+    "target_ref": "04-knowledge/units/works/miaoying-si-baita.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-40",
+    "merged_candidates": []
+  },
+  {
+    "entity": "福建船政局",
+    "target_ref": "04-knowledge/units/institutions/fujian-chuanzhengju.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-063",
+    "merged_candidates": []
+  },
+  {
+    "entity": "失蜡法",
+    "target_ref": "04-knowledge/units/procedures/lost-wax-casting.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "夹纻胎",
+    "target_ref": "04-knowledge/units/procedures/jiazhu-tai.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-32",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-79"
+    ]
+  },
+  {
+    "entity": "铅釉陶",
+    "target_ref": "04-knowledge/units/terms/qian-you-tao.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-39",
+    "merged_candidates": []
+  },
+  {
+    "entity": "忍冬纹",
+    "target_ref": "04-knowledge/units/terms/rendong-wen.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "绞缬",
+    "target_ref": "04-knowledge/units/terms/jiaoxie.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "鎏金舞马衔杯银壶",
+    "target_ref": "04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-71",
+    "merged_candidates": []
+  },
+  {
+    "entity": "五大名窑",
+    "target_ref": "04-knowledge/units/terms/wuda-mingyao.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南京云锦",
+    "target_ref": "04-knowledge/units/terms/nanjing-yunjin.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "文质",
+    "target_ref": "04-knowledge/units/terms/wenzhi.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "圆明园",
+    "target_ref": "04-knowledge/units/works/yuanmingyuan.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "月份牌",
+    "target_ref": "04-knowledge/units/terms/yuefenpai.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "紫砂陶",
+    "target_ref": "04-knowledge/units/terms/zisha-tao.md",
+    "action": "update",
+    "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "秦始皇陵",
+    "target_ref": "04-knowledge/units/works/qin-shi-huang-ling.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "粤绣",
+    "target_ref": "04-knowledge/units/terms/yuexiu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-120",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中山装",
+    "target_ref": "04-knowledge/units/terms/zhongshanzhuang.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国美术馆",
+    "target_ref": "04-knowledge/units/institutions/zhongguo-meishuguan.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-133",
+    "merged_candidates": []
+  },
+  {
+    "entity": "杭穉英",
+    "target_ref": "04-knowledge/units/persons/hang-zhiying.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "管仲",
+    "target_ref": "04-knowledge/units/persons/guan-zhong.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "胡服骑射",
+    "target_ref": "04-knowledge/units/events/hufu-qishe.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-134",
+    "merged_candidates": []
+  },
+  {
+    "entity": "庞薰琹",
+    "target_ref": "04-knowledge/units/persons/pang-xunqin.md",
+    "action": "no_delta",
+    "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-24",
+    "merged_candidates": [
+      "2009-xiayanjing-zhongguo-shejishi:cand-07-35"
+    ]
+  },
+  {
+    "entity": "水碓",
+    "target_ref": "04-knowledge/units/works/shui-dui.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙门石窟",
+    "target_ref": "04-knowledge/units/places/longmen-grottoes.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-06",
+    "merged_candidates": []
+  },
+  {
+    "entity": "干栏式",
+    "target_ref": "04-knowledge/units/terms/ganlan-shi-jianzhu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "彩漆动物座屏",
+    "target_ref": "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "司母戊鼎",
+    "target_ref": "04-knowledge/units/works/simuwu-ding.md",
+    "action": "no_delta",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汝窑",
+    "target_ref": "04-knowledge/units/places/ru-kiln.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "定窑",
+    "target_ref": "04-knowledge/units/places/ding-kiln.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "黄成",
+    "target_ref": "04-knowledge/units/persons/huang-dacheng.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "李诫",
+    "target_ref": "04-knowledge/units/persons/li-cheng.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-26",
+    "merged_candidates": []
+  }
+]

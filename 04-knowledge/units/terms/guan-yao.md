@@ -16,6 +16,13 @@ tags:
 aliases:
   - 官窑器
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L2503-L2547."
+    location: "L2503-L2547"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3160-L3179."
     location: "L3160-L3179"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -55,6 +62,8 @@ hierarchy_scope_note: "官窑是 B 维度下宋代官办瓷窑的条目。Theme/
 - **北宋官窑**: 宋徽宗政和年间在汴梁建造，窑址至今未发现（2016）
 - **器形与釉色**: 器形有瓶、尊、洗、盘、碗及仿周汉青铜器；釉色以月色、粉青、大绿流行；胎厚、天青釉略带粉红、开大纹片，传世很少（2016）
 - **与五大名窑的关系**: 官窑是“官、汝、钧、哥、定”五大名窑之一，同时又是官办生产体制，兼具窑口与制度两义
+- **仿古器形与宫廷风格**: 主要器形有瓶、尊、洗、盘、碗，也有仿周、汉青铜器的鼎、炉、觚、彝等式样，造型带雍容典雅的宫廷风格（夏燕靖 2009）
+- **开片成因**: 胎体较厚、天青釉略带粉红、釉面开大纹片，是胎、釉受热后膨胀系数不同所致，为北宋官窑典型特征（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -74,7 +83,7 @@ hierarchy_scope_note: "官窑是 B 维度下宋代官办瓷窑的条目。Theme/
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 赵农给制度性定义，2016 给北宋汴梁窑址与器形釉色；两册均未给窑址考古结论，2016 明言窑址未发现。
+- 匹配质量: 赵农给制度性定义，2016 给北宋汴梁窑址与器形釉色；两册均未给窑址考古结论，2016 明言窑址未发现；2026-10-25 复核补：补鼎炉觚彝仿古器形、宫廷风格与开片的胎釉膨胀系数成因
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

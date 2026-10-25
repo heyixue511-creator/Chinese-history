@@ -22,6 +22,13 @@ sources:
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L1236-L1242."
+    location: "L1236-L1242"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L4527-L4540."
     location: "L4527-L4540"
     evidence_ref:
@@ -33,10 +40,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下清代皇家园林的器物锚点�
 - **园林地位**: 清代皇家园林，属“三山五园”之一（2016）
 - **同区园林**: 北京皇家园林中还有钓鱼台、摄政王府花园、故宫慈宁宫南花园、恭王府花园等（赵农）
 - **设计史意义**: 圆明园在同一园址内并置中式山水与欧式西洋楼，是清代皇家园林中跨文化造园的直接证据
+- **西洋楼设计者**: 清乾隆时郎世宁等欧洲设计师参与修建圆明园，使其融合中西建筑风格（李立新）
+- **室内与图版**: 室内置罗可可风格的家具、壁毯和各式西洋器物；图 3-7 为圆明园东长春园西洋楼谐奇趣北面铜版画（李立新）
 
 ## 在层级体系中的位置
 
@@ -75,7 +84,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下清代皇家园林的器物锚点�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 赵农给沿革、西洋楼与毁坏，2016 给三园构成与“三山五园”定位；两册均未给建园面积或西洋楼设计者。
+- 匹配质量: 赵农给沿革、西洋楼与毁坏，2016 给三园构成与“三山五园”定位；两册均未给建园面积或西洋楼设计者；2026-10-25 复核补：补郎世宁等欧洲设计师、罗可可家具壁毯与谐奇趣铜版画
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

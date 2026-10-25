@@ -27,6 +27,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L2353-L2396."
+    location: "L2353-L2396"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L6113-L6116."
     location: "L6113-L6116"
     evidence_ref:
@@ -38,10 +45,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
@@ -60,6 +67,9 @@ hierarchy_scope_note: "本 KU 是 A 维度下造物观念文献的锚点。Theme
 - **卦爻象**: 高丰把卦爻象符号系统视为平面构成设计
 - **设计思想**: 制器尚象、道器统一、文质统一（高丰）；“道”与“器”关系成为传统造物思想与设计方法的主题（2016）
 - **设计史意义**: 《周易》把器物制作纳入卦象与道器框架，是“制器尚象”观念最早的文本源头
+- **文王与孔子**: 有“文王拘而演《周易》”之说；“孔子晚而喜《易》……韦编三绝”（《史记·孔子世家》），赋予其思想主题（赵农）
+- **《系辞传》制器四则**: “以制器者尚其象”“形乃谓之器，制而用之谓之法”“备物致用，立出器以为天下利”“形而上者谓之道，形而下者谓之器”（赵农；原文作“立出器”）
+- **道器在形内**: 赵农强调“形而上”“形而下”首先在“形”的范畴内，制形精神贯穿“道”，制形过程体现为“器”，不宜把道器简单对立（赵农）
 
 ## 在层级体系中的位置
 
@@ -79,7 +89,7 @@ hierarchy_scope_note: "本 KU 是 A 维度下造物观念文献的锚点。Theme
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 高丰给成书分期、作者说与三条设计思想，2016 只给成书与道器主题；成书年代两说（西周前期／西周初年）已并列。
+- 匹配质量: 高丰给成书分期、作者说与三条设计思想，2016 只给成书与道器主题；成书年代两说（西周前期／西周初年）已并列；2026-10-25 复核补：补文王演易、韦编三绝、《系辞传》四则制器原文与“道器在形内”的整体理解
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

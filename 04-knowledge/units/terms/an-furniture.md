@@ -16,6 +16,13 @@ aliases:
   - 食案
   - 书案
 sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L2383-L2401."
+    location: "L2383-L2401"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1374-L1399."
     location: "L1374-L1399"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,9 @@ hierarchy_scope_note: "案是 B 维度下先秦两汉承具的条目。Theme/Top
 - **形制**: 多为矮足或无足，漆彩绘制（赵农）
 - **材质演进**: 战国至两汉多木制髹漆饰彩纹，后演变为书案、平头案等长形承具，按材料有陶案、木案、漆案、铜案（2016）
 - **设计史意义**: 案由托盘类矮器演化为长形承具，是席地起居向高坐起居过渡的中间形态
+- **汉代两型**: 汉代食案分无足（类似托盘）与有足两种，有足者案面长方形，装柱状或蹄状案足（高丰）
+- **尺度**: 有足食案长约 1 米、宽约半米、高约 10—20 厘米，多为木制，也有铜、陶制（高丰）
+- **铜圆案实例**: 广州沙河顶 5054 号东汉墓出土铜圆案，面径 40 厘米、高 8.6 厘米，上置大小铜耳杯 6 个（高丰）
 
 ## 在层级体系中的位置
 
@@ -75,7 +85,7 @@ hierarchy_scope_note: "案是 B 维度下先秦两汉承具的条目。Theme/Top
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 2016 给本义、文献与材质分类，赵农给使用功能；两册均未给具体尺寸或出土实例。
+- 匹配质量: 2016 给本义、文献与材质分类，赵农给使用功能；两册均未给具体尺寸或出土实例；2026-10-25 复核补：补汉代食案两型、柱状与蹄状足、尺度及广州沙河顶东汉铜圆案
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

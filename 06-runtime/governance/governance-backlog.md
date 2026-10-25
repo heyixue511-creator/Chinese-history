@@ -1,9 +1,9 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-10-25 17:41
+> Snapshot: 2026-10-25 17:58
 > Structural health: 122/130
-> Knowledge units: 504
+> Knowledge units: 505
 > Maturity metrics: unscored_semantic_maturity
 
 ## System defects - P0
@@ -22,17 +22,17 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 8 | research_debt |
-| RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 504 | research_debt |
-| RD-CANDIDATES_NEEDING_EVIDENCE | candidates needing evidence | 4023 | research_debt |
-| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 504 | research_debt |
+| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 9 | research_debt |
+| RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 505 | research_debt |
+| RD-CANDIDATES_NEEDING_EVIDENCE | candidates needing evidence | 3970 | research_debt |
+| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 505 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 504 | candidate_opportunity |
-| OPP-CANDIDATES | active discovery candidates | 4023 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 505 | candidate_opportunity |
+| OPP-CANDIDATES | active discovery candidates | 3970 | candidate_opportunity |
 
 ## Completed mechanical signals
 

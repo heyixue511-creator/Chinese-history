@@ -15,6 +15,13 @@ tags:
 aliases:
   - 铅釉陶器
 sources:
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L2353-L2357."
+    location: "L2353-L2357"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1826-L1831."
     location: "L1826-L1831"
     evidence_ref:
@@ -33,10 +40,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -55,6 +62,10 @@ hierarchy_scope_note: "铅釉陶是 B 维度下汉代低温釉陶的条目。The
 - **呈色**: 釉中混有不同金属元素则形成黄、绿、褐、土红等多种色彩（两版）
 - **银釉**: 汉代因釉面泛出银色光彩，又称银釉（两版）
 - **设计史意义**: 铅釉以低熔点换来可控的彩色釉面，是汉代陶器从胎体装饰转向釉面装饰的转折
+- **釉的组成**: 陶瓷釉一般以硅酸（二氧化矽）为主体，以氧化钙、氧化钠、氧化铅等为媒熔剂；以铅为盐基的称铅釉（田自秉）
+- **产地与呈色**: 铅釉陶最早生产于关中地区；西汉时多为黄、褐、绿等色，绿釉特别流行，长期埋藏后釉面泛银光，又称银釉（田自秉）
+- **代表器形**: 釉陶壶鼓腹、长颈、盘口，肩部浮雕狩猎纹或铺首衔环或弦纹；陶奁、陶盒、陶博山炉均流行（田自秉）
+- **南北软硬釉**: 北方铅釉陶火度低、釉质软，称软釉；南方青釉陶火度高、釉质硬，称硬釉，是青瓷发展的过渡（田自秉）
 
 ## 在层级体系中的位置
 
@@ -74,7 +85,7 @@ hierarchy_scope_note: "铅釉陶是 B 维度下汉代低温釉陶的条目。The
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版文字几乎逐字一致；两册均未给铅含量或窑址。
+- 匹配质量: 两版文字几乎逐字一致；两册均未给铅含量或窑址；2026-10-25 复核补：补硅酸主体与钙钠铅媒熔剂、关中最早产地、西汉呈色与器形、南北软硬釉
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

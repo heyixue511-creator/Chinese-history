@@ -1,0 +1,26 @@
+{
+ "keys": [
+  "candidate_id",
+  "candidate_type",
+  "created_at",
+  "decision",
+  "evidence_refs",
+  "lifecycle_class",
+  "origin_ref",
+  "origin_type",
+  "payload",
+  "state",
+  "target_ref",
+  "updated_at"
+ ],
+ "state": "applied",
+ "target_ref": "04-knowledge/units/events/hufu-qishe.md",
+ "target_refs": null,
+ "lifecycle_class": "terminal",
+ "decision": {
+  "decided_at": "2026-10-25",
+  "decided_by": "Agent",
+  "reason": "已按 exact change-set 新建 04-knowledge/units/events/hufu-qishe.md；同组候选归档为本 KU",
+  "status": "approved"
+ }
+}

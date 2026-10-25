@@ -15,6 +15,13 @@ tags:
 aliases:
   - 银镜架
 sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L3921."
+    location: "L3921"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3871-L3886."
     location: "L3871-L3886"
     evidence_ref:
@@ -33,10 +40,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下元代银器的器物锚点。Theme
 - **装饰**: 整体支架上镶三片经过雕镂的银皮（两版）
 - **评价**: 结构新奇（2016）
 - **设计史意义**: 镜架以银仿木构并做成可折叠支架，是把建筑框架逻辑缩微到日用器的案例
+- **纹饰**: 主要部位雕镂双凤戏牡丹纹和玉兔、蟾蜍、灵芝纹（高丰）
+- **造型**: 整体造型犹如一把豪华的小交椅，可立放又可折合（高丰）
 
 ## 在层级体系中的位置
 
@@ -75,7 +84,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下元代银器的器物锚点。Theme
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版一致，2016 补 1964 年出土；两册均未给银皮厚度或折叠节点做法。
+- 匹配质量: 两版一致，2016 补 1964 年出土；两册均未给银皮厚度或折叠节点做法；2026-10-25 复核补：补双凤戏牡丹／玉兔蟾蜍灵芝纹与“豪华小交椅”造型评价
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

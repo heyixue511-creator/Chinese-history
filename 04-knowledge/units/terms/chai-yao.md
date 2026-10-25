@@ -16,6 +16,13 @@ tags:
 aliases:
   - 柴窑器
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L2379-L2382."
+    location: "L2379-L2382"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L3514."
     location: "L3514"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -56,6 +63,8 @@ hierarchy_scope_note: "柴窑是 B 维度下文献记载而未证实的瓷窑条
 - **存在性**: 实物未见，是否存在至今悬而未决（田自秉）；2016 明确称其至今仍是无确切考据的疑问
 - **特征描述**: 有“雨过天青”“青如天，明如镜，薄如纸，声如磬”之说（2016）
 - **设计史意义**: 柴窑是“文献名窑”而非考古实证窑口，本 KU 只登记传说与文献状态，不把它当作可断代的生产实体
+- **吴越贡瓷**: 五代陶瓷仍以越窑青瓷为主；吴越钱氏家族以瓷器向中原王朝送礼，最多一次达 14 万件，贡品中有秘色瓷器，为当时瓷器上品（夏燕靖 2009）
+- **文献与推测**: 明人记“柴窑片瓦值千金”；窑址在郑州之说无确切考据，或许是周世宗向钱氏提出的贡瓷要求，属越窑秘色瓷一类（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -75,7 +84,7 @@ hierarchy_scope_note: "柴窑是 B 维度下文献记载而未证实的瓷窑条
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版均承认窑址未发现；田自秉补文献最早年代，2016 补瓷器特征谚语。两册均未给明代著作书名。
+- 匹配质量: 两版均承认窑址未发现；田自秉补文献最早年代，2016 补瓷器特征谚语。两册均未给明代著作书名；2026-10-25 复核补：补吴越钱氏 14 万件贡瓷、秘色瓷上品、“片瓦值千金”与周世宗贡瓷推测
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

@@ -31,14 +31,21 @@ sources:
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L5009."
+    location: "L5009"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
 created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
@@ -59,6 +66,8 @@ hierarchy_scope_note: "杭穉英是 C 维度下民国上海月份牌广告设计
 - **典型形象**: 旗袍美女是杭穉英设计的月份牌人物画中的典型形象（高丰）
 - **另一谱系**: 赵农把杭穉英与郑曼陀、金梅生、李慕白并列为月份牌代表设计者
 - **用字**: 高丰同节又作“杭释英”，为“杭穉英”讹写，照录
+- **商务印书馆练习生**: 1920 年商务印书馆招收练习生，有李泳青、杭稚英、金梅生、金雪尘、鲁少飞、戈湘岚、陈在新、张荻寒等；聘德国、日本画家授课，并请吴待秋传授中国画（夏燕靖 2016）
+- **广告画家群**: 与周慕桥、郑曼陀、谢之光、徐青等并列为当时知名广告画家；这批人后来成长为中国早期商业招贴广告设计专家（夏燕靖 2016）
 
 ## 在层级体系中的位置
 
@@ -78,7 +87,7 @@ hierarchy_scope_note: "杭穉英是 C 维度下民国上海月份牌广告设计
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 高丰详于画室、产量与影响，赵农只列名；两册均未给生卒年；图 9-8a、9-8b 未视觉核验。
+- 匹配质量: 高丰详于画室、产量与影响，赵农只列名；两册均未给生卒年；图 9-8a、9-8b 未视觉核验；2026-10-25 复核补：补 1920 年商务印书馆练习生名单、德日画家授课与吴待秋教中国画、广告画家群及早期商业招贴专家身份
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

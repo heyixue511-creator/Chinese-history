@@ -1,0 +1,70 @@
+{
+  "work_package": "2026-10-25-overlap-candidates-batch",
+  "goal": "清算未分组 unit 候选中与既有 KU 重叠的 53 个候选：逐条语义复读后按 update/create/no_delta 写回，避免重复建条。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:d5229189c1f55a2c7f0a0c41ab11a8146aeaaf21898ae6a4d95bdf5b3a341cc8",
+      "needs_evidence_before": 4023
+    },
+    "scope": {
+      "documents": {
+        "2004": "高丰《中国设计史》",
+        "2009xy": "夏燕靖《中国设计史》",
+        "2009zn": "赵农《中国艺术设计史》",
+        "2010": "田自秉《中国工艺美术史（修订本）》",
+        "2011": "李立新《中国设计艺术史论》",
+        "2016": "夏燕靖《中国艺术设计史（升级版）》"
+      },
+      "unit_candidates_total": 2660,
+      "overlap_candidates": 53,
+      "match_method": "候选 title/alias 去空白与标点后与 504 个既有 KU 的 title/aliases 精确匹配；再逐条回读原文与现有 KU 判定增量。"
+    }
+  },
+  "method": {
+    "reject_rules": [
+      "同实体重复候选只保留 canonical，其余并入同一 KU，不另建条。",
+      "既有 KU 已完整覆盖候选内容时判 no_delta，不重复写回。",
+      "部分覆盖时只追加缺失事实，不重写既有段落；两册冲突数值并列保留，不裁定。"
+    ],
+    "source_policy": "02-sources 只读；所有写回只改 04-knowledge/units。"
+  },
+  "outputs": {
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-25-overlap-candidates-batch/apply-plan.jsonl",
+      "rows": 40,
+      "update": 39,
+      "create": 1
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-25-overlap-candidates-batch/candidate-decision-ledger.jsonl",
+      "rows": 159,
+      "candidates": 53,
+      "applied": 42,
+      "no_delta": 11,
+      "rejected": 0
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-25-overlap-candidates-batch/canonical-mapping.json",
+      "entries": 50
+    }
+  },
+  "state_after": {
+    "applied": 542,
+    "no_delta": 26,
+    "rejected": 801,
+    "needs_evidence": 3970,
+    "total": 5339
+  },
+  "verification": {
+    "status": "pending"
+  },
+  "notes": [
+    "候选“管子”按人物语义写回 persons/guan-zhong.md，不写 publications/guanzi.md。",
+    "jiazhu-tai 合并 2010“夹纻”与 2016“夹纻胎”两个候选；dulunche 合并 2009“独轮车”与 2011“鹿车”两个候选。",
+    "妙应寺白塔 53 米与 50.9 米、开封铁塔褐色琉璃瓦与 28 种琉璃砖均并列保留，不裁定。"
+  ]
+}

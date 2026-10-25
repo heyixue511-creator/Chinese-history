@@ -18,6 +18,13 @@ tags:
   - 犍陀罗风格
   - 石刻
 sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1927-L1930."
+    location: "L1927-L1930"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L3979-L4003."
     location: "L3979-L4003"
     evidence_ref:
@@ -50,10 +57,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 4
+source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -73,6 +80,7 @@ hierarchy_scope_note: "云冈石窟是 B 维度下北朝石窟寺与石刻造物
 - **窟前木构**：与敦煌、龙门、麦积山、响堂山、栖霞山并称，石窟依岩崖开凿、窟前建木构殿阁（李立新）
 - **并称与评价**：田自秉列为六朝著名石窟，与龙门、响堂山、栖霞山并举，称集体创造的艺术结晶
 - **风格**：2016 记其为魏晋南北朝著名石窟寺，早期造像模仿印度犍陀罗风格
+- **源流与中国化**: 石窟寺源于印度，公元 3 世纪传入中国；早期造像模仿犍陀罗风格，时过不久便创造出中国形式的造像（夏燕靖 2009）
 
 ## 在层级体系中的位置
 
@@ -92,7 +100,7 @@ hierarchy_scope_note: "云冈石窟是 B 维度下北朝石窟寺与石刻造物
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 四册均记大同云冈；赵农给出窟数与造像数，李立新、田自秉只列名，2016 记平城背景与犍陀罗风格；各册未互校窟数。
+- 匹配质量: 四册均记大同云冈；赵农给出窟数与造像数，李立新、田自秉只列名，2016 记平城背景与犍陀罗风格；各册未互校窟数；2026-10-25 复核补：补石窟寺印度源流、3 世纪传入与“中国形式”造像的形成
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

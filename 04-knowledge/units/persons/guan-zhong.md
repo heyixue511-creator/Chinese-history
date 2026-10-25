@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L6125-L6128."
-    location: "L6125-L6128"
+    location: "L1500-L1503, L6125-L6128"
     evidence_ref:
       doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
       source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
@@ -52,7 +52,7 @@ consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
@@ -74,6 +74,7 @@ hierarchy_scope_note: "管仲在来源中同时承载“废弃雕饰”与“侈
 - **著作**: 《管子》相传为其著作，今存 76 篇（赵农）；传为其言论汇编（夏燕靖 2016）
 - **侈靡消费论**: 《管子·侈靡》反映其赞赏侈靡消费以促进再生产的主张（夏燕靖 2016）；李立新概括其“侈靡消费”的经济管理造物思想，提出“随时变”“遵事理”“量可能”三条立法原则，并称其为最早的设计经济学论述
 - **主张张力**: “工事无刻镂”与“侈靡消费”在来源中分属不同篇目与不同论者，二者是否可在同一思想体系内兼容，六册来源均未讨论；本 KU 只登记并存，不作判断
+- **字与称谓**: 名夷吾，字仲；助齐桓公称霸，被称为“春秋第一相”（夏燕靖 2016）
 
 ## 在层级体系中的位置
 
@@ -93,7 +94,7 @@ hierarchy_scope_note: "管仲在来源中同时承载“废弃雕饰”与“侈
 - 证据状态: source_backed（四册来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 四册均有直接文本；“反雕饰”与“侈靡消费”两条主张并见于不同来源，本 KU 未作调和
+- 匹配质量: 四册均有直接文本；“反雕饰”与“侈靡消费”两条主张并见于不同来源，本 KU 未作调和；2026-10-25 复核补：扩展 2016 位置至 L1500-L1503，补“字仲”与“春秋第一相”称谓；候选标题“管子”指人物，写回 persons/guan-zhong，不写 publications/guanzi
 - 验证日期: 2026-10-25
 - 证据范围: 仅六册 Markdown 文本；未查《管子》原书，未做来源外核对
 

@@ -23,6 +23,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L2786-L2812."
+    location: "L2786-L2812"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1999-L2017."
     location: "L1999-L2017"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -57,6 +64,9 @@ hierarchy_scope_note: "本 KU 是 B 维度下西汉农业机械的器物锚点�
 - **历史定位**: 是现代播种机的雏形（两版）
 - **对比**: 现代全功能播种机把开沟、下种、覆盖、压实四道工序接连完成，三脚耧已合并前三道（2009）
 - **设计史意义**: 三脚耧把三道农事工序压缩为一次行进，是“工序合并”型机械设计的早期典范；三脚布局同时规定了行距
+- **耧车结构**: 耧车又称耧犁，把底部有孔的木斗与铁耧脚连通，开土时种子流入土中；两辕两扶把，便于牛拉人扶（赵农）
+- **效率**: 播种功效可提高十几倍，有“日种一顷”的播种速度（赵农）
+- **耦犁**: 汉武帝时推广二牛三人的耦犁，由搜粟都尉赵过推行（赵农）
 
 ## 在层级体系中的位置
 
@@ -76,7 +86,7 @@ hierarchy_scope_note: "本 KU 是 B 维度下西汉农业机械的器物锚点�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 两版文字基本一致，2009 多四道工序对比；两册均未给耧脚间距或牵引方式。
+- 匹配质量: 两版文字基本一致，2009 多四道工序对比；两册均未给耧脚间距或牵引方式；2026-10-25 复核补：补木斗与铁耧脚连通的耧车结构、两辕两扶把、日种一顷及二牛三人耦犁
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 

@@ -23,6 +23,13 @@ sources:
       source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L727."
+    location: "L727"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
   - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L1455-L6138."
     location: "L1455-L6138"
     evidence_ref:
@@ -34,10 +41,10 @@ created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 2
+source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
@@ -56,6 +63,7 @@ hierarchy_scope_note: "文质是 A 维度下先秦设计审美观念的条目。
 - **后世用法**: 多指语言风格范畴的华美和质朴，如刘勰《文心雕龙》从作品内容与形式的统一上立论（2009）
 - **设计学转义**: 2016 将孔子学说中关于文与质关系的审美观念，称为支配和制约设计的一整套行为准则
 - **设计史意义**: 文质是“装饰与功能”这一设计基本命题在中国思想史中的最早表述，与“先质后文”“文质彬彬”的判断直接相关
+- **绘事后素**: 孔子以“绘事后素”为造物统一思想的基本定位，即质先于文、从质始而后赋文，最后达到不偏不倚的适宜中正之境（李立新）
 
 ## 在层级体系中的位置
 
@@ -75,7 +83,7 @@ hierarchy_scope_note: "文质是 A 维度下先秦设计审美观念的条目。
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 2009 给文论本义与后世用法，2016 给设计学转义；2016 候选跨 L1455-L6138 的整段范围，转义句的具体位置待核。
+- 匹配质量: 2009 给文论本义与后世用法，2016 给设计学转义；2016 候选跨 L1455-L6138 的整段范围，转义句的具体位置待核；2026-10-25 复核补：补“绘事后素”、质先文后与不偏不倚的中正之境
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 
