@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:3eec0277360c72f463d93a5e81ad80593dcbd179a5da4e20bceeba1811b80d3d",
+  "baseline_input_fingerprint": "sha256:6b63c2c0f4c3cde618ef242becaac879cd2e602772faf75d93f04aeeaf50358a",
   "input_state": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
     "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
@@ -84,7 +84,8 @@
     "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:e35c6e11360285235bd6903bd6dd9d97e688168b82afffb7c56cbf45ef291fec",
     "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:92b46094275a60fee28b5c61dc63a8d92cc8a38dc24440ea33c1b2f7ee8b5e8a",
     "06-runtime/automation/2026-10-25-xiayanjing2009-places-batch-y/candidate-decision-ledger.jsonl": "sha256:ed10d1d9673dc044024f8e496ca3cfe2a9efc031be29d2866cdcafe0a4e4a0b4",
-    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": "sha256:ca661af5f4bda4257f826658134901b0ef3694b6050f08f2117a074652bc363f"
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": "sha256:ca661af5f4bda4257f826658134901b0ef3694b6050f08f2117a074652bc363f",
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-ab/candidate-decision-ledger.jsonl": "sha256:482215bd540ad2c7e15b43d00740da6e096bf4e40c949f8e4a227d055932a7f7"
   },
   "source_counts": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": 223,
@@ -169,16 +170,17 @@
     "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": 108,
     "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": 100,
     "06-runtime/automation/2026-10-25-xiayanjing2009-places-batch-y/candidate-decision-ledger.jsonl": 9,
-    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": 70
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-aa/candidate-decision-ledger.jsonl": 70,
+    "06-runtime/automation/2026-10-25-zhaonong2009-places-batch-ab/candidate-decision-ledger.jsonl": 69
   },
   "applied_candidate_transition_counts": {
     "applied->applied": 2,
-    "approved->applied": 974,
-    "approved->no_delta": 63,
-    "needs_evidence->ready_for_review": 1037,
+    "approved->applied": 992,
+    "approved->no_delta": 67,
+    "needs_evidence->ready_for_review": 1059,
     "needs_evidence->rejected": 811,
-    "ready_for_review->approved": 1037,
-    "rejected->rejected": 2
+    "ready_for_review->approved": 1059,
+    "rejected->rejected": 5
   },
   "candidate_counts": {
     "total": 5339,
@@ -190,32 +192,32 @@
       "unit": 3976
     },
     "by_state": {
-      "applied": 974,
-      "needs_evidence": 3490,
-      "no_delta": 63,
+      "applied": 992,
+      "needs_evidence": 3468,
+      "no_delta": 67,
       "rejected": 812
     },
     "by_lifecycle_class": {
-      "active": 3490,
-      "terminal": 1849
+      "active": 3468,
+      "terminal": 1871
     }
   },
   "actionable_candidate_counts": {
-    "total": 3490,
+    "total": 3468,
     "by_origin_type": {
-      "source": 3490
+      "source": 3468
     },
     "by_candidate_type": {
       "claim": 1363,
-      "unit": 2127
+      "unit": 2105
     },
     "by_state": {
-      "needs_evidence": 3490
+      "needs_evidence": 3468
     }
   },
   "legacy_projection_normalizations": {},
   "issues": [],
   "output_hashes": {
-    "06-runtime/state/candidate-index.jsonl": "sha256:953da5bda2ab8de2f83c0efb7e46ec1639116a7bad753fc4a1ec459872166fc8"
+    "06-runtime/state/candidate-index.jsonl": "sha256:8ba5438b06494f7e16f200e64c7c213e9f6e3b390656b1bd89b57d58dda25460"
   }
 }

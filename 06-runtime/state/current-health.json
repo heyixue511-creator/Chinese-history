@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T00:16:57",
+  "timestamp": "2026-10-26T00:17:54",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -369,8 +369,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 360,
-    "r1_provenance": 360,
+    "files": 364,
+    "r1_provenance": 364,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -459,16 +459,16 @@
       ]
     },
     "candidate_debt": {
-      "total": 3490,
+      "total": 3468,
       "by_origin_type": {
-        "source": 3490
+        "source": 3468
       },
       "by_candidate_type": {
         "claim": 1363,
-        "unit": 2127
+        "unit": 2105
       },
       "by_state": {
-        "needs_evidence": 3490
+        "needs_evidence": 3468
       }
     },
     "candidate_inventory": {
@@ -481,21 +481,21 @@
         "unit": 3976
       },
       "by_state": {
-        "applied": 974,
-        "needs_evidence": 3490,
-        "no_delta": 63,
+        "applied": 992,
+        "needs_evidence": 3468,
+        "no_delta": 67,
         "rejected": 812
       },
       "by_lifecycle_class": {
-        "active": 3490,
-        "terminal": 1849
+        "active": 3468,
+        "terminal": 1871
       }
     },
     "research_debt": {
       "single_source_units": 318,
       "tentative_units": 877,
       "low_confidence_units": 38,
-      "candidates_needing_evidence": 3490,
+      "candidates_needing_evidence": 3468,
       "units_missing_hierarchy_assignment": 877
     }
   },

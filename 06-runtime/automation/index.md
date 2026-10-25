@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `76`
-- Files: `360`
-- Size: `5250771` bytes
+- Batch directories: `77`
+- Files: `364`
+- Size: `5309208` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `360` files
+- R1 provenance: `364` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -34,7 +34,7 @@
 | `hierarchy` | 0 | - |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 76 | [summary](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md) |
+| `other` | 77 | [summary](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md) |
 
 ## Recent Batches (15)
 

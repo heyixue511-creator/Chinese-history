@@ -55,6 +55,8 @@ creates = [
 updates = [
     ("cand-07-66", "龙门石窟（奉先寺）", "places/longmen-grottoes.md", ["cand-07-68"], "L4666",
      "奉先寺候选并入既有 places/longmen-grottoes.md（version 2）：补赵农 L4666 摩崖大龛、唐代修筑时为木构建筑、九尊佛像、中央卢舍那通高约 17 米、弟子菩萨与天王力士布局、智慧与力量对比及“跌宕起伏的韵律”；万佛沟候选 cand-07-68 合并为同一文件更新。", "L4670-L4672"),
+    ("cand-07-68", "龙门石窟（万佛沟）", "places/longmen-grottoes.md", [], "L4670-L4672",
+     "万佛沟候选并入与奉先寺同一次 longmen-grottoes.md 更新（canonical cand-07-66）：补赵农 L4670-L4672“珠联璧合”、极目寥廓、伊水从南向北穿流蜿蜒、山高水阔；同一文件不另立 update 行。", ""),
 ]
 
 no_delta = [
@@ -135,6 +137,8 @@ upd_before = {
 }
 
 for n, e, t, merged, sp, r, sp2 in updates:
+    if n != "cand-07-66":
+        continue
     f_ = fp("04-knowledge/units/" + t)
     plan.append({"action": "update", "target_ref": "04-knowledge/units/" + t, "candidate_id": cid(n), "entity": e,
                  "before": upd_before[t], "after_sha256": f_["sha256"], "bytes": f_["bytes"], "lines": f_["lines"],
@@ -155,6 +159,8 @@ for n, e, t, sp, r in creates:
     merged = [cid("cand-09-96")] if n == "cand-09-88" else []
     mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "create", "canonical_candidate": cid(n), "merged_candidates": merged})
 for n, e, t, merged, sp, r, sp2 in updates:
+    if n != "cand-07-66":
+        continue
     mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "update", "canonical_candidate": cid(n), "merged_candidates": [cid(m) for m in merged]})
 for n, e, t, sp, b, r in supplements:
     mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "update", "canonical_candidate": cid(n), "merged_candidates": []})
