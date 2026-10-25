@@ -1,0 +1,20 @@
+[
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-94",
+    "pre_state": "rejected",
+    "source_batch": "2026-10-25-five-book-canonical-units",
+    "target_ref": "04-knowledge/units/places/xing-kiln.md"
+  },
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-123",
+    "pre_state": "rejected",
+    "source_batch": "2026-10-25-three-book-place-units",
+    "target_ref": "04-knowledge/units/places/ding-kiln.md"
+  },
+  {
+    "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-125",
+    "pre_state": "rejected",
+    "source_batch": "2026-10-25-five-book-canonical-units",
+    "target_ref": "04-knowledge/units/places/cizhou-kiln.md"
+  }
+]

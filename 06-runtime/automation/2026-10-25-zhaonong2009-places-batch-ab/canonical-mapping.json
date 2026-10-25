@@ -1,0 +1,146 @@
+[
+  {
+    "entity": "乾陵",
+    "target_ref": "04-knowledge/units/places/qianling.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "婺州窑",
+    "target_ref": "04-knowledge/units/places/wuzhou-kiln.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "岳州窑",
+    "target_ref": "04-knowledge/units/places/yuezhou-kiln.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "何家村窖藏",
+    "target_ref": "04-knowledge/units/places/hejiacun-jiaocang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-103",
+    "merged_candidates": []
+  },
+  {
+    "entity": "苏州",
+    "target_ref": "04-knowledge/units/places/suzhou.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-199",
+    "merged_candidates": []
+  },
+  {
+    "entity": "开封",
+    "target_ref": "04-knowledge/units/places/kaifeng.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "临安",
+    "target_ref": "04-knowledge/units/places/linan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "和林",
+    "target_ref": "04-knowledge/units/places/helin.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-88",
+    "merged_candidates": [
+      "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-96"
+    ]
+  },
+  {
+    "entity": "景山",
+    "target_ref": "04-knowledge/units/places/jingshan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-20",
+    "merged_candidates": []
+  },
+  {
+    "entity": "五台山",
+    "target_ref": "04-knowledge/units/places/wutaishan.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海",
+    "target_ref": "04-knowledge/units/places/shanghai.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-113",
+    "merged_candidates": []
+  },
+  {
+    "entity": "天津",
+    "target_ref": "04-knowledge/units/places/tianjin.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-117",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北京",
+    "target_ref": "04-knowledge/units/places/beijing.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西安",
+    "target_ref": "04-knowledge/units/places/xian.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "深圳",
+    "target_ref": "04-knowledge/units/places/shenzhen.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "香港",
+    "target_ref": "04-knowledge/units/places/xianggang.md",
+    "action": "create",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-125",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙门石窟（奉先寺）",
+    "target_ref": "04-knowledge/units/places/longmen-grottoes.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-66",
+    "merged_candidates": [
+      "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-68"
+    ]
+  },
+  {
+    "entity": "邢窑",
+    "target_ref": "04-knowledge/units/places/xing-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-94",
+    "merged_candidates": []
+  },
+  {
+    "entity": "定窑",
+    "target_ref": "04-knowledge/units/places/ding-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "磁州窑",
+    "target_ref": "04-knowledge/units/places/cizhou-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-125",
+    "merged_candidates": []
+  }
+]

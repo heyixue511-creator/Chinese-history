@@ -11708,6 +11708,36 @@
       "hierarchy_scope_note": "上海是 D 维度下近代开埠城市、租界制度与城市规划条目；租界的西方建筑输入接到 E 维度。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:shenzhen",
+      "title": "深圳（Shenzhen）",
+      "name_en": "Shenzhen",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "1980年代",
+        "经济特区",
+        "现代化城市",
+        "股市",
+        "房地产业"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "赵农在讲当代城市时以深圳为改革开放后新兴城市的代表：1980 年以后广东沿海崛起深圳、珠海等城市，为现代化的城市建设提供了新思路；深圳的公司、股市、银行、电子市场、房地产业熙熙攘攘，以“时间就是金钱，效率就是生命”为现代时尚，“一座座新城拔地而起”。\n\n来源只有三句话，不含规划、建筑与制度的任何细节。本条因此只保留其作为“新思路”样本的位置，不填补来源以外的城市史。",
+      "path": "places/shenzhen.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "深圳是 D 维度下改革开放后新兴城市条目；对外开放与现代化范式接到 E 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:suzhou-wangshiyuan",
       "title": "苏州网师园（Master of the Nets Garden）",
       "name_en": "Master of the Nets Garden",
@@ -11884,6 +11914,66 @@
       "role_in_theme": "",
       "topic_memberships": [],
       "hierarchy_scope_note": "婺州窑是 B 维度下唐代青瓷窑口条目。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:xian",
+      "title": "西安（Xi'an）",
+      "name_en": "Xi'an",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "建都",
+        "明代城墙",
+        "城市拆迁",
+        "旅游文化",
+        "西北"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "西安是世界上建都时间最长、建立朝代最多的城市，但在宋元以后仅成为西北的重要城市。赵农记其 1980 年以前发展速度很慢，仍然保留着许多旧城老街；进入 1990 年以后，大规模的城市拆迁使其有了明显变化。由于文物古迹众多，保留了完整的明代城墙，加之层出不穷的地下文物，西安已经形成了旅游文化特征的城市形象。\n\n本条的价值在于它给出了一种与上海、天津、深圳都不同的城市类型：西安的当代城市形象不是由租界、",
+      "path": "places/xian.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "西安是 D 维度下古都与当代城市形象条目；明代城墙的实体与地下文物接到 B 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:xianggang",
+      "title": "香港（Hong Kong）",
+      "name_en": "Hong Kong",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "1997",
+        "回归",
+        "东方明珠",
+        "西方文化参照",
+        "中银大厦"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "赵农对香港只写了一句：1997 年回归祖国的香港有近百年发展历史，具有“东方明珠”的盛誉，为中国城市的现代化建设提供了一种西方文化和技术的参照。\n\n这一句的价值不在城市本身，而在它的功能定位：香港在六册的当代城市序列里是唯一被明确写作“参照”的外部样本——不是租界（上海、天津），不是古都（西安、北京），不是新特区（深圳），而是一个可供中国城市现代化取用的西方文化与技术的参照系。来源没有说明参照的具",
+      "path": "places/xianggang.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "E",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "香港是 E 维度下西方文化与技术参照条目；城市现代化与制度层面接到 D 维度。Theme/Topic 尚未 materialize。"
     },
     {
       "id": "places:xianrendong-site",
@@ -26086,14 +26176,14 @@
     "topics": []
   },
   "stats": {
-    "total_nodes": 874,
+    "total_nodes": 877,
     "total_links": 0,
     "relation_index_total": 0,
     "skipped_non_unit_relations": 0,
     "by_type": {
       "person": 74,
       "institution": 144,
-      "place": 88,
+      "place": 91,
       "work": 72,
       "publication": 68,
       "term": 192,
@@ -26101,8 +26191,8 @@
       "event": 115
     },
     "hierarchy": {
-      "domain_assigned": 874,
-      "dimension_assigned": 874,
+      "domain_assigned": 877,
+      "dimension_assigned": 877,
       "theme_assigned": 0,
       "topic_assigned": 0
     },

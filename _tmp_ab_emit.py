@@ -1,0 +1,172 @@
+import json, hashlib
+from pathlib import Path
+
+DOC = "2009-zhaonong-zhongguo-yishu-shejishi"
+BATCH = "2026-10-25-zhaonong2009-places-batch-ab"
+OUT = Path("06-runtime/automation") / BATCH
+OUT.mkdir(parents=True, exist_ok=True)
+D = "2026-10-25"
+
+
+def cid(n):
+    return f"{DOC}:{n}"
+
+
+def fp(p):
+    t = Path(p).read_bytes().replace(b"\r\n", b"\n")
+    return {"sha256": "sha256:" + hashlib.sha256(t).hexdigest(), "bytes": len(t), "lines": t.count(b"\n")}
+
+
+creates = [
+    ("cand-07-59", "乾陵", "places/qianling.md", "L4628, L4632-L4648, L4650",
+     "新建 places/qianling.md。赵农 L4628、L4632-L4648、L4650 记梁山合葬、石刻清单与“现存 100 余件”、石刻代表唐代雕刻最高水平、昭陵与乾陵刚健—华美对比、图 6-43/6-44；单源，顺陵走狮与桥陵、建陵标为界限不入本条。"),
+    ("cand-07-92", "婺州窑", "places/wuzhou-kiln.md", "L4752",
+     "新建 places/wuzhou-kiln.md（sub_type kiln_site）。赵农 L4752 记浙江金华、质地厚重釉色深暗点状白斑；与李立新“南方青瓷四系统”第四家（德清窑）不同（赵农作岳州窑），并列不裁定；单源一句，confidence low。"),
+    ("cand-07-93", "岳州窑", "places/yuezhou-kiln.md", "L4752",
+     "新建 places/yuezhou-kiln.md（kiln_site）。赵农 L4752 记最早利用匣钵烧制青瓷、胎质轻巧釉色泛白多冰裂片玻璃质感、与越窑有别、大量生产；单源一句，confidence low。"),
+    ("cand-07-103", "何家村窖藏", "places/hejiacun-jiaocang.md", "L4792 + 夏燕靖 2016 L2800, L2813, L2819",
+     "新建 places/hejiacun-jiaocang.md。赵农 L4792 记何家村窖藏与《镂空银熏球》《鎏金舞马衔杯银壶》等器；夏燕靖 2016 L2800、L2813、L2819 补 1970 年 10 月西安何家村、270 件金银器、“手摇脚踏的简单车床”、银香囊 7 件与直径约 5 厘米。双源、source_count 2；赵农“金花八曲银杯”与 2016“舞伎八棱金杯”并列不合并。"),
+    ("cand-08-199", "苏州", "places/suzhou.md", "L5393, L5411-L5420",
+     "新建 places/suzhou.md。赵农 L5393、L5411-L5420 记五代至宋“以开封、临安、苏州最为著名”、伍子胥阊阖城经隋开皇得名至宋平江府、南宋陪都、“水陆并行，河街相临”、南宋《平江图》碑刻；原文图 7-30 与 7-31 图题同为“宋 石刻翁仲”已标注。"),
+    ("cand-08-22", "开封", "places/kaifeng.md", "L5212-L5214, L5220, L5395-L5403, L5554",
+     "新建 places/kaifeng.md。赵农 L5212-L5214、L5220、L5395-L5403、L5554 记大梁—汴州—东京开封府沿革、三重城与后周外城周围 40 里、四水贯都、御道中轴与大内居中“不同于隋唐以前宫城居于城市北部”、160 行与行户 6400 多户、取消夜禁夜市至三更、瓦舍 50 余所；40 里与“50 余里”时段不同口径并列。"),
+    ("cand-08-23", "临安", "places/linan.md", "L5216, L5220, L5405-L5409, L5422",
+     "新建 places/linan.md。赵农 L5216、L5220、L5405-L5409、L5422 记临安府与钱塘江杭州湾、大运河最南端、宫城凤凰山东麓、御道和宁门外商业中心、人口 120 多万、李泌六井与白堤苏堤、瓦舍 24 所；原文“杭通航，本为渡河渡船之意”照录不解释。"),
+    ("cand-09-88", "和林", "places/helin.md", "L6142-L6144",
+     "新建 places/helin.md。赵农 L6142-L6144 三句记回鹘古城基础、按汉族城市规模修建、万安宫为汗宫、汉族西域与“从巴黎掳来”工匠（六册唯一西欧工匠记载）；万安宫候选 cand-09-96 并入本条；建城系于“成吉思汗”照录；confidence low。"),
+    ("cand-10-20", "景山", "places/jingshan.md", "L6707-L6711",
+     "新建 places/jingshan.md（geographical_region）。赵农 L6707-L6711 记紫禁城北面制高点、筒子河与西苑诸湖泥土堆积、万岁山/煤山/镇山三名、乾隆五亭与屏障作用、万春亭三重檐四角攒尖黄琉璃瓦、“从紫禁城的庭院中，常常可以看到万春亭的远影”；煤山保留“相传”。"),
+    ("cand-10-33", "五台山", "places/wutaishan.md", "L4148, L6788",
+     "新建 places/wutaishan.md（geographical_region）。赵农 L6788 记明清多次重修、五大禅处与佛教四大名山；另引 L4148“西安大慈恩寺塔、五台山佛光寺大殿”并记唐代木构；佛光寺、南禅寺殿身形制留在 works，不并入本条。"),
+    ("cand-11-113", "上海", "places/shanghai.md", "L7749-L7780",
+     "新建 places/shanghai.md。赵农 L7749-L7780 记上海取代南京扬州苏州、租界行政警察监狱驻军四项与银行洋行工厂仓库教堂五类、“带有半殖民地的政治色彩”、租界—棚户区二元、1919《建国方略》“东方大港”与浦东市宅中心、1927 上海特别市、1949 后与浦东开发；来源判断照录。"),
+    ("cand-11-117", "天津", "places/tianjin.md", "L7782-L7784",
+     "新建 places/tianjin.md。赵农 L7782-L7784 记北京门户与战略位置、金代“直沽”至以商业为主的城市、1949 前租界与下野军阀官宦退养之地、1980 后引滦入津与海河治理；单源三句，confidence low。"),
+    ("cand-11-121", "北京", "places/beijing.md", "L6724-L6726, L7801-L7809",
+     "新建 places/beijing.md。赵农 L6724-L6726 记明代中轴线、宫苑庙坛城门与制度需求、清代局部修缮与“文化标本”；L7801-L7809 记民国北平改造三例、苏联样式与“大屋顶”、批判运动、十大建筑、梁思成与城墙拆除城河填平、文革标语、1980 后六环与长安街改造及交通人口环境空气问题。"),
+    ("cand-11-123", "西安", "places/xian.md", "L7811",
+     "新建 places/xian.md。赵农 L7811 记建都时间最长与建立朝代最多、宋元后仅西北重要城市、1980 前发展很慢保留旧城老街、1990 后大规模拆迁、文物古迹与完整明代城墙及地下文物形成旅游文化特征形象；两项“最”为来源判断，照录。"),
+    ("cand-11-124", "深圳", "places/shenzhen.md", "L7815",
+     "新建 places/shenzhen.md。赵农 L7815 记 1980 后深圳珠海崛起与“新思路”、公司股市银行电子市场房地产业五类业态、“时间就是金钱，效率就是生命”、一座座新城拔地而起；单源三句，confidence low。"),
+    ("cand-11-125", "香港", "places/xianggang.md", "L7817",
+     "新建 places/xianggang.md。赵农 L7817 一句加图 10-14 中银大厦：1997 回归、近百年发展历史、“东方明珠”盛誉、为中国城市现代化建设提供西方文化和技术的参照；单源一句，confidence low。"),
+]
+
+updates = [
+    ("cand-07-66", "龙门石窟（奉先寺）", "places/longmen-grottoes.md", ["cand-07-68"], "L4666",
+     "奉先寺候选并入既有 places/longmen-grottoes.md（version 2）：补赵农 L4666 摩崖大龛、唐代修筑时为木构建筑、九尊佛像、中央卢舍那通高约 17 米、弟子菩萨与天王力士布局、智慧与力量对比及“跌宕起伏的韵律”；万佛沟候选 cand-07-68 合并为同一文件更新。", "L4670-L4672"),
+]
+
+no_delta = [
+    ("cand-07-65", "潜溪寺", "places/longmen-grottoes.md", "L4656",
+     "判定 no_delta places/longmen-grottoes.md：L4656 潜溪寺全文（洞窟高 10 米左右、纵深 7 米、宽 9 米、窟顶莲花纹样、7 尊佛像、主像弥勒高约 7 米）已在既有条目逐字收录，无 change-set 缺口。", None),
+    ("cand-07-95", "长沙窑", "terms/underglaze-color.md", "L4772",
+     "判定 no_delta terms/underglaze-color.md：赵农 L4772 长沙窑釉下彩原文（克服瓷土不纯、在瓷胎上绘制纹样、上釉烧制、改变瓷器单色状态）已在 term KU 逐字引用，place 候选不另建平行条目。", None),
+    ("cand-09-96", "万安宫", "places/helin.md", "L6142-L6144",
+     "判定 no_delta places/helin.md：万安宫与和林同源同段（L6142-L6144），仅一句“主要建筑为大汗的宫殿，即万安宫”，无独立事实，作为合并候选并入 helin，不另建 places/wanan-gong.md。", None),
+    ("cand-11-073", "虎门炮台", "procedures/huo-pao-zhuzao.md", "L7551-L7565",
+     "判定 no_delta procedures/huo-pao-zhuzao.md：火炮尺寸、装药与“龙门火炮/虎门炮台”异文已在两处逐条收录，本批不重复建条。", "events/opium-war.md"),
+]
+
+supplements = [
+    ("cand-07-94", "邢窑", "places/xing-kiln.md", "L4766, L4768, L4770", "2026-10-25-five-book-canonical-units",
+     "补写（候选已于 2026-10-25-five-book-canonical-units 终态 rejected，状态不变）：原结论称“语义已并入 places/xing-kiln.md”，但 change-set 未落入赵农 L4766、L4768、L4770；本批补白瓷铁含量小于 0.7% 的成瓷原理、“似雪类银”与技术史位置、瑞兽类形象与“以确定分类及用途”的刻写标记及西安唐墓白瓷；version 2。"),
+    ("cand-08-123", "定窑", "places/ding-kiln.md", "L5577, L5579, L5581", "2026-10-25-three-book-place-units",
+     "补写（2026-10-25-three-book-place-units 终态 rejected，状态不变）：补赵农 L5577 胎薄质细与“刻花、划花、印花”列首、L5579 紫定/绿定/黑定色釉变体、L5581“官”字款与近年出土记录；款识清单由三份扩为四份；version 2。"),
+    ("cand-08-125", "磁州窑", "places/cizhou-kiln.md", "L5593, L5597", "2026-10-25-five-book-canonical-units",
+     "补写（2026-10-25-five-book-canonical-units 终态 rejected，状态不变）：补赵农 L5593“民间写意风格的绘画样式…瓷绘艺术的开端”与 L5597“宋元以后，瓷器也称磁器”；并校正赵农条目的行号锚点（原引 L5017 实为“造纸与印刷”节标题，磁州窑原文在 L5591-L5597）；version 2。"),
+]
+
+ledger = []
+
+
+def chain(c, target, reason):
+    ledger.append({"candidate_id": c, "expected_state": "needs_evidence", "state": "ready_for_review",
+                   "decision": {"status": "pending", "reason": reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D})
+    ledger.append({"candidate_id": c, "expected_state": "ready_for_review", "state": "approved",
+                   "decision": {"status": "approved", "reason": "语义复读完成，批准：" + reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D})
+    ledger.append({"candidate_id": c, "expected_state": "approved", "state": "applied",
+                   "decision": {"status": "approved", "reason": "已应用：" + reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D,
+                   "target_ref": "04-knowledge/units/" + target})
+
+
+def nd(c, target, reason, extra):
+    ledger.append({"candidate_id": c, "expected_state": "needs_evidence", "state": "ready_for_review",
+                   "decision": {"status": "pending", "reason": reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D})
+    ledger.append({"candidate_id": c, "expected_state": "ready_for_review", "state": "approved",
+                   "decision": {"status": "approved", "reason": "语义复读完成，批准：" + reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D})
+    tail = f"；另见 {extra}" if extra else ""
+    ledger.append({"candidate_id": c, "expected_state": "approved", "state": "no_delta",
+                   "decision": {"status": "approved", "reason": "已判定 no_delta：" + reason + tail, "decided_by": "Agent", "decided_at": D}, "updated_at": D,
+                   "target_ref": "04-knowledge/units/" + target})
+
+
+def supp(c, target, reason):
+    ledger.append({"candidate_id": c, "expected_state": "rejected", "state": "rejected",
+                   "decision": {"status": "rejected", "reason": reason, "decided_by": "Agent", "decided_at": D}, "updated_at": D,
+                   "target_ref": "04-knowledge/units/" + target})
+
+
+for n, e, t, sp, r in creates:
+    chain(cid(n), t, r)
+for n, e, t, merged, sp, r, sp2 in updates:
+    chain(cid(n), t, r)
+for n, e, t, sp, r, extra in no_delta:
+    nd(cid(n), t, r, extra)
+for n, e, t, sp, b, r in supplements:
+    supp(cid(n), t, r)
+
+with (OUT / "candidate-decision-ledger.jsonl").open("w", encoding="utf-8", newline="\n") as f:
+    for r in ledger:
+        f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+# apply-plan
+plan = []
+for n, e, t, sp, r in creates:
+    f_ = fp("04-knowledge/units/" + t)
+    plan.append({"action": "create", "target_ref": "04-knowledge/units/" + t, "candidate_id": cid(n), "entity": e,
+                 "before": None, "after_sha256": f_["sha256"], "bytes": f_["bytes"], "lines": f_["lines"], "note": r.replace("新建 ", "", 1)})
+
+upd_before = {
+    "places/longmen-grottoes.md": {"sha256": "sha256:1da5be69e99c3eb78b6e897f4321f23e751b6c8a3a00725e35942bae2ec80401", "bytes": 15015, "lines": 145},
+    "places/xing-kiln.md": {"sha256": "sha256:a543daeddf841c74c9492d24c82e30e1c3a6772721270be35498e77659122f0d", "bytes": 5823, "lines": 111},
+    "places/ding-kiln.md": {"sha256": "sha256:cdec1c17c68c7c7f70710354e52dde32303f6f6dcfb7d7b46b5a3e169db87882", "bytes": 11966, "lines": 130},
+    "places/cizhou-kiln.md": {"sha256": "sha256:9af6f7dae117e7a4bea72dbddb5aa45de0f540b4f15ad1b2e4d432854c70ed9b", "bytes": 6106, "lines": 109},
+}
+
+for n, e, t, merged, sp, r, sp2 in updates:
+    f_ = fp("04-knowledge/units/" + t)
+    plan.append({"action": "update", "target_ref": "04-knowledge/units/" + t, "candidate_id": cid(n), "entity": e,
+                 "before": upd_before[t], "after_sha256": f_["sha256"], "bytes": f_["bytes"], "lines": f_["lines"],
+                 "note": r + f" 万佛沟 L4670-L4672 同次并入。"})
+
+for n, e, t, sp, b, r in supplements:
+    f_ = fp("04-knowledge/units/" + t)
+    plan.append({"action": "update", "target_ref": "04-knowledge/units/" + t, "candidate_id": cid(n), "entity": e,
+                 "before": upd_before[t], "after_sha256": f_["sha256"], "bytes": f_["bytes"], "lines": f_["lines"], "note": r})
+
+with (OUT / "apply-plan.jsonl").open("w", encoding="utf-8", newline="\n") as f:
+    for r in plan:
+        f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+# canonical mapping
+mapping = []
+for n, e, t, sp, r in creates:
+    merged = [cid("cand-09-96")] if n == "cand-09-88" else []
+    mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "create", "canonical_candidate": cid(n), "merged_candidates": merged})
+for n, e, t, merged, sp, r, sp2 in updates:
+    mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "update", "canonical_candidate": cid(n), "merged_candidates": [cid(m) for m in merged]})
+for n, e, t, sp, b, r in supplements:
+    mapping.append({"entity": e, "target_ref": "04-knowledge/units/" + t, "action": "update", "canonical_candidate": cid(n), "merged_candidates": []})
+with (OUT / "canonical-mapping.json").open("w", encoding="utf-8", newline="\n") as f:
+    json.dump(mapping, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+
+# supplemental updates
+su = [{"candidate_id": cid(n), "pre_state": "rejected", "source_batch": b, "target_ref": "04-knowledge/units/" + t}
+      for n, e, t, sp, b, r in supplements]
+with (OUT / "supplemental-updates.json").open("w", encoding="utf-8", newline="\n") as f:
+    json.dump(su, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+
+print("ledger", len(ledger), "plan", len(plan), "mapping", len(mapping), "supp", len(su))
