@@ -10038,6 +10038,36 @@
       "hierarchy_scope_note": "包山楚墓是 B 维度下战国漆器与连续叙事图像条目。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:beijing",
+      "title": "北京（Beijing）",
+      "name_en": "Beijing",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "明代",
+        "中轴线",
+        "北平",
+        "十大建筑",
+        "大屋顶"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "北京在赵农的叙述中跨两个时段。明代北京城是在国都向北京转移的背景下规划设计的，其设计思想与明代国家制度的需求关系密切：城市中轴线确立，城市营造的规模与水平较之前代有明显进步，宫苑、庙坛、城门的精心设计与布局强化了北京作为都城的政治意义，也形成浓郁深厚的文化氛围；满清入关定都北京后只作局部修缮，没有改变城市根本格局，使北京城完整延续下来，“为后人提供了一座古都的文化标本”。\n\n近现代部分则是另一条线",
+      "path": "places/beijing.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "北京是 D 维度下都城制度与近现代城市改造条目；明代宫苑庙坛城门的营造接到 B 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:changsha-wujialing",
       "title": "长沙伍家岭（Wujialing, Changsha）",
       "name_en": "Wujialing, Changsha",
@@ -10426,6 +10456,36 @@
       "hierarchy_scope_note": "何家村窖藏是 B 维度下唐代金银器实物群与工艺技术条目；其萨珊波斯与契丹造型渊源接到 E 维度。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:helin",
+      "title": "和林（Karakorum）",
+      "name_en": "Karakorum",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "蒙古国",
+        "成吉思汗",
+        "万安宫",
+        "鄂尔浑河",
+        "回鹘古城"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "和林是蒙古国都，在鄂尔浑河上游东岸，建于回鹘古城和林的基础之上。赵农记成吉思汗战胜西夏、金等国之后，按汉族城市的规模修建此城，主要建筑为大汗宫殿万安宫；参与建筑的除汉族和西域工匠外，还有从巴黎掳来的一部分工匠。\n\n来源只有三句话，但其信息结构在六册中很特殊：它同时给出了城址的旧基础（回鹘古城）、规划范式（汉族城市规模）、核心建筑（万安宫）与工匠来源（汉族、西域、巴黎）四项，是六册中唯一把欧洲工匠列",
+      "path": "places/helin.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "和林是 D 维度下蒙古国都城与宫殿制度条目；汉族、西域与巴黎工匠同场施工的记载接到 E 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:hemudu-site",
       "title": "河姆渡遗址（Hemudu Site）",
       "name_en": "Hemudu Site",
@@ -10694,6 +10754,36 @@
       "hierarchy_scope_note": "景德镇是 D 维度下“官监民烧—御器厂—手工工场—近代瓷业公司—国营瓷厂”这条生产组织链条的完整样本，其瓷土与窑炉条件落在 B 维度，外销与外来钴料落在 E 维度。Theme/Topic 均未 materialize。"
     },
     {
+      "id": "places:jingshan",
+      "title": "景山（Jingshan）",
+      "name_en": "Jingshan",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "明清",
+        "北京",
+        "万岁山",
+        "煤山",
+        "万春亭"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "geographical_region",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "景山在紫禁城北面，是北京城中心的制高点。它是利用挖浚筒子河及西苑诸湖池的泥土堆积而成的人工山，又称万岁山，高约 50 米；相传山中有煤堆，故也称煤山；又有镇压城池以求永固之意，故亦称镇山。乾隆年间在山上设置五座重檐亭，成为紫禁城的屏障，其中万春亭为三重檐的四角攒尖方亭，上铺黄色琉璃瓦。\n\n在赵农的叙述里，景山不是一个孤立的景点，而是明清北京城整体设计的一环：它由城内水利工程的弃土堆成，又反过来充当",
+      "path": "places/jingshan.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "景山是 D 维度下明清北京城制与皇家园林条目（作为紫禁城的屏障与全城制高点）；土方工程与亭式属 B 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:jizhou-kiln",
       "title": "吉州窑（Jizhou Kiln）",
       "name_en": "Jizhou Kiln",
@@ -10753,6 +10843,36 @@
       "hierarchy_scope_note": "钧窑是 B 维度下宋代铜红釉窑变工艺的窑口锚点，其“是否属于青瓷系统”的归类分歧是陶瓷分类标准的样本。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:kaifeng",
+      "title": "开封（Kaifeng）",
+      "name_en": "Kaifeng",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "北宋",
+        "东京",
+        "三重城",
+        "四水贯都",
+        "夜市"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "开封是北宋首都，称东京开封府，与西京洛阳、南京应天府（商丘）、北京大名府（大名）相对应。它在战国时为魏国都城大梁，因临汴河而兴，隋代大运河开凿后重新繁荣，隋唐为汴州，五代后梁设开封府。北宋时城市扩大至周围 50 余里，街市有 160 行、行户 6400 多户，取消夜禁后出现夜市，成为当时最大的商业交易中心。\n\n开封在城制史上的位置由赵农点明：御道成为全城中轴、大内设在城市中心，这一格局不同于隋唐以",
+      "path": "places/kaifeng.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "开封是 D 维度下北宋都城制度、市场管理与城市商业条目；三重城与四水贯都的工程面、开封官窑的窑业面属 B 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:kongwangshan-moya-zaoxiang",
       "title": "孔望山摩崖造像（Kongwangshan Cliff Carvings）",
       "name_en": "Kongwangshan Cliff Carvings",
@@ -10809,6 +10929,36 @@
       "role_in_theme": "",
       "topic_memberships": [],
       "hierarchy_scope_note": "醴陵是 B 维度下近现代釉下彩瓷产区条目。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:linan",
+      "title": "临安（Lin'an / Hangzhou）",
+      "name_en": "Lin'an (Hangzhou)",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "南宋",
+        "临安",
+        "杭州",
+        "西湖",
+        "御道"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "临安即杭州，南宋行在。它地处钱塘江杭州湾、京杭大运河最南端，五代吴越国已建都于此（称西府）；靖康之变后宋高宗赵构南渡立国，称临安，取“临时安居”之意，不忘国耻而期盼回师中原。城市建于江湖之间的南北狭长地带，宫城在城南凤凰山东麓，御道在和宁门外，御道两边成为商业中心，南宋后期人口 120 多万。\n\n在赵农的叙述里，临安是开封的南方对应物：商业经营“效仿开封”，出现早市与夜市；瓦舍 24 所与开封 5",
+      "path": "places/linan.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "临安是 D 维度下南宋行在的城市格局、御道商业与市场制度条目；西湖水利与房屋形制属 B 维度。Theme/Topic 尚未 materialize。"
     },
     {
       "id": "places:linzi",
@@ -11528,6 +11678,36 @@
       "hierarchy_scope_note": "山东博山是 B 维度下元明清玻璃生产与工艺复兴条目。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:shanghai",
+      "title": "上海（Shanghai）",
+      "name_en": "Shanghai",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "晚清",
+        "民国",
+        "租界",
+        "东方大港",
+        "浦东"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "上海是赵农笔下“在现代城市建筑中最重要的城市”。从晚清开始它成为南方发展最迅速的城市，很快取代南京、扬州、苏州等江南传统城市的地位。鸦片战争后西方列强以租界名义从上海划割大片地区，设行政、警察、监狱机构并驻军，还在租界建银行、洋行、工厂、仓库、教堂；1949 年前上海城市极度不平衡，租界地带高楼林立，周边则是缺乏规划、居住条件恶劣的棚户区。孙中山 1919 年《建国方略》设计上海“东方大港”及“创",
+      "path": "places/shanghai.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "上海是 D 维度下近代开埠城市、租界制度与城市规划条目；租界的西方建筑输入接到 E 维度。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:suzhou-wangshiyuan",
       "title": "苏州网师园（Master of the Nets Garden）",
       "name_en": "Master of the Nets Garden",
@@ -11587,6 +11767,36 @@
       "hierarchy_scope_note": "苏州是 D 维度下宋代地方城市与水域城制条目；丝绸生产与河街格局的工艺面属 B 维度。Theme/Topic 尚未 materialize。"
     },
     {
+      "id": "places:tianjin",
+      "title": "天津（Tianjin）",
+      "name_en": "Tianjin",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "金代",
+        "直沽",
+        "租界",
+        "引滦入津",
+        "海河"
+      ],
+      "confidence": "low",
+      "consensus": "tentative",
+      "sub_type": "city",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "天津是北京的门户，有着重要的战略位置，从金代“直沽”逐渐形成一座以商业为主的城市。1949 年以前城区多为外国人的租界，是下野军阀官宦的退养之地，普通民众的生活环境无法得到改善；1980 年以后城市建设加快，引滦入津和海河治理为民众带来巨大生活变化。\n\n赵农把天津写作“与上海发展相似的还有天津”，但随即给出两者的差别：上海的重心在租界的制度与建筑，天津的重心在租界的社会构成（下野军阀官宦的退养之地",
+      "path": "places/tianjin.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "天津是 D 维度下近代租界城市与新中国城市水利改造条目。Theme/Topic 尚未 materialize。"
+    },
+    {
       "id": "places:wuliangci",
       "title": "武梁祠（Wuliang Shrine）",
       "name_en": "Wuliang Shrine",
@@ -11615,6 +11825,36 @@
       "role_in_theme": "",
       "topic_memberships": [],
       "hierarchy_scope_note": "武梁祠是 C 维度下汉代画像石中“规矩”图像条目。Theme/Topic 尚未 materialize。"
+    },
+    {
+      "id": "places:wutaishan",
+      "title": "五台山（Mount Wutai）",
+      "name_en": "Mount Wutai",
+      "type": "place",
+      "type_zh": "地点",
+      "color": "#06B6D4",
+      "tags": [
+        "明清",
+        "佛教",
+        "四大名山",
+        "五大禅处",
+        "佛光寺"
+      ],
+      "confidence": "medium",
+      "consensus": "tentative",
+      "sub_type": "geographical_region",
+      "source_count": "1",
+      "evidence_status": "source_backed",
+      "description": "五台山在山西，是明清时期佛法大盛的佛教圣地。赵农记其寺院在明清屡次重修，形成香火缭绕的局面，其中显通寺、塔院寺、菩萨顶、殊像寺、罗睺寺有“五大禅处”的称誉；五台山与峨眉山、九华山、普陀山合称佛教四大名山。\n\n五台山在六册中还承担另一重角色：它是唐代木构建筑的现存地点。赵农在讲唐代寺院时以“五台山佛光寺大殿”与西安大慈恩寺塔并举，称其“气象雄伟，法度庄严”。本 KU 因此同时记明清寺院群与唐代木构两",
+      "path": "places/wutaishan.md",
+      "primary_domain": "chinese-design-history",
+      "secondary_domains": [],
+      "primary_dimension": "D",
+      "primary_theme": "",
+      "secondary_themes": [],
+      "role_in_theme": "",
+      "topic_memberships": [],
+      "hierarchy_scope_note": "五台山是 D 维度下佛教名山与寺院群制度条目；唐代木构佛光寺大殿的营造属 B 维度。Theme/Topic 尚未 materialize。"
     },
     {
       "id": "places:wuzhou-kiln",
@@ -25846,14 +26086,14 @@
     "topics": []
   },
   "stats": {
-    "total_nodes": 866,
+    "total_nodes": 874,
     "total_links": 0,
     "relation_index_total": 0,
     "skipped_non_unit_relations": 0,
     "by_type": {
       "person": 74,
       "institution": 144,
-      "place": 80,
+      "place": 88,
       "work": 72,
       "publication": 68,
       "term": 192,
@@ -25861,8 +26101,8 @@
       "event": 115
     },
     "hierarchy": {
-      "domain_assigned": 866,
-      "dimension_assigned": 866,
+      "domain_assigned": 874,
+      "dimension_assigned": 874,
       "theme_assigned": 0,
       "topic_assigned": 0
     },
