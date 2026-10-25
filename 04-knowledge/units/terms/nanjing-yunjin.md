@@ -1,0 +1,86 @@
+---
+title: 南京云锦（Nanjing Yunjin Brocade）
+name_en: Nanjing Yunjin Brocade
+type: term
+sub_type: textile_type
+term_original: 南京云锦
+term_zh: 南京云锦
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Nanjing Yunjin Brocade；来源未提供英文名。
+tags:
+  - 明清
+  - 官营织造
+  - 妆花缎
+  - 库锦
+  - 库缎
+  - 挑花结本
+aliases:
+  - 云锦
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L3428-L3446."
+    location: "L3428-L3446"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L4173-L5197."
+    location: "L4173-L5197"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 2
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "南京云锦是 B 维度下明清官营织造与提花丝织的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+南京云锦是官营织造生产的提花多彩丝织物，晚清时因花纹绚烂如云彩得名，包括妆花缎、库锦、库缎。其生产用长 5.6 米、高 4 米、宽 1.4 米的大花楼木质提花机，上下两人操作，一天仅织五至六厘米，故称“寸锦寸金”。
+
+## 核心内容
+
+- **定义与得名**: 官营织造生产的提花多彩丝织物，明清最著名；晚清因富丽豪华、花纹绚烂如云彩而得名（两版）
+- **品种**: 妆花缎、库锦、库缎（两版）
+- **织机**: 长 5.6 米、高 4 米、宽 1.4 米的大花楼木质提花机，上下两人操作，一天仅织五至六厘米，故称“寸锦寸金”（2009）
+- **关键工序**: “挑花结本”；织龙袍的花本可重 60 千克、用线 121370 根、长 166 米以上（2009）
+- **工艺地位**: 妆花缎以挖花回纬为主要显花手段，是我国古代织锦技术最高水平的代表（2016）
+- **近现代**: 民国年间与蜀锦、宋锦均保持传统势头；1954 年 6 月成立云锦研究工作组，抢救濒临失传的工艺（2016）
+
+## 在层级体系中的位置
+
+- primary_domain: chinese-design-history
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: 未建立；Theme 尚未 materialize
+- topic_memberships: 无；Topic 尚未 materialize
+- role_in_theme: 未定
+- scope_note: 南京云锦是 B 维度下明清官营织造与提花丝织的条目。Theme/Topic 尚未 materialize。
+
+## 相关知识元
+
+`terms/zhuanghua-brocade.md`、`terms/kesi.md`、`terms/shu-brocade.md` 同属织锦谱系。relation 未审查。
+
+## 验证状态
+
+- 证据状态: source_backed（来源内复读）
+- 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
+- 验证平台: 未使用外部平台
+- 匹配质量: 2009 详织机尺寸、产量与花本数据，2016 详品种、工艺地位与 1954 年抢救；两册均未给具体藏品。
+- 验证日期: 2026-10-25
+- 证据范围: 仅前六册 Markdown 文本；未做来源外核对
+
+## 参考文献
+
+1. 夏燕靖. *中国设计史*. 上海: 上海人民美术出版社, 2009.
+2. 夏燕靖. *中国艺术设计史（升级版）*. 上海: 上海人民美术出版社, 2016.

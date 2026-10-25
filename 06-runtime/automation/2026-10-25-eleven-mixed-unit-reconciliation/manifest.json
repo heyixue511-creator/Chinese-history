@@ -1,0 +1,402 @@
+{
+  "work_package": "2026-10-25-eleven-mixed-unit-reconciliation",
+  "goal": "第十二批：对剩余 11 个 doc_count=4 的既有 institution／place／procedure／publication 组（44 个候选）做复用／更新裁决；9 条既有 KU 补入候选中的实质内容，2 条判定 no_delta；33 个同组重复候选 rejected。",
+  "status": "applied",
+  "created_at": "2026-10-25T16:05:00+08:00",
+  "updated_at": "2026-10-25T16:45:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:012c26d3b18a0677c89f91707b90d7fdf91475413deb2765ec6d0c82826c3033（7,176,108 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-nine-person-reconciliation/manifest.json",
+    "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+  },
+  "scope": {
+    "group_rule": "十一组均为 doc_count=4 的同名组，覆盖剩余全部 doc_count=4 组；十一组对应实体均已有 KU，故本批是既有 KU 的复用／更新裁决，不是新建。本批完成后 doc_count=4 组全部清零。",
+    "group_ids": [
+      "xdup-0024",
+      "xdup-0025",
+      "xdup-0026",
+      "xdup-0035",
+      "xdup-0036",
+      "xdup-0037",
+      "xdup-0038",
+      "xdup-0039",
+      "xdup-0040",
+      "xdup-0041",
+      "xdup-0042"
+    ],
+    "groups": 11,
+    "candidate_rows": 44,
+    "canonical_candidates": 11,
+    "rejected_duplicate_candidates": 33,
+    "updated_units": 9,
+    "no_delta_units": 2,
+    "unit_types": {
+      "institution": 3,
+      "place": 4,
+      "procedure": 1,
+      "publication": 3
+    },
+    "sub_types": {
+      "government_office": 3,
+      "archaeological_site": 2,
+      "kiln_site": 2,
+      "lacquer_technique": 1,
+      "classic": 1,
+      "lexicographic_work": 1,
+      "monograph": 1
+    },
+    "merge_note": "canonical 按“候选内容最完整、slug 与既有文件名最接近”选取：将作监取赵农（军器署等机构细节最全），浮梁瓷局取高丰（民窑与外销），绫锦院取夏燕靖 2009（辽金两代最全），半坡取 2016（编织物与母系定位），汝窑取夏燕靖 2009（slug 与文件名一致），河姆渡取赵农（骨笛与建筑尺寸），钧窑取 2016（元代细节），金银平脱取高丰（工序最全），周礼取 2016（周公、五礼与制度面），说文解字取赵农（许慎生平），长物志取高丰（作者与引文最全）。"
+  },
+  "method": {
+    "semantic_step": "逐组复读四册候选与既有 KU，对照机构性质、年代、职掌、窑址、釉色、工艺步骤、文本结构与礼制内容；候选有实质增补时 update，既有 KU 已完整覆盖时 no_delta。",
+    "canonical_rule": "每组选 1 条 canonical 候选作为裁决身份，其余同组候选转 rejected 并指向同一 target_ref。canonical 取内容最完整且 slug 与既有文件名最接近者。",
+    "decision_rule": "9 组 update：将作监、浮梁瓷局、绫锦院、半坡遗址、河姆渡遗址、钧窑、金银平脱、周礼、说文解字；2 组 no_delta：汝窑、长物志。no_delta 不产生 apply-plan 行。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（8 条 update canonical）；needs_evidence -> ready_for_review -> approved -> no_delta（3 条 canonical）；needs_evidence -> rejected（33 条同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl，不改历史 R1 台账。",
+    "write_back": "精确变更集：8 条 update，无 create、无 delete。update 的 sha256／bytes／lines 按 CRLF→LF 归一后计算。",
+    "extra_source_rule": "将作监条高丰 source 增补 L2498、赵农 source 已覆盖 L4873；绫锦院赵农 L6253 已覆盖；半坡赵农增 L685、2016 增 L310 与 L564；河姆渡赵农增 L999；钧窑 2016 增 L3636；周礼田自秉增 L1290／L1391／L1617／L1621／L1655-L1660、李立新增 L595、2016 增 L1485；说文解字赵农增 L1188／L2616。其余 update 的既有 source 行号已覆盖候选文本。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/candidate-decision-ledger.jsonl",
+    "updated_units": [
+      "04-knowledge/units/institutions/jiangzuojian.md",
+      "04-knowledge/units/institutions/fuliang-ciju.md",
+      "04-knowledge/units/institutions/lingjinyuan.md",
+      "04-knowledge/units/places/banpo-site.md",
+      "04-knowledge/units/places/hemudu-site.md",
+      "04-knowledge/units/places/jun-kiln.md",
+      "04-knowledge/units/procedures/jinyin-pingtuo.md",
+      "04-knowledge/units/publications/zhouli.md",
+      "04-knowledge/units/publications/shuowen-jiezi.md"
+    ],
+    "no_delta_units": [
+      "04-knowledge/units/places/ru-kiln.md",
+      "04-knowledge/units/publications/changwu-zhi.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "group_id": "xdup-0024",
+      "entity": "将作监",
+      "target_ref": "04-knowledge/units/institutions/jiangzuojian.md",
+      "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-124",
+      "decision": "applied",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-sup-28",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-28",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-16"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入高丰的三国两晋南北朝将作大匠定位（少府掌手工业产品、将作大匠掌土木工程两大类），以及赵农同段所列军器署、弩坊署、甲坊署；军器署隶属原文未明言，与高丰中央四监并置军器监的记载并存。"
+    },
+    {
+      "group_id": "xdup-0025",
+      "entity": "浮梁瓷局",
+      "target_ref": "04-knowledge/units/institutions/fuliang-ciju.md",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-03",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-05-21",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-56",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-07"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "补入高丰所记官窑之外民间亦有许多窑场、景德镇瓷器产品行销国内外；机构性质与设置年代的两说保持并列。"
+    },
+    {
+      "group_id": "xdup-0026",
+      "entity": "绫锦院",
+      "target_ref": "04-knowledge/units/institutions/lingjinyuan.md",
+      "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-06",
+      "decision": "applied",
+      "merged_members": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-47",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-14",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-09"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入赵农所记辽代汉族迁入人口带来纺织技术、辽国南京幽州丝织技术与中原几乎不差上下；四朝同名异制的框架不变。"
+    },
+    {
+      "group_id": "xdup-0035",
+      "entity": "半坡遗址",
+      "target_ref": "04-knowledge/units/places/banpo-site.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-37",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-01-49",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-14",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-19"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入赵农的竖穴窑与横穴窑、夏燕靖 2016 的编织物标本百余块与母系氏族公社繁荣期定位；年代与彩陶解释的分歧保持并列。"
+    },
+    {
+      "group_id": "xdup-0036",
+      "entity": "汝窑",
+      "target_ref": "04-knowledge/units/places/ru-kiln.md",
+      "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-87",
+      "decision": "no_delta",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-04-14",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-120",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-42"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi"
+      ],
+      "ku_source_count": 6,
+      "update_note": "既有 KU 已完整覆盖四册候选的窑址、始烧、釉色、装饰、器形、铭文与传世数量；四册无新增实质内容，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0037",
+      "entity": "河姆渡遗址",
+      "target_ref": "04-knowledge/units/places/hemudu-site.md",
+      "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-03",
+      "decision": "applied",
+      "merged_members": [
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-20",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-80",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-62"
+      ],
+      "group_docs": [
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入赵农所记河姆渡骨笛数十支、长约 4~12 厘米、一般二孔或三孔；其余陶器、建筑、稻作内容既有 KU 已覆盖。"
+    },
+    {
+      "group_id": "xdup-0038",
+      "entity": "钧窑",
+      "target_ref": "04-knowledge/units/places/jun-kiln.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-16",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-04-90",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-121",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-46"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入夏燕靖 2016 的元代钧窑细节：元代形成窑系、鱼蝶蝙蝠图案、许之衡《饮流斋说瓷》引文，以及釉质粗糙、胎骨笨厚、胎质粗松多棕眼等退化描述；元代评价的两说保持并列。"
+    },
+    {
+      "group_id": "xdup-0039",
+      "entity": "金银平脱",
+      "target_ref": "04-knowledge/units/procedures/jinyin-pingtuo.md",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-31",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-04-60",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-10",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-57"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 5,
+      "update_note": "补入夏燕靖两版所列唐镜装饰工艺群（鎏金、错金银、镶嵌、螺钿、著彩）与涂珐琅材料；2009 版“明代景泰蓝的滥觞”评语单独标注。"
+    },
+    {
+      "group_id": "xdup-0040",
+      "entity": "周礼",
+      "target_ref": "04-knowledge/units/publications/zhouli.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-59",
+      "decision": "applied",
+      "merged_members": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-16",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-33",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-27"
+      ],
+      "group_docs": [
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入夏燕靖 2016 的周公作者说、五礼与用鼎／乐悬／车骑／服饰／礼玉制度，田自秉所引《典命》爵位节数、簠、璧羡、琮注与敛尸制度，以及李立新所引“以苍璧礼天，以黄琮礼地”；《考工记》边界不变。"
+    },
+    {
+      "group_id": "xdup-0041",
+      "entity": "说文解字",
+      "target_ref": "04-knowledge/units/publications/shuowen-jiezi.md",
+      "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-38",
+      "decision": "applied",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-03-17",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-75",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-84"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "补入赵农所记许慎字号、籍贯、官职、“五经无双许叔重”之誉与小学（训诂学）基础，以及“镢，大锄”与石锛渊源的训释；六书次序分歧保持并列。"
+    },
+    {
+      "group_id": "xdup-0042",
+      "entity": "长物志",
+      "target_ref": "04-knowledge/units/publications/changwu-zhi.md",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-06-04",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-07-30",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-028",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-72"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "既有 KU 已完整覆盖四册候选的作者、刊行、十二卷结构、“以用为本”、“宁古勿时”与柴窑史料；四册无新增实质内容，判定 no_delta。"
+    }
+  ],
+  "source_variance_notes": [
+    "将作监：工匠规模四说（田自秉八百余人、夏燕靖两版各万余人、赵农 15000 人、李立新一万五千余人）与《营造法式》编者名“李诫／李诚”用字差异保持并列；赵农把军器署列于将作监同段，高丰则把军器监列为中央四监之一，隶属关系不合并。",
+    "浮梁瓷局：机构性质有“全国唯一官营瓷器作坊”（高丰）与“监督税收机构”（夏燕靖两版）两说；设置时间有“元初”与“至元十五年（1278）”两说；官窑之外民窑与产品外销仅高丰明记。",
+    "绫锦院：宋代隶属有少府监所属（田自秉）与未点明隶属（夏燕靖两版）之别；辽代地点有上京、祖州与泛称宫廷三种表述；汉族织工迁入与南京幽州丝织水平仅赵农记述。",
+    "半坡遗址：年代有距今六七千年（夏燕靖、田自秉）与五六千年左右（高丰）之别；人面鱼纹有捕鱼丰收、巫术图腾、生殖崇拜三说与“徽志性图形符号”共识两种确定程度；竖穴窑／横穴窑仅赵农，编织物标本与母系氏族定位仅 2016。",
+    "汝窑：窑址有宝丰清凉寺（高丰）与河南临汝县（田自秉）两说；始烧有北宋初期（田自秉）与北宋后期宋徽宗年间（夏燕靖两版、高丰）之别；釉色与装饰面貌四册各有表述，既有 KU 已全收，故 no_delta。",
+    "河姆渡遗址：年代有公元前 5000—前 3300 年（夏燕靖两版）与距今约 7000 年（田自秉、高丰）两种表述；骨笛仅赵农记数量与尺寸，其余骨器、陶器、建筑内容各册互补。",
+    "钧窑：窑址地名有北宋阳翟、金钧州（田自秉）与“时称钧州”（夏燕靖两版）之别；釉系归类有窑变花瓷（高丰）与青瓷系统（田自秉、赵农）两说；元代评价有制作粗糙（田自秉、2016）与转为官营（夏燕靖 2009）两种方向。",
+    "金银平脱：平脱与贴金银／包金银是否同义有三说（夏燕靖同义、高丰并列、田自秉另立平文）；新创性归属整道工艺（高丰）或推光工序（田自秉）；唐镜工艺群与珐琅材料见夏燕靖两版，“景泰蓝滥觞”评语仅 2009。",
+    "周礼：作者与成书仅夏燕靖 2016 记“相传周公”，其余未署；六册多把《考工记》引文称《周礼》，边界已由 kaogongji.md 分立；田自秉所引典命、簠、璧羡、琮注、敛尸制度为独自征引；李立新只引“苍璧礼天，以黄琮礼地”，未给篇名。",
+    "说文解字：六书次序在高丰书内（L2417 与 L897）及赵农书中不一致；许慎生平仅赵农记述；“镢，大锄”与石锛渊源仅赵农引释；夏燕靖 2009 与田自秉全书未见“说文解字”，source_count 仍为 4。",
+    "长物志：著作性质有设计理论专著（高丰）、生活品鉴笔记（夏燕靖两版）、设计文化史料（赵农）三说；高丰书内五卷加六卷与十二卷数目不合；田自秉仅涉柴窑一条，李立新仅书目著录；既有 KU 已全收，故 no_delta。",
+    "总说明：十一组候选组均为 doc_count=4；既有 KU 的 source_count 为 4—6，因部分 KU 另含组外册；source_count 记文档数，不等于独立来源数。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 0,
+    "updated_knowledge_units": 9,
+    "no_delta_knowledge_units": 2,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "9 条更新 KU 保持 confidence=medium、consensus=tentative、evidence_status=source_backed；2 条 no_delta KU 状态不变；未标 confirmed、externally_verified 或 L1-L7 级验证。"
+  },
+  "validation": {
+    "candidate_index_after": {
+      "fingerprint": "sha256:1fd75ba5751edeabb0f5c92449ee01b393d9b9ad0f5d9c2e453544c72336b261",
+      "bytes": 7185246,
+      "lines": 5339,
+      "status_counts": {
+        "applied": 154,
+        "no_delta": 10,
+        "rejected": 441,
+        "needs_evidence": 4734
+      },
+      "lifecycle_counts": {
+        "active": 4734,
+        "terminal": 605
+      },
+      "result": "pass"
+    },
+    "apply_plan_hashes": {
+      "matched": 9,
+      "total": 9,
+      "result": "pass"
+    },
+    "content_quality_audit": {
+      "knowledge_units_checked": 164,
+      "findings": 0,
+      "result": "pass"
+    },
+    "repository_audit": {
+      "result": "pass",
+      "frontmatter_missing": 0,
+      "frontmatter_invalid": 0,
+      "type_mismatch": 0,
+      "invalid_confidence": 0,
+      "invalid_consensus": 0,
+      "validation_semantics_issues": 0,
+      "broken_markdown_links": 0,
+      "evidence_refs_resolved": "164/164",
+      "dataflow_issues": 0,
+      "type_counts": {
+        "persons": 30,
+        "institutions": 12,
+        "places": 16,
+        "works": 21,
+        "publications": 22,
+        "terms": 59,
+        "procedures": 3,
+        "events": 1
+      }
+    },
+    "pre_commit_check": {
+      "result": "pass",
+      "rule_drift": 0
+    },
+    "sync_closure": {
+      "result": "pass",
+      "steps": 19,
+      "tests": "250 passed, 16 subtests passed"
+    },
+    "duplicate_group_closure": {
+      "doc_count_4_open_after": 0,
+      "doc_count_ge_3_open_after": 0,
+      "note": "本批覆盖剩余全部 doc_count=4 组；批后 doc_count≥3 的组已无 needs_evidence，只剩 doc_count=2 组 349 个（其中 8 个此前已处理完毕）与 doc_count=1 组 6 个待后续处理。",
+      "result": "pass"
+    }
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台，证据仅来自六册 Markdown 文本。",
+    "未做图版、器物、手稿或档案的视觉与实物核对。",
+    "primary_theme 与 topic_memberships 留空；Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；同组与同章共现只作非断言性叙述。",
+    "来源分歧（机构性质、年代、窑址、釉色、工艺归属、文本结构、作者）一律并列保留，不做调和。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

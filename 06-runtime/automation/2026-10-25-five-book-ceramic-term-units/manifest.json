@@ -1,0 +1,188 @@
+{
+  "work_package": "2026-10-25-five-book-ceramic-term-units",
+  "goal": "第四批术语写回：把跨五册召回的陶瓷类术语候选归并为 9 个知识元，并把每条候选的处置写入追加式台账。本批同时修补两条因新建青花瓷条目而失效的既有陈述。",
+  "status": "applied",
+  "created_at": "2026-10-25T14:40:00+08:00",
+  "updated_at": "2026-10-25T15:10:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:320eaa5746daa627524796ec3504d67a651b27af60564862de16f597151737cb",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-work-units-c/manifest.json",
+    "source_scope": "仅前六册（Books 1-6）；Book 7 及以后按用户指令不启动"
+  },
+  "scope": {
+    "group_rule": "陶器与瓷器术语的同名候选组；已由既有 KU 覆盖的组不在本批；候选须仍为 needs_evidence",
+    "group_ids": [
+      "xdup-0115",
+      "xdup-0114",
+      "xdup-0126",
+      "xdup-0123",
+      "xdup-0138",
+      "xdup-0133",
+      "xdup-0130",
+      "xdup-0141",
+      "xdup-0142",
+      "xdup-0146"
+    ],
+    "groups": 9,
+    "candidate_rows": 31,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 22,
+    "updated_units": 2,
+    "unit_types": {
+      "term": 9
+    },
+    "merge_note": "xdup-0141（青花）与 xdup-0142（青花瓷）是同名同实的两个组，本批并为 1 个 KU、6 个候选、5 册来源；赵农一册在两处各出一候选，不重复计册。"
+  },
+  "method": {
+    "semantic_step": "逐组跨册复读召回的 Markdown 原文，并按需扩读同册上下文；逐条比对定义对象、工序、温度、窑口、年代、器形与命名，分歧一律并列保留，不按册数或偏好裁定。",
+    "canonical_rule": "每组选 1 个代表候选晋升为知识元；优先选 proposed_slug 与最终文件名一致的候选，无一致者取 2016 夏燕靖升级版候选；同组其余候选转 rejected 并指向同一 target_ref。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（canonical）；needs_evidence -> rejected（同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl；历史 R1 台账不改动。",
+    "write_back": "精确变更集：9 个 create + 2 个 update，无 delete；create 的 sha256/bytes/lines 均按 CRLF→LF 归一后计算。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-five-book-ceramic-term-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-five-book-ceramic-term-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/geometric-stamped-pottery.md",
+      "04-knowledge/units/terms/geometric-stamped-hard-pottery.md",
+      "04-knowledge/units/terms/dark-pattern-pottery.md",
+      "04-knowledge/units/terms/caihui-tao.md",
+      "04-knowledge/units/terms/underglaze-color.md",
+      "04-knowledge/units/terms/fencai.md",
+      "04-knowledge/units/terms/falangcai.md",
+      "04-knowledge/units/terms/blue-and-white-porcelain.md",
+      "04-knowledge/units/terms/black-porcelain.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/terms/doucai.md",
+      "04-knowledge/units/terms/youlihong.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "target_ref": "04-knowledge/units/terms/geometric-stamped-pottery.md",
+      "entity": "几何印纹陶",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-49",
+      "merged_group_ids": ["xdup-0115"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/geometric-stamped-hard-pottery.md",
+      "entity": "几何印纹硬陶",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-41",
+      "merged_group_ids": ["xdup-0114"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/dark-pattern-pottery.md",
+      "entity": "暗纹陶",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-76",
+      "merged_group_ids": ["xdup-0126"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/caihui-tao.md",
+      "entity": "彩绘陶",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-22",
+      "merged_group_ids": ["xdup-0123"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/underglaze-color.md",
+      "entity": "釉下彩",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-38",
+      "merged_group_ids": ["xdup-0138"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 5
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/fencai.md",
+      "entity": "粉彩",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-68",
+      "merged_group_ids": ["xdup-0133"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/falangcai.md",
+      "entity": "珐琅彩",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-67",
+      "merged_group_ids": ["xdup-0130"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/blue-and-white-porcelain.md",
+      "entity": "青花瓷",
+      "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-97",
+      "merged_group_ids": ["xdup-0141", "xdup-0142"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 5
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/black-porcelain.md",
+      "entity": "黑瓷",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-40",
+      "merged_group_ids": ["xdup-0146"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 5
+    }
+  ],
+  "source_variance_notes": [
+    "几何印纹陶：田自秉把彩陶—黑陶—几何印纹陶作三系并置，夏燕靖两版只作龙山同期南方一支；软硬陶「先后演进」（夏）对「并列分类」（田）；分布八省对六省；胎色黑褐棕黑对红褐/灰白/灰；器形十一种对八种；图 3-14 题「春秋 印纹陶」。",
+    "几何印纹硬陶：时代 春秋／长期流行＋战国窑址／商代西周；成型 泥条盘筑／泥条圈叠；纹样成因 装饰目的／盘筑拍打的副产物（高丰独有）；胎料 含铁较高黏土／氧化铝较高；田自秉条题作「硬陶」而正文两处写「几何印纹陶」；2016 删主语未修句法；高丰「长江中、下游地」脱「区」。",
+    "暗纹陶：别称 砑花陶（2009、田自秉）对 研花陶（2016）；「以河南为中心」仅田自秉；「用一种工具」仅田自秉；S 纹仅田自秉；器形次序不同；2009 在「中原地／区」处跨页断句。",
+    "彩绘陶：工序定义两组相反——田自秉、高丰作「烧成的陶坯上画花」，夏燕靖 2009/2016 作「陶胎上绘出花纹后再进行烧制」，后者与两家给彩陶的定义同构；按册数 2 对 2，但夏燕靖两版为同一作者先后版本且该段逐字相同，独立表述只有两家；两版段末又把「彩绘陶」写作「彩陶」；「风纹」疑为「凤纹」。",
+    "釉下彩：三国点彩是否算起点（夏燕靖两版否／高丰判为「已发明」）；唐代窑口 铜官瓦渣坪＋四川邛崃／长沙铜官窑／长沙窑；「赫色」（2009）对「赭色」（2016）；釉下彩通称 1200～1400℃ 而釉里红单条 1300℃，同书并存；赵农 cand-07-98 原判 procedure，经复读改判 term。",
+    "粉彩：起点措辞 发展／始于／创造了，三者对「是否为康熙新创」的判断强度不同；温度 田自秉 700℃ ／夏燕靖两版釉上彩 750～860℃ 且未为粉彩单列；玻璃白乳浊成分为氧化砷（As₂O₃）仅田自秉给出；软彩别称、与五彩的五项区别均仅田自秉。",
+    "珐琅彩：定义对象 彩料（赵农「由石英、长石等原料……所产生的器物」）对 瓷器品种（田自秉、夏燕靖两版）；极盛期 乾隆／康雍乾并称；制作地 北京／北京内务府造办处；原料自给时间线仅田自秉；赵农图题两处作「琢瑯彩」，与正文「珐琅彩」不符。",
+    "青花瓷：起源 唐（高丰、赵农）／宋「现今所见最早」（田自秉）／「一直是个未获澄清的问题」（夏燕靖两版）；温度 1170—1210℃（高丰实测）／1200℃（赵农）／1300℃（夏燕靖两版）；料名 苏麻离青／苏泥勃青／回青／平等青／浙料；外销 1600 万件（东印度公司 1602—1682）对 6000 万件（18 世纪输入欧洲）；明清高峰评价相反（高丰「明高于清」／夏燕靖「康雍乾黄金时代」）；高丰「明洪武三十五年」待核；田自秉「我国自元代以来制成了青白瓷」与高丰北宋说冲突；赵农节题「青花」而段首标「青釉」、「利用青釉来绘制」疑「青料」之讹；xdup-0141 与 xdup-0142 并为一 KU。",
+    "黑瓷：德清黑釉是否纯黑 田自秉「没有达到完全纯黑」对 夏燕靖两版「乌黑发亮，滋润如漆」；建窑政区 建阳／建瓯；斑纹名目 兔毫／油滴／鹧鸪斑三家的宽窄不同；2016「怎样摆脱沉闷黑色……美学追求」语义可疑；德清器形两套清单不重合；玳瑁盏／玳瑁釉／玳瑁斑三种称法。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 2,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "9 个 KU 均为 confidence=medium、consensus=tentative、evidence_status=source_backed；未标记 confirmed、externally_verified 或 L1-L7 已验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 112,
+      "needs_evidence": 4920,
+      "rejected": 307,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 140
+    },
+    "structural_health": "122/130",
+    "apply_plan_hash_check": "11 rows（9 create + 2 update）已按 CRLF→LF 归一核对 sha256、bytes、lines",
+    "pre_commit_check": "passed（规则漂移 0）",
+    "sync_closure": "passed（run_sync_closure.py --refresh-generated --full --check-generated；19 步；250 tests + 16 subtests）",
+    "fingerprint_note": "candidate-index.jsonl 应用台账后为 sha256:0fba014b…（7,147,667 B，LF）；build_discovery_index.py 重写时按仓库惯例写回 CRLF（5,339 行各 +1 B = +5,339 B），得到 sha256:320eaa57…（7,153,006 B）。逐行 JSON 比对确认 5,339 行中仅本批 31 行（9 applied + 22 rejected）有差异，无其他内容变化；重跑生成器指纹稳定。"
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台；证据仅限六册 Markdown 文本。",
+    "未做图版或器物的视觉核对。",
+    "primary_theme 与 topic_memberships 留空，因 Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；跨条目的共现只作非断言性叙述。",
+    "来源分歧（年代、温度、窑口、命名、评价）一律保留，不做调和。",
+    "作品、事件、地点、procedure 类邻近候选（如鬼谷下山罐、2005 年拍卖、洛阳、青花烧造工艺、铜胎画珐琅）保持 needs_evidence，不在本批处置。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

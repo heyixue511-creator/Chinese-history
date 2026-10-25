@@ -1,0 +1,143 @@
+{
+ "work_package": "2026-10-25-place-doc2-batch",
+ "goal": "处理 place 类型 doc_count=2 全部 25 组（xdup-0252—xdup-0276，50 个候选）：23 组 create 新建 23 个 place KU，1 组（哥窑）update 既有 `terms/ge-yao.md`，1 组（云岗石窟）no_delta 并入同批新建的 `places/yungang-shiku.md`。",
+ "status": "applied",
+ "created_at": "2026-10-25T22:05:00+08:00",
+ "updated_at": "2026-10-25T22:40:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "5,339 行；place 批次前状态为 applied 451 / no_delta 14 / rejected 751 / needs_evidence 4123",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-institution-doc2-batch-a/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "place 类型、doc_count=2 的全部未关闭组（共 25 组）",
+  "group_ids": [
+   "xdup-0252",
+   "xdup-0253",
+   "xdup-0254",
+   "xdup-0255",
+   "xdup-0256",
+   "xdup-0257",
+   "xdup-0258",
+   "xdup-0259",
+   "xdup-0260",
+   "xdup-0261",
+   "xdup-0262",
+   "xdup-0263",
+   "xdup-0264",
+   "xdup-0265",
+   "xdup-0266",
+   "xdup-0267",
+   "xdup-0268",
+   "xdup-0269",
+   "xdup-0270",
+   "xdup-0271",
+   "xdup-0272",
+   "xdup-0273",
+   "xdup-0274",
+   "xdup-0275",
+   "xdup-0276"
+  ],
+  "groups": 25,
+  "candidate_rows": 50,
+  "canonical_candidates": 25,
+  "applied_canonical_candidates": 24,
+  "no_delta_canonical_candidates": 1,
+  "rejected_candidates": 25,
+  "created_units": 23,
+  "updated_units": 1,
+  "no_delta_units": 1
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要与 F 字段，比较遗址/窑址/都城的性质、地点、年代、规模、器物与工艺特征；同实体重复候选只保留 canonical，另一册要点补入正文并保留来源。",
+  "canonical_rule": "按信息量较大且正文可证者指定 canonical：赵农 9 组、田自秉 6 组、夏燕靖 2009 4 组、夏燕靖 2016 1 组、李立新 1 组、高丰 1 组、2010+2016 异写 1 组。",
+  "update_rule": "xdup-0261「哥窑」与既有 `terms/ge-yao.md` 为同一实体，且窑址未发现、不宜作 place：以 2009xy cand-04-91 为 canonical 执行 update，补入章生一、章生二兄弟双窑传说、传世宫藏哥窑瓷实为南宋修内司官窑烧制的专家说、失透乳浊釉与灰青釉色，以及赵农“在浙江龙泉、属龙泉窑系、南宋常为官窑产品、胎质暗黑、利用收缩差成开片”；source_count 2→4，version 1→2，title 与 type 不变。",
+  "heterogeneity_rule": "xdup-0254「云冈石窟」与 xdup-0255「云岗石窟」为同一处异写，按《梦梁录／梦粱录》先例合为一条：0254 两册为 canonical 新建 `places/yungang-shiku.md`，0255 两册判 no_delta 指向同文件，“云岗石窟”保留为 alias；田自秉“六朝著名石窟”与 2016“北魏平城、犍陀罗风格”已并入该条。",
+  "decision_rule": "23 组 create；1 组 update；1 组 no_delta。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（23 create）/ applied（1 update）；approved -> no_delta（1 组 canonical）；needs_evidence -> rejected（25 个 merged member）",
+  "ledger_rows": 100,
+  "apply_plan_rows": 24
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-place-doc2-batch/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-place-doc2-batch/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-place-doc2-batch/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/places/sanxingdui.md",
+   "04-knowledge/units/places/linzi.md",
+   "04-knowledge/units/places/yungang-shiku.md",
+   "04-knowledge/units/places/xianrendong-site.md",
+   "04-knowledge/units/places/yanshi-shangcheng.md",
+   "04-knowledge/units/places/nanjing.md",
+   "04-knowledge/units/places/jizhou-kiln.md",
+   "04-knowledge/units/places/zhoukoudian-site.md",
+   "04-knowledge/units/places/daxing-cheng.md",
+   "04-knowledge/units/places/dadiwan-site.md",
+   "04-knowledge/units/places/fuhao-tomb.md",
+   "04-knowledge/units/places/yixing.md",
+   "04-knowledge/units/places/shandingdong-site.md",
+   "04-knowledge/units/places/miaodigou-site.md",
+   "04-knowledge/units/places/jian-kiln.md",
+   "04-knowledge/units/places/dunhuang-mogao-ku.md",
+   "04-knowledge/units/places/zenghouyi-tomb.md",
+   "04-knowledge/units/places/mancheng-hanmu.md",
+   "04-knowledge/units/places/ou-kiln.md",
+   "04-knowledge/units/places/yaozhou-kiln.md",
+   "04-knowledge/units/places/liling.md",
+   "04-knowledge/units/places/yong-cheng.md",
+   "04-knowledge/units/places/mawangdui-hanmu.md"
+  ],
+  "updated_units": [
+   "04-knowledge/units/terms/ge-yao.md"
+  ],
+  "no_delta_units": [
+   "04-knowledge/units/places/yungang-shiku.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-place-doc2-batch/summary.md"
+ },
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:c7a7e03e470be2cc85831efbdadc925d4db335015b1e23e600014c860826025e",
+   "bytes": 7301868,
+   "lines": 5339,
+   "state_counts": {
+    "needs_evidence": 4073,
+    "applied": 475,
+    "rejected": 776,
+    "no_delta": 15
+   },
+   "lifecycle_counts": {
+    "active": 4073,
+    "terminal": 1266
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 24,
+   "matched": 24
+  },
+  "content_quality": {
+   "units": 480,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "480/480",
+   "cross_type_disambiguation": "6/6（3 组）"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "duplicate_closure": {
+   "publication_doc2_open": 0,
+   "work_doc2_open": 0,
+   "institution_doc2_open": 0,
+   "place_doc2_total": 25,
+   "place_doc2_closed": 25,
+   "place_doc2_open": 0,
+   "procedure_doc2_open": 10,
+   "event_doc2_open": 9
+  },
+  "notes": "本批并列：建窑地点（福建建阳／建瓯、水吉）；瓯窑时代（唐／六朝）；宜兴时代（清代／明清）；马王堆衣物件数（50余件／58件）；吉州窑时代（南宋／宋代）；云冈石窟窟数与各册提名不一。2016 妇好墓“4件”与所列三器名不符，照录不改。"
+ }
+}

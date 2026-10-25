@@ -1,0 +1,224 @@
+{
+  "work_package": "2026-10-25-four-book-canonical-units",
+  "goal": "Third write-back batch: fold the 48 unit candidates that are recalled in four source documents (doc_count = 4) across 12 entity groups into 12 canonical knowledge units, and record how every duplicate candidate was resolved.",
+  "status": "applied",
+  "created_at": "2026-10-25T11:40:00+08:00",
+  "updated_at": "2026-10-25T12:00:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:a7d75e751d84a7e2f457c6a8172ebb02ba1e5b29e7e1acba205e568eacf4e26c",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-five-book-canonical-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in four source documents (doc_count = 4); groups already covered by an existing knowledge unit are outside this batch",
+    "group_ids": [
+      "xdup-0048",
+      "xdup-0049",
+      "xdup-0050",
+      "xdup-0052",
+      "xdup-0054",
+      "xdup-0055",
+      "xdup-0056",
+      "xdup-0057",
+      "xdup-0058",
+      "xdup-0059",
+      "xdup-0060",
+      "xdup-0062"
+    ],
+    "doc_count_four_groups_total": 40,
+    "excluded_already_covered_groups": 28,
+    "slug_discrepancy_note": "xdup-0060 (鼎) members propose two different slugs, ding (夏燕靖 2009, 田自秉) and ding-vessel (赵农, 夏燕靖 2016); semantic review judged them the same entity and wrote one unit as terms/ding.md.",
+    "groups": 12,
+    "candidate_rows": 48,
+    "canonical_candidates": 12,
+    "rejected_duplicate_candidates": 36,
+    "unit_types": {
+      "term": 11,
+      "work": 1
+    }
+  },
+  "method": {
+    "semantic_step": "Per-group cross-source re-read of the four recalling Markdown sources plus targeted line verification; every source disagreement (dates, counts, name etymology, classification systems, technique attribution, casting reconstruction) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining three same-name candidates transition to rejected with a reason naming the canonical target.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 12 create actions, no update or delete."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-four-book-canonical-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-four-book-canonical-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/gaiji.md",
+      "04-knowledge/units/terms/doucai.md",
+      "04-knowledge/units/terms/qipao.md",
+      "04-knowledge/units/terms/shenyi.md",
+      "04-knowledge/units/terms/mise-porcelain.md",
+      "04-knowledge/units/terms/nashishi.md",
+      "04-knowledge/units/terms/huchuang.md",
+      "04-knowledge/units/terms/buzi.md",
+      "04-knowledge/units/terms/youlihong.md",
+      "04-knowledge/units/terms/jiguang-hu.md",
+      "04-knowledge/units/terms/ding.md",
+      "04-knowledge/units/works/simuwu-ding.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "entity": "改机",
+      "group_id": "xdup-0048",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-104",
+      "target_ref": "04-knowledge/units/terms/gaiji.md",
+      "group_doc_count": 4,
+      "ku_source_count": 4
+    },
+    {
+      "entity": "斗彩",
+      "group_id": "xdup-0049",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-14",
+      "target_ref": "04-knowledge/units/terms/doucai.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    },
+    {
+      "entity": "旗袍",
+      "group_id": "xdup-0050",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-05",
+      "target_ref": "04-knowledge/units/terms/qipao.md",
+      "group_doc_count": 4,
+      "ku_source_count": 4
+    },
+    {
+      "entity": "深衣",
+      "group_id": "xdup-0052",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-53",
+      "target_ref": "04-knowledge/units/terms/shenyi.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    },
+    {
+      "entity": "秘色瓷",
+      "group_id": "xdup-0054",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-25",
+      "target_ref": "04-knowledge/units/terms/mise-porcelain.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    },
+    {
+      "entity": "纳石失",
+      "group_id": "xdup-0055",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-05-09",
+      "target_ref": "04-knowledge/units/terms/nashishi.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    },
+    {
+      "entity": "胡床",
+      "group_id": "xdup-0056",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-56",
+      "target_ref": "04-knowledge/units/terms/huchuang.md",
+      "group_doc_count": 4,
+      "ku_source_count": 6
+    },
+    {
+      "entity": "补子",
+      "group_id": "xdup-0057",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-47",
+      "target_ref": "04-knowledge/units/terms/buzi.md",
+      "group_doc_count": 4,
+      "ku_source_count": 4
+    },
+    {
+      "entity": "釉里红",
+      "group_id": "xdup-0058",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-61",
+      "target_ref": "04-knowledge/units/terms/youlihong.md",
+      "group_doc_count": 4,
+      "ku_source_count": 6
+    },
+    {
+      "entity": "鸡冠壶",
+      "group_id": "xdup-0059",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-05-01",
+      "target_ref": "04-knowledge/units/terms/jiguang-hu.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    },
+    {
+      "entity": "鼎",
+      "group_id": "xdup-0060",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-27",
+      "target_ref": "04-knowledge/units/terms/ding.md",
+      "group_doc_count": 4,
+      "ku_source_count": 6
+    },
+    {
+      "entity": "司母戊大方鼎",
+      "group_id": "xdup-0062",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-02",
+      "target_ref": "04-knowledge/units/works/simuwu-ding.md",
+      "group_doc_count": 4,
+      "ku_source_count": 5
+    }
+  ],
+  "source_variance_notes": [
+    "改机: 李立新「新型织造工艺……由织工林洪创造」(创制说) 与引文「改缎机为四层」(改制说) 侧重不同; 2016 句首多「闽」字并补出处《图书集成·织工部记事》引《福州府志》.",
+    "斗彩: 名称由来 凑其全体 / 上下斗合 / 争妍斗艳; 与五彩关系 并列 / 斗彩是五彩之一种 / 斗彩与填彩同级, 而高丰引陈万里将填彩列为斗彩五技法之一; 釉上彩温度 600-900℃ / 750-860℃.",
+    "旗袍: 命名 满族称旗人 (夏燕靖) / 系于近代定型 (高丰); 清代前身 宽袍大袖加镶花边 / 「宫袍截作短衣裳」取向相反; 1929 年蓝色六纽旗袍为妇女礼装仅夏燕靖两版.",
+    "深衣: 直裾归属 高丰「直裾属袍, 深衣为曲裾」/ 2016「深衣分直裾深衣和曲裾深衣」直接冲突; 服用等级 不论贵贱男女 / 诸侯大夫家居便服、庶人礼服; 起始时代 春秋战国 / 周代 / 商代妇好墓玉雕; 裁法 上下相连 / 分开裁上下缝合.",
+    "秘色瓷: 法门寺地宫件数 16 件 / 十余件 / 十三件; 时代定位 夏燕靖两版立唐代专节, 赵农分置唐与五代, 田自秉重五代; 「官窑前身」说仅 2016 一处.",
+    "纳石失: 语源 波斯语译音「绣金锦缎」/「可能是波斯语的讹译」; 技术分类 片金线或圆金线 / 片金锦和捻金锦, 两套术语不可直接对应; 「艳俗」负面评价仅高丰.",
+    "胡床: 传入方向 北方少数民族聚居地 / 从北方 / 从西域 / 「可能是由北方胡地」; 传入时间 汉代后期 / 东汉末年, 李立新另记西晋泰始「成为风尚」; 绳床同物与否 夏燕靖、田自秉作同物 / 赵农作不同物且同书另给「仅有大小上的区别」.",
+    "补子: 同一册相邻两段作「洪武二十五年」与「洪武二十四年(1391)」, 2016 同病; 缀附位置 明补直接绣在前胸 / 胸前背后各缀; 清代武官六七品至九品归属与田自秉不同; 2009 该段一处字符损坏且武官只列八名却称「各有九品」.",
+    "釉里红: 工艺来源 唐代长沙窑 / 钧瓷紫红釉且「最初为自然形成」/ 元代景德镇创烧; 元代质量「花色还烧得灰暗」为唯一负面; 青花釉里红评价「崭新的阶段」/「只能当作是一种尝试」; 赵农图注「金釉里红」与正文元代定位不一致.",
+    "鸡冠壶: 名称 高丰「并不完全贴切」「20 世纪 30 年代以来习惯的提法」/ 田自秉按鸡冠形有孔大鼻直接释名; 分类 两大类 / 五式, 非同一标准的加细; 高丰同段「四系/四足」混用; 夏燕靖两版图版为金银鸡冠壶.",
+    "鼎: 列鼎等级 高丰「天子九鼎(一说十二鼎), 卿大夫七鼎, 大夫五鼎, 士三鼎或一鼎」/ 田自秉引《何休解诂》「天子九鼎, 诸侯七, 卿大夫五, 元士三」/ 夏燕靖 2016「天子九鼎八簋, 诸侯七鼎六簋, 大夫五鼎四簋, 元上(原文)三鼎一簋」; 礼器分类 大鼎/正鼎(升鼎)/羞鼎 (赵农) 与 镬鼎/升鼎/羞鼎 (高丰) 两套名称; 九鼎下落 迁镐京 (夏燕靖 2016) / 迁洛邑且一鼎沉泗水、余八无考 (田自秉); 鼎形铜灯通高 16.7 厘米 (田自秉) / 30.5 厘米 (高丰).",
+    "司母戊大方鼎: 范铸方式 四块腹范+底范+芯座+四块浇口范 (高丰) / 同范数但「一次性整体铸造」(赵农) / 鼎身八块外范、鼎底四块、鼎足各三块、鼎耳接铸 (夏燕靖两版) / 鼎身每边八块外范、鼎足三块、称「分铸法」(田自秉); 「一次性整体铸造」与「分铸法」工艺定性直接冲突."
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 12,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All twelve units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 34,
+      "needs_evidence": 5173,
+      "rejected": 132,
+      "issues": []
+    },
+    "sync_closure": "passed (run_sync_closure.py --refresh-generated --full --check-generated; 250 tests passed)",
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 62
+    },
+    "relation_consistency": {
+      "broken_targets": 0,
+      "invalid_relation_types": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "isolated_units": 62
+    },
+    "structural_health": "122/130",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 12 rows verified against disk (sha256, bytes, lines)"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, counts, classification systems, technique attributions) are preserved, not reconciled.",
+    "All 40 doc_count = 4 groups are now either covered by a pre-existing unit (28) or by a unit written in this batch (12); none remain pending in that layer.",
+    "The 28 other doc_count = 4 groups already had knowledge units; their candidates were not re-transitioned in this batch and remain needs_evidence."
+  ]
+}

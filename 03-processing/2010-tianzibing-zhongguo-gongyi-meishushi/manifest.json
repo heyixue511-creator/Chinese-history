@@ -1,0 +1,66 @@
+{
+  "processing_profile": "compact-v4",
+  "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+  "fingerprint_mode": "text_crlf_to_lf_v1",
+  "source_assets": [
+    {
+      "path": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "sha256": "sha256:781db4e87b286d6588cc94e645bb4ae26f113d1d68c28fb119246990fc976011",
+      "role": "primary_text",
+      "language": "zh-Hans"
+    }
+  ],
+  "input_fingerprint": "sha256:b269d1519eecebb1c6450ece930da553c884b1ed31d09c300a61aefbc04a04c6",
+  "processing_scope": {
+    "mode": "full_asset",
+    "assets": [
+      "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md"
+    ]
+  },
+  "coverage": {
+    "source_blocks_total": 378,
+    "source_blocks_reviewed": 378,
+    "unread_blocks": 0,
+    "blocks_without_candidate_review": 0,
+    "scope_assets_total": 1,
+    "scope_assets_reviewed": 1,
+    "scope_lines_total": 5738,
+    "scope_lines_reviewed": 5738
+  },
+  "candidate_counts": {
+    "total": 1068,
+    "by_type": {
+      "claim": 278,
+      "unit": 790
+    },
+    "by_state": {
+      "needs_evidence": 1068
+    },
+    "by_unit_type": {
+      "event": 32,
+      "institution": 49,
+      "person": 87,
+      "place": 96,
+      "procedure": 57,
+      "publication": 34,
+      "term": 256,
+      "work": 179
+    }
+  },
+  "status": "completed",
+  "output_hashes": {
+    "source-map.jsonl": "sha256:1723cab01584077b598b4540e94d0e139994eb64c3f085a15ebdb1b8afa48173",
+    "semantic-units.jsonl": "sha256:2a08228e890155f50d6b7c222708556a86b1150b710651cff093bed3ea6cff48",
+    "candidate-ledger.jsonl": "sha256:030d73386706b731191661f4ba79dd6684c11e2a61c1cc014b5c1b7e165e7b30",
+    "summary.md": "sha256:74ab1cad2de966210eb590cf176c8d874eb85e97293070b12af31e7602bfcf5c"
+  },
+  "semantic_acceptance": {
+    "reread_status": "accepted_with_findings",
+    "reviewer_kind": "agent",
+    "reviewer_id": "book6-fourteen-chunk-reviews+chunk07-delta-review+dedupe-review+dedupe-delta-review+record-fix-confirmation-2026-10-24",
+    "reviewed_at": "2026-10-24T23:22:35+08:00",
+    "source_version": "sha256:b269d1519eecebb1c6450ece930da553c884b1ed31d09c300a61aefbc04a04c6",
+    "omission_count": 0,
+    "acceptance_boundary": "语义验收覆盖来源全文 L1-L5738（378 块），含正文、标题、图注、表格、目录与参考书目。14 个分块均完成独立复读（13 个 accepted_with_findings、1 个 needs_revision）；chunk-07 已定向修补并完成 delta 复评。去重专项经独立复核（needs_revision，8 项发现：1 blocking、6 major、1 minor），修补补并 6 个候选后为 39 组、43 个折叠候选、1068 个候选，并完成 delta 复评（accepted_with_findings，1 minor）；该 minor 指 auxiliary 记录未同步，已更新 cross-type-decisions.json、dedupe-log.json、equivalents-final.json 与 remediation log，并经只读复核确认 resolved。全部复读与复核合计 237 项发现（2 blocking、103 major、132 minor），2 项 blocking 均已修复并复评。机械审计与反向引用检查均为零异常。本验收不含图版逐张视觉核验、外部书目/窑址/实物核对，也不构成 OCR 异文的版本校勘；图注只按文字处理，涉及图版均注明“图版未视觉核验”。2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-01、2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-08、2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-11 的 culture 字段沿用出土地/墓葬信息，属已知字段语义限制，未计为事实错误。全部候选仍为 needs_evidence/pending，未写入 04-knowledge。"
+  }
+}

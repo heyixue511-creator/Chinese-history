@@ -1,0 +1,146 @@
+{
+ "xdup-0287": {
+  "entity": "丝绣笔记",
+  "target_ref": "04-knowledge/units/publications/sixiu-biji.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-95",
+  "action": "create"
+ },
+ "xdup-0288": {
+  "entity": "中国工艺沿革史略",
+  "target_ref": "04-knowledge/units/publications/zhongguo-gongyi-yange-shilue.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-25",
+  "action": "create"
+ },
+ "xdup-0289": {
+  "entity": "中国设计史",
+  "target_ref": "04-knowledge/units/publications/zhongguo-shejishi-gaofeng.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-01-02",
+  "action": "create"
+ },
+ "xdup-0289#2": {
+  "entity": "中国设计史",
+  "target_ref": "04-knowledge/units/publications/zhongguo-shejishi-xiayanjing.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-01-01",
+  "action": "create"
+ },
+ "xdup-0290": {
+  "entity": "传统工艺美术保护条例",
+  "target_ref": "04-knowledge/units/publications/chuantong-gongyi-meishu-baohu-tiaoli.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-47",
+  "action": "create"
+ },
+ "xdup-0291": {
+  "entity": "十竹斋画谱",
+  "target_ref": "04-knowledge/units/publications/shizhuzhai-huapu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-118",
+  "action": "create"
+ },
+ "xdup-0292": {
+  "entity": "历代名画记",
+  "target_ref": "04-knowledge/units/publications/lidai-minghua-ji.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-93",
+  "action": "create"
+ },
+ "xdup-0293": {
+  "entity": "史记",
+  "target_ref": "04-knowledge/units/publications/shiji.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-46",
+  "action": "create"
+ },
+ "xdup-0294": {
+  "entity": "周易",
+  "target_ref": "04-knowledge/units/publications/zhouyi.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-02-05",
+  "action": "create"
+ },
+ "xdup-0295": {
+  "entity": "庄子",
+  "target_ref": "04-knowledge/units/publications/zhuangzi.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-32",
+  "action": "create"
+ },
+ "xdup-0296": {
+  "entity": "新青年",
+  "target_ref": "04-knowledge/units/publications/xin-qingnian.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-145",
+  "action": "create"
+ },
+ "xdup-0297": {
+  "entity": "机妇赋",
+  "target_ref": "04-knowledge/units/publications/jifufu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-113",
+  "action": "create"
+ },
+ "xdup-0298": {
+  "entity": "格古要论",
+  "target_ref": "04-knowledge/units/publications/gegu-yaolun.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-74",
+  "action": "create"
+ },
+ "xdup-0299": {
+  "entity": "梓人传",
+  "target_ref": "04-knowledge/units/publications/ziren-zhuan.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-76",
+  "action": "create"
+ },
+ "xdup-0300": {
+  "entity": "梦梁录",
+  "target_ref": "04-knowledge/units/publications/menglianglu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-05",
+  "action": "no_delta"
+ },
+ "xdup-0301": {
+  "entity": "梦溪笔谈",
+  "target_ref": "04-knowledge/units/publications/mengxi-bitan.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-48",
+  "action": "create"
+ },
+ "xdup-0302": {
+  "entity": "梦粱录",
+  "target_ref": "04-knowledge/units/publications/menglianglu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-63",
+  "action": "create"
+ },
+ "xdup-0303": {
+  "entity": "楚辞",
+  "target_ref": "04-knowledge/units/publications/chuci.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-52",
+  "action": "create"
+ },
+ "xdup-0304": {
+  "entity": "武经总要",
+  "target_ref": "04-knowledge/units/publications/wujing-zongyao.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-48",
+  "action": "create"
+ },
+ "xdup-0305": {
+  "entity": "海国图志",
+  "target_ref": "04-knowledge/units/publications/haiguo-tuzhi.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-14",
+  "action": "create"
+ },
+ "xdup-0306": {
+  "entity": "清秘藏",
+  "target_ref": "04-knowledge/units/publications/qingmi-cang.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-75",
+  "action": "create"
+ },
+ "xdup-0307": {
+  "entity": "点石斋画报",
+  "target_ref": "04-knowledge/units/publications/dianshizhai-huabao.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-36",
+  "action": "create"
+ },
+ "xdup-0308": {
+  "entity": "燕闲清赏笺",
+  "target_ref": "04-knowledge/units/publications/yanxian-qingshang-jian.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-78",
+  "action": "create"
+ },
+ "xdup-0309": {
+  "entity": "申报",
+  "target_ref": "04-knowledge/units/publications/shenbao.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-31",
+  "action": "create"
+ }
+}

@@ -1,0 +1,249 @@
+{
+  "work_package": "2026-10-25-three-book-work-units-b",
+  "goal": "Second work-unit write-back batch: fold the 21 work candidates behind the seven architecture-and-monument entity groups xdup-0147, xdup-0148, xdup-0149, xdup-0152, xdup-0153, xdup-0154, xdup-0163 into seven knowledge units, plus one title-variant candidate for 嵩岳寺塔, while leaving the separate 重庆人民大会堂 candidate open.",
+  "status": "applied",
+  "created_at": "2026-10-25T19:20:00+08:00",
+  "updated_at": "2026-10-25T19:45:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:069dc004ba3e998acbccc8e4d17e57cd6cfc402b5519e7955f9580e284fbf763",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-work-units-a/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to seven work entities of the architecture-and-monument segment",
+    "group_ids": [
+      "xdup-0147",
+      "xdup-0148",
+      "xdup-0149",
+      "xdup-0152",
+      "xdup-0153",
+      "xdup-0154",
+      "xdup-0163"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "work_doc_count_three_groups_total": 20,
+    "selected_groups": 7,
+    "group_member_candidates": 21,
+    "extra_same_entity_candidates": 1,
+    "candidate_rows": 22,
+    "canonical_candidates": 7,
+    "rejected_candidates": 15,
+    "updated_units": 0,
+    "remaining_doc_count_three_groups": 40,
+    "remaining_open_candidates": 119,
+    "remaining_doc_count_three_by_type": {
+      "term": {
+        "groups": 34,
+        "candidates": 102
+      },
+      "work": {
+        "groups": 6,
+        "candidates": 17
+      }
+    },
+    "work_doc_count_three_groups_after_this_batch": 6,
+    "extra_same_entity_detail": [
+      {
+        "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-37",
+        "candidate_title": "北魏嵩岳寺塔",
+        "merged_into": "04-knowledge/units/works/songyue-si-ta-523.md",
+        "evidence": "李立新 L953 塔的类型分类段末标（图 2—14），L958 图注“图2-14 北魏嵩岳寺塔”，L2355 图目同题；正文不描述该塔。与同名组 xdup-0153 指向同一实体。"
+      }
+    ],
+    "remaining_scope_note": "剩余量由 candidate-index.jsonl 逐组回算：doc_count=3 共 103 组 309 条，本批关闭 work 7 组 21 条后余 40 组 119 条（term 34 组 102 条、work 6 组 17 条）。work 的 6 组中 xdup-0155（指南车）仅有 2 名成员，故 6 组对应 17 条。"
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the recalling Markdown sources plus a full six-book keyword pass for every entity. Every quoted sentence was re-opened at its source line before the unit was finalized; two draft quotes were corrected in this pass (中山陵 条例原文、人民大会堂 周恩来分包句).",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; every other same-entity candidate, including title variants outside the duplicate group, is set to rejected with target_ref pointing at the new unit. Canonical was chosen for coverage, not seniority: 嵩岳寺塔, 布达拉宫 and 赵州桥 take the 赵农 candidate because it carries the structural or historical detail the other two books omit.",
+    "source_count_correction": "The recall group's doc_count is a nominal count. Re-reading all six books changed one of seven: 嵩岳寺塔 3→4 (李立新, via the title-variant candidate 北魏嵩岳寺塔). The other six stayed at 3; 高丰、田自秉 two books contain no material on these buildings, and 高丰's 布达拉宫 mural sentence is a bronze-mirror datum, not an architectural source, so it was excluded.",
+    "title_variant_rule": "One open work candidate filed under a different title (北魏嵩岳寺塔) was checked against the canonical span before being rejected as a duplicate. 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-173 “重庆人民大会堂” is a different building (赵农 L7813, regional architecture list) and stays open; it was not merged.",
+    "exclusion_rule": "Bare-name hits that are not the entity were excluded: 赵农 L7813 “重庆人民大会堂” is another building; 赵农 L4295 小雁塔 is another site; 夏燕靖两版 the 札什伦布寺 figure captions sit in the same figure group as 布达拉宫 but are another building; 高丰 L2998 “布达拉宫唐代壁画” is a mirror-history datum.",
+    "quote_boundary_rule": "Quotations record the exact source line and keep the source's own wording, including its errors: 夏燕靖 “中央人民政府” in 1958; “中国建筑志家／中国建筑志研究学家” for 莫宗江; “阁楼式” vs “楼阁式”; “窨（yìn）” vs “窖（xūn）”; “敞肩拱” vs “敞肩型”.",
+    "filename_rule": "Year suffixes follow taxonomy.md: exact year when the sources agree (dayan-ta-652, songyue-si-ta-523, guohui-1950, zhongshan-ling-1929, renmin-dahuitang-1959); a range when the sources give a design-build span (zhaozhou-qiao-595-605); no suffix when there is no single build year (budala-gong: 7th-century founding, 8th-century destruction, early-Qing reconstruction).",
+    "relation_update_rule": "No existing unit was modified. Cross-references to other units appear only in 相关知识元 as non-assertive mentions; no formal relations were written.",
+    "state_honesty": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set and no unit is marked confirmed."
+  },
+  "outputs": {
+    "apply_plan": "2026-10-25-three-book-work-units-b/apply-plan.jsonl",
+    "candidate_decision_ledger": "2026-10-25-three-book-work-units-b/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/works/guohui-1950.md",
+      "04-knowledge/units/works/zhongshan-ling-1929.md",
+      "04-knowledge/units/works/renmin-dahuitang-1959.md",
+      "04-knowledge/units/works/dayan-ta-652.md",
+      "04-knowledge/units/works/songyue-si-ta-523.md",
+      "04-knowledge/units/works/budala-gong.md",
+      "04-knowledge/units/works/zhaozhou-qiao-595-605.md"
+    ],
+    "updated_units": [],
+    "manifest": "2026-10-25-three-book-work-units-b/manifest.json",
+    "summary": "2026-10-25-three-book-work-units-b/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "group": "xdup-0147",
+      "entity": "中华人民共和国国徽",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-06-40",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-56",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-53"
+      ],
+      "unit": "04-knowledge/units/works/guohui-1950.md",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0148",
+      "entity": "中山陵",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-06-38",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-119",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-48"
+      ],
+      "unit": "04-knowledge/units/works/zhongshan-ling-1929.md",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0149",
+      "entity": "人民大会堂",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-06-46",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-109",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-71"
+      ],
+      "unit": "04-knowledge/units/works/renmin-dahuitang-1959.md",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0152",
+      "entity": "大雁塔",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-04-70",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-76",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-75"
+      ],
+      "unit": "04-knowledge/units/works/dayan-ta-652.md",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0153",
+      "entity": "嵩岳寺塔",
+      "canonical": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-28",
+      "merged": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-04-03",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-58",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-37"
+      ],
+      "unit": "04-knowledge/units/works/songyue-si-ta-523.md",
+      "source_count": 4
+    },
+    {
+      "group": "xdup-0154",
+      "entity": "布达拉宫",
+      "canonical": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-31",
+      "merged": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-06-03",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-37"
+      ],
+      "unit": "04-knowledge/units/works/budala-gong.md",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0163",
+      "entity": "赵州桥",
+      "canonical": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-71",
+      "merged": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-04-65",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-69"
+      ],
+      "unit": "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+      "source_count": 3
+    }
+  ],
+  "source_variance_notes": [
+    {
+      "entity": "中华人民共和国国徽",
+      "variance": "另一设计组的机构名：2009 同段先作“国立北平艺专”、后作“中央美术学院”，2016 统一作“中央美术学院”；“命令公布”（2009）与“签署命令正式发布”（2016）措辞不同；赵农只给图 10-5 与一句总评，无过程。"
+    },
+    {
+      "entity": "中山陵",
+      "variance": "征图 1927 年（夏燕靖两版）与设计 1929 年（赵农），两册都不标动工—建成阶段；钟形释义“木铎警世”（夏燕靖两版引评判报告）与“晨钟暮鼓”（赵农）。"
+    },
+    {
+      "entity": "人民大会堂",
+      "variance": "夏燕靖两版近乎逐字相同，给组织过程与室内设计；赵农只给“十大建筑”框架、清华学派与图 10-46 华灯。两版图题归类不同（人民大会堂／北京十大建筑）。无尺寸、座位、高度、结构数据。"
+    },
+    {
+      "entity": "大雁塔",
+      "variance": "总高 64.1 米（夏燕靖两版）与 64 米（赵农）；“始建于隋代”与“大雁塔建于永徽三年”同段并存而所指不明；“楼阁式”与“阁楼式”用字不同；寺名缘起一作“扩建为寺院、更名”，一作“因高宗纪念其母而称”。"
+    },
+    {
+      "entity": "嵩岳寺塔",
+      "variance": "高度 41 米（夏燕靖两版）与 39.5 米（赵农）；类型“15 层密檐楼阁式砖塔”（夏燕靖两版）与“15 层密檐式结构砖塔”（赵农）；“窨（yìn）水”（2016）与“窖（xūn）水”（2009）；图题“魏晋南北朝”（2009）不专作“北魏”。"
+    },
+    {
+      "entity": "布达拉宫",
+      "variance": "始建 7 世纪（夏燕靖两版）与 6—7 世纪且 8 世纪后被毁（赵农）；高度 115 米与 115.7 米；结构“石木”与“土木石”；“镏金”与“鎏金”。"
+    },
+    {
+      "entity": "赵州桥",
+      "variance": "年代 595～605 年（夏燕靖两版）与 605 年（赵农）；长度 50 余米与 52.82 米、跨度 37 米多与 37.4 米；类型“双曲石拱桥”与“单孔式／扁弧形弓式”；耐久 1300 多年与 1400 多年。"
+    }
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 7,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed; no verification_level is set.",
+    "cross_reference_note": "No existing unit was touched. Cross-references appear only in 相关知识元 as non-assertive mentions; no formal relations were written."
+  },
+  "governance_notes": [
+    "work 的 sub_type 仍无受控枚举（见 2026-10-25-three-book-work-units-a summary 治理债第 1 条）。本批新增 pagoda、palace_complex、stone_arch_bridge、mausoleum、public_building、national_emblem 六个值，均未被 audit_repo.py 或 audit_content_quality.py 校验。",
+    "布达拉宫不设年份后缀：来源给出 7 世纪始建、8 世纪后被毁、清初重建三段，无单一建造年；按 taxonomy.md“年代不可考”一类处理。",
+    "重庆人民大会堂（2009-zhaonong-zhongguo-yishu-shejishi:cand-11-173）是另一建筑，本批明确不并入人民大会堂，保留 needs_evidence。",
+    "本轮在定稿前逐条回核了所有引用句所在行，改正了两处草稿中与原文不符的引文（中山陵条例、人民大会堂周恩来分包句）；凡来源未给的数字或名称，KU 一律不补。"
+  ],
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 97,
+      "needs_evidence": 4978,
+      "rejected": 264,
+      "active": 4978,
+      "terminal": 361,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 125
+    },
+    "structural_health": "122/130 (unchanged from baseline)",
+    "knowledge_structure": "55/65 (unchanged)",
+    "evidence_chain": "55/55",
+    "type_coverage": "8/8 (work units 10 -> 17)",
+    "name_collision": "同名跨类型组 1 / 有消歧说明 2 / 无消歧说明 0 (unchanged; persons/mengzi.md + publications/mengzi.md)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 7 create rows verified against disk independently (after-sha256/bytes/lines, CRLF normalized); ledger chain verified row by row",
+    "ledger_invariants": "ledger rows 36, distinct candidate ids 22, 7 x 3 canonical transitions + 15 rejected"
+  },
+  "boundaries": [
+    "未 commit、未 push；改动只留在工作树。",
+    "未创建分支或额外 worktree，main 是唯一主线。",
+    "02-sources/ 未触碰；本批实际只读 03基础书籍-md文档/。",
+    "未使用任何外部验证平台；证据范围仅限于六册 Markdown 文本，未查原书、未查图版、未核馆藏。",
+    "primary_theme 与 topic_memberships 一律留空，因 Theme/Topic 节点尚未 materialize。",
+    "未写入任何正式 relations。",
+    "未做图版核验：塔的平面边数、赵州桥的 28 道拱券、国徽的比例与色彩均未与图像比对。",
+    "只处理前六册；书籍 7 及以后不启动。",
+    "剩余 work 6 组 17 条、term 34 组 102 条未启动。",
+    "口径差异一律并列不裁；来源未给的数字不补。"
+  ]
+}

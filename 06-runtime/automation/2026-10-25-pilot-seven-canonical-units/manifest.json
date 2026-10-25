@@ -1,0 +1,83 @@
+{
+  "work_package": "2026-10-25-pilot-seven-canonical-units",
+  "goal": "Six-book pilot write-back: fold the 42 cross-source unit candidates that appear in all six books into 7 canonical knowledge units, and record how every duplicate candidate was resolved.",
+  "status": "applied",
+  "created_at": "2026-10-25T10:40:00+08:00",
+  "updated_at": "2026-10-25T11:00:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:e46ab0419437d4b7e221fc23fbe3d8d087a88d82d746f9c398caa7f978e9726b",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in all six source documents and passing cross-source alias review",
+    "groups": 7,
+    "candidate_rows": 42,
+    "canonical_candidates": 7,
+    "rejected_duplicate_candidates": 35,
+    "unit_types": {
+      "person": 2,
+      "place": 1,
+      "publication": 3,
+      "work": 1
+    }
+  },
+  "method": {
+    "semantic_step": "Per-group cross-source re-read of the six Markdown sources; disagreements kept as explicit source-variance notes rather than resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining same-name candidates transition to rejected with a reason naming the canonical target.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 7 create actions, no update or delete."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/persons/confucius.md",
+      "04-knowledge/units/persons/huang-daopo.md",
+      "04-knowledge/units/places/yue-kiln.md",
+      "04-knowledge/units/publications/kaogongji.md",
+      "04-knowledge/units/publications/tiangong-kaiwu.md",
+      "04-knowledge/units/publications/yingzao-fashi.md",
+      "04-knowledge/units/works/lianhe-fanghu.md"
+    ]
+  },
+  "canonical_mapping": [
+    {"entity": "孔子", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-49", "target_ref": "04-knowledge/units/persons/confucius.md", "source_count": 6},
+    {"entity": "黄道婆", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-05-10", "target_ref": "04-knowledge/units/persons/huang-daopo.md", "source_count": 6},
+    {"entity": "越窑", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-48", "target_ref": "04-knowledge/units/places/yue-kiln.md", "source_count": 6},
+    {"entity": "考工记", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-04", "target_ref": "04-knowledge/units/publications/kaogongji.md", "source_count": 6},
+    {"entity": "天工开物", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-05", "target_ref": "04-knowledge/units/publications/tiangong-kaiwu.md", "source_count": 6},
+    {"entity": "营造法式", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-40", "target_ref": "04-knowledge/units/publications/yingzao-fashi.md", "source_count": 6},
+    {"entity": "莲鹤方壶", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-01", "target_ref": "04-knowledge/units/works/lianhe-fanghu.md", "source_count": 6}
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 7,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified."
+  },
+  "validation": {
+    "discovery_index": {"total": 5339, "applied": 7, "needs_evidence": 5296, "rejected": 36, "issues": []},
+    "sync_closure": "passed (run_sync_closure.py --refresh-generated --full --check-generated)",
+    "content_quality": {"total_findings": 0},
+    "relation_consistency": {"broken_targets": 0, "invalid_relation_types": 0, "missing_inverse": 0, "weak_evidence": 0, "isolated_units": 7},
+    "structural_health": "122/130",
+    "governance_backlog": {"P0": 0, "P1": 0, "P2": 0},
+    "pre_commit_rule_drift": 0
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only).",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (authorship, dates, volumes, dimensions, toponyms) are preserved, not reconciled."
+  ]
+}

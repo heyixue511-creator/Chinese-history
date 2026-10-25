@@ -1,3 +1,5 @@
+# ===== 语料与本地大文件 =====
+
 # 基础文献 PDF 库约 5.5 GB，超出 GitHub 单文件/仓库限制，仅本地保存；
 # 目录内的索引与清单（.md/.csv）仍纳入版本管理。
 00-基础文献/**/*.pdf
@@ -5,8 +7,49 @@
 # 第二批按《相关研究书目清单》取件的 PDF 及索引整体留在本地
 基础文献/
 
-# 编辑器与 AI 工具元数据
+# 现行书籍语料：原始 PDF、章节切分、MinerU 解析均为本地只读语料，不纳入 Git。
+# 全文 Markdown（03基础书籍-md文档/）默认保留在版本管理中。
+00基础书籍-PDF/
+01基础书籍-章节切分/
+02基础书籍-minerU解析/
+通史类书籍/
+
+# ===== 编辑器与 AI 工具元数据 =====
 .specstory/
 .vscode/
+.opencli/
+.legacy/
+
+# Claude Code 本地设置（可能含个人配置或密钥）
+.claude/settings.local.json
+
+# ===== Python =====
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== 环境与本地配置 =====
+.env
+.env.local
+.env.*.local
+
+# ===== 构建产物 =====
+node_modules/
+dist/
+build/
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+scripts/archive/

@@ -1,0 +1,206 @@
+{
+  "work_package": "2026-10-25-three-book-person-units",
+  "goal": "Sixth write-back batch: fold the 27 person candidates recalled in three source documents (doc_count = 3) across the 9 person entity groups into 9 canonical knowledge units, record how every duplicate candidate was resolved, and correct one stale cross-reference in an existing unit.",
+  "status": "applied",
+  "created_at": "2026-10-25T12:50:00+08:00",
+  "updated_at": "2026-10-25T12:50:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:a44b0bde1a67af55957f21278f43fbb181473939a8d2024616c6e4291ead43b0",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-place-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the person entity groups xdup-0071 through xdup-0079; term / publication / work groups of the same layer are left to later batches",
+    "group_ids": [
+      "xdup-0071",
+      "xdup-0072",
+      "xdup-0073",
+      "xdup-0074",
+      "xdup-0075",
+      "xdup-0076",
+      "xdup-0077",
+      "xdup-0078",
+      "xdup-0079"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "selected_groups": 9,
+    "remaining_doc_count_three_groups": 76,
+    "remaining_doc_count_three_candidates": 228,
+    "candidate_rows": 27,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 18,
+    "unit_types": {
+      "person": 9
+    },
+    "slug_discrepancy_note": "Slug proposals disagree in four of the nine groups: xdup-0071 (ding-huan / dinghuan / ding-huan), xdup-0073 (yuwen-kai / yu-wen-kai / yuwen-kai), xdup-0075 (zhuang-zi-person / zhuangzi / zhuangzi, where zhuang-zi-person appears to disambiguate the philosopher from the book), xdup-0077 (zhang-zhidong / zhang-zhidong / zhang-zhi-dong). xdup-0076 is consistent in slug (pang-xunli) but the slug encodes an OCR corruption of the name, not a variant reading.",
+    "entity_boundary_note": "xdup-0076 is recalled as 庞薰栗 in all three members. That is a corrupted glyph, not a different person: the six books write the name in eight distinct forms (栞, 琴, 栗, 琍, 某, 渠, 桀, 杲) and never in the standard form 琹. The unit is written at the standard name 庞薰琹, all eight forms are tabulated in the body, and the candidate title is not carried over as the KU title. Two other units also required name-level judgement: 文震亨's 曾祖 is written 文徵明 in 高丰 and 文征明 in 赵农, and 沈葆祯 in 夏燕靖两版 stands for the usual 沈葆桢 (recorded only, not corrected).",
+    "type_coverage_note": "person units move from 13 to 22; base type coverage stays 8/8. All nine use sub_type values permitted by the person contract except zhang-jian (industrialist) and zuo-zongtang / zhang-zhidong (statesman), which extend the enumerated set the way the existing 13 person units already do (philosopher / scientist / statesman); no enum check exists in the audit and the extension is recorded here rather than silently normalised."
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the three recalling Markdown sources plus targeted line verification at the cited line numbers and at every other line in all six books where the same person is named; each source disagreement (dates, names, counts, office titles, evaluations) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining two same-name candidates transition to rejected with a reason naming the canonical target. The canonical member is chosen as the recalling passage that best anchors the entity, not by doc order.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl with 45 rows over 27 unique candidate ids; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 9 create actions plus 1 update action. The update is not candidate-driven: persons/chen-zhifo.md said in its 相关知识元 section that 庞薰琹 had no unit of its own, which stops being true once persons/pang-xunqin.md exists. Only that sentence changed; the row carries before and after sha256, bytes and lines, and candidate_id is null because the file was written in an earlier batch that produced no apply-plan row.",
+    "span_note": "No recalled span in this batch is book-scale; all 27 candidate spans are passage-scale and were read as continuous passages.",
+    "cross_reference_policy": "Two units deliberately do not re-describe objects already held elsewhere: persons/wen-zhenheng.md defers the bibliographic detail of 长物志 to publications/changwu-zhi.md, and persons/zuo-zongtang.md defers the Foochow arsenal detail to institutions/fujian-chuanzhengju.md. Both say so in the body and in the knowledge-relation section."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-three-book-person-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-three-book-person-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/persons/ding-huan.md",
+      "04-knowledge/units/persons/xi-zhong.md",
+      "04-knowledge/units/persons/yuwen-kai.md",
+      "04-knowledge/units/persons/zuo-zongtang.md",
+      "04-knowledge/units/persons/zhuangzi.md",
+      "04-knowledge/units/persons/pang-xunqin.md",
+      "04-knowledge/units/persons/zhang-zhidong.md",
+      "04-knowledge/units/persons/zhang-jian.md",
+      "04-knowledge/units/persons/wen-zhenheng.md"
+    ],
+    "updated_knowledge_units": [
+      "04-knowledge/units/persons/chen-zhifo.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "entity": "丁缓",
+      "group_id": "xdup-0071",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-01-13",
+      "target_ref": "04-knowledge/units/persons/ding-huan.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "奚仲",
+      "group_id": "xdup-0072",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-01-79",
+      "target_ref": "04-knowledge/units/persons/xi-zhong.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "person"
+    },
+    {
+      "entity": "宇文恺",
+      "group_id": "xdup-0073",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-67",
+      "target_ref": "04-knowledge/units/persons/yuwen-kai.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "左宗棠",
+      "group_id": "xdup-0074",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-27",
+      "target_ref": "04-knowledge/units/persons/zuo-zongtang.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "庄子",
+      "group_id": "xdup-0075",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-31",
+      "target_ref": "04-knowledge/units/persons/zhuangzi.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "person"
+    },
+    {
+      "entity": "庞薰琹",
+      "group_id": "xdup-0076",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-03",
+      "target_ref": "04-knowledge/units/persons/pang-xunqin.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "person"
+    },
+    {
+      "entity": "张之洞",
+      "group_id": "xdup-0077",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-21",
+      "target_ref": "04-knowledge/units/persons/zhang-zhidong.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "张謇",
+      "group_id": "xdup-0078",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-15",
+      "target_ref": "04-knowledge/units/persons/zhang-jian.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "person"
+    },
+    {
+      "entity": "文震亨",
+      "group_id": "xdup-0079",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-03",
+      "target_ref": "04-knowledge/units/persons/wen-zhenheng.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "person"
+    }
+  ],
+  "source_variance_notes": [
+    "丁缓: 常满灯（高丰、赵农）与「恒满灯」（田自秉）; 七龙五凤（高丰、赵农）与九龙五凤（田自秉）; 赵农所引《西京杂记》含「本出房风，其法后绝，至缓始更为之」，据此判为「恢复和延续」，田自秉引文脱去该句且作「机环转之者，运四周」，高丰未引该句并判为「发明」; 七轮扇仅高丰记载; 三册对同一人的身份定位分别为设计家、工匠、巧工.",
+    "奚仲: 「黄帝造车」与「奚仲作车」两说仅高丰并列并作「难以定夺」收束; 板轮改辐轮被赵农明确系于奚仲，夏燕靖两版只陈述技术变化而不系于人; 李立新引《墨子·非儒篇》「奚仲作车」并把古籍记载降为「先民的集体性历史记忆」，是六册中唯一的证据等级警告; 薛地制车业的定位（李立新）与单个人物发明家的定位（赵农）并存.",
+    "宇文恺: 大兴城工期——夏燕靖两版「前后仅用了9个月」，赵农「用了30余年的时间……完成了规模宏伟的大兴城的修建」（若自582年起算30年已越宇文恺卒年612）; 里坊数——夏燕靖两版「108个方块」，赵农「110坊」并在同册两处一致; 宇文恺的明堂仅为「建议按古制建筑明堂」，赵农所记建成的明堂为武则天垂拱四年所造，两者不可混同; 高丰、田自秉、李立新三册不记其人.",
+    "左宗棠: 夏燕靖两版同段并存「1872年，他在奏报创办福建船政局意图时说」与「1866年5月，他上奏清廷创办福建船政局」，前者为事后追述、后者为创议之年，来源未加说明; 「用35年的时间，造船舰40艘」跨越左宗棠卒年1885，应指船政事业整体存续期; 「沈葆祯」与通行「沈葆桢」字形不同; 赵农仅在总结章列入洋务官员名单并给「强政府非民生」的批判框架.",
+    "庄子: 籍属——高丰、赵农作「宋国」，田自秉引《史记》作「蒙人也，名周，尝为漆园吏」; 生卒前369—前286仅夏燕靖2016给出; 李立新同册既称庄子生态理想为「人类最早的造物理性哲学思考」，又称诸子思想「并没有真正影响到当时的造物行为」，评价与效力判断分属两层; 夏燕靖2016 记《庄子》原有52篇、内篇为庄子所作，而六册所引《天道》《秋水》《知北游》《盗跖》《说剑》《天下》等篇多属外杂篇.",
+    "庞薰琹: 姓名八种字形（栞、琴、栗、琍、某、渠、桀、杲），无一处作规范字「琹」，且同页异写（高丰L5479先「琍」两次后「栗」两次；夏燕靖2009 L4194先「琍」后「某」两次）；机构名与结局——高丰作「工商美术社」并记其开办与办展，李立新作「大熊工商美术社」并记「尚在筹建中即遭流产」; 《巩固民间美术工艺的成就》在夏燕靖两版叙述文均作1953年12月7日，年表却均列于1954年条下; 庞薰琹美术馆开馆年份，2009版系于1990年，2016版系于1991年.",
+    "张之洞: 「经世」命题三表述——高丰「中学为体，西学为用」、赵农「旧（中）学为体，西学为用」（张之洞语）、李立新「中体西用」; 奏议同侪——高丰作「与两江总督刘坤一上书」，李立新作「赵尔巽、张之洞等人就奏请开办学堂」; 督职写法——高丰同册并存「湖广总督」（L5239）与「两湖总督」（L5453，清代无此职），赵农作「两广总督」（L6886，与光绪年间铸龙洋相符，非1901年之职）; 李瑞清职衔高丰作「学堂监督」、李立新作「督学」.",
+    "张謇: 高丰称「中国近代纺织教育和纺织工业的先驱」并把他与沈寿并列为近代织绣两位人物，赵农则以「官商一体」判其「无法推动中国社会生产力的进步」，四册事实无冲突而评价对立; 耀徐玻璃公司的年份来源只作「其后」，「这两家玻璃公司不久即停业或倒闭」为合并判断、未分列; 田自秉、李立新两册不记其人，而《雪宦绣谱》在两册均有完整章节记述.",
+    "文震亨: 《长物志》主旨两种读法——高丰据《几榻》《器具》读作「古式」「古制」的雅俗体系，夏燕靖两版（尤其2016扩写「长物」典出《世说新语》一段）读作「以用为本」的实用性; 高丰分卷统计「室庐、花木、水石、禽鱼、蔬果五卷」加「书画、几榻、器具、舟车、位置、香茗六卷」共十一卷，未归组者为「衣饰」; 赵农造园家名单把文震亨与其曾祖文征明、以及虚构人物曹雪芹并列; 「宁古勿时，宁朴勿巧，宁俭勿俗」与「令居之者忘忧，寓之者忘归，游之者忘倦」两句仅赵农引，高丰与夏燕靖两版所无."
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 1,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All nine units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Several units record evaluations that pull in opposite directions (张謇 as pioneer vs. 官商一体; 张之洞 as founder vs. 强政府; 庞薰琹's two readings of his firm's fate) and one records eight corrupted name forms, but consensus stays tentative because the contract requires verification_level whenever consensus is not tentative, and no external verification was performed.",
+    "unit_scope_person": "person units 13 -> 22; every unit in this batch is isolated (no formal relations created), so the count is an inventory figure only."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 61,
+      "needs_evidence": 5092,
+      "rejected": 186,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 89
+    },
+    "structural_health": "122/130",
+    "type_coverage": "8/8 (person units 13 -> 22)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 10 rows verified against disk (9 create after-sha256, 1 update before/after sha256; bytes and lines recomputed with CRLF normalized to LF)"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of portraits, sites or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, counts, office titles, name glyphs, evaluations) are preserved, not reconciled.",
+    "persons/chen-zhifo.md was edited in exactly one sentence, to record that 庞薰琹 now has its own unit; no other field changed and its hashes are recorded before and after.",
+    "Eight corrupted glyph forms of 庞薰琹 are tabulated but not treated as eight people; the KU title uses the standard form.",
+    "Still missing person units that the sources support: 李春、李渔、毛晋、沈寿、王祯、计成、赵过、韩非子（Batch B, xdup-0080..0087）, plus 沈葆桢、魏源、刘坤一、阎立德、李瑞清、计成's peers and the 1950s 中央工艺美术学院 faculty named in the sources; all are recorded as research debt inside the relevant units.",
+    "27 of 103 doc_count = 3 groups are now covered (9 institution/procedure/event + 9 place + 9 person); the remaining 76 groups (228 candidates) stay needs_evidence and were not re-examined."
+  ]
+}

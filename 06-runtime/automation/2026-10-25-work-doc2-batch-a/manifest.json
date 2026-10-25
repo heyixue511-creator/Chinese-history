@@ -1,0 +1,331 @@
+{
+ "work_package": "2026-10-25-work-doc2-batch-a",
+ "goal": "处理 work 类型 doc_count=2 重复组第一批 27 组（xdup-0472—xdup-0498，54 个候选）：全部 create，新建 27 个 work KU。",
+ "status": "applied",
+ "created_at": "2026-10-25T17:50:00+08:00",
+ "updated_at": "2026-10-25T18:25:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:63ed6cf3d6b4f0f1322af9e286f33f9fe20715ad52c4cd63c7b80c65c11caebb（7,243,359 B，5,339 行）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-term-doc2-batch-e/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "work 类型、doc_count=2、按 group_id 升序的前 27 个未关闭组",
+  "group_ids": [
+   "xdup-0472",
+   "xdup-0473",
+   "xdup-0474",
+   "xdup-0475",
+   "xdup-0476",
+   "xdup-0477",
+   "xdup-0478",
+   "xdup-0479",
+   "xdup-0480",
+   "xdup-0481",
+   "xdup-0482",
+   "xdup-0483",
+   "xdup-0484",
+   "xdup-0485",
+   "xdup-0486",
+   "xdup-0487",
+   "xdup-0488",
+   "xdup-0489",
+   "xdup-0490",
+   "xdup-0491",
+   "xdup-0492",
+   "xdup-0493",
+   "xdup-0494",
+   "xdup-0495",
+   "xdup-0496",
+   "xdup-0497",
+   "xdup-0498"
+  ],
+  "groups": 27,
+  "candidate_rows": 54,
+  "canonical_candidates": 27,
+  "applied_canonical_candidates": 27,
+  "rejected_candidates": 27,
+  "created_units": 27,
+  "updated_units": 0,
+  "no_delta_units": 0
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要，比较出土、年代、尺寸、结构与图注口径；同实体重复候选只保留 canonical；图注年代冲突与同册并存两说一律并列。",
+  "canonical_rule": "按信息量较大且正文可证者指定 canonical；另一册要点补入正文并保留来源。仅有图注的条目按证据下限写作，不据器名补写形制。",
+  "decision_rule": "27 组全部 create；无 update、无 no_delta。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（27 个 canonical）；needs_evidence -> rejected（27 个 merged member）",
+  "ledger_rows": 108,
+  "apply_plan_rows": 27
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-work-doc2-batch-a/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-work-doc2-batch-a/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/works/yannian-yishou-jin.md",
+   "04-knowledge/units/works/qikong-shidao.md",
+   "04-knowledge/units/works/san-jiao-lou.md",
+   "04-knowledge/units/works/shanghai-huifeng-yinhang.md",
+   "04-knowledge/units/works/foguang-si-dadian.md",
+   "04-knowledge/units/works/houfeng-dizhenyi.md",
+   "04-knowledge/units/works/ou-fangyi.md",
+   "04-knowledge/units/works/guiguxiashan-qinghua-guan.md",
+   "04-knowledge/units/works/yuan-yinjingjia.md",
+   "04-knowledge/units/works/xiangyun-huoju.md",
+   "04-knowledge/units/works/miaoying-si-baita.md",
+   "04-knowledge/units/works/shiwu-lianzhan-tongdeng.md",
+   "04-knowledge/units/works/nanhai-one.md",
+   "04-knowledge/units/works/nanchan-si-dadian.md",
+   "04-knowledge/units/works/tang-yin-xiangnang.md",
+   "04-knowledge/units/works/shang-elephant-zun.md",
+   "04-knowledge/units/works/siyang-fangzun.md",
+   "04-knowledge/units/works/simei-tu.md",
+   "04-knowledge/units/works/yuanmingyuan.md",
+   "04-knowledge/units/works/da-ke-ding.md",
+   "04-knowledge/units/works/daming-gong.md",
+   "04-knowledge/units/works/dayunhe.md",
+   "04-knowledge/units/works/dingxian-kaiyuansi-liaodi-pagoda.md",
+   "04-knowledge/units/works/dingyao-haier-zhen.md",
+   "04-knowledge/units/works/kaifeng-xiangguosi-pagoda.md",
+   "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+   "04-knowledge/units/works/zhuozhengyuan.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-work-doc2-batch-a/summary.md"
+ },
+ "canonical_mapping": [
+  {
+   "group_id": "xdup-0472",
+   "entity": "“延年益寿大宜子孙”锦",
+   "target_ref": "04-knowledge/units/works/yannian-yishou-jin.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-56",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0473",
+   "entity": "七孔石刀",
+   "target_ref": "04-knowledge/units/works/qikong-shidao.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-32",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0474",
+   "entity": "三脚耧",
+   "target_ref": "04-knowledge/units/works/san-jiao-lou.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-59",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0475",
+   "entity": "上海汇丰银行",
+   "target_ref": "04-knowledge/units/works/shanghai-huifeng-yinhang.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-36",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0476",
+   "entity": "佛光寺大殿",
+   "target_ref": "04-knowledge/units/works/foguang-si-dadian.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-79",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0477",
+   "entity": "候风地动仪",
+   "target_ref": "04-knowledge/units/works/houfeng-dizhenyi.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-19",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0478",
+   "entity": "偶方彝",
+   "target_ref": "04-knowledge/units/works/ou-fangyi.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-122",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0479",
+   "entity": "元代“鬼谷下山”青花瓷罐",
+   "target_ref": "04-knowledge/units/works/guiguxiashan-qinghua-guan.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-26",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0480",
+   "entity": "元代银镜架",
+   "target_ref": "04-knowledge/units/works/yuan-yinjingjia.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-19",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0481",
+   "entity": "北京奥运会火炬“祥云”",
+   "target_ref": "04-knowledge/units/works/xiangyun-huoju.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-51",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0482",
+   "entity": "北京妙应寺白塔",
+   "target_ref": "04-knowledge/units/works/miaoying-si-baita.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-53",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0483",
+   "entity": "十五连盏铜灯",
+   "target_ref": "04-knowledge/units/works/shiwu-lianzhan-tongdeng.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-07",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0484",
+   "entity": "南海一号",
+   "target_ref": "04-knowledge/units/works/nanhai-one.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-84",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0485",
+   "entity": "南禅寺大殿",
+   "target_ref": "04-knowledge/units/works/nanchan-si-dadian.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-78",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0486",
+   "entity": "唐代银香囊",
+   "target_ref": "04-knowledge/units/works/tang-yin-xiangnang.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-58",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0487",
+   "entity": "商代象尊",
+   "target_ref": "04-knowledge/units/works/shang-elephant-zun.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-94",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0488",
+   "entity": "四羊方尊",
+   "target_ref": "04-knowledge/units/works/siyang-fangzun.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-34",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0489",
+   "entity": "四美图",
+   "target_ref": "04-knowledge/units/works/simei-tu.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-19",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0490",
+   "entity": "圆明园",
+   "target_ref": "04-knowledge/units/works/yuanmingyuan.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-132",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0491",
+   "entity": "大克鼎",
+   "target_ref": "04-knowledge/units/works/da-ke-ding.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-132",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0492",
+   "entity": "大明宫",
+   "target_ref": "04-knowledge/units/works/daming-gong.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-76",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0493",
+   "entity": "大运河",
+   "target_ref": "04-knowledge/units/works/dayunhe.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-50",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0494",
+   "entity": "定县开元寺瞭敌塔",
+   "target_ref": "04-knowledge/units/works/dingxian-kaiyuansi-liaodi-pagoda.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-116",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0495",
+   "entity": "定窑孩儿枕",
+   "target_ref": "04-knowledge/units/works/dingyao-haier-zhen.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-41",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0496",
+   "entity": "开封相国寺塔",
+   "target_ref": "04-knowledge/units/works/kaifeng-xiangguosi-pagoda.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-115",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0497",
+   "entity": "彩漆木雕动物座屏",
+   "target_ref": "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-30",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0498",
+   "entity": "拙政园",
+   "target_ref": "04-knowledge/units/works/zhuozhengyuan.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-004",
+   "action": "create"
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:4e16784803a25b52eeb6239f3ade458b72d3a6ab0e028c400b0fce38da8225ac",
+   "bytes": 7252775,
+   "lines": 5339,
+   "state_counts": {
+    "applied": 356,
+    "no_delta": 11,
+    "rejected": 655,
+    "needs_evidence": 4317
+   },
+   "lifecycle_counts": {
+    "active": 4317,
+    "terminal": 1022
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 27,
+   "matched": 27
+  },
+  "content_quality": {
+   "units": 363,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "363/363"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "sync_closure": {
+   "steps": 19,
+   "tests": "250 passed + 16 subtests"
+  },
+  "duplicate_closure": {
+   "work_doc2_total": 52,
+   "work_doc2_closed": 27,
+   "work_doc2_open": 25,
+   "term_doc2_open": 0,
+   "person_doc2_open": 0
+  },
+  "notes": "本批并列冲突：四羊方尊图注年代“商／西周”相反；偶方彝 2016 图注作“商周”而正文为妇好墓商代，且原文称 4 件仅列 3 名；四美图“金代／北宋末年”两说并存；大明宫“原为太极宫一处／原名永安宫”表述不同。"
+ }
+}

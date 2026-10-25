@@ -1,0 +1,167 @@
+===== xdup-0176 三服官
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-07 L3014-L3049 slug=sanfuguan state=needs_evidence
+S: 汉代在襄邑、临淄一带设置“三服官”机构，采办宫廷服饰所需的丝绸。三服为春、夏、秋季服饰。
+F: {"location": "襄邑、临淄", "period": "汉"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-06 L2442-L2442 slug=sanfuguan state=needs_evidence
+S: 汉代在齐郡临淄、陈留郡襄邑设置的染织生产管理机构。原文称其可能指织造春夏秋三季所用的丝织物，并引《汉书·贡禹传》记齐三服官作工各数千人、一岁数费巨万。
+F: {"location": "齐郡临淄、陈留郡襄邑", "period": "汉代"}
+===== xdup-0177 上海美术电影制片厂
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-52 L4448-L4461 slug=shanghai-meishu-dianying-zhipianchang state=needs_evidence
+S: 上海美术电影制片厂于1957年建立，拍摄了不少动画影片在国际电影节上获奖，成为被世界公认的“中国动画学派”。生产《大闹天宫》《小蝌蚪找妈妈》《牧笛》等经典作品。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-06 L5480-L5501 slug=shanghai-meishu-dianying-zhipianchang state=needs_evidence
+S: 1957年建立，原文称其拍摄了不少动画影片在国际电影节上获奖，形成被世界公认的“中国动画学派”；1978年底至1989年新动画片生产厂家涌现，改变了其一枝独秀的局面。
+F: {"location": "上海", "period": "1957年建立"}
+===== xdup-0178 两江师范学堂
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-89 L8359-L8409 slug=liangjiang-shifan-xuetang state=needs_evidence
+S: 1905年，两江师范学堂开设了与设计有关的课程，但其设计思想仍属“博物”“图画”“手工”等传统知识的范畴。原文以此说明清末设计教育的过渡性质。
+F: {"location": "中国", "period": "1905年"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-20 L1301-L1303 slug=liang-jiang-shi-fan-xue-tang state=needs_evidence
+S: 1902年张之洞在南京设三江师范学堂，1905年更名两江师范学堂；1906年设图画手工科，采用日本教材并聘日本教习，为首次在中国设立美术与设计学科。
+F: {"location": "南京", "period": "清末"}
+===== xdup-0179 中国工艺美术学会
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-14 L4736-L4835 slug=zhongguo-gongyi-meishu-xuehui state=needs_evidence
+S: 1979年8月11日，中国工艺美术学会在北京恢复。1985年10月，其民间工艺美术委员会主办的《民间工艺》杂志创刊。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-46 L5789-L5952 slug=china-crafts-association state=needs_evidence
+S: 1979年8月11日在北京恢复；1980年派观察员小组出席维也纳第九届世界手工艺大会；1982年在西安举行传统工艺美术学术讨论会；1988年与轻工业部工艺美术总公司主办“首届中国陶艺壁饰展”。
+F: {"location": "北京", "period": "1979年8月11日恢复"}
+===== xdup-0180 中国工艺美术馆
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-21 L4896-L4915 slug=zhongguo-gongyi-meishuguan state=needs_evidence
+S: 1989年11月26日～12月6日，“全国工艺美术展览会”在新落成的中国工艺美术馆举行，展出作品5000余件（套）。中国工艺美术馆于此时新落成。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-56 L5953-L5972 slug=china-crafts-art-museum state=needs_evidence
+S: 1989年11月落成，同月26日—12月6日“全国工艺美术展览会”在新落成的中国工艺美术馆举行，展出作品5000余件（套）。
+F: {"location": "北京", "period": "1989年11月落成"}
+===== xdup-0181 中国美术馆
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-07 L4658-L4669 slug=zhongguo-meishuguan state=needs_evidence
+S: 1962年5月初，中国美术馆建成，开始展出我国近现代美术作品，包括绘画、雕塑、版画、工艺美术、民间艺术品等。同年5月23日，文化部和全国美协举办的“全国美术作品展览会”在该馆开幕，展出包括工艺美术设计图稿在内的作品355件。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-38 L5709-L5720 slug=national-art-museum-of-china state=needs_evidence
+S: 1962年5月初建成，开始展出我国近现代美术作品，包括绘画、雕塑、版画、工艺美术、民间艺术品等；此后年表中大量工艺美术与设计展览均在此举办。
+F: {"location": "北京", "period": "1962年5月初建成"}
+===== xdup-0182 中天电机厂
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-26 L4009-L4014 slug=zhongtian-dianjichang state=needs_evidence
+S: 中天电机厂于1932年初由实业家周仁斋与王汰甄在天津创办，寓意制造电机设备与西门子产品抗衡。当年7月制成两部军用携带机，年底生产我国第一部手摇磁石电话机；后测绘仿制西门子拨号盘，陆续生产1000部自动电话机，成为中国电话机工业的领头羊。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-28 L4946-L4972 slug=zhongtian-electric state=needs_evidence
+S: 1932年周仁斋、王汰甄在天津创办的电机工厂，寓意在天津制造电机设备与西门子抗衡；造出我国最早完全自行设计生产的通话机、第一部手摇磁石电话机，并仿制西门子拨号盘生产1000部自动电话机。
+F: {"location": "天津", "period": "1932"}
+===== xdup-0183 中央工艺美术科学研究所
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-02 L4586-L4593 slug=zhongyang-gongyi-meishu-kexue-yanjiu-suo state=needs_evidence
+S: 1956年11月，中央工艺美术科学研究所成立。该所出版《工艺美术通讯》。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-30 L5633-L5640 slug=central-crafts-science-institute state=needs_evidence
+S: 1956年11月与中央工艺美术学院同月成立，出版《工艺美术通讯》。
+F: {"location": "北京", "period": "1956年11月成立"}
+===== xdup-0184 中央美术学院
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-53 L4516-L4525 slug=zhongyang-meishu-xueyuan state=needs_evidence
+S: 中央美术学院于1950 年 4 月 1 日成立，设实用美术系，分为陶瓷、染织和印刷三科。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-23 L5561-L5572 slug=central-academy-of-fine-arts state=needs_evidence
+S: 1950年4月1日成立，设立实用美术系，分为陶瓷、染织和印刷三科。
+F: {"location": "北京", "period": "1950年4月1日成立"}
+===== xdup-0185 云锦研究工作组
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-42 L4190-L4220 slug=yunjin-yanjiu-gongzuozu state=needs_evidence
+S: 1954年6月南京市人民政府文化处组织云锦老艺人张福永、吉干臣和美术工作者成立“云锦研究工作组”，由陈之佛教授任组长，是新中国建立初期最早的工艺美术研究机构。工作组搜集整理云锦纹样画稿、培训艺徒，恢复失传品种“双面锦”“凹凸锦”。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-61 L5164-L5618 slug=yunjin-research-group state=needs_evidence
+S: 1954年6月南京市人民政府文化处组织云锦老艺人张福永、吉干臣和美术工作者成立的研究机构，陈之佛任组长，为新中国建立初期最早的工艺美术研究机构；恢复“双面锦”“凹凸锦”。1954年6月初由南京市人民政府文化处组织云锦老艺人张福永、吉干臣和部分美术工作者成立，陈之佛任组长，对南京云锦进行有计划的整理和研究工作。
+F: {"location": "南京", "period": "1954"}
+===== xdup-0186 亚平艺术装饰公司
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-79 L4013-L4013 slug=yaping-yishu-zhuangshi-gongsi state=needs_evidence
+S: 上海商业美术兴起时期出现的艺术设计企业，业务涵盖中西美术广告、商标盒样招贴图案、彩色封面及黑白画、活动或固定橱窗陈列、制绣及染织物图案、油漆路牌广告、舞台或会场布置、门面或室内装饰、撰编美术书籍、编辑宣传文稿、小工艺及玩具制作、家具设计、代制铜铅锌版等。同段还列中国商务广告公司、活动广告影片公司、生生美术公司。
+F: {"location": "上海", "period": "近代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-17 L4918-L4928 slug=yaping-art-decoration state=needs_evidence
+S: 民国上海的艺术设计企业，业务涵盖中西美术广告、商标盒样招贴图案、彩色封面及黑白画、橱窗陈列、制绣及染织物图案、油漆路牌广告、舞台或会场布置、门面或室内装饰、美术书籍、宣传文稿、小工艺及玩具、家具设计、铜铅锌版制作等。
+F: {"location": "上海", "period": "民国"}
+===== xdup-0187 内务府造办处
+-- 2004-gaofeng-zhongguo-shejishi:cand-07-07 L4961-L4983 slug=neiwufu-zaobanchu state=needs_evidence
+S: 清宫管理手工作坊的机构，下设木作、广木作及玻璃厂、珐琅作、金玉作、镶嵌作、漆作等众多作坊，集中全国挑选的匠师按宫廷要求制作家具与皇家用品。康熙、雍正时期有刘源、海望、年希尧等精通艺术的官员指导并参与家具设计，乾隆更逐件指示式样尺寸，其审美对清式家具形成影响很大。
+F: {"period": "清代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-20 L4341-L6330 slug=neiwufu-zaobanchu state=needs_evidence
+S: 清代宫廷作坊，珐琅彩在北京用进口珐琅彩料绘制；与明代内廷作坊同为宫廷家具制作机构，聚集能工巧匠。清代宫廷制造皇家御用品的专门机构，康熙年间成立至1924年，先后设60多个专业作坊。
+F: {"location": "北京", "period": "清代"}
+===== xdup-0188 南京市云锦研究所
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-03 L4594-L4607 slug=nanjing-yunjin-yanjiusuo state=needs_evidence
+S: 1957年7月，江苏省人民政府批准建立南京市云锦研究所。该所被称为新中国第一家工艺美术研究机构。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-32 L5641-L5656 slug=nanjing-yunjin-research-institute state=needs_evidence
+S: 1957年7月由江苏省人民政府批准建立，原文称其为新中国第一家工艺美术研究机构。
+F: {"location": "南京", "period": "1957年7月批准建立"}
+===== xdup-0189 商务印书馆
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-33 L4052-L4070 slug=shangwu-yinshuguan state=needs_evidence
+S: 商务印书馆对上海广告画家的培养起了很大作用：1920年招收练习生，有李泳青、杭稚英、金梅生、金雪尘、鲁少飞、戈湘岚、陈在新、张荻寒等人，并聘请德国、日本画家授课，还请吴待秋传授中国画，这些人后来成长为中国早期商业招贴广告设计专家。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-34 L4984-L5012 slug=shangwu-press state=needs_evidence
+S: 上海出版机构，1920年招收练习生李泳青、杭稚英、金梅生、金雪尘、鲁少飞等，聘德、日画家授课并请吴待秋授中国画，对培养上海广告画家起很大作用。
+F: {"location": "上海", "period": "1920"}
+===== xdup-0190 少府
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-123 L4851-L4878 slug=shaofu state=needs_evidence
+S: 少府是唐代与手工业设计管理相关的最高管理部门，行政长官为少府监，属从三品官员；武则天时期改为尚方监，有各种技术官员、工匠19850人。据《新唐书·百官志》，少府“掌百工技巧之政”，总中尚、左尚、右尚、织染、掌冶五署及诸冶、铸钱、互市等监。其机构设置为帝王贵族提供日常所需物品，分工细致导致制度严密、设计制作华丽富贵。
+F: {"period": "唐", "role": "手工设计制作最高管理部门"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-19 L827-L827 slug=shao-fu state=needs_evidence
+S: 汉代官营手工业主管机构，属下有尚方、考工室、若庐、东织西织、东园匠，分别负责制造皇宫所需器物、用具、兵器、纺织品、服饰、陵内器等，并设有作坊。
+F: {"location": "中央", "period": "汉代"}
+===== xdup-0191 尚美图案馆
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-23 L1307-L1313 slug=shang-mei-tu-an-guan state=needs_evidence
+S: 1923年陈之佛在上海创办，从事工业产品的图案设计，并通过实际工作培养设计人员；仅维持4年，但其集体协调的设计形式产生相当反响。
+F: {"location": "上海", "period": "1923年起"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-24 L4783-L4813 slug=shangmei-tu-an-guan state=needs_evidence
+S: 陈之佛在上海创办的图案设计机构，主要从事染织纹样设计。
+F: {"location": "上海", "period": "民国"}
+===== xdup-0192 故宫博物院
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-30 L1533-L1533 slug=palace-museum state=needs_evidence
+S: 原文载其藏有周墓出土的玉刀，上面残留回纹图案的织花痕迹，是西周织物的间接实物证据。
+F: {"location": "原文未载", "period": "原文未载"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-90 L794-L794 slug=gugong-bowuyuan state=needs_evidence
+S: 收藏商代铜戈把和玉女戈（疑“玉援戈”）附着丝织品痕迹的博物馆。原文据以说明商代提花织物为平纹地起四成六枚斜纹花。
+F: {"location": null, "period": "近现代"}
+===== xdup-0193 文思院
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-30 L3478-L3920 slug=wen-si-yuan state=needs_evidence
+S: 宋代工部所属官营手工业机构，掌金银犀玉工巧及采绘装钿之饰，其中金、银、牙、玉、织、绣等有42作。宋代少府监所属机构，是染织生产部门之一，院下有40多种作，包括绣作、克丝作；原文另记其42作中有玉作、犀作、牙作、雕木作、琥珀作等。
+F: {"location": "原文未记", "period": "宋代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-58 L2796-L2820 slug=wensiyuan state=needs_evidence
+S: 唐代宫廷金银作坊，原文据银熏炉铭文“咸通十年（869）文思院造”说明其对研究唐代宫廷金银作坊组织、官职设置、度量衡制度及器物定名具有历史价值。
+F: {"location": "宫廷", "period": "唐"}
+===== xdup-0194 江南制造总局
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-29 L4015-L4041 slug=jiangnan-zhizao-zongju state=needs_evidence
+S: 江南制造总局于1865年在曾国藩支持下由李鸿章在上海创办，是当时我国最大的兵工厂。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-062 L7513-L8560 slug=jiangnan-manufacturing-bureau state=needs_evidence
+S: 江南制造总局于1865年成立，开始造船和修船。原文把“造船”视为晚清洋务运动中向西方科学技术学习、揭开中国近代工业和科技发展序幕的标志之一，而不是把该局本身单独列为标志。
+F: {"period": "1865年"}
+===== xdup-0195 汲古阁
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-50 L1846-L1846 slug=jiguge state=needs_evidence
+S: 明清著名私家刻书机构，原文用以说明明清书坊、私宅刻书遍及各地及刻工匠人集聚。
+F: {"location": "未详（原文未记）", "period": "明清"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-22 L4619-L4656 slug=jiguge state=needs_evidence
+S: 明末常熟私家刻书坊，毛晋在此雇工刻书30年、刻书600余种，书板达10万余副，刻本远销国内外。
+F: {"location": "常熟", "period": "明末"}
+===== xdup-0196 申新纺织公司
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-20 L3900-L3910 slug=shenxin-fangzhi state=needs_evidence
+S: 申新纺织公司是荣宗锦、荣宗铨兄弟开办的当时全国最大的民营纺织企业，注册有“人钟”牌、“四平莲”牌、“宝塔”牌、“龙船”牌等近代名牌棉纱商标。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-23 L4816-L4821 slug=shenxin-textile state=needs_evidence
+S: 民国时期全国最大的民营纺织企业，由荣宗锦、荣宗铨兄弟开办，注册“人钟”“四平莲”“宝塔”“龙船”等名牌棉纱商标。
+F: {"location": "上海等地", "period": "民国"}
+===== xdup-0197 第二轻工业部
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-09 L4688-L4693 slug=di-er-qinggongyebu state=needs_evidence
+S: 1965年初，国务院决定撤销中央手工业管理总局，改建成立第二轻工业部，下设工艺美术局。同年6月，第二轻工业部在北京召开全国工艺美术创作设计会议。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-40 L5739-L5746 slug=second-ministry-of-light-industry state=needs_evidence
+S: 1965年初由国务院决定撤销中央手工业管理总局后改建成立，下设工艺美术局；同年6月在北京召开全国工艺美术创作设计会议。
+F: {"location": "北京", "period": "1965年初设立"}
+===== xdup-0198 船宫
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-88 L1926-L1963 slug=chuangong-shipyard state=needs_evidence
+S: 船宫是吴越所建的造船作坊。原文在“水战”段称南方吴、越、楚国与北方齐国造船业均非常发达，吴越建有“船宫”。
+F: {"location": "吴越", "period": "春秋战国"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-32 L1368-L1371 slug=chuangong state=needs_evidence
+S: 原文称南方楚、吴、越出现专门的造船工场——船宫，与最早的水军舟师并见。
+F: {"location": "长江流域", "period": "春秋战国"}
+===== xdup-0199 轮船招商局
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-30 L4015-L4041 slug=lunchuan-zhaoshangju state=needs_evidence
+S: 轮船招商局于1872年由李鸿章创办，是当时国内最大的轮船航运公司，开机器内河航运之先。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-26 L4946-L4972 slug=lunchuan-zhaoshangju state=needs_evidence
+S: 1872年李鸿章创办的当时国内最大轮船航运公司，开机器内河航运之先。
+F: {"location": "上海", "period": "1872"}
+===== xdup-0200 金银作坊院
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-52 L2225-L2231 slug=jinyin-zuofang-yuan state=needs_evidence
+S: 唐代“官作”金银器制作机构，设于中尚署之下；与民间“行作”金银行、金银铺并存。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-68 L3292-L3292 slug=gold-silver-workshop state=needs_evidence
+S: 唐代官营金银手工业机构，属少府监中尚署直属，即“官作”；非官方经营的称“行作”，质量差者称“行滥”。
+F: {"period": "唐"}
+===== xdup-0201 铸镜局
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-35 L3871-L3871 slug=zhujingju state=needs_evidence
+S: 南宋湖州、饶州所设铸镜机构，两地所产铜镜多有柄、素地无纹，镜背一旁有长方形阴刻款式注明铸镜地及名号；因宋时缺铜禁铜、官方严格管理生产，有刻款的才可携带。
+F: {"location": "湖州、饶州", "period": "南宋"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-37 L3373-L3388 slug=zhujing-ju state=needs_evidence
+S: 宋代官办铜镜铸造机构。宋代铜镜分官办“铸镜局”所造与民间作坊制作两类，官工镜制作较精巧，民间多素背薄镜。
+F: {"location": "未载", "period": "宋"}

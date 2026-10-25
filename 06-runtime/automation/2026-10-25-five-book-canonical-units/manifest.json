@@ -1,0 +1,122 @@
+{
+  "work_package": "2026-10-25-five-book-canonical-units",
+  "goal": "Second write-back batch: fold the 75 unit candidates that are recalled in all five remaining source documents (Books 2-6) across 15 entity groups into 15 canonical knowledge units, and record how every duplicate candidate was resolved.",
+  "status": "applied",
+  "created_at": "2026-10-25T14:10:00+08:00",
+  "updated_at": "2026-10-25T15:05:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:61d2a548e82fa022f41729c978e6c3dcc39f24f24ec6e29639a41f048b5cf52e",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in five source documents (doc_count = 5) and passing cross-source alias review",
+    "group_ids": ["xdup-0008", "xdup-0009", "xdup-0010", "xdup-0011", "xdup-0013", "xdup-0014", "xdup-0015", "xdup-0016", "xdup-0017", "xdup-0018", "xdup-0019", "xdup-0020", "xdup-0021", "xdup-0022", "xdup-0023"],
+    "excluded_neighbour_group": "xdup-0012 (荀子) has doc_count = 4 and is not a five-book group; left pending for a later batch",
+    "groups": 15,
+    "candidate_rows": 75,
+    "canonical_candidates": 15,
+    "rejected_duplicate_candidates": 60,
+    "unit_types": {
+      "institution": 2,
+      "person": 2,
+      "place": 2,
+      "procedure": 1,
+      "publication": 2,
+      "term": 5,
+      "work": 1
+    }
+  },
+  "method": {
+    "semantic_step": "Per-group cross-source re-read of all five Markdown sources plus targeted line verification; every source disagreement (dates, counts, name spellings, site identifications, technique origins) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining four same-name candidates transition to rejected with a reason naming the canonical target.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 15 create actions, no update or delete."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-five-book-canonical-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-five-book-canonical-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/institutions/central-academy-arts-design.md",
+      "04-knowledge/units/institutions/shaofujian.md",
+      "04-knowledge/units/persons/mozi.md",
+      "04-knowledge/units/persons/song-yingxing.md",
+      "04-knowledge/units/places/cizhou-kiln.md",
+      "04-knowledge/units/places/xing-kiln.md",
+      "04-knowledge/units/procedures/lost-wax-casting.md",
+      "04-knowledge/units/publications/yuan-ye.md",
+      "04-knowledge/units/publications/xiu-shi-lu.md",
+      "04-knowledge/units/terms/tang-sancai.md",
+      "04-knowledge/units/terms/painted-pottery.md",
+      "04-knowledge/units/terms/ming-style-furniture.md",
+      "04-knowledge/units/terms/kesi.md",
+      "04-knowledge/units/terms/lingyang-gong-pattern.md",
+      "04-knowledge/units/works/changxin-palace-lamp.md"
+    ]
+  },
+  "canonical_mapping": [
+    {"entity": "中央工艺美术学院", "group_id": "xdup-0008", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-67", "target_ref": "04-knowledge/units/institutions/central-academy-arts-design.md", "source_count": 5},
+    {"entity": "少府监", "group_id": "xdup-0009", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-27", "target_ref": "04-knowledge/units/institutions/shaofujian.md", "source_count": 5},
+    {"entity": "墨子", "group_id": "xdup-0010", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-51", "target_ref": "04-knowledge/units/persons/mozi.md", "source_count": 5},
+    {"entity": "宋应星", "group_id": "xdup-0011", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-07", "target_ref": "04-knowledge/units/persons/song-yingxing.md", "source_count": 5},
+    {"entity": "磁州窑", "group_id": "xdup-0013", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-15", "target_ref": "04-knowledge/units/places/cizhou-kiln.md", "source_count": 5},
+    {"entity": "邢窑", "group_id": "xdup-0014", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-37", "target_ref": "04-knowledge/units/places/xing-kiln.md", "source_count": 5},
+    {"entity": "失蜡法", "group_id": "xdup-0015", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-33", "target_ref": "04-knowledge/units/procedures/lost-wax-casting.md", "source_count": 5},
+    {"entity": "园冶", "group_id": "xdup-0016", "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-46", "target_ref": "04-knowledge/units/publications/yuan-ye.md", "source_count": 5},
+    {"entity": "髹饰录", "group_id": "xdup-0017", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-09", "target_ref": "04-knowledge/units/publications/xiu-shi-lu.md", "source_count": 5},
+    {"entity": "唐三彩", "group_id": "xdup-0018", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-03", "target_ref": "04-knowledge/units/terms/tang-sancai.md", "source_count": 5},
+    {"entity": "彩陶", "group_id": "xdup-0019", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-28", "target_ref": "04-knowledge/units/terms/painted-pottery.md", "source_count": 5},
+    {"entity": "明式家具", "group_id": "xdup-0020", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-07", "target_ref": "04-knowledge/units/terms/ming-style-furniture.md", "source_count": 5},
+    {"entity": "缂丝", "group_id": "xdup-0021", "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-17", "target_ref": "04-knowledge/units/terms/kesi.md", "source_count": 5},
+    {"entity": "陵阳公样", "group_id": "xdup-0022", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-02", "target_ref": "04-knowledge/units/terms/lingyang-gong-pattern.md", "source_count": 5},
+    {"entity": "长信宫灯", "group_id": "xdup-0023", "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-03-03", "target_ref": "04-knowledge/units/works/changxin-palace-lamp.md", "source_count": 5}
+  ],
+  "source_variance_notes": [
+    "中央工艺美术学院: 副院长用字 庞薰琍 (2009) / 庞薰杲 (2016); 附设机构 中央工艺美术研究所 / 中央工艺美术科学研究所.",
+    "少府监: 玄宗时工匠数 八百多人 (田自秉) vs 少府监与将作监各万余人 (夏燕靖 2009/2016).",
+    "墨子: 生卒四说 — 约前 468-前 396 (高丰), 前 468-前 376 (赵农, 亦见 2016 一处), 前 478-前 392 (2016 主条).",
+    "宋应星: 《天工开物》成书/刊行 1636 (李立新) vs 1637 (高丰/赵农/夏燕靖 2016).",
+    "磁州窑: 元代地位 衰落 (高丰) vs 元代名窑且元初设官窑课税 (夏燕靖 2016).",
+    "邢窑: 主要窑址 至今尚未发现 (夏燕靖 2009/2016) vs 1980 年临城普查发现唐窑址 (田自秉).",
+    "失蜡法: 出现上限 春秋早中期 (高丰) vs 春秋晚期至战国 (夏燕靖 2009/2016).",
+    "园冶: 成稿 1631 / 刊行 1634 (夏燕靖 2016) vs 泛称明末 (赵农).",
+    "髹饰录: 作者 黄成 (高丰) vs 黄大成 (田自秉); 成书 隆庆年间 (高丰) vs 天启年间 (夏燕靖 2016).",
+    "唐三彩: 器类 四大类 (高丰) vs 三类 (田自秉); 烧成 一次约 900℃ (高丰) vs 素烧 1000-1100℃ 加釉烧 900℃ (夏燕靖).",
+    "彩陶: 夏燕靖 2009 “也称仰韶文化”的表述在 2016 版被自注为倒置; 五型划分仅田自秉给出.",
+    "明式家具: 用材清单与六大类器类划分仅部分来源给出; 概念史 (杨耀, 1930 年代) 仅高丰记录.",
+    "缂丝: 田自秉书该节标题原文误作“绯丝”, 正文作“缂丝”; 本批按正文统一.",
+    "陵阳公样: 人名 窦师伦 (高丰) vs 窦师纶 (田自秉/李立新); 母题 对雉 (高丰) vs 对鸡 (田自秉); 2016 原文误作“对风”."
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 15,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All fifteen units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified."
+  },
+  "validation": {
+    "discovery_index": {"total": 5339, "applied": 22, "needs_evidence": 5221, "rejected": 96, "issues": []},
+    "sync_closure": "passed (run_sync_closure.py --refresh-generated --full --check-generated)",
+    "content_quality": {"total_findings": 0, "units_audited": 22},
+    "relation_consistency": {"broken_targets": 0, "invalid_relation_types": 0, "missing_inverse": 0, "weak_evidence": 0, "isolated_units": 22},
+    "structural_health": "122/130",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 15 rows verified against disk (sha256, bytes, lines)"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only).",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (authorship, dates, counts, site identifications, name spellings) are preserved, not reconciled.",
+    "xdup-0012 (荀子, doc_count = 4) intentionally left out of this batch."
+  ]
+}

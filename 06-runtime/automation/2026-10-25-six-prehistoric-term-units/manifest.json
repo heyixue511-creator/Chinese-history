@@ -1,0 +1,164 @@
+{
+  "work_package": "2026-10-25-six-prehistoric-term-units",
+  "goal": "第五批术语写回：把跨册召回的史前考古学文化、旧石器时代与器物形制 6 个同名组（18 条候选）归并为 6 个知识元，并把每条候选的处置写入追加式台账。本批全部为 create，不修订既有 KU。",
+  "status": "applied",
+  "created_at": "2026-10-25T14:41:00+08:00",
+  "updated_at": "2026-10-25T15:00:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:320eaa5746daa627524796ec3504d67a651b27af60564862de16f597151737cb（7,153,006 B，5,339 行）",
+    "candidate_index_after_apply_fingerprint": "sha256:ca90539131f7b5211a35f5570757ced2994b157f1d93b0e56be00ea584d3ddec（7,156,734 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-five-book-ceramic-term-units/manifest.json",
+    "source_scope": "仅前六册（Books 1-6）；Book 7 及以后按用户指令不启动"
+  },
+  "scope": {
+    "group_rule": "史前考古学文化、旧石器时代与三足炊器器形的 doc_count=3 同名组；已由既有 KU 覆盖的组不在本批；候选须仍为 needs_evidence",
+    "group_ids": [
+      "xdup-0118",
+      "xdup-0125",
+      "xdup-0134",
+      "xdup-0136",
+      "xdup-0144",
+      "xdup-0145"
+    ],
+    "groups": 6,
+    "candidate_rows": 18,
+    "canonical_candidates": 6,
+    "rejected_duplicate_candidates": 12,
+    "created_units": 6,
+    "updated_units": 0,
+    "unit_types": {
+      "term": 6
+    },
+    "sub_types": {
+      "archaeological_culture": 4,
+      "archaeological_period": 1,
+      "vessel_form": 1
+    },
+    "merge_note": "每组均为 3 条候选、3 册 doc_count；canonical 均取 proposed_slug 与最终文件名一致者，无一致者取 2016 夏燕靖升级版候选。鬲组例外：2016 与赵农候选的 slug 均为 li-vessel，2009 候选为 li-cauldron，与最终文件名 li-cauldron.md 一致，故 canonical 取 2009 候选。"
+  },
+  "method": {
+    "semantic_step": "逐组跨册复读召回的 Markdown 原文，并按需扩读同册上下文；逐条比对文化命名、分布、年代、类型划分、器物形制与工艺数据，分歧一律并列保留，不按册数或偏好裁定。",
+    "canonical_rule": "每组选 1 个代表候选晋升为知识元；优先选 proposed_slug 与最终文件名一致的候选，无一致者取 2016 夏燕靖升级版候选；同组其余候选转 rejected 并指向同一 target_ref。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（canonical）；needs_evidence -> rejected（同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl；历史 R1 台账不改动。",
+    "write_back": "精确变更集：6 个 create，无 update、无 delete；create 的 sha256/bytes/lines 均按 CRLF→LF 归一后计算。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-six-prehistoric-term-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-six-prehistoric-term-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/dawenkou-culture.md",
+      "04-knowledge/units/terms/paleolithic-period.md",
+      "04-knowledge/units/terms/hongshan-culture.md",
+      "04-knowledge/units/terms/liangzhu-culture.md",
+      "04-knowledge/units/terms/majiayao-culture.md",
+      "04-knowledge/units/terms/li-cauldron.md"
+    ],
+    "updated_units": []
+  },
+  "canonical_mapping": [
+    {
+      "target_ref": "04-knowledge/units/terms/dawenkou-culture.md",
+      "entity": "大汶口文化",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-81",
+      "merged_group_ids": ["xdup-0118"],
+      "source_docs": ["2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 6
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/paleolithic-period.md",
+      "entity": "旧石器时代",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-17",
+      "merged_group_ids": ["xdup-0125"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 6
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/hongshan-culture.md",
+      "entity": "红山文化",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-82",
+      "merged_group_ids": ["xdup-0134"],
+      "source_docs": ["2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 5
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/liangzhu-culture.md",
+      "entity": "良渚文化",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-53",
+      "merged_group_ids": ["xdup-0136"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 6
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/majiayao-culture.md",
+      "entity": "马家窑文化",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-46",
+      "merged_group_ids": ["xdup-0144"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 6
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/li-cauldron.md",
+      "entity": "鬲",
+      "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-84",
+      "merged_group_ids": ["xdup-0145"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 6
+    }
+  ],
+  "source_variance_notes": [
+    "大汶口文化：田自秉把大汶口整体列为母系向父系转化期代表（彩陶以壶最多、约当仰韶晚期或龙山早期）；夏燕靖 2016 只把大汶口晚期定为父系氏族社会典型。称谓有「大汶口氏族」（2016 L310）对「大汶口文化」；陶尊符号释读有「旦」（于省吾）／「炅」（唐兰）两说；高柄黑陶杯、薄胎黑陶等图版未做视觉核对。",
+    "旧石器时代：蓝田人 80—60 万年（夏燕靖 2016）对 110—115 万年（李立新）；北京人 60—70 万年（高丰）对 70—20 万年（李立新）；山顶洞约 1.8 万年（夏燕靖 2016）／17000 多年（田自秉）／18000 多年（高丰）；丁村 30 万年（田自秉）对其余各册「中期」；中国最早工具 200—240 万年（高丰）／160 多万年（李立新）／300 万年（夏燕靖两版的设计起源上限）。2009 与 2016 知识链接另有四处异文（端刮器／削刮器、鉴河／监河、100 万年以后／以前，2016 增「其特点是粗砺打制石器」）；迳河（2009、70—80 万年）／苍河（2016、80—70 万年）异写照录。",
+    "红山文化：祭祀遗迹称谓三家不同——赵农「祭祀垒石」、李立新「祭坛」、夏燕靖 2016「牛河梁建筑遗存」；玉龙名称「大玉龙」（田自秉，C 型 42.2 cm 绿玉佩饰品）／「玉雕龙」／「曲体玉龙」／「玉龙」；夏燕靖 2009 全册无红山，为册级缺位而非检索遗漏。",
+    "良渚文化：田自秉、夏燕靖两版把良渚列为龙山文化四类型之一；李立新列为独立「东南良渚文化设计区」；赵农、高丰按独立文化处理。田自秉年代表把良渚列入「青铜时代」栏并标「个别的彩陶」，与夏燕靖 2016 古城「公元前2600—前2300年」「中华第一城」说不一致。另有石犁是否用于犁耕的学界争议、反山墓地「1100 余件组／3200 余件」两套计数、鱼鳍形足陶鼎与嵌玉高柄朱漆杯的定名。",
+    "马家窑文化：夏燕靖两版把半山、马厂作为马家窑文化内部三类型；田自秉把马家窑型、半山型、马厂型作为三个独立彩陶类型，与半坡、庙底沟并列比较。年代口径两套：公元前3300—前2050（夏燕靖）对距今年代约 5000／4500／4000（田自秉表）。彩陶占比 25%—50%、陪葬陶器 80% 仅 2016 给出；烧成温度 800℃—1050℃ 仅李立新；舞蹈纹盆含义五说；「最早青铜器」有马家窑铜刀与商早期两说，均照录不裁定。",
+    "鬲：起源三说——由鼎改进（夏燕靖 2009、田自秉、高丰）／「从陶鬲再由鼎演变而来」（夏燕靖 2016 同册异说）／斝形器或釜（李立新）。器名异写「刖足奴铜鬲」／「削足奴铜鬲」／「剑刑奴隶守门鬲」；读音「音力」、煮粥功能与《尔雅》《汉书》训诂仅田自秉；「煮粥」对「煮食器」的功能表述并存；西周方鬲（陕西扶风庄）仅 2016；宋元龙泉窑仿古鬲仅赵农。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 6,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "6 个 KU 均为 confidence=medium、consensus=tentative、evidence_status=source_backed；未标记 confirmed、externally_verified 或 L1-L7 已验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 118,
+      "needs_evidence": 4902,
+      "rejected": 319,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 146
+    },
+    "structural_health": "122/130（知识结构完整性 55/65、证据链完整性 55/55、层级完整挂载 0/146；Theme/Topic 未 materialize，非本批可改善项）",
+    "apply_plan_hash_check": "6 行 create 已按 CRLF→LF 归一核对 sha256、bytes、lines，全部一致",
+    "pre_commit_check": "passed（规则漂移 0）",
+    "sync_closure": "passed（run_sync_closure.py --refresh-generated --full --check-generated；19 步；250 tests + 16 subtests）",
+    "fingerprint_note": "候选台账应用前 candidate-index.jsonl 为 sha256:320eaa57…（7,153,006 B，5,339 行）；应用后为 sha256:ca90539…（7,156,734 B，5,339 行）。文件由 build_discovery_index.py 按仓库惯例写回 CRLF，行数不变；字节增量 3,728 B 全部来自本批 18 行（6 applied + 12 rejected）的 decision 与 target_ref 字段。重跑生成器与 sync closure 后指纹不变。"
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台；证据仅限六册 Markdown 文本。",
+    "未做图版或器物的视觉核对；未查考古发掘报告与《中国考古学》卷册。",
+    "primary_theme 与 topic_memberships 留空，因 Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；跨条目的共现只作非断言性叙述。",
+    "来源分歧（年代、类型划分、起源、命名）一律保留，不做调和。",
+    "相邻但未立条的实体（仰韶、龙山、河姆渡、彩陶、鼎等）沿用既有 KU，本批不重复写入。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

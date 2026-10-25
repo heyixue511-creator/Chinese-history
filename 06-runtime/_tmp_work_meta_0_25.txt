@@ -1,0 +1,162 @@
+===== xdup-0499 提璧茶具
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-44 L4225-L4274 slug=tibi-chaju state=needs_evidence
+S: 提璧茶具是上世纪50年代紫砂工艺师顾景舟与中央工艺美术学院高庄教授合作创作的经典之作，开创了玉文化与紫砂造型艺术融于一体的设计新理念。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-66 L5204-L5275 slug=tibi-teaset state=needs_evidence
+S: 20世纪50年代顾景舟与中央工艺美术学院高庄教授合作创作的紫砂茶具，开创玉文化与紫砂造型艺术融于一体的设计新理念。
+F: {"category": "紫砂茶具", "period": "1950年代", "title": "提璧茶具"}
+===== xdup-0500 曾侯乙尊盘
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-140 L2192-L2252 slug=zenghouyi-zun-pan state=needs_evidence
+S: 曾侯乙尊盘出土于湖北随县曾侯乙墓，尊立于盘上。尊盘上下以繁缛的透雕处理，体现了春秋战国时期的熔模设计技术。
+F: {"category": "青铜尊盘", "location": "湖北随县曾侯乙墓", "period": "战国", "title": "曾侯乙尊盘"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-26 L1113-L1121 slug=zenghouyi-zunpan state=needs_evidence
+S: 曾侯乙墓出土铜尊、铜盘均由内外两层铜梗组成，透空附饰纤细齐整，是春秋战国青铜冶铸与设计精品。
+F: {"category": "青铜礼器", "period": "战国早期", "title": "曾侯乙尊盘"}
+===== xdup-0501 木牛流马
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-100 L1879-L1890 slug=mu-niu-liu-ma state=needs_evidence
+S: 蜀汉蒲元为解决山道运粮困难而发明的独轮车，“廉仰双辕，人行六尺，牛行四步，人载一岁粮”，适用于崎岖小道上人力运输。原文称这是重要的造车设计，表明当时技术水平已相当高超。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-44 L3317-L3335 slug=muniu-liuma state=needs_evidence
+S: 诸葛亮在蜀国山地的军事运输中推广使用了一种独轮车，被传奇地称为“木牛流马”；木牛流马利用独轮车的结构，改善了山地长途运输功能，提高了蜀国军队的战斗供需能力。《三国志·蜀书·诸葛亮传》载“九年，亮复出祁山，以木牛运……十二年春，亮悉大众由斜谷出，以流马运”；木牛“载一岁粮，日行二十里，而人不大劳”。宋代高承《事物纪原》称“木牛即今小车之有前辕者，流马即今之独推者是”。
+F: {"category": "运输工具（独轮车）", "period": "三国", "title": "木牛流马"}
+===== xdup-0502 栾书缶
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-18 L872-L882 slug=luan-shu-fou state=needs_evidence
+S: 春秋时期青铜器‘栾书缶’上有错金铭文40余字，被用作春秋中期错金银工艺有所发展的例证。该器铭文是说明当时错金技术水平的实物材料。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-36 L1122-L1127 slug=luanshu-fou state=needs_evidence
+S: 春秋时期栾书缶上有错金铭文40余字，是春秋中期错金银工艺发展的实例。
+F: {"category": "青铜缶", "period": "春秋", "title": "栾书缶"}
+===== xdup-0503 毛公鼎
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-08 L1487-L1647 slug=maogong-ding state=needs_evidence
+S: 毛公鼎是西周青铜器，图注见“图 2-42 西周 毛公鼎”。其长篇铭文被视为西周珍贵文献，与《史墙盘》《大盂鼎》《虢季子白盘》《多友鼎》并列。《毛公鼎》有479个文字，记述当时复杂的社会事件。
+F: {"category": "青铜鼎", "period": "西周", "title": "毛公鼎"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-133 L744-L744 slug=mao-gong-ding state=needs_evidence
+S: 毛公鼎是西周后期鼎耳渐外移、口渐敞、下腹内收使器身成半球形、足成兽蹄形的代表器之一，与大克鼎并举；原文未展开形制描述，图版未视觉核验。
+F: {"category": "青铜鼎", "period": "西周后期", "title": "毛公鼎"}
+===== xdup-0504 水碓
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-104 L2786-L2812 slug=water-powered-pestle state=needs_evidence
+S: 东汉时期出现水碓和畜力碓，利用自然和牲畜的力量加工粮食作物。水碓将水流作为动力，带动齿轮旋转，然后用杵棒敲击谷物，减轻了人们的劳作；东汉《新语》有“及役水而春，其利乃百倍”的说法。
+F: {"category": "粮食加工器具", "period": "东汉", "title": "水碓"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-62 L2010-L2013 slug=shui-dui state=needs_evidence
+S: 西汉末年出现的以水为动力的粮食加工机械，利用水力驱动碓头舂米，极大提高了舂米效率；图4-35为西汉水碓模型。
+F: {"category": "粮食加工机械", "period": "西汉末年"}
+===== xdup-0505 水陆攻战纹鉴
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-03 L1764-L1770 slug=shuilu-gongzhanwen-jian state=needs_evidence
+S: 战国青铜鉴，1935年河南汲县山彪镇出土。外壁用红铜镶嵌水陆射杀、格斗等战争场面，战士束腰佩剑，有张弓、持戟、架梯、荡桨、首级落地、奔跑呼叫等姿态，共约300人；器现藏台湾省。
+F: {"category": "青铜鉴", "period": "战国", "title": "水陆攻战纹鉴"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-83 L761-L764 slug=shuilu-gongzhan-jian state=needs_evidence
+S: 战国水陆攻战纹鉴，图注为“水陆攻战纹鉴中腹图形”。原文据其纹样说明战船分两层、上层作战下层划桨、船底双层（图1—30）。
+F: {"category": "青铜器", "period": "战国", "title": "水陆攻战纹鉴"}
+===== xdup-0506 永乐宫
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-37 L6154-L6203 slug=yongle-palace state=needs_evidence
+S: 永乐宫位于山西永济，是元代著名的道观。三清殿是永乐宫的重要建筑，为七间阔单檐四坡顶结构，因供奉玉清元始天尊、上清灵宝天尊、太清道德天尊而名“三清殿”。三清殿四壁绘有著名壁画《朝元图》，绘画面积达400多平方米。永乐宫因20世纪50年代修建黄河三门峡水库而迁移到山西芮城。
+F: {"category": "道观", "location": "山西永济（后迁芮城）", "period": "元代", "title": "永乐宫"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-21 L3979-L3999 slug=yongle-gong state=needs_evidence
+S: 元代为皇帝祈福而建的道教建筑群，宫墙基座、门廊、石阶石雕融会道佛纹饰，既有道家植物花草，又有西汉以来西域忍冬、葡萄、联珠圈纹，基本反映金元之际官式建筑特点。
+F: {"category": "道教建筑群", "period": "元代", "title": "永乐宫"}
+===== xdup-0507 海鹘战船
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-63 L2283-L2290 slug=sea-falcon-warship state=needs_evidence
+S: 唐代出现的战船，造型独特，头低尾高，前大后小，船舷两侧设浮板起平衡作用；如此设计使船具有良好的抗沉性和稳定性。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-64 L2851-L2863 slug=haigu-zhanchuan state=needs_evidence
+S: 唐代战船，造型独特，头低尾高、前大后小，船舷两侧有浮板起平衡作用，原文称其具有良好的抗沉性和稳定性。
+F: {"category": "战船", "period": "唐", "title": "海鹘战船"}
+===== xdup-0508 清明上河图
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-14 L5143-L5694 slug=qingming-shanghe-tu state=needs_evidence
+S: 宋代张择端所绘长卷，描绘汴梁繁华社会景象，绘城楼、桥梁、船只、车马、旅店、酒肆、商铺、寺院及各类人物810多个，是研究宋代城市和环境设计的重要资料。图中还可见商业广告幌子、虹桥、折叠桌、大小船28余艘等细节，原文多次据以论证宋代城市、桥梁、家具与船舶。
+F: {"category": "绘画", "period": "宋", "title": "清明上河图"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-32 L3331-L3370 slug=qingming-shanghe-tu state=needs_evidence
+S: 北宋张择端所绘，描绘东京汴梁商号店铺、招牌、幌子、横匾、对联等商业设计，以及数百名各行各业人士的各异服式，是研究宋代商业美术与服饰的重要图像材料。原文两次引及。
+F: {"category": "绘画/风俗长卷", "period": "北宋", "title": "清明上河图"}
+===== xdup-0509 玉平脱双葡萄镜
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-78 L2399-L2404 slug=jade-pingtuo-double-grape-mirror state=needs_evidence
+S: 五代平脱器中的精美者，在前蜀王建墓出土镜匣中得见；其做法是在铜镜背面用漆平脱出双玉葡萄，可知当时在铜器上也可髹漆并平嵌宝石花纹。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-80 L2982-L2985 slug=yu-pingtuo-shuang-putao-jing state=needs_evidence
+S: 原文在述前蜀王建墓镜匣时提到的平脱铜镜，在铜镜背面用漆平脱出双玉葡萄，说明当时铜器上也可髹漆并平嵌宝石花纹。
+F: {"category": "铜镜", "period": "五代", "title": "玉平脱双葡萄镜"}
+===== xdup-0510 秦兵马俑
+-- 2004-gaofeng-zhongguo-shejishi:cand-03-11 L2213-L2226 slug=qin-bing-ma-yong state=needs_evidence
+S: 1974年秦始皇陵东侧出土的陶制兵马俑，共7000余件，身高1.75–1.85米、最高1.98米。采用模塑结合、分工制作、套合粘接初胎，再覆细泥并综合塑、堆、贴、刻、画技法，兼具整体造型与局部刻画。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-124 L2930-L2987 slug=terracotta-army state=needs_evidence
+S: 1974年3月，当地西杨村几个农民挖井时挖出陶俑头和许多碎片，文物部门勘探确定秦始皇兵马俑一号坑范围，为东西长230米、南北宽62米的坑；1976年又陆续发现二号坑、三号坑，总计推测约有8000余件陶质兵马俑。一号坑是步兵和战车混编的主力部队，二号坑是战车、射手、骑兵混编，三号坑是统帅指挥部；目前出土武士俑2000余件、陶马100多匹、木质战车20辆。兵马俑造型以写实为主，按真人大小，对发饰、甲衣、靴式等有细致刻画。
+F: {"category": "陶塑/陪葬坑", "location": "秦始皇陵附近", "period": "秦", "title": "秦兵马俑"}
+===== xdup-0511 秦始皇陵
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-51 L1576-L1589 slug=qin-shi-huang-ling state=needs_evidence
+S: 位于陕西临潼，是秦代最具代表性的营造之作。陵区规模宏大，墓冢高76米、底边宽485米、长515米；据史料记载征用民夫70万人、用37年建成。陵内宛如地下宫殿，棺椁周围铸满铜汁，设百官、摆珍宝，以人鱼膏为烛，宫室之外灌输水银象征江河湖海，“上具天文，下具地理”；陵墓南屏骊山、北临渭水，陵东1.5公里处为兵马俑坑。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-117 L2841-L3011 slug=mausoleum-of-qin-shihuang state=needs_evidence
+S: 《史记·秦始皇本纪》记始皇初即位即穿治郦山，并天下后以七十余万人穿三泉、下铜而致椁，宫观百官奇器珍怪徙臧满之，令匠作机弩矢，并以水银为百川江河大海、上具天文下具地理。作者认为这是将地理概念用于陵墓地宫，体现了帝王专制心理的膨胀。秦始皇陵今仅遗存一个巨大的覆斗型封丘。
+F: {"category": "陵墓", "period": "秦", "title": "秦始皇陵"}
+===== xdup-0512 秦始皇陵兵马俑
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-05 L1283-L1301 slug=qin-shi-huang-ling-bing-ma-yong state=needs_evidence
+S: 秦始皇陵出土的大量秦俑和随葬品，原文称其设计精良、制造宏伟、规模庞大，为后世留下珍贵文化遗产。图4-1标注为“秦代 秦始皇陵兵马俑”，陵东1.5公里处即闻名于世的兵马俑坑。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-83 L1609-L1619 slug=qinshihuang-ling-bingmayong state=needs_evidence
+S: 秦始皇陵出土的大量秦俑和随葬品，原文称其品种多样、制作精良、材质上乘，为后世留下珍贵文化遗产。据原文，图版未视觉核验。
+F: {"category": "陶俑群", "period": "秦代", "title": "秦始皇陵兵马俑"}
+===== xdup-0513 绿釉陶楼
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-52 L1576-L1589 slug=lv-you-tao-lou state=needs_evidence
+S: 汉代墓葬遗存的陶楼，能体现汉代楼阁式建筑式样。汉代建筑以楼阁形式较为典型，一般由台基、门楼和五层楼阁组成，各层门窗、屋脊、栏杆等部位饰有人物、花鸟等纹样；绿釉陶楼直观再现建筑的形制特征和建造技巧，是汉代陶塑中不可多得的上乘之作，并反映东汉末年皇室衰微、地方豪强构筑庄园坞堡、拥兵自卫的社会现实。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-24 L1949-L1962 slug=lv-you-tao-lou state=needs_evidence
+S: 汉代墓葬出土的绿釉陶楼是体现汉代楼阁式建筑式样的明器，一般由台基、门楼和五层楼阁组成，各层门窗、屋脊、栏杆饰人物、花鸟等纹样；它直观再现汉代建筑形制与建造技巧，也反映东汉末年皇室衰微、地方豪强构筑庄园坞堡的社会现实。
+F: {"category": "建筑明器", "period": "东汉", "title": "绿釉陶楼"}
+===== xdup-0514 舞蹈人物动物纹三色锦
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-34 L981-L987 slug=wu-dao-ren-wu-dong-wu-wen-san-se-jin state=needs_evidence
+S: 湖北江陵出土的战国锦古朴富丽、颜色多达6种，其中舞蹈人物动物纹三色锦纹样最为复杂。它由7个单元组成横贯全幅的花纹，经向长5.5厘米、纬向宽49.1厘米，经纬密度为156×52根/平方厘米，表明战国时已有较先进的提花机和熟练的织造技术。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-10 L1243-L1251 slug=wudao-renwu-dongwu-wen-sanse-jin state=needs_evidence
+S: 湖北江陵出土战国锦中最复杂者，由7个单元组成横贯全幅花纹，经向长5.5厘米、纬向宽49.1厘米，经纬密度156×52根/平方厘米，原文据此推断战国已有较先进提花机与熟练织造技术。
+F: {"category": "织锦", "period": "战国", "title": "舞蹈人物动物纹三色锦"}
+===== xdup-0515 花鸟人物螺钿镜
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-12 L3392-L3392 slug=hua-niao-ren-wu-luo-dian-jing state=needs_evidence
+S: 1956年洛阳唐墓出土的螺钿铜镜，镜面花树下老者弹琴、另一老者持杯倾听、后立侍童，镜纽下刻山石、鸳鸯、小鸟、仙鹤，人物衣纹、鸟羽、叶脉均细线刻划，螺片空间似用松石屑填饰且多脱落。
+F: {"category": "螺钿铜镜", "period": "唐代", "title": "花鸟人物螺钿镜"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-01 L1642-L1648 slug=huaniao-renwu-luodian-jing state=needs_evidence
+S: 唐代铜镜，图5-8图注所记。原文将其作为青铜器失去礼制作用后转向日用、仍有珍稀之品的例证之一；图版未视觉核验。
+F: {"category": "铜镜", "period": "唐代", "title": "花鸟人物螺钿镜"}
+===== xdup-0516 莲花尊
+-- 2004-gaofeng-zhongguo-shejishi:cand-04-06 L2568-L2667 slug=lianhua-zun state=needs_evidence
+S: 三国两晋南北朝最具时代特色的青瓷造型。河北景县出土四件仰覆莲花尊，最高40厘米，综合印贴、刻划、堆塑，腹部作上覆下仰莲花浮雕，并饰飞天、宝相花、兽面、螭龙，佛教色彩浓厚；南京林山梁代大墓出土两件同型器，大者高达85厘米。
+F: {"period": "南北朝"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-58 L2788-L2788 slug=lianhua-zun state=needs_evidence
+S: 六朝青瓷名器，河北景县与湖北武昌均有出土，景县所出更繁复：下部向上莲瓣三层、上部向下莲瓣三层、底部亦作莲瓣，共七层，肩有耳，颈部塑花鸟云龙，高66.5厘米、口径19.2厘米，现陈列故宫博物院（彩版18）。
+F: {"category": "瓷器", "period": "六朝", "title": "莲花尊"}
+===== xdup-0517 虎纹大石磬
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-20 L1578-L1614 slug=tiger-pattern-stone-chime state=needs_evidence
+S: 安阳出土的商代虎纹大石磬长84厘米、高42厘米、厚2.5厘米，制作水平较高。同时已有三枚组成的编磬；夏代已有石磬，但大多制器粗糙。
+F: {"location": "安阳", "period": "商代", "title": "虎纹大石磬"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-46 L1209-L1209 slug=tiger-stone-chime state=needs_evidence
+S: 1950年安阳武官村大墓出土的石磬，用双钩线刻表现一个张口伸腰的虎形，虎身布满装饰斑纹，原文称是一件精巧的石雕珍品。
+F: {"category": "石雕/乐器", "period": "商代", "title": "虎纹大石磬"}
+===== xdup-0518 鎏金舞马衔杯银壶
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-105 L4738-L4797 slug=gilded-dancing-horse-silver-pot state=needs_evidence
+S: 鎏金舞马衔杯银壶是何家村出土的唐代金银器。它仿皮囊壶型，小口、提梁，舞马部分采取鎏金技术，使银壶与鎏金相互辉映。图版题名见“唐 鎏金舞马衔杯银壶”。
+F: {"category": "金银器", "location": "何家村出土", "period": "唐", "title": "鎏金舞马衔杯银壶"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-61 L2796-L2832 slug=liujin-wuma-xianbei-yinhu state=needs_evidence
+S: 盛唐银器，1970年10月西安何家村唐代窖藏出土，通高18.5厘米；器腹两面锤出马衔杯纹，仿北方游牧民族皮囊与马镫综合形状，圈足墨书“十三两半”。
+F: {"category": "金银器", "period": "盛唐", "title": "鎏金舞马衔杯银壶"}
+===== xdup-0519 铜牛灯
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-17 L1380-L1387 slug=tong-niu-deng state=needs_evidence
+S: 长沙出土的汉代铜灯，灯体为牛形，以两角顺背向上做成虹吸管，有一向下的碗状灯罩以吸收灯烟。原文以此说明虹管灯利用虹吸原理防止烟尘污染空气的设计。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-104 L1708-L1715 slug=tongniudeng state=needs_evidence
+S: 长沙出土的汉代铜灯，灯体为牛形，以两角顺背向上做成虹吸管，有向下碗状灯罩吸收灯烟；原文将其作为汉代虹管灯利用虹吸原理防烟尘污染的实例。据原文，图版未视觉核验。
+F: {"category": "青铜灯具", "period": "汉代", "title": "铜牛灯"}
+===== xdup-0520 银熏炉
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-57 L2232-L2260 slug=silver-censer state=needs_evidence
+S: 唐代文思院造鎏金银熏炉，通高29.5厘米、盖径25.9厘米、腹深7厘米、重5.363千克；银板锤揲成型，盖面缠枝莲上五朵莲花各卧一龟，腹壁流云纹并铆五兽足，器内錾“咸通十年（公元869年）文思院造”等40余字。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-79 L3397-L3397 slug=yin-xunlu state=needs_evidence
+S: 宋代银器。1959年四川德阳孝泉镇清真寺出土的117件宋代银器之一，设计作圆球形，上面镂空成卷草纹，还保存着一些唐代风格。
+F: {"category": "金银器/熏炉", "period": "宋", "title": "银熏炉"}
+===== xdup-0521 错金博山炉
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-18 L2221-L2221 slug=cuojin-boshanlu state=needs_evidence
+S: 河北满城汉墓出土的错金博山炉，炉柄镂空，炉体饰错金云气纹，造型庄重饱满、线条优美，是汉代博山炉的典型作品。
+F: {"category": "铜薰炉", "period": "汉代", "title": "错金博山炉"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-22 L1767-L1771 slug=cuojin-boshanlu state=needs_evidence
+S: 西汉中山靖王墓出土的错金博山炉，原文作为帝王贵族奢侈性造物消费的例证。
+F: {"category": "青铜香炉", "period": "西汉", "title": "错金博山炉"}
+===== xdup-0522 青瓷莲花尊
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-68 L1683-L1701 slug=qing-ci-lian-hua-zun state=needs_evidence
+S: 南北朝时期（主要是齐、梁和北魏）的特殊青瓷品种，设计别致、意匠新颖，具有较高艺术性。尊体以腹为中心，上下部塑饰成各为相向的三层莲花瓣，层层相接，故又名仰覆莲花瓷尊；尊底也塑成莲花瓣形，全尊共7层，肩部有耳，颈部塑出花鸟云龙。此尊高66.5厘米、口径19.2厘米，现陈列于北京故宫博物院。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-79 L3515-L3581 slug=qingci-lianhuazun state=needs_evidence
+S: 青瓷莲花尊以莲花为装饰造型样式，腹部鼓圆，花瓣饱满，通过刻、贴、堆等雕塑手法，使其挺拔秀丽，流畅丰满，将佛教艺术的文饰寓意转化为中国瓷器的造型语言。图5-21标注为南朝青瓷莲花尊。
+F: {"category": "瓷器", "period": "南朝", "title": "青瓷莲花尊"}
+===== xdup-0523 颐和园
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-129 L7299-L7345 slug=yiheyuan state=needs_evidence
+S: 颐和园的前身是乾隆年间建成的清漪园，清漪园原为金元时期的行宫，明代为“好山园”；乾隆年间大肆修复构筑、扩建湖面水域，改瓮山为万寿山，成为清漪园。1860年英法联军入侵北京，清漪园与圆明园同时被掠夺毁灭，1893年修复后称为颐和园，1900年八国联军又毁坏此园，1905年清政府重新修复。颐和园以东宫门内仁寿殿为中心，形成寝宫乐寿堂、戏楼德和园等建筑群；万寿山下有728米长的彩画长廊，南面有知春亭、十七孔桥、龙王庙。
+F: {"category": "皇家园林", "location": "北京", "period": "清代", "title": "颐和园"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-39 L4527-L4540 slug=yiheyuan state=needs_evidence
+S: 清代皇家园林，即万寿山清漪园（后改名颐和园），属“三山五园”之一。
+F: {"category": "皇家园林", "period": "清", "title": "颐和园"}

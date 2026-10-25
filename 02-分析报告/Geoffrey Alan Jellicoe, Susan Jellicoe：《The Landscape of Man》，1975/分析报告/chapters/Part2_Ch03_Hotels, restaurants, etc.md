@@ -1,1 +1,0 @@
-﻿3 Hotels, restaurants, etc 4 Museum and stadium 5 University 6 Market 7 Green belt (schools, clubs, sports grounds, etc) 

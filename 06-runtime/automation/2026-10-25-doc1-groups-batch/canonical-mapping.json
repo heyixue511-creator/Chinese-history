@@ -1,0 +1,38 @@
+{
+ "xdup-0213": {
+  "entity": "女娲",
+  "target_ref": "04-knowledge/units/persons/nuwa.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-20",
+  "action": "create"
+ },
+ "xdup-0232": {
+  "entity": "燕肃",
+  "target_ref": "04-knowledge/units/persons/yan-su.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-70",
+  "action": "create"
+ },
+ "xdup-0371": {
+  "entity": "宣纸",
+  "target_ref": "04-knowledge/units/terms/xuan-zhi.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-83",
+  "action": "create"
+ },
+ "xdup-0373": {
+  "entity": "屏风",
+  "target_ref": "04-knowledge/units/terms/ping-feng.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-16",
+  "action": "create"
+ },
+ "xdup-0383": {
+  "entity": "招贴",
+  "target_ref": "04-knowledge/units/terms/zhao-tie.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-159",
+  "action": "create"
+ },
+ "xdup-0471": {
+  "entity": "2010年上海世博会中国馆",
+  "target_ref": "04-knowledge/units/works/shanghai-expo-china-pavilion-2010.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-119",
+  "action": "create"
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "work_package": "2026-10-25-work-doc2-batch-b",
+ "goal": "处理 work 类型 doc_count=2 重复组第二批 25 组（xdup-0499—xdup-0523，50 个候选）：23 组 create，2 组跨组同实体 no_delta，work doc2 全部关闭。",
+ "status": "applied",
+ "created_at": "2026-10-25T18:40:00+08:00",
+ "updated_at": "2026-10-25T19:05:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:4e16784803a25b52eeb6239f3ade458b72d3a6ab0e028c400b0fce38da8225ac（7,252,775 B，5,339 行）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-work-doc2-batch-a/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "work 类型、doc_count=2、按 group_id 升序的剩余 25 组",
+  "group_ids": [
+   "xdup-0499",
+   "xdup-0500",
+   "xdup-0501",
+   "xdup-0502",
+   "xdup-0503",
+   "xdup-0504",
+   "xdup-0505",
+   "xdup-0506",
+   "xdup-0507",
+   "xdup-0508",
+   "xdup-0509",
+   "xdup-0510",
+   "xdup-0511",
+   "xdup-0512",
+   "xdup-0513",
+   "xdup-0514",
+   "xdup-0515",
+   "xdup-0516",
+   "xdup-0517",
+   "xdup-0518",
+   "xdup-0519",
+   "xdup-0520",
+   "xdup-0521",
+   "xdup-0522",
+   "xdup-0523"
+  ],
+  "groups": 25,
+  "candidate_rows": 50,
+  "canonical_candidates": 25,
+  "applied_canonical_candidates": 23,
+  "no_delta_canonical_candidates": 2,
+  "rejected_candidates": 25,
+  "created_units": 23,
+  "updated_units": 0,
+  "no_delta_units": 2
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要，比较出土、年代、尺寸、结构、图注口径与评语；同实体重复候选只保留 canonical；年代冲突（水碓西汉末／东汉、木牛流马蒲元／诸葛亮）与同名异器（银熏炉）一律并列。",
+  "canonical_rule": "按信息量较大且正文可证者指定 canonical；另一册要点补入正文并保留来源。",
+  "cross_group_rule": "xdup-0512「秦始皇陵兵马俑」与 xdup-0510「秦兵马俑」同实体，xdup-0522「青瓷莲花尊」与 xdup-0516「莲花尊」同实体；后组 canonical 判 no_delta，指向同批建立的目标文件，不重复建条。",
+  "decision_rule": "23 组 create；2 组 no_delta；无 update。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（23 个 canonical）；needs_evidence -> ready_for_review -> approved -> no_delta（2 个 canonical）；needs_evidence -> rejected（25 个 merged member）",
+  "ledger_rows": 100,
+  "apply_plan_rows": 23
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-work-doc2-batch-b/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-work-doc2-batch-b/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/works/tibi-chaju.md",
+   "04-knowledge/units/works/zenghouyi-zunpan.md",
+   "04-knowledge/units/works/muniu-liuma.md",
+   "04-knowledge/units/works/luanshu-fou.md",
+   "04-knowledge/units/works/mao-gong-ding.md",
+   "04-knowledge/units/works/shui-dui.md",
+   "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+   "04-knowledge/units/works/yongle-gong.md",
+   "04-knowledge/units/works/haigu-zhanchuan.md",
+   "04-knowledge/units/works/qingming-shanghe-tu.md",
+   "04-knowledge/units/works/yu-pingtuo-shuang-putao-jing.md",
+   "04-knowledge/units/works/qin-bing-ma-yong.md",
+   "04-knowledge/units/works/qin-shi-huang-ling.md",
+   "04-knowledge/units/works/lv-you-tao-lou.md",
+   "04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md",
+   "04-knowledge/units/works/huaniao-renwu-luodian-jing.md",
+   "04-knowledge/units/works/lianhua-zun.md",
+   "04-knowledge/units/works/huwen-da-shiqing.md",
+   "04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md",
+   "04-knowledge/units/works/tong-niu-deng.md",
+   "04-knowledge/units/works/yin-xunlu.md",
+   "04-knowledge/units/works/cuojin-boshanlu.md",
+   "04-knowledge/units/works/yiheyuan.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-work-doc2-batch-b/summary.md"
+ },
+ "canonical_mapping": [
+  {
+   "group_id": "xdup-0499",
+   "entity": "提璧茶具",
+   "target_ref": "04-knowledge/units/works/tibi-chaju.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-66",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0500",
+   "entity": "曾侯乙尊盘",
+   "target_ref": "04-knowledge/units/works/zenghouyi-zunpan.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-140",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0501",
+   "entity": "木牛流马",
+   "target_ref": "04-knowledge/units/works/muniu-liuma.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-44",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0502",
+   "entity": "栾书缶",
+   "target_ref": "04-knowledge/units/works/luanshu-fou.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-18",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0503",
+   "entity": "毛公鼎",
+   "target_ref": "04-knowledge/units/works/mao-gong-ding.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-08",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0504",
+   "entity": "水碓",
+   "target_ref": "04-knowledge/units/works/shui-dui.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-104",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0505",
+   "entity": "水陆攻战纹鉴",
+   "target_ref": "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-03",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0506",
+   "entity": "永乐宫",
+   "target_ref": "04-knowledge/units/works/yongle-gong.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-37",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0507",
+   "entity": "海鹘战船",
+   "target_ref": "04-knowledge/units/works/haigu-zhanchuan.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-63",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0508",
+   "entity": "清明上河图",
+   "target_ref": "04-knowledge/units/works/qingming-shanghe-tu.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-14",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0509",
+   "entity": "玉平脱双葡萄镜",
+   "target_ref": "04-knowledge/units/works/yu-pingtuo-shuang-putao-jing.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-78",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0510",
+   "entity": "秦兵马俑",
+   "target_ref": "04-knowledge/units/works/qin-bing-ma-yong.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-11",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0511",
+   "entity": "秦始皇陵",
+   "target_ref": "04-knowledge/units/works/qin-shi-huang-ling.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-51",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0512",
+   "entity": "秦始皇陵兵马俑",
+   "target_ref": "04-knowledge/units/works/qin-bing-ma-yong.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-05",
+   "action": "no_delta"
+  },
+  {
+   "group_id": "xdup-0513",
+   "entity": "绿釉陶楼",
+   "target_ref": "04-knowledge/units/works/lv-you-tao-lou.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-24",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0514",
+   "entity": "舞蹈人物动物纹三色锦",
+   "target_ref": "04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-34",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0515",
+   "entity": "花鸟人物螺钿镜",
+   "target_ref": "04-knowledge/units/works/huaniao-renwu-luodian-jing.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-12",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0516",
+   "entity": "莲花尊",
+   "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-58",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0517",
+   "entity": "虎纹大石磬",
+   "target_ref": "04-knowledge/units/works/huwen-da-shiqing.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-20",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0518",
+   "entity": "鎏金舞马衔杯银壶",
+   "target_ref": "04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-61",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0519",
+   "entity": "铜牛灯",
+   "target_ref": "04-knowledge/units/works/tong-niu-deng.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-104",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0520",
+   "entity": "银熏炉",
+   "target_ref": "04-knowledge/units/works/yin-xunlu.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-57",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0521",
+   "entity": "错金博山炉",
+   "target_ref": "04-knowledge/units/works/cuojin-boshanlu.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-18",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0522",
+   "entity": "青瓷莲花尊",
+   "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-68",
+   "action": "no_delta"
+  },
+  {
+   "group_id": "xdup-0523",
+   "entity": "颐和园",
+   "target_ref": "04-knowledge/units/works/yiheyuan.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-129",
+   "action": "create"
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:850e060cecd281bed1d6634b31051658077865356f9432e90a4d18774fac04a5",
+   "bytes": 7266836,
+   "lines": 5339,
+   "state_counts": {
+    "needs_evidence": 4267,
+    "rejected": 680,
+    "no_delta": 13,
+    "applied": 379
+   },
+   "lifecycle_counts": {
+    "active": 4267,
+    "terminal": 1072
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 23,
+   "matched": 23
+  },
+  "content_quality": {
+   "units": 386,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "386/386"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "sync_closure": {
+   "steps": 19,
+   "tests": "250 passed + 16 subtests"
+  },
+  "duplicate_closure": {
+   "work_doc2_total": 52,
+   "work_doc2_closed": 52,
+   "work_doc2_open": 0,
+   "term_doc2_total": 136,
+   "term_doc2_open": 0,
+   "person_doc2_total": 48,
+   "person_doc2_open": 0
+  },
+  "notes": "本批并列冲突：水碓出现时间（西汉末年／东汉）；木牛流马发明者（蒲元／诸葛亮）与引文；银熏炉为同名异器（唐文思院器／宋德阳器），合条分列。莲花尊尺寸有 40／66.5／85 厘米三种，分属不同出土地。"
+ }
+}

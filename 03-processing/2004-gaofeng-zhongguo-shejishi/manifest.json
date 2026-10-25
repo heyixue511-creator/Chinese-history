@@ -1,0 +1,65 @@
+{
+  "processing_profile": "compact-v4",
+  "doc_id": "2004-gaofeng-zhongguo-shejishi",
+  "fingerprint_mode": "text_crlf_to_lf_v1",
+  "source_assets": [
+    {
+      "path": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "sha256": "sha256:2b9c3f3a2b68eb101e72feca269fa86742f43f5199040cb456fb5dab1699bd90",
+      "role": "primary_text",
+      "language": "zh-Hans"
+    }
+  ],
+  "input_fingerprint": "sha256:b3295895271742bbb175b0063f43b594dbd97344e02f15fd985ea9e87e55b177",
+  "processing_scope": {
+    "mode": "full_asset",
+    "assets": [
+      "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md"
+    ]
+  },
+  "coverage": {
+    "source_blocks_total": 308,
+    "source_blocks_reviewed": 308,
+    "unread_blocks": 0,
+    "blocks_without_candidate_review": 0,
+    "scope_assets_total": 1,
+    "scope_assets_reviewed": 1,
+    "scope_lines_total": 5582,
+    "scope_lines_reviewed": 5582
+  },
+  "candidate_counts": {
+    "total": 223,
+    "by_type": {
+      "claim": 37,
+      "unit": 186
+    },
+    "by_state": {
+      "needs_evidence": 223
+    },
+    "by_unit_type": {
+      "institution": 14,
+      "person": 27,
+      "place": 5,
+      "procedure": 9,
+      "publication": 19,
+      "term": 68,
+      "work": 44
+    }
+  },
+  "status": "completed",
+  "output_hashes": {
+    "source-map.jsonl": "sha256:193ab72c5f86ddb29d6206fa0f50c5067e25c56e9b61b493225bf561822c671d",
+    "semantic-units.jsonl": "sha256:f855f69835cfa33cd5bdbd62d7277eebb6b9041ea83d20ceebadaa8728975fa2",
+    "candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
+    "summary.md": "sha256:84c1186bdaee2add2f0a34fbca0344a5dbf28cb5cd57ac2b1b52a975e869f6a6"
+  },
+  "semantic_acceptance": {
+    "reread_status": "accepted_with_findings",
+    "reviewer_kind": "agent",
+    "reviewer_id": "independent-seven-chunk-review+four-delta-reviews-2026-10-24",
+    "reviewed_at": "2026-10-24T20:25:00+08:00",
+    "source_version": "sha256:b3295895271742bbb175b0063f43b594dbd97344e02f15fd985ea9e87e55b177",
+    "omission_count": 0,
+    "acceptance_boundary": "七块独立复读发现 28 处遗漏、18 条准确性 findings、8 条类型 findings（7 个唯一候选）、3 条覆盖 findings；已补立 28 个语义单元与 43 个候选，并完成 source-map 回挂。四组独立增量复读逐项确认 28/28 遗漏闭合，无 blocking；17 条 minor 中 16 条已修正，1 条为候选层 claim_scope 简写与正式 *_claim 枚举的映射差异，保留至写回阶段统一处理。验收只覆盖原文语义召回与复读状态，不证明候选已写入 04-knowledge，不证明事实经外部核实，也不声称已逐张视觉核验图版；图版判断仅依据图注与正文。"
+  }
+}

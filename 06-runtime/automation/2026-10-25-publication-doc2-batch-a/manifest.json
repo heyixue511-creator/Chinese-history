@@ -1,0 +1,144 @@
+{
+ "work_package": "2026-10-25-publication-doc2-batch-a",
+ "goal": "处理 publication 类型 doc_count=2 重复组第一批 23 组（xdup-0287—xdup-0309，46 个候选）：22 组 create（其中同名异书 1 组拆为 2 条），1 组跨组同实体 no_delta，共新建 23 个 publication KU。",
+ "status": "applied",
+ "created_at": "2026-10-25T19:20:00+08:00",
+ "updated_at": "2026-10-25T20:05:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:850e060cecd281bed1d6634b31051658077865356f9432e90a4d18774fac04a5（7,266,836 B，5,339 行）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-work-doc2-batch-b/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "publication 类型、doc_count=2、按 group_id 升序的前 23 个未关闭组",
+  "group_ids": [
+   "xdup-0287",
+   "xdup-0288",
+   "xdup-0289",
+   "xdup-0289#2",
+   "xdup-0290",
+   "xdup-0291",
+   "xdup-0292",
+   "xdup-0293",
+   "xdup-0294",
+   "xdup-0295",
+   "xdup-0296",
+   "xdup-0297",
+   "xdup-0298",
+   "xdup-0299",
+   "xdup-0300",
+   "xdup-0301",
+   "xdup-0302",
+   "xdup-0303",
+   "xdup-0304",
+   "xdup-0305",
+   "xdup-0306",
+   "xdup-0307",
+   "xdup-0308",
+   "xdup-0309"
+  ],
+  "groups": 23,
+  "candidate_rows": 46,
+  "canonical_candidates": 24,
+  "applied_canonical_candidates": 23,
+  "no_delta_canonical_candidates": 1,
+  "rejected_candidates": 22,
+  "created_units": 23,
+  "updated_units": 1,
+  "no_delta_units": 1
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要与 F 字段，比较作者、卷次、成书年、出版者与内容提法；同实体重复候选只保留 canonical；同名异书与书名异写分别处理。",
+  "canonical_rule": "按信息量较大且正文可证者指定 canonical；另一册要点补入正文并保留来源。",
+  "split_rule": "xdup-0289 两册同名《中国设计史》但作者、出版社、结构均不同，判为同名异书，不合并：高丰本建 `publications/zhongguo-shejishi-gaofeng.md`，夏燕靖本建 `publications/zhongguo-shejishi-xiayanjing.md`，两个候选各走完整 applied 链。",
+  "cross_group_rule": "xdup-0300「梦梁录」与 xdup-0302「梦粱录」为同一书（2016 同册两处标题即作“梦梁录／梦粱录”）；0302 canonical 建条，0300 canonical 判 no_delta 指向同文件。",
+  "decision_rule": "22 组 create（含 1 组拆 2 条）；1 组 no_delta；无 update 候选。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（23 个 canonical）；needs_evidence -> ready_for_review -> approved -> no_delta（1 个 canonical）；needs_evidence -> rejected（22 个 merged member）",
+  "ledger_rows": 94,
+  "apply_plan_rows": 23
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-publication-doc2-batch-a/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-publication-doc2-batch-a/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-publication-doc2-batch-a/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/publications/sixiu-biji.md",
+   "04-knowledge/units/publications/zhongguo-gongyi-yange-shilue.md",
+   "04-knowledge/units/publications/zhongguo-shejishi-gaofeng.md",
+   "04-knowledge/units/publications/zhongguo-shejishi-xiayanjing.md",
+   "04-knowledge/units/publications/chuantong-gongyi-meishu-baohu-tiaoli.md",
+   "04-knowledge/units/publications/shizhuzhai-huapu.md",
+   "04-knowledge/units/publications/lidai-minghua-ji.md",
+   "04-knowledge/units/publications/shiji.md",
+   "04-knowledge/units/publications/zhouyi.md",
+   "04-knowledge/units/publications/zhuangzi.md",
+   "04-knowledge/units/publications/xin-qingnian.md",
+   "04-knowledge/units/publications/jifufu.md",
+   "04-knowledge/units/publications/gegu-yaolun.md",
+   "04-knowledge/units/publications/ziren-zhuan.md",
+   "04-knowledge/units/publications/mengxi-bitan.md",
+   "04-knowledge/units/publications/menglianglu.md",
+   "04-knowledge/units/publications/chuci.md",
+   "04-knowledge/units/publications/wujing-zongyao.md",
+   "04-knowledge/units/publications/haiguo-tuzhi.md",
+   "04-knowledge/units/publications/qingmi-cang.md",
+   "04-knowledge/units/publications/dianshizhai-huabao.md",
+   "04-knowledge/units/publications/yanxian-qingshang-jian.md",
+   "04-knowledge/units/publications/shenbao.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-publication-doc2-batch-a/summary.md"
+ },
+ "auxiliary_edits": [
+  {
+   "target_ref": "04-knowledge/units/persons/zhuangzi.md",
+   "reason": "新建 publications/zhuangzi.md 后出现跨类型同名；补 `disambiguation` 字段并写明“类型消歧”，version 1→2，正文未改。",
+   "version_before": 1,
+   "version_after": 2
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:b004cbda83ccf662509680c3ce84a8278db9a354305f90b8bddd1a9aa27a64cb",
+   "bytes": 7275171,
+   "lines": 5339,
+   "state_counts": {
+    "needs_evidence": 4221,
+    "applied": 402,
+    "rejected": 702,
+    "no_delta": 14
+   },
+   "lifecycle_counts": {
+    "active": 4221,
+    "terminal": 1118
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 23,
+   "matched": 23
+  },
+  "content_quality": {
+   "units": 409,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "409/409",
+   "cross_type_disambiguation": "4/4"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "sync_closure": {
+   "steps": 19,
+   "tests": "250 passed + 16 subtests"
+  },
+  "duplicate_closure": {
+   "publication_doc2_total": 46,
+   "publication_doc2_closed": 23,
+   "publication_doc2_open": 23,
+   "work_doc2_open": 0
+  },
+  "notes": "本批并列/异写：十竹斋画谱版名“恒版／短版”（均疑为“饾版”之 OCR 误写）；《梦梁录／梦粱录》书名异写；《中国设计史》同名异书；《申报》广告定位“原形／雏形”。"
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "work_package": "2026-10-25-term-doc2-batch-b",
+ "goal": "处理 term 类型 doc_count=2 重复组第二批 27 组（xdup-0359—xdup-0389，54 个候选）：全部新建 term KU，每组一个 canonical applied、另一成员 rejected。",
+ "status": "applied",
+ "created_at": "2026-10-25T22:55:00+08:00",
+ "updated_at": "2026-10-25T23:15:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:e82bd95f3ceb73186b800708d1052e8f45ec27ff3093bb67063f2d8bf92aca82（7,209,591 B，5,339 行）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-term-doc2-batch-a/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "term 类型、doc_count=2、在 term-doc2-batch-a 关闭后按 group_id 升序的前 27 个未关闭组",
+  "group_ids": [
+   "xdup-0359",
+   "xdup-0360",
+   "xdup-0361",
+   "xdup-0362",
+   "xdup-0363",
+   "xdup-0364",
+   "xdup-0365",
+   "xdup-0366",
+   "xdup-0367",
+   "xdup-0368",
+   "xdup-0369",
+   "xdup-0370",
+   "xdup-0372",
+   "xdup-0374",
+   "xdup-0375",
+   "xdup-0376",
+   "xdup-0377",
+   "xdup-0378",
+   "xdup-0379",
+   "xdup-0380",
+   "xdup-0381",
+   "xdup-0382",
+   "xdup-0385",
+   "xdup-0386",
+   "xdup-0387",
+   "xdup-0388",
+   "xdup-0389"
+  ],
+  "groups": 27,
+  "candidate_rows": 54,
+  "canonical_candidates": 27,
+  "applied_canonical_candidates": 27,
+  "rejected_candidates": 27,
+  "created_units": 27,
+  "updated_units": 0,
+  "no_delta_units": 0
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要，比较定义、年代、器形、工艺与分类口径；同实体重复候选只保留 canonical，另一成员按内容已并 rejected。",
+  "canonical_rule": "按内容主责册次指定 canonical；两册各有独立信息时以信息量较大者为主，另一册要点补入正文并保留来源。",
+  "decision_rule": "27 组全部 create：圆领袍衫、塑料、士、壮锦、多子盒、天鸡壶、夹缬、妆花、宋体字、宋版书、官窑、官营手工业、小篆、工艺美术、带柄工具、席、帷帐、开片、影青、忍冬纹、戗金、披帛、提花机、搪瓷、敦、文质、斗拱。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（27 个 canonical）；needs_evidence -> rejected（27 个 merged member）",
+  "ledger_rows": 108,
+  "apply_plan_rows": 27
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-term-doc2-batch-b/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-term-doc2-batch-b/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-term-doc2-batch-b/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/terms/yuanling-paoshan.md",
+   "04-knowledge/units/terms/plastic.md",
+   "04-knowledge/units/terms/shi-class.md",
+   "04-knowledge/units/terms/zhuangjin.md",
+   "04-knowledge/units/terms/duozi-he.md",
+   "04-knowledge/units/terms/tianji-hu.md",
+   "04-knowledge/units/terms/jiaxie.md",
+   "04-knowledge/units/terms/zhuanghua.md",
+   "04-knowledge/units/terms/songti-zi.md",
+   "04-knowledge/units/terms/songban-shu.md",
+   "04-knowledge/units/terms/guan-yao.md",
+   "04-knowledge/units/terms/guanying-shougongye.md",
+   "04-knowledge/units/terms/xiaozhuan.md",
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/daibing-gongju.md",
+   "04-knowledge/units/terms/xi-mat.md",
+   "04-knowledge/units/terms/weizhang.md",
+   "04-knowledge/units/terms/kaipian.md",
+   "04-knowledge/units/terms/yingqing.md",
+   "04-knowledge/units/terms/rendong-wen.md",
+   "04-knowledge/units/terms/qiangjin.md",
+   "04-knowledge/units/terms/pibo.md",
+   "04-knowledge/units/terms/tihuaji.md",
+   "04-knowledge/units/terms/tangci.md",
+   "04-knowledge/units/terms/dui-vessel.md",
+   "04-knowledge/units/terms/wenzhi.md",
+   "04-knowledge/units/terms/dougong.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-term-doc2-batch-b/summary.md"
+ },
+ "canonical_mapping": [
+  {
+   "group_id": "xdup-0359",
+   "entity": "圆领袍衫",
+   "target_ref": "04-knowledge/units/terms/yuanling-paoshan.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-117",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0360",
+   "entity": "塑料",
+   "target_ref": "04-knowledge/units/terms/plastic.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-143",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0361",
+   "entity": "士",
+   "target_ref": "04-knowledge/units/terms/shi-class.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-64",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0362",
+   "entity": "壮锦",
+   "target_ref": "04-knowledge/units/terms/zhuangjin.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-04",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0363",
+   "entity": "多子盒",
+   "target_ref": "04-knowledge/units/terms/duozi-he.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-12",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0364",
+   "entity": "天鸡壶",
+   "target_ref": "04-knowledge/units/terms/tianji-hu.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-22",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0365",
+   "entity": "夹缬",
+   "target_ref": "04-knowledge/units/terms/jiaxie.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-49",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0366",
+   "entity": "妆花",
+   "target_ref": "04-knowledge/units/terms/zhuanghua.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-39",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0367",
+   "entity": "宋体字",
+   "target_ref": "04-knowledge/units/terms/songti-zi.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-18",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0368",
+   "entity": "宋版书",
+   "target_ref": "04-knowledge/units/terms/songban-shu.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-176",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0369",
+   "entity": "官窑",
+   "target_ref": "04-knowledge/units/terms/guan-yao.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-14",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0370",
+   "entity": "官营手工业",
+   "target_ref": "04-knowledge/units/terms/guanying-shougongye.md",
+   "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-27",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0372",
+   "entity": "小篆",
+   "target_ref": "04-knowledge/units/terms/xiaozhuan.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-16",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0374",
+   "entity": "工艺美术",
+   "target_ref": "04-knowledge/units/terms/gongyi-meishu.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-103",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0375",
+   "entity": "带柄工具",
+   "target_ref": "04-knowledge/units/terms/daibing-gongju.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-34",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0376",
+   "entity": "席",
+   "target_ref": "04-knowledge/units/terms/xi-mat.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-14",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0377",
+   "entity": "帷帐",
+   "target_ref": "04-knowledge/units/terms/weizhang.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-23",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0378",
+   "entity": "开片",
+   "target_ref": "04-knowledge/units/terms/kaipian.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-59",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0379",
+   "entity": "影青",
+   "target_ref": "04-knowledge/units/terms/yingqing.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-53",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0380",
+   "entity": "忍冬纹",
+   "target_ref": "04-knowledge/units/terms/rendong-wen.md",
+   "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-62",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0381",
+   "entity": "戗金",
+   "target_ref": "04-knowledge/units/terms/qiangjin.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-37",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0382",
+   "entity": "披帛",
+   "target_ref": "04-knowledge/units/terms/pibo.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-48",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0385",
+   "entity": "提花机",
+   "target_ref": "04-knowledge/units/terms/tihuaji.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-46",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0386",
+   "entity": "搪瓷",
+   "target_ref": "04-knowledge/units/terms/tangci.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-146",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0387",
+   "entity": "敦",
+   "target_ref": "04-knowledge/units/terms/dui-vessel.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-04",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0388",
+   "entity": "文质",
+   "target_ref": "04-knowledge/units/terms/wenzhi.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-65",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0389",
+   "entity": "斗拱",
+   "target_ref": "04-knowledge/units/terms/dougong.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-47",
+   "action": "create"
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:1b9c33cd0e9cfc8c69a773dbb2a945f0a352f8274641410aaa4bb0d55adf5815",
+   "bytes": 7217974,
+   "lines": 5339,
+   "state_counts": {
+    "applied": 250,
+    "no_delta": 10,
+    "rejected": 548,
+    "needs_evidence": 4531
+   },
+   "lifecycle_counts": {
+    "active": 4531,
+    "terminal": 808
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 27,
+   "matched": 27
+  },
+  "content_quality": {
+   "units": 258,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "258/258"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "duplicate_closure": {
+   "term_doc2_total": 136,
+   "term_doc2_closed": 56,
+   "term_doc2_open": 80,
+   "term_doc2_open_members": 160,
+   "person_doc2_open": 0
+  },
+  "notes": "多子盒三义（多格食器／宋瓷盒／汉漆套盒）、敦的功能两说（盛食器／炖肉器）、戗金的创始时代（宋／秦汉）均并列保留，未裁定。"
+ }
+}

@@ -1,0 +1,48 @@
+===== xdup-0213 type=person doc_count=1 title=女娲
+keys: {"title": "女娲"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-01-20 L422-L510 slug=nuwa state=needs_evidence
+S: 女娲是中国古老传说中中华民族的始祖之一。原文称女娲抟土造人，赋予人以生命，并熔炼美丽的五彩石补好天上的窟窿；女娲抟土造人的传说包含着对母性的心理崇敬，深刻影响着后世的中国人。
+F: {"name": "女娲", "notes": "抟土造人，熔炼五彩石补天；原文称女娲抟土造人的传说包含对母性的心理崇敬", "period": "上古传说", "role": "上古传说人物、中华民族始祖之一"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-98 L995-L995 slug=nvwa state=needs_evidence
+S: 传说女娲是竹笛和笙的创造者。唐人诗中就有“娲皇遗音寄玉笙，双成传得何凄清”（王毂《吹笙引》）。
+F: {"name": "女娲", "role": "传说中竹笛和笙的创造者"}
+===== xdup-0232 type=person doc_count=1 title=燕肃
+keys: {"title": "燕肃"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-201 L5001-L5001 slug=yan-su state=needs_evidence
+S: 燕肃是北宋仁宗时改进漏壶、修正记时标准的人物。原文未展开其生平与漏壶形制。
+F: {"contribution": "改进漏壶，修正记时标准。", "name": "燕肃", "period": "北宋仁宗时"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-70 L5356-L5385 slug=yan-su state=needs_evidence
+S: 山东益都人，宋仁宗时期官吏，也是著名画家、机械学家、天文学家；研制指南车与莲花漏。莲花漏采用漫流系统稳定水流，但因被朝廷冷落而未使用；今传《寒岩积雪图》等绘画作品。
+F: {"name": "燕肃", "period": "北宋", "role": "官吏、画家、机械学家、天文学家"}
+===== xdup-0371 type=term doc_count=1 title=宣纸
+keys: {"title": "宣纸"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-197 L5021-L5029 slug=xuan-paper state=needs_evidence
+S: 宣纸是宋代具有区域特色的纸张之一，与蜀纸、越纸并称；五代南唐李煜汲取四川造纸技术，改进宣纸造纸技术，用楮皮制成澄心堂纸。原文未展开宣纸本身的产地、材质与工艺。
+F: {"definition": "宋代具有区域特色的纸张之一；五代南唐李煜曾汲取四川造纸技术改进宣纸技术并制澄心堂纸。", "term": "宣纸"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-83 L7055-L7124 slug=xuan-zhi state=needs_evidence
+S: 宣纸的产地在安徽泾县，泾县为宣州府辖，宣纸因此得名。宣纸属于皮纸类，主要原料是榆科类青檀皮，青檀枝条柔韧、纤维细密，适宜造纸；泾县山高水秀、青檀树繁多，其树皮纤维质可以保存细微墨粒，易造成干湿浓淡变化。宣纸因配料不同分为绵料、净皮、特净三类，因厚度不同分为夹宣和单宣，因工序不同又有生宣、熟宣、笺纸的区别。
+F: {"definition": "安徽泾县出产的皮纸，以青檀皮为主要原料，分绵料、净皮、特净等类别。", "term": "宣纸"}
+===== xdup-0373 type=term doc_count=1 title=屏风
+keys: {"title": "屏风"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-150 L2299-L2299 slug=ping-feng state=needs_evidence
+S: 屏风起隔档作用，西周时期出现，称“扆”“黼扆”，张置于主人座位后面；春秋战国时放置在床后，屏风上附有彩绘，并有铜构件镶嵌。
+F: {"definition": "西周出现的隔档家具，称“扆”“黼扆”。", "term": "屏风"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-16 L3823-L4531 slug=ping-feng state=needs_evidence
+S: 用途为屏挡风，并延伸到室内分割空间；有完整制法，也有多扇组合，形态包括围屏、座屏、板屏、插屏、挂屏、折屏等，作者认为反映了魏晋社会生活结构的丰富。
+F: {"definition": "用于挡风并分割室内空间的陈设家具，有围屏、座屏、板屏、插屏、挂屏、折屏等多种形态。", "term": "屏风"}
+===== xdup-0383 type=term doc_count=1 title=招贴
+keys: {"title": "招贴"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-30 L5222-L5242 slug=zhaotie state=needs_evidence
+S: 宋代广告可分两层：广义的“招贴广告”包括店堂门脸匾额、酒馆茶舍布店药铺的布幌子、饭馆悬挂菜单，最常见“酒”“茶”“布”“药”字；狭义的“招贴”指年画性质的文化广告，如《四美图》。《清明上河图》绘有许多商业广告形式，左下角房舍门前幌子上书“解”字，应为当铺一类地方。
+F: {"definition": "狭义指宋代年画性质的文化广告；广义“招贴广告”包括匾额、布幌子、悬挂菜单等。", "term": "招贴"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-159 L8202-L8208 slug=zhaotie state=needs_evidence
+S: 招贴是一种海报形式，与广告关系密切，分商业类、文化类、政治类、风俗类等，渐渐成为极具独立价值的设计形式；其社会功能和意图明显，20世纪中国因政治、经济活动的不同需要形成此起彼伏的浪潮。文化类招贴是文化活动的宣传，也称宣传画，是设计和绘画的结合，用于剧场演出、电影、书籍、体育比赛等活动的说明；商业类招贴是促销海报，是露布、布告、通知一类的艺术设计表现；政治类招贴因某种政治活动的需要而广为宣传，是标语、口号等的形象化。招贴是人类设计活动的重要形式之一，从早期商业海报到抗日战争宣传画，从五六十年代政治宣传画到近年计算机设计的兴盛，演变曲折；新的桌面印刷技术对提升招贴质量、振兴招贴文化有推动作用。招贴基本是街头形式的展现，设计家以“人人能看得懂”为原则，重视社会大众的接受水平和程度；商业性招贴在商业活动中形成广告最基本的一种形式，招贴设计最容易表现设计家的文化风格，招贴也就成为设计家的个人作品。
+F: {"categories": "商业类、文化类、政治类、风俗类", "definition": "一种海报形式，与广告关系密切，具有商业、文化、政治、风俗等类别，是极具独立价值的设计形式。", "term": "招贴"}
+===== xdup-0471 type=work doc_count=1 title=2010年上海世博会中国馆
+keys: {"title": "2010年上海世博会中国馆"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-01-66 L346-L346 slug=shanghai-expo-china-pavilion-2010 state=needs_evidence
+S: 图导论-6图注所标对象，即2010年上海世博会中国馆。原文仅以图注形式出现，未展开其设计者、尺寸、材料等信息；图版未视觉核验。
+F: {"date": "2010", "name": "2010年上海世博会中国馆", "notes": "图导论-6图注；图版未视觉核验，仅据图注记录。"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-119 L8469-L8483 slug=2010-shanghai-shibo-hui-zhongguoguan state=needs_evidence
+S: 图10-67为2010年上海世博会中国馆，图注作“东方既白，知者创物”。图版未视觉核验，原文未给出设计者与建筑细节。
+F: {"category": "建筑/展馆", "location": "上海", "period": "2010年", "title": "2010年上海世博会中国馆"}

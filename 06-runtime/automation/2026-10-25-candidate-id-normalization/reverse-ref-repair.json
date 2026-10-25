@@ -1,0 +1,54 @@
+{
+  "applied_at": "2026-10-25T00:50:44+08:00",
+  "backup": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\book-id-normalization-20261025\\reverse-ref-backup-20261025-005045",
+  "packages": [
+    {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "blocks": 308,
+      "units": 303,
+      "candidates": 223,
+      "blocks_with_changed_unit_refs": 4,
+      "blocks_with_changed_candidate_refs": 16
+    },
+    {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "blocks": 602,
+      "units": 559,
+      "candidates": 607,
+      "blocks_with_changed_unit_refs": 16,
+      "blocks_with_changed_candidate_refs": 49
+    },
+    {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "blocks": 361,
+      "units": 705,
+      "candidates": 1696,
+      "blocks_with_changed_unit_refs": 0,
+      "blocks_with_changed_candidate_refs": 144
+    },
+    {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "blocks": 754,
+      "units": 537,
+      "candidates": 1211,
+      "blocks_with_changed_unit_refs": 0,
+      "blocks_with_changed_candidate_refs": 0
+    },
+    {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "blocks": 149,
+      "units": 221,
+      "candidates": 534,
+      "blocks_with_changed_unit_refs": 0,
+      "blocks_with_changed_candidate_refs": 0
+    },
+    {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "blocks": 378,
+      "units": 504,
+      "candidates": 1068,
+      "blocks_with_changed_unit_refs": 0,
+      "blocks_with_changed_candidate_refs": 0
+    }
+  ]
+}

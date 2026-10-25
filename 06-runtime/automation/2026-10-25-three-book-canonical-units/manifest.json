@@ -1,0 +1,199 @@
+{
+  "work_package": "2026-10-25-three-book-canonical-units",
+  "goal": "Fourth write-back batch: fold the 27 unit candidates recalled in three source documents (doc_count = 3) across the 9 institution / procedure / event entity groups into 9 canonical knowledge units, and record how every duplicate candidate was resolved.",
+  "status": "applied",
+  "created_at": "2026-10-25T11:59:00+08:00",
+  "updated_at": "2026-10-25T12:01:58+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:d311ff6002201d2fb0381f7a7dc590e721a246104e0363835b35e2464761f16a",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-four-book-canonical-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the institution, procedure and event entity groups; term / person / place / publication / work groups of the same layer are left to later batches",
+    "group_ids": [
+      "xdup-0063",
+      "xdup-0064",
+      "xdup-0065",
+      "xdup-0066",
+      "xdup-0067",
+      "xdup-0068",
+      "xdup-0069",
+      "xdup-0070",
+      "xdup-0097"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "selected_groups": 9,
+    "remaining_doc_count_three_groups": 94,
+    "remaining_doc_count_three_candidates": 282,
+    "candidate_rows": 27,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 18,
+    "unit_types": {
+      "institution": 7,
+      "procedure": 1,
+      "event": 1
+    },
+    "slug_discrepancy_note": "Two groups propose divergent slugs for one entity and were judged the same entity: xdup-0064 (xingwenshu / xingwen-shu) and xdup-0070 (bintieju / bintie-ju); xdup-0065 mixes pinyin slugs (yu-qi-chang, yuqichang) with an English one (imperial-porcelain-factory), xdup-0067 mixes fujian-chuanzhengju / fu-jian-chuan-zheng-ju / fujian-navy-yard, xdup-0097 mixes sectional-casting / fenzhu-fa / separate-casting. Each was written as one unit.",
+    "type_coverage_note": "opium-war.md is the first event-type knowledge unit in the repository; type coverage moves from 7/8 to 8/8."
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the three recalling Markdown sources plus targeted line verification at the cited line numbers; every source disagreement (dates, institutional parentage, functional scope, term ordering) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining two same-name candidates transition to rejected with a reason naming the canonical target.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl with 45 rows over 27 unique candidate ids; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 9 create actions, no update or delete.",
+    "payload_defect_note": "The canonical candidate for xdup-0063 (2009-zhaonong-zhongguo-yishu-shejishi:cand-12-121) carries a payload that dates the war to 1842, while the same book elsewhere writes 道光20年（1840年）. The unit was written from the source text; the 1842 reading is recorded in the unit as an internal variance, not adopted."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-three-book-canonical-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-three-book-canonical-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/events/opium-war.md",
+      "04-knowledge/units/institutions/xingwenshu.md",
+      "04-knowledge/units/institutions/yuqichang.md",
+      "04-knowledge/units/institutions/jiangning-zhizaoju.md",
+      "04-knowledge/units/institutions/fujian-chuanzhengju.md",
+      "04-knowledge/units/institutions/zhiranshu.md",
+      "04-knowledge/units/institutions/jinshu.md",
+      "04-knowledge/units/institutions/bintieju.md",
+      "04-knowledge/units/procedures/fenzhu-fa.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "entity": "鸦片战争",
+      "group_id": "xdup-0063",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-121",
+      "target_ref": "04-knowledge/units/events/opium-war.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "event"
+    },
+    {
+      "entity": "兴文署",
+      "group_id": "xdup-0064",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-05-58",
+      "target_ref": "04-knowledge/units/institutions/xingwenshu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "御器厂",
+      "group_id": "xdup-0065",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-13",
+      "target_ref": "04-knowledge/units/institutions/yuqichang.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "江宁织造局",
+      "group_id": "xdup-0066",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-10",
+      "target_ref": "04-knowledge/units/institutions/jiangning-zhizaoju.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "福建船政局",
+      "group_id": "xdup-0067",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-28",
+      "target_ref": "04-knowledge/units/institutions/fujian-chuanzhengju.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "织染署",
+      "group_id": "xdup-0068",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-43",
+      "target_ref": "04-knowledge/units/institutions/zhiranshu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "锦署",
+      "group_id": "xdup-0069",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-77",
+      "target_ref": "04-knowledge/units/institutions/jinshu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "镔铁局",
+      "group_id": "xdup-0070",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-05-40",
+      "target_ref": "04-knowledge/units/institutions/bintieju.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "institution"
+    },
+    {
+      "entity": "分铸法",
+      "group_id": "xdup-0097",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-29",
+      "target_ref": "04-knowledge/units/procedures/fenzhu-fa.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "procedure"
+    }
+  ],
+  "source_variance_notes": [
+    "鸦片战争: 赵农同册并存「道光20年（1840年）……发动了鸦片战争」与「1842 年，英国发动鸦片战争」; 高丰作「1856年至1860年的第二次鸦片战争」为洋务运动契机; 「最早的民族近代工业」是否系于缫丝业仅夏燕靖两版作此判断, 且两版措辞不同; 郑观应《盛世危言》引文作者名「郑观应」(李立新) 与「郑观庆」(高丰)、用字「业冶/业治」「投闲/偷闲」并存; 赵农「英国生铁产量达到 139 吨」与「龙门火炮」两处原文异常.",
+    "兴文署: 《元史·百官志》「属集贤院」与《元秘书监志》「属秘书监」在同一段内互相冲突; 赵农另点《通志》与「官方审查制度严格」, 为夏燕靖两版所无; 两版同作「文艺监」.",
+    "御器厂: 高丰与田自秉同作「洪武三十五年」设置 (按明代纪年洪武止于三十一年, 原文照录); 地点「珠山」与钦限/部限分工仅田自秉一家; 夏燕靖两版与田自秉另一处的「御器厂或官窑的前身」系对唐越窑的追述, 不构成对明代御器厂的独立证据.",
+    "江宁织造局: 曹氏任职年数在夏燕靖 2016 同段内并存「58年」与「前后60余年」; 「曹颙、曹頡」与「孙颙、頫」为同段两处异写; 职能表述「特织御用云锦」(夏燕靖两版) 与「管理织锦的生产」(田自秉) 侧重不同; 田自秉所引「173张/800张、667人/2330人」系于苏州织造而非江宁.",
+    "福建船政局: 夏燕靖两版同册并存「1872年……奏报创办福建船政局意图」与「1866年5月，上奏清廷创办福建船政局」; 「沈葆祯」用字; 「用35年的时间，造船舰40艘」未给起讫年, 无法与李立新「1869年6月建造了中国第一艘近代蒸汽船」直接核对.",
+    "织染署: 田自秉给出隋代司染署与司织署合并为织染署的沿革, 其余四册只记唐制; 职掌「负责织造」(高丰) 与「掌供冠冕、组绶及织纴、色染」(赵农引《新唐书·百官志》) 宽窄不同; 用字「织纴」(赵农) 与「织衽」(田自秉) 并存; 赵农「25个作」与田自秉所引四类分项 10+5+4+6=25 相合, 构成来源内互证.",
+    "锦署: 田自秉所记「织锦署」在后赵邺城, 与东晋「锦署」同名异实 (时代、地点、名称均不同), 仅作对照, 不计入本实体证据; 夏燕靖两版把设置系于刘裕灭后秦迁关中工匠, 李立新只作「晋室南渡后，成立锦署」; 设置地点四册均未明写.",
+    "镔铁局: 夏燕靖两版作「专门冶炼铁铜等金属产品」(冶铸), 赵农作「管理镔铁镂刻、镶嵌金银的制作」(装饰加工), 两说属不同工序环节; 「工部总管府」原文如此, 与同段「集宁路总管府」含义不同.",
+    "分铸法: 田自秉作「浑铸→分铸→焊接」三段递进, 李立新作「分铸法最初是浑铸……后改为焊接」, 对同一组三个术语给出相反排列; 同一件司母戊鼎在四册中分别被定性为分铸法 (田自秉)、一次性整体铸造 (赵农)、接铸 (夏燕靖两版); 李立新「分铸法是工匠在长期技术经验中产生的一个技术设计」为六册中唯一的技术设计定性."
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All nine units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. fenzhu-fa.md records an irreconcilable ordering dispute between sources but keeps consensus=tentative because the contract requires verification_level whenever consensus is not tentative, and no external verification was performed."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 43,
+      "needs_evidence": 5146,
+      "rejected": 150,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 71
+    },
+    "structural_health": "122/130",
+    "type_coverage": "8/8 (event type unit added by this batch)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 9 rows verified against disk (sha256, bytes, lines; CRLF normalized to LF)"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, institutional parentage, functional scope, term ordering) are preserved, not reconciled.",
+    "9 of 103 doc_count = 3 groups are covered by this batch; the remaining 94 groups (282 candidates) stay needs_evidence and were not re-examined."
+  ]
+}

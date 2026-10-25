@@ -1,0 +1,164 @@
+{
+ "xdup-0417": {
+  "entity": "紫口铁足",
+  "target_ref": "04-knowledge/units/terms/zikou-tiezu.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-44",
+  "action": "create"
+ },
+ "xdup-0418": {
+  "entity": "紫砂陶",
+  "target_ref": "04-knowledge/units/terms/zisha-tao.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-69",
+  "action": "create"
+ },
+ "xdup-0419": {
+  "entity": "红木",
+  "target_ref": "04-knowledge/units/terms/hongmu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-81",
+  "action": "create"
+ },
+ "xdup-0420": {
+  "entity": "细石器",
+  "target_ref": "04-knowledge/units/terms/xishiqi.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-01-14",
+  "action": "create"
+ },
+ "xdup-0421": {
+  "entity": "经锦",
+  "target_ref": "04-knowledge/units/terms/jingjin.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-41",
+  "action": "create"
+ },
+ "xdup-0422": {
+  "entity": "绞缬",
+  "target_ref": "04-knowledge/units/terms/jiaoxie.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-47",
+  "action": "create"
+ },
+ "xdup-0423": {
+  "entity": "绫",
+  "target_ref": "04-knowledge/units/terms/ling-silk.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-36",
+  "action": "create"
+ },
+ "xdup-0424": {
+  "entity": "绿色设计",
+  "target_ref": "04-knowledge/units/terms/lvse-sheji.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-50",
+  "action": "create"
+ },
+ "xdup-0425": {
+  "entity": "编钟",
+  "target_ref": "04-knowledge/units/terms/bianzhong.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-21",
+  "action": "create"
+ },
+ "xdup-0426": {
+  "entity": "缥瓷",
+  "target_ref": "04-knowledge/units/terms/piao-ci.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-54",
+  "action": "create"
+ },
+ "xdup-0427": {
+  "entity": "美金与恶金",
+  "target_ref": "04-knowledge/units/terms/meijin-ejin.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-02",
+  "action": "create"
+ },
+ "xdup-0428": {
+  "entity": "羼和料",
+  "target_ref": "04-knowledge/units/terms/chanheliao.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-31",
+  "action": "create"
+ },
+ "xdup-0429": {
+  "entity": "耒耜",
+  "target_ref": "04-knowledge/units/terms/leisi.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-27",
+  "action": "create"
+ },
+ "xdup-0430": {
+  "entity": "联珠纹",
+  "target_ref": "04-knowledge/units/terms/lianzhu-wen.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-09",
+  "action": "create"
+ },
+ "xdup-0431": {
+  "entity": "胡服",
+  "target_ref": "04-knowledge/units/terms/hufu.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-133",
+  "action": "create"
+ },
+ "xdup-0432": {
+  "entity": "脱胎漆器",
+  "target_ref": "04-knowledge/units/terms/tuotai-qiqi.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-65",
+  "action": "create"
+ },
+ "xdup-0433": {
+  "entity": "艺术设计",
+  "target_ref": "04-knowledge/units/terms/yishu-sheji.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-111",
+  "action": "create"
+ },
+ "xdup-0434": {
+  "entity": "花釉",
+  "target_ref": "04-knowledge/units/terms/huayou.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-27",
+  "action": "create"
+ },
+ "xdup-0435": {
+  "entity": "花钿",
+  "target_ref": "04-knowledge/units/terms/huadian.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-134",
+  "action": "create"
+ },
+ "xdup-0436": {
+  "entity": "苏式彩画",
+  "target_ref": "04-knowledge/units/terms/sushi-caihua.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-06",
+  "action": "create"
+ },
+ "xdup-0437": {
+  "entity": "苏泥勃青",
+  "target_ref": "04-knowledge/units/terms/suniboqing.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-25",
+  "action": "create"
+ },
+ "xdup-0438": {
+  "entity": "蓝田人",
+  "target_ref": "04-knowledge/units/terms/lantianren.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-80",
+  "action": "create"
+ },
+ "xdup-0439": {
+  "entity": "藏礼于器",
+  "target_ref": "04-knowledge/units/terms/cangli-yuqi.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-01-58",
+  "action": "create"
+ },
+ "xdup-0440": {
+  "entity": "蛋壳黑陶",
+  "target_ref": "04-knowledge/units/terms/danke-heitao.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-51",
+  "action": "create"
+ },
+ "xdup-0441": {
+  "entity": "蜀锦",
+  "target_ref": "04-knowledge/units/terms/shu-brocade.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-02",
+  "action": "create"
+ },
+ "xdup-0442": {
+  "entity": "蝴蝶装",
+  "target_ref": "04-knowledge/units/terms/hudie-zhuang.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-05-20",
+  "action": "create"
+ },
+ "xdup-0443": {
+  "entity": "褐",
+  "target_ref": "04-knowledge/units/terms/he-wool.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-12",
+  "action": "create"
+ }
+}

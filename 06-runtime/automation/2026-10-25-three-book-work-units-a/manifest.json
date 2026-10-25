@@ -1,0 +1,237 @@
+{
+  "work_package": "2026-10-25-three-book-work-units-a",
+  "goal": "First work-unit write-back batch: fold the 21 work candidates behind the seven entity groups xdup-0150, xdup-0151, xdup-0156, xdup-0160, xdup-0161, xdup-0164 and xdup-0166, plus three same-entity candidates that the recall pipeline filed under title variants, into 7 canonical work knowledge units covering early Chinese bronzes and one painted-pottery basin.",
+  "status": "applied",
+  "created_at": "2026-10-25T18:40:00+08:00",
+  "updated_at": "2026-10-25T18:40:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:098c4c87c294090ae9dfb5d3586f2270ecb4a4ad5669b04b3cf9cd009aa1c65d",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-publication-units-b/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to seven work entity groups drawn from the bronze-and-early-artefact segment of the work layer; the other 13 open work groups (architecture, commemorative buildings, machines and later artefacts) are deferred to later batches",
+    "group_ids": [
+      "xdup-0150",
+      "xdup-0151",
+      "xdup-0156",
+      "xdup-0160",
+      "xdup-0161",
+      "xdup-0164",
+      "xdup-0166"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "work_doc_count_three_groups_total": 20,
+    "selected_groups": 7,
+    "group_member_candidates": 21,
+    "extra_same_entity_candidates": 3,
+    "candidate_rows": 24,
+    "canonical_candidates": 7,
+    "rejected_candidates": 17,
+    "updated_units": 0,
+    "remaining_doc_count_three_groups": 47,
+    "remaining_open_candidates": 140,
+    "remaining_doc_count_three_by_type": {
+      "term": {
+        "groups": 34,
+        "candidates": 102
+      },
+      "work": {
+        "groups": 13,
+        "candidates": 38
+      }
+    },
+    "work_doc_count_three_groups_after_this_batch": 13,
+    "extra_same_entity_detail": [
+      {
+        "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-sup-19",
+        "title": "战国错金银青铜龙凤案",
+        "merged_into": "错金银龙凤鹿方案",
+        "why": "高丰 L1759、L1766 所记为河北平山中山王墓同一件方案，正文作“一件战国方案”、图题作“战国错金银青铜龙凤案”而无“鹿”字；器形描述（四鹿为足、四龙成镂空球、龙头承斗拱托案框）与其余三册逐句对应，标题差异不构成另一实体"
+      },
+      {
+        "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-64",
+        "title": "曾侯乙墓编钟",
+        "merged_into": "曾侯乙编钟",
+        "why": "赵农 L1803、L1807 与组内 canonical cand-04-10 同一出处、同一器物，仅标题多“墓”字；合并后不重复计入"
+      },
+      {
+        "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-47",
+        "title": "舞蹈纹盆",
+        "merged_into": "舞蹈纹彩陶盆",
+        "why": "夏燕靖 2016 L462、L468 与组内 cand-01-29（2009 版）为同一论述段落的版本对应句，标题省略“彩陶”二字；payload 自述为马家窑文化彩陶盆，与 canonical 同实体"
+      }
+    ],
+    "remaining_scope_note": "剩余量由 candidate-index.jsonl 逐组回算：doc_count=3 共 103 组，本批关闭 work 7 组后余 47 组 140 条（term 34 组 102 条、work 13 组 38 条）；work 组候选数小于组数三倍，因 xdup-0155（指南车）仅 2 名成员仍为开放状态。"
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the recalling Markdown sources plus a full six-book pass for every entity. Where a book describes the object without having been recalled for it (夏燕靖 2009 for 大盂鼎 and 虢季子白盘; 高丰 for 曾侯乙编钟 and 舞蹈纹彩陶盆; 高丰 and 田自秉 for 越王勾践剑), the passage was read and recorded line by line, so ku source_count may exceed the group doc_count.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; every other same-entity candidate, including title variants outside the group, transitions to rejected with a reason naming the canonical target. The canonical member is the candidate whose recall span best matches the composite unit (broadest coverage of the unit's primary dimension) — not the richest book overall, which is why 田自秉 is canonical for 大盂鼎 and 虢季子白盘 while 夏燕靖 2009 is canonical for 越王勾践剑 and 错金银龙凤鹿方案.",
+    "source_count_correction": "The recall group's doc_count is a nominal count. Re-reading all six books changed five of seven: 大盂鼎 3→4 (夏燕靖 2009), 虢季子白盘 3→4 (夏燕靖 2009), 曾侯乙编钟 3→5 (高丰、田自秉), 越王勾践剑 3→5 (高丰、田自秉), 舞蹈纹彩陶盆 3→5 (高丰). 错金银龙凤鹿方案 stays 4 because the extra book (高丰) was already recalled under the title variant; 伍子胥画像镜 stays 3.",
+    "title_variant_rule": "Three open work candidates filed under different titles were checked against the canonical spans before being merged: 战国错金银青铜龙凤案 / 曾侯乙墓编钟 / 舞蹈纹盆. Each cites the same lines as its canonical sibling and describes the same object, so each transitions to rejected with an explicit title-variant reason rather than being left open for a future duplicate group.",
+    "exclusion_rule": "Bare-name hits that are not the entity were excluded: 赵农 L5411 “伍子胥建构的阊阖城” is Suzhou city history, not the mirror; 曾侯乙墓出土的冰鉴、尊盘、漆木衣箱、铜鉴缶 are separate objects and were not merged into the bell set; 曾侯乙尊、盘 in 夏燕靖 is a different vessel. 田自秉's “挂钟的架称为虞” is recorded as an OCR form of 簴 and marked as such, not silently corrected.",
+    "quote_boundary_rule": "Where a sentence is split by a wrongly inserted figure caption, the unit records the exact line span instead of quoting only the resumption: 虢季子白盘 is quoted across L1445 / L1448 (caption “(插图 7) 號季子白盘(周)”) / L1450. 大盂鼎's plate placement is recorded as a source defect: 赵农 图 2-34 is printed under “第五节 纺织与服饰 / 1. 桑麻”.",
+    "relation_update_rule": "No existing unit was modified. terms/ding.md already cites 大盂鼎 inside its 形制演变 passage, and terms/painted-pottery.md already exists; neither contains a statement falsified by this batch, so neither received an update row. The new units name both terms in their 相关知识元 prose without asserting a formal relation.",
+    "state_honesty": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set because no external verification was performed. Dates, dimensions, attributions and count discrepancies are kept side by side and none is adjudicated."
+  },
+  "outputs": {
+    "apply_plan": "2026-10-25-three-book-work-units-a/apply-plan.jsonl",
+    "candidate_decision_ledger": "2026-10-25-three-book-work-units-a/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/works/da-yu-ding.md",
+      "04-knowledge/units/works/guoji-zibai-pan.md",
+      "04-knowledge/units/works/zenghouyi-bianzhong.md",
+      "04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md",
+      "04-knowledge/units/works/wu-zixu-huaxiang-jing.md",
+      "04-knowledge/units/works/yuewang-goujian-jian.md",
+      "04-knowledge/units/works/wudaowen-caitao-pen.md"
+    ],
+    "updated_units": [],
+    "manifest": "2026-10-25-three-book-work-units-a/manifest.json",
+    "summary": "2026-10-25-three-book-work-units-a/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "entity": "大盂鼎",
+      "group_id": "xdup-0151",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-15",
+      "target_ref": "04-knowledge/units/works/da-yu-ding.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "work",
+      "sub_type": "bronze_vessel",
+      "merge_note": "同组 rejected：赵农 cand-03-30、夏燕靖 2016 cand-02-130；另有夏燕靖 2009 同段记载未进入候选组，按正文补入为第四来源"
+    },
+    {
+      "entity": "虢季子白盘",
+      "group_id": "xdup-0161",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-17",
+      "target_ref": "04-knowledge/units/works/guoji-zibai-pan.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "work",
+      "sub_type": "bronze_vessel",
+      "merge_note": "同组 rejected：赵农 cand-03-07、夏燕靖 2016 cand-02-33；夏燕靖 2009 的盥洗器段落与 2016 逐字相同，候选组未收，按正文补入"
+    },
+    {
+      "entity": "曾侯乙编钟",
+      "group_id": "xdup-0156",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-10",
+      "target_ref": "04-knowledge/units/works/zenghouyi-bianzhong.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "work",
+      "sub_type": "bronze_bell_set",
+      "merge_note": "同组 rejected：夏燕靖 2009 cand-02-11、夏燕靖 2016 cand-02-27；标题异写 rejected：赵农 cand-03-64（曾侯乙墓编钟）。高丰、田自秉未进入候选组，按正文补入"
+    },
+    {
+      "entity": "错金银龙凤鹿方案",
+      "group_id": "xdup-0166",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-55",
+      "target_ref": "04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "work",
+      "sub_type": "bronze_furniture",
+      "merge_note": "同组 rejected：田自秉 cand-05-04、夏燕靖 2016 cand-03-33；标题异写 rejected：高丰 cand-sup-19（战国错金银青铜龙凤案）。高丰虽以异写标题被拒，其斗拱一斗二升之说已完整写入 KU"
+    },
+    {
+      "entity": "伍子胥画像镜",
+      "group_id": "xdup-0150",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-12",
+      "target_ref": "04-knowledge/units/works/wu-zixu-huaxiang-jing.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "work",
+      "sub_type": "bronze_mirror",
+      "merge_note": "同组 rejected：夏燕靖 2009 cand-03-89、夏燕靖 2016 cand-04-68；三册即全部来源，高丰、赵农、李立新册无相关记载（赵农的伍子胥为苏州城史，已排除）"
+    },
+    {
+      "entity": "越王勾践剑",
+      "group_id": "xdup-0164",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-61",
+      "target_ref": "04-knowledge/units/works/yuewang-goujian-jian.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "work",
+      "sub_type": "bronze_weapon",
+      "merge_note": "同组 rejected：赵农 cand-03-81、夏燕靖 2016 cand-03-43；高丰与田自秉未进入候选组，二者均只用其“剑柄嵌珐琅釉料”一句，按正文补入"
+    },
+    {
+      "entity": "舞蹈纹彩陶盆",
+      "group_id": "xdup-0160",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-36",
+      "target_ref": "04-knowledge/units/works/wudaowen-caitao-pen.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "work",
+      "sub_type": "painted_pottery_basin",
+      "merge_note": "同组 rejected：夏燕靖 2009 cand-01-29、赵农 cand-01-59；标题异写 rejected：夏燕靖 2016 cand-01-47（舞蹈纹盆）。高丰未进入候选组，按正文补入"
+    }
+  ],
+  "source_variance_notes": [
+    "大盂鼎——年代与形制归属不相合：田自秉作“康王时制作”（西周早期），夏燕靖两版把大盂鼎列为“西周中期后”鼎腹进一步趋浅、足跟外延成兽蹄形的代表（2016 只把“可为代表”改为“可称为代表”）。康王属早期而“中期后”属晚期趋势，两册均未解释此差别，本批不代作调和。铭文：田自秉给 291 字、康王向盂下达命令、商亡因百官沉溺饮酒、以德治为规范、赏赐奴隶 1726 人；赵农亦作 291 字并列为“珍贵的社会历史资料”，两册字数一致。田自秉同段先写作“向孟下达命令”，后文又作“给盂赏赐”，属册内不一致。赵农另给金文总量 15 000 字、单字 3 772（据容庚《金文编》）、可读约 2000 字，属背景数据。图版：赵农图 2-34 被排在“第五节 纺织与服饰 / 1. 桑麻”之下，与鼎无关。四册均无尺寸、重量、纹饰与铸造方法。",
+    "虢季子白盘——器类归属两线：夏燕靖两版作“盘，盥洗器……西周中期后加耳，还出现长方形盘，著名的虢季子白盘即为这种盥洗器”，完全不提铭文；赵农把盘列在“食器”一节内，正文却作“盛水或沐浴的器具”，并给唯一尺寸“长有 1.5 米”。年代、收藏与铭文仅田自秉给：宣王时制作、现陈列中国历史博物馆、铭文 111 字、记虢季子白抗击外族有功与王设宴庆功；该句被图题截断（L1445 止于“有铭文”，L1448 为图题，L1450 才接“111 字”），图题把“虢”作“號”。四册均无重量、纹饰、铭文释文、出土信息与流传经过。",
+    "曾侯乙编钟——件数 64 与 65 并列：高丰作“64 件之多”且正文只称“擂鼓墩出土的大小一套编钟”（图题才作曾侯乙墓），夏燕靖两版与赵农均作“65 枚”。出土年份：赵农给 1978 年，夏燕靖 2016 给 1978 年 5 月，夏燕靖 2009 与高丰不给。规模与音律仅赵农给：上中下三层、总音域五个八度、五声七声音阶、中部音区 12 个半音、同墓另有编磬笙篪箫琴瑟鼓共 124 件。铸造工艺仅夏燕靖两版给：浑铸法、分范合铸、复印花纹、至今仍可演奏，并称曾国为不大的诸侯小国而冶铜业规模已相当普及。田自秉全册未提曾侯乙，只给编钟器类术语（甬、干、枚、特钟、镈）与用钟等级“天子四组，诸侯三组，卿大夫两组，士一组”，其“挂钟的架称为虞”为簴之讹。五册均无单钟尺寸、总重、钟架形制、铭文字数与测音数据。",
+    "错金银龙凤鹿方案——出土年份相差二十年：田自秉作 1977 年，夏燕靖 2009 与 2016 作 1997 年，高丰不给年份也不提中山王墓（只作河北平山县出土，同段另有同墓地出土的屏风）。尺寸两套不可互换：高丰“长 47.5 厘米，高 36.2 厘米”，夏燕靖两版与田自秉“高 37.4 厘米，长宽 48 厘米”，来源未说明测量口径。案面材质两说：高丰“以青铜材料为主”并可镶漆木板面（出土时已朽），田自秉“方案可能是漆木制品，已腐烂无存”，夏燕靖两版不提案面。结构四册高度一致（四卧鹿为足、四龙蟠曲成镂空球、龙隙出凤、龙头承斗拱托案框），夏燕靖两版另给“铆口光滑，焊缝无痕”（2016 作冶金铸造技巧）。斗拱说仅高丰给：模仿木构建筑挑檐一斗二升，见建筑对家具的影响。定名：高丰图题作战国错金银青铜龙凤案，无“鹿”字。",
+    "伍子胥画像镜——三册分工互补、无实质冲突：夏燕靖两版逐字相同，给“魏晋南北朝时期最为突出的铜镜”“现藏于上海博物馆”“所表现的重大历史题材，尚属首见”并按私有商品性质讨论纪年铭文（2009 用引号分列“袁氏”“尹氏”“黄龙元年陈世造”，2016 改为顿号连写）；田自秉给绍兴产地、浮雕手法、立体感、题材范围（神人车马、神话传说、历史故事）、五名人物（吴王、伍子胥、越王、范蠡、越女），并把吴国被越所灭的本事读成“人民对他的追念”与“封建伦理思想”。断代作六朝（田自秉）与魏晋南北朝（夏燕靖两版），覆盖范围不同而不相接，来源未说明。三册均无直径、重量、镜背布局、铭文与图版。",
+    "越王勾践剑——剑格与剑柄装饰三说不能互相替代：夏燕靖两版作“剑格两面镶嵌蓝色琉璃和绿松石，剑身饰有菱形花纹和错金鸟篆铭文”；赵农作“剑格上的兽面纹错石”，并在同段把错石定义为绿松石以漆汁粘嵌于錾槽；高丰与田自秉均作“剑柄（上）已嵌有珐琅釉料”，且各自用于不同论证（高丰辨瓷胎画珐琅之新，田自秉辨景泰蓝非明代传入）。三说部位不同、材料不同、无一处互相校核。防锈专节仅夏燕靖两版：含铜 80%~83%（2016 作 80%-83%）、含锡 16%~17%，髹漆木鞘与夯实填土成密闭空间，墓室长期被中性地下水浸泡；另有“埋藏地下 2400 余年……剑刃可轻而易举地割透十余层纸”。出土年份 1965 仅 2016 给。吴越冶剑谱系（欧冶子、风胡子、干将，出土十余柄／10 余柄）仅夏燕靖两版给。五册无剑长、重量与铭文文字。",
+    "舞蹈纹彩陶盆——画面本身四册一致（三组、每组五人、手拉手、面向一致、辫发、体侧尾状物），分歧全在解释与附属细节：尺寸（高 14、口径 29、底径 10，卷唇平底）与纹样结构（四道平行带纹、内向弧线分隔、斜向柳叶形宽线、外侧两人一臂为两道线、足下四道平圆圈线、外壁三道线模拟三道绳圈）仅田自秉给，并独有“盆里盛的水到四道圈纹的部位，将会看到水面反映出的舞蹈人的倒影”一说；五种文化解释（装饰成型期范例／叙事型绘画／生殖崇拜求偶舞／原始祭祀化石／图腾氏族佐证）仅夏燕靖两版给，两版几乎逐字相同，并列而不排序；赵农把人物下方线条读作“横线的水波纹样”，并称其为现代舞蹈、音乐、武术、杂技的源头，与田自秉的“湖边舞蹈”读法不同；高丰只给艺术评价，把尾状物略去不提，而田自秉作“模拟动物的一种装饰”、夏燕靖两版转述为“男根”。五册均无陶质、制法、烧成温度、随葬组合与藏所。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 7,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Source contradictions are recorded rather than smoothed: 大盂鼎 康王时 vs 西周中期后, 曾侯乙编钟 64 vs 65, 错金银龙凤鹿方案 1977 vs 1997 and two dimension sets, 越王勾践剑 three accounts of the guard/hilt inlay, 虢季子白盘 盥洗器 vs 食器节内.",
+    "cross_reference_note": "terms/ding.md already cites 大盂鼎 within its 形制演变 passage and terms/painted-pottery.md already exists as the 彩陶 class term. Neither unit contains a claim falsified by this batch, so no update row was written; the new units point at them in 相关知识元 prose only."
+  },
+  "governance_notes": [
+    "work 的 sub_type 没有受控枚举：taxonomy.md 的 work 段未给 sub_type 值表，磁盘上原有 bronze_vessel、bronze_lamp 两种，本批新增 bronze_bell_set、bronze_furniture、bronze_mirror、bronze_weapon、painted_pottery_basin 五种。audit_repo.py 与 audit_content_quality.py 均不校验该字段，故未阻断；该词表漂移记此以备后续治理。",
+    "文件名未加年份后缀：taxonomy.md 允许“古代作品无确切日期”省略年份，本批七件均为先秦器物且来源所给年代或为王朝名、或彼此冲突（如错金银龙凤鹿方案的 1977／1997），故一律不带年份后缀。",
+    "候选计数差：work 组 20 组 59 条而非 60 条，因 xdup-0155（指南车）仅 2 名开放成员；本批关闭后余 13 组 38 条。"
+  ],
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 90,
+      "needs_evidence": 5000,
+      "rejected": 249,
+      "active": 5000,
+      "terminal": 339,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 118
+    },
+    "structural_health": "122/130 (unchanged from baseline)",
+    "knowledge_structure": "55/65 (unchanged)",
+    "evidence_chain": "55/55",
+    "type_coverage": "8/8 (work units 3 -> 10)",
+    "name_collision": "同名跨类型组 1 / 有消歧说明 2 / 无消歧说明 0 (unchanged; persons/mengzi.md + publications/mengzi.md)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 7 create rows verified against disk independently (after-sha256/bytes/lines, CRLF normalized); ledger checked against candidate-index.jsonl for expected-state chains, final states and target_ref agreement",
+    "ledger_invariants": "ledger rows 38, distinct candidate ids 24, 7 x 3 canonical transitions + 17 rejected"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of printed pages, plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, dimensions, counts, attribution, object naming) are kept as parallel notes; none is adjudicated.",
+    "The remaining 13 open work groups (architecture, commemorative buildings, machines, later artefacts) and the 34 term groups are untouched by this batch.",
+    "Books 7+ are untouched by user instruction; only Books 1-6 were read."
+  ]
+}

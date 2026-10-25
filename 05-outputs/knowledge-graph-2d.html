@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="中国设计史知识库：结构、知识元与证据关系的二维知识图谱。">
+<title>中国设计史知识图谱 · 二维快照</title>
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --panel: #fffdf8;
+    --panel-2: #f0ece3;
+    --ink: #1f2328;
+    --ink-2: #5c626b;
+    --ink-3: #8b9098;
+    --line: #ddd6c9;
+    --accent: #8a4b2f;
+    --accent-2: #2f6b5f;
+    --danger: #b3403a;
+    --shadow: 0 8px 28px rgba(53, 43, 31, 0.08);
+    --radius: 12px;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    --serif: "Songti SC", "SimSun", "Noto Serif CJK SC", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --panel: #1b1e24;
+      --panel-2: #23272f;
+      --ink: #e8e6e1;
+      --ink-2: #a9adb5;
+      --ink-3: #7d828b;
+      --line: #333842;
+      --accent: #d08a68;
+      --accent-2: #75b7a8;
+      --danger: #e07a72;
+      --shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .shell { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+  header.site {
+    border-bottom: 1px solid var(--line);
+    background: color-mix(in srgb, var(--panel) 92%, transparent);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  .site-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 60px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .brand-mark {
+    width: 30px; height: 30px; border-radius: 7px;
+    background: var(--accent); color: #fff;
+    display: grid; place-items: center;
+    font-family: var(--serif); font-size: 16px; font-weight: 700;
+  }
+  .brand strong { display: block; font-size: 14px; letter-spacing: .02em; }
+  .brand span { display: block; color: var(--ink-3); font-size: 11px; }
+  nav.site-nav { display: flex; gap: 14px; flex-wrap: wrap; }
+  nav.site-nav a {
+    color: var(--ink-2); text-decoration: none; font-size: 13px;
+    padding: 6px 2px; border-bottom: 2px solid transparent;
+  }
+  nav.site-nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .hero { padding: 48px 0 30px; }
+  .eyebrow {
+    margin: 0 0 8px; color: var(--accent);
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+  }
+  h1 {
+    margin: 0; font-family: var(--serif); font-weight: 700;
+    font-size: clamp(30px, 5vw, 48px); line-height: 1.18; letter-spacing: .01em;
+  }
+  .hero p.lede {
+    max-width: 760px; margin: 14px 0 0; color: var(--ink-2); font-size: 15px;
+  }
+  .hero-note {
+    max-width: 760px; margin: 14px 0 0; padding: 12px 14px;
+    border-left: 3px solid var(--accent-2); background: var(--panel-2);
+    color: var(--ink-2); font-size: 13px; border-radius: 0 8px 8px 0;
+  }
+  .stat-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px; margin-top: 26px;
+  }
+  .stat {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .stat strong { display: block; font-size: 24px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .stat span { color: var(--ink-3); font-size: 12px; }
+
+  section.block { padding: 30px 0; border-top: 1px solid var(--line); }
+  .section-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  h2 { margin: 0; font-family: var(--serif); font-size: 24px; }
+  .section-head p { margin: 4px 0 0; color: var(--ink-2); font-size: 13px; max-width: 720px; }
+
+  .structure-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px; margin-top: 18px;
+  }
+  .structure-card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .structure-card h3 { margin: 0 0 6px; font-size: 13px; color: var(--ink-3); font-weight: 600; }
+  .structure-card p { margin: 0; font-size: 13px; color: var(--ink-2); }
+  .structure-card strong { color: var(--ink); font-size: 20px; }
+
+  .graph-panel {
+    margin-top: 18px; background: var(--panel); border: 1px solid var(--line);
+    border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+  }
+  .graph-toolbar {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px; flex-wrap: wrap; padding: 10px 12px; border-bottom: 1px solid var(--line);
+  }
+  .graph-summary { display: flex; gap: 14px; color: var(--ink-3); font-size: 12px; }
+  .graph-summary strong { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .graph-buttons { display: flex; gap: 6px; }
+  button, .search-input {
+    font: inherit; color: var(--ink); background: var(--panel-2);
+    border: 1px solid var(--line); border-radius: 8px;
+  }
+  button { cursor: pointer; padding: 5px 10px; font-size: 12px; }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  .graph-body { display: grid; grid-template-columns: 220px 1fr; min-height: 440px; }
+  .graph-side { border-right: 1px solid var(--line); padding: 12px; }
+  .graph-side label { display: block; font-size: 11px; color: var(--ink-3); margin-bottom: 5px; }
+  .search-input { width: 100%; padding: 7px 9px; font-size: 13px; }
+  .filter-title { margin: 14px 0 6px; font-size: 11px; color: var(--ink-3); letter-spacing: .06em; }
+  .legend { display: flex; flex-direction: column; gap: 5px; }
+  .legend button {
+    display: flex; align-items: center; gap: 7px; text-align: left;
+    background: transparent; border: 0; padding: 3px 0; border-radius: 6px;
+    color: var(--ink-2); font-size: 12px;
+  }
+  .legend button:hover { color: var(--ink); background: var(--panel-2); }
+  .legend button[aria-pressed="false"] { opacity: .38; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .graph-stage { position: relative; min-height: 440px; }
+  #graph { width: 100%; height: 440px; display: block; }
+  .empty {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    padding: 24px; text-align: center; color: var(--ink-3); font-size: 14px;
+  }
+  .empty strong { display: block; color: var(--ink-2); font-size: 15px; margin-bottom: 4px; }
+  .detail {
+    position: absolute; top: 10px; right: 10px; width: min(320px, calc(100% - 20px));
+    max-height: calc(100% - 20px); overflow: auto;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px; box-shadow: var(--shadow); display: none;
+  }
+  .detail.open { display: block; }
+  .detail h3 { margin: 0 0 4px; font-family: var(--serif); font-size: 18px; }
+  .detail .meta { color: var(--ink-3); font-size: 12px; margin-bottom: 10px; }
+  .detail dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; font-size: 12px; }
+  .detail dt { color: var(--ink-3); }
+  .detail dd { margin: 0; color: var(--ink-2); overflow-wrap: anywhere; }
+  .detail-close { float: right; padding: 2px 8px; }
+  .graph-caption { margin: 0; padding: 8px 12px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 11px; }
+  .node-label { font-size: 10px; fill: var(--ink-2); pointer-events: none; }
+  .link-line { stroke: var(--line); stroke-width: 1; }
+
+  footer.site {
+    padding: 26px 0 40px; border-top: 1px solid var(--line);
+    color: var(--ink-3); font-size: 12px;
+  }
+  @media (max-width: 760px) {
+    .graph-body { grid-template-columns: 1fr; }
+    .graph-side { border-right: 0; border-bottom: 1px solid var(--line); }
+    .legend { flex-direction: row; flex-wrap: wrap; gap: 6px 12px; }
+    #graph { height: 380px; }
+    .graph-stage { min-height: 380px; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="shell site-inner">
+    <a class="brand" href="#top" aria-label="回到顶部">
+      <span class="brand-mark" aria-hidden="true">史</span>
+      <span><strong>中国设计史知识库</strong><span>Chinese Design History · Knowledge Graph</span></span>
+    </a>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="#structure">结构</a>
+      <a href="#graph">图谱</a>
+      <a href="#about">说明</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="shell">
+  <section class="hero">
+    <p class="eyebrow">Knowledge infrastructure</p>
+    <h1>中国设计史<br>知识图谱</h1>
+    <p class="lede">把书籍中的知识元、断言与证据组织成可追溯的关系网络。节点按八类知识元着色；层级归属只呈现已正式写入的结构，不从画面位置推断。</p>
+    <p class="hero-note"><strong>当前是初始状态。</strong>知识库尚未摄入第一批书籍，图谱为空。A–E 只是五个试运行分析轴，不是已经由证据检验的最终分类。</p>
+    <div class="stat-row" aria-label="知识库统计">
+      <div class="stat"><strong id="statNodes">0</strong><span>知识元</span></div>
+      <div class="stat"><strong id="statLinks">0</strong><span>关系</span></div>
+      <div class="stat"><strong id="statThemes">0</strong><span>Theme</span></div>
+      <div class="stat"><strong id="statTopics">0</strong><span>Topic</span></div>
+      <div class="stat"><strong id="statSources">24</strong><span>已登记书目</span></div>
+    </div>
+  </section>
+
+  <section id="structure" class="block">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Structure</p>
+        <h2>五级结构</h2>
+        <p>Domain → Dimension → Theme → Topic → KU。Cluster 只作发现候选，不是结构节点。</p>
+      </div>
+    </div>
+    <div class="structure-grid">
+      <article class="structure-card"><h3>Level 1 · Domain</h3><p><strong id="structureDomains">1</strong><br>中国设计史（配置层）</p></article>
+      <article class="structure-card"><h3>Level 2 · Dimension</h3><p><strong id="structureDimensions">5</strong><br>A–E 试运行维度，待首批摄入检验</p></article>
+      <article class="structure-card"><h3>Level 3 · Theme</h3><p><strong id="structureThemes">0</strong><br>尚未 materialize</p></article>
+      <article class="structure-card"><h3>Level 4 · Topic</h3><p><strong id="structureTopics">0</strong><br>尚未 materialize</p></article>
+    </div>
+  </section>
+
+  <section id="graph" class="block">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Knowledge graph</p>
+        <h2>关系网络</h2>
+        <p>节点大小反映连接度；点击节点查看已写入的字段。没有证据的归属保持空白，不用布局补齐。</p>
+      </div>
+    </div>
+    <div class="graph-panel">
+      <div class="graph-toolbar">
+        <div class="graph-summary" id="graphSummary" aria-live="polite"><span>节点 <strong>0</strong></span><span>关系 <strong>0</strong></span><span>类型 <strong>8</strong></span></div>
+        <div class="graph-buttons">
+          <button type="button" id="zoomOut" aria-label="缩小">缩小</button>
+          <button type="button" id="zoomReset" aria-label="复位">复位</button>
+          <button type="button" id="zoomIn" aria-label="放大">放大</button>
+        </div>
+      </div>
+      <div class="graph-body">
+        <aside class="graph-side" aria-label="图谱筛选">
+          <label for="search">搜索标题、英文名或标签</label>
+          <input id="search" class="search-input" type="search" placeholder="例如：汉字、海报、商务印书馆" autocomplete="off">
+          <div class="filter-title">知识元类型</div>
+          <div class="legend" id="legend"></div>
+        </aside>
+        <div class="graph-stage">
+          <svg id="graph" role="img" aria-label="知识元关系力导向图"></svg>
+          <div class="empty" id="empty"><div><strong>暂无知识元</strong>完成第一本书的摄入后，节点会出现在这里。</div></div>
+          <aside class="detail" id="detail" aria-label="知识元详情" aria-hidden="true">
+            <button class="detail-close" type="button" id="detailClose" aria-label="关闭详情">×</button>
+            <div id="detailBody"></div>
+          </aside>
+        </div>
+      </div>
+      <p class="graph-caption">本页读取冻结快照 <code>knowledge-graph-2d-data.js</code>；页面与 D3 运行时均可离线加载。图谱只呈现 KU-to-KU 关系，结构节点不伪装成知识元。</p>
+    </div>
+  </section>
+
+  <section id="about" class="block">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Boundary</p>
+        <h2>状态边界</h2>
+        <p>图谱是知识库的投影，不是知识库本身。0 个节点说明尚未摄入，不说明领域没有内容；健康检查通过也不等于学术验收完成。</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="shell">中国设计史知识蒸馏库 · 二维快照 · 工作流引擎 v5.3.0 · 2026-10-24</div>
+</footer>
+
+<script src="vendor/d3.v7.9.0.min.js"></script>
+<script src="knowledge-graph-2d-data.js"></script>
+<script>
+(function () {
+  "use strict";
+  const TYPE_COLORS = {
+    person: "#3B82F6", institution: "#8B5CF6", place: "#06B6D4", work: "#F59E0B",
+    publication: "#6366F1", term: "#10B981", procedure: "#EC4899", event: "#EF4444"
+  };
+  const TYPE_ZH = {
+    person: "人物", institution: "机构", place: "地点", work: "作品",
+    publication: "出版物", term: "术语", procedure: "程序", event: "事件"
+  };
+  const data = (window.KNOWLEDGE_GRAPH_DATA && typeof window.KNOWLEDGE_GRAPH_DATA === "object")
+    ? window.KNOWLEDGE_GRAPH_DATA
+    : { nodes: [], links: [], structure: { domains: [], dimensions: [], themes: [], topics: [] }, stats: {} };
+  const nodes = Array.isArray(data.nodes) ? data.nodes : [];
+  const links = Array.isArray(data.links) ? data.links : [];
+  const stats = data.stats || {};
+  const structure = data.structure || {};
+
+  const $ = (id) => document.getElementById(id);
+  const typeList = Object.keys(TYPE_COLORS);
+  const activeTypes = new Set(typeList);
+  let selectedId = null;
+
+  function text(value) {
+    if (value === null || value === undefined) return "";
+    return String(value);
+  }
+
+  function renderStats() {
+    $("statNodes").textContent = stats.total_nodes ?? nodes.length;
+    $("statLinks").textContent = stats.total_links ?? links.length;
+    $("statThemes").textContent = stats.structure_nodes?.themes ?? (structure.themes || []).length;
+    $("statTopics").textContent = stats.structure_nodes?.topics ?? (structure.topics || []).length;
+    $("structureThemes").textContent = $("statThemes").textContent;
+    $("structureTopics").textContent = $("statTopics").textContent;
+    $("structureDimensions").textContent = (structure.dimensions || []).length || 5;
+    $("structureDomains").textContent = (structure.domains || []).length || 1;
+    $("graphSummary").innerHTML =
+      "<span>节点 <strong>" + (stats.total_nodes ?? nodes.length) + "</strong></span>" +
+      "<span>关系 <strong>" + (stats.total_links ?? links.length) + "</strong></span>" +
+      "<span>类型 <strong>8</strong></span>";
+  }
+
+  function renderLegend() {
+    const legend = $("legend");
+    legend.innerHTML = "";
+    typeList.forEach((type) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.setAttribute("aria-pressed", "true");
+      button.dataset.type = type;
+      button.innerHTML = '<span class="dot" style="background:' + TYPE_COLORS[type] + '"></span>' +
+        TYPE_ZH[type] + " <span style=\"color:var(--ink-3)\">" + (stats.by_type?.[type] ?? 0) + "</span>";
+      button.addEventListener("click", () => {
+        if (activeTypes.has(type)) activeTypes.delete(type); else activeTypes.add(type);
+        button.setAttribute("aria-pressed", activeTypes.has(type) ? "true" : "false");
+        applyFilter();
+      });
+      legend.appendChild(button);
+    });
+  }
+
+  const svg = d3.select("#graph");
+  const stage = svg.node().parentElement;
+  const zoomLayer = svg.append("g");
+  const linkLayer = zoomLayer.append("g");
+  const nodeLayer = zoomLayer.append("g");
+  let simulation = null;
+  let currentNodes = [];
+  let currentLinks = [];
+
+  const zoom = d3.zoom().scaleExtent([0.25, 4]).on("zoom", (event) => {
+    zoomLayer.attr("transform", event.transform);
+  });
+  svg.call(zoom);
+
+  function showEmpty(show) {
+    $("empty").style.display = show ? "grid" : "none";
+  }
+
+  function applyFilter() {
+    const query = $("search").value.trim().toLowerCase();
+    const filteredNodes = nodes.filter((node) => {
+      if (!activeTypes.has(node.type)) return false;
+      if (!query) return true;
+      const haystack = [node.title, node.name_en, node.description, ...(node.tags || [])]
+        .map(text).join(" ").toLowerCase();
+      return haystack.includes(query);
+    });
+    const ids = new Set(filteredNodes.map((node) => node.id));
+    const filteredLinks = links.filter((link) =>
+      ids.has(typeof link.source === "object" ? link.source.id : link.source) &&
+      ids.has(typeof link.target === "object" ? link.target.id : link.target)
+    );
+    renderGraph(filteredNodes, filteredLinks);
+    $("graphSummary").innerHTML =
+      "<span>节点 <strong>" + filteredNodes.length + "</strong></span>" +
+      "<span>关系 <strong>" + filteredLinks.length + "</strong></span>" +
+      "<span>类型 <strong>8</strong></span>";
+  }
+
+  function renderGraph(visibleNodes, visibleLinks) {
+    currentNodes = visibleNodes.map((node) => Object.assign({}, node));
+    currentLinks = visibleLinks.map((link) => Object.assign({}, link));
+    linkLayer.selectAll("*").remove();
+    nodeLayer.selectAll("*").remove();
+    if (simulation) simulation.stop();
+    showEmpty(currentNodes.length === 0);
+    if (currentNodes.length === 0) return;
+
+    const degree = new Map();
+    currentLinks.forEach((link) => {
+      const source = typeof link.source === "object" ? link.source.id : link.source;
+      const target = typeof link.target === "object" ? link.target.id : link.target;
+      degree.set(source, (degree.get(source) || 0) + 1);
+      degree.set(target, (degree.get(target) || 0) + 1);
+    });
+
+    simulation = d3.forceSimulation(currentNodes)
+      .force("link", d3.forceLink(currentLinks).id((node) => node.id).distance(90).strength(0.35))
+      .force("charge", d3.forceManyBody().strength(-180))
+      .force("center", d3.forceCenter(360, 220))
+      .force("collision", d3.forceCollide().radius((node) => nodeRadius(node, degree) + 8));
+
+    const link = linkLayer.selectAll("line").data(currentLinks).join("line")
+      .attr("class", "link-line");
+    const node = nodeLayer.selectAll("g").data(currentNodes).join("g")
+      .style("cursor", "pointer")
+      .call(d3.drag()
+        .on("start", (event, d) => { if (!event.active) simulation.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
+        .on("end", (event, d) => { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }))
+      .on("click", (event, d) => selectNode(d));
+
+    node.append("circle")
+      .attr("r", (d) => nodeRadius(d, degree))
+      .attr("fill", (d) => d.color || TYPE_COLORS[d.type] || "#8b9098")
+      .attr("stroke", "var(--panel)")
+      .attr("stroke-width", 2);
+    node.append("text")
+      .attr("class", "node-label")
+      .attr("x", 10)
+      .attr("y", 4)
+      .text((d) => text(d.title).slice(0, 18));
+
+    simulation.on("tick", () => {
+      link.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
+      node.attr("transform", (d) => "translate(" + d.x + "," + d.y + ")");
+    });
+  }
+
+  function nodeRadius(node, degree) {
+    return 7 + Math.min(9, Math.sqrt(degree.get(node.id) || 0) * 3);
+  }
+
+  function selectNode(node) {
+    selectedId = node.id;
+    const body = $("detailBody");
+    const rows = [
+      ["类型", TYPE_ZH[node.type] || text(node.type)],
+      ["英文名", text(node.name_en)],
+      ["置信度", text(node.confidence)],
+      ["共识", text(node.consensus)],
+      ["维度", text(node.primary_dimension)],
+      ["Theme", text(node.primary_theme)],
+      ["标签", (node.tags || []).join("、")],
+      ["来源数", text(node.source_count)],
+      ["证据状态", text(node.evidence_status)],
+      ["路径", text(node.path)]
+    ].filter((row) => row[1]);
+    body.innerHTML = "<h3>" + escapeHtml(text(node.title) || "未命名知识元") + "</h3>" +
+      '<div class="meta">' + escapeHtml(TYPE_ZH[node.type] || text(node.type)) + "</div>" +
+      "<dl>" + rows.map((row) => "<dt>" + escapeHtml(row[0]) + "</dt><dd>" + escapeHtml(row[1]) + "</dd>").join("") + "</dl>" +
+      (node.description ? "<p style=\"font-size:12px;color:var(--ink-2)\">" + escapeHtml(text(node.description)) + "</p>" : "");
+    $("detail").classList.add("open");
+    $("detail").setAttribute("aria-hidden", "false");
+  }
+
+  function escapeHtml(value) {
+    return text(value).replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[char]));
+  }
+
+  $("search").addEventListener("input", applyFilter);
+  $("detailClose").addEventListener("click", () => {
+    $("detail").classList.remove("open");
+    $("detail").setAttribute("aria-hidden", "true");
+  });
+  $("zoomIn").addEventListener("click", () => svg.transition().call(zoom.scaleBy, 1.3));
+  $("zoomOut").addEventListener("click", () => svg.transition().call(zoom.scaleBy, 0.77));
+  $("zoomReset").addEventListener("click", () => svg.transition().call(zoom.transform, d3.zoomIdentity));
+
+  renderStats();
+  renderLegend();
+  applyFilter();
+})();
+</script>
+</body>
+</html>

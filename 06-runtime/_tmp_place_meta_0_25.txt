@@ -1,0 +1,172 @@
+===== xdup-0252 三星堆
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-43 L1220-L1272 slug=sanxingdui state=needs_evidence
+S: 四川广汉三星堆是商代早期的蜀国都邑，城市面积约220万平方米，居住区域有住宅、制陶和玉石的作坊、墓地，是氏族居住之地。其中有地面木结构的房屋建筑，为贵族居住。
+F: {"location": "四川广汉", "period": "商代早期"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-55 L971-L990 slug=sanxingdui state=needs_evidence
+S: 四川广汉三星堆为巴蜀文化遗址，出土商代青铜人雕像，是商代服饰文物中最具代表者；殉葬俑形象显示商代身份等级与衣料、式样、配饰差异。
+F: {"period": "商代"}
+===== xdup-0253 临淄
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-65 L1767-L2139 slug=linzi state=needs_evidence
+S: 临淄是齐国都城（今山东淄博），春秋战国时期迅速崛起，成为各地社会中心之一。战国时临淄有大小二城：大城为郭城、周长14公里，小城为宫城、周长7公里；城外南、北有宽30米城壕，东、西有淄河与系河天然防御。小城北部为宫殿区、南部为官营手工业作坊（青铜、冶铁、铸钱），大城北部为平民手工业作坊。
+F: {"location": "山东淄博", "period": "春秋战国"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-01 L1207-L1210 slug=linzi state=needs_evidence
+S: 春秋战国齐国都城，原文称“齐都临淄各种布帛、衣物买卖相当发达”，是当时纺织贸易与官府织造作坊集中的城市。
+F: {"period": "春秋战国"}
+===== xdup-0254 云冈石窟
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-35 L3979-L4003 slug=yun-gang-shiku state=needs_evidence
+S: 位于山西大同西北的武州山，因山势连绵如云而称“云冈”；北方鲜卑族拓跋圭建立北魏政权并于398年定都平城（大同）。现存大中小石窟编号53个，另有小佛龛，计大小佛像51000躯以上；由于石窟建立在流沙岩层中，风化腐蚀现象非常严重。
+F: {"location": "山西大同西北武州山", "period": "北魏"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-25 L953-L953 slug=yun-gang-shi-ku state=needs_evidence
+S: 原文列为山西大同的石窟寺，与敦煌、龙门、麦积山、响堂山、栖霞山等并称，石窟依岩崖开凿、窟前建木构殿阁。
+F: {"period": "北朝（据原文语境）"}
+===== xdup-0255 云岗石窟
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-19 L2988-L2988 slug=yungang-grottoes state=needs_evidence
+S: 原文列为六朝著名石窟之一，与河南龙门、河北响堂山、南京栖霞山并举，造像数量多、规模宏大，是集体创造的艺术结晶。
+F: {"period": "六朝"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-61 L2405-L2424 slug=yungang-shiku state=needs_evidence
+S: 北魏建都平城（今大同）时大兴佛寺、开凿云岗石窟；它与洛阳龙门石窟、太原天龙山石窟等同为魏晋南北朝著名石窟寺，窟内保存的历代雕刻与绘画是宝贵艺术珍品。北朝开凿于大同的石窟，原文与龙门石窟、敦煌莫高窟并列为北朝石刻代表，并称早期造像模仿印度犍陀罗风格。
+F: {"period": "北魏"}
+===== xdup-0256 仙人洞遗址
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-26 L484-L484 slug=xian-ren-dong-site state=needs_evidence
+S: 江西万年县仙人洞，1962年出土距今8000多年的陶器，原文称为我国目前发现最早的陶器资料。
+F: {"period": "新石器时代（距今8000多年）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-36 L287-L427 slug=xianrendong-site state=needs_evidence
+S: 江西万年县仙人洞遗址，1962年出土8000多年前陶器，原文称其为我国已发现最早的陶器出土地点；同章另处作“江西万县仙人洞”，地名前后不一致。
+F: {"period": "新石器时代早期，距今8000多年"}
+===== xdup-0257 偃师商城
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-40 L1220-L1272 slug=yanshi-shang-city state=needs_evidence
+S: 偃师商城面积达190万平方米，筑长方形城墙，有7座城门，城外有10多米宽的护城河。城区有系统的排水和饮水井，宫城居中偏南，北部为居住和墓区，制陶作坊密集分布。作者将偃师商城与郑州商城、安阳殷墟并称王邑。
+F: {"location": "河南偃师", "period": "商代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-06 L607-L621 slug=yanshi-shangcheng state=needs_evidence
+S: 偃师商城为商代都邑遗址，与二里头遗址共同佐证文献所记夏商两个王朝政权更迭。
+F: {"period": "商代早期"}
+===== xdup-0258 南京
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-118 L7745-L7824 slug=nanjing state=needs_evidence
+S: 南京在1949年以前作为江南政治文化的中心占据特殊地位，1928年民国政府定南京为首都并开始制定“首都计划”。但除中山陵、总统府大门、中央博物院等中西融合建筑物外，缺乏规模和数量，尤其对普通民众生存环境缺乏必要改善；南京依山临水，80年代初出现金陵饭店等高层建筑，标志城市新格局。
+F: {"location": "江南", "period": "民国至现代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-33 L4386-L4766 slug=nanjing state=needs_evidence
+S: 明初都城应天府，设琉璃窑72座并建大报恩寺琉璃塔；清末南洋劝业会会场设于南京丁家桥。
+F: {"period": "明初至清末"}
+===== xdup-0259 吉州窑
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-127 L5534-L5616 slug=jizhouyao state=needs_evidence
+S: 在江西吉安，为南宋时期著名生产黑瓷器皿的窑场。使用剔花、印花、洒釉、贴花等方法，吸收民间剪纸纹饰，将剪纸纹样贴印在胎质上，形成新的制瓷装饰手法；烧制出称为“玳瑁釉”的黑褐色釉色瓷，尤为著名。
+F: {"location": "江西吉安", "period": "南宋"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-62 L3640-L3651 slug=ji-zhou-yao state=needs_evidence
+S: 宋代民窑，在江西吉安永和镇；唐宋时为广州南海北上京都交通要道，制瓷技术力量云集，产品可由赣江运销。以木叶、剪纸贴花和玳瑁斑黑釉著称，与北方磁州窑并称两大民窑体系；遗址面积20余亩，较大瓷片堆积18处。
+F: {"period": "唐宋至宋"}
+===== xdup-0260 周口店遗址
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-18 L395-L399 slug=zhoukoudian-yizhi state=needs_evidence
+S: 北京房山周口店的石灰岩山洞遗址，原文记约50万年前的“北京人”（中国猿人）与17000多年前的“山顶洞人”均发现于此，是旧石器时代石器与用火材料的重要出土地。
+F: {"period": "约50万年前至17000多年前"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-04 L410-L419 slug=zhoukoudian state=needs_evidence
+S: 北京猿人遗址与石制品产地。原文记周口店第一地点十年发掘石制品（石器、石片、原料）达10万件，是“北京人模式”的依据。
+F: {"period": "旧石器时代早期"}
+===== xdup-0261 哥窑
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-91 L2503-L2547 slug=ge-kiln state=needs_evidence
+S: 确切窑场至今没有发现。据历史传说为章生一、章生二兄弟在两浙路处州、龙泉县各建一窑，兄窑称哥窑，弟窑称弟窑、也称章窑、龙泉窑；有专家认为传世宫藏哥窑瓷实为南宋时修内司官窑烧制。主要特征是釉面有大大小小不规则开裂纹片，俗称开片或文武片，有鱼子纹、蟹爪纹、百圾碎之分，小纹片纹理金黄、大纹片纹理铁黑，故称“金丝铁线”；仿北宋官窑者为黑胎，称“紫口铁足”；釉为失透乳浊釉，釉色以灰青为主。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-122 L5534-L5616 slug=geyao state=needs_evidence
+S: 在浙江龙泉，属青瓷中的龙泉窑系。胎质暗黑、釉面裂纹交错，烧制时利用胎质和釉料温度收缩差异使成品釉面出现“开片”，又称“百圾碎”；南宋常为官窑产品，呈“紫口铁足”样式。
+F: {"location": "浙江龙泉", "period": "南宋"}
+===== xdup-0262 大兴城
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-68 L2320-L2366 slug=daxing-city state=needs_evidence
+S: 隋开皇二年（582年）隋文帝下令营建的新都，命高颖、宇文恺为正副监，宇文恺选定长安城东南龙首川一带平原为城址并主持规划。全城南北长8600米、东西长9700多米，总面积约84平方公里，有12座城门，由宫城、皇城、郭城组成，按里坊制分为108个方块；有南北大街11条、东西大街14条，朱雀大街宽150米。开皇二年6月营建、当年12月基本竣工，次年3月迁入，前后仅9个月。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-73 L2892-L2953 slug=daxing-cheng state=needs_evidence
+S: 隋代新都、长安前身，开皇二年（582）6月营建、12月基本竣工、次年3月迁入；城南北8600米、东西9700多米、总面积约84平方公里，由宫城、皇城、郭城组成，采用里坊制分108坊。
+F: {"period": "隋开皇二年（582）"}
+===== xdup-0263 大地湾遗址
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-09 L830-L862 slug=dadiwan-site state=needs_evidence
+S: 甘肃秦安大地湾遗址在马家窑文化时期出现一种套房，面积达420平方米，有主室、后室、侧室。地面处理具有防潮、保温、抗压功能，房屋有料礓石面装饰，作者称其几乎接近现代水泥材料的硬质。
+F: {"location": "甘肃秦安", "period": "马家窑文化时期"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-17 L540-L544 slug=dadiwan state=needs_evidence
+S: 甘肃秦安县大地湾遗址，出土人头形彩陶瓶。
+F: {"period": "新石器时代"}
+===== xdup-0264 妇好墓
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-56 L1186-L2191 slug=fuhao-tomb state=needs_evidence
+S: 商代妇好墓位于安阳殷墟，出土商代铜铲7件，其中有装饰性铲和实用青铜铲。墓中出土重达9公斤的双虎食人青铜钺，是已出土青铜钺中最重者。墓中纺织品遗物表明当时已有简单提花器具和羊毛纤维织物。墓中陪葬大量饰物，仅玉器就有426件，有头饰、腕饰、坠饰、项链等不同装饰作用。原文另称商代墓葬中还发现玉蚕和金蚕形象，未限定为妇好墓。
+F: {"location": "安阳殷墟", "period": "商代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-135 L702-L702 slug=fuhao-tomb state=needs_evidence
+S: 妇好墓位于安阳殷墟，出土4件以鸟兽浮雕和圆雕为主要装饰的酒器——铜鸮尊、偶方彝、圈足觥，标志青铜工艺与设计达到新高峰。原文称4件，所列器名仅三件。
+F: {"period": "殷商"}
+===== xdup-0265 宜兴
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-15 L4593-L5083 slug=yixing state=needs_evidence
+S: 宜兴是清代紫砂陶著名产地，所产紫砂陶多制茶具，朴素大方、意匠精巧，为国内外所欢迎，历来艺人辈出。江苏太湖南岸的产陶区，被誉为“陶都”；紫砂陶为代表，另有钧陶、精陶与青瓷，紫砂、钧陶、精陶、青瓷、陶塑合称“五朵金花”。
+F: {"period": "清代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-29 L4312-L5275 slug=yixing state=needs_evidence
+S: 明清时期成为陶都，紫砂器闻名于世；蜀山是紫砂陶主要产区，约有10条龙窑专烧紫砂器。江苏宜兴，紫砂陶产地；1955年成立紫砂生产合作社，任淦庭、吴云根、顾景舟等艺人在此从事紫砂创作。
+F: {"period": "明清"}
+===== xdup-0266 山顶洞遗址
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-01-61 L731-L753 slug=shandingdong-yizhi state=needs_evidence
+S: 山顶洞遗址是原文所述北京的一处石器时期遗址。原文称自1933年北京山顶洞遗址出土骨针以来，南北方许多石器时期遗址都发现有骨针，甚至还发现了用较粗动物骨制作的保存骨针的贮藏管。
+F: {"location": "北京"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-19 L433-L441 slug=shang-dong-cave-site state=needs_evidence
+S: 北京周口店山顶洞人遗址，原文记其已使用钻孔、刮削、磨光、刻纹，出土8厘米骨针及石块、骨片、兽牙、海贝等装饰品，被视为我国最早工艺品之一。遗址中随葬品与尸体撒红色粉粒反映原始宗教观念。
+F: {"period": "旧石器时代晚期"}
+===== xdup-0267 庙底沟遗址
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-22 L736-L736 slug=miao-di-gou-site state=needs_evidence
+S: 河南三门峡庙底沟文化遗址；早期龙山文化（或称“庙底沟第二期文化”）即据该遗址的发现而确定，主要分布在豫西、晋南、关中一带。
+F: {"period": "新石器时代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-94 L453-L570 slug=miaodigou-site state=needs_evidence
+S: 仰韶文化庙底沟类型所在的遗址；原文将仰韶、半坡、北首岭、庙底沟等文化类型的尖底瓶列为汲水器，称马家窑文化上承仰韶文化的庙底沟类型；庙底沟遗址房屋墙上和屋内留有许多柱洞，垫以天然砾石和白石灰，并发现长达10多米的房基。
+F: {"period": "新石器时代"}
+===== xdup-0268 建窑
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-128 L5534-L5616 slug=jianyao state=needs_evidence
+S: 在福建建阳县，建阳为南宋富裕之地。以黑瓷著名、以碗盏为主，利用特殊温度烧制使铁质结晶成油滴圆纹点或细兔毫状条纹，胎体紫黑、釉色厚重，釉色中有细毫状斑纹，宋人喜用建窑兔毫盏饮茶品茗。
+F: {"location": "福建建阳", "period": "南宋"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-60 L3638-L3638 slug=jian-yao state=needs_evidence
+S: 宋代瓷窑，在福建建瓯、水吉一带；黑釉中铁成分因烧制火度不同形成兔毫、鹧鸪斑、油滴等褐色斑纹。因宋徽宗及大臣蔡襄提倡黑瓷饮茶而受重视，产品多碗盏茶具，碗底刻“供御”“进盏”“才”等字样，为贡品。
+F: {"period": "宋代"}
+===== xdup-0269 敦煌莫高窟
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-24 L953-L953 slug=dun-huang-mo-gao-ku state=needs_evidence
+S: 原文记其壁画塑像经编号的有四百九十二个，与云冈、龙门、麦积山、响堂山、栖霞山等石窟同为魏晋南北朝重要石窟寺院；窟前建木构殿阁，一般分前室窟檐与主室佛窟，图2-13 为敦煌莫高窟窟檐建筑。
+F: {"period": "魏晋南北朝至西夏等（据图注）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-03 L2413-L2424 slug=dunhuang-mogao-ku state=needs_evidence
+S: 北朝开凿于敦煌的石窟，原文将其与云冈、龙门并列为当时石刻艺术精品。
+F: {"period": "北朝"}
+===== xdup-0270 曾侯乙墓
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-54 L680-L683 slug=zenghouyi-mu state=needs_evidence
+S: 战国曾侯乙墓，出土漆衣箱天象图。原文未记墓葬地点。
+F: {"period": "战国"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-25 L1113-L1121 slug=zenghouyi-tomb state=needs_evidence
+S: 1978年5月在湖北随县出土战国早期曾侯乙墓青铜器群，数量多、品种全；墓中曾侯乙编钟65枚，铜尊、铜盘透空附饰纤细齐整。
+F: {"period": "战国早期"}
+===== xdup-0271 满城汉墓
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-11 L2189-L2339 slug=mancheng-hanmu state=needs_evidence
+S: 河北满城西汉中山靖王刘胜夫妇墓。原文记其出土长信宫灯、错金博山炉、长乐宫钟、错金银鸟篆文壶、单流银盒等，是汉代铜器、金银器工艺的重要出土地。
+F: {"period": "西汉"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-94 L804-L804 slug=mancheng-hanmu state=needs_evidence
+S: 河北满城汉墓，出土长信宫灯。
+F: {"period": "西汉"}
+===== xdup-0272 瓯窑
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-91 L4738-L4779 slug=ou-kiln state=needs_evidence
+S: 瓯窑是浙江温州等地生产青瓷的窑口。其胎质和釉色结合紧密，釉色温润如玉、淡雅清脆。
+F: {"location": "浙江温州", "period": "唐"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-49 L2753-L2753 slug=ouyao state=needs_evidence
+S: 六朝浙江瓯江地区窑系，分布于永嘉、温州一带，古称东瓯窑；杜毓《薈赋》称“器择陶拣，出自东瓯”，其制品含铁量较越窑低、胎色较白、釉呈淡青，即晋代诗文所称“缥瓷”。
+F: {"period": "六朝"}
+===== xdup-0273 耀州窑
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-126 L5534-L5616 slug=yaozhouyao state=needs_evidence
+S: 在陕西铜川，唐代主要烧白、黑釉瓷及关中西北生活用瓷；宋代以刻花青瓷闻名，同时生产白瓷、黑瓷、三彩等，广泛吸收不同生产技术并形成自身优势，在北方有明显制瓷特色。图 7-48、图 7-49 标注为其青瓷倒流壶、青瓷瓶，图版未视觉核验。
+F: {"location": "陕西铜川", "period": "唐至宋"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-45 L3570-L3584 slug=yao-zhou-yao state=needs_evidence
+S: 宋代著名青瓷窑，在陕西同官县（今铜川县）黄堡镇，因同官旧属耀州得名；沿漆河上下十里都是瓷窑，称“十里窑场”。釉色青中微带黄，装饰有刻花（偏刀）、剔花、印花、镂空，题材多牡丹、菊花、忍冬、莲荷及凤鹤鸭鱼、婴戏，碗多喇叭形、莲瓣状。
+F: {"period": "宋代"}
+===== xdup-0274 醴陵
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-140 L7901-L7952 slug=liling state=needs_evidence
+S: 醴陵是湖南的陶瓷产地，以釉下彩著名，并凭借自身优势成为南方著名的陶瓷工业重镇。原文将其列为现代中国陶瓷业的重要基地之一。
+F: {"location": "湖南", "period": "近现代"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-18 L5069-L5069 slug=liling state=needs_evidence
+S: 湖南东部渌水之滨的釉下彩瓷产地，湘瓷的代表；解放前釉下彩技艺几乎失传、色料仅5种，解放后研制新色料并能烧100多种复色。
+F: {"period": "现代"}
+===== xdup-0275 雍城
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-50 L1576-L1589 slug=yong-cheng state=needs_evidence
+S: 秦国历史上极为重要的一座都城。城池位于汧山山脉，南频雍水、西依灵山、东接广袤的关中平原，西有大道直通甘肃，南经宝鸡可抵巴蜀，东流渭水能泛舟楫，形胜冲要、易守难攻；四周宽阔平坦、土地肥沃、河水密布、植被茂盛。雍城建置经过精心选择，总体格局由城址、陵区、墓地及郊外离宫别馆四部分组成，雍水之南为墓地，旁有秦公陵园。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-18 L1931-L1942 slug=yong-cheng state=needs_evidence
+S: 雍城是秦国历史上极为重要的一座都城，位于汧山山脉、南频雍水、西依灵山、东接关中平原，总体格局由城址、陵区、墓地及郊外离宫别馆四部分组成。
+F: {"period": "秦国"}
+===== xdup-0276 马王堆汉墓
+-- 2004-gaofeng-zhongguo-shejishi:cand-03-09 L2033-L2401 slug=mawangdui-han-mu state=needs_evidence
+S: 湖南长沙的汉代墓葬群，1972年发掘1号墓。1号墓出漆器184件、3号墓316件，合计500余件；1号墓出丝织品与服饰100多件（46幅、50余件衣物），并出素纱禅衣、双层九子奁、莞席、丝绸帷帐等；3号墓出龙纹漆几（图4-41），正文另记马王堆汉墓出两件漆屏风，未指1号墓。马王堆是本书汉代设计研究最核心的实物来源。
+F: {"location": "湖南长沙"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-15 L2263-L2587 slug=mawangdui-hanmu state=needs_evidence
+S: 湖南长沙东郊马王堆汉墓。1972年一号墓出土基本完整丝织品100多件，包括匹端单幅丝织物46段、成件衣服58件，被称为汉代“丝绸之库”；三号墓出土全套六博博具，其博局上有TLV规矩纹。湖南长沙马王堆汉墓，1972—1974年发掘，一号墓出漆器184件、三号墓316件，共500件；同墓出素纱禅衣、印花敷彩纱、金银色印花纱、信期绣、千金绦等，是汉代工艺最重要的考古地点之一。
+F: {"period": "西汉"}

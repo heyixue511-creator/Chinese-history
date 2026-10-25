@@ -1,0 +1,34 @@
+{
+  "work_package": "2026-10-25-candidate-id-normalization",
+  "goal": "Normalize processing-package candidate IDs to globally unique doc-scoped IDs so the unified discovery index can be rebuilt without ID collisions.",
+  "status": "applied_with_follow_up",
+  "created_at": "2026-10-25T00:49:29+08:00",
+  "updated_at": "2026-10-25T00:51:00+08:00",
+  "follow_up": {
+    "artifact": "reverse-ref-repair.json",
+    "purpose": "Rebuild block semantic_unit_refs and candidate_refs in Books 1-3; pre-existing gaps surfaced by check_reverse_refs after ID normalization.",
+    "semantic_change": "none; derived references only"
+  },
+  "scope": {
+    "packages": [
+      "2004-gaofeng-zhongguo-shejishi",
+      "2009-xiayanjing-zhongguo-shejishi",
+      "2009-zhaonong-zhongguo-yishu-shejishi",
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "2010-tianzibing-zhongguo-gongyi-meishushi"
+    ],
+    "files": [
+      "candidate-ledger.jsonl",
+      "source-map.jsonl",
+      "semantic-units.jsonl",
+      "summary.md",
+      "manifest.json"
+    ]
+  },
+  "method": "Raw UTF-8 token replacement per package; inverse replacement verified lossless before writing.",
+  "candidate_id_mapping": "id-mapping.jsonl",
+  "apply_plan": "apply-plan.jsonl",
+  "backup": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\book-id-normalization-20261025\\backup-20261025-004937",
+  "semantic_change": "none; identifiers only"
+}

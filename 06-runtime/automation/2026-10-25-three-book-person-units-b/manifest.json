@@ -1,0 +1,214 @@
+{
+  "work_package": "2026-10-25-three-book-person-units-b",
+  "goal": "Seventh write-back batch: fold the 26 person candidates behind the eight person entity groups xdup-0080 through xdup-0087 into 8 canonical knowledge units, resolve two further person candidates that name the same person as 韩非子 but sit in a doc_count=2 group, and correct two mis-attributed source claims in the already written 园冶 publication unit.",
+  "status": "applied",
+  "created_at": "2026-10-25T13:05:00+08:00",
+  "updated_at": "2026-10-25T13:05:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:0aabcad2e72b0c7b64cdb1f3eaa28a7c4b9117d9208a5c7770f467822ebf4935",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-person-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the person entity groups xdup-0080 through xdup-0087; term / publication / work / place / institution groups of the same layer are left to later batches",
+    "group_ids": [
+      "xdup-0080",
+      "xdup-0081",
+      "xdup-0082",
+      "xdup-0083",
+      "xdup-0084",
+      "xdup-0085",
+      "xdup-0086",
+      "xdup-0087"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "selected_groups": 8,
+    "group_member_candidates": 24,
+    "extra_same_entity_candidates": 2,
+    "candidate_rows": 26,
+    "canonical_candidates": 8,
+    "rejected_candidates": 18,
+    "remaining_doc_count_three_groups": 68,
+    "remaining_doc_count_three_open_candidates": 203,
+    "remaining_doc_count_three_by_type": {
+      "term": 34,
+      "work": 20,
+      "publication": 14
+    },
+    "person_doc_count_three_groups_after_this_batch": 0,
+    "deferred": [
+      {
+        "group_id": "xdup-0329",
+        "unit_type": "publication",
+        "doc_count": 2,
+        "members": [
+          "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-25",
+          "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-65"
+        ],
+        "why": "two candidates for the book 《韩非子》 (unit_type publication) remain needs_evidence; this batch wrote the person unit only, and publications/ still has no entry for that book"
+      }
+    ]
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the recalling Markdown sources plus targeted line verification at the cited line numbers, and at every other line in all six books where the same person is named, including variant name forms (王祯 / 王桢, 韩非 / 韩非子). Each source disagreement (dates, names, counts, office titles, evaluation direction) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; every other same-name candidate transitions to rejected with a reason naming the canonical target. The canonical member is the candidate whose recall span best matches the composite unit; the KU itself is written from all six books, so ku_source_count may exceed group_doc_count.",
+    "substring_trap_guard": "“计成” was matched with (?<!设)计成 because the four-character string 设计成 occurs in the same corpus; 王祯 was searched together with 王桢 because two books spell the name 王桢.",
+    "cross_group_merge": "xdup-0249 (doc_count = 2) holds two person candidates titled 韩非; they name the same person as 韩非子 and were rejected into the same KU, with the cross-group origin written into the rejection reason.",
+    "state_honesty": "All eight units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set because no external verification was performed."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-three-book-person-units-b/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-three-book-person-units-b/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/persons/li-chun.md",
+      "04-knowledge/units/persons/li-yu.md",
+      "04-knowledge/units/persons/mao-jin.md",
+      "04-knowledge/units/persons/shen-shou.md",
+      "04-knowledge/units/persons/wang-zhen.md",
+      "04-knowledge/units/persons/ji-cheng.md",
+      "04-knowledge/units/persons/zhao-guo.md",
+      "04-knowledge/units/persons/han-fei-zi.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/publications/yuan-ye.md"
+    ],
+    "manifest": "06-runtime/automation/2026-10-25-three-book-person-units-b/manifest.json",
+    "summary": "06-runtime/automation/2026-10-25-three-book-person-units-b/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "entity": "李春",
+      "group_id": "xdup-0080",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-66",
+      "target_ref": "04-knowledge/units/persons/li-chun.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "李渔",
+      "group_id": "xdup-0081",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-05",
+      "target_ref": "04-knowledge/units/persons/li-yu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "person",
+      "slug_normalization_note": "候选组未收夏燕靖 2009 候选；KU 按正文补入该册，故 ku_source_count 大于 group_doc_count"
+    },
+    {
+      "entity": "毛晋",
+      "group_id": "xdup-0082",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-11",
+      "target_ref": "04-knowledge/units/persons/mao-jin.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "person",
+      "slug_normalization_note": "候选组未收李立新候选；KU 按正文补入该册"
+    },
+    {
+      "entity": "沈寿",
+      "group_id": "xdup-0083",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-16",
+      "target_ref": "04-knowledge/units/persons/shen-shou.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "person",
+      "slug_normalization_note": "候选组未收夏燕靖 2009 候选；KU 按正文补入该册"
+    },
+    {
+      "entity": "王祯",
+      "group_id": "xdup-0084",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-05-48",
+      "target_ref": "04-knowledge/units/persons/wang-zhen.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "person",
+      "slug_normalization_note": "slug 归一：wangzhen / wangzhen / wang-zhen → wang-zhen；候选组未收赵农与高丰（两册均作“王桢”）"
+    },
+    {
+      "entity": "计成",
+      "group_id": "xdup-0085",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-06-01",
+      "target_ref": "04-knowledge/units/persons/ji-cheng.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "person",
+      "slug_normalization_note": "候选组未收夏燕靖 2009 与田自秉；李立新一册零命中（“计成”七处全为“设计成”误配），不计为来源"
+    },
+    {
+      "entity": "赵过",
+      "group_id": "xdup-0086",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-58",
+      "target_ref": "04-knowledge/units/persons/zhao-guo.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "person"
+    },
+    {
+      "entity": "韩非子",
+      "group_id": "xdup-0087",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-77",
+      "target_ref": "04-knowledge/units/persons/han-fei-zi.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "person",
+      "slug_normalization_note": "slug 归一：han-fei-zi / hanfeizi / hanfeizi-person → han-fei-zi；候选组未收高丰；另把 doc_count=2 组 xdup-0249 的“韩非”两候选按同一实体并入"
+    }
+  ],
+  "source_variance_notes": [
+    "建桥年代——夏燕靖两版“595～605 年”十年区间，赵农“公元 605 年”取区间末年；规模与“最早”所指——夏燕靖两版称敞肩拱“首创”与“现存最早的双曲石拱桥”，赵农称单孔式对多孔式的转折并作“世界古代拱桥”层面的比较；三册全部回溯到唐《安济桥铭》一句，无一册给出铭文录文出处、原石状况或隋代旁证；高丰、田自秉、李立新三册既无“李春”也无“赵州桥”“安济桥”。",
+    "生卒 1610—1680 仅高丰一册孤证；赵农同册先作《闲情偶寄》（L7425 附近）后作《闲情偶记》（L7649）；夏燕靖两版“阚铎／阐铎”“笺简／笺筒”两组字形，两版均作“联匮”而通行作“联匾”；《芥子园画谱／画传》的书名与李渔的参与程度（高丰“指导和编撰出版”／赵农 L7425“参与编撰”／赵农 L7231“李渔女婿请画家王概等人编绘”）三说并存；田自秉、李立新两册零命中。",
+    "汲古阁的雇工规模、刻书种数、书板数与外销记载在四册间互不相同；李立新把套版与拱花另立一线（黄鏻、胡正言、吴发祥），汲古阁不在其中，且两处均作“恒版”（通行作“饾版”），疑为形近讹字，只记录不改字；person 子类型枚举无“出版家”，sub_type 取 other 并在正文说明。",
+    "《雪宦绣谱》记录者——高丰与夏燕靖两版作“张謇记录整理”，田自秉作“有人”而不指名；末章章名——田自秉作“绣道”，夏燕靖两版作“绣通”；该书性质三说（高丰“系统而完整的理论著作”／田自秉“苏绣实践经验的总结”／夏燕靖两版“个人经验加顾绣等民间经验的小结”），其中 2016 版把“积累”改为“总结”；相邻断代分歧——夏燕靖 2016 把丁佩《绣谱》系于明代，田自秉作“清末道光时”。",
+    "七处分歧：一、姓名用字，夏燕靖两版与李立新作“王祯”，赵农（L5332）与高丰（L3634、L4001）作“王桢”；二、夏燕靖 2016 作生卒 1271—1368，与元朝起讫年完全相同；三、《农书》卷数在 37 集／22 卷／36 卷／37 卷之间不一；四、第三部分名“百谷谱／谷谱”两作；五、木活字发明权（王祯首创／毕昇之后的改进者）表述不一；六、转轮装置的称名（转轮排字盘／转轮排字法／转轮排字架／无专名）；七、农具名目用字（鏻-鐏、糬-耰、麴-麹）。另有高丰 L3634 把《农书》误作《农布》、夏燕靖 2016 L3910 作“简车”（应作筒车）、L3919 作“未耜”“汜胜之”（应作耒耜、氾胜之）。",
+    "《园冶》地位的四种逐级加强断言（2009 附录“造园专著”／2016“第一本园林艺术理论的专著”／2016“最系统的园林设计论著”／高丰“世界上最早的一部造园名著”）；分卷两种拆法（高丰与赵农三卷平列／夏燕靖两版“兴造论＋园说”两篇统摄十项）；卷二与装折的层级归属；“三分匠，七分主人”的两种解释（高丰读作设计师与工匠的分工比例／赵农读作造物者与审美主体的关系）；插图数在夏燕靖 2016 同段内自相矛盾（235 幅／200 余幅／插图 235 张）。附带文本残缺：夏燕靖 2009 L3692 的对应句在“这是我国古代最系统的园林设”处截断，句未终，不代为补全；夏燕靖 2016 该段另有一分句重复两遍。",
+    "发明对象——夏燕靖两版限定为“在既有耧车基础上发明三脚耧”并称战国已有耧车，赵农直称“耧车也是赵过的设计发明”而不提战国既有；效率数据——赵农给“提高十几倍”“日种一顷”，夏燕靖两版只说“大大提高了播种效率”；耦犁——赵农把推广系于赵过（“负责推行耦犁耧车的是搜粟都尉赵过”），夏燕靖两版只作汉代普遍现象而不系于人；三册均不记生卒、籍贯、家世，“代田法”六册零命中。",
+    "“外储说／外诸说”同段两种写法（夏燕靖两版）；利口与文采的评价在同一段内并存（“文辩”“文丽”与“以文害用”）；木鸢引文“蜚／飞”用字不同，且夏燕靖两版对同一引文的解释转向（2009 重技术能力／2016 重人物品格）；师承仅赵农一册给出（“为荀子的学生”）；荀子、墨子、老庄在田自秉同段与韩非子并列而评价相反。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 8,
+    "updated_knowledge_units": 1,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All eight units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Two units record contradictions inside a single source (夏燕靖 2016 on 计成: 235 幅 / 200 余幅 in one paragraph plus a duplicated clause; 夏燕靖 2016 on 王祯: 1271-1368) and both were recorded as found rather than smoothed.",
+    "correction_in_updated_unit": "publications/yuan-ye.md: removed a 李立新 source row and a “李立新定位” bullet that rested on it (that book has zero 园冶 hits; its seven 计成 strings are all 设计成), re-attributed “附图 235 幅” from 高丰 to 夏燕靖 2009 / 夏燕靖 2016 / 赵农 (高丰 gives three volumes and the chapter list but no plate count), dropped the unsourced alias 园牧, and marked 1634 as a calendrical conversion of 崇祯七年."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 69,
+      "needs_evidence": 5066,
+      "rejected": 204,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 97
+    },
+    "structural_health": "122/130",
+    "type_coverage": "8/8 (person units 22 -> 30)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 9 rows verified against disk (8 create after-sha256, 1 update after-sha256 plus before-sha256); the update row before-fingerprint 95e4f035… was recovered by reversing the edits and matched the create row recorded by the batch that first wrote the file",
+    "ledger_invariants": "ledger rows 42, distinct candidate ids 26, 8 x 3 canonical transitions + 18 rejected"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of portraits, sites or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, plate counts, chapter names, name characters, attribution of inventions) are kept as parallel notes; none is adjudicated.",
+    "The two publication candidates for 《韩非子》 (xdup-0329) are left needs_evidence and are not claimed as written.",
+    "Books 7+ are untouched by user instruction; only Books 1-6 were read."
+  ]
+}

@@ -1,0 +1,158 @@
+{
+ "xdup-0176": {
+  "entity": "三服官",
+  "target_ref": "04-knowledge/units/institutions/sanfuguan.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-07",
+  "action": "create"
+ },
+ "xdup-0177": {
+  "entity": "上海美术电影制片厂",
+  "target_ref": "04-knowledge/units/institutions/shanghai-meishu-dianying-zhipianchang.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-52",
+  "action": "create"
+ },
+ "xdup-0178": {
+  "entity": "两江师范学堂",
+  "target_ref": "04-knowledge/units/institutions/liangjiang-shifan-xuetang.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-20",
+  "action": "create"
+ },
+ "xdup-0179": {
+  "entity": "中国工艺美术学会",
+  "target_ref": "04-knowledge/units/institutions/zhongguo-gongyi-meishu-xuehui.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-46",
+  "action": "create"
+ },
+ "xdup-0180": {
+  "entity": "中国工艺美术馆",
+  "target_ref": "04-knowledge/units/institutions/zhongguo-gongyi-meishuguan.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-56",
+  "action": "create"
+ },
+ "xdup-0181": {
+  "entity": "中国美术馆",
+  "target_ref": "04-knowledge/units/institutions/zhongguo-meishuguan.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-38",
+  "action": "create"
+ },
+ "xdup-0182": {
+  "entity": "中天电机厂",
+  "target_ref": "04-knowledge/units/institutions/zhongtian-dianjichang.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-26",
+  "action": "create"
+ },
+ "xdup-0183": {
+  "entity": "中央工艺美术科学研究所",
+  "target_ref": "04-knowledge/units/institutions/zhongyang-gongyi-meishu-kexue-yanjiu-suo.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-30",
+  "action": "create"
+ },
+ "xdup-0184": {
+  "entity": "中央美术学院",
+  "target_ref": "04-knowledge/units/institutions/zhongyang-meishu-xueyuan.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-23",
+  "action": "create"
+ },
+ "xdup-0185": {
+  "entity": "云锦研究工作组",
+  "target_ref": "04-knowledge/units/institutions/yunjin-yanjiu-gongzuozu.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-42",
+  "action": "create"
+ },
+ "xdup-0186": {
+  "entity": "亚平艺术装饰公司",
+  "target_ref": "04-knowledge/units/institutions/yaping-yishu-zhuangshi-gongsi.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-79",
+  "action": "create"
+ },
+ "xdup-0187": {
+  "entity": "内务府造办处",
+  "target_ref": "04-knowledge/units/institutions/neiwufu-zaobanchu.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-07",
+  "action": "create"
+ },
+ "xdup-0188": {
+  "entity": "南京市云锦研究所",
+  "target_ref": "04-knowledge/units/institutions/nanjing-yunjin-yanjiusuo.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-32",
+  "action": "create"
+ },
+ "xdup-0189": {
+  "entity": "商务印书馆",
+  "target_ref": "04-knowledge/units/institutions/shangwu-yinshuguan.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-34",
+  "action": "create"
+ },
+ "xdup-0190": {
+  "entity": "少府",
+  "target_ref": "04-knowledge/units/institutions/shaofujian.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-123",
+  "action": "update"
+ },
+ "xdup-0191": {
+  "entity": "尚美图案馆",
+  "target_ref": "04-knowledge/units/institutions/shangmei-tuananguan.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-23",
+  "action": "create"
+ },
+ "xdup-0192": {
+  "entity": "故宫博物院",
+  "target_ref": "04-knowledge/units/institutions/gugong-bowuyuan.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-90",
+  "action": "create"
+ },
+ "xdup-0193": {
+  "entity": "文思院",
+  "target_ref": "04-knowledge/units/institutions/wensiyuan.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-30",
+  "action": "create"
+ },
+ "xdup-0194": {
+  "entity": "江南制造总局",
+  "target_ref": "04-knowledge/units/institutions/jiangnan-zhizao-zongju.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-29",
+  "action": "create"
+ },
+ "xdup-0195": {
+  "entity": "汲古阁",
+  "target_ref": "04-knowledge/units/institutions/jiguge.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-22",
+  "action": "create"
+ },
+ "xdup-0196": {
+  "entity": "申新纺织公司",
+  "target_ref": "04-knowledge/units/institutions/shenxin-fangzhi-gongsi.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-20",
+  "action": "create"
+ },
+ "xdup-0197": {
+  "entity": "第二轻工业部",
+  "target_ref": "04-knowledge/units/institutions/dier-qinggongyebu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-40",
+  "action": "create"
+ },
+ "xdup-0198": {
+  "entity": "船宫",
+  "target_ref": "04-knowledge/units/institutions/chuangong.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-32",
+  "action": "create"
+ },
+ "xdup-0199": {
+  "entity": "轮船招商局",
+  "target_ref": "04-knowledge/units/institutions/lunchuan-zhaoshangju.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-26",
+  "action": "create"
+ },
+ "xdup-0200": {
+  "entity": "金银作坊院",
+  "target_ref": "04-knowledge/units/institutions/jinyin-zuofangyuan.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-68",
+  "action": "create"
+ },
+ "xdup-0201": {
+  "entity": "铸镜局",
+  "target_ref": "04-knowledge/units/institutions/zhujingju.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-35",
+  "action": "create"
+ }
+}

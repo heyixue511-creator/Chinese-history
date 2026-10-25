@@ -1,0 +1,338 @@
+{
+  "work_package": "2026-10-25-nine-person-reconciliation",
+  "goal": "第十一批：对 doc_count=4 的 9 个既有 person 组（37 个候选）做复用／更新裁决；3 条既有 KU 补入候选中的实质内容，6 条判定 no_delta；28 个同组重复候选 rejected。",
+  "status": "applied",
+  "created_at": "2026-10-25T15:53:00+08:00",
+  "updated_at": "2026-10-25T15:58:30+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:7f5efcc78e5fb0c49ea64bf801e797b5d33e31a334e040180bb6b7330476da42（7,168,905 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/manifest.json",
+    "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+  },
+  "scope": {
+    "group_rule": "九个组均为 doc_count=4 的同名组；九组对应人物均已有 person KU，故本批是既有 KU 的复用／更新裁决，不是新建。",
+    "group_ids": [
+      "xdup-0012",
+      "xdup-0027",
+      "xdup-0028",
+      "xdup-0029",
+      "xdup-0030",
+      "xdup-0031",
+      "xdup-0032",
+      "xdup-0033",
+      "xdup-0034"
+    ],
+    "groups": 9,
+    "candidate_rows": 37,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 28,
+    "updated_units": 3,
+    "no_delta_units": 6,
+    "unit_types": {
+      "person": 9
+    },
+    "sub_types": {
+      "philosopher": 3,
+      "craftsman": 2,
+      "statesman": 1,
+      "scientist": 1,
+      "designer": 2
+    },
+    "merge_note": "九组 canonical 均取 2016 夏燕靖升级版：其生卒、身份与设计相关内容最完整，且 slug 与最终文件名一致（孟子组因同名典籍消歧，2016 候选 slug 为 mengzi-person，与 persons/mengzi.md 的消歧角色一致）。"
+  },
+  "method": {
+    "semantic_step": "逐组复读四册候选与既有 KU，对照生卒、名号、身份、核心主张、代表作品与评价；候选有实质增补时 update，既有 KU 已完整覆盖时 no_delta。",
+    "canonical_rule": "每组选 1 条 canonical 候选作为裁决身份，其余同组候选转 rejected 并指向同一 target_ref。2016 升级版优先，因生卒与设计内容最完整；孟子组按消歧后的 person 角色取 mengzi-person。",
+    "decision_rule": "3 组 update：朱碧山、陈之佛、马钧；6 组 no_delta：荀子、孟子、管仲、老子、郭守敬、鲁迅。no_delta 不产生 apply-plan 行。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（3 条 update canonical）；needs_evidence -> ready_for_review -> approved -> no_delta（6 条 canonical）；needs_evidence -> rejected（28 条同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl，不改历史 R1 台账。",
+    "write_back": "精确变更集：3 条 update，无 create、无 delete。update 的 sha256／bytes／lines 按 CRLF→LF 归一后计算。",
+    "extra_source_rule": "陈之佛条的李立新 source 增补 L225，因 1961 年通史编写见该行；其余 update 的既有 source 行号已覆盖候选文本，不新增来源文档。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-nine-person-reconciliation/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl",
+    "updated_units": [
+      "04-knowledge/units/persons/zhu-bishan.md",
+      "04-knowledge/units/persons/chen-zhifo.md",
+      "04-knowledge/units/persons/ma-jun.md"
+    ],
+    "no_delta_units": [
+      "04-knowledge/units/persons/xunzi.md",
+      "04-knowledge/units/persons/mengzi.md",
+      "04-knowledge/units/persons/guan-zhong.md",
+      "04-knowledge/units/persons/laozi.md",
+      "04-knowledge/units/persons/guo-shoujing.md",
+      "04-knowledge/units/persons/lu-xun.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "group_id": "xdup-0012",
+      "entity": "荀子",
+      "target_ref": "04-knowledge/units/persons/xunzi.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-60",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-76",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-61",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-137",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-89"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖生卒两说、名况字卿、天行有常、养目说、以玉比德与田自秉的诸子定位；五条候选无新增实质内容，判定 no_delta。赵农 L1767-L1814 的惠施、尸佼上下文不直接陈述荀子，不另立条目。"
+    },
+    {
+      "group_id": "xdup-0027",
+      "entity": "孟子",
+      "target_ref": "04-knowledge/units/persons/mengzi.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-59",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-73",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-33",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-88"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖生卒、名字、平民教育家身份、与民同乐、民为贵、独乐乐引文与“幻想”评价；四条候选无新增，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0028",
+      "entity": "朱碧山",
+      "target_ref": "04-knowledge/units/persons/zhu-bishan.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-02",
+      "decision": "applied",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-05-13",
+        "2009-xiayanjing-zhongguo-shejishi:cand-05-45",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-80"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "补入夏燕靖两版的热酒滑行、槎杯尺寸 15.2×19.8 厘米、至正乙酉（1345）铭文与“龙槎杯”名称；与高丰所引《万历嘉兴府志》“不施药焊，注酒自能流走”并列。"
+    },
+    {
+      "group_id": "xdup-0029",
+      "entity": "管仲",
+      "target_ref": "04-knowledge/units/persons/guan-zhong.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-21",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-70",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-136",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-74"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖反雕饰、富民思想、76 篇、侈靡消费、三条立法原则与两条相反主张的并存；四条候选无新增，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0030",
+      "entity": "老子",
+      "target_ref": "04-knowledge/units/persons/laozi.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-57",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-71",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-29",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-71"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖生卒、名字称号、虚无观引文、大象无形／大方无隅／大巧若拙、无为、大匠若拙与民本契约关联；四条候选无新增，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0031",
+      "entity": "郭守敬",
+      "target_ref": "04-knowledge/units/persons/guo-shoujing.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-03",
+      "decision": "no_delta",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-05-14",
+        "2009-xiayanjing-zhongguo-shejishi:cand-05-49",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-43"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖生卒籍贯、郭荣与刘秉忠、授时历、10 余种／17 种两说、简仪坐标分解与圆柱轴承、复制品尺寸、圭表改进、通惠渠与司天台；四条候选无新增，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0032",
+      "entity": "陈之佛",
+      "target_ref": "04-knowledge/units/persons/chen-zhifo.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-14",
+      "decision": "applied",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-07-23",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-11",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-22"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入李立新所记 1961 年文化部组织编写《中国工艺美术通史》的专家学者名单；李立新 source 由 L1307, L1311, L1320 增补 L225。"
+    },
+    {
+      "group_id": "xdup-0033",
+      "entity": "马钧",
+      "target_ref": "04-knowledge/units/persons/ma-jun.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-45",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-03-76",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-48",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-03"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "补入夏燕靖 2016 的魏明帝时改机、翻车“利用流水作动力”与水转百戏“以水为动力，以机械木轮为传动装置”；其余三册未记时间与动力学细节。"
+    },
+    {
+      "group_id": "xdup-0034",
+      "entity": "鲁迅",
+      "target_ref": "04-knowledge/units/persons/lu-xun.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-37",
+      "decision": "no_delta",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-07-20",
+        "2009-xiayanjing-zhongguo-shejishi:cand-06-35",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-04"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 4,
+      "update_note": "既有 KU 已覆盖设计主张、作品清单、《域外小说集》题签、《呐喊》《彷徨》版式、《北平笺谱》封面、提携陶元庆／孙福熙／钱君匋与各册评价；四条候选无新增，判定 no_delta。"
+    }
+  ],
+  "source_variance_notes": [
+    "荀子：生卒卒年有前 238（赵农）与前 233（夏燕靖 2016）两说；2016 另记名况、字卿；赵农 L1767-L1814 在同段列惠施、尸佼的时空观，属时代背景而非荀子本人主张；田自秉只列入诸子工艺美学。既有 KU 已全收，故 no_delta。",
+    "孟子：生卒仅夏燕靖 2016 给出（前 372—前 289）；赵农补平民教育家身份与“独乐乐”引文；田自秉只列入诸子；2009 与 2016 均评其民本主张在封建社会只是幻想。既有 KU 已全收，故 no_delta。",
+    "朱碧山：籍贯有嘉兴渭城（夏燕靖两版）与嘉兴魏塘（高丰、田自秉）之别；生年仅高丰记约 1300 年；高丰引《万历嘉兴府志》“不施药焊，注酒自能流走”，夏燕靖两版作“注入热酒后会在桌上滑行”；夏燕靖两版另记槎杯高 15.2 厘米、长 19.8 厘米、至正乙酉（1345）年款与“龙槎杯”名称。",
+    "管仲：夏燕靖 2009 的反雕饰与李立新、夏燕靖 2016 的侈靡消费方向相反；生卒仅 2016 给出（前 723—前 645）；赵农记《管子》今存 76 篇；李立新概括“随时变”“遵事理”“量可能”三条原则。既有 KU 已并列，故 no_delta。",
+    "老子：生卒仅夏燕靖 2016 给出（前 571—前 471）；赵农、李立新作“大巧若拙”，李立新正文另作“大匠若拙”；2016 另记字伯阳、谥号聃、又称李耳。既有 KU 已并列，故 no_delta。",
+    "郭守敬：仪器数量有“10 余种”（高丰）与“17 种”（夏燕靖 2009、2016）两说；高丰记简仪复制品尺寸，赵农记通惠渠、司天台与阿尼哥合作，2016 记圆柱体轴承。既有 KU 已全收，故 no_delta。",
+    "陈之佛：留日入学年份（1919／1918）、留学生“第一人”范围（图案设计／染织工艺）、尚美图案馆创办年（1924／1923）、早年校名（浙江工业学校／杭州甲种工业学校）四项分歧已存；本批新增李立新 L225 的 1961 年《中国工艺美术通史》编写名单。",
+    "马钧：绫机改造有“12 根踏杆控制 60 片综”（夏燕靖 2009）与“五十综五十蹑、六十综六十蹑改为十二蹑”（赵农、田自秉、2016）两种叙述；本批新增 2016 的“魏明帝时”时间定位，以及翻车与水转百戏的动力学细节。",
+    "鲁迅：高丰列最详的作品清单，夏燕靖两版补《域外小说集》题签与《呐喊》《彷徨》版式，赵农评《呐喊》封面“中西结合”，2016 另列钱君匋。既有 KU 已全收，故 no_delta。",
+    "总说明：九组候选组均为 doc_count=4；既有 KU 的 source_count 为 4—6，因陈之佛条另含 2009 夏燕靖与 2010 田自秉等组外册。source_count 记文档数，不等于独立来源数。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 0,
+    "updated_knowledge_units": 3,
+    "no_delta_knowledge_units": 6,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "3 条更新 KU 保持 confidence=medium、consensus=tentative、evidence_status=source_backed；6 条 no_delta KU 状态不变；未标 confirmed、externally_verified 或 L1-L7 级验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "status": "pass",
+      "total_candidates": 5339,
+      "by_state": {
+        "applied": 145,
+        "no_delta": 8,
+        "rejected": 408,
+        "needs_evidence": 4778
+      },
+      "by_lifecycle_class": {
+        "active": 4778,
+        "terminal": 561
+      },
+      "after_fingerprint": "sha256:012c26d3b18a0677c89f91707b90d7fdf91475413deb2765ec6d0c82826c3033（7,176,108 B，5,339 行）"
+    },
+    "content_quality": {
+      "status": "pass",
+      "knowledge_units": 164,
+      "findings": 0
+    },
+    "structural_health": {
+      "status": "pass",
+      "knowledge_units": 164,
+      "type_coverage": "8/8",
+      "frontmatter_missing": 0,
+      "frontmatter_malformed": 0,
+      "markdown_broken_links": 0,
+      "invalid_enums": 0,
+      "verification_semantic_issues": 0,
+      "evidence_ref_resolvable": "164/164",
+      "duplicate_basename_groups": 1,
+      "duplicate_basename_note": "mengzi（persons/publications）已有消歧说明，未新增问题"
+    },
+    "apply_plan_hash_check": {
+      "status": "pass",
+      "rows": 3,
+      "after_match": "3/3",
+      "note": "编辑后 3 个文件的 sha256／bytes／lines 全部等于 apply-plan 的 after；before 字段记录编辑前指纹"
+    },
+    "pre_commit_check": {
+      "status": "pass",
+      "rule_drift": 0
+    },
+    "sync_closure": {
+      "status": "pass",
+      "steps_passed": "19/19",
+      "tests": "250 passed, 16 subtests passed",
+      "note": "使用 --refresh-generated --full --check-generated，生成快照无漂移"
+    }
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台，证据仅来自六册 Markdown 文本。",
+    "未做图版、器物、手稿或档案的视觉与实物核对。",
+    "primary_theme 与 topic_memberships 留空；Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；同组与同章共现只作非断言性叙述。",
+    "来源分歧（生卒、籍贯、身份、数量、名称、评价）一律并列保留，不做调和。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

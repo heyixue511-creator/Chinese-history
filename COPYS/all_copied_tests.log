@@ -1,0 +1,78 @@
+........................................................ [ 22%]
+........................................F.F......F...................... [ 51%]
+.........................................................F....F......... [ 80%]
+..................................................                       [100%]
+================================== FAILURES ===================================
+______ BuildRelationIndexTests.test_existing_structure_path_is_accepted _______
+
+self = <test_build_relation_index.BuildRelationIndexTests testMethod=test_existing_structure_path_is_accepted>
+
+    def test_existing_structure_path_is_accepted(self):
+>       self.assertEqual(
+            self.module._materialized_structure_target("topics/visualization-as-reform-tool.md"),
+            "topics/visualization-as-reform-tool.md",
+        )
+E       AssertionError: '' != 'topics/visualization-as-reform-tool.md'
+E       + topics/visualization-as-reform-tool.md
+
+tests\test_build_relation_index.py:134: AssertionError
+_ BuildRelationIndexTests.test_hierarchy_relations_use_structure_root_targets _
+
+self = <test_build_relation_index.BuildRelationIndexTests testMethod=test_hierarchy_relations_use_structure_root_targets>
+
+    def test_hierarchy_relations_use_structure_root_targets(self):
+        hierarchy_relations = [
+            relation
+            for relation in self.module.relations
+            if str(relation.get("evidence") or "").startswith("hierarchy.")
+        ]
+>       self.assertTrue(hierarchy_relations)
+E       AssertionError: [] is not true
+
+tests\test_build_relation_index.py:145: AssertionError
+_ BuildRelationIndexTests.test_theme_code_resolves_through_materialized_theme_frontmatter _
+
+self = <test_build_relation_index.BuildRelationIndexTests testMethod=test_theme_code_resolves_through_materialized_theme_frontmatter>
+
+    def test_theme_code_resolves_through_materialized_theme_frontmatter(self):
+>       self.assertEqual(
+            self.module._materialized_theme_target("B.2"),
+            "themes/b2-geometric-quantitative-encoding.md",
+        )
+E       AssertionError: '' != 'themes/b2-geometric-quantitative-encoding.md'
+E       + themes/b2-geometric-quantitative-encoding.md
+
+tests\test_build_relation_index.py:128: AssertionError
+______ PlanRelationCandidatesTests.test_existing_topic_path_is_resolved _______
+
+self = <test_plan_relation_candidates.PlanRelationCandidatesTests testMethod=test_existing_topic_path_is_resolved>
+
+    def test_existing_topic_path_is_resolved(self):
+>       self.assertEqual(
+            self.module._materialized_structure_target("topics/visualization-and-governance.md"),
+            "topics/visualization-and-governance.md",
+        )
+E       AssertionError: '' != 'topics/visualization-and-governance.md'
+E       + topics/visualization-and-governance.md
+
+tests\test_plan_relation_candidates.py:134: AssertionError
+__ PlanRelationCandidatesTests.test_theme_code_resolves_through_frontmatter ___
+
+self = <test_plan_relation_candidates.PlanRelationCandidatesTests testMethod=test_theme_code_resolves_through_frontmatter>
+
+    def test_theme_code_resolves_through_frontmatter(self):
+>       self.assertEqual(
+            self.module._materialized_theme_target("C.6"),
+            "themes/c6-twentieth-century-visualization.md",
+        )
+E       AssertionError: '' != 'themes/c6-twentieth-century-visualization.md'
+E       + themes/c6-twentieth-century-visualization.md
+
+tests\test_plan_relation_candidates.py:128: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_build_relation_index.py::BuildRelationIndexTests::test_existing_structure_path_is_accepted
+FAILED tests/test_build_relation_index.py::BuildRelationIndexTests::test_hierarchy_relations_use_structure_root_targets
+FAILED tests/test_build_relation_index.py::BuildRelationIndexTests::test_theme_code_resolves_through_materialized_theme_frontmatter
+FAILED tests/test_plan_relation_candidates.py::PlanRelationCandidatesTests::test_existing_topic_path_is_resolved
+FAILED tests/test_plan_relation_candidates.py::PlanRelationCandidatesTests::test_theme_code_resolves_through_frontmatter
+5 failed, 245 passed, 16 subtests passed in 3.64s

@@ -1,0 +1,62 @@
+{
+ "xdup-0277": {
+  "entity": "吹灰法",
+  "target_ref": "04-knowledge/units/procedures/chuihui-fa.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-53",
+  "action": "create"
+ },
+ "xdup-0278": {
+  "entity": "夹纻胎",
+  "target_ref": "04-knowledge/units/procedures/jiazhu-tai.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-sup-08",
+  "action": "create"
+ },
+ "xdup-0279": {
+  "entity": "夹缬",
+  "target_ref": "04-knowledge/units/terms/jiaxie.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-10",
+  "action": "update"
+ },
+ "xdup-0280": {
+  "entity": "捣练法",
+  "target_ref": "04-knowledge/units/procedures/daolian-fa.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-25",
+  "action": "create"
+ },
+ "xdup-0281": {
+  "entity": "泥条盘筑法",
+  "target_ref": "04-knowledge/units/procedures/ni-tiao-panzhu.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-53",
+  "action": "create"
+ },
+ "xdup-0282": {
+  "entity": "琉璃烧造",
+  "target_ref": "04-knowledge/units/procedures/liuli-shaozhao.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-01",
+  "action": "create"
+ },
+ "xdup-0283": {
+  "entity": "转轮排字法",
+  "target_ref": "04-knowledge/units/procedures/zhuanlun-paizifa.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-05-57",
+  "action": "create"
+ },
+ "xdup-0284": {
+  "entity": "鎏金",
+  "target_ref": "04-knowledge/units/procedures/liujin.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-144",
+  "action": "create"
+ },
+ "xdup-0285": {
+  "entity": "铁范铸造",
+  "target_ref": "04-knowledge/units/procedures/tiefan-zhuzao.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-08",
+  "action": "create"
+ },
+ "xdup-0286": {
+  "entity": "雕版印刷",
+  "target_ref": "04-knowledge/units/procedures/diaoban-yinshua.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-53",
+  "action": "create"
+ }
+}

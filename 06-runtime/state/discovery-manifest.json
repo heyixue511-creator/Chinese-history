@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1",
+  "generator": "scripts/build_discovery_index.py",
+  "parameters": [],
+  "baseline_input_fingerprint": "sha256:61e5663b80de2378976c41eda59eb5d002fd94255686fbfba6782f51301bc3c5",
+  "input_state": {
+    "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
+    "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
+    "03-processing/2009-zhaonong-zhongguo-yishu-shejishi/candidate-ledger.jsonl": "sha256:088f62c817b8892adb29cf70d88fe0a510bdbf36bb99f6c44fb230e9dc5a30f7",
+    "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi/candidate-ledger.jsonl": "sha256:030d73386706b731191661f4ba79dd6684c11e2a61c1cc014b5c1b7e165e7b30",
+    "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/candidate-ledger.jsonl": "sha256:570a9f97940e9b65c36b00d1e9184b3630454fd6b2d918a81d02e16de919d34b",
+    "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade/candidate-ledger.jsonl": "sha256:d92e5a13be4024ac622f79cc9a888f46b469059565ef4e8ea8c03db961ab957b",
+    "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88",
+    "06-runtime/automation/2026-10-25-doc1-groups-batch/candidate-decision-ledger.jsonl": "sha256:d5816afc90687e61712b7ac0a1edfed6bb7dc68209663efeec59e544b0c9aa3f",
+    "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/candidate-decision-ledger.jsonl": "sha256:802a00025d81de87ca78a38b84d31c98efef3e1c0f594770a1d0961334ac7f81",
+    "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/candidate-decision-ledger.jsonl": "sha256:a64708eb35ad63f80c2fc80b70e638070371214494c7d15e6377ce37a7f6df64",
+    "06-runtime/automation/2026-10-25-event-doc2-batch/candidate-decision-ledger.jsonl": "sha256:d205380a6b14a5968f204c0189a444b04d76a94c796c82c740a7fec608a83b51",
+    "06-runtime/automation/2026-10-25-five-book-canonical-units/candidate-decision-ledger.jsonl": "sha256:3c5e9ecbf0c98062be36758ab039045108b0c3c5f8c0cd85479cc51cc2624af7",
+    "06-runtime/automation/2026-10-25-five-book-ceramic-term-units/candidate-decision-ledger.jsonl": "sha256:8c8acaf1f2a1c9f24c1e729dfc6b266d9a916057cfc8e9575247d07c4f63d29c",
+    "06-runtime/automation/2026-10-25-four-book-canonical-units/candidate-decision-ledger.jsonl": "sha256:dc07468a1aa00412957cbdd8958a8f828b9b25a73a359082b0f0807e1240faaa",
+    "06-runtime/automation/2026-10-25-institution-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:ced747d11e0ff0cccf86ca63a6db9e8ef0d2800fa10ca7a90faf5acdb96e7ed6",
+    "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl": "sha256:fc3a01d9a146784aeb8d64ea7937cbd09c101033c3c9b25b7f63f037cf15d2b6",
+    "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl": "sha256:c60b661d8a8218f691053d5cbaa5ffb62887720675dce1d58c14738635ffdb11",
+    "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl": "sha256:f14583d3c8c8123265c45cd3421d967d853046532aaeda80877cba7758e965f6",
+    "06-runtime/automation/2026-10-25-person-doc2-batch-l/candidate-decision-ledger.jsonl": "sha256:f584540fe6d8c1d7dd35e1dacd4f7dc74a00731375db9bc8022b6ef1305b6e88",
+    "06-runtime/automation/2026-10-25-person-doc2-batch-m/candidate-decision-ledger.jsonl": "sha256:9ad0ce7a9ffd3d4cc2031d9f14aac20c2040140ff6d7a32d28d3d5a7b794159c",
+    "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl": "sha256:d5ccfa78ff0309ead1e50ccb1894aac9f1094967199aba08503dc5598b0e3e0a",
+    "06-runtime/automation/2026-10-25-place-doc2-batch/candidate-decision-ledger.jsonl": "sha256:e7a6bc6d8a82b6c5565b144cff6e32555ed022395b15043174a9f32dcfff3a20",
+    "06-runtime/automation/2026-10-25-procedure-doc2-batch/candidate-decision-ledger.jsonl": "sha256:2fe2abd24279ea7fa17862d38fe61cf5aaec2da0c5b880fe0994ea3d37df2491",
+    "06-runtime/automation/2026-10-25-publication-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:1da88f0d9900113dd0c044381b52bfb5bf25f46de12565e86b40aa26dae47ade",
+    "06-runtime/automation/2026-10-25-publication-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:2de3b3f3c19d73dff3b131dd168acb888a67229bc14b3d14f992a5c2c65b3c2b",
+    "06-runtime/automation/2026-10-25-six-prehistoric-term-units/candidate-decision-ledger.jsonl": "sha256:044ba33bd1004226bbb5f331f550539b6530be0e204e8bd7203cc875f182c919",
+    "06-runtime/automation/2026-10-25-ten-person-units-and-mozi-update/candidate-decision-ledger.jsonl": "sha256:5ef1a856ba5b7f7996798ff9c16633cf07dc0c15a892a7bdf052104fb8117794",
+    "06-runtime/automation/2026-10-25-term-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:821f78d2d2db1cc38c611099031d72a77d7c5a95adc2983d888d9ec7e57c9587",
+    "06-runtime/automation/2026-10-25-term-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:80b66172ab9ec519b8528449a817dc9aba4983dd61f2b3373ca6542ff1a48480",
+    "06-runtime/automation/2026-10-25-term-doc2-batch-c/candidate-decision-ledger.jsonl": "sha256:b775d2bd30cab6b2aae94f7e58d386cb1378d98d452a29d0e205de9cd7741821",
+    "06-runtime/automation/2026-10-25-term-doc2-batch-d/candidate-decision-ledger.jsonl": "sha256:508cd6da4d0ea147b9d08dd78171b2d2b54bc49d4db0b07275f4daf226c0bf0c",
+    "06-runtime/automation/2026-10-25-term-doc2-batch-e/candidate-decision-ledger.jsonl": "sha256:d26f85bee6c355f3d4de41a9a6a20891aecaf122003bdba5e07b1952bb9aecf2",
+    "06-runtime/automation/2026-10-25-three-book-canonical-units/candidate-decision-ledger.jsonl": "sha256:180bcb92955ac215e67fd2ac4ddfa23d7d4043423310a9c2abe3b7242d1b6c0e",
+    "06-runtime/automation/2026-10-25-three-book-person-units-b/candidate-decision-ledger.jsonl": "sha256:101104d8b1403a3c3875d20185da0ae306f08660777040102bff2fcc0c56d72e",
+    "06-runtime/automation/2026-10-25-three-book-person-units/candidate-decision-ledger.jsonl": "sha256:f744aa42d38754c5d6d26b85b99de0babb80bdab69ca5b3c4757adcb7ee1686d",
+    "06-runtime/automation/2026-10-25-three-book-place-units/candidate-decision-ledger.jsonl": "sha256:3b59ddc0e03f69dbb98703b6c85b94bdcc0b35e4158d05fc81a236e4838c6d76",
+    "06-runtime/automation/2026-10-25-three-book-publication-units-a/candidate-decision-ledger.jsonl": "sha256:5edc2e05802d7b12e5fd4f7a0fbaae3cf3393209143f3ded89d4e75cd50405bd",
+    "06-runtime/automation/2026-10-25-three-book-publication-units-b/candidate-decision-ledger.jsonl": "sha256:94d906a07e250ebe3c55b4644f4cedbb52ffd9add98739726a1725c83de0880e",
+    "06-runtime/automation/2026-10-25-three-book-work-units-a/candidate-decision-ledger.jsonl": "sha256:22b895a8c0124cd6a74e4d4f30ce08a61e3aa10e51eab9e096f44cb43a920cde",
+    "06-runtime/automation/2026-10-25-three-book-work-units-b/candidate-decision-ledger.jsonl": "sha256:2b2b011a8b2a8d7ac2f8a8071896fd6154daab4059a57dbf5518c3074658dfac",
+    "06-runtime/automation/2026-10-25-three-book-work-units-c/candidate-decision-ledger.jsonl": "sha256:e11c3e29779c54a67833cdc4a003dcc52dcf1cb7232be60a032a2487576f2313",
+    "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": "sha256:e35c6e11360285235bd6903bd6dd9d97e688168b82afffb7c56cbf45ef291fec",
+    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": "sha256:92b46094275a60fee28b5c61dc63a8d92cc8a38dc24440ea33c1b2f7ee8b5e8a"
+  },
+  "source_counts": {
+    "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": 223,
+    "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": 607,
+    "03-processing/2009-zhaonong-zhongguo-yishu-shejishi/candidate-ledger.jsonl": 1696,
+    "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi/candidate-ledger.jsonl": 1068,
+    "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/candidate-ledger.jsonl": 534,
+    "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade/candidate-ledger.jsonl": 1211,
+    "04-knowledge/quality/relation-candidates.yml": 0
+  },
+  "candidate_transition_source_counts": {
+    "06-runtime/automation/2026-10-25-doc1-groups-batch/candidate-decision-ledger.jsonl": 24,
+    "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/candidate-decision-ledger.jsonl": 48,
+    "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/candidate-decision-ledger.jsonl": 66,
+    "06-runtime/automation/2026-10-25-event-doc2-batch/candidate-decision-ledger.jsonl": 36,
+    "06-runtime/automation/2026-10-25-five-book-canonical-units/candidate-decision-ledger.jsonl": 105,
+    "06-runtime/automation/2026-10-25-five-book-ceramic-term-units/candidate-decision-ledger.jsonl": 49,
+    "06-runtime/automation/2026-10-25-four-book-canonical-units/candidate-decision-ledger.jsonl": 72,
+    "06-runtime/automation/2026-10-25-institution-doc2-batch-a/candidate-decision-ledger.jsonl": 104,
+    "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-nine-person-reconciliation/candidate-decision-ledger.jsonl": 55,
+    "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl": 46,
+    "06-runtime/automation/2026-10-25-person-doc2-batch-l/candidate-decision-ledger.jsonl": 54,
+    "06-runtime/automation/2026-10-25-person-doc2-batch-m/candidate-decision-ledger.jsonl": 80,
+    "06-runtime/automation/2026-10-25-pilot-seven-canonical-units/candidate-decision-ledger.jsonl": 56,
+    "06-runtime/automation/2026-10-25-place-doc2-batch/candidate-decision-ledger.jsonl": 100,
+    "06-runtime/automation/2026-10-25-procedure-doc2-batch/candidate-decision-ledger.jsonl": 40,
+    "06-runtime/automation/2026-10-25-publication-doc2-batch-a/candidate-decision-ledger.jsonl": 94,
+    "06-runtime/automation/2026-10-25-publication-doc2-batch-b/candidate-decision-ledger.jsonl": 92,
+    "06-runtime/automation/2026-10-25-six-prehistoric-term-units/candidate-decision-ledger.jsonl": 30,
+    "06-runtime/automation/2026-10-25-ten-person-units-and-mozi-update/candidate-decision-ledger.jsonl": 46,
+    "06-runtime/automation/2026-10-25-term-doc2-batch-a/candidate-decision-ledger.jsonl": 107,
+    "06-runtime/automation/2026-10-25-term-doc2-batch-b/candidate-decision-ledger.jsonl": 108,
+    "06-runtime/automation/2026-10-25-term-doc2-batch-c/candidate-decision-ledger.jsonl": 108,
+    "06-runtime/automation/2026-10-25-term-doc2-batch-d/candidate-decision-ledger.jsonl": 108,
+    "06-runtime/automation/2026-10-25-term-doc2-batch-e/candidate-decision-ledger.jsonl": 104,
+    "06-runtime/automation/2026-10-25-three-book-canonical-units/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-three-book-person-units-b/candidate-decision-ledger.jsonl": 42,
+    "06-runtime/automation/2026-10-25-three-book-person-units/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-three-book-place-units/candidate-decision-ledger.jsonl": 45,
+    "06-runtime/automation/2026-10-25-three-book-publication-units-a/candidate-decision-ledger.jsonl": 35,
+    "06-runtime/automation/2026-10-25-three-book-publication-units-b/candidate-decision-ledger.jsonl": 35,
+    "06-runtime/automation/2026-10-25-three-book-work-units-a/candidate-decision-ledger.jsonl": 38,
+    "06-runtime/automation/2026-10-25-three-book-work-units-b/candidate-decision-ledger.jsonl": 36,
+    "06-runtime/automation/2026-10-25-three-book-work-units-c/candidate-decision-ledger.jsonl": 39,
+    "06-runtime/automation/2026-10-25-work-doc2-batch-a/candidate-decision-ledger.jsonl": 108,
+    "06-runtime/automation/2026-10-25-work-doc2-batch-b/candidate-decision-ledger.jsonl": 100
+  },
+  "applied_candidate_transition_counts": {
+    "approved->applied": 500,
+    "approved->no_delta": 15,
+    "needs_evidence->ready_for_review": 515,
+    "needs_evidence->rejected": 800,
+    "ready_for_review->approved": 515
+  },
+  "candidate_counts": {
+    "total": 5339,
+    "by_origin_type": {
+      "source": 5339
+    },
+    "by_candidate_type": {
+      "claim": 1363,
+      "unit": 3976
+    },
+    "by_state": {
+      "applied": 500,
+      "needs_evidence": 4023,
+      "no_delta": 15,
+      "rejected": 801
+    },
+    "by_lifecycle_class": {
+      "active": 4023,
+      "terminal": 1316
+    }
+  },
+  "actionable_candidate_counts": {
+    "total": 4023,
+    "by_origin_type": {
+      "source": 4023
+    },
+    "by_candidate_type": {
+      "claim": 1363,
+      "unit": 2660
+    },
+    "by_state": {
+      "needs_evidence": 4023
+    }
+  },
+  "legacy_projection_normalizations": {},
+  "issues": [],
+  "output_hashes": {
+    "06-runtime/state/candidate-index.jsonl": "sha256:d5229189c1f55a2c7f0a0c41ab11a8146aeaaf21898ae6a4d95bdf5b3a341cc8"
+  }
+}

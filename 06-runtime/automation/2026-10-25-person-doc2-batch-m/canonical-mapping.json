@@ -1,0 +1,212 @@
+[
+ {
+  "group_id": "xdup-0223",
+  "entity": "李有行",
+  "target_ref": "04-knowledge/units/persons/li-youxing.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-15",
+  "merged_member": "2004-gaofeng-zhongguo-shejishi:cand-sup-79",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "高丰只有群体提名，2016 补生卒、里昂美专学历、美亚丝绸厂八年与“限色”方法。"
+ },
+ {
+  "group_id": "xdup-0224",
+  "entity": "李诚",
+  "target_ref": "04-knowledge/units/persons/li-cheng.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-41",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-105",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记 36 卷 357 篇 3555 条与“以材为祖”，2016 记熙宁至崇宁成书过程、四部分与 13 工种；用字“李诚／李诫”并列。"
+ },
+ {
+  "group_id": "xdup-0225",
+  "entity": "李鸿章",
+  "target_ref": "04-knowledge/units/persons/li-hongzhang.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-25",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-28",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农只有 1891 年纶章造纸局一条，2016 详列洋炮局、江南制造总局、轮船招商局与北洋海军。"
+ },
+ {
+  "group_id": "xdup-0227",
+  "entity": "杭穉英",
+  "target_ref": "04-knowledge/units/persons/hang-zhiying.md",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-19",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-43",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "高丰详记穉英画室、年产量与旗袍美女形象，赵农只列名；高丰同一节“杭释英”为讹写。"
+ },
+ {
+  "group_id": "xdup-0228",
+  "entity": "梁思成",
+  "target_ref": "04-knowledge/units/persons/liang-sicheng.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-54",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-108",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记清华学派、天安门广场与北京规划，2016 记国徽设计组、1950 年发布令与 1961 年《建筑和建筑艺术》。"
+ },
+ {
+  "group_id": "xdup-0229",
+  "entity": "毕昇",
+  "target_ref": "04-knowledge/units/persons/bi-sheng.md",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-145",
+  "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-41",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记仁宗年间首创活字与“接近铅活字印刷”，李立新记庆历 1041—1048 与王祯—毕昇印刷设计家集群。"
+ },
+ {
+  "group_id": "xdup-0231",
+  "entity": "沈括",
+  "target_ref": "04-knowledge/units/persons/shen-kuo.md",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-148",
+  "merged_member": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-08",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农称《梦溪笔谈》609 条为设计史重要文献，田自秉引其“鉴大则平，鉴小则凸”论铜镜光学。"
+ },
+ {
+  "group_id": "xdup-0235",
+  "entity": "苏轼",
+  "target_ref": "04-knowledge/units/persons/su-shi.md",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-11",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-142",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农重其文化形象，李立新引“百工之于艺……至唐而备矣”“渐老渐熟，乃造平淡”并记药玉盏、荷叶杯。"
+ },
+ {
+  "group_id": "xdup-0236",
+  "entity": "蒲元",
+  "target_ref": "04-knowledge/units/persons/pu-yuan.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-12",
+  "merged_member": "2009-xiayanjing-zhongguo-shejishi:cand-03-101",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "两版均记独轮车与“木牛流马”，2016 补“鸡公车”、早于欧洲千余年及东汉已有独轮车的来源张力。"
+ },
+ {
+  "group_id": "xdup-0238",
+  "entity": "郑曼陀",
+  "target_ref": "04-knowledge/units/persons/zheng-mantuo.md",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-18",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-42",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "高丰详记擦笔水彩法、风格与三大盟主，赵农只列名。"
+ },
+ {
+  "group_id": "xdup-0239",
+  "entity": "郑观应",
+  "target_ref": "04-knowledge/units/persons/zheng-guanying.md",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-87",
+  "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-13",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农详于《盛世危言》工艺论与四项主张，李立新详于洋货入华分析与“商战”“实业救国论”先声。"
+ },
+ {
+  "group_id": "xdup-0240",
+  "entity": "都锦生",
+  "target_ref": "04-knowledge/units/persons/du-jinsheng.md",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-22",
+  "merged_member": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-06",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "两版文字基本一致：1921 年九溪十八涧、1922 年建厂、1926 年费城博览会金质奖。"
+ },
+ {
+  "group_id": "xdup-0241",
+  "entity": "鉴真",
+  "target_ref": "04-knowledge/units/persons/jianzhen.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-20",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-70",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农详六次东渡经过，2016 据《唐大和尚东征传》记天宝二年同行玉作人、雕檀、刻镂等工手 85 人。"
+ },
+ {
+  "group_id": "xdup-0242",
+  "entity": "闻一多",
+  "target_ref": "04-knowledge/units/persons/wen-yiduo.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-126",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-12",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记《冯小青》装帧及插图，2016 记比亚兹莱影响与东西艺术手法的结合。"
+ },
+ {
+  "group_id": "xdup-0244",
+  "entity": "阿尼哥",
+  "target_ref": "04-knowledge/units/persons/anige.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-04",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-39",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记妙应寺白塔与司天台，2016 详塔基、华盖、流苏、风铃与刹顶形制；塔高 53 米／50.9 米并列。"
+ },
+ {
+  "group_id": "xdup-0246",
+  "entity": "陶元庆",
+  "target_ref": "04-knowledge/units/persons/tao-yuanqing.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-39",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-06",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记《彷徨》《坟》装帧风格，2016 记《时报》馆经历、1925 年结识鲁迅与书装评价。"
+ },
+ {
+  "group_id": "xdup-0247",
+  "entity": "雷发达",
+  "target_ref": "04-knowledge/units/persons/lei-fada.md",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-05",
+  "merged_member": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-02",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "两版文字几乎一致：应募修紫禁城、工部营造所长班、圆明园楠木样式房掌案与两部著作。"
+ },
+ {
+  "group_id": "xdup-0248",
+  "entity": "雷圭元",
+  "target_ref": "04-knowledge/units/persons/lei-guiyuan.md",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-68",
+  "merged_member": "2004-gaofeng-zhongguo-shejishi:cand-sup-80",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "高丰只有群体提名，2016 补中央工艺美术学院副院长、1953 年座谈与 1992 年逝世 3 周年纪念会。"
+ },
+ {
+  "group_id": "xdup-0250",
+  "entity": "顾恺之",
+  "target_ref": "04-knowledge/units/persons/gu-kai-zhi.md",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-02",
+  "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-106",
+  "decision": "applied",
+  "action": "create",
+  "update_note": "赵农记《斫琴图》与南方制琴工序，李立新记其早年擅长设计并列入佛教绘画雕刻家谱系。"
+ },
+ {
+  "group_id": "xdup-0237",
+  "entity": "贾兰坡",
+  "target_ref": null,
+  "canonical_candidate": null,
+  "merged_member": null,
+  "decision": "rejected",
+  "action": "none",
+  "update_note": "现代考古学家，两册只引其石器研究结论作为设计起源讨论的学术依据，未记其参与设计或工艺活动；不建立 person KU。"
+ },
+ {
+  "group_id": "xdup-0243",
+  "entity": "阎立本",
+  "target_ref": null,
+  "canonical_candidate": null,
+  "merged_member": null,
+  "decision": "rejected",
+  "action": "none",
+  "update_note": "唐代画家，两册只以《步辇图》《萧翼赚兰亭图》作唐代服饰、家具史料，未记其参与设计或工艺活动；不建立 person KU。"
+ }
+]

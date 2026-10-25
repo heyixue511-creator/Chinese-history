@@ -1,0 +1,40 @@
+{
+  "work_package": "2026-10-25-cross-source-candidate-consolidation",
+  "goal": "Deterministic recall of cross-source unit-candidate duplicate groups before any knowledge write-back.",
+  "status": "analysis_complete",
+  "created_at": "2026-10-25T00:52:00+08:00",
+  "inputs": {
+    "candidate_index": "06-runtime/state/candidate-index.jsonl",
+    "fingerprint": "sha256:7af65fcc36bb1f800b413b9bb9c00ecc7a57b70a8f866f5212edc4ff1d38b9f5"
+  },
+  "method": {
+    "unit_groups": "exact (unit_type, proposed_slug) plus normalized (unit_type, title); punctuation and whitespace stripped",
+    "claim_groups": "not attempted; requires semantic review",
+    "decision": "none; output is recall only"
+  },
+  "counts": {
+    "unit_candidates": 3976,
+    "groups": 523,
+    "member_rows": 1304,
+    "cross_doc_groups": 517,
+    "cross_doc_rows": 1292,
+    "by_unit_type": {
+      "event": 10,
+      "institution": 38,
+      "person": 80,
+      "place": 41,
+      "procedure": 13,
+      "publication": 68,
+      "term": 197,
+      "work": 76
+    }
+  },
+  "outputs": [
+    "duplicate-groups.jsonl"
+  ],
+  "boundaries": [
+    "exact-title/slug recall only; misses paraphrase and variant names",
+    "no merge, approval or write-back",
+    "claims not covered"
+  ]
+}

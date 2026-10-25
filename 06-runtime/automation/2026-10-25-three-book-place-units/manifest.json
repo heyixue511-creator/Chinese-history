@@ -1,0 +1,200 @@
+{
+  "work_package": "2026-10-25-three-book-place-units",
+  "goal": "Fifth write-back batch: fold the 27 place candidates recalled in three source documents (doc_count = 3) across the 9 place entity groups into 9 canonical knowledge units, and record how every duplicate candidate was resolved.",
+  "status": "applied",
+  "created_at": "2026-10-25T12:13:00+08:00",
+  "updated_at": "2026-10-25T12:13:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:293857c4653a8b5413a7698d07c79d61925ba9c898fcef015aa846bfbb3ceeb5",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-canonical-units/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the place entity groups; term / person / publication / work groups of the same layer are left to later batches",
+    "group_ids": [
+      "xdup-0088",
+      "xdup-0089",
+      "xdup-0090",
+      "xdup-0091",
+      "xdup-0092",
+      "xdup-0093",
+      "xdup-0094",
+      "xdup-0095",
+      "xdup-0096"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "selected_groups": 9,
+    "remaining_doc_count_three_groups": 85,
+    "remaining_doc_count_three_candidates": 255,
+    "candidate_rows": 27,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 18,
+    "unit_types": {
+      "place": 9
+    },
+    "slug_discrepancy_note": "Slug proposals are inconsistent across the recalling books and were judged on entity identity, not slug: xdup-0088 (erlitou-yizhi / erlitou-site / erlitou-site), xdup-0089 (yuandadu / khanbaliq / yuan-dadu, where khanbaliq names the same city by its Mongol name), xdup-0090 (jiangzhai-site / jiangzhai-yizhi / jiangzhai-site), xdup-0091 (ding-kiln / dingyao / ding-yao), xdup-0093 (jing-de-zhen-yao / jing-de-zhen-yao / jingdezhen-yao), xdup-0095 (longquanyao / long-quan-yao / longquan-yao), xdup-0096 (long-men-shiku / long-men-shi-ku / longmen-shiku). xdup-0092 and xdup-0094 propose identical slugs (jingdezhen, yinxu) in all three books.",
+    "entity_boundary_note": "xdup-0092 (景德镇) and xdup-0093 (景德镇窑) name overlapping objects — a town and the kilns worked in it — and a merge was considered and rejected: the town group carries administration, population, workshop organization, the imperial factory and the modern industry; the kiln group carries wares, glazes, kiln furniture and marks. Two separate units were written (places/jingdezhen.md, places/jingdezhen-kiln.md) and cross-referenced, with the boundary rule recorded in both bodies. 赵农「3. 景德镇」 is the passage that mixes the two and is flagged as such in both units.",
+    "type_coverage_note": "place units move from 7 to 16; base type coverage stays 8/8. 龙门石窟 is filed as sub_type archaeological_site because the taxonomy place enum has no grotto value; 景德镇 is filed as sub_type city. kiln_site remains outside the enum, following the existing cizhou-kiln / ru-kiln / jun-kiln / xing-kiln / yue-kiln precedent."
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the three recalling Markdown sources plus targeted line verification at the cited line numbers and at additional lines where the same book discusses the entity; every source disagreement (dates, kiln counts, marks, dynastic attribution, name origin) was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; the remaining two same-name candidates transition to rejected with a reason naming the canonical target. The canonical member is chosen as the recalling passage that best anchors the entity, not by doc order.",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied for canonical; needs_evidence -> rejected for duplicates.",
+    "ledger": "Append-only candidate-decision-ledger.jsonl with 45 rows over 27 unique candidate ids; historical R1 candidate ledgers untouched.",
+    "write_back": "Typed exact change-set: 9 create actions, no update or delete.",
+    "span_note": "Two recalled spans are book-scale rather than passage-scale (2009-zhaonong-zhongguo-yishu-shejishi:cand-08-138 spans L5617-L7952; 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-62 spans L3607-L6058) because the extractor merged every mention of the town, including the chronology entries. They were read block by block at the candidate's own evidence refs, not treated as one continuous passage."
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-three-book-place-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-three-book-place-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/places/erlitou-site.md",
+      "04-knowledge/units/places/yinxu.md",
+      "04-knowledge/units/places/jiangzhai-site.md",
+      "04-knowledge/units/places/yuan-dadu.md",
+      "04-knowledge/units/places/ding-kiln.md",
+      "04-knowledge/units/places/jingdezhen.md",
+      "04-knowledge/units/places/jingdezhen-kiln.md",
+      "04-knowledge/units/places/longquan-kiln.md",
+      "04-knowledge/units/places/longmen-grottoes.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "entity": "二里头遗址",
+      "group_id": "xdup-0088",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-26",
+      "target_ref": "04-knowledge/units/places/erlitou-site.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "元大都",
+      "group_id": "xdup-0089",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-31",
+      "target_ref": "04-knowledge/units/places/yuan-dadu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "place"
+    },
+    {
+      "entity": "姜寨遗址",
+      "group_id": "xdup-0090",
+      "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-155",
+      "target_ref": "04-knowledge/units/places/jiangzhai-site.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "place"
+    },
+    {
+      "entity": "定窑",
+      "group_id": "xdup-0091",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-39",
+      "target_ref": "04-knowledge/units/places/ding-kiln.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "景德镇",
+      "group_id": "xdup-0092",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-138",
+      "target_ref": "04-knowledge/units/places/jingdezhen.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "景德镇窑",
+      "group_id": "xdup-0093",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-52",
+      "target_ref": "04-knowledge/units/places/jingdezhen-kiln.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "殷墟",
+      "group_id": "xdup-0094",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-12",
+      "target_ref": "04-knowledge/units/places/yinxu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "龙泉窑",
+      "group_id": "xdup-0095",
+      "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-55",
+      "target_ref": "04-knowledge/units/places/longquan-kiln.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    },
+    {
+      "entity": "龙门石窟",
+      "group_id": "xdup-0096",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-39",
+      "target_ref": "04-knowledge/units/places/longmen-grottoes.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "place"
+    }
+  ],
+  "source_variance_notes": [
+    "二里头遗址: 年代定性三说——夏代晚期（高丰、夏燕靖两版）／夏文化存疑（田自秉「是否就是夏文化，考古界还有不同的看法」）／商代早期（赵农全册一律作「商代早期宫殿」「商都」）; 两件铜爵尺寸不同（田自秉高13.3厘米、把上3镂孔／夏燕靖2016 1975年长流爵高22.5厘米、流至尾长35厘米）; 「最早青铜器」两种口径（甘肃东乡林家村马家窑青铜刀约前3000年／二里头长流爵）; 夏燕靖2016同册并存「新石器时代晚期文化」与「青铜时代」两种分期位置.",
+    "元大都: 夏燕靖两版「北城墙6730米，南城墙6680米，周长28600米，面积50余万平方公里」——面积与周长不相容, 原文照录未改字; 两版用字差异「凤池坊／风池坊」「建设基础／区域基础」; 白塔建造年份与高度仅赵农给出（至元八年、53米）, 夏燕靖只记阿尼哥设计; 「十万户」（夏燕靖引马可·波罗）与「人口百万」（赵农）一为户数一为口数, 来源未换算.",
+    "姜寨遗址: 三册均以遗址为论据而非叙述对象, 遗址面积、房址数、年代分期在来源内缺失; 赵农记石砚等绘制工具为1973年, 夏燕靖2016记陶钵编织席印痕为1972年, 所指遗物不同; 李立新「姜寨一期两件距今6600多年黄铜制品」「黄铜片含锌25%」为六册中最具体的冶金数据; 正式报告出处（《姜寨》，文物出版社1988年版）仅李立新给出.",
+    "定窑: 窑址村名两套——「涧磁村及东西燕山村」（高丰）、「灵山镇附近的涧磁村和燕山村」（田自秉）、「北镇村通天河一带」（夏燕靖2009 记1974年两次发掘）; 断代下限——田自秉「唐经五代至北宋鼎盛」、夏燕靖引1970年代定论「失传于元」而同册下文又记「金代定窑，这是北宋定瓷的直接继续」; 款识三份清单（高丰「官、新官」／夏燕靖「奉华、聚秀、慈福、官」／田自秉「尚食局、尚药局、五王府、慈福」）交集仅「官」「慈福」; 赵农图题作「宋 定窑青瓷瓶」, 与其白瓷定性不符, 原文异常照录; 高丰「北宋时随着定窑的兴盛，邢窑也就衰落了」为兴替关系的唯一明写.",
+    "景德镇: 得名落点三说——改镇名并设监镇（高丰）／贡品上书写「景德」标志而称「景德镇」瓷器（赵农）／《陶录》器底书「景德年制」四字（田自秉）; 始烧年代——赵农「唐高祖武德年间」、田自秉「自唐以来烧制青瓷」并列出唐代湘湖/湖田/石虎湾/胜梅亭窑址、高丰「最早烧瓷还是在唐代以后」; 窑数四种口径——元蒋祈《陶纪略》「三百余座」被田自秉系于宋代、被高丰系于元代, 李立新引《浮梁县志》「昔三百座，今三千座」系于康熙十九年前后, 田自秉记明代「民窑达900多」而法国传教士「3000座」被认为「过于夸张」、唐英《陶冶图说》「300区」被认为「较为实际」, 另表列道光「270~290座」至1869年「60座」; 官窑数「50多个」（田自秉）与「58座」（夏燕靖两版）; 原文异常「洪武三十五年」「景德镇石陶瓷研究所」.",
+    "景德镇窑: 「太禧」（夏燕靖两版）与「太僖」（田自秉, 且释为「元代掌管宗室祭祀的机构」）字形与释义不同; 三百余座窑分别系于宋（田自秉）与元（高丰, 同一引文）; 支圈覆烧南传时间——夏燕靖2016「支圈覆烧始创于北宋中期定窑……南宋时传到南方景德镇」与同册「南宋中期，景德镇等窑出现支圈覆烧工艺」两处表述并不完全对齐; 青花时序——高丰「元代发展到起来」、田自秉据木浦沉船「无一件青花瓷器」推断「青花的开始流行，可能在元代中期以后」; 影青创烧系于「北宋中期」（夏燕靖两版）而高丰只作「宋代以景德镇窑为代表创烧」.",
+    "殷墟: 《竹书纪年》年数三说——夏燕靖两版同段并存「二百五十三年」与「计七十三年」, 赵农引古本作「二百七十三年」; 妇好墓铜器「468件」（田自秉）与「460余件」（高丰）, 玉器「755件」（田自秉）与「近600件」（赵农）; 铜镜「至今才发现5面，其中4面出土于妇好墓」（高丰）与「铜镜的出现……推前了几百年」（田自秉）判断取向不同; 铸铜遗址面积「10 000平方米以上」田自秉与赵农未互相引用而一致; 车马、兵器、甲骨文统计与平民墓礼器比例分别为赵农、李立新独家.",
+    "龙泉窑: 创烧年代三说——「北宋早期」（高丰）／以「五代时期越窑衰落」为起点（赵农）／「一个宋代南方青瓷产区」（田自秉）; 元代窑址「约150余处」（夏燕靖2009）与「约有150处」（夏燕靖2016）; 龙泉窑与弟窑、哥窑的关系——赵农「龙泉窑……即为弟窑」为既定事实, 田自秉引《饮流斋说瓷》后明言「是否真有其兄弟二人，已无可考」, 夏燕靖2009 另立哥窑条并称「研究者普遍认为传世哥窑属于宋代官办瓷窑」; 赵农「龙泉窑因其地理位置好，在元代初年很快恢复生产」隐含元初曾中断, 其余五册未作此表述.",
+    "龙门石窟: 赵农同册两处窟龛统计不一——北魏段「现存大小佛龛2137个，造像约10万尊，其中北朝的占三分之一」, 唐代段「现存的2000多个佛窟和佛龛，绝大多数是唐代开凿的」; 四大石窟名单四册互不相同（高丰克孜尔/敦煌/云冈/龙门; 田自秉云冈/龙门/响堂山/栖霞山; 李立新另列麦积山; 夏燕靖2016另列天龙山）; 《魏书·释老志》引文起句被截断（起于「窟二所」）, 赵农未补; 古阳洞「保存了《龙门二十品》中的『十九品』」与「龙门二十品」的关系来源未说明."
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All nine units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Several units record irreconcilable disputes (二里头 dynastic attribution, 定窑 marks, 景德镇 kiln counts, 龙泉窑/哥窑 relation) but keep consensus=tentative because the contract requires verification_level whenever consensus is not tentative, and no external verification was performed."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 52,
+      "needs_evidence": 5119,
+      "rejected": 168,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 80
+    },
+    "structural_health": "122/130",
+    "type_coverage": "8/8 (place units 7 -> 16)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 9 rows verified against disk (sha256, bytes, lines; CRLF normalized to LF)"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of plates, objects or sites.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, kiln counts, marks, dynastic attributions, name origins) are preserved, not reconciled.",
+    "景德镇 and 景德镇窑 were deliberately kept as two units; merging them would have collapsed administrative history into ceramic technique.",
+    "No person unit exists for 刘秉忠、慧成、白整、刘腾、唐英、顾仕成 etc.; they are recorded as research debt inside the relevant units.",
+    "18 of 103 doc_count = 3 groups are now covered (9 institution/procedure/event + 9 place); the remaining 85 groups (255 candidates) stay needs_evidence and were not re-examined."
+  ]
+}

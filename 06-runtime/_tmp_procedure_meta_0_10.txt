@@ -1,0 +1,61 @@
+===== xdup-0277 吹灰法
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-53 L2225-L2231 slug=cupellation state=needs_evidence
+S: 唐代已广泛应用的炼银工艺；现存唐代炼银渣块表明其提高了银的纯度和回收率。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-69 L3296-L3296 slug=blow-ash-silver-refining state=needs_evidence
+S: 唐代冶银方法：用上等炉灰作成灰窠，将含银铅砣置于窠中加热溶化，铅入灰中，纯银留存灰窠上；出土银器测定纯度很高。
+F: {"period": "唐"}
+===== xdup-0278 夹纻胎
+-- 2004-gaofeng-zhongguo-shejishi:cand-sup-08 L1598-L1630 slug=jiazhu-tai state=needs_evidence
+S: 战国漆器成型工艺之一：先用泥或木作内模，将麻布或丝绸逐层用漆灰黏附，干实后去掉胎模。其原理相当于后世“脱胎法”，胎体轻巧牢固、漆液渗透性与黏附力强，是中国漆器工艺的独特创造。
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-28 L940-L1536 slug=jia-zhu-tai state=needs_evidence
+S: 夹纻胎是以纻麻为胎骨的漆器胎体，属早期形态，即用生漆将纻麻贴在泥或木胎上数层形成外胎，干后去掉内胎，再加以髹漆，是脱胎漆器的前身。战国中期以后漆器胎骨向轻巧方向发展，除木、竹胎外还出现薄木卷曲成胎再贴麻布或丝帛的木片卷粘胎，以及这种夹纻胎。
+===== xdup-0279 夹缬
+-- 2004-gaofeng-zhongguo-shejishi:cand-04-10 L2805-L2810 slug=jia-xie state=needs_evidence
+S: 镂空型版双面防染印花技术。用两块花纹一致的镂空版夹布，于镂空处涂色浆或防染剂，再经干燥染色，可得色地白花；《事物纪原》引《二仪实录》称秦汉间已有、陈梁间贵贱通服。盛唐时流行于宫廷，唐代除作妇女披巾衣裙外也用于军服，日本正仓院藏唐代夹缬屏风。
+F: {"category": "印染工艺", "period": "秦汉已有，唐成熟"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-45 L3191-L3256 slug=jia-xie state=needs_evidence
+S: 用两块雕镂相同图案花板将布帛夹在中间入染的印染方法，也可染两三色，花纹对称均衡；隋开皇六年（586年）吐鲁番已有夹缬，盛唐极流行，并作披巾、衣裙和家具装饰，日本正仓院藏唐夹缬屏风多种。
+F: {"period": "隋唐"}
+===== xdup-0280 捣练法
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-25 L1433-L1441 slug=dao-lian-fa state=needs_evidence
+S: 汉代丝的精练方法，据班婕妤《捣练赋》所述，已能利用砧杵的机械作用和草木灰的化学作用相结合。这种方法提高了生丝的脱胶效率，缩短了工艺时间。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-117 L1761-L1766 slug=daolianfa state=needs_evidence
+S: 汉代丝精练工艺，利用砧杵的机械作用和草木灰的化学作用相结合，提高生丝脱胶效率、缩短工艺时间；原文据班婕妤《捣练赋》所述。
+F: {"period": "汉代"}
+===== xdup-0281 泥条盘筑法
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-53 L480-L480 slug=ni-tiao-pan-zhu state=needs_evidence
+S: 较大陶器搓成泥条盘筑成器形，或几部分相接后表里抹平修整。
+F: {"period": "新石器时代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-78 L1170-L1173 slug=coil-building state=needs_evidence
+S: 几何印纹硬陶采用泥条盘筑法成形，器形常不甚规整，存在器身歪斜、高低不等和圆器不圆，因高温烧成、成形工艺掌握不好而容易变形，大型器物变形概率更高。
+F: {"period": "新石器时代至春秋战国"}
+===== xdup-0282 琉璃烧造
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-01 L3617-L3622 slug=liuli-shaozao state=needs_evidence
+S: 明清建筑琉璃属铅釉陶器，明代用高岭土制胎，琉璃砖瓦有10种规格，称“十样”；明初南京设琉璃窑72座，迁都后移至门头沟琉璃渠村，清代与海王村琉璃厂合并为厂官窑。太和殿顶鸱吻高3.36米；晋南三彩法华器在陶胎表面勾勒凸线轮廓后以牙硝助熔彩釉填彩烧造。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-85 L4386-L4396 slug=liuli-shaozhao state=needs_evidence
+S: 以铅釉陶器烧造建筑琉璃瓦脊、面砖和日用器皿的工艺；明代采用高岭土制胎，明清有10种规格称“十样”，门头沟琉璃渠村用九龙山下黑格土烧造。
+F: {"period": "明清"}
+===== xdup-0283 转轮排字法
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-57 L3298-L3303 slug=zhuanlun-paizifa state=needs_evidence
+S: 王祯在安徽旌德县任县尹时请木匠制作木质活字30000多个，试印自纂《大德旌德县志》，全书6万余字不到一个月印出百部。王祯还发明转轮排字法，大大减轻排字工人的劳动强度。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-53 L4023-L4041 slug=zhuanlun-paizi state=needs_evidence
+S: 元代王祯发明的活字排字方法，大大减轻了排字工人的劳动强度。
+F: {"period": "元代"}
+===== xdup-0284 鎏金
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-144 L2192-L2252 slug=gilding-amalgam state=needs_evidence
+S: 战国中期，鎏金技术也应用在制器之中。其做法是将金和水银合成金汞溶液，称作“金汞齐”，涂在铜器表面，加热使水银蒸发，金就附着在器具表面并压制而不脱落。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-35 L1810-L1810 slug=liujin state=needs_evidence
+S: 将金箔剪成碎片放入坩埚加热，按一比七比例加入水银熔成液体（金泥）；将金泥蘸盐、矾等物涂在铜器上，经炭火温烤使水银蒸发，金泥固着于铜器。此法称鎏金，或称火镀金。
+F: {"period": "春秋战国（原文所述）"}
+===== xdup-0285 铁范铸造
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-08 L845-L854 slug=tie-fan-zhu-zao state=needs_evidence
+S: 我国铸造技术从泥范（陶范）铸造改进为铁范铸造。河北兴隆、磁县出土的战国时期铁范有鏤、锄、双镰、斧、双凿范和车具范，是目前已发现最早的金属范；范的外形与铸件形状相似，壁厚均匀、收缩一致，可提高模具使用寿命。铁范可重复使用，铸件规整、不必太多加工，有的能同时浇铸两个以上铸件，有的薄壁铸件壁厚不过3毫米，降低了铁器成本，有利于质量和生产效率提高。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-69 L1089-L1098 slug=iron-mold-casting state=needs_evidence
+S: 1953年河北兴隆、磁县出土战国铁范，有镰、锄、双镰、斧、双凿范和车具范，是目前已发现最早的金属范；铁范壁厚均匀、可重复使用，铸件规整，有的薄壁件壁厚仅3毫米。
+F: {"period": "战国"}
+===== xdup-0286 雕版印刷
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-53 L4110-L4432 slug=diao-ban-yin-shua state=needs_evidence
+S: 因佛经的广布而风行；现存雕版印刷的作品是唐代咸通九年（公元868年）的《金刚经》卷，印刷精美、技术成熟；中晚唐开始民间大量印刷生活实用书籍。文中并称隋唐时期雕版印刷术的出现与文字书写的规范化有很大关系。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-33 L3343-L3355 slug=diaoban-printing state=needs_evidence
+S: 唐代发明、宋代成熟的印刷技术。宋版书书写刻印精美，形成时代特色；原文从版式、字体、用纸、插图四方面概括其特点，并列举《开宝藏》扉画、《佛国禅师文殊指南图赞》连环版画等代表作。
+F: {"period": "唐宋"}

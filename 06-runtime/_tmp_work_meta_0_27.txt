@@ -1,0 +1,176 @@
+===== xdup-0472 “延年益寿大宜子孙”锦
+-- 2004-gaofeng-zhongguo-shejishi:cand-sup-56 L2142-L2142 slug=yannian-yishou-jin state=needs_evidence
+S: 新疆民丰出土的汉代织锦，在卷曲的茱萸纹和云气纹之间穿插七八种奇禽异兽，运用装饰的添加手法表现理想世界，是汉代织物动物纹与吉祥图案的实例。
+F: {"period": "汉"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-34 L842-L843 slug=yan-nian-yi-shou-jin state=needs_evidence
+S: 汉代织物，图1-38 图注所载，原文以之说明汉字进入设计、与图形纹样结合，在织物上表现对世间生活幸福的企盼。据图注记录，图版未视觉核验。
+F: {"category": "织物", "period": "汉代", "title": "“延年益寿大宜子孙”锦"}
+===== xdup-0473 七孔石刀
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-39 L471-L472 slug=qi-kong-shi-dao state=needs_evidence
+S: 原始石器，图注称七孔石刀（原始）。据插图2，图版未视觉核验。
+F: {"category": "石器", "period": "原始社会", "title": "七孔石刀"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-32 L365-L400 slug=qikong-shidao state=needs_evidence
+S: 1980年安徽潜山薛家岗出土，属距今约5500年的薛家岗文化；器略呈长方形，长325毫米、宽95毫米、厚约10毫米，刀背平直，沿背排列7个圆孔。原文推测以木柄开槽嵌刀背，用麻绳或皮革穿孔绑缚，为作战用砍杀长兵器。
+F: {"category": "石器/长兵器", "period": "新石器时代，距今约5500年", "title": "七孔石刀"}
+===== xdup-0474 三脚耧
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-59 L1611-L1631 slug=san-jiao-lou state=needs_evidence
+S: 汉武帝时搜粟都尉赵过在一脚耧、二脚耧基础上设计发明的播种工具，大大提高播种效率，是现代播种机的雏形。现代全功能播种机把开沟、下种、覆盖、压实四道工序接连完成，而我国两千年前的三脚耧已能把前三道工序合并于一机完成。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-25 L1999-L2017 slug=san-jiao-lou state=needs_evidence
+S: 汉武帝时搜粟都尉赵过在一脚耧、二脚耧基础上设计发明三脚耧，能一次完成开沟、下种、覆盖前三道工序，大大提高播种效率，是现代播种机的雏形。
+F: {"category": "农业播种机械", "period": "西汉", "title": "三脚耧"}
+===== xdup-0475 上海汇丰银行
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-36 L4100-L4103 slug=shanghai-huifeng-yinhang state=needs_evidence
+S: 上海汇丰银行由英商公和洋行设计，建于1921～1923年间，地处上海外滩，高8层、占地14亩，建筑为钢筋混凝土浇灌、外观仿砖石结构。整个造型中部圆顶高耸，内部为爱奥尼柱式的柱廊和藻井式天花，是典型的古典主义样式建筑。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-43 L5057-L5062 slug=hsbc-shanghai state=needs_evidence
+S: 英商公和洋行设计、1921-1923年建于上海外滩的8层建筑，占地14亩，钢筋混凝土浇灌、外观仿砖石结构，中部圆顶高耸，内部爱奥尼柱式柱廊与藻井天花，为典型古典主义样式。
+F: {"category": "建筑", "period": "1921-1923", "title": "上海汇丰银行"}
+===== xdup-0476 佛光寺大殿
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-79 L4277-L4314 slug=fo-guang-si-da-dian state=needs_evidence
+S: 五台山佛光寺大殿建于公元857年（唐宣宗大中十一年），面宽七间、进深四间，是以立柱、斗拱、梁枋等组成的梁柱式木结构典型建筑；整个建筑以榫卯衔接，严谨规范、稳定坚固。屋顶为单檐庑殿式，屋檐由斗拱挑撑、翼角上翘，殿内结构合理，宽敞明亮，朴素大方。
+F: {"category": "木构建筑", "location": "山西五台山", "period": "公元857年", "title": "佛光寺大殿"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-78 L2892-L2953 slug=foguang-si-dadian state=needs_evidence
+S: 位于山西五台山，与南禅寺大殿同为留存至今的唐代木结构殿堂，原文称其造型端庄浑厚，表现唐代建筑稳健雄丽风格。
+F: {"category": "木构佛殿", "period": "唐", "title": "佛光寺大殿"}
+===== xdup-0477 候风地动仪
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-19 L1392-L1398 slug=hou-feng-di-dong-yi state=needs_evidence
+S: 东汉张衡等制成的世界上第一架候风地动仪。原文引《后汉书·张衡传》称其“以精铜制成，圆径八尺，合盖隆起，形似酒尊”；内部有“都柱”“八道”等机械装置，尊外八条含铜珠的龙及龙头下面设置的相应蟾蜍，使整个地动仪如精巧工艺品。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-108 L1720-L1726 slug=houfeng-dizhenyi state=needs_evidence
+S: 东汉张衡制成的世界上第一架候风地动仪；“以精铜制成，圆径八尺，合盖隆起，形似酒尊”，中有“都柱”“八道”等机械装置，尊外八条含铜珠的龙及龙头下蟾蜍使整体如精巧工艺品。据原文，图版为模型、未视觉核验。
+F: {"category": "铜制科学仪器", "period": "东汉", "title": "候风地动仪"}
+===== xdup-0478 偶方彝
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-44 L1220-L1307 slug=oufangyi state=needs_evidence
+S: 图2-17标注为“商 青铜偶方彝”。作者在论述斗拱时称，商代妇好墓中“偶方彝”上有斗的雏形，作为商周斗拱已见雏形的青铜器例证。图版未视觉核验。
+F: {"category": "青铜方彝", "location": "安阳殷墟妇好墓", "period": "商代", "title": "偶方彝"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-122 L694-L702 slug=ou-fangyi state=needs_evidence
+S: 偶方彝是安阳殷墟妇好墓出土的鸟兽浮雕/圆雕装饰酒器之一，与铜鸮尊、圈足觥同出，标志青铜工艺与设计新高峰；图2-7图注作『商周 偶方彝』。原文称4件而仅列3名；图版未视觉核验。
+F: {"category": "青铜酒器", "period": "图注作商周", "title": "偶方彝"}
+===== xdup-0479 元代“鬼谷下山”青花瓷罐
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-26 L2997-L3010 slug=guiguxiashan-qinghua-guan state=needs_evidence
+S: 元代“鬼谷下山”青花瓷罐于2005年7月12日在伦敦克里斯蒂拍卖行由古董商埃斯凯纳齐以1568.8万英镑（约2.45亿人民币）投得，创下历来亚洲艺术品拍卖的最高成交价。该罐高27.5厘米、直径33厘米，是目前世间仅存的8件同类古董之一。西方收藏家自1968年克利夫兰美术馆举办蒙古统治下的中国艺术展览后开始青睐元代瓷器。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-17 L3669-L3691 slug=guiguxiashan-qinghua-guan state=needs_evidence
+S: 元代青花瓷罐，高27.5厘米、直径33厘米，为现存8件同类之一；2005年7月12日由伦敦古董商埃斯凯纳齐在克里斯蒂以1568.8万英镑竞得，创亚洲艺术品拍卖最高价。据图注与条框，图版未视觉核验。
+F: {"category": "青花瓷罐", "period": "元代", "title": "元代“鬼谷下山”青花瓷罐"}
+===== xdup-0480 元代银镜架
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-44 L3159-L3175 slug=yinjingjia state=needs_evidence
+S: 银镜架出土于苏州市盘门外吴门桥东南元末吴王张士诚之父母合葬墓，现藏苏州博物馆。镜架作折叠式，由前后两个支架构成，架身通高32.8厘米、宽17.8厘米，仿木制框架结构，在整体支架上镶三片经过雕镂的银皮。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-19 L3871-L3886 slug=yuan-yinjingjia state=needs_evidence
+S: 1964年出土于苏州盘门外吴门桥东南元末吴王张士诚父母合葬墓，现藏苏州博物馆；通高32.8厘米、宽17.8厘米，折叠式仿木框架，通体镶三片雕镂银皮，结构新奇。
+F: {"category": "银器、镜架", "period": "元末", "title": "元代银镜架"}
+===== xdup-0481 北京奥运会火炬“祥云”
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-51 L4430-L4447 slug=xiangyun-huoju state=needs_evidence
+S: 北京奥运会火炬“祥云”造型灵感来自中国传统纸卷轴，长72厘米、重985克，燃烧时间15分钟，零风速火焰高度25至30厘米；采用锥体曲面异形一次成型和铝材腐蚀、着色技术，燃料为丙烷，外形材料可回收。火炬能在每小时65公里强风和每小时50毫米大雨下保持燃烧，是我国自主设计研发、拥有完全知识产权的产物。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-07 L5471-L5477 slug=xiangyun-olympic-torch state=needs_evidence
+S: 北京奥运会火炬，造型灵感来自中国传统纸卷轴，长72厘米、重985克、燃烧时间15分钟；采用锥体曲面异形一次成型和铝材腐蚀、着色技术，丙烷燃料，可回收环保材料，原文称其为我国自主设计研发并拥有完全知识产权。图11-42为火炬图，图版未视觉核验。
+F: {"category": "产品设计/火炬", "period": "2008年北京奥运会", "title": "北京奥运会火炬“祥云”"}
+===== xdup-0482 北京妙应寺白塔
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-53 L3247-L3270 slug=miaoyingsi-baita state=needs_evidence
+S: 北京妙应寺白塔建于至元八年（1271），由尼泊尔名匠阿尼哥设计，为覆钵式塔（喇嘛塔），年代最早、规模最大。塔高50.9米，塔基三层、平面呈亚字形、须弥座式，砖雕莲座承塔身；塔肚顶部华盖由40块铜板瓦构成，四周悬36只铜质透雕流苏和风铃，刹顶置铜制小喇嘛塔高5米、重约40吨。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-20 L3958-L3972 slug=miaoying-si-baita state=needs_evidence
+S: 至元八年（1271）建，位于北京西城区阜城门内大街北侧，高50.9米，塔基三层亚字形须弥座，砖雕莲座承塔身；塔肚顶覆40块铜板瓦华盖，悬36只铜质透雕流苏风铃，刹顶置铜制小喇嘛塔高5米、重约40吨。
+F: {"category": "覆钵式塔、宗教建筑", "period": "至元八年（1271）", "title": "北京妙应寺白塔"}
+===== xdup-0483 十五连盏铜灯
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-07 L2282-L2342 slug=fifteen-lamp-bronze-light state=needs_evidence
+S: 河北平山出土的15盏铜灯高达84.5厘米，以树形灯架为主体，上饰有龙、鸟、猴、人物等形象，造型奇特；15盏灯可聚可散，可根据照明需要加以调节。原文图注标为“战国 十五连盏铜灯”。
+F: {"category": "灯具", "location": "河北平山", "period": "战国", "title": "十五连盏铜灯"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-73 L2181-L2181 slug=shiwu-lianzhan-tongdeng state=needs_evidence
+S: 战国中山国出土的铜灯，以一树为灯杆，上面有15个灯盏，树身塑造一群动态各异的猴子；原文称其意趣盎然、生动可爱。
+F: {"category": "铜灯", "period": "战国", "title": "十五连盏铜灯"}
+===== xdup-0484 南海一号
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-84 L2478-L2500 slug=nanhai-one state=needs_evidence
+S: 南宋时期的木质古沉船，沉没于广东阳江市东平港以南约20海里处，1987年在广东阳江海域发现。为尖头船，船长30.4米、宽9.8米，船身（不算桅杆）高8米，排水量估计可达600吨，载重可能近800吨，是我国目前发现的最大的宋代船只。船体保存相当完好，专家推测其从中国驶出，赴新加坡、印度等东南亚地区或中东地区进行海外贸易。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-06 L3078-L3091 slug=nanhai-no1 state=needs_evidence
+S: 南宋木质古沉船，1987年发现于广东阳江海域，沉没于阳江东平港以南约20海里；尖头船，长30.4米、宽9.8米、船身高8米，排水量估计可达600吨、载重可能近800吨，是我国目前发现的最大的宋代船只，为造船工艺、航海技术、海上丝绸之路与陶瓷史研究提供实物标本。
+F: {"category": "古沉船/商船", "period": "南宋", "title": "南海一号"}
+===== xdup-0485 南禅寺大殿
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-78 L4277-L4314 slug=nan-chan-si-da-dian state=needs_evidence
+S: 山西五台山南禅寺建于公元782年，是目前现存最古老的木结构建筑；南禅寺大殿为长宽各三间的格式，四周以12根列柱环绕、略微内收，使梁柱枋结构稳定严密。屋顶舒缓，椽檐以斗拱上挑、出檐深远，气象浑厚，殿内无柱，佛坛上还保存着唐代佛像精品。
+F: {"category": "木构建筑", "location": "山西五台山", "period": "公元782年", "title": "南禅寺大殿"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-77 L2892-L2967 slug=nanchan-si-dadian state=needs_evidence
+S: 位于山西五台山，与佛光寺大殿同为留存至今的唐代木结构殿堂；以内外柱列和梁枋互相联结组成稳固整体，造型端庄浑厚。
+F: {"category": "木构佛殿", "period": "唐", "title": "南禅寺大殿"}
+===== xdup-0486 唐代银香囊
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-58 L2232-L2260 slug=silver-perfume-pouch state=needs_evidence
+S: 唐代银质熏香器，几乎均出自以西安为中心的陕西关中地区，计1963年西安沙坡村4件、1970年西安何家村窖藏1件、1987年扶风法门寺地宫两件；除最大一件（法门寺出土）直径12.8厘米外，其余直径大多在五厘米左右。通体圆球状，上半球为盖、顶部铆接环钮并置长链，下半球为身，子母口扣合、铰链相连，通体镂空。内有平衡环及焚香盂，两个同心圆环之间及内圆环与焚香盂之间均以对称短轴铆接，可任意360°转动，靠重力使盂面保持水平，火星香灰不致外溢。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-60 L2796-L2832 slug=tang-yin-xiangnang state=needs_evidence
+S: 唐代金银香囊，原文统计7件（1963西安沙坡村4、1970何家村1、1987法门寺2），最大直径12.8厘米、余约5厘米；内部两同心圆环与焚香盂以短轴铆接，转动时盂面保持水平。
+F: {"category": "金银器", "period": "唐", "title": "唐代银香囊"}
+===== xdup-0487 商代象尊
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-94 L607-L607 slug=shang-dai-xiangzun state=needs_evidence
+S: 湖南醴陵出土的商代象尊，整器形象逼真而具装饰性，满身饰纹，象鼻外雕一虎形兽，器盖为一小象，体现工匠高超技艺。象尊属鸟兽形尊，背部凿口并加盖以注酒，是当时专用祭器。
+F: {"date": "商代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-134 L792-L792 slug=shang-elephant-zun state=needs_evidence
+S: 商代象尊是湖南醴陵出土的鸟兽形青铜尊，整器形象逼真而又具装饰性，满身饰纹，象鼻外还雕一虎形兽，器盖又为一小象，体现工匠的高超技艺；原文称鸟兽形尊为当时专用祭器，祭祀时洒酒于地。图版未视觉核验。
+F: {"category": "鸟兽形青铜尊", "period": "商代", "title": "商代象尊"}
+===== xdup-0488 四羊方尊
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-34 L1128-L1185 slug=siyang-fangzun state=needs_evidence
+S: 图2-10标注为“商 四羊方尊”，为商代青铜器。原文正文未对其器形、纹饰、尺寸作进一步说明，图版未视觉核验。
+F: {"category": "青铜尊", "period": "商代", "title": "四羊方尊"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-20 L666-L675 slug=four-ram-square-zun state=needs_evidence
+S: 四羊方尊见于图2-5，图注作西周器；原文未展开形制描述，图版未视觉核验。
+F: {"category": "青铜礼器", "period": "图注作西周", "title": "四羊方尊"}
+===== xdup-0489 四美图
+-- 2004-gaofeng-zhongguo-shejishi:cand-05-19 L4016-L4031 slug=simei-tu state=needs_evidence
+S: 金代平阳府（今山西临汾）姬家刻印的雕版印刷招贴画，高57.5厘米、宽32.5厘米；画面为王昭君、赵飞燕、班姬（婕妤）、绿珠四位美人，花冠绣裳、体姿生动、线条流畅、刻工精细。画面上方刻“随朝窈窕呈倾国之芳容”楷书字样，并有“平阳姬家雕印”题识；书中视其为这一时期雕版印刷招贴画的代表作。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-31 L5222-L6017 slug=simei-tu state=needs_evidence
+S: 宋代招贴、年画，以王昭君、班姬、赵飞燕、绿珠四位汉晋之际美女为题材，高二尺五寸、宽一尺多，上有“随朝窈窕呈倾国之芳容”字样，画面有“平阳姬家雕印”刻印记载，应是北宋末年山西临汾商家印制的年画。该图雕刻娴熟、衣纹流畅、人物生动，以玉栏假山、天香牡丹映衬美女；从题材与形态推测为“对屏”年画中左边一幅，另一幅尚无下落。本 chunk 图8-11题作“金《四美图》年画”，正文又将“平阳姬家雕印”置于金代平阳雕版印刷中心语境，与“北宋末年”之说并存。
+F: {"category": "年画、招贴", "location": "山西临汾", "period": "北宋末年（图8-11题作“金”，存两说）", "title": "四美图"}
+===== xdup-0490 圆明园
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-132 L7299-L7345 slug=yuanming-yuan state=needs_evidence
+S: 圆明园原为雍正皇帝做皇子时赐获的花园，构筑成为圆明园，后经乾隆扩建，加修长春园和绮春园。长春园的一部分是欧洲风格的花园，俗称“西洋楼”；遗憾的是圆明园被英法联军火烧而毁。此外，北京皇家园林中还有钓鱼台、摄政王府花园、故宫慈宁宫南花园、恭王府花园等。
+F: {"category": "皇家园林", "location": "北京", "period": "清代", "title": "圆明园"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-40 L4527-L4540 slug=yuanmingyuan state=needs_evidence
+S: 清代皇家园林，属“三山五园”之一，包括圆明、长春、万春三园。
+F: {"category": "皇家园林", "period": "清", "title": "圆明园"}
+===== xdup-0491 大克鼎
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-10 L1350-L1351 slug=dake-ding state=needs_evidence
+S: 西周青铜鼎，原文仅以“插图1 大克鼎(周)”图注形式出现，作为西周鼎形演变的示例。
+F: {"category": "青铜鼎", "period": "周代", "title": "大克鼎"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-132 L744-L744 slug=da-ke-ding state=needs_evidence
+S: 大克鼎是西周后期鼎耳渐外移、口渐敞、下腹内收使器身成半球形、足成兽蹄形的代表器之一，与毛公鼎并举；原文未展开形制描述，图版未视觉核验。
+F: {"category": "青铜鼎", "period": "西周后期", "title": "大克鼎"}
+===== xdup-0492 大明宫
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-62 L4176-L4206 slug=da-ming-gong state=needs_evidence
+S: 原是太极宫的一处，后加修成大型宫殿，地处龙首原上，在唐高宗时加以扩建，成为后来唐朝历代帝王理朝和居住之处；含元殿为其前殿。
+F: {"category": "宫殿", "location": "长安龙首原", "period": "唐高宗时扩建", "title": "大明宫"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-76 L2892-L2953 slug=daming-gong state=needs_evidence
+S: 唐代长安城禁苑宫殿，位于城东北龙首原，原名永安宫，唐太宗时为太上皇李渊建造，高宗迁入执政；遗址范围相当于北京故宫面积3倍多，由30多所宫殿组成，麟德殿面积约太和殿3倍、5000多平方米、可宴3500人。
+F: {"category": "宫殿建筑群", "period": "唐", "title": "大明宫"}
+===== xdup-0493 大运河
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-50 L4110-L4931 slug=da-yun-he state=needs_evidence
+S: 隋炀帝开凿的大运河将海河、黄河、淮河、长江、钱塘江五大水系连结起来，促进了南北文化经济的交流和发展，是世界上最长的一条人工河流；隋代大运河开通后，扬州成为长江和大运河的交通枢纽。
+F: {"category": "水利工程", "period": "隋代", "title": "大运河"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-10 L2463-L2482 slug=dayunhe state=needs_evidence
+S: 隋朝开挖的水利交通工程，原文称其“为南北沟通与经济繁荣开创了新的局面”。
+F: {"category": "水利交通工程", "period": "隋", "title": "大运河"}
+===== xdup-0494 定县开元寺瞭敌塔
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-116 L2730-L2735 slug=dingxian-kaiyuan-temple-liaodi-pagoda state=needs_evidence
+S: 河北定县开元寺瞭敌塔高达84米，相当于一座20层的高楼，是现存我国古代最高的建筑物，属宋代砖石建筑中以佛塔最为突出的代表。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-83 L3411-L3411 slug=dingxian-kaiyuansi-liaodi-pagoda state=needs_evidence
+S: 宋代砖石建筑佛塔，高达84米，相当于一座20层的高楼；原文称其为现存我国古代最高的建筑物。
+F: {"category": "建筑/佛塔", "period": "宋", "title": "定县开元寺瞭敌塔"}
+===== xdup-0495 定窑孩儿枕
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-129 L5534-L5616 slug=dingyao-haier-zhen state=needs_evidence
+S: 宋代定窑瓷枕；图 7-45 标注为“宋 定窑孩儿枕”，图版未视觉核验。原文在定窑部分述及其刻花、划花、印花装饰与覆烧法。
+F: {"category": "瓷枕", "location": "河北曲阳", "period": "宋", "title": "定窑孩儿枕"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-41 L3532-L3532 slug=ding-yao-hai-er-zhen state=needs_evidence
+S: 故宫博物院所藏定瓷枕，塑一卧着的小孩，神态天真活泼；原文称它既是一件生活用品，也是一件瓷塑珍品（插图4）。图版未视觉核验。
+F: {"category": "瓷枕/瓷塑", "period": "宋代", "title": "定窑孩儿枕"}
+===== xdup-0496 开封相国寺塔
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-115 L2730-L2735 slug=kaifeng-xiangguo-temple-pagoda state=needs_evidence
+S: 宋代仿木楼阁式砖塔，造型高耸挺秀；塔身采用28种琉璃砖砌造，雕刻有飞天、麒麟、菩萨、力士、狮子等50多种纹样，雕工精细，整座塔宛如一件大型的琉璃工艺品。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-82 L3411-L3411 slug=kaifeng-xiangguosi-pagoda state=needs_evidence
+S: 宋代仿木楼阁式砖塔，造型高耸挺秀；塔身采用28种琉璃砖砌造，雕刻有飞天、麒麟、菩萨、力士、狮子等50多种纹样，雕工精细，整座塔宛如一件大型的琉璃工艺品。
+F: {"category": "建筑/佛塔", "period": "宋", "title": "开封相国寺塔"}
+===== xdup-0497 彩漆木雕动物座屏
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-30 L952-L955 slug=cai-qi-mu-diao-dong-wu-zuo-ping state=needs_evidence
+S: 江陵望山出土的彩漆木雕动物座屏，透雕和浮雕有蛇、鹿、凤、雀、蛙等50余个形态逼真的动物形象，周身以黑漆为底，彩绘朱红、金银、灰绿等漆色。它被用作战国漆器种类繁多、纹饰精细、色彩艳丽的代表，也是楚国髹漆业高超水平的例证。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-71 L1199-L1202 slug=lacquer-animal-screen state=needs_evidence
+S: 江陵望山出土战国彩漆木雕动物座屏，透雕和浮雕蛇、鹿、凤、雀、蛙等50余个动物形象，周身黑漆为底，彩绘朱红、金银、灰绿等漆色；楚国髹漆业代表战国漆器最高水平。
+F: {"category": "漆木家具", "period": "战国", "title": "彩漆木雕动物座屏"}
+===== xdup-0498 拙政园
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-004 L7346-L7416 slug=zhuozheng-garden state=needs_evidence
+S: 拙政园是明代中期修筑的苏州园林，“拙政”出自西晋潘岳《闲居赋》“灌园鬻蔬，以供朝夕之膳，是亦拙者之为政也”。明代大画家文征明绘有《拙政园图》并著《拙政园记》；园分中、西、东三部分，占地72亩，为最大的苏州园林，中部以远香堂为中心，有倚玉轩、小飞虹、香洲、见山楼、雪香云蔚亭、梧竹幽居、荷风四面亭及枇杷园等。
+F: {"category": "园林", "location": "苏州", "period": "明代中期", "title": "拙政园"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-38 L4497-L4540 slug=zhuozhengyuan state=needs_evidence
+S: 苏州著名明清私家园林，是苏式彩画装饰园林亭榭楼阁的代表实例之一。
+F: {"category": "私家园林", "period": "明清", "title": "拙政园"}

@@ -1,0 +1,162 @@
+===== xdup-0444 褐彩
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-71 L1702-L1707 slug=he-cai state=needs_evidence
+S: 西晋晚期已在瓷器上装饰、东晋时期最为流行的釉上彩装饰。褐彩系由多量氧化铁釉料制成，有几何纹或花瓣纹，具有锦上添花之妙；为浙江地区瓷窑所创，后为宋代龙泉窑继承。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-62 L2841-L2841 slug=hecai state=needs_evidence
+S: 西晋晚期以后出现的瓷上褐色点彩，以含多量氧化铁的釉料点成几何纹或花瓣纹，东晋最流行，为浙江地区六朝瓷窑所创，原文称其为瓷上彩釉装饰的先声并为宋代龙泉窑继承。
+F: {"definition": "以含铁釉料在瓷上点出的褐色装饰。", "period": "西晋晚期至东晋"}
+===== xdup-0445 褒衣博带
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-85 L1791-L1810 slug=bao-yi-bo-dai state=needs_evidence
+S: 魏晋南北朝宽衫大袖、衣带宽博的服饰风尚。南朝时王公、名士、百姓都以宽衫大袖褒衣博带为时髦；文人受佛道两教影响崇尚玄学，衣着突破礼法，敞领宽衫、袒胸露怀成为习俗，可从《竹林七贤画像砖》得到佐证。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-37 L3979-L4003 slug=bao-yi-bo-dai state=needs_evidence
+S: 云冈石窟所采用的中原样式佛像服饰，取代了早期佛像“偏袒右肩式”及“通肩式”的服饰。
+F: {"definition": "云冈石窟改用的中原样式佛像服饰，替代偏袒右肩式与通肩式。"}
+===== xdup-0447 豆
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-47 L1036-L1043 slug=dou state=needs_evidence
+S: 春秋战国时期的豆，把手细而高，便于拿取，并增加了盖，盖翻置时可当盘使用，大大提高了实用性。豆的造型亦为曲线的球体所组成，形式优美。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-153 L786-L786 slug=dou-vessel state=needs_evidence
+S: 豆为盛食器，用于盛调味品，由陶豆演变而来，铜豆始见西周后期；形制分三层，上有盘、中有柄、底为圈足；早期盘浅、柄短而粗，春秋出现有盖豆，盖与器身相合呈球体，盖有四钮、器身有四环耳。
+F: {"definition": "盛食器（调味品盛器）", "period": "西周后期至春秋"}
+===== xdup-0448 质孙服
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-37 L3099-L3102 slug=zhisunfu state=needs_evidence
+S: 质孙服是元代官服，1321年元英宗参照古制制定为上衣连下裳、上紧下短，腰间加襞积、肩背挂大珠，汉语称“一色衣”。它是糅合汉族与蒙古民族特点的服制。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-41 L3786-L3821 slug=zhisun-fu state=needs_evidence
+S: 元代官服，为较短的长袍，较紧较窄，腰部多衣褶，便于骑马上下；汉语称“一色衣”，冬服11等、夏服15等，含衣帽带靴，仅皇帝即位、寿诞、册立、朝会等场合穿用。
+F: {"definition": "元代官服，较短长袍、腰多衣褶、一色衣", "period": "元代"}
+===== xdup-0449 釉上彩
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-81 L3570-L3573 slug=youshangcai state=needs_evidence
+S: 釉上彩是在已烧成的瓷器釉面上用彩料绘饰，再经750～860℃红炉彩烧的装饰品种。烤烧温度不高，可用色料很多、色彩丰富，但画面在釉上，使用中摩擦、接触酸碱后易褪损变色。釉上彩包括红彩、红绿彩、五彩、粉彩、珐琅彩、墨彩、广彩、新彩等。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-62 L4327-L4330 slug=youshangcai state=needs_evidence
+S: 在已烧成瓷器的釉面上用彩料绘饰、再经750℃—860℃红炉彩烧的釉彩装饰；色彩丰富但易因摩擦和酸碱接触褪损，包括红彩、五彩、粉彩、珐琅彩、广彩等。
+F: {"definition": "烧成瓷器釉面彩绘后低温彩烧的装饰工艺", "period": "宋磁州窑起源，明清盛行"}
+===== xdup-0450 釉里红瓷
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-31 L3040-L3049 slug=youlihong-ci state=needs_evidence
+S: 釉里红瓷以铜红料为呈色剂，在瓷胎上彩绘后施透明釉，于窑中经1300℃左右高温一次烧成的釉下彩瓷器。其烧造工艺源于唐代长沙窑，元代江西景德镇烧造出釉里红瓷并创制青花釉里红。元代釉里红有线条描绘、拔白、涂绘三种装饰特征，后两种能减少飞红现象，形成期应早于线绘。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-58 L6356-L6372 slug=underglaze-red-porcelain state=needs_evidence
+S: 釉里红瓷以铜红釉料在素胎上绘制纹饰，再涂透明釉，利用高温还原焰烧制而成。它与青花瓷除色泽不同外，还要求窑内还原焰气氛非常严格；青花瓷因氧化钴在窑内变化不明显，对气氛要求相对宽松。
+F: {"definition": "以铜红釉料在素胎绘纹饰、施透明釉，经高温还原焰烧制的瓷器"}
+===== xdup-0451 里坊制
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-96 L3637-L3700 slug=lifangzhi state=needs_evidence
+S: 北魏洛阳的居住和市场有一定规模：“庙社宫室府曹以外，方三百步为一里，里开四门，门置里正二人，门士八人，合有二百二十里”（《洛阳伽蓝记·城北》），整齐化一，管理方便。里坊的居民有500户至1000户，而贵族王室有着自己的庄园，不受里坊的限制，形成自己的规模；市东、市南、市西、市北各分布工商业者聚居的里，城南另有四夷馆和四夷里。
+F: {"definition": "北魏洛阳以方三百步为一里、里开四门、置里正与门士的居住管理制度；共二百二十里，居民500至1000户，贵族庄园不受里坊限制。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-74 L2892-L2953 slug=lifang-zhi state=needs_evidence
+S: 大兴城采用的规划设计原则，以东西、南北大街纵横交错将全城分为108个方块，每块称“里”（唐称“坊”），沿中轴线左右对称、棋盘式分布，周围有围墙。
+F: {"definition": "以方格形里坊组织城市居住区的规划制度。", "period": "隋唐"}
+===== xdup-0452 铁器时代
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-07 L1315-L1318 slug=tie-qi-shi-dai state=needs_evidence
+S: 人类文明史中的重要转折时期。人们最早知道的铁是陨石中的铁，古代埃及人称之为神物；世界上最早制造铁器的是小亚细亚的赫梯人，约在公元前1400年左右。我国最早使用铁制工具的文字记载是春秋《左传》中的晋国铸铁鼎；铁器广泛使用使工具制造进入全新领域，生产力极大提高。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-89 L1622-L1634 slug=tieqi-shidai state=needs_evidence
+S: 人类文明史重要转折时期；原文称最早知道的铁为陨石铁，古埃及视为神物，世界最早制造铁器者为小亚细亚赫梯人约公元前1400年，我国最早使用铁制工具的文字记载为春秋《左传》晋国铸铁鼎，铁器广泛使用推动生产力提高并进入封建社会。
+F: {"definition": "以铁制工具广泛使用为标志的文明阶段。", "period": "约公元前1400年起"}
+===== xdup-0453 铅釉陶釉陶
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-34 L1497-L1500 slug=qian-you-tao state=needs_evidence
+S: 一种涂有黄绿色并由低温烧制、含铅釉的陶器，又称铅釉陶。铅釉熔点低，约在700℃~800℃即可烧成，并能薄薄匀挂在胎上；釉中混有不同金属元素则形成黄、绿、褐、土红等多种色彩。铅釉陶是汉代陶瓷工艺的代表，因釉面泛出银色光彩，又称银釉。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-04 L1826-L1831 slug=qian-you-tao state=needs_evidence
+S: 一种涂黄绿色低温铅釉的陶器，又称铅釉陶；铅釉熔点约700℃-800℃，可薄匀挂胎，混入不同金属元素呈黄、绿、褐、土红等色，汉代因釉面泛银色光彩又称银釉。
+F: {"definition": "涂有黄绿色低温铅釉的陶器，铅釉熔点约700℃-800℃，可薄匀挂胎，混入金属元素呈多色。", "period": "汉代"}
+===== xdup-0454 铸鼎象物
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-62 L1636-L1639 slug=zhu-ding-xiang-wu state=needs_evidence
+S: 《春秋左氏传》记载的当时流行造物观点，也可以说是指导器物制作的方法核心。原文称当时人认为鼎的大小、轻重象征统治者的德行、地位，因而具有很强的精神作用。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-28 L2022-L2038 slug=zhu-ding-xiang-wu state=needs_evidence
+S: 《春秋左氏传》记载的造物观点：认为鼎的大小、轻重象征统治者的德行、地位，具有很强的精神作用；“铸鼎象物”是当时非常流行的造物观点，也可说是指导器物制作的核心方法。
+F: {"definition": "以鼎的大小轻重象征统治者德行、地位，并作为指导器物制作核心方法的造物观点。", "period": "先秦至汉"}
+===== xdup-0455 陶甑
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-22 L308-L315 slug=taozeng state=needs_evidence
+S: 陶甑是底部有通蒸汽小孔的蒸食器，功能类似“蒸屉”。书中认为陶甑的出现促进了人类从煮食向蒸食的过渡，是陶器功能设计的一项重要进展。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-63 L517-L526 slug=taozeng state=needs_evidence
+S: 河姆渡文化陶甑有盆形或罐形，两侧有耳，底部有许多通蒸汽的小孔，类似“蒸屉”；其功能是利用蒸汽熟化食物。
+F: {"definition": "底部带蒸汽孔、置于炊器上利用蒸汽熟化食物的陶器。", "period": "新石器时代河姆渡文化"}
+===== xdup-0456 陶鬶
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-34 L354-L366 slug=taogui state=needs_evidence
+S: 陶鬶是龙山文化常见炊煮器，由陶鼎演变而来，以三条肥大中空的款足代替鼎的实心足，扩大受热面积；颈部高拔，口前部有冲天鸟喙状长流，形似昂首挺胸的大鸟。书中认为其形态别致，体现陶匠师实用与美观有机结合的造型设计思想。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-52 L487-L501 slug=taogui state=needs_evidence
+S: 陶鬶（原文多作“陶鬻”）是由陶鼎演变而来的炊煮器，以三条肥大中空的款足代替鼎的实心足，扩大受热面积；颈部高拔，口前有冲天鸟喙状长流，形似昂首大鸟。原文称其体现陶匠师实用与美观有机结合的造型设计思想。
+F: {"definition": "龙山文化三足中空、鸟喙长流的炊煮器，由陶鼎演变。", "period": "新石器时代晚期典型龙山文化"}
+===== xdup-0457 雕漆
+-- 2004-gaofeng-zhongguo-shejishi:cand-05-12 L3698-L3755 slug=diao-qi state=needs_evidence
+S: 在漆层上雕刻而非在胎体雕镂的漆器工艺，使漆色呈现具有立体感的浮雕效果；宋代包括剔红、剔犀、剔彩，多以金银为胎、朱漆堆至数十层，剔犀需两种以上色漆反复重叠。宋代雕漆多在宫中内府修内司制造，供统治者享用；元代张成、杨茂（嘉兴西塘人）最负盛名，作品造型多为普通圆盘圆盒，特色在“漆”与“雕”，张成盒漆层约80道，髹饰讲究“藏锋清楚，隐起圆滑，纤细精致”。作者认为雕漆是漆器功能由实用转为审美欣赏、设计定位变化的典型产物。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-41 L3394-L4753 slug=diaoqi state=needs_evidence
+S: 漆雕的总称。原文据《清秘藏》《燕闲清赏笺》记宋人雕红漆器有金银胎、锡胎、葛地，朱厚堆至数十层、雕法圆熟、藏锋不露；纯朱漆所雕者叫剔红，五色漆胎所雕者应称剔彩，还有剔黄、剔绿、剔黑等名称，均依漆层颜色而定。雕漆是在漆胎上层层髹漆后雕刻花纹的漆器；清代以北京所产最出色，大多为造办处产品，清代多剔彩并常刻两色锦地。唐代新创漆器工艺：先在漆胎上涂漆数十层，待一定厚度再雕刻；此前漆雕是在木胎上先雕后漆。此作法今称剔红，唐代实物至今未发现。在漆器胎上涂数十层或上百层漆，待稍干后雕刻装饰花纹；纯红漆称剔红，黄漆称剔黄，黑漆称剔黑，多色漆层称剔彩。
+F: {"definition": "漆雕总称，按漆层颜色分剔红、剔彩、剔黄、剔绿、剔黑等。", "period": "唐至清（原文分代叙述）"}
+===== xdup-0458 青瓷
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-66 L1677-L1682 slug=qing-ci state=needs_evidence
+S: 我国最早出现的瓷器品种，晋代潘岳《笙赋》“倾缥瓷以酌醣”中的缥瓷即青瓷。这一时期的青瓷产地主要集中在浙江上虞、永嘉、萧山、余姚、绍兴、临海、丽水、吴兴、德清等地，大体分四个系统：曹娥江地区的越窑、瓯江地区的瓯窑、金衢地区的婺窑、浙北东苕溪地区的德清窑。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-75 L3515-L3538 slug=qingci state=needs_evidence
+S: 青瓷在东汉末年出现，浙江越窑的青瓷成就体现了最高水平；江苏宜兴、江西、湖南、四川等地都出现了早期青瓷的窑址。三国两晋南北朝时期瓷器出现北方白瓷和南方青瓷的分流，早期常见青瓷造型有双系壶、双耳罐等，短颈、鼓肩、矮身，文饰简单，古朴大方。青瓷常常以动物为造型，增加了青瓷的美感，增进了人与动物的亲和力；北方青瓷出现在北魏政权建立之后，利用南方青瓷的技术经验，形成北方制瓷中的青瓷风格，粗犷厚重，造型手法简单，多以器皿为主。
+F: {"definition": "东汉末年出现的瓷器类型；浙江越窑成就最高，南方青瓷与北方白瓷分流，北方青瓷自北魏建立后形成，粗犷厚重。"}
+===== xdup-0459 青铜
+-- 2004-gaofeng-zhongguo-shejishi:cand-01-05 L955-L962 slug=qingtong-bronze state=needs_evidence
+S: 铜、锡、铅等元素的合金，较纯铜熔点低、硬度高，具有较好的铸造与机械性能。本书引《考工记》“金有六齐”，指出含锡约17%的青铜色泽美观、声音好、可铸精细花纹，一般青铜鼎即用此配方。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-14 L895-L895 slug=bronze state=needs_evidence
+S: 原文定义为用红铜加锡的一种合金，因颜色灰青故名；红铜指天然铜。原文并指出青铜时代之前应当还有一个红铜时代，历史学家称为铜石并用时代。
+F: {"definition": "用红铜加锡的一种合金，因颜色灰青，故名青铜；红铜指天然铜。", "period": "商代（原文兼述青铜时代以前的红铜时代）"}
+===== xdup-0460 青铜时代
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-53 L459-L478 slug=qingtong-shidai state=needs_evidence
+S: 书中把夏商周时期称为继旧石器时代、新石器时代后第三个文明期的“青铜时代”。我国青铜时代从公元前2000年左右开始形成，历时大约15个世纪；其特点包括使用大量青铜生产工具、兵器和礼器，且在进入青铜时代以前已有漫长的利用铜矿物制造器具的历史。
+F: {"definition": "以青铜器使用为标志的文明时期"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-08 L628-L635 slug=bronze-age state=needs_evidence
+S: 中国青铜时代相当于夏商周三代，被视为继旧石器、新石器之后的第三个文明期。
+F: {"definition": "以青铜器使用为标志的第三个文明期", "period": "夏商周"}
+===== xdup-0461 青铜水器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-73 L634-L647 slug=qingtong-shuiqi state=needs_evidence
+S: 青铜水器主要有鉴、盘、匜、盂、缶、瓿等。匜是西周后出现的盥洗器，器形仿自瓜瓢，前有流、后有鋬，与盘配合用于沃盥之礼；盘为圆形浅腹，商代无耳圈足，西周中期后加耳，虢季子白盘即著名盥洗器；鉴形体较大，有圆、方两种，盂为圆腹深腹附耳盛水器。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-31 L823-L843 slug=bronze-water-vessels state=needs_evidence
+S: 青铜水器主要有鉴、匜、盘、盂、缶、瓿；鉴盛水，形体较大有圆方两式；匜为盥洗器，与盘配合使用；盘承水，虢季子白盘为长方形盥洗器；盂圆腹侈口圈足深腹附耳。
+F: {"definition": "鉴匜盘盂缶瓿等水器统称", "period": "商周"}
+===== xdup-0462 青铜礼器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-63 L534-L545 slug=qingtong-liqi state=needs_evidence
+S: 青铜礼器是商周时期用于祭祀和典礼的青铜日用器。其造型设计除实用外，多考虑放置祭坛上的陈设效果，因而日用器物造型有了不同因素的观念与审美追求，尤其成为奴隶主阶级表达观念、实行统治的重要工具。
+F: {"period": "商周"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-11 L704-L713 slug=bronze-ritual-vessel state=needs_evidence
+S: 商周青铜日用器常被用作祭祀和典礼礼器，故称青铜礼器；西周以成套礼制规定使用数量和规格，使贵贱有等、上下有别。
+F: {"definition": "商周用于祭祀、典礼并承载礼制等级的青铜器", "period": "商周"}
+===== xdup-0463 青铜酒器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-72 L603-L633 slug=qingtong-jiuqi state=needs_evidence
+S: 青铜酒器分盛酒器和饮酒器两类：盛酒器有尊、彝、壶、卣、罍、觥、盉等，饮酒器有爵、斝、角、觚、觯等。尊由陶尊演变而来，彝与尊同作祭奠使用物，壶仿陶壶、陶壶又仿天然瓜瓢；爵、斝、觚、觯、角合称五爵，其中爵是发现最早的青铜容器，始见于二里头遗址。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-30 L788-L822 slug=bronze-wine-vessels state=needs_evidence
+S: 青铜酒器分盛酒器尊、彝、壶、卣、罍、觥、盉与饮酒器爵、斝、觚、觯、角；尊始见商早期，方彝盖似屋顶，壶仿陶壶、陶壶仿瓜瓢，爵、斝、觚、觯、角合称五爵。
+F: {"definition": "盛酒器与饮酒器的统称", "period": "商周"}
+===== xdup-0464 青铜食器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-71 L572-L602 slug=qingtong-shiqi state=needs_evidence
+S: 青铜食器分煮食器和盛食器两类：煮食器有鼎、鬲、甗等，盛食器有簋、簠、盌、豆等。鬲最初由陶鬲、再经鼎演变而来，三足上部肥大内空以增加受热面积；甗由上部甑和下部鬲结合而成，中间隔穿孔铜片；簋圆腹侈口圈足，常以偶数与鼎配置；簠为长方形，盌为方中带圆的椭圆形，豆则上有盘、中有柄、底为圈足。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-29 L742-L754 slug=bronze-food-vessels state=needs_evidence
+S: 青铜食器分煮食器鼎、鬲、甗与盛食器簋、簠、盨、豆；鼎由腹、足、耳组成，商早期腹深耳小锥足，殷商方鼎增多、腹浅柱足增长，西周后期向兽蹄足、半球腹演变。
+F: {"definition": "煮食器与盛食器的统称", "period": "商周"}
+===== xdup-0465 非物质文化遗产
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-48 L4391-L4409 slug=fei-wuzhi-wenhua-yichan state=needs_evidence
+S: 非物质文化遗产指被各群体、团体或个人视为其文化遗产的各种实践、表演、表现形式、知识体系和技能及有关的工具、实物、工艺品和文化场所，包括口头传统、表演艺术、社会风俗礼仪节庆、有关自然界和宇宙的知识和实践、传统手工艺技能。它依托人本身存在、以身口相传延续，是“活”的文化中最脆弱的部分。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-91 L5435-L5451 slug=intangible-cultural-heritage state=needs_evidence
+S: 联合国教科文组织《保护非物质文化遗产公约》定义：被各群体、团体，有时个人视为其文化遗产的各种实践、表演、表现形式、知识体系和技能及其有关的工具、实物、工艺品和文化场所；包括口头传统、表演艺术、社会风俗礼仪节庆、自然与宇宙知识实践、传统手工艺技能五类。
+F: {"definition": "依托人本身、以身口相传延续的活态文化遗产，含五类范围。", "period": "现代"}
+===== xdup-0466 顾姑冠
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-39 L3121-L3136 slug=guguguan state=needs_evidence
+S: 顾姑冠又写作“姑姑冠”“罟罟冠”，为元代蒙古族妇女首服。《黑鞑事略》记其“画木为骨，包以红绢金帛”，顶用四五尺长柳条或银枝包青毡，地位高者用翠花或五彩帛饰之，下人用野鸡毛。有爵命的蒙古族妇女和已婚女子戴此冠，《蒙古秘史》中蒙古语称“孛黑塔”。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-42 L3822-L3842 slug=gugu-guan state=needs_evidence
+S: 元代蒙古妇女最有特色的首服，又写姑姑冠、罟罟冠，为蒙语音译；以木为骨、包红绢金帛，顶插四五尺柳条或银枝并包青毡，上人饰翠花五彩帛，下人用野鸡毛，冠饰显示身份贵贱。
+F: {"definition": "元代蒙古妇女高冠，木骨包绢金，顶插柳条银枝", "period": "元代"}
+===== xdup-0467 鱼袋
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-104 L2643-L2656 slug=fish-tally-bag state=needs_evidence
+S: 北宋初年品冠服饰大部分沿袭唐朝章服佩鱼遗制；有资格穿紫、绯色公服的官员都须在腰间佩挂“鱼袋”，袋内装有金、银、铜制成的鱼，以区别官品。此制仅用于官服中的礼服，一般人很少穿着。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-29 L3301-L3310 slug=yudai state=needs_evidence
+S: 宋代官服配饰，有资格穿紫、绯色公服的官员腰间佩挂，袋内装金、银、铜制成的鱼以区别官品；北宋初年沿袭唐代章服佩鱼遗制。
+F: {"definition": "宋代官员腰间佩挂、内装金银铜鱼以别官品的袋饰", "period": "宋"}
+===== xdup-0468 鸡头壶天鸡壶
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-57 L2786-L3162 slug=jitou-hu state=needs_evidence
+S: 又称天鸡壶，在盘口壶基础上于肩部一面加鸡头、另一面安把手接盘口；早期纯装饰，东晋以后鸡头加长，也有羊头、牛头、虎头及两侧刻双翅者，由罐发展而来，唐代演变为龙耳壶。盘口、一边鸡头一边龙柄、颈部作竹节形的壶式；六朝腹矮底大、鸡头较小，隋代腹部修长、上圆下瘦、鸡头雄健、鸡颈较粗，见于隋和初唐。
+F: {"definition": "盘口壶肩部加鸡头与把手的壶式，又称天鸡壶。", "period": "六朝至唐（原文亦作六朝至隋唐）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-37 L2086-L2109 slug=ji-tou-hu state=needs_evidence
+S: 又称天鸡壶，是在盘口壶基础上发展而来的壶式：肩面加饰一个鸡头，另一面安置把手，上接盘口；早期鸡头纯作装饰，东晋以后鸡头加长，也有改作羊头、牛头或虎头，壶体渐高瘦长，至唐代演变为龙耳壶。
+F: {"definition": "盘口壶肩面饰鸡头、另一面安把手的壶式，早期纯装饰，后鸡头加长并演变。", "period": "三国两晋南北朝"}
+===== xdup-0469 齐家文化
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-75 L714-L714 slug=qi-jia-culture state=needs_evidence
+S: 黄河上游在马家窑、半山、马厂型之后兴起的文化，时间约等于龙山文化时期，基本上和夏代相始终；彩陶不多，装饰纹样以菱形纹、棋格纹、网格纹为最多，器形以双耳罐和马鞍口式陶罐为典型。
+F: {"definition": "黄河上游新石器时代晚期至青铜时代早期文化，彩陶不多，以双耳罐和马鞍口式陶罐为典型。", "period": "约龙山文化时期，基本与夏代相始终"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-83 L298-L457 slug=qijia-wenhua state=needs_evidence
+S: 黄河上游新石器中晚期文化，位于甘肃广河县齐家坪，原文称其出现铜器；马家窑文化在时间顺序上下接齐家文化。
+F: {"definition": "黄河上游新石器中晚期文化，位于甘肃广河县齐家坪，出现铜器。", "period": "新石器中晚期"}
+===== xdup-0470 龙窑
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-81 L3539-L5533 slug=longyao state=needs_evidence
+S: 青瓷的出现与窑形的改变有很大的关系；“龙窑”作为一种特殊的窑形，从战国秦汉出现以来，一直为人们利用，因其地形窑身依山而上，形似火龙。魏晋南北朝的龙窑已经能够充分采用火膛与窑室连接的方式，使升焰速度加快，温度提高，获得了高温烧瓷的条件，而且能够一次容纳大量的瓷器，增加了生产数量。魏晋时期开始改进龙窑形制，以“分段烧成”的方法，在窑顶或窑身两侧设置投柴孔，保证烧制温度的平均，防止发生生烧现象。
+F: {"definition": "依山而上的特殊窑形，战国秦汉以来沿用；魏晋南北朝以火膛与窑室连接、分段烧成与投柴孔提高烧瓷温度与产量。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-40 L2377-L2377 slug=longyao state=needs_evidence
+S: 汉代早期青瓷使用的窑型。原文称其提高了窑温，烧成温度达1300℃左右，是当时制瓷科学技术成熟的条件之一。
+F: {"definition": "汉代早期青瓷使用的窑型，可提高窑温，烧成温度达1300℃左右。", "period": "汉代"}

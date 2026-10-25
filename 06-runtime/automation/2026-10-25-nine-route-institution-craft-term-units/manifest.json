@@ -1,0 +1,221 @@
+{
+  "work_package": "2026-10-25-nine-route-institution-craft-term-units",
+  "goal": "第九批知识元写回：把跨来源召回的建筑、工艺、商业、制度与概念 9 个同名组（27 个候选）合并为 9 个知识元，逐条保留册际分歧；同批修订 2 个既有 publication 条目中因新条建立而失效的陈述。",
+  "status": "applied",
+  "created_at": "2026-10-25T15:31:00+08:00",
+  "updated_at": "2026-10-25T15:31:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:f5b244f4ba9423cade45e1d6183cc6f92fb43a84f069504f02b9703e873555a0（7,156,926 B，5,339 行）",
+    "candidate_index_after_apply_fingerprint": "sha256:1616b07123ca50ba04c1825df9f3864cc9dfc4669b6f4fa48692e72165dc7652（7,162,436 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-nine-object-dress-term-units/manifest.json",
+    "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+  },
+  "scope": {
+    "group_rule": "九个组均为 doc_count=3 的同名组；以下知识元的实际来源文档数高于候选组册数，按语义复读补入组外册，明细见 source_variance_notes。",
+    "group_ids": [
+      "xdup-0112",
+      "xdup-0116",
+      "xdup-0119",
+      "xdup-0120",
+      "xdup-0122",
+      "xdup-0127",
+      "xdup-0131",
+      "xdup-0135",
+      "xdup-0143"
+    ],
+    "groups": 9,
+    "candidate_rows": 27,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 18,
+    "rejected_non_group_candidates": 1,
+    "created_units": 9,
+    "updated_units": 2,
+    "unit_types": {
+      "term": 9
+    },
+    "sub_types": {
+      "trade_route": 1,
+      "planning_doctrine": 1,
+      "design_discipline": 1,
+      "advertising_form": 1,
+      "building_type": 1,
+      "print_genre": 1,
+      "craft_system": 1,
+      "textile_type": 1,
+      "decorative_motif": 1
+    },
+    "merge_note": "每组 3 个候选、3 册 doc_count；canonical 优先取 proposed_slug 与最终文件名一致者，多个一致时取 2016 夏燕靖升级版，无 2016 时取出版年最早者。丝绸之路组取 2016；纬锦组因 2016 候选 slug 为 weijin、2009 与田自秉均为 weft-brocade，取出版年最早的 2009 夏燕靖。其余七组均取 2016。"
+  },
+  "method": {
+    "semantic_step": "逐条复读召回 Markdown 原文，比较定义、时代、构造、名称、制度归属与原文异文；分歧一律并列保留，不以册数多少或出版先后裁定。",
+    "canonical_rule": "每组选 1 条 canonical 候选作为知识元身份，其余同组候选转 rejected 并指向同一 target_ref。canonical 的 proposed_slug 与最终文件名一致；同组多条一致时取 2016 夏燕靖升级版，无 2016 且多条一致时取出版年最早者。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（canonical）；needs_evidence -> rejected（同组重复候选与 1 条类型误标候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl，不改历史 R1 台账。",
+    "write_back": "精确变更集：9 条 create、2 条 update，无 delete。create 的 sha256/bytes/lines 按 CRLF→LF 归一后计算。",
+    "extra_source_rule": "候选组之外的册若在语义复读中提供实质文本，可写入 KU 的 sources，并在 source_variance_notes 与 KU 的验证状态中说明；rejected 候选所属 doc 的文本也可作为 canonical KU 来源，但该候选本身不转为 applied。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/sichou-zhilu.md",
+      "04-knowledge/units/terms/jiangren-yingguo.md",
+      "04-knowledge/units/terms/industrial-design.md",
+      "04-knowledge/units/terms/huangzi.md",
+      "04-knowledge/units/terms/ganlan-shi-jianzhu.md",
+      "04-knowledge/units/terms/muban-nianhua.md",
+      "04-knowledge/units/terms/baigong.md",
+      "04-knowledge/units/terms/weft-brocade.md",
+      "04-knowledge/units/terms/taotie-motif.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/publications/lvshi-chunqiu.md",
+      "04-knowledge/units/publications/dongjing-menghua-lu.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "target_ref": "04-knowledge/units/terms/sichou-zhilu.md",
+      "entity": "丝绸之路",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-111",
+      "merged_group_ids": ["xdup-0112"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 5
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/jiangren-yingguo.md",
+      "entity": "匠人营国",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-24",
+      "merged_group_ids": ["xdup-0116"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/industrial-design.md",
+      "entity": "工业设计",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-09",
+      "merged_group_ids": ["xdup-0119"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2011-lilixin-zhongguo-sheji-yishu-shilun", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2011-lilixin-zhongguo-sheji-yishu-shilun", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/huangzi.md",
+      "entity": "幌子",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-35",
+      "merged_group_ids": ["xdup-0120"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/ganlan-shi-jianzhu.md",
+      "entity": "干栏式建筑",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-70",
+      "merged_group_ids": ["xdup-0122"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/muban-nianhua.md",
+      "entity": "木版年画",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-119",
+      "merged_group_ids": ["xdup-0127"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/baigong.md",
+      "entity": "百工",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-69",
+      "merged_group_ids": ["xdup-0131"],
+      "group_docs": ["2009-zhaonong-zhongguo-yishu-shejishi", "2011-lilixin-zhongguo-sheji-yishu-shilun", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2011-lilixin-zhongguo-sheji-yishu-shilun", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/weft-brocade.md",
+      "entity": "纬锦",
+      "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-34",
+      "merged_group_ids": ["xdup-0135"],
+      "group_docs": ["2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/taotie-motif.md",
+      "entity": "饕餮纹",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-81",
+      "merged_group_ids": ["xdup-0143"],
+      "group_docs": ["2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 4
+    }
+  ],
+  "source_variance_notes": [
+    "丝绸之路：组内三册（夏燕靖 2009、田自秉、夏燕靖 2016）只覆盖陆上通道及‘长安—地中海东岸’一线；赵农补海上丝绸之路、陶瓷之路、‘长安—罗马’、张骞两次出使、班超 73 年与西南通道；高丰补‘通过丝绸之路使中国以丝国驰名世界’一句。终点（地中海东岸／罗马／红海／西域）、性质（官营外销／赏赐／商品交流）与海上路线均不一致，KU 并列。故 ku_source_count=5 高于组内 doc_count=3。另，赵农的 cand-04-62 被标为 place 并已 rejected，但其文本仍作为本条来源使用。",
+    "匠人营国：夏燕靖两版同时保留‘营建师’人物义与《考工记》都城制度义；赵农偏重制度义。‘一夫’授田有百亩与一百步见方两说；2016 同册既有‘前朝后市’又有‘面朝后市’，未裁定。三册来源与组内 doc_count 一致。",
+    "工业设计：夏燕靖两版给活动定义、五阶段、相关学科与 CAD，并把建筑及内外装饰列入外延；李立新批评‘工业设计’外延含糊，主张以‘艺术设计／设计艺术’限定艺术性造物，并给出 Industrial Design 英文。2009 标题作‘现代艺术设计的形成’，2016 作‘现代设计的形成’，2016 另补交互设计、会展设计。三册来源与组内 doc_count 一致。",
+    "幌子：高丰作‘招幌＝招牌＋幌子’并系于酒旗源流；赵农把墙面单字纳入幌子，并记宋称‘望子’；夏燕靖称幌子‘土生土长’，2016 又以近代黄旗为幌子。最早形态有春秋酒旗、酒店幌子、实物广告三说；2016 同册‘望子’与‘黄旗幌子’并存。高丰为组外补入，故 ku_source_count=4。",
+    "干栏式建筑：高丰称‘最早的干栏式建筑’，夏燕靖称河姆渡‘世界上最早的木构建筑’；构造定位有穿斗式组型、南方基本风格、木构架雏形三说；2016 知识链接以‘良渚文化区’起句却引河姆渡，册内不一致。高丰为组外补入，故 ku_source_count=4。",
+    "木版年画：仅高丰给定义与源流；产地名单有桃花坞、杨柳青与增列潍坊、朱仙镇、凤翔两套；佛山是外销中介而非产地。‘短版／饱版／饅版’三种写法并存（通行作‘饾版’），未径改。高丰为组外补入，故 ku_source_count=4。",
+    "百工：兼有身份义、制度义、职能义三层；工种数有 30 与 31 的算术矛盾；‘商族／商旅’异文；‘百工百衣’为另一义。高丰为组外补入，故 ku_source_count=4。",
+    "纬锦：出现时间有‘南北朝后’（夏燕靖两版）与‘唐代新创造’（高丰）两说；织法有‘两组纬线＋一组经线’（夏燕靖）、‘二层或三层经线夹纬、经畦纹组织’（田自秉）、‘多重多色纬线’（高丰）三说；夏燕靖纹样清单‘对称纹’重复；高丰‘晕绸锦’与田自秉‘晕絰’是否同物待核。高丰为组外补入，故 ku_source_count=4。因 2016 候选 slug 为 weijin，canonical 取 2009 夏燕靖。",
+    "饕餮纹：称名有‘饕餮纹’与‘兽面纹’两套；定名层次分《吕氏春秋》文本记载与北宋金石学命名两层；功能有戒贪、符号、通神、祭祀牺牲诸说；分期自商早期至战国。高丰‘饕殄纹’为异文。高丰为组外补入，故 ku_source_count=4。",
+    "总说明：九组候选组均为 doc_count=3，但高丰 2004 在丝绸之路、幌子、干栏式建筑、木版年画、百工、纬锦、饕餮纹七条中提供候选组之外的实质文本，赵农在丝绸之路另提供组外文本，故 8 条 ku_source_count=4、丝绸之路为 5。source_count 记文档数，不等于独立来源数：夏燕靖 2009 与 2016 两版文字高度重合，工业设计等条的实际独立文本来源少于文档数。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 2,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "9 条 KU 均为 confidence=medium、consensus=tentative、evidence_status=source_backed；未标 confirmed、externally_verified 或 L1-L7 级验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 136,
+      "needs_evidence": 4847,
+      "rejected": 356,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 164
+    },
+    "structural_health": "结构门禁健康 122/130；知识结构完整性 55/65；证据链完整性 55/55；层级完整挂载 0/164；Theme/Topic 未 materialize（非本批改造项）",
+    "apply_plan_hash_check": "11 行（9 create + 2 update）逐行核对 after sha256／bytes／lines，全部一致；2 条 update 的 before 指纹在建条前记录",
+    "pre_commit_check": "通过；规则漂移 0（首次因 runtime index 快照陈旧失败，重建后通过）",
+    "sync_closure": "通过；run_sync_closure.py --refresh-generated --full --check-generated，19 步，250 tests + 16 subtests",
+    "fingerprint_note": "应用前 candidate-index.jsonl 为 sha256:f5b244f4…（7,156,926 B，5,339 行）；应用后为 sha256:1616b071…（7,162,436 B，5,339 行）。状态分布变为 applied 136、needs_evidence 4847、rejected 356；字节净增 5,510 B，来自 46 条 decision／target_ref 写入。"
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台，证据仅来自六册 Markdown 文本。",
+    "未做图版、器物或考古报告的视觉与实物核对。",
+    "primary_theme 与 topic_memberships 留空；Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；跨条目共现只作非断言性叙述。",
+    "来源分歧（定义、时代、构造、名称、性质、评价）一律并列保留，不做调和。",
+    "2 条 update 只修正因新条建立而失效的‘尚未立条／尚未建立’陈述，不改写既有条目的实体内容。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

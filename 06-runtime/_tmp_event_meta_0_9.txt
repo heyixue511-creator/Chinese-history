@@ -1,0 +1,49 @@
+===== xdup-0167 上海市首次手工业技艺人员授衔大会
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-08 L4678-L4687 slug=shanghai-shouci-shougongye-jiyi-renyuan-shouxian-dahui state=needs_evidence
+S: 1964年2月6日，上海市首次手工业技艺人员授衔大会召开，全市手工业者1100人出席，会上共有112位人员受衔。工艺美术行业的61位艺术上有独特成就、创作上有重大贡献的著名艺人被授予“工艺师”称号。
+F: {"date": "1964-02-06", "title": "工艺师"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-39 L5729-L5738 slug=shanghai-handicraft-title-conferral-1964 state=needs_evidence
+S: 1964年2月6日召开，全市手工业者1100人出席，112位人员受衔，其中工艺美术行业61位艺术上有独特成就、创作上有重大贡献的著名艺人被授予“工艺师”称号。
+===== xdup-0168 全国工艺美术展览会1959
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-06 L4620-L4633 slug=quanguo-gongyi-meishu-zhanlanhui-1959 state=needs_evidence
+S: 1959年10月3日，由轻工业部和全国手工业合作总社联合举办的“全国工艺美术展览会”在北京故宫午门开幕。展览展出11类工艺品3500余件作品。
+F: {"date": "1959-10-03"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-73 L5300-L5686 slug=national-craft-exhibition-1959 state=needs_evidence
+S: 1959年10月3日由轻工业部、全国手工业合作总社联合举办，在北京故宫午门开幕的全国工艺美术展览会，展出11类工艺品3500余件，集中展出各地名师名家作品，推动当时工艺美术品恢复和发展。
+===== xdup-0169 全国民间美术工艺品展览会
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-41 L4184-L4189 slug=quanguo-minjian-meishu-gongyipin-zhanlanhui state=needs_evidence
+S: 1953年12月至1954年1月，文化部主办的“全国民间美术工艺品展览会”在北京劳动人民文化宫举行，展出陶瓷、染织、刺绣、金属工艺、漆器、编织、雕塑、年画、剪纸、玩具等民间工艺品近3000件。1954年6月展览作品运往苏联、捷克斯洛伐克、匈牙利、保加利亚等国展出。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-57 L5164-L5618 slug=national-folk-craft-exhibition-1953 state=needs_evidence
+S: 1953年12月至1954年1月文化部在北京劳动人民文化宫主办的展览，展陶瓷、染织、刺绣、金属、漆器、编织、雕塑、年画、剪纸、玩具等近3000件；1954年6月赴苏联、捷克斯洛伐克、匈牙利、保加利亚巡展，并促成艺人座谈。1953年12月7日由文化部主办，在北京劳动人民文化宫举行，展出陶瓷、染织、刺绣、金属工艺、漆器、编织、雕塑、年画、剪纸、玩具等民间工艺品近3000件，1954年1月3日闭幕；1954年6—11月作品赴苏联、捷克斯洛伐克、匈牙利、保加利亚和缅甸巡回展出。
+===== xdup-0170 南洋劝业会
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-16 L3832-L3847 slug=nanyang-quanyehui state=needs_evidence
+S: 南洋劝业会于清宣统二年（1910）由南洋通商大臣倡办，原称“南洋第一次劝业会”，地址南京丁家桥，因辛亥革命实际只办一届。全国选送展品100多万件，分24部420类，评出5269件产品获奖，江苏、广东获奖最多。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-93 L4751-L4766 slug=nanyang-quanyehui state=needs_evidence
+S: 清宣统二年（1910）由南洋通商大臣倡办的博览会，原称“南洋第一次劝业会”，会场在南京丁家桥，全国选送展品100多万件、分24部420类，共评出5269件产品获奖；因辛亥革命实际只举办一届。
+===== xdup-0171 安史之乱
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-27 L3472-L3472 slug=an-shi-zhi-luan state=needs_evidence
+S: 唐代“安史之乱”后国势日衰；原文以之为唐灭亡后五代十国分裂局面的背景。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-12 L2463-L2482 slug=anshi-zhiluan state=needs_evidence
+S: 唐中叶战乱，原文称其战火破坏唐朝社会安定与经济繁荣，使中晚唐地方割据势力抬头，最终形成五代十国。
+===== xdup-0172 巴拿马赛会
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-17 L3832-L3854 slug=panama-pacific-exposition state=needs_evidence
+S: 巴拿马赛会全称“太平洋万国巴拿马博览会”，是美国为庆祝巴拿马运河正式通航举办的盛会，1915年2月20日开幕，历时280天，设美术、教育、工艺、制造等12个馆。中国展品重约1500吨，参加赛会的著名手工艺匠师和工场代表约300多人。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-94 L4767-L4776 slug=banama-saihui state=needs_evidence
+S: 全称“太平洋万国巴拿马博览会”，美国为庆祝巴拿马运河通航举办；1915年2月20日开幕，历时280天，设12个馆，中国参展手工艺匠师和工场代表约300多人。
+===== xdup-0173 洋务运动
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-130 L8484-L8560 slug=yangwu-yundong state=needs_evidence
+S: 晚清官员继承魏源思想，开启悲壮的“洋务运动”。作者认为其现实格局定位于“旧（中）学为体，西学为用”，“强国”实为“强政府”，很少关注“民生”根本利益。
+F: {"period": "晚清"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-18 L4929-L4972 slug=yangwu-movement state=needs_evidence
+S: 清末引进西方机器装备、技术和管理方法的经济变革，曾国藩、左宗棠、李鸿章等办军民用工业、设船政局、制造局、招商局并派幼童留学；作者称其开启我国近代工业，是工业设计和现代设计孕育的土壤。
+===== xdup-0174 盘庚迁殷
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-11 L881-L881 slug=pangeng-move-to-yin state=needs_evidence
+S: 公元前15世纪末，商王盘庚最后一次迁都于殷（今河南安阳）；原文以此作为商代前期与后期的分界，此后商又称殷或商殷。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-50 L933-L943 slug=pangeng-move-to-yin state=needs_evidence
+S: 盘庚迁殷后商后期皆以殷为都，至纣亡共二百五十三年、八代十二王，约前1250—前1050年；殷墟发现宫殿、居民点、手工业作坊与墓葬区。原文同段又作『计73年』，与二百五十三年、八代十二王相矛盾，未改字。
+===== xdup-0175 辛亥革命
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-140 L8484-L8560 slug=xinhai-geming state=needs_evidence
+S: 孙中山领导的“辛亥革命”一开始就提出“驱除鞑虏，恢复中华，创立合众政府”（兴中会语）的口号。原文以此作为近代革命与《建国方略》构想的起点。
+F: {"period": "清末"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-92 L4717-L4730 slug=xinhai-geming state=needs_evidence
+S: 1911年辛亥革命推翻几千年的封建统治，虽然没有改变我国半殖民地、半封建社会性质，但冲破了封建专制主义对国家的长期禁锢，资本主义生产关系和工商业得以发展。

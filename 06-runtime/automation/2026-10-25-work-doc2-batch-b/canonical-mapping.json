@@ -1,0 +1,152 @@
+{
+ "xdup-0499": {
+  "entity": "提璧茶具",
+  "target_ref": "04-knowledge/units/works/tibi-chaju.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-66",
+  "action": "create"
+ },
+ "xdup-0500": {
+  "entity": "曾侯乙尊盘",
+  "target_ref": "04-knowledge/units/works/zenghouyi-zunpan.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-140",
+  "action": "create"
+ },
+ "xdup-0501": {
+  "entity": "木牛流马",
+  "target_ref": "04-knowledge/units/works/muniu-liuma.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-44",
+  "action": "create"
+ },
+ "xdup-0502": {
+  "entity": "栾书缶",
+  "target_ref": "04-knowledge/units/works/luanshu-fou.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-18",
+  "action": "create"
+ },
+ "xdup-0503": {
+  "entity": "毛公鼎",
+  "target_ref": "04-knowledge/units/works/mao-gong-ding.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-08",
+  "action": "create"
+ },
+ "xdup-0504": {
+  "entity": "水碓",
+  "target_ref": "04-knowledge/units/works/shui-dui.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-104",
+  "action": "create"
+ },
+ "xdup-0505": {
+  "entity": "水陆攻战纹鉴",
+  "target_ref": "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-03",
+  "action": "create"
+ },
+ "xdup-0506": {
+  "entity": "永乐宫",
+  "target_ref": "04-knowledge/units/works/yongle-gong.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-37",
+  "action": "create"
+ },
+ "xdup-0507": {
+  "entity": "海鹘战船",
+  "target_ref": "04-knowledge/units/works/haigu-zhanchuan.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-63",
+  "action": "create"
+ },
+ "xdup-0508": {
+  "entity": "清明上河图",
+  "target_ref": "04-knowledge/units/works/qingming-shanghe-tu.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-14",
+  "action": "create"
+ },
+ "xdup-0509": {
+  "entity": "玉平脱双葡萄镜",
+  "target_ref": "04-knowledge/units/works/yu-pingtuo-shuang-putao-jing.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-78",
+  "action": "create"
+ },
+ "xdup-0510": {
+  "entity": "秦兵马俑",
+  "target_ref": "04-knowledge/units/works/qin-bing-ma-yong.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-03-11",
+  "action": "create"
+ },
+ "xdup-0511": {
+  "entity": "秦始皇陵",
+  "target_ref": "04-knowledge/units/works/qin-shi-huang-ling.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-51",
+  "action": "create"
+ },
+ "xdup-0512": {
+  "entity": "秦始皇陵兵马俑",
+  "target_ref": "04-knowledge/units/works/qin-bing-ma-yong.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-05",
+  "action": "no_delta"
+ },
+ "xdup-0513": {
+  "entity": "绿釉陶楼",
+  "target_ref": "04-knowledge/units/works/lv-you-tao-lou.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-24",
+  "action": "create"
+ },
+ "xdup-0514": {
+  "entity": "舞蹈人物动物纹三色锦",
+  "target_ref": "04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-02-34",
+  "action": "create"
+ },
+ "xdup-0515": {
+  "entity": "花鸟人物螺钿镜",
+  "target_ref": "04-knowledge/units/works/huaniao-renwu-luodian-jing.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-12",
+  "action": "create"
+ },
+ "xdup-0516": {
+  "entity": "莲花尊",
+  "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-58",
+  "action": "create"
+ },
+ "xdup-0517": {
+  "entity": "虎纹大石磬",
+  "target_ref": "04-knowledge/units/works/huwen-da-shiqing.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-20",
+  "action": "create"
+ },
+ "xdup-0518": {
+  "entity": "鎏金舞马衔杯银壶",
+  "target_ref": "04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-61",
+  "action": "create"
+ },
+ "xdup-0519": {
+  "entity": "铜牛灯",
+  "target_ref": "04-knowledge/units/works/tong-niu-deng.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-104",
+  "action": "create"
+ },
+ "xdup-0520": {
+  "entity": "银熏炉",
+  "target_ref": "04-knowledge/units/works/yin-xunlu.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-57",
+  "action": "create"
+ },
+ "xdup-0521": {
+  "entity": "错金博山炉",
+  "target_ref": "04-knowledge/units/works/cuojin-boshanlu.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-18",
+  "action": "create"
+ },
+ "xdup-0522": {
+  "entity": "青瓷莲花尊",
+  "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-68",
+  "action": "no_delta"
+ },
+ "xdup-0523": {
+  "entity": "颐和园",
+  "target_ref": "04-knowledge/units/works/yiheyuan.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-129",
+  "action": "create"
+ }
+}

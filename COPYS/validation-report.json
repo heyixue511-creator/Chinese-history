@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-09-08T12:58:18.216858+00:00",
+  "archive": "knowledge-distillation-workflow.zip",
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "archive_integrity": {
+    "passed": true,
+    "checked_files": 234,
+    "skill_count": 18,
+    "issues": []
+  },
+  "source_copy_mismatches": [],
+  "checks": [
+    {
+      "name": "extracted_file_integrity",
+      "command": [
+        "C:\\Users\\001\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-B",
+        "portable/verify_copy.py",
+        "."
+      ],
+      "cwd": "isolated temporary extraction outside source checkout",
+      "exit_code": 0,
+      "log": "extracted_file_integrity.log"
+    },
+    {
+      "name": "skill_registry_and_references",
+      "command": [
+        "C:\\Users\\001\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-B",
+        "scripts/skill_registry.py"
+      ],
+      "cwd": "isolated temporary extraction outside source checkout",
+      "exit_code": 0,
+      "log": "skill_registry_and_references.log"
+    },
+    {
+      "name": "all_copied_tests_with_isolated_fixtures",
+      "command": [
+        "C:\\Users\\001\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-B",
+        "portable/run_tests.py"
+      ],
+      "cwd": "isolated temporary extraction outside source checkout",
+      "exit_code": 0,
+      "log": "all_copied_tests_with_isolated_fixtures.log"
+    }
+  ],
+  "not_verified": [
+    "新领域配置与结构节点的语义适配",
+    "目标客户端 Hook 的加载、信任与真实执行",
+    "目标机器 Claude Skill 符号链接恢复与发现",
+    "外部联网 collector 的实时访问",
+    "迁移后网页交互及项目文案的正确性",
+    "包含 Git、真实知识、评测和派生基线的全仓发布门禁"
+  ],
+  "post_test_integrity": {
+    "passed": true,
+    "checked_files": 234,
+    "skill_count": 18,
+    "issues": []
+  },
+  "passed": true
+}

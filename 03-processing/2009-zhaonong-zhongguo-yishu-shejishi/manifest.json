@@ -1,0 +1,66 @@
+{
+  "processing_profile": "compact-v4",
+  "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+  "fingerprint_mode": "text_crlf_to_lf_v1",
+  "source_assets": [
+    {
+      "path": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "sha256": "sha256:e7148dfd4d00eb0a67879b4aedf15f944a3f531baf97f168f0c79e18d8bb42c0",
+      "role": "primary_text",
+      "language": "zh-Hans"
+    }
+  ],
+  "input_fingerprint": "sha256:8205f54c5dbc80c38a01c32d9cf491e3f242274c2734d70034e43c051603d951",
+  "processing_scope": {
+    "mode": "full_asset",
+    "assets": [
+      "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md"
+    ]
+  },
+  "coverage": {
+    "source_blocks_total": 361,
+    "source_blocks_reviewed": 361,
+    "unread_blocks": 0,
+    "blocks_without_candidate_review": 0,
+    "scope_assets_total": 1,
+    "scope_assets_reviewed": 1,
+    "scope_lines_total": 8800,
+    "scope_lines_reviewed": 8800
+  },
+  "candidate_counts": {
+    "total": 1696,
+    "by_type": {
+      "claim": 376,
+      "unit": 1320
+    },
+    "by_state": {
+      "needs_evidence": 1696
+    },
+    "by_unit_type": {
+      "event": 27,
+      "institution": 56,
+      "person": 181,
+      "place": 74,
+      "procedure": 42,
+      "publication": 139,
+      "term": 490,
+      "work": 311
+    }
+  },
+  "status": "completed",
+  "output_hashes": {
+    "source-map.jsonl": "sha256:e226380bd0ef160f44b6a63011e2fd665002bedeed442882c4f36a2bdba7d9fe",
+    "semantic-units.jsonl": "sha256:2d7a504d31aec6dcdbc3eca52916181f49fa3a7730ec91ce0909a2755255bf8e",
+    "candidate-ledger.jsonl": "sha256:088f62c817b8892adb29cf70d88fe0a510bdbf36bb99f6c44fb230e9dc5a30f7",
+    "summary.md": "sha256:ce794f31fde22a0649c07f816e49b1090561519d8ee2efb20d38ffa5878d12d4"
+  },
+  "semantic_acceptance": {
+    "reread_status": "accepted_with_findings",
+    "reviewer_kind": "agent",
+    "reviewer_id": "independent-twelve-chunk-review+four-delta-reviews+targeted-rechecks-2026-10-24",
+    "reviewed_at": "2026-10-24T20:17:53+08:00",
+    "source_version": "sha256:8205f54c5dbc80c38a01c32d9cf491e3f242274c2734d70034e43c051603d951",
+    "omission_count": 0,
+    "acceptance_boundary": "12 个分段独立复读、首轮补立与修正、四组增量复读（127 个语义单元/322 个候选）及定点复核均已完成；初判 30 条 findings（blocking 1、major 5、minor 24），group 1 后续三轮定点复核另记录 3 条 minor（daf-1-07、dcf-1-02、daf-1-08），最终 33 条全部 closed，0 条 still_open，omission_count 0。该状态只证明来源覆盖、语义单元与候选召回流程闭合，不证明候选已写入 04-knowledge，不证明事实已外部核实，也不声称图版已逐张视觉核验；全部 1696 个候选仍为 needs_evidence / pending。来源文件未改写。"
+  }
+}

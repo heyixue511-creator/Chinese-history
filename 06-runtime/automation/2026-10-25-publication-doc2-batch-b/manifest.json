@@ -1,0 +1,146 @@
+{
+ "work_package": "2026-10-25-publication-doc2-batch-b",
+ "goal": "处理 publication 类型 doc_count=2 重复组第二批 23 组（xdup-0310—xdup-0332，46 个候选）：23 组 create，共新建 23 个 publication KU；另处理《荀子》《韩非子》人物／典籍同名消歧。",
+ "status": "applied",
+ "created_at": "2026-10-25T20:20:00+08:00",
+ "updated_at": "2026-10-25T20:50:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:…（5,339 行；第一批 manifest 记录为 applied 402 / no_delta 14 / rejected 702 / needs_evidence 4221）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-publication-doc2-batch-a/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "publication 类型、doc_count=2、按 group_id 升序的第 24—46 个未关闭组",
+  "group_ids": [
+   "xdup-0310",
+   "xdup-0311",
+   "xdup-0312",
+   "xdup-0313",
+   "xdup-0314",
+   "xdup-0315",
+   "xdup-0316",
+   "xdup-0317",
+   "xdup-0318",
+   "xdup-0319",
+   "xdup-0320",
+   "xdup-0321",
+   "xdup-0322",
+   "xdup-0323",
+   "xdup-0324",
+   "xdup-0325",
+   "xdup-0326",
+   "xdup-0327",
+   "xdup-0328",
+   "xdup-0329",
+   "xdup-0330",
+   "xdup-0331",
+   "xdup-0332"
+  ],
+  "groups": 23,
+  "candidate_rows": 46,
+  "canonical_candidates": 23,
+  "applied_canonical_candidates": 23,
+  "no_delta_canonical_candidates": 0,
+  "rejected_candidates": 23,
+  "created_units": 23,
+  "updated_units": 2,
+  "no_delta_units": 0
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要与 F 字段，比较作者、卷次、成书年、出版者与内容提法；同实体重复候选只保留 canonical；同名异书与书名异写分别处理。",
+  "canonical_rule": "按信息量较大且正文可证者指定 canonical；另一册要点补入正文并保留来源。",
+  "cross_type_rule": "新建《荀子》《韩非子》典籍条与既有 person 条同名，按仓库既有 mengzi／zhuangzi 分流办法，为四条补 `disambiguation` 字段（均以“类型消歧：”开头）；两个 person 条 version 1→2，并同步修正 `persons/han-fei-zi.md` 中“publications/ 下现无该书条目”的过期表述。",
+  "decision_rule": "23 组全部 create；无 update／no_delta／reject-canonical。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（23 个 canonical）；needs_evidence -> rejected（23 个 merged member）",
+  "ledger_rows": 92,
+  "apply_plan_rows": 23
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-publication-doc2-batch-b/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-publication-doc2-batch-b/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-publication-doc2-batch-b/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/publications/shengshi-weiyan.md",
+   "04-knowledge/units/publications/liji.md",
+   "04-knowledge/units/publications/yugong.md",
+   "04-knowledge/units/publications/bamboo-annals.md",
+   "04-knowledge/units/publications/guanzi.md",
+   "04-knowledge/units/publications/jingshi-dadian.md",
+   "04-knowledge/units/publications/xiupu.md",
+   "04-knowledge/units/publications/kaogongji-tu.md",
+   "04-knowledge/units/publications/liangyou.md",
+   "04-knowledge/units/publications/jieziyuan-huazhuan.md",
+   "04-knowledge/units/publications/xunzi.md",
+   "04-knowledge/units/publications/luoxuan-biangu-jianpu.md",
+   "04-knowledge/units/publications/cansang-cuibian.md",
+   "04-knowledge/units/publications/zhuanghuang-zhi.md",
+   "04-knowledge/units/publications/zhuangshi-zazhi.md",
+   "04-knowledge/units/publications/lunyu.md",
+   "04-knowledge/units/publications/daodejing.md",
+   "04-knowledge/units/publications/zunsheng-bajian.md",
+   "04-knowledge/units/publications/xianqing-ouji.md",
+   "04-knowledge/units/publications/hanfeizi.md",
+   "04-knowledge/units/publications/yinliuzhai-shuoci.md",
+   "04-knowledge/units/publications/lubanjing.md",
+   "04-knowledge/units/publications/qiminyaoshu.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-publication-doc2-batch-b/summary.md"
+ },
+ "auxiliary_edits": [
+  {
+   "target_ref": "04-knowledge/units/persons/xunzi.md",
+   "reason": "新建 publications/xunzi.md 后出现跨类型同名（且同 basename）；补 `disambiguation` 字段，version 1→2，正文未改。",
+   "version_before": 1,
+   "version_after": 2
+  },
+  {
+   "target_ref": "04-knowledge/units/persons/han-fei-zi.md",
+   "reason": "新建 publications/hanfeizi.md 后出现跨类型同名；补 `disambiguation` 字段，version 1→2；并修正「相关知识元」中“publications/ 下现无该书条目，属研究债务”的过期表述。",
+   "version_before": 1,
+   "version_after": 2
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:eb86ec042fca8955a7cfaf4c92bbda623e7730fea0e01fdd95b01cb78e46ea68",
+   "bytes": 7283226,
+   "lines": 5339,
+   "state_counts": {
+    "needs_evidence": 4175,
+    "applied": 425,
+    "rejected": 725,
+    "no_delta": 14
+   },
+   "lifecycle_counts": {
+    "active": 4175,
+    "terminal": 1164
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 23,
+   "matched": 23
+  },
+  "content_quality": {
+   "units": 432,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "432/432",
+   "cross_type_disambiguation": "6/6（3 组）"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "duplicate_closure": {
+   "publication_doc2_total": 46,
+   "publication_doc2_closed": 46,
+   "publication_doc2_open": 0,
+   "work_doc2_open": 0,
+   "term_doc2_open": 0,
+   "person_doc2_open": 0
+  },
+  "notes": "本批并列/异写：《礼记》礼运篇引文 OCR 异文（宫窑／管窑／槽巢）；《竹书纪年》盘庚至纣 273 年（赵农）／253 年（2016）；《绣谱》章名“程工／工程”；《考工记图》“高庫”（疑“高庳”）；《萝轩变古笺谱》“恒版拱花／饾版、拱花”；《鲁班经》“年荣”（疑“午荣”）、“雕新”；《闲情偶寄／闲情偶记》书名异写；《荀子》“玉制”（疑“王制”）。"
+ }
+}

@@ -1,0 +1,37 @@
+# 输出登记。
+# 知识图谱是派生展示，不是知识事实；当前知识库为 0 KU，因此不产生可写回候选。
+records:
+  - output_id: knowledge-graph
+    output_type: display
+    used_units: []
+    used_claims: []
+    used_relations: []
+    source_refs: []
+    uncertain_points:
+      - 当前为 0 KU 的空状态展示，页面中的统计仅来自 current-health.json 与配置层。
+      - 图谱不是知识裁决本体，不得据以提升 confidence、consensus 或 verification。
+    file_back_status: rejected
+    candidate_refs: []
+    artifact_patterns:
+      - "05-outputs/knowledge-graph*.html"
+      - "05-outputs/knowledge-graph*-data.json"
+      - "05-outputs/knowledge-graph*-data.js"
+      - "05-outputs/knowledge-graph-2d-manifest.json"
+      - "05-outputs/vendor/*"
+  - output_id: browsing-index
+    output_type: navigation
+    used_units: []
+    used_claims: []
+    used_relations: []
+    source_refs: []
+    uncertain_points:
+      - 当前为 0 KU 的浏览导航，类型页为空状态，不包含知识条目。
+      - 数值快照由 current-health.json 同步，导航层不承担事实裁决。
+    file_back_status: rejected
+    candidate_refs: []
+    artifact_patterns:
+      - "05-outputs/index/index.md"
+      - "05-outputs/index/persons.md"
+      - "05-outputs/index/places.md"
+      - "05-outputs/index/publications.md"
+      - "05-outputs/index/works.md"

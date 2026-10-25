@@ -1,0 +1,325 @@
+{
+  "work_package": "2026-10-25-three-book-work-units-c",
+  "goal": "Third and final work-unit write-back batch: fold the 27 open candidates behind the six remaining work entity groups (指南车, 记里鼓车, 秦陵铜车马, 素纱禅衣, 济南刘家功夫针铺铜版, 郑和宝船) into six knowledge units. 指南车 and 记里鼓车 are reclassified from work to term on in-repo criteria, closing the two doc_count=2 term groups xdup-0384 and xdup-0446 as a consequence.",
+  "status": "applied",
+  "created_at": "2026-10-25T21:10:00+08:00",
+  "updated_at": "2026-10-25T22:05:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:ae154681d313439b78141a6b3155ff5c26d9ec6b783e879e9017db2a8879c12e",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-work-units-b/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "the six work entities left over after batch B among doc_count = 3 groups, plus the two doc_count = 2 term groups that carry the same two entities",
+    "group_ids": [
+      "xdup-0155",
+      "xdup-0157",
+      "xdup-0158",
+      "xdup-0159",
+      "xdup-0162",
+      "xdup-0165",
+      "xdup-0384",
+      "xdup-0446"
+    ],
+    "work_group_ids": [
+      "xdup-0155",
+      "xdup-0157",
+      "xdup-0158",
+      "xdup-0159",
+      "xdup-0162",
+      "xdup-0165"
+    ],
+    "term_group_ids_closed_as_side_effect": [
+      "xdup-0384",
+      "xdup-0446"
+    ],
+    "doc_count_three_groups_before": 40,
+    "doc_count_three_candidates_before": 119,
+    "selected_groups": 6,
+    "group_member_candidates": 17,
+    "extra_same_entity_candidates": 10,
+    "candidate_rows": 27,
+    "canonical_candidates": 6,
+    "rejected_candidates": 21,
+    "updated_units": 0,
+    "remaining_doc_count_three_groups": 34,
+    "remaining_open_candidates": 102,
+    "remaining_doc_count_three_by_type": {
+      "term": {
+        "groups": 34,
+        "candidates": 102
+      }
+    },
+    "work_doc_count_three_groups_after_this_batch": 0,
+    "extra_same_entity_detail": [
+      {
+        "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-69",
+        "candidate_title": "指南车",
+        "merged_into": "04-knowledge/units/terms/zhinan-che.md",
+        "evidence": "赵农 L5356-5385 宋代制车段，燕肃指南车与《宋史·舆服志》，与 xdup-0155 同名候选指向同一装置；同册分作两个候选（L3156-3194 与 L5356-5385），本批一并并入。"
+      },
+      {
+        "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-28",
+        "candidate_title": "指南车（司南车）",
+        "merged_into": "04-knowledge/units/terms/zhinan-che.md",
+        "evidence": "赵农 L3156-3194 汉代车制段，标题带括注“司南车”，所指同为指南车，不是指南针。"
+      },
+      {
+        "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-15",
+        "candidate_title": "指南车",
+        "merged_into": "04-knowledge/units/terms/zhinan-che.md",
+        "evidence": "xdup-0384 组成员；夏燕靖 2016 L1910-1913 同题知识链接，自身已编为 term 候选。"
+      },
+      {
+        "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-61",
+        "candidate_title": "指南车",
+        "merged_into": "04-knowledge/units/terms/zhinan-che.md",
+        "evidence": "xdup-0384 组成员；李立新 L885-1727 谱系段与 L1725-1727 图注，自身已编为 term 候选。"
+      },
+      {
+        "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-03-06",
+        "candidate_title": "记里鼓车",
+        "merged_into": "04-knowledge/units/terms/jili-guche.md",
+        "evidence": "xdup-0162 组成员；高丰 L2324-2368，凸轮杠杆与李约瑟引文（《中国科学技术史》第四卷第二分册第 314 页）。"
+      },
+      {
+        "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-14",
+        "candidate_title": "记里鼓车",
+        "merged_into": "04-knowledge/units/terms/jili-guche.md",
+        "evidence": "xdup-0446 组成员；夏燕靖 2016 L1906-1909 同题知识链接，自身已编为 term 候选。"
+      },
+      {
+        "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-60",
+        "candidate_title": "记里鼓车",
+        "merged_into": "04-knowledge/units/terms/jili-guche.md",
+        "evidence": "xdup-0446 组成员；李立新 L890-895 引文与汉代石刻依据、L2345 图目，自身已编为 term 候选。"
+      },
+      {
+        "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-12",
+        "candidate_title": "一号铜车马（安车/立车）",
+        "merged_into": "04-knowledge/units/works/qinling-tongchema.md",
+        "evidence": "夏燕靖 2009 L1341-1364，与 xdup-0158 canonical 同一段文本分列出的单乘候选；本批按两乘合并为一条 KU，不单独立条。同名异读“安车/立车”正是该车定名分歧的出处。"
+      },
+      {
+        "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-13",
+        "candidate_title": "二号铜车马（安车）",
+        "merged_into": "04-knowledge/units/works/qinling-tongchema.md",
+        "evidence": "夏燕靖 2009 L1341-1364，同上；二号车的门窗、篷盖与舆内器物已写入 KU 正文。"
+      },
+      {
+        "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-27",
+        "candidate_title": "济南刘家功夫针铺白兔商标",
+        "merged_into": "04-knowledge/units/works/jinan-liujia-zhenpu-tongban.md",
+        "evidence": "赵农 L5222-5242，图 7-17 题作“广告”，与本组“铜版”同名异题；所指同一件铜版，本批作为别名“白兔商标”并入。"
+      },
+      {
+        "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-03-05",
+        "candidate_title": "秦代铜车马",
+        "merged_into": "04-knowledge/units/works/qinling-tongchema.md",
+        "evidence": "高丰 L2297-2368，标题作“秦代铜车马”，与 xdup-0158 同名候选指向同一对铜车马；本批作为别名与该册来源并入。"
+      },
+      {
+        "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-74",
+        "candidate_title": "铜车马",
+        "merged_into": "04-knowledge/units/works/qinling-tongchema.md",
+        "evidence": "李立新 L2029-2032 只有图注（高 106.2cm、二分之一比例、秦始皇兵马俑博物馆藏品），与 xdup-0158 同名候选指向同一对象；作为第五册来源并入。"
+      }
+    ],
+    "remaining_scope_note": "剩余量由 candidate-index.jsonl 逐组回算：doc_count == 3 共 40 组 119 条，本批关闭 work 6 组 17 条后余 34 组 102 条，全部为 term。另有 doc_count == 2 的 term 组 xdup-0384 与 xdup-0446 因成员全部并入本批两个 term KU 而同时关闭；doc_count == 2 的其余组不在本批统计口径内。"
+  },
+  "method": {
+    "semantic_step": "Per-entity re-read of all six books plus a full keyword pass for each of the six entities. Every quoted sentence was re-opened at its source line before the unit was finalised. One draft wording was corrected after re-reading (记里鼓车“同段”改“同节”：燕肃莲花漏在漏刻条而非指南车同段).",
+    "canonical_rule": "One canonical candidate per group is promoted; every other same-entity candidate, including title variants outside the duplicate group, is set to rejected with target_ref pointing at the new unit. Canonical was chosen for coverage: 素纱禅衣 and 济南铜版 take the 高丰 candidate because it carries the measurements and the 中西比较; 郑和宝船 takes the 夏燕靖 2009 candidate because the 2009/2016 pair is near-verbatim and 2009 is the earlier text.",
+    "type_reclassification": "指南车 and 记里鼓车 were filed as work by the candidate pipeline but are written as term. Three in-repo grounds: (1) every existing work unit is a single surviving or pointable object, while every object-type term is a type or a device rebuilt across dynasties — 鼎 (terms/ding.md) versus 司母戊鼎 (works/simuwu-ding.md) is the precedent; (2) no source describes a surviving 指南车 or 记里鼓车, only texts and later models; (3) both books that carry the entities as candidates already filed them as term — 夏燕靖 2016 cand-04-15 / cand-04-14 — and the 李立新 source-level dedup (cand-05-15 rejected into cand-03-61) ruled the same way. The reason is written into each KU under 立条类型说明.",
+    "source_count_correction": "The recall group's doc_count is a nominal count. Re-reading all six books changed four of six: 指南车 2→4 (赵农 two candidates, 李立新, 夏燕靖 2016, plus the 2009 canonical); 记里鼓车 3→5; 秦陵铜车马 3→5; 济南铜版 3→4; 郑和宝船 3→4. 素纱禅衣 stayed at 3. 田自秉 and 李立新 carry no material on 指南车以外的五项, and 田自秉's only 郑和 sentence is a timber-import datum, not a ship source, so it was excluded.",
+    "title_variant_rule": "Four open candidates filed under a different title were checked against the canonical span before being rejected: 赵农 指南车（司南车）, 高丰 秦代铜车马, 李立新 铜车马, 赵农 济南刘家功夫针铺白兔商标. Two 夏燕靖 2009 single-chariot candidates (一号/二号铜车马) were merged because the two chariots share one excavation, one scale and one source paragraph.",
+    "exclusion_rule": "Three bare-name hits are different entities and stay open untouched: 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-67 指南针 (magnetic compass, L5356-5385); 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-107 禅衣 (the garment-type term at L3063, not the 马王堆 object); 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-23 金银错狩猎纹铜车饰 (a bronze chariot fitting, not a chariot). 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-15 was already rejected in the source-level dedup and received no new row.",
+    "quote_boundary_rule": "Quotations keep the source's own wording, including its errors: 夏燕靖 2009 “27000千多人” (2016 “2.7万多人”); “秦地陵”; “机械装置起来的车” / “机械装置车”; “韫惊车” / “韫轿车”; “箭簸” / “箭筴”; “矛盾” / “子盾”; “独辑” / “轭軸”; “进安全深88厘米”; “摹控机械” / “掌控机械”; 高丰图 4-36 “通长31.7cm 高1.06cm”; “禅为纲”; 夏燕靖 2016 铜版却写“反贴在木板上”; “钢材” / “钢条”; “客转为贩” / “转卖兴贩”.",
+    "filename_rule": "None of the six entities has a single build year, so no year suffix is used (precedent: changxin-palace-lamp.md). 郑和宝船 spans 1405–1433 as a fleet programme, not a build year; 素纱禅衣 and 秦陵铜车马 are tomb finds without a documented manufacture year.",
+    "state_honesty": "All six units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set and no unit is marked confirmed. 济南铜版 records that 夏燕靖 2009 has only a figure caption and no body text.",
+    "relation_update_rule": "No existing unit was modified. Cross-references appear only in 相关知识元 as non-assertive mentions; no formal relations were written."
+  },
+  "outputs": {
+    "apply_plan": "2026-10-25-three-book-work-units-c/apply-plan.jsonl",
+    "candidate_decision_ledger": "2026-10-25-three-book-work-units-c/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/zhinan-che.md",
+      "04-knowledge/units/terms/jili-guche.md",
+      "04-knowledge/units/works/qinling-tongchema.md",
+      "04-knowledge/units/works/susha-chanyi.md",
+      "04-knowledge/units/works/jinan-liujia-zhenpu-tongban.md",
+      "04-knowledge/units/works/zhenghe-baochuan.md"
+    ],
+    "updated_units": [],
+    "manifest": "2026-10-25-three-book-work-units-c/manifest.json",
+    "summary": "2026-10-25-three-book-work-units-c/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "group": "xdup-0155",
+      "entity": "指南车",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-03-45",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-69",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-28",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-15",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-61"
+      ],
+      "unit": "04-knowledge/units/terms/zhinan-che.md",
+      "unit_type": "term",
+      "source_count": 4
+    },
+    {
+      "group": "xdup-0162",
+      "entity": "记里鼓车",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-03-44",
+      "merged": [
+        "2004-gaofeng-zhongguo-shejishi:cand-03-06",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-29",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-14",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-60"
+      ],
+      "unit": "04-knowledge/units/terms/jili-guche.md",
+      "unit_type": "term",
+      "source_count": 5
+    },
+    {
+      "group": "xdup-0158",
+      "entity": "秦陵铜车马",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-03-11",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-79",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-101",
+        "2004-gaofeng-zhongguo-shejishi:cand-03-05",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-74",
+        "2009-xiayanjing-zhongguo-shejishi:cand-03-12",
+        "2009-xiayanjing-zhongguo-shejishi:cand-03-13"
+      ],
+      "unit": "04-knowledge/units/works/qinling-tongchema.md",
+      "unit_type": "work",
+      "source_count": 5
+    },
+    {
+      "group": "xdup-0159",
+      "entity": "素纱禅衣",
+      "canonical": "2004-gaofeng-zhongguo-shejishi:cand-03-08",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-58",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-03"
+      ],
+      "unit": "04-knowledge/units/works/susha-chanyi.md",
+      "unit_type": "work",
+      "source_count": 3
+    },
+    {
+      "group": "xdup-0157",
+      "entity": "济南刘家功夫针铺铜版",
+      "canonical": "2004-gaofeng-zhongguo-shejishi:cand-05-17",
+      "merged": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-04-110",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-36",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-27"
+      ],
+      "unit": "04-knowledge/units/works/jinan-liujia-zhenpu-tongban.md",
+      "unit_type": "work",
+      "source_count": 4
+    },
+    {
+      "group": "xdup-0165",
+      "entity": "郑和宝船",
+      "canonical": "2009-xiayanjing-zhongguo-shejishi:cand-06-10",
+      "merged": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-054",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-41"
+      ],
+      "unit": "04-knowledge/units/works/zhenghe-baochuan.md",
+      "unit_type": "work",
+      "source_count": 4
+    }
+  ],
+  "source_variance_notes": [
+    {
+      "entity": "指南车",
+      "variance": "与指南针的关系两说相反：夏燕靖两版“是指南针的原始形式”，赵农“与磁石无关”。起源两说：赵农黄帝与周公，李立新引《宋书·礼志》“其始周公所作”。复制谱系：张衡→马钧→姚兴令令孤生→祖冲之（“令孤生”照录）。燕肃条引《宋史·舆服志》。李约瑟“人类历史上第一架有共协稳定的机械”，2009 作“李约瑟博士”、2016 作“英国科技史家李约瑟”。讹句“机械装置起来的车”（2009）／“机械装置车”（2016）。图 4-24（2009，无“模型”）／4-25（2016，加“模型”）。"
+    },
+    {
+      "entity": "记里鼓车",
+      "variance": "传动方式：齿轮组（夏燕靖两版）与凸轮杠杆（高丰）。报程方式：打鼓或击钟（夏燕靖两版）与仅击鼓（高丰）。古籍出处：《晋书·舆服志》（赵农明标）与只给脚注②（李立新）。评价四说：“第一部摹控机械”（2009）／“我国古代第一部掌控机械”（2016）／李约瑟“那些出色的现代机器的祖先”／李立新“与现代计程表完全相同”。图 4-38（高丰，东汉）／4-23（2009）／4-24（2016，加“模型”）／图 2-5（李立新）。"
+    },
+    {
+      "entity": "秦陵铜车马",
+      "variance": "一号车定名四处不一：夏燕靖 2009 段首“安车”段末“立车/高车”自相矛盾，2016“高车”，赵农“戎车”，高丰“立车”。尺寸分歧：赵农 2.25×1.52 米与 3.28×1.04 米；高丰图 4-36“通长31.7cm 高1.06cm”单位讹误；李立新高 106.2cm。部件：各 3000 多个（夏燕靖两版、赵农）与立车 3064＋安车 3462（高丰）。俗名韫惊车／韫轿车。另“箭簸/箭筴”“矛盾/子盾”“独辑/独辀”“轭軸/轭轴”“进安全深88厘米”。2016 独有“破碎为1555块，复原花费了12年”。"
+    },
+    {
+      "entity": "素纱禅衣",
+      "variance": "两袖通长 190 厘米（高丰、田自秉）与 180 厘米（赵农），差 10 厘米；衣长 128 厘米、49 克三册一致。高丰独有 5.6 厘米夹层绢缘、《礼记·玉藻》“禅为纲”郑玄注、朝服衬衣用途；田自秉独有“禅（音单）”“方孔平纹，类似现今的乔其纱”“轻薄如空”“举之若无”“吹纶絮”与三号墓四块绉纱称“穀”；赵农独有“100多件纺织品”与起绒锦“浮雕效果”。"
+    },
+    {
+      "entity": "济南刘家功夫针铺铜版",
+      "variance": "尺寸 12.5×13 厘米（高丰）与 13.2×12.4 厘米（2016）。铭文“钢材/钢条”“客转为贩/转卖兴贩”“请记白（兔）/请记白”。馆藏中国历史博物馆（高丰）与中国国家博物馆（2016）。地位四种表述。仅高丰给“至少领先400年”与欧洲 1480 年比较。2016 铜版却写“反贴在木板上”的册内矛盾。夏燕靖 2009 只有图题、无正文。"
+    },
+    {
+      "entity": "郑和宝船",
+      "variance": "长度 146.7 米（高丰）／150 米（夏燕靖两版）／44 丈（夏燕靖 2009 汉代知识链接）／44 丈 4 尺（赵农）；宽度 60 米与 18 丈，来源未给换算。宝船艘数 60 多艘／40 至 60 艘／62 艘，夏燕靖两版同节自存两说。载员“27000千多人”（2009）、“2.7万多人”（2016）、“27000名”（2009 知识链接）。舵杆 11 米与 11.07 米，赵农给“1957 年出土”而不系龙江船厂。船型四大类含鸟船（夏燕靖两版）与三大类无鸟船（赵农）。四册所配均为模型或图稿。"
+    }
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 6,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All six units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed; no verification_level is set.",
+    "cross_reference_note": "No existing unit was touched. Cross-references appear only in 相关知识元 as non-assertive mentions; no formal relations were written."
+  },
+  "governance_notes": [
+    "本批最重要的判断是指南车与记里鼓车的类型改判（work→term）。流水线按抽取标题一律标 work，但仓内既有模式是“具体器物→work、器物类型→term”（terms/ding.md 与 works/simuwu-ding.md 成对），而夏燕靖 2016 自身已把二者编为 term 候选，李立新册级去重也已把同名 work 候选判为 term 重复。改判理由写在两个 KU 的“立条类型说明”段，未改动 candidate-index 中的 unit_type 原值。",
+    "工作包四件套齐备；apply-plan 六行均为 create，before 为 null，after_sha256/bytes/lines 按 CRLF→LF 归一后计算，并由独立脚本二次核验。",
+    "台账 39 行、27 个唯一候选：6 个 canonical 各 3 条状态迁移（needs_evidence→ready_for_review→approved→applied），21 个同实体候选各 1 条 rejected，全部带 target_ref。2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-15 早已 rejected，本批不新增行。",
+    "三个同名异实体候选保持 needs_evidence 未动：zn:cand-08-67 指南针、zn:cand-05-107 禅衣（衣制术语）、tzb:cand-06-23 金银错狩猎纹铜车饰。",
+    "works 的 sub_type 仍无受控枚举（见批次 a summary 治理债第 1 条）。本批新增 ship、silk_garment、bronze_carriage、copper_print_block 四个值；terms 新增 device_type 两个值。均未被 audit_repo.py 或 audit_content_quality.py 校验。",
+    "郑和宝船不给年份后缀：来源给的是出使年表（1405—1433）与船队规模，不是造船年；按 taxonomy.md“无确切年代可省略”处理。",
+    "本轮在定稿前逐条回核了所有引用句所在行；改正一处草稿措辞（记里鼓车“同段”改“同节”）。凡来源未给的数字或名称，KU 一律不补。"
+  ],
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 103,
+      "needs_evidence": 4951,
+      "rejected": 285,
+      "active": 4951,
+      "terminal": 388,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 131
+    },
+    "structural_health": "122/130 (unchanged from baseline)",
+    "knowledge_structure": "55/65 (unchanged)",
+    "evidence_chain": "55/55",
+    "type_coverage": "8/8 (work units 17 -> 21, term units 24 -> 26)",
+    "name_collision": "同名跨类型组 1 / 有消歧说明 2 / 无消歧说明 0 (unchanged; persons/mengzi.md + publications/mengzi.md)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 6 create rows verified against disk independently (after-sha256/bytes/lines, CRLF normalized); ledger chain verified row by row",
+    "ledger_invariants": "ledger rows 39, distinct candidate ids 27, 6 x 3 canonical transitions + 21 rejected"
+  },
+  "boundaries": [
+    "未 commit、未 push；改动只留在工作树。",
+    "未创建分支或额外 worktree，main 是唯一主线。",
+    "02-sources/ 未触碰；本批实际只读 03基础书籍-md文档/。",
+    "未使用任何外部验证平台；证据范围仅限于六册 Markdown 文本，未查原书、未查图版、未核馆藏。",
+    "primary_theme 与 topic_memberships 一律留空，因 Theme/Topic 节点尚未 materialize。",
+    "未写入任何正式 relations。",
+    "未做图版核验：铜车马的一号车定名、宝船的模型比例、素纱禅衣的袖长、铜版的版面分层均未与图像比对。",
+    "只处理前六册；书籍 7 及以后不启动。",
+    "剩余 term 34 组 102 条未启动。",
+    "口径差异一律并列不裁；来源未给的数字不补。"
+  ]
+}

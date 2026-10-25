@@ -1,0 +1,315 @@
+{
+  "work_package": "2026-10-25-eight-existing-term-reconciliation",
+  "goal": "第十批：对 doc_count=4 的 8 个既有 term 组（32 个候选）做复用／更新裁决；6 条既有 KU 补入候选中的实质内容并更正一处误述，2 条判定 no_delta；24 个同组重复候选 rejected。",
+  "status": "applied",
+  "created_at": "2026-10-25T14:40:00+08:00",
+  "updated_at": "2026-10-25T15:53:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:1616b07123ca50ba04c1825df9f3864cc9dfc4669b6f4fa48692e72165dc7652（7,162,436 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-nine-route-institution-craft-term-units/manifest.json",
+    "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+  },
+  "scope": {
+    "group_rule": "八个组均为 doc_count=4 的同名组；八组对应实体均已有 term KU，故本批不是新建，而是既有 KU 的复用／更新裁决。",
+    "group_ids": [
+      "xdup-0043",
+      "xdup-0044",
+      "xdup-0045",
+      "xdup-0046",
+      "xdup-0047",
+      "xdup-0051",
+      "xdup-0053",
+      "xdup-0061"
+    ],
+    "groups": 8,
+    "candidate_rows": 32,
+    "canonical_candidates": 8,
+    "rejected_duplicate_candidates": 24,
+    "updated_units": 6,
+    "no_delta_units": 2,
+    "unit_types": {
+      "term": 8
+    },
+    "sub_types": {
+      "archaeological_culture": 3,
+      "alloy_formula": 1,
+      "ceramic_type": 1,
+      "vessel_form": 1,
+      "clothing_accessory": 1,
+      "building_component": 1
+    },
+    "merge_note": "canonical 优先取 proposed_slug 与最终文件名一致者；四条候选 slug 均不匹配最终文件名时取 2016 夏燕靖升级版。仰韶、河姆渡、龙山、尖底瓶四组同组四条 slug 一致且均不匹配文件名，取 2016；六齐、原始青瓷、瓦当三组 2016 slug 与文件名一致；带钩取赵农 cand-03-135，因其 slug=belt-hook 与文件名精确一致。"
+  },
+  "method": {
+    "semantic_step": "逐组复读四册候选与既有 KU，对照定义、年代、分布、工艺细节与既有陈述；候选有实质增补或既有 KU 有误述时 update，既有 KU 已完整覆盖时 no_delta。",
+    "canonical_rule": "每组选 1 条 canonical 候选作为裁决身份，其余同组候选转 rejected 并指向同一 target_ref。canonical 的 proposed_slug 与最终文件名一致者优先；同组多条一致或均不一致时取 2016 夏燕靖升级版。",
+    "decision_rule": "6 组 update：仰韶、原始青瓷、带钩、河姆渡、瓦当、龙山；2 组 no_delta：六齐、尖底瓶。no_delta 不产生 apply-plan 行。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（6 条 update canonical）；needs_evidence -> ready_for_review -> approved -> no_delta（2 条 canonical）；needs_evidence -> rejected（24 条同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl，不改历史 R1 台账。",
+    "write_back": "精确变更集：6 条 update，无 create、无 delete。update 的 sha256／bytes／lines 按 CRLF→LF 归一后计算。",
+    "extra_source_rule": "既有 KU 的 sources 已含组外册；本批只在候选文本落在既有 sources 未列行号时补充 location，不新增独立来源文档。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-eight-existing-term-reconciliation/candidate-decision-ledger.jsonl",
+    "updated_units": [
+      "04-knowledge/units/terms/yangshao-culture.md",
+      "04-knowledge/units/terms/proto-porcelain.md",
+      "04-knowledge/units/terms/belt-hook.md",
+      "04-knowledge/units/terms/hemudu-culture.md",
+      "04-knowledge/units/terms/wadang.md",
+      "04-knowledge/units/terms/longshan-culture.md"
+    ],
+    "no_delta_units": [
+      "04-knowledge/units/terms/liuqi.md",
+      "04-knowledge/units/terms/pointed-bottom-jar.md"
+    ]
+  },
+  "canonical_mapping": [
+    {
+      "group_id": "xdup-0043",
+      "entity": "仰韶文化",
+      "target_ref": "04-knowledge/units/terms/yangshao-culture.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-41",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-01-23",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-54",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-24"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入分布范围异文、田自秉母系氏族社会定性、赵农泥条盘筑—慢轮—快轮三期序列与半坡竖穴窑／横穴窑；更正原“赵农只据图版”的陈述。"
+    },
+    {
+      "group_id": "xdup-0044",
+      "entity": "六齐",
+      "target_ref": "04-knowledge/units/terms/liuqi.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-71",
+      "decision": "no_delta",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-80",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-36",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-38"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2011-lilixin-zhongguo-sheji-yishu-shilun",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "既有 KU 已逐条覆盖六条原文、17% 换算、司母戊鼎实测、赵农锡铜概括、李立新锡铅、功能逻辑与《考工记》归属；四册候选无新增实质内容，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0045",
+      "entity": "原始青瓷",
+      "target_ref": "04-knowledge/units/terms/proto-porcelain.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-43",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-26",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-47",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-24"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 5,
+      "update_note": "补入夏燕靖 2009 的侯马早期青瓷 1230℃、战国青釉器“多仿青铜器”与绍兴／萧山产地；1230℃ 与 1100—1200℃／1200℃ 并列，不裁定测温口径。"
+    },
+    {
+      "group_id": "xdup-0046",
+      "entity": "尖底瓶",
+      "target_ref": "04-knowledge/units/terms/pointed-bottom-jar.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-44",
+      "decision": "no_delta",
+      "merged_members": [
+        "2004-gaofeng-zhongguo-shejishi:cand-01-10",
+        "2009-xiayanjing-zhongguo-shejishi:cand-01-25",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-46"
+      ],
+      "group_docs": [
+        "2004-gaofeng-zhongguo-shejishi",
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "既有 KU 已覆盖形制、三种力学解释、尖底三用、欹器、口部变体、黑陶延续、李立新斝的整合与赵农评价；四册候选无新增实质内容，判定 no_delta。"
+    },
+    {
+      "group_id": "xdup-0047",
+      "entity": "带钩",
+      "target_ref": "04-knowledge/units/terms/belt-hook.md",
+      "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-135",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-43",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-20",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-07"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入田自秉“约始于春秋初期、流行至西汉”的年代范围与“饰件钩／武器钩／衣襟钩”的命名主张；补入夏燕靖 2016 的绿松石装饰与材质清单差异。"
+    },
+    {
+      "group_id": "xdup-0051",
+      "entity": "河姆渡文化",
+      "target_ref": "04-knowledge/units/terms/hemudu-culture.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-61",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-01-39",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-52",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-25"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 5,
+      "update_note": "补入赵农夹砂红陶／灰陶、素面与接近千度的烧成温度；田自秉的养畜与榫卯已见 places/hemudu-site.md，本批不重复。"
+    },
+    {
+      "group_id": "xdup-0053",
+      "entity": "瓦当",
+      "target_ref": "04-knowledge/units/terms/wadang.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-23",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-02-48",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-130",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-25"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "更正原“赵农未对瓦当作文字论述”的错误；补入赵农半瓦当／圆瓦当、护椽功能与燕下都大瓦黼黻纹，补入夏燕靖两版 30 余种纹样、1 米巨型印花瓦当与瓦钉和瓦身分离。"
+    },
+    {
+      "group_id": "xdup-0061",
+      "entity": "龙山文化",
+      "target_ref": "04-knowledge/units/terms/longshan-culture.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-50",
+      "decision": "applied",
+      "merged_members": [
+        "2009-xiayanjing-zhongguo-shejishi:cand-01-32",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-53",
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-26"
+      ],
+      "group_docs": [
+        "2009-xiayanjing-zhongguo-shejishi",
+        "2009-zhaonong-zhongguo-yishu-shejishi",
+        "2010-tianzibing-zhongguo-gongyi-meishushi",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+      ],
+      "ku_source_count": 6,
+      "update_note": "补入田自秉父系氏族社会定位、河南龙山（后冈二期）／陕西龙山（客省庄二期）别称与龙山—仰韶“前后不同阶段”说；把原“三种模型／四种表述”的内部不一致修正为“五种表述（三类模型）”。"
+    }
+  ],
+  "source_variance_notes": [
+    "仰韶文化：组内四册均称仰韶文化，但区域表述有“黄河中上游”（夏燕靖 2009、田自秉彩陶分布）与“黄河中游、甘肃到河南”（夏燕靖 2016）的宽窄差异；田自秉以母系氏族社会定性，赵农另给泥条盘筑—慢轮—快轮三期与半坡竖穴窑／横穴窑，夏燕靖称慢轮约始于仰韶中期，高丰把轮制归新石器时代晚期。既有 KU 原称赵农仅据图版，本批据赵农 L458／L677／L685 文字更正。",
+    "六齐：四册候选均未超出既有 KU：夏燕靖两版逐条引六齐，赵农作锡铜二元概括并记段氏镈器，李立新补铅并置于冶铸流程；高丰、田自秉的组外文本已用于 17% 换算与司母戊鼎实测。故判定 no_delta。",
+    "原始青瓷：夏燕靖 2009 与 2016 主体近同，但 2009 另记战国青釉器“多仿青铜器”、侯马早期青瓷 1230℃、商代已出现且产地绍兴／萧山；2016 记 1100—1200℃，赵农记 1200℃，田自秉记 1200℃以上。温度数值并列，不裁定。",
+    "尖底瓶：四册候选均已被既有 KU 覆盖：高丰重心变化、夏燕靖自动直立、赵农漂浮原理与尖底三用、田自秉口部变体、李立新斝的整合均已入条；无新增，故判定 no_delta。",
+    "带钩：田自秉 L1869 另记“约始于春秋初期，流行至西汉”，并把挂饰件／挂武器／系衣襟的近似钩分别命名为“饰件钩”“武器钩”“衣襟钩”，明确主张不并入带钩；夏燕靖 2016 另记绿松石装饰与金银铜铁玉材质清单，2009 清单含石骨木而无银。",
+    "河姆渡文化：赵农 L687 记夹砂红陶／灰陶、素面、烧成温度近千度，为其余四册所无；田自秉记养畜与榫卯，已见 places/hemudu-site.md，本批不重复。夏燕靖两版年代、骨器、稻作近同；田自秉仍把河姆渡列入彩陶分布区，保留原差异。",
+    "瓦当：既有 KU 原称赵农未对瓦当作文字论述，实际赵农 L2156-L2158 有半瓦当／圆瓦当、护椽功能、板瓦／筒瓦与燕下都大瓦黼黻纹；本批更正。夏燕靖两版另记涡状纹、“r”形纹、对鸟兽纹、树木纹、几何纹、星云纹、饕餮纹等 30 余种、1 米巨型印花瓦当、瓦钉与瓦身分离；2009 与 2016 几乎一致。",
+    "龙山文化：田自秉 L417 以父系氏族社会定性，L736／L738／L740 给早期龙山（庙底沟二期）、河南龙山（后冈二期）、陕西龙山（客省庄二期）别称，L732 称龙山与仰韶“历史发展的前后不同阶段”；既有 KU 原列四种表述且标题误作“三种模型”，本批补为五种表述、三类模型。",
+    "总说明：八组候选组均为 doc_count=4；既有 KU 的 source_count 为 5—6，因高丰、李立新等组外册已在建条时补入。source_count 记文档数，不等于独立来源数；夏燕靖 2009／2016 高度重合。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 0,
+    "updated_knowledge_units": 6,
+    "no_delta_knowledge_units": 2,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "6 条更新 KU 保持 confidence=medium、consensus=tentative、evidence_status=source_backed；2 条 no_delta KU 状态不变；未标 confirmed、externally_verified 或 L1-L7 级验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "status": "pass",
+      "total_candidates": 5339,
+      "by_state": {
+        "applied": 142,
+        "no_delta": 2,
+        "rejected": 380,
+        "needs_evidence": 4815
+      },
+      "by_lifecycle_class": {
+        "active": 4815,
+        "terminal": 524
+      },
+      "after_fingerprint": "sha256:7f5efcc78e5fb0c49ea64bf801e797b5d33e31a334e040180bb6b7330476da42（7,168,905 B，5,339 行）"
+    },
+    "content_quality": {
+      "status": "pass",
+      "knowledge_units": 164,
+      "findings": 0
+    },
+    "structural_health": {
+      "status": "pass",
+      "knowledge_units": 164,
+      "type_coverage": "8/8",
+      "frontmatter_missing": 0,
+      "frontmatter_malformed": 0,
+      "markdown_broken_links": 0,
+      "invalid_enums": 0,
+      "verification_semantic_issues": 0,
+      "evidence_ref_resolvable": "164/164",
+      "duplicate_basename_groups": 1,
+      "duplicate_basename_note": "mengzi（persons/publications）已有消歧说明，未新增问题"
+    },
+    "apply_plan_hash_check": {
+      "status": "pass",
+      "rows": 6,
+      "after_match": "6/6",
+      "note": "编辑后 6 个文件的 sha256／bytes／lines 全部等于 apply-plan 的 after；before 字段记录编辑前指纹，故不再与当前文件匹配"
+    },
+    "pre_commit_check": {
+      "status": "pass",
+      "rule_drift": 0
+    },
+    "sync_closure": {
+      "status": "pass",
+      "steps_passed": "19/19",
+      "tests": "250 passed, 16 subtests passed",
+      "note": "使用 --refresh-generated --full --check-generated，生成快照无漂移"
+    }
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台，证据仅来自六册 Markdown 文本。",
+    "未做图版、器物或考古报告的视觉与实物核对。",
+    "primary_theme 与 topic_memberships 留空；Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；跨条目共现只作非断言性叙述。",
+    "来源分歧（定义、时代、分布、工艺、名称、评价）一律并列保留，不做调和。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

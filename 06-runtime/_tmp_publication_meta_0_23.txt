@@ -1,0 +1,157 @@
+===== xdup-0310 盛世危言
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-88 L8359-L8560 slug=shengshi-weiyan state=needs_evidence
+S: 《盛世危言》为郑观应著作，书中提出“工艺一道，为国家致富之基。工艺既兴，物产即因之饶裕”。书中还主张设工艺专科、开工艺学堂、派人游学各国、设博览会以励百工。
+F: {"author": "郑观应", "period": "晚清", "title": "《盛世危言》"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-15 L1291-L1291 slug=sheng-shi-wei-yan state=needs_evidence
+S: 郑观应著作，分析洋货入华致女红失业、柏树弃为不材、冶者无事投闲，指出外国用机制故工致价廉、中国用人工故工笨价费，主张“商战”。
+F: {"author": "郑观应", "publisher": null, "title": "盛世危言", "year": null}
+===== xdup-0311 礼记
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-32 L1290-L1290 slug=liji state=needs_evidence
+S: 原文引《礼记》规定天子龙衮、诸侯黼、大夫黻、士玄衣纁裳及天子之豆二十六等服饰器物等级，说明周代等级制在服饰器物上的体现。
+F: {"author": "原文未署", "publisher": "原文未载", "title": "礼记", "year": "原文未载"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-66 L529-L995 slug=liji state=needs_evidence
+S: 原文两引《礼运篇》：以“未有麻丝，衣其羽皮”说明纺织出现前的衣着，以“昔者先王，未有宫窑，冬则居管窑，夏则居槽巢……”（原文如此，疑有 OCR 异文）说明原始穴居、巢居。《礼记》有深衣篇并载制作规范，《礼记·玉藻》称深衣为诸侯大夫家居便服、庶人礼服。
+F: {"author": "原文未注明", "publisher": "原文未注明", "title": "《礼记》", "year": "原文未详"}
+===== xdup-0312 禹贡
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-51 L1936-L1952 slug=yugong state=needs_evidence
+S: 原文据《禹贡》等书记载春秋战国染织生产分布，列举冀州、并州、青州、兖州、徐州、扬州、荆州、豫州的布帛、丝、纨、绮、绣、玄织缟、玄纁等物产，并引“青州贡盐緝海物”“厥贡漆丝”等句。
+F: {"author": null, "publisher": null, "title": "《禹贡》", "year": null}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-141 L1079-L1079 slug=yugong state=needs_evidence
+S: 《禹贡》有梁州（秦岭以南、陕南川东地区）贡铁的记载。
+F: {"author": "原文未详", "publisher": "未详", "title": "禹贡", "year": "原文未详"}
+===== xdup-0313 竹书纪年
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-27 L1053-L1272 slug=bamboo-annals state=needs_evidence
+S: 《竹书纪年》被引以说明夏桀“作琼宫瑶台”的推想，以及夏朝后期天降陨石、地震、伊洛枯竭等灾异。古本《竹书纪年》记商代“在汤灭夏以至纣之灭，二十九王，用岁四百九十六年”，又记“自盘庚迁殷，至纣之灭，二百七十三年更不徙都”。
+F: {"period": "战国时期成书（原文称战国时期的《竹书纪年》）", "title": "《竹书纪年》"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-51 L933-L943 slug=bamboo-annals state=needs_evidence
+S: 《竹书纪年》记自盘庚迁殷至纣之亡二百五十三年、更不徙都，纣时稍大其邑，南距朝歌、北距邯郸及沙丘皆为离宫别馆。
+F: {"author": "未详", "publisher": "未详", "title": "竹书纪年", "year": "先秦"}
+===== xdup-0314 管子
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-94 L1966-L2423 slug=guanzi state=needs_evidence
+S: 《管子》是先秦典籍，原文引《管子·轻重乙》说明农、车、女所需工具，并称管仲认为齐国种田男子必须有一犁、一耙、一把锄等，造车木匠必须有斧、锯、锥、凿等，妇女必须有针、刀等；从这些议论可见农具和工具在当时生活中的重要位置。原文又引《管子·乘马》“凡立国都，非于大山之下必于广川之上……”说明城市选址与规划。原文又称《管子》相传是春秋时期齐国政治家管仲的著作，今存76篇；管仲推行富民强国的政治经济政策，使齐国成为强盛之国，提出“仓廪实而知礼节，衣食足而知荣辱”的观点，具有“以民为本”的思想。
+F: {"period": "先秦", "title": "管子"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-80 L1581-L1588 slug=guanzi-book state=needs_evidence
+S: 战国时各学派言论汇编，内容庞杂，包括法家、儒家、道家、阴阳家、名家、兵家和农家观点，传说根本为春秋初期管仲言论；原文重点讨论《侈靡篇》的经济政法见解及其奢侈消费与等级消费主张。
+F: {"author": "托名管仲，战国各学派汇编", "publisher": null, "title": "管子", "year": "战国"}
+===== xdup-0315 经世大典
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-89 L3245-L3245 slug=jingshi-dadian state=needs_evidence
+S: 元代官方编纂的《经世大典》记述了元代建筑的详细方式，使这一时期的建筑特色得以流传；原文将其作为建筑兴盛促进较完整建筑学著作出现的例证。
+F: {"period": "元代"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-29 L3979-L3999 slug=jingshi-dadian state=needs_evidence
+S: 又名《皇朝经世大典》，元文宗至顺元年由奎章阁学士院编纂，赵世延总撰、虞集副总撰，次年5月成；全书880卷、目录12卷，分君事4篇、臣事6篇，工典列22目，保存元代建筑与工艺制度。
+F: {"author": "赵世延总撰、虞集副总撰，奎章阁学士院编", "publisher": "元官修", "title": "经世大典", "year": "至顺元年起，次年5月成"}
+===== xdup-0316 绣谱
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-40 L4677-L4677 slug=xiupu state=needs_evidence
+S: 《绣谱》是清道光时丁佩所著刺绣专著，分择地、选样、取材、辨色、程工、论品等章，提出“能、巧、妙、神”美学原则与“齐、光、直、匀、薄、顺、密”刺绣特点。
+F: {"author": "丁佩", "publisher": null, "title": "绣谱", "year": "清道光时"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-50 L4679-L6322 slug=xiupu state=needs_evidence
+S: 清代苏绣艺人丁佩撰，成书于道光元年（1821），是刺绣工艺专著；分择地、选样、取材、辨色、工程、论品6章，提出“能、巧、妙、神”美学原则与苏绣“齐、光、直、匀、薄、顺、密”特点。丁佩撰，以论刺绣技法为主，提出“能、巧、妙、神”的刺绣原则。
+F: {"author": "丁佩", "publisher": null, "title": "《绣谱》", "year": "清道光元年（1821）"}
+===== xdup-0317 考工记图
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-094 L7636-L7652 slug=kaogongji-tu state=needs_evidence
+S: 《考工记图》是戴震对古籍《考工记》的自注并绘图说明，为清代乾隆年间《戴氏遗书》所收。戴震对《考工记》中的礼乐、车舆、宫室、武器等进行图录式说明，对后人正确理解《考工记》内容有一定指导意义。
+F: {"author": "戴震", "period": "清乾隆年间", "title": "考工记图"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-58 L690-L690 slug=kaogongji-tu state=needs_evidence
+S: 戴震著作。原文引“考工诸篇，高庫广狭有度”，以说明“度”兼为尺度与适度。
+F: {"author": "戴震", "publisher": null, "title": "考工记图", "year": null}
+===== xdup-0318 良友
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-32 L4042-L4051 slug=liangyou state=needs_evidence
+S: 《良友》是1926 年 2 月创刊的大型画报，以令人耳目一新的形式轰动上海滩。曾聘请郑君里作美丽牌香烟广告、白杨作美勃丹化妆品广告、兰心作宝昌首饰广告、王人美作广东兄弟橡皮公司球鞋广告，明星效应使商品成为二三十年代上海抢手品牌。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-33 L4984-L5012 slug=liangyou state=needs_evidence
+S: 1926年2月创刊的大型画报，以明星广告轰动上海，聘郑君里、白杨、兰心、王人美等为香烟、化妆品、首饰、球鞋做广告，使商品成为二三十年代上海抢手品牌。
+F: {"author": null, "publisher": null, "title": "良友", "year": "1926"}
+===== xdup-0319 芥子园画传
+-- 2004-gaofeng-zhongguo-shejishi:cand-sup-74 L5174-L5174 slug=jieziyuan-huazhuan state=needs_evidence
+S: 清康熙至嘉庆年间刻印的画谱，采用明代创造的短版套印工艺并有所发展。
+F: {"period": "清康熙至嘉庆"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-113 L7210-L7258 slug=jieziyuan-huazhuan state=needs_evidence
+S: 明清时期出版的《芥子园画传》是中国画的里程碑。它由李渔女婿请画家王概等人编绘，初期有山水卷、梅兰竹菊卷、草虫花鸟卷，后来加进人物卷。整部书编辑详备、体例得当、印制清晰、文风典雅，是清代以来中国画学的基础课本。
+F: {"author": "王概等编绘（李渔女婿请）", "period": "明清", "title": "芥子园画传"}
+===== xdup-0320 荀子
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-24 L2409-L2423 slug=xun-zi state=needs_evidence
+S: 《荀子》为战国末年儒家思想家荀子的著作，荀子重视美感和教育功能，在议论中常以器具比喻说明道理。书中提出“以玉比德”（《荀子·法行》）的思想。
+F: {"author": "荀子", "period": "战国末年", "title": "荀子"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-81 L1581-L6154 slug=xunzi-book state=needs_evidence
+S: 战国末年唯物主义思想家荀况的著作，据《史记·孟子荀卿列传》为荀况晚年总结百家争鸣与自身学术思想而编；原文称《天论》《非相》反映其唯物主义自然观，提出“天行有常”“天人相分”“制天命而用之”。荀子所著，论说广及哲学、伦理、政治、经济、军事、教育、语言、文学；《玉制》《富国》《天论》《宥坐》强调等级不同者的衣着、居住规制。
+F: {"author": "荀况", "publisher": null, "title": "荀子", "year": "战国末年"}
+===== xdup-0321 萝轩变古笺谱
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-48 L1846-L1846 slug=luoxuan-biangu-jianpu state=needs_evidence
+S: 明代笺谱，原文记吴发祥用“恒版拱花”印制，是明代印刷设计的重要例证。
+F: {"author": "吴发祥", "publisher": "未详", "title": "《萝轩变古笺谱》", "year": "1626"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-56 L4619-L4656 slug=luoxuan-biangu-jianpu state=needs_evidence
+S: 1626年刊刻，是现存最早的饾版、拱花印本。
+F: {"author": null, "publisher": null, "title": "《萝轩变古笺谱》", "year": "1626年"}
+===== xdup-0322 蚕桑萃编
+-- 2004-gaofeng-zhongguo-shejishi:cand-07-03 L4852-L4894 slug=cansang-cuibian state=needs_evidence
+S: 清末卫杰所撰，本书称为我国古代篇幅最大的一部蚕书。书中记载的清代丝织品纹样按贡货、时新、官服、吏服、商服、农服、僧道服式分类列举，几乎全部体现‘图必有意，意必吉祥’的装饰原则。
+F: {"author": "卫杰", "period": "清末"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-19 L4611-L4625 slug=cangsang-cuibian state=needs_evidence
+S: 《蚕桑萃编》是原文摘录清代服用织花纹样的依据，所记分贡货、时新、官服、吏服、商服、农服、僧道七类；作者称其中许多纹样不知具体形象、也有错别字。
+F: {"author": null, "publisher": null, "title": "蚕桑萃编", "year": null}
+===== xdup-0323 装潢志
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-15 L3776-L3783 slug=zhuanghuang-zhi state=needs_evidence
+S: 《装潢志》为明末周嘉胄撰写，完整记述古代书画装裱理论，全书4000余字，分序言和42小节，介绍“洗”“揭”“补”“衬边”“小托”“全”“式”“镶攒”“覆”“上壁”“下壁”“安轴”等步骤要领与装潢用料知识。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-52 L4679-L4686 slug=zhuanghuangzhi state=needs_evidence
+S: 明末周嘉胄撰，4000余字，分序言和42小节，完整记述古代书画装裱理论，包括洗、揭、补、衬边、小托、全、式、镶攒、覆、上壁、下壁、安轴、上杆、上贴、贴签、染古绢托纸等步骤与用料。
+F: {"author": "周嘉胄", "publisher": null, "title": "《装潢志》", "year": "明末"}
+===== xdup-0324 装饰杂志
+-- 2009-xiayanjing-zhongguo-shejishi:cand-07-05 L4608-L4941 slug=zhuangshi-zazhi state=needs_evidence
+S: 1958年9月，《装饰》杂志在北京创刊。1980年6月复刊。1988年第2期发表广州美术学院设计研究室专稿《中国工业设计怎么办》；1992年第4期以“纪念张光宇特刊”为题纪念张光宇。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-35 L5657-L6042 slug=zhuangshi-magazine state=needs_evidence
+S: 1958年9月在北京创刊，1980年6月复刊；1988年第2期发表广州美术学院设计研究室专稿《中国工业设计怎么办》，1989年第4期以专辑讨论室内艺术设计，1992年第4期推出“纪念张光宇特刊”，1996年发表纪念陈之佛诞辰100周年的文章。
+F: {"author": "未详（原文未记创办单位）", "publisher": "未详", "title": "装饰", "year": "1958年9月创刊；1980年6月复刊"}
+===== xdup-0325 论语
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-28 L2424-L2447 slug=lun-yu state=needs_evidence
+S: 《论语》记载孔子论器与论服饰颜色的言论，如“工欲善其事，必先利其器”（《论语·卫灵公》）、“君子不器”（《论语·为政》）、“质胜文则野，文胜质则史”“文质彬彬”（《论语·雍也》）。
+F: {"author": "孔子弟子及再传弟子", "period": "春秋战国", "title": "论语"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-45 L6135-L6138 slug=lunyu state=needs_evidence
+S: 孔子弟子及再传弟子编撰的语录体经典，记孔子及其弟子言行；“文质观”具审美意蕴。
+F: {"author": "孔子弟子及再传弟子", "publisher": null, "title": "论语", "year": "春秋末"}
+===== xdup-0326 道德经
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-30 L2424-L8560 slug=dao-de-jing state=needs_evidence
+S: 《道德经》为老子的著作，主张“无为”的行为，符合“道”的规律。书中“埏埴以为器”“当其无，有器之用”“朴散则为器”“大器晚成”“民多利器”等器具议论，被作者视为艺术设计的精神资源。
+F: {"author": "老子", "period": "春秋", "title": "道德经"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-44 L6129-L6134 slug=daodejing state=needs_evidence
+S: 老子所著，分《道经》37章、《德经》，是我国历史上首部完整哲学著作；其民本与契约思想与设计民本意识相联系。
+F: {"author": "老子", "publisher": null, "title": "道德经", "year": "春秋"}
+===== xdup-0327 遵生八笺
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-40 L1599-L1599 slug=zunsheng-bajian state=needs_evidence
+S: 原文引其“上古用玉，珍重似不敢亵”一语，说明周代玉器因与伦理道德联系而受社会特别重视。
+F: {"author": "原文未署", "publisher": "原文未载", "title": "遵生八笺", "year": "原文未载"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-71 L6239-L6242 slug=zunsheng-bajian state=needs_evidence
+S: 高濂撰，1591年刊，20卷8笺，为养生专著，含大量岁时风俗与实用艺术考据资料。
+F: {"author": "高濂", "publisher": null, "title": "遵生八笺", "year": "1591"}
+===== xdup-0328 闲情偶寄
+-- 2004-gaofeng-zhongguo-shejishi:cand-06-06 L4487-L4517 slug=xian-qing-ou-ji state=needs_evidence
+S: 李渔著，成书于1671年（清康熙十年），全书分声容、居室、器玩、饮馔、种植、颐养六卷。居室部论房舍构筑、窗栏图式、墙壁、联匾、山石等园林营造与室内装饰，器玩部论几椅、床帐、橱柜、箱笼、茶酒具、灯烛、笺简的设计制作。书中提出注重功能、实用第一，崇尚俭朴、创异标新，以及“宜简不宜繁，宜自然不宜雕斫”等设计思想，并记录李渔自创的暖椅与凉机。
+F: {"author": "李渔"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-096 L7417-L7652 slug=xianqing-ouji state=needs_evidence
+S: 《闲情偶寄》为李渔所著，其中“居室”“器玩”部对生活中的居住环境、器物使用等方面提出独特看法。李渔以“机”“趣”为出发点，细致观察器物的文化特性；原文另处又作《闲情偶记》，书名不一致。
+F: {"author": "李渔", "title": "闲情偶寄"}
+===== xdup-0329 韩非子
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-25 L2309-L2423 slug=han-fei-zi state=needs_evidence
+S: 《韩非子》为战国末年思想家韩非的著作，韩非是荀子的学生，后以法家思想著称，反对文饰、崇尚功用，以器具说明思想，如“买椟还珠”（《韩非子·外储说左上》）的故事从侧面反映物品的用途和装饰的意义。文中另引《韩非子》“竽先，则钟瑟皆随；竽唱，则诸乐皆和”。
+F: {"author": "韩非", "period": "战国末年", "title": "韩非子"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-65 L529-L6158 slug=hanfeizi state=needs_evidence
+S: 原文引《韩非·五蠹篇》“古者丈夫不耕，草木之实足食也；妇人不织，禽兽之皮是衣也”，用以说明纺织品出现以前的衣着状况。韩非总结前期法家思想的著作；原文称其提出“法”“术”“势”相结合的法治理论，学说成为秦代官学，对秦始皇统一天下、巩固政权起积极作用。韩非所著，原书55篇20卷；《显学》《有度》《用人》《五蠹》等篇涉及造物活动与工艺原理。
+F: {"author": "韩非", "publisher": "原文未注明", "title": "《韩非子》", "year": "战国末期"}
+===== xdup-0330 饮流斋说瓷
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-24 L2984-L2987 slug=yinliuzhai-shuoci state=needs_evidence
+S: 《饮流斋说瓷》为许之衡著，分上下两卷共10节，成书于上世纪20年代。上卷为概说、说窑、胎釉、彩色、花绘，下卷为款识、瓶罐、杯盘、杂具、疵伪。该书以分类、排比方法总结前人知识与个人见闻，保存大量古陶瓷学名和俗称。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-26 L3665-L6342 slug=yinliuzhai-shuoci state=needs_evidence
+S: 许之衡著，上下两卷共10节，成书于20世纪20年代；上卷概说、说窑、胎釉、彩色、花绘，下卷款识、瓶罐、杯盘、杂具、疵伪，是总结前人知识与见闻的陶瓷史专著，保存大量古陶瓷学名与俗称。许之衡撰，上下两卷，分概说、说窑、胎釉、彩色、花绘、款识、瓶罐、杯盘、杂具、疵伪十节；书前附《书成自题六十韵》。
+F: {"author": "许之衡", "publisher": "原文未载", "title": "饮流斋说瓷", "year": "20世纪20年代"}
+===== xdup-0331 鲁班经
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-087 L7610-L7613 slug=lubanjing state=needs_evidence
+S: 《鲁班经》是明代万历年间刊行的民间木工行业技术书籍，全称为《鲁班经匠家镜》。该书对房舍施工构筑、建筑工具和定位技术、常用建筑的类型尺寸以及生活工具、家具的形制都有详细说明。
+F: {"period": "明万历年间", "title": "鲁班经"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-47 L4665-L4668 slug=lubanjing state=needs_evidence
+S: 原名《工师雕新正式鲁班木经匠家镜》或《鲁班经匠家镜》，是我国古代营造房屋和日常生活用具的实用指南通书；成书于明代，有说系年荣汇编的托名之作，图1卷、文3卷。
+F: {"author": "明代，有说年荣汇编（托名）", "publisher": null, "title": "《鲁班经》", "year": "明代"}
+===== xdup-0332 齐民要术
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-58 L3408-L3422 slug=qiminyaoshu state=needs_evidence
+S: 贾思勰《齐民要术》载潢纸之法：“凡潢纸，灭白便是。不宜太深，深色年旧色暗也。”作者据此说明当时人们对造纸、染纸及使用已有深入认识。
+F: {"author": "贾思勰", "title": "《齐民要术》"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-46 L2181-L2184 slug=qi-min-yao-shu state=needs_evidence
+S: 北魏农学家贾思勰所著，是我国现存最完整的古代农书之一，约写于东魏武定二年（544）以后（一说533-544年）；全书10卷92篇，记黄河流域下游农业生产，涉及园艺、造林、蚕桑、畜牧、酿造、烹饪、储备、治荒等，引古籍200余种，其中许多内容记述古代手工艺。
+F: {"author": "贾思勰", "publisher": "未详", "title": "齐民要术", "year": "约544年以后（一说533-544）"}

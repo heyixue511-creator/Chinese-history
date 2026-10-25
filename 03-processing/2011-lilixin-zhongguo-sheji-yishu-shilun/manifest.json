@@ -1,0 +1,67 @@
+{
+  "processing_profile": "compact-v4",
+  "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+  "fingerprint_mode": "text_crlf_to_lf_v1",
+  "source_assets": [
+    {
+      "path": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "sha256": "sha256:cd1d88aa833e7fe4750cfc2cc51f4ecbb730a1483eb28621ecf4faa7b9623b20",
+      "role": "primary_text",
+      "language": "zh-Hans"
+    }
+  ],
+  "input_fingerprint": "sha256:76a0d14b9bcc29b56170cb15c9a16cc62b8dc21d504970dfd805bc6168370f99",
+  "processing_scope": {
+    "mode": "full_asset",
+    "assets": [
+      "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+    ]
+  },
+  "coverage": {
+    "source_blocks_total": 149,
+    "source_blocks_reviewed": 149,
+    "unread_blocks": 0,
+    "blocks_without_candidate_review": 0,
+    "scope_assets_total": 1,
+    "scope_assets_reviewed": 1,
+    "scope_lines_total": 2495,
+    "scope_lines_reviewed": 2495
+  },
+  "candidate_counts": {
+    "total": 534,
+    "by_type": {
+      "claim": 195,
+      "unit": 339
+    },
+    "by_state": {
+      "needs_evidence": 533,
+      "rejected": 1
+    },
+    "by_unit_type": {
+      "event": 11,
+      "institution": 19,
+      "person": 60,
+      "place": 38,
+      "procedure": 12,
+      "publication": 45,
+      "term": 80,
+      "work": 74
+    }
+  },
+  "status": "completed",
+  "output_hashes": {
+    "source-map.jsonl": "sha256:c407ae121abc5614e8714379238a82b4e79548397c7bd4e33c5b90c52e86233d",
+    "semantic-units.jsonl": "sha256:524e3919d330428a7d9a3ebd5739540d89644b96471018d83f674a35cabbd52f",
+    "candidate-ledger.jsonl": "sha256:570a9f97940e9b65c36b00d1e9184b3630454fd6b2d918a81d02e16de919d34b",
+    "summary.md": "sha256:caed6a29fa1f90b84f8e9d72fd1f6e9b71f30323d4ca029bfd4254b8a0aeb1be"
+  },
+  "semantic_acceptance": {
+    "reread_status": "accepted_with_findings",
+    "reviewer_kind": "agent",
+    "reviewer_id": "book5-six-chunk-reviews+two-delta-reviews+dedupe-review+supplemental-review+remediation-delta-review-2026-10-24",
+    "reviewed_at": "2026-10-24T22:59:25+08:00",
+    "source_version": "sha256:76a0d14b9bcc29b56170cb15c9a16cc62b8dc21d504970dfd805bc6168370f99",
+    "omission_count": 0,
+    "acceptance_boundary": "语义验收覆盖来源全文 L1-L2495（149 块）。6 个分块均完成独立复读（4 个 accepted_with_findings、2 个 needs_revision）；chunk-03、chunk-04 已定向修复并完成 delta 复评。去重与指南车跨类型裁决经独立复核，3 项发现已修补；补充复核 6 项发现（2 blocking、1 major、3 minor）已修补，并经定向 delta 复评确认 accepted、findings=[]。机械审计与反向引用检查均为零异常。本验收不含图版视觉核验、外部书目或实物核对，也不构成 OCR 异文的版本校勘；全部候选仍为 needs_evidence/pending（1 个去重 rejected），未写入 04-knowledge。"
+  }
+}

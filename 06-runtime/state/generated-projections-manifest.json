@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "manifest_kind": "generated_projection_provenance",
+  "ku_state": {
+    "units": 504,
+    "digest": "sha256:4d6a085af9e38166e81a9da50ebae49ea6fc9be37094f9d717a52e7020f717bd"
+  },
+  "projections": [
+    {
+      "name": "relation_index",
+      "status": "rebuildable",
+      "generator": "scripts/build_relation_index.py",
+      "generator_hash": "sha256:890e5713d59fa256e1a9aac1bdf5354756b38e2c096c4e61be63c7ccdc43a73c",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/units/**/*.md",
+          "04-knowledge/structure/**/*.md",
+          "04-knowledge/quality/claim-registry.yml",
+          ".agents/skills/01-intake/ingest/references/relation-types.yml"
+        ],
+        "files": 513,
+        "digest": "sha256:7af0b01a89081c607e3d8560a165fa44c4148bce1c3cae0f32807c129b29e8bd"
+      },
+      "outputs": {
+        "04-knowledge/quality/relation-index.yml": "sha256:dfcc637a75c19d6c7b4162523b631d920ac3b948e8b630cfaa827a4372bdf9c0"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "relation_candidates",
+      "status": "rebuildable",
+      "generator": "scripts/plan_relation_candidates.py",
+      "generator_hash": "sha256:f35ab7ef3887debad23733b112d67cd8afb88ce553eacb121b69843ec86365c2",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/units/**/*.md",
+          "04-knowledge/structure/**/*.md",
+          "04-knowledge/quality/claim-registry.yml",
+          "04-knowledge/quality/relation-index.yml"
+        ],
+        "files": 513,
+        "digest": "sha256:fe77008f6123fdd3d1950ab257c8ea91873d3bb4d0c20deb71736b78ba0054af"
+      },
+      "outputs": {
+        "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "translation",
+      "status": "rebuildable",
+      "generator": "scripts/build_translation_index.py",
+      "generator_hash": "sha256:bd71338eac82d3fae2bae7de02e062c31a780c3f7b55520834ec89479cf7d755",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/units/**/*.md",
+          "01-domain/naming-conventions.md"
+        ],
+        "files": 505,
+        "digest": "sha256:3a512f2217d0cacb2751a637da3d42614904cb52ea1326c2381a24f07f44b271"
+      },
+      "outputs": {
+        "04-knowledge/quality/translation-index.yml": "sha256:2e12fa4d193d5b477add5068933855d9ed9baaa397b97115389882e3d01ee0e1"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "knowledge_graph",
+      "status": "rebuildable",
+      "generator": "scripts/build_knowledge_graph_data.py",
+      "generator_hash": "sha256:3c93de383402897637df8be84d9f189087b0cf3f92665b562fa0d0372e0861df",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/units/**/*.md",
+          "04-knowledge/structure/**/*.md",
+          "04-knowledge/quality/relation-index.yml"
+        ],
+        "files": 512,
+        "digest": "sha256:ab630efd7de5be3b0941bd342758f836a40e328408da2bc2c6e56302d11f5fbe"
+      },
+      "outputs": {
+        "05-outputs/knowledge-graph-data.json": "sha256:8616254dec15dfab183bea3850d408c1ee12d15abb89da68126bb23c0e929fca",
+        "05-outputs/knowledge-graph-data.js": "sha256:eab1596422418609d27513fc3bf2b59a378e66143fb15e39b7644e5cf24c4b92"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "discovery_index",
+      "status": "rebuildable",
+      "generator": "scripts/build_discovery_index.py",
+      "generator_hash": "sha256:c2813786b32d1680730f6a656e723ac44de836556f0dcabf9bed2bd1185f27fc",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/quality/relation-candidates.yml",
+          "03-processing/**/candidate-ledger.jsonl",
+          "06-runtime/automation/**/candidate-ledger.jsonl"
+        ],
+        "files": 7,
+        "digest": "sha256:d30b2e77ab11d97b14ecc18d5b5663ae3dd4d2d9284364600ae8eb3b14066800"
+      },
+      "outputs": {
+        "06-runtime/state/candidate-index.jsonl": "sha256:d5229189c1f55a2c7f0a0c41ab11a8146aeaaf21898ae6a4d95bdf5b3a341cc8",
+        "06-runtime/state/discovery-manifest.json": "sha256:a90be699927c6df55e5639b6a552d9d1afc05b1ee6de19df59310226ae607005"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "output_gallery",
+      "status": "rebuildable",
+      "generator": "scripts/build_output_gallery.py",
+      "generator_hash": "sha256:37874150b44b8a2fe74cff68e58511fa965c1c5393c54e02d740e13381eb5ef1",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "05-outputs/**/*"
+        ],
+        "files": 19,
+        "digest": "sha256:8743294237af0a9c6162ff7613871572450e84b233396b4fec0a0d40bdc14a55"
+      },
+      "outputs": {
+        "05-outputs/index/output-gallery.md": "sha256:10655bbc374b8bfcd0089d68aa3efc023775991b9e470914a19b87b7ed8c016b"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "output_navigation",
+      "status": "rebuildable",
+      "generator": "scripts/build_output_gallery.py",
+      "generator_hash": "sha256:37874150b44b8a2fe74cff68e58511fa965c1c5393c54e02d740e13381eb5ef1",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "06-runtime/state/current-health.json"
+        ],
+        "files": 1,
+        "digest": "sha256:7e55c9671fe090f2f96ad15afcab521bff5b50126b4870f39eddceb26592fb6b"
+      },
+      "outputs": {
+        "05-outputs/index/index.md": "sha256:1824e00bfbaf65267715af5d855a0748a1c523b2a0ece4b5b73339f90e18b36e"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "runtime_index",
+      "status": "rebuildable",
+      "generator": "scripts/build_runtime_index.py",
+      "generator_hash": "sha256:972841609b228beb48f2d26134926a6d0e7aa39f995613462fb3d10165511e8c",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "06-runtime/automation/**/*"
+        ],
+        "files": 169,
+        "digest": "sha256:3be69092209a7a4024c738860ec7bfc1f746b32350a26e5e5e059141c9bf4ffc"
+      },
+      "outputs": {
+        "06-runtime/automation/index.md": "sha256:543b13a2fe82d45e07651b6636b102e8a1e6fadf57566d99fd5c06a78bf22fc9"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "skill_registry",
+      "status": "rebuildable",
+      "generator": "scripts/skill_registry.py",
+      "generator_hash": "sha256:fb4603f012333e1f2318cded3757d715c1d051f79c4d89e8d0f967ff21f6767c",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          ".agents/skills/**/SKILL.md",
+          ".agents/skills/**/references/*.md"
+        ],
+        "files": 43,
+        "digest": "sha256:a3658c81c768c7aa3fb71e3a8dd4b2021948a06c15d97fbdbb099ca68c82f8e4"
+      },
+      "outputs": {
+        "06-runtime/state/skill-registry.json": "sha256:a5b683d07512a6fd217711161b026a9b4b0722df7a3fb0ce680db68f30b90c40"
+      },
+      "missing_outputs": []
+    },
+    {
+      "name": "health_and_backlog",
+      "status": "rebuildable",
+      "generator": "scripts/write_current_health.py",
+      "generator_hash": "sha256:7e13dbc325e55e8b80a2157f801cd2f561ee2e19d409ed335216e45e3b0103ba",
+      "parameters": [],
+      "effective_inputs": {
+        "patterns": [
+          "04-knowledge/units/**/*.md",
+          "03-processing/**/*",
+          "04-knowledge/quality/**/*"
+        ],
+        "files": 542,
+        "digest": "sha256:1f93bc3d6e5b8f462c5e040c2480facb1615b4d86ebd068a45857d21110e6de8"
+      },
+      "outputs": {
+        "06-runtime/state/current-health.json": "sha256:4fc3811f07cd38e385738b7a4f9f545274c6f5efa1a5a3e6a3b5142842e128f0",
+        "06-runtime/governance/governance-backlog.md": "sha256:972db1f5930211cb87c7ef44ef6c3195a473dd1b73c5ad01532c96e5a4446cd2"
+      },
+      "missing_outputs": []
+    }
+  ]
+}

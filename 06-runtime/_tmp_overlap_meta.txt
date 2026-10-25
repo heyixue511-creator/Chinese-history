@@ -1,0 +1,318 @@
+===== 2004-gaofeng-zhongguo-shejishi:cand-07-24 | type=person | title=庞薰琹 | slug=pang-xunqin
+KU: 04-knowledge/units/persons\pang-xunqin.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L5459-L5486 | 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+S: 中国近代艺术设计教育的重要开拓者。1906年生于江苏常熟，1925年赴法，因巴黎高等装饰美术学院不收中国人而改学绘画；1930年回国后开办‘工商美术社’，举办中国近代第一次工商美术设计展览并参与发起决澜社；1936年在北平艺专图案系开设‘工商美术课’，后主持筹建中央工艺美术学院并任第一任副院长。
+F: {"art_group": "决澜社", "birth_death": "1906—1985", "institution": "筹建中央工艺美术学院并任第一任副院长", "native_place": "江苏常熟", "publication": "《工艺美术设计集》", "studio": "工商美术社", "study_abroad": "1925年赴法，巴黎叙利恩绘画研究所、格朗·歇米欧尔学院", "teaching": ["上海昌明艺专", "上海美专", "北平艺专图案系（1936年开工商美术课）", "四川省立艺专实用美术系主任"]}
+KUdesc: 庞薰琹是六册中除陈之佛外被记述最详的近现代设计人物，六册全部有字面命中。他同时出现在四个位置上：1930 年代上海工商美术的实践者、1940 年代工艺美术教育的课程建设者、1950 年代中央工艺美术学院的筹建者与副院长、以及 1957 年被斗争的政治受难者。**本条最需要注意的是字形问题**：六册对他的姓名共出现 8 种不同字形（栞、琴、栗、琍、某、渠、桀、杲），无一处写作规范字“琹”；本 KU 标题取规范名并在正文单列统计，同名异写不视为不同人物。
+===== 2004-gaofeng-zhongguo-shejishi:cand-sup-22 | type=term | title=食案 | slug=shi-an
+KU: 04-knowledge/units/terms\an-furniture.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2383-L2401 | 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+S: 汉代主要用于放置食品和餐具的家具，分无足（类似托盘）与有足两种。有足案面长方形，装柱状或蹄状案足，长约1米、宽约半米、高约10–20厘米，多为木制，也有铜、陶制；广州沙河顶东汉墓出土铜圆案面径40厘米、高8.6厘米，上置大小铜耳杯六件。
+F: {}
+KUdesc: 案是春秋战国主要家具，本义为木制盛食物的矮脚托盘，亦代桌。《考工记·玉人》“案十有二寸”；战国至两汉多木制髹漆饰彩纹，后演变为书案、平头案等长形承具，按材料有陶案、木案、漆案、铜案。
+===== 2004-gaofeng-zhongguo-shejishi:cand-sup-33 | type=term | title=匠籍 | slug=jiang-ji
+KU: 04-knowledge/units/terms\jianghu.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi']
+span: L4110-L4149 | 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+S: 明代官方手工业工匠的户籍类别。被划入匠籍的工匠须按规定时间轮流到京师服役，称“轮班工匠”；另有住坐京城及其附近的工匠。匠籍制度使明代官方掌握了一支分布广泛、人数众多的手工业设计和技术队伍。
+F: {}
+KUdesc: 匠户是元代对军匠、系官人匠等工匠的统称，身份世袭，子孙不能脱籍、婚嫁不得自由。元政府将被俘工匠分配给政府和贵族使用，制造兵器者编为“军匠”，有其他技艺者为“系官人匠”或“官匠”；《元典章》载系官诸色正匠免差，实际是一种工奴。
+===== 2004-gaofeng-zhongguo-shejishi:cand-sup-66 | type=work | title=银镜架 | slug=yin-jingjia
+KU: 04-knowledge/units/works\yuan-yinjingjia.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3921-L3921 | 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+S: 江苏苏州吴门桥元末张士诚父母合葬墓出土的银镜架，高32.8厘米、宽17.8厘米，造型如豪华小交椅，可立放可折合，雕镂双凤戏牡丹纹及玉兔、蟾蜍、灵芝纹。
+F: {"findspot": "江苏苏州吴门桥", "height_cm": 32.8, "period": "元末", "width_cm": 17.8}
+KUdesc: 元代银镜架 1964 年出土于苏州盘门外吴门桥东南元末吴王张士诚之父母合葬墓，现藏苏州博物馆。镜架作折叠式，由前后两个支架构成，通高 32.8 厘米、宽 17.8 厘米，仿木制框架结构，在整体支架上镶三片经过雕镂的银皮。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-03-23 | type=work | title=提花机 | slug=ti-hua-ji
+KU: 04-knowledge/units/terms\tihuaji.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1418-L1432 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 秦汉时期从布机发展而来的织机，用于生产提花织物，效果显著。东汉王逸《机妇赋》描绘其生产情形；英国历史学家李约瑟称西方的提花机是从中国传去的，采用时代比中国晚4个世纪。
+F: {}
+KUdesc: 提花机是按花纹要求提综开口、织造复杂织物的织机。汉代已普遍使用，出现多综多蹑织机，能织复杂花纹；蹑为脚踏杆，汉时已达 120 蹑。东汉还发明花楼式束综提花机，以线综调配提花经线，提高图案质量，使纹饰有大面积花样变化。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-03-31 | type=work | title=龙窑 | slug=long-yao
+KU: 04-knowledge/units/terms\longyao.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi']
+span: L1472-L1490 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 汉代浙江地区可烧1300℃左右的瓷窑。原文将其与选用高岭土之类制瓷原料并举，说明当时能在较低火候中烧出强度较高的瓷器；浙江上虞、余姚、宁波、永嘉等地发现大量东汉窑址，多属陶和瓷共烧，后来又出现专门瓷窑。
+F: {}
+KUdesc: 龙窑是依山而上的特殊窑形，从战国秦汉出现以来一直为人们利用，因窑身依山而上、形似火龙而得名。青瓷的出现与窑形改变有很大关系：魏晋南北朝的龙窑已能充分采用火膛与窑室连接的方式，使升焰速度加快、温度提高，获得高温烧瓷的条件，并能一次容纳大量瓷器、增加生产数量；魏晋时期开始改进龙窑形制，以“分段烧成”的方法在窑顶或窑身两侧设置投柴孔，保证烧制温度的平均，防止发生生烧现象。田自秉记汉代早期青瓷使用的窑型烧成温度达 1300℃ 左右。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-03-55 | type=term | title=斗栱 | slug=dou-gong
+KU: 04-knowledge/units/terms\dougong.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1594-L1606 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 秦汉时已广泛使用的木构建筑构件，原文将其列为木结构为主建筑结构体系初步形成的标志之一。同期硬山、悬山、歇山及庑殿顶等屋顶形式均已出现，板门、交棂窗十分广泛；东汉多层建筑发展，梁柱上再加梁柱的叠架技术有重大发展。
+F: {}
+KUdesc: 斗拱是我国古代木构建筑的特有构件，位于柱子承接屋顶的部分，由若干方木与横木垒叠而成，用以支撑伸出的屋檐并将重量转移到柱子上。商周时期已见雏形，可在青铜器上见到样式；汉代有直拱、人字拱、单层拱、多层拱，并出现一斗二升、一斗三升，东汉还有一斗四升。唐宋时期主要为结构构件，到明清演变为以装饰构件为主。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-03-60 | type=term | title=水碓 | slug=shui-dui
+KU: 04-knowledge/units/works\shui-dui.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1611-L1631 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 西汉末年出现的利用水作为动力的粮食加工机械，极大提高了舂米的效率。原文将其列为秦汉精良工具设计的代表之一。
+F: {}
+KUdesc: 水碓是以水为动力的粮食加工机械。2016 记其为西汉末年出现，利用水力驱动碓头舂米，极大提高了舂米效率，图 4-35 为西汉水碓模型。赵农记东汉时期出现水碓和畜力碓，利用自然和牲畜的力量加工粮食作物：水碓将水流作为动力，带动齿轮旋转，然后用杵棒敲击谷物，减轻了人们的劳作；东汉《新语》有“及役水而舂，其利乃百倍”的说法。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-04-05 | type=work | title=云冈石窟 | slug=yungang-grottoes
+KU: 04-knowledge/units/places\yungang-shiku.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1927-L1930 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 大同云岗石窟开凿于北朝，是当时石刻艺术的代表之一；早期造像模仿印度犍陀罗风格，不久中国工匠便创造出中国形式的造像艺术。
+F: {}
+KUdesc: 云冈石窟位于山西大同西北武州山，因山势连绵如云而得“云冈”之名。北魏道武帝拓跋珪于398年定都平城（大同）后开凿，现存大中小石窟编号53个、大小佛像51000躯以上；因凿于流沙岩层，风化腐蚀严重。李立新将其与敦煌、龙门、麦积山、响堂山、栖霞山并列为石窟寺，窟前建木构殿阁。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-04-06 | type=work | title=龙门石窟 | slug=longmen-grottoes
+KU: 04-knowledge/units/places\longmen-grottoes.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1927-L1930 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 洛阳龙门石窟开凿于北朝；宾阳洞窟顶藻井中部为重瓣莲花，围绕流苏构成莲花宝盖，莲花、卷草纹样与建筑浑然一体。
+F: {}
+KUdesc: 龙门石窟位于河南洛阳伊水两岸，东为香山，西为龙门山，北魏迁都洛阳后开凿，历东魏、北齐、隋、唐续凿，是六册共同举出的中国石窟寺代表之一。它在设计史叙述中的功能随册而异：高丰把它与克孜尔、敦煌、云冈并列，作为佛教艺术进入造物纹样的时代标记；夏燕靖两版关注它的建筑与石刻纹饰（藻井莲花、卷草边饰）；赵农给出最完整的窟名、尺寸、功数与造像体系；田自秉把它放在石雕工艺与卷草纹的两条线索里；李立新则从“窟前木构殿阁、前室主室、虹桥栈道”的建筑化角度读它。**本 KU 记录的核心分歧在窟龛统计**：赵农同册两处给出不同的数量与朝代构成。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-04-73 | type=place | title=柴窑 | slug=chai-kiln
+KU: 04-knowledge/units/terms\chai-yao.md | docs: ['2010-tianzibing-zhongguo-gongyi-meishushi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2379-L2382 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 五代历史文献提到的窑场，以“雨过天青”及“青如天，明如镜，薄如纸，声如磬”著称，并说窑址在郑州；明代还记述“柴窑片瓦值千金”。作者指出其现在仍是没有确切考据的疑问，也许是周世宗向钱氏提出的贡瓷要求，属于越窑秘色瓷一类产品。
+F: {}
+KUdesc: 柴窑是传说后周创建的瓷窑，窑址在郑州，柴世宗批其款式“雨过天青云破处，者般颜色作将来”；记载最早见于明代陶瓷著作，实物未见，窑址从未发现，是否存在至今悬而未决。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-04-88 | type=place | title=官窑 | slug=guan-kiln
+KU: 04-knowledge/units/terms\guan-yao.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2503-L2547 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 宋徽宗政和年间在京师汴梁建造的窑场，窑址至今没有发现。主要烧制青瓷，器形有瓶、尊、洗、盘、碗，也有仿周、汉青铜器的鼎、炉、觚、彝等式样，造型带雍容典雅的宫廷风格；釉色以月色、粉青、大绿三种最为流行。官瓷胎体较厚，天青色釉略带粉红，釉面开大纹片，是胎、釉受热后膨胀系数不同所致，为北宋官窑瓷器的典型特征；传世很少。
+F: {}
+KUdesc: 官窑是宋代官方开办、利用垄断优势采用优质瓷土、釉色和良好烧制技术、供奉皇室生活需要的窑场。2016 记宋徽宗政和年间在汴梁建造的窑场，窑址至今未发现；主要烧青瓷，器形有瓶、尊、洗、盘、碗及仿周汉青铜器，釉色以月色、粉青、大绿流行。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-06-81 | type=procedure | title=缂丝 | slug=kesi
+KU: 04-knowledge/units/terms\kesi.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L4265-L4265 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 缂丝是以“通经断纬”手法编制丝织品的传统工艺；南宋时在苏州、松江一带流传，一直作为皇家贡品，同时是苏州一带乡村农闲副业，技艺父子世代相传。新中国建立后发展镶色技巧，创作屏风、中堂、人物、山水等新作。
+F: {"origin": "南宋苏州、松江", "status": "皇家贡品/农闲副业", "technique": "通经断纬"}
+KUdesc: 缂丝是以生丝作经、各色熟丝作纬，采用“通经断纬”织法织造的丝织品。因纬丝在图案边界处断开、形成细密裂痕，迎光看去如雕镂之像，故又称刻丝、克丝。五册来源都以宋代为缂丝的成熟与鼎盛期，并记其多用于摹织名人书画。
+===== 2009-xiayanjing-zhongguo-shejishi:cand-07-35 | type=person | title=庞薰琍 | slug=pangxunli
+KU: 04-knowledge/units/persons\pang-xunqin.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L4594-L4933 | 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+S: 1957年7～9月，中央工艺美术学院展开“对庞薰琍为首的反党集团的斗争”。1983年11月，为庆祝庞薰琍教授执教52周年，全国美协、中国美术馆、中央工艺美术学院联合举办“庞薰琍画展”。1986年3月，中央工艺美术学院举行庞薰琍先生逝世一周年学术座谈会。1991年6月，庞薰某美术馆在常熟落成开馆。
+F: {"museum": "庞薰某美术馆", "museum_place": "常熟", "name_variants": ["庞薰琍", "庞薰某"], "teaching_years_celebrated": 52}
+KUdesc: 庞薰琹是六册中除陈之佛外被记述最详的近现代设计人物，六册全部有字面命中。他同时出现在四个位置上：1930 年代上海工商美术的实践者、1940 年代工艺美术教育的课程建设者、1950 年代中央工艺美术学院的筹建者与副院长、以及 1957 年被斗争的政治受难者。**本条最需要注意的是字形问题**：六册对他的姓名共出现 8 种不同字形（栞、琴、栗、琍、某、渠、桀、杲），无一处写作规范字“琹”；本 KU 标题取规范名并在正文单列统计，同名异写不视为不同人物。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-10 | type=term | title=干栏式 | slug=ganlan-style
+KU: 04-knowledge/units/terms\ganlan-shi-jianzhu.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L830-L6960 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 干栏式是南方以浙江余姚河姆渡遗址出土建筑为代表的木构样式，由巢居发展而来：先在大树分叉处用藤索缠木搭棚，后在相邻大树间架棚，最终形成高架楼阁。河姆渡干栏式木构建筑长度可达25米、深度达7米，基座离地面约1米，有的房屋前沿有走廊和护栏。木桩与龙骨通过大量垂直相交的榫卯结合，石斧、石凿、骨凿等工具证明其技术日趋丰富。
+F: {"definition": "以木桩架高、适应南方潮湿环境的木构建筑样式", "term": "干栏式"}
+KUdesc: 干栏式建筑是中国南方新石器时代的一种木构建筑类型：以桩木为基础，构成高于地面的基座，用桩柱绑扎方式立柱、架梁、盖顶，形成下层架空、上层居住的半楼式房屋。四册都把它说成“巢居的继承和发展”，并以浙江余姚河姆渡遗址为典型。差异在范围与强度：高丰说“在木(竹)柱底架上建筑的高出地面(或水上)的房子”，并把河姆渡定为“目前发现年代最早的、最具典型性的干栏式建筑”；夏燕靖两版的知识链接说“河姆渡遗址发现的干栏式建筑遗迹是迄今为止世界上最早的木构建筑”，把限定从干栏式扩大到全部木构建筑；赵农以河姆渡遗址样式为南方干栏的代表，并把它接到有巢氏“构木为巢”的谱系上。本 KU 并列这些说法，不把“世界上最早的木构建筑”当作已证事实。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-12 | type=term | title=礼器 | slug=ritual-vessel
+KU: 04-knowledge/units/terms\qingtong-liqi.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1546-L1577 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 夏商西周随着国家观念形成，礼器成为国家重大典礼祭祀的常规器具。礼的兴起被追溯到“致其敬于鬼神”，由万物有灵观念形成祭祀；“国家大事，在祀与戎”，丧葬、朝聘、征伐、宴乐都通过祭祀完成意志张扬，礼器作为特殊器具应运而生。礼器造型多与饮食器具有关，饮食祭祀使食器与礼器交织、相互促进。
+F: {"definition": "夏商西周国家重大典礼祭祀所用的常规器具，由祭祀活动产生，造型多与饮食器具有关。", "term": "礼器"}
+KUdesc: 青铜礼器是商周时期用于祭祀和典礼的青铜日用器。其造型设计除实用外，多考虑放置祭坛上的陈设效果，因而日用器物造型有了不同因素的观念与审美追求，尤其成为奴隶主阶级表达观念、实行统治的重要工具。西周以成套礼制规定使用数量和规格，使贵贱有等、上下有别。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-134 | type=event | title=胡服骑射 | slug=hufu-qishe-reform
+KU: 04-knowledge/units/terms\hufu.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2164-L2464 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 胡服骑射是战国赵武灵王推行的服饰与军事改革。赵国地处北方、长年与草原游牧民族作战，服饰不便影响战斗力；赵武灵王力排众议引进胡服骑射，提高战斗能力。《史记·赵世家》载其言“吾不疑胡服也”“夫服者，所以便用也；礼者，所以便事也”，他最终说服贵族王室，奠定赵国强盛基础。
+F: {"name": "胡服骑射", "period": "战国赵武灵王时", "place": "赵国"}
+KUdesc: 胡服本是北方草原游牧民族部落的服装，特征是短衣、长裤、靴子；古代中原民族用以总称西域和北方各族胡人所穿服饰，即塞外民族西戎和东胡的服饰。衣身紧窄、活动便利，便于生活与骑射；胡服进入中原始于赵武灵王胡服骑射。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-08 | type=work | title=彩漆动物座屏 | slug=painted-lacquer-animal-screen
+KU: 04-knowledge/units/works\caiqi-mudiao-dongwu-zuoping.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2309-L2342 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 湖北楚墓出土的彩漆动物座屏，以黑漆为底，用朱红、金银、灰绿等彩绘纹饰，是春秋战国漆家具与漆饰技术普遍运用的例证。
+F: {"category": "漆家具", "location": "湖北楚墓", "material": "漆", "period": "春秋战国", "title": "彩漆动物座屏"}
+KUdesc: 彩漆木雕动物座屏是江陵望山出土的战国漆器，透雕和浮雕有蛇、鹿、凤、雀、蛙等 50 余个形态逼真的动物形象，周身以黑漆为底，彩绘朱红、金银、灰绿等漆色。它被用作战国漆器种类繁多、纹饰精细、色彩艳丽的代表，也是楚国髹漆业高超水平的例证。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-101 | type=work | title=耧车 | slug=lou-che
+KU: 04-knowledge/units/works\san-jiao-lou.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2786-L2812 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 耧车是赵过的设计发明，也称耧犁，是将一个底部有孔的木斗与铁耧脚连通，当铁耧脚翻开土地时，种子便流入土中；耧车有两个车辕，后部有两个扶把，便于牛拉人扶。它使开沟、下种、覆土几道工序一次完成，播种功效可以提高十几倍，并有日种一顷的播种速度。
+F: {"category": "农具", "designer": "赵过", "material": "木、铁", "period": "西汉汉武帝时", "title": "耧车"}
+KUdesc: 三脚耧是汉武帝时搜粟都尉赵过在一脚耧、二脚耧基础上设计发明的播种工具，大大提高播种效率，是现代播种机的雏形。现代全功能播种机把开沟、下种、覆盖、压实四道工序接连完成，而我国两千年前的三脚耧已能把前三道工序合并于一机完成。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-15 | type=publication | title=易经 | slug=yi-jing
+KU: 04-knowledge/units/publications\zhouyi.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2353-L2396 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 《易经》也称《周易》，作者称其为中国传统文化的总纲，也是设计文化和思想的本原。文中引“文王拘而演《周易》”与《史记·孔子世家》“韦编三绝”，并引《系辞传》“以制器者尚其象”“形乃谓之器，制而用之谓之法”“备物致用，立出器以为天下利”“形而上者谓之道；形而下者谓之器”。
+F: {"author": "旧题文王、孔子等", "period": "先秦", "title": "易经"}
+KUdesc: 《周易》是由《易经》与《易传》组成的典籍。《易经》含卦爻象符号系统与卦辞，高丰称多数专家认为约西周前期由巫史集体创造；《易传》十篇又称“十翼”，约成书于战国晚期。高丰把卦爻象视为平面构成设计，并从中提炼制器尚象、道器统一、文质统一等设计思想。2016 记其又名《易经》，约成书于西周初年，以六十四卦和阴阳之道说明万物变化，“道”与“器”的关系成为传统造物思想与设计方法的主题。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-18 | type=publication | title=墨子 | slug=mo-zi
+KU: 04-knowledge/units/persons\mozi.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2282-L2396 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 《墨子》是一部关于设计技术和职业道德的典籍，作者视之为平民化的个人实践，包含职业与道德、兼爱与非攻、技术与器具等内涵。墨家学派组织严格，主张兼爱、非攻，现存53篇；《公输》记墨子赴楚制止公输般造云梯攻宋，《墨子佚文》主张“食必常饱，然后求美……先质而后文”，书中并有光学、力学、数学、声学、机械、土木等研究。
+F: {"author": "墨翟及其弟子", "period": "春秋战国", "title": "墨子"}
+KUdesc: 墨子名翟，春秋战国之际的工匠、学者与墨家创始人。六册来源都把他作为“先质而后文”“先实用后审美”设计观的代表，同时强调他本人精于机械制作、直接参与设计与手工劳动。夏燕靖 2009 另记“节用、节葬、非乐”三主张与“器完而不饰”“质真而素朴”的评判标准；赵农另记其推崇夏禹、墨家组织原则与《墨子》现存篇数。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-55 | type=work | title=地动仪 | slug=seismograph-zhang-heng
+KU: 04-knowledge/units/works\houfeng-dizhenyi.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2479-L2566 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 东汉张衡（公元78—公元139年）的地动仪是对地震知识的充分把握。原文未记其形制、尺寸与使用方法。
+F: {"category": "仪器", "designer": "张衡", "period": "东汉", "title": "地动仪"}
+KUdesc: 候风地动仪是东汉张衡等制成的世界上第一架候风地动仪。原文引《后汉书·张衡传》称其“以精铜制成，圆径八尺，合盖隆起，形似酒尊”；内部有“都柱”“八道”等机械装置，尊外八条含铜珠的龙及龙头下面设置的相应蟾蜍，使整个地动仪如精巧工艺品。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-81 | type=work | title=独轮车 | slug=du-lun-che
+KU: 04-knowledge/units/terms\dulunche.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2647-L2689 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 西汉末年四川等地出现一种独轮车，其形象在四川汉墓画像石中有所描绘。独轮车一人推动，既可载物又可乘人，为山地小道的便利车具；重心在前面的车轮，车辕直接连结车轴两旁，绳带绕于肩颈便于匀力，上坡可倒拉，必要时两人一拉一推。
+F: {"category": "车辆", "location": "四川等地", "period": "西汉末年", "title": "独轮车"}
+KUdesc: 独轮车是以独轮为标志的手推车，车轮多为木制，利用杠杆原理把负载抗力点靠近车轮，载货载人平稳轻巧，适合崎岖路面；大约西汉晚期出现，西汉时类似鹿车或辘轳车，木牛流马据考即独轮车。赵农记其重心低、操作灵活，便于山地运输，诸葛亮在蜀国山地军事运输中推广使用，后成为蜀地及北方许多地区的家常运输工具。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-06-31 | type=place | title=莫高窟 | slug=mo-gao-ku
+KU: 04-knowledge/units/places\dunhuang-mogao-ku.md | docs: ['2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3950-L4723 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 敦煌莫高窟是中国第一大石窟，位于敦煌县城南约25公里的鸣沙山和三危山之间的河谷地；敦煌地处甘肃河西走廊西端，为汉代丝绸之路开通以来中原至西域的交通要道。前秦建元二年（366年）乐傅和尚到敦煌开始建造佛龛，唐人《沙洲土境》则记载永和九年（353年）已建最早佛龛。鸣沙山属砂砾岩质，石质难以雕刻，主要以泥塑和壁画表现佛教题材；现存492个洞窟，十六国和北朝早期洞窟约39个，北朝洞窟采用中心塔柱式结构，窟壁绘千佛，故有“千佛洞”之称。
+F: {"location": "甘肃敦煌县城南约25公里鸣沙山与三危山之间的河谷地", "name": "莫高窟", "period": "前秦建元二年（366年）始建"}
+KUdesc: 敦煌莫高窟位于甘肃敦煌。李立新记其壁画塑像经编号的有492个，与云冈、龙门、麦积山、响堂山、栖霞山同为魏晋南北朝重要石窟寺院；窟前建木构殿阁，一般分前室窟檐与主室佛窟，图2-13为敦煌莫高窟窟檐建筑。2016 版将其与云冈、龙门并列为北朝石刻艺术精品。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-79 | type=term | title=里坊制度 | slug=lifang-zhidu
+KU: 04-knowledge/units/terms\lifang-zhi.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L5388-L5425 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 唐代流传下来的城市管理制度，北宋立国不久便被消除。城市管理同时废除夜禁，出现夜市，开封完全成为商业化城市。
+F: {"definition": "唐代流传的城市管理制度，北宋立国不久被消除，同时废除夜禁。", "term": "里坊制度"}
+KUdesc: 里坊制是以方格形里坊组织城市居住区的规划制度。北魏洛阳“方三百步为一里，里开四门，门置里正二人，门士八人，合有二百二十里”（《洛阳伽蓝记·城北》），整齐化一、管理方便；里坊居民有 500 户至 1000 户，贵族王室有自己的庄园，不受里坊限制。市东、市南、市西、市北各分布工商业者聚居的里，城南另有四夷馆和四夷里。隋大兴城以东西、南北大街纵横交错将全城分为 108 个方块，每块称“里”（唐称“坊”），沿中轴线左右对称、棋盘式分布，周围有围墙。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-94 | type=work | title=开封铁塔 | slug=kaifeng-tieta
+KU: 04-knowledge/units/works\kaifeng-xiangguosi-pagoda.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L5426-L5463 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 宋代佛塔，塔身加筑褐色琉璃瓦，色泽如锈铁、坚硬如铁；塔身有螺旋式蹬道，使塔壁和中心塔柱紧密联结。图 7-33 标注为“宋 铁塔”，图版未视觉核验。
+F: {"category": "佛塔", "location": "河南开封", "period": "宋代", "title": "开封铁塔"}
+KUdesc: 开封相国寺塔是宋代仿木楼阁式砖塔，造型高耸挺秀；塔身采用 28 种琉璃砖砌造，雕刻有飞天、麒麟、菩萨、力士、狮子等 50 多种纹样，雕工精细，整座塔宛如一件大型的琉璃工艺品。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-40 | type=work | title=妙应寺白塔 | slug=miaoying-temple-white-stupa
+KU: 04-knowledge/units/works\miaoying-si-baita.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L6154-L6203 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 北京妙应寺白塔建于至元八年（1271年），由尼泊尔工匠阿尼哥设计。塔高53米，呈现宝瓶塔身，是元大都建筑的喇嘛塔样式。
+F: {"category": "喇嘛塔", "designer": "阿尼哥", "location": "北京", "period": "至元八年（1271年）", "title": "妙应寺白塔"}
+KUdesc: 北京妙应寺白塔建于至元八年（1271），由尼泊尔名匠阿尼哥设计，为覆钵式塔（喇嘛塔），年代最早、规模最大。塔高 50.9 米，塔基三层、平面呈亚字形、须弥座式，砖雕莲座承塔身；塔肚顶部华盖由 40 块铜板瓦构成，四周悬 36 只铜质透雕流苏和风铃，刹顶置铜制小喇嘛塔高 5 米、重约 40 吨。
+===== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-063 | type=institution | title=福州船政局 | slug=fuzhou-shipyard
+KU: 04-knowledge/units/institutions\fujian-chuanzhengju.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L7513-L8560 | 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+S: 福州船政局是晚清兴建的造船工场之一。原文称江南制造总局成立后，福州船政局、天津机器局、广东军装机器局、旅顺船坞等造船工场陆续兴建，中国造船业进入新阶段。
+F: {"location": "福州", "name": "福州船政局", "period": "晚清"}
+KUdesc: 福建船政局是 1866 年由左宗棠奏请创办的近代官办造船与船政机构，设在福建马尾。三册来源对它的侧重完全不同：夏燕靖两版把它作为左宗棠洋务活动的核心事例，给出选址、人事接续、造船年限与艺局人数；李立新把它作为“近代工业化造物”的第一个标志，只取造船时间一点。夏燕靖一册内部有两处年代需要分开读：1866 年上奏创办，1872 年奏报创办意图。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-22 | type=procedure | title=蜡模法 | slug=wax-model-method
+KU: 04-knowledge/units/procedures\lost-wax-casting.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L915-L915 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 用蜡作原料作成铜器模型的铸造方法；原文称其创造和使用约在商代以后，公元前五六世纪的春秋时代已有蜡模法青铜器实物。
+F: {"domain": "青铜铸造", "name": "蜡模法", "notes": "原文称具体作品在第四章春秋战国时期介绍。", "period": "约商代以后；公元前五六世纪春秋已有实物"}
+KUdesc: 失蜡法是以蜡制模、外敷泥范、加热排蜡后浇注铜液以获得复杂镂空铸件的一种精密铸造工艺，又称蜡模法、拔蜡法、出蜡法。五册来源都以曾侯乙墓尊盘为标志性实物，说明其在中国青铜铸造史上的技术地位。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-30 | type=work | title=司母戊鼎 | slug=simuwu-ding
+KU: 04-knowledge/units/works\simuwu-ding.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L84-L953 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 商代晚期制品，1939年安阳武官村出土，现陈列于中国历史博物馆；重875公斤、高133厘米、横长110厘米、宽78厘米，鼎身两侧饰兽面纹和夔纹，两端口沿立耳铸两虎相向张口食一人头；合金含铜84.77%、锡11.64%、铅2.79%，用分铸法铸造。彩版7图注所记即此鼎。
+F: {"category": "青铜方鼎", "culture": "商", "notes": "原文称是我国目前所知最大的一件青铜器，也是世界少见的珍品；引彩版7，图版未视觉核验。合并候选差异：title: canonical='司母戊鼎' other='司母戊大方鼎' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-11)；category: canonical='青铜方鼎' other='青铜鼎' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-11)；period: canonical='商代晚期' other='商' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-11)", "period": "商代晚期", "title": "司母戊鼎"}
+KUdesc: 司母戊大方鼎是商代晚期殷墟出土的巨型青铜方鼎，重 875 公斤、通高 133 厘米，为已知最大的商代青铜器。五册来源有直接记载（李立新一册无"司母戊"字样）。尺寸与重量五册完全一致，但**范铸方式的记述互不相同**：腹范究竟是四块（每块内嵌六块分范）、鼎身八块外范，还是每边八块外范；鼎耳是"接铸"、在鼎上加范浇铸，还是"单独铸造后再合铸（分铸法）"。这些不是措辞差异，而是工艺复原层面的分歧，本 KU 全部并列。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-32 | type=procedure | title=夹纻 | slug=jiazhu
+KU: 04-knowledge/units/procedures\jiazhu-tai.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi']
+span: L1990-L2964 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 战国漆器制胎法：用漆灰和麻布制成，先以漆灰作器胎，再把麻布裱糊在胎上；可使器型增加变化，比木片卷粘获得更多造型。原文称这种作法就是现今所称的脱胎。用漆灰造形并以麻布粘贴作为漆胎的漆器作法，战国、两汉已流行；魏晋南北朝用于塑造便于车载游行的佛像，称“行像”。
+F: {"domain": "漆器制胎", "name": "夹纻", "notes": "即今所称脱胎。原文称夹纻佛像比铜佛轻便、比泥佛坚固。合并候选差异：domain: canonical='漆器制胎' other='漆器/造像' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-13)；period: canonical='战国' other='战国两汉至魏晋南北朝' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-13)；合并后统一字段，保留各来源候选差异于本 notes。", "period": "战国至魏晋南北朝"}
+KUdesc: 夹纻胎是战国时期出现的漆器胎体工艺：以纻麻为胎骨，用生漆将纻麻逐层贴在泥或木胎上形成外胎，干实后去掉内胎，再加以髹漆。其原理相当于后世“脱胎法”，是脱胎漆器的前身，胎体轻巧牢固，被视为中国漆器工艺的独特创造。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-39 | type=term | title=铅釉陶 | slug=qianyou-tao
+KU: 04-knowledge/units/terms\qian-you-tao.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L2353-L2357 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 涂黄绿色低温铅釉的陶器，又称釉陶。铅釉以硅酸为主体、氧化铅等为媒熔剂，熔点低、约700~800℃可烧成；釉中混金属元素则呈黄、绿、褐、土红等色。汉代最早生产于关中，绿釉长期埋藏后泛银色光彩，又称银釉。
+F: {"definition": "涂黄绿色低温铅釉的陶器，又称釉陶，铅釉熔点约700~800℃。", "name": "铅釉陶", "notes": "最早产关中；绿釉埋藏后泛银光彩称银釉。", "period": "汉代"}
+KUdesc: 铅釉陶是涂有黄绿色低温铅釉的陶器。铅釉熔点低，约 700℃~800℃ 即可烧成，并能薄薄匀挂在胎上；釉中混有不同金属元素则形成黄、绿、褐、土红等多种色彩。铅釉陶是汉代陶瓷工艺的代表，因釉面泛出银色光彩，又称银釉。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-21 | type=term | title=卷草纹 | slug=scrolling-vine-pattern
+KU: 04-knowledge/units/terms\rendong-wen.md | docs: ['2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun']
+span: L2992-L2992 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 六朝流行装饰纹样，枝干成二方连续卷曲状，主要由叶子组成，叶子的变化和组织丰富多样；响堂山石窟浮雕卷草为代表，并见于佛光、石碑边侧和敦煌藻井。
+F: {"definition": "枝干二方连续卷曲、以叶子变化为主的装饰纹样", "name": "卷草纹", "notes": "响堂山石窟浮雕卷草图案为代表。", "period": "六朝"}
+KUdesc: 忍冬纹是六朝流行的卷草状植物纹，通称卷草。纹样取忍冬花（金银花）枝叶变化或莲叶演变，一般三叶片与一叶片相对排列，有单叶双叶、顺向相背等变化；东晋北魏之后与莲花纹一起渗透于铜器、金银器、砖瓦、石刻、藻井、柱础等造物类型，唐代演变为繁复的卷草，成为中国造物装饰的主题。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-60 | type=procedure | title=绞缬 | slug=tie-dyeing
+KU: 04-knowledge/units/terms\jiaoxie.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3260-L3260 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 又称“撮缬”，民间常用印染方法；用线将布钉扎成各种花纹后入染，钉扎部分不能染色，形成色地白花并有晕染效果；或将谷粒包扎在钉扎部分，产生更复杂花纹。阿斯塔那出土唐垂拱四年（688年）绞缬裙。
+F: {"domain": "印染", "name": "绞缬", "notes": "又称撮缬。", "period": "唐"}
+KUdesc: 绞缬又称“撮缬”“撮晕缬”，民间又称“撮花”，是我国古代纺织品的一种“防染法”染花工艺：按花纹用针线缝扎或直接捆扎，抽紧使织物皱拢，染色时折叠处不易上染，形成晕色效果。魏晋南北朝应用广泛，花纹疏大者有鹿胎缬、玛瑙缬，细密者有鱼子缬等。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-71 | type=work | title=舞马衔杯银壶 | slug=dancing-horse-silver-ewer
+KU: 04-knowledge/units/works\liujin-wuma-xianbei-yinhu.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3306-L3311 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 1970年西安南郊何家村窖藏出土；银壶作皮囊造型，壶体两面各有一匹舞马，颈系彩带、口衔杯、前腿直立后腿曲膝作舞蹈状，对应唐诗“屈膝衔杯赴节，倾心献寿无疆”。唐代金银器中的皮囊式壶，器身装饰马匹披锦绣、饰金银、随乐起舞的舞马衔杯题材；原文称皮囊式壶吸收了游牧民族工艺器皿的特点（插图11）。图版未视觉核验。
+F: {"category": "金银器", "culture": "唐", "notes": "本条据 L3306-L3311；插图11图版未视觉核验。", "period": "唐", "title": "舞马衔杯纹皮囊式银壶"}
+KUdesc: 鎏金舞马衔杯银壶是盛唐银器，1970 年 10 月西安何家村唐代窖藏出土，通高 18.5 厘米。器腹两面锤出马衔杯纹，仿北方游牧民族皮囊与马镫综合形状，圈足墨书“十三两半”。舞马部分采取鎏金技术，使银壶与鎏金相互辉映。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-38 | type=term | title=宋代五大名窑 | slug=song-five-famous-kilns
+KU: 04-knowledge/units/terms\wuda-mingyao.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3522-L3522 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 论瓷者常把定、汝、官、哥、钧称为宋代五大名窑；原文认为此说有偏颇，官窑固然精美，但北方磁州窑、南方吉州窑等民窑也以清新朴质风格大放异彩。
+F: {"definition": "定、汝、官、哥、钧五窑的通行合称", "name": "宋代五大名窑", "notes": "清单级术语；原文对排斥民窑的说法提出异议。", "period": "宋代"}
+KUdesc: 五大名窑是宋瓷中“官、汝、钧、哥、定”五个窑系的合称。赵农指出这仅仅是一种习惯说法，不同地域的窑制自然体现区域特点；2016 以汝窑、官窑、定窑、钧窑、哥窑概括宋代制瓷业的地域流派与工艺成就。
+===== 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-23 | type=term | title=云锦 | slug=yunjin
+KU: 04-knowledge/units/terms\nanjing-yunjin.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L4633-L5103 | 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+S: 云锦是南京华美织锦，品种有妆花、库锦、库缎三种；名称来源原文存两说，一说纹饰灿烂如云，一说清代文献无载而纹饰多用云纹。南京精美丝织品，分类和制作与明锦相似，艺术特点大体保持明代风格：花朵较大、色彩明快、富于装饰性；云锦一词近代才采用，多用作蒙藏少数民族衣帽服饰。
+F: {"definition": "南京所产华美织锦，分妆花、库锦、库缎。", "name": "云锦", "notes": "得名问题见 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-24。图案组织有团花、缠枝、散花、满花、锦群，锦群又名天华锦，为古代八达晕演变；新创雨花锦、双面锦、凹凸锦。合并候选差异：definition: canonical='南京所产华美织锦，分妆花、库锦、库缎。' other='南京精美丝织品，艺术特点大体保持明代风格；云锦一词近代才采用。' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-40)；period: canonical='明清盛行' other='明清极盛，现代' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-40)", "period": "明清盛行"}
+KUdesc: 南京云锦是官营织造生产的提花多彩丝织物，晚清时因花纹绚烂如云彩得名，包括妆花缎、库锦、库缎。其生产用长 5.6 米、高 4 米、宽 1.4 米的大花楼木质提花机，上下两人操作，一天仅织五至六厘米，故称“寸锦寸金”。
+===== 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-66 | type=term | title=文质彬彬 | slug=wenzhi-binbin
+KU: 04-knowledge/units/terms\wenzhi.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L727-L727 | 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+S: 孔子针对“文胜质”与“质胜文”提出的文质谐和命题。原文释“质胜文则野，文胜质则史”，并以“绘事后素”定位质先于文、后赋文。
+F: {"definition": "文饰与质素相称、不偏不倚的造物与人格标准。", "name": "文质彬彬", "notes": "原文L727。", "period": "春秋"}
+KUdesc: 文质是我国古代文论的基本概念，包括“文”与“质”两个方面：文指文采，质指实质。出典为孔子《论语·雍也》“质胜文则野，文胜质则史，文质彬彬，然后君子”，意即只有学问而无文采则粗野，过分渲染文采而无内涵实质则虚饰，君子须文采与内涵兼具。后世文论多指语言风格的华美与质朴。
+===== 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-59 | type=term | title=鹿车 | slug=lu-che
+KU: 04-knowledge/units/terms\dulunche.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L883-L890 | 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+S: 魏晋南北朝民间匠人因地制宜设计的多用途运输工具，以适应山地运输；也称独轮车，或鸡公车（四川）、羊角车（江南）。原文记其雏形在汉代四川画像砖中已有反映，传说诸葛亮设计的木牛流马其实应是民间“鹿车”的改进。
+F: {"definition": "多用途独轮车，适应山地运输，又称鸡公车、羊角车。", "name": "鹿车", "notes": "图2-4 为鹿车，图版未视觉核验。", "period": "汉代已有雏形，魏晋南北朝使用"}
+KUdesc: 独轮车是以独轮为标志的手推车，车轮多为木制，利用杠杆原理把负载抗力点靠近车轮，载货载人平稳轻巧，适合崎岖路面；大约西汉晚期出现，西汉时类似鹿车或辘轳车，木牛流马据考即独轮车。赵农记其重心低、操作灵活，便于山地运输，诸葛亮在蜀国山地军事运输中推广使用，后成为蜀地及北方许多地区的家常运输工具。
+===== 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-09 | type=place | title=圆明园 | slug=yuan-ming-yuan
+KU: 04-knowledge/units/works\yuanmingyuan.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1236-L1242 | 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+S: 清乾隆时郎世宁等欧洲设计师参与修建，使其融合中西建筑风格，室内置罗可可风格家具壁毯和各式西洋器物；图3—7为东长春园西洋楼谐奇趣北面铜版画。
+F: {"modern_name": "北京圆明园遗址", "name": "圆明园", "notes": "图3—7图版未视觉核验。", "period": "清乾隆"}
+KUdesc: 圆明园原为雍正皇帝做皇子时赐获的花园，后经乾隆扩建，加修长春园和绮春园。长春园的一部分是欧洲风格的花园，俗称“西洋楼”；圆明园后被英法联军火烧而毁。2016 记其为清代皇家园林，属“三山五园”之一，包括圆明、长春、万春三园。
+===== 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-21 | type=term | title=月份牌画 | slug=yue-fen-pai-hua
+KU: 04-knowledge/units/terms\yuefenpai.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi']
+span: L1305-L1311 | 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+S: 流行极广的商业广告画，作者多未受正规西画训练，初以木刻近于年画，后融会中西表现手法；作者评为简单甚至肤浅的中西结合，但形式空前绝后。
+F: {"definition": "融会中西表现手法的商业广告画", "name": "月份牌画", "notes": "图3—11图版未视觉核验。", "period": "20世纪20—30年代"}
+KUdesc: 月份牌是把中国传统农历本形式与商业广告相结合、把传统木版年画与西方水彩技法相结合而形成的广告形式。最早产生于 19 世纪末的上海，流行于 20 世纪上半叶；最早标有“月份牌”字样者为 1896 年上海鸿福来票行随彩票赠送的《沪景开彩图》，二三十年代达到鼎盛。
+===== 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-38 | type=term | title=宜兴紫砂 | slug=yi-xing-zi-sha
+KU: 04-knowledge/units/terms\zisha-tao.md | docs: ['2010-tianzibing-zhongguo-gongyi-meishushi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1461-L1461 | 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+S: 宜兴所产以“方非一式，圆不一样”为特色的紫砂陶器工艺；明代龚春、时大彬及董翰、赵梁、元畅、时朋“制壶四大家”，清代陈鸣远、杨彭年兄妹、邵大亨等形成紫砂造物块团形式。
+F: {"definition": "宜兴所产、以“方非一式，圆不一样”为特色的紫砂陶器工艺", "name": "宜兴紫砂", "notes": "“龚春”原文写法，或作“供春”，未改。", "period": "明清"}
+KUdesc: 紫砂陶是宜兴窑的特色产品，原料紫砂泥色泽紫红，另有白泥、绿泥、大红泥；深藏岩层下，风化研磨制器，经 1000 多度烧成，不挂釉，以造型取胜，“方非一式，圆不一样”。多做茶具，紫砂壶有泡茶色纯、隔夜不馊、用久味永、泥色生辉的特点。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-79 | type=term | title=夹纻胎 | slug=jiazhu-body
+KU: 04-knowledge/units/procedures\jiazhu-tai.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi']
+span: L1195-L1885 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 早期夹纻胎以纻麻为胎骨，用生漆将纻麻贴在泥或木胎上数层形成外胎，干后去掉内胎再髹漆，是脱胎漆器的前身。用漆夹麻布制成的硬胎，是汉代漆器胎体之一；原文称“夹纻胎（用漆夹麻布制成硬胎）”。
+F: {"definition": "以纻麻和生漆层层裱糊成形的漆器胎骨", "name": "夹纻胎", "notes": "脱胎漆器前身；与木胎、竹胎并列为汉代漆器胎体。；合并候选差异：definition 另有“用漆夹麻布制成的硬胎。”（2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-10），主候选保留“以纻麻和生漆层层裱糊成形的漆器胎骨”；合并候选差异：period 另有“汉代”（2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-10），主候选保留“战国”", "period": "战国"}
+KUdesc: 夹纻胎是战国时期出现的漆器胎体工艺：以纻麻为胎骨，用生漆将纻麻逐层贴在泥或木胎上形成外胎，干实后去掉内胎，再加以髹漆。其原理相当于后世“脱胎法”，是脱胎漆器的前身，胎体轻巧牢固，被视为中国漆器工艺的独特创造。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-56 | type=person | title=管子 | slug=guanzi
+KU: 04-knowledge/units/publications\guanzi.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L1500-L1503 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 前723-前645，名夷吾，字仲，春秋早期齐国人，助齐桓公称霸，被称为“春秋第一相”；主张“废弃雕饰”，引“工事竞于刻镂，女事繁于文章，国之贫也”，要求“工事无刻镂，女事无文章”。
+F: {"name": "管子", "notes": "原文引《管子·立政》。", "period": "前723-前645", "role": "政治家、齐国相"}
+KUdesc: 《管子》是先秦典籍，相传为春秋时期齐国政治家管仲的著作，今存 76 篇；2016 称其为战国时各学派言论汇编，内容庞杂，包括法家、儒家、道家、阴阳家、名家、兵家和农家观点，传说根本为春秋初期管仲言论。赵农引《管子·轻重乙》说明农、车、女所需工具：齐国种田男子必须有一犁、一耙、一把锄等，造车木匠必须有斧、锯、锥、凿等，妇女必须有针、刀等；又引《管子·乘马》“凡立国都，非于大山之下必于广川之上……”说明城市选址与规划。管仲推行富民强国政策，提出“仓廪实而知礼节，衣食足而知荣辱”。2016 另重点讨论《侈靡篇》的经济政法见解及其奢侈消费与等级消费主张。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-84 | type=place | title=秦始皇陵 | slug=qinshihuang-ling
+KU: 04-knowledge/units/works\qin-shi-huang-ling.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi']
+span: L1609-L1942 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 秦代大型陵墓，原文称秦修庞大豪华宫殿及坟墓，始皇陵出土大量秦俑与随葬品；1980年又在秦地陵发掘两组大型铜制御车马。位于陕西临潼的秦始皇陵是秦代最具代表性的营造之作，菱形墓冢高76米、底边宽485米、长515米；据史料记载征用民夫70万人、用37年建成，陵东1.5公里处为兵马俑坑。
+F: {"modern_name": "陕西临潼", "name": "秦始皇陵", "notes": "兵马俑与铜车马出土地；原文或作“秦地陵”。原文引《史记·秦始皇本纪》描述地宫。；合并候选差异：modern_name 另有“陕西省西安市临潼区”（2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-19），主候选保留“陕西临潼”", "period": "秦代"}
+KUdesc: 秦始皇陵位于陕西临潼，是秦代最具代表性的营造之作。陵区规模宏大，墓冢高 76 米、底边宽 485 米、长 515 米；据史料记载征用民夫 70 万人、用 37 年建成。陵内宛如地下宫殿，棺椁周围铸满铜汁，设百官、摆珍宝，以人鱼膏为烛，宫室之外灌输水银象征江河湖海，“上具天文，下具地理”；陵墓南屏骊山、北临渭水，陵东 1.5 公里处为兵马俑坑。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-13 | type=term | title=汝窑 | slug=ru-yao
+KU: 04-knowledge/units/places\ru-kiln.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3160-L3179 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 北宋后期宋徽宗年间建立的官窑，居五大名窑之首；以青瓷为主，釉色有粉青、豆青、卵青、虾青，胎薄釉厚、有玉石质感与细开片，采用支钉支烧，器形多仿古青铜器，传世不足百件。
+F: {"definition": "北宋后期宋徽宗年间建立的官窑，以青瓷和支钉支烧著称", "name": "汝窑", "notes": "原文称其为五大名窑之首。", "period": "北宋后期"}
+KUdesc: 汝窑是北宋为宫廷烧造青瓷的窑场，“五大名窑”之首。六册来源一致把它列为宋代最重要的青瓷名窑，但在三处关键事实上分歧明显：窑址所在（宝丰清凉寺／河南临汝县）、始烧时间（北宋初期／北宋后期宋徽宗年间）、装饰面貌（印花刻花／素面无过多装饰）。本 KU 三处并存，不裁定。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-15 | type=term | title=定窑 | slug=ding-yao
+KU: 04-knowledge/units/places\ding-kiln.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi', '2011-lilixin-zhongguo-sheji-yishu-shilun', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L3160-L3179 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 宋代民窑，以白瓷为主，兼烧黑釉、绿釉、酱釉；器形以盘、碗最多，另有梅瓶、枕、盒，器底常见“奉华”“聚秀”“慈福”“官”等刻字，因覆烧有芒口与泪痕，纹饰有划花、绣花、竹丝刷纹、泪痕纹，部分产品为官府或朝廷烧造。
+F: {"definition": "宋代以白瓷为主的民窑，覆烧形成芒口、泪痕", "name": "定窑", "notes": "器底刻字与“尚食局”铭文说明部分产品供官府或朝廷。", "period": "宋"}
+KUdesc: 定窑位于河北曲阳（宋属定州），以白瓷为主，是宋代五大名窑中唯一被六册来源一致归为“民窑出身”的窑口。它的工艺标志是覆烧（因而碗盘口沿无釉，称芒口）与印花装饰；它的制度特征是产品被宫廷选用而窑本身仍属民营。六册来源在这一点上大体一致，但在**断代下限**与**款识清单**上分歧明显：田自秉记“唐至北宋”，赵农记“宋代”而未及下限，夏燕靖 2009 则给出“始烧于唐、兴盛于宋、失传于元”的发掘定论；款识方面，高丰列“官、新官”，夏燕靖列“奉华、聚秀、慈福、官”，田自秉列“尚食局、尚药局、五王府、慈福”，三份清单互有出入。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-04 | type=person | title=黄成 | slug=huang-cheng
+KU: 04-knowledge/units/persons\huang-dacheng.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi']
+span: L4669-L6252 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 明代隆庆年间安徽新安漆匠，著《髹饰录》，该书为我国现存仅有的一部古代漆工专著。明隆庆年间漆工，《髹饰录》撰者，该书为我国现存唯一古代漆工专著。
+F: {"name": "黄成", "notes": "安徽新安人；撰《髹饰录》。；合并候选差异：role 另有“漆工”（2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-31），主候选保留“漆匠”；合并候选差异：period 另有“明隆庆年间（1567-1572）”（2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-31），主候选保留“明隆庆年间（1567—1572）”", "period": "明隆庆年间（1567—1572）", "role": "漆匠"}
+KUdesc: 黄大成是明代新安漆工、《髹饰录》作者。高丰记其字号、籍贯、隆庆年间的漆工身份、剔红技艺与杨明天启五年加注作序的成书经过；田自秉另记《髹饰录》的乾坤两集、十八章结构与“三法”原则，并称其为我国现存唯一的古代漆艺专著。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-120 | type=term | title=广绣 | slug=guangxiu
+KU: 04-knowledge/units/terms\yuexiu.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2010-tianzibing-zhongguo-gongyi-meishushi']
+span: L4783-L4813 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 广州一带刺绣，洋人称从广州工部购得的货物为“广货”，对刺绣称“广绣”或“粤绣”。光绪年间广东成立工艺局主管工艺品生产，产品经洋庄输往世界各地，潮州刺绣经汕头出口新加坡、泰国、马来西亚。
+F: {"definition": "广州及广东地区传统刺绣，又称粤绣", "name": "广绣", "notes": "广东工艺局；洋庄；潮州刺绣经汕头出口", "period": "清代至民国"}
+KUdesc: 粤绣是广东刺绣，花纹繁缛、喜用百鸟鸡、色彩浓艳对比强烈，用马尾于轮廓缀绣并绣“间道风”飞白花纹，富有广东地方特色；潮州刺绣别称潮绣，另有高绣与金线勾边特点。洋人称从广州工部购得的货物为“广货”，对刺绣也称“广绣”或“粤绣”。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-11 | type=work | title=中山装 | slug=zhongshanzhuang
+KU: 04-knowledge/units/terms\zhongshanzhuang.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi']
+span: L4877-L4885 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 孙中山亲自设计并带头穿着的新款服装，被誉为“中山国服”；1912年被民国政府定为礼服。形制简便实用，后在西装基本款形上糅合传统意识，形成垫肩收腰、均衡对称的廓形。
+F: {"category": "服饰", "culture": "中国", "notes": "据图10-14，图版未视觉核验。", "period": "民国初年", "title": "中山装"}
+KUdesc: 中山装是由孙中山亲自设计并带头穿着的男装，被誉为“中山国服”，1912 年民国政府通令定为礼服。其形制以日本陆军士官服装和南洋华侨的“企领文装”为参照，直翻领、四口袋、前襟五纽、袖口三纽；相传最初制作者为上海南京路“荣昌祥呢绒西服店”裁缝王才运。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-133 | type=work | title=中国美术馆 | slug=zhongguo-meishuguan
+KU: 04-knowledge/units/institutions\zhongguo-meishuguan.md | docs: ['2009-xiayanjing-zhongguo-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L5290-L5317 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 1958年9月中央人民政府确定的国庆工程十项大型建筑之一；其建筑装饰如彩画、木雕等被作者视为传统工艺与现代建筑结合的成功范例。
+F: {"category": "建筑", "culture": "中国", "notes": "图注11-25，图版未视觉核验。", "period": "1958年9月确定", "title": "中国美术馆"}
+KUdesc: 中国美术馆于 1962 年 5 月初建成，开始展出我国近现代美术作品，包括绘画、雕塑、版画、工艺美术、民间艺术品等。同年 5 月 23 日，文化部和全国美协举办的“全国美术作品展览会”在该馆开幕，展出包括工艺美术设计图稿在内的作品 355 件。2016 另记此后年表中大量工艺美术与设计展览均在此举办。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-35 | type=person | title=杭稚英 | slug=hang-zhiying
+KU: 04-knowledge/units/persons\hang-zhiying.md | docs: ['2004-gaofeng-zhongguo-shejishi', '2009-zhaonong-zhongguo-yishu-shejishi']
+span: L4984-L5012 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 民国上海知名广告画家，商务印书馆1920年练习生出身，后成为早期商业招贴广告设计专家。
+F: {"name": "杭稚英", "notes": "与郑曼陀、金梅生、李慕白等并称上海广告画家。", "period": "民国", "role": "广告画家"}
+KUdesc: 杭穉英是近代上海月份牌广告设计家，与周慕桥、郑曼陀并称三大盟主。他早年在商务印书馆广告部从事设计，后创办“穉英画室”，与金雪尘、李慕白等合作，以旗袍美女为典型形象，20 世纪 30 年代领导上海工商广告设计潮流。
+===== 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-26 | type=person | title=李诫 | slug=li-jie
+KU: 04-knowledge/units/persons\li-cheng.md | docs: ['2009-zhaonong-zhongguo-yishu-shejishi', '2016-xiayanjing-zhongguo-yishu-shejishi-upgrade']
+span: L6195-L6198 | 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+S: 北宋建筑家，《营造法式》撰者，该书崇宁二年（1103）刊行。
+F: {"name": "李诫", "notes": "撰《营造法式》。", "period": "北宋", "role": "建筑家"}
+KUdesc: 李诚（通行作李诫）是北宋建筑师，《营造法式》的编撰者。赵农记其书由宋哲宗时编著、宋徽宗时刊行，是官方建筑工程的专用书；夏燕靖 2016 记其收集汴京实际工程做法、与工匠详细研究后编成，并详列全书四部分。

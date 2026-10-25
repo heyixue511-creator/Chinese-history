@@ -1,0 +1,213 @@
+{
+  "work_package": "2026-10-25-three-book-publication-units-a",
+  "goal": "Eighth write-back batch: fold the 21 publication candidates behind the seven publication entity groups xdup-0098 through xdup-0104 into 7 canonical publication knowledge units, and add a disambiguation field to both the person and the publication units named 孟子.",
+  "status": "applied",
+  "created_at": "2026-10-25T14:20:00+08:00",
+  "updated_at": "2026-10-25T14:20:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:3ea9c0eef6dc76805076c8d1c4e2cf562123abecadc5b7e255c12cb3317febec",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-person-units-b/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the publication entity groups xdup-0098 through xdup-0104; term and work groups of the same layer plus the remaining seven publication groups are left to later batches",
+    "group_ids": [
+      "xdup-0098",
+      "xdup-0099",
+      "xdup-0100",
+      "xdup-0101",
+      "xdup-0102",
+      "xdup-0103",
+      "xdup-0104"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "publication_doc_count_three_groups_total": 14,
+    "selected_groups": 7,
+    "group_member_candidates": 21,
+    "extra_same_entity_candidates": 0,
+    "candidate_rows": 21,
+    "canonical_candidates": 7,
+    "rejected_candidates": 14,
+    "remaining_doc_count_three_groups": 61,
+    "remaining_doc_count_three_open_candidates": 182,
+    "remaining_doc_count_three_by_type": {
+      "term": 34,
+      "work": 20,
+      "publication": 7
+    },
+    "publication_doc_count_three_groups_after_this_batch": 7,
+    "deferred": [
+      {
+        "group_id": "xdup-0105..xdup-0111",
+        "unit_type": "publication",
+        "doc_count": 3,
+        "members_total": 21,
+        "why": "the seven remaining publication groups (王祯农书、程氏墨苑、茶经、诗经、陶说、雪宦绣谱、马可波罗游记) stay needs_evidence; this batch stops at xdup-0104 and does not claim them as written"
+      },
+      {
+        "group_id": "xdup-0329",
+        "unit_type": "publication",
+        "doc_count": 2,
+        "members": [
+          "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-25",
+          "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-65"
+        ],
+        "why": "the two 《韩非子》 publication candidates carried over from the previous batch remain needs_evidence; publications/ still has no entry for that book"
+      }
+    ]
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the recalling Markdown sources plus a full six-book pass for every entity, counting bracketed book titles (《孟子》, 《山海经》, 《墨经》, 《吕氏春秋》, 《梓人遗制》) separately from bare names so that person mentions are not mistaken for book mentions. Each source disagreement was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; every other same-name candidate transitions to rejected with a reason naming the canonical target. The canonical member is the candidate whose recall span best matches the composite unit; the KU itself is written from all six books, so ku_source_count may exceed group_doc_count.",
+    "source_count_correction": "The recall group's doc_count is a nominal count from the candidate pipeline. Re-reading all six books raised four of the seven units above it: 吕氏春秋 3→6, 山海经 3→5, 孟子 3→4 (田自秉 added), 梓人遗制 3→4 (夏燕靖 2009 added). The extra books are recorded line by line in each unit's sources.",
+    "name_collision_rule": "publications/mengzi.md shares its basename with persons/mengzi.md. Both files carry a disambiguation field; the person unit keeps name_en=Mencius and the publication uses name_en=Mengzi, which the person unit had already reserved for this case in its translation_note.",
+    "state_honesty": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set because no external verification was performed."
+  },
+  "outputs": {
+    "apply_plan": "2026-10-25-three-book-publication-units-a/apply-plan.jsonl",
+    "candidate_decision_ledger": "2026-10-25-three-book-publication-units-a/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/publications/dongjing-menghua-lu.md",
+      "04-knowledge/units/publications/gujin-tushu-jicheng.md",
+      "04-knowledge/units/publications/lvshi-chunqiu.md",
+      "04-knowledge/units/publications/mo-jing.md",
+      "04-knowledge/units/publications/mengzi.md",
+      "04-knowledge/units/publications/shanhai-jing.md",
+      "04-knowledge/units/publications/ziren-yizhi.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/persons/mengzi.md"
+    ],
+    "manifest": "2026-10-25-three-book-publication-units-a/manifest.json",
+    "summary": "2026-10-25-three-book-publication-units-a/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "entity": "东京梦华录",
+      "group_id": "xdup-0098",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-82",
+      "target_ref": "04-knowledge/units/publications/dongjing-menghua-lu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：dongjing-meng-hua-lu / dongjing-menghualu / dongjing-menghua-lu → dongjing-menghua-lu"
+    },
+    {
+      "entity": "古今图书集成",
+      "group_id": "xdup-0099",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-07-12",
+      "target_ref": "04-knowledge/units/publications/gujin-tushu-jicheng.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "publication",
+      "slug_normalization_note": "三册 slug 一致（gujin-tushu-jicheng）"
+    },
+    {
+      "entity": "吕氏春秋",
+      "group_id": "xdup-0100",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-26",
+      "target_ref": "04-knowledge/units/publications/lvshi-chunqiu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：lv-shi-chun-qiu / lvshi-chunqiu / lushi-chunqiu → lvshi-chunqiu；六册全部引用本书，故 ku_source_count 6 大于 group_doc_count 3"
+    },
+    {
+      "entity": "墨经",
+      "group_id": "xdup-0101",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-01",
+      "target_ref": "04-knowledge/units/publications/mo-jing.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：mo-jing / mojing / mojing → mo-jing"
+    },
+    {
+      "entity": "孟子",
+      "group_id": "xdup-0102",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-34",
+      "target_ref": "04-knowledge/units/publications/mengzi.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：meng-zi / mengzi / mengzi → mengzi；与 persons/mengzi.md 同名跨类型，两文件均新增 disambiguation；候选组未收田自秉，KU 按正文补入"
+    },
+    {
+      "entity": "山海经",
+      "group_id": "xdup-0103",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-60",
+      "target_ref": "04-knowledge/units/publications/shanhai-jing.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：shanhaijing / shanhaijing / shanhai-jing → shanhai-jing；候选组未收高丰与田自秉，KU 按正文补入"
+    },
+    {
+      "entity": "梓人遗制",
+      "group_id": "xdup-0104",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-27",
+      "target_ref": "04-knowledge/units/publications/ziren-yizhi.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：ziren-yizhi / ziren-yizhi / ziyan-yizhi → ziren-yizhi；ziyan 为“梓”误作“子”，不采用；候选组未收夏燕靖 2009，KU 按正文补入"
+    }
+  ],
+  "source_variance_notes": [
+    "东京梦华录——卷数（十卷）仅夏燕靖 2009 给、问世年（绍兴十七年 1147）仅夏燕靖 2016 正文给，两条从未在同一处并见；“文字版《清明上河图》”只见于两版附录与知识链接，正文不带此喻；服饰引文赵农作“士农工商”，夏燕靖两版作“士、农、商”（脱“工”并加顿号）；夜市时段“三更”（赵农）／“三鼓”（夏燕靖 2016），取消夜禁的归因亦不同；“瓦舍 50 多所”是赵农据《东京梦华录》《梦粱录》《武林旧事》三书合记，不能单归本书；“园林 18 处”为本书独记；夏燕靖 2016 知识链接“时令节目”疑为“时令节日”之讹。",
+    "古今图书集成——年代三说（夏燕靖 2016 雍正四年 1726 两年印成／赵农雍正年间完成／高丰不给年）；性质两说（高丰“当时世界上最大的百科全书”／赵农“百科全书式的工具书”）；卷数 1 万余／10 000／1 万，册数三册一致 5020；字数 1.6 亿仅高丰与赵农给；函数 522 函与印数 64 部见赵农与夏燕靖 2016；字体（铜活字宋体“典范”）与插图（数千幅，雕版印刷）为高丰独有；同段活字谱系三册出入——枣木活字 25.3 万（高丰）／25 万余（夏燕靖 2016）、丛书 2389 卷／2300 余卷、华燧印书 1490 年（夏燕靖 2016）／未纪年（赵农），且高丰作《武英殿珍版丛书》、夏燕靖 2016 作《武英殿聚珍版丛书》。",
+    "吕氏春秋——六册用法互不重叠，分四簇：纹样定名（高丰、田自秉）、乐器起源（赵农《古乐》两处）、车战规模（夏燕靖两版）、城市与工艺制度语汇（赵农《恃君览》《离俗览》、夏燕靖 2016），另有李立新“成”的二解与“帝亲耕，后亲蚕”。全书结构 8 览 6 论 12 纪仅夏燕靖 2016 给，且以览、论、纪为序。饕餮纹引文三册用字不同：“饕餮纹／饕餮”“害及其身／害及己身”“又言报更也／以言报更也”。“窃曲”一条六册均无篇名。篇名讹写两处：夏燕靖两版正文均作《简读》而同册文献表均作《简选》，夏燕靖 2016 另作《己篇》（通行本作《先己》）。高丰 L536 引文“未者，尤之时”文字残损，并把《商君书》写作《商群书》。夏燕靖 2016“并未有明确地涉及工艺思想的文论”与赵农《古乐》制器观构成对读。",
+    "墨经——夏燕靖两版正文近乎逐字相同，差异仅“科学知识／科学技术知识”“造物过程／造物活动”“由此说来／由此可说”与一处“一起”，可判为同一底稿；夏燕靖 2016 册内定义冲突：正文把几何学、光学、力学归《墨经》，书末条目把“墨经”限定为《经上》《经下》《经说上》《经说下》《大取》《小取》六篇“着重阐述认识论和逻辑思想”，并把工艺思想归《墨子·节用》。赵农称《墨子·墨经》并给出秤杆、滑轮、车梯三条原文与逐词释义，为六册唯一；“桔槔”在赵农书中归《墨子》不归《墨经》。几何概念词 11 个中“樱”字费解，疑讹，照录。",
+    "孟子——本条只写典籍，人物归 persons/mengzi.md。同一引文两册写法不同：赵农作“继之以规矩准绳，以为方圆平直，不可胜用也”，李立新作“规矩准绳以方圆平直，不可胜用”（脱“继之以”、把“以为”作“以”），且“不以规矩，不能成方圆”赵农有逗号、李立新无。篇名仅李立新给《离娄章句》，四册均不标上／下。评价口径三说：赵农“政治观”、田自秉“幻想”、夏燕靖 2016“对设计的功用有着非常具体的指导作用”。成书仅夏燕靖 2016 给（弟子记录编写）。十三经补刻《孟子》仅赵农给。夏燕靖 2016“四书五经”并称只列 8 种且把被解释的《论语》排除在名单外。",
+    "山海经——五册各引一段、无两册引同一段。夔的引文：高丰引《大荒东经》作“状如华”，田自秉引同章作“状如牛”并多出“黄帝得之，以其皮为鼓……声闻五百里”一段，“华”于此不通，疑“牛”之讹。凤皇（赵农）与鸾鸟（田自秉）两段末句同为“见则天下安宁”而主角不同，两册互不提及，亦均不系篇名。成书年仅夏燕靖 2016 给“战国”，赵农只说出现于春秋战国。李立新作“《山海经》所绘‘人身龙面’山神（图 1—25）”，图 1—25 为该册自配插图，五册均不说明原书有无图，KU 只记录措辞不读作原书有图之证。铁矿山 30 多处为夏燕靖 2016 独有。",
+    "梓人遗制——断代三说：田自秉“宋人”，夏燕靖两版与赵农“元代”，赵农另在“宋末元初”语境中把薛景石与黄道婆、王祯并列为纺织机械改进者。全书范围两说：赵农“共两部分”（五明坐车子＋织机），夏燕靖两版称“规范制作织机的木工技术的专著”，田自秉只取花罗织机。罗机子释义两说：夏燕靖两版“罗织机”／赵农“交织机”；布卧机子“平织机／平织布机”。刊行年（中统二年 1261）与《永乐大典》卷 18245 仅夏燕靖两版给，两版为近乎逐字相同的底稿（差异仅“工具图形／工具图型”“四类／4 类”与一句语序）。田自秉“不用棱子”当作“不用梭子”，照录不改。赵农另记中国营造学社整理出版《园冶》、《梓人遗制》。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 7,
+    "updated_knowledge_units": 1,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Intra-source contradictions are recorded rather than smoothed: 夏燕靖 2016 on 墨经 (正文归几何光学力学 / 书末条目归六篇逻辑学并把工艺思想归《节用》), 夏燕靖 2016 on 孟子 (“四书五经”只列 8 种且缺《论语》), 夏燕靖两版 on 吕氏春秋 (正文《简读》/文献表《简选》).",
+    "update_detail": "persons/mengzi.md: added a disambiguation field and rewrote the 相关知识元 paragraph to point at publications/mengzi.md and state the division of labour; no factual claim in the person unit was changed.",
+    "name_collision_effect": "This batch creates the repository's first same-basename cross-type group (persons/mengzi.md + publications/mengzi.md). audit_repo reports 同名跨类型组 1 / 有消歧说明 2 / 无消歧说明 0, so the duplicate-basename deduction is not triggered."
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 76,
+      "needs_evidence": 5045,
+      "rejected": 218,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 104
+    },
+    "structural_health": "122/130 (unchanged from baseline)",
+    "type_coverage": "8/8 (publication units 8 -> 15)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 8 rows verified against disk independently (7 create after-sha256/bytes/lines, 1 update after-sha256 plus before-fingerprint); the update row before-fingerprint c2c37ec3… was produced by reversing both edits with assertions on each replacement and yields 5034 bytes / 104 lines",
+    "ledger_invariants": "ledger rows 35, distinct candidate ids 21, 7 x 3 canonical transitions + 14 rejected"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of printed pages, plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, quote wording, chapter names, attribution, scope of a book) are kept as parallel notes; none is adjudicated.",
+    "The seven remaining publication groups (xdup-0105 through xdup-0111) are left needs_evidence and are not claimed as written.",
+    "The two publication candidates for 《韩非子》 (xdup-0329) remain needs_evidence.",
+    "Books 7+ are untouched by user instruction; only Books 1-6 were read."
+  ]
+}

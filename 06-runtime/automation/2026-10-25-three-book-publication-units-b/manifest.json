@@ -1,0 +1,230 @@
+{
+  "work_package": "2026-10-25-three-book-publication-units-b",
+  "goal": "Ninth write-back batch: fold the 21 publication candidates behind the seven publication entity groups xdup-0105 through xdup-0111 into 7 canonical publication knowledge units, and clear the now-stale 'no publication entry exists' notes in persons/shen-shou.md and persons/zhang-jian.md.",
+  "status": "applied",
+  "created_at": "2026-10-25T17:40:00+08:00",
+  "updated_at": "2026-10-25T17:40:00+08:00",
+  "inputs": {
+    "candidate_index_after_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_after_apply_fingerprint": "sha256:18810ec9ce3dd1748215afe6f68e3956f7a4c505d4e90593a584a757608716a2",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-three-book-publication-units-a/manifest.json",
+    "source_scope": "six books only (Books 1-6); Books 7+ out of scope by user instruction",
+    "source_directory": "03基础书籍-md文档/"
+  },
+  "scope": {
+    "group_rule": "unit candidates recalled in three source documents (doc_count = 3), restricted in this batch to the publication entity groups xdup-0105 through xdup-0111; these are the last seven publication groups at that layer",
+    "group_ids": [
+      "xdup-0105",
+      "xdup-0106",
+      "xdup-0107",
+      "xdup-0108",
+      "xdup-0109",
+      "xdup-0110",
+      "xdup-0111"
+    ],
+    "doc_count_three_groups_total": 103,
+    "doc_count_three_candidates_total": 309,
+    "publication_doc_count_three_groups_total": 14,
+    "selected_groups": 7,
+    "group_member_candidates": 21,
+    "extra_same_entity_candidates": 0,
+    "candidate_rows": 21,
+    "canonical_candidates": 7,
+    "rejected_candidates": 14,
+    "updated_units": 2,
+    "remaining_doc_count_three_groups": 54,
+    "remaining_open_candidates": 161,
+    "remaining_doc_count_three_by_type": {
+      "term": {
+        "groups": 34,
+        "candidates": 102
+      },
+      "work": {
+        "groups": 20,
+        "candidates": 59
+      }
+    },
+    "closed_doc_count_three_by_type": [
+      "event",
+      "institution",
+      "person",
+      "place",
+      "procedure",
+      "publication"
+    ],
+    "publication_doc_count_three_groups_after_this_batch": 0,
+    "deferred": [
+      {
+        "group_id": "xdup-0329",
+        "unit_type": "publication",
+        "doc_count": 2,
+        "members": [
+          "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-25",
+          "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-65"
+        ],
+        "why": "the two 《韩非子》 publication candidates are doc_count = 2, outside the doc_count = 3 layer this batch closes; they remain needs_evidence and publications/ still has no entry for that book"
+      }
+    ],
+    "remaining_scope_note": "剩余量由 candidate-index.jsonl 逐组回算：doc_count=3 共 103 组中，event 1、institution 7、person 17、place 9、procedure 1、publication 14 组已全部关闭，余 term 34 组 102 条与 work 20 组 59 条（其中一个 work 组只有 2 名成员，故为 59 而非 60）。"
+  },
+  "method": {
+    "semantic_step": "Per-group re-read of the recalling Markdown sources plus a full six-book pass for every entity, counting bracketed book titles (《陶说》, 《马可·波罗游记》, 《雪宦绣谱》, 《诗经》, 《茶经》, 《程氏墨苑》, 《王祯农书》/《农书》) separately from bare names so that person and place mentions are not mistaken for book mentions. Each source disagreement was kept as an explicit variance note instead of being resolved by preference.",
+    "canonical_rule": "One canonical candidate per group is promoted to a knowledge unit; every other same-name candidate transitions to rejected with a reason naming the canonical target. The canonical member is the candidate whose recall span best matches the composite unit (broadest coverage of the unit's primary dimension); the KU itself is written from all six books, so ku_source_count may exceed group_doc_count.",
+    "source_count_correction": "The recall group's doc_count is a nominal count from the candidate pipeline. Re-reading all six books raised five of the seven units above it: 王祯农书 3→4 (高丰), 程氏墨苑 3→5 (高丰、赵农), 诗经 3→6 (高丰、夏燕靖 2009、李立新), 陶说 3→4 (夏燕靖 2009), 马可波罗游记 3→5 (高丰、田自秉). 茶经 stays 3; 雪宦绣谱 3→4 (高丰). The extra books are recorded line by line in each unit's sources.",
+    "exclusion_rule": "Bare-name hits were excluded when the referent is not the book: 赵农 L4748 mentions 陆羽 without 《茶经》 and is not counted as book evidence; 李立新 L971 contains “波罗子”, which is a Famensi vessel name in “波罗子和银芙蕖”, not Marco Polo, and was excluded outright; 夏燕靖 2009 L2861 quotes Marco Polo without naming the book, so it is counted only because the same edition carries a dedicated 《马可·波罗游记》 section (recorded in the unit).",
+    "quote_boundary_rule": "Where a sentence is split by a wrongly inserted chapter title or a figure caption, the unit records the exact line span instead of quoting only the resumption: 程氏墨苑 (赵农 L7174-L7178, 第九章 title inserted mid-sentence) and 诗经 (夏燕靖 2016 L909-L914, 图题 inserted mid-citation).",
+    "relation_update_rule": "Two person units were updated only to withdraw statements that this batch falsifies. persons/shen-shou.md said 《雪宦绣谱》 had no publication entry; persons/zhang-jian.md said both 沈寿 had no person unit and 《雪宦绣谱》 had no publication entry. Both statements were already stale or became stale with this batch; the replacement text points at the new unit and states the division of labour. No factual claim in either person unit was changed.",
+    "state_honesty": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed; no verification_level is set because no external verification was performed."
+  },
+  "outputs": {
+    "apply_plan": "2026-10-25-three-book-publication-units-b/apply-plan.jsonl",
+    "candidate_decision_ledger": "2026-10-25-three-book-publication-units-b/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/publications/wang-zhen-nongshu.md",
+      "04-knowledge/units/publications/chengshi-moyuan.md",
+      "04-knowledge/units/publications/chajing.md",
+      "04-knowledge/units/publications/shijing.md",
+      "04-knowledge/units/publications/tao-shuo.md",
+      "04-knowledge/units/publications/xuehuan-xiupu.md",
+      "04-knowledge/units/publications/makeboluo-youji.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/persons/shen-shou.md",
+      "04-knowledge/units/persons/zhang-jian.md"
+    ],
+    "manifest": "2026-10-25-three-book-publication-units-b/manifest.json",
+    "summary": "2026-10-25-three-book-publication-units-b/summary.md"
+  },
+  "canonical_mapping": [
+    {
+      "entity": "王祯农书",
+      "group_id": "xdup-0105",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-65",
+      "target_ref": "04-knowledge/units/publications/wang-zhen-nongshu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：wangzhen-nongshu / wang-zhen-nongshu / wang-zhen-nongshu → wang-zhen-nongshu；候选组未收高丰，KU 按正文补入（高丰作《农布》、“王桢”）"
+    },
+    {
+      "entity": "程氏墨苑",
+      "group_id": "xdup-0106",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-76",
+      "target_ref": "04-knowledge/units/publications/chengshi-moyuan.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "publication",
+      "slug_normalization_note": "三册 slug 一致（chengshi-moyuan）；候选组未收高丰与赵农，KU 按正文补入，source_count 5 大于 group_doc_count 3"
+    },
+    {
+      "entity": "茶经",
+      "group_id": "xdup-0107",
+      "candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-04-08",
+      "target_ref": "04-knowledge/units/publications/chajing.md",
+      "group_doc_count": 3,
+      "ku_source_count": 3,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：cha-jing / chajing / chajing → chajing；候选组三册即 KU 全部来源，夏燕靖 2009、李立新零命中，赵农只提陆羽不带书名"
+    },
+    {
+      "entity": "诗经",
+      "group_id": "xdup-0108",
+      "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-60",
+      "target_ref": "04-knowledge/units/publications/shijing.md",
+      "group_doc_count": 3,
+      "ku_source_count": 6,
+      "unit_type": "publication",
+      "slug_normalization_note": "三册 slug 一致（shijing）；六册全部引用，候选组未收高丰、夏燕靖 2009、李立新，KU 按正文补入，source_count 6 为两组 doc_count 的两倍"
+    },
+    {
+      "entity": "陶说",
+      "group_id": "xdup-0109",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-49",
+      "target_ref": "04-knowledge/units/publications/tao-shuo.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：tao-shuo / taoshuo / taoshuo → tao-shuo；候选组未收夏燕靖 2009，KU 按正文补入（该书 2009 有附录条目而 2016 另有正文专条）"
+    },
+    {
+      "entity": "雪宦绣谱",
+      "group_id": "xdup-0110",
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-07-31",
+      "target_ref": "04-knowledge/units/publications/xuehuan-xiupu.md",
+      "group_doc_count": 3,
+      "ku_source_count": 4,
+      "unit_type": "publication",
+      "slug_normalization_note": "三册 slug 一致（xuehuan-xiupu）；候选组未收高丰，KU 按正文补入；本批同时回改 persons/shen-shou.md 与 persons/zhang-jian.md 中“该书无 publication 条目”的失效记载"
+    },
+    {
+      "entity": "马可波罗游记",
+      "group_id": "xdup-0111",
+      "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-30",
+      "target_ref": "04-knowledge/units/publications/makeboluo-youji.md",
+      "group_doc_count": 3,
+      "ku_source_count": 5,
+      "unit_type": "publication",
+      "slug_normalization_note": "slug 归一：makeboluo-youji / make-polo-youji / make-polou-youji → makeboluo-youji（make-polou 为 polo 误拼，不采用）；候选组未收高丰、田自秉，KU 按正文补入"
+    }
+  ],
+  "source_variance_notes": [
+    "王祯农书——卷数三说不能互相换算：夏燕靖 2009 作“37 集，371 目，约 13 万余字”，夏燕靖 2016 作“37 集本（农桑通诀 6 集、百谷谱 11 集、农器图谱 20 集）”与“22 卷本（6 卷、4 卷、12 卷）”两种版本并给 13.6 万字、插图 281 幅，赵农作“共 36 卷”（卷 1—6、7—26、27—36）与 13 万 6 千字、281 幅。第三部分名两作：百谷谱（夏燕靖两版）／谷谱（赵农）。活字实践分三个侧面且无一处合并：赵农给活木字三万多个、印 6 万字《旌德县志》、音韵轮与杂字轮；高丰给大德元年（1297）与“转轮排字盘”；夏燕靖两版只列《杂录》篇目“造活字印书法”。生卒 1271—1368 仅夏燕靖 2016 给且与元朝起讫年相同。高丰 L3634 书名作《农布》、作者作“王桢”；夏燕靖 2016 图题作“简车”，2009 作“筒车”。",
+    "程氏墨苑——年份三说（夏燕靖两版与李立新作 1605 年／高丰只作万历年间／赵农不给）。主事者分工只在两册合起来才完整：赵农作“程大约编，丁云鹏绘，黄磷等刻”，高丰作“徽州程大约滋兰堂所刊”，李立新只作“刻工黄鏻……刻”；刻工名两写（黄鏻／黄磷）。套印色数仅高丰给数：“近 50 幅插图是用四色或五色套印”，并举丁云鹏《巨川舟楫图》五色（墨、黄、墨绿、蓝、褐）；李立新只作“五色套印”。技术名三册三讹且各自内部一致：高丰作“饅版”、夏燕靖 2009 作“短版”、李立新作“恒版”，均非通行“饾版”。高丰同句“首先……首先”重复。赵农该句被误插的“第九章 专制的文化——明清时期的设计”截断，取证须跨 L7174—L7178。",
+    "茶经——性质两说：高丰作“世界上第一部综合论茶的著作”，夏燕靖 2016 作“我国乃至世界现存最早，又是最全面介绍茶艺的一部著作”，后者为更早佚书留出余地而前者不留，三册均不解释此差别。茶碗品第三册详略悬殊：高丰引全文（越州上、鼎州次、婺州次、岳州次、寿州次、洪州次＋邢不如越三条理由），田自秉作摘要（只“越州上”“类玉”“类冰”“瓷青则茶色绿”），田自秉另处只列 5 州（鼎州、婺州、岳州、寿州、洪州）且不带次第，第三处只取“邢不如越”的结论。评价立足点两说：高丰作“以茶碗的釉色和盛茶时的观赏效果”并推到士大夫审美，田自秉作“从饮茶的角度来议论”而反映釉色美。全书 3 卷 10 节、24 种饮茶用具、后续茶书六种（蔡襄《茶录》、赵佶《大观茶论》、钱椿年撰顾元庆校《茶谱》、张源《茶录》、刘源长《茶史》）均仅夏燕靖 2016 给。高丰“卷曲恰以荷叶形”疑为“恰似”。",
+    "诗经——六册四层用法：赵农立“2. 资料性文献”一目，给“第一部诗歌总集、风雅颂、305 篇、时代背景 500 年”，并以四十余处引诗覆盖农具、兵器、车马、建筑、服饰、丝织、乐器、饮食器、灯具、舟桥、园林、雕刻、纹样、广告；田自秉给工序（“如切如磋，如琢如磨”）与形式法则（二方连续与“一唱三叹”的反复，“和 y 周代礼治要求有一种间接的联系”）；夏燕靖两版给六条史证且近乎逐字相同；高丰给五条单证；李立新只取“道”由“人行路上”引申为“道理和方法”。引文分歧四处：“十亩之间”赵农作“桑者闲闲兮”并另给“十亩之外兮，桑者泄泄兮”，其余三册均作“十亩之间兮，桑者泄泄兮”；“萋兮斐兮”夏燕靖 2016 作“蔓兮斐兮”；“毳衣”句 2009 脱一字、2016 作“如英(tǎn)”而“英”当作“菼”，两版注音亦不同（cui／cuì）；篇名用字蒸民（通行作烝民）、七月鸣鶉（通行作鵙）、驷驥（当作驖）、轄车（当作輶）。赵农 L2401“《诗经》《诗经》”书名重出；夏燕靖 2016 L909—L914 句读被图题截断。",
+    "陶说——卷次分法两说：夏燕靖 2009 作“说今、说古、说明、说器上、说器中、说器下”六篇，2016 作“说今、说古、说明、说器”四大部分而以卷 4 至卷 6 为说器，两说可通而措辞不同，四册均不说明何者为原书标目。版本仅 2016 给：正文条作“乾隆三十九年（1774）鲍廷博刻本”，附录条只作“初刻本……1774”而不提鲍廷博。“第一部陶瓷史”之判仅 2016 有，且正文条作“第一部陶瓷史著作”、附录条作“第一部陶瓷史”，2009 不作此判。乾隆仿制瓷同一引文两册仅差句首“于是”二字（田自秉有、高丰无），而用法分两路：高丰读作官搭民烧与病态审美，田自秉读作材料本性与“最好的创作，并不是模仿”。同名风险三处：《景德镇陶录》卷八、卷九作“陶说杂编”上／下（篇名含“陶说”而在另一书内）、《竹园陶说》为另一书、《饮流斋说瓷》另引；邻条用字蓝浦／兰浦、《镇器原起》／《镇器原始》不并入本 KU。",
+    "雪宦绣谱——末章章名两写：夏燕靖两版作“绣通”，田自秉作“绣道”，四册无一提及另一写法。记录者两说：高丰与夏燕靖两版作“张謇记录整理”（两版另给张謇撰序），田自秉只作“有人根据……沈寿的口述”。断代三说：清末（夏燕靖两版）、清末民初（田自秉）、晚年（高丰）。性质四说：高丰“系统而完整的理论著作”、田自秉“总结了苏绣的艺术实践经验”、2009“数十年刺绣经验的积累……民间刺绣经验的小结”、2016 同句而“积累”改“总结”。数值仅夏燕靖两版给：八章、十八（18）种针法、88 种色线、745 种“因染而别”。夏燕靖 2016 L4139 把丁佩《绣谱》系于“明代”，与田自秉“清末道光时”冲突，同句又把《农政全书》写作《农事全书》；丁佩《绣谱》章名两写（工程／程工）。版本仅田自秉册末给：山东画报出版社 2004 年。",
+    "马可波罗游记——作者身份四说：意大利旅行家（2009，附生卒 1254—1324）、旅行家和商人（2016）、“传说中的”（赵农）、“欧洲最伟大的旅行家”（高丰）。成书方式两说：2009 作“回国后写成了”，2016 作“在监狱里他口述……由狱友鲁斯蒂谦（Rustichello da Pisa）写出”。又名名单两版不同：2009 作《东方闻见录》，2016 删去而增 Il Milione。两版分 4 卷、229 章、地名百多个／100 多个全同，可判同一底稿。大都人口两说：夏燕靖两版“约十万户”，赵农“人口百万”（单位不同，两说不互校）。同一引文“百物输入之众，有如川流之不息”分属两处：赵农证商业繁盛，田自秉证丝织原料巨量输入与劳民伤财。2016 L4070“大街宽 24 四步”为 2009“二十四步”的讹写。田自秉作《马可波罗游记》不带间隔号，参考书目作福建科学技术出版社 1981 年。李立新册“波罗子”为法门寺器物名，已排除。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 7,
+    "updated_knowledge_units": 2,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "All seven units are confidence=medium, consensus=tentative, evidence_status=source_backed. No unit is marked confirmed, externally verified, or L1-L7 verified. Intra-source and cross-source contradictions are recorded rather than smoothed: 夏燕靖 2016 on 丁佩《绣谱》 (明代 / 田自秉作清道光) and on 《农事全书》, 夏燕靖 2016 on 大都街宽 (“24 四步”), 赵农 on 诗经 (“《诗经》《诗经》”), 赵农 on 程氏墨苑 (误插章节标题截断句子), 夏燕靖 2016 on 诗经 (图题截断引文).",
+    "update_detail": "persons/shen-shou.md and persons/zhang-jian.md each had one paragraph replaced. Both edits withdraw statements that this batch falsifies (no publication entry for 《雪宦绣谱》 in both; no person unit for 沈寿 in the latter) and point at the new unit with an explicit division of labour. Line counts are unchanged (134 and 136); byte counts rise by 95 and 64.",
+    "debt_cleared": "Both person units carried 《雪宦绣谱》 as an explicit research debt / structural gap. With publications/xuehuan-xiupu.md created, that debt is closed and the withdrawal is recorded in the apply plan with candidate_id null."
+  },
+  "governance_notes": [
+    "sub_type 用值超出 taxonomy 枚举：`.agents/skills/01-intake/ingest/references/taxonomy.md` 的 publication 枚举为 monograph | journal_article | manifesto | report | textbook | edited_volume，而磁盘上已有 classic（吕氏春秋、孟子、墨经、山海经、周礼，本批新增诗经）、reference_work（古今图书集成，本批新增程氏墨苑）、lexicographic_work（说文解字）三种值。audit_repo.py 与 audit_content_quality.py 均不校验该枚举，故未阻断。本批不新增第四种值（陶说、雪宦绣谱、马可波罗游记、王祯农书一律用 monograph），但该漂移已存在且未登记，记此以备后续治理。",
+    "候选 slug 存在误拼：make-polou-youji（polo 误作 polou）、ziyan-yizhi（梓误作子，见上一批）。文件名一律取连字符规范形式，误拼不采用。"
+  ],
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 83,
+      "needs_evidence": 5024,
+      "rejected": 232,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 111
+    },
+    "structural_health": "122/130 (unchanged from baseline)",
+    "knowledge_structure": "55/65 (unchanged)",
+    "evidence_chain": "55/55",
+    "type_coverage": "8/8 (publication units 15 -> 22)",
+    "name_collision": "同名跨类型组 1 / 有消歧说明 2 / 无消歧说明 0 (unchanged; persons/mengzi.md + publications/mengzi.md)",
+    "runtime_index": "06-runtime/automation/index.md refreshed by build_runtime_index.py",
+    "sync_closure": "run_sync_closure.py --refresh-generated --full --check-generated: sync closure passed (250 tests, 16 subtests, 19 steps)",
+    "pre_commit_rule_drift": 0,
+    "apply_plan_hash_check": "all 9 rows verified against disk independently (7 create after-sha256/bytes/lines, 2 update after-sha256 plus before-fingerprint); both update before-fingerprints were produced by reversing a single paragraph replacement with an assertion on each replacement",
+    "ledger_invariants": "ledger rows 35, distinct candidate ids 21, 7 x 3 canonical transitions + 14 rejected"
+  },
+  "boundaries": [
+    "No commit or push; working tree only.",
+    "No branch or extra worktree created; main is the only line.",
+    "02-sources/ untouched (read-only); the source directory actually read is 03基础书籍-md文档/.",
+    "No external verification platform used; evidence is limited to the six Markdown sources.",
+    "No visual verification of printed pages, plates or objects.",
+    "primary_theme and topic_memberships left empty because Theme/Topic nodes are not materialized; recorded as research debt.",
+    "No formal relations written; cross-unit co-occurrence is noted as non-assertive prose only.",
+    "Source disagreements (dates, chapter names, quoted wording, attribution, scope of a book) are kept as parallel notes; none is adjudicated.",
+    "The two 《韩非子》 publication candidates (xdup-0329, doc_count = 2) remain needs_evidence; the doc_count = 3 publication layer is now fully closed but the book itself still has no entry.",
+    "Books 7+ are untouched by user instruction; only Books 1-6 were read."
+  ]
+}

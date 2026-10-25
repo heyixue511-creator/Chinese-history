@@ -1,0 +1,299 @@
+===== xdup-0379 影青
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-139 L5617-L5630 slug=yingqing state=needs_evidence
+S: 景德镇瓷器的一种青白釉瓷，又称“映青”，属青白瓷系；因胎质白薄、透光玉润而有“假玉”之说。宋代景德镇吸收定窑方法，在青白釉下刻画花卉纹饰，形成“影青刻花”，刀法明快、纹饰流畅、釉色温润清亮。
+F: {"definition": "景德镇青白釉瓷，又称映青，胎质白薄透光，属青白瓷系。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-53 L3611-L3613 slug=ying-qing state=needs_evidence
+S: 宋代盛行的陶瓷品种，特征是在釉厚处或花纹凹线处微呈淡青色；又称“映青”“隐青”“罩青”。烧造地点遍及江西、福建、广东、广西、安徽、浙江、云南，景德镇影青为代表作品。
+F: {"definition": "釉厚处或花纹凹线处微呈淡青色的宋代陶瓷品种，又称映青、隐青、罩青", "period": "宋代"}
+===== xdup-0380 忍冬纹
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-64 L2853-L2853 slug=rendong-wen state=needs_evidence
+S: 通称卷草，六朝流行植物纹；有忍冬花（金银花）枝叶变化说与莲叶演变说，一般三叶片与一叶片相对排列，有单叶双叶、顺向相背等变化；原文认为汉代铜镜边饰卷云纹是其前身，唐代演变为繁复卷草，近代称香草。
+F: {"definition": "六朝流行的卷草状植物纹，通称卷草。", "period": "六朝至唐"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-62 L918-L928 slug=ren-dong-wen state=needs_evidence
+S: 魏晋南北朝流行的外来纹样之一，东晋北魏之后与莲花纹一起渗透于铜器、金银器、砖瓦、石刻、藻井、柱础等造物类型（图2-9 忍冬纹龛楣石刻，北朝）；原文认为忍冬被认为是莲花的演变，至唐代又演变为繁复的卷草，成为中国造物装饰的主题。
+F: {"definition": "魏晋南北朝流行的植物纹样，被认为是莲花的演变，唐代演变为卷草。", "period": "东晋北魏至唐"}
+===== xdup-0381 戗金
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-40 L1522-L1536 slug=qiang-jin state=needs_evidence
+S: 在针刻基础上发展起来的漆器装饰技法，成为秦汉时期漆器的代表。原文将其与漆绘、油绘、针刻并列，说明有的刻纹中再用色彩勾点，使器物更显华美。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-37 L3887-L4151 slug=qiangjin state=needs_evidence
+S: 宋代新创造的漆器装饰技法：用特制工具在漆面雕刻花纹，在刻纹中上漆后再填金粉；起源于战国针刻。填银称戗银、填彩漆称填彩，花纹仍呈刻划的阴文；与描金同属金漆主要品种。在漆器上雕刻花纹后填以金彩；《辍耕录》记戗金戗银法，以黑漆为地、针刻画，再以新罗漆调雌黄（金）或韶粉（银）嵌缝，铺金银薄揩实。
+F: {"definition": "在漆面刻花纹、刻纹上漆后填金粉的漆器装饰技法；原文亦称漆器雕刻后填金彩，与戗银并列。", "period": "宋至元（原文分述）"}
+===== xdup-0382 披帛
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-48 L2200-L2218 slug=pi-bo state=needs_evidence
+S: 唐代女装组成部分，一般用轻薄纱、罗或绢裁成长条，长度在两米以上，绕缠两臂间，行走时随手臂摆动飘舞；讲究者加饰彩画。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-113 L2731-L2762 slug=pibo state=needs_evidence
+S: 隋唐女子衣着的组成部分，一般用轻薄的纱、罗或绢裁成长条，长度在两米以上，绕缠在两臂间；《捣练图》《宫乐图》及陶俑、唐三彩、墓室壁画、石刻画中均见。
+F: {"definition": "轻薄纱罗绢裁成的长条，绕缠两臂间。", "period": "隋唐"}
+===== xdup-0385 提花机
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-46 L4578-L4599 slug=jacquard-loom state=needs_evidence
+S: 提花机在汉代已普遍使用，出现多综多蹑织机，能织复杂花纹；蹑为脚踏杆，汉时已达120蹑。东汉还发明花楼式束综提花机，以线综调配提花经线，提高图案质量，使纹饰有大面积花样变化。隋唐时期提花机不断改进，使唐代织物花团锦簇、富丽堂皇。
+F: {"definition": "以多综多蹑或花楼束综调配经线、织造复杂花纹的织机。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-109 L1731-L1760 slug=tihuaji state=needs_evidence
+S: 秦汉丝织业采用的先进织机；原文称官营丝织作坊已采用提花织机生产锦绣绮罗，东汉王逸《机妇赋》描绘其生产情形，马王堆1号汉墓绒圈锦证明两千多年前已有织造起绒的提花机。
+F: {"definition": "按花纹要求提综开口、织造复杂织物的织机。", "period": "秦汉"}
+===== xdup-0386 搪瓷
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-146 L7901-L7952 slug=enamelware state=needs_evidence
+S: 搪瓷是一种在金属表面附有珐琅质层的制品，瓷釉以铅、锡、硼砂、石英等制成。搪瓷制造先冲压金属坯胎，利用洒喷、浸渍等方法涂敷一层或多层珐琅浆，采用印花、喷花、描花、贴花、洒花等装饰，经干燥、烧制而成；瓷釉和金属坯胎的热涨系数应该相同，否则会出现珐琅质龟裂。搪瓷具有光滑、轻巧、耐化学腐蚀等特点，文革时期脸盆、缸子、碗、盘、暖水瓶外壳等一度热销，上海、西安制品闻名。
+F: {"definition": "在金属表面附珐琅质层的制品，瓷釉以铅、锡、硼砂、石英等制成。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-54 L5353-L5357 slug=tangci state=needs_evidence
+S: 用铅、锡、硼砂、石英等制成玻璃质瓷釉、匀涂在钢坯器体上经烧制而成的工艺品；旧称“洋瓷”，原文称景泰蓝和画珐琅已是这类工艺制作的前身。
+F: {"definition": "用铅、锡、硼砂、石英等制成玻璃质瓷釉，匀涂钢坯器体上烧制而成的工艺品。", "period": "20世纪20年代前后中国设厂，解放后普及"}
+===== xdup-0387 敦
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-45 L1036-L1043 slug=dui state=needs_evidence
+S: 敦是盛黍稷的食器，为战国时期新创的一个品种。它由两个半圆组成，合之成为一球形；敦的三足和盖的三钮也都是圆形，整个器体构成一个圆的统一体，别具风格。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-04 L1487-L2252 slug=dui-vessel state=needs_evidence
+S: 敦是一种圆球体的炖肉器具，上下各为半球体，上半部压力较重，能加快肉食熟烂速度、提高食品质量。春秋战国敦非常兴盛，一般大口、圆腹、二环耳、三短足。敦与簋作用相似但取代簋的地位，后人俗称“瓜鼎”。
+F: {"definition": "圆球体炖肉器具，上下各为半球体，上半部压力较重；春秋战国流行，大口、圆腹、二环耳、三短足。"}
+===== xdup-0388 文质
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-65 L1169-L1174 slug=wen-zhi state=needs_evidence
+S: 文质是我国古代文论的基本概念和术语，包括‘文’与‘质’两个方面：文指文采，质指实质。其出典为孔子《论语·雍也》‘质胜文则野，文胜质则史，文质彬彬，然后君子’，意即只有学问而无文采则粗野，过分渲染文采而无内涵实质则虚饰，君子须文采与内涵兼具。后世文论沿用‘文’与‘质’，多指语言风格范畴的华美和质朴，如刘勰《文心雕龙》即从作品内容与形式的统一上立论。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-46 L1455-L6138 slug=wenzhi state=needs_evidence
+S: 我国古代文论基本概念，包括“文”（文采）与“质”（实质）；出典为孔子《论语·雍也》“质胜文则野，文胜质则史，文质彬彬，然后君子”，后世文论多指语言风格的华美与质朴。孔子学说中关于文与质关系的审美观念，原文称为支配和制约设计的一整套行为准则。
+F: {"definition": "文采与实质的关系范畴。", "period": "先秦至后世"}
+===== xdup-0389 斗拱
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-47 L1273-L2890 slug=dougong state=needs_evidence
+S: 由于木结构建筑特征，立柱和横梁成为房屋主要构架，斗拱起到分散屋顶和房檐重量的作用。商周时期斗拱已见雏形，可在一些青铜器上见到样式，如商代妇好墓“偶方彝”上有斗的雏形，西周“令簋”下座也用斗型装饰，战国铜器纹饰中有较完整斗拱形象。作者认为斗拱由此成为建筑主要特征，增加建筑美观、稳定、坚实，并加深房檐外挑深度。汉代斗拱技术有直拱、人字拱、单层拱、多层拱的运用，并出现一斗二升、一斗三升，东汉还有一斗四升；即在拱上出现两组短木，一则节省木材，二则减少结构和重量。
+F: {"definition": "置于立柱横梁之间、分散屋顶和房檐重量的木构构件"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-82 L4455-L4460 slug=dougong state=needs_evidence
+S: 我国古代建筑特有构件，位于柱子承接屋顶的部分，由若干方木与横木垒叠而成，用以支撑伸出的屋檐并将重量转移到柱子上；唐宋时期主要为结构构件，到明清演变为以装饰构件为主。
+F: {"definition": "柱顶承托屋檐的木构构件", "period": "唐宋结构为主，明清装饰为主"}
+===== xdup-0390 新石器时代
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-22 L401-L401 slug=xinshiqi-shidai state=needs_evidence
+S: 原文以磨制石器为标志的时代划分，称把经过选择的石头打成石斧、石刀、石锛、石铲、石凿并磨光、钻孔、装柄或穿绳，这种磨制石器的时代“称为‘新石器时代’”。
+F: {"definition": "以磨光、钻孔并装柄或穿绳的磨制石器为标志的时代。", "period": null}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-19 L312-L350 slug=xinshiqi-shidai state=needs_evidence
+S: 以使用磨制石器为标志的石器时代最后阶段，约从1万—8千年前开始，结束于距今5000—2000多年不等；出现农业、牧业、定居村落和制陶。
+F: {"definition": "以磨制石器为标志、出现农业与定居的石器时代晚期阶段。", "period": "约距今1万—8千年开始，结束于距今5000—2000多年"}
+===== xdup-0391 明光铠
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-98 L1858-L1866 slug=ming-guang-kai state=needs_evidence
+S: 北周新兴的铠甲，胸前背后装左右两块“圆护”，由铜铁制成或打磨光亮似镜，俗称“护心镜”。原文将其列为魏晋南北朝铠甲三种基本形制之一。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-54 L2321-L2334 slug=ming-guang-kai state=needs_evidence
+S: 北周新兴的铠甲形制，胸前背后装左右两块“圆护”，由铜铁制成或打磨光亮似镜，俗称“护心镜”；原文将明光铠与晋“筒袖铠”、南北朝“衲裆铠”并列为三种基本铠甲形制。
+F: {"definition": "胸前背后装左右两块圆护、打磨光亮似镜的铠甲，俗称护心镜。", "period": "北周"}
+===== xdup-0392 明器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-20 L889-L895 slug=ming-qi state=needs_evidence
+S: 明器是我国古代专为随葬而制作的器物，又称‘冥器’或‘盟器’。它通常模仿各种礼器或日用器皿、工具、兵器的形状制成，除器皿外还有人、家畜及鸟兽形象，以及车船、家具、建筑物等模型，从新石器时代开始历代墓中都有发现。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-38 L1143-L1153 slug=mingqi state=needs_evidence
+S: 明器是专为随葬制作的器物，又称冥器、盟器，模仿礼器、日用器皿、工具、兵器及人、家畜、鸟兽、车船、家具、建筑等，新石器时代以来历代墓中皆有；战国陶窑每窑约3—10平方米，比西周大5倍，明器数量巨大。
+F: {"definition": "专为随葬制作的器物", "period": "新石器时代以来"}
+===== xdup-0393 景泰蓝
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-49 L4373-L5178 slug=cloisonne state=needs_evidence
+S: 明代著名金属工艺，正式学名铜胎掐丝珐琅；“景泰蓝”一词辛亥革命前后才采用，“蓝”非专指蓝色而是“发蓝”简称；除万历外各代几乎都有生产，以景泰年间最精。景泰蓝是铜胎掐丝珐琅工艺品；清代康熙时期掐丝细密均匀但釉色不及明代，乾隆时期最繁荣，新创粉红、绿、黑等色并多用锦地，清末因出口一度复兴。原文未给完整定义；据原文，其工序涉及掐丝、点蓝，品种含盘、瓶、炉、罐等欣赏品和台灯、果盘、文具、烟具、小盒等实用品，以北京为生产中心。
+F: {"definition": "铜胎掐丝珐琅的通称。", "period": "明清至现代（原文分述）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-95 L5346-L5385 slug=cloisonne state=needs_evidence
+S: 北京传统金属工艺品，文革前夕达生产高潮、为出口换汇主要品种；文革中主题图案被迫改为“农林牧副渔”“大海航行靠舵手”、样板戏题材，广交会现场遭红卫兵封锁，周恩来劝说后解禁。
+F: {"definition": "北京传统金属工艺品，文革中受政治题材冲击。", "period": "新中国"}
+===== xdup-0394 月份牌
+-- 2004-gaofeng-zhongguo-shejishi:cand-07-17 L5336-L5365 slug=yuefenpai-calendar-poster state=needs_evidence
+S: 把中国传统农历本形式与商业广告相结合、把传统木版年画与西方水彩技法相结合而形成的广告形式。最早产生于19世纪末的上海，流行于20世纪上半叶；本书称最早标有‘月份牌’字样者为1896年上海鸿福来票行随彩票赠送的《沪景开彩图》，二三十年代达到鼎盛。
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-41 L8170-L8209 slug=yuefenpai state=needs_evidence
+S: 月份牌是英美烟草公司邀请画家绘制、随赠送发布广告的广告形式，大药房、保险公司相继效仿。题材多为中国传统戏曲人物故事、时装美女和花鸟鱼虫，彩图印制、广为散发，代表设计者有郑曼陀、杭穉英、金梅生、李慕白。
+F: {"definition": "以赠送方式发布广告、多绘戏曲人物故事、时装美女与花鸟鱼虫的彩印广告画。"}
+===== xdup-0395 柴窑
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-37 L3514-L3514 slug=chai-yao state=needs_evidence
+S: 传说后周创建的瓷窑，窑址在郑州，柴世宗批其款式“雨过天青云破处，者般颜色作将来”；记载最早见于明代陶瓷著作，实物未见，窑址从未发现，是否存在至今悬而未决。
+F: {"definition": "传说后周创建的瓷窑，以“雨过天青”色著称；实物与窑址均未发现", "period": "五代后周（传说）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-79 L2974-L2981 slug=chaiyao state=needs_evidence
+S: 五代文献所记瓷窑，有“雨过天青”“青如天，明如镜，薄如纸，声如磬”之说，窑址在郑州；原文明确称其至今仍是无确切考据的疑问。
+F: {"definition": "五代传说中的名窑。", "period": "五代"}
+===== xdup-0396 案
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-04-152 L2301-L2301 slug=an state=needs_evidence
+S: 案起到桌子的作用，主要以饮食和书写为主；案多为矮足或无足，漆彩绘制。
+F: {"definition": "起桌子作用、以饮食和书写为主的家具。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-35 L1374-L1399 slug=an-furniture state=needs_evidence
+S: 春秋战国主要家具；原文称案本义为木制盛食物的矮脚托盘，亦代桌，《考工记·玉人》“案十有二寸”，战国至两汉多木制髹漆饰彩纹，后演变为书案、平头案等长形承具，按材料有陶案、木案、漆案、铜案。
+F: {"definition": "矮脚承具，本义为木制盛食托盘，后指长形桌案。", "period": "春秋战国至两汉"}
+===== xdup-0397 梅瓶
+-- 2004-gaofeng-zhongguo-shejishi:cand-04-16 L3284-L3312 slug=mei-ping state=needs_evidence
+S: 宋代新创造的盛酒器造型，小口、短颈、丰肩、肩以下逐渐收敛，具有挺拔刚劲、峻峭雄健的审美意味；通高一般约40厘米，口径仅4—5厘米。宋以后其他瓷酒具造型不断变化，梅瓶与玉壶春瓶一直沿用，成为中国古代传统酒瓶造型的典型式样。
+F: {"period": "宋"}
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-141 L5631-L5659 slug=meiping state=needs_evidence
+S: 宋代瓷瓶形制，小口、短颈、圆肩、长身，尤以小口窈窕为特色，瓶有秀丽媚妩之韵、梅骨清像之姿；深腹稳重、容量颇大，多为盛酒器。南北方的定窑、龙泉窑、耀州窑、磁州窑等均有此形制，区别在纹饰、胎质、釉色；另有小口圆肩鼓腹的梅瓶变化，为定窑、吉州窑产品。
+F: {"definition": "宋代瓷瓶形制，小口短颈圆肩长身，深腹稳重，多为盛酒器。"}
+===== xdup-0398 楼船
+-- 2009-xiayanjing-zhongguo-shejishi:cand-02-53 L1090-L1558 slug=lou-chuan state=needs_evidence
+S: 楼船是春秋战国时期战船的一种，结构一般为三层，也有的达5层甚至10层，是当时水军的主力船型。杜佑《通典》称其‘船上建楼三重，列女墙，战格、树幡帜，开驾窗矛穴，置抛车、垒石、铁斗，状如城垒’。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-16 L1892-L2371 slug=lou-chuan state=needs_evidence
+S: 古代战船中最有名的一种，高10余丈、分数层；汉代广州船舶以楼船为最大，高三四层，设女墙战格，篙、桨、橹、帆、舵、碇俱全。
+F: {"definition": "古代多层战船，高10余丈，设女墙战格，装备篙桨橹帆舵碇。", "period": "秦汉至魏晋南北朝"}
+===== xdup-0399 歙砚
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-85 L7055-L7124 slug=she-yan state=needs_evidence
+S: 歙砚相传开采于唐代开元年间的婺源山中，此地属歙州管辖，宋代就颇具规模，当时的歙砚中有“龙尾砚”与南唐澄心堂纸齐名。元末至清初一度停止开采，乾隆年间重新恢复采石制砚的活动；歙砚粒度细腻、匀称密实，质地泛青灰色，并有眉子、罗纹、金星、金纹等天然花纹。
+F: {"definition": "产于婺源（属歙州）的砚台，唐代开元年间相传已开采，石质青灰，有眉子、罗纹、金星等花纹。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-75 L4800-L4800 slug=sheyan state=needs_evidence
+S: 歙砚产安徽，石料出于婺源龙尾山，因古称歙州得名；石质细润、适于发墨，佳者显现金星点，作品有竹节砚、芦蟹砚、苦瓜砚、风字砚、莲叶砚、云龙砚、双鲤砚、明月天心砚等。
+F: {"definition": "安徽歙州所产石砚，石料出婺源龙尾山。", "period": "宋代文献已见记载，清代继续生产"}
+===== xdup-0400 沙船
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-153 L4942-L5355 slug=shachuan-ship state=needs_evidence
+S: 沙船是宋代海船制造中出现的一种平底船样式。
+F: {"definition": "宋代出现的平底海船样式。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-112 L2851-L2863 slug=shachuan state=needs_evidence
+S: 江苏崇明创制的多桅多帆平底船，便于掌握风向，吃水浅、速度快，可载重5000石左右。
+F: {"definition": "多桅多帆平底海船，崇明创制。", "period": "唐"}
+===== xdup-0401 清代家具三大名作
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-09 L3731-L3736 slug=qingdai-jiaju-sanda-zuo state=needs_evidence
+S: 清代家具以苏作、广作和京作为代表，被称为清代家具三大名作。三者造型与装饰设计各具地方特色，并且一直保持到现在。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-74 L4559-L4572 slug=qingdai-jiaju-sanda-mingzuo state=needs_evidence
+S: 清代家具以苏作、广作、京作为代表，合称清代家具三大名作；三者造型与装饰设计各具地方特色，并一直保持到现在。
+F: {"definition": "苏作、广作、京作三种清代家具地方风格", "period": "清代"}
+===== xdup-0402 火花
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-12-51 L8210-L8221 slug=huohua state=needs_evidence
+S: 火花即火柴商标的设计，火柴19世纪中期由英国传入中国，随后许多地方开设火柴生产厂商。火花为收藏家带来艺术欣赏天地，但随着打火机流行，火柴在20世纪末慢慢退出生活范围。
+F: {"definition": "火柴商标的设计，兼具商标与收藏欣赏功能。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-86 L5386-L5400 slug=huohua-matchbox-label state=needs_evidence
+S: 火柴商标的俗称，文革时期重要收藏对象；设计内容含毛主席语录、革命圣地、工农兵形象、向日葵、三面红旗、长江大桥等“革命性”图案。
+F: {"definition": "火柴商标的俗称，文革时期的重要商品设计项目。", "period": "文革"}
+===== xdup-0403 犀皮
+-- 2004-gaofeng-zhongguo-shejishi:cand-sup-30 L3022-L3036 slug=xipi state=needs_evidence
+S: 漆器装饰工艺与品种之一。安徽马鞍山东吴朱然墓出土的一对犀皮鎏金铜扣漆耳杯，用皮胎制成，器身髹黑、红、黄三色漆，花纹如行云流水；本书称这是迄今所发现最早的犀皮实物，是漆器装饰工艺的新创造。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-39 L3891-L3893 slug=xipi state=needs_evidence
+S: 宋代新创造的斑纹漆器：先用稠厚色漆在器胎上涂出凹凸不平漆层，干后用对比鲜明的色漆分层涂，最后用磨炭打磨，因漆层高度不同显出片云、圆花、松鳞等斑纹；原文认为实为六朝斑漆的发展，俗称虎皮漆或菠萝漆，宋时有犀皮行专门生产、成本低廉。
+F: {"definition": "以多层色漆形成凹凸漆层、打磨后显斑纹的漆器品种。", "period": "宋代"}
+===== xdup-0404 独轮车
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-46 L3317-L3405 slug=dulunche state=needs_evidence
+S: 独轮车的重心低，操作灵活，便于山地运输；诸葛亮在蜀国山地军事运输中推广使用独轮车，后来独轮车成为蜀地及北方许多地区人们的家常运输工具。原文又称鹿车即独轮车，在人们日常生活中普遍使用，以适应山地的特点、提高运输能力。
+F: {"definition": "重心低、操作灵活的独轮运输工具，便于山地运输；诸葛亮曾用于蜀军山地运输，后成为民间家常运输工具，亦称鹿车。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-76 L4583-L4586 slug=dulunche state=needs_evidence
+S: 以独轮为标志的手推车，车轮多为木制，利用杠杆原理把负载抗力点靠近车轮，载货载人平稳轻巧，适合崎岖路面；大约西汉晚期出现，西汉时类似鹿车或辘轳车，木牛流马据考即独轮车。
+F: {"definition": "独轮手推车", "period": "约西汉晚期出现"}
+===== xdup-0405 玉壶春瓶
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-142 L5631-L5659 slug=yuhuchun-ping state=needs_evidence
+S: 宋代典型瓷瓶造型。口部外斜、长颈削肩、鼓腹圆足。
+F: {"definition": "宋代典型瓷瓶，口部外斜、长颈削肩、鼓腹圆足。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-89 L3682-L3682 slug=yuhuchun-ping state=needs_evidence
+S: 元代最有特色的瓶式，口部呈喇叭形，颈部修长，腹圆圈足（原文如此），稳重优美；其他各种瓶类大多由玉壶春为基本形态变化而成，如蒜头瓶、凤尾瓶等。
+F: {"definition": "喇叭口、长颈、腹圆、圈足的瓶式（原文作“腹圆圈足”）", "period": "元代"}
+===== xdup-0406 玻璃
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-144 L7901-L7952 slug=glass state=needs_evidence
+S: 玻璃通常以石英砂、纯碱、长石、石灰石等材料为重要原料，并加入澄清剂、着色剂、乳浊剂，经过混合、熔化、澄清、匀化、退火处理而成。玻璃多为硅酸盐玻璃，多以吹塑和模压技术为主，广泛用于建筑、包装、生活用品、照明；中国玻璃制造业从上海开始，1949年后北京、上海、大连、山东、四川北碚等地建造玻璃厂。
+F: {"definition": "以石英砂、纯碱、长石、石灰石等为原料，经混合、熔化、澄清、匀化、退火制成的硅酸盐材料。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-76 L5335-L5337 slug=boli state=needs_evidence
+S: 原文未给严格定义；据原文，玻璃工艺作为大工业生产是近代的事，我国历史上曾出土几千年前的玻璃制品但制作方法所知甚少；成型主要用吹制和模压，装饰有琢磨、扩散、彩虹、施釉以及腐蚀、拉丝等。
+F: {"definition": "原文未给严格定义；作为大工业生产的玻璃工艺属近代，成型主要用吹制和模压。", "period": "近代至现代"}
+===== xdup-0407 甲骨文
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-02-30 L1053-L1647 slug=oracle-bone-script state=needs_evidence
+S: 甲骨文完整规范，使中国汉字第一次成为系统的文化体系；商朝用龟甲卜筮，占卜过程包括打磨龟腹甲背甲、去牛肩胛骨骨臼、钻孔、以蓍草烧灼，正面出现兆纹，“龟曰卜、蓍曰筮”。甲骨文内容广泛、记载明确，常见“王占曰”，作者认为商王借上天而言己事，商王是政教合一的领袖。甲骨文中还有“小藉臣”“小刈臣”“亚牧”“牧正”“刍正”“贞人”“巫”等官职记录。
+F: {"definition": "商代刻写在龟甲、兽骨上的占卜文字，原文称其使汉字第一次成为系统文化体系"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-07 L628-L635 slug=oracle-bone-script state=needs_evidence
+S: 商代甲骨文是目前所见我国最早文字，汉字使用史约3000年；甲骨文应是比较成熟的文字体系，汉字发展分甲骨文至小篆、秦汉隶书以下两阶段。
+F: {"definition": "商代刻于甲骨上的文字，我国现存最早成熟文字体系", "period": "商代"}
+===== xdup-0408 白瓷
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-05-76 L3515-L3538 slug=baici state=needs_evidence
+S: 北方的瓷系以白瓷最为著名；1971年在安阳北齐范粹墓中出土了一批白瓷器皿，有碗、杯、三耳罐等，证明了北朝时期制瓷业的繁盛和水平，这也是目前发现的最早的白瓷。北朝白瓷的釉色含铁稍高，呈乳青色，挂釉的胎质上尚有露胎部分，但已显示了白瓷的基本特征。白瓷的技术是将瓷土和釉色中的含铁量减少到最小程度，以保证瓷器的洁白程度。
+F: {"definition": "北方著名瓷系；以降低瓷土和釉中含铁量保证洁白，安阳北齐范粹墓出土白瓷为目前发现最早的白瓷。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-41 L2120-L2589 slug=bai-ci state=needs_evidence
+S: 北齐发明的白瓷，使用低含铁量的胎釉烧造，胎料较细腻，釉薄而滋润、呈乳白色，釉厚处泛青；白瓷出现后瓷分青、白两大体系。隋代已烧制成功并大量生产的瓷器品种，唐代成为重要品种；邢窑为代表，邢瓷洁白如银雪，釉白而微闪淡黄或淡青。
+F: {"definition": "用低含铁量胎釉烧成、釉色乳白的瓷器。", "period": "北齐"}
+===== xdup-0409 百工制度
+-- 2004-gaofeng-zhongguo-shejishi:cand-01-04 L941-L954 slug=bai-gong-system state=needs_evidence
+S: 商周奴隶制时期形成的官府手工业制度：“百工”指直接服务于王室、由官长率领的手工业者。作者引闻人军《考工记导读》称其从殷商到战国延续一千余年，是集中人力物力经营较大规模手工业的主要方式，并视其为古代设计发展的重要契机。
+F: {"definition": "直接服务于王室、有官长率领的官府手工业者及其制度", "period": "殷商至战国，或夏代已发轫"}
+-- 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-57 L827-L827 slug=bai-gong-zhi-du state=needs_evidence
+S: 周代礼法制度创立后列入国家组织制度的官手工业制度；《礼记·曲礼》载“天子之六工，日土工、金工、石工、木工、兽工、革工，典制六材”，所谓“百工”制度即在这些部门中建立，到春秋战国时期作为完整制度已趋成熟。
+F: {"definition": "周代官手工业制度，以土、金、石、木、兽、革六工分职，所谓“百工”即其整套制度。", "period": "周代至春秋战国"}
+===== xdup-0410 相缬
+-- 2009-xiayanjing-zhongguo-shejishi:cand-05-08 L2816-L2829 slug=xiangxie state=needs_evidence
+S: 缬是我国古代纺织品的一种“防染法”染花工艺，金代“相缬”继承该染法，且多为民间所用，一般作单色加工，朴实大方。少数供官府呈作贡品的“相缬”加工复杂，套染出多彩纹样，具有晕渲烂漫、变幻迷离的装饰效果。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-50 L3495-L3502 slug=xiangxie state=needs_evidence
+S: 金代纺织工艺品种，继承古代纺织品“防染法”染花工艺“缬”，多为民间所用，一般作单色加工，朴实大方；少数供官府呈作贡品的“相缬”加工复杂，套染出多彩纹样，具晕渲烂漫、变幻迷离的装饰效果。相州产“相缬”。
+F: {"definition": "金代相州产的防染印花纺织品", "period": "金"}
+===== xdup-0411 石榴裙
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-49 L2200-L2218 slug=pomegranate-skirt state=needs_evidence
+S: 唐代流行的一种鲜艳红裙；一般百姓穿不起安乐公主式百鸟毛裙，遂以颜色和式样取胜，石榴裙因而流行，敦煌壁画与唐代绘画可见裙制变化。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-48 L2731-L2774 slug=shiliu-qun state=needs_evidence
+S: 唐代流行的鲜艳红裙，原文称其色如石榴之红、绘石榴大花，并附“拜倒在石榴裙下”俗语与唐明皇、杨贵妃传说。
+F: {"definition": "唐代鲜艳红色、饰石榴花的裙款。", "period": "唐"}
+===== xdup-0412 租庸调
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-25 L3022-L3022 slug=zuyongdiao-system state=needs_evidence
+S: 唐初的租赋劳役制度，与均田制并行，原文称对经济发展起一定促进作用。
+F: {"definition": "唐初租赋劳役制度", "period": "唐初"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-11 L2463-L2639 slug=zuyongdiao state=needs_evidence
+S: 唐代赋役制度，原文记每丁年纳绢2丈、绵3两或麻布2丈5尺、麻3斤，并称唐创制“输庸代役”租庸调法以减轻民众负担。
+F: {"definition": "唐代以绢、绵或麻布、麻缴纳的赋役制度，含输庸代役。", "period": "唐"}
+===== xdup-0413 窑变
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-47 L3588-L3593 slug=yao-bian state=needs_evidence
+S: 钧瓷釉中铜元素经还原焰烧制呈现绿或紫红斑，在青釉上打破一色釉的单调、形成对比妍丽效果，这种色斑变化称“窑变”；最初可能偶然形成，后在实践中认识规律、人工安排达到预期效果。
+F: {"definition": "钧瓷铜元素还原呈绿或紫红斑、打破青釉一色单调的色斑变化", "period": "宋代钧窑"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-20 L3160-L3179 slug=yaobian state=needs_evidence
+S: 钧窑烧制过程中因配料掺入铜的气化物（原文如此）而产生的釉色变化，使红、蓝、青、白、紫交相融汇、灿若云霞。原文称此为我国制瓷史上的一大发明。
+F: {"definition": "钧窑釉料掺铜的气化物（原文如此）在烧成中形成的绚丽变化", "period": "宋代"}
+===== xdup-0414 端砚
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-86 L7055-L7124 slug=duan-yan state=needs_evidence
+S: 端砚石出自广东肇庆斧柯山中，肇庆属端州管辖，山中有端溪蜿蜒，砚石即在水畔山间。端砚石从唐代武德年间开采以来闻名天下，宋代时山体崩塌几乎湮没，明代后期开始复采，清代端砚重新复兴，其砚石古朴典雅，深受文人喜爱。
+F: {"definition": "产于广东肇庆（端州）斧柯山的砚台，唐代武德年间开采，石质古朴典雅。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-47 L3924-L4798 slug=duanyan state=needs_evidence
+S: 端州所产砚台，色泽莹润，原文将其与歙州歙砚并称，视为全国第一；歙砚石质细腻。端砚产广东端州（今肇庆），唐代已著名，清代制作登峰造极；以优质端溪石料及天然“眼”为贵，最名贵者称“鸲鹆眼”，雕刻题材有花鸟虫鱼云龙丹凤蝠鼠山水人物等。
+F: {"definition": "端州所产砚台，色泽莹润，宋代石雕名品。", "period": "宋代"}
+===== xdup-0415 簠
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-12 L1391-L1391 slug=fu-vessel state=needs_evidence
+S: 西周后期新增食器，仿竹器，浅腹，侧视呈斜边菱形状，用以盛稻粱；《周礼》称“簠，稻粱器也”，与盛黍稷的簋在器形上相区别。
+F: {"definition": "西周新增食器，仿竹器，浅腹，侧视斜边菱形，盛稻粱。", "period": "西周后期"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-151 L782-L782 slug=fu-vessel state=needs_evidence
+S: 簠为盛食器，多用于盛粮食；形体长方形，盖打开后为相同两器，器身与器盖各有四个短足；早期斜壁浅腹，后期变为直壁深腹。
+F: {"definition": "盛食器", "period": "原文未详"}
+===== xdup-0416 粤绣
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-19 L3855-L3887 slug=yuexiu state=needs_evidence
+S: 洋人称从广州工部购得的货物为“广货”，对刺绣也称“广绣”或“粤绣”，粤绣工人多是广东人和潮州人。光绪年间广东成立工艺局主管工艺品生产，潮州刺绣经汕头口岸输往新加坡、泰国、马来西亚；光绪二十六年（1900）经广东海关出口的绣品价值达49.675万两银。
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-36 L4665-L4671 slug=yuexiu state=needs_evidence
+S: 粤绣是广东刺绣，花纹繁缛、喜用百鸟鸡、色彩浓艳对比强烈，用马尾于轮廓缀绣并绣“间道风”飞白花纹，富有广东地方特色；潮州刺绣别称潮绣，另有高绣与金线勾边特点。
+F: {"definition": "广东刺绣，花纹繁缛、色彩浓艳，以马尾缀绣轮廓。", "period": "清代"}
+===== xdup-0417 紫口铁足
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-131 L5534-L5616 slug=zikou-tiezu state=needs_evidence
+S: 哥窑南宋官窑产品的样式。即器皿的足部和口沿露出铁褐色的胎质。
+F: {"definition": "哥窑南宋官窑产品样式，器皿足部和口沿露出铁褐色胎质。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-44 L3566-L3632 slug=zi-kou-tie-zu state=needs_evidence
+S: 宋代官窑特征之一；原文在官窑条下称“紫口铁足”，并在哥窑条下解释为瓷胎呈黑褐色、器皿边缘显出一条褐色的边。
+F: {"definition": "胎呈黑褐色、器皿边缘显褐色边的特征", "period": "宋代官窑、哥窑"}
+===== xdup-0418 紫砂陶
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-32 L4256-L4256 slug=zisha state=needs_evidence
+S: 宜兴窑特色产品，原料紫砂泥色泽紫红，另有白泥、绿泥、大红泥；深藏岩层下，风化研磨制器，经1000多度烧成，不挂釉，以造型取胜，“方非一式，圆不一样”。
+F: {"definition": "以紫砂泥制胎、不挂釉、以造型取胜的陶器。", "period": "明代（盛）"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-69 L4368-L5275 slug=zisha-tao state=needs_evidence
+S: 宜兴最有名的陶器，多做茶具；紫砂壶有泡茶色纯、隔夜不馊、用久味永、泥色生辉的特点，陶色有赤褐、淡黄、紫黑等，质地本色自然、以造型取胜。江苏宜兴传统陶艺，1950年11月恢复生产，1954年组织流散艺人，1955年成立紫砂生产合作社；任淦庭、吴云根等老艺人从事传统工艺研究与新产品开发，顾景舟与高庄合作“提璧茶具”。
+F: {"definition": "宜兴紫砂细泥等高温烧成的陶器，多作茶具", "period": "宋始烧，明代闻名，清代高峰"}
+===== xdup-0419 红木
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-147 L7953-L7964 slug=hongmu state=needs_evidence
+S: “红木”是20世纪末期中国社会重新出现的传统家具时尚，普通民众也重新崇尚实木家具。原文称当时对金属、胶木材料的家具也有一定程度的选择。
+F: {"definition": "20世纪末期重新流行的传统实木家具时尚。"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-81 L4573-L4580 slug=hongmu state=needs_evidence
+S: 明清以来对稀有硬木的统称，从一开始就不是某一特定树种的家具；红木性脆、味酸，南方又称“酸枝”，纹理有清晰如行云流水者，也有细腻近紫檀者。
+F: {"definition": "明清以来稀有硬木的统称，非单一树种", "period": "明清以来"}
+===== xdup-0420 细石器
+-- 2009-xiayanjing-zhongguo-shejishi:cand-01-14 L262-L277 slug=xishiqi state=needs_evidence
+S: 旧石器晚期石器器形普遍变小，因而有“细石器”之称，造型设计趋于多样化和复杂化。山西朔县峙峪文化属细石器初期（距今28135±1330年），发现石箭头、钺形小石刀等复合工具；山西沁水下川文化（距今23900年）出土上万件石制品，细石器镶嵌在木棍上使用。
+F: {"definition": "器形细小的石器"}
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-28 L365-L381 slug=xishiqi state=needs_evidence
+S: 旧石器晚期出现的细小石器类型，器形普遍变小，造型趋于多样复杂；峙峪文化为其初期代表，下川文化出土上万件石制品，细石器镶嵌在木棍上使用。
+F: {"definition": "器形细小、多用于复合工具的旧石器晚期石器类型。", "period": "旧石器时代晚期至中石器时代"}
+===== xdup-0421 经锦
+-- 2004-gaofeng-zhongguo-shejishi:cand-03-10 L2131-L2152 slug=jing-jin state=needs_evidence
+S: 汉代以经线彩色显花的提花锦，纬线只用一色，经线多至三色。图案同一色彩直行排列；同出的绒圈锦具立体效果，被视为近代漳绒或天鹅绒前身。
+F: {"definition": "用两种以至多种颜色经纬线织出图案花纹的提花织物"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-41 L2468-L2468 slug=jingjin state=needs_evidence
+S: 汉代“经丝彩色显花”的锦。纬线只用一色，经线多至三色，一种作地色、一种织花纹、一种织轮廓线；同一图案、同一色彩形成直行排列。马王堆汉墓出土多种经锦。
+F: {"definition": "汉代经丝彩色显花的锦，纬线一色、经线多至三色，同一图案同一色彩直行排列。", "period": "汉代"}
+===== xdup-0422 绞缬
+-- 2009-xiayanjing-zhongguo-shejishi:cand-03-79 L1760-L2145 slug=jiao-xie state=needs_evidence
+S: 魏晋南北朝应用广泛的防染印花工艺，一般为缝线缚结法，即扎结防染。花纹疏大者有鹿胎缬、玛瑙缬，细密者有鱼子缬等，亦可用谷粒包扎法形成细小的菱形圈。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-47 L2185-L2205 slug=jiao-xie state=needs_evidence
+S: 又称“撮缬”“撮晕缬”，民间又称“撮花”，是我国古代纺织品的一种“防染法”染花工艺；按花纹用针线缝扎或直接捆扎，抽紧使织物皱拢，染色时折叠处不易上染，形成晕色效果。
+F: {"definition": "以缝线捆扎防染形成晕色花纹的古代染花工艺。", "period": "东晋已流传，南北朝有鹿胎紫缬、鱼子缬"}
+===== xdup-0423 绫
+-- 2009-xiayanjing-zhongguo-shejishi:cand-04-33 L2113-L2116 slug=ling-silk state=needs_evidence
+S: 以素地起两至三枚经斜纹提花的丝织品，也可染成红、黄、绿、紫等色；绫以变化斜纹为地或由花纹组织而成，品种最多、产量高，唐绫追求大花纹，出现“可幅盘缔缭绫”。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-36 L2655-L2658 slug=ling state=needs_evidence
+S: 唐代丝织品大类，一般为素地起两至三枚经斜纹提花，也可染红、黄、绿、紫；唐绫品种最多、产量高，据《新唐书》有24处贡绫，并出现整幅大花纹“可幅盘缔缭绫”。
+F: {"definition": "以斜纹提花为主的丝织品。", "period": "唐"}
+===== xdup-0424 绿色设计
+-- 2009-xiayanjing-zhongguo-shejishi:cand-06-50 L4410-L4447 slug=lvse-sheji state=needs_evidence
+S: 绿色设计源于对现代技术文化引起环境及生态破坏的反思，核心是“3R”，即Reduce（节能）、Recycle（再利用）和Reuse（循环），要求减少物质能源消耗和有害排放，使产品及零部件便于分类回收再生。作者认为它不仅是技术考量，更是观念变革，要求把重点放在真正环保意义上的创新。
+-- 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-08 L5452-L5468 slug=green-design state=needs_evidence
+S: 源于对现代技术文化引起环境及生态破坏的反思，核心是“3R”（Reduce、Recycle、Reuse），要求在设计的每个决策中考虑环境效益，减少物质与能源消耗及有害排放，并使产品零部件便于分类回收和再生循环。
+F: {"definition": "着眼于人与自然的生态平衡，在设计过程每一决策中充分考虑环境效益、尽量减少环境破坏，核心为“3R”。", "period": "未详（原文未记）"}
+===== xdup-0425 编钟
+-- 2009-zhaonong-zhongguo-yishu-shejishi:cand-03-21 L1578-L1614 slug=bianzhong-chime-bells state=needs_evidence
+S: 编钟是礼仪乐器中的重物，商代编钟三个一组。商代铙到周代成为钟，铙柄保留为钟甬，钟甬侧加环为钟旋，钟偏挂并按大小排列成编钟。西周编钟八个钟一套，可演奏许多乐律，春秋战国时期达到高峰。
+F: {"definition": "按大小排列成组的礼仪乐器；商代三个一组，西周八个一套，春秋战国达到高峰。"}
+-- 2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-14 L1433-L1433 slug=bianzhong state=needs_evidence
+S: 周代一系列大小不等的钟挂在一个架上、能发出不同音律的青铜乐器；与单独悬挂的特钟相对，是周代礼乐制度的器物体现。
+F: {"definition": "一组大小不等、悬于一架的钟，能发不同音律；铭文有单篇也有合篇。", "period": "周代"}

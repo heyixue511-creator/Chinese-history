@@ -1,0 +1,56 @@
+{
+ "xdup-0167": {
+  "entity": "上海市首次手工业技艺人员授衔大会",
+  "target_ref": "04-knowledge/units/events/shanghai-shougongye-shouxian-dahui.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-07-08",
+  "action": "create"
+ },
+ "xdup-0168": {
+  "entity": "全国工艺美术展览会1959",
+  "target_ref": "04-knowledge/units/events/quanguo-gongyi-meishu-zhanlanhui-1959.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-07-06",
+  "action": "create"
+ },
+ "xdup-0169": {
+  "entity": "全国民间美术工艺品展览会",
+  "target_ref": "04-knowledge/units/events/quanguo-minjian-meishu-gongyipin-zhanlanhui.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-57",
+  "action": "create"
+ },
+ "xdup-0170": {
+  "entity": "南洋劝业会",
+  "target_ref": "04-knowledge/units/events/nanyang-quanyehui.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-16",
+  "action": "create"
+ },
+ "xdup-0171": {
+  "entity": "安史之乱",
+  "target_ref": "04-knowledge/units/events/anshi-zhiluan.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-12",
+  "action": "create"
+ },
+ "xdup-0172": {
+  "entity": "巴拿马赛会",
+  "target_ref": "04-knowledge/units/events/banama-saihui.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-06-17",
+  "action": "create"
+ },
+ "xdup-0173": {
+  "entity": "洋务运动",
+  "target_ref": "04-knowledge/units/events/yangwu-yundong.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-18",
+  "action": "create"
+ },
+ "xdup-0174": {
+  "entity": "盘庚迁殷",
+  "target_ref": "04-knowledge/units/events/pangeng-move-to-yin.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-50",
+  "action": "create"
+ },
+ "xdup-0175": {
+  "entity": "辛亥革命",
+  "target_ref": "04-knowledge/units/events/xinhai-geming.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-92",
+  "action": "create"
+ }
+}

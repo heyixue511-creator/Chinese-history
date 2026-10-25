@@ -1,0 +1,331 @@
+{
+ "work_package": "2026-10-25-term-doc2-batch-d",
+ "goal": "处理 term 类型 doc_count=2 重复组第四批 27 组（xdup-0417—xdup-0443，54 个候选）：全部 create，新建 27 个 term KU。",
+ "status": "applied",
+ "created_at": "2026-10-25T16:30:00+08:00",
+ "updated_at": "2026-10-25T17:05:00+08:00",
+ "inputs": {
+  "candidate_index_before_apply_fingerprint": "sha256:a7b08640b80f63eac95101a04dbeeb9b5ad8f1d9f2e4d9e41006668d02b9d40b（7,226,649 B，5,339 行）",
+  "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+  "prior_batch": "06-runtime/automation/2026-10-25-term-doc2-batch-c/manifest.json",
+  "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+ },
+ "scope": {
+  "group_rule": "term 类型、doc_count=2、在 term-doc2-batch-c 关闭后按 group_id 升序的前 27 个未关闭组",
+  "group_ids": [
+   "xdup-0417",
+   "xdup-0418",
+   "xdup-0419",
+   "xdup-0420",
+   "xdup-0421",
+   "xdup-0422",
+   "xdup-0423",
+   "xdup-0424",
+   "xdup-0425",
+   "xdup-0426",
+   "xdup-0427",
+   "xdup-0428",
+   "xdup-0429",
+   "xdup-0430",
+   "xdup-0431",
+   "xdup-0432",
+   "xdup-0433",
+   "xdup-0434",
+   "xdup-0435",
+   "xdup-0436",
+   "xdup-0437",
+   "xdup-0438",
+   "xdup-0439",
+   "xdup-0440",
+   "xdup-0441",
+   "xdup-0442",
+   "xdup-0443"
+  ],
+  "groups": 27,
+  "candidate_rows": 54,
+  "canonical_candidates": 27,
+  "applied_canonical_candidates": 27,
+  "rejected_candidates": 27,
+  "created_units": 27,
+  "updated_units": 0,
+  "no_delta_units": 0
+ },
+ "method": {
+  "semantic_step": "逐组复读两册候选摘要，比较定义、年代、器形、工艺与分类口径；同实体重复候选只保留 canonical；对来源地、年代、分期等冲突一律并列保留。",
+  "canonical_rule": "按内容主责册次指定 canonical；两册信息互补时以信息量较大者为主，另一册要点补入正文并保留来源。",
+  "decision_rule": "27 组全部 create；无 update、无 no_delta。",
+  "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（27 个 canonical）；needs_evidence -> rejected（27 个 merged member）",
+  "ledger_rows": 108,
+  "apply_plan_rows": 27
+ },
+ "outputs": {
+  "apply_plan": "06-runtime/automation/2026-10-25-term-doc2-batch-d/apply-plan.jsonl",
+  "candidate_decision_ledger": "06-runtime/automation/2026-10-25-term-doc2-batch-d/candidate-decision-ledger.jsonl",
+  "canonical_mapping": "06-runtime/automation/2026-10-25-term-doc2-batch-d/canonical-mapping.json",
+  "created_units": [
+   "04-knowledge/units/terms/zikou-tiezu.md",
+   "04-knowledge/units/terms/zisha-tao.md",
+   "04-knowledge/units/terms/hongmu.md",
+   "04-knowledge/units/terms/xishiqi.md",
+   "04-knowledge/units/terms/jingjin.md",
+   "04-knowledge/units/terms/jiaoxie.md",
+   "04-knowledge/units/terms/ling-silk.md",
+   "04-knowledge/units/terms/lvse-sheji.md",
+   "04-knowledge/units/terms/bianzhong.md",
+   "04-knowledge/units/terms/piao-ci.md",
+   "04-knowledge/units/terms/meijin-ejin.md",
+   "04-knowledge/units/terms/chanheliao.md",
+   "04-knowledge/units/terms/leisi.md",
+   "04-knowledge/units/terms/lianzhu-wen.md",
+   "04-knowledge/units/terms/hufu.md",
+   "04-knowledge/units/terms/tuotai-qiqi.md",
+   "04-knowledge/units/terms/yishu-sheji.md",
+   "04-knowledge/units/terms/huayou.md",
+   "04-knowledge/units/terms/huadian.md",
+   "04-knowledge/units/terms/sushi-caihua.md",
+   "04-knowledge/units/terms/suniboqing.md",
+   "04-knowledge/units/terms/lantianren.md",
+   "04-knowledge/units/terms/cangli-yuqi.md",
+   "04-knowledge/units/terms/danke-heitao.md",
+   "04-knowledge/units/terms/shu-brocade.md",
+   "04-knowledge/units/terms/hudie-zhuang.md",
+   "04-knowledge/units/terms/he-wool.md"
+  ],
+  "summary": "06-runtime/automation/2026-10-25-term-doc2-batch-d/summary.md"
+ },
+ "canonical_mapping": [
+  {
+   "group_id": "xdup-0417",
+   "entity": "紫口铁足",
+   "target_ref": "04-knowledge/units/terms/zikou-tiezu.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-44",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0418",
+   "entity": "紫砂陶",
+   "target_ref": "04-knowledge/units/terms/zisha-tao.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-69",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0419",
+   "entity": "红木",
+   "target_ref": "04-knowledge/units/terms/hongmu.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-81",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0420",
+   "entity": "细石器",
+   "target_ref": "04-knowledge/units/terms/xishiqi.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-14",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0421",
+   "entity": "经锦",
+   "target_ref": "04-knowledge/units/terms/jingjin.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-41",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0422",
+   "entity": "绞缬",
+   "target_ref": "04-knowledge/units/terms/jiaoxie.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-47",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0423",
+   "entity": "绫",
+   "target_ref": "04-knowledge/units/terms/ling-silk.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-36",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0424",
+   "entity": "绿色设计",
+   "target_ref": "04-knowledge/units/terms/lvse-sheji.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-50",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0425",
+   "entity": "编钟",
+   "target_ref": "04-knowledge/units/terms/bianzhong.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-21",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0426",
+   "entity": "缥瓷",
+   "target_ref": "04-knowledge/units/terms/piao-ci.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-54",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0427",
+   "entity": "美金与恶金",
+   "target_ref": "04-knowledge/units/terms/meijin-ejin.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-02",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0428",
+   "entity": "羼和料",
+   "target_ref": "04-knowledge/units/terms/chanheliao.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-31",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0429",
+   "entity": "耒耜",
+   "target_ref": "04-knowledge/units/terms/leisi.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-27",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0430",
+   "entity": "联珠纹",
+   "target_ref": "04-knowledge/units/terms/lianzhu-wen.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-09",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0431",
+   "entity": "胡服",
+   "target_ref": "04-knowledge/units/terms/hufu.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-133",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0432",
+   "entity": "脱胎漆器",
+   "target_ref": "04-knowledge/units/terms/tuotai-qiqi.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-65",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0433",
+   "entity": "艺术设计",
+   "target_ref": "04-knowledge/units/terms/yishu-sheji.md",
+   "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-111",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0434",
+   "entity": "花釉",
+   "target_ref": "04-knowledge/units/terms/huayou.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-27",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0435",
+   "entity": "花钿",
+   "target_ref": "04-knowledge/units/terms/huadian.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-134",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0436",
+   "entity": "苏式彩画",
+   "target_ref": "04-knowledge/units/terms/sushi-caihua.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-06",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0437",
+   "entity": "苏泥勃青",
+   "target_ref": "04-knowledge/units/terms/suniboqing.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-25",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0438",
+   "entity": "蓝田人",
+   "target_ref": "04-knowledge/units/terms/lantianren.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-80",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0439",
+   "entity": "藏礼于器",
+   "target_ref": "04-knowledge/units/terms/cangli-yuqi.md",
+   "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-58",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0440",
+   "entity": "蛋壳黑陶",
+   "target_ref": "04-knowledge/units/terms/danke-heitao.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-51",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0441",
+   "entity": "蜀锦",
+   "target_ref": "04-knowledge/units/terms/shu-brocade.md",
+   "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-02",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0442",
+   "entity": "蝴蝶装",
+   "target_ref": "04-knowledge/units/terms/hudie-zhuang.md",
+   "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-20",
+   "action": "create"
+  },
+  {
+   "group_id": "xdup-0443",
+   "entity": "褐",
+   "target_ref": "04-knowledge/units/terms/he-wool.md",
+   "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-12",
+   "action": "create"
+  }
+ ],
+ "validation": {
+  "candidate_index_after": {
+   "sha256": "sha256:a35d7454624549197c1c60622ff9d9a2c5f71d37dcdd60f8bf5328c18e9cb913",
+   "bytes": 7235061,
+   "lines": 5339,
+   "state_counts": {
+    "applied": 303,
+    "no_delta": 11,
+    "rejected": 602,
+    "needs_evidence": 4423
+   },
+   "lifecycle_counts": {
+    "active": 4423,
+    "terminal": 916
+   }
+  },
+  "apply_plan_hashes": {
+   "checked": 27,
+   "matched": 27
+  },
+  "content_quality": {
+   "units": 311,
+   "findings": 0
+  },
+  "repo_audit": {
+   "issues": 0,
+   "evidence_refs": "311/311"
+  },
+  "pre_commit": {
+   "rule_drift": 0
+  },
+  "sync_closure": {
+   "steps": 19,
+   "tests": "250 passed + 16 subtests"
+  },
+  "duplicate_closure": {
+   "term_doc2_total": 136,
+   "term_doc2_closed": 110,
+   "term_doc2_open": 26,
+   "term_doc2_open_members": 52,
+   "person_doc2_open": 0
+  },
+  "notes": "本批冲突一律并列：蓝田人年代两版不一且 2016 自身前后矛盾；联珠纹来源“萨珊传入”与“中国本土说”相反；苏泥勃青来源“波斯／南洋”不同；紫砂陶初烧期“宋／明”不同；红木为材料统称与当代消费现象两种用法；艺术设计为现代学科名与通史对象两种时间范围。"
+ }
+}

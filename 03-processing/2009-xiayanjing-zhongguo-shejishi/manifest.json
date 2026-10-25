@@ -1,0 +1,66 @@
+{
+  "processing_profile": "compact-v4",
+  "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+  "fingerprint_mode": "text_crlf_to_lf_v1",
+  "source_assets": [
+    {
+      "path": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "sha256": "sha256:adf96b4cc9cac205f33a1c791702c9763341476a8fd8e8abe96116318b990838",
+      "role": "primary_text",
+      "language": "zh-Hans"
+    }
+  ],
+  "input_fingerprint": "sha256:06f74a5337ffc9ab52c5eb68d9c6db9d6c71a86a53a2e56b97e55d57cc1c6029",
+  "processing_scope": {
+    "mode": "full_asset",
+    "assets": [
+      "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md"
+    ]
+  },
+  "coverage": {
+    "source_blocks_total": 602,
+    "source_blocks_reviewed": 602,
+    "unread_blocks": 0,
+    "blocks_without_candidate_review": 0,
+    "scope_assets_total": 1,
+    "scope_assets_reviewed": 1,
+    "scope_lines_total": 5409,
+    "scope_lines_reviewed": 5409
+  },
+  "candidate_counts": {
+    "total": 607,
+    "by_type": {
+      "claim": 223,
+      "unit": 384
+    },
+    "by_state": {
+      "needs_evidence": 607
+    },
+    "by_unit_type": {
+      "event": 15,
+      "institution": 31,
+      "person": 26,
+      "place": 17,
+      "procedure": 24,
+      "publication": 28,
+      "term": 168,
+      "work": 75
+    }
+  },
+  "status": "completed",
+  "output_hashes": {
+    "source-map.jsonl": "sha256:69c1da42152885a3168e82253c604ba4d279b3aa9f2d92b2a6adbffa809b04c1",
+    "semantic-units.jsonl": "sha256:2c3351a0db74573878678b7d57b88cb13afae3ab626f70010d6a411b01133da6",
+    "candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
+    "summary.md": "sha256:2bb305026ea58f4a9bdfa892b0745a00635aa92cd6f0da35c2f1ac99b3a849cd"
+  },
+  "semantic_acceptance": {
+    "reread_status": "accepted_with_findings",
+    "reviewer_kind": "agent",
+    "reviewer_id": "independent-seven-chunk-review+four-delta-reviews-2026-10-24",
+    "reviewed_at": "2026-10-24T19:15:00+08:00",
+    "source_version": "sha256:06f74a5337ffc9ab52c5eb68d9c6db9d6c71a86a53a2e56b97e55d57cc1c6029",
+    "omission_count": 0,
+    "acceptance_boundary": "七块独立复读共发现 24 处遗漏，均已补立语义单元与候选，并经四组独立增量复读逐项确认 24/24 闭合，无 blocking；11 条 minor 已修订或在包内明确保留为清单级聚合/近似标注。本验收只覆盖原文语义召回与复读状态，不证明候选已写入 04-knowledge，不证明事实经外部核实，也不声称已逐张视觉核验图版；图版判断仅依据图注与正文。"
+  }
+}

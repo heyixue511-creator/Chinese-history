@@ -1,0 +1,301 @@
+{
+  "work_package": "2026-10-25-ten-person-units-and-mozi-update",
+  "goal": "第十三批：对 12 个 doc_count=2 的 person 组（24 个候选）做新建／合并裁决；10 个新 person KU 建立，1 个既有 KU（墨子）更新，13 个同组或异写重复候选 rejected（含 xdup-0234 的 canonical 候选并入 xdup-0233 的新建 KU）。本批开始处理 doc_count=2 组。",
+  "status": "applied",
+  "created_at": "2026-10-25T18:20:00+08:00",
+  "updated_at": "2026-10-25T18:20:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:1fd75ba5751edeabb0f5c92449ee01b393d9b9ad0f5d9c2e453544c72336b261（7,185,246 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-eleven-mixed-unit-reconciliation/manifest.json",
+    "source_scope": "前六册（Books 1-6）；Book 7 及以后按用户指示不启动"
+  },
+  "scope": {
+    "group_rule": "doc_count=2 的 person 组中，选出手工艺与设计人物谱系较完整、两册均有直接文本的 12 组；其中 xdup-0233（窦师伦）与 xdup-0234（窦师纶）为同一人物的异写双组，合并为一个 KU。",
+    "group_ids": [
+      "xdup-0202",
+      "xdup-0204",
+      "xdup-0210",
+      "xdup-0216",
+      "xdup-0218",
+      "xdup-0220",
+      "xdup-0226",
+      "xdup-0230",
+      "xdup-0233",
+      "xdup-0234",
+      "xdup-0245",
+      "xdup-0251"
+    ],
+    "groups": 12,
+    "candidate_rows": 24,
+    "canonical_candidates": 12,
+    "applied_canonical_candidates": 11,
+    "merged_canonical_candidates": 1,
+    "rejected_candidates": 13,
+    "created_units": 10,
+    "updated_units": 1,
+    "no_delta_units": 0,
+    "unit_types": {
+      "person": 11
+    },
+    "sub_types": {
+      "craftsman": 9,
+      "designer": 1,
+      "philosopher": 1
+    },
+    "merge_note": "窦师伦／窦师纶两组合并：2004、2009 夏燕靖作“窦师伦”，2010、2011 作“窦师纶”，四册实为同一人物；本批以“窦师纶”为条名，别名保留“窦师伦”，以 xdup-0233 的 canonical 候选一次写回，xdup-0234 的 canonical 候选作为重复召回 rejected（语义已并入），两个成员候选一并 rejected。"
+  },
+  "method": {
+    "semantic_step": "逐组复读两册候选与来源段落，比较人物时代、籍贯、身份、作品、师承、收藏地、评价与用字差异；有实质内容即新建或更新，同组另一候选并入后 rejected。",
+    "canonical_rule": "每组选内容最完整、且 proposed_slug 与最终文件名最接近的候选为 canonical；窦师纶两组中 xdup-0233 的 canonical 作为唯一写回候选，xdup-0234 的 canonical 因同一实体合并而 rejected。",
+    "decision_rule": "10 组新建：丁佩、供春、时大彬、陈鸣远、朱克柔、沈子蕃、张成、杨茂、黄大成、窦师纶（以 xdup-0233 写回）；1 组更新：墨子；0 组 no_delta；11 个 canonical applied、1 个 canonical 合并 rejected、12 个成员 rejected。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（11 条 canonical）；needs_evidence -> rejected（13 条：12 条同组成员 + 1 条异写组的 canonical）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl，共 46 行（11×3 + 1 条合并 rejected + 12 条成员 rejected），不改历史 R1 台账。",
+    "write_back": "精确变更集：10 条 create、1 条 update，无 delete。update 的 before 指纹由逆向补丁从当前文件重建；create 的 before 为 null。",
+    "extra_source_rule": "墨子 update 增补夏燕靖 2009 L1179-L1195，赵农 location 增 L2387-L2393；窦师纶 KU 合并四册来源，source_count=4。其余新建 KU 的 source_count 均为 2。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-ten-person-units-and-mozi-update/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-ten-person-units-and-mozi-update/candidate-decision-ledger.jsonl",
+    "created_units": [
+      "04-knowledge/units/persons/ding-pei.md",
+      "04-knowledge/units/persons/gongchun.md",
+      "04-knowledge/units/persons/zhang-cheng.md",
+      "04-knowledge/units/persons/shi-dabin.md",
+      "04-knowledge/units/persons/zhu-kerou.md",
+      "04-knowledge/units/persons/yang-mao.md",
+      "04-knowledge/units/persons/shen-zifan.md",
+      "04-knowledge/units/persons/dou-shilun.md",
+      "04-knowledge/units/persons/dou-shilun.md",
+      "04-knowledge/units/persons/chen-mingyuan.md",
+      "04-knowledge/units/persons/huang-dacheng.md"
+    ],
+    "updated_units": [
+      "04-knowledge/units/persons/mozi.md"
+    ],
+    "no_delta_units": []
+  },
+  "canonical_mapping": [
+    {
+      "group_id": "xdup-0202",
+      "entity": "丁佩",
+      "target_ref": "04-knowledge/units/persons/ding-pei.md",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-06",
+      "merged_member": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-39",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读综合：田自秉的分章、“能、巧、妙、神”与“齐、光、直、匀、薄、顺、密”，夏燕靖 2016 的成书年代（道光元年，1821）、六章与绘画书法诗词建筑比较法；“程工／工程”与“道光／清末”表述并列"
+    },
+    {
+      "group_id": "xdup-0204",
+      "entity": "供春",
+      "target_ref": "04-knowledge/units/persons/gongchun.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-33",
+      "merged_member": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-115",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读综合：田自秉的龚春原名、吴颐山书童、金沙寺学艺、树瘿壶与“供春之壶，胜于金玉”，夏燕靖 2016 的“供寿”异写与明代名家序列；“湖沱／湖㳇”与“供寿／供春”按原文照录"
+    },
+    {
+      "group_id": "xdup-0210",
+      "entity": "墨翟",
+      "target_ref": "04-knowledge/units/persons/mozi.md",
+      "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-68",
+      "merged_member": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-19",
+      "decision": "applied",
+      "action": "update",
+      "update_note": "两册复读：夏燕靖 2009 的节用／节葬／非乐、《墨子·鲁问》车辖引文与“器完而不饰”“质真而素朴”，赵农的推崇夏禹、《庄子·天下篇》引文、墨家组织原则与《墨子》53 篇；source_count 5→6"
+    },
+    {
+      "group_id": "xdup-0216",
+      "entity": "张成",
+      "target_ref": "04-knowledge/units/persons/zhang-cheng.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-05",
+      "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-34",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的作品清单、80 层漆、针刻铭与明人评骘，李立新的尺寸、百遍漆、剔犀刀口 1 厘米、张德刚承业与日本谱系；“杨汇／扬汇”并列"
+    },
+    {
+      "group_id": "xdup-0218",
+      "entity": "时大彬",
+      "target_ref": "04-knowledge/units/persons/shi-dabin.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-34",
+      "merged_member": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-11",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的时朋之子、供春弟子、四大家、“千奇万状信手出”与砂纲土白点，夏燕靖 2016 的明代名家序列"
+    },
+    {
+      "group_id": "xdup-0220",
+      "entity": "朱克柔",
+      "target_ref": "04-knowledge/units/persons/zhu-kerou.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-21",
+      "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-14",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的云间缂丝名家谱系与“古澹清雅”，李立新的南宋高宗时、两件藏品与“绘画引入设计”评价"
+    },
+    {
+      "group_id": "xdup-0226",
+      "entity": "杨茂",
+      "target_ref": "04-knowledge/units/persons/yang-mao.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-06",
+      "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-35",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的故宫藏品与明人评骘，李立新的渣斗尺寸、纹饰与风格评价；“杨汇／扬汇”并列"
+    },
+    {
+      "group_id": "xdup-0230",
+      "entity": "沈子蕃",
+      "target_ref": "04-knowledge/units/persons/shen-zifan.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-22",
+      "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-15",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的《梅鹊图》与缂丝名家并称，李立新的《花鸟图》故宫藏与“绘画引入设计”评价"
+    },
+    {
+      "group_id": "xdup-0233",
+      "entity": "窦师纶",
+      "target_ref": "04-knowledge/units/persons/dou-shilun.md",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-01",
+      "merged_member": "2009-xiayanjing-zhongguo-shejishi:cand-04-37",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "四册复读并合并 xdup-0233／xdup-0234 两个异写组：《历代名画记》引文、官职与陵阳公样三特点取高丰，团窠联珠取夏燕靖 2009，对称纹题材取田自秉，“个体设计上升为全国样式”评价取李立新；伦／纶异写与官职高低并列"
+    },
+    {
+      "group_id": "xdup-0234",
+      "entity": "窦师纶",
+      "target_ref": "04-knowledge/units/persons/dou-shilun.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-48",
+      "merged_member": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-32",
+      "decision": "rejected_merged_into_xdup-0233",
+      "action": "create",
+      "update_note": "与 xdup-0233 同实体（异写“窦师纶”），合并写入同一新建 KU；本组补田自秉的对称纹题材与李立新的“个体设计上升为全国样式”评价"
+    },
+    {
+      "group_id": "xdup-0245",
+      "entity": "陈鸣远",
+      "target_ref": "04-knowledge/units/persons/chen-mingyuan.md",
+      "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-12",
+      "merged_member": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-12",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：田自秉的康熙时期、壶隐、《阳羡名陶录》引文与清代谱系，夏燕靖 2016 的明代名家序列；康熙／明代与“供春三徒”的张力照录"
+    },
+    {
+      "group_id": "xdup-0251",
+      "entity": "黄大成",
+      "target_ref": "04-knowledge/units/persons/huang-dacheng.md",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-06-10",
+      "merged_member": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-54",
+      "decision": "applied",
+      "action": "create",
+      "update_note": "两册复读：高丰的字号、隆庆漆工、高濂引文与杨明天启五年注序，田自秉的成书年代、乾坤两集十八章与“三法”"
+    }
+  ],
+  "source_variance_notes": [
+    "丁佩：时代有“清道光年间”（2016 主条）与“清末道光时”（2010）、“清末”（2016 另一处）三种表述；身份有“苏绣艺人”与“女刺绣工艺家”两种；分章名“程工”（2010）与“工程”（2016）用字不同。",
+    "供春：原名龚春（2010）；2016 写作“供寿”，与“时大彬、陈鸣远”并列，疑为讹写，照录不另立人物；田自秉称供春三徒为时大彬、赵良璧、陈鸣远，又把陈鸣远系于康熙时期，存在来源内部年代张力。",
+    "墨子：生卒四说与“节用／节葬／非乐”“器完而不饰”“质真而素朴”仅夏燕靖 2009 明记；推崇夏禹、《庄子·天下篇》引文、墨家组织原则与《墨子》53 篇仅赵农明记。",
+    "张成：地名有“西塘杨汇”（2010）与“西塘扬汇”（2011）之别；藏品单位有“安徽博物馆”（2010）与“安徽省博物馆”（2011）；明人评骘“用朱不厚，漆多敲裂”与遗物描述存在张力，田自秉已指出评论不妥切。",
+    "时大彬：师承与“四大家”谱系仅田自秉详记；2016 只列明代名家，未展开个体事迹；供春三徒名单与陈鸣远年代存在来源内部张力。",
+    "朱克柔：2010 记“南宋”与云间名家谱系，2011 记“南宋高宗时”与两件藏品；代表作《莲塘乳鸭图》两册一致，《牡丹》仅 2011 记。",
+    "杨茂：作品清单（2010）与尺寸、纹饰、风格评价（2011）互补；地名“杨汇／扬汇”差异同张成条。",
+    "沈子蕃：代表作有《梅鹊图》（2010）与《花鸟图》（2011）两种记载，本 KU 并列，不合并。",
+    "窦师纶：姓名用字“伦”（2004、2009）与“纶”（2010、2011）并存；官职有“太府卿、银坊邛三州刺史”（2004）与“低级官员”（2011）两说；纹样清单四册互有详略（对雉／对鸡、对羊／斗羊、翔凤、游麟、对狮、对鹿、对凤、天马麒麟、花树对鹿）；《历代名画记》引文用字亦不一致。",
+    "陈鸣远：时代有“康熙时期”（2010）与“明代”（2016）两说；田自秉又把他列为供春三徒之一，与其康熙时期定位冲突；两说并列，不裁定。",
+    "黄大成：作者活动期为“明隆庆年间（1567—1572）”（2004），《髹饰录》成书为“明末天启年间”（2010），相差约五十年；字号“平沙”与籍贯“安徽新安平沙”同文，来源未作区分。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 10,
+    "updated_knowledge_units": 1,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "全部 11 条 KU 保持 confidence=medium、consensus=tentative、evidence_status=source_backed；未标 confirmed、externally_verified 或 L1-L7 级验证。"
+  },
+  "validation": {
+    "candidate_index_after": {
+      "fingerprint": "sha256:1a17f697105bdda1883a0540e544aa2c4471ecec53b278e9ff20e6b5f3337a19",
+      "bytes": 7189312,
+      "lines": 5339,
+      "status_counts": {
+        "applied": 165,
+        "no_delta": 10,
+        "rejected": 454,
+        "needs_evidence": 4710
+      },
+      "lifecycle_counts": {
+        "active": 4710,
+        "terminal": 629
+      },
+      "result": "pass"
+    },
+    "apply_plan_hashes": {
+      "matched": 11,
+      "total": 11,
+      "result": "pass"
+    },
+    "content_quality_audit": {
+      "knowledge_units_checked": 174,
+      "findings": 0,
+      "result": "pass"
+    },
+    "repository_audit": {
+      "result": "pass",
+      "frontmatter_missing": 0,
+      "frontmatter_invalid": 0,
+      "type_mismatch": 0,
+      "invalid_confidence": 0,
+      "invalid_consensus": 0,
+      "validation_semantics_issues": 0,
+      "broken_markdown_links": 0,
+      "evidence_refs_resolved": "174/174",
+      "dataflow_issues": 0,
+      "type_counts": {
+        "persons": 40,
+        "institutions": 12,
+        "places": 16,
+        "works": 21,
+        "publications": 22,
+        "terms": 59,
+        "procedures": 3,
+        "events": 1
+      }
+    },
+    "pre_commit_check": {
+      "result": "pass",
+      "rule_drift": 0
+    },
+    "sync_closure": {
+      "result": "pass",
+      "steps": 19,
+      "tests": "250 passed, 16 subtests passed"
+    },
+    "duplicate_group_closure": {
+      "doc_count_ge_3_open_after": 0,
+      "doc_count_2_open_after": 337,
+      "doc_count_1_open_after": 6,
+      "open_members_after": 687,
+      "note": "本批关闭 12 个 doc_count=2 组（xdup-0202、0204、0210、0216、0218、0220、0226、0230、0233、0234、0245、0251）；doc_count=2 组共 352 个，其中 15 个已关闭（本批 12 个，此前 3 个），剩余 337 个；doc_count≥3 继续保持 0 个 open；doc_count=1 组 6 个仍 open。",
+      "result": "pass"
+    }
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台，证据仅来自六册 Markdown 文本。",
+    "未做图版、器物、手稿或档案的视觉与实物核对。",
+    "primary_theme 与 topic_memberships 留空；Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；同组与同章共现只作非断言性叙述。",
+    "来源分歧（时代、籍贯、用字、师承、官职、纹样清单、代表作）一律并列保留，不做调和。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

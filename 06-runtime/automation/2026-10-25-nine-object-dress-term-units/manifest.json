@@ -1,0 +1,205 @@
+{
+  "work_package": "2026-10-25-nine-object-dress-term-units",
+  "goal": "第六批术语写回：把跨册召回的器物、服饰与家具 9 个同名组（27 条候选）归并为 9 个知识元，并把每条候选的处置写入追加式台账。本批全部为 create，不修订既有 KU。",
+  "status": "applied",
+  "created_at": "2026-10-25T15:10:00+08:00",
+  "updated_at": "2026-10-25T15:30:00+08:00",
+  "inputs": {
+    "candidate_index_before_apply": "06-runtime/state/candidate-index.jsonl",
+    "candidate_index_before_apply_fingerprint": "sha256:ca90539131f7b5211a35f5570757ced2994b157f1d93b0e56be00ea584d3ddec（7,156,734 B，5,339 行）",
+    "candidate_index_after_apply_fingerprint": "sha256:f5b244f4ba9423cade45e1d6183cc6f92fb43a84f069504f02b9703e873555a0（7,156,926 B，5,339 行）",
+    "duplicate_group_recall": "06-runtime/automation/2026-10-25-cross-source-candidate-consolidation/duplicate-groups.jsonl",
+    "prior_batch": "06-runtime/automation/2026-10-25-six-prehistoric-term-units/manifest.json",
+    "source_scope": "仅前六册（Books 1-6）；Book 7 及以后按用户指令不启动"
+  },
+  "scope": {
+    "group_rule": "器物、服饰与家具类 doc_count=3 的同名组；已由既有 KU 覆盖的组不在本批；候选须仍为 needs_evidence",
+    "group_ids": [
+      "xdup-0113",
+      "xdup-0117",
+      "xdup-0124",
+      "xdup-0139",
+      "xdup-0128",
+      "xdup-0129",
+      "xdup-0132",
+      "xdup-0121",
+      "xdup-0140"
+    ],
+    "groups": 9,
+    "candidate_rows": 27,
+    "canonical_candidates": 9,
+    "rejected_duplicate_candidates": 18,
+    "created_units": 9,
+    "updated_units": 0,
+    "unit_types": {
+      "term": 9
+    },
+    "sub_types": {
+      "furniture_form": 1,
+      "vessel_form": 1,
+      "lacquerware_type": 1,
+      "device_type": 2,
+      "furniture_style": 1,
+      "building_component": 1,
+      "headwear_form": 1,
+      "clothing_accessory": 1
+    },
+    "merge_note": "每组均为 3 条候选、3 册 doc_count。canonical 优先取 proposed_slug 与最终文件名一致者；多个一致时取 2016 夏燕靖升级版候选；无 2016 且多条一致时取出版年最早的候选（博山炉组取高丰 2004）。"
+  },
+  "method": {
+    "semantic_step": "逐组跨册复读召回的 Markdown 原文，并按需扩读同册上下文；逐条比对定义、时代、形制、材质、纹样、制度与工艺数据，分歧一律并列保留，不按册数或偏好裁定。",
+    "canonical_rule": "每组选 1 个代表候选晋升为知识元；优先选 proposed_slug 与最终文件名一致的候选，多个一致时取 2016 夏燕靖升级版候选，无 2016 且多条一致时取出版年最早者；同组其余候选转 rejected 并指向同一 target_ref。",
+    "state_chain": "needs_evidence -> ready_for_review -> approved -> applied（canonical）；needs_evidence -> rejected（同组重复候选）。",
+    "ledger": "追加式 candidate-decision-ledger.jsonl；历史 R1 台账不改动。",
+    "write_back": "精确变更集：9 个 create，无 update、无 delete；create 的 sha256/bytes/lines 均按 CRLF→LF 归一后计算。"
+  },
+  "outputs": {
+    "apply_plan": "06-runtime/automation/2026-10-25-nine-object-dress-term-units/apply-plan.jsonl",
+    "candidate_decision_ledger": "06-runtime/automation/2026-10-25-nine-object-dress-term-units/candidate-decision-ledger.jsonl",
+    "knowledge_units": [
+      "04-knowledge/units/terms/ji-furniture.md",
+      "04-knowledge/units/terms/boshanlu.md",
+      "04-knowledge/units/terms/kouqi.md",
+      "04-knowledge/units/terms/tongjing.md",
+      "04-knowledge/units/terms/hanjing.md",
+      "04-knowledge/units/terms/qing-style-furniture.md",
+      "04-knowledge/units/terms/qin-zhuan-han-wa.md",
+      "04-knowledge/units/terms/futou.md",
+      "04-knowledge/units/terms/xiapei.md"
+    ],
+    "updated_units": []
+  },
+  "canonical_mapping": [
+    {
+      "target_ref": "04-knowledge/units/terms/ji-furniture.md",
+      "entity": "几",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-36",
+      "merged_group_ids": ["xdup-0113"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/boshanlu.md",
+      "entity": "博山炉",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-14",
+      "merged_group_ids": ["xdup-0117"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/kouqi.md",
+      "entity": "扣器",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-80",
+      "merged_group_ids": ["xdup-0124"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-xiayanjing-zhongguo-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/tongjing.md",
+      "entity": "铜镜",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-41",
+      "merged_group_ids": ["xdup-0139"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/hanjing.md",
+      "entity": "汉镜",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-132",
+      "merged_group_ids": ["xdup-0128"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/qing-style-furniture.md",
+      "entity": "清式家具",
+      "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-06",
+      "merged_group_ids": ["xdup-0129"],
+      "source_docs": ["2004-gaofeng-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2010-tianzibing-zhongguo-gongyi-meishushi"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/qin-zhuan-han-wa.md",
+      "entity": "秦砖汉瓦",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-06",
+      "merged_group_ids": ["xdup-0132"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/futou.md",
+      "entity": "幞头",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-46",
+      "merged_group_ids": ["xdup-0121"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    },
+    {
+      "target_ref": "04-knowledge/units/terms/xiapei.md",
+      "entity": "霞帔",
+      "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-59",
+      "merged_group_ids": ["xdup-0140"],
+      "source_docs": ["2009-xiayanjing-zhongguo-shejishi", "2009-zhaonong-zhongguo-yishu-shejishi", "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"],
+      "source_count": 3,
+      "ku_source_count": 3
+    }
+  ],
+  "source_variance_notes": [
+    "几：定性两说——赵农「放置东西或者可以倚伏在上面的家具」对 2016 知识链接「小的或矮的桌子」；2009 作「很古老的凭几」，2016 作「非常古老」并补 1978 年江陵九店；2016 正文「（图 3-33）」之后紧接图题「3-33. 战国 错金银龙凤鹿方案」（属案），图 3-34 才是「战国几」，图号与所指不符，照录待核。",
+    "博山炉：同一句「上似蓬莱，吐气委蛇，芳烟布绕，遥冲紫微」高丰不标作者，田自秉系于李尤《薰炉铭》；赵农另引刘向《薰炉铭》「上贯太华，承以铜盘，中有兰绮，朱火青烟」，两篇文字不同；《列子》五山与《史记》三神山并引；赵农明记「也有陶制」，高丰、田自秉所举实例均铜器；尺寸与错金／鎏金工艺仅高丰给出。",
+    "扣器：外延两说——高丰涵盖卷木胎、夹纻胎上加金属口及铺首、合页、盖纽、足等一切金属附件的漆器，并称「战国漆器的一个特色」；夏燕靖两版特指战国末期口沿、底、腹部镶套铜箍者。附件固定方式「用漆胶住」仅夏燕靖；胎类清单夏燕靖另列木胎、竹胎、木片卷粘胎、皮胎，高丰只举卷木胎与夹纻胎。",
+    "铜镜：起点两说——夏燕靖两版「铜镜从战国时期开始出现并流行」，赵农「起源是在新石器时期晚期的齐家文化」，并举甘肃齐家坪素面镜、青海贵南七星纹镜；商周统计赵农作「20 余面」，与 `places/yinxu.md` 所记高丰「5 面、妇好墓 4 面」不是同一口径；「镜称鉴」解释仅夏燕靖，从鉴于水到鉴于镜的观念转变仅赵农；唐镜形制与纹饰仅赵农。",
+    "汉镜：镜体厚薄两说——夏燕靖「体薄、平边、圆钮」对赵农「镜体比战国铜镜加大增厚」；分期三期（西汉／西汉末至王莽／东汉）仅夏燕靖，赵农只标「西汉中期」出现铭文镜；透光镜（「魔光镜」）、制镜人姓氏商标（「田氏作竟真大好」）、规矩四神镜的地支铭文仅赵农；夏燕靖「更符合科学原理」的评价赵农未作。",
+    "清式家具：苏作评价两说——高丰称宫廷苏式「明式风格已几乎丧失」，同时承认民间苏式保留明式；田自秉称「苏作大体继承明式的特点」。太师椅所指：高丰「明代又叫圈椅」，赵农「明代的太师椅是圈椅形制，而清代的太师椅是指一种雕花扶手椅」。三期说、造办处、三作风格与太师椅座高 50-52 cm 的分析仅高丰；三作工匠籍贯与「结构用鳔、镂空用弓、重蜡工」仅田自秉；毗卢帽架子床、龙墩、鹿角椅、玫瑰椅、摇椅仅赵农。",
+    "秦砖汉瓦：章节归属不同——夏燕靖两版置于陶瓷设计（彩绘陶之后），赵农置于建筑（宫殿、斗拱之后）；砖的类型夏燕靖列砌墙砖、铺地砖、空心砖、小条砖四类，赵农另记楔形与榫头形异形砖用于砌拱；得名「烧成后吸水有声」仅夏燕靖，且与常见「叩之有声」不合；2016 另记始皇陵夔凤纹大瓦当直径约 40 cm、秦砖「铅砖」之美称，并引《三国志》「杜陵南山下，有成瓦窑数千处」记汉武帝事，书名与时代不合，照录待核。",
+    "幞头：汉代来源两说——夏燕靖「由汉代的幞头、幅巾等演变而来」使幞头自相为源，赵农「从汉代的幅巾演变过来」；硬角幞头「为唐代帝王专用」、盛唐加衬木藤皮革、宋代软脚改硬脚与重戴均仅赵农；赵农另引《新唐书·车服志》「太宗尝以幞头起于后周」与《宋史·舆服志》公服条，与汉代幅巾说并存不调和；「幙头」为赵农原文异写。",
+    "霞帔：时代与性质两说——夏燕靖两版只说明代「恩赐贵妇专用」饰品，深青缎绣云霞禽纹，一至二品翟纹、三至四品孔雀、五品鸳鸯、六至七品练雀；赵农称宋代一般女服「大袖、长裙、霞帔」，明清「霞帔为佩带的饰物，是用彩带连缀的金玉坠子，多为贵族妇女所佩」。2016「一至二品绣崔纹」当为「翟纹」之误；赵农「纬衣」通行作「袆衣」。"
+  ],
+  "semantic_change": {
+    "created_knowledge_units": 9,
+    "updated_knowledge_units": 0,
+    "deleted_knowledge_units": 0,
+    "new_relations": 0,
+    "new_claims": 0,
+    "source_files_modified": 0,
+    "confidence_posture": "9 个 KU 均为 confidence=medium、consensus=tentative、evidence_status=source_backed；未标记 confirmed、externally_verified 或 L1-L7 已验证。"
+  },
+  "validation": {
+    "discovery_index": {
+      "total": 5339,
+      "applied": 127,
+      "needs_evidence": 4875,
+      "rejected": 337,
+      "issues": []
+    },
+    "content_quality": {
+      "total_findings": 0,
+      "units_audited": 155
+    },
+    "structural_health": "122/130（知识结构完整性 55/65、证据链完整性 55/55、层级完整挂载 0/155；Theme/Topic 未 materialize，非本批可改善项）",
+    "apply_plan_hash_check": "9 行 create 已按 CRLF→LF 归一核对 sha256、bytes、lines，全部一致",
+    "pre_commit_check": "passed（规则漂移 0）",
+    "sync_closure": "passed（run_sync_closure.py --refresh-generated --full --check-generated；19 步；250 tests + 16 subtests）",
+    "fingerprint_note": "上一批工作包关闭时 candidate-index.jsonl 为 sha256:ca905391…（7,156,734 B，5,339 行）；本批应用后为 sha256:f5b244f4…（7,156,926 B，5,339 行）。行数与状态总数不变；字节净增 192 B，因 build_discovery_index.py 以紧凑分隔符重写全文件，抵消了本批 27 行新增 decision／target_ref 文本的大部分增量。"
+  },
+  "boundaries": [
+    "不 commit、不 push；只改工作树。",
+    "不新建分支或 worktree；只保留 main。",
+    "02-sources/ 与 03基础书籍-md文档/ 只读，未改写、未删除。",
+    "未使用外部验证平台；证据仅限六册 Markdown 文本。",
+    "未做图版或器物的视觉核对；未查考古发掘报告与服饰实物。",
+    "primary_theme 与 topic_memberships 留空，因 Theme/Topic 尚未 materialize，记为研究债。",
+    "未写入正式 relations；跨条目的共现只作非断言性叙述。",
+    "来源分歧（时代、起源、定义、形态、评价）一律保留，不做调和。",
+    "既有 KU（如 `terms/wadang.md`、`terms/ming-style-furniture.md`、`terms/buzi.md`）不在本批重写；本批新建条目未使其陈述失效，故无 update 行。",
+    "本批只覆盖前六册；Book 7 及以后未启动。"
+  ]
+}

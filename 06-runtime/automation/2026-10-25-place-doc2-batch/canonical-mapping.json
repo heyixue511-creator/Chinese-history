@@ -1,0 +1,152 @@
+{
+ "xdup-0252": {
+  "entity": "三星堆",
+  "target_ref": "04-knowledge/units/places/sanxingdui.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-43",
+  "action": "create"
+ },
+ "xdup-0253": {
+  "entity": "临淄",
+  "target_ref": "04-knowledge/units/places/linzi.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-65",
+  "action": "create"
+ },
+ "xdup-0254": {
+  "entity": "云冈石窟",
+  "target_ref": "04-knowledge/units/places/yungang-shiku.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-35",
+  "action": "create"
+ },
+ "xdup-0255": {
+  "entity": "云岗石窟",
+  "target_ref": "04-knowledge/units/places/yungang-shiku.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-19",
+  "action": "no_delta"
+ },
+ "xdup-0256": {
+  "entity": "仙人洞遗址",
+  "target_ref": "04-knowledge/units/places/xianrendong-site.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-26",
+  "action": "create"
+ },
+ "xdup-0257": {
+  "entity": "偃师商城",
+  "target_ref": "04-knowledge/units/places/yanshi-shangcheng.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-40",
+  "action": "create"
+ },
+ "xdup-0258": {
+  "entity": "南京",
+  "target_ref": "04-knowledge/units/places/nanjing.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-118",
+  "action": "create"
+ },
+ "xdup-0259": {
+  "entity": "吉州窑",
+  "target_ref": "04-knowledge/units/places/jizhou-kiln.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-127",
+  "action": "create"
+ },
+ "xdup-0260": {
+  "entity": "周口店遗址",
+  "target_ref": "04-knowledge/units/places/zhoukoudian-site.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-18",
+  "action": "create"
+ },
+ "xdup-0261": {
+  "entity": "哥窑",
+  "target_ref": "04-knowledge/units/terms/ge-yao.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-91",
+  "action": "update"
+ },
+ "xdup-0262": {
+  "entity": "大兴城",
+  "target_ref": "04-knowledge/units/places/daxing-cheng.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-04-68",
+  "action": "create"
+ },
+ "xdup-0263": {
+  "entity": "大地湾遗址",
+  "target_ref": "04-knowledge/units/places/dadiwan-site.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-09",
+  "action": "create"
+ },
+ "xdup-0264": {
+  "entity": "妇好墓",
+  "target_ref": "04-knowledge/units/places/fuhao-tomb.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-56",
+  "action": "create"
+ },
+ "xdup-0265": {
+  "entity": "宜兴",
+  "target_ref": "04-knowledge/units/places/yixing.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-15",
+  "action": "create"
+ },
+ "xdup-0266": {
+  "entity": "山顶洞遗址",
+  "target_ref": "04-knowledge/units/places/shandingdong-site.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-19",
+  "action": "create"
+ },
+ "xdup-0267": {
+  "entity": "庙底沟遗址",
+  "target_ref": "04-knowledge/units/places/miaodigou-site.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-22",
+  "action": "create"
+ },
+ "xdup-0268": {
+  "entity": "建窑",
+  "target_ref": "04-knowledge/units/places/jian-kiln.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-128",
+  "action": "create"
+ },
+ "xdup-0269": {
+  "entity": "敦煌莫高窟",
+  "target_ref": "04-knowledge/units/places/dunhuang-mogao-ku.md",
+  "canonical_candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-24",
+  "action": "create"
+ },
+ "xdup-0270": {
+  "entity": "曾侯乙墓",
+  "target_ref": "04-knowledge/units/places/zenghouyi-tomb.md",
+  "canonical_candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-25",
+  "action": "create"
+ },
+ "xdup-0271": {
+  "entity": "满城汉墓",
+  "target_ref": "04-knowledge/units/places/mancheng-hanmu.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-11",
+  "action": "create"
+ },
+ "xdup-0272": {
+  "entity": "瓯窑",
+  "target_ref": "04-knowledge/units/places/ou-kiln.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-49",
+  "action": "create"
+ },
+ "xdup-0273": {
+  "entity": "耀州窑",
+  "target_ref": "04-knowledge/units/places/yaozhou-kiln.md",
+  "canonical_candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-45",
+  "action": "create"
+ },
+ "xdup-0274": {
+  "entity": "醴陵",
+  "target_ref": "04-knowledge/units/places/liling.md",
+  "canonical_candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-140",
+  "action": "create"
+ },
+ "xdup-0275": {
+  "entity": "雍城",
+  "target_ref": "04-knowledge/units/places/yong-cheng.md",
+  "canonical_candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-50",
+  "action": "create"
+ },
+ "xdup-0276": {
+  "entity": "马王堆汉墓",
+  "target_ref": "04-knowledge/units/places/mawangdui-hanmu.md",
+  "canonical_candidate_id": "2004-gaofeng-zhongguo-shejishi:cand-03-09",
+  "action": "create"
+ }
+}
