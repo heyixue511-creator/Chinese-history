@@ -212,7 +212,34 @@ def main():
             "needs_evidence": 3970,
             "total": 5339,
         },
-        "verification": {"status": "pending"},
+        "verification": {
+            "status": "passed_except_commit_gate",
+            "content_quality": {
+                "command": "python scripts/audit_content_quality.py",
+                "units": 505,
+                "findings": 0,
+            },
+            "repo_audit": {
+                "command": "python scripts/audit_repo.py",
+                "structural_health": "122/130",
+                "evidence_refs_resolvable": "505/505",
+                "broken_links": 0,
+            },
+            "discovery_index": {
+                "command": "python scripts/build_discovery_index.py",
+                "idempotent": True,
+                "rows": 5339,
+                "sha256_after": "sha256:7ee850800bf8b2fc21a3a25d54c412be72b41e27ceb515ab8f72311dc5197e6b",
+            },
+            "sync_closure": {
+                "command": "python scripts/run_sync_closure.py --refresh-generated --full --check-generated",
+                "result": "steps 1-16 passed; step 17 blocked by design",
+                "failed_step": "check generated snapshots",
+                "reason": "该步执行 git diff --exit-code HEAD；工作树未提交，需用户当次明确授权 commit 后才能通过",
+            },
+            "system_upgrade_chain": {"pass": 18, "fail": 0},
+            "tests": {"command": "python -m pytest tests -q", "passed": 250, "failed": 0},
+        },
         "notes": [
             "候选“管子”按人物语义写回 persons/guan-zhong.md，不写 publications/guanzi.md。",
             "jiazhu-tai 合并 2010“夹纻”与 2016“夹纻胎”两个候选；dulunche 合并 2009“独轮车”与 2011“鹿车”两个候选。",

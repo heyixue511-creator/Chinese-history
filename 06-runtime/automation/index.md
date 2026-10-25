@@ -6,8 +6,8 @@
 ## Snapshot
 
 - Batch directories: `39`
-- Files: `173`
-- Size: `3638561` bytes
+- Files: `174`
+- Size: `3651231` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `173` files
+- R1 provenance: `174` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files

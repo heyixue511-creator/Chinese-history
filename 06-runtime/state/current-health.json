@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T17:58:03",
+  "timestamp": "2026-10-25T18:03:25",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -365,8 +365,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 173,
-    "r1_provenance": 173,
+    "files": 174,
+    "r1_provenance": 174,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,

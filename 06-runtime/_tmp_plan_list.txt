@@ -1,0 +1,40 @@
+update	terms/an-furniture.md	补汉代食案两型、柱状与蹄状足、尺度及广州沙河顶东汉铜圆案
+update	terms/jianghu.md	并入明代匠籍、轮班与住坐、洪武二十六年 232089 名与 62 行业、班次序列，条目由元代扩为元明
+update	works/yuan-yinjingjia.md	补双凤戏牡丹／玉兔蟾蜍灵芝纹与“豪华小交椅”造型评价
+update	terms/tihuaji.md	补脚踏提综斜织机到提花机的发展关系与李约瑟“西方晚 4 个世纪”说
+update	terms/longyao.md	补浙江上虞等地东汉窑址、陶瓷共烧转专窑及高岭土原料
+update	terms/dougong.md	补斗栱所处的秦汉木构体系、四类屋顶、板门交棂窗与梁柱叠架
+update	places/yungang-shiku.md	补石窟寺印度源流、3 世纪传入与“中国形式”造像的形成
+update	terms/chai-yao.md	补吴越钱氏 14 万件贡瓷、秘色瓷上品、“片瓦值千金”与周世宗贡瓷推测
+update	terms/guan-yao.md	补鼎炉觚彝仿古器形、宫廷风格与开片的胎釉膨胀系数成因
+update	terms/kesi.md	扩展 2009 版位置至 L4265，补南宋苏州松江产地、贡品与乡村副业、父子相传及新中国镶色新作
+update	terms/qingtong-liqi.md	补礼的鬼神起源、祀与戎、苍璧黄琮与良渚玉礼器、饮食器与礼器交织
+update	works/san-jiao-lou.md	补木斗与铁耧脚连通的耧车结构、两辕两扶把、日种一顷及二牛三人耦犁
+update	publications/zhouyi.md	补文王演易、韦编三绝、《系辞传》四则制器原文与“道器在形内”的整体理解
+update	persons/mozi.md	扩展赵农位置至 L2395，补光学力学数学声学机械土木六类研究与《墨子·佚文》因材施工的材质观
+update	works/houfeng-dizhenyi.md	补阳嘉元年、篆文山龟鸟兽饰纹、一龙发机七首不动与合契若神、木质模型
+update	terms/dulunche.md	新增李立新源并扩展赵农位置至 L2684，补鸡公车／羊角车别称、汉代画像砖雏形与绳带绕颈、倒拉、木棒支撑的使用方式；同组“鹿车”候选合并写入本 KU
+update	places/dunhuang-mogao-ku.md	补河西走廊位置、366／353 两说、砂砾岩与 492 窟 39 早期窟、中心塔柱与人字披、支提窟渊源
+update	terms/lifang-zhi.md	扩展赵农位置至 L5388-L5425，补北宋废里坊、废夜禁与夜市，及开封三重城、40 里、四水贯都、御道中轴
+update	works/kaifeng-xiangguosi-pagoda.md	补褐色琉璃瓦与锈铁色泽得名、螺旋蹬道联结塔壁与中心塔柱；与既有“28 种琉璃砖”说并列
+update	works/miaoying-si-baita.md	补赵农 53 米异文与宝瓶塔身、元大都喇嘛塔样式；高度两说并列不裁定
+update	institutions/fujian-chuanzhengju.md	补 1865 年徐寿“黄鹄”轮与江南制造总局、福州／天津／广东军装／旅顺船坞序列及洋务企业年表
+update	procedures/lost-wax-casting.md	扩展田自秉位置至 L915，补“约商代以后、公元前五六世纪春秋已有实物”的上限说
+update	procedures/jiazhu-tai.md	新增田自秉与 2016 两源，补行像、戴逵瓦棺寺三绝与汉代夹纻硬胎；同组“夹纻胎”候选合并写入本 KU
+update	terms/qian-you-tao.md	补硅酸主体与钙钠铅媒熔剂、关中最早产地、西汉呈色与器形、南北软硬釉
+update	terms/rendong-wen.md	扩展田自秉位置至 L2992，补二方连续卷曲结构、响堂山浮雕及佛光、石碑边侧、敦煌藻井实例
+update	terms/jiaoxie.md	补阿斯塔那唐垂拱四年（688）绞缬裙及绛紫、茄紫菱形网格
+update	works/liujin-wuma-xianbei-yinhu.md	补“屈膝衔杯赴节”唐诗、千秋节舞马表演与马身锦绣金银饰物
+update	terms/wuda-mingyao.md	补田自秉“显然有偏颇”之评与磁州窑、吉州窑民窑贡献
+update	terms/nanjing-yunjin.md	补得名两说与清代文献无载、妆花 6／9／18 色过管配色、明式风格与蒙藏衣帽用途
+update	terms/wenzhi.md	补“绘事后素”、质先文后与不偏不倚的中正之境
+update	works/yuanmingyuan.md	补郎世宁等欧洲设计师、罗可可家具壁毯与谐奇趣铜版画
+update	terms/yuefenpai.md	补作者多未受正规西画训练、木刻与年画渊源、“简单甚至肤浅”及“空前绝后”之评
+update	terms/zisha-tao.md	补龚春、时大彬、制壶四大家、陈鸣远、杨彭年兄妹、邵大亨与“块团形式”
+update	works/qin-shi-huang-ling.md	新增 2016 源并扩展赵农位置至 L2674-L2676，补 1980 年两组铜车马、1555 块／12 年复原、3000 部件、1:2 与 1200 千克、工艺及戎车安车尺寸伞盖
+update	terms/yuexiu.md	在既有 2009 引得句中补“通过洋庄源源输向世界各地”的外销渠道；无新增源
+update	terms/zhongshanzhuang.md	补早期背面有缝与中腰带、胖裥、定型后后背无缝、平贴袋与袋盖弧形、垫肩收腰廓形
+update	institutions/zhongguo-meishuguan.md	扩展 2016 位置至 L5290-L5317，补 1958 年 9 月国庆工程十项、彩画木雕装饰与图 11-25 十大建筑题名
+update	persons/hang-zhiying.md	补 1920 年商务印书馆练习生名单、德日画家授课与吴待秋教中国画、广告画家群及早期商业招贴专家身份
+update	persons/guan-zhong.md	扩展 2016 位置至 L1500-L1503，补“字仲”与“春秋第一相”称谓；候选标题“管子”指人物，写回 persons/guan-zhong，不写 publications/guanzi
+create	events/hufu-qishe.md	新建战国服饰改革事件：胡服形制、赵武灵王说辞、带钩与跨文化采纳
