@@ -156,10 +156,10 @@
           "06-runtime/automation/**/*"
         ],
         "files": 174,
-        "digest": "sha256:4a98d7b06b9bd570ef6910e306be00c07283e73eb76e3c11b3f5d32d8889ef1d"
+        "digest": "sha256:af8156ee8c0624b26343fc9b34a1feac1ba7e4623a04617b65d871d4978957b1"
       },
       "outputs": {
-        "06-runtime/automation/index.md": "sha256:72050d7cf9cbf311755e34684b2f519291e743f7afe26eeb3a1b4f65d39b10ae"
+        "06-runtime/automation/index.md": "sha256:92c1b52549d3fabd2489a055e96ff85ff24e925953a8459c29bb64cd3ab2be25"
       },
       "missing_outputs": []
     },

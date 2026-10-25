@@ -82,9 +82,8 @@
     },
     "sync_closure": {
       "command": "python scripts/run_sync_closure.py --refresh-generated --full --check-generated",
-      "result": "steps 1-16 passed; step 17 blocked by design",
-      "failed_step": "check generated snapshots",
-      "reason": "该步执行 git diff --exit-code HEAD；工作树未提交，需用户当次明确授权 commit 后才能通过"
+      "result": "18/19 steps passed; step 17 pending commit",
+      "note": "生成态快照提交后曾 19/19 通过；随后修正 manifest/summary 产生未提交改动，按设计再次停在第 17 步，需用户授权 commit 后转绿"
     },
     "system_upgrade_chain": {
       "pass": 18,
@@ -93,12 +92,24 @@
     "tests": {
       "command": "python -m pytest tests -q",
       "passed": 250,
+      "subtests_passed": 16,
       "failed": 0
     }
+  },
+  "repository_state": {
+    "commits_during_batch": [
+      "21009c4 同步工作区：overlap 候选批次写回与生成态刷新（2026-10-25 17:59:18）",
+      "99bf8ef 刷新生成态快照：按 overlap 批次最终工件重算索引与 manifest（2026-10-25 18:00:44）",
+      "8d79692 同步 overlap 批次验证收尾与生成态快照（2026-10-25 18:03:53）"
+    ],
+    "pushed": "21009c4、99bf8ef 已推送；8d79692 仅本地",
+    "origin_main": "99bf8ef2d26e161c5ef0b01eff1c08297a76fab",
+    "performed_by": "外部操作；本会话未调用 git commit 或 git push"
   },
   "notes": [
     "候选“管子”按人物语义写回 persons/guan-zhong.md，不写 publications/guanzi.md。",
     "jiazhu-tai 合并 2010“夹纻”与 2016“夹纻胎”两个候选；dulunche 合并 2009“独轮车”与 2011“鹿车”两个候选。",
-    "妙应寺白塔 53 米与 50.9 米、开封铁塔褐色琉璃瓦与 28 种琉璃砖均并列保留，不裁定。"
+    "妙应寺白塔 53 米与 50.9 米、开封铁塔褐色琉璃瓦与 28 种琉璃砖均并列保留，不裁定。",
+    "31 个 update 新增 32 个来源块（jiazhu-tai 增田自秉与 2016 两源）；7 个仅扩展既有 source 位置；yuexiu 无新源。"
   ]
 }

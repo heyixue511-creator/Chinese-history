@@ -10,7 +10,7 @@
 - 53 个候选全部回读原文并比对既有 KU：41 个判 `update`，写回 39 个 KU；1 个判 `create`，新建 1 个 KU；11 个判 `no_delta`，对应 10 个既有 KU；无 `rejected`。
 - KU 总数由 504 增至 505（新增 `events/hufu-qishe.md`）。
 - 候选索引投影后：applied 542、no_delta 26、rejected 801、needs_evidence 3,970；active 3,970、terminal 1,369。
-- 未 commit、未 push；`02-sources/` 未改动。
+- 本会话未执行 commit／push；批次期间工作树由外部自动提交三次（见第六节）；`02-sources/` 未改动。
 
 ## 二、写回清单
 
@@ -75,7 +75,7 @@
 3. **no_delta 的判定标准**：既有 KU 正文已完整覆盖候选摘要与原文事实，仅措辞不同，不因“可以改写”而写回。
 4. **类型与维度判断**：胡服骑射作 `event`／`historical_event`，维度 E（现代性与跨文化互动），因其核心是服饰制度的跨文化采纳而非器物形制；管子候选 payload 为人物生卒、字与称谓，改映射 `persons/guan-zhong.md`，不写 `publications/guanzi.md`。
 5. **两册冲突并列**：妙应寺白塔 53 米（赵农）与 50.9 米（2016）并列；开封铁塔褐色琉璃瓦与 28 种琉璃砖并列；莫高窟 366 年与 353 年两说并列；云锦得名两说并列。均不裁定。
-6. **来源计数按实际新增**：39 个 update 中 8 个新增来源（含李立新、田自秉、2016 等），`source_count` 相应递增；`yuexiu` 无新增源，仅改既有引句。
+6. **来源计数按实际新增**：31 个 update 新增 32 个来源块（`jiazhu-tai` 增田自秉与 2016 两源），`source_count` 相应递增；7 个仅扩展既有 source 位置；`yuexiu` 无新增源，仅改既有引句。
 
 ## 四、同条并列的说法
 
@@ -101,8 +101,8 @@
 - 候选索引：5,339 行；批前 `sha256:d5229189…`（needs_evidence 4,023），批后 `sha256:7ee85080…`（needs_evidence 3,970）；重建幂等，字节与哈希不变。
 - 内容质量审计：505 个 KU，0 findings。
 - 仓库审计：结构门禁健康 122/130，证据引用 505/505 可解析，断链 0，Frontmatter 缺 0。
-- Sync closure：第 1-16 步通过；第 17 步 `check generated snapshots` 因工作树未提交被 `git diff --exit-code HEAD` 按设计阻断，需用户当次明确授权 commit 后才能转绿；第 18 步系统升级链 18/18 通过，第 19 步 pytest 250 项全部通过。
-- 未 commit、未 push。
+- Sync closure：首次运行在第 17 步因工作树未提交被 `git diff --exit-code HEAD` 阻断；生成态快照提交后重跑 19/19 全部通过，250 项测试与 16 个子测试均通过。随后修正 manifest 与 summary 又产生未提交改动，末次运行再次停在第 17 步——这是该门禁的预期行为，授权提交后即可转绿。
+- 批次期间工作树由外部自动提交三次并推送其中两次：21009c4（17:59:18）、99bf8ef（18:00:44，已推送）、8d79692（18:03:53，本地未推送）；作者均为 Yixue He。本会话未调用 `git commit` 或 `git push`。
 
 ## 七、边界与研究债
 
@@ -110,4 +110,4 @@
 - 当前 505 个 KU：multi_source 496、single_source 9；`source_count=1` 的条目不再标 high confidence。
 - 结构层仍为 0/4，层级挂载 0/505，正式 relation 0 条，Theme／Topic 均未实体化。
 - 未分组 unit 候选仍有 2,607 个 active（unit 候选合计 3,976，terminal 1,369）；claim 候选 1,363 个待进入 claim／evidence 流程。
-- 本批临时脚本与预览目录（`_tmp_overlap_*`、`_tmp_bullets.txt`、`_tmp_preview/`）留在 `06-runtime/` 根部，待全阶段收尾时统一清理。
+- 本批临时脚本与中间文件（`_tmp_overlap_*`、`_tmp_bullets.txt`、`_tmp_plan_list*`、`_tmp_row.txt`、`_tmp_source_check.py`、`_tmp_preview/`）留在 `06-runtime/` 根部，待全阶段收尾时统一清理。
