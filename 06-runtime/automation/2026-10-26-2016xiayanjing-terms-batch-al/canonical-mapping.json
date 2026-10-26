@@ -1,0 +1,363 @@
+[
+  {
+    "entity": "类书",
+    "target_ref": "04-knowledge/units/terms/zhongguo-gudai-leishu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-06",
+    "merged_candidates": []
+  },
+  {
+    "entity": "山顶洞人",
+    "target_ref": "04-knowledge/units/terms/shandingdongren.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中石器时代",
+    "target_ref": "04-knowledge/units/terms/zhongshiqi-shidai.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "峙峪文化",
+    "target_ref": "04-knowledge/units/terms/shiyu-wenhua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "磁山文化",
+    "target_ref": "04-knowledge/units/terms/cishan-wenhua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "裴李岗文化",
+    "target_ref": "04-knowledge/units/terms/peiligang-wenhua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三棱尖状石器",
+    "target_ref": "04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "薛家岗文化",
+    "target_ref": "04-knowledge/units/terms/xuejiagang-wenhua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石镰",
+    "target_ref": "04-knowledge/units/terms/shilian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石磨盘和磨棒",
+    "target_ref": "04-knowledge/units/terms/shimopan-mobang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "鱼鳍形足陶鼎",
+    "target_ref": "04-knowledge/units/terms/yuqixingzu-taoding.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "水鸟形陶壶",
+    "target_ref": "04-knowledge/units/terms/shuiniaoxing-taohu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "原始服装",
+    "target_ref": "04-knowledge/units/terms/yuanshi-fuzhuang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "山顶洞人骨针",
+    "target_ref": "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "踞织机",
+    "target_ref": "04-knowledge/units/terms/juzhiji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "原始编织",
+    "target_ref": "04-knowledge/units/procedures/bianzhi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-89",
+    "merged_candidates": [],
+    "note": "既有 procedures/bianzhi.md 以赵农 2009、田自秉 2010 为基；补 2016 L564 良渚草编与丝麻织物、四五千年前养蚕织绢判断、姜寨陶钵人字纹席与半坡百余块标本五种编结法；source_count 2→3、version 1→2。"
+  },
+  {
+    "entity": "骨梭",
+    "target_ref": "04-knowledge/units/terms/gusuo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "巢居",
+    "target_ref": "04-knowledge/units/terms/chaoju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "穴居",
+    "target_ref": "04-knowledge/units/terms/xueju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-93",
+    "merged_candidates": []
+  },
+  {
+    "entity": "良渚石犁",
+    "target_ref": "04-knowledge/units/terms/liangzhu-shili.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "原始农具",
+    "target_ref": "04-knowledge/units/terms/yuanshi-nongju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-91",
+    "merged_candidates": []
+  },
+  {
+    "entity": "先秦三代",
+    "target_ref": "04-knowledge/units/terms/xianqin-sandai.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-01",
+    "merged_candidates": []
+  },
+  {
+    "entity": "禅让制",
+    "target_ref": "04-knowledge/units/terms/shanrang-system.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-02",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铜石并用时期",
+    "target_ref": "04-knowledge/units/terms/copper-stone-period.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "青铜合金配比",
+    "target_ref": "04-knowledge/units/terms/liuqi.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-14",
+    "merged_candidates": [],
+    "note": "既有 terms/liuqi.md 已完整覆盖 2016 L648-L649 的钟鼎 6:1、斧斤 5:1、鉴燧 1:1 及高丰 17% 换算与解释分歧；候选无新增事实。"
+  },
+  {
+    "entity": "九鼎八簋",
+    "target_ref": "04-knowledge/units/terms/ding.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-17",
+    "merged_candidates": [],
+    "note": "既有 terms/ding.md 已完整收录 2016 L776 九鼎八簋原文，含禹铸九鼎、定鼎、曾侯乙墓九鼎八簋与礼崩乐坏/礼制已变两说；terms/lieding-system.md 已记天子九鼎八簋至元士三鼎一簋的等级数字。候选无新增事实。"
+  },
+  {
+    "entity": "甗",
+    "target_ref": "04-knowledge/units/terms/yan-steamer.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-150",
+    "merged_candidates": []
+  },
+  {
+    "entity": "簋",
+    "target_ref": "04-knowledge/units/terms/gui-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-118",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盨",
+    "target_ref": "04-knowledge/units/terms/xu-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-152",
+    "merged_candidates": []
+  },
+  {
+    "entity": "尊",
+    "target_ref": "04-knowledge/units/terms/zun-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-119",
+    "merged_candidates": []
+  },
+  {
+    "entity": "彝",
+    "target_ref": "04-knowledge/units/terms/yi-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-154",
+    "merged_candidates": []
+  },
+  {
+    "entity": "壶",
+    "target_ref": "04-knowledge/units/terms/hu-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-120",
+    "merged_candidates": []
+  },
+  {
+    "entity": "卣",
+    "target_ref": "04-knowledge/units/terms/you-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-155",
+    "merged_candidates": []
+  },
+  {
+    "entity": "罍",
+    "target_ref": "04-knowledge/units/terms/lei-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-156",
+    "merged_candidates": []
+  },
+  {
+    "entity": "觥",
+    "target_ref": "04-knowledge/units/terms/gong-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-157",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盉",
+    "target_ref": "04-knowledge/units/terms/he-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-158",
+    "merged_candidates": []
+  },
+  {
+    "entity": "爵",
+    "target_ref": "04-knowledge/units/terms/jue-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-117",
+    "merged_candidates": []
+  },
+  {
+    "entity": "斝",
+    "target_ref": "04-knowledge/units/terms/jia-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-159",
+    "merged_candidates": []
+  },
+  {
+    "entity": "觚",
+    "target_ref": "04-knowledge/units/terms/gu-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-160",
+    "merged_candidates": []
+  },
+  {
+    "entity": "觯",
+    "target_ref": "04-knowledge/units/terms/zhi-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-161",
+    "merged_candidates": []
+  },
+  {
+    "entity": "角",
+    "target_ref": "04-knowledge/units/terms/jiao-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-162",
+    "merged_candidates": []
+  },
+  {
+    "entity": "鉴",
+    "target_ref": "04-knowledge/units/terms/jian-basin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-163",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盘",
+    "target_ref": "04-knowledge/units/terms/pan-basin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-165",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盂",
+    "target_ref": "04-knowledge/units/terms/yu-basin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-166",
+    "merged_candidates": []
+  },
+  {
+    "entity": "侈口",
+    "target_ref": "04-knowledge/units/terms/chikou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "缶",
+    "target_ref": "04-knowledge/units/terms/fou-vessel.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "纹饰十二章",
+    "target_ref": "04-knowledge/units/terms/twelve-symbols.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-57",
+    "merged_candidates": []
+  },
+  {
+    "entity": "百家争鸣",
+    "target_ref": "04-knowledge/units/terms/hundred-schools.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-60",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铁氏三兄弟",
+    "target_ref": "04-knowledge/units/terms/iron-three-brothers.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-63",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铁制农具",
+    "target_ref": "04-knowledge/units/terms/iron-farm-tools.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-70",
+    "merged_candidates": []
+  },
+  {
+    "entity": "错金银",
+    "target_ref": "04-knowledge/units/procedures/cuo-jin-yin-cuo-tong.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-74",
+    "merged_candidates": [],
+    "note": "既有 procedures/cuo-jin-yin-cuo-tong.md 已完整覆盖 2016 L1122-L1127 的镶嵌绿松石、春秋中期错金银发展、栾书缶错金铭文 40 余字与燕赵蔡错铜新工艺；候选无新增事实。"
+  }
+]

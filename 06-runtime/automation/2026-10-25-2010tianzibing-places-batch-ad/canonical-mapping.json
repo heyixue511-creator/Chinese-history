@@ -1,0 +1,177 @@
+[
+  {
+    "entity": "辉县战国墓地",
+    "target_ref": "04-knowledge/units/places/huixian-zhanguo-mudi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "平山中山王墓",
+    "target_ref": "04-knowledge/units/places/pingshan-zhongshanguo-wangmu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曾侯乙墓",
+    "target_ref": "04-knowledge/units/places/zenghouyi-tomb.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "淅川下寺楚墓",
+    "target_ref": "04-knowledge/units/places/xichuan-xiasi-chumu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "长沙楚墓群",
+    "target_ref": "04-knowledge/units/places/changsha-chumuqun.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-46",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江陵楚墓群",
+    "target_ref": "04-knowledge/units/places/jiangling-chumuqun.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-47",
+    "merged_candidates": []
+  },
+  {
+    "entity": "信阳楚墓",
+    "target_ref": "04-knowledge/units/places/xinyang-chumu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-48",
+    "merged_candidates": []
+  },
+  {
+    "entity": "绍兴富盛战国窑址",
+    "target_ref": "04-knowledge/units/places/shaoxing-fusheng-yaozhi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-49",
+    "merged_candidates": []
+  },
+  {
+    "entity": "咸阳",
+    "target_ref": "04-knowledge/units/places/xianyang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "睡虎地秦墓",
+    "target_ref": "04-knowledge/units/places/shuihudi-qinmu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江陵凤凰山秦墓",
+    "target_ref": "04-knowledge/units/places/jiangling-fenghuangshan-qinmu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武威雷台汉墓",
+    "target_ref": "04-knowledge/units/places/wuwei-leitai-hanmu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "丹阳",
+    "target_ref": "04-knowledge/units/places/danyang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上虞窑址",
+    "target_ref": "04-knowledge/units/places/shangyu-yaozhi.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-14",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汉长安城",
+    "target_ref": "04-knowledge/units/places/han-chang-an.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "临淄",
+    "target_ref": "04-knowledge/units/places/linzi.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-83",
+    "merged_candidates": []
+  },
+  {
+    "entity": "襄邑",
+    "target_ref": "04-knowledge/units/places/xiangyi-chenliu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "洛阳",
+    "target_ref": "04-knowledge/units/places/luoyang.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "民丰汉墓",
+    "target_ref": "04-knowledge/units/places/minfeng-hanmu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "乐浪",
+    "target_ref": "04-knowledge/units/places/lelang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-17",
+    "merged_candidates": []
+  },
+  {
+    "entity": "霍去病墓",
+    "target_ref": "04-knowledge/units/places/huoqubing-mu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-25",
+    "merged_candidates": []
+  },
+  {
+    "entity": "孝堂山郭巨祠",
+    "target_ref": "04-knowledge/units/places/xiaotangshan.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武氏祠",
+    "target_ref": "04-knowledge/units/places/wushi-ci.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "沂南画像石墓",
+    "target_ref": "04-knowledge/units/places/yinan-huaxiangshi-mu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南阳画像石分布区",
+    "target_ref": "04-knowledge/units/places/nanyang-huaxiangshi-qu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-34",
+    "merged_candidates": []
+  }
+]

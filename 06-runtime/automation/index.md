@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `77`
-- Files: `364`
-- Size: `5309208` bytes
+- Batch directories: `91`
+- Files: `437`
+- Size: `6764171` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `364` files
+- R1 provenance: `437` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -34,25 +34,25 @@
 | `hierarchy` | 0 | - |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 77 | [summary](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md) |
+| `other` | 91 | [summary](2026-10-26-2016xiayanjing-works-batch-aj/summary.md) |
 
 ## Recent Batches (15)
 
+- [2026-10-26-2016xiayanjing-works-batch-aj](2026-10-26-2016xiayanjing-works-batch-aj/summary.md)
+- [2026-10-26-2016xiayanjing-works-batch-ai](2026-10-26-2016xiayanjing-works-batch-ai/summary.md)
+- [2026-10-26-2016xiayanjing-terms-batch-ap](2026-10-26-2016xiayanjing-terms-batch-ap/summary.md)
+- [2026-10-26-2016xiayanjing-terms-batch-ao](2026-10-26-2016xiayanjing-terms-batch-ao/summary.md)
+- [2026-10-26-2016xiayanjing-terms-batch-an](2026-10-26-2016xiayanjing-terms-batch-an/summary.md)
+- [2026-10-26-2016xiayanjing-terms-batch-am](2026-10-26-2016xiayanjing-terms-batch-am/summary.md)
+- [2026-10-26-2016xiayanjing-terms-batch-al](2026-10-26-2016xiayanjing-terms-batch-al/summary.md)
+- [2026-10-26-2016xiayanjing-publications-batch-ak](2026-10-26-2016xiayanjing-publications-batch-ak/summary.md)
 - [2026-10-25-2009xiayanjing-procedures-batch-2](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md)
 - [2026-10-25-2009xiayanjing-procedures-batch-1](2026-10-25-2009xiayanjing-procedures-batch-1/summary.md)
+- [2026-10-25-zhaonong2009-places-batch-ab](2026-10-25-zhaonong2009-places-batch-ab/summary.md)
 - [2026-10-25-zhaonong2009-places-batch-aa](2026-10-25-zhaonong2009-places-batch-aa/summary.md)
 - [2026-10-25-xiayanjing2009-places-batch-y](2026-10-25-xiayanjing2009-places-batch-y/summary.md)
 - [2026-10-25-work-doc2-batch-b](2026-10-25-work-doc2-batch-b/summary.md)
 - [2026-10-25-work-doc2-batch-a](2026-10-25-work-doc2-batch-a/summary.md)
-- [2026-10-25-three-book-work-units-c](2026-10-25-three-book-work-units-c/summary.md)
-- [2026-10-25-three-book-work-units-b](2026-10-25-three-book-work-units-b/summary.md)
-- [2026-10-25-three-book-work-units-a](2026-10-25-three-book-work-units-a/summary.md)
-- [2026-10-25-three-book-publication-units-b](2026-10-25-three-book-publication-units-b/summary.md)
-- [2026-10-25-three-book-publication-units-a](2026-10-25-three-book-publication-units-a/summary.md)
-- [2026-10-25-three-book-place-units](2026-10-25-three-book-place-units/summary.md)
-- [2026-10-25-three-book-person-units-b](2026-10-25-three-book-person-units-b/summary.md)
-- [2026-10-25-three-book-person-units](2026-10-25-three-book-person-units/summary.md)
-- [2026-10-25-three-book-canonical-units](2026-10-25-three-book-canonical-units/summary.md)
 
 ## Current State
 

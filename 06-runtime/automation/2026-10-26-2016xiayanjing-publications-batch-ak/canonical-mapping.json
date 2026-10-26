@@ -1,0 +1,430 @@
+[
+  {
+    "entity": "中国艺术设计史（升级版）",
+    "target_ref": "04-knowledge/units/publications/zhongguo-yishu-shejishi-upgraded.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "艺文类聚",
+    "target_ref": "04-knowledge/units/publications/yiwen-leiju.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-104",
+    "merged_candidates": []
+  },
+  {
+    "entity": "太平御览",
+    "target_ref": "04-knowledge/units/publications/taiping-yulan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-105",
+    "merged_candidates": []
+  },
+  {
+    "entity": "商君书",
+    "target_ref": "04-knowledge/units/publications/shangjunshu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-106",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周易",
+    "target_ref": "04-knowledge/units/publications/zhouyi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-107",
+    "merged_candidates": [],
+    "note": "既有 KU 补源，source_count 不变。"
+  },
+  {
+    "entity": "三礼图",
+    "target_ref": "04-knowledge/units/publications/sanli-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-139",
+    "merged_candidates": []
+  },
+  {
+    "entity": "左传",
+    "target_ref": "04-knowledge/units/publications/zuozhuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-15",
+    "merged_candidates": []
+  },
+  {
+    "entity": "尚书",
+    "target_ref": "04-knowledge/units/publications/shangshu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-44",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-42"
+    ],
+    "note": "两条候选合并为同一 publication KU。"
+  },
+  {
+    "entity": "捣练赋",
+    "target_ref": "04-knowledge/units/publications/daolianfu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-116",
+    "merged_candidates": []
+  },
+  {
+    "entity": "盐铁论",
+    "target_ref": "04-knowledge/units/publications/yantielun.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "淮南子",
+    "target_ref": "04-knowledge/units/publications/huainanzi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-30",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-52"
+    ],
+    "note": "两条候选合并为同一 publication KU。"
+  },
+  {
+    "entity": "刘子",
+    "target_ref": "04-knowledge/units/publications/liuzi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "唐六典",
+    "target_ref": "04-knowledge/units/publications/tang-liudian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "天盛律令",
+    "target_ref": "04-knowledge/units/publications/tiansheng-lvling.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋会要辑稿",
+    "target_ref": "04-knowledge/units/publications/song-huiyao-jigao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "碎金",
+    "target_ref": "04-knowledge/units/publications/suijin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "丹铅总录",
+    "target_ref": "04-knowledge/units/publications/danqian-zonglu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "农桑辑要",
+    "target_ref": "04-knowledge/units/publications/nongsang-jizao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江宁织造与曹家",
+    "target_ref": "04-knowledge/units/publications/jiangning-zhizao-yu-caojia.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "工程做法",
+    "target_ref": "04-knowledge/units/publications/gongcheng-zuofa.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-53",
+    "merged_candidates": []
+  },
+  {
+    "entity": "明式家具研究",
+    "target_ref": "04-knowledge/units/publications/mingshi-jiaju-yanjiu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "剪辫通令",
+    "target_ref": "04-knowledge/units/publications/jianbian-tongling.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "服制条例",
+    "target_ref": "04-knowledge/units/publications/fuzhi-tiaoli.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海新报",
+    "target_ref": "04-knowledge/units/publications/shanghai-xinbao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-128",
+    "merged_candidates": []
+  },
+  {
+    "entity": "红旗",
+    "target_ref": "04-knowledge/units/publications/hongqi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-130",
+    "merged_candidates": []
+  },
+  {
+    "entity": "解放军文艺",
+    "target_ref": "04-knowledge/units/publications/jiefangjun-wenyi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-131",
+    "merged_candidates": []
+  },
+  {
+    "entity": "生活周刊",
+    "target_ref": "04-knowledge/units/publications/shenghuo-weekly.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北平笺谱",
+    "target_ref": "04-knowledge/units/publications/beiping-jianpu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海市市中心区域规划",
+    "target_ref": "04-knowledge/units/publications/shanghai-center-plan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-47",
+    "merged_candidates": []
+  },
+  {
+    "entity": "论十大关系",
+    "target_ref": "04-knowledge/units/publications/on-ten-great-relationships.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-70",
+    "merged_candidates": []
+  },
+  {
+    "entity": "保护非物质文化遗产公约",
+    "target_ref": "04-knowledge/units/publications/unesco-ich-convention.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-92",
+    "merged_candidates": []
+  },
+  {
+    "entity": "当代中国的工艺美术",
+    "target_ref": "04-knowledge/units/publications/contemporary-china-crafts-book.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-49",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中国美术报",
+    "target_ref": "04-knowledge/units/publications/china-art-newspaper.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "管子",
+    "target_ref": "04-knowledge/units/publications/guanzi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-43",
+    "merged_candidates": [],
+    "note": "既有 KU 补源，source_count 不变。"
+  },
+  {
+    "entity": "墨子·节用",
+    "target_ref": "04-knowledge/units/publications/mozi-jieyong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-48",
+    "merged_candidates": []
+  },
+  {
+    "entity": "释名",
+    "target_ref": "04-knowledge/units/publications/shiming.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "四民月令",
+    "target_ref": "04-knowledge/units/publications/simin-yueling.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "白虎通",
+    "target_ref": "04-knowledge/units/publications/baitong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "初学记",
+    "target_ref": "04-knowledge/units/publications/chuxueji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-58",
+    "merged_candidates": []
+  },
+  {
+    "entity": "都城纪胜",
+    "target_ref": "04-knowledge/units/publications/ducheng-jisheng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-62",
+    "merged_candidates": []
+  },
+  {
+    "entity": "武林旧事",
+    "target_ref": "04-knowledge/units/publications/wulin-jiushi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-64",
+    "merged_candidates": []
+  },
+  {
+    "entity": "燕几图",
+    "target_ref": "04-knowledge/units/publications/yanji-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "事物纪原",
+    "target_ref": "04-knowledge/units/publications/shiwu-jiyuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南村辍耕录",
+    "target_ref": "04-knowledge/units/publications/nancun-chuogenglu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蜀锦谱",
+    "target_ref": "04-knowledge/units/publications/shujin-pu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-68",
+    "merged_candidates": []
+  },
+  {
+    "entity": "事物原始",
+    "target_ref": "04-knowledge/units/publications/shiwu-yuanshi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-76",
+    "merged_candidates": []
+  },
+  {
+    "entity": "博物要览",
+    "target_ref": "04-knowledge/units/publications/bowu-yaolan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "扬州画舫录",
+    "target_ref": "04-knowledge/units/publications/yangzhou-huafanglu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-79",
+    "merged_candidates": []
+  },
+  {
+    "entity": "一家言·居室器玩部",
+    "target_ref": "04-knowledge/units/publications/yijia-yan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-80",
+    "merged_candidates": []
+  },
+  {
+    "entity": "阳羡名陶录",
+    "target_ref": "04-knowledge/units/publications/yangxian-mingtaolu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "窑器说",
+    "target_ref": "04-knowledge/units/publications/yaoqi-shuo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-83",
+    "merged_candidates": []
+  },
+  {
+    "entity": "景德镇陶录",
+    "target_ref": "04-knowledge/units/publications/jingdezhen-taolu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "南窑笔记",
+    "target_ref": "04-knowledge/units/publications/nanyao-biji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "古铜瓷器考",
+    "target_ref": "04-knowledge/units/publications/gutong-ciqi-kao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-86",
+    "merged_candidates": []
+  },
+  {
+    "entity": "释缯",
+    "target_ref": "04-knowledge/units/publications/shizeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-87",
+    "merged_candidates": []
+  },
+  {
+    "entity": "废艺斋集稿",
+    "target_ref": "04-knowledge/units/publications/feiyizhai-jigao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "清宫内务府造办处档案总汇",
+    "target_ref": "04-knowledge/units/publications/qinggongbu-zaobanchchu-dangan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-91",
+    "merged_candidates": []
+  },
+  {
+    "entity": "竹园陶说",
+    "target_ref": "04-knowledge/units/publications/zhuyuan-taoshuo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-94",
+    "merged_candidates": []
+  },
+  {
+    "entity": "艺术与设计",
+    "target_ref": "04-knowledge/units/publications/yishu-yu-sheji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-96",
+    "merged_candidates": []
+  },
+  {
+    "entity": "普通高等学校本科专业目录",
+    "target_ref": "04-knowledge/units/publications/putong-gaoxiao-benke-zhuanye-mulu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-97",
+    "merged_candidates": []
+  }
+]

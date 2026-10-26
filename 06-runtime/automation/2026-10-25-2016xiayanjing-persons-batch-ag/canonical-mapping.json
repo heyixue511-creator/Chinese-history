@@ -1,0 +1,334 @@
+[
+  {
+    "entity": "刘知幾",
+    "target_ref": "04-knowledge/units/persons/liu-zhiji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-101",
+    "merged_candidates": []
+  },
+  {
+    "entity": "嫘祖",
+    "target_ref": "04-knowledge/units/persons/leizu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-102",
+    "merged_candidates": []
+  },
+  {
+    "entity": "黄帝（传说）",
+    "target_ref": "04-knowledge/units/persons/huangdi-legend.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-12",
+    "merged_candidates": []
+  },
+  {
+    "entity": "舜（传说）",
+    "target_ref": "04-knowledge/units/persons/shun-legend.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "夏启",
+    "target_ref": "04-knowledge/units/persons/xia-qi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周文王",
+    "target_ref": "04-knowledge/units/persons/king-wen-of-zhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-136",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周武王",
+    "target_ref": "04-knowledge/units/persons/king-wu-of-zhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-137",
+    "merged_candidates": []
+  },
+  {
+    "entity": "聂崇义",
+    "target_ref": "04-knowledge/units/persons/nie-chongyi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-138",
+    "merged_candidates": []
+  },
+  {
+    "entity": "楚庄王",
+    "target_ref": "04-knowledge/units/persons/king-zhuang-of-chu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "公输盘",
+    "target_ref": "04-knowledge/units/persons/gongshu-pan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-53",
+    "merged_candidates": []
+  },
+  {
+    "entity": "谢赫",
+    "target_ref": "04-knowledge/units/persons/xie-he.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "陆羽",
+    "target_ref": "04-knowledge/units/persons/lu-yu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "窦师纶（窦师伦）",
+    "target_ref": "04-knowledge/units/persons/dou-shilun.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "张萱",
+    "target_ref": "04-knowledge/units/persons/zhang-xuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-50",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周昉",
+    "target_ref": "04-knowledge/units/persons/zhou-fang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "李皋",
+    "target_ref": "04-knowledge/units/persons/li-gao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-66",
+    "merged_candidates": []
+  },
+  {
+    "entity": "阎立德（闫立德）",
+    "target_ref": "04-knowledge/units/persons/yan-lide.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "张彦远",
+    "target_ref": "04-knowledge/units/persons/zhang-yanyuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "柳宗元",
+    "target_ref": "04-knowledge/units/persons/liu-zongyuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-84",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-01",
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-38"
+    ]
+  },
+  {
+    "entity": "察必",
+    "target_ref": "04-knowledge/units/persons/chabi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "金之俊",
+    "target_ref": "04-knowledge/units/persons/jin-zhijun.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-01",
+    "merged_candidates": []
+  },
+  {
+    "entity": "朱琰",
+    "target_ref": "04-knowledge/units/persons/zhu-yan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周嘉胄",
+    "target_ref": "04-knowledge/units/persons/zhou-jiazhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "华燧",
+    "target_ref": "04-knowledge/units/persons/hua-sui.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "端方",
+    "target_ref": "04-knowledge/units/persons/duan-fang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-13",
+    "merged_candidates": []
+  },
+  {
+    "entity": "柴扉",
+    "target_ref": "04-knowledge/units/persons/chai-fei.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-16",
+    "merged_candidates": []
+  },
+  {
+    "entity": "黄卖九",
+    "target_ref": "04-knowledge/units/persons/huang-maijiu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-17",
+    "merged_candidates": []
+  },
+  {
+    "entity": "沈金水",
+    "target_ref": "04-knowledge/units/persons/shen-jinshui.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王茂仙",
+    "target_ref": "04-knowledge/units/persons/wang-maoxian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "孙福熙",
+    "target_ref": "04-knowledge/units/persons/sun-fuxi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "司徒乔",
+    "target_ref": "04-knowledge/units/persons/si-tuqiao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "叶灵凤",
+    "target_ref": "04-knowledge/units/persons/ye-lingfeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-127",
+    "merged_candidates": []
+  },
+  {
+    "entity": "容闳",
+    "target_ref": "04-knowledge/units/persons/rong-hong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周仁斋",
+    "target_ref": "04-knowledge/units/persons/zhou-renzhai.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "钱君匋",
+    "target_ref": "04-knowledge/units/persons/qian-junfou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-40",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曾联松",
+    "target_ref": "04-knowledge/units/persons/zeng-liansong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "张仃",
+    "target_ref": "04-knowledge/units/persons/zhang-ding.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "吉干臣",
+    "target_ref": "04-knowledge/units/persons/ji-ganchen.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-62",
+    "merged_candidates": []
+  },
+  {
+    "entity": "顾景舟",
+    "target_ref": "04-knowledge/units/persons/gu-jingzhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "李先念",
+    "target_ref": "04-knowledge/units/persons/li-xiannian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-82",
+    "merged_candidates": []
+  },
+  {
+    "entity": "周恩来",
+    "target_ref": "04-knowledge/units/persons/zhou-enlai.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-96",
+    "merged_candidates": []
+  },
+  {
+    "entity": "毛泽东",
+    "target_ref": "04-knowledge/units/persons/mao-zedong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-97",
+    "merged_candidates": []
+  },
+  {
+    "entity": "万籁鸣",
+    "target_ref": "04-knowledge/units/persons/wan-lai-ming.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-01",
+    "merged_candidates": []
+  },
+  {
+    "entity": "庞薰琴（庞薰琹）",
+    "target_ref": "04-knowledge/units/persons/pang-xunqin.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-33",
+    "merged_candidates": []
+  },
+  {
+    "entity": "万古蟾",
+    "target_ref": "04-knowledge/units/persons/wan-gu-chan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-70",
+    "merged_candidates": []
+  },
+  {
+    "entity": "万超尘",
+    "target_ref": "04-knowledge/units/persons/wan-chao-chen.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-71",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曹雪芹",
+    "target_ref": "04-knowledge/units/persons/cao-xueqin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-36",
+    "merged_candidates": []
+  }
+]

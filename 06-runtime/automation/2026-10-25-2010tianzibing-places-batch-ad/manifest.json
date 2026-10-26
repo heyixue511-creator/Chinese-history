@@ -1,0 +1,213 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-places-batch-ad",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册 place 候选 25 个：新建 21、更新 4，无 no_delta、无 merged。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:211de29d2890e2909d2ecfcba6502b6b318d46d6bfb48a00f094a0095e14f13a",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1008,
+        "needs_evidence": 3445,
+        "no_delta": 74,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L1764-L2033",
+        "L1774",
+        "L1814",
+        "L1814-L2035",
+        "L1883-L1919",
+        "L1960-L2043",
+        "L1962-L2022",
+        "L2014",
+        "L2079-L2123",
+        "L2104-L2106",
+        "L2106",
+        "L2177",
+        "L2251",
+        "L2363-L2365",
+        "L2377-L2379",
+        "L2442",
+        "L2515-L2539",
+        "L2565-L2601",
+        "L2615",
+        "L2631",
+        "L2633",
+        "L2641",
+        "L2657-L2661"
+      ],
+      "spans_scope": "25 个候选 source_span 的并集；L1764-L2033（辉县）与 L1814-L2035（淅川下寺）为宽跨段，实际引用集中在 L1764、L1814、L1768-L2035 内的 L1804、L1871、L1899、L2033、L2035。span 之外的补证为同册 L2335（辉县固围村银器、随县金器）、L2450、L2452（临淄服官与织物名产）、L2462（乐浪王盱墓丝织品）。",
+      "candidates_in_scope": 25
+    }
+  },
+  "method": {
+    "rules": [
+      "25 个候选 = 田自秉 2010 册第 5、6、7 章的 place 候选；先按实体与既有 place／term／institution／procedure／event／work KU 对账，再逐条定 create／update。",
+      "新建 21 条：辉县战国墓地、平山中山王墓、淅川下寺楚墓、长沙楚墓群、江陵楚墓群、信阳楚墓、绍兴富盛战国窑址、咸阳、睡虎地秦墓、江陵凤凰山秦墓、武威雷台汉墓、丹阳、上虞窑址、襄邑、民丰汉墓、乐浪、霍去病墓、孝堂山、武氏祠、沂南画像石墓、南阳画像石分布区。全部为单源（田自秉），confidence 均为 medium。",
+      "更新 4 文件：places/zenghouyi-tomb.md（source_count 2→3，version 1→2）、places/han-chang-an.md（1→2）、places/linzi.md（2→3）、places/luoyang.md（1→2）。四者均在既有条目上追加田自秉来源，不改写既有来源已记内容。",
+      "划界规则：上虞窑址只记东汉段与帐子山黑瓷，三国两晋窑数归 places/yue-kiln.md、窑炉归 terms/longyao.md、黑瓷总述归 terms/black-porcelain.md；汉长安城与临淄只作织室与服官的位置锚点，职掌归 institutions/dongxi-zhishi.md 与 institutions/sanfuguan.md；襄邑不重复三服官，陈留种蓝染绀（L2519）留给后续陈留候选；乐浪不重复十一工种分工；平山不重复方案 work 细节；曾侯乙不重复尊盘 work 细节；江陵楚墓群不重复马山一号墓单墓与丝织 event；孝堂山、武氏祠、沂南、南阳不重复 procedures/pingmian-tidi-fa.md 的技法总述。",
+      "跨册与跨段分歧一律并列不裁定：曾侯乙墓发掘年份田自秉记 1977、夏燕靖 2016 记 1978 年 5 月；民丰汉墓与尼雅遗址 1959 腊缬棉布是否同批未明，两条并列存疑；辉县条排除汲县山彪镇水陆攻战纹鉴（同段并出而分属两地）；咸阳条排除临潼兵马俑（不属咸阳城）；武氏祠与武梁祠分列，武梁祠伏羲女娲图仍归 places/wuliangci.md。",
+      "来源异常照录不径改：睡虎地漆器器类「耳环」疑为「耳杯」之误；临淄织物名产「齐陶之缣」原文如此；孝堂山「郭巨祠」来源只用“主要指”限定，未改写为等同关系。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。",
+      "生成态在改完 25 个目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；工作区 HEAD 74f6596 为外部同步进程既有提交，非本批授权动作。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 21,
+      "update": 4,
+      "paths_created": [
+        "04-knowledge/units/places/huixian-zhanguo-mudi.md",
+        "04-knowledge/units/places/pingshan-zhongshanguo-wangmu.md",
+        "04-knowledge/units/places/xichuan-xiasi-chumu.md",
+        "04-knowledge/units/places/changsha-chumuqun.md",
+        "04-knowledge/units/places/jiangling-chumuqun.md",
+        "04-knowledge/units/places/xinyang-chumu.md",
+        "04-knowledge/units/places/shaoxing-fusheng-yaozhi.md",
+        "04-knowledge/units/places/xianyang.md",
+        "04-knowledge/units/places/shuihudi-qinmu.md",
+        "04-knowledge/units/places/jiangling-fenghuangshan-qinmu.md",
+        "04-knowledge/units/places/wuwei-leitai-hanmu.md",
+        "04-knowledge/units/places/danyang.md",
+        "04-knowledge/units/places/shangyu-yaozhi.md",
+        "04-knowledge/units/places/xiangyi-chenliu.md",
+        "04-knowledge/units/places/minfeng-hanmu.md",
+        "04-knowledge/units/places/lelang.md",
+        "04-knowledge/units/places/huoqubing-mu.md",
+        "04-knowledge/units/places/xiaotangshan.md",
+        "04-knowledge/units/places/wushi-ci.md",
+        "04-knowledge/units/places/yinan-huaxiangshi-mu.md",
+        "04-knowledge/units/places/nanyang-huaxiangshi-qu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/zenghouyi-tomb.md",
+        "04-knowledge/units/places/han-chang-an.md",
+        "04-knowledge/units/places/linzi.md",
+        "04-knowledge/units/places/luoyang.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ad\\apply-plan.jsonl",
+      "rows": 25,
+      "create": 21,
+      "update": 4,
+      "note": "25 个候选一一对应 25 个目标文件，无 merged、无 no_delta；apply-plan 与 canonical-mapping 行数相同。"
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ad\\candidate-decision-ledger.jsonl",
+      "rows": 75,
+      "candidates": 25,
+      "applied": 25,
+      "no_delta": 0,
+      "note": "25 个候选各走 needs_evidence→ready_for_review→approved→applied 四步中的后三步，终态行带 target_ref。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ad\\canonical-mapping.json",
+      "entries": 25,
+      "merged_candidates": []
+    }
+  },
+  "state_after": {
+    "applied": 1033,
+    "needs_evidence": 3420,
+    "no_delta": 74,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 75,
+      "candidates_in_ledger": 25,
+      "candidates_in_scope": 25,
+      "final_applied_transitions": 25,
+      "final_no_delta": 0,
+      "final_rejected_new": 0,
+      "plan_rows": 25,
+      "create": 21,
+      "update": 4,
+      "merged_candidates": 0,
+      "fingerprints_verified": 25,
+      "mapping_entries": 25,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 908,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 908,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/908",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "908/908",
+      "persons": 74,
+      "institutions": 144,
+      "places": 122,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 908,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更），与 AC 批情形相同；本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:51fcf28f4f7c1c8a29b30aeb67638bb9fe742ee8a0cb17794bdcea9414f316d8",
+      "counts": {
+        "applied": 1033,
+        "needs_evidence": 3420,
+        "no_delta": 74,
+        "rejected": 812
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

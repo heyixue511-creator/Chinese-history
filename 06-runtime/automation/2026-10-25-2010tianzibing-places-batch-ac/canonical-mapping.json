@@ -1,0 +1,109 @@
+[
+  {
+    "entity": "两城镇遗址",
+    "target_ref": "04-knowledge/units/places/liangchengzhen-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北阴阳营遗址",
+    "target_ref": "04-knowledge/units/places/beiyinyangying-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑州紫荆山商代遗址",
+    "target_ref": "04-knowledge/units/places/zhengzhou-zijingshan-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-01",
+    "merged_candidates": []
+  },
+  {
+    "entity": "藁城台西村商代遗址",
+    "target_ref": "04-knowledge/units/places/gaocheng-taixicun-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "侯马周代铸铜遗址",
+    "target_ref": "04-knowledge/units/places/houma-zhutong-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-05",
+    "merged_candidates": []
+  },
+  {
+    "entity": "屯溪西周墓",
+    "target_ref": "04-knowledge/units/places/tunxi-xizhou-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-27",
+    "merged_candidates": []
+  },
+  {
+    "entity": "金坛鳖墩西周墓",
+    "target_ref": "04-knowledge/units/places/biandun-xizhou-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "濬县辛村西周墓",
+    "target_ref": "04-knowledge/units/places/xincun-xizhou-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "小屯北辛庄商代遗址",
+    "target_ref": "04-knowledge/units/places/xiaotun-beixinzhuang-site.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-71",
+    "merged_candidates": []
+  },
+  {
+    "entity": "安阳武官村大墓",
+    "target_ref": "04-knowledge/units/places/wuguancun-tomb.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-72",
+    "merged_candidates": []
+  },
+  {
+    "entity": "半山遗址",
+    "target_ref": "04-knowledge/units/terms/majiayao-culture.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-24",
+    "merged_candidates": [
+      "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-25"
+    ]
+  },
+  {
+    "entity": "偃师二里头遗址",
+    "target_ref": "04-knowledge/units/places/erlitou-site.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "殷墟妇好墓（五号墓）",
+    "target_ref": "04-knowledge/units/places/fuhao-tomb.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-17",
+    "merged_candidates": []
+  },
+  {
+    "entity": "四川广汉祭祀坑",
+    "target_ref": "04-knowledge/units/places/sanxingdui-altar-pit.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-19",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三门峡上村岭虢国墓",
+    "target_ref": "04-knowledge/units/places/sanmenxia-guoguo-tomb.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-37",
+    "merged_candidates": []
+  }
+]

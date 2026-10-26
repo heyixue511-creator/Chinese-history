@@ -1,5 +1,5 @@
-generated: '2026-10-25'
-total: 550
+generated: '2026-10-26'
+total: 892
 index:
 - slug: persons/anige
   type: persons
@@ -12,6 +12,24 @@ index:
   name_en: Bi Sheng
   title: 毕昇（Bi Sheng）
   name_original: 毕昇
+  language_original: zh
+- slug: persons/cao-xueqin
+  type: persons
+  name_en: Cao Xueqin
+  title: 曹雪芹（Cao Xueqin）
+  name_original: 曹雪芹
+  language_original: zh
+- slug: persons/chabi
+  type: persons
+  name_en: Chabi
+  title: 察必（Chabi）
+  name_original: 察必
+  language_original: zh
+- slug: persons/chai-fei
+  type: persons
+  name_en: Chai Fei
+  title: 柴扉（Chai Fei）
+  name_original: 柴扉
   language_original: zh
 - slug: persons/chen-mingyuan
   type: persons
@@ -61,6 +79,12 @@ index:
   title: 都锦生（Du Jinsheng）
   name_original: 都锦生
   language_original: zh
+- slug: persons/duan-fang
+  type: persons
+  name_en: Duan Fang
+  title: 端方（Duan Fang）
+  name_original: 端方
+  language_original: zh
 - slug: persons/feng-zikai
   type: persons
   name_en: Feng Zikai
@@ -72,6 +96,18 @@ index:
   name_en: Gongchun
   title: 供春（Gongchun）
   name_original: 供春
+  language_original: zh
+- slug: persons/gongshu-pan
+  type: persons
+  name_en: Gongshu Pan
+  title: 公输盘（Gongshu Pan）
+  name_original: 公输盘
+  language_original: zh
+- slug: persons/gu-jingzhou
+  type: persons
+  name_en: Gu Jingzhou
+  title: 顾景舟（Gu Jingzhou）
+  name_original: 顾景舟
   language_original: zh
 - slug: persons/gu-kai-zhi
   type: persons
@@ -103,6 +139,12 @@ index:
   title: 杭穉英（Hang Zhiying）
   name_original: 杭穉英
   language_original: zh
+- slug: persons/hua-sui
+  type: persons
+  name_en: Hua Sui
+  title: 华燧（Hua Sui）
+  name_original: 华燧
+  language_original: zh
 - slug: persons/huang-dacheng
   type: persons
   name_en: Huang Dacheng
@@ -115,17 +157,59 @@ index:
   title: 黄道婆（Huang Daopo）
   name_original: 黄道婆
   language_original: zh
+- slug: persons/huang-maijiu
+  type: persons
+  name_en: Huang Maijiu
+  title: 黄卖九（Huang Maijiu）
+  name_original: 黄卖九
+  language_original: zh
+- slug: persons/huangdi-legend
+  type: persons
+  name_en: Huangdi
+  title: 黄帝（传说）（Huangdi, the Yellow Emperor）
+  name_original: 黄帝
+  language_original: zh
 - slug: persons/ji-cheng
   type: persons
   name_en: Ji Cheng
   title: 计成（Ji Cheng）
   name_original: 计成
   language_original: zh
+- slug: persons/ji-ganchen
+  type: persons
+  name_en: Ji Ganchen
+  title: 吉干臣（Ji Ganchen）
+  name_original: 吉干臣
+  language_original: zh
 - slug: persons/jianzhen
   type: persons
   name_en: Jianzhen
   title: 鉴真（Jianzhen）
   name_original: 鉴真
+  language_original: zh
+- slug: persons/jin-zhijun
+  type: persons
+  name_en: Jin Zhijun
+  title: 金之俊（Jin Zhijun）
+  name_original: 金之俊
+  language_original: zh
+- slug: persons/king-wen-of-zhou
+  type: persons
+  name_en: King Wen of Zhou
+  title: 周文王（King Wen of Zhou）
+  name_original: 周文王
+  language_original: zh
+- slug: persons/king-wu-of-zhou
+  type: persons
+  name_en: King Wu of Zhou
+  title: 周武王（King Wu of Zhou）
+  name_original: 周武王
+  language_original: zh
+- slug: persons/king-zhuang-of-chu
+  type: persons
+  name_en: King Zhuang of Chu
+  title: 楚庄王（King Zhuang of Chu）
+  name_original: 楚庄王
   language_original: zh
 - slug: persons/laozi
   type: persons
@@ -145,6 +229,12 @@ index:
   title: 雷圭元（Lei Guiyuan）
   name_original: 雷圭元
   language_original: zh
+- slug: persons/leizu
+  type: persons
+  name_en: Leizu
+  title: 嫘祖（Leizu）
+  name_original: 嫘祖
+  language_original: zh
 - slug: persons/li-cheng
   type: persons
   name_en: Li Cheng
@@ -157,6 +247,12 @@ index:
   title: 李春（Li Chun）
   name_original: 李春
   language_original: zh
+- slug: persons/li-gao
+  type: persons
+  name_en: Li Gao
+  title: 李皋（Li Gao）
+  name_original: 李皋
+  language_original: zh
 - slug: persons/li-hongzhang
   type: persons
   name_en: Li Hongzhang
@@ -168,6 +264,12 @@ index:
   name_en: Matteo Ricci
   title: 利玛窦（Matteo Ricci）
   name_original: 利玛窦
+  language_original: zh
+- slug: persons/li-xiannian
+  type: persons
+  name_en: Li Xiannian
+  title: 李先念（Li Xiannian）
+  name_original: 李先念
   language_original: zh
 - slug: persons/li-youxing
   type: persons
@@ -187,11 +289,23 @@ index:
   title: 梁思成（Liang Sicheng）
   name_original: 梁思成
   language_original: zh
+- slug: persons/liu-zhiji
+  type: persons
+  name_en: Liu Zhiji
+  title: 刘知幾（Liu Zhiji）
+  name_original: 刘知幾
+  language_original: zh
 - slug: persons/liu-zhou
   type: persons
   name_en: Liu Zhou
   title: 刘昼（Liu Zhou）
   name_original: 刘昼
+  language_original: zh
+- slug: persons/liu-zongyuan
+  type: persons
+  name_en: Liu Zongyuan
+  title: 柳宗元（Liu Zongyuan）
+  name_original: 柳宗元
   language_original: zh
 - slug: persons/lu-xun
   type: persons
@@ -205,6 +319,12 @@ index:
   title: 吕彦直（Lu Yanzhi）
   name_original: 吕彦直
   language_original: zh
+- slug: persons/lu-yu
+  type: persons
+  name_en: Lu Yu
+  title: 陆羽（Lu Yu）
+  name_original: 陆羽
+  language_original: zh
 - slug: persons/ma-jun
   type: persons
   name_en: Ma Jun
@@ -217,6 +337,12 @@ index:
   title: 毛晋（Mao Jin）
   name_original: 毛晋
   language_original: zh
+- slug: persons/mao-zedong
+  type: persons
+  name_en: Mao Zedong
+  title: 毛泽东（Mao Zedong）
+  name_original: 毛泽东
+  language_original: zh
 - slug: persons/mengzi
   type: persons
   name_en: Mencius
@@ -228,6 +354,12 @@ index:
   name_en: Mozi
   title: 墨子（Mozi）
   name_original: 墨翟
+  language_original: zh
+- slug: persons/nie-chongyi
+  type: persons
+  name_en: Nie Chongyi
+  title: 聂崇义（Nie Chongyi）
+  name_original: 聂崇义
   language_original: zh
 - slug: persons/nuwa
   type: persons
@@ -247,11 +379,29 @@ index:
   title: 蒲元（Pu Yuan）
   name_original: 蒲元
   language_original: zh
+- slug: persons/qian-junfou
+  type: persons
+  name_en: Qian Junfou
+  title: 钱君匋（Qian Junfou）
+  name_original: 钱君匋
+  language_original: zh
+- slug: persons/rong-hong
+  type: persons
+  name_en: Rong Hong
+  title: 容闳（Rong Hong）
+  name_original: 容闳
+  language_original: zh
 - slug: persons/shang-tang
   type: persons
   name_en: Shang Tang
   title: 商汤（Shang Tang）
   name_original: 商汤
+  language_original: zh
+- slug: persons/shen-jinshui
+  type: persons
+  name_en: Shen Jinshui
+  title: 沈金水（Shen Jinshui）
+  name_original: 沈金水
   language_original: zh
 - slug: persons/shen-kuo
   type: persons
@@ -277,6 +427,18 @@ index:
   title: 时大彬（Shi Dabin）
   name_original: 时大彬
   language_original: zh
+- slug: persons/shun-legend
+  type: persons
+  name_en: Shun
+  title: 舜（传说）（Shun, the Legendary Emperor）
+  name_original: 舜
+  language_original: zh
+- slug: persons/si-tuqiao
+  type: persons
+  name_en: Situ Qiao
+  title: 司徒乔（Situ Qiao）
+  name_original: 司徒乔
+  language_original: zh
 - slug: persons/song-yingxing
   type: persons
   name_en: Song Yingxing
@@ -289,6 +451,12 @@ index:
   title: 苏轼（Su Shi）
   name_original: 苏轼
   language_original: zh
+- slug: persons/sun-fuxi
+  type: persons
+  name_en: Sun Fuxi
+  title: 孙福熙（Sun Fuxi）
+  name_original: 孙福熙
+  language_original: zh
 - slug: persons/sun-yat-sen
   type: persons
   name_en: Sun Yat-sen
@@ -300,6 +468,30 @@ index:
   name_en: Tao Yuanqing
   title: 陶元庆（Tao Yuanqing）
   name_original: 陶元庆
+  language_original: zh
+- slug: persons/wan-chao-chen
+  type: persons
+  name_en: Wan Chaochen
+  title: 万超尘（Wan Chaochen）
+  name_original: 万超尘
+  language_original: zh
+- slug: persons/wan-gu-chan
+  type: persons
+  name_en: Wan Guchan
+  title: 万古蟾（Wan Guchan）
+  name_original: 万古蟾
+  language_original: zh
+- slug: persons/wan-lai-ming
+  type: persons
+  name_en: Wan Laiming
+  title: 万籁鸣（Wan Laiming）
+  name_original: 万籁鸣
+  language_original: zh
+- slug: persons/wang-maoxian
+  type: persons
+  name_en: Wang Maoxian
+  title: 王茂仙（Wang Maoxian）
+  name_original: 王茂仙
   language_original: zh
 - slug: persons/wang-zhen
   type: persons
@@ -331,11 +523,29 @@ index:
   title: 奚仲（Xi Zhong）
   name_original: 奚仲
   language_original: zh
+- slug: persons/xia-qi
+  type: persons
+  name_en: Qi of Xia
+  title: 夏启（Qi of Xia）
+  name_original: 启
+  language_original: zh
+- slug: persons/xie-he
+  type: persons
+  name_en: Xie He
+  title: 谢赫（Xie He）
+  name_original: 谢赫
+  language_original: zh
 - slug: persons/xunzi
   type: persons
   name_en: Xunzi
   title: 荀子（Xunzi）
   name_original: 荀况
+  language_original: zh
+- slug: persons/yan-lide
+  type: persons
+  name_en: Yan Lide
+  title: 阎立德（Yan Lide）
+  name_original: 阎立德
   language_original: zh
 - slug: persons/yan-su
   type: persons
@@ -349,6 +559,12 @@ index:
   title: 杨茂（Yang Mao）
   name_original: 杨茂
   language_original: zh
+- slug: persons/ye-lingfeng
+  type: persons
+  name_en: Ye Lingfeng
+  title: 叶灵凤（Ye Lingfeng）
+  name_original: 叶灵凤
+  language_original: zh
 - slug: persons/yuwen-kai
   type: persons
   name_en: Yuwen Kai
@@ -361,11 +577,23 @@ index:
   title: 曾国藩（Zeng Guofan）
   name_original: 曾国藩
   language_original: zh
+- slug: persons/zeng-liansong
+  type: persons
+  name_en: Zeng Liansong
+  title: 曾联松（Zeng Liansong）
+  name_original: 曾联松
+  language_original: zh
 - slug: persons/zhang-cheng
   type: persons
   name_en: Zhang Cheng
   title: 张成（Zhang Cheng）
   name_original: 张成
+  language_original: zh
+- slug: persons/zhang-ding
+  type: persons
+  name_en: Zhang Ding
+  title: 张仃（Zhang Ding）
+  name_original: 张仃
   language_original: zh
 - slug: persons/zhang-guang-yu
   type: persons
@@ -384,6 +612,18 @@ index:
   name_en: Zhang Jian
   title: 张謇（Zhang Jian）
   name_original: 张謇
+  language_original: zh
+- slug: persons/zhang-xuan
+  type: persons
+  name_en: Zhang Xuan
+  title: 张萱（Zhang Xuan）
+  name_original: 张萱
+  language_original: zh
+- slug: persons/zhang-yanyuan
+  type: persons
+  name_en: Zhang Yanyuan
+  title: 张彦远（Zhang Yanyuan）
+  name_original: 张彦远
   language_original: zh
 - slug: persons/zhang-zhidong
   type: persons
@@ -409,6 +649,30 @@ index:
   title: 郑曼陀（Zheng Mantu）
   name_original: 郑曼陀
   language_original: zh
+- slug: persons/zhou-enlai
+  type: persons
+  name_en: Zhou Enlai
+  title: 周恩来（Zhou Enlai）
+  name_original: 周恩来
+  language_original: zh
+- slug: persons/zhou-fang
+  type: persons
+  name_en: Zhou Fang
+  title: 周昉（Zhou Fang）
+  name_original: 周昉
+  language_original: zh
+- slug: persons/zhou-jiazhou
+  type: persons
+  name_en: Zhou Jiazhou
+  title: 周嘉胄（Zhou Jiazhou）
+  name_original: 周嘉胄
+  language_original: zh
+- slug: persons/zhou-renzhai
+  type: persons
+  name_en: Zhou Renzhai
+  title: 周仁斋（Zhou Renzhai）
+  name_original: 周仁斋
+  language_original: zh
 - slug: persons/zhu-bishan
   type: persons
   name_en: Zhu Bishan
@@ -433,6 +697,12 @@ index:
   title: 朱熹（Zhu Xi）
   name_original: 朱熹
   language_original: zh
+- slug: persons/zhu-yan
+  type: persons
+  name_en: Zhu Yan
+  title: 朱琰（Zhu Yan）
+  name_original: 朱琰
+  language_original: zh
 - slug: persons/zhuangzi
   type: persons
   name_en: Zhuangzi
@@ -449,6 +719,12 @@ index:
   type: terms
   name_en: An (Table)
   title: 案（An (Table)）
+  name_original: ''
+  language_original: ''
+- slug: terms/badayun
+  type: terms
+  name_en: Badayun (Eight-Pointed Medallion Pattern)
+  title: 八达晕（Badayun (Eight-Pointed Medallion Pattern)）
   name_original: ''
   language_original: ''
 - slug: terms/baici
@@ -481,6 +757,12 @@ index:
   title: 包买主（Baomaizhu (Putting-Out Merchant)）
   name_original: ''
   language_original: ''
+- slug: terms/baoxianghua-wen
+  type: terms
+  name_en: Baoxianghua Wen (Baoxiang Flower Motif)
+  title: 宝相花纹（Baoxianghua Wen (Baoxiang Flower Motif)）
+  name_original: ''
+  language_original: ''
 - slug: terms/beijingren
   type: terms
   name_en: Peking Man
@@ -491,6 +773,12 @@ index:
   type: terms
   name_en: Belt Hook
   title: 带钩（Belt Hook）
+  name_original: ''
+  language_original: ''
+- slug: terms/bianxian-ao
+  type: terms
+  name_en: Bianxian Ao (Braid-Line Robe)
+  title: 辫线袄（Bianxian Ao (Braid-Line Robe)）
   name_original: ''
   language_original: ''
 - slug: terms/bianzhong
@@ -541,16 +829,76 @@ index:
   title: 柴窑（Chai Kiln）
   name_original: ''
   language_original: ''
+- slug: terms/changjian-gong
+  type: terms
+  name_en: Changjian Gong (Open-Spandrel Arch)
+  title: 敞肩拱（Changjian Gong (Open-Spandrel Arch)）
+  name_original: ''
+  language_original: ''
 - slug: terms/chanheliao
   type: terms
   name_en: Temper (Ceramic Additive)
   title: 羼和料（Temper (Ceramic Additive)）
   name_original: ''
   language_original: ''
+- slug: terms/chaoju
+  type: terms
+  name_en: Nest Dwelling
+  title: 巢居（Chaoju (Nest Dwelling)）
+  name_original: ''
+  language_original: ''
+- slug: terms/chengshi-jianzhu-huanjing-sheji
+  type: terms
+  name_en: Chengshi Jianzhu Huanjing Sheji (Urban Architectural Environment Design)
+  title: 城市建筑环境设计（Chengshi Jianzhu Huanjing Sheji (Urban Architectural Environment Design)）
+  name_original: ''
+  language_original: ''
+- slug: terms/chikou
+  type: terms
+  name_en: Flared Mouth
+  title: 侈口（Chikou (Flared Mouth)）
+  name_original: ''
+  language_original: ''
+- slug: terms/chunqiu-zhanguo-qingtong-chuishiqi
+  type: terms
+  name_en: Chunqiu Zhanguo Qingtong Chuishiqi (Bronze Cooking and Food Vessels)
+  title: 春秋战国青铜炊食器（Chunqiu Zhanguo Qingtong Chuishiqi (Bronze Cooking and Food Vessels)）
+  name_original: ''
+  language_original: ''
+- slug: terms/chunqiu-zhanguo-zhanche-zhonglei
+  type: terms
+  name_en: Chunqiu Zhanguo Zhanche Zhonglei (Types of War Chariots)
+  title: 春秋战国战车种类（Chunqiu Zhanguo Zhanche Zhonglei (Types of War Chariots)）
+  name_original: ''
+  language_original: ''
+- slug: terms/chunqiu-zhanguo-zhanchuan-zhonglei
+  type: terms
+  name_en: Chunqiu Zhanguo Zhanchuan Zhonglei (Types of Warships)
+  title: 春秋战国战船种类（Chunqiu Zhanguo Zhanchuan Zhonglei (Types of Warships)）
+  name_original: ''
+  language_original: ''
+- slug: terms/cishan-wenhua
+  type: terms
+  name_en: Cishan Culture
+  title: 磁山文化（Cishan Wenhua (Cishan Culture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/copper-stone-period
+  type: terms
+  name_en: Copper-Stone Period
+  title: 铜石并用时期（Tongshi Bingyong Shiqi (Copper-Stone Period)）
+  name_original: ''
+  language_original: ''
 - slug: terms/daibing-gongju
   type: terms
   name_en: Hafted Tools
   title: 带柄工具（Hafted Tools）
+  name_original: ''
+  language_original: ''
+- slug: terms/danding-fangche
+  type: terms
+  name_en: Danding Fangche (Single-Spindle Spinning Wheel)
+  title: 单锭纺车（Danding Fangche (Single-Spindle Spinning Wheel)）
   name_original: ''
   language_original: ''
 - slug: terms/danke-heitao
@@ -569,6 +917,18 @@ index:
   type: terms
   name_en: Dawenkou Culture
   title: 大汶口文化（Dawenkou Culture）
+  name_original: ''
+  language_original: ''
+- slug: terms/dian-la-man
+  type: terms
+  name_en: Dianla Man (Wax-Printed Curtain)
+  title: 点蜡幔（Dianla Man (Wax-Printed Curtain)）
+  name_original: ''
+  language_original: ''
+- slug: terms/dianquan
+  type: terms
+  name_en: Dianquan (Kiln Setter Ring)
+  title: 垫圈（Dianquan (Kiln Setter Ring)）
   name_original: ''
   language_original: ''
 - slug: terms/diao-qi
@@ -613,6 +973,12 @@ index:
   title: 端砚（Duan Inkstone）
   name_original: ''
   language_original: ''
+- slug: terms/duanao-taoqun
+  type: terms
+  name_en: Duan'ao Taoqun (Short Jacket with Skirt)
+  title: 短袄套裙（Duan'ao Taoqun (Short Jacket with Skirt)）
+  name_original: ''
+  language_original: ''
 - slug: terms/dui-vessel
   type: terms
   name_en: Dui (Ritual Vessel)
@@ -629,6 +995,18 @@ index:
   type: terms
   name_en: Duozi Box (Compartmented Container)
   title: 多子盒（Duozi Box (Compartmented Container)）
+  name_original: ''
+  language_original: ''
+- slug: terms/ehuang
+  type: terms
+  name_en: Ehuang (Forehead Yellow)
+  title: 额黄（Ehuang (Forehead Yellow)）
+  name_original: ''
+  language_original: ''
+- slug: terms/fahua-qi
+  type: terms
+  name_en: Fahua Qi (Fahua Ware)
+  title: 法华器（Fahua Qi (Fahua Ware)）
   name_original: ''
   language_original: ''
 - slug: terms/falangcai
@@ -655,10 +1033,40 @@ index:
   title: 粉彩（Fencai）
   name_original: ''
   language_original: ''
+- slug: terms/fengli-guafan-dulunche
+  type: terms
+  name_en: Fengli Guafan Dulunche (Wind-Sail Wheelbarrow)
+  title: 风力挂帆独轮车（Fengli Guafan Dulunche (Wind-Sail Wheelbarrow)）
+  name_original: ''
+  language_original: ''
+- slug: terms/fota
+  type: terms
+  name_en: Fota (Pagoda)
+  title: 佛塔（Fota (Pagoda)）
+  name_original: ''
+  language_original: ''
+- slug: terms/fou-vessel
+  type: terms
+  name_en: Fou Jar
+  title: 缶（Fou (Fou Jar)）
+  name_original: ''
+  language_original: ''
 - slug: terms/fu-vessel
   type: terms
   name_en: Fu (Ritual Food Vessel)
   title: 簠（Fu (Ritual Food Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/fubo-shi-ta
+  type: terms
+  name_en: Fuboshi Ta (Stupa-Form Pagoda (Lama Pagoda))
+  title: 覆钵式塔（Fuboshi Ta (Stupa-Form Pagoda (Lama Pagoda))）
+  name_original: ''
+  language_original: ''
+- slug: terms/fudao
+  type: terms
+  name_en: Fudao (Elevated Corridor)
+  title: 复道（Fudao (Elevated Corridor)）
   name_original: ''
   language_original: ''
 - slug: terms/futou
@@ -677,6 +1085,24 @@ index:
   type: terms
   name_en: Ganlan Building
   title: 干栏式建筑（Ganlan Building / Stilt House）
+  name_original: ''
+  language_original: ''
+- slug: terms/gao-shuyao-deng
+  type: terms
+  name_en: Gao Shuyao Deng (High-Waisted Stool)
+  title: 高束腰凳（Gao Shuyao Deng (High-Waisted Stool)）
+  name_original: ''
+  language_original: ''
+- slug: terms/gaoxing-jiaju
+  type: terms
+  name_en: Gaoxing Jiaju (High-Form Furniture)
+  title: 高型家具（Gaoxing Jiaju (High-Form Furniture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/gaozu-bei
+  type: terms
+  name_en: Gaozu Bei (Stem Cup)
+  title: 高足杯（Gaozu Bei (Stem Cup)）
   name_original: ''
   language_original: ''
 - slug: terms/ge-yao
@@ -703,16 +1129,34 @@ index:
   title: 玻璃（Glass）
   name_original: ''
   language_original: ''
+- slug: terms/gong-vessel
+  type: terms
+  name_en: Gong Wine Vessel
+  title: 觥（Gong (Gong Wine Vessel)）
+  name_original: ''
+  language_original: ''
 - slug: terms/gongyi-meishu
   type: terms
   name_en: Arts and Crafts
   title: 工艺美术（Arts and Crafts）
   name_original: ''
   language_original: ''
+- slug: terms/gu-vessel
+  type: terms
+  name_en: Gu Wine Vessel
+  title: 觚（Gu (Gu Wine Vessel)）
+  name_original: ''
+  language_original: ''
 - slug: terms/guan-yao
   type: terms
   name_en: Guan Kiln (Official Kiln)
   title: 官窑（Guan Kiln (Official Kiln)）
+  name_original: ''
+  language_original: ''
+- slug: terms/guanwu-bide
+  type: terms
+  name_en: Guanwu Bide (Observing Things to Compare Virtues)
+  title: 观物比德（Guanwu Bide (Observing Things to Compare Virtues)）
   name_original: ''
   language_original: ''
 - slug: terms/guanying-shougongye
@@ -727,6 +1171,24 @@ index:
   title: 顾姑冠（Gugu Hat）
   name_original: ''
   language_original: ''
+- slug: terms/gui-vessel
+  type: terms
+  name_en: Gui Grain Vessel
+  title: 簋（Gui (Gui Grain Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/guiwu
+  type: terms
+  name_en: Guiwu (Valuing Non-Being)
+  title: 贵无（Guiwu (Valuing Non-Being)）
+  name_original: ''
+  language_original: ''
+- slug: terms/gusuo
+  type: terms
+  name_en: Bone Shuttle
+  title: 骨梭（Gusuo (Bone Shuttle)）
+  name_original: ''
+  language_original: ''
 - slug: terms/hanjing
   type: terms
   name_en: Han Mirror
@@ -737,6 +1199,12 @@ index:
   type: terms
   name_en: Brown Splash Decoration
   title: 褐彩（Brown Splash Decoration）
+  name_original: ''
+  language_original: ''
+- slug: terms/he-vessel
+  type: terms
+  name_en: He Wine Vessel
+  title: 盉（He (He Wine Vessel)）
   name_original: ''
   language_original: ''
 - slug: terms/he-wool
@@ -751,6 +1219,18 @@ index:
   title: 河姆渡文化（Hemudu Culture）
   name_original: ''
   language_original: ''
+- slug: terms/hexi-caihua
+  type: terms
+  name_en: Hexi Caihua (Hexi Architectural Painting)
+  title: 和玺彩画（Hexi Caihua (Hexi Architectural Painting)）
+  name_original: ''
+  language_original: ''
+- slug: terms/hong-haiyang
+  type: terms
+  name_en: Hong Haiyang (Red Ocean)
+  title: 红海洋（Hong Haiyang (Red Ocean)）
+  name_original: ''
+  language_original: ''
 - slug: terms/hongmu
   type: terms
   name_en: Hongmu (Rosewood)
@@ -763,6 +1243,12 @@ index:
   title: 红山文化（Hongshan Culture）
   name_original: ''
   language_original: ''
+- slug: terms/hu-vessel
+  type: terms
+  name_en: Hu Wine Vessel
+  title: 壶（Hu (Hu Wine Vessel)）
+  name_original: ''
+  language_original: ''
 - slug: terms/huadian
   type: terms
   name_en: Huadian (Forehead Ornament)
@@ -773,6 +1259,12 @@ index:
   type: terms
   name_en: Huangzi
   title: 幌子（Huangzi / Shop Banner）
+  name_original: ''
+  language_original: ''
+- slug: terms/huapendi-xie
+  type: terms
+  name_en: Huapendi Xie (Flowerpot-Sole Shoes)
+  title: 花盆底鞋（Huapendi Xie (Flowerpot-Sole Shoes)）
   name_original: ''
   language_original: ''
 - slug: terms/huayou
@@ -805,6 +1297,18 @@ index:
   title: 胡服（Hu Dress (Nomadic Costume)）
   name_original: ''
   language_original: ''
+- slug: terms/humen-an
+  type: terms
+  name_en: Humen An (Humen-Leg Table)
+  title: 壶门案（Humen An (Humen-Leg Table)）
+  name_original: ''
+  language_original: ''
+- slug: terms/hundred-schools
+  type: terms
+  name_en: Hundred Schools of Thought
+  title: 百家争鸣（Baijia Zhengming (Hundred Schools of Thought)）
+  name_original: ''
+  language_original: ''
 - slug: terms/huohua
   type: terms
   name_en: Matchbox Label
@@ -817,10 +1321,34 @@ index:
   title: 工业设计（Industrial Design）
   name_original: ''
   language_original: ''
+- slug: terms/iron-farm-tools
+  type: terms
+  name_en: Iron Farm Tools
+  title: 铁制农具（Tiezhi Nongju (Iron Farm Tools)）
+  name_original: ''
+  language_original: ''
+- slug: terms/iron-three-brothers
+  type: terms
+  name_en: The Three Iron Brothers
+  title: 铁氏三兄弟（Tieshi Sanxiongdi (The Three Iron Brothers)）
+  name_original: ''
+  language_original: ''
 - slug: terms/ji-furniture
   type: terms
   name_en: Ji Table
   title: 几（Ji Table）
+  name_original: ''
+  language_original: ''
+- slug: terms/jia-vessel
+  type: terms
+  name_en: Jia Wine Warmer
+  title: 斝（Jia (Jia Wine Warmer)）
+  name_original: ''
+  language_original: ''
+- slug: terms/jian-basin
+  type: terms
+  name_en: Jian Basin
+  title: 鉴（Jian (Jian Basin)）
   name_original: ''
   language_original: ''
 - slug: terms/jianghu
@@ -841,6 +1369,18 @@ index:
   title: 剪纸（Papercut）
   name_original: ''
   language_original: ''
+- slug: terms/jiao-vessel
+  type: terms
+  name_en: Jiao Wine Vessel
+  title: 角（Jiao (Jiao Wine Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/jiaota-tizong-xiezhi-ji
+  type: terms
+  name_en: Jiaota Tizong Xiezhi Ji (Treadle Pattern-Lifting Slant Loom)
+  title: 脚踏提综斜织机（Jiaota Tizong Xiezhi Ji (Treadle Pattern-Lifting Slant Loom)）
+  name_original: ''
+  language_original: ''
 - slug: terms/jiaoxie
   type: terms
   name_en: Jiaoxie (Tie-Resist Dyeing)
@@ -851,6 +1391,12 @@ index:
   type: terms
   name_en: Jiaxie (Clamp-Resist Dyeing)
   title: 夹缬（Jiaxie (Clamp-Resist Dyeing)）
+  name_original: ''
+  language_original: ''
+- slug: terms/jifang
+  type: terms
+  name_en: Jifang (Weaving Workshop)
+  title: 机房（Jifang (Weaving Workshop)）
   name_original: ''
   language_original: ''
 - slug: terms/jiguang-hu
@@ -865,6 +1411,18 @@ index:
   title: 记里鼓车（Odometer Chariot）
   name_original: ''
   language_original: ''
+- slug: terms/jin-dai-tongjin
+  type: terms
+  name_en: Jindai Tongjin (Jin Bronze Prohibition)
+  title: 金代铜禁（Jindai Tongjin (Jin Bronze Prohibition)）
+  name_original: ''
+  language_original: ''
+- slug: terms/jindai-ranchou-ye
+  type: terms
+  name_en: Jindai Ranchou Ye (Modern Silk-Dyeing Industry)
+  title: 近代染绸业（Jindai Ranchou Ye (Modern Silk-Dyeing Industry)）
+  name_original: ''
+  language_original: ''
 - slug: terms/jingjin
   type: terms
   name_en: Warp-Faced Brocade
@@ -877,10 +1435,34 @@ index:
   title: 景泰蓝（Cloisonné）
   name_original: ''
   language_original: ''
+- slug: terms/jinxi-gongyi
+  type: terms
+  name_en: Jinxi Gongyi (Fine Goldwork)
+  title: 金细工艺（Jinxi Gongyi (Fine Goldwork)）
+  name_original: ''
+  language_original: ''
 - slug: terms/jixiang-tu-an
   type: terms
   name_en: Auspicious Motifs
   title: 吉祥图案（Auspicious Motifs）
+  name_original: ''
+  language_original: ''
+- slug: terms/jizuo
+  type: terms
+  name_en: Jizuo (Kneeling Seated Posture)
+  title: 跽坐（Jizuo (Kneeling Seated Posture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/jue-vessel
+  type: terms
+  name_en: Jue Wine Vessel
+  title: 爵（Jue (Jue Wine Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/juzhiji
+  type: terms
+  name_en: Backstrap Loom
+  title: 踞织机（Juzhiji (Backstrap Loom)）
   name_original: ''
   language_original: ''
 - slug: terms/kaipian
@@ -901,10 +1483,28 @@ index:
   title: 扣器（Kouqi Lacquerware）
   name_original: ''
   language_original: ''
+- slug: terms/kuduan
+  type: terms
+  name_en: Kuduan (Self-Colored Satin)
+  title: 库缎（Kuduan (Self-Colored Satin)）
+  name_original: ''
+  language_original: ''
+- slug: terms/lanran-gongyi
+  type: terms
+  name_en: Lanran Gongyi (Indigo Resist Dyeing)
+  title: 蓝染工艺（Lanran Gongyi (Indigo Resist Dyeing)）
+  name_original: ''
+  language_original: ''
 - slug: terms/lantianren
   type: terms
   name_en: Lantian Man
   title: 蓝田人（Lantian Man）
+  name_original: ''
+  language_original: ''
+- slug: terms/lei-vessel
+  type: terms
+  name_en: Lei Wine Vessel
+  title: 罍（Lei (Lei Wine Vessel)）
   name_original: ''
   language_original: ''
 - slug: terms/leisi
@@ -925,10 +1525,28 @@ index:
   title: 良渚文化（Liangzhu Culture）
   name_original: ''
   language_original: ''
+- slug: terms/liangzhu-shili
+  type: terms
+  name_en: Liangzhu Stone Plough
+  title: 良渚石犁（Liangzhu Shili (Liangzhu Stone Plough)）
+  name_original: ''
+  language_original: ''
 - slug: terms/lianzhu-wen
   type: terms
   name_en: Linked-Pearl Motif
   title: 联珠纹（Linked-Pearl Motif）
+  name_original: ''
+  language_original: ''
+- slug: terms/liao-ci
+  type: terms
+  name_en: Liao Ci (Liao Ceramics)
+  title: 辽瓷（Liao Ci (Liao Ceramics)）
+  name_original: ''
+  language_original: ''
+- slug: terms/liao-sancai
+  type: terms
+  name_en: Liao Sancai Youtao (Liao Sancai Glazed Earthenware)
+  title: 辽三彩釉陶（Liao Sancai Youtao (Liao Sancai Glazed Earthenware)）
   name_original: ''
   language_original: ''
 - slug: terms/lieding-system
@@ -979,6 +1597,24 @@ index:
   title: 楼船（Tower Ship）
   name_original: ''
   language_original: ''
+- slug: terms/lu-chou
+  type: terms
+  name_en: Lu Chou (Lu Silk)
+  title: 潞绸（Lu Chou (Lu Silk)）
+  name_original: ''
+  language_original: ''
+- slug: terms/lubu
+  type: terms
+  name_en: Lubu (Ritual Procession Paraphernalia)
+  title: 卤薄（Lubu (Ritual Procession Paraphernalia)）
+  name_original: ''
+  language_original: ''
+- slug: terms/luowo-yi
+  type: terms
+  name_en: Luowo Yi (Luowo Chair)
+  title: 罗涡椅（Luowo Yi (Luowo Chair)）
+  name_original: ''
+  language_original: ''
 - slug: terms/lvse-sheji
   type: terms
   name_en: Green Design
@@ -989,6 +1625,12 @@ index:
   type: terms
   name_en: Majiayao Culture
   title: 马家窑文化（Majiayao Culture）
+  name_original: ''
+  language_original: ''
+- slug: terms/maoyi-ci
+  type: terms
+  name_en: Maoyi Ci (Trade Porcelain)
+  title: 贸易瓷（Maoyi Ci (Trade Porcelain)）
   name_original: ''
   language_original: ''
 - slug: terms/meijin-ejin
@@ -1007,6 +1649,12 @@ index:
   type: terms
   name_en: Ming-style Furniture
   title: 明式家具（Ming-style Furniture）
+  name_original: ''
+  language_original: ''
+- slug: terms/mingdai-sizhi-sida-changu
+  type: terms
+  name_en: Mingdai Sizhi Sida Changu (Four Major Silk-Weaving Regions of the Ming Dynasty)
+  title: 明代丝织四大产区（Mingdai Sizhi Sida Changu (Four Major Silk-Weaving Regions of the Ming Dynasty)）
   name_original: ''
   language_original: ''
 - slug: terms/mingguang-kai
@@ -1045,6 +1693,12 @@ index:
   title: 纳石失（Nasish）
   name_original: ''
   language_original: ''
+- slug: terms/nazi-daiyi
+  type: terms
+  name_en: Nazi Daiyi (Commutation of Corvée into Payment)
+  title: 纳资代役（Nazi Daiyi (Commutation of Corvée into Payment)）
+  name_original: ''
+  language_original: ''
 - slug: terms/oracle-bone-script
   type: terms
   name_en: Oracle Bone Script
@@ -1063,10 +1717,22 @@ index:
   title: 旧石器时代（Paleolithic Period）
   name_original: ''
   language_original: ''
+- slug: terms/pan-basin
+  type: terms
+  name_en: Pan Basin
+  title: 盘（Pan (Pan Basin)）
+  name_original: ''
+  language_original: ''
 - slug: terms/pei-huang
   type: terms
   name_en: Peihuang (Ornamental Jade Pendant)
   title: 佩璜（Peihuang (Ornamental Jade Pendant)）
+  name_original: ''
+  language_original: ''
+- slug: terms/peiligang-wenhua
+  type: terms
+  name_en: Peiligang Culture
+  title: 裴李岗文化（Peiligang Wenhua (Peiligang Culture)）
   name_original: ''
   language_original: ''
 - slug: terms/piao-ci
@@ -1093,6 +1759,12 @@ index:
   title: 凭几（Pingji (Arm Rest)）
   name_original: ''
   language_original: ''
+- slug: terms/pinse-yi
+  type: terms
+  name_en: Pinse Yi (Rank-Coloured Robe)
+  title: 品色衣（Pinse Yi (Rank-Coloured Robe)）
+  name_original: ''
+  language_original: ''
 - slug: terms/plastic
   type: terms
   name_en: Plastic
@@ -1109,6 +1781,12 @@ index:
   type: terms
   name_en: Proto-porcelain
   title: 原始青瓷（Proto-porcelain）
+  name_original: ''
+  language_original: ''
+- slug: terms/pulu
+  type: terms
+  name_en: Pulu (Tibetan Woollen Cloth)
+  title: 氆氇（Pulu (Tibetan Woollen Cloth)）
   name_original: ''
   language_original: ''
 - slug: terms/qian-you-tao
@@ -1195,16 +1873,64 @@ index:
   title: 旗袍（Qipao）
   name_original: ''
   language_original: ''
+- slug: terms/qushui-liushang
+  type: terms
+  name_en: Qushui Liushang (Floating Cups on Winding Water)
+  title: 曲水流觞（Qushui Liushang (Floating Cups on Winding Water)）
+  name_original: ''
+  language_original: ''
 - slug: terms/rendong-wen
   type: terms
   name_en: Honeysuckle Scroll Motif
   title: 忍冬纹（Honeysuckle Scroll Motif）
   name_original: ''
   language_original: ''
+- slug: terms/rumo-zhizheng
+  type: terms
+  name_en: Rumo zhi Zheng (Confucian-Mohist Debate)
+  title: 儒墨之争（Rumo zhi Zheng (Confucian-Mohist Debate)）
+  name_original: ''
+  language_original: ''
+- slug: terms/ruqun
+  type: terms
+  name_en: Ruqun (Jacket and Skirt)
+  title: 襦裙（Ruqun (Jacket and Skirt)）
+  name_original: ''
+  language_original: ''
+- slug: terms/sanleng-jianzhuang-shiqi
+  type: terms
+  name_en: Three-Edged Point
+  title: 三棱尖状石器（Sanleng Jianzhuang Shiqi (Three-Edged Point)）
+  name_original: ''
+  language_original: ''
 - slug: terms/shachuan
   type: terms
   name_en: Shachuan (Sand Ship)
   title: 沙船（Shachuan (Sand Ship)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shandingdong-ren-guzhen
+  type: terms
+  name_en: Shandingdong Bone Needle
+  title: 山顶洞人骨针（Shandingdongren Guzhen (Shandingdong Bone Needle)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shandingdongren
+  type: terms
+  name_en: Shandingdong Man (Upper Cave Man)
+  title: 山顶洞人（Shandingdongren (Shandingdong Man (Upper Cave Man))）
+  name_original: ''
+  language_original: ''
+- slug: terms/shangbiao
+  type: terms
+  name_en: Shangbiao (Trademark)
+  title: 商标（Shangbiao (Trademark)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shanrang-system
+  type: terms
+  name_en: Abdication System
+  title: 禅让制（Shanrangzhi (Abdication System)）
   name_original: ''
   language_original: ''
 - slug: terms/she-yan
@@ -1219,10 +1945,28 @@ index:
   title: 深衣（Shenyi）
   name_original: ''
   language_original: ''
+- slug: terms/shese-zhigong
+  type: terms
+  name_en: Shese zhi Gong (Dyeing and Painting Trades)
+  title: 设色之工（Shese zhi Gong (Dyeing and Painting Trades)）
+  name_original: ''
+  language_original: ''
 - slug: terms/shi-class
   type: terms
   name_en: Shi (Scholar-Gentry)
   title: 士（Shi (Scholar-Gentry)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shikusi
+  type: terms
+  name_en: Shikusi (Grotto Temple)
+  title: 石窟寺（Shikusi (Grotto Temple)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shilian
+  type: terms
+  name_en: Stone Sickle
+  title: 石镰（Shilian (Stone Sickle)）
   name_original: ''
   language_original: ''
 - slug: terms/shiliu-qun
@@ -1231,16 +1975,82 @@ index:
   title: 石榴裙（Pomegranate Skirt）
   name_original: ''
   language_original: ''
+- slug: terms/shimopan-mobang
+  type: terms
+  name_en: Stone Quern and Grinder
+  title: 石磨盘和磨棒（Shimopan he Mobang (Stone Quern and Grinder)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shishizhuang
+  type: terms
+  name_en: Modern Dress
+  title: 时世装（Modern Dress）
+  name_original: ''
+  language_original: ''
+- slug: terms/shiyu-wenhua
+  type: terms
+  name_en: Shiyu Culture
+  title: 峙峪文化（Shiyu Wenhua (Shiyu Culture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shougongye-hanghui
+  type: terms
+  name_en: Shougongye Hanghui (Craft Guild)
+  title: 手工业行会（Shougongye Hanghui (Craft Guild)）
+  name_original: ''
+  language_original: ''
 - slug: terms/shu-brocade
   type: terms
   name_en: Shu Brocade
   title: 蜀锦（Shu Brocade）
   name_original: ''
   language_original: ''
+- slug: terms/shuilu-gongzhan-tu
+  type: terms
+  name_en: Shuilu Gongzhan Tu (Water-Land Battle Scene)
+  title: 水陆攻战图（Shuilu Gongzhan Tu (Water-Land Battle Scene)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shuimi-cang
+  type: terms
+  name_en: Shuimi Cang (Watertight Bulkhead)
+  title: 水密舱（Shuimi Cang (Watertight Bulkhead)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shuiniaoxing-taohu
+  type: terms
+  name_en: Waterbird-Shaped Pottery Hu
+  title: 水鸟形陶壶（Shuiniaoxing Taohu (Waterbird-Shaped Pottery Hu)）
+  name_original: ''
+  language_original: ''
+- slug: terms/shuzi-meiti-sheji
+  type: terms
+  name_en: Shuzi Meiti Sheji (Digital Media Design)
+  title: 数字媒体设计（Shuzi Meiti Sheji (Digital Media Design)）
+  name_original: ''
+  language_original: ''
 - slug: terms/sichou-zhilu
   type: terms
   name_en: Silk Road
   title: 丝绸之路（Silk Road）
+  name_original: ''
+  language_original: ''
+- slug: terms/sida-chuanxing
+  type: terms
+  name_en: Sida Chuanxing (Four Major Ship Types)
+  title: 四大船型（Sida Chuanxing (Four Major Ship Types)）
+  name_original: ''
+  language_original: ''
+- slug: terms/song-ci-zhuangshi-shoufa
+  type: terms
+  name_en: Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques)
+  title: 宋瓷装饰手法（Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques)）
+  name_original: ''
+  language_original: ''
+- slug: terms/song-jin
+  type: terms
+  name_en: Song Jin (Song Brocade)
+  title: 宋锦（Song Jin (Song Brocade)）
   name_original: ''
   language_original: ''
 - slug: terms/songban-shu
@@ -1267,16 +2077,34 @@ index:
   title: 苏式彩画（Suzhou-Style Architectural Painting）
   name_original: ''
   language_original: ''
+- slug: terms/tang-dai-qingci-yao
+  type: terms
+  name_en: Tangdai Zhuming Qingci Yao (Famous Tang Celadon Kilns)
+  title: 唐代著名青瓷窑（Tangdai Zhuming Qingci Yao (Famous Tang Celadon Kilns)）
+  name_original: ''
+  language_original: ''
 - slug: terms/tang-sancai
   type: terms
   name_en: Tang Sancai
   title: 唐三彩（Tang Sancai）
   name_original: ''
   language_original: ''
+- slug: terms/tangcao-wen
+  type: terms
+  name_en: Tangcao Wen (Tang Scroll Motif)
+  title: 唐草纹（Tangcao Wen (Tang Scroll Motif)）
+  name_original: ''
+  language_original: ''
 - slug: terms/tangci
   type: terms
   name_en: Enamelware
   title: 搪瓷（Enamelware）
+  name_original: ''
+  language_original: ''
+- slug: terms/tangjing
+  type: terms
+  name_en: Tang Mirror
+  title: 唐镜（Tang Mirror）
   name_original: ''
   language_original: ''
 - slug: terms/tao-gui
@@ -1301,6 +2129,18 @@ index:
   type: terms
   name_en: Tianji Ewer (Chicken-Head Ewer)
   title: 天鸡壶（Tianji Ewer (Chicken-Head Ewer)）
+  name_original: ''
+  language_original: ''
+- slug: terms/tianshi-diqi-caimei-gongqiao
+  type: terms
+  name_en: Tianshi Diqi Caimei Gongqiao (Timing, Terrain, Materials and Craftsmanship)
+  title: 天时地气材美工巧（Tianshi Diqi Caimei Gongqiao (Timing, Terrain, Materials and Craftsmanship)）
+  name_original: ''
+  language_original: ''
+- slug: terms/tianzu-yundong
+  type: terms
+  name_en: Tianzu Yundong (Anti-Footbinding Movement)
+  title: 天足运动（Tianzu Yundong (Anti-Footbinding Movement)）
   name_original: ''
   language_original: ''
 - slug: terms/tieqi-shidai
@@ -1333,6 +2173,12 @@ index:
   title: 脱胎漆器（Tuotai (Bodiless) Lacquerware）
   name_original: ''
   language_original: ''
+- slug: terms/twelve-symbols
+  type: terms
+  name_en: Twelve Ornamental Symbols
+  title: 纹饰十二章（Wenshi Shier Zhang (Twelve Ornamental Symbols)）
+  name_original: ''
+  language_original: ''
 - slug: terms/underglaze-color
   type: terms
   name_en: Underglaze Color
@@ -1343,6 +2189,12 @@ index:
   type: terms
   name_en: Tile End
   title: 瓦当（Tile End）
+  name_original: ''
+  language_original: ''
+- slug: terms/wailaishi-jianzhu
+  type: terms
+  name_en: Wailaishi Jianzhu (Foreign-Style Architecture)
+  title: 外来式建筑（Wailaishi Jianzhu (Foreign-Style Architecture)）
   name_original: ''
   language_original: ''
 - slug: terms/weft-brocade
@@ -1387,10 +2239,22 @@ index:
   title: 席（Mat (Seating Mat)）
   name_original: ''
   language_original: ''
+- slug: terms/xiaguo-jian
+  type: terms
+  name_en: Xiaguo Jian (Xia State Sword)
+  title: 夏国剑（Xiaguo Jian (Xia State Sword)）
+  name_original: ''
+  language_original: ''
 - slug: terms/xiangxie
   type: terms
   name_en: Xiangxie (Xiangzhou Resist Dye)
   title: 相缬（Xiangxie (Xiangzhou Resist Dye)）
+  name_original: ''
+  language_original: ''
+- slug: terms/xianqin-sandai
+  type: terms
+  name_en: Pre-Qin Three Dynasties
+  title: 先秦三代（Xianqin Sandai (Pre-Qin Three Dynasties)）
   name_original: ''
   language_original: ''
 - slug: terms/xiaozhuan
@@ -1405,10 +2269,22 @@ index:
   title: 霞帔（Xiapei Stole）
   name_original: ''
   language_original: ''
+- slug: terms/xiehong
+  type: terms
+  name_en: Xiehong (Slant Red)
+  title: 斜红（Xiehong (Slant Red)）
+  name_original: ''
+  language_original: ''
 - slug: terms/xikesuosi-ren
   type: terms
   name_en: Hyksos
   title: 喜克索斯人（Hyksos）
+  name_original: ''
+  language_original: ''
+- slug: terms/xingsheng-zhidu
+  type: terms
+  name_en: Xingsheng Zhidu (Provincial Administration System)
+  title: 行省制度（Xingsheng Zhidu (Provincial Administration System)）
   name_original: ''
   language_original: ''
 - slug: terms/xinshiqi-shidai
@@ -1429,10 +2305,40 @@ index:
   title: 细石器（Microlith）
   name_original: ''
   language_original: ''
+- slug: terms/xu-vessel
+  type: terms
+  name_en: Xu Food Vessel
+  title: 盨（Xu (Xu Food Vessel)）
+  name_original: ''
+  language_original: ''
 - slug: terms/xuan-zhi
   type: terms
   name_en: Xuan Paper
   title: 宣纸（Xuan Paper）
+  name_original: ''
+  language_original: ''
+- slug: terms/xuanzi-caihua
+  type: terms
+  name_en: Xuanzi Caihua (Xuanzi Architectural Painting)
+  title: 旋子彩画（Xuanzi Caihua (Xuanzi Architectural Painting)）
+  name_original: ''
+  language_original: ''
+- slug: terms/xuejiagang-wenhua
+  type: terms
+  name_en: Xuejiagang Culture
+  title: 薛家岗文化（Xuejiagang Wenhua (Xuejiagang Culture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/xueju
+  type: terms
+  name_en: Cave Dwelling
+  title: 穴居（Xueju (Cave Dwelling)）
+  name_original: ''
+  language_original: ''
+- slug: terms/yan-steamer
+  type: terms
+  name_en: Yan Steamer
+  title: 甗（Yan (Yan Steamer)）
   name_original: ''
   language_original: ''
 - slug: terms/yangshao-culture
@@ -1441,16 +2347,40 @@ index:
   title: 仰韶文化（Yangshao Culture）
   name_original: ''
   language_original: ''
+- slug: terms/yanju-fu
+  type: terms
+  name_en: Yanju Fu (Dwelling Robe)
+  title: 燕居服（Yanju Fu (Dwelling Robe)）
+  name_original: ''
+  language_original: ''
 - slug: terms/yaobian
   type: terms
   name_en: Kiln Transmutation
   title: 窑变（Kiln Transmutation）
   name_original: ''
   language_original: ''
+- slug: terms/yaoyuan-deng
+  type: terms
+  name_en: Yaoyuan Deng (Waist-Round Stool)
+  title: 腰圆凳（Yaoyuan Deng (Waist-Round Stool)）
+  name_original: ''
+  language_original: ''
 - slug: terms/yi-pourer
   type: terms
   name_en: Yi (Pouring Vessel)
   title: 匜（Yi (Pouring Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/yi-vessel
+  type: terms
+  name_en: Yi Ritual Vessel
+  title: 彝（Yi (Yi Ritual Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/yichi-sanshan
+  type: terms
+  name_en: Yichi Sanshan (One Pond, Three Mountains)
+  title: 一池三山（Yichi Sanshan (One Pond, Three Mountains)）
   name_original: ''
   language_original: ''
 - slug: terms/yingqing
@@ -1463,6 +2393,24 @@ index:
   type: terms
   name_en: Art Design
   title: 艺术设计（Art Design）
+  name_original: ''
+  language_original: ''
+- slug: terms/yisilan-wenhua
+  type: terms
+  name_en: Yisilan Wenhua (Islamic Culture)
+  title: 伊斯兰文化（Yisilan Wenhua (Islamic Culture)）
+  name_original: ''
+  language_original: ''
+- slug: terms/yiyi
+  type: terms
+  name_en: Yiyi (Empress's Ceremonial Robe)
+  title: 祎衣（Yiyi (Empress's Ceremonial Robe)）
+  name_original: ''
+  language_original: ''
+- slug: terms/you-vessel
+  type: terms
+  name_en: You Wine Vessel
+  title: 卣（You (You Wine Vessel)）
   name_original: ''
   language_original: ''
 - slug: terms/youlihong-ci
@@ -1483,10 +2431,22 @@ index:
   title: 釉上彩（Overglaze Decoration）
   name_original: ''
   language_original: ''
+- slug: terms/yu-basin
+  type: terms
+  name_en: Yu Basin
+  title: 盂（Yu (Yu Basin)）
+  name_original: ''
+  language_original: ''
 - slug: terms/yu-dai
   type: terms
   name_en: Fish Tally Bag
   title: 鱼袋（Fish Tally Bag）
+  name_original: ''
+  language_original: ''
+- slug: terms/yuan-dai-jianzhu-caihua
+  type: terms
+  name_en: Yuan Dai Jianzhu Caihua (Yuan Dynasty Architectural Painting)
+  title: 元代建筑彩画（Yuan Dai Jianzhu Caihua (Yuan Dynasty Architectural Painting)）
   name_original: ''
   language_original: ''
 - slug: terms/yuanling-paoshan
@@ -1499,6 +2459,18 @@ index:
   type: terms
   name_en: Yuanmou Man
   title: 元谋人（Yuanmou Man）
+  name_original: ''
+  language_original: ''
+- slug: terms/yuanshi-fuzhuang
+  type: terms
+  name_en: Prehistoric Clothing
+  title: 原始服装（Yuanshi Fuzhuang (Prehistoric Clothing)）
+  name_original: ''
+  language_original: ''
+- slug: terms/yuanshi-nongju
+  type: terms
+  name_en: Prehistoric Farm Tools
+  title: 原始农具（Yuanshi Nongju (Prehistoric Farm Tools)）
   name_original: ''
   language_original: ''
 - slug: terms/yuefenpai
@@ -1519,10 +2491,40 @@ index:
   title: 玉壶春瓶（Yuhuchun Vase）
   name_original: ''
   language_original: ''
+- slug: terms/yuqixingzu-taoding
+  type: terms
+  name_en: Fish-Fin-Leg Pottery Ding
+  title: 鱼鳍形足陶鼎（Yuqixingzu Taoding (Fish-Fin-Leg Pottery Ding)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zaju-chuishao-fu
+  type: terms
+  name_en: Zaju Chuishao Fu (Layered Skirt Robe)
+  title: 杂裾垂髾服（Zaju Chuishao Fu (Layered Skirt Robe)）
+  name_original: ''
+  language_original: ''
 - slug: terms/zhao-tie
   type: terms
   name_en: Poster
   title: 招贴（Poster）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhi-vessel
+  type: terms
+  name_en: Zhi Wine Vessel
+  title: 觯（Zhi (Zhi Wine Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhijin-yin
+  type: terms
+  name_en: Zhijin Yinyin (Brocade with Gold and Silver Threads)
+  title: 织金银（Zhijin Yinyin (Brocade with Gold and Silver Threads)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhijin
+  type: terms
+  name_en: Zhijin (Brocade)
+  title: 织锦（Zhijin (Brocade)）
   name_original: ''
   language_original: ''
 - slug: terms/zhinan-che
@@ -1537,6 +2539,24 @@ index:
   title: 质孙服（Zhisun Robe）
   name_original: ''
   language_original: ''
+- slug: terms/zhongguo-donghua-xuepai
+  type: terms
+  name_en: Zhongguo Donghua Xuepai (Chinese Animation School)
+  title: 中国动画学派（Zhongguo Donghua Xuepai (Chinese Animation School)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhongguo-gongyi-meishu-dashi
+  type: terms
+  name_en: Zhongguo Gongyi Meishu Dashi (Master of Chinese Arts and Crafts)
+  title: 中国工艺美术大师（Zhongguo Gongyi Meishu Dashi (Master of Chinese Arts and Crafts)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhongguo-gudai-leishu
+  type: terms
+  name_en: Leishu (Encyclopedic Compendium)
+  title: 类书（Leishu (Leishu (Encyclopedic Compendium))）
+  name_original: ''
+  language_original: ''
 - slug: terms/zhongguo-guyou-shi-jianzhu
   type: terms
   name_en: Chinese Inherent-Style Architecture
@@ -1547,6 +2567,18 @@ index:
   type: terms
   name_en: Zhongshan Suit
   title: 中山装（Zhongshan Suit）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhongshiqi-shidai
+  type: terms
+  name_en: Mesolithic Period
+  title: 中石器时代（Zhongshiqi Shidai (Mesolithic Period)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zhongxi-hunheshi-jianzhu
+  type: terms
+  name_en: Zhongxi Hunheshi Jianzhu (Sino-Western Hybrid Architecture)
+  title: 中西混合式建筑（Zhongxi Hunheshi Jianzhu (Sino-Western Hybrid Architecture)）
   name_original: ''
   language_original: ''
 - slug: terms/zhu-ding-xiang-wu
@@ -1585,10 +2617,22 @@ index:
   title: 俎（Zu (Ritual Chopping Stand)）
   name_original: ''
   language_original: ''
+- slug: terms/zun-vessel
+  type: terms
+  name_en: Zun Wine Vessel
+  title: 尊（Zun (Zun Wine Vessel)）
+  name_original: ''
+  language_original: ''
 - slug: terms/zuopu
   type: terms
   name_en: Zuopu (Tang Urban Workshop)
   title: 作铺（Zuopu (Tang Urban Workshop)）
+  name_original: ''
+  language_original: ''
+- slug: terms/zuosichou
+  type: terms
+  name_en: Zuosichou (Tussah Silk (Shandong Silk))
+  title: 柞丝绸（Zuosichou (Tussah Silk (Shandong Silk))）
   name_original: ''
   language_original: ''
 - slug: terms/zuyongdiao
@@ -1597,10 +2641,28 @@ index:
   title: 租庸调（Zu-Yong-Diao Tax System）
   name_original: ''
   language_original: ''
+- slug: publications/baitong
+  type: publications
+  name_en: Baitong
+  title: 白虎通（Baitong）
+  name_original: ''
+  language_original: ''
 - slug: publications/bamboo-annals
   type: publications
   name_en: Bamboo Annals
   title: 竹书纪年（Bamboo Annals）
+  name_original: ''
+  language_original: ''
+- slug: publications/beiping-jianpu
+  type: publications
+  name_en: Beiping Jianpu
+  title: 北平笺谱（Beiping Jianpu）
+  name_original: ''
+  language_original: ''
+- slug: publications/bowu-yaolan
+  type: publications
+  name_en: Bowu Yaolan
+  title: 博物要览（Bowu Yaolan）
   name_original: ''
   language_original: ''
 - slug: publications/cansang-cuibian
@@ -1627,6 +2689,12 @@ index:
   title: 程氏墨苑（Chengshi Moyuan）
   name_original: ''
   language_original: ''
+- slug: publications/china-art-newspaper
+  type: publications
+  name_en: China Art Newspaper
+  title: 中国美术报（China Art Newspaper）
+  name_original: ''
+  language_original: ''
 - slug: publications/chuantong-gongyi-meishu-baohu-tiaoli
   type: publications
   name_en: Regulations on the Protection of Traditional Arts and Crafts
@@ -1639,10 +2707,34 @@ index:
   title: 楚辞（Chuci）
   name_original: ''
   language_original: ''
+- slug: publications/chuxueji
+  type: publications
+  name_en: Chuxueji
+  title: 初学记（Chuxueji）
+  name_original: ''
+  language_original: ''
+- slug: publications/contemporary-china-crafts-book
+  type: publications
+  name_en: Contemporary China's Arts and Crafts
+  title: 当代中国的工艺美术（Contemporary China's Arts and Crafts）
+  name_original: ''
+  language_original: ''
+- slug: publications/danqian-zonglu
+  type: publications
+  name_en: Danqian Zonglu
+  title: 丹铅总录（Danqian Zonglu）
+  name_original: ''
+  language_original: ''
 - slug: publications/daodejing
   type: publications
   name_en: Daodejing
   title: 道德经（Daodejing）
+  name_original: ''
+  language_original: ''
+- slug: publications/daolianfu
+  type: publications
+  name_en: Daolian Fu
+  title: 捣练赋（Daolian Fu）
   name_original: ''
   language_original: ''
 - slug: publications/dianshizhai-huabao
@@ -1657,10 +2749,34 @@ index:
   title: 东京梦华录（Dongjing Menghua Lu）
   name_original: ''
   language_original: ''
+- slug: publications/ducheng-jisheng
+  type: publications
+  name_en: Ducheng Jisheng
+  title: 都城纪胜（Ducheng Jisheng）
+  name_original: ''
+  language_original: ''
+- slug: publications/feiyizhai-jigao
+  type: publications
+  name_en: Feiyizhai Jigao
+  title: 废艺斋集稿（Feiyizhai Jigao）
+  name_original: ''
+  language_original: ''
+- slug: publications/fuzhi-tiaoli
+  type: publications
+  name_en: Fuzhi Tiaoli
+  title: 服制条例（Fuzhi Tiaoli）
+  name_original: ''
+  language_original: ''
 - slug: publications/gegu-yaolun
   type: publications
   name_en: Gegu Yaolun
   title: 格古要论（Gegu Yaolun）
+  name_original: ''
+  language_original: ''
+- slug: publications/gongcheng-zuofa
+  type: publications
+  name_en: Gongcheng Zuofa
+  title: 工程做法（Gongcheng Zuofa）
   name_original: ''
   language_original: ''
 - slug: publications/guanzi
@@ -1675,6 +2791,12 @@ index:
   title: 古今图书集成（Gujin Tushu Jicheng）
   name_original: ''
   language_original: ''
+- slug: publications/gutong-ciqi-kao
+  type: publications
+  name_en: Gutong Ciqi Kao
+  title: 古铜瓷器考（Gutong Ciqi Kao）
+  name_original: ''
+  language_original: ''
 - slug: publications/haiguo-tuzhi
   type: publications
   name_en: Haiguo Tuzhi
@@ -1687,6 +2809,36 @@ index:
   title: 韩非子（Han Feizi）
   name_original: ''
   language_original: ''
+- slug: publications/hongqi
+  type: publications
+  name_en: Hongqi
+  title: 红旗（Hongqi）
+  name_original: ''
+  language_original: ''
+- slug: publications/huainanzi
+  type: publications
+  name_en: Huainanzi
+  title: 淮南子（Huainanzi）
+  name_original: ''
+  language_original: ''
+- slug: publications/jianbian-tongling
+  type: publications
+  name_en: Jianbian Tongling
+  title: 剪辫通令（Jianbian Tongling）
+  name_original: ''
+  language_original: ''
+- slug: publications/jiangning-zhizao-yu-caojia
+  type: publications
+  name_en: Jiangning Zhizao yu Caojia
+  title: 江宁织造与曹家（Jiangning Zhizao yu Caojia）
+  name_original: ''
+  language_original: ''
+- slug: publications/jiefangjun-wenyi
+  type: publications
+  name_en: Jiefangjun Wenyi
+  title: 解放军文艺（Jiefangjun Wenyi）
+  name_original: ''
+  language_original: ''
 - slug: publications/jieziyuan-huazhuan
   type: publications
   name_en: Jieziyuan Huazhuan
@@ -1697,6 +2849,12 @@ index:
   type: publications
   name_en: Jifu Fu
   title: 机妇赋（Jifu Fu）
+  name_original: ''
+  language_original: ''
+- slug: publications/jingdezhen-taolu
+  type: publications
+  name_en: Jingdezhen Taolu
+  title: 景德镇陶录（Jingdezhen Taolu）
   name_original: ''
   language_original: ''
 - slug: publications/jingshi-dadian
@@ -1733,6 +2891,12 @@ index:
   type: publications
   name_en: Liji
   title: 礼记（Liji）
+  name_original: ''
+  language_original: ''
+- slug: publications/liuzi
+  type: publications
+  name_en: Liuzi
+  title: 刘子（Liuzi）
   name_original: ''
   language_original: ''
 - slug: publications/lubanjing
@@ -1783,10 +2947,52 @@ index:
   title: 孟子（Mengzi）
   name_original: ''
   language_original: ''
+- slug: publications/mingshi-jiaju-yanjiu
+  type: publications
+  name_en: Mingshi Jiaju Yanjiu
+  title: 明式家具研究（Mingshi Jiaju Yanjiu）
+  name_original: ''
+  language_original: ''
 - slug: publications/mo-jing
   type: publications
   name_en: Mo Jing
   title: 墨经（Mo Jing）
+  name_original: ''
+  language_original: ''
+- slug: publications/mozi-jieyong
+  type: publications
+  name_en: Mozi Jieyong
+  title: 墨子·节用（Mozi Jieyong）
+  name_original: ''
+  language_original: ''
+- slug: publications/nancun-chuogenglu
+  type: publications
+  name_en: Nancun Chuogenglu
+  title: 南村辍耕录（Nancun Chuogenglu）
+  name_original: ''
+  language_original: ''
+- slug: publications/nanyao-biji
+  type: publications
+  name_en: Nanyao Biji
+  title: 南窑笔记（Nanyao Biji）
+  name_original: ''
+  language_original: ''
+- slug: publications/nongsang-jizao
+  type: publications
+  name_en: Nongsang Jizao
+  title: 农桑辑要（Nongsang Jizao）
+  name_original: ''
+  language_original: ''
+- slug: publications/on-ten-great-relationships
+  type: publications
+  name_en: On the Ten Major Relationships
+  title: 论十大关系（On the Ten Major Relationships）
+  name_original: ''
+  language_original: ''
+- slug: publications/putong-gaoxiao-benke-zhuanye-mulu
+  type: publications
+  name_en: Putong Gaodeng Xuexiao Benke Zhuanye Mulu
+  title: 普通高等学校本科专业目录（Putong Gaodeng Xuexiao Benke Zhuanye Mulu）
   name_original: ''
   language_original: ''
 - slug: publications/qiminyaoshu
@@ -1795,10 +3001,46 @@ index:
   title: 齐民要术（Qimin Yaoshu）
   name_original: ''
   language_original: ''
+- slug: publications/qinggongbu-zaobanchchu-dangan
+  type: publications
+  name_en: Qinggongbu Zaobanchchu Dangan Zonghui
+  title: 清宫内务府造办处档案总汇（Qinggongbu Zaobanchchu Dangan Zonghui）
+  name_original: ''
+  language_original: ''
 - slug: publications/qingmi-cang
   type: publications
   name_en: Qingmi Cang
   title: 清秘藏（Qingmi Cang）
+  name_original: ''
+  language_original: ''
+- slug: publications/sanli-tu
+  type: publications
+  name_en: Sanli Tu
+  title: 三礼图（Sanli Tu）
+  name_original: ''
+  language_original: ''
+- slug: publications/shanghai-center-plan
+  type: publications
+  name_en: Shanghai Shi Shizhongxin Quyu Guihua
+  title: 上海市市中心区域规划（Shanghai Shi Shizhongxin Quyu Guihua）
+  name_original: ''
+  language_original: ''
+- slug: publications/shanghai-xinbao
+  type: publications
+  name_en: Shanghai Xinbao
+  title: 上海新报（Shanghai Xinbao）
+  name_original: ''
+  language_original: ''
+- slug: publications/shangjunshu
+  type: publications
+  name_en: Shangjun Shu
+  title: 商君书（Shangjun Shu）
+  name_original: ''
+  language_original: ''
+- slug: publications/shangshu
+  type: publications
+  name_en: Shangshu
+  title: 尚书（Shangshu）
   name_original: ''
   language_original: ''
 - slug: publications/shanhai-jing
@@ -1811,6 +3053,12 @@ index:
   type: publications
   name_en: Shenbao
   title: 申报（Shenbao）
+  name_original: ''
+  language_original: ''
+- slug: publications/shenghuo-weekly
+  type: publications
+  name_en: Shenghuo Zhoukan
+  title: 生活周刊（Shenghuo Zhoukan）
   name_original: ''
   language_original: ''
 - slug: publications/shengshi-weiyan
@@ -1831,10 +3079,40 @@ index:
   title: 诗经（Classic of Poetry）
   name_original: ''
   language_original: ''
+- slug: publications/shiming
+  type: publications
+  name_en: Shiming
+  title: 释名（Shiming）
+  name_original: ''
+  language_original: ''
+- slug: publications/shiwu-jiyuan
+  type: publications
+  name_en: Shiwu Jiyuan
+  title: 事物纪原（Shiwu Jiyuan）
+  name_original: ''
+  language_original: ''
+- slug: publications/shiwu-yuanshi
+  type: publications
+  name_en: Shiwu Yuanshi
+  title: 事物原始（Shiwu Yuanshi）
+  name_original: ''
+  language_original: ''
+- slug: publications/shizeng
+  type: publications
+  name_en: Shizeng
+  title: 释缯（Shizeng）
+  name_original: ''
+  language_original: ''
 - slug: publications/shizhuzhai-huapu
   type: publications
   name_en: Shizhuzhai Huapu
   title: 十竹斋画谱（Shizhuzhai Huapu）
+  name_original: ''
+  language_original: ''
+- slug: publications/shujin-pu
+  type: publications
+  name_en: Shujin Pu
+  title: 蜀锦谱（Shujin Pu）
   name_original: ''
   language_original: ''
 - slug: publications/shuowen-jiezi
@@ -1843,10 +3121,40 @@ index:
   title: 说文解字（Shuowen Jiezi）
   name_original: ''
   language_original: ''
+- slug: publications/simin-yueling
+  type: publications
+  name_en: Simin Yueling
+  title: 四民月令（Simin Yueling）
+  name_original: ''
+  language_original: ''
 - slug: publications/sixiu-biji
   type: publications
   name_en: Sixiu Biji
   title: 丝绣笔记（Sixiu Biji）
+  name_original: ''
+  language_original: ''
+- slug: publications/song-huiyao-jigao
+  type: publications
+  name_en: Song Huiyao Jigao
+  title: 宋会要辑稿（Song Huiyao Jigao）
+  name_original: ''
+  language_original: ''
+- slug: publications/suijin
+  type: publications
+  name_en: Suijin
+  title: 碎金（Suijin）
+  name_original: ''
+  language_original: ''
+- slug: publications/taiping-yulan
+  type: publications
+  name_en: Taiping Yulan
+  title: 太平御览（Taiping Yulan）
+  name_original: ''
+  language_original: ''
+- slug: publications/tang-liudian
+  type: publications
+  name_en: Tang Liudian
+  title: 唐六典（Tang Liudian）
   name_original: ''
   language_original: ''
 - slug: publications/tao-shuo
@@ -1861,6 +3169,18 @@ index:
   title: 天工开物（Tiangong Kaiwu）
   name_original: ''
   language_original: ''
+- slug: publications/tiansheng-lvling
+  type: publications
+  name_en: Tiansheng Lvling
+  title: 天盛律令（Tiansheng Lvling）
+  name_original: ''
+  language_original: ''
+- slug: publications/unesco-ich-convention
+  type: publications
+  name_en: Convention for the Safeguarding of the Intangible Cultural Heritage
+  title: 保护非物质文化遗产公约（Convention for the Safeguarding of the Intangible Cultural Heritage）
+  name_original: ''
+  language_original: ''
 - slug: publications/wang-zhen-nongshu
   type: publications
   name_en: Wang Zhen Nongshu
@@ -1871,6 +3191,12 @@ index:
   type: publications
   name_en: Wujing Zongyao
   title: 武经总要（Wujing Zongyao）
+  name_original: ''
+  language_original: ''
+- slug: publications/wulin-jiushi
+  type: publications
+  name_en: Wulin Jiushi
+  title: 武林旧事（Wulin Jiushi）
   name_original: ''
   language_original: ''
 - slug: publications/xianqing-ouji
@@ -1909,10 +3235,46 @@ index:
   title: 荀子（Xunzi）
   name_original: ''
   language_original: ''
+- slug: publications/yangxian-mingtaolu
+  type: publications
+  name_en: Yangxian Mingtao Lu
+  title: 阳羡名陶录（Yangxian Mingtao Lu）
+  name_original: ''
+  language_original: ''
+- slug: publications/yangzhou-huafanglu
+  type: publications
+  name_en: Yangzhou Huafang Lu
+  title: 扬州画舫录（Yangzhou Huafang Lu）
+  name_original: ''
+  language_original: ''
+- slug: publications/yanji-tu
+  type: publications
+  name_en: Yanji Tu
+  title: 燕几图（Yanji Tu）
+  name_original: ''
+  language_original: ''
+- slug: publications/yantielun
+  type: publications
+  name_en: Yantielun
+  title: 盐铁论（Yantielun）
+  name_original: ''
+  language_original: ''
 - slug: publications/yanxian-qingshang-jian
   type: publications
   name_en: Yanxian Qingshang Jian
   title: 燕闲清赏笺（Yanxian Qingshang Jian）
+  name_original: ''
+  language_original: ''
+- slug: publications/yaoqi-shuo
+  type: publications
+  name_en: Yaoqi Shuo
+  title: 窑器说（Yaoqi Shuo）
+  name_original: ''
+  language_original: ''
+- slug: publications/yijia-yan
+  type: publications
+  name_en: Yijia Yan
+  title: 一家言·居室器玩部（Yijia Yan）
   name_original: ''
   language_original: ''
 - slug: publications/yingzao-fashi
@@ -1925,6 +3287,18 @@ index:
   type: publications
   name_en: Yinliuzhai Shuoci
   title: 饮流斋说瓷（Yinliuzhai Shuoci）
+  name_original: ''
+  language_original: ''
+- slug: publications/yishu-yu-sheji
+  type: publications
+  name_en: Yishu yu Sheji
+  title: 艺术与设计（Yishu yu Sheji）
+  name_original: ''
+  language_original: ''
+- slug: publications/yiwen-leiju
+  type: publications
+  name_en: Yiwen Leiju
+  title: 艺文类聚（Yiwen Leiju）
   name_original: ''
   language_original: ''
 - slug: publications/yuan-ye
@@ -1957,6 +3331,12 @@ index:
   title: 中国设计史（夏燕靖）（Zhongguo Shejishi (Xia Yanjing)）
   name_original: ''
   language_original: ''
+- slug: publications/zhongguo-yishu-shejishi-upgraded
+  type: publications
+  name_en: Chinese Design History (Upgraded Edition)
+  title: 中国艺术设计史（升级版）（Chinese Design History (Upgraded Edition)）
+  name_original: ''
+  language_original: ''
 - slug: publications/zhouli
   type: publications
   name_en: Rites of Zhou
@@ -1987,6 +3367,12 @@ index:
   title: 庄子（Zhuangzi）
   name_original: ''
   language_original: ''
+- slug: publications/zhuyuan-taoshuo
+  type: publications
+  name_en: Zhuyuan Taoshuo
+  title: 竹园陶说（Zhuyuan Taoshuo）
+  name_original: ''
+  language_original: ''
 - slug: publications/ziren-yizhi
   type: publications
   name_en: Ziren Yizhi
@@ -2005,10 +3391,76 @@ index:
   title: 遵生八笺（Zunsheng Bajian）
   name_original: ''
   language_original: ''
+- slug: publications/zuozhuan
+  type: publications
+  name_en: Zuozhuan
+  title: 左传（Zuozhuan）
+  name_original: ''
+  language_original: ''
+- slug: works/anle-gongzhu-yuqun
+  type: works
+  name_en: Princess Anle's Feather Skirt
+  title: 安乐公主羽裙（Princess Anle's Feather Skirt）
+  name_original: ''
+  language_original: ''
+- slug: works/baici-tiehua-dou
+  type: works
+  name_en: White Porcelain Dou with Applied Decoration
+  title: 白瓷贴花豆（White Porcelain Dou with Applied Decoration）
+  name_original: ''
+  language_original: ''
+- slug: works/baidum
+  type: works
+  name_en: Thangka of White Tara
+  title: 《白度母》唐卡（Thangka of White Tara）
+  name_original: ''
+  language_original: ''
+- slug: works/baolian-zaojing
+  type: works
+  name_en: Lotus Caisson Ceiling at Binyang Cave
+  title: 宝莲藻井（Lotus Caisson Ceiling at Binyang Cave）
+  name_original: ''
+  language_original: ''
+- slug: works/beijing-olympic-poster-2008
+  type: works
+  name_en: Poster for the 2008 Beijing Olympic Games
+  title: 2008年北京奥运会海报（Poster for the 2008 Beijing Olympic Games）
+  name_original: ''
+  language_original: ''
+- slug: works/beijing-zijincheng
+  type: works
+  name_en: The Forbidden City in Beijing
+  title: 北京紫禁城（The Forbidden City in Beijing）
+  name_original: ''
+  language_original: ''
+- slug: works/beiyang-jiqiju-biaozhi
+  type: works
+  name_en: Beiyang Machinery Bureau Emblem
+  title: 北洋机器局标志（Beiyang Machinery Bureau Emblem）
+  name_original: ''
+  language_original: ''
+- slug: works/bronze-ewer
+  type: works
+  name_en: Song Bronze Ewer
+  title: 宋代铜执壶（Song Bronze Ewer）
+  name_original: ''
+  language_original: ''
+- slug: works/bronze-owl-zun
+  type: works
+  name_en: Bronze Owl-Shaped Zun
+  title: 铜鸮尊（Bronze Owl-Shaped Zun）
+  name_original: ''
+  language_original: ''
 - slug: works/budala-gong
   type: works
   name_en: Potala Palace
   title: 布达拉宫（Potala Palace）
+  name_original: ''
+  language_original: ''
+- slug: works/buniantu
+  type: works
+  name_en: Emperor Taizong Receiving the Tibetan Envoy
+  title: 《步辇图》（Emperor Taizong Receiving the Tibetan Envoy）
   name_original: ''
   language_original: ''
 - slug: works/caiqi-mudiao-dongwu-zuoping
@@ -2017,10 +3469,28 @@ index:
   title: 彩漆木雕动物座屏（Painted Lacquered Animal Screen）
   name_original: ''
   language_original: ''
+- slug: works/caitao-tiaowen-hu
+  type: works
+  name_en: Striped Painted Pottery Jar
+  title: 彩陶条纹壶（Striped Painted Pottery Jar）
+  name_original: ''
+  language_original: ''
 - slug: works/changxin-palace-lamp
   type: works
   name_en: Changxin Palace Lamp
   title: 长信宫灯（Changxin Palace Lamp）
+  name_original: ''
+  language_original: ''
+- slug: works/chengkun-tielu
+  type: works
+  name_en: Ivory Carving 'Chengdu-Kunming Railway'
+  title: 《成昆铁路》象牙雕刻（Ivory Carving 'Chengdu-Kunming Railway'）
+  name_original: ''
+  language_original: ''
+- slug: works/cimu-touzhu-tu
+  type: works
+  name_en: Picture of a Mother Throwing the Shuttle
+  title: 慈母投杼图（Picture of a Mother Throwing the Shuttle）
   name_original: ''
   language_original: ''
 - slug: works/cuo-jinyi-longfenglu-fangan
@@ -2041,16 +3511,46 @@ index:
   title: 大克鼎（Da Ke Ding）
   name_original: ''
   language_original: ''
+- slug: works/da-nao-hua-shi
+  type: works
+  name_en: Uproar in the Studio
+  title: 《大闹画室》（Uproar in the Studio）
+  name_original: ''
+  language_original: ''
+- slug: works/da-nao-tian-gong
+  type: works
+  name_en: Uproar in Heaven
+  title: 《大闹天宫》（Uproar in Heaven）
+  name_original: ''
+  language_original: ''
 - slug: works/da-yu-ding
   type: works
   name_en: Da Yu Ding
   title: 大盂鼎（Da Yu Ding）
   name_original: ''
   language_original: ''
+- slug: works/dabaoensi-liuli-ta
+  type: works
+  name_en: Porcelain Tower of Dabao'en Temple
+  title: 大报恩寺琉璃塔（Porcelain Tower of Dabao'en Temple）
+  name_original: ''
+  language_original: ''
+- slug: works/daiyuegui
+  type: works
+  name_en: Colored Silk Embroidery 'Returning Under the Moon'
+  title: 《戴月归》彩锦绣（Colored Silk Embroidery 'Returning Under the Moon'）
+  name_original: ''
+  language_original: ''
 - slug: works/daming-gong
   type: works
   name_en: Daming Palace
   title: 大明宫（Daming Palace）
+  name_original: ''
+  language_original: ''
+- slug: works/daolian-tu
+  type: works
+  name_en: Court Ladies Preparing Newly Woven Silk
+  title: 《捣练图》（Court Ladies Preparing Newly Woven Silk）
   name_original: ''
   language_original: ''
 - slug: works/dayan-ta-652
@@ -2077,16 +3577,94 @@ index:
   title: 定窑孩儿枕（Ding Ware Boy Pillow）
   name_original: ''
   language_original: ''
+- slug: works/dongfeng-sedan
+  type: works
+  name_en: Dongfeng Sedan
+  title: 东风牌小轿车（Dongfeng Sedan）
+  name_original: ''
+  language_original: ''
+- slug: works/donghan-qingci-gaozu-wan
+  type: works
+  name_en: Eastern Han Celadon Bowl with High Foot
+  title: 东汉青瓷高足碗（Eastern Han Celadon Bowl with High Foot）
+  name_original: ''
+  language_original: ''
+- slug: works/erlitou-long-spout-jue
+  type: works
+  name_en: Long-Spouted Bronze Jue from Erlitou
+  title: 二里头青铜长流爵（Long-Spouted Bronze Jue from Erlitou）
+  name_original: ''
+  language_original: ''
+- slug: works/fanchuan-tujing-cipan
+  type: works
+  name_en: Pair of Plates with Dutch East India Company Ship
+  title: 帆船图景瓷盘（Pair of Plates with Dutch East India Company Ship）
+  name_original: ''
+  language_original: ''
+- slug: works/fengshou-longbing-hu
+  type: works
+  name_en: Ewer with Phoenix Head and Dragon Handle
+  title: 凤首龙柄壶（Ewer with Phoenix Head and Dragon Handle）
+  name_original: ''
+  language_original: ''
+- slug: works/flying-pigeon-bicycle
+  type: works
+  name_en: Flying Pigeon Bicycle
+  title: 飞鸽牌自行车（Flying Pigeon Bicycle）
+  name_original: ''
+  language_original: ''
 - slug: works/foguang-si-dadian
   type: works
   name_en: Main Hall of Foguang Temple
   title: 佛光寺大殿（Main Hall of Foguang Temple）
   name_original: ''
   language_original: ''
+- slug: works/fu-geng-zisun-gu
+  type: works
+  name_en: Gu Vessel Inscribed Fu Geng Zi Sun
+  title: 父庚子孙觚（Gu Vessel Inscribed Fu Geng Zi Sun）
+  name_original: ''
+  language_original: ''
+- slug: works/fuhao-jade-figure
+  type: works
+  name_en: Jade Figure from the Tomb of Fu Hao
+  title: 妇好墓玉雕人俑（Jade Figure from the Tomb of Fu Hao）
+  name_original: ''
+  language_original: ''
+- slug: works/gao-yi-que
+  type: works
+  name_en: Gaoyi Que (Pillar Gate)
+  title: 高颐阙（Gaoyi Que (Pillar Gate)）
+  name_original: ''
+  language_original: ''
+- slug: works/gaoyi-tu
+  type: works
+  name_en: Gao Yi Tu (Lofty Scholars)
+  title: 《高逸图》（Gao Yi Tu, Lofty Scholars）
+  name_original: ''
+  language_original: ''
+- slug: works/great-wall-tapestry
+  type: works
+  name_en: Large Tapestry 'The Great Wall'
+  title: 大型壁毯《长城》（Large Tapestry 'The Great Wall'）
+  name_original: ''
+  language_original: ''
+- slug: works/guangxu-caiyou-diaoci-fangping
+  type: works
+  name_en: Carved Porcelain Square Vase with Four Seasons Flowers and Birds
+  title: 清光绪彩釉雕瓷四季花鸟纹方瓶（Carved Porcelain Square Vase with Four Seasons Flowers and Birds）
+  name_original: ''
+  language_original: ''
 - slug: works/guiguxiashan-qinghua-guan
   type: works
   name_en: Yuan "Guiguxiashan" Blue-and-White Jar
   title: 元代“鬼谷下山”青花瓷罐（Yuan "Guiguxiashan" Blue-and-White Jar）
+  name_original: ''
+  language_original: ''
+- slug: works/guo-shoujing-jianyi
+  type: works
+  name_en: Guo Shoujing's Abridged Armilla
+  title: 郭守敬简仪（Guo Shoujing's Abridged Armilla）
   name_original: ''
   language_original: ''
 - slug: works/guohui-1950
@@ -2113,10 +3691,34 @@ index:
   title: 候风地动仪（Houfeng Seismograph）
   name_original: ''
   language_original: ''
+- slug: works/huangdi-chuiyishang-sculpture
+  type: works
+  name_en: Modern Sculpture of the Yellow Emperor
+  title: 黄帝垂衣裳雕塑（Modern Sculpture of the Yellow Emperor）
+  name_original: ''
+  language_original: ''
 - slug: works/huaniao-renwu-luodian-jing
   type: works
   name_en: Mother-of-Pearl Mirror with Figures and Birds
   title: 花鸟人物螺钿镜（Mother-of-Pearl Mirror with Figures and Birds）
+  name_original: ''
+  language_original: ''
+- slug: works/huayou-yaogu
+  type: works
+  name_en: Mottled-Glaze Waist Drum
+  title: 花釉腰鼓（Mottled-Glaze Waist Drum）
+  name_original: ''
+  language_original: ''
+- slug: works/human-face-bronze-yue
+  type: works
+  name_en: Bronze Yue with Human-Face Motif
+  title: 人面纹铜钺（Bronze Yue with Human-Face Motif）
+  name_original: ''
+  language_original: ''
+- slug: works/huntianyi
+  type: works
+  name_en: Armillary Sphere
+  title: 浑天仪（Armillary Sphere）
   name_original: ''
   language_original: ''
 - slug: works/huwen-da-shiqing
@@ -2125,10 +3727,58 @@ index:
   title: 虎纹大石磬（Tiger-Engraved Stone Chime）
   name_original: ''
   language_original: ''
+- slug: works/iron-blade-bronze-yue
+  type: works
+  name_en: Bronze Yue with Iron Blade
+  title: 铁刃铜钺（Bronze Yue with Iron Blade）
+  name_original: ''
+  language_original: ''
+- slug: works/jade-handle-iron-sword
+  type: works
+  name_en: Iron Sword with Jade Handle
+  title: 玉柄铁剑（Iron Sword with Jade Handle）
+  name_original: ''
+  language_original: ''
+- slug: works/jiefang-truck
+  type: works
+  name_en: Jiefang (Liberation) Truck
+  title: 解放牌载重卡车（Jiefang (Liberation) Truck）
+  name_original: ''
+  language_original: ''
+- slug: works/jin-wudi-simayan-mianfu
+  type: works
+  name_en: Ceremonial Robe of Emperor Wu of Jin
+  title: 晋武帝司马炎冕服（Ceremonial Robe of Emperor Wu of Jin）
+  name_original: ''
+  language_original: ''
 - slug: works/jinan-liujia-zhenpu-tongban
   type: works
   name_en: Jinan Liu Family Needle Shop Copper Printing Plate
   title: 济南刘家功夫针铺铜版（Jinan Liu Family Needle Shop Copper Printing Plate）
+  name_original: ''
+  language_original: ''
+- slug: works/jinci-shengmu-dian
+  type: works
+  name_en: Hall of the Holy Mother at Jinci Temple
+  title: 晋祠圣母殿（Hall of the Holy Mother at Jinci Temple）
+  name_original: ''
+  language_original: ''
+- slug: works/jinxing-pen
+  type: works
+  name_en: Jinxing Gold Pen
+  title: 金星牌金笔（Jinxing Gold Pen）
+  name_original: ''
+  language_original: ''
+- slug: works/jiulongbi
+  type: works
+  name_en: Nine-Dragon Wall
+  title: 九龙壁（Nine-Dragon Wall）
+  name_original: ''
+  language_original: ''
+- slug: works/jiuxi-shibajian
+  type: works
+  name_en: Du Jinsheng Silk Tapestry of Nine Creeks and Eighteen Gullies
+  title: 都锦生丝织风景《九溪十八涧》（Du Jinsheng Silk Tapestry of Nine Creeks and Eighteen Gullies）
   name_original: ''
   language_original: ''
 - slug: works/kaifeng-xiangguosi-pagoda
@@ -2137,10 +3787,52 @@ index:
   title: 开封相国寺塔（Pagoda of Xiangguo Temple, Kaifeng）
   name_original: ''
   language_original: ''
+- slug: works/kongzi-shengjitu
+  type: works
+  name_en: Illustrated Life of Confucius
+  title: 《孔子圣迹图》（Illustrated Life of Confucius）
+  name_original: ''
+  language_original: ''
+- slug: works/lanbai-yinhuabu
+  type: works
+  name_en: Blue-and-White Printed Cloth from Minfeng, Xinjiang
+  title: 新疆民丰蓝白印花布（Blue-and-White Printed Cloth from Minfeng, Xinjiang）
+  name_original: ''
+  language_original: ''
+- slug: works/lenovo-et960
+  type: works
+  name_en: Lenovo ET960 Smartphone
+  title: 联想ET960智能手机（Lenovo ET960 Smartphone）
+  name_original: ''
+  language_original: ''
+- slug: works/li-ning-banpo-basketball-shoe
+  type: works
+  name_en: Li-Ning Banpo Professional Basketball Shoe
+  title: 李宁半坡专业篮球鞋（Li-Ning Banpo Professional Basketball Shoe）
+  name_original: ''
+  language_original: ''
+- slug: works/liangtou-jian-chuan
+  type: works
+  name_en: Double-Ended Boat
+  title: 两头尖船（Double-Ended Boat）
+  name_original: ''
+  language_original: ''
 - slug: works/lianhe-fanghu
   type: works
   name_en: Lotus and Crane Square Hu
   title: 莲鹤方壶（Lotus and Crane Square Hu）
+  name_original: ''
+  language_original: ''
+- slug: works/lianhua-qingci-tuowan
+  type: works
+  name_en: Lotus-Shaped Celadon Bowl with Stand
+  title: 莲花青瓷托碗（Lotus-Shaped Celadon Bowl with Stand）
+  name_original: ''
+  language_original: ''
+- slug: works/lianhua-zaoxing-wenjiuqi
+  type: works
+  name_en: Lotus-Shaped Wine Warmer
+  title: 莲花造型温酒器（Lotus-Shaped Wine Warmer）
   name_original: ''
   language_original: ''
 - slug: works/lianhua-zun
@@ -2149,10 +3841,46 @@ index:
   title: 莲花尊（Lotus Zun）
   name_original: ''
   language_original: ''
+- slug: works/lianzhu-luwen-jin
+  type: works
+  name_en: Brocade with Linked-Pearl Roundels and Deer
+  title: 联珠鹿纹锦（Brocade with Linked-Pearl Roundels and Deer）
+  name_original: ''
+  language_original: ''
+- slug: works/lianzhu-yezhutou-wen-jin
+  type: works
+  name_en: Brocade with Linked-Pearl Roundels and Boar-Head Motif
+  title: 联珠野猪头纹锦（Brocade with Linked-Pearl Roundels and Boar-Head Motif）
+  name_original: ''
+  language_original: ''
+- slug: works/lindian
+  type: works
+  name_en: Lindian Hall
+  title: 麟德殿（Lindian Hall）
+  name_original: ''
+  language_original: ''
+- slug: works/liu-guandao-xiaoxia-tujuan
+  type: works
+  name_en: Liu Guandao's Handscroll of Summer Leisure
+  title: 刘贯道《消夏图卷》（Liu Guandao's Handscroll of Summer Leisure）
+  name_original: ''
+  language_original: ''
 - slug: works/liujin-wuma-xianbei-yinhu
   type: works
   name_en: Gilt Silver Ewer with Dancing Horse
   title: 鎏金舞马衔杯银壶（Gilt Silver Ewer with Dancing Horse）
+  name_original: ''
+  language_original: ''
+- slug: works/longhu-zun
+  type: works
+  name_en: Dragon-Tiger Zun
+  title: 龙虎尊（Dragon-Tiger Zun）
+  name_original: ''
+  language_original: ''
+- slug: works/longwen-kuihua-jing
+  type: works
+  name_en: Mallow-Shaped Mirror with Dragon Design
+  title: 龙纹葵花镜（Mallow-Shaped Mirror with Dragon Design）
   name_original: ''
   language_original: ''
 - slug: works/luanshu-fou
@@ -2161,10 +3889,28 @@ index:
   title: 栾书缶（Luan Shu Fou）
   name_original: ''
   language_original: ''
+- slug: works/luodian-huaniao-wen-jinghan
+  type: works
+  name_en: Mother-of-Pearl Sutra Box with Bird-and-Flower Design
+  title: 螺钿花鸟纹经函（Mother-of-Pearl Sutra Box with Bird-and-Flower Design）
+  name_original: ''
+  language_original: ''
 - slug: works/lv-you-tao-lou
   type: works
   name_en: Green-Glazed Pottery Tower
   title: 绿釉陶楼（Green-Glazed Pottery Tower）
+  name_original: ''
+  language_original: ''
+- slug: works/man-eating-you
+  type: works
+  name_en: You Vessel with Human Figure
+  title: 食人卣（You Vessel with Human Figure）
+  name_original: ''
+  language_original: ''
+- slug: works/mao-badge
+  type: works
+  name_en: Mao Zedong Badges
+  title: 毛主席像章（Mao Zedong Badges）
   name_original: ''
   language_original: ''
 - slug: works/mao-gong-ding
@@ -2173,16 +3919,40 @@ index:
   title: 毛公鼎（Mao Gong Ding）
   name_original: ''
   language_original: ''
+- slug: works/mengtian-jiangjun-yuhuchun-ping
+  type: works
+  name_en: Yuhuchun Vase with the Story of General Meng Tian
+  title: 蒙恬将军玉壶春瓶（Yuhuchun Vase with the Story of General Meng Tian）
+  name_original: ''
+  language_original: ''
 - slug: works/miaoying-si-baita
   type: works
   name_en: Miaoying Temple White Stupa
   title: 北京妙应寺白塔（Miaoying Temple White Stupa）
   name_original: ''
   language_original: ''
+- slug: works/minzu-wenhua-gong
+  type: works
+  name_en: Cultural Palace of Nationalities
+  title: 民族文化宫（Cultural Palace of Nationalities）
+  name_original: ''
+  language_original: ''
+- slug: works/mozi-jiu-song-tu
+  type: works
+  name_en: Mozi Saving Song
+  title: 《墨子救宋图》（Mozi Saving Song）
+  name_original: ''
+  language_original: ''
 - slug: works/muniu-liuma
   type: works
   name_en: Wooden Ox and Flowing Horse
   title: 木牛流马（Wooden Ox and Flowing Horse）
+  name_original: ''
+  language_original: ''
+- slug: works/namo-shakyamuni-fo
+  type: works
+  name_en: Woodblock-Resist Print of Sakyamuni Buddha
+  title: 《南无释迦牟尼佛》夹缬（Woodblock-Resist Print of Sakyamuni Buddha）
   name_original: ''
   language_original: ''
 - slug: works/nanchan-si-dadian
@@ -2197,10 +3967,28 @@ index:
   title: 南海一号（Nanhai One Shipwreck）
   name_original: ''
   language_original: ''
+- slug: works/niutou-lujiao-jin-shijian
+  type: works
+  name_en: Gold Ornament with Ox Head and Deer Antlers
+  title: 牛头鹿角金饰件（Gold Ornament with Ox Head and Deer Antlers）
+  name_original: ''
+  language_original: ''
 - slug: works/ou-fangyi
   type: works
   name_en: Ou Fangyi (Paired Square Ritual Vessel)
   title: 偶方彝（Ou Fangyi (Paired Square Ritual Vessel)）
+  name_original: ''
+  language_original: ''
+- slug: works/prc-national-flag
+  type: works
+  name_en: National Flag of the People's Republic of China
+  title: 中华人民共和国国旗（五星红旗）（National Flag of the People's Republic of China）
+  name_original: ''
+  language_original: ''
+- slug: works/prince-ziwu-ding
+  type: works
+  name_en: Ding of Prince Ziwu
+  title: 王子午鼎（Ding of Prince Ziwu）
   name_original: ''
   language_original: ''
 - slug: works/qikong-shidao
@@ -2221,6 +4009,12 @@ index:
   title: 秦始皇陵（Mausoleum of the First Qin Emperor）
   name_original: ''
   language_original: ''
+- slug: works/qinghua-wugu-fengdeng-tu-pan
+  type: works
+  name_en: Blue-and-White Plate with Bumper Harvest Design
+  title: 青花五谷丰登图盘（Blue-and-White Plate with Bumper Harvest Design）
+  name_original: ''
+  language_original: ''
 - slug: works/qingming-shanghe-tu
   type: works
   name_en: Along the River During the Qingming Festival
@@ -2233,16 +4027,76 @@ index:
   title: 秦陵铜车马（Bronze Chariots and Horses from the Qin Mausoleum）
   name_original: ''
   language_original: ''
+- slug: works/qiyingshao
+  type: works
+  name_en: Qiyingshao, Guangzhou-Type Ship
+  title: 耆英号（Qiyingshao, Guangzhou-Type Ship）
+  name_original: ''
+  language_original: ''
+- slug: works/quanzhou-qingjing-si
+  type: works
+  name_en: Quanzhou Qingjing Mosque
+  title: 泉州清净寺（Quanzhou Qingjing Mosque）
+  name_original: ''
+  language_original: ''
 - slug: works/renmin-dahuitang-1959
   type: works
   name_en: Great Hall of the People
   title: 人民大会堂（Great Hall of the People）
   name_original: ''
   language_original: ''
+- slug: works/ring-foot-gong
+  type: works
+  name_en: Ring-Footed Guang Vessel
+  title: 圈足觥（Ring-Footed Guang Vessel）
+  name_original: ''
+  language_original: ''
+- slug: works/ruding-shishi-liujin-yinzhan
+  type: works
+  name_en: Gilt Silver Cup with Bosses and Lion Design
+  title: 乳钉狮纹鎏金银盏（Gilt Silver Cup with Bosses and Lion Design）
+  name_original: ''
+  language_original: ''
+- slug: works/sajia-si
+  type: works
+  name_en: Sakya Monastery
+  title: 萨迦寺（Sakya Monastery）
+  name_original: ''
+  language_original: ''
 - slug: works/san-jiao-lou
   type: works
   name_en: Three-Legged Seed Drill
   title: 三脚耧（Three-Legged Seed Drill）
+  name_original: ''
+  language_original: ''
+- slug: works/sancai-shuangyu-hu
+  type: works
+  name_en: Sancai Double-Fish Ewer
+  title: 三彩双鱼壶（Sancai Double-Fish Ewer）
+  name_original: ''
+  language_original: ''
+- slug: works/sandian-jiaota-fangmianche
+  type: works
+  name_en: Three-Spindle Treadle Cotton Spinning Wheel
+  title: 三锭脚踏纺棉车（Three-Spindle Treadle Cotton Spinning Wheel）
+  name_original: ''
+  language_original: ''
+- slug: works/sanxingdui-bronze-statue
+  type: works
+  name_en: Bronze Figure from Sanxingdui
+  title: 三星堆青铜人雕像（Bronze Figure from Sanxingdui）
+  name_original: ''
+  language_original: ''
+- slug: works/sanzu-jia
+  type: works
+  name_en: Three-Legged Jia Vessel
+  title: 三足斝（Three-Legged Jia Vessel）
+  name_original: ''
+  language_original: ''
+- slug: works/sassoon-house
+  type: works
+  name_en: Sassoon House
+  title: 沙逊大厦（Sassoon House）
   name_original: ''
   language_original: ''
 - slug: works/shang-elephant-zun
@@ -2263,10 +4117,34 @@ index:
   title: 上海汇丰银行（HSBC Building, Shanghai）
   name_original: ''
   language_original: ''
+- slug: works/shenren-shoumianwen-yucong
+  type: works
+  name_en: Jade Cong with Deity-and-Animal Mask
+  title: 神人兽面纹玉琮（Jade Cong with Deity-and-Animal Mask）
+  name_original: ''
+  language_original: ''
 - slug: works/shiwu-lianzhan-tongdeng
   type: works
   name_en: Fifteen-Lamp Bronze Lamp
   title: 十五连盏铜灯（Fifteen-Lamp Bronze Lamp）
+  name_original: ''
+  language_original: ''
+- slug: works/shizhuzhai-jianpu
+  type: works
+  name_en: Shizhuzhai Jianpu (Ten Bamboo Studio Letter Paper Album)
+  title: 《十竹斋笺谱》（Shizhuzhai Jianpu (Ten Bamboo Studio Letter Paper Album)）
+  name_original: ''
+  language_original: ''
+- slug: works/shuanglu-wadang
+  type: works
+  name_en: Roof-Tile End with Twin Deer
+  title: 双鹿瓦当（Roof-Tile End with Twin Deer）
+  name_original: ''
+  language_original: ''
+- slug: works/shuangluan-ruishou-kuihua-jing
+  type: works
+  name_en: Mallow-Shaped Mirror with Double Phoenixes and Auspicious Beasts
+  title: 双鸾瑞兽葵花镜（Mallow-Shaped Mirror with Double Phoenixes and Auspicious Beasts）
   name_original: ''
   language_original: ''
 - slug: works/shui-dui
@@ -2279,6 +4157,24 @@ index:
   type: works
   name_en: Water-Land Battle Scene Jian
   title: 水陆攻战纹鉴（Water-Land Battle Scene Jian）
+  name_original: ''
+  language_original: ''
+- slug: works/shuxia-duiniao-duiyang-wenjin
+  type: works
+  name_en: Brocade with Trees, Paired Birds and Paired Sheep
+  title: 树下对鸟对羊纹锦（Brocade with Trees, Paired Birds and Paired Sheep）
+  name_original: ''
+  language_original: ''
+- slug: works/shuxia-liyang-tu-jiaxie-pingfeng
+  type: works
+  name_en: Woodblock-Resist Screen with a Standing Ram under a Tree
+  title: 树下立羊图夹缬屏风（Woodblock-Resist Screen with a Standing Ram under a Tree）
+  name_original: ''
+  language_original: ''
+- slug: works/simajinlong-mu-qi-pingfeng
+  type: works
+  name_en: Lacquer Screen from the Tomb of Sima Jinlong
+  title: 司马金龙墓漆屏风（Lacquer Screen from the Tomb of Sima Jinlong）
   name_original: ''
   language_original: ''
 - slug: works/simei-tu
@@ -2317,6 +4213,12 @@ index:
   title: 唐代银香囊（Tang Silver Perfume Pouch）
   name_original: ''
   language_original: ''
+- slug: works/ti-hua-ling-ji
+  type: works
+  name_en: Improved Pattern Loom of Ma Jun
+  title: 提花绫机（马钧改进）（Improved Pattern Loom of Ma Jun）
+  name_original: ''
+  language_original: ''
 - slug: works/tibi-chaju
   type: works
   name_en: Tibi Tea Set
@@ -2327,6 +4229,42 @@ index:
   type: works
   name_en: Bronze Ox Lamp
   title: 铜牛灯（Bronze Ox Lamp）
+  name_original: ''
+  language_original: ''
+- slug: works/tongbenma
+  type: works
+  name_en: Galloping Horse in Bronze
+  title: 铜奔马（Galloping Horse in Bronze）
+  name_original: ''
+  language_original: ''
+- slug: works/wangchengtu-dai-zhen
+  type: works
+  name_en: Plan of the Royal Capital by Dai Zhen
+  title: 王城图（戴震）（Plan of the Royal Capital by Dai Zhen）
+  name_original: ''
+  language_original: ''
+- slug: works/wangchengtu-nie-chongyi
+  type: works
+  name_en: Plan of the Royal Capital by Nie Chongyi
+  title: 王城图（聂崇义）（Plan of the Royal Capital by Nie Chongyi）
+  name_original: ''
+  language_original: ''
+- slug: works/wangdafan-fugui-shoukao-ciban
+  type: works
+  name_en: Wang Dafan's Porcelain Plaque of Wealth and Longevity
+  title: 王大凡《富贵寿考瓷板》（Wang Dafan's Porcelain Plaque of Wealth and Longevity）
+  name_original: ''
+  language_original: ''
+- slug: works/wei-ding
+  type: works
+  name_en: Wei Ding
+  title: 卫鼎（Wei Ding）
+  name_original: ''
+  language_original: ''
+- slug: works/wensiyuan-yin-xunlu
+  type: works
+  name_en: Gilt Silver Censer Made by the Wensiyuan Workshop
+  title: 文思院造鎏金朵带银熏炉（Gilt Silver Censer Made by the Wensiyuan Workshop）
   name_original: ''
   language_original: ''
 - slug: works/wu-zixu-huaxiang-jing
@@ -2347,10 +4285,52 @@ index:
   title: 舞蹈纹彩陶盆（Painted Pottery Basin with Dancing Figures）
   name_original: ''
   language_original: ''
+- slug: works/wugu-fengdeng-denglongwen-zhijin
+  type: works
+  name_en: Brocade with Lantern and Bumper Harvest Motifs
+  title: 五谷丰登灯笼纹织锦（Brocade with Lantern and Bumper Harvest Motifs）
+  name_original: ''
+  language_original: ''
+- slug: works/wuya-dazhanjian
+  type: works
+  name_en: Five-Toothed Great Warship
+  title: 五牙大战舰（Five-Toothed Great Warship）
+  name_original: ''
+  language_original: ''
 - slug: works/xiangyun-huoju
   type: works
   name_en: Beijing 2008 "Xiangyun" Olympic Torch
   title: 北京奥运会火炬“祥云”（Beijing 2008 "Xiangyun" Olympic Torch）
+  name_original: ''
+  language_original: ''
+- slug: works/xiao-ke-dou-zhao-ma-ma
+  type: works
+  name_en: Where Is Mama (Little Tadpoles Searching for Mother)
+  title: 《小蝌蚪找妈妈》（Where Is Mama (Little Tadpoles Searching for Mother)）
+  name_original: ''
+  language_original: ''
+- slug: works/xinzhui-fushi
+  type: works
+  name_en: Garments of Lady Xinzhui of Mawangdui
+  title: 马王堆贵夫人辛追服饰（Garments of Lady Xinzhui of Mawangdui）
+  name_original: ''
+  language_original: ''
+- slug: works/xique-dengmei
+  type: works
+  name_en: Large Hanging Screen 'Magpies on Plum Branches'
+  title: 《喜鹊登梅》大挂屏（Large Hanging Screen 'Magpies on Plum Branches'）
+  name_original: ''
+  language_original: ''
+- slug: works/xixia-movable-type-print
+  type: works
+  name_en: Tangut Movable-Type Printings
+  title: 西夏活字印本（Tangut Movable-Type Printings）
+  name_original: ''
+  language_original: ''
+- slug: works/xuwen-jin
+  type: works
+  name_en: Xu-Pattern Brocade, Fragment
+  title: 续纹锦（Xu-Pattern Brocade, Fragment）
   name_original: ''
   language_original: ''
 - slug: works/yannian-yishou-jin
@@ -2377,10 +4357,22 @@ index:
   title: 永乐宫（Yongle Palace）
   name_original: ''
   language_original: ''
+- slug: works/yongzheng-fencai-sangnv-pan
+  type: works
+  name_en: Famille Rose Plate with Ladies Gathering Mulberry Leaves
+  title: 清雍正粉彩仕女采桑图盘（Famille Rose Plate with Ladies Gathering Mulberry Leaves）
+  name_original: ''
+  language_original: ''
 - slug: works/yu-pingtuo-shuang-putao-jing
   type: works
   name_en: Jade Pingtuo Double-Grape Mirror
   title: 玉平脱双葡萄镜（Jade Pingtuo Double-Grape Mirror）
+  name_original: ''
+  language_original: ''
+- slug: works/yuan-huoqiang
+  type: works
+  name_en: Yuan Dynasty Hand Cannon
+  title: 元代火铳（Yuan Dynasty Hand Cannon）
   name_original: ''
   language_original: ''
 - slug: works/yuan-yinjingjia
@@ -2395,16 +4387,40 @@ index:
   title: 圆明园（Old Summer Palace (Yuanmingyuan)）
   name_original: ''
   language_original: ''
+- slug: works/yuehan-tielu-huizhang
+  type: works
+  name_en: Yuehan Railway Badge
+  title: 粤汉铁路徽章（Yuehan Railway Badge）
+  name_original: ''
+  language_original: ''
 - slug: works/yuewang-goujian-jian
   type: works
   name_en: Sword of Goujian, King of Yue
   title: 越王勾践剑（Sword of Goujian, King of Yue）
   name_original: ''
   language_original: ''
+- slug: works/yunwen-tongjin
+  type: works
+  name_en: Bronze Altar (Jin) with Cloud Patterns
+  title: 云纹铜禁（Bronze Altar (Jin) with Cloud Patterns）
+  name_original: ''
+  language_original: ''
+- slug: works/zanhua-shinv-tu
+  type: works
+  name_en: Court Ladies Adorning Their Hair with Flowers
+  title: 《簪花仕女图》（Court Ladies Adorning Their Hair with Flowers）
+  name_original: ''
+  language_original: ''
 - slug: works/zenghouyi-bianzhong
   type: works
   name_en: Bells of Marquis Yi of Zeng
   title: 曾侯乙编钟（Bells of Marquis Yi of Zeng）
+  name_original: ''
+  language_original: ''
+- slug: works/zenghouyi-bronze-jianfou
+  type: works
+  name_en: Bronze Jian-Fou from the Tomb of Marquis Yi of Zeng
+  title: 曾侯乙铜鉴缶（Bronze Jian-Fou from the Tomb of Marquis Yi of Zeng）
   name_original: ''
   language_original: ''
 - slug: works/zenghouyi-zunpan
@@ -2431,10 +4447,46 @@ index:
   title: 中山陵（Sun Yat-sen Mausoleum）
   name_original: ''
   language_original: ''
+- slug: works/zhu-bishan-yincha
+  type: works
+  name_en: Silver Raft Cup by Zhu Bishan
+  title: 朱碧山银槎（龙槎杯）（Silver Raft Cup by Zhu Bishan）
+  name_original: ''
+  language_original: ''
+- slug: works/zhui-hanxin-tu-meiping
+  type: works
+  name_en: Meiping Vase with the Story of Xiao He Pursuing Han Xin
+  title: 追韩信图梅瓶（Meiping Vase with the Story of Xiao He Pursuing Han Xin）
+  name_original: ''
+  language_original: ''
+- slug: works/zhui-pian
+  type: works
+  name_en: Zhui Vessel (as Captioned)
+  title: 追篇（Zhui Vessel (as Captioned)）
+  name_original: ''
+  language_original: ''
+- slug: works/zhulin-qixian-huaxiang-zhuan
+  type: works
+  name_en: Brick Relief of the Seven Sages of the Bamboo Grove
+  title: 竹林七贤画像砖（Brick Relief of the Seven Sages of the Bamboo Grove）
+  name_original: ''
+  language_original: ''
 - slug: works/zhuozhengyuan
   type: works
   name_en: Humble Administrator's Garden
   title: 拙政园（Humble Administrator's Garden）
+  name_original: ''
+  language_original: ''
+- slug: works/zhuwen-heitao-bo
+  type: works
+  name_en: Black Pottery Bowl with Pig Motif
+  title: 猪纹黑陶钵（Black Pottery Bowl with Pig Motif）
+  name_original: ''
+  language_original: ''
+- slug: works/zisha-donglinggua
+  type: works
+  name_en: Yixing Zisha 'Dongling Melon' Vessel
+  title: 紫砂“东陵瓜”（Yixing Zisha 'Dongling Melon' Vessel）
   name_original: ''
   language_original: ''
 - slug: institutions/anqing-junxiesuo

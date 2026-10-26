@@ -1,0 +1,289 @@
+[
+  {
+    "entity": "彩陶条纹壶",
+    "target_ref": "04-knowledge/units/works/caitao-tiaowen-hu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-97",
+    "merged_candidates": []
+  },
+  {
+    "entity": "神人兽面纹玉琮",
+    "target_ref": "04-knowledge/units/works/shenren-shoumianwen-yucong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三足斝",
+    "target_ref": "04-knowledge/units/works/sanzu-jia.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-99",
+    "merged_candidates": []
+  },
+  {
+    "entity": "良渚古城",
+    "target_ref": "04-knowledge/units/places/liangzhu-gucheng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-55",
+    "merged_candidates": []
+  },
+  {
+    "entity": "猪纹黑陶钵",
+    "target_ref": "04-knowledge/units/works/zhuwen-heitao-bo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-98",
+    "merged_candidates": []
+  },
+  {
+    "entity": "黄帝垂衣裳雕塑",
+    "target_ref": "04-knowledge/units/works/huangdi-chuiyishang-sculpture.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-100",
+    "merged_candidates": []
+  },
+  {
+    "entity": "二里头青铜长流爵",
+    "target_ref": "04-knowledge/units/works/erlitou-long-spout-jue.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "圈足觥",
+    "target_ref": "04-knowledge/units/works/ring-foot-gong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "追篇",
+    "target_ref": "04-knowledge/units/works/zhui-pian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铜鸮尊",
+    "target_ref": "04-knowledge/units/works/bronze-owl-zun.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "食人卣",
+    "target_ref": "04-knowledge/units/works/man-eating-you.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-125",
+    "merged_candidates": []
+  },
+  {
+    "entity": "人面纹铜钺",
+    "target_ref": "04-knowledge/units/works/human-face-bronze-yue.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-126",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙虎尊",
+    "target_ref": "04-knowledge/units/works/longhu-zun.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-127",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王子午鼎",
+    "target_ref": "04-knowledge/units/works/prince-ziwu-ding.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-128",
+    "merged_candidates": []
+  },
+  {
+    "entity": "父庚子孙觚",
+    "target_ref": "04-knowledge/units/works/fu-geng-zisun-gu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-129",
+    "merged_candidates": []
+  },
+  {
+    "entity": "卫鼎",
+    "target_ref": "04-knowledge/units/works/wei-ding.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-131",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曾侯乙铜鉴缶",
+    "target_ref": "04-knowledge/units/works/zenghouyi-bronze-jianfou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-37",
+    "merged_candidates": []
+  },
+  {
+    "entity": "妇好墓玉雕人俑",
+    "target_ref": "04-knowledge/units/works/fuhao-jade-figure.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三星堆青铜人雕像",
+    "target_ref": "04-knowledge/units/works/sanxingdui-bronze-statue.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铁刃铜钺",
+    "target_ref": "04-knowledge/units/works/iron-blade-bronze-yue.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-62",
+    "merged_candidates": []
+  },
+  {
+    "entity": "玉柄铁剑",
+    "target_ref": "04-knowledge/units/works/jade-handle-iron-sword.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-64",
+    "merged_candidates": []
+  },
+  {
+    "entity": "云纹铜禁",
+    "target_ref": "04-knowledge/units/works/yunwen-tongjin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "慈母投杼图",
+    "target_ref": "04-knowledge/units/works/cimu-touzhu-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "双鹿瓦当",
+    "target_ref": "04-knowledge/units/works/shuanglu-wadang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王城图（聂崇义）",
+    "target_ref": "04-knowledge/units/works/wangchengtu-nie-chongyi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-125",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王城图（戴震）",
+    "target_ref": "04-knowledge/units/works/wangchengtu-dai-zhen.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-126",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《孔子圣迹图》",
+    "target_ref": "04-knowledge/units/works/kongzi-shengjitu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-128",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《墨子救宋图》",
+    "target_ref": "04-knowledge/units/works/mozi-jiu-song-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-129",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铜奔马",
+    "target_ref": "04-knowledge/units/works/tongbenma.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-100",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浑天仪",
+    "target_ref": "04-knowledge/units/works/huntianyi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-133",
+    "merged_candidates": []
+  },
+  {
+    "entity": "新疆民丰蓝白印花布",
+    "target_ref": "04-knowledge/units/works/lanbai-yinhuabu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-130",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马王堆贵夫人辛追服饰",
+    "target_ref": "04-knowledge/units/works/xinzhui-fushi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-131",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东汉青瓷高足碗",
+    "target_ref": "04-knowledge/units/works/donghan-qingci-gaozu-wan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-73",
+    "merged_candidates": []
+  },
+  {
+    "entity": "高颐阙",
+    "target_ref": "04-knowledge/units/works/gao-yi-que.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "莲花尊（仰覆莲花尊）",
+    "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "司马金龙墓漆屏风",
+    "target_ref": "04-knowledge/units/works/simajinlong-mu-qi-pingfeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "提花绫机（马钧改进）",
+    "target_ref": "04-knowledge/units/works/ti-hua-ling-ji.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-64",
+    "merged_candidates": []
+  },
+  {
+    "entity": "树下对鸟对羊纹锦",
+    "target_ref": "04-knowledge/units/works/shuxia-duiniao-duiyang-wenjin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-74",
+    "merged_candidates": []
+  },
+  {
+    "entity": "竹林七贤画像砖",
+    "target_ref": "04-knowledge/units/works/zhulin-qixian-huaxiang-zhuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-70",
+    "merged_candidates": []
+  },
+  {
+    "entity": "晋武帝司马炎冕服",
+    "target_ref": "04-knowledge/units/works/jin-wudi-simayan-mianfu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-72",
+    "merged_candidates": []
+  },
+  {
+    "entity": "牛头鹿角金饰件",
+    "target_ref": "04-knowledge/units/works/niutou-lujiao-jin-shijian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-75",
+    "merged_candidates": []
+  }
+]

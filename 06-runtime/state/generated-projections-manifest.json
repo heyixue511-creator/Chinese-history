@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 877,
-    "digest": "sha256:ea033a8c0e05c766f0948e33fc64d0373a936fd429a5634cd1e1b8fbf734d8f7"
+    "units": 1277,
+    "digest": "sha256:12c4110d1b173a80c8ac667d6f7af80d552456e66c9f1c8526e9c2507d545728"
   },
   "projections": [
     {
@@ -19,8 +19,8 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/01-intake/ingest/references/relation-types.yml"
         ],
-        "files": 886,
-        "digest": "sha256:355512d81652b945fdcbc813b899a1154a0df4e2c2041921de9b3135c12f5660"
+        "files": 1286,
+        "digest": "sha256:d366cc6acf6addc69a1e3f7ef55109bc8362bcf572e96692205a441ef8950283"
       },
       "outputs": {
         "04-knowledge/quality/relation-index.yml": "sha256:dfcc637a75c19d6c7b4162523b631d920ac3b948e8b630cfaa827a4372bdf9c0"
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 886,
-        "digest": "sha256:425018fab3507c34288eb9bb66c4d7b7c845d3abe921d2a2f8c2b00b3de7b29f"
+        "files": 1286,
+        "digest": "sha256:1a4bdc1227fdc47852b4c2b65f038360e49db7175556bc771fe11d9946212226"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,11 +59,11 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 878,
-        "digest": "sha256:a5dcf5ec2445fc4f4e3ea4c4a005f35131cc176bc3ad2d69838b4e9413aa65fa"
+        "files": 1278,
+        "digest": "sha256:45301ac90ed54105a42dd9e0449a5bddb3c3464806b95e5d0c7ce606514d849c"
       },
       "outputs": {
-        "04-knowledge/quality/translation-index.yml": "sha256:5e1b83d365cba4045572f7a8a67bbaab9acf2acf76c1b27f80c28426e144fb04"
+        "04-knowledge/quality/translation-index.yml": "sha256:daf21f795314f26b360ba924f5767b3198a2ef3540be8c529cc3b295352e5498"
       },
       "missing_outputs": []
     },
@@ -79,12 +79,12 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 885,
-        "digest": "sha256:6c063200e5df81de0c7910b64e720d7575baf669e9c4cc353602ea2fee31f26c"
+        "files": 1285,
+        "digest": "sha256:4be2daa02972d7e152e629c32a256989334c384ba06f6e92b93445ff01662151"
       },
       "outputs": {
-        "05-outputs/knowledge-graph-data.json": "sha256:9e62762f3088c51f6d185ad4f49545e5aa30bccd84b21b12999b9f1c16c76b7f",
-        "05-outputs/knowledge-graph-data.js": "sha256:a89ddc51b81df90b2238c505e2f013def2ef5ab6969abf8a96e3099b931197fa"
+        "05-outputs/knowledge-graph-data.json": "sha256:05e06ec6dee37b4c9e21e36e33c38a567373aad691ab81c1f30651d4aefcf641",
+        "05-outputs/knowledge-graph-data.js": "sha256:8d86e72de30954587f6e0810ff99a8008677bb673945da418cdccbf4753f7526"
       },
       "missing_outputs": []
     },
@@ -104,8 +104,8 @@
         "digest": "sha256:d30b2e77ab11d97b14ecc18d5b5663ae3dd4d2d9284364600ae8eb3b14066800"
       },
       "outputs": {
-        "06-runtime/state/candidate-index.jsonl": "sha256:8ba5438b06494f7e16f200e64c7c213e9f6e3b390656b1bd89b57d58dda25460",
-        "06-runtime/state/discovery-manifest.json": "sha256:63f92cf919f679c3357be8c5aa032be09a31e278fe331fa31d47b9a2bfefd280"
+        "06-runtime/state/candidate-index.jsonl": "sha256:61c3eb965dffc8ea32d0617ccf4574d86c44e18668cffa40fa8c88f3467d50ba",
+        "06-runtime/state/discovery-manifest.json": "sha256:f9710db36a5d5012146611a0023b2d01cca672e157adfd1b85079790f0c9b2af"
       },
       "missing_outputs": []
     },
@@ -120,7 +120,7 @@
           "05-outputs/**/*"
         ],
         "files": 19,
-        "digest": "sha256:8a706532cd00ea7bd72964f2cd60bf11f7b0e68d8fb18d967d994d3b2ab4114a"
+        "digest": "sha256:2120d3bfb283de3bd82d8d00d75ffcd809725571f2a4dc8611d3d8890c14f6d5"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:10655bbc374b8bfcd0089d68aa3efc023775991b9e470914a19b87b7ed8c016b"
@@ -138,10 +138,10 @@
           "06-runtime/state/current-health.json"
         ],
         "files": 1,
-        "digest": "sha256:5f1ecc8381e0f5b795c0721036956a4fbb75b9976f65497152c72f0050ecc7fd"
+        "digest": "sha256:ac51174df0c5547de59d5882cd19507199f377bc1db0b3458ecf7d0d80b47db4"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:fc350e136075be5c0a6ded6498f47f0b99638ba464d17a6ebbfc83848ce06b02"
+        "05-outputs/index/index.md": "sha256:0c3abd42fd89e0e53a4bb8efc029b26be6f66ed4e9af6a706fa7f133847ab123"
       },
       "missing_outputs": []
     },
@@ -155,11 +155,11 @@
         "patterns": [
           "06-runtime/automation/**/*"
         ],
-        "files": 364,
-        "digest": "sha256:5ec89c3d359223a0693dfd0cadfbf704e4fcba161707392ffa4b12ab16034205"
+        "files": 437,
+        "digest": "sha256:5d0b64d5aa6110033889a3bef2b3126867fe61b6259d317aaf52615332c81a6f"
       },
       "outputs": {
-        "06-runtime/automation/index.md": "sha256:b5fe257523eaea5c0a61ce4d87e7d4d2daee24cf251272cf32e1eebc679b4e10"
+        "06-runtime/automation/index.md": "sha256:a856831bb178aa02192eab8036736a944bb810c00ddf425f01d944555eae370a"
       },
       "missing_outputs": []
     },
@@ -194,12 +194,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 915,
-        "digest": "sha256:90285a6aaa39ad07815d52cec7cbfa4fa2d787ea5f819b100ccde67bebe86fc9"
+        "files": 1315,
+        "digest": "sha256:3832589ef5071bdd60fb68e9b9e8d0f1f67b320ddf3478226d83e8ca3dfa5f7c"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:b5768b06f1048e364ba67935e00c9ac813a264dc3de72bbaeb53938ba3ba5352",
-        "06-runtime/governance/governance-backlog.md": "sha256:ab5bf9855e72ee2dc31d284f664a9319403bccecbfe8491eabe10b2244df89bd"
+        "06-runtime/state/current-health.json": "sha256:5ef8655e86738c27c2eb0ee94746c3344b742bd2c7ae463c914644d1c8adfb3b",
+        "06-runtime/governance/governance-backlog.md": "sha256:af09b012c841c5ec665447d634d5ee57fec734644313644f21d47bf7b70323a9"
       },
       "missing_outputs": []
     }

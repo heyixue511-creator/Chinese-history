@@ -1,0 +1,240 @@
+{
+  "work_package": "2026-10-26-2016xiayanjing-publications-batch-ak",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 62 个 publication 类候选：新建 58、更新 2、合并 2 组（尚書、淮南子各由 2 个候选折为 1 个 KU）、no_delta 0、rejected 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:2df41c776e02cd8bbf42753327a04f7353e2b126e34c66f049f08c7036196c40",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1236,
+        "needs_evidence": 3209,
+        "no_delta": 82,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L25-L100",
+        "L109",
+        "L531-L535",
+        "L650-L653",
+        "L886-L905",
+        "L1005",
+        "L1635",
+        "L1761-L1766",
+        "L2022-L2038",
+        "L2425-L2432",
+        "L2506-L2508",
+        "L3092-L3124",
+        "L3240-L3256",
+        "L3748-L3759",
+        "L3768-L3784",
+        "L3801-L3821",
+        "L4197-L4200",
+        "L4483-L4487",
+        "L4587-L4595",
+        "L4869-L4876",
+        "L4984-L5017",
+        "L5063-L5090",
+        "L5286-L5297",
+        "L5393-L5451",
+        "L5843-L5858",
+        "L5877-L5952",
+        "L6050-L6360",
+        "L6480-L6538"
+      ],
+      "spans_scope": "逐行复读正文 27 处区间、文献索引 L6050-L6360、版权页 L25-L100 与后记 L6480-L6538，区间并集 863 行。宽 span 候选（如盐铁论 L1635-L6170、唐六典 L2506-L6186、工程做法 L4483-L6338）按实际证据段分记，不把远距离合并段计为逐行覆盖。",
+      "candidates_in_scope": 62
+    }
+  },
+  "method": {
+    "rules": [
+      "裁定口径：62 个 publication 候选 → 新建 58、更新 2、合并 2 组（4 个候选折为 2 个 KU）、no_delta 0、rejected 0。",
+      "判重范围：既有 68 个 publication KU 逐名核对；无 shangshu、huainanzi、shiming、yantielun 等同名条目。",
+      "合并 1：cand-02-44（尚书·甘誓，L886-L898）+ cand-11-42（尚书，L6121-L6124）→ publications/shangshu.md；canonical 取正文候选。",
+      "合并 2：cand-04-30（淮南鸿烈，L2022-L2038）+ cand-11-52（淮南子，L6163-L6166）→ publications/huainanzi.md；canonical 取正文候选。",
+      "更新 1：cand-01-107（易·系辞，L533）→ publications/zhouyi.md，补“垂衣裳”与服制起源，version 2→3。",
+      "更新 2：cand-11-43（管子·侈靡，L6125-L6128）→ publications/guanzi.md，补 389→86 篇与“雕卵/雕檨”句，version 1→2。",
+      "同名异书不合并：夏燕靖《中国设计史》（2009）与《中国艺术设计史（升级版）》（2016）分立；赵农《中国艺术设计史》（2009）另为独立 KU。",
+      "source_count 按不同来源文献计：同册两条 location 仍计 1；周颐、管子的既有 source_count 不因同册新增 location 而增加。",
+      "新建 KU 统一 version 1、consensus tentative、evidence_status source_backed；日期 created/updated/last_verified 2026-10-26，review_due 2027-04-26。",
+      "confidence：内容较完整、可据以概述者 47 条 medium；仅残句、单行年表或图注者 11 条 low（daolianfu、jianbian-tongling、fuzhi-tiaoli、hongqi、jiefangjun-wenyi、shanghai-center-plan、contemporary-china-crafts-book、yaoqi-shuo、feiyizhai-jigao、yishu-yu-sheji、putong-gaoxiao-benke-zhuanye-mulu）。",
+      "维度：A 23、B 20、C 7、D 8；sub_type 沿用既有枚举 classical_text 27、reference_work 6、regulation 6、monograph 5、periodical 4、agronomic_treatise 2、newspaper 2，textbook/print_album/plan/policy_text/convention/archive 各 1。",
+      "讹字与异写照录标疑，不改字：商君书“神农之也”、淮南子“西代”、丹铅总录“1488-1459”、江宁织造“曹頡”、一家言“阐铎”、景德镇陶录“兰浦”、南窑笔记“成宠窑”、管子“雕檨”。",
+      "内部张力并列：管子 86 篇（2016）与 76 篇（赵农）；造办处档案 55 卷与 111+90 册；扬州画舫录“是研究”句被页眉截断（L6275/L6279）。",
+      "图版一律标“未视觉核验”：hongqi、jiefangjun-wenyi、beiping-jianpu 等只据图注与正文，不据图像下判断。",
+      "引文逐字照录：双引号内文字须与 2016 册原文一致，共 61 处；自拟补字或篇名疑改改用「」，如「神农之世」。",
+      "location 记证据实际行：宽 span 候选按正文段与文献索引段分记，不把候选 span 直接当作已读范围。",
+      "KU 正文保持固定六节：描述、核心内容、在层级体系中的位置、相关知识元、验证状态、参考文献；publication 字段按 knowledge-unit-field-contract。",
+      "来源只读：未改写、删除 03基础书籍-md文档/ 下任何文件；本批只写 04-knowledge/units/publications/ 与 06-runtime/automation 包内文件。",
+      "指纹口径：utf-8 → CRLF→LF 归一 → sha256；bytes 为归一后 utf-8 字节数，lines 为归一后换行数。更新条目的 before 取 HEAD blob，before_source=head_blob。",
+      "生成态：run_sync_closure.py --refresh-generated --full 18 步通过；--check-generated 因工作树未提交按设计返回 blocked_pending_commit，不记 pass。",
+      "生成器存在性保护：新建前检查目标不存在；更新目标须存在且 before 与 HEAD blob 一致；任何不一致即中止，不覆盖既有 KU。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 58,
+      "update": 2,
+      "merged_pairs": 2,
+      "paths_created": [
+        "04-knowledge/units/publications/zhongguo-yishu-shejishi-upgraded.md",
+        "04-knowledge/units/publications/yiwen-leiju.md",
+        "04-knowledge/units/publications/taiping-yulan.md",
+        "04-knowledge/units/publications/shangjunshu.md",
+        "04-knowledge/units/publications/sanli-tu.md",
+        "04-knowledge/units/publications/zuozhuan.md",
+        "04-knowledge/units/publications/daolianfu.md",
+        "04-knowledge/units/publications/yantielun.md",
+        "04-knowledge/units/publications/liuzi.md",
+        "04-knowledge/units/publications/tang-liudian.md",
+        "04-knowledge/units/publications/tiansheng-lvling.md",
+        "04-knowledge/units/publications/song-huiyao-jigao.md",
+        "04-knowledge/units/publications/suijin.md",
+        "04-knowledge/units/publications/danqian-zonglu.md",
+        "04-knowledge/units/publications/nongsang-jizao.md",
+        "04-knowledge/units/publications/jiangning-zhizao-yu-caojia.md",
+        "04-knowledge/units/publications/gongcheng-zuofa.md",
+        "04-knowledge/units/publications/mingshi-jiaju-yanjiu.md",
+        "04-knowledge/units/publications/jianbian-tongling.md",
+        "04-knowledge/units/publications/fuzhi-tiaoli.md",
+        "04-knowledge/units/publications/shanghai-xinbao.md",
+        "04-knowledge/units/publications/hongqi.md",
+        "04-knowledge/units/publications/jiefangjun-wenyi.md",
+        "04-knowledge/units/publications/shenghuo-weekly.md",
+        "04-knowledge/units/publications/beiping-jianpu.md",
+        "04-knowledge/units/publications/shanghai-center-plan.md",
+        "04-knowledge/units/publications/on-ten-great-relationships.md",
+        "04-knowledge/units/publications/unesco-ich-convention.md",
+        "04-knowledge/units/publications/contemporary-china-crafts-book.md",
+        "04-knowledge/units/publications/china-art-newspaper.md",
+        "04-knowledge/units/publications/mozi-jieyong.md",
+        "04-knowledge/units/publications/shiming.md",
+        "04-knowledge/units/publications/simin-yueling.md",
+        "04-knowledge/units/publications/baitong.md",
+        "04-knowledge/units/publications/chuxueji.md",
+        "04-knowledge/units/publications/ducheng-jisheng.md",
+        "04-knowledge/units/publications/wulin-jiushi.md",
+        "04-knowledge/units/publications/yanji-tu.md",
+        "04-knowledge/units/publications/shiwu-jiyuan.md",
+        "04-knowledge/units/publications/nancun-chuogenglu.md",
+        "04-knowledge/units/publications/shujin-pu.md",
+        "04-knowledge/units/publications/shiwu-yuanshi.md",
+        "04-knowledge/units/publications/bowu-yaolan.md",
+        "04-knowledge/units/publications/yangzhou-huafanglu.md",
+        "04-knowledge/units/publications/yijia-yan.md",
+        "04-knowledge/units/publications/yangxian-mingtaolu.md",
+        "04-knowledge/units/publications/yaoqi-shuo.md",
+        "04-knowledge/units/publications/jingdezhen-taolu.md",
+        "04-knowledge/units/publications/nanyao-biji.md",
+        "04-knowledge/units/publications/gutong-ciqi-kao.md",
+        "04-knowledge/units/publications/shizeng.md",
+        "04-knowledge/units/publications/feiyizhai-jigao.md",
+        "04-knowledge/units/publications/qinggongbu-zaobanchchu-dangan.md",
+        "04-knowledge/units/publications/zhuyuan-taoshuo.md",
+        "04-knowledge/units/publications/yishu-yu-sheji.md",
+        "04-knowledge/units/publications/putong-gaoxiao-benke-zhuanye-mulu.md",
+        "04-knowledge/units/publications/shangshu.md",
+        "04-knowledge/units/publications/huainanzi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/zhouyi.md",
+        "04-knowledge/units/publications/guanzi.md"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 1298,
+    "needs_evidence": 3147,
+    "no_delta": 82,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2192,
+    "active": 3147
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 186,
+      "candidates_in_ledger": 62,
+      "candidates_in_scope": 62,
+      "final_applied_transitions": 62,
+      "plan_rows": 60,
+      "create": 58,
+      "update": 2,
+      "merged_candidates": 2,
+      "fingerprints_verified": 60,
+      "mapping_entries": 60,
+      "quote_audit": "61/61",
+      "errors": 0,
+      "index_rebuild_idempotent": true,
+      "publication_candidates_left_needs_evidence": 0
+    },
+    "content_audit": {
+      "total_files": 1148,
+      "findings": 0,
+      "empty_body": 0,
+      "empty_frontmatter_values": 0,
+      "missing_sections": 0,
+      "missing_tags": 0
+    },
+    "repository_audit": {
+      "counts_by_type": {
+        "persons": 119,
+        "institutions": 144,
+        "places": 149,
+        "works": 182,
+        "publications": 126,
+        "terms": 192,
+        "procedures": 121,
+        "events": 115
+      },
+      "structural_health": "122/130",
+      "knowledge_structure_quality": "55/65",
+      "evidence_quality": "55/55",
+      "traceability": "7/15",
+      "isolated_units": 1148,
+      "hierarchy_assigned": "0/1148"
+    },
+    "relation_audit": {
+      "relation_index_total": 0,
+      "relation_candidates": 0,
+      "relation_type_coverage": "0/67",
+      "isolated_units": 1148
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": "blocked_pending_commit（工作树未提交；HEAD 74f6596）",
+    "knowledge_graph": {
+      "nodes": 1148,
+      "links": 0,
+      "errors": 0
+    },
+    "system_upgrade_chain": "18/18",
+    "skill_registry": "18 leaf skills",
+    "pytest": "250 passed, 16 subtests passed",
+    "governance_backlog": {
+      "p0": 0,
+      "p1": 0,
+      "p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_sha256": "sha256:3eff9b65a52157fd28e659c9f7149198b6303692bfbd8b70ee5c09c2beded4f4",
+      "counts": {
+        "applied": 1298,
+        "needs_evidence": 3147,
+        "no_delta": 82,
+        "rejected": 812
+      },
+      "total": 5339
+    },
+    "verification_date": "2026-10-26"
+  }
+}

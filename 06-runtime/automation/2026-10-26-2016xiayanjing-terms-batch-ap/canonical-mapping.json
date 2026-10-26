@@ -1,0 +1,194 @@
+[
+ {
+  "entity": "近代染绸业",
+  "target_ref": "04-knowledge/units/terms/jindai-ranchou-ye.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-01",
+  "merged_candidates": [],
+  "note": "新建 terms/jindai-ranchou-ye.md（近代染绸业）；判重未见同名同实体 KU，按单源 2016 册 L4847-L4849 新建。"
+ },
+ {
+  "entity": "织锦",
+  "target_ref": "04-knowledge/units/terms/zhijin.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-02",
+  "merged_candidates": [],
+  "note": "新建 terms/zhijin.md（织锦）；判重未见同名同实体 KU，按单源 2016 册 L4855-L4859 新建。"
+ },
+ {
+  "entity": "短袄套裙",
+  "target_ref": "04-knowledge/units/terms/duanao-taoqun.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-14",
+  "merged_candidates": [],
+  "note": "新建 terms/duanao-taoqun.md（短袄套裙）；判重未见同名同实体 KU，按单源 2016 册 L4898 新建。"
+ },
+ {
+  "entity": "时世装（Modern Dress）",
+  "target_ref": "04-knowledge/units/terms/shishizhuang.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-15",
+  "merged_candidates": [],
+  "note": "新建 terms/shishizhuang.md（时世装（Modern Dress））；判重未见同名同实体 KU，按单源 2016 册 L4900 新建。"
+ },
+ {
+  "entity": "天足运动",
+  "target_ref": "04-knowledge/units/terms/tianzu-yundong.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-16",
+  "merged_candidates": [],
+  "note": "新建 terms/tianzu-yundong.md（天足运动）；判重未见同名同实体 KU，按单源 2016 册 L4894 新建。"
+ },
+ {
+  "entity": "商标",
+  "target_ref": "04-knowledge/units/terms/shangbiao.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-30",
+  "merged_candidates": [],
+  "note": "新建 terms/shangbiao.md（商标）；判重未见同名同实体 KU，按单源 2016 册 L4984-L4986 新建。"
+ },
+ {
+  "entity": "外来式建筑",
+  "target_ref": "04-knowledge/units/terms/wailaishi-jianzhu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-42",
+  "merged_candidates": [],
+  "note": "新建 terms/wailaishi-jianzhu.md（外来式建筑）；判重未见同名同实体 KU，按单源 2016 册 L5057-L5061 新建。"
+ },
+ {
+  "entity": "中西混合式建筑",
+  "target_ref": "04-knowledge/units/terms/zhongxi-hunheshi-jianzhu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-46",
+  "merged_candidates": [],
+  "note": "新建 terms/zhongxi-hunheshi-jianzhu.md（中西混合式建筑）；判重未见同名同实体 KU，按单源 2016 册 L5053 新建。"
+ },
+ {
+  "entity": "凤翔泥塑",
+  "target_ref": "04-knowledge/units/procedures/fengxiang-nisu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-78",
+  "merged_candidates": [],
+  "note": "既有 procedures/fengxiang-nisu.md 已载源于汉唐、盛于宋元、10 多道工序序列、品种上千、浮雕挂件与圆雕摆件品类，以及文革中被当“四旧”砸毁、彩绘技艺禁传。"
+ },
+ {
+  "entity": "定瓷（定窑）",
+  "target_ref": "04-knowledge/units/events/1972-1976-dingci-huifu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-80",
+  "merged_candidates": [],
+  "note": "既有 events/1972-1976-dingci-huifu.md 已载田中角荣询问定瓷烧制、1974 年曲阳建厂、两次发掘与“始烧于唐、兴盛于宋、失传于元”的初步定论。"
+ },
+ {
+  "entity": "红海洋（红、光、亮）",
+  "target_ref": "04-knowledge/units/terms/hong-haiyang.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-87",
+  "merged_candidates": [],
+  "note": "新建 terms/hong-haiyang.md（红海洋（红、光、亮））；判重未见同名同实体 KU，按单源 2016 册 L5388, L5399 新建。"
+ },
+ {
+  "entity": "中国工艺美术大师",
+  "target_ref": "04-knowledge/units/terms/zhongguo-gongyi-meishu-dashi.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-90",
+  "merged_candidates": [],
+  "note": "新建 terms/zhongguo-gongyi-meishu-dashi.md（中国工艺美术大师）；判重未见同名同实体 KU，按单源 2016 册 L5429 新建。"
+ },
+ {
+  "entity": "中国动画学派",
+  "target_ref": "04-knowledge/units/terms/zhongguo-donghua-xuepai.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-05",
+  "merged_candidates": [],
+  "note": "新建 terms/zhongguo-donghua-xuepai.md（中国动画学派）；判重未见同名同实体 KU，按单源 2016 册 L5482 新建。"
+ },
+ {
+  "entity": "数字媒体设计",
+  "target_ref": "04-knowledge/units/terms/shuzi-meiti-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-13",
+  "merged_candidates": [],
+  "note": "新建 terms/shuzi-meiti-sheji.md（数字媒体设计）；判重未见同名同实体 KU，按单源 2016 册 L5487-L5489 新建。"
+ },
+ {
+  "entity": "城市建筑环境设计",
+  "target_ref": "04-knowledge/units/terms/chengshi-jianzhu-huanjing-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-15",
+  "merged_candidates": [],
+  "note": "新建 terms/chengshi-jianzhu-huanjing-sheji.md（城市建筑环境设计）；判重未见同名同实体 KU，按单源 2016 册 L5493 新建。"
+ },
+ {
+  "entity": "天人合一",
+  "target_ref": "04-knowledge/units/publications/zhuangzi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-115",
+  "merged_candidates": [],
+  "note": "既有 publications/zhuangzi.md 核心内容已列《庄子》“天人合一”“以天合天”“忘适之适”的造物观，并引 2016 册 L6139-L6142 同段。"
+ },
+ {
+  "entity": "器以载道",
+  "target_ref": "04-knowledge/units/publications/huainanzi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-116",
+  "merged_candidates": [],
+  "note": "既有 publications/huainanzi.md 已载《淮南子》阐述的“器以载道”造物观点及其对后世的深远影响。"
+ },
+ {
+  "entity": "艺术设计专业",
+  "target_ref": "04-knowledge/units/events/1998-moe-major-catalog.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-13",
+  "merged_candidates": [],
+  "note": "既有 events/1998-moe-major-catalog.md 已载 1998 年 7 月教育部《普通高等学校本科专业目录》将“工艺美术专业”改为“艺术设计专业”。"
+ },
+ {
+  "entity": "道器关系",
+  "target_ref": "04-knowledge/units/publications/zhouyi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-14",
+  "merged_candidates": [],
+  "note": "既有 publications/zhouyi.md 已载《周易》设计思想主要体现为“道”与“器”的关系，并称其为传统造物思想与设计方法亘古不变的主题。"
+ },
+ {
+  "entity": "都料匠",
+  "target_ref": "04-knowledge/units/publications/ziren-zhuan.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-16",
+  "merged_candidates": [],
+  "note": "既有 publications/ziren-zhuan.md 已载杨氏都料匠、建筑营造总工匠及其把握全局、遵守规范、协调众工之责。"
+ },
+ {
+  "entity": "辟雍",
+  "target_ref": "04-knowledge/units/publications/baitong.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-17",
+  "merged_candidates": [],
+  "note": "既有 publications/baitong.md 已载《白虎通》讨论“辟雍”，即贵族子弟学习礼仪、音乐、舞蹈、诵诗、写作、射箭、骑马、驾车等技艺的古时学宫。"
+ },
+ {
+  "entity": "长物",
+  "target_ref": "04-knowledge/units/publications/changwu-zhi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-18",
+  "merged_candidates": [],
+  "note": "既有 publications/changwu-zhi.md 已载“长物”典出《世说新语》、文震亨所言非多余之物而是生活必需用品、投射文人选择与品格的 2016 原文。"
+ },
+ {
+  "entity": "节用",
+  "target_ref": "04-knowledge/units/publications/mozi-jieyong.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-19",
+  "merged_candidates": [],
+  "note": "既有 publications/mozi-jieyong.md 已载《墨子·节用》包含墨子工艺思想，强调“节用”当为制造日用器物的原则和要求。"
+ },
+ {
+  "entity": "以天合天",
+  "target_ref": "04-knowledge/units/publications/zhuangzi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-20",
+  "merged_candidates": [],
+  "note": "既有 publications/zhuangzi.md 核心内容已列《庄子》“天人合一”“以天合天”“忘适之适”的造物观，并引 2016 册 L6139-L6142 同段。"
+ }
+]

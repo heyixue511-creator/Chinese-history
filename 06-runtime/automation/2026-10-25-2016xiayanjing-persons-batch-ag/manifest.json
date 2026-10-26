@@ -1,0 +1,267 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-persons-batch-ag",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 47 个 person 候选：新建 45、更新 1（窦师纶）、判 no_delta 1（庞薰琴）、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:8f0b2cdeb6bbd1d038e064e40d949d9fe7277d156720c2fc0de9cc659682eabf",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1077,
+        "needs_evidence": 3370,
+        "no_delta": 80,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L103",
+        "L306-L553",
+        "L624-L627",
+        "L757-L773",
+        "L948",
+        "L1005",
+        "L1487-L1499",
+        "L2425-L2432",
+        "L2518-L6194",
+        "L6323-L6326"
+      ],
+      "spans_scope": "47 个候选 source_span 的并集；L2518-L6194 为 25 个 chain 连通的 person 候选（张萱至曹雪芹）合并后的宽跨段，非单条条目的实际阅读范围。各条实际引用行号见其 sources.location 与验证状态。span 之外同册补证行另有 L4659、L4685、L5051、L5186、L5534 等，已在各条 sources 中登记；未建立 claim 级证据链。",
+      "candidates_in_scope": 47
+    }
+  },
+  "method": {
+    "rules": [
+      "47 个候选 = 夏燕靖 2016 册全部 person 候选（批前全部为 needs_evidence）；先按实体与既有 person 条逐条对账，再定 create／update／no_delta。",
+      "新建 45 条。单源、信息密度中等者定 medium；仅一句列名或一句评语、无作品无生卒年者定 low（雷祖、黄帝、舜、夏启、周文王、周武王、聂崇义、刘知幾、谢赫、阎立德、沈金水、王茂仙、司徒乔、叶灵凤、万古蟾、万超尘、曹雪芹）。",
+      "sub_type 全部取自 references/taxonomy.md L172 的 person 枚举（statesman／craftsman／scholar／educator／artist／designer／industrialist／engineer／architect／other），未引入枚举外新值。其中 architect 在 persons 已有 6 条实例（anige、lei-fada、li-cheng、liang-sicheng、lu-yanzhi、yuwen-kai），本批新增 yan-lide；educator 为 persons 首例（chai-fei），属枚举内合法值。",
+      "维度归属：A（刘知幾、夏启、张彦远、朱琰、曹雪芹）；D（金之俊、端方、柴扉、容闳、周仁斋、张仃、李先念、周恩来、毛泽东）；C（周嘉胄、华燧、孙福熙、司徒乔、叶灵凤、钱君匋、曾联松、万籁鸣、万古蟾、万超尘）；其余 24 条取 B。",
+      "更新 1 文件：persons/dou-shilun.md（version 1→2，source_count 4→5）。仅追加夏燕靖 2016 L3018 源与其独有内容（“宫廷仓库收藏”表述、双雉用字、太田英藏法隆寺与正仓院比对说、萨珊波斯连珠纹与纬锦技术影响说），不改写既有四册已记内容；与高丰 2004“对称式营养”说分属不同层次，并列不合并。",
+      "判 no_delta 1 条：庞薰琴（cand-10-33）。既有 persons/pang-xunqin.md 的 2016 来源条目 location 为 L4820、L5177-L5179、L5280、L5512、L5611、L5649、L5857、L5897、L5985，已覆盖本册全部命中行；候选摘要中的“庞薰某”异写亦已在 aliases（庞薰琴／庞薰栗／庞薰琍）中，不改文件。",
+      "合并说明：cand-05-84（柳宗元）在发现阶段已并入 2004、2009、2010 等册的同实体候选（payload 记为 cand-06-01、cand-11-38）。这两条在本册 candidate-index 中不存独立行，故不占本批 ledger 行；canonical-mapping 于 cand-05-84 条目下记录 merged_candidates。",
+      "划界规则：黄帝、舜、嫘祖、夏启四条一律以传说层立目，原文“传说”“无从稽考”等限定语照录，不与考古证据合并；丰镐双城只分记文王建丰、武王建镐，合称与建都年数归两京共有，不重复计；张彦远与窦师纶共用 L3018 一段，分记作者与文本两侧不合并；周恩来、毛泽东两条为分散决策点的聚合，各处语境分列不混，且不作整体历史评价；万氏三兄弟三条共享 L5482 一句，各自成档只为保留原文并列关系。",
+      "跨册与册内分歧一律并列不裁定：纹样用字双雉／对雉／对鸡（2016 与 2004、2010）；窦师纶官职太府卿三州刺史／低级官员；萨珊影响落点对称式／连珠纹与纬锦技术；国徽通过主体新政协会议／全国政协一届二次会议与“签署命令”／“命令公布”（2016 册内两处）。",
+      "来源内部张力照录不调停：柴扉生卒年 1930—1972 与 1938—1939 年任上海美专教授不可能同时成立；陆羽“名疾”与句首“陆羽”名实自相矛盾；黄卖九本人活动年代原文未载，同段“清末民初”不代套用；容闳两条事迹的主语为曾国藩，不误归容闳；L5145 毛泽东主张的一星加黄河黄线方案未获采用，不写成“确定五星红旗”。",
+      "原文讹字与异写标疑不改字：闫立德（阎）、鄂镐（丰镐）、汴河之西和沣河之东、楚庄公／公孙满、名以虎、雌（当作蜼）、两已相背（通行两己）、中国人民共和国（中华人民共和国）、庞薰栗／庞薰琴／庞薰某、使萌生（原文如此）。",
+      "图版一律未视觉核验：图 10-35、10-36、10-37、10-38、11-4、11-7、11-20、6-24、8-21、8-22、1-18 等只在 KU 中记图注文字并标明未核验；L5034 的图 10-37、10-38 标在丰子恺句后，未归司徒乔。",
+      "before 指纹口径：唯一 update 目标 persons/dou-shilun.md 在 HEAD 74f6596 已有 blob，before 取 HEAD blob；45 条 create 行 before 为 null。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。",
+      "生成态在改完全部目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；工作区 HEAD 74f6596 为外部同步进程既有提交，非本批授权动作。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 45,
+      "update": 1,
+      "merged_pairs": 0,
+      "no_delta": 1,
+      "paths_created": [
+        "04-knowledge/units/persons/liu-zhiji.md",
+        "04-knowledge/units/persons/leizu.md",
+        "04-knowledge/units/persons/huangdi-legend.md",
+        "04-knowledge/units/persons/shun-legend.md",
+        "04-knowledge/units/persons/xia-qi.md",
+        "04-knowledge/units/persons/king-wen-of-zhou.md",
+        "04-knowledge/units/persons/king-wu-of-zhou.md",
+        "04-knowledge/units/persons/nie-chongyi.md",
+        "04-knowledge/units/persons/king-zhuang-of-chu.md",
+        "04-knowledge/units/persons/gongshu-pan.md",
+        "04-knowledge/units/persons/xie-he.md",
+        "04-knowledge/units/persons/lu-yu.md",
+        "04-knowledge/units/persons/zhang-xuan.md",
+        "04-knowledge/units/persons/zhou-fang.md",
+        "04-knowledge/units/persons/li-gao.md",
+        "04-knowledge/units/persons/yan-lide.md",
+        "04-knowledge/units/persons/zhang-yanyuan.md",
+        "04-knowledge/units/persons/liu-zongyuan.md",
+        "04-knowledge/units/persons/chabi.md",
+        "04-knowledge/units/persons/jin-zhijun.md",
+        "04-knowledge/units/persons/zhu-yan.md",
+        "04-knowledge/units/persons/zhou-jiazhou.md",
+        "04-knowledge/units/persons/hua-sui.md",
+        "04-knowledge/units/persons/duan-fang.md",
+        "04-knowledge/units/persons/chai-fei.md",
+        "04-knowledge/units/persons/huang-maijiu.md",
+        "04-knowledge/units/persons/shen-jinshui.md",
+        "04-knowledge/units/persons/wang-maoxian.md",
+        "04-knowledge/units/persons/sun-fuxi.md",
+        "04-knowledge/units/persons/si-tuqiao.md",
+        "04-knowledge/units/persons/ye-lingfeng.md",
+        "04-knowledge/units/persons/rong-hong.md",
+        "04-knowledge/units/persons/zhou-renzhai.md",
+        "04-knowledge/units/persons/qian-junfou.md",
+        "04-knowledge/units/persons/zeng-liansong.md",
+        "04-knowledge/units/persons/zhang-ding.md",
+        "04-knowledge/units/persons/ji-ganchen.md",
+        "04-knowledge/units/persons/gu-jingzhou.md",
+        "04-knowledge/units/persons/li-xiannian.md",
+        "04-knowledge/units/persons/zhou-enlai.md",
+        "04-knowledge/units/persons/mao-zedong.md",
+        "04-knowledge/units/persons/wan-lai-ming.md",
+        "04-knowledge/units/persons/wan-gu-chan.md",
+        "04-knowledge/units/persons/wan-chao-chen.md",
+        "04-knowledge/units/persons/cao-xueqin.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/persons/dou-shilun.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/persons/pang-xunqin.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-persons-batch-ag/apply-plan.jsonl",
+      "rows": 46,
+      "create": 45,
+      "update": 1,
+      "note": "47 个候选对应 46 个写入目标：45 新建 + 1 更新；1 条 no_delta 不占 plan 行。before 基线：HEAD blob 1 条，create 行 before 为 null。"
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-persons-batch-ag/candidate-decision-ledger.jsonl",
+      "rows": 141,
+      "candidates": 47,
+      "applied": 46,
+      "no_delta": 1,
+      "note": "47 个候选各走 needs_evidence→ready_for_review→approved→终态三步转移，终态行带 target_ref。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-persons-batch-ag/canonical-mapping.json",
+      "entries": 47,
+      "merged_candidates": [
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-01",
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-38"
+      ],
+      "merged_note": "cand-06-01 与 cand-11-38 为发现阶段并入 cand-05-84（柳宗元）的其他册同实体候选，在本册 candidate-index 中不存独立行。"
+    }
+  },
+  "state_after": {
+    "applied": 1123,
+    "needs_evidence": 3323,
+    "no_delta": 81,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2016,
+    "active": 3323
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 141,
+      "candidates_in_ledger": 47,
+      "candidates_in_scope": 47,
+      "final_applied_transitions": 46,
+      "final_no_delta": 1,
+      "final_rejected_new": 0,
+      "plan_rows": 46,
+      "create": 45,
+      "update": 1,
+      "merged_notes": 1,
+      "fingerprints_verified": 46,
+      "fingerprint_errors": [],
+      "before_baseline": {
+        "head_blob": 1,
+        "prior_batch_record": 0
+      },
+      "mapping_entries": 47,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 979,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 979,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/979",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "979/979",
+      "persons": 119,
+      "institutions": 144,
+      "places": 148,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 979,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更）。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 979,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:b3ad12d29b937d50f37229e2a4f3e7693eefc62790d7543cfa2851c6762f8742",
+      "counts": {
+        "applied": 1123,
+        "needs_evidence": 3323,
+        "no_delta": 81,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3323,
+        "terminal": 2016
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

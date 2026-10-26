@@ -1,0 +1,215 @@
+{
+ "work_package": "2026-10-26-2016xiayanjing-terms-batch-ao",
+ "goal": "处理 2016 册 unit 候选 32 条（cand-07 23 条、cand-08 9 条），按语义复读与判重结果新建 23、更新 3、no_delta 6。",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:a0b2d12b1a99fde0973938fff529d55f2e45899e9c90da9be1c371ff7d335baf",
+   "sha256_scope": "06-runtime/state/candidate-index.jsonl",
+   "counts_before": {
+    "needs_evidence": 3036,
+    "applied": 1398,
+    "rejected": 812,
+    "no_delta": 93
+   }
+  },
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "spans": [
+    [
+     4131,
+     4144
+    ],
+    [
+     4148,
+     4150
+    ],
+    [
+     4148,
+     4150
+    ],
+    [
+     4155,
+     4155
+    ],
+    [
+     4155,
+     4155
+    ],
+    [
+     3669,
+     3675
+    ],
+    [
+     3706,
+     3745
+    ],
+    [
+     3782,
+     3785
+    ],
+    [
+     3784,
+     3784
+    ],
+    [
+     4221,
+     4221
+    ],
+    [
+     3801,
+     3821
+    ],
+    [
+     3801,
+     3821
+    ],
+    [
+     3958,
+     3972
+    ],
+    [
+     4167,
+     4170
+    ],
+    [
+     4111,
+     4130
+    ],
+    [
+     3901,
+     3927
+    ],
+    [
+     3696,
+     3696
+    ],
+    [
+     4050,
+     4052
+    ],
+    [
+     4050,
+     4052
+    ],
+    [
+     4077,
+     4077
+    ],
+    [
+     4231,
+     4231
+    ],
+    [
+     4006,
+     4006
+    ],
+    [
+     3686,
+     3686
+    ],
+    [
+     3843,
+     3848
+    ],
+    [
+     4497,
+     4512
+    ],
+    [
+     4497,
+     4512
+    ],
+    [
+     4386,
+     4402
+    ],
+    [
+     4302,
+     4311
+    ],
+    [
+     4368,
+     4385
+    ],
+    [
+     4423,
+     4426
+    ],
+    [
+     4527,
+     4540
+    ],
+    [
+     4596,
+     4618
+    ],
+    [
+     4587,
+     4595
+    ]
+   ],
+   "spans_scope": "并集 282 行（3669-4618 内不连续；cand-07-40 的 L3784 与 L4221 按两处计）",
+   "candidates_in_scope": 32
+  }
+ },
+ "method": {
+  "rules": [
+   "来源只读：不改写、不删除 2016 册原文。",
+   "32 个候选逐条语义复读，判重覆盖既有 KU 与同册同名条目。",
+   "create 单源 KU：consensus tentative、evidence_status source_backed、version 1；法华器并列 2016 与田自秉两源。",
+   "update 仅补 2016 新增事实，保留既有诸源并列，不据一源改写另一源。",
+   "no_delta 需既有 target_ref 完整覆盖候选语义。",
+   "引文审计：双引号内文字须与源文逐字一致（去空白），非源文或图版隔断用「」。"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 23,
+   "update": 3,
+   "no_delta": 6,
+   "paths_created": [
+    "04-knowledge/units/terms/zuosichou.md",
+    "04-knowledge/units/terms/mingdai-sizhi-sida-changu.md",
+    "04-knowledge/units/terms/lu-chou.md",
+    "04-knowledge/units/terms/kuduan.md",
+    "04-knowledge/units/terms/zhijin-yin.md",
+    "04-knowledge/units/terms/lanran-gongyi.md",
+    "04-knowledge/units/terms/bianxian-ao.md",
+    "04-knowledge/units/terms/fubo-shi-ta.md",
+    "04-knowledge/units/terms/badayun.md",
+    "04-knowledge/units/terms/jifang.md",
+    "04-knowledge/units/terms/guanwu-bide.md",
+    "04-knowledge/units/terms/gao-shuyao-deng.md",
+    "04-knowledge/units/terms/luowo-yi.md",
+    "04-knowledge/units/terms/yiyi.md",
+    "04-knowledge/units/terms/yuan-dai-jianzhu-caihua.md",
+    "04-knowledge/units/terms/gaozu-bei.md",
+    "04-knowledge/units/terms/jinxi-gongyi.md",
+    "04-knowledge/units/terms/hexi-caihua.md",
+    "04-knowledge/units/terms/xuanzi-caihua.md",
+    "04-knowledge/units/terms/fahua-qi.md",
+    "04-knowledge/units/terms/huapendi-xie.md",
+    "04-knowledge/units/terms/sida-chuanxing.md",
+    "04-knowledge/units/terms/fengli-guafan-dulunche.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/terms/yingqing.md",
+    "04-knowledge/units/terms/nashishi.md",
+    "04-knowledge/units/procedures/lan-yinhua-bu.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/persons/chabi.md",
+    "04-knowledge/units/publications/wang-zhen-nongshu.md",
+    "04-knowledge/units/terms/huangzi.md",
+    "04-knowledge/units/places/shiwan-yao.md",
+    "04-knowledge/units/places/zhangzhou-pinghe.md",
+    "04-knowledge/units/places/sanshan-wuyuan.md"
+   ]
+  }
+ }
+}

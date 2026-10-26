@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T00:17:54",
+  "timestamp": "2026-10-26T04:24:05",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -12,7 +12,7 @@
     "legacy_references": 0
   },
   "summary": {
-    "total_units": 877,
+    "total_units": 1277,
     "type_coverage": "8/8",
     "base_type_coverage": "8/8",
     "structure_node_coverage": "0/4",
@@ -28,23 +28,23 @@
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
-    "total_units": 877,
+    "total_units": 1277,
     "complete_assignments": 0,
-    "units_missing_any_assignment": 877,
+    "units_missing_any_assignment": 1277,
     "field_coverage": {
-      "primary_domain": "877/877",
-      "primary_dimension": "877/877",
-      "primary_theme": "0/877",
-      "topic_memberships": "0/877"
+      "primary_domain": "1277/1277",
+      "primary_dimension": "1277/1277",
+      "primary_theme": "0/1277",
+      "topic_memberships": "0/1277"
     }
   },
   "counts_by_type": {
-    "persons": 74,
+    "persons": 119,
     "institutions": 144,
-    "places": 91,
-    "works": 72,
-    "publications": 68,
-    "terms": 192,
+    "places": 149,
+    "works": 182,
+    "publications": 126,
+    "terms": 321,
     "procedures": 121,
     "events": 115
   },
@@ -168,9 +168,9 @@
     "chunk_meta_missing": 0
   },
   "evidence_ref": {
-    "sources_with_evidence_ref": 877,
+    "sources_with_evidence_ref": 1277,
     "sources_without_evidence_ref": 0,
-    "evidence_ref_resolvable": 877,
+    "evidence_ref_resolvable": 1277,
     "evidence_ref_broken": 0
   },
   "claim_traceability": {
@@ -298,12 +298,12 @@
   },
   "translation_health": {
     "persons": {
-      "total": 74,
+      "total": 119,
       "coverage": {
-        "name_original": "74/74",
-        "language_original": "74/74",
-        "name_zh": "74/74",
-        "translation_status": "74/74"
+        "name_original": "119/119",
+        "language_original": "119/119",
+        "name_zh": "119/119",
+        "translation_status": "119/119"
       }
     },
     "institutions": {
@@ -316,35 +316,35 @@
       }
     },
     "works": {
-      "total": 72,
+      "total": 182,
       "coverage": {
-        "title_original": "72/72",
-        "title_original_language": "72/72",
-        "title_zh": "72/72"
+        "title_original": "182/182",
+        "title_original_language": "182/182",
+        "title_zh": "182/182"
       }
     },
     "publications": {
-      "total": 68,
+      "total": 126,
       "coverage": {
-        "title_original": "68/68",
-        "title_original_language": "68/68",
-        "title_zh": "68/68"
+        "title_original": "126/126",
+        "title_original_language": "126/126",
+        "title_zh": "126/126"
       }
     },
     "terms": {
-      "total": 192,
+      "total": 321,
       "coverage": {
-        "term_original": "192/192",
-        "term_zh": "192/192",
-        "academic_translation_status": "192/192"
+        "term_original": "321/321",
+        "term_zh": "321/321",
+        "academic_translation_status": "321/321"
       }
     }
   },
   "translation_index_integrity": {
     "index_exists": true,
-    "expected": 550,
-    "indexed": 550,
-    "declared_total": 550,
+    "expected": 892,
+    "indexed": 892,
+    "declared_total": 892,
     "missing": [],
     "stale": [],
     "duplicate": [],
@@ -369,8 +369,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 364,
-    "r1_provenance": 364,
+    "files": 437,
+    "r1_provenance": 437,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -413,23 +413,23 @@
   },
   "knowledge_maturity": {
     "metric_kind": "unscored_semantic_maturity",
-    "total_units": 877,
+    "total_units": 1277,
     "source_count_distribution": {
-      "multi_source": 559,
-      "single_source": 318
+      "multi_source": 581,
+      "single_source": 696
     },
     "confidence_distribution": {
-      "low": 38,
-      "medium": 839
+      "low": 153,
+      "medium": 1124
     },
     "consensus_distribution": {
-      "tentative": 877
+      "tentative": 1277
     },
     "evidence_status_distribution": {
-      "source_backed": 877
+      "source_backed": 1277
     },
     "isolated_units": {
-      "count": 877,
+      "count": 1277,
       "sample": [
         "events/1851-wanguo-bolanhui.md",
         "events/1972-1976-dingci-huifu.md",
@@ -459,16 +459,16 @@
       ]
     },
     "candidate_debt": {
-      "total": 3468,
+      "total": 2980,
       "by_origin_type": {
-        "source": 3468
+        "source": 2980
       },
       "by_candidate_type": {
         "claim": 1363,
-        "unit": 2105
+        "unit": 1617
       },
       "by_state": {
-        "needs_evidence": 3468
+        "needs_evidence": 2980
       }
     },
     "candidate_inventory": {
@@ -481,22 +481,22 @@
         "unit": 3976
       },
       "by_state": {
-        "applied": 992,
-        "needs_evidence": 3468,
-        "no_delta": 67,
+        "applied": 1437,
+        "needs_evidence": 2980,
+        "no_delta": 110,
         "rejected": 812
       },
       "by_lifecycle_class": {
-        "active": 3468,
-        "terminal": 1871
+        "active": 2980,
+        "terminal": 2359
       }
     },
     "research_debt": {
-      "single_source_units": 318,
-      "tentative_units": 877,
-      "low_confidence_units": 38,
-      "candidates_needing_evidence": 3468,
-      "units_missing_hierarchy_assignment": 877
+      "single_source_units": 696,
+      "tentative_units": 1277,
+      "low_confidence_units": 153,
+      "candidates_needing_evidence": 2980,
+      "units_missing_hierarchy_assignment": 1277
     }
   },
   "content_quality": {
@@ -516,7 +516,7 @@
     "english_headings": 0,
     "placeholder_content": 0,
     "fm_body_verify_conflict": 0,
-    "total_files": 877,
+    "total_files": 1277,
     "total_findings": 0
   }
 }

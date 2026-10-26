@@ -1,0 +1,200 @@
+[
+ {
+  "entity": "襦裙",
+  "target_ref": "04-knowledge/units/terms/ruqun.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-123",
+  "merged_candidates": []
+ },
+ {
+  "entity": "水陆攻战图",
+  "target_ref": "04-knowledge/units/terms/shuilu-gongzhan-tu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-127",
+  "merged_candidates": []
+ },
+ {
+  "entity": "设色之工",
+  "target_ref": "04-knowledge/units/terms/shese-zhigong.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-15",
+  "merged_candidates": []
+ },
+ {
+  "entity": "脚踏提综斜织机",
+  "target_ref": "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-17",
+  "merged_candidates": []
+ },
+ {
+  "entity": "春秋战国青铜炊食器",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-21",
+  "merged_candidates": []
+ },
+ {
+  "entity": "春秋战国战车种类",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-zhanche-zhonglei.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-27",
+  "merged_candidates": []
+ },
+ {
+  "entity": "春秋战国战船种类",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-30",
+  "merged_candidates": []
+ },
+ {
+  "entity": "跽坐",
+  "target_ref": "04-knowledge/units/terms/jizuo.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-38",
+  "merged_candidates": []
+ },
+ {
+  "entity": "儒墨之争",
+  "target_ref": "04-knowledge/units/terms/rumo-zhizheng.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-61",
+  "merged_candidates": []
+ },
+ {
+  "entity": "天时地气材美工巧",
+  "target_ref": "04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-75",
+  "merged_candidates": []
+ },
+ {
+  "entity": "复道",
+  "target_ref": "04-knowledge/units/terms/fudao.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-22",
+  "merged_candidates": []
+ },
+ {
+  "entity": "一池三山",
+  "target_ref": "04-knowledge/units/terms/yichi-sanshan.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-23",
+  "merged_candidates": []
+ },
+ {
+  "entity": "曲水流觞",
+  "target_ref": "04-knowledge/units/terms/qushui-liushang.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-42",
+  "merged_candidates": []
+ },
+ {
+  "entity": "卤薄",
+  "target_ref": "04-knowledge/units/terms/lubu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-55",
+  "merged_candidates": []
+ },
+ {
+  "entity": "佛塔",
+  "target_ref": "04-knowledge/units/terms/fota.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-59",
+  "merged_candidates": []
+ },
+ {
+  "entity": "石窟寺",
+  "target_ref": "04-knowledge/units/terms/shikusi.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-60",
+  "merged_candidates": []
+ },
+ {
+  "entity": "单锭纺车",
+  "target_ref": "04-knowledge/units/terms/danding-fangche.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-63",
+  "merged_candidates": []
+ },
+ {
+  "entity": "杂裾垂髾服",
+  "target_ref": "04-knowledge/units/terms/zaju-chuishao-fu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-71",
+  "merged_candidates": []
+ },
+ {
+  "entity": "壶",
+  "target_ref": "04-knowledge/units/terms/hu-vessel.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-106",
+  "merged_candidates": [],
+  "note": "补 2016 L1716-L1718 汉代钟、钫之名、量器功能与设计定式；source_count 1→1、version 1→2。"
+ },
+ {
+  "entity": "蜡染",
+  "target_ref": "04-knowledge/units/procedures/la-ran.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-119",
+  "merged_candidates": [],
+  "note": "补 2016 L1776-L1780 三大印花技艺、蜡刀与蓝靛工序、冰纹、树脂蜂蜡、慧琳《一切经音义》引文；source_count 3→4、version 1→2。"
+ },
+ {
+  "entity": "诸子百家",
+  "target_ref": "04-knowledge/units/terms/hundred-schools.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-47",
+  "merged_candidates": [],
+  "note": "补 2016 L1459-L1471 十家加兵家名单、士阶层与“学在官府”、用与美/文与质争鸣、四家纲领提要；source_count 1→1、version 1→2。"
+ },
+ {
+  "entity": "青瓷",
+  "target_ref": "04-knowledge/units/terms/qing-ci.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-35",
+  "merged_candidates": [],
+  "note": "补 2016 L2082-L2084、L2098 商代中期原始瓷、呈色原理、缥瓷文献、四窑系逐项特征与南北差异；source_count 2→3、version 1→2。"
+ },
+ {
+  "entity": "髹漆",
+  "target_ref": "04-knowledge/units/procedures/xiu-qi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-04",
+  "merged_candidates": [],
+  "note": "既有 KU 已完整覆盖 2016 册本条内容。"
+ },
+ {
+  "entity": "炼钢技术",
+  "target_ref": "04-knowledge/units/procedures/lian-gang-ji-shu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-42",
+  "merged_candidates": [],
+  "note": "既有 KU 已完整覆盖 2016 册本条内容。"
+ },
+ {
+  "entity": "《考工记》三十工种",
+  "target_ref": "04-knowledge/units/terms/baigong.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-70",
+  "merged_candidates": [],
+  "note": "既有 KU 已完整覆盖 2016 册本条内容。"
+ },
+ {
+  "entity": "官手工业制度",
+  "target_ref": "04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-87",
+  "merged_candidates": [],
+  "note": "既有 KU 已完整覆盖 2016 册本条内容。"
+ },
+ {
+  "entity": "青瓷装饰六法",
+  "target_ref": "04-knowledge/units/procedures/liuchao-qingci-zhuangshi-liufa.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-39",
+  "merged_candidates": [],
+  "note": "既有 KU 已完整覆盖 2016 册本条内容。"
+ }
+]

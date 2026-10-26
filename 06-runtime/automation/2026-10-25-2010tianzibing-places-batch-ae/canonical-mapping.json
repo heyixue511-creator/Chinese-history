@@ -1,0 +1,158 @@
+[
+  {
+    "entity": "婺窑",
+    "target_ref": "04-knowledge/units/places/wuzhou-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "德清窑",
+    "target_ref": "04-knowledge/units/places/deqing-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-53",
+    "merged_candidates": []
+  },
+  {
+    "entity": "邓县学庄画象砖墓",
+    "target_ref": "04-knowledge/units/places/dengxian-xuezhuang-huaxiangzhuan-mu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-65",
+    "merged_candidates": []
+  },
+  {
+    "entity": "陈留",
+    "target_ref": "04-knowledge/units/places/chenliu.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "均山窑",
+    "target_ref": "04-knowledge/units/places/junshan-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-88",
+    "merged_candidates": []
+  },
+  {
+    "entity": "法门寺",
+    "target_ref": "04-knowledge/units/places/famen-si-digong.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-26",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋代官窑",
+    "target_ref": "04-knowledge/units/places/song-official-kiln.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "赤峰缸瓦窑屯辽窑",
+    "target_ref": "04-knowledge/units/places/chifeng-gangwayaotun-liaoyao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "董窑",
+    "target_ref": "04-knowledge/units/places/dong-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-96",
+    "merged_candidates": []
+  },
+  {
+    "entity": "抚顺大官屯窑",
+    "target_ref": "04-knowledge/units/places/fushun-daguantun-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "乌泥泾",
+    "target_ref": "04-knowledge/units/places/wunijing.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-74",
+    "merged_candidates": []
+  },
+  {
+    "entity": "嘉兴府西塘杨汇",
+    "target_ref": "04-knowledge/units/places/jiaxing-xitang-yanghui.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-02",
+    "merged_candidates": []
+  },
+  {
+    "entity": "德化窑",
+    "target_ref": "04-knowledge/units/places/dehua-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-29",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宜兴窑",
+    "target_ref": "04-knowledge/units/places/yixing.md",
+    "action": "update",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-89",
+    "merged_candidates": []
+  },
+  {
+    "entity": "石湾窑",
+    "target_ref": "04-knowledge/units/places/shiwan-yao.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-90",
+    "merged_candidates": [
+      "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-20"
+    ]
+  },
+  {
+    "entity": "天京",
+    "target_ref": "04-knowledge/units/places/tianjing.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-104",
+    "merged_candidates": []
+  },
+  {
+    "entity": "端州",
+    "target_ref": "04-knowledge/units/places/duanzhou.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-74",
+    "merged_candidates": []
+  },
+  {
+    "entity": "青田",
+    "target_ref": "04-knowledge/units/places/qingtian.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-76",
+    "merged_candidates": []
+  },
+  {
+    "entity": "浏阳",
+    "target_ref": "04-knowledge/units/places/liuyang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "荣昌",
+    "target_ref": "04-knowledge/units/places/rongchang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-21",
+    "merged_candidates": []
+  },
+  {
+    "entity": "高阳",
+    "target_ref": "04-knowledge/units/places/gaoyang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东阳",
+    "target_ref": "04-knowledge/units/places/dongyang.md",
+    "action": "create",
+    "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-23",
+    "merged_candidates": []
+  }
+]

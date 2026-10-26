@@ -1,9 +1,0 @@
-audit_relation_consistency.py
-  broken target: 0
-  invalid relation_type: 0
-  missing inverse: 0
-  weak evidence: 0
-  unbaselined generic evidence-backed: 0
-  isolated units (0 relations): 877
-  isolated preview rows: 100
-  over-connected (>50): 0

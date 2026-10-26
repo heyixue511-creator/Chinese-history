@@ -1,0 +1,310 @@
+[
+  {
+    "entity": "朱碧山银槎（龙槎杯）",
+    "target_ref": "04-knowledge/units/works/zhu-bishan-yincha.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-18",
+    "merged_candidates": []
+  },
+  {
+    "entity": "泉州清净寺",
+    "target_ref": "04-knowledge/units/works/quanzhou-qingjing-si.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-22",
+    "merged_candidates": []
+  },
+  {
+    "entity": "刘贯道《消夏图卷》",
+    "target_ref": "04-knowledge/units/works/liu-guandao-xiaoxia-tujuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-23",
+    "merged_candidates": []
+  },
+  {
+    "entity": "元代火铳",
+    "target_ref": "04-knowledge/units/works/yuan-huoqiang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-24",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郭守敬简仪",
+    "target_ref": "04-knowledge/units/works/guo-shoujing-jianyi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-25",
+    "merged_candidates": []
+  },
+  {
+    "entity": "萨迦寺",
+    "target_ref": "04-knowledge/units/works/sajia-si.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-80",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三锭脚踏纺棉车",
+    "target_ref": "04-knowledge/units/works/sandian-jiaota-fangmianche.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "追韩信图梅瓶",
+    "target_ref": "04-knowledge/units/works/zhui-hanxin-tu-meiping.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-94",
+    "merged_candidates": []
+  },
+  {
+    "entity": "蒙恬将军玉壶春瓶",
+    "target_ref": "04-knowledge/units/works/mengtian-jiangjun-yuhuchun-ping.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-95",
+    "merged_candidates": []
+  },
+  {
+    "entity": "五谷丰登灯笼纹织锦",
+    "target_ref": "04-knowledge/units/works/wugu-fengdeng-denglongwen-zhijin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-109",
+    "merged_candidates": []
+  },
+  {
+    "entity": "青花五谷丰登图盘",
+    "target_ref": "04-knowledge/units/works/qinghua-wugu-fengdeng-tu-pan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-110",
+    "merged_candidates": []
+  },
+  {
+    "entity": "大报恩寺琉璃塔",
+    "target_ref": "04-knowledge/units/works/dabaoensi-liuli-ta.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-35",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北京紫禁城",
+    "target_ref": "04-knowledge/units/works/beijing-zijincheng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-36",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《十竹斋笺谱》",
+    "target_ref": "04-knowledge/units/works/shizhuzhai-jianpu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-42",
+    "merged_candidates": []
+  },
+  {
+    "entity": "清雍正粉彩仕女采桑图盘",
+    "target_ref": "04-knowledge/units/works/yongzheng-fencai-sangnv-pan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-43",
+    "merged_candidates": []
+  },
+  {
+    "entity": "清光绪彩釉雕瓷四季花鸟纹方瓶",
+    "target_ref": "04-knowledge/units/works/guangxu-caiyou-diaoci-fangping.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "王大凡《富贵寿考瓷板》",
+    "target_ref": "04-knowledge/units/works/wangdafan-fugui-shoukao-ciban.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-45",
+    "merged_candidates": []
+  },
+  {
+    "entity": "帆船图景瓷盘",
+    "target_ref": "04-knowledge/units/works/fanchuan-tujing-cipan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "紫砂“东陵瓜”",
+    "target_ref": "04-knowledge/units/works/zisha-donglinggua.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "九龙壁",
+    "target_ref": "04-knowledge/units/works/jiulongbi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "粤汉铁路徽章",
+    "target_ref": "04-knowledge/units/works/yuehan-tielu-huizhang.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-125",
+    "merged_candidates": []
+  },
+  {
+    "entity": "北洋机器局标志",
+    "target_ref": "04-knowledge/units/works/beiyang-jiqiju-biaozhi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-126",
+    "merged_candidates": []
+  },
+  {
+    "entity": "都锦生丝织风景《九溪十八涧》",
+    "target_ref": "04-knowledge/units/works/jiuxi-shibajian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-07",
+    "merged_candidates": []
+  },
+  {
+    "entity": "沙逊大厦",
+    "target_ref": "04-knowledge/units/works/sassoon-house.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-44",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中华人民共和国国旗（五星红旗）",
+    "target_ref": "04-knowledge/units/works/prc-national-flag.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "飞鸽牌自行车",
+    "target_ref": "04-knowledge/units/works/flying-pigeon-bicycle.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-63",
+    "merged_candidates": []
+  },
+  {
+    "entity": "解放牌载重卡车",
+    "target_ref": "04-knowledge/units/works/jiefang-truck.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-76",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东风牌小轿车",
+    "target_ref": "04-knowledge/units/works/dongfeng-sedan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-77",
+    "merged_candidates": []
+  },
+  {
+    "entity": "大型壁毯《长城》",
+    "target_ref": "04-knowledge/units/works/great-wall-tapestry.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-84",
+    "merged_candidates": []
+  },
+  {
+    "entity": "毛主席像章",
+    "target_ref": "04-knowledge/units/works/mao-badge.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-85",
+    "merged_candidates": []
+  },
+  {
+    "entity": "民族文化宫",
+    "target_ref": "04-knowledge/units/works/minzu-wenhua-gong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-132",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《喜鹊登梅》大挂屏",
+    "target_ref": "04-knowledge/units/works/xique-dengmei.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-134",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《成昆铁路》象牙雕刻",
+    "target_ref": "04-knowledge/units/works/chengkun-tielu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-135",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《戴月归》彩锦绣",
+    "target_ref": "04-knowledge/units/works/daiyuegui.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-136",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《白度母》唐卡",
+    "target_ref": "04-knowledge/units/works/baidum.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-137",
+    "merged_candidates": []
+  },
+  {
+    "entity": "金星牌金笔",
+    "target_ref": "04-knowledge/units/works/jinxing-pen.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-138",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《大闹画室》",
+    "target_ref": "04-knowledge/units/works/da-nao-hua-shi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-02",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《大闹天宫》",
+    "target_ref": "04-knowledge/units/works/da-nao-tian-gong.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-03",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《小蝌蚪找妈妈》",
+    "target_ref": "04-knowledge/units/works/xiao-ke-dou-zhao-ma-ma.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-04",
+    "merged_candidates": []
+  },
+  {
+    "entity": "联想ET960智能手机",
+    "target_ref": "04-knowledge/units/works/lenovo-et960.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-10",
+    "merged_candidates": []
+  },
+  {
+    "entity": "李宁半坡专业篮球鞋",
+    "target_ref": "04-knowledge/units/works/li-ning-banpo-basketball-shoe.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-11",
+    "merged_candidates": []
+  },
+  {
+    "entity": "2008年北京奥运会海报",
+    "target_ref": "04-knowledge/units/works/beijing-olympic-poster-2008.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-69",
+    "merged_candidates": []
+  },
+  {
+    "entity": "开国大典天安门城楼装饰设计",
+    "target_ref": "04-knowledge/units/events/founding-ceremony-tiananmen-decoration-1949.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-56",
+    "merged_candidates": []
+  },
+  {
+    "entity": "上海生态景观大道",
+    "target_ref": "events/2000-shanghai-eco-landscape-avenue.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-39",
+    "merged_candidates": []
+  }
+]

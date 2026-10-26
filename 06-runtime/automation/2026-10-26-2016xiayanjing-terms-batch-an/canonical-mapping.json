@@ -1,0 +1,238 @@
+[
+ {
+  "entity": "贵无",
+  "target_ref": "04-knowledge/units/terms/guiwu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-04",
+  "merged_candidates": []
+ },
+ {
+  "entity": "手工业行会",
+  "target_ref": "04-knowledge/units/terms/shougongye-hanghui.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-18",
+  "merged_candidates": []
+ },
+ {
+  "entity": "纳资代役",
+  "target_ref": "04-knowledge/units/terms/nazi-daiyi.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-19",
+  "merged_candidates": []
+ },
+ {
+  "entity": "唐代著名青瓷窑",
+  "target_ref": "04-knowledge/units/terms/tang-dai-qingci-yao.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-24",
+  "merged_candidates": []
+ },
+ {
+  "entity": "宝相花纹",
+  "target_ref": "04-knowledge/units/terms/baoxianghua-wen.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-40",
+  "merged_candidates": []
+ },
+ {
+  "entity": "唐草纹",
+  "target_ref": "04-knowledge/units/terms/tangcao-wen.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-41",
+  "merged_candidates": []
+ },
+ {
+  "entity": "品色衣",
+  "target_ref": "04-knowledge/units/terms/pinse-yi.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-45",
+  "merged_candidates": []
+ },
+ {
+  "entity": "唐镜",
+  "target_ref": "04-knowledge/units/terms/tangjing.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-56",
+  "merged_candidates": []
+ },
+ {
+  "entity": "伊斯兰文化",
+  "target_ref": "04-knowledge/units/terms/yisilan-wenhua.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-62",
+  "merged_candidates": []
+ },
+ {
+  "entity": "水密舱",
+  "target_ref": "04-knowledge/units/terms/shuimi-cang.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-65",
+  "merged_candidates": []
+ },
+ {
+  "entity": "敞肩拱",
+  "target_ref": "04-knowledge/units/terms/changjian-gong.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-71",
+  "merged_candidates": []
+ },
+ {
+  "entity": "壶门案",
+  "target_ref": "04-knowledge/units/terms/humen-an.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-131",
+  "merged_candidates": []
+ },
+ {
+  "entity": "腰圆凳",
+  "target_ref": "04-knowledge/units/terms/yaoyuan-deng.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-132",
+  "merged_candidates": []
+ },
+ {
+  "entity": "额黄",
+  "target_ref": "04-knowledge/units/terms/ehuang.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-133",
+  "merged_candidates": []
+ },
+ {
+  "entity": "斜红",
+  "target_ref": "04-knowledge/units/terms/xiehong.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-135",
+  "merged_candidates": []
+ },
+ {
+  "entity": "贸易瓷",
+  "target_ref": "04-knowledge/units/terms/maoyi-ci.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-21",
+  "merged_candidates": []
+ },
+ {
+  "entity": "宋瓷装饰手法",
+  "target_ref": "04-knowledge/units/terms/song-ci-zhuangshi-shoufa.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-22",
+  "merged_candidates": []
+ },
+ {
+  "entity": "宋锦、云锦与蜀锦",
+  "target_ref": "04-knowledge/units/terms/song-jin.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-25",
+  "merged_candidates": []
+ },
+ {
+  "entity": "点蜡幔",
+  "target_ref": "04-knowledge/units/terms/dian-la-man.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-28",
+  "merged_candidates": []
+ },
+ {
+  "entity": "燕居服",
+  "target_ref": "04-knowledge/units/terms/yanju-fu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-31",
+  "merged_candidates": []
+ },
+ {
+  "entity": "高型家具",
+  "target_ref": "04-knowledge/units/terms/gaoxing-jiaju.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-44",
+  "merged_candidates": []
+ },
+ {
+  "entity": "辽瓷",
+  "target_ref": "04-knowledge/units/terms/liao-ci.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-46",
+  "merged_candidates": []
+ },
+ {
+  "entity": "辽三彩釉陶",
+  "target_ref": "04-knowledge/units/terms/liao-sancai.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-48",
+  "merged_candidates": []
+ },
+ {
+  "entity": "金代铜禁",
+  "target_ref": "04-knowledge/units/terms/jin-dai-tongjin.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-52",
+  "merged_candidates": []
+ },
+ {
+  "entity": "氆氇",
+  "target_ref": "04-knowledge/units/terms/pulu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-53",
+  "merged_candidates": []
+ },
+ {
+  "entity": "夏国剑",
+  "target_ref": "04-knowledge/units/terms/xiaguo-jian.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-55",
+  "merged_candidates": []
+ },
+ {
+  "entity": "行省制度",
+  "target_ref": "04-knowledge/units/terms/xingsheng-zhidu.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-58",
+  "merged_candidates": []
+ },
+ {
+  "entity": "垫圈",
+  "target_ref": "04-knowledge/units/terms/dianquan.md",
+  "action": "create",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-77",
+  "merged_candidates": []
+ },
+ {
+  "entity": "支圈",
+  "target_ref": "04-knowledge/units/procedures/zhi-quan-fu-shao.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-19",
+  "merged_candidates": [],
+  "note": "补 2016 L3160-L3179 支圈形制与垫阶、芒口、蒸笼式叠置与最多 32 层、北宋中期定窑始创及磁州窑至景德镇传播链；source_count 1→2、version 1→2。"
+ },
+ {
+  "entity": "绞缬印花",
+  "target_ref": "04-knowledge/units/procedures/lan-yinhua-bu.md",
+  "action": "update",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-78",
+  "merged_candidates": [],
+  "note": "补 2016 L3285-L3289 宋代灰药印花、嘉定安亭、《光绪嘉定县志》引文、山西南宋印花罗与婺州彩帛铺，并列标疑「绞缬印花」名实不符；source_count 2→3、version 2→3。"
+ },
+ {
+  "entity": "气韵生动",
+  "target_ref": "04-knowledge/units/persons/xie-he.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-06",
+  "merged_candidates": [],
+  "note": "既有 KU 已含谢赫六法整句引文与「气韵生动」三步论证，覆盖 2016 册本条。"
+ },
+ {
+  "entity": "施用有宜",
+  "target_ref": "04-knowledge/units/persons/liu-zhou.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-09",
+  "merged_candidates": [],
+  "note": "既有 KU 已含「施用有宜」与裘蓑之喻、用字差异，覆盖 2016 册本条。"
+ },
+ {
+  "entity": "材",
+  "target_ref": "04-knowledge/units/publications/yingzao-fashi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-42",
+  "merged_candidates": [],
+  "note": "既有 KU 已含「凡构屋之制，皆以材为祖，材有八等」与八等材表，覆盖 2016 册本条。"
+ }
+]

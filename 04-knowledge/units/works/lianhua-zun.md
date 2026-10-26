@@ -44,14 +44,21 @@ sources:
       source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
       chapter_id: null
       chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L2104-L2108."
+    location: "L2104-L2108"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
 created: 2026-10-25
 updated: 2026-10-25
 confidence: medium
 consensus: tentative
-source_count: 4
+source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -73,6 +80,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下南北朝青瓷的器物锚点，�
 - **装饰手法**: 通过刻、贴、堆等雕塑手法，使其挺拔秀丽、流畅丰满（赵农）
 - **设计史意义**: 莲花尊把佛教莲瓣转化为瓷器造型语言，是外来宗教图像进入中国器物形制的代表；同一器形在不同窑口有 40、66.5、85 厘米三种尺度
 
+- **2016 升级版重出**: 与 2009 年版《中国设计史》同文，年代、层数、尺寸（高 66.5 厘米、口径 19.2 厘米）与藏地（北京故宫博物院）表述一致；属同源重出，按字段契约只增 source_count，不提高 consensus（夏燕靖 2016）
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
@@ -91,7 +100,8 @@ hierarchy_scope_note: "本 KU 是 B 维度下南北朝青瓷的器物锚点，�
 - 证据状态: source_backed（来源内复读）
 - 验证层级: 未评定；consensus 为 tentative，按字段契约不填 L1–L7
 - 验证平台: 未使用外部平台
-- 匹配质量: 四册均有直接文本，尺寸有 40／66.5／85 厘米三种（分属不同出土地），已分别标注；两册未给出土墓葬编号。
+- 匹配质量: 四家共五册均有直接文本，尺寸有 40／66.5／85 厘米三种（分属不同出土地），已分别标注；两册未给出土墓葬编号。
+- 源增补: 2016 升级版 L2104-L2108 与既有 2009 版同文，属同源重出；五源中实际独立表述仍为四家
 - 验证日期: 2026-10-25
 - 证据范围: 仅前六册 Markdown 文本；未做来源外核对
 
@@ -101,3 +111,4 @@ hierarchy_scope_note: "本 KU 是 B 维度下南北朝青瓷的器物锚点，�
 2. 夏燕靖. *中国设计史*. 上海: 上海人民美术出版社, 2009.
 3. 赵农. *中国艺术设计史*. 北京: 高等教育出版社, 2009.
 4. 田自秉. *中国工艺美术史（修订本）*. 上海: 东方出版中心, 2010.
+5. 夏燕靖. *中国艺术设计史（升级版）*. 上海: 上海人民美术出版社, 2016.

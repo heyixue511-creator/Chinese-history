@@ -1,9 +1,9 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-10-26 00:17
+> Snapshot: 2026-10-26 04:24
 > Structural health: 122/130
-> Knowledge units: 877
+> Knowledge units: 1277
 > Maturity metrics: unscored_semantic_maturity
 
 ## System defects - P0
@@ -22,18 +22,18 @@ No active items.
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 318 | research_debt |
-| RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 877 | research_debt |
-| RD-LOW_CONFIDENCE_UNITS | knowledge units with low confidence | 38 | research_debt |
-| RD-CANDIDATES_NEEDING_EVIDENCE | candidates needing evidence | 3468 | research_debt |
-| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 877 | research_debt |
+| RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 696 | research_debt |
+| RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 1277 | research_debt |
+| RD-LOW_CONFIDENCE_UNITS | knowledge units with low confidence | 153 | research_debt |
+| RD-CANDIDATES_NEEDING_EVIDENCE | candidates needing evidence | 2980 | research_debt |
+| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 1277 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 877 | candidate_opportunity |
-| OPP-CANDIDATES | active discovery candidates | 3468 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 1277 | candidate_opportunity |
+| OPP-CANDIDATES | active discovery candidates | 2980 | candidate_opportunity |
 
 ## Completed mechanical signals
 

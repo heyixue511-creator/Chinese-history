@@ -1,0 +1,169 @@
+{
+ "work_package": "2026-10-26-2016xiayanjing-terms-batch-ap",
+ "goal": "处理 2016 册 unit 候选 24 条（cand-09 12 条、cand-10 3 条、cand-11 9 条），按语义复读与判重结果新建 13、no_delta 11。",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:7ce22c4d7dbe28885d6312efc382156e3c206c7dbdcea6a9d69222d469adbb92",
+   "sha256_scope": "06-runtime/state/candidate-index.jsonl",
+   "counts_before": {
+    "needs_evidence": 3004,
+    "applied": 1424,
+    "rejected": 812,
+    "no_delta": 99
+   }
+  },
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "spans": [
+    [
+     4847,
+     4850
+    ],
+    [
+     4851,
+     4868
+    ],
+    [
+     4892,
+     4917
+    ],
+    [
+     4892,
+     4917
+    ],
+    [
+     4892,
+     4917
+    ],
+    [
+     4984,
+     5012
+    ],
+    [
+     5057,
+     5062
+    ],
+    [
+     5013,
+     5054
+    ],
+    [
+     5346,
+     5385
+    ],
+    [
+     5346,
+     5385
+    ],
+    [
+     5386,
+     5400
+    ],
+    [
+     5403,
+     5432
+    ],
+    [
+     5480,
+     5501
+    ],
+    [
+     5452,
+     5501
+    ],
+    [
+     5480,
+     5501
+    ],
+    [
+     6139,
+     6142
+    ],
+    [
+     6163,
+     6166
+    ],
+    [
+     6059,
+     6072
+    ],
+    [
+     6113,
+     6116
+    ],
+    [
+     6191,
+     6194
+    ],
+    [
+     6179,
+     6182
+    ],
+    [
+     6243,
+     6246
+    ],
+    [
+     6147,
+     6150
+    ],
+    [
+     6139,
+     6142
+    ]
+   ],
+   "spans_scope": "并集 302 行（4847-6246 内不连续；重复区间见 spans）",
+   "candidates_in_scope": 24
+  }
+ },
+ "method": {
+  "rules": [
+   "来源只读：不改写、不删除 2016 册原文。",
+   "24 个候选逐条语义复读，判重覆盖既有 KU 与同册同名条目。",
+   "create 单源 KU：consensus tentative、evidence_status source_backed、version 1。",
+   "no_delta 需既有 target_ref 完整覆盖候选语义，不另立近义条目。",
+   "引文审计：双引号内文字须与源文逐字一致（去空白），非源文或图版隔断用「」。"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 13,
+   "update": 0,
+   "no_delta": 11,
+   "paths_created": [
+    "04-knowledge/units/terms/jindai-ranchou-ye.md",
+    "04-knowledge/units/terms/zhijin.md",
+    "04-knowledge/units/terms/duanao-taoqun.md",
+    "04-knowledge/units/terms/shishizhuang.md",
+    "04-knowledge/units/terms/tianzu-yundong.md",
+    "04-knowledge/units/terms/shangbiao.md",
+    "04-knowledge/units/terms/wailaishi-jianzhu.md",
+    "04-knowledge/units/terms/zhongxi-hunheshi-jianzhu.md",
+    "04-knowledge/units/terms/hong-haiyang.md",
+    "04-knowledge/units/terms/zhongguo-gongyi-meishu-dashi.md",
+    "04-knowledge/units/terms/zhongguo-donghua-xuepai.md",
+    "04-knowledge/units/terms/shuzi-meiti-sheji.md",
+    "04-knowledge/units/terms/chengshi-jianzhu-huanjing-sheji.md"
+   ],
+   "paths_updated": [],
+   "paths_no_delta": [
+    "04-knowledge/units/procedures/fengxiang-nisu.md",
+    "04-knowledge/units/events/1972-1976-dingci-huifu.md",
+    "04-knowledge/units/events/1998-moe-major-catalog.md",
+    "04-knowledge/units/publications/zhouyi.md",
+    "04-knowledge/units/publications/ziren-zhuan.md",
+    "04-knowledge/units/publications/baitong.md",
+    "04-knowledge/units/publications/changwu-zhi.md",
+    "04-knowledge/units/publications/mozi-jieyong.md",
+    "04-knowledge/units/publications/zhuangzi.md",
+    "04-knowledge/units/publications/zhuangzi.md",
+    "04-knowledge/units/publications/huainanzi.md"
+   ]
+  }
+ }
+}

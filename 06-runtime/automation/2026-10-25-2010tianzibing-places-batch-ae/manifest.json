@@ -1,0 +1,242 @@
+{
+  "work_package": "2026-10-25-2010tianzibing-places-batch-ae",
+  "goal": "处理田自秉《中国工艺美术史（修订本）》2010 册剩余的 place 候选 23 个：新建 18、更新 4，另有 1 组 merged（cand-11-90 与 cand-13-20 合为 places/shiwan-yao.md），无 no_delta、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:51fcf28f4f7c1c8a29b30aeb67638bb9fe742ee8a0cb17794bdcea9414f316d8",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1033,
+        "needs_evidence": 3420,
+        "no_delta": 74,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        "L2519",
+        "L2755",
+        "L2757-L2869",
+        "L2759-L2761",
+        "L2879",
+        "L3028-L3030",
+        "L3564-L3566",
+        "L3568",
+        "L3693",
+        "L3735",
+        "L4076-L4078",
+        "L4132-L4151",
+        "L4244",
+        "L4254",
+        "L4266",
+        "L4796",
+        "L4802",
+        "L4806",
+        "L4933",
+        "L4995-L5013",
+        "L5085",
+        "L5087-L5089",
+        "L5303-L5305"
+      ],
+      "spans_scope": "23 个候选 source_span 的并集；L2757-L2869（德清窑）与 L4995-L5013（高阳）为宽跨段。span 之外的同册补证行号为 L2749、L2755（婺窑四系统与化妆土）、L2881（邓县浅浮雕与填染七色）、L3733（抚顺金代两期）、L3695（缸瓦窑定瓷片比例）、L4254-L4264 与 L5083（宜兴明代一节与五朵金花）、L4794、L4798（端州李贺诗与作坊艺人）、L4931（天京招贤榜）。补证行号已写入各条 `sources` 与 `validation`，未建立 claim 级证据链。",
+      "candidates_in_scope": 23
+    }
+  },
+  "method": {
+    "rules": [
+      "23 个候选 = 田自秉 2010 册中批次 AD 之后剩余的全部 place 候选（批前全部为 needs_evidence）；先按实体与既有 place／term／institution／procedure／person／work／publication KU 逐条对账，再定 create／update／merged。",
+      "新建 18 条：德清窑、邓县学庄画像砖墓、陈留、均山窑、宋代官窑窑址、赤峰缸瓦窑屯辽窑、董窑、抚顺大官屯窑、乌泥泾、德化窑、石湾窑（合并）、天京、端州、青田、浏阳、荣昌、高阳、东阳。除董窑、青田为单句孤证定 low 外，其余为单源 medium。",
+      "更新 4 文件：places/wuzhou-kiln.md（version 1→2，source_count 1→2）、places/famen-si-digong.md（2→3，2→3）、places/jiaxing-xitang-yanghui.md（1→2，1→2）、places/yixing.md（1→2，source_count 2→2 不变）。四者均在既有条目上追加田自秉来源，不改写既有来源已记内容。",
+      "合并 1 组：cand-11-90（石湾窑，L4266）与 cand-13-20（石湾，L5085）为同一实体的明代段与近现代段，合并写入 places/shiwan-yao.md，canonical 为 cand-11-90；两候选各走 3 行 ledger，终态 target_ref 相同，apply-plan 与 canonical-mapping 各只 1 条。",
+      "划界规则：婺窑只记六朝四系统归属与化妆土施用，化妆土工艺定义归 terms/huazhuangtu.md；德清窑只记青黑兼烧与器形，黑瓷总述归 terms/black-porcelain.md；陈留只记种蓝染绀，官营织造机构不系于本条，襄邑另有 places/xiangyi-chenliu.md；宋代官窑只记窑址与器表特征，制度义归 terms/guan-yao.md；赤峰缸瓦窑“官”字款归 terms/ciyaoguan.md；法门寺只补田自秉的称名、皇室属性与藏品清单，器物细节仍归既有段落与 works／terms 条；嘉兴只记产地与作品，髹漆工序归 procedures/juan-su-tai-gu-hei-guang.md、戗金归 terms/qiangjin.md；宜兴只记产地、泥料、艺人谱系与产品结构，石湾窑与法花同节不并入；天京只记地点与《招贤榜》，诸匠营与百工衙职掌归 institutions 两条；端州只记地望与作坊艺人，砚种石品归 terms/duan-yan.md；德化不并入 L4246“赤绘”（产地来源未定）；东阳不并入同段黄杨木雕与龙眼木雕。",
+      "跨册与跨段分歧一律并列不裁定：法门寺称名“地宫／地窖”、“玻璃／琉璃”；嘉兴“西塘扬汇／西塘杨汇／斜塘杨汇”与地位用语“最著名／重要”；官窑年号“大观、政和”（田自秉）与“政和”（夏燕靖 2016）；宜兴断代田自秉上溯北宋梅尧臣诗、2016 只从明清讲起。",
+      "来源内部张力照录不调停：宜兴陈鸣远在 L4260 被列为供春三徒、在 L4595 又被系于康熙；嘉兴张成剔红一件器名在段内游移（圆盘／盒面）；L4147“足缘有计划‘张成造’字铭”之“有计划”疑为“针刻”之讹；均山窑“马屁股”为 L2759 末字与 L2761 首字跨行断句。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。",
+      "生成态在改完 22 个目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；工作区 HEAD 74f6596 为外部同步进程既有提交，非本批授权动作。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 18,
+      "update": 4,
+      "merged_pairs": 1,
+      "paths_created": [
+        "04-knowledge/units/places/deqing-yao.md",
+        "04-knowledge/units/places/dengxian-xuezhuang-huaxiangzhuan-mu.md",
+        "04-knowledge/units/places/chenliu.md",
+        "04-knowledge/units/places/junshan-yao.md",
+        "04-knowledge/units/places/song-official-kiln.md",
+        "04-knowledge/units/places/chifeng-gangwayaotun-liaoyao.md",
+        "04-knowledge/units/places/dong-yao.md",
+        "04-knowledge/units/places/fushun-daguantun-yao.md",
+        "04-knowledge/units/places/wunijing.md",
+        "04-knowledge/units/places/dehua-yao.md",
+        "04-knowledge/units/places/shiwan-yao.md",
+        "04-knowledge/units/places/tianjing.md",
+        "04-knowledge/units/places/duanzhou.md",
+        "04-knowledge/units/places/qingtian.md",
+        "04-knowledge/units/places/liuyang.md",
+        "04-knowledge/units/places/rongchang.md",
+        "04-knowledge/units/places/gaoyang.md",
+        "04-knowledge/units/places/dongyang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/wuzhou-kiln.md",
+        "04-knowledge/units/places/famen-si-digong.md",
+        "04-knowledge/units/places/jiaxing-xitang-yanghui.md",
+        "04-knowledge/units/places/yixing.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ae\\apply-plan.jsonl",
+      "rows": 22,
+      "create": 18,
+      "update": 4,
+      "note": "23 个候选对应 22 个目标文件：cand-13-20 合并入 cand-11-90 的 places/shiwan-yao.md，不单独占 plan 行。"
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ae\\candidate-decision-ledger.jsonl",
+      "rows": 69,
+      "candidates": 23,
+      "applied": 23,
+      "no_delta": 0,
+      "note": "23 个候选各走 needs_evidence→ready_for_review→approved→applied 三步转移，终态行带 target_ref；合并组两候选终态 target_ref 相同。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2010tianzibing-places-batch-ae\\canonical-mapping.json",
+      "entries": 22,
+      "merged_candidates": [
+        "2010-tianzibing-zhongguo-gongyi-meishushi:cand-13-20"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 1056,
+    "needs_evidence": 3397,
+    "no_delta": 74,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 1942,
+    "active": 3397
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 69,
+      "candidates_in_ledger": 23,
+      "candidates_in_scope": 23,
+      "final_applied_transitions": 23,
+      "final_no_delta": 0,
+      "final_rejected_new": 0,
+      "plan_rows": 22,
+      "create": 18,
+      "update": 4,
+      "merged_candidates": 1,
+      "fingerprints_verified": 22,
+      "mapping_entries": 22,
+      "errors": 0,
+      "index_rebuild_idempotent": true,
+      "place_candidates_left_needs_evidence": 0
+    },
+    "content_audit": {
+      "knowledge_units": 926,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 926,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/926",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "926/926",
+      "persons": 74,
+      "institutions": 144,
+      "places": 140,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 926,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67",
+      "relation_candidates": 3,
+      "relation_candidate_rule": "s7_name_overlap"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更），diff 集中在 candidate-index.jsonl、current-health.json、governance-backlog.md、generated-projections-manifest.json 与知识图谱数据；与 AC、AD 批情形相同。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 926,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:7f1e70ba512de5444ac2fc65aacd1192b52540469ec5a0ad5f15f5ac219632b4",
+      "counts": {
+        "applied": 1056,
+        "needs_evidence": 3397,
+        "no_delta": 74,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3397,
+        "terminal": 1942
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

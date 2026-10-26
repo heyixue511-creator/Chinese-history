@@ -1,0 +1,67 @@
+{
+ "work_package": "2026-10-26-2016xiayanjing-terms-batch-ao",
+ "corrected_at": "2026-10-26",
+ "reason": "批次 AO 新建 term 的生成器把已含英文括注的 name_en 再次拼接，导致 title/name_en/translation_note 出现重复拼音。批次 AP 语义准备时发现并修正，AO apply-plan 保留应用时的原值不改写。",
+ "corrections": [
+  {
+   "target_ref": "04-knowledge/units/terms/badayun.md",
+   "apply_plan_after_sha256": "sha256:6c2ee4f0e57696a64863f099956885a7c9f1ed962ea5465aa5392a8b06b57c24",
+   "corrected_sha256": "sha256:928241b88055abbd6a416f1bb8f00cbf6d72e1b6d9c62c36b462c5dc0812fb85",
+   "bytes_before": 3815,
+   "bytes_after": 3785,
+   "lines_before": 86,
+   "lines_after": 86,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  },
+  {
+   "target_ref": "04-knowledge/units/terms/bianxian-ao.md",
+   "apply_plan_after_sha256": "sha256:197cf11438ba11f8b95817d1538341d83c5d6915b67e00ad50714120a7f76ca1",
+   "corrected_sha256": "sha256:cb38c1551ba07f1ae2bb36426b5a8bd6057c34c6e9231be3ddd9263e3400b4cd",
+   "bytes_before": 3664,
+   "bytes_after": 3622,
+   "lines_before": 85,
+   "lines_after": 85,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  },
+  {
+   "target_ref": "04-knowledge/units/terms/guanwu-bide.md",
+   "apply_plan_after_sha256": "sha256:07e360e7f6920b22eaa3da844bdeebb32a2eb946fc8d38e618c62603655cc9d9",
+   "corrected_sha256": "sha256:95b2b20b28bf1f90012b4335b3d1177adfd7d27c71324309285e579233aadb0f",
+   "bytes_before": 3432,
+   "bytes_after": 3390,
+   "lines_before": 78,
+   "lines_after": 78,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  },
+  {
+   "target_ref": "04-knowledge/units/terms/jifang.md",
+   "apply_plan_after_sha256": "sha256:e57bf9453ccf3022c20be1a2ca5aad3c224441a220032bd4d610a02a02f48269",
+   "corrected_sha256": "sha256:fd1abcf82e90093f98013c951340d1433986b1ce9b2ada22212427b55f850819",
+   "bytes_before": 3955,
+   "bytes_after": 3928,
+   "lines_before": 86,
+   "lines_after": 86,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  },
+  {
+   "target_ref": "04-knowledge/units/terms/kuduan.md",
+   "apply_plan_after_sha256": "sha256:d647ca7a1386725cbcaac00e9fe6e4463ee62799e6981b462e4ccbfa999fcd08",
+   "corrected_sha256": "sha256:94f7b1263c0fd0e069e5d003691af7be9b7a9b25133ece492480bc7eff5021d4",
+   "bytes_before": 3468,
+   "bytes_after": 3441,
+   "lines_before": 82,
+   "lines_after": 82,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  },
+  {
+   "target_ref": "04-knowledge/units/terms/yiyi.md",
+   "apply_plan_after_sha256": "sha256:2e2ab58df2cbb86c821c18ea925cb13c97e8d0074ab1a40717f913991e986b2c",
+   "corrected_sha256": "sha256:a23425556b478a247e6b67de3862a5289f2748c9da36b2cbcfde30db653170e0",
+   "bytes_before": 3230,
+   "bytes_after": 3209,
+   "lines_before": 82,
+   "lines_after": 82,
+   "correction": "title/name_en/translation_note 中重复的拼音译名去重（如 Badayun (Badayun (…)) → Badayun (…)），语义与正文未改。"
+  }
+ ]
+}

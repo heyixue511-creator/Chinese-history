@@ -1,0 +1,120 @@
+{
+ "work_package": "2026-10-26-2016xiayanjing-terms-batch-an",
+ "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册 33 个 unit 类候选：新建 28、更新 2、no_delta 3、rejected 0。",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:bb81340d5a56efcaaaaac2b0d56fd0bb0fe01d2cc3be8a4ff7d7ca6f82263bb6",
+   "sha256_scope": "CRLF→LF 归一后",
+   "counts_before": {
+    "needs_evidence": 3069,
+    "applied": 1368,
+    "rejected": 812,
+    "no_delta": 90
+   }
+  },
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "spans": [
+    "L2425-L2432",
+    "L2512-L2528",
+    "L2518-L2528",
+    "L2576-L2585",
+    "L2705-L2708",
+    "L2731-L2762",
+    "L2763-L2768",
+    "L2821-L2848",
+    "L2835-L2848",
+    "L2851-L2863",
+    "L2864-L2891",
+    "L2892-L2953",
+    "L3143-L3149",
+    "L3156-L3159",
+    "L3160-L3179",
+    "L3200-L3237",
+    "L3254-L3259",
+    "L3279-L3296",
+    "L3285-L3289",
+    "L3331-L3340",
+    "L3407-L3426",
+    "L3427-L3434",
+    "L3441-L3451",
+    "L3511-L3525",
+    "L3530-L3542",
+    "L3553-L3564",
+    "L3595-L3618"
+   ],
+   "spans_scope": "逐行复读正文 26 处候选证据区间，区间并集 414 行；33 个候选的证据行均落在这些区间内。",
+   "candidates_in_scope": 33
+  }
+ },
+ "method": {
+  "rules": [
+   "裁定口径：33 个 unit 候选 → 新建 28、更新 2、no_delta 3、rejected 0。",
+   "判重范围：逐名核对既有 terms、places、works、procedures、institutions、persons、publications、events；云锦、蜀锦、绞缬、蜡染、支圈覆烧、气韵生动、施用有宜、材均已有承载 KU，分别按并列、更新或 no_delta 处置。",
+   "新建 28 条全部单源：source_count 1、consensus tentative、evidence_status source_backed、version 1；日期 created/updated/last_verified 2026-10-26，review_due 2027-04-26。",
+   "confidence：可据正文概述者 23 条 medium；仅图注、短记、文献名物或背景制度者 5 条 low（humen-an、yaoyuan-deng、xiehong、xiaguo-jian、xingsheng-zhidu）。",
+   "维度：新建 B 18、D 6、C 2、A 1（guiwu）、E 1（yisilan-wenhua）；两条更新均属 B。sub_type 取 philosophical_proposition、guild_system、tax_labor_system、kiln_group、pictorial_motif、dress_regulation、device_type、cultural_influence、ship_structure、bridge_structure、furniture_form、cosmetic_custom、trade_goods、decoration_technique、textile_type、garment_form、furniture_type、ceramic_type、resource_prohibition、weapon_type、administrative_system、kiln_furnishing、ceramic_technique、textile_technique。",
+   "更新 2 条：zhi-quan-fu-shao（补支圈形制、垫阶、芒口、蒸笼式叠置与传播链，source_count 1→2、version 1→2）、lan-yinhua-bu（补宋代灰药印花与名实张力，source_count 2→3、version 2→3）。",
+   "no_delta 3 条：气韵生动（persons/xie-he.md）、施用有宜（persons/liu-zhou.md）、材（publications/yingzao-fashi.md），既有 KU 已完整承载。",
+   "断代与名实分歧并列不裁定：云锦宋代说与既有明清说并列；2016「绞缬印花」所述为灰药防染，与扎结防染的绞缬区分；2009 南宋中期景德镇为 2016 北宋定窑至南宋景德镇传播链的后半段。",
+   "讹字与异写照录标疑，不改字：罗锅根／霜王根（通行「罗锅枨」）、耐火黏上（「耐火黏土」）、蜡缁（疑「蜡缬」）、卤薄类用字。自拟校字与图版隔断引文一律用「」。",
+   "图版一律标“未视觉核验”：壶门案、腰圆凳仅据图注与正文短记，辽瓷、唐镜等图例未据图像下判断。",
+   "引文逐字照录：30 个写回目标共 180 处双引号引文通过子串审计，遗漏 0；《光绪嘉定县志》引文被图版隔断，改用「」。",
+   "指纹口径：utf-8 → CRLF→LF 归一 → sha256；bytes 为归一后 utf-8 字节数，lines 为归一后换行数。两条更新的 before 取 HEAD blob，before_source=head_blob。",
+   "生成态：run_sync_closure.py --refresh-generated --full 通过；--refresh-generated --check-generated 因工作树未提交按设计返回失败，记 blocked_pending_commit，不记 pass。",
+   "来源只读：未改写、删除 03基础书籍-md文档/ 下任何文件；本批只写 terms/ 28 个新文件、2 个既有 procedure 与 06-runtime/automation 包内文件。",
+   "不 commit、不 push：外部状态变更须用户当次明确授权。"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 28,
+   "update": 2,
+   "no_delta": 3,
+   "paths_created": [
+    "04-knowledge/units/terms/guiwu.md",
+    "04-knowledge/units/terms/shougongye-hanghui.md",
+    "04-knowledge/units/terms/nazi-daiyi.md",
+    "04-knowledge/units/terms/tang-dai-qingci-yao.md",
+    "04-knowledge/units/terms/baoxianghua-wen.md",
+    "04-knowledge/units/terms/tangcao-wen.md",
+    "04-knowledge/units/terms/pinse-yi.md",
+    "04-knowledge/units/terms/tangjing.md",
+    "04-knowledge/units/terms/yisilan-wenhua.md",
+    "04-knowledge/units/terms/shuimi-cang.md",
+    "04-knowledge/units/terms/changjian-gong.md",
+    "04-knowledge/units/terms/humen-an.md",
+    "04-knowledge/units/terms/yaoyuan-deng.md",
+    "04-knowledge/units/terms/ehuang.md",
+    "04-knowledge/units/terms/xiehong.md",
+    "04-knowledge/units/terms/maoyi-ci.md",
+    "04-knowledge/units/terms/song-ci-zhuangshi-shoufa.md",
+    "04-knowledge/units/terms/song-jin.md",
+    "04-knowledge/units/terms/dian-la-man.md",
+    "04-knowledge/units/terms/yanju-fu.md",
+    "04-knowledge/units/terms/gaoxing-jiaju.md",
+    "04-knowledge/units/terms/liao-ci.md",
+    "04-knowledge/units/terms/liao-sancai.md",
+    "04-knowledge/units/terms/jin-dai-tongjin.md",
+    "04-knowledge/units/terms/pulu.md",
+    "04-knowledge/units/terms/xiaguo-jian.md",
+    "04-knowledge/units/terms/xingsheng-zhidu.md",
+    "04-knowledge/units/terms/dianquan.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/procedures/zhi-quan-fu-shao.md",
+    "04-knowledge/units/procedures/lan-yinhua-bu.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/persons/xie-he.md",
+    "04-knowledge/units/persons/liu-zhou.md",
+    "04-knowledge/units/publications/yingzao-fashi.md"
+   ]
+  }
+ }
+}

@@ -1,0 +1,293 @@
+{
+  "work_package": "2026-10-26-2016xiayanjing-works-batch-aj",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 44 个 works 类候选：新建 42、更新 1、判 no_delta 1、rejected 0、合并 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:194245bf2513a97de8abc47c8dc37646b8ffdd4ea3ebf935668b9ab61b64a6f6",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1193,
+        "needs_evidence": 3253,
+        "no_delta": 81,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L3696-L3714",
+        "L3764",
+        "L3849-L3860",
+        "L3871-L3886",
+        "L3928-L3951",
+        "L3968-L3999",
+        "L4048-L4061",
+        "L4160",
+        "L4163",
+        "L4368-L4422",
+        "L4427-L4452",
+        "L4465-L4496",
+        "L4619-L4656",
+        "L4717-L4730",
+        "L4767-L4776",
+        "L4851-L4868",
+        "L5057-L5062",
+        "L5128-L5159",
+        "L5175",
+        "L5204-L5275",
+        "L5290-L5306",
+        "L5319-L5343",
+        "L5346-L5400",
+        "L5420",
+        "L5446",
+        "L5452-L5468",
+        "L5480-L5501",
+        "L6091-L6110"
+      ],
+      "spans_scope": "44 个候选 source_span 的并集，合并相邻后得 28 段，共 582 行，逐行读过。段落覆盖：元代瓷器与火铳（L3696-L3714、L3849-L3860）、朱碧山银槎（L3871-L3886）、郭守敬简仪（L3928-L3951）、萨迦寺与泉州清净寺（L3968-L3999）、刘贯道《消夏图卷》（L4048-L4061）、明代织物与瓷器图注（L4160、L4163）、紫砂东陵瓜、九龙壁与大报恩寺琉璃塔（L4368-L4422）、清代陶瓷一组（L4427-L4452）、北京紫禁城（L4465-L4496）、《十竹斋笺谱》（L4619-L4656）、粤汉铁路徽章与北洋机器局标志（L4717-L4730）、王大凡瓷板（L4767-L4776）、都锦生丝织风景（L4851-L4868）、沙逊大厦（L5057-L5062）、国旗与开国大典天安门装饰（L5128-L5159）、喜鹊登梅挂屏（L5175）、飞鸽自行车（L5204-L5275）、民族文化宫（L5290-L5306）、解放牌卡车、东风轿车与金星金笔（L5319-L5343）、《长城》壁毯、成昆铁路牙雕与毛主席像章（L5346-L5400）、《戴月归》（L5420）、白度母唐卡（L5446）、联想手机与李宁球鞋（L5452-L5468）、动画三片与奥运会海报（L5480-L5501）、上海生态景观大道（L6091-L6110）。各条实际引用行号见其 sources.location 与验证状态。",
+      "candidates_in_scope": 44
+    }
+  },
+  "method": {
+    "rules": [
+      "44 个候选 = 夏燕靖 2016 册 works 类本批全部候选（批前全部为 needs_evidence）；先按实体与既有 KU 逐条对账，再定 create／update／no_delta。",
+      "裁定结果：create 42、update 1、no_delta 1、rejected 0、跨册或同册异名合并 0。",
+      "更新 1 条：events/founding-ceremony-tiananmen-decoration-1949.md 已有 version 1，来源为同册 L5557，只记“装饰设计任务下达”一层；本批候选 span L5147-L5149 补出执行单位、舞美队、草图 20 余幅、周恩来选定 8 盏太阳宫灯并修改布局等事实，故扩写为 version 2，不另立重复 event。",
+      "no_delta 1 条：cand-11-39“上海生态景观大道”所抽事实已被既有 events/2000-shanghai-eco-landscape-avenue.md 完整覆盖，无新增可核事实；按 approved→no_delta 记终态并保留 target_ref，不改写既有文件。",
+      "无合并：42 条新建各指不同实体。同题材异媒材不合并——五谷丰登灯笼纹织锦与青花五谷丰登图盘分别为织物与瓷器；三件动画（《大闹画室》《大闹天宫》《小蝌蚪找妈妈》）各自成条；解放牌卡车与东风轿车虽同段叙述但为不同车型。",
+      "建筑类对象沿用 AI 批次先例写入 works，不改用 places 字段组：北京紫禁城（palace_complex）、萨迦寺（monastery）、泉州清净寺（mosque）、大报恩寺琉璃塔（pagoda）、九龙壁（glazed_tile_wall）、沙逊大厦（commercial_building）、民族文化宫（public_building）。与既有 places 城市／遗址条目并立，不据名称相近合并。",
+      "works 的 sub_type 无枚举，按 taxonomy 自由词口径取值；本批 34 个取值，其中 porcelain_vessel 6、animation 3、badge 2，其余 31 类各 1。",
+      "维度归属：B 36 条、C 6 条，无 A/D/E。C 类 6 条为《十竹斋笺谱》、粤汉铁路徽章、北洋机器局标志、中华人民共和国国旗、毛主席像章、2008 年北京奥运会海报；其余工艺、器用、建筑、交通工具、动画均归 B。",
+      "confidence：medium 25、low 17。low 限于仅图注一行、仅列名或仅一句描述而无形制、尺寸、出土或流传信息者：泉州清净寺、三锭脚踏纺棉车、追韩信图梅瓶、蒙恬将军玉壶春瓶、五谷丰登灯笼纹织锦、青花五谷丰登图盘、王大凡富贵寿考瓷板、紫砂东陵瓜、九龙壁、粤汉铁路徽章、北洋机器局标志、民族文化宫、喜鹊登梅大挂屏、《戴月归》、《白度母》唐卡、金星牌金笔、2008 年北京奥运会海报。",
+      "图版一律未视觉核验：medium 条目的形制、尺寸与工艺描述均取自正文文字，未据图版补充；图注信息只作定位与命名依据。全部条目在验证状态内注明“图版未视觉核验”。",
+      "跨区间取证单列：大报恩寺琉璃塔引 L4386-L4402 与 L4479 两段，设两条 sources entry；因同属一册，source_count 仍记 1。",
+      "location 以候选 source_span 为准：sajia-si、zhui-hanxin-tu-meiping、prc-national-flag、great-wall-tapestry、chengkun-tielu、jinxing-pen 六条初稿写成自估范围，复核后统一改回候选 span。",
+      "原文讹字与异写照录标疑、不改字：紫禁城图 9-35／9-36 图注与正文不指同一城、图 9-33／9-34 图注文字同行交错、帆船图景瓷盘图注 3 鱼而正文 4 鱼、《十竹斋笺谱》“短版／饱版”疑为“饾版”、沙逊大厦“锥字体”疑指锥形、大报恩寺“欧州”“传教上”、解放牌“还还参加”、Simca Vedetee 照录不改、图 9-5-2 瓷器图置于丝织段、图 11-36 与 1978 年展览段并置、奥运会海报图注无正文对应描述。完整记录见各条目验证状态与证据范围。",
+      "来源内部张力并列不裁定：五谷丰登织锦与青花盘图文不相称、紫禁城两条图注所指宫城不一致、大报恩寺塔“中国之大古董，永乐之大窑器”为清人称谓而非明人自评、沙逊大厦风格评语与建造年代并置、解放牌与东风轿车投产时间同段叙述。均照录并注明，不据外部知识改写。",
+      "内部链接：42 条新建共引用 55 个内部 KU 路径，逐条解析，0 缺失；不新增弱关联，不将正文链接升级为 relations。",
+      "引文校验：对写入文件内 92 处“…”逐条比对 2016 册源文（去空白后子串匹配），92 处全部逐字命中。首轮 97 处中 6 处未命中：5 处为图注嵌套引号（改按原书图注行照录、外层不加引号），1 处为自述短语（去引号转述）；审计中补入开国大典条目周恩来原话 1 处。",
+      "before 指纹口径：42 条 create 的 before 一律为 null；1 条 update 的 before 取 HEAD blob（sha256:14ae5dbaa9c08394007d427009069ae09c195d0fc408066c11c90b785c2367c1），before_source 记 head_blob；after_sha256 与 bytes/lines 按 utf-8 → CRLF→LF 归一 → sha256 口径计算。",
+      "03基础书籍-md文档只读；本批只写 04-knowledge/units/works 下 42 个新文件与 04-knowledge/units/events 下 1 个既有文件；来源文件零改动。",
+      "生成态在改完全部目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；--check-generated 因工作树相对 HEAD 有未提交变更而按预期阻断，本批未执行 git commit／push。",
+      "日期口径：本批 created/updated/last_verified 统一记 2026-10-26，review_due 记 2027-04-26。",
+      "生成器口径：42 个新文件由临时脚本按同一模板写入，写盘前逐文件做 os.path.exists 保护，未覆盖任何既有文件；临时脚本与中间产物已在批次收尾时删除。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 42,
+      "update": 1,
+      "merged_pairs": 0,
+      "no_delta": 1,
+      "paths_created": [
+        "04-knowledge/units/works/zhu-bishan-yincha.md",
+        "04-knowledge/units/works/quanzhou-qingjing-si.md",
+        "04-knowledge/units/works/liu-guandao-xiaoxia-tujuan.md",
+        "04-knowledge/units/works/yuan-huoqiang.md",
+        "04-knowledge/units/works/guo-shoujing-jianyi.md",
+        "04-knowledge/units/works/sajia-si.md",
+        "04-knowledge/units/works/sandian-jiaota-fangmianche.md",
+        "04-knowledge/units/works/zhui-hanxin-tu-meiping.md",
+        "04-knowledge/units/works/mengtian-jiangjun-yuhuchun-ping.md",
+        "04-knowledge/units/works/wugu-fengdeng-denglongwen-zhijin.md",
+        "04-knowledge/units/works/qinghua-wugu-fengdeng-tu-pan.md",
+        "04-knowledge/units/works/dabaoensi-liuli-ta.md",
+        "04-knowledge/units/works/beijing-zijincheng.md",
+        "04-knowledge/units/works/shizhuzhai-jianpu.md",
+        "04-knowledge/units/works/yongzheng-fencai-sangnv-pan.md",
+        "04-knowledge/units/works/guangxu-caiyou-diaoci-fangping.md",
+        "04-knowledge/units/works/wangdafan-fugui-shoukao-ciban.md",
+        "04-knowledge/units/works/fanchuan-tujing-cipan.md",
+        "04-knowledge/units/works/zisha-donglinggua.md",
+        "04-knowledge/units/works/jiulongbi.md",
+        "04-knowledge/units/works/yuehan-tielu-huizhang.md",
+        "04-knowledge/units/works/beiyang-jiqiju-biaozhi.md",
+        "04-knowledge/units/works/jiuxi-shibajian.md",
+        "04-knowledge/units/works/sassoon-house.md",
+        "04-knowledge/units/works/prc-national-flag.md",
+        "04-knowledge/units/works/flying-pigeon-bicycle.md",
+        "04-knowledge/units/works/jiefang-truck.md",
+        "04-knowledge/units/works/dongfeng-sedan.md",
+        "04-knowledge/units/works/great-wall-tapestry.md",
+        "04-knowledge/units/works/mao-badge.md",
+        "04-knowledge/units/works/minzu-wenhua-gong.md",
+        "04-knowledge/units/works/xique-dengmei.md",
+        "04-knowledge/units/works/chengkun-tielu.md",
+        "04-knowledge/units/works/daiyuegui.md",
+        "04-knowledge/units/works/baidum.md",
+        "04-knowledge/units/works/jinxing-pen.md",
+        "04-knowledge/units/works/da-nao-hua-shi.md",
+        "04-knowledge/units/works/da-nao-tian-gong.md",
+        "04-knowledge/units/works/xiao-ke-dou-zhao-ma-ma.md",
+        "04-knowledge/units/works/lenovo-et960.md",
+        "04-knowledge/units/works/li-ning-banpo-basketball-shoe.md",
+        "04-knowledge/units/works/beijing-olympic-poster-2008.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/events/founding-ceremony-tiananmen-decoration-1949.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/events/2000-shanghai-eco-landscape-avenue.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-aj/apply-plan.jsonl",
+      "rows": 43,
+      "create": 42,
+      "update": 1,
+      "note": "42 条 create 的 before 为 null；1 条 update 记录 HEAD blob 指纹与 before_source。"
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-aj/candidate-decision-ledger.jsonl",
+      "rows": 132,
+      "candidates": 44,
+      "applied": 43,
+      "no_delta": 1,
+      "note": "44 个候选各走 needs_evidence→ready_for_review→approved→applied/no_delta 三步转移，终态行带 target_ref。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-aj/canonical-mapping.json",
+      "entries": 44,
+      "merged_candidates": [],
+      "merged_note": "本批无发现阶段并入的同实体候选；44 条一一对应 42 个新建目标、1 个更新目标与 1 个 no_delta 目标。"
+    }
+  },
+  "state_after": {
+    "applied": 1236,
+    "needs_evidence": 3209,
+    "no_delta": 82,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2130,
+    "active": 3209
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 132,
+      "candidates_in_ledger": 44,
+      "candidates_in_scope": 44,
+      "final_applied_transitions": 43,
+      "final_no_delta": 1,
+      "final_rejected_new": 0,
+      "plan_rows": 43,
+      "create": 42,
+      "update": 1,
+      "merged_notes": 0,
+      "fingerprints_verified": 43,
+      "fingerprint_errors": [],
+      "before_baseline": {
+        "head_blob": 1,
+        "prior_batch_record": 0
+      },
+      "mapping_entries": 44,
+      "quote_audit": {
+        "quoted_strings": 92,
+        "verbatim_in_source": 92,
+        "dequoted_or_reworded": 6,
+        "added_during_audit": 1,
+        "label_strings": 0,
+        "note": "首轮 97 处中 6 处未逐字命中：5 处图注嵌套引号改按原书图注行照录，1 处自述短语去引号转述；审计中补入周恩来原话 1 处，终轮 92 处全部逐字命中。"
+      },
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 1090,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 1090,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/1090",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "1090/1090",
+      "persons": 119,
+      "institutions": 144,
+      "places": 149,
+      "works": 182,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 1090,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更）。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 1090,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:2df41c776e02cd8bbf42753327a04f7353e2b126e34c66f049f08c7036196c40",
+      "counts": {
+        "applied": 1236,
+        "needs_evidence": 3209,
+        "no_delta": 82,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3209,
+        "terminal": 2130
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "work_package": "2026-10-26-2016xiayanjing-works-batch-ai",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 29 个 works 类候选：新建 29、更新 0、判 no_delta 0、rejected 0、合并 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:b5b75d6c30d0703211d588a0551b0ab6ed42406228a08befc25d35dd389dab9a",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1164,
+        "needs_evidence": 3282,
+        "no_delta": 81,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L2413-L2424",
+        "L2491-L2503",
+        "L2518-L2787",
+        "L2796-L2832",
+        "L2835-L2848",
+        "L2851-L2953",
+        "L2986-L3021",
+        "L3373-L3388",
+        "L3391-L3395",
+        "L3401-L3404",
+        "L3470-L3494",
+        "L3553-L3564"
+      ],
+      "spans_scope": "29 个候选 source_span 的并集，合并相邻后得 12 段，共 547 行，逐行读过。L2518-L2787 覆盖唐代服饰、织锦、印染与绘画多条候选；L2851-L2953 覆盖隋唐造船、家具、铜镜与麟德殿；L3373-L3388 与 L3391-L3395 分属宋代铜器与金银器两段。各条实际引用行号见其 sources.location 与验证状态。",
+      "candidates_in_scope": 29
+    }
+  },
+  "method": {
+    "rules": [
+      "29 个候选 = 夏燕靖 2016 册 works 类本批全部候选（批前全部为 needs_evidence）；先按实体与既有 KU 逐条对账，再定 create／update。",
+      "全部 29 条判 create：逐个比对 04-knowledge/units 下 eight 类目录的文件名与 title/aliases，无同实体既有条目；无跨册同实体合并，也无同册异名合并。",
+      "两条建筑类对象按既有 works 先例写入 works，未改用 places 字段组：麟德殿（palace_hall）与晋祠圣母殿（timber_frame_hall）。理由是二者在本册中作为“单体建筑作品”被描述（形制、尺度、风格评语），与 places 侧的遗址／城市／窑口字段无关；place 侧已有同名或近名条目时不覆盖。",
+      "宝莲藻井（cave_ceiling）按石窟装饰构件记为 works，不并入 places/longmen 类条目，也不新建 place。",
+      "confidence：medium 12、low 17。low 限于仅图注一行、仅列名或仅一句风格评语，而无形制、尺寸、出土或流传信息的条目（联珠鹿纹锦、螺钿花鸟纹经函、龙纹葵花镜、白瓷贴花豆、凤首龙柄壶、三彩双鱼壶、续纹锦、联珠野猪头纹锦、树下立羊图夹缬屏风、耆英号、两头尖船、《高逸图》、莲花青瓷托碗、莲花造型温酒器、晋祠圣母殿、西夏活字印本、乳钉狮纹鎏金银盏）。",
+      "works 的 sub_type 无枚举，按 taxonomy 自由词口径取值；本批 18 个取值：painting 4、porcelain_vessel 4、brocade 3、bronze_mirror 2、printed_textile 2、ship 2，其余 12 类各 1（bronze_ewer、cave_ceiling、ceramic_drum、garment、lacquer_box、palace_hall、printed_book、sancai_vessel、silver_censer、silver_cup、timber_frame_hall、warship）。ship 2 分指耆英号（广船）与两头尖船，warship 1 指五牙大战舰，三者不合并。",
+      "维度归属：B 29 条，无 A 类。本批无设计史观／图式复原类条目，画作条目（《步辇图》《捣练图》《簪花仕女图》《高逸图》）只作物证与制度旁证记录，不提升为艺术史评价。",
+      "划界规则：同器异名不合并——文思院造鎏金朵带银熏炉与 places/famen-si-digong.md 所记李立新称鎏金卧龟莲花纹朵带五足银熏炉，同出法门寺地宫，已在两条内互标“疑同器异名”，不据推测合并、不据他条数字改写本条。图号冲突并列不裁定——图 7-29 在册内两指（乳钉狮纹鎏金银盏与德阳孝泉镇银熏炉），两条各自记录图号并注明冲突。麟德殿数据与 works/daming-gong.md 同源重出，两条不互为证据。",
+      "图版一律未视觉核验：17 条 low 中 13 条只有一行图注，另 3 条为图注加同段通说（联珠鹿纹锦、凤首龙柄壶、晋祠圣母殿），1 条只有正文一句推论且无图注（西夏活字印本）；medium 条目的形制描述均来自正文文字，未据图版补充。KU 中逐条注明“图版未视觉核验”。",
+      "原文讹字与异写标疑不改字：锤鑠成型（疑“锤揲”）、穹窿窟顶（疑“穹窿”为“穹隆”异写）、目中为一色（疑“日中”）、对风（疑“对凤”）、可幅盘缔缭绫（“缔”疑讹）、匝形提染锅（疑“提梁”）、图注 6-49/6-50 与图版行序交错、图注 6-47…6-50 与正文（图6-50）引用不衔接、图 6-8 标“唐代”却置于隋代段、图 6-14 标“锦”而段落论“绫”、图 6-9 系于越窑句后而图注只标“唐代”、图 7-30 在建筑装修段与斗拱图并引、耆英号图注“隋唐”与船名并置待考、西夏活字印本用“推见”属推论。",
+      "来源内部张力并列不裁定：五牙大战舰未说明“五牙”是船名还是船型等级；续纹锦“续纹”一词正文未释；联珠野猪头纹锦原文未解释纹样；文思院熏炉的实测数字与他条所记法门寺银熏炉数字不合，并列不改写；耆英号为广船，图注年代作“隋唐”而船名指向清代对外贸易船，照录不作年代判定。",
+      "引文校验：对 29 个写入文件内的 93 处“…”逐条比对 2016 册源文（去空白后子串匹配），93 处全部逐字命中。首轮 94 处中 1 处为自造分析标签（《步辇图》条目“服色可辨”），已改为不带引号的转述。",
+      "before 指纹口径：29 条全为 create，apply-plan 的 before 一律为 null；after_sha256 与 bytes/lines 按 utf-8 → CRLF→LF 归一 → sha256 口径计算。",
+      "03基础书籍-md文档只读；本批只写 04-knowledge/units/works；本批不执行 git commit／push。",
+      "生成态在改完全部目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；HEAD 74f6596 为既有提交，非本批授权动作。",
+      "日期口径：本批 created/updated/last_verified 统一记 2026-10-26，review_due 记 2027-04-26，与写入当日一致；不沿用前一日的批次日期。",
+      "生成器口径：29 个文件由三个临时生成脚本按同一模板写入，写盘前逐文件做 os.path.exists 保护，未覆盖任何既有文件；临时脚本已在批次收尾时删除。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 29,
+      "update": 0,
+      "merged_pairs": 0,
+      "no_delta": 0,
+      "paths_created": [
+        "04-knowledge/units/works/huayou-yaogu.md",
+        "04-knowledge/units/works/lianzhu-luwen-jin.md",
+        "04-knowledge/units/works/buniantu.md",
+        "04-knowledge/units/works/daolian-tu.md",
+        "04-knowledge/units/works/zanhua-shinv-tu.md",
+        "04-knowledge/units/works/wensiyuan-yin-xunlu.md",
+        "04-knowledge/units/works/wuya-dazhanjian.md",
+        "04-knowledge/units/works/luodian-huaniao-wen-jinghan.md",
+        "04-knowledge/units/works/anle-gongzhu-yuqun.md",
+        "04-knowledge/units/works/baolian-zaojing.md",
+        "04-knowledge/units/works/longwen-kuihua-jing.md",
+        "04-knowledge/units/works/baici-tiehua-dou.md",
+        "04-knowledge/units/works/fengshou-longbing-hu.md",
+        "04-knowledge/units/works/sancai-shuangyu-hu.md",
+        "04-knowledge/units/works/xuwen-jin.md",
+        "04-knowledge/units/works/lianzhu-yezhutou-wen-jin.md",
+        "04-knowledge/units/works/shuxia-liyang-tu-jiaxie-pingfeng.md",
+        "04-knowledge/units/works/shuangluan-ruishou-kuihua-jing.md",
+        "04-knowledge/units/works/qiyingshao.md",
+        "04-knowledge/units/works/liangtou-jian-chuan.md",
+        "04-knowledge/units/works/gaoyi-tu.md",
+        "04-knowledge/units/works/lindian.md",
+        "04-knowledge/units/works/lianhua-qingci-tuowan.md",
+        "04-knowledge/units/works/lianhua-zaoxing-wenjiuqi.md",
+        "04-knowledge/units/works/bronze-ewer.md",
+        "04-knowledge/units/works/jinci-shengmu-dian.md",
+        "04-knowledge/units/works/namo-shakyamuni-fo.md",
+        "04-knowledge/units/works/xixia-movable-type-print.md",
+        "04-knowledge/units/works/ruding-shishi-liujin-yinzhan.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": []
+    },
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-ai/apply-plan.jsonl",
+      "rows": 29,
+      "create": 29,
+      "update": 0,
+      "note": "29 个候选对应 29 个新建目标；before 全部为 null。"
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-ai/candidate-decision-ledger.jsonl",
+      "rows": 87,
+      "candidates": 29,
+      "applied": 29,
+      "no_delta": 0,
+      "note": "29 个候选各走 needs_evidence→ready_for_review→approved→applied 三步转移，终态行带 target_ref。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-26-2016xiayanjing-works-batch-ai/canonical-mapping.json",
+      "entries": 29,
+      "merged_candidates": [],
+      "merged_note": "本批无发现阶段并入的跨册同实体候选；29 条一一对应 29 个新建目标。"
+    }
+  },
+  "state_after": {
+    "applied": 1193,
+    "needs_evidence": 3253,
+    "no_delta": 81,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2086,
+    "active": 3253
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 87,
+      "candidates_in_ledger": 29,
+      "candidates_in_scope": 29,
+      "final_applied_transitions": 29,
+      "final_no_delta": 0,
+      "final_rejected_new": 0,
+      "plan_rows": 29,
+      "create": 29,
+      "update": 0,
+      "merged_notes": 0,
+      "fingerprints_verified": 29,
+      "fingerprint_errors": [],
+      "before_baseline": {
+        "head_blob": 0,
+        "prior_batch_record": 0
+      },
+      "mapping_entries": 29,
+      "quote_audit": {
+        "quoted_strings": 93,
+        "verbatim_in_source": 93,
+        "revised_to_verbatim": 1,
+        "labels_or_marked_reconstruction": 0
+      },
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 1048,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 1048,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/1048",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "1048/1048",
+      "persons": 119,
+      "institutions": 144,
+      "places": 149,
+      "works": 140,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 1048,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更）。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 1048,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:194245bf2513a97de8abc47c8dc37646b8ffdd4ea3ebf935668b9ab61b64a6f6",
+      "counts": {
+        "applied": 1193,
+        "needs_evidence": 3253,
+        "no_delta": 81,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3253,
+        "terminal": 2086
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

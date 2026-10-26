@@ -1,0 +1,209 @@
+{
+  "work_package": "2026-10-26-2016xiayanjing-terms-batch-al",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 51 个 term 类候选：新建 47、更新 1、no_delta 3、rejected 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:f2e3be072a9710fe8506fde25bc88e8b6670261b049715f4f41535f94612fbbf",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1298,
+        "needs_evidence": 3147,
+        "no_delta": 82,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L101-L114",
+        "L287-L414",
+        "L487-L588",
+        "L624-L649",
+        "L774-L869",
+        "L997-L1076",
+        "L1105-L1127",
+        "L1255-L1280"
+      ],
+      "spans_scope": "逐行复读正文 8 处区间，区间并集 476 行。juzhiji 候选 span L529-L1275 跨越第二至第三章，仅实际证据段 L537-L560 与知识链接 L1272-L1274 计入复读，不把远距离合并段计为逐行覆盖。",
+      "candidates_in_scope": 51
+    }
+  },
+  "method": {
+    "rules": [
+      "裁定口径：51 个 term 候选 → 新建 47、更新 1、no_delta 3、rejected 0。",
+      "判重范围：既有 192 个 term KU 逐名核对，另查 places、works、procedures 中可能承载同名实体的条目；除下列 4 项外无同实体 KU。",
+      "no_delta 1：cand-02-14（青铜合金配比，L648-L649）→ terms/liuqi.md；六齐已含钟鼎 6:1、斧斤 5:1、鉴燧 1:1 及高丰 17% 换算与解释分歧。",
+      "no_delta 2：cand-02-17（九鼎八簋，L776）→ terms/ding.md；ding.md 已完整引 2016 原文并记曾侯乙墓与礼崩乐坏/礼制已变两说，terms/lieding-system.md 已记等级数字。",
+      "no_delta 3：cand-02-74（错金银，L1122-L1127）→ procedures/cuo-jin-yin-cuo-tong.md；该 procedure 已覆盖镶嵌绿松石、春秋中期发展、栾书缶 40 余字与燕赵蔡错铜。",
+      "更新 1：cand-01-89（原始编织，L529-L565）→ procedures/bianzhi.md；补 2016 L564 良渚草编与丝麻织物、四五千年前养蚕织绢判断、姜寨陶钵人字纹席、半坡百余块标本五种编结法；source_count 2→3、version 1→2。",
+      "新建 47 条全部单源：source_count 1、consensus tentative、evidence_status source_backed、version 1；日期 created/updated/last_verified 2026-10-26，review_due 2027-04-26。",
+      "confidence：内容较完整、可据以概述者 36 条 medium；仅单句、图注或器名解释者 11 条 low（shilian、shimopan-mobang、yuqixingzu-taoding、shuiniaoxing-taohu、gusuo、xu-vessel、zhi-vessel、jiao-vessel、jian-basin、yu-basin、shanrang-system）。",
+      "维度：B 44、A 2（类书、百家争鸣）、D 1（禅让制）。sub_type 沿用既有 vessel_form 21、agricultural_tool 5、archaeological_culture 4、tool_type 3、archaeological_period 2、building_type 2、reference_work / hominin / garment_form / device_type / historical_period / political_system / container_form / decorative_motif / intellectual_movement / material_concept 各 1。",
+      "讹字与异写照录标疑，不改字：穴居“冬则居管窑”（疑营窟）、罍“小平地”（疑小平底）、爵“腹侧有錾”（疑鋬）与“口沿近流处有二栓”（疑柱）、觯“解始见于商”（疑觯）、盨原文作“盞（xǔ）”（应为盨）、良渚“新赣大洋州”（疑新干大洋洲）、铁制农具“末耜”“鐏”“甬”“缶（chā，铁锹）”、缶“亦作缋”“陶上类乐器”“湖北宣城”。自拟校字一律用「」，如「手经指挂」「小平底」「觯始见于商」。",
+      "内部张力并列：良渚石犁是否用于犁耕（学界争议与青铜犁反证）、九鼎八簋的礼崩乐坏与礼制已变两说、二里头长流爵“发现最早青铜容器”与马家窑青铜刀年代更早两说，均照录不裁定。",
+      "图版一律标“未视觉核验”：图 1-3、1-6、1-8、1-17、1-18、1-19、1-21、1-22、1-24、2-18 至 2-23、2-39 等只据图注与正文，不据图像下判断。",
+      "引文逐字照录：双引号内文字须与对应来源原文一致，47 个目标共 47 处通过子串审计；被图版或分页隔断的短语改用「」，不作直引。",
+      "译名一律 provisional：采用音译、音译加意译或描述性译名，来源未提供英文名，逐条写入 translation_note。",
+      "来源只读：未改写、删除 03基础书籍-md文档/ 下任何文件；本批只写 04-knowledge/units/terms/ 47 个新文件、04-knowledge/units/procedures/bianzhi.md 与 06-runtime/automation 包内文件。",
+      "指纹口径：utf-8 → CRLF→LF 归一 → sha256；bytes 为归一后 utf-8 字节数，lines 为归一后换行数。更新条目的 before 取 HEAD blob，before_source=head_blob。",
+      "生成态：run_sync_closure.py --refresh-generated --full 18 步通过；--refresh-generated --check-generated 因工作树未提交按设计返回失败，记 blocked_pending_commit，不记 pass。",
+      "生成器存在性保护：新建前检查目标不存在；更新目标须存在且 before 与 HEAD blob 一致；任何不一致即中止，不覆盖既有 KU。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 47,
+      "update": 1,
+      "no_delta": 3,
+      "paths_created": [
+        "04-knowledge/units/terms/zhongguo-gudai-leishu.md",
+        "04-knowledge/units/terms/shandingdongren.md",
+        "04-knowledge/units/terms/zhongshiqi-shidai.md",
+        "04-knowledge/units/terms/shiyu-wenhua.md",
+        "04-knowledge/units/terms/cishan-wenhua.md",
+        "04-knowledge/units/terms/peiligang-wenhua.md",
+        "04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md",
+        "04-knowledge/units/terms/xuejiagang-wenhua.md",
+        "04-knowledge/units/terms/shilian.md",
+        "04-knowledge/units/terms/shimopan-mobang.md",
+        "04-knowledge/units/terms/yuqixingzu-taoding.md",
+        "04-knowledge/units/terms/shuiniaoxing-taohu.md",
+        "04-knowledge/units/terms/yuanshi-fuzhuang.md",
+        "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+        "04-knowledge/units/terms/juzhiji.md",
+        "04-knowledge/units/terms/gusuo.md",
+        "04-knowledge/units/terms/chaoju.md",
+        "04-knowledge/units/terms/xueju.md",
+        "04-knowledge/units/terms/liangzhu-shili.md",
+        "04-knowledge/units/terms/yuanshi-nongju.md",
+        "04-knowledge/units/terms/xianqin-sandai.md",
+        "04-knowledge/units/terms/shanrang-system.md",
+        "04-knowledge/units/terms/copper-stone-period.md",
+        "04-knowledge/units/terms/yan-steamer.md",
+        "04-knowledge/units/terms/gui-vessel.md",
+        "04-knowledge/units/terms/xu-vessel.md",
+        "04-knowledge/units/terms/zun-vessel.md",
+        "04-knowledge/units/terms/yi-vessel.md",
+        "04-knowledge/units/terms/hu-vessel.md",
+        "04-knowledge/units/terms/you-vessel.md",
+        "04-knowledge/units/terms/lei-vessel.md",
+        "04-knowledge/units/terms/gong-vessel.md",
+        "04-knowledge/units/terms/he-vessel.md",
+        "04-knowledge/units/terms/jue-vessel.md",
+        "04-knowledge/units/terms/jia-vessel.md",
+        "04-knowledge/units/terms/gu-vessel.md",
+        "04-knowledge/units/terms/zhi-vessel.md",
+        "04-knowledge/units/terms/jiao-vessel.md",
+        "04-knowledge/units/terms/jian-basin.md",
+        "04-knowledge/units/terms/pan-basin.md",
+        "04-knowledge/units/terms/yu-basin.md",
+        "04-knowledge/units/terms/chikou.md",
+        "04-knowledge/units/terms/fou-vessel.md",
+        "04-knowledge/units/terms/twelve-symbols.md",
+        "04-knowledge/units/terms/hundred-schools.md",
+        "04-knowledge/units/terms/iron-three-brothers.md",
+        "04-knowledge/units/terms/iron-farm-tools.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/procedures/bianzhi.md"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 1346,
+    "needs_evidence": 3096,
+    "no_delta": 85,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2243,
+    "active": 3096
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 153,
+      "candidates_in_ledger": 51,
+      "candidates_in_scope": 51,
+      "final_applied_transitions": 48,
+      "final_no_delta_transitions": 3,
+      "plan_rows": 48,
+      "create": 47,
+      "update": 1,
+      "fingerprints_verified": 48,
+      "mapping_entries": 51,
+      "quote_audit": "47/47",
+      "errors": 0,
+      "index_rebuild_idempotent": true,
+      "term_candidates_left_needs_evidence": 116
+    },
+    "content_audit": {
+      "total_files": 1195,
+      "findings": 0,
+      "empty_body": 0,
+      "empty_frontmatter_values": 0,
+      "missing_sections": 0,
+      "text_corruption": 0,
+      "title_format_issues": 0,
+      "duplicate_titles": 0
+    },
+    "repository_audit": {
+      "counts_by_type": {
+        "persons": 119,
+        "institutions": 144,
+        "places": 149,
+        "works": 182,
+        "publications": 126,
+        "terms": 239,
+        "procedures": 121,
+        "events": 115
+      },
+      "structural_health": "122/130",
+      "knowledge_structure_quality": "55/65",
+      "evidence_quality": "55/55",
+      "traceability": "7/15",
+      "isolated_units": 1195,
+      "hierarchy_assigned": "0/1195"
+    },
+    "relation_audit": {
+      "relation_index_total": 0,
+      "relation_candidates": 0,
+      "relation_type_coverage": "0/67",
+      "broken_target": 0,
+      "isolated_units": 1195,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": "blocked_pending_commit（工作树未提交；HEAD 74f6596）",
+    "knowledge_graph": {
+      "nodes": 1195,
+      "links": 0,
+      "errors": 0
+    },
+    "system_upgrade_chain": "18/18",
+    "skill_registry": "18 leaf skills",
+    "pytest": "250 passed, 16 subtests passed",
+    "governance_backlog": {
+      "p0": 0,
+      "p1": 0,
+      "p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_sha256": "sha256:4c4c8984a964ea359d537f467323d94cc942f70c1ddc68eec89e14b6d036013f",
+      "counts": {
+        "applied": 1346,
+        "needs_evidence": 3096,
+        "no_delta": 85,
+        "rejected": 812
+      },
+      "total": 5339
+    },
+    "verification_date": "2026-10-26"
+  }
+}

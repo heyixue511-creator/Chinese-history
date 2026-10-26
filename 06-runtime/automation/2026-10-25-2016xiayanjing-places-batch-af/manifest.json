@@ -1,0 +1,252 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-places-batch-af",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册剩余的 place 候选 27 个：新建 8、更新 12（其中 cand-03-134 与 cand-02-142 合并为 places/jiangling-chumuqun.md 一条）、判 no_delta 6、无 rejected。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:7f1e70ba512de5444ac2fc65aacd1192b52540469ec5a0ad5f15f5ac219632b4",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1056,
+        "needs_evidence": 3397,
+        "no_delta": 74,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L328-L364",
+        "L487-L507",
+        "L574-L588",
+        "L872-L883",
+        "L946-L954",
+        "L1085-L1088",
+        "L1113-L1121",
+        "L1139-L1142",
+        "L1201",
+        "L1209-L1735",
+        "L1751-L1805",
+        "L1818-L1821",
+        "L1892-L1928",
+        "L2413-L2424",
+        "L3092-L3124",
+        "L3748-L3781",
+        "L4368-L4396",
+        "L4423-L4460",
+        "L5346-L5385"
+      ],
+      "spans_scope": "27 个候选 source_span 的并集；宽跨段为 L1245-L1426（江陵）、L1209-L1735（襄邑）、L1751-L1805（马王堆）、L1892-L1928（广州造船）、L3092-L3124（汴梁／临安）、L3748-L3781（松江府）。span 之外的同册补证行号另见各条 sources 与 validation；未建立 claim 级证据链。",
+      "candidates_in_scope": 27
+    }
+  },
+  "method": {
+    "rules": [
+      "27 个候选 = 夏燕靖 2016 册全部 place 候选（批前全部为 needs_evidence）；先按实体与既有 place／term／institution／procedure 条逐条对账，再定 create／update／merged／no_delta。",
+      "新建 8 条：西侯度遗址、新干大洋洲遗址、丰镐、广州秦汉造船工场遗址、响堂山石窟、松江府、漳州平和、广州。响堂山石窟仅由图注立目、新干大洋洲仅两句且地名 OCR 有讹，两条定 low；其余 6 条为单源 medium。",
+      "更新 12 文件：zhenghan-gucheng-taofang-yizhi（1→2）、xichuan-xiasi-chumu（1→2）、changsha-chumuqun（1→2）、mawangdui-hanmu（2→3，source_count 3→4）、jiangling-chumuqun（1→2）、xiangyi-chenliu（1→2）、pingshan-zhongshanguo-wangmu（1→2）、kaifeng（1→2）、linan（1→2）、shiwan-yao（1→2）、ding-kiln（2→3，source_count 6 不变）、shangyu-yaozhi（1→2）。均在既有条目上追加夏燕靖 2016 来源，不改写既有来源已记内容。",
+      "判 no_delta 6 条：良渚遗址、反山墓地并入 terms/liangzhu-culture.md；郑州商代窑场遗址并入 institutions/shang-royal-pottery-workshop.md；铜绿山古矿井并入 procedures/sheng-tie-rou-hua-ji-shu.md；东下冯遗址并入 terms/proto-porcelain.md；门头沟琉璃渠村并入 procedures/liuli-shaozhao.md（本批已把“黑窑”“御窑”补入该条 aliases）。place 候选不另建与 term／institution／procedure 平行的条目。",
+      "合并 1 组：cand-03-134（江陵）与 cand-02-142（江陵望山）为同一实体，合并写入 places/jiangling-chumuqun.md，canonical 为 cand-03-134；两候选各走 3 行 ledger，终态 target_ref 相同，apply-plan 与 canonical-mapping 各只 1 条。",
+      "划界规则：西侯度只记遗址与石器序列，旧石器工艺总述不入本条；新干大洋洲只记两件青铜犁与犁耕推断；丰镐只记双子都城建制，不并入《考工记》王城规划；广州秦汉造船遗址与 places/guangzhou.md 分列（前者只记秦汉船台，后者只记 17 世纪以后口岸与广式家具、广绣）；响堂山只记图注所指石窟；松江府只记地点与棉纺织地位，黄道婆生平归 persons/huang-daopo.md；漳州平和只记克拉克瓷原产地与窑址群名；郑韩故城 2016 为同题知识链接的复述，无新增遗址信息；望山座屏并入江陵条目，不另立望山条。",
+      "跨册与册内分歧一律并列不裁定：西侯度 180 万年／100 万年；淅川下寺 1978／1979；中山王墓 1977／1997；长沙麻布 280×240／28×24；襄邑服官田自秉含混表述与 2016“临淄和襄邑设服官”；石湾（泥钧／广钧／佛山钧）与分期口径；定窑村名与“初步定论”限定语；开封 6400 家“行户／商户”；《梦梁录》“淳佑／淳祐”；广州船台两套载重；琉璃大报恩寺塔 80 余米／78.2 米。",
+      "来源内部张力照录不调停：L3275“并且是金银”处原文断句；图 3-19 图注“的的”重字；图 9-28“广东右湾”当为“石湾”；L948“汴河之西”疑为“沣河之西”；新干“新赣大洋州”OCR 讹写；2016 L688/L1120 曾侯乙墓年份与庙号不一致。",
+      "跨册同作者段落不构成独立互证：夏燕靖 2009 L4331 与 2016 L5360 的定瓷复烧段、2009 L3621 与 2016 L4390 的琉璃窑异名段，均已在条目内明写。",
+      "断链修复：procedures/shi-la-fa.md → procedures/lost-wax-casting.md；terms/liuli.md（六齐）→ procedures/liuli-shaozhao.md；procedures/qiqi-zhizuo.md → procedures/qiqi-mutai-san-zuofa.md。",
+      "before 指纹口径：5 个 update 目标在 HEAD 74f6596 已有 blob（zhenghan-gucheng-taofang-yizhi、mawangdui-hanmu、kaifeng、linan、ding-kiln），before 取 HEAD blob；另 7 个 update 目标（xichuan-xiasi-chumu、changsha-chumuqun、jiangling-chumuqun、xiangyi-chenliu、pingshan-zhongshanguo-wangmu、shiwan-yao、shangyu-yaozhi）在 HEAD 尚未入库，pre-batch 状态取上一批 apply-plan 记录的 after 指纹（批次 AD 6 个、批次 AE 1 个），行内以 before_source 标明出处；create 行 before 为 null。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。",
+      "生成态在改完全部目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；工作区 HEAD 74f6596 为外部同步进程既有提交，非本批授权动作。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 8,
+      "update": 12,
+      "merged_pairs": 1,
+      "no_delta": 6,
+      "paths_created": [
+        "04-knowledge/units/places/xihoudu-site.md",
+        "04-knowledge/units/places/xingan-dayangzhou-site.md",
+        "04-knowledge/units/places/fenghao.md",
+        "04-knowledge/units/places/guangzhou-qin-han-zaochuan-gongchang-yizhi.md",
+        "04-knowledge/units/places/xiangtangshan-shiku.md",
+        "04-knowledge/units/places/songjiang-fu.md",
+        "04-knowledge/units/places/zhangzhou-pinghe.md",
+        "04-knowledge/units/places/guangzhou.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/zhenghan-gucheng-taofang-yizhi.md",
+        "04-knowledge/units/places/xichuan-xiasi-chumu.md",
+        "04-knowledge/units/places/changsha-chumuqun.md",
+        "04-knowledge/units/places/mawangdui-hanmu.md",
+        "04-knowledge/units/places/jiangling-chumuqun.md",
+        "04-knowledge/units/places/xiangyi-chenliu.md",
+        "04-knowledge/units/places/pingshan-zhongshanguo-wangmu.md",
+        "04-knowledge/units/places/kaifeng.md",
+        "04-knowledge/units/places/linan.md",
+        "04-knowledge/units/places/shiwan-yao.md",
+        "04-knowledge/units/places/ding-kiln.md",
+        "04-knowledge/units/places/shangyu-yaozhi.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/institutions/shang-royal-pottery-workshop.md",
+        "04-knowledge/units/procedures/liuli-shaozhao.md",
+        "04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md",
+        "04-knowledge/units/terms/liangzhu-culture.md",
+        "04-knowledge/units/terms/proto-porcelain.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-places-batch-af\\apply-plan.jsonl",
+      "rows": 20,
+      "create": 8,
+      "update": 12,
+      "note": "27 个候选对应 20 个写入目标：cand-02-142 合并入 cand-03-134 的 places/jiangling-chumuqun.md，6 条 no_delta 不占 plan 行。before 基线：HEAD blob 5 条、上一批 apply-plan 记录 7 条（行内 before_source 标明）。"
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-places-batch-af\\candidate-decision-ledger.jsonl",
+      "rows": 81,
+      "candidates": 27,
+      "applied": 21,
+      "no_delta": 6,
+      "note": "27 个候选各走 needs_evidence→ready_for_review→approved→终态三步转移，终态行带 target_ref；合并组两候选终态 target_ref 相同。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-2016xiayanjing-places-batch-af\\canonical-mapping.json",
+      "entries": 26,
+      "merged_candidates": [
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-142"
+      ]
+    }
+  },
+  "state_after": {
+    "applied": 1077,
+    "needs_evidence": 3370,
+    "no_delta": 80,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 1969,
+    "active": 3370
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 81,
+      "candidates_in_ledger": 27,
+      "candidates_in_scope": 27,
+      "final_applied_transitions": 21,
+      "final_no_delta": 6,
+      "final_rejected_new": 0,
+      "plan_rows": 20,
+      "create": 8,
+      "update": 12,
+      "merged_candidates": 1,
+      "fingerprints_verified": 20,
+      "fingerprint_errors": [],
+      "before_baseline": {
+        "head_blob": 5,
+        "prior_batch_record": 7
+      },
+      "mapping_entries": 26,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 934,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 934,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/934",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "934/934",
+      "persons": 74,
+      "institutions": 144,
+      "places": 148,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 934,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67",
+      "relation_candidates": 3,
+      "relation_candidate_rule": "s7_name_overlap"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更），diff 集中在 candidate-index.jsonl、current-health.json、governance-backlog.md、generated-projections-manifest.json 与知识图谱数据；与 AC、AD、AE 批情形相同。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 934,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:8f0b2cdeb6bbd1d038e064e40d949d9fe7277d156720c2fc0de9cc659682eabf",
+      "counts": {
+        "applied": 1077,
+        "needs_evidence": 3370,
+        "no_delta": 80,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3370,
+        "terminal": 1969
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

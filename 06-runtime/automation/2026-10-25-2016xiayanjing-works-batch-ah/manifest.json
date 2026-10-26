@@ -1,0 +1,285 @@
+{
+  "work_package": "2026-10-25-2016xiayanjing-works-batch-ah",
+  "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 41 个 works 类候选：新建 40（39 个 works + 1 个 places）、更新 1（莲花尊）、判 no_delta 0、rejected 0。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:b3ad12d29b937d50f37229e2a4f3e7693eefc62790d7543cfa2851c6762f8742",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 1123,
+        "needs_evidence": 3323,
+        "no_delta": 81,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+      "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+      "spans": [
+        "L439",
+        "L466-L507",
+        "L513",
+        "L525",
+        "L638-L645",
+        "L697-L702",
+        "L718",
+        "L722",
+        "L725",
+        "L744",
+        "L850-L869",
+        "L971-L990",
+        "L1056-L1084",
+        "L1113-L1121",
+        "L1276-L1285",
+        "L1306-L1310",
+        "L1333-L1334",
+        "L1336-L1337",
+        "L1394-L1410",
+        "L1495-L1498",
+        "L1663-L1670",
+        "L1720-L1726",
+        "L1765-L1774",
+        "L1796-L1802",
+        "L1836-L1850",
+        "L1956-L1961",
+        "L2086-L2109",
+        "L2150-L2157",
+        "L2174-L2189",
+        "L2193-L2202",
+        "L2249-L2262",
+        "L2265",
+        "L2317"
+      ],
+      "spans_scope": "41 个候选 source_span 的并集，合并相邻后得 33 段。L466-L507 为神人兽面纹玉琮、三足斝、良渚古城三条共享的宽跨段；L1056-L1084 覆盖铁刃铜钺与玉柄铁剑两节；L2086-L2109 为莲花尊候选的整段（写入源只取 L2104-L2108）。各条实际引用行号见其 sources.location 与验证状态。",
+      "candidates_in_scope": 41
+    }
+  },
+  "method": {
+    "rules": [
+      "41 个候选 = 夏燕靖 2016 册 works 类全部候选（批前全部为 needs_evidence）；先按实体与既有 KU 逐条对账，再定 create／update。",
+      "新建 40 条，落在 39 个 works 文件与 1 个 places 文件：cand-01-55 良渚古城按 place 建档写入 places/liangzhu-gucheng.md，依据既有 ('work','places'): 2 的跨类写回先例与该实体本体为考古遗址；其 sub_type 取 place 侧的 archaeological_site，frontmatter 用 place 字段组（modern_name／historical_names／administrative_context／spatial_scope）。",
+      "更新 1 文件：works/lianhua-zun.md（version 1→2，source_count 4→5）。仅追加 2016 升级版 L2104-L2108 源与同文重出说明，相应改写匹配质量为“四家共五册”，不改写既有四册已记内容，不因同源重出提高 consensus。",
+      "confidence：medium 19、low 22。low 限于仅图注一行、仅一句列名或一句风格评语，而无形制、尺寸、出土或流传信息的条目（彩陶条纹壶、神人兽面纹玉琮、三足斝、猪纹黑陶钵、黄帝垂衣裳雕塑、圈足觥、追篇、铜鸮尊、食人卣、人面纹铜钺、龙虎尊、王子午鼎、父庚子孙觚、卫鼎、双鹿瓦当、王城图（聂崇义）、王城图（戴震）、《孔子圣迹图》、《墨子救宋图》、树下对鸟对羊纹锦、晋武帝司马炎冕服、牛头鹿角金饰件）。",
+      "works 的 sub_type 无枚举，按 taxonomy 的自由词口径取值；本批 27 个取值：bronze_vessel 10、pottery_vessel 2、porcelain_vessel 2、bronze_weapon 2、reconstruction_drawing 2、painting 2，其余 21 类各 1（jade_figure、bronze_figure、iron_sword、bronze_furniture、stone_relief、roof_tile_end、bronze_sculpture、scientific_instrument、printed_textile、garment、stone_architecture、lacquer_screen、loom、brocade、brick_relief、ceremonial_robe、gold_ornament、painted_pottery、jade_ritual_object、modern_sculpture、archaeological_site）。",
+      "维度归属：B 38 条；A 3 条（王城图（聂崇义）、王城图（戴震）、黄帝垂衣裳雕塑）。A 类三条都是“设计史观／图像建构”材料，与造物本体分开记，不把图式复原当器物证据。",
+      "划界规则：王城图两幅分记聂崇义《三礼图》与戴震《考工记图》两个复原系统，不合并、不互证；浑天仪一条只记张衡浑天仪与《后汉书》引文，引文中实属地动仪的描述按原文照录并标出；提花绫机只记马钧改进的绫机，不与前代织机合并；树下对鸟对羊纹锦只记图注与同段通说，不把图注并称的“树纹锦”另立条目；铁刃铜钺与玉柄铁剑分记陨铁与人工冶铁两个技术阶段，不合并为“早期铁器”。",
+      "图版一律未视觉核验：本批 8 条只有一行图注（cand-01-97、01-98、01-100、02-124、02-128、02-129、03-126、04-72），另 1 条为图注加同节制度叙述（cand-03-125），其余条目以正文评述为主或正文与图注并用；KU 中逐条注明“图版未视觉核验”，涉及形制判断的条目另注“原文未描述”。",
+      "原文讹字与异写标疑不改字：铁刃铜（正文两处缺末字“钺”，同节标题作“铁刃铜钺”）、陶上类乐器（两处，疑“陶土类”）、《谏逐客令》（通行作《谏逐客书》）、追篇（图注器名，疑“追簋”之讹）、“r”形纹（照录未释读）、西代青铜鎏金灯具（疑“汉代”）、张仪利用机械原理（疑“张衡”）、《孔子圣迹图》图注作“春秋”（此类圣迹图多为后世刻本）、图注 5-11“对乌”（疑“对鸟”）、图注 5-11 并列“树纹锦”（未另立条目）。",
+      "来源内部张力并列不裁定：玉柄铁剑／铜柄铁剑（同章正文与知识链接两说，出土同指三门峡西周晚期）；妇好墓“4 件”酒器而只列三名（铜鸮尊、偶方彝、圈足觥），第四件不代补；浑天仪段引文所述“都柱”“八道”、龙与蟾蜍实为地动仪结构，原文置于浑天仪名下，照录并标出；曾侯乙铜鉴缶原文只把缶当可击之器，不称鉴缶为准乐器。",
+      "引文校验：对 41 个写入文件内的 100 处“…”逐条比对 2016 册源文。91 处与源文逐字一致，其中 8 处原为压缩或改字引文，已改为逐字引文或转为不带引号的转述（曾侯乙铜鉴缶、慈母投杼图、树下对鸟对羊纹锦、龙虎尊、人面纹铜钺、东汉青瓷高足碗、妇好墓玉雕人俑、玉柄铁剑）；余 9 处为分析标签（如“最早青铜器两说”“4 件而列 3 名”）或显式补字（“在此基础上…”），不冒充源文。",
+      "before 指纹口径：唯一 update 目标 works/lianhua-zun.md 在 HEAD 74f6596 已有 blob，before 取 HEAD blob；40 条 create 行 before 为 null。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。",
+      "生成态在改完全部目标文件后以 run_sync_closure.py --refresh-generated --full 统一刷新，18 步闭合含 pytest 全部通过；HEAD 74f6596 为外部同步进程既有提交，非本批授权动作。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 40,
+      "update": 1,
+      "merged_pairs": 0,
+      "no_delta": 0,
+      "paths_created": [
+        "04-knowledge/units/works/caitao-tiaowen-hu.md",
+        "04-knowledge/units/works/shenren-shoumianwen-yucong.md",
+        "04-knowledge/units/works/sanzu-jia.md",
+        "04-knowledge/units/places/liangzhu-gucheng.md",
+        "04-knowledge/units/works/zhuwen-heitao-bo.md",
+        "04-knowledge/units/works/huangdi-chuiyishang-sculpture.md",
+        "04-knowledge/units/works/erlitou-long-spout-jue.md",
+        "04-knowledge/units/works/ring-foot-gong.md",
+        "04-knowledge/units/works/zhui-pian.md",
+        "04-knowledge/units/works/bronze-owl-zun.md",
+        "04-knowledge/units/works/man-eating-you.md",
+        "04-knowledge/units/works/human-face-bronze-yue.md",
+        "04-knowledge/units/works/longhu-zun.md",
+        "04-knowledge/units/works/prince-ziwu-ding.md",
+        "04-knowledge/units/works/fu-geng-zisun-gu.md",
+        "04-knowledge/units/works/wei-ding.md",
+        "04-knowledge/units/works/zenghouyi-bronze-jianfou.md",
+        "04-knowledge/units/works/fuhao-jade-figure.md",
+        "04-knowledge/units/works/sanxingdui-bronze-statue.md",
+        "04-knowledge/units/works/iron-blade-bronze-yue.md",
+        "04-knowledge/units/works/jade-handle-iron-sword.md",
+        "04-knowledge/units/works/yunwen-tongjin.md",
+        "04-knowledge/units/works/cimu-touzhu-tu.md",
+        "04-knowledge/units/works/shuanglu-wadang.md",
+        "04-knowledge/units/works/wangchengtu-nie-chongyi.md",
+        "04-knowledge/units/works/wangchengtu-dai-zhen.md",
+        "04-knowledge/units/works/kongzi-shengjitu.md",
+        "04-knowledge/units/works/mozi-jiu-song-tu.md",
+        "04-knowledge/units/works/tongbenma.md",
+        "04-knowledge/units/works/huntianyi.md",
+        "04-knowledge/units/works/lanbai-yinhuabu.md",
+        "04-knowledge/units/works/xinzhui-fushi.md",
+        "04-knowledge/units/works/donghan-qingci-gaozu-wan.md",
+        "04-knowledge/units/works/gao-yi-que.md",
+        "04-knowledge/units/works/simajinlong-mu-qi-pingfeng.md",
+        "04-knowledge/units/works/ti-hua-ling-ji.md",
+        "04-knowledge/units/works/shuxia-duiniao-duiyang-wenjin.md",
+        "04-knowledge/units/works/zhulin-qixian-huaxiang-zhuan.md",
+        "04-knowledge/units/works/jin-wudi-simayan-mianfu.md",
+        "04-knowledge/units/works/niutou-lujiao-jin-shijian.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/lianhua-zun.md"
+      ],
+      "paths_no_delta": []
+    },
+    "apply_plan": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-works-batch-ah/apply-plan.jsonl",
+      "rows": 41,
+      "create": 40,
+      "update": 1,
+      "note": "41 个候选对应 41 个写入目标：40 新建 + 1 更新，无 no_delta。before 基线：HEAD blob 1 条，create 行 before 为 null。"
+    },
+    "ledger": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-works-batch-ah/candidate-decision-ledger.jsonl",
+      "rows": 123,
+      "candidates": 41,
+      "applied": 41,
+      "no_delta": 0,
+      "note": "41 个候选各走 needs_evidence→ready_for_review→approved→applied 三步转移，终态行带 target_ref。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime/automation/2026-10-25-2016xiayanjing-works-batch-ah/canonical-mapping.json",
+      "entries": 41,
+      "merged_candidates": [],
+      "merged_note": "本批无发现阶段并入的跨册同实体候选；41 条一一对应 41 个写入目标。"
+    }
+  },
+  "state_after": {
+    "applied": 1164,
+    "needs_evidence": 3282,
+    "no_delta": 81,
+    "rejected": 812,
+    "total": 5339,
+    "terminal": 2057,
+    "active": 3282
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 123,
+      "candidates_in_ledger": 41,
+      "candidates_in_scope": 41,
+      "final_applied_transitions": 41,
+      "final_no_delta": 0,
+      "final_rejected_new": 0,
+      "plan_rows": 41,
+      "create": 40,
+      "update": 1,
+      "merged_notes": 0,
+      "fingerprints_verified": 41,
+      "fingerprint_errors": [],
+      "before_baseline": {
+        "head_blob": 1,
+        "prior_batch_record": 0
+      },
+      "mapping_entries": 41,
+      "quote_audit": {
+        "quoted_strings": 100,
+        "verbatim_in_source": 91,
+        "revised_to_verbatim": 8,
+        "labels_or_marked_reconstruction": 9
+      },
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 1019,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 1019,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/1019",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "1019/1019",
+      "persons": 119,
+      "institutions": 144,
+      "places": 149,
+      "works": 111,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 1019,
+      "over_connected": 0,
+      "relation_index_total": 0,
+      "relation_type_coverage": "0/67"
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "18/18",
+      "status": "passed",
+      "head_check": "blocked_pending_commit",
+      "note": "刷新后 run_sync_closure.py --refresh-generated --full 的 18 步全部通过（含 pytest）。--check-generated 的 HEAD 比对因本批未获 commit 授权而仍会阻断（工作树相对 HEAD 74f6596 有未提交变更）。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "knowledge_graph": {
+      "nodes": 1019,
+      "links": 0
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "skill_registry": {
+      "skills": 18,
+      "leaf": 18,
+      "router": 0,
+      "issues": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "governance_backlog": {
+      "system_p0": 0,
+      "system_p1": 0,
+      "system_p2": 0,
+      "research_debt": 5,
+      "candidate_opportunities": 2
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:b5b75d6c30d0703211d588a0551b0ab6ed42406228a08befc25d35dd389dab9a",
+      "counts": {
+        "applied": 1164,
+        "needs_evidence": 3282,
+        "no_delta": 81,
+        "rejected": 812
+      },
+      "lifecycle_class": {
+        "active": 3282,
+        "terminal": 2057
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

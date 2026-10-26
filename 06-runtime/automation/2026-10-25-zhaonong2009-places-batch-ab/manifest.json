@@ -1,0 +1,208 @@
+{
+  "work_package": "2026-10-25-zhaonong2009-places-batch-ab",
+  "goal": "处理赵农《中国艺术设计史》2009 册 place 候选第 39–74 个，并补做上批遗留的何家村（共 37 个）：新建 16、更新 1 文件（2 候选）、no_delta 4、补写 3、前批已终态无需动作 12。",
+  "status": "applied",
+  "date": "2026-10-25",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime\\state\\candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:953da5bda2ab8de2f83c0efb7e46ec1639116a7bad753fc4a1ec459872166fc8",
+      "sha256_scope": "CRLF→LF 归一后",
+      "counts_before": {
+        "applied": 974,
+        "needs_evidence": 3490,
+        "no_delta": 63,
+        "rejected": 812
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        "L4624-L4651",
+        "L4738-L4779",
+        "L4782-L4797",
+        "L5210-L5425",
+        "L5534-L5616",
+        "L5591-L5597",
+        "L6142-L6144",
+        "L6655-L6727",
+        "L6724-L6726",
+        "L6762-L6789",
+        "L7745-L7824"
+      ],
+      "spans_scope": "16 个 create 候选 source_span 的并集（L5210-L5425 为开封、临安、苏州的宽跨段，实际引用窄于该区间）；update 与补写另引 L4652-L4675（龙门奉先寺、万佛沟、潜溪寺）、L4766-L4770（邢窑）、L5577-L5581（定窑）。",
+      "candidates_in_scope": 37
+    }
+  },
+  "method": {
+    "rules": [
+      "37 个候选 = 上批 range 内遗留的 needs_evidence 何家村（cand-07-103）+ 第 39–74 个 place 候选；先按实体与既有 place／term／procedure／event KU 对账，再逐条定 create／update／no_delta／补写，最后核对手头终态候选的 change-set 完整性。",
+      "新建 16 条：乾陵、婺州窑、岳州窑、何家村窖藏、苏州、开封、临安、和林、景山、五台山、上海、天津、北京、西安、深圳、香港。何家村为双源（赵农 + 夏燕靖 2016），source_count 2；婺州窑、岳州窑、天津、深圳、香港仅单源一至三句，confidence 定为 low。",
+      "更新 1 文件（2 候选）：奉先寺 cand-07-66 与万佛沟 cand-07-68 合并为 places/longmen-grottoes.md 一次更新，补赵农 L4666（摩崖大龛、唐代木构、九尊、通高约 17 米、弟子菩萨天王力士）与 L4670-L4672（珠联璧合、伊水从南向北、山高水阔），version 1→2；两候选各自走 needs_evidence→ready_for_review→approved→applied，apply-plan 只保留一行 canonical update。",
+      "no_delta 4 条：潜溪寺（cand-07-65，longmen 已逐字收录 L4656 全文）、长沙窑（cand-07-95，terms/underglaze-color.md 已引 L4772）、万安宫（cand-09-96，与和林同段无独立事实，并入 places/helin.md）、虎门炮台（cand-11-073，procedures/huo-pao-zhuzao.md 与 events/opium-war.md 已收录火炮尺寸、装药与“龙门／虎门”异文）。",
+      "补写 3 条（expected_state == state，状态不变）：cand-07-94 邢窑（rejected，2026-10-25-five-book-canonical-units）补 L4766／L4768／L4770；cand-08-123 定窑（rejected，2026-10-25-three-book-place-units）补 L5577／L5579／L5581；cand-08-125 磁州窑（rejected，2026-10-25-five-book-canonical-units）补 L5593／L5597。三条原结论均称“语义已并入”，而 change-set 未落入对应行号；补写使原结论成为事实，不改变候选终态。",
+      "磁州窑条目另校正行号锚点：原赵农 citation 指向 L5017（实为“第二节 造纸与印刷”标题），磁州窑原文在 L5591-L5597；本批将 citation 改为 L5591、L5593、L5597，location 改为 L5583、L5591-L5597，并在条目验证状态中记明。",
+      "前批已终态无需动作 12 条：瓯窑、汝窑、钧窑、哥窑、龙泉窑、耀州窑（均 rejected）、吉州窑、建窑、景德镇、元大都、南京、醴陵（均 applied）——逐条核对 change-set 与既有条目，内容完整，本批不写行。",
+      "跨册分歧一律并列不裁定：婺州窑与岳州窑（李立新“南方青瓷四系统”第四家作德清窑，赵农作岳州窑）；开封外城周围 40 里与宋代“50 余里”时段未交代；赵农“金花八曲银杯”与夏燕靖 2016“舞伎八棱金杯”。",
+      "来源异常照录不径改：苏州图 7-30 与 7-31 图题同为“宋 石刻翁仲”；临安“杭通航，本为渡河渡船之意”释义含混；和林建城系于“成吉思汗”；北京“十大建筑”只举人民大会堂、友谊宾馆、中国美术馆三例。",
+      "03基础书籍-md文档只读；本批写 04-knowledge/units；本批不执行 git commit／push。工作区在批内被外部同步进程提交（HEAD 2942f2a→64695fd→74f6596），非本批授权动作，已在 verification.generated_snapshot_check 记明。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 16,
+      "update": 1,
+      "paths_created": [
+        "04-knowledge/units/places/qianling.md",
+        "04-knowledge/units/places/wuzhou-kiln.md",
+        "04-knowledge/units/places/yuezhou-kiln.md",
+        "04-knowledge/units/places/hejiacun-jiaocang.md",
+        "04-knowledge/units/places/suzhou.md",
+        "04-knowledge/units/places/kaifeng.md",
+        "04-knowledge/units/places/linan.md",
+        "04-knowledge/units/places/helin.md",
+        "04-knowledge/units/places/jingshan.md",
+        "04-knowledge/units/places/wutaishan.md",
+        "04-knowledge/units/places/shanghai.md",
+        "04-knowledge/units/places/tianjin.md",
+        "04-knowledge/units/places/beijing.md",
+        "04-knowledge/units/places/xian.md",
+        "04-knowledge/units/places/shenzhen.md",
+        "04-knowledge/units/places/xianggang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/longmen-grottoes.md"
+      ],
+      "paths_supplemented": [
+        "04-knowledge/units/places/xing-kiln.md",
+        "04-knowledge/units/places/ding-kiln.md",
+        "04-knowledge/units/places/cizhou-kiln.md"
+      ]
+    },
+    "apply_plan": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-ab\\apply-plan.jsonl",
+      "rows": 20,
+      "create": 16,
+      "update": 4,
+      "note": "4 个 update = longmen-grottoes.md（奉先寺，万佛沟并入同一次）+ 邢窑 + 定窑 + 磁州窑三条补写。"
+    },
+    "ledger": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-ab\\candidate-decision-ledger.jsonl",
+      "rows": 69,
+      "candidates": 25,
+      "applied": 18,
+      "no_delta": 4,
+      "rejected": 3,
+      "note": "18 applied = 16 create + 奉先寺 + 万佛沟（同一文件两次候选转移）；3 rejected 均为补写同状态行（邢窑、定窑、磁州窑），不是新裁定。全批 37 个候选 = ledger 25 + 前批已终态且无需动作 12。"
+    },
+    "canonical_mapping": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-ab\\canonical-mapping.json",
+      "entries": 20,
+      "merged_candidates": [
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-68",
+        "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-96"
+      ]
+    },
+    "supplemental_updates": {
+      "path": "06-runtime\\automation\\2026-10-25-zhaonong2009-places-batch-ab\\supplemental-updates.json",
+      "entries": 3
+    }
+  },
+  "state_after": {
+    "applied": 992,
+    "needs_evidence": 3468,
+    "no_delta": 67,
+    "rejected": 812,
+    "total": 5339
+  },
+  "verification": {
+    "batch_checks": {
+      "ledger_rows": 69,
+      "candidates_in_ledger": 25,
+      "candidates_in_scope": 37,
+      "final_applied_transitions": 18,
+      "final_no_delta": 4,
+      "final_rejected_new": 0,
+      "supplement_rows": 3,
+      "plan_rows": 20,
+      "create": 16,
+      "update": 4,
+      "merged_candidates": 2,
+      "fingerprints_verified": 20,
+      "mapping_entries": 20,
+      "errors": 0,
+      "index_rebuild_idempotent": true
+    },
+    "content_audit": {
+      "knowledge_units": 877,
+      "findings": 0
+    },
+    "repository_audit": {
+      "structure_gate": "122/130",
+      "structure_integrity": "55/65",
+      "evidence_chain": "55/55",
+      "knowledge_units": 877,
+      "type_coverage": "8/8",
+      "structure_node_coverage": "0/4",
+      "hierarchy_level": "v0.1",
+      "deprecated_type_residue": 0,
+      "hierarchy_mounted": "0/877",
+      "broken_links": 0,
+      "same_name_groups": 4,
+      "same_name_disambiguated": 8,
+      "same_name_missing": 0,
+      "evidence_refs": "877/877",
+      "persons": 74,
+      "institutions": 144,
+      "places": 91,
+      "works": 72,
+      "publications": 68,
+      "terms": 192,
+      "procedures": 121,
+      "events": 115,
+      "traceability": "7/15"
+    },
+    "relation_audit": {
+      "broken_target": 0,
+      "invalid_relation_type": 0,
+      "missing_inverse": 0,
+      "weak_evidence": 0,
+      "unbaselined_generic_evidence_backed": 0,
+      "isolated_units": 877,
+      "over_connected": 0
+    },
+    "rule_drift": 0,
+    "whitespace": "pass",
+    "generated_snapshot_check": {
+      "steps_passed": "17/17",
+      "status": "passed",
+      "note": "首次运行在 17/17 步阻断（生成态文件与 HEAD 不一致；commit 未获本批授权）。随后外部同步进程把 HEAD 推进到 74f6596，重跑 17/17 通过。本批自身未执行 git commit／push。",
+      "observed_head": "74f6596"
+    },
+    "system_upgrade_chain": {
+      "checks": 18,
+      "pass": 18,
+      "fail": 0
+    },
+    "pytest": {
+      "tests": 250,
+      "subtests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "post_apply_check": {
+      "candidate_index_rows": 5339,
+      "candidate_index_sha256": "sha256:8ba5438b06494f7e16f200e64c7c213e9f6e3b390656b1bd89b57d58dda25460",
+      "counts": {
+        "applied": 992,
+        "needs_evidence": 3468,
+        "no_delta": 67,
+        "rejected": 812
+      }
+    },
+    "verification_date": "2026-10-26"
+  }
+}

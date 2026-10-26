@@ -1,0 +1,186 @@
+[
+  {
+    "entity": "西侯度遗址",
+    "target_ref": "04-knowledge/units/places/xihoudu-site.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-25",
+    "merged_candidates": []
+  },
+  {
+    "entity": "良渚遗址",
+    "target_ref": "04-knowledge/units/terms/liangzhu-culture.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "新干大洋洲遗址",
+    "target_ref": "04-knowledge/units/places/xingan-dayangzhou-site.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-78",
+    "merged_candidates": []
+  },
+  {
+    "entity": "反山墓地",
+    "target_ref": "04-knowledge/units/terms/liangzhu-culture.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-96",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑州商代窑场遗址",
+    "target_ref": "04-knowledge/units/institutions/shang-royal-pottery-workshop.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-40",
+    "merged_candidates": []
+  },
+  {
+    "entity": "丰镐",
+    "target_ref": "04-knowledge/units/places/fenghao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "铜绿山古矿井",
+    "target_ref": "04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-67",
+    "merged_candidates": []
+  },
+  {
+    "entity": "东下冯遗址",
+    "target_ref": "04-knowledge/units/terms/proto-porcelain.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-90",
+    "merged_candidates": []
+  },
+  {
+    "entity": "广州秦汉造船工场遗址",
+    "target_ref": "04-knowledge/units/places/guangzhou-qin-han-zaochuan-gongchang-yizhi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-17",
+    "merged_candidates": []
+  },
+  {
+    "entity": "响堂山石窟",
+    "target_ref": "04-knowledge/units/places/xiangtangshan-shiku.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-116",
+    "merged_candidates": []
+  },
+  {
+    "entity": "松江府",
+    "target_ref": "04-knowledge/units/places/songjiang-fu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-16",
+    "merged_candidates": []
+  },
+  {
+    "entity": "漳州平和",
+    "target_ref": "04-knowledge/units/places/zhangzhou-pinghe.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-31",
+    "merged_candidates": []
+  },
+  {
+    "entity": "广州",
+    "target_ref": "04-knowledge/units/places/guangzhou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-32",
+    "merged_candidates": []
+  },
+  {
+    "entity": "门头沟琉璃渠村",
+    "target_ref": "04-knowledge/units/procedures/liuli-shaozhao.md",
+    "action": "no_delta",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "郑韩故城",
+    "target_ref": "04-knowledge/units/places/zhenghan-gucheng-taofang-yizhi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-75",
+    "merged_candidates": []
+  },
+  {
+    "entity": "淅川下寺楚墓",
+    "target_ref": "04-knowledge/units/places/xichuan-xiasi-chumu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-89",
+    "merged_candidates": []
+  },
+  {
+    "entity": "长沙战国楚墓",
+    "target_ref": "04-knowledge/units/places/changsha-chumuqun.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-09",
+    "merged_candidates": []
+  },
+  {
+    "entity": "马王堆1号汉墓",
+    "target_ref": "04-knowledge/units/places/mawangdui-hanmu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-115",
+    "merged_candidates": []
+  },
+  {
+    "entity": "江陵",
+    "target_ref": "04-knowledge/units/places/jiangling-chumuqun.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-134",
+    "merged_candidates": [
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-142"
+    ]
+  },
+  {
+    "entity": "襄邑",
+    "target_ref": "04-knowledge/units/places/xiangyi-chenliu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-135",
+    "merged_candidates": []
+  },
+  {
+    "entity": "中山王1号墓",
+    "target_ref": "04-knowledge/units/places/pingshan-zhongshanguo-wangmu.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-34",
+    "merged_candidates": []
+  },
+  {
+    "entity": "汴梁",
+    "target_ref": "04-knowledge/units/places/kaifeng.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-07",
+    "merged_candidates": []
+  },
+  {
+    "entity": "临安",
+    "target_ref": "04-knowledge/units/places/linan.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-08",
+    "merged_candidates": []
+  },
+  {
+    "entity": "佛山石湾",
+    "target_ref": "04-knowledge/units/places/shiwan-yao.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-30",
+    "merged_candidates": []
+  },
+  {
+    "entity": "曲阳定窑遗址",
+    "target_ref": "04-knowledge/units/places/ding-kiln.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-81",
+    "merged_candidates": []
+  },
+  {
+    "entity": "小仙坛东汉瓷窑址",
+    "target_ref": "04-knowledge/units/places/shangyu-yaozhi.md",
+    "action": "update",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-03",
+    "merged_candidates": []
+  }
+]

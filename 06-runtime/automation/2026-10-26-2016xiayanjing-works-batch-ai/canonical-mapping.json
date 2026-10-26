@@ -1,0 +1,205 @@
+[
+  {
+    "entity": "花釉腰鼓",
+    "target_ref": "04-knowledge/units/works/huayou-yaogu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-28",
+    "merged_candidates": []
+  },
+  {
+    "entity": "联珠鹿纹锦",
+    "target_ref": "04-knowledge/units/works/lianzhu-luwen-jin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《步辇图》",
+    "target_ref": "04-knowledge/units/works/buniantu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-52",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《捣练图》",
+    "target_ref": "04-knowledge/units/works/daolian-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-53",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《簪花仕女图》",
+    "target_ref": "04-knowledge/units/works/zanhua-shinv-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-54",
+    "merged_candidates": []
+  },
+  {
+    "entity": "文思院造鎏金朵带银熏炉",
+    "target_ref": "04-knowledge/units/works/wensiyuan-yin-xunlu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-59",
+    "merged_candidates": []
+  },
+  {
+    "entity": "五牙大战舰",
+    "target_ref": "04-knowledge/units/works/wuya-dazhanjian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-63",
+    "merged_candidates": []
+  },
+  {
+    "entity": "螺钿花鸟纹经函",
+    "target_ref": "04-knowledge/units/works/luodian-huaniao-wen-jinghan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-81",
+    "merged_candidates": []
+  },
+  {
+    "entity": "安乐公主羽裙",
+    "target_ref": "04-knowledge/units/works/anle-gongzhu-yuqun.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-114",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宝莲藻井",
+    "target_ref": "04-knowledge/units/works/baolian-zaojing.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-115",
+    "merged_candidates": []
+  },
+  {
+    "entity": "龙纹葵花镜",
+    "target_ref": "04-knowledge/units/works/longwen-kuihua-jing.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-117",
+    "merged_candidates": []
+  },
+  {
+    "entity": "白瓷贴花豆",
+    "target_ref": "04-knowledge/units/works/baici-tiehua-dou.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-118",
+    "merged_candidates": []
+  },
+  {
+    "entity": "凤首龙柄壶",
+    "target_ref": "04-knowledge/units/works/fengshou-longbing-hu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-119",
+    "merged_candidates": []
+  },
+  {
+    "entity": "三彩双鱼壶",
+    "target_ref": "04-knowledge/units/works/sancai-shuangyu-hu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-120",
+    "merged_candidates": []
+  },
+  {
+    "entity": "续纹锦",
+    "target_ref": "04-knowledge/units/works/xuwen-jin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-121",
+    "merged_candidates": []
+  },
+  {
+    "entity": "联珠野猪头纹锦",
+    "target_ref": "04-knowledge/units/works/lianzhu-yezhutou-wen-jin.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-122",
+    "merged_candidates": []
+  },
+  {
+    "entity": "树下立羊图夹缬屏风",
+    "target_ref": "04-knowledge/units/works/shuxia-liyang-tu-jiaxie-pingfeng.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-123",
+    "merged_candidates": []
+  },
+  {
+    "entity": "双鸾瑞兽葵花镜",
+    "target_ref": "04-knowledge/units/works/shuangluan-ruishou-kuihua-jing.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-124",
+    "merged_candidates": []
+  },
+  {
+    "entity": "耆英号",
+    "target_ref": "04-knowledge/units/works/qiyingshao.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-125",
+    "merged_candidates": []
+  },
+  {
+    "entity": "两头尖船",
+    "target_ref": "04-knowledge/units/works/liangtou-jian-chuan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-126",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《高逸图》",
+    "target_ref": "04-knowledge/units/works/gaoyi-tu.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-127",
+    "merged_candidates": []
+  },
+  {
+    "entity": "麟德殿",
+    "target_ref": "04-knowledge/units/works/lindian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-128",
+    "merged_candidates": []
+  },
+  {
+    "entity": "莲花青瓷托碗",
+    "target_ref": "04-knowledge/units/works/lianhua-qingci-tuowan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-129",
+    "merged_candidates": []
+  },
+  {
+    "entity": "莲花造型温酒器",
+    "target_ref": "04-knowledge/units/works/lianhua-zaoxing-wenjiuqi.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-130",
+    "merged_candidates": []
+  },
+  {
+    "entity": "宋代铜执壶",
+    "target_ref": "04-knowledge/units/works/bronze-ewer.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-38",
+    "merged_candidates": []
+  },
+  {
+    "entity": "晋祠圣母殿",
+    "target_ref": "04-knowledge/units/works/jinci-shengmu-dian.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-39",
+    "merged_candidates": []
+  },
+  {
+    "entity": "《南无释迦牟尼佛》夹缬",
+    "target_ref": "04-knowledge/units/works/namo-shakyamuni-fo.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-51",
+    "merged_candidates": []
+  },
+  {
+    "entity": "西夏活字印本",
+    "target_ref": "04-knowledge/units/works/xixia-movable-type-print.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-57",
+    "merged_candidates": []
+  },
+  {
+    "entity": "乳钉狮纹鎏金银盏",
+    "target_ref": "04-knowledge/units/works/ruding-shishi-liujin-yinzhan.md",
+    "action": "create",
+    "canonical_candidate": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-80",
+    "merged_candidates": []
+  }
+]

@@ -1,0 +1,97 @@
+{
+ "work_package": "2026-10-26-2016xiayanjing-terms-batch-am",
+ "goal": "处理夏燕靖《中国艺术设计史（升级版）》2016 册的 27 个 unit 类候选：新建 18、更新 4、no_delta 5、rejected 0。",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:4c4c8984a964ea359d537f467323d94cc942f70c1ddc68eec89e14b6d036013f",
+   "sha256_scope": "CRLF→LF 归一后",
+   "counts_before": {
+    "needs_evidence": 3096,
+    "applied": 1346,
+    "rejected": 812,
+    "no_delta": 85
+   }
+  },
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "spans": [
+    "L1248-L1312",
+    "L1334-L1644",
+    "L1690-L1804",
+    "L1938-L1992",
+    "L2005-L2034",
+    "L2072-L2151",
+    "L2262-L2291",
+    "L2340-L2364",
+    "L2395-L2434"
+   ],
+   "spans_scope": "逐行复读正文 9 处区间，区间并集 751 行；27 个候选的证据行均落在这 9 段内。",
+   "candidates_in_scope": 27
+  }
+ },
+ "method": {
+  "rules": [
+   "裁定口径：27 个 unit 候选 → 新建 18、更新 4、no_delta 5、rejected 0。",
+   "判重范围：逐名核对既有 terms、places、works、procedures、institutions、persons、publications、events；除下列 9 项外无同实体 KU。",
+   "新建 18 条全部单源：source_count 1、consensus tentative、evidence_status source_backed、version 1；日期 created/updated/last_verified 2026-10-26，review_due 2027-04-26。",
+   "confidence：内容可据以概述者 16 条 medium；仅单句、图注或单段短记者 2 条 low（ruqun、shuilu-gongzhan-tu）。",
+   "维度：B 15、A 2（rumo-zhizheng、hundred-schools 原有）、D 2（shese-zhigong、qushui-liushang、lubu；其中 shese-zhigong 以 D 为主、B 为辅）。sub_type 取 garment_form、pictorial_motif、craft_division、device_type、vessel_category、vehicle_type、ship_type、posture、intellectual_debate、design_principle、building_type、garden_layout、literati_custom、ritual_paraphernalia。",
+   "更新 4 条：hu-vessel（补汉代钟/钫与量器，version 1→2）、la-ran（补 2016 蜡染知识链接，source_count 3→4、version 1→2）、hundred-schools（补十家名单与四家纲领，version 1→2）、qing-ci（补商代中期原始瓷与四窑系特征，source_count 2→3、version 1→2）。",
+   "no_delta 5 条：xiu-qi（髹漆）、lian-gang-ji-shu（炼钢技术）、baigong（《考工记》三十工种）、qin-gongshi-gongguan（官手工业制度）、liuchao-qingci-zhuangshi-liufa（青瓷装饰六法），既有 KU 均与 2016 同段同文或更详。",
+   "断代分歧并列不裁定：青瓷起点赵农记东汉末年，2016 记商代中期出现、东汉成熟。",
+   "讹字与异写照录标疑，不改字：襦裙“上襦极短”、跽坐“匡坐/正坐/危坐”、卤薄“卤薄/卤簿”、单锭纺车“杨雄/扬雄”、杂裾“垂髯/垂臂/垂髻/垂髾”、设色之工“画绩/画缋”“慌氏/覩氏”。自拟校字一律用「」，如「垂髾」「扬雄」。",
+   "图版一律标“未视觉核验”：图 3-32、图 4-9、图 4-36、图 4-37、图 5-17、表 3-x 十器图例均只据图注与正文，不据图像下判断。",
+   "引文逐字照录：双引号内文字须与对应来源原文一致，22 个目标共 144 处双引号引文通过子串审计；被图版或分页隔断的短语、自拟校字改用「」。",
+   "指纹口径：utf-8 → CRLF→LF 归一 → sha256；bytes 为归一后 utf-8 字节数，lines 为归一后换行数。tracked 更新条目的 before 取 HEAD blob，before_source=head_blob。",
+   "untracked 例外：hu-vessel.md 与 hundred-schools.md 为前批未提交的新文件，无 HEAD blob，apply-plan 记 before=null、before_source=untracked_no_head_blob，不伪造前置哈希；两文件在写回前均已完整读取。",
+   "生成态：run_sync_closure.py --refresh-generated --full 18 步通过；--refresh-generated --check-generated 因工作树未提交按设计返回失败，记 blocked_pending_commit，不记 pass。",
+   "来源只读：未改写、删除 03基础书籍-md文档/ 下任何文件；本批只写 terms/ 18 个新文件、4 个既有 KU 与 06-runtime/automation 包内文件。",
+   "不 commit、不 push：外部状态变更须用户当次明确授权。"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 18,
+   "update": 4,
+   "no_delta": 5,
+   "paths_created": [
+    "04-knowledge/units/terms/ruqun.md",
+    "04-knowledge/units/terms/shuilu-gongzhan-tu.md",
+    "04-knowledge/units/terms/shese-zhigong.md",
+    "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+    "04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md",
+    "04-knowledge/units/terms/chunqiu-zhanguo-zhanche-zhonglei.md",
+    "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+    "04-knowledge/units/terms/jizuo.md",
+    "04-knowledge/units/terms/rumo-zhizheng.md",
+    "04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md",
+    "04-knowledge/units/terms/fudao.md",
+    "04-knowledge/units/terms/yichi-sanshan.md",
+    "04-knowledge/units/terms/qushui-liushang.md",
+    "04-knowledge/units/terms/lubu.md",
+    "04-knowledge/units/terms/fota.md",
+    "04-knowledge/units/terms/shikusi.md",
+    "04-knowledge/units/terms/danding-fangche.md",
+    "04-knowledge/units/terms/zaju-chuishao-fu.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/terms/hu-vessel.md",
+    "04-knowledge/units/procedures/la-ran.md",
+    "04-knowledge/units/terms/hundred-schools.md",
+    "04-knowledge/units/terms/qing-ci.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/procedures/xiu-qi.md",
+    "04-knowledge/units/procedures/lian-gang-ji-shu.md",
+    "04-knowledge/units/terms/baigong.md",
+    "04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+    "04-knowledge/units/procedures/liuchao-qingci-zhuangshi-liufa.md"
+   ]
+  }
+ }
+}
