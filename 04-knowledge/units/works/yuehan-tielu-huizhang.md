@@ -20,7 +20,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -30,7 +30,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "本条是 C 维度民国徽章设计的器物锚点，材料只有图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/c1-baokan-guanggao-jigou-biaozhi.md
+    role: representative_work
+    primary: true
+    scope_note: "C.1 首批：以粤汉铁路徽章为民国机构标识的器物样本，复读图注与近现代设计更新章的上下文；材料仅图注一行。"
+hierarchy_scope_note: "粤汉铁路徽章是 C.1 下民国徽章设计的器物锚点，材料只有图注一行；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -48,10 +56,10 @@ hierarchy_scope_note: "本条是 C 维度民国徽章设计的器物锚点，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 C 维度民国徽章设计的器物锚点，材料只有图注一行。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.2 报刊广告与机构标识（representative_work，主挂载）
+- role_in_theme: representative_work
+- scope_note: 粤汉铁路徽章是 C.1 下民国徽章设计的器物锚点，材料只有图注一行；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

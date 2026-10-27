@@ -1,0 +1,70 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-r",
+  "goal": "赵农 2009 册总结段 unit 候选写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:817862b75e5e46ca3b3a52926725af1530fa2b0d2d0bcf2bf7b9b6408e5a5501",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1965,
+        "applied": 2329,
+        "rejected": 852,
+        "no_delta": 193
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          8484,
+          8560
+        ]
+      ],
+      "spans_scope": "赵农 2009 册「总结」L8484–L8560 逐段复读，含鸦片战争、洋务运动、新文化运动与欧洲中国风；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图总结-1 至图总结-7 未视觉核验。",
+      "candidates_in_scope": 9,
+      "candidate_spans_union": [
+        [
+          8484,
+          8560
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "逐字引文用“ ”，作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "总结段只作宏观判断时，条目只著录来源所说，不据来源外材料补生平、版本与器物谱系",
+      "原文年份疑误照录并标注，不径改",
+      "人物、著作、建筑与风尚术语按类型分列，不因同段出现而合并"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 9,
+      "update": 0,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/persons/lin-zexu.md",
+        "04-knowledge/units/works/shuijinggong.md",
+        "04-knowledge/units/persons/wei-yuan.md",
+        "04-knowledge/units/persons/feng-guifen.md",
+        "04-knowledge/units/publications/xiaobinlu-kangyi.md",
+        "04-knowledge/units/persons/chen-duxiu.md",
+        "04-knowledge/units/persons/hu-shi.md",
+        "04-knowledge/units/persons/kang-youwei.md",
+        "04-knowledge/units/terms/zhongguo-feng.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册总结段 unit 候选 9 条，全部 create。范围 L8484-L8560。新建覆盖林则徐、魏源、冯桂芬、陈独秀、胡适、康有为六人，水晶宫一件建筑作品，《校邠庐抗议》一种著述，中国风一术语。曾国藩、左宗棠、李鸿章、张之洞、张謇、孙中山、郑观应、詹天佑等虽有提及，但不在本批候选内，未新建；《海国图志》《新青年》《建国方略》《盛世危言》等亦未在本批立目。图总结-1 至图总结-7 未视觉核验。"
+    }
+  }
+}

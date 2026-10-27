@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "本 KU 是 C 维度下视觉传达与出版物的文献锚点。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/c1-baokan-guanggao-jigou-biaozhi.md
+    role: source_publication
+    primary: true
+    scope_note: "C.1 首批：以《上海新报》1862 年香皂广告为我国报纸广告滥觞的样本，复读其大幅文字加实物照片的早期图文形态。"
+hierarchy_scope_note: "《上海新报》是 C.1 下早期报纸广告的文献锚点；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -51,10 +59,10 @@ hierarchy_scope_note: "本 KU 是 C 维度下视觉传达与出版物的文献�
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 C 维度下视觉传达与出版物的文献锚点。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.2 报刊广告与机构标识（source_publication，主挂载）
+- role_in_theme: source_publication
+- scope_note: 《上海新报》是 C.1 下早期报纸广告的文献锚点；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

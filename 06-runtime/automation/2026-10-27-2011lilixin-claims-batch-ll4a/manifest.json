@@ -1,0 +1,159 @@
+{
+ "after_bytes": 1985545,
+ "after_sha256": "sha256:17205becdab4576b40c1d615f84a10e40462048cbb97bf22598f5e4fb423ad43",
+ "baseline": {
+  "candidate_applied": 4157,
+  "candidate_needs_evidence": 77,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1165
+ },
+ "before_bytes": 1926980,
+ "before_sha256": "sha256:2491920f9eb1e4d8c7fa555747e6c63f3df0a8f9004db009d040678ebdf571cb",
+ "candidate_count": 35,
+ "claim_rows": 35,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 41,
+ "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "existing_claims_updated": 0,
+ "goal": "处理李立新《中国设计艺术史论》第三章第二节至第五章 claim 候选（L1228-L1640），新增 35 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2011lilixin-claims-batch-ll4a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4192,
+  "candidate_needs_evidence": 42,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1200
+ },
+ "scope_spans": [
+  [
+   1230,
+   1230
+  ],
+  [
+   1232,
+   1232
+  ],
+  [
+   1255,
+   1255
+  ],
+  [
+   1279,
+   1279
+  ],
+  [
+   1291,
+   1291
+  ],
+  [
+   1295,
+   1295
+  ],
+  [
+   1297,
+   1297
+  ],
+  [
+   1303,
+   1303
+  ],
+  [
+   1322,
+   1322
+  ],
+  [
+   1324,
+   1324
+  ],
+  [
+   1330,
+   1330
+  ],
+  [
+   1336,
+   1336
+  ],
+  [
+   1350,
+   1350
+  ],
+  [
+   1360,
+   1360
+  ],
+  [
+   1386,
+   1386
+  ],
+  [
+   1403,
+   1403
+  ],
+  [
+   1410,
+   1410
+  ],
+  [
+   1416,
+   1422
+  ],
+  [
+   1432,
+   1432
+  ],
+  [
+   1474,
+   1474
+  ],
+  [
+   1505,
+   1507
+  ],
+  [
+   1509,
+   1509
+  ],
+  [
+   1517,
+   1517
+  ],
+  [
+   1537,
+   1537
+  ],
+  [
+   1549,
+   1549
+  ],
+  [
+   1553,
+   1562
+  ],
+  [
+   1560,
+   1560
+  ],
+  [
+   1591,
+   1601
+  ],
+  [
+   1605,
+   1605
+  ],
+  [
+   1633,
+   1633
+  ],
+  [
+   1638,
+   1640
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "support_links": 142,
+ "with_supported_by": 35
+}

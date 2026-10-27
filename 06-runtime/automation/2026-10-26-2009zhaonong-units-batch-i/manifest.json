@@ -1,0 +1,100 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-i",
+  "goal": "赵农 2009 册第九章第一至第二节（绪论、城市与建筑）unit 候选 34 条裁决与类型化写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:32fe3da58a50da4f9d8af48e1cd97cf4ea50724cd09f35ecd5846f4e7d48e21d",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2234,
+        "applied": 2067,
+        "rejected": 847,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          6599,
+          6833
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第九章第一至第二节正文 L6599–L6833 逐段复读，含绪论（明清政治、江南园林、科学知识、火器造船、工艺文献、京张铁路）与城市建筑的都城、地方城市、寺观、皇家陵园、万里长城五目；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 34,
+      "candidate_spans_union": [
+        [
+          6601,
+          8560
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "重复实体只保留一个 canonical，其余候选判 rejected",
+      "仅图注、单行列举或绪论一句总述不足以立条，实质材料在后续节的候选留待后批处理",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 29,
+      "update": 4,
+      "no_delta": 0,
+      "rejected": 1,
+      "paths_created": [
+        "04-knowledge/units/works/ming-changcheng.md",
+        "04-knowledge/units/persons/zheng-he.md",
+        "04-knowledge/units/publications/nongzheng-quanshu.md",
+        "04-knowledge/units/works/jingzhang-tielu.md",
+        "04-knowledge/units/persons/zhan-tianyou.md",
+        "04-knowledge/units/persons/tang-ruowang.md",
+        "04-knowledge/units/persons/nan-huairen.md",
+        "04-knowledge/units/persons/kuaixiang.md",
+        "04-knowledge/units/terms/zuo-zu-you-she.md",
+        "04-knowledge/units/places/xi-yuan.md",
+        "04-knowledge/units/works/tiantan.md",
+        "04-knowledge/units/works/xiannongtan.md",
+        "04-knowledge/units/works/taihedian.md",
+        "04-knowledge/units/terms/qianchao-houshi.md",
+        "04-knowledge/units/works/nanjing-chengqiang.md",
+        "04-knowledge/units/works/shenyang-gugong.md",
+        "04-knowledge/units/works/wudangshan-daoguan.md",
+        "04-knowledge/units/works/wudang-jinding-tongdian.md",
+        "04-knowledge/units/works/chengde-waibamiao.md",
+        "04-knowledge/units/works/ming-xiaoling.md",
+        "04-knowledge/units/works/ming-shisanling.md",
+        "04-knowledge/units/works/changling-lengendian.md",
+        "04-knowledge/units/works/dingling.md",
+        "04-knowledge/units/works/qing-xiling.md",
+        "04-knowledge/units/works/qing-dongling.md",
+        "04-knowledge/units/places/shanhaiguan.md",
+        "04-knowledge/units/places/juyongguan.md",
+        "04-knowledge/units/places/badaling.md",
+        "04-knowledge/units/places/jiayuguan.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/beijing-zijincheng.md",
+        "04-knowledge/units/publications/gongcheng-zuofa.md",
+        "04-knowledge/units/terms/central-axis.md",
+        "04-knowledge/units/places/xian.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        null
+      ],
+      "notes": "赵农 2009 册第九章第一至第二节 unit 候选 34 条：create 29、update 4、rejected 1。范围 L6599-L6833。新建覆盖明长城、郑和、农政全书、京张铁路与詹天佑、汤若望与南怀仁、蒯祥、左祖右社、西苑、天坛、先农坛、太和殿、前朝后室、南京城墙、沈阳故宫、武当山道观与金顶铜殿、承德外八庙、明孝陵、明十三陵、长陵棱恩殿、定陵、清西陵、清东陵、山海关、居庸关、八达岭、嘉峪关。4 条更新为紫禁城、工程做法、中轴线、西安；1 条 rejected（江南私家园林绪论仅一句，实质材料留待第五节候选）。本批范围内 7 条 claim 候选仍保持 needs_evidence，未进入 claim-registry。"
+    }
+  }
+}

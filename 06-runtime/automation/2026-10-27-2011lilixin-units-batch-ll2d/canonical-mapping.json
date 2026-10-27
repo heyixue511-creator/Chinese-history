@@ -1,0 +1,106 @@
+[
+ {
+  "entity": "规范化",
+  "target_ref": "04-knowledge/units/terms/guifanhua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-146",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/guifanhua.md。cand-02-146 并入该条。"
+ },
+ {
+  "entity": "腰舟",
+  "target_ref": "04-knowledge/units/terms/yaozhou.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-77",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yaozhou.md。cand-02-77 并入该条。"
+ },
+ {
+  "entity": "吴越春秋",
+  "target_ref": "04-knowledge/units/publications/wuyue-chunqiu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-81",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/wuyue-chunqiu.md。cand-02-81 并入该条。"
+ },
+ {
+  "entity": "三翼",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md。cand-02-82 并入该条。"
+ },
+ {
+  "entity": "史记·夏本纪",
+  "target_ref": "04-knowledge/units/publications/shiji.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-153",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/shiji.md。cand-02-153 并入该条。"
+ },
+ {
+  "entity": "系辞下",
+  "target_ref": "04-knowledge/units/publications/zhouyi.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-79",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhouyi.md。cand-02-79 并入该条。"
+ },
+ {
+  "entity": "秦律·工律",
+  "target_ref": "04-knowledge/units/publications/qinlv-gonglv.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-84",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/qinlv-gonglv.md。cand-02-84 并入该条。"
+ },
+ {
+  "entity": "酉阳杂俎",
+  "target_ref": "04-knowledge/units/publications/youyang-zazu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-154",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/youyang-zazu.md。cand-02-154 并入该条。"
+ },
+ {
+  "entity": "雁鱼铜灯",
+  "target_ref": "04-knowledge/units/works/yanyu-tongdeng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-97",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yanyu-tongdeng.md。cand-02-97 并入该条。"
+ },
+ {
+  "entity": "青铜连枝灯",
+  "target_ref": "04-knowledge/units/works/qingtong-lianzhideng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-145",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qingtong-lianzhideng.md。cand-02-145 并入该条。"
+ },
+ {
+  "entity": "伍家岭汉代木船模型",
+  "target_ref": "04-knowledge/units/places/changsha-wujialing.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-86",
+  "merged_candidates": [],
+  "note": "cand-02-86 与 04-knowledge/units/places/changsha-wujialing.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "伏羲女娲手执规矩图",
+  "target_ref": "04-knowledge/units/places/wuliangci.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-87",
+  "merged_candidates": [],
+  "note": "cand-02-87 与 04-knowledge/units/places/wuliangci.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "马王堆漆案及杯盘",
+  "target_ref": "04-knowledge/units/places/mawangdui-hanmu.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-98",
+  "merged_candidates": [],
+  "note": "cand-02-98 与 04-knowledge/units/places/mawangdui-hanmu.md 重复，标 rejected 并保留 target_ref。"
+ }
+]

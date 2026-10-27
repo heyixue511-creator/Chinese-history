@@ -1,0 +1,123 @@
+{
+ "after_bytes": 1580352,
+ "after_sha256": "sha256:622a0684a76cf896dd57df0f46deb0ff01d777a1945c9c364d2c6273ca8d355b",
+ "baseline": {
+  "candidate_applied": 3921,
+  "candidate_needs_evidence": 313,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 929
+ },
+ "before_bytes": 1547837,
+ "before_sha256": "sha256:2d4df313b84d49d6d460f9ada3bc71ee3d7b617a7a74521e1415ebf936238747",
+ "candidate_count": 22,
+ "claim_rows": 22,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 34,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》唐代金属工艺后半、漆器家具与宋代辽代陶瓷 claim 候选（L3305-L3695），新增 22 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz5a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3943,
+  "candidate_needs_evidence": 291,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 951
+ },
+ "scope_spans": [
+  [
+   3319,
+   3319
+  ],
+  [
+   3327,
+   3327
+  ],
+  [
+   3366,
+   3366
+  ],
+  [
+   3370,
+   3370
+  ],
+  [
+   3388,
+   3388
+  ],
+  [
+   3396,
+   3396
+  ],
+  [
+   3411,
+   3411
+  ],
+  [
+   3446,
+   3446
+  ],
+  [
+   3448,
+   3448
+  ],
+  [
+   3460,
+   3460
+  ],
+  [
+   3466,
+   3466
+  ],
+  [
+   3518,
+   3518
+  ],
+  [
+   3522,
+   3522
+  ],
+  [
+   3554,
+   3556
+  ],
+  [
+   3588,
+   3588
+  ],
+  [
+   3601,
+   3601
+  ],
+  [
+   3625,
+   3625
+  ],
+  [
+   3630,
+   3630
+  ],
+  [
+   3638,
+   3638
+  ],
+  [
+   3642,
+   3642
+  ],
+  [
+   3682,
+   3682
+  ],
+  [
+   3695,
+   3695
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 58,
+ "with_supported_by": 22
+}

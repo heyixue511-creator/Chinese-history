@@ -1,0 +1,26 @@
+[
+ {
+  "entity": "张成云纹剔犀漆盒",
+  "target_ref": "04-knowledge/units/works/zhang-cheng-yun-wen-ti-xi-qi-he.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhang-cheng-yun-wen-ti-xi-qi-he.md。cand-04-36 并入该条。"
+ },
+ {
+  "entity": "杨茂剔红观瀑图八方盘",
+  "target_ref": "04-knowledge/units/works/yang-mao-ti-hong-guan-pu-tu-ba-fang-pan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yang-mao-ti-hong-guan-pu-tu-ba-fang-pan.md。cand-04-37 并入该条。"
+ },
+ {
+  "entity": "紫砂瓜形壶",
+  "target_ref": "04-knowledge/units/works/zi-sha-gua-xing-hu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-83",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zi-sha-gua-xing-hu.md。cand-04-83 并入该条。"
+ }
+]

@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -49,7 +49,15 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "中山装是 D 维度下民国服制改革与政治象征设计的代表条目。Theme/Topic 尚未 materialize。"
+primary_theme: D.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/d2-zhongshanzhuang-guojia-lifu.md
+    role: term_anchor
+    primary: true
+    scope_note: "D.2 首批：以中山装为民国国家礼服形制，复读其直翻领、四口袋、五纽、三纽的形制与寓意，以及王才运、黄隆生的制作谱系。"
+hierarchy_scope_note: "中山装是 D.2 下民国服制改革与政治象征设计的代表条目；其制作工艺侧归 B.2.2，原 KU 未列 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

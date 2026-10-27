@@ -26,7 +26,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -36,7 +36,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 织锦是 B 维度下丝织品类的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.2 首批：以织锦为丝织品类术语，复读民国蜀锦、宋锦、云锦的产品与产地信息；原 KU 无次维度。"
+hierarchy_scope_note: "织锦是 B.2 下丝织品类术语，民国蜀锦、宋锦、云锦的材料见正文；原 secondary_dimensions 为空，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

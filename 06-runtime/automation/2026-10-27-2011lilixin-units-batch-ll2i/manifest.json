@@ -1,0 +1,101 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2i",
+  "goal": "处理李立新 2011 册 L1134-L1279 的 unit 候选：院画扩张与意匠化设计衰落、《天工开物》与早期工业化。",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:58f423213685c020db633444d068812dee0a91e010f81b8a26107510be951cd6",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1426,
+        "applied": 2811,
+        "rejected": 871,
+        "no_delta": 231
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1134,
+          1279
+        ]
+      ],
+      "spans_scope": "覆盖 L1134-L1279：第二章第五节“院画的扩张与意匠化设计的衰落”（L1134-L1169，含图2-33至图2-38），第三章开篇（L1171-L1177），第一节“《天工开物》：传统造物的历史镜像”（L1179-L1220，含图3-1），第二节“早期工业化时期一般造物设计的发展”（L1222-L1279，含图3-2至图3-10）；止于第三节“近代以来造物艺术的艰辛历程”（L1283）之前。",
+      "candidates_in_scope": 19,
+      "candidate_spans_union": [
+        [
+          985,
+          1141
+        ],
+        [
+          1143,
+          1157
+        ],
+        [
+          1161,
+          1161
+        ],
+        [
+          1175,
+          1226
+        ],
+        [
+          1230,
+          1232
+        ],
+        [
+          1236,
+          1236
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接或句内再含引号用「 」；正文禁用 ASCII 双引号。",
+      "候选类型与实体介质不符时按实际介质改型，例如 L1141 的宋绣佛经按 work 而不按 publication 建条。",
+      "同书异名、同实体异写先检索既有 KU 与同批目标；能归并者按 no_delta 处理，不重复建条。",
+      "图注只有图号与题名时按 work 建 low 条；图号与图题冲突时并列两处，不据图补写。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 17,
+      "update": 0,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md",
+        "04-knowledge/units/works/shen-zifan-hua-niao-tu.md",
+        "04-knowledge/units/works/zhu-kerou-mu-dan.md",
+        "04-knowledge/units/terms/yuan-ti-hua.md",
+        "04-knowledge/units/terms/zaoqi-gongyehua.md",
+        "04-knowledge/units/persons/li-zhi.md",
+        "04-knowledge/units/publications/fenshu.md",
+        "04-knowledge/units/terms/yiqi-er-gongju.md",
+        "04-knowledge/units/works/zhu-ding-tu.md",
+        "04-knowledge/units/works/chui-mao-tu.md",
+        "04-knowledge/units/works/hua-ji-tu.md",
+        "04-knowledge/units/works/chao-zhong-tong-fa.md",
+        "04-knowledge/units/persons/wang-zheng.md",
+        "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md",
+        "04-knowledge/units/publications/fuliang-xianzhi.md",
+        "04-knowledge/units/terms/shougong-gongchang.md",
+        "04-knowledge/units/persons/xu-guangqi.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [
+        "04-knowledge/units/procedures/fenben-fuzhi.md",
+        "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

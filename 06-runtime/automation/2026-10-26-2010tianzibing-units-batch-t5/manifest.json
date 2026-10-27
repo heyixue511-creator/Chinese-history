@@ -1,0 +1,180 @@
+{
+ "work_package": "2026-10-26-2010tianzibing-units-batch-t5",
+ "goal": "处理田自秉 2010 册秦汉前半 unit 候选 32 条：新建 23、更新 6、no_delta 3，并关闭工作包",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_scope": "CRLF→LF 归一",
+   "counts_before": {
+    "needs_evidence": 1856,
+    "applied": 2429,
+    "rejected": 852,
+    "no_delta": 202
+   },
+   "sha256_before": null,
+   "sha256_at_build": "sha256:d7a5b2a1a52f875d6eca0d36f414f04d456a7d5e68785868fb89375c26a59568",
+   "build_note": "本工作包在 candidate-index 写回后构建；counts_before 为写回前状态（据 apply 输出回填），sha256_before 因未留存写回前快照而置空，sha256_at_build 为构建时索引哈希。"
+  },
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "spans": [
+    [
+     2069,
+     2437
+    ]
+   ],
+   "spans_scope": "田自秉 2010 册第五章秦代的工艺美术与第六章汉代的工艺美术前半（L2069-L2437）逐段复读，含秦代青铜、陶、漆、染织、玉器与汉代铜器、陶瓷、铜镜、染织、画象砖、陶塑；第六章在 L2438 第六节染织前截断，余下归 T6。彩版 14、16 与插图 1、2、6、8、10、17、18 只读图注，未视觉核验。",
+   "candidates_in_scope": 32,
+   "candidate_spans_union": [
+    [
+     2087,
+     2087
+    ],
+    [
+     2099,
+     2121
+    ],
+    [
+     2125,
+     2129
+    ],
+    [
+     2174,
+     2177
+    ],
+    [
+     2181,
+     2181
+    ],
+    [
+     2189,
+     2195
+    ],
+    [
+     2221,
+     2221
+    ],
+    [
+     2223,
+     2223
+    ],
+    [
+     2229,
+     2229
+    ],
+    [
+     2239,
+     2239
+    ],
+    [
+     2261,
+     2268
+    ],
+    [
+     2299,
+     2309
+    ],
+    [
+     2341,
+     2341
+    ],
+    [
+     2343,
+     2343
+    ],
+    [
+     2345,
+     2345
+    ],
+    [
+     2385,
+     2389
+    ],
+    [
+     2391,
+     2396
+    ],
+    [
+     2398,
+     2398
+    ],
+    [
+     2400,
+     2400
+    ],
+    [
+     2412,
+     2414
+    ],
+    [
+     2434,
+     2434
+    ]
+   ]
+  }
+ },
+ "method": {
+  "rules": [
+   "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+   "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+   "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+   "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+   "同名异物或同词两义并列著录，不合并为单一定义",
+   "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+   "只有图注、无器物数据的候选记 no_delta，不新建只有图注的作品条",
+   "类型条与单器条分工：总类、制法与题材归术语条，单件器物的尺寸、出土与画面归作品条"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 23,
+   "update": 6,
+   "no_delta": 3,
+   "rejected": 0,
+   "paths_created": [
+    "04-knowledge/units/works/qiyu-yunmeng-shuihudi-33.md",
+    "04-knowledge/units/works/fengniaoxing-shao.md",
+    "04-knowledge/units/works/qihui-mushu-mubi.md",
+    "04-knowledge/units/terms/suantouping.md",
+    "04-knowledge/units/terms/jianxinghu.md",
+    "04-knowledge/units/works/liujin-yinzhu-jie-xunlu.md",
+    "04-knowledge/units/works/changlegong-zhong.md",
+    "04-knowledge/units/works/cuojin-yin-niaozhuanwen-hu.md",
+    "04-knowledge/units/works/jinyincuo-shouliewen-tongcheshi.md",
+    "04-knowledge/units/works/yinshou-renxing-deng.md",
+    "04-knowledge/units/works/hanjiang-niudeng.md",
+    "04-knowledge/units/works/yangxinjia-tonglu.md",
+    "04-knowledge/units/works/jinsheng-han.md",
+    "04-knowledge/units/works/xiao-jinzao.md",
+    "04-knowledge/units/works/xiche-tu-kongxinzhuan.md",
+    "04-knowledge/units/works/cailian-huaxiangzhuan.md",
+    "04-knowledge/units/works/wanjian-wuyue-huaxiangzhuan.md",
+    "04-knowledge/units/works/shuochangyong.md",
+    "04-knowledge/units/terms/ao-qin-tongqi.md",
+    "04-knowledge/units/terms/guijujing.md",
+    "04-knowledge/units/terms/tonggu.md",
+    "04-knowledge/units/terms/huaxiangzhuan.md",
+    "04-knowledge/units/terms/gong-zu-tu.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/works/shuihudi-qin-bamboo-slips.md",
+    "04-knowledge/units/works/qin-bing-ma-yong.md",
+    "04-knowledge/units/works/tongbenma.md",
+    "04-knowledge/units/works/yishe-shouhuo-huaxiangzhuan.md",
+    "04-knowledge/units/terms/si-shen.md",
+    "04-knowledge/units/works/liujin-tong-jiuzun.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/terms/tonggu.md",
+    "04-knowledge/units/terms/ding.md",
+    "04-knowledge/units/works/tong-niu-deng.md"
+   ],
+   "paths_rejected": [],
+   "notes": "23 新建、6 更新、3 no_delta；睡虎地秦简并入既有 works 条，不另设出版物条。"
+  }
+ }
+}

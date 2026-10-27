@@ -1,0 +1,194 @@
+[
+ {
+  "entity": "青瓷凤头龙柄壶",
+  "target_ref": "04-knowledge/units/works/fengshou-longbing-hu.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-07",
+  "merged_candidates": [],
+  "note": "并入既有凤首龙柄壶条"
+ },
+ {
+  "entity": "银熏球",
+  "target_ref": "04-knowledge/units/works/tang-yin-xiangnang.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-11",
+  "merged_candidates": [],
+  "note": "并入既有唐代银香囊条"
+ },
+ {
+  "entity": "何稠",
+  "target_ref": "04-knowledge/units/persons/he-chou.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-12",
+  "merged_candidates": [],
+  "note": "新建隋代官员兼设计者条"
+ },
+ {
+  "entity": "省油灯",
+  "target_ref": "04-knowledge/units/terms/shengyou-deng.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-04-17",
+  "merged_candidates": [],
+  "note": "新建设计史灯型条"
+ },
+ {
+  "entity": "辽代摩羯灯",
+  "target_ref": "04-knowledge/units/terms/mojie-deng.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-02",
+  "merged_candidates": [],
+  "note": "候选 unit_type=work，裁定为灯型 term"
+ },
+ {
+  "entity": "宋锦",
+  "target_ref": "04-knowledge/units/terms/song-jin.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-05-07",
+  "merged_candidates": [],
+  "note": "并入既有宋锦条"
+ },
+ {
+  "entity": "杨耀",
+  "target_ref": "04-knowledge/units/persons/yang-yao.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-06-08",
+  "merged_candidates": [],
+  "note": "新建家具研究学科史人物条"
+ },
+ {
+  "entity": "桌器",
+  "target_ref": "04-knowledge/units/terms/zhuo-qi.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-06-15",
+  "merged_candidates": [],
+  "note": "来源内部件数不一致已标"
+ },
+ {
+  "entity": "招幌",
+  "target_ref": "04-knowledge/units/terms/huangzi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-07-09",
+  "merged_candidates": [],
+  "note": "并入既有幌子条"
+ },
+ {
+  "entity": "彩绘鸟兽鱼纹漆槅",
+  "target_ref": "04-knowledge/units/works/caihui-niaoshou-yuwen-qi-ge.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-29",
+  "merged_candidates": [],
+  "note": "新建三国漆器条"
+ },
+ {
+  "entity": "轮班工匠",
+  "target_ref": "04-knowledge/units/terms/lunban-jiang.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-32",
+  "merged_candidates": [],
+  "note": "候选 slug 多一 jiang，已校正"
+ },
+ {
+  "entity": "师夷长技以制夷",
+  "target_ref": "04-knowledge/units/terms/shi-yi-chang-ji.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-38",
+  "merged_candidates": [],
+  "note": "三源合成，两处分歧并列"
+ },
+ {
+  "entity": "中学为体，西学为用",
+  "target_ref": "04-knowledge/units/persons/zhang-zhidong.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-39",
+  "merged_candidates": [],
+  "note": "并入既有张之洞条"
+ },
+ {
+  "entity": "刻花金碗",
+  "target_ref": "04-knowledge/units/works/kehua-jinwan.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-62",
+  "merged_candidates": [],
+  "note": "新建唐代金银器条"
+ },
+ {
+  "entity": "飞鸟团花锦",
+  "target_ref": "04-knowledge/units/works/feiniao-tuanhua-jin.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-63",
+  "merged_candidates": [],
+  "note": "附带非候选一致性更新 tuanhua-wen"
+ },
+ {
+  "entity": "抽屉桌",
+  "target_ref": "04-knowledge/units/terms/chouti-zhuo.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-65",
+  "merged_candidates": [],
+  "note": "薄条：仅壁画证据"
+ },
+ {
+  "entity": "青花釉里红盖罐",
+  "target_ref": "04-knowledge/units/works/qinghua-youlihong-guan.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-68",
+  "merged_candidates": [],
+  "note": "图版非本器，已记"
+ },
+ {
+  "entity": "官搭民烧",
+  "target_ref": "04-knowledge/units/terms/guan-da-min-shao.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-69",
+  "merged_candidates": [],
+  "note": "薄条：仅一句限定语"
+ },
+ {
+  "entity": "紫檀嵌剔红宝座",
+  "target_ref": "04-knowledge/units/works/zitan-tihong-baozuo.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-71",
+  "merged_candidates": [],
+  "note": "清式宫廷家具条"
+ },
+ {
+  "entity": "金漆雕龙宝座",
+  "target_ref": "04-knowledge/units/works/jinqi-diaolong-baozuo.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-72",
+  "merged_candidates": [],
+  "note": "清式宫廷家具条"
+ },
+ {
+  "entity": "耕织图",
+  "target_ref": "04-knowledge/units/works/gengzhi-tu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-73",
+  "merged_candidates": [],
+  "note": "候选 unit_type=publication，裁定为插图作品条"
+ },
+ {
+  "entity": "《中国一日》广告",
+  "target_ref": "04-knowledge/units/works/zhongguo-yiri-guanggao.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-78",
+  "merged_candidates": [],
+  "note": "近代书刊广告条"
+ },
+ {
+  "entity": "沈福文",
+  "target_ref": "04-knowledge/units/persons/shen-fuwen.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-81",
+  "merged_candidates": [],
+  "note": "三源人物条"
+ },
+ {
+  "entity": "郑可",
+  "target_ref": "04-knowledge/units/persons/zheng-ke.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-82",
+  "merged_candidates": [],
+  "note": "薄条：仅列名"
+ }
+]

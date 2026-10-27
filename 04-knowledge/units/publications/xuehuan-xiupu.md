@@ -44,7 +44,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -57,7 +57,16 @@ primary_dimension: B
 secondary_dimensions:
   - D
   - A
-hierarchy_scope_note: "《雪宦绣谱》在四册中是刺绣工艺著作：八章章目、十八种针法、八十八种色线与七百四十五种“因染而别”构成主体（B），沈寿在南通女工传习所的授绣与张謇的记录整理属制度与教育面（D），其“系统而完整的理论著作”定位属著作史层面（A）为次。赵农、李立新无本书条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes:
+  - D.2
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: source_publication
+    primary: true
+    scope_note: "B.2 首批：以《雪宦绣谱》为刺绣工艺文本，复读其八章章目、十八种针法、八十八种色线与七百四十五种色；张謇记录整理与传习所制度面归 D。"
+hierarchy_scope_note: "《雪宦绣谱》是 B.2 下刺绣工艺著作，主体为针法、色线与色别（B）；沈寿在南通女工传习所的授绣与张謇的记录整理属 D，著作史定位属 A。D.2 已物化，故次 Theme 填 D.2；A 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

@@ -28,7 +28,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -40,7 +40,15 @@ primary_domain: chinese-design-history
 primary_dimension: C
 secondary_dimensions:
   - D
-hierarchy_scope_note: "浙江书局是 C 维度下清末官办书局的条目，其官方出版制度归 D；当前只到 Dimension。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/c2-shiyin-qianyin-jishu-chuban-jigou.md
+    role: key_institution
+    primary: true
+    scope_note: "C.2.1 首批：以浙江书局为清末地方官书局样本，复读其《二十二子》官刻出版；官方出版制度归 D。"
+hierarchy_scope_note: "浙江书局是 C.2 下清末官办书局的条目；其官刻出版组织与《二十二子》刊印是本 Topic 的机构样本，官方出版制度归 D。现有 D.1 为洋务企业，不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "浙江书局是 C 维度下清末官办书局的条目，
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是清末浙江官办书局的条目，可与金陵书局、湖南思贤书局、成都存古书局并置，观察清末地方官书局的出版分工。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.1 石印、铅印技术与出版机构（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 浙江书局是 C.2 下清末官办书局的条目；其官刻出版组织与《二十二子》刊印是本 Topic 的机构样本，官方出版制度归 D。现有 D.1 为洋务企业，不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

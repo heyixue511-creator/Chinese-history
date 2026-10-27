@@ -1,0 +1,17 @@
+{
+  "work_package": "2026-10-26-2009xiayanjing-units-batch-at",
+  "corrected_at": "2026-10-26",
+  "reason": "批次 AT 引文审计发现 terms/nanjing-yunjin.md 的 term_note 把来源断句写作“花纹样……”（含省略号），与 2009 册 L3443 原文“花纹样，依身份职业区别……”不能逐字对应。改为只引“花纹样”，省略号移出引号，语义未变。apply-plan 保留应用时的原值不改写。",
+  "corrections": [
+    {
+      "target_ref": "04-knowledge/units/terms/nanjing-yunjin.md",
+      "apply_plan_after_sha256": "sha256:a8e6affb0c407ed92a971da6972ae94f85608fe84e33ce5e7f3a0f80c3f28e1b",
+      "corrected_sha256": "sha256:8d500e54be1c44c8f9d2f4b3d3abc84f5e2c6d94fc42cebe6a78023b9a9415c6",
+      "bytes_before": 5882,
+      "bytes_after": 5894,
+      "lines_before": 98,
+      "lines_after": 98,
+      "correction": "term_note 中“花纹样……”改为“花纹样”后列品种清单，引文改为逐字对应，正文事实不变。"
+    }
+  ]
+}

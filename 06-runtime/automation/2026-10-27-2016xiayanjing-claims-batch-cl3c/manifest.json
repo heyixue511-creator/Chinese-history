@@ -1,0 +1,175 @@
+{
+ "after_bytes": 521866,
+ "after_sha256": "sha256:ee7f91a02d9abd10e4bf63048e64a2b41d6e1641c308f40c60a8823d9001175d",
+ "baseline": {
+  "candidate_applied": 3182,
+  "candidate_needs_evidence": 1053,
+  "candidate_no_delta": 233,
+  "claim_registry_total": 282
+ },
+ "before_bytes": 475695,
+ "before_sha256": "sha256:2b289e63613fc37871599a4ffa05096c4fe9bbd67e8558902e2d416285bcf0a8",
+ "candidate_count": 33,
+ "claim_rows": 17,
+ "corroboration_claim_ids": [
+  "claim-0072",
+  "claim-0076",
+  "claim-0083",
+  "claim-0084",
+  "claim-0085",
+  "claim-0086",
+  "claim-0087",
+  "claim-0093",
+  "claim-0094",
+  "claim-0095",
+  "claim-0097",
+  "claim-0098",
+  "claim-0099",
+  "claim-0100",
+  "claim-0101"
+ ],
+ "date": "2026-10-27",
+ "distinct_support": 37,
+ "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+ "existing_claims_updated": 15,
+ "goal": "夏燕靖 2016 升级版春秋战国章 33 条 claim 候选写回：新建 17 条，15 条并入 2009 版既有 claim，1 条 no_delta",
+ "merged_candidates": 0,
+ "no_delta_candidates": 1,
+ "package_id": "2026-10-27-2016xiayanjing-claims-batch-cl3c",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3214,
+  "candidate_needs_evidence": 1020,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 299
+ },
+ "scope_spans": [
+  [
+   1027,
+   1051
+  ],
+  [
+   1056,
+   1084
+  ],
+  [
+   1085,
+   1088
+  ],
+  [
+   1122,
+   1127
+  ],
+  [
+   1186,
+   1202
+  ],
+  [
+   1195,
+   1198
+  ],
+  [
+   1207,
+   1210
+  ],
+  [
+   1211,
+   1217
+  ],
+  [
+   1220,
+   1223
+  ],
+  [
+   1224,
+   1242
+  ],
+  [
+   1243,
+   1251
+  ],
+  [
+   1256,
+   1259
+  ],
+  [
+   1260,
+   1265
+  ],
+  [
+   1286,
+   1291
+  ],
+  [
+   1298,
+   1303
+  ],
+  [
+   1319,
+   1326
+  ],
+  [
+   1329,
+   1338
+  ],
+  [
+   1341,
+   1357
+  ],
+  [
+   1360,
+   1363
+  ],
+  [
+   1402,
+   1407
+  ],
+  [
+   1424,
+   1427
+  ],
+  [
+   1455,
+   1472
+  ],
+  [
+   1473,
+   1476
+  ],
+  [
+   1487,
+   1499
+  ],
+  [
+   1504,
+   1507
+  ],
+  [
+   1530,
+   1533
+  ],
+  [
+   1536,
+   1555
+  ],
+  [
+   1556,
+   1559
+  ],
+  [
+   1567,
+   1570
+  ],
+  [
+   1571,
+   1580
+  ],
+  [
+   1581,
+   1588
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+ "support_links": 50,
+ "with_supported_by": 17
+}

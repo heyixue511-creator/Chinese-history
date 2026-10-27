@@ -25,7 +25,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -35,7 +35,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "1912 年剪辫易服是 D 维度下近代服制政策与衣冠等级制度解体的节点，中山装形制归 B 维度、其象征意义归 A 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.2
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/d2-jianbian-yifu-fuzhi-gaige.md
+    role: evidence_event
+    primary: true
+    scope_note: "D.2 首批：以 1912 年剪辫易服为政策节点，复读《剪辫通令》《服制条例》与中山装定为礼服的先后关系；中山装形制归 B。"
+hierarchy_scope_note: "1912 年剪辫易服是 D.2 下近代服制政策与衣冠等级制度解体的节点；中山装形制归 B.2，其象征意义归 A 维度，原 KU 未列 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

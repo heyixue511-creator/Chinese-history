@@ -1,0 +1,42 @@
+[
+ {
+  "entity": "曾中游父方壶",
+  "target_ref": "04-knowledge/units/works/zengzhongyoufu-fanghu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-10",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zengzhongyoufu-fanghu.md。cand-01-10 并入该条。"
+ },
+ {
+  "entity": "四鹿四龙四凤铜案",
+  "target_ref": "04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md。cand-01-13 并入该条。"
+ },
+ {
+  "entity": "青铜尊和盘（先蜡法）",
+  "target_ref": "04-knowledge/units/works/zenghouyi-zunpan.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zenghouyi-zunpan.md。cand-01-14 并入该条。"
+ },
+ {
+  "entity": "蟻螭纹金盏、镂空金匙",
+  "target_ref": "04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md。cand-01-16 并入该条。"
+ },
+ {
+  "entity": "二里头铜爵",
+  "target_ref": "04-knowledge/units/works/erlitou-bronze-jue.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/erlitou-bronze-jue.md。cand-03-09 并入该条。"
+ }
+]

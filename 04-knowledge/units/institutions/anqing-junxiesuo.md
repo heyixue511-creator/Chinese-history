@@ -29,7 +29,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -42,7 +42,16 @@ primary_dimension: D
 secondary_dimensions:
   - B
   - E
-hierarchy_scope_note: "安庆军械所是 D 维度下晚清洋务军事工业的机构条目，其蒸汽机与轮船制造归 B、西方技术引进归 E；当前只到 Dimension。"
+primary_theme: D.1
+secondary_themes:
+  - B.1
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以该所作为洋务军工起步阶段的机构样本复读。"
+hierarchy_scope_note: "安庆军械所是 D.1 下晚清洋务军事工业的机构条目；其蒸汽机与轮船制造属 B 维度，B 侧由 B.1 承接，西方技术引进归 E 维度、尚无对应 Theme。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

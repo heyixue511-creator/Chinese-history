@@ -1,0 +1,102 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-p",
+  "goal": "赵农 2009 册第十章第五节书籍与包装 unit 候选写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:fead488ed8ba6d4c508b637987dc1536ef0127a2da5af7a38500dda6388294c0",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2018,
+        "applied": 2277,
+        "rejected": 852,
+        "no_delta": 192
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          8103,
+          8245
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第十章第五节书籍与包装 L8103–L8245 逐段复读，含书籍装帧、纸张、印刷、广告招贴、包装与标志六小节；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图 10-37 至图 10-46 未视觉核验；阴丹士林广告文字为残缺 OCR。",
+      "candidates_in_scope": 32,
+      "candidate_spans_union": [
+        [
+          8105,
+          8136
+        ],
+        [
+          8170,
+          8245
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "跨书新增来源：sources 追加新来源块，source_count 加 1，version 加 1",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "列举型候选只著录来源所列名称、出版者、年份与评语，不据来源外材料补版本史、印数与设计者",
+      "同名实体不重复立条：良友画报与《装饰》按跨书更新处理",
+      "四条邮票候选合并为「邮票」一条，不按单套邮票分列",
+      "阴丹士林色布广告文字 OCR 残缺，只作语义概述，不逐字引用",
+      "图版一律据图注著录，未视觉核验，不据图扩写；政协徽仅图注一行",
+      "原文疑误与内部张力照录标注，不径改"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 30,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/publications/nahan.md",
+        "04-knowledge/units/publications/panghuang.md",
+        "04-knowledge/units/publications/fen.md",
+        "04-knowledge/units/persons/qian-juntao.md",
+        "04-knowledge/units/publications/feng-xiaoqing.md",
+        "04-knowledge/units/publications/wanxiang.md",
+        "04-knowledge/units/publications/zhongguo-lidai-huobi-daxi.md",
+        "04-knowledge/units/publications/maozedong-xuanji.md",
+        "04-knowledge/units/publications/zhongguo-lidai-huihua.md",
+        "04-knowledge/units/publications/chen-yinke-wenji.md",
+        "04-knowledge/units/publications/lao-fangzi.md",
+        "04-knowledge/units/publications/lao-zhaopian.md",
+        "04-knowledge/units/publications/hansheng.md",
+        "04-knowledge/units/publications/dushu.md",
+        "04-knowledge/units/terms/yindanshilin-sebu.md",
+        "04-knowledge/units/persons/jin-meisheng.md",
+        "04-knowledge/units/persons/li-mubai.md",
+        "04-knowledge/units/publications/guoji-guanggao.md",
+        "04-knowledge/units/publications/zhongguo-guanggao.md",
+        "04-knowledge/units/terms/youpiao.md",
+        "04-knowledge/units/publications/zhongguo-baozhuang.md",
+        "04-knowledge/units/publications/baozhuang-nianjian.md",
+        "04-knowledge/units/works/aoyun-2008-biaozhi.md",
+        "04-knowledge/units/works/zhongguo-yinhang-biaozhi.md",
+        "04-knowledge/units/works/zhongguo-tielu-biaozhi.md",
+        "04-knowledge/units/works/yongjiu-zixingche.md",
+        "04-knowledge/units/works/minhang-fenghuang-biaozhi.md",
+        "04-knowledge/units/works/zhengxie-huihui.md",
+        "04-knowledge/units/terms/jiaotong-biaozhi.md",
+        "04-knowledge/units/terms/shangpin-biaozhi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/liangyou.md",
+        "04-knowledge/units/publications/zhuangshi-zazhi.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第十章第五节 unit 候选 32 条：create 30、update 2。范围 L8103-L8245。新建覆盖《呐喊》《彷徨》《坟》《冯小青》《万象》《中国历代货币大系》《毛泽东选集》《中国历代绘画》《陈寅恪文集》《老房子》《老照片》《汉声》《读书》《国际广告》《中国广告》《中国包装》《包装年鉴》十七种出版物，钱君陶、金梅生、李慕白三人，阴丹士林色布、邮票、交通标志、商品标志四术语，2008 北京奥运标志、中国银行标志、中国铁路标志、永久牌自行车、民航凤凰标志、政协徽六件作品；update 为《良友画报》与《装饰》。鲁迅、陈之佛、闻一多、张光宇、郑曼陀、杭穉英等已有 KU，本批不重复立条；国徽已有 `works/guohui-1950.md`，不新建。图 10-37 至图 10-46 未视觉核验。"
+    }
+  }
+}

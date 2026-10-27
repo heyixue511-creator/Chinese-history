@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下近代民族机电企业的锚点，其产品设计过程同时属于 B 维度的技术学习问题。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-jiaotong-dianxin-jinrong.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以中天电机厂作为电信器材制造与仿制学习的机构样本复读。"
+hierarchy_scope_note: "中天电机厂是 D.1 下近代民族机电企业的锚点；其产品设计过程同时属于 B 维度的技术学习问题，B 类 Theme 由 B.1 承接相关技术侧。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

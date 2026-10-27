@@ -1,0 +1,108 @@
+{
+  "work_package": "2026-10-26-2004gaofeng-units-batch-aw",
+  "goal": "处理 2004 高丰册第二至四章 15 条 unit 候选（青铜酒器、灯具、家具、画像砖与瓦当、虎符、帛书、织物纹样），逐条语义复读并判重后裁定：新建 10、更新 3、no_delta 2、rejected 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:6ff3ffe5a4e34d0e6dcf023c0767e17dd11bb92c7b383e5eedeb4a3be9341b5e",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2847,
+        "applied": 1524,
+        "rejected": 813,
+        "no_delta": 155
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        [
+          1857,
+          1857
+        ],
+        [
+          1901,
+          1907
+        ],
+        [
+          1918,
+          1918
+        ],
+        [
+          1949,
+          1968
+        ],
+        [
+          2142,
+          2142
+        ],
+        [
+          2246,
+          2294
+        ],
+        [
+          2324,
+          2368
+        ],
+        [
+          2371,
+          2401
+        ],
+        [
+          2413,
+          2482
+        ]
+      ],
+      "spans_scope": "覆盖 225 行：L1857、L1901-L1907、L1918、L1949-L1968、L2142、L2246-L2294、L2324-L2368、L2371-L2401、L2413-L2482。",
+      "candidates_in_scope": 15
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2004 册原文。",
+      "15 个候选逐条语义复读，先检索既有 KU 判重，再裁定 create/update/no_delta。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1、source_count 1。",
+      "update 三文件均在 HEAD 干净，before 取 HEAD blob 的 CRLF→LF 归一 sha256；version 与 source_count 各加 1。",
+      "no_delta 均带 target_ref：被中香炉归 persons/ding-huan.md，四神瓦当归 terms/wadang.md，均说明既有承载位置。",
+      "类型层与器物层分列：器类、器形、家具与纹样立 term，数据完整的单件器物立 work；只作例证或只有一句文献的器物按承载情况并入。",
+      "长灯、连盘短灯各立 thin term，照录《东宫旧事》“金涂四足长灯”“金涂二尺连盘短灯”，证据边界写明无实物、无尺寸。",
+      "原文 OCR 异文照录：枰条正文“秤”、缸灯条“钉灯/钉辗/红灯”、温酒炉“火簟/底簟”，均不改字并在条目内标疑。",
+      "被图版或段落隔断的句子用「」，可逐字比对的双引号引文与来源一致；嵌套引号拆开，避免双层“”。",
+      "图版均未视觉核验，图注只作文字记录。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 10,
+      "update": 3,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/yishe-shouhuo-huaxiangzhuan.md",
+        "04-knowledge/units/works/yangling-hufu.md",
+        "04-knowledge/units/works/chu-boshu.md",
+        "04-knowledge/units/terms/han-ta.md",
+        "04-knowledge/units/works/liujin-tong-jiuzun.md",
+        "04-knowledge/units/works/wenjiu-tongbeilu.md",
+        "04-knowledge/units/terms/chang-deng.md",
+        "04-knowledge/units/terms/lianpan-duandeng.md",
+        "04-knowledge/units/terms/zhuangshi-tianjia.md",
+        "04-knowledge/units/terms/ping-furniture.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/hong-guan-deng.md",
+        "04-knowledge/units/terms/dulunche.md",
+        "04-knowledge/units/terms/ping-feng.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/persons/ding-huan.md",
+        "04-knowledge/units/terms/wadang.md"
+      ],
+      "paths_rejected": []
+    }
+  }
+}

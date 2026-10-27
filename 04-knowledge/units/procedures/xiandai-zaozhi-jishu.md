@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -37,7 +37,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "现代造纸技术是 B 维度下近代以来造纸工序的条目，其工业制度与中外技术关系归 D、E 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.1
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b1-jiqi-fangzhi-zaozhi.md
+    role: procedure
+    primary: true
+    scope_note: "B.1 首批：以该工序条目的制浆与连续蒸煮描述对照机器造纸问题复读。"
+hierarchy_scope_note: "现代造纸技术是 B.1 下近代以来造纸工序的条目，其工业制度与中外技术关系归 D、E 维度；D 侧由 D.1 承接，E 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

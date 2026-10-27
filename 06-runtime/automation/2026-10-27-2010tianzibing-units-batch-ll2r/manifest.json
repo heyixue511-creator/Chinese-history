@@ -1,0 +1,85 @@
+{
+  "work_package": "2026-10-27-2010tianzibing-units-batch-ll2r",
+  "goal": "处理田自秉 2010 册余下 5 条 unit 候选：四件图注器物与二里头铜爵",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:6e921a7524d435c8b7b9cdcf33ad106c159e882c210f28f4308dfd600c39c971",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1368,
+        "applied": 2867,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          65,
+          110
+        ],
+        [
+          862,
+          880
+        ],
+        [
+          1768,
+          1782
+        ],
+        [
+          1805,
+          1816
+        ],
+        [
+          2325,
+          2345
+        ]
+      ],
+      "spans_scope": "复读 L65-L110（彩版图注块）、L862-L880（二里头文化与铜爵）、L1768-L1782（错金银龙凤鹿方案与彩版10）、L1805-L1816（失蜡法与曾侯乙尊盘）、L2325-L2345（金银工艺与随县金匙金盏）。cand-03-09 的包围跨度为 L78-L872、cand-01-13 为 L92、cand-01-14 为 L95、cand-01-16 为 L101、cand-01-10 为 L82；本批实际复读 113 行，候选跨度并集为 L78-L872（795 行），后者不等于连续复读。",
+      "candidates_in_scope": 5,
+      "candidate_spans_union": [
+        [
+          78,
+          872
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以田自秉 2010 册 Markdown 文本为主。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "cand-03-09 是首末提及的包围跨度 L78-L872；本批只复读 L65-L110、L862-L880、L1768-L1782、L1805-L1816、L2325-L2345，不把包围跨度冒充连续复读。",
+      "图注器物先与既有 KU 判重：彩版11 与 L1814 的“（彩版11）”相合，并入曾侯乙尊盘；彩版10 与 L1776 的“（彩版10）”相合，并入错金银龙凤鹿方案；不另建重复条。",
+      "图注与正文用字不一致处（先蜡法/失蜡法、蟻螭纹/蟠螭纹、曾中游父/曾仲游父）照录图注，只记疑点，不改写，不据外部书目裁定。",
+      "二里头铜爵与既有的二里头青铜长流爵数据不同，两册均无馆藏号或发掘编号，分条并列，不合并。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 update 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 3,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/zengzhongyoufu-fanghu.md",
+        "04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md",
+        "04-knowledge/units/works/erlitou-bronze-jue.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md",
+        "04-knowledge/units/works/zenghouyi-zunpan.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

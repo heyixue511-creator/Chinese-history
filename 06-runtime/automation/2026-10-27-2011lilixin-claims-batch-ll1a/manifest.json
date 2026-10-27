@@ -1,0 +1,163 @@
+{
+ "after_bytes": 1794714,
+ "after_sha256": "sha256:ea5b9e1ce5f7900c1691e0c2cf59287ef817ce7d94d37bbd9720995cc1580242",
+ "baseline": {
+  "candidate_applied": 4039,
+  "candidate_needs_evidence": 195,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1047
+ },
+ "before_bytes": 1737099,
+ "before_sha256": "sha256:12c8f5983c67301787474232038e9f8c363ccb2417451695957bf1d2173422a5",
+ "candidate_count": 36,
+ "claim_rows": 36,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 11,
+ "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "existing_claims_updated": 0,
+ "goal": "处理李立新《中国设计艺术史论》绪言、上编导论与第一章导言 claim 候选（L88-L406），新增 36 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2011lilixin-claims-batch-ll1a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4075,
+  "candidate_needs_evidence": 159,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1083
+ },
+ "scope_spans": [
+  [
+   88,
+   88
+  ],
+  [
+   161,
+   161
+  ],
+  [
+   173,
+   175
+  ],
+  [
+   177,
+   177
+  ],
+  [
+   192,
+   192
+  ],
+  [
+   202,
+   202
+  ],
+  [
+   219,
+   221
+  ],
+  [
+   223,
+   223
+  ],
+  [
+   225,
+   246
+  ],
+  [
+   236,
+   236
+  ],
+  [
+   248,
+   248
+  ],
+  [
+   254,
+   254
+  ],
+  [
+   262,
+   262
+  ],
+  [
+   264,
+   264
+  ],
+  [
+   266,
+   271
+  ],
+  [
+   275,
+   275
+  ],
+  [
+   281,
+   281
+  ],
+  [
+   293,
+   293
+  ],
+  [
+   295,
+   301
+  ],
+  [
+   315,
+   315
+  ],
+  [
+   323,
+   330
+  ],
+  [
+   352,
+   352
+  ],
+  [
+   362,
+   362
+  ],
+  [
+   364,
+   364
+  ],
+  [
+   368,
+   370
+  ],
+  [
+   368,
+   384
+  ],
+  [
+   378,
+   378
+  ],
+  [
+   382,
+   384
+  ],
+  [
+   396,
+   398
+  ],
+  [
+   402,
+   402
+  ],
+  [
+   404,
+   404
+  ],
+  [
+   406,
+   406
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "support_links": 74,
+ "with_supported_by": 36
+}

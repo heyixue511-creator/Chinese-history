@@ -1,0 +1,102 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-a",
+  "goal": "处理赵农《中国艺术设计史》（2009）导论与第一章 45 条 unit 候选：新建 36、更新 6（5 个文件）、no_delta 3；另作 1 处非候选一致性更新（persons/nuwa.md）。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:2d76d654292bfb2ab699ec285a08e05cf4b7ed420b11b8e054e8d5c4bdf9cea1",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2823,
+        "applied": 1546,
+        "rejected": 813,
+        "no_delta": 157
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          280,
+          4848
+        ]
+      ],
+      "spans_scope": "覆盖 4569 行：L280-L4848。",
+      "candidates_in_scope": 45
+    }
+  },
+  "method": {
+    "rules": [
+      "逐条复读候选 source_span 与赵农 2009 册原文，再对照既有 KU 决定 create/update/no_delta。",
+      "单源新建条 consensus=tentative、evidence_status=source_backed、source_count=1、version=1；更新条版本与 source_count 递增。",
+      "来源内部矛盾、疑字与图注不足一律照录并标出，不据来源外知识改写。",
+      "引文逐字回录；被图版、章题隔断或含疑字者用「」，内层引号改单引号。",
+      "不写入正式 relations；相关知识元只作导航。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 36,
+      "update": 6,
+      "no_delta": 3,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/yishu-shejishi.md",
+        "04-knowledge/units/works/he-zun.md",
+        "04-knowledge/units/terms/stone-age.md",
+        "04-knowledge/units/terms/gongjian.md",
+        "04-knowledge/units/terms/fanglun.md",
+        "04-knowledge/units/persons/fuxi.md",
+        "04-knowledge/units/terms/bagua.md",
+        "04-knowledge/units/persons/youchao-shi.md",
+        "04-knowledge/units/persons/suiren-shi.md",
+        "04-knowledge/units/persons/shennong-shi.md",
+        "04-knowledge/units/persons/cangjie.md",
+        "04-knowledge/units/persons/houyi.md",
+        "04-knowledge/units/terms/longfeng.md",
+        "04-knowledge/units/terms/menshen.md",
+        "04-knowledge/units/terms/xinshiqi-shiqi-leixing.md",
+        "04-knowledge/units/terms/yushi.md",
+        "04-knowledge/units/terms/yu-yue-cong-bi.md",
+        "04-knowledge/units/terms/taoqi-qixing.md",
+        "04-knowledge/units/terms/fu-li-zeng.md",
+        "04-knowledge/units/terms/taolun.md",
+        "04-knowledge/units/terms/taoyao.md",
+        "04-knowledge/units/terms/heitao.md",
+        "04-knowledge/units/terms/gusi.md",
+        "04-knowledge/units/terms/jianqi.md",
+        "04-knowledge/units/works/shanxi-shuoxian-shijiantou.md",
+        "04-knowledge/units/terms/mao.md",
+        "04-knowledge/units/terms/beibi.md",
+        "04-knowledge/units/terms/banpo-kehua-fuhao.md",
+        "04-knowledge/units/works/shandong-juxian-taozun.md",
+        "04-knowledge/units/terms/maobi.md",
+        "04-knowledge/units/terms/gudi.md",
+        "04-knowledge/units/terms/taoxun.md",
+        "04-knowledge/units/terms/dao-knife.md",
+        "04-knowledge/units/terms/shiren-gushen-bishou.md",
+        "04-knowledge/units/terms/xianglian.md",
+        "04-knowledge/units/terms/sheng.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/persons/leizu.md",
+        "04-knowledge/units/persons/huangdi-legend.md",
+        "04-knowledge/units/terms/bandixue-shi-jianzhu.md",
+        "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+        "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+        "04-knowledge/units/persons/nuwa.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/hongshan-culture.md",
+        "04-knowledge/units/places/banpo-site.md",
+        "04-knowledge/units/terms/dawenkou-culture.md"
+      ],
+      "paths_rejected": [],
+      "notes": "子代理初稿把 cand-01-58 判为 no_delta；复核发现 works/renmian-yuwen-caitao-pen.md 只有高丰来源，未载赵农释读，故改为 update，并同步修正该条内层引号。另有 persons/nuwa.md 一处非候选一致性更新。"
+    }
+  }
+}

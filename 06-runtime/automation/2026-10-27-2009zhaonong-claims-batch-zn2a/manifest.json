@@ -1,0 +1,139 @@
+{
+ "after_bytes": 847374,
+ "after_sha256": "sha256:6851d79be0aef8fdf9a349da0cf7b228e476946368b1de4a7eb6a7e12fe0d081",
+ "baseline": {
+  "candidate_applied": 3421,
+  "candidate_needs_evidence": 813,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 429
+ },
+ "before_bytes": 787633,
+ "before_sha256": "sha256:1ae1bd1e6b619c3a9626984364ed09b711a7297f79dc747c0425c6ab6433af48",
+ "candidate_count": 41,
+ "claim_rows": 41,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 31,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "赵农 2009《中国艺术设计史》第二章 41 条 claim 候选写回：新建 41 条，无合并",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn2a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3462,
+  "candidate_needs_evidence": 772,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 470
+ },
+ "scope_spans": [
+  [
+   1040,
+   1052
+  ],
+  [
+   1047,
+   1047
+  ],
+  [
+   1053,
+   1125
+  ],
+  [
+   1058,
+   1058
+  ],
+  [
+   1118,
+   1118
+  ],
+  [
+   1128,
+   1185
+  ],
+  [
+   1186,
+   1217
+  ],
+  [
+   1220,
+   1272
+  ],
+  [
+   1237,
+   1237
+  ],
+  [
+   1273,
+   1307
+  ],
+  [
+   1310,
+   1374
+  ],
+  [
+   1375,
+   1432
+  ],
+  [
+   1457,
+   1484
+  ],
+  [
+   1487,
+   1545
+  ],
+  [
+   1491,
+   1491
+  ],
+  [
+   1518,
+   1518
+  ],
+  [
+   1546,
+   1577
+  ],
+  [
+   1556,
+   1558
+  ],
+  [
+   1578,
+   1614
+  ],
+  [
+   1617,
+   1647
+  ],
+  [
+   1648,
+   1674
+  ],
+  [
+   1682,
+   1682
+  ],
+  [
+   1696,
+   1721
+  ],
+  [
+   1722,
+   1744
+  ],
+  [
+   1731,
+   1733
+  ],
+  [
+   1745,
+   1754
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 61,
+ "with_supported_by": 39
+}

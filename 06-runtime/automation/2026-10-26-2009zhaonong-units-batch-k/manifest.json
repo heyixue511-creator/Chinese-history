@@ -1,0 +1,100 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-k",
+  "goal": "赵农 2009 册第九章第五节园林与瓷器 unit 候选裁定与写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:13ba71f18fabc4fdc5505eb39409733b3ba900c9b873caa26b0ca5222d640842",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2143,
+        "applied": 2154,
+        "rejected": 851,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          7297,
+          7468
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第九章第五节园林与瓷器正文 L7297–L7468 逐段复读，含皇家园林、江南园林、明清造园理念与青花、其他瓷器；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 35,
+      "candidate_spans_union": [
+        [
+          7299,
+          7468
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "重复实体只保留一个 canonical，其余候选判 rejected",
+      "仅图注、单行列举或绪论一句总述不足以立条，实质材料在后续节的候选留待后批处理",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 33,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/beihai.md",
+        "04-knowledge/units/works/jingyiyuan.md",
+        "04-knowledge/units/works/qianlong-huayuan.md",
+        "04-knowledge/units/works/bishu-shanzhuang.md",
+        "04-knowledge/units/terms/jiangnan-yuanlin.md",
+        "04-knowledge/units/terms/huzhong-tiandi.md",
+        "04-knowledge/units/works/liuyuan.md",
+        "04-knowledge/units/works/shizilin.md",
+        "04-knowledge/units/works/huanxiu-shanzhuang.md",
+        "04-knowledge/units/works/yipu.md",
+        "04-knowledge/units/works/tuisiyuan.md",
+        "04-knowledge/units/works/geyuan.md",
+        "04-knowledge/units/works/jixiao-shanzhuang.md",
+        "04-knowledge/units/works/pianshi-shanfang.md",
+        "04-knowledge/units/works/jichangyuan.md",
+        "04-knowledge/units/works/yuyuan.md",
+        "04-knowledge/units/works/shihu-yuan.md",
+        "04-knowledge/units/works/wanzhu-yuan.md",
+        "04-knowledge/units/persons/wen-zhengming.md",
+        "04-knowledge/units/persons/shi-tao.md",
+        "04-knowledge/units/persons/ni-yunlin.md",
+        "04-knowledge/units/persons/ge-yuliang.md",
+        "04-knowledge/units/persons/zhang-lian.md",
+        "04-knowledge/units/persons/cao-liang.md",
+        "04-knowledge/units/persons/gu-shanshi.md",
+        "04-knowledge/units/persons/mi-wanzhong.md",
+        "04-knowledge/units/persons/liu-e.md",
+        "04-knowledge/units/publications/hongloumeng.md",
+        "04-knowledge/units/publications/laocan-youji.md",
+        "04-knowledge/units/terms/tou-lou-shou.md",
+        "04-knowledge/units/terms/tianbai.md",
+        "04-knowledge/units/terms/hongyou.md",
+        "04-knowledge/units/terms/huangyou.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/places/suzhou-wangshiyuan.md",
+        "04-knowledge/units/publications/jieziyuan-huazhuan.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第九章第五节 unit 候选 35 条：create 33、update 2、rejected 0。范围 L7297-L7468。新建覆盖皇家园林（北海、静宜园、乾隆花园、避暑山庄）、江南园林总称与壶中天地观念、十二座江南与北方园林（留园、狮子林、环秀山庄、艺圃、退思园、个园、寄啸山庄、片石山房、寄畅园、豫园、十笏园、万竹园）、九位造园相关人物（文征明、石涛、倪云林、戈裕良、张涟、曹谅、顾山师、米万钟、刘鹗）、两部小说（《红楼梦》《老残游记》）与透、漏、瘦、甜白、红釉、黄釉。2 条更新：网师园（跨册，source_count 1→2、version 1→2）与《芥子园画谱》（同书多跨度，source_count 不变、version 1→2）。颐和园、圆明园、拙政园三条候选取自同一节，但已在早前批次 applied；园冶、计成、李渔、青花四候选早前已判 rejected 并入既有条目，本批不重复处理。"
+    }
+  }
+}

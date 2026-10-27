@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -49,7 +49,15 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "杭穉英是 C 维度下民国上海月份牌广告设计的核心人物。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c1-yuefenpai-shangye-guanggao.md
+    role: key_person
+    primary: true
+    scope_note: "C.1 首批：以杭穉英为穉英画室与 1930 年代上海工商广告潮流的代表，复读其商务印书馆广告部经历与旗袍美女图像。"
+hierarchy_scope_note: "杭穉英是 C.1 下民国上海月份牌广告设计的核心人物；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -73,10 +81,10 @@ hierarchy_scope_note: "杭穉英是 C 维度下民国上海月份牌广告设计
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 杭穉英是 C 维度下民国上海月份牌广告设计的核心人物。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.1 月份牌与商业广告（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 杭穉英是 C.1 下民国上海月份牌广告设计的核心人物；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

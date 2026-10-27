@@ -1,0 +1,42 @@
+[
+ {
+  "entity": "李立新",
+  "target_ref": "04-knowledge/units/persons/li-lixin.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/li-lixin.md。cand-01-01 并入该条。"
+ },
+ {
+  "entity": "张道一",
+  "target_ref": "04-knowledge/units/persons/zhang-daoyi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-57",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhang-daoyi.md。cand-01-57 并入该条。"
+ },
+ {
+  "entity": "意匠化设计",
+  "target_ref": "04-knowledge/units/terms/yijianghua-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-72",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yijianghua-sheji.md。cand-01-72 并入该条。"
+ },
+ {
+  "entity": "造物之迹——中国设计艺术史引论",
+  "target_ref": "04-knowledge/units/publications/zaowu-zhi-ji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-04",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zaowu-zhi-ji.md。cand-06-04 并入该条。"
+ },
+ {
+  "entity": "中国设计艺术史",
+  "target_ref": "04-knowledge/units/publications/zhongguo-sheji-yishu-shi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-sheji-yishu-shi.md。cand-06-08 并入该条。"
+ }
+]

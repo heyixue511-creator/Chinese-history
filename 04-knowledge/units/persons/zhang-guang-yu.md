@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "张光宇是 C 维度下民国至新中国书籍装帧与字体设计的代表。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以张光宇为装饰风格与字体设计一路的样本，复读其《万象》杂志封面与 1949 年后《装饰》字体设计。"
+hierarchy_scope_note: "张光宇是 C.2 下以装饰风格与字体设计见长的书装家；其《万象》杂志封面与 1949 年后《装饰》字体设计是本 Topic 的跨期样本，本批只取民国书装部分。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "张光宇是 C 维度下民国至新中国书籍装帧与
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 张光宇是 C 维度下民国至新中国书籍装帧与字体设计的代表。Theme/Topic 尚未 materialize。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 张光宇是 C.2 下以装饰风格与字体设计见长的书装家；其《万象》杂志封面与 1949 年后《装饰》字体设计是本 Topic 的跨期样本，本批只取民国书装部分。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

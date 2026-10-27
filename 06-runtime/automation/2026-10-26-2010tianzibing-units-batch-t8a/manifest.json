@@ -1,0 +1,155 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t8a",
+  "goal": "田自秉 2010 册隋唐工艺美术前半（L3016-L3246）的 24 个候选裁决与类型化写回：17 新建（含 3 条图版锚点作品条）、6 更新、1 no_delta。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:e2106efca65cdf040ab6f8b168989c1c25510d30b6a21abff82d4477dc5d5b9c",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1772,
+        "applied": 2498,
+        "rejected": 852,
+        "no_delta": 217
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          3016,
+          3246
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第七章隋唐的工艺美术前半（L3016-L3246）逐段复读，含隋唐概说、隋代陶瓷、唐代青瓷与白瓷、釉下彩与唐三彩、唐代染织的丝织品种与纹样、印染、刺绣，至百鸟毛裙条止。插图 1 至 8 及彩版只读图注，未视觉核验。L3248-L3467 的刺绣、金属、漆木、家具与碑刻部分留待 T8b。",
+      "candidates_in_scope": 24,
+      "candidate_spans_union": [
+        [
+          3022,
+          3022
+        ],
+        [
+          3042,
+          3042
+        ],
+        [
+          3052,
+          3052
+        ],
+        [
+          3080,
+          3080
+        ],
+        [
+          3093,
+          3095
+        ],
+        [
+          3101,
+          3101
+        ],
+        [
+          3107,
+          3107
+        ],
+        [
+          3118,
+          3120
+        ],
+        [
+          3132,
+          3140
+        ],
+        [
+          3154,
+          3157
+        ],
+        [
+          3159,
+          3160
+        ],
+        [
+          3175,
+          3177
+        ],
+        [
+          3189,
+          3189
+        ],
+        [
+          3205,
+          3228
+        ],
+        [
+          3238,
+          3238
+        ],
+        [
+          3242,
+          3242
+        ],
+        [
+          3244,
+          3246
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注、且所指器物已由其他条目承担的候选记 no_delta；所指器物无其他条目承担时，建图版锚点作品条并标未视觉核验与逐项未载",
+      "类型条与单器条分工：总类、制法与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "候选 unit_type 与实体性质不符时按实体改写：织物类型记 term，单件器物记 work"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 17,
+      "update": 6,
+      "no_delta": 1,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/juntian-zhi.md",
+        "04-knowledge/units/publications/jingxing-ji.md",
+        "04-knowledge/units/terms/sui-longbing-shuangshen-hu.md",
+        "04-knowledge/units/works/yue-kiln-lianhua-wan-heye-tuo.md",
+        "04-knowledge/units/works/baiyou-lianzuo-zhutai.md",
+        "04-knowledge/units/works/tongguan-yao-you-guan.md",
+        "04-knowledge/units/terms/jiaotai.md",
+        "04-knowledge/units/works/lushan-yao-ci-paigu.md",
+        "04-knowledge/units/works/sancai-guan.md",
+        "04-knowledge/units/works/sancai-nv-yong.md",
+        "04-knowledge/units/works/huwang-jin.md",
+        "04-knowledge/units/terms/yunjian.md",
+        "04-knowledge/units/works/yunjian-jin-qun.md",
+        "04-knowledge/units/works/yuntou-jin-xie.md",
+        "04-knowledge/units/terms/guiguan-bu.md",
+        "04-knowledge/units/terms/baidie-bu.md",
+        "04-knowledge/units/terms/hongxian-tan.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/baici.md",
+        "04-knowledge/units/terms/mise-porcelain.md",
+        "04-knowledge/units/works/fengshou-longbing-hu.md",
+        "04-knowledge/units/terms/tuanhua-wen.md",
+        "04-knowledge/units/works/lianzhu-luwen-jin.md",
+        "04-knowledge/units/works/anle-gongzhu-yuqun.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/works/fengshou-longbing-hu.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

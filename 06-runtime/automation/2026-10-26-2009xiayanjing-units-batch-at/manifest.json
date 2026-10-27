@@ -1,0 +1,133 @@
+{
+  "work_package": "2026-10-26-2009xiayanjing-units-batch-at",
+  "goal": "处理 2009 册 unit 候选最后 16 条（cand-05 至 cand-07），逐条语义复读后裁定：新建 8、更新 3、no_delta 4、rejected 1。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:6766ba4eaf9bea62c19d1da0c8bbe9b24236a2e4bd614c61ec143d837ced155a",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2908,
+        "applied": 1479,
+        "rejected": 812,
+        "no_delta": 140
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        [
+          3245,
+          3245
+        ],
+        [
+          3443,
+          3443
+        ],
+        [
+          3445,
+          3445
+        ],
+        [
+          3514,
+          3514
+        ],
+        [
+          3530,
+          3530
+        ],
+        [
+          3627,
+          3659
+        ],
+        [
+          3627,
+          3659
+        ],
+        [
+          3754,
+          3769
+        ],
+        [
+          3969,
+          3991
+        ],
+        [
+          4167,
+          4183
+        ],
+        [
+          4225,
+          4274
+        ],
+        [
+          4248,
+          4250
+        ],
+        [
+          4768,
+          4803
+        ],
+        [
+          5258,
+          5375
+        ],
+        [
+          5258,
+          5375
+        ],
+        [
+          5258,
+          5375
+        ]
+      ],
+      "spans_scope": "覆盖 298 行：L3245、L3443、L3445、L3514、L3530、L3627-L3659、L3754-L3769、L3969-L3991、L4167-L4183、L4225-L4274、L4768-L4803、L5258-L5375。",
+      "candidates_in_scope": 16
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2009 册原文。",
+      "16 个候选逐条语义复读，先判重再裁定 create/update/no_delta/rejected。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1。",
+      "update 只并入既有条目缺载的 2009 册事实，并升 version、改复核日期。",
+      "no_delta 均带 target_ref 指向既有承载条目，不新建近义条。",
+      "清单级并列按一个 term 立目；跨省区、跨民族的清单级聚合不强行立目。",
+      "引文审计：双引号内文字与来源逐字一致，去空白比对；来源断行或自拟表述用「」。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 8,
+      "update": 3,
+      "no_delta": 4,
+      "rejected": 1,
+      "paths_created": [
+        "04-knowledge/units/terms/yuan-dai-simiao-bihua.md",
+        "04-knowledge/units/terms/qing-dai-sizhi-pinzhong.md",
+        "04-knowledge/units/terms/ming-dai-nvzhuang.md",
+        "04-knowledge/units/terms/qing-dai-shoushi-toushi.md",
+        "04-knowledge/units/publications/gongyi-meishu-cankao.md",
+        "04-knowledge/units/publications/tian-zizhu-zhongguo-gongyi-meishu-shi.md",
+        "04-knowledge/units/publications/wang-jiashu-zhongguo-gongyi-meishu-shi.md",
+        "04-knowledge/units/publications/long-zongxin-zhongguo-gongyi-meishu-shi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/nanjing-yunjin.md",
+        "04-knowledge/units/works/dabaoensi-liuli-ta.md",
+        "04-knowledge/units/publications/gongcheng-zuofa.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/procedures/duanban-taoyin.md",
+        "04-knowledge/units/events/jianbian-yifu-1912.md",
+        "04-knowledge/units/works/prc-national-flag.md",
+        "04-knowledge/units/works/flying-pigeon-bicycle.md"
+      ],
+      "paths_rejected": []
+    }
+  }
+}

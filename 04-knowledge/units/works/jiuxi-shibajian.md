@@ -21,7 +21,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -31,7 +31,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度民国丝织风景的器物锚点，材料为正文一段加图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "B.2 首批：以《九溪十八涧》为都锦生丝织风景的代表作品，复读其 1921/1926 年产品与图注信息。"
+hierarchy_scope_note: "《九溪十八涧》是 B.2 下民国丝织风景的代表作品，材料为正文一段加图注一行；原 secondary_dimensions 为空，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

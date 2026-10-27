@@ -29,13 +29,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -67,7 +67,7 @@ hierarchy_scope_note: "嵌铸法与铆铸法是 B 维度下三星堆青铜器成
 
 ## 相关知识元
 
-`places/sanxingdui.md` 记三星堆遗址；`procedures/hefan-fa.md` 记合范法、`procedures/fenzhu-fa.md` 记分铸法，本条的嵌铸、铆铸二法均不见于该二条，术语关系未明；`works/qinling-tongchema.md` 与 `works/qin-shi-huang-ling.md` 记秦陵铜车马“综合使用铸造、焊接、嵌铸、镶嵌以及多种多样的机械连接”，与图注“嵌铸法”同名，但两处均未定义，是否同一工序不可判定；`works/` 尚无太阳形器条目。relation 未经审查，不写入正式 `relations`。
+`places/sanxingdui.md` 记三星堆遗址；`procedures/hefan-fa.md` 记合范法、`procedures/fenzhu-fa.md` 记分铸法，本条的嵌铸、铆铸二法均不见于该二条，术语关系未明；`works/qinling-tongchema.md` 与 `works/qin-shi-huang-ling.md` 记秦陵铜车马“综合使用了铸造、焊接、嵌铸、镶嵌以及多种多样的机械连接”，与图注“嵌铸法”同名，但两处均未定义，是否同一工序不可判定；`works/taiyangxingqi.md` 记太阳形器的本体、形制与图注所载含义，本条只承担该器所涉的两种铸法名称。relation 未经审查，不写入正式 `relations`。
 
 ## 验证状态
 

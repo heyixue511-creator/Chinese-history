@@ -25,13 +25,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
@@ -66,7 +66,7 @@ hierarchy_scope_note: "孝文帝奖劝农桑是 D 维度下北朝纺织生产组
 
 ## 相关知识元
 
-`events/xiaowendi-qian-du-luoyang.md` 记孝文帝迁都洛阳；`events/xiao-wen-gai-zhi.md` 记孝文改制。relation 未审查。
+`events/xiaowendi-qian-du-luoyang.md` 记孝文帝迁都洛阳；`events/xiao-wen-gai-zhi.md` 记孝文改制；`persons/xiaowendi.md` 记孝文帝其人及本事件与服饰改制两事。relation 未审查。
 
 ## 验证状态
 

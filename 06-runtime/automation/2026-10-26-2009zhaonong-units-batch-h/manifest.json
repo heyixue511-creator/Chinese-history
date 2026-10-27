@@ -1,0 +1,153 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-h",
+  "goal": "赵农 2009 册第八章（辽金西夏元）unit 候选 63 条裁决与类型化写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:9e8e341282a78f20c7388b6eae5c76b06d15fce271462f727e9f87a5b5f29e36",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2297,
+        "applied": 2008,
+        "rejected": 843,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          5825,
+          6598
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第八章（辽金西夏元）正文 L5825–L6598 全章逐段复读，含绪论、文字与印刷、兵器火器与造船、车具与大运河、城巿寺院陵墓桥梁、服饰纺织、制瓷杂器、农具货币与结论；候选 source_span 为块级粗跨度，实际引用行均落在本章范围内。图版未视觉核验。",
+      "candidates_in_scope": 63,
+      "candidate_spans_union": [
+        [
+          5827,
+          6372
+        ],
+        [
+          6392,
+          6392
+        ],
+        [
+          6427,
+          6427
+        ],
+        [
+          6431,
+          6431
+        ],
+        [
+          6435,
+          6435
+        ],
+        [
+          6437,
+          6483
+        ],
+        [
+          6520,
+          6576
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰术语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "重复实体只保留一个 canonical，其余候选判 rejected",
+      "仅图注或单行并列提及不足以立条，判 rejected",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 54,
+      "update": 5,
+      "no_delta": 0,
+      "rejected": 4,
+      "paths_created": [
+        "04-knowledge/units/persons/yelv-abaoji.md",
+        "04-knowledge/units/persons/aguda.md",
+        "04-knowledge/units/persons/li-yuanhao.md",
+        "04-knowledge/units/persons/chengjisihan.md",
+        "04-knowledge/units/persons/hubilie.md",
+        "04-knowledge/units/terms/qidan-wenzi.md",
+        "04-knowledge/units/terms/nvzhen-wenzi.md",
+        "04-knowledge/units/terms/xixia-wenzi.md",
+        "04-knowledge/units/terms/basiba-zi.md",
+        "04-knowledge/units/terms/huihui-wenzi.md",
+        "04-knowledge/units/publications/liaozang.md",
+        "04-knowledge/units/publications/mengqiu.md",
+        "04-knowledge/units/publications/jinzang.md",
+        "04-knowledge/units/publications/weimojie-suoshuo-jing.md",
+        "04-knowledge/units/publications/yuhai.md",
+        "04-knowledge/units/publications/zhupu.md",
+        "04-knowledge/units/publications/jingangjing-zhu.md",
+        "04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md",
+        "04-knowledge/units/terms/huaya.md",
+        "04-knowledge/units/terms/yuanzhuwen.md",
+        "04-knowledge/units/persons/zhao-mengfu.md",
+        "04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md",
+        "04-knowledge/units/terms/xuanfeng-pao.md",
+        "04-knowledge/units/works/penglai-yuan-zhanshu.md",
+        "04-knowledge/units/terms/tuoche-xiche.md",
+        "04-knowledge/units/works/tonghuihe.md",
+        "04-knowledge/units/works/huitonghe.md",
+        "04-knowledge/units/places/liao-wujing.md",
+        "04-knowledge/units/persons/liu-bingzhong.md",
+        "04-knowledge/units/works/dule-si-guanyin-ge.md",
+        "04-knowledge/units/works/huayan-si.md",
+        "04-knowledge/units/works/yingxian-muta.md",
+        "04-knowledge/units/persons/wang-chongyang.md",
+        "04-knowledge/units/works/chaoyuan-tu.md",
+        "04-knowledge/units/works/xixia-wangling.md",
+        "04-knowledge/units/works/lugou-qiao.md",
+        "04-knowledge/units/works/dengfeng-guanxingtai.md",
+        "04-knowledge/units/publications/shoushi-li.md",
+        "04-knowledge/units/terms/kunfa.md",
+        "04-knowledge/units/terms/sadalaqi.md",
+        "04-knowledge/units/terms/jiaoche.md",
+        "04-knowledge/units/terms/luanbai-you-ci.md",
+        "04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md",
+        "04-knowledge/units/works/dushan-dayuhai.md",
+        "04-knowledge/units/terms/shuilun-sanshi.md",
+        "04-knowledge/units/terms/jin-dai-jiaochao.md",
+        "04-knowledge/units/terms/yuan-dai-zhibi.md",
+        "04-knowledge/units/persons/wang-mian.md",
+        "04-knowledge/units/persons/sun-wei.md",
+        "04-knowledge/units/terms/fozhuang.md",
+        "04-knowledge/units/terms/sufu.md",
+        "04-knowledge/units/works/lanyou-bailongwen-meiping.md",
+        "04-knowledge/units/terms/qionglu-zhanzhang.md",
+        "04-knowledge/units/terms/heiche-baizhang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/liao-sancai.md",
+        "04-knowledge/units/works/yuan-huoqiang.md",
+        "04-knowledge/units/terms/dafangche.md",
+        "04-knowledge/units/terms/jiguang-hu.md",
+        "04-knowledge/units/terms/bandixue-shi-jianzhu.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        null,
+        null,
+        "04-knowledge/units/persons/li-yuanhao.md",
+        null
+      ],
+      "notes": "赵农 2009 册第八章 unit 候选 63 条：create 54、update 5、rejected 4。范围 L5825-L6598。新建覆盖辽金西夏元人物（耶律阿保机、阿骨打、李元昊、成吉思汗、忽必烈、赵孟頫、刘秉忠、王重阳、王冕、孙威）、五种文字、八种出版物、花押与圆朱文、兵器火器、战船、车具、通惠河与会通河、辽五京、辽金寺院塔阁、永乐宫壁画、西夏王陵、卢沟桥、观星台与《授时历》、髡发与佛妆、撒答剌欺与速夫、搅车与卵白釉、漆器技法、渎山大玉海、水轮三事、金元纸币、蓝釉白龙纹梅瓶、穹庐毡帐、黑车白帐。5 条更新为辽三彩、火铳、水力大纺车、皮囊壶（鸡冠壶）、地穴式；4 条判 rejected（两件元青花扁壶仅图注、元昊与 08-185 重复、《道藏》仅并列提及）。本章 19 条 claim 候选仍保持 needs_evidence，未进入 claim-registry。"
+    }
+  }
+}

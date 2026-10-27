@@ -1,0 +1,226 @@
+[
+ {
+  "entity": "鹰首壶",
+  "target_ref": "04-knowledge/units/works/yingshou-hu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-05",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yingshou-hu.md。"
+ },
+ {
+  "entity": "雕金镶玉银带钩",
+  "target_ref": "04-knowledge/units/works/diaojin-xiangyu-yin-daigou.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/diaojin-xiangyu-yin-daigou.md。"
+ },
+ {
+  "entity": "彩绘鹿鼓",
+  "target_ref": "04-knowledge/units/works/caihui-lugu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/caihui-lugu.md。"
+ },
+ {
+  "entity": "舞女漆奁",
+  "target_ref": "04-knowledge/units/works/wunv-qilian.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-10",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wunv-qilian.md。"
+ },
+ {
+  "entity": "龙凤虎纹绣衣",
+  "target_ref": "04-knowledge/units/works/longfenghuwen-xiuyi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-11",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/longfenghuwen-xiuyi.md。"
+ },
+ {
+  "entity": "几何纹凤鸟纹锦",
+  "target_ref": "04-knowledge/units/works/jihexingwen-fengniaowen-jin.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jihexingwen-fengniaowen-jin.md。"
+ },
+ {
+  "entity": "蟠螭纹",
+  "target_ref": "04-knowledge/units/terms/panchi-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/panchi-wen.md。"
+ },
+ {
+  "entity": "四叶纹",
+  "target_ref": "04-knowledge/units/terms/siye-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/siye-wen.md。"
+ },
+ {
+  "entity": "山字纹",
+  "target_ref": "04-knowledge/units/terms/shanzi-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-19",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shanzi-wen.md。"
+ },
+ {
+  "entity": "齐纨鲁缟",
+  "target_ref": "04-knowledge/units/terms/qiwan-lugao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-26",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qiwan-lugao.md。"
+ },
+ {
+  "entity": "蚀花石髓",
+  "target_ref": "04-knowledge/units/terms/shihua-shisui.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-28",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shihua-shisui.md。"
+ },
+ {
+  "entity": "琉璃",
+  "target_ref": "04-knowledge/units/terms/liuli.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liuli.md。"
+ },
+ {
+  "entity": "漆双凤鼓",
+  "target_ref": "04-knowledge/units/works/qi-shuangfeng-gu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-86",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qi-shuangfeng-gu.md。"
+ },
+ {
+  "entity": "蔡侯鼎",
+  "target_ref": "04-knowledge/units/works/caihou-ding.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-81",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/caihou-ding.md。"
+ },
+ {
+  "entity": "宴乐水陆攻战铜壶",
+  "target_ref": "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md。cand-05-02 并入既有壶条。"
+ },
+ {
+  "entity": "曾侯乙墓铜尊、铜盘",
+  "target_ref": "04-knowledge/units/works/zenghouyi-zunpan.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zenghouyi-zunpan.md。cand-05-07 并入既有尊盘条。"
+ },
+ {
+  "entity": "彩绘漆座屏",
+  "target_ref": "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md。cand-05-08 并入既有座屏条。"
+ },
+ {
+  "entity": "舞人动物纹锦",
+  "target_ref": "04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-12",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md。cand-05-12 并入既有锦条。"
+ },
+ {
+  "entity": "钟鸣鼎食",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-15",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md。cand-05-15 并入既有炊食器条。"
+ },
+ {
+  "entity": "战国铜镜",
+  "target_ref": "04-knowledge/units/terms/tongjing.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-17",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tongjing.md。cand-05-17 并入既有铜镜条。"
+ },
+ {
+  "entity": "干将、莫邪",
+  "target_ref": "04-knowledge/units/persons/ganjiang.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/ganjiang.md。cand-05-38 并入既有干将条。"
+ },
+ {
+  "entity": "羽觞",
+  "target_ref": "04-knowledge/units/terms/qi-erbei.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-27",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qi-erbei.md。cand-05-27 并入既有耳杯条。"
+ },
+ {
+  "entity": "庄子（庄周）",
+  "target_ref": "04-knowledge/units/persons/zhuangzi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhuangzi.md。cand-05-37 并入既有庄子条。"
+ },
+ {
+  "entity": "老子（老庄）",
+  "target_ref": "04-knowledge/units/persons/laozi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/laozi.md。cand-05-41 并入既有老子条。"
+ },
+ {
+  "entity": "金错铜豆（战国）",
+  "target_ref": "04-knowledge/units/terms/dou-vessel.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/dou-vessel.md。cand-05-82 不另立。"
+ },
+ {
+  "entity": "“金银错鸟耳”壶（战国）",
+  "target_ref": "04-knowledge/units/terms/hu-vessel.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-83",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hu-vessel.md。cand-05-83 不另立。"
+ },
+ {
+  "entity": "山字纹镜（战国）",
+  "target_ref": "04-knowledge/units/terms/shanzi-wen.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-84",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shanzi-wen.md。cand-05-84 不另立。"
+ },
+ {
+  "entity": "连弧夔纹镜（战国）",
+  "target_ref": "04-knowledge/units/terms/tongjing.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-85",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tongjing.md。cand-05-85 不另立。"
+ }
+]

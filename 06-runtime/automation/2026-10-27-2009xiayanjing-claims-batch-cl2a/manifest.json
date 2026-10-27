@@ -1,0 +1,152 @@
+{
+ "after_bytes": 102064,
+ "after_sha256": "sha256:7f209f047b0238e629039324d191732437f81a28b154107c8e9a2be9b32b99b6",
+ "baseline": {
+  "candidate_applied": 2909,
+  "candidate_needs_evidence": 1326,
+  "claim_registry_total": 36
+ },
+ "before_bytes": 54097,
+ "before_sha256": "sha256:83236e8122d8e711992d9c7abcb7de040909c8ee213f03c74b2a83a4bef28375",
+ "candidate_count": 33,
+ "claim_rows": 33,
+ "date": "2026-10-27",
+ "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+ "goal": "夏燕靖 2009 册序言、原始社会、夏商周 33 条 claim 候选写回 claim-registry",
+ "merged_candidates": 0,
+ "package_id": "2026-10-27-2009xiayanjing-claims-batch-cl2a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 2942,
+  "candidate_needs_evidence": 1293,
+  "claim_registry_total": 69
+ },
+ "scope_spans": [
+  [
+   68,
+   68
+  ],
+  [
+   70,
+   70
+  ],
+  [
+   233,
+   233
+  ],
+  [
+   264,
+   264
+  ],
+  [
+   304,
+   304
+  ],
+  [
+   330,
+   330
+  ],
+  [
+   342,
+   342
+  ],
+  [
+   344,
+   344
+  ],
+  [
+   392,
+   392
+  ],
+  [
+   398,
+   398
+  ],
+  [
+   416,
+   416
+  ],
+  [
+   420,
+   420
+  ],
+  [
+   435,
+   435
+  ],
+  [
+   461,
+   461
+  ],
+  [
+   477,
+   477
+  ],
+  [
+   489,
+   489
+  ],
+  [
+   493,
+   493
+  ],
+  [
+   538,
+   538
+  ],
+  [
+   540,
+   540
+  ],
+  [
+   548,
+   556
+  ],
+  [
+   566,
+   566
+  ],
+  [
+   574,
+   574
+  ],
+  [
+   654,
+   654
+  ],
+  [
+   678,
+   678
+  ],
+  [
+   698,
+   698
+  ],
+  [
+   700,
+   700
+  ],
+  [
+   712,
+   712
+  ],
+  [
+   723,
+   723
+  ],
+  [
+   734,
+   734
+  ],
+  [
+   746,
+   746
+  ],
+  [
+   750,
+   750
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+ "with_supported_by": 33
+}

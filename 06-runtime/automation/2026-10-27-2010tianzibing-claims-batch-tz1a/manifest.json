@@ -1,0 +1,143 @@
+{
+ "after_bytes": 1361404,
+ "after_sha256": "sha256:de687c470163b081e178c1f652b394593c343058689dd1168d257e624999d337",
+ "baseline": {
+  "candidate_applied": 3761,
+  "candidate_needs_evidence": 473,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 769
+ },
+ "before_bytes": 1316471,
+ "before_sha256": "sha256:9bfab9784bb4bf64af6b6d31a012f1a12ce10e5317ff0f1295b020a1a57b98f2",
+ "candidate_count": 30,
+ "claim_rows": 30,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 36,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》内容介绍与第一章前半 claim 候选（L11-L820），新增 30 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz1a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3791,
+  "candidate_needs_evidence": 443,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 799
+ },
+ "scope_spans": [
+  [
+   11,
+   11
+  ],
+  [
+   395,
+   395
+  ],
+  [
+   405,
+   405
+  ],
+  [
+   409,
+   409
+  ],
+  [
+   413,
+   413
+  ],
+  [
+   415,
+   415
+  ],
+  [
+   417,
+   417
+  ],
+  [
+   419,
+   421
+  ],
+  [
+   423,
+   423
+  ],
+  [
+   439,
+   443
+  ],
+  [
+   463,
+   463
+  ],
+  [
+   484,
+   484
+  ],
+  [
+   519,
+   519
+  ],
+  [
+   550,
+   558
+  ],
+  [
+   568,
+   585
+  ],
+  [
+   591,
+   591
+  ],
+  [
+   610,
+   641
+  ],
+  [
+   645,
+   649
+  ],
+  [
+   653,
+   661
+  ],
+  [
+   682,
+   684
+  ],
+  [
+   721,
+   726
+  ],
+  [
+   732,
+   732
+  ],
+  [
+   736,
+   736
+  ],
+  [
+   751,
+   753
+  ],
+  [
+   763,
+   768
+  ],
+  [
+   788,
+   788
+  ],
+  [
+   820,
+   820
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 72,
+ "with_supported_by": 30
+}

@@ -1,0 +1,130 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2b",
+  "goal": "李立新 2011 册 L561-L671：六大设计区收束与夏商西周造物的 21 个候选裁决与类型化写回。",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:e3611e84c44a19ad946ac52f4a7fd7cefdb81fcac1799a979ba4d746e102a292",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1504,
+        "applied": 2747,
+        "rejected": 858,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          561,
+          671
+        ]
+      ],
+      "spans_scope": "覆盖 L561-L671：第三节六大设计区的区域特征与交流论述、第四节夏商西周造物及图1-13 至图1-21 图注，止于第五节标题（L672）之前。",
+      "candidates_in_scope": 21,
+      "candidate_spans_union": [
+        [
+          564,
+          569
+        ],
+        [
+          575,
+          576
+        ],
+        [
+          591,
+          591
+        ],
+        [
+          595,
+          602
+        ],
+        [
+          604,
+          605
+        ],
+        [
+          614,
+          621
+        ],
+        [
+          625,
+          625
+        ],
+        [
+          642,
+          642
+        ],
+        [
+          646,
+          646
+        ],
+        [
+          648,
+          658
+        ],
+        [
+          660,
+          660
+        ],
+        [
+          668,
+          668
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+      "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。",
+      "长跨度候选（cand-01-79 轴心时代、cand-01-80 审曲面势）跨出本批复读范围，留 needs_evidence 转 LL2c。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 16,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/works/danke-heitao-gaojiaobei.md",
+        "04-knowledge/units/persons/xu-zhuoyun.md",
+        "04-knowledge/units/publications/xi-zhou-shi.md",
+        "04-knowledge/units/terms/tianyuan-difang.md",
+        "04-knowledge/units/terms/quxiang-bilei.md",
+        "04-knowledge/units/persons/li-xueqin.md",
+        "04-knowledge/units/works/fuhao-changfang-bianzu-ding.md",
+        "04-knowledge/units/persons/song-zhenhao.md",
+        "04-knowledge/units/publications/erya.md",
+        "04-knowledge/units/persons/wu-dacheng.md",
+        "04-knowledge/units/persons/chen-mengjia.md",
+        "04-knowledge/units/persons/zhang-guangzhi.md",
+        "04-knowledge/units/works/longhu-bangsu.md",
+        "04-knowledge/units/persons/fraser.md",
+        "04-knowledge/units/publications/jinzhi.md",
+        "04-knowledge/units/terms/mianfu-zhidu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/yu-yue-cong-bi.md",
+        "04-knowledge/units/works/man-eating-you.md",
+        "04-knowledge/units/terms/shenyi.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/terms/hongshan-culture.md",
+        "04-knowledge/units/terms/hongshan-culture.md",
+        "04-knowledge/units/terms/li-cauldron.md"
+      ],
+      "notes": ""
+    }
+  }
+}

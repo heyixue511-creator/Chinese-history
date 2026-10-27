@@ -1,0 +1,171 @@
+{
+  "work_package": "2026-10-26-2009xiayanjing-units-batch-ar",
+  "goal": "处理 2009 册 unit 候选 24 条（cand-03），逐条语义复读后裁定：新建 15、更新 4、no_delta 5。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:691a55b813b8f7761b7ed2ba57626f7be0d27a66c06afb81dfd8308bb22b02f4",
+      "sha256_scope": "06-runtime/state/candidate-index.jsonl",
+      "counts_before": {
+        "needs_evidence": 2956,
+        "applied": 1448,
+        "rejected": 812,
+        "no_delta": 123
+      }
+    },
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "spans": [
+        [
+          1319,
+          1332
+        ],
+        [
+          1695,
+          1695
+        ],
+        [
+          1487,
+          1489
+        ],
+        [
+          1380,
+          1387
+        ],
+        [
+          1388,
+          1391
+        ],
+        [
+          1418,
+          1432
+        ],
+        [
+          1442,
+          1445
+        ],
+        [
+          1446,
+          1461
+        ],
+        [
+          1462,
+          1469
+        ],
+        [
+          1472,
+          1490
+        ],
+        [
+          1516,
+          1521
+        ],
+        [
+          1539,
+          1544
+        ],
+        [
+          1539,
+          1544
+        ],
+        [
+          1559,
+          1573
+        ],
+        [
+          1590,
+          1593
+        ],
+        [
+          1590,
+          1593
+        ],
+        [
+          1594,
+          1606
+        ],
+        [
+          1683,
+          1701
+        ],
+        [
+          1708,
+          1713
+        ],
+        [
+          1714,
+          1717
+        ],
+        [
+          1718,
+          1732
+        ],
+        [
+          1787,
+          1790
+        ],
+        [
+          1791,
+          1826
+        ],
+        [
+          1811,
+          1826
+        ]
+      ],
+      "spans_scope": "覆盖 216 行：L1319-L1826 内部按 24 条候选登记的不连续 spans。",
+      "candidates_in_scope": 24
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2009 册原文。",
+      "24 个候选逐条语义复读，先判重再裁定 create/update/no_delta。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1。",
+      "update 只并入既有条目缺载的 2009 册事实，并升 version、改复核日期。",
+      "no_delta 均带 target_ref 指向既有承载条目，不新建近义条。",
+      "引文审计：双引号内文字与来源逐字一致，去空白比对；来源断行或自拟表述用「」。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 15,
+      "update": 4,
+      "no_delta": 5,
+      "paths_created": [
+        "04-knowledge/units/terms/li-bi.md",
+        "04-knowledge/units/terms/hong-guan-deng.md",
+        "04-knowledge/units/terms/rongquan-jin.md",
+        "04-knowledge/units/terms/qin-dai-fu-shi.md",
+        "04-knowledge/units/terms/han-dai-pao-fu.md",
+        "04-knowledge/units/works/shihuangling-kuifengwen-dawadang.md",
+        "04-knowledge/units/terms/shuang-yuan-che.md",
+        "04-knowledge/units/terms/fu-che.md",
+        "04-knowledge/units/terms/lu-oar.md",
+        "04-knowledge/units/places/shanglinyuan.md",
+        "04-knowledge/units/terms/han-dai-jia-ju.md",
+        "04-knowledge/units/works/hei-you-si-xi-pan-kou-hu.md",
+        "04-knowledge/units/works/bai-you-lv-cai-si-xi-lian-ban-gang.md",
+        "04-knowledge/units/terms/fujin.md",
+        "04-knowledge/units/terms/na-dang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/qing-ci.md",
+        "04-knowledge/units/terms/shenyi.md",
+        "04-knowledge/units/terms/kouqi.md",
+        "04-knowledge/units/terms/qian-you-tao.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/qing-ci.md",
+        "04-knowledge/units/terms/hu-vessel.md",
+        "04-knowledge/units/terms/yichi-sanshan.md",
+        "04-knowledge/units/terms/tianji-hu.md",
+        "04-knowledge/units/terms/zaju-chuishao-fu.md"
+      ]
+    }
+  }
+}

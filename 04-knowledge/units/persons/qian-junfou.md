@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -37,7 +37,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "钱君匋在本册是民国书装“民族艺术风格 + 古代纹样取材 + 传统书法题字”一支的代表，有“钱封面”之誉，鲁迅称其可与陶元庆媲美。书籍装帧归 C 维度（视觉传达与文字设计）。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以钱君匋为古代纹样取材与书法题字一路的样本，复读其敦煌、汉刻、周秦青铜取材与“钱封面”之誉。"
+hierarchy_scope_note: "钱君匋是 C.2 下以古代艺术资源重构现代封面的设计家；其敦煌、汉代石刻、周秦青铜取材与传统书法题字是本 Topic 的风格路径样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "钱君匋在本册是民国书装“民族艺术风格 + 
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条锚定民国书装“以古代艺术资源重构现代封面”的路径：取材跨敦煌、汉刻、周秦青铜三域，手法落在传统书法上。与孙福熙（以绘画作品作封面）、司徒乔（动静对比）、叶灵凤（唯美主义）构成同段的四条风格分岔。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 钱君匋是 C.2 下以古代艺术资源重构现代封面的设计家；其敦煌、汉代石刻、周秦青铜取材与传统书法题字是本 Topic 的风格路径样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

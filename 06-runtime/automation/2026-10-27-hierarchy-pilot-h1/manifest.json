@@ -1,0 +1,76 @@
+{
+  "package_id": "2026-10-27-hierarchy-pilot-h1",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-27",
+  "goal": "基于晚清至民国主题归并候选报告，materialize 首批 2 个 Theme 与 5 个 Topic，并为 27 个已逐对象复读的知识元写入五级层级字段。",
+  "scope": {
+    "baseline_hierarchy_version": "v0.1",
+    "baseline_themes": 0,
+    "baseline_topics": 0,
+    "baseline_topic_memberships": 0,
+    "baseline_complete_assignments": 0,
+    "baseline_incomplete_assignments": 2570,
+    "baseline_structure_node_coverage": "0/4",
+    "baseline_relation_index": 5998,
+    "baseline_relation_types": "2/67",
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1524
+  },
+  "result": {
+    "hierarchy_version": "v0.2",
+    "themes": 2,
+    "topics": 5,
+    "topic_memberships": 27,
+    "complete_assignments": 27,
+    "incomplete_assignments": 2543,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6052,
+    "relation_types": "3/67",
+    "member_of_relations": 54,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "isolated_units": 1515,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b1-jindai-zaowu-jishu-zhuanxing.md",
+      "04-knowledge/structure/themes/d1-yangwu-qiye-jindai-gongye-zuzhi.md"
+    ],
+    "topics": [
+      "04-knowledge/structure/topics/b1-jiqi-fangzhi-zaozhi.md",
+      "04-knowledge/structure/topics/b1-zaochuan-tielu-gongcheng.md",
+      "04-knowledge/structure/topics/d1-yangwu-jungong-chuanbo.md",
+      "04-knowledge/structure/topics/d1-jindai-fangzhi-qiye.md",
+      "04-knowledge/structure/topics/d1-jiaotong-dianxin-jinrong.md"
+    ],
+    "mounted_units": 27
+  },
+  "changed_files": 40,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT: 2543",
+    "RD-SINGLE_SOURCE_UNITS: 1919",
+    "RD-TENTATIVE_UNITS: 2570",
+    "RD-LOW_CONFIDENCE_UNITS: 496",
+    "OPP-ISOLATED: 1515",
+    "T2-T7 themes from the merge report remain unmaterialized",
+    "E-dimension and C-dimension themes remain unmaterialized"
+  ],
+  "notes": "本批只 materialize B.1/D.1 两个 pilot Theme 与 5 个 Topic，并挂载 27 个逐对象复读的 KU；未新增候选、claim、来源字节，未修改 candidate/claim/translation 基线，未执行 commit 或 push。"
+}

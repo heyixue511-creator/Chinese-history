@@ -1,0 +1,458 @@
+[
+ {
+  "entity": "招牌",
+  "target_ref": "04-knowledge/units/terms/zhaopai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhaopai.md。"
+ },
+ {
+  "entity": "洋货",
+  "target_ref": "04-knowledge/units/terms/yanghuo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-49",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yanghuo.md。"
+ },
+ {
+  "entity": "大明通行宝钞",
+  "target_ref": "04-knowledge/units/terms/daming-tongxing-baochao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-51",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/daming-tongxing-baochao.md。"
+ },
+ {
+  "entity": "大清宝钞",
+  "target_ref": "04-knowledge/units/terms/qing-baochao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-52",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qing-baochao.md。"
+ },
+ {
+  "entity": "户部官票",
+  "target_ref": "04-knowledge/units/terms/hubu-guanpiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-53",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hubu-guanpiao.md。"
+ },
+ {
+  "entity": "龙洋",
+  "target_ref": "04-knowledge/units/terms/longyang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-54",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/longyang.md。"
+ },
+ {
+  "entity": "大龙邮票",
+  "target_ref": "04-knowledge/units/works/dalong-youpiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-55",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/dalong-youpiao.md。"
+ },
+ {
+  "entity": "刘铭传",
+  "target_ref": "04-knowledge/units/persons/liu-mingchuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-57",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/liu-mingchuan.md。"
+ },
+ {
+  "entity": "四合院",
+  "target_ref": "04-knowledge/units/terms/siheyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-58",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/siheyuan.md。"
+ },
+ {
+  "entity": "窑洞",
+  "target_ref": "04-knowledge/units/terms/yaodong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-59",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yaodong.md。"
+ },
+ {
+  "entity": "江南民居",
+  "target_ref": "04-knowledge/units/terms/jiangnan-minju.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-60",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiangnan-minju.md。"
+ },
+ {
+  "entity": "马头墙",
+  "target_ref": "04-knowledge/units/terms/matou-qiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-61",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/matou-qiang.md。"
+ },
+ {
+  "entity": "闽南土楼",
+  "target_ref": "04-knowledge/units/terms/minnan-tulou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-62",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/minnan-tulou.md。"
+ },
+ {
+  "entity": "一颗印",
+  "target_ref": "04-knowledge/units/terms/yikeyin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yikeyin.md。"
+ },
+ {
+  "entity": "碉楼",
+  "target_ref": "04-knowledge/units/terms/diaolou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-65",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/diaolou.md。"
+ },
+ {
+  "entity": "蒙古包",
+  "target_ref": "04-knowledge/units/terms/menggubao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-66",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/menggubao.md。"
+ },
+ {
+  "entity": "山西四合院",
+  "target_ref": "04-knowledge/units/terms/shanxi-siheyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-141",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shanxi-siheyuan.md。"
+ },
+ {
+  "entity": "官帽椅",
+  "target_ref": "04-knowledge/units/terms/guanmao-yi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-68",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/guanmao-yi.md。"
+ },
+ {
+  "entity": "玫瑰椅",
+  "target_ref": "04-knowledge/units/terms/meigui-yi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-70",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/meigui-yi.md。"
+ },
+ {
+  "entity": "架子床",
+  "target_ref": "04-knowledge/units/terms/jiazi-chuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-71",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiazi-chuang.md。"
+ },
+ {
+  "entity": "罗汉床",
+  "target_ref": "04-knowledge/units/terms/luohan-chuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-72",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/luohan-chuang.md。"
+ },
+ {
+  "entity": "拔步床",
+  "target_ref": "04-knowledge/units/terms/babu-chuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-73",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/babu-chuang.md。"
+ },
+ {
+  "entity": "凳墩",
+  "target_ref": "04-knowledge/units/terms/dengdun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-142",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/dengdun.md。"
+ },
+ {
+  "entity": "清式榻",
+  "target_ref": "04-knowledge/units/terms/qingshi-ta.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-144",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qingshi-ta.md。"
+ },
+ {
+  "entity": "毗卢帽",
+  "target_ref": "04-knowledge/units/terms/pilumao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-76",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/pilumao.md。"
+ },
+ {
+  "entity": "龙墩",
+  "target_ref": "04-knowledge/units/terms/longdun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-77",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/longdun.md。"
+ },
+ {
+  "entity": "鹿角椅",
+  "target_ref": "04-knowledge/units/terms/lujiao-yi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-78",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/lujiao-yi.md。"
+ },
+ {
+  "entity": "安乐椅",
+  "target_ref": "04-knowledge/units/terms/anle-yi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-79",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/anle-yi.md。"
+ },
+ {
+  "entity": "湖笔",
+  "target_ref": "04-knowledge/units/terms/hubi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-81",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hubi.md。"
+ },
+ {
+  "entity": "徽墨",
+  "target_ref": "04-knowledge/units/terms/huimo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huimo.md。"
+ },
+ {
+  "entity": "洮砚",
+  "target_ref": "04-knowledge/units/terms/taoyan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-87",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/taoyan.md。"
+ },
+ {
+  "entity": "澄泥砚",
+  "target_ref": "04-knowledge/units/terms/chengni-yan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-88",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chengni-yan.md。"
+ },
+ {
+  "entity": "《西清砚谱》",
+  "target_ref": "04-knowledge/units/publications/xiqing-yanpu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-89",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/xiqing-yanpu.md。"
+ },
+ {
+  "entity": "毛边纸",
+  "target_ref": "04-knowledge/units/terms/maobian-zhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-90",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/maobian-zhi.md。"
+ },
+ {
+  "entity": "陈洪绶",
+  "target_ref": "04-knowledge/units/persons/chen-hongshou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-100",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/chen-hongshou.md。"
+ },
+ {
+  "entity": "约翰·古腾堡",
+  "target_ref": "04-knowledge/units/persons/johannes-gutenberg.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-106",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/johannes-gutenberg.md。"
+ },
+ {
+  "entity": "《永乐大典》",
+  "target_ref": "04-knowledge/units/publications/yongle-dadian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-92",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yongle-dadian.md。"
+ },
+ {
+  "entity": "朱载堉",
+  "target_ref": "04-knowledge/units/persons/zhu-zaiyu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-94",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhu-zaiyu.md。"
+ },
+ {
+  "entity": "十二平均律",
+  "target_ref": "04-knowledge/units/terms/shier-pingjun-lv.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-95",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shier-pingjun-lv.md。"
+ },
+ {
+  "entity": "《乐律全书》",
+  "target_ref": "04-knowledge/units/publications/yuelv-quanshu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-96",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yuelv-quanshu.md。"
+ },
+ {
+  "entity": "《永乐北藏》",
+  "target_ref": "04-knowledge/units/publications/yongle-beizang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-97",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yongle-beizang.md。"
+ },
+ {
+  "entity": "殿本",
+  "target_ref": "04-knowledge/units/terms/dianben.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-109",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/dianben.md。"
+ },
+ {
+  "entity": "《全唐诗》",
+  "target_ref": "04-knowledge/units/publications/quan-tangshi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-111",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/quan-tangshi.md。"
+ },
+ {
+  "entity": "清代雕版插图",
+  "target_ref": "04-knowledge/units/terms/qingdai-diaoban-chatu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-114",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qingdai-diaoban-chatu.md。"
+ },
+ {
+  "entity": "翟金生",
+  "target_ref": "04-knowledge/units/persons/zhai-jinsheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-117",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhai-jinsheng.md。"
+ },
+ {
+  "entity": "《武英殿聚珍版程式》",
+  "target_ref": "04-knowledge/units/publications/wuyingdian-juzhenban-chengshi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-118",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/wuyingdian-juzhenban-chengshi.md。"
+ },
+ {
+  "entity": "《南疆绎史勘本》",
+  "target_ref": "04-knowledge/units/publications/nanjiang-yishi-kanben.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-145",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/nanjiang-yishi-kanben.md。"
+ },
+ {
+  "entity": "《朝报》",
+  "target_ref": "04-knowledge/units/publications/chaobao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-146",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/chaobao.md。"
+ },
+ {
+  "entity": "毛装",
+  "target_ref": "04-knowledge/units/terms/maozhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-123",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/maozhuang.md。"
+ },
+ {
+  "entity": "函套",
+  "target_ref": "04-knowledge/units/terms/hantao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-124",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hantao.md。"
+ },
+ {
+  "entity": "夹板",
+  "target_ref": "04-knowledge/units/terms/jiaban.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-125",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiaban.md。"
+ },
+ {
+  "entity": "函盒",
+  "target_ref": "04-knowledge/units/terms/hanhe.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-126",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hanhe.md。"
+ },
+ {
+  "entity": "书箱",
+  "target_ref": "04-knowledge/units/terms/shuxiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-127",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shuxiang.md。"
+ },
+ {
+  "entity": "十竹斋画谱",
+  "target_ref": "04-knowledge/units/publications/shizhuzhai-huapu.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-103",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/shizhuzhai-huapu.md。"
+ },
+ {
+  "entity": "苏州网师园",
+  "target_ref": null,
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-50",
+  "merged_candidates": [],
+  "note": "无 canonical；材料保留在来源层，园林实体留待第五节候选处理。"
+ },
+ {
+  "entity": "罗汉床（清式变化）",
+  "target_ref": null,
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-143",
+  "merged_candidates": [],
+  "note": "无独立 canonical；内容归 terms/luohan-chuang.md。"
+ },
+ {
+  "entity": "清末地方官书局",
+  "target_ref": null,
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-112",
+  "merged_candidates": [],
+  "note": "无 canonical；内容归四处官书局 KU。"
+ }
+]

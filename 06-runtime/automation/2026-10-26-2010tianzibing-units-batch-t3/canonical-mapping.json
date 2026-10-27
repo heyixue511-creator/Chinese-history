@@ -1,0 +1,170 @@
+[
+ {
+  "entity": "周公",
+  "target_ref": "04-knowledge/units/persons/zhou-gong.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhou-gong.md。"
+ },
+ {
+  "entity": "八材",
+  "target_ref": "04-knowledge/units/terms/ba-cai.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/ba-cai.md。"
+ },
+ {
+  "entity": "刖足奴铜鬲",
+  "target_ref": "04-knowledge/units/works/yuezu-nu-tong-li.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-11",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yuezu-nu-tong-li.md。"
+ },
+ {
+  "entity": "礼乐制度",
+  "target_ref": "04-knowledge/units/terms/li-yue-zhidu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/li-yue-zhidu.md。"
+ },
+ {
+  "entity": "另鼎（音勿）",
+  "target_ref": "04-knowledge/units/works/ling-ding.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/ling-ding.md。"
+ },
+ {
+  "entity": "两周金文辞大系图录考释",
+  "target_ref": "04-knowledge/units/publications/liangzhou-jinwen-ci-daxi-tulu-kaoshi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/liangzhou-jinwen-ci-daxi-tulu-kaoshi.md。"
+ },
+ {
+  "entity": "窃曲纹",
+  "target_ref": "04-knowledge/units/terms/qiequ-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-20",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qiequ-wen.md。"
+ },
+ {
+  "entity": "鸟纹",
+  "target_ref": "04-knowledge/units/terms/niao-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-75",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/niao-wen.md。"
+ },
+ {
+  "entity": "环带纹",
+  "target_ref": "04-knowledge/units/terms/huan-dai-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-22",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huan-dai-wen.md。"
+ },
+ {
+  "entity": "重环纹",
+  "target_ref": "04-knowledge/units/terms/chong-huan-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chong-huan-wen.md。"
+ },
+ {
+  "entity": "垂鳞纹",
+  "target_ref": "04-knowledge/units/terms/chui-lin-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-24",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chui-lin-wen.md。"
+ },
+ {
+  "entity": "瓦纹",
+  "target_ref": "04-knowledge/units/terms/wa-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-25",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/wa-wen.md。"
+ },
+ {
+  "entity": "圭",
+  "target_ref": "04-knowledge/units/terms/gui.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/gui.md。"
+ },
+ {
+  "entity": "璧",
+  "target_ref": "04-knowledge/units/terms/bi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/bi.md。"
+ },
+ {
+  "entity": "琮",
+  "target_ref": "04-knowledge/units/terms/cong.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-47",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/cong.md。"
+ },
+ {
+  "entity": "璇玑",
+  "target_ref": "04-knowledge/units/terms/xuanji.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-48",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xuanji.md。"
+ },
+ {
+  "entity": "周代玉礼器",
+  "target_ref": "04-knowledge/units/terms/zhou-yu-liqi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-30",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhou-yu-liqi.md。"
+ },
+ {
+  "entity": "玉鹿（宝鸡西周墓）",
+  "target_ref": "04-knowledge/units/works/yu-lu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yu-lu.md。"
+ },
+ {
+  "entity": "玉人（洛阳东郊西周墓）",
+  "target_ref": "04-knowledge/units/works/yu-ren-luoyang.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-05-87",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yu-ren-luoyang.md。"
+ },
+ {
+  "entity": "周代六工",
+  "target_ref": "04-knowledge/units/terms/baigong.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/baigong.md。cand-04-08 并入既有百工条。"
+ },
+ {
+  "entity": "十二章",
+  "target_ref": "04-knowledge/units/terms/twelve-symbols.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/twelve-symbols.md。cand-04-36 并入既有十二章条。"
+ }
+]

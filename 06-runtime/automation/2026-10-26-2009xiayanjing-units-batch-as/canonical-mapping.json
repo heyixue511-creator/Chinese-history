@@ -1,0 +1,194 @@
+[
+  {
+    "entity": "拍竿",
+    "target_ref": "04-knowledge/units/terms/pai-gan.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-103",
+    "merged_candidates": [],
+    "note": "拍竿为南朝战船独立器械，仓内无同义同实体 KU；据 2009 册 L1891-L1896 新建"
+  },
+  {
+    "entity": "谢灵运木屐",
+    "target_ref": "04-knowledge/units/works/xie-ling-yun-mu-ji.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-106",
+    "merged_candidates": [],
+    "note": "谢灵运木屐为人物关联的单件木器，仓内无同义同实体 KU；据 2009 册 L1897-L1908 新建"
+  },
+  {
+    "entity": "帔子",
+    "target_ref": "04-knowledge/units/terms/pei-zi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-88",
+    "merged_candidates": [],
+    "note": "来源以帔子与披帛对举，二者不是同一条目；仓内无帔子专条；据 2009 册 L1811-L1826 新建"
+  },
+  {
+    "entity": "羊肠裙（百褶裙）",
+    "target_ref": "04-knowledge/units/terms/yang-chang-qun.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-91",
+    "merged_candidates": [],
+    "note": "羊肠裙为具有独立形制的女裙，与同段裥裙不同物；据 2009 册 L1831-L1834 新建"
+  },
+  {
+    "entity": "裥裙",
+    "target_ref": "04-knowledge/units/terms/jian-qun.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-92",
+    "merged_candidates": [],
+    "note": "裥裙为多幅拼色女裙，与同段羊肠裙不同物；据 2009 册 L1831-L1834 新建"
+  },
+  {
+    "entity": "天宫寺释迦立像",
+    "target_ref": "04-knowledge/units/works/tian-gong-si-shi-jia-li-xiang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-94",
+    "merged_candidates": [],
+    "note": "天宫寺释迦立像为文献所记单体造像，仓内无同义同实体 KU；据 2009 册 L1837-L1840 新建"
+  },
+  {
+    "entity": "花丝工艺",
+    "target_ref": "04-knowledge/units/terms/hua-si-gong-yi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-95",
+    "merged_candidates": [],
+    "note": "花丝工艺为独立金银细工技艺，既有金饰件实例条不覆盖其工序与谱系；据 2009 册 L1841-L1857 新建"
+  },
+  {
+    "entity": "筒袖铠",
+    "target_ref": "04-knowledge/units/terms/tong-xiu-kai.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-97",
+    "merged_candidates": [],
+    "note": "筒袖铠为晋代独立铠甲形制，仓内无同义同实体 KU；据 2009 册 L1858-L1866 新建"
+  },
+  {
+    "entity": "卤簿",
+    "target_ref": "04-knowledge/units/terms/lubu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-99",
+    "merged_candidates": [],
+    "note": "既有条已完整承载 35 类、80 种旗纹与西晋大驾卤簿；据 2009 册 L1869-L1874 复核"
+  },
+  {
+    "entity": "瑶斑布",
+    "target_ref": "04-knowledge/units/terms/dian-la-man.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-100",
+    "merged_candidates": [],
+    "note": "既有条已载瑶斑布、成批生产与点蜡幔；据 2009 册 L2615-L2630 复核"
+  },
+  {
+    "entity": "《开宝藏》",
+    "target_ref": "04-knowledge/units/publications/kaibao-zang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-108",
+    "merged_candidates": [],
+    "note": "既有雕版印刷条只作扉画例证，未立《开宝藏》出版物专条；据 2009 册 L2674-L2688 新建"
+  },
+  {
+    "entity": "执壶",
+    "target_ref": "04-knowledge/units/terms/zhi-hu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-24",
+    "merged_candidates": [],
+    "note": "既有唐代青瓷窑条只提及执壶/注子，无器形专条；据 2009 册 L2052-L2064 新建"
+  },
+  {
+    "entity": "蜡缬",
+    "target_ref": "04-knowledge/units/procedures/la-ran.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-41",
+    "merged_candidates": [],
+    "note": "既有四源条已完整覆盖蜡缬定义、工序、裂纹与宋代瑶族用法；据 2009 册 L2150-L2157 复核"
+  },
+  {
+    "entity": "介质印花",
+    "target_ref": "04-knowledge/units/procedures/jiezhi-yinhua.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-43",
+    "merged_candidates": [],
+    "note": "既有条已逐字覆盖 2009 L2156 与 2016 L2711；据 2009 册 L2150-L2161 复核"
+  },
+  {
+    "entity": "舞马衔杯纹皮囊式银壶",
+    "target_ref": "04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-04-56",
+    "merged_candidates": [],
+    "note": "既有三源条已载器形、纹样、工艺与何家村窖藏；据 2009 册 L2232-L2260 复核"
+  },
+  {
+    "entity": "辽代夹缬《南无释迦牟尼佛》",
+    "target_ref": "04-knowledge/units/works/namo-shakyamuni-fo.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-07",
+    "merged_candidates": [],
+    "note": "既有条已载 2016 同段夹缬佛像、构图与三件同出；据 2009 册 L2796-L2815 复核"
+  },
+  {
+    "entity": "西夏茂花闪色绵",
+    "target_ref": "04-knowledge/units/events/xixia-mausoleum.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-12",
+    "merged_candidates": [],
+    "note": "既有西夏王陵条已载茂花闪色绵与加拈工艺，印经条另载田自秉“茂花闪色锦”；据 2009 册 L2855-L2862 复核"
+  },
+  {
+    "entity": "影青瓷",
+    "target_ref": "04-knowledge/units/terms/yingqing.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-25",
+    "merged_candidates": [],
+    "note": "既有三源条已覆盖“玉出昆山”、假玉器与薄剔飞凤；据 2009 册 L2988-L2994 复核"
+  },
+  {
+    "entity": "药斑布",
+    "target_ref": "04-knowledge/units/procedures/lan-yinhua-bu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-36",
+    "merged_candidates": [],
+    "note": "既有四版条已载元代药斑布灰药防染与“同于近代蓝印花布”；据 2009 册 L3095-L3098 复核"
+  },
+  {
+    "entity": "元代朱碧山银槎（槎杯）",
+    "target_ref": "04-knowledge/units/works/zhu-bishan-yincha.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-43",
+    "merged_candidates": [],
+    "note": "既有条已载尺寸、铭文、诗、印与四件传世；据 2009 册 L3159-L3175 复核"
+  },
+  {
+    "entity": "八达晕",
+    "target_ref": "04-knowledge/units/terms/badayun.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-66",
+    "merged_candidates": [],
+    "note": "既有条已载 2016 同段定义、三名与明锦地位；据 2009 册 L3424-L3427 复核"
+  },
+  {
+    "entity": "“衣冠禽兽”",
+    "target_ref": "04-knowledge/units/terms/buzi.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-73",
+    "merged_candidates": [],
+    "note": "既有补子条已载 2009 原句、语义翻转与“禽兽衣冠”语序；据 2009 册 L3492-L3503 复核"
+  },
+  {
+    "entity": "紫砂器",
+    "target_ref": "04-knowledge/units/terms/zisha-tao.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-84",
+    "merged_candidates": [],
+    "note": "既有三源条已覆盖原料、性能与明清名家，但缺 2009 的宜兴窑烧造序列、分期、清代匠师、泥料与窑址；据 2009 册 L3593-L3616 补写"
+  },
+  {
+    "entity": "元代瓷器壶、杯、匜、炉",
+    "target_ref": "04-knowledge/units/terms/yuan-dai-ciqi-qixing.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-86",
+    "merged_candidates": [],
+    "note": "来源为四种器形的并列段，按清单级 term 立目，杯的细节交 gaozu-bei；据 2009 册 L3003-L3009 新建"
+  }
+]

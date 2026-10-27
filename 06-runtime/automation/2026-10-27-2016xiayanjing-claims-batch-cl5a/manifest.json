@@ -1,0 +1,93 @@
+{
+ "after_bytes": 617180,
+ "after_sha256": "sha256:640302c213661bde5d5acc79cf4aa7f1bee9d66f430d3871f235039ee8f3ad0f",
+ "baseline": {
+  "candidate_applied": 3281,
+  "candidate_needs_evidence": 953,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 332
+ },
+ "before_bytes": 602114,
+ "before_sha256": "sha256:0ffb67f57ce7ccf0506c74c260e979e9061f499d355ee26d1e509e39be3a78e9",
+ "candidate_count": 14,
+ "claim_rows": 5,
+ "corroboration_claim_ids": [
+  "claim-0167",
+  "claim-0174",
+  "claim-0176",
+  "claim-0182",
+  "claim-0185",
+  "claim-0187",
+  "claim-0189",
+  "claim-0191",
+  "claim-0193"
+ ],
+ "date": "2026-10-27",
+ "distinct_support": 16,
+ "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+ "existing_claims_updated": 9,
+ "goal": "夏燕靖 2016 升级版宋辽金西夏章 14 条 claim 候选写回：新建 5 条，9 条并入 2009 版既有 claim",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2016xiayanjing-claims-batch-cl5a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3295,
+  "candidate_needs_evidence": 939,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 337
+ },
+ "scope_spans": [
+  [
+   3060,
+   3067
+  ],
+  [
+   3092,
+   3124
+  ],
+  [
+   3127,
+   3142
+  ],
+  [
+   3260,
+   3270
+  ],
+  [
+   3271,
+   3276
+  ],
+  [
+   3356,
+   3370
+  ],
+  [
+   3401,
+   3404
+  ],
+  [
+   3407,
+   3426
+  ],
+  [
+   3427,
+   3434
+  ],
+  [
+   3452,
+   3469
+  ],
+  [
+   3511,
+   3525
+  ],
+  [
+   3543,
+   3550
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+ "support_links": 16,
+ "with_supported_by": 5
+}

@@ -1,0 +1,282 @@
+[
+ {
+  "entity": "北海",
+  "target_ref": "04-knowledge/units/works/beihai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-128",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/beihai.md。"
+ },
+ {
+  "entity": "静宜园",
+  "target_ref": "04-knowledge/units/works/jingyiyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-130",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jingyiyuan.md。"
+ },
+ {
+  "entity": "乾隆花园",
+  "target_ref": "04-knowledge/units/works/qianlong-huayuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-131",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qianlong-huayuan.md。"
+ },
+ {
+  "entity": "避暑山庄",
+  "target_ref": "04-knowledge/units/works/bishu-shanzhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-133",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/bishu-shanzhuang.md。"
+ },
+ {
+  "entity": "江南园林",
+  "target_ref": "04-knowledge/units/terms/jiangnan-yuanlin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-001",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiangnan-yuanlin.md。"
+ },
+ {
+  "entity": "壶中天地",
+  "target_ref": "04-knowledge/units/terms/huzhong-tiandi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-002",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huzhong-tiandi.md。"
+ },
+ {
+  "entity": "留园",
+  "target_ref": "04-knowledge/units/works/liuyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-006",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/liuyuan.md。"
+ },
+ {
+  "entity": "狮子林",
+  "target_ref": "04-knowledge/units/works/shizilin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-007",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shizilin.md。"
+ },
+ {
+  "entity": "环秀山庄",
+  "target_ref": "04-knowledge/units/works/huanxiu-shanzhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-011",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/huanxiu-shanzhuang.md。"
+ },
+ {
+  "entity": "艺圃",
+  "target_ref": "04-knowledge/units/works/yipu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-013",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yipu.md。"
+ },
+ {
+  "entity": "退思园",
+  "target_ref": "04-knowledge/units/works/tuisiyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-014",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tuisiyuan.md。"
+ },
+ {
+  "entity": "个园",
+  "target_ref": "04-knowledge/units/works/geyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-015",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/geyuan.md。"
+ },
+ {
+  "entity": "寄啸山庄",
+  "target_ref": "04-knowledge/units/works/jixiao-shanzhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-016",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jixiao-shanzhuang.md。"
+ },
+ {
+  "entity": "片石山房",
+  "target_ref": "04-knowledge/units/works/pianshi-shanfang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-017",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/pianshi-shanfang.md。"
+ },
+ {
+  "entity": "寄畅园",
+  "target_ref": "04-knowledge/units/works/jichangyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-019",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jichangyuan.md。"
+ },
+ {
+  "entity": "豫园",
+  "target_ref": "04-knowledge/units/works/yuyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-020",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yuyuan.md。"
+ },
+ {
+  "entity": "十笏园",
+  "target_ref": "04-knowledge/units/works/shihu-yuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-178",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shihu-yuan.md。"
+ },
+ {
+  "entity": "万竹园",
+  "target_ref": "04-knowledge/units/works/wanzhu-yuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-179",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wanzhu-yuan.md。"
+ },
+ {
+  "entity": "文征明",
+  "target_ref": "04-knowledge/units/persons/wen-zhengming.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-005",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wen-zhengming.md。"
+ },
+ {
+  "entity": "石涛",
+  "target_ref": "04-knowledge/units/persons/shi-tao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-018",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/shi-tao.md。"
+ },
+ {
+  "entity": "倪云林",
+  "target_ref": "04-knowledge/units/persons/ni-yunlin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-008",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/ni-yunlin.md。"
+ },
+ {
+  "entity": "戈裕良",
+  "target_ref": "04-knowledge/units/persons/ge-yuliang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-012",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/ge-yuliang.md。"
+ },
+ {
+  "entity": "张涟",
+  "target_ref": "04-knowledge/units/persons/zhang-lian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-180",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhang-lian.md。"
+ },
+ {
+  "entity": "曹谅",
+  "target_ref": "04-knowledge/units/persons/cao-liang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-181",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/cao-liang.md。"
+ },
+ {
+  "entity": "顾山师",
+  "target_ref": "04-knowledge/units/persons/gu-shanshi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-182",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/gu-shanshi.md。"
+ },
+ {
+  "entity": "米万钟",
+  "target_ref": "04-knowledge/units/persons/mi-wanzhong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-183",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/mi-wanzhong.md。"
+ },
+ {
+  "entity": "刘鹗",
+  "target_ref": "04-knowledge/units/persons/liu-e.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-184",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/liu-e.md。"
+ },
+ {
+  "entity": "《红楼梦》",
+  "target_ref": "04-knowledge/units/publications/hongloumeng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-030",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/hongloumeng.md。"
+ },
+ {
+  "entity": "《老残游记》",
+  "target_ref": "04-knowledge/units/publications/laocan-youji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-185",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/laocan-youji.md。"
+ },
+ {
+  "entity": "透、漏、瘦",
+  "target_ref": "04-knowledge/units/terms/tou-lou-shou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-026",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tou-lou-shou.md。"
+ },
+ {
+  "entity": "甜白",
+  "target_ref": "04-knowledge/units/terms/tianbai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-031",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tianbai.md。"
+ },
+ {
+  "entity": "红釉",
+  "target_ref": "04-knowledge/units/terms/hongyou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-038",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hongyou.md。"
+ },
+ {
+  "entity": "黄釉",
+  "target_ref": "04-knowledge/units/terms/huangyou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-039",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huangyou.md。"
+ },
+ {
+  "entity": "网师园",
+  "target_ref": "04-knowledge/units/places/suzhou-wangshiyuan.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-009",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/suzhou-wangshiyuan.md。"
+ },
+ {
+  "entity": "《芥子园画谱》",
+  "target_ref": "04-knowledge/units/publications/jieziyuan-huazhuan.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-027",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jieziyuan-huazhuan.md。"
+ }
+]

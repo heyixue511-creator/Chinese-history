@@ -1,0 +1,43 @@
+{
+ "after_bytes": 2056162,
+ "after_sha256": "sha256:0131aa677694ac0641ef7ad285eb09325206bc35093fbde9dd2557d74ae99692",
+ "baseline": {
+  "candidate_applied": 4232,
+  "candidate_needs_evidence": 2,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1240
+ },
+ "before_bytes": 2053680,
+ "before_sha256": "sha256:10b4fd5a139a8025e3fff0a6024185bbec62a747127d10a8363fd0a3c12d545e",
+ "candidate_count": 2,
+ "claim_rows": 2,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 3,
+ "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "existing_claims_updated": 0,
+ "goal": "处理后记 claim 候选（L2444-L2448），新增 2 条 claim，清空李立新《中国设计艺术史论》的 claim 候选。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2011lilixin-claims-batch-ll6a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4234,
+  "candidate_needs_evidence": 0,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1242
+ },
+ "scope_spans": [
+  [
+   2444,
+   2444
+  ],
+  [
+   2448,
+   2448
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "support_links": 4,
+ "with_supported_by": 2
+}

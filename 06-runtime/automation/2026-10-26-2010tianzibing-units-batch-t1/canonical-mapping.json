@@ -1,0 +1,258 @@
+[
+ {
+  "entity": "中国工艺美术史（修订本）",
+  "target_ref": "04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md。"
+ },
+ {
+  "entity": "田自秉",
+  "target_ref": "04-knowledge/units/persons/tian-zizhu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/tian-zizhu.md。"
+ },
+ {
+  "entity": "许衍灼",
+  "target_ref": "04-knowledge/units/persons/xu-yanzhuo.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-14-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/xu-yanzhuo.md。"
+ },
+ {
+  "entity": "中国工艺美术丛书",
+  "target_ref": "04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md。"
+ },
+ {
+  "entity": "大玉龙",
+  "target_ref": "04-knowledge/units/works/da-yulong.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-05",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/da-yulong.md。"
+ },
+ {
+  "entity": "鹤衔鱼纹彩陶缸",
+  "target_ref": "04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md。"
+ },
+ {
+  "entity": "螺旋纹彩陶瓮",
+  "target_ref": "04-knowledge/units/works/luoxuanwen-caitao-weng.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/luoxuanwen-caitao-weng.md。"
+ },
+ {
+  "entity": "氏族公社",
+  "target_ref": "04-knowledge/units/terms/shizu-gongshe.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shizu-gongshe.md。"
+ },
+ {
+  "entity": "图腾",
+  "target_ref": "04-knowledge/units/terms/tuteng.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-04",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tuteng.md。"
+ },
+ {
+  "entity": "玉锛",
+  "target_ref": "04-knowledge/units/works/yu-ben.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-40",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yu-ben.md。"
+ },
+ {
+  "entity": "家庭、私有制和国家的起源",
+  "target_ref": "04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-44",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md。"
+ },
+ {
+  "entity": "半坡型彩陶",
+  "target_ref": "04-knowledge/units/terms/banpo-xing-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/banpo-xing-caitao.md。"
+ },
+ {
+  "entity": "船形彩陶壶",
+  "target_ref": "04-knowledge/units/works/chuanxing-caitao-hu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chuanxing-caitao-hu.md。"
+ },
+ {
+  "entity": "鸟衔虫彩陶细颈壶",
+  "target_ref": "04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md。"
+ },
+ {
+  "entity": "庙底沟型彩陶",
+  "target_ref": "04-knowledge/units/terms/miaodigou-xing-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/miaodigou-xing-caitao.md。"
+ },
+ {
+  "entity": "蜥蜴纹彩陶瓶",
+  "target_ref": "04-knowledge/units/works/xiyi-wen-caitao-ping.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/xiyi-wen-caitao-ping.md。"
+ },
+ {
+  "entity": "马家窑型彩陶",
+  "target_ref": "04-knowledge/units/terms/majiayao-xing-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/majiayao-xing-caitao.md。"
+ },
+ {
+  "entity": "半山型彩陶",
+  "target_ref": "04-knowledge/units/terms/banshan-xing-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-10",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/banshan-xing-caitao.md。"
+ },
+ {
+  "entity": "马厂型彩陶",
+  "target_ref": "04-knowledge/units/terms/machang-xing-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-11",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/machang-xing-caitao.md。"
+ },
+ {
+  "entity": "单把直筒杯",
+  "target_ref": "04-knowledge/units/works/danba-zhitong-bei.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-43",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/danba-zhitong-bei.md。"
+ },
+ {
+  "entity": "甘肃彩陶",
+  "target_ref": "04-knowledge/units/publications/gansu-caitao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/gansu-caitao.md。"
+ },
+ {
+  "entity": "开光法",
+  "target_ref": "04-knowledge/units/terms/kaiguang-fa.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-12",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/kaiguang-fa.md。"
+ },
+ {
+  "entity": "双关法",
+  "target_ref": "04-knowledge/units/terms/shuangguan-fa.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shuangguan-fa.md。"
+ },
+ {
+  "entity": "多效装饰法",
+  "target_ref": "04-knowledge/units/terms/duoxiao-zhuangshi-fa.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/duoxiao-zhuangshi-fa.md。"
+ },
+ {
+  "entity": "辛店文化",
+  "target_ref": "04-knowledge/units/terms/xindian-wenhua.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-76",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xindian-wenhua.md。"
+ },
+ {
+  "entity": "屈家岭文化",
+  "target_ref": "04-knowledge/units/terms/qujialing-wenhua.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-77",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qujialing-wenhua.md。"
+ },
+ {
+  "entity": "双鸟纹骨匕",
+  "target_ref": "04-knowledge/units/works/shuangniao-wen-gubi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shuangniao-wen-gubi.md。"
+ },
+ {
+  "entity": "透雕象牙梳",
+  "target_ref": "04-knowledge/units/works/toudiao-xiangya-shu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/toudiao-xiangya-shu.md。"
+ },
+ {
+  "entity": "人面网纹盆（半坡型）",
+  "target_ref": "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/renmian-yuwen-caitao-pen.md。cand-01-06 不新建。"
+ },
+ {
+  "entity": "榫卯结构",
+  "target_ref": "04-knowledge/units/procedures/sunmao-jiegou.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-27",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/procedures/sunmao-jiegou.md。"
+ },
+ {
+  "entity": "黑陶",
+  "target_ref": "04-knowledge/units/terms/heitao.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/heitao.md。"
+ },
+ {
+  "entity": "鬶",
+  "target_ref": "04-knowledge/units/terms/tao-gui.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-15",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tao-gui.md。"
+ }
+]

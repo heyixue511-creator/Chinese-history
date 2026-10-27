@@ -52,7 +52,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -64,7 +64,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - E
-hierarchy_scope_note: "福建船政局是 D 维度下洋务官办企业的组织样本，其技术引进与求实堂艺局的人才培养同时属 E 维度的跨文化技术转移。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以该局作为官办造船企业的组织与人才培养样本复读。"
+hierarchy_scope_note: "福建船政局是 D.1 下洋务官办企业的组织样本；其技术引进与求实堂艺局的人才培养属 E 维度，E 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

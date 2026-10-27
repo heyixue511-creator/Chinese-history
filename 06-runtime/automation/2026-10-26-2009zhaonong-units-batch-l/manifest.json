@@ -1,0 +1,89 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-l",
+  "goal": "把赵农 2009 册第九章第六节服饰与交通的 24 条 unit 候选写回为可追踪知识元",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:433da7d19b365b24dc9f943eaa337145a77e8e2479fd17dfa9acc96c3b42a7d0",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2108,
+        "applied": 2189,
+        "rejected": 851,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          7469,
+          7596
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第九章第六节服饰与交通正文 L7469–L7596 逐段复读，含官服、民服、造船、大炮、飞机与京张铁路；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 24,
+      "candidate_spans_union": [
+        [
+          7490,
+          7596
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "清单级聚合不足以单独立条时，并入同名的上位实体或分类级条目，并在裁定中写明",
+      "同一实体只保留一个 canonical；既有专条不因同段并提而合并",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 21,
+      "update": 3,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/mingzhuang.md",
+        "04-knowledge/units/terms/bijia.md",
+        "04-knowledge/units/terms/sancun-jinlian.md",
+        "04-knowledge/units/terms/guapi-mao.md",
+        "04-knowledge/units/terms/sizhua-mao.md",
+        "04-knowledge/units/terms/mingdai-san-da-chuanxing.md",
+        "04-knowledge/units/terms/haijin.md",
+        "04-knowledge/units/terms/qianhai-ling.md",
+        "04-knowledge/units/works/huanghu-hao.md",
+        "04-knowledge/units/persons/xu-shou.md",
+        "04-knowledge/units/works/dawankou-chong.md",
+        "04-knowledge/units/terms/folangji-pao.md",
+        "04-knowledge/units/terms/hongyi-pao.md",
+        "04-knowledge/units/terms/shenwei-dajiangjun-pao.md",
+        "04-knowledge/units/works/humen-huopao.md",
+        "04-knowledge/units/persons/wanhu.md",
+        "04-knowledge/units/persons/feng-ru.md",
+        "04-knowledge/units/persons/yang-yixian.md",
+        "04-knowledge/units/works/wusong-tielu.md",
+        "04-knowledge/units/works/tangxu-tielu.md",
+        "04-knowledge/units/works/longhao-jiche.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/ming-dai-nvzhuang.md",
+        "04-knowledge/units/terms/beizi.md",
+        "04-knowledge/units/works/jingzhang-tielu.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第九章第六节 unit 候选 24 条：create 21、update 3、rejected 0。范围 L7469-L7596。新建覆盖明装、比甲、三寸金莲、瓜皮帽、四爪锚、明代三大船型、海禁、迁海令、黄鹄号、徐寿、大碗口铳、佛朗机炮、红夷炮、神威大将军炮、虎门火炮、万户、冯如、杨逸仙、吴淞铁路、唐胥铁路、龙号机车；更新为明代女装（并入三名裙式）、背子（追加明代 L7499）与京张铁路（并入人字形 L7591、L7593-L7595）。官服补子与帽子段无候选；霞帔已有专条；百褶裙由羊肠裙条以别名著录；火炮铸造工序已有 procedure 条目，本批只立炮器与炮型本体。"
+    }
+  }
+}

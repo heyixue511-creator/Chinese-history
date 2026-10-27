@@ -1,0 +1,170 @@
+[
+ {
+  "entity": "大清银币",
+  "target_ref": "04-knowledge/units/works/daqing-yinbi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-66",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/daqing-yinbi.md。"
+ },
+ {
+  "entity": "袁大头",
+  "target_ref": "04-knowledge/units/works/yuandatou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-67",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yuandatou.md。"
+ },
+ {
+  "entity": "人民币",
+  "target_ref": "04-knowledge/units/terms/renminbi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-69",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/renminbi.md。"
+ },
+ {
+  "entity": "墨西哥鹰洋",
+  "target_ref": "04-knowledge/units/works/moxige-yingyang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-166",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/moxige-yingyang.md。"
+ },
+ {
+  "entity": "生活票证",
+  "target_ref": "04-knowledge/units/terms/shenghuo-piaozheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-72",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shenghuo-piaozheng.md。"
+ },
+ {
+  "entity": "粮票",
+  "target_ref": "04-knowledge/units/terms/liangpiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-73",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liangpiao.md。"
+ },
+ {
+  "entity": "神舟五号载人飞船",
+  "target_ref": "04-knowledge/units/works/shenzhou-wuhao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-78",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shenzhou-wuhao.md。"
+ },
+ {
+  "entity": "人力车",
+  "target_ref": "04-knowledge/units/terms/renliche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-79",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/renliche.md。"
+ },
+ {
+  "entity": "慈禧太后专用车",
+  "target_ref": "04-knowledge/units/works/cixi-zhuanyongche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-81",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/cixi-zhuanyongche.md。"
+ },
+ {
+  "entity": "上海磁悬浮列车",
+  "target_ref": "04-knowledge/units/works/shanghai-cifu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shanghai-cifu.md。"
+ },
+ {
+  "entity": "自行车",
+  "target_ref": "04-knowledge/units/terms/zixingche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-161",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zixingche.md。"
+ },
+ {
+  "entity": "蔡元培",
+  "target_ref": "04-knowledge/units/persons/cai-yuanpei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-90",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/cai-yuanpei.md。"
+ },
+ {
+  "entity": "《世界现代设计史》",
+  "target_ref": "04-knowledge/units/publications/shijie-xiandai-shejishi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-106",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/shijie-xiandai-shejishi.md。"
+ },
+ {
+  "entity": "《世界现代平面设计史》",
+  "target_ref": "04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-107",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md。"
+ },
+ {
+  "entity": "《工业设计学概论》",
+  "target_ref": "04-knowledge/units/publications/gongye-shejixue-gailun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-108",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/gongye-shejixue-gailun.md。"
+ },
+ {
+  "entity": "《白马设计学丛书》",
+  "target_ref": "04-knowledge/units/publications/baima-shejixue-congshu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-109",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/baima-shejixue-congshu.md。"
+ },
+ {
+  "entity": "《艺术设计学》",
+  "target_ref": "04-knowledge/units/publications/yishu-shejixue.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-110",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yishu-shejixue.md。"
+ },
+ {
+  "entity": "《现代设计大系》",
+  "target_ref": "04-knowledge/units/publications/xiandai-sheji-daxi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-111",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/xiandai-sheji-daxi.md。"
+ },
+ {
+  "entity": "《高等院校设计艺术专业系列教材》",
+  "target_ref": "04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-112",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md。"
+ },
+ {
+  "entity": "《设计概论》",
+  "target_ref": "04-knowledge/units/publications/sheji-gailun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-113",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/sheji-gailun.md。"
+ },
+ {
+  "entity": "龙号机车",
+  "target_ref": "04-knowledge/units/works/longhao-jiche.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-80",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/longhao-jiche.md。"
+ }
+]

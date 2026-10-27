@@ -1,0 +1,42 @@
+[
+ {
+  "entity": "皮特·里弗斯",
+  "target_ref": "04-knowledge/units/persons/pi-te-li-fu-si.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/pi-te-li-fu-si.md。cand-04-41 并入该条。"
+ },
+ {
+  "entity": "《文化的进化》",
+  "target_ref": "04-knowledge/units/publications/wen-hua-de-jin-hua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/wen-hua-de-jin-hua.md。cand-04-42 并入该条。"
+ },
+ {
+  "entity": "赵丰",
+  "target_ref": "04-knowledge/units/persons/zhao-feng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-43",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhao-feng.md。cand-04-43 并入该条。"
+ },
+ {
+  "entity": "兽面铜牌饰",
+  "target_ref": "04-knowledge/units/works/shou-mian-tong-pai-shi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shou-mian-tong-pai-shi.md。cand-04-46 并入该条。"
+ },
+ {
+  "entity": "借壳现象",
+  "target_ref": "04-knowledge/units/terms/jie-ke-xian-xiang.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jie-ke-xian-xiang.md。cand-04-45 并入该条。"
+ }
+]

@@ -1,0 +1,75 @@
+{
+ "after_bytes": 1166919,
+ "after_sha256": "sha256:4eb400c45d3c6d9efb6f5c1bbb3c750432e88d4804eb8368a98360bad8ccda98",
+ "baseline": {
+  "candidate_applied": 3653,
+  "candidate_needs_evidence": 581,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 661
+ },
+ "before_bytes": 1138049,
+ "before_sha256": "sha256:acce906ea6d3184eae0604237dec41469af2596dd06854493bd9e88a72dd5d80",
+ "candidate_count": 19,
+ "claim_rows": 19,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 28,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "处理赵农《中国艺术设计史》第八章 claim 候选（L5825-L6598），新增 19 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn8a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3672,
+  "candidate_needs_evidence": 562,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 680
+ },
+ "scope_spans": [
+  [
+   5827,
+   5906
+  ],
+  [
+   5909,
+   5961
+  ],
+  [
+   5962,
+   6017
+  ],
+  [
+   6032,
+   6049
+  ],
+  [
+   6269,
+   6269
+  ],
+  [
+   6310,
+   6318
+  ],
+  [
+   6321,
+   6355
+  ],
+  [
+   6520,
+   6542
+  ],
+  [
+   6577,
+   6588
+  ],
+  [
+   6581,
+   6581
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 38,
+ "with_supported_by": 17
+}

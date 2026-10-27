@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "郑曼陀是 C 维度下月份牌“擦笔水彩法”与上海广告设计谱系的代表。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c1-yuefenpai-shangye-guanggao.md
+    role: key_person
+    primary: true
+    scope_note: "C.1 首批：以郑曼陀为月份牌擦笔水彩法的代表，复读其明暗擦绘、水彩渲染与三大盟主谱系。"
+hierarchy_scope_note: "郑曼陀是 C.1 下月份牌擦笔水彩法与上海广告设计谱系的代表；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "郑曼陀是 C 维度下月份牌“擦笔水彩法”与
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 郑曼陀是 C 维度下月份牌“擦笔水彩法”与上海广告设计谱系的代表。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.1 月份牌与商业广告（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 郑曼陀是 C.1 下月份牌擦笔水彩法与上海广告设计谱系的代表；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

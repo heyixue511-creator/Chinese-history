@@ -1,0 +1,186 @@
+[
+ {
+  "entity": "象生器",
+  "target_ref": "04-knowledge/units/terms/xiangsheng-xing.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-24",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xiangsheng-xing.md。cand-01-24 并入该条，L230 图注仍由 works/shouwen-heitao-yaxingzun.md 承担。"
+ },
+ {
+  "entity": "北京人模式",
+  "target_ref": "04-knowledge/units/terms/beijingren-moshi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/beijingren-moshi.md。cand-02-02 并入该条。"
+ },
+ {
+  "entity": "人体工学",
+  "target_ref": "04-knowledge/units/terms/paleolithic-period.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-149",
+  "merged_candidates": [],
+  "note": "cand-02-149 与 04-knowledge/units/terms/paleolithic-period.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "北京人砾石工具",
+  "target_ref": "04-knowledge/units/terms/paleolithic-period.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-07",
+  "merged_candidates": [],
+  "note": "cand-02-07 与 04-knowledge/units/terms/paleolithic-period.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "桑志华",
+  "target_ref": "04-knowledge/units/persons/sangzhihua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-135",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/sangzhihua.md。cand-02-135 并入该条。"
+ },
+ {
+  "entity": "奥杜韦砾石砍斫器",
+  "target_ref": "04-knowledge/units/works/olduvai-kanzhuoqi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/olduvai-kanzhuoqi.md。cand-02-08 并入该条。"
+ },
+ {
+  "entity": "砾石文化",
+  "target_ref": "04-knowledge/units/terms/lishi-wenhua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-03",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/lishi-wenhua.md。cand-02-03 并入该条。"
+ },
+ {
+  "entity": "山顶洞人钻孔雕刻品",
+  "target_ref": "04-knowledge/units/works/shandingdong-zuankong.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-99",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shandingdong-zuankong.md。cand-02-99 并入该条。"
+ },
+ {
+  "entity": "适应性设计",
+  "target_ref": "04-knowledge/units/terms/shiyingxing-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shiyingxing-sheji.md。cand-02-09 并入该条。"
+ },
+ {
+  "entity": "物种起源",
+  "target_ref": "04-knowledge/units/publications/wuzhong-qiyuan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-10",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/wuzhong-qiyuan.md。cand-02-10 并入该条。"
+ },
+ {
+  "entity": "赫伯特·阿·西蒙",
+  "target_ref": "04-knowledge/units/persons/hebert-a-simon.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-136",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/hebert-a-simon.md。cand-02-136 并入该条。"
+ },
+ {
+  "entity": "装柄石铲复原图",
+  "target_ref": "04-knowledge/units/works/zhuangbing-shican-fuyuan-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-139",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhuangbing-shican-fuyuan-tu.md。cand-02-139 并入该条。"
+ },
+ {
+  "entity": "朱绘有孔石斧",
+  "target_ref": "04-knowledge/units/works/zhuhui-shifu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-12",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhuhui-shifu.md。cand-02-12 并入该条。"
+ },
+ {
+  "entity": "裴李岗石磨盘石磨棒",
+  "target_ref": "04-knowledge/units/works/peiligang-shimopan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/peiligang-shimopan.md。cand-02-14 并入该条。"
+ },
+ {
+  "entity": "元造型",
+  "target_ref": "04-knowledge/units/terms/yuanzaoxing.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yuanzaoxing.md。cand-02-13 并入该条。"
+ },
+ {
+  "entity": "张朋川",
+  "target_ref": "04-knowledge/units/persons/zhangpengchuan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-15",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhangpengchuan.md。cand-02-15 并入该条。"
+ },
+ {
+  "entity": "庙底沟类型",
+  "target_ref": "04-knowledge/units/terms/miaodigou-xing-caitao.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-147",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/miaodigou-xing-caitao.md。cand-02-147 并入该条。"
+ },
+ {
+  "entity": "庙底沟彩陶二方连续纹饰的演进",
+  "target_ref": "04-knowledge/units/terms/miaodigou-xing-caitao.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-140",
+  "merged_candidates": [],
+  "note": "cand-02-140 与 04-knowledge/units/terms/miaodigou-xing-caitao.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "火烧沟人形罐",
+  "target_ref": "04-knowledge/units/works/huoshaogou-renxing-guan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-20",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/huoshaogou-renxing-guan.md。cand-02-20 并入该条。"
+ },
+ {
+  "entity": "彩陶人头形瓶",
+  "target_ref": "04-knowledge/units/works/caiwen-rentou-ping.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/caiwen-rentou-ping.md。cand-02-18 并入该条。"
+ },
+ {
+  "entity": "苏秉琦",
+  "target_ref": "04-knowledge/units/persons/subingqi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-21",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/subingqi.md。cand-02-21 并入该条。"
+ },
+ {
+  "entity": "六大设计文化区域",
+  "target_ref": "04-knowledge/units/terms/liuda-sheji-quyu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-22",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liuda-sheji-quyu.md。cand-02-22 并入该条。"
+ },
+ {
+  "entity": "红山玉雕龙",
+  "target_ref": "04-knowledge/units/works/yudiaolong.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yudiaolong.md。cand-02-23 并入该条。"
+ }
+]

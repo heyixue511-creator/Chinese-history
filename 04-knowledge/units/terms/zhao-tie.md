@@ -29,7 +29,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "招贴是 C 维度下广告形式的条目：宋代年画性文化广告与 20 世纪分类体系在此汇合。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/c1-baokan-guanggao-jigou-biaozhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "C.1 首批：以招贴为海报/宣传画术语，复读其宋代年画性广告与 20 世纪政治、商业招贴的跨时段谱系。"
+hierarchy_scope_note: "招贴是 C.1 下广告形式的术语锚点，连接宋代年画性文化广告与 20 世纪招贴；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "招贴是 C 维度下广告形式的条目：宋代年画
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 招贴是 C 维度下广告形式的条目：宋代年画性文化广告与 20 世纪分类体系在此汇合。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.2 报刊广告与机构标识（term_anchor，主挂载）
+- role_in_theme: term_anchor
+- scope_note: 招贴是 C.1 下广告形式的术语锚点，连接宋代年画性文化广告与 20 世纪招贴；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

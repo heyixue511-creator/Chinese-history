@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下制度与设计管理文献的锚点。Theme/Topic 尚未 materialize。"
+primary_theme: D.2
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/d2-jianbian-yifu-fuzhi-gaige.md
+    role: source_publication
+    primary: true
+    scope_note: "D.2 首批：以《剪辫通令》为 1912 年剪辫法令文本，复读其与《服制条例》共同推动服饰改制的关系。"
+hierarchy_scope_note: "《剪辫通令》是 D.2 下 1912 年剪辫法令文本；原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

@@ -1,0 +1,95 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-n",
+  "goal": "把赵农 2009 册第十章第一至第二节的 29 条 unit 候选裁定并类型化写回：新建 28 个知识元，1 条并入既有城市雕塑条。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:dfb061fc05d4acb33df364c6116520aab3a694ba99364dc2751d18a1ded4c4fb",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2078,
+        "applied": 2219,
+        "rejected": 851,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          7682,
+          7895
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第十章第一节绪论至第二节城市与建筑 L7682–L7895 逐段复读，含工艺美术与艺术设计概念、城市建设、公共空间、园林与营造学会、桥梁五段；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 29,
+      "candidate_spans_union": [
+        [
+          7682,
+          8560
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "列举型候选只著录来源所列名称、年份与所在河流，不据来源外材料补形制、尺度与设计者",
+      "同段类型与具名作品分别立条：类型条不重复作品清单，作品条以 related 回指类型条",
+      "同名异指不合并：城市雕塑《丝绸之路》与丝绸之路贸易路线分属作品与术语",
+      "跨页残句不逐字引：被图版、页眉或章节页分隔的文字只作内容转述",
+      "原文疑误与内部张力照录标注，不径改",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 28,
+      "update": 0,
+      "no_delta": 0,
+      "rejected": 1,
+      "paths_created": [
+        "04-knowledge/units/publications/meishu-de-qiyuan.md",
+        "04-knowledge/units/publications/jianguo-fanglue.md",
+        "04-knowledge/units/publications/zhongguo-jianzhushi.md",
+        "04-knowledge/units/persons/mao-yisheng.md",
+        "04-knowledge/units/terms/chengshi-diaosu.md",
+        "04-knowledge/units/terms/weisuo-jingguan-gongyuan.md",
+        "04-knowledge/units/terms/minsucun.md",
+        "04-knowledge/units/works/chongqing-renmin-dahuitang.md",
+        "04-knowledge/units/works/chengjisihan-ling.md",
+        "04-knowledge/units/works/zhonghua-minzuyuan.md",
+        "04-knowledge/units/works/qiantangjiang-daqiao.md",
+        "04-knowledge/units/works/wuhan-changjiang-daqiao.md",
+        "04-knowledge/units/works/nanjing-changjiang-daqiao.md",
+        "04-knowledge/units/works/lanzhou-tieqiao.md",
+        "04-knowledge/units/works/tuohuang-niu.md",
+        "04-knowledge/units/works/shenzhenren-de-yitian.md",
+        "04-knowledge/units/works/zhuhai-yunv.md",
+        "04-knowledge/units/works/wuyang-diaosu.md",
+        "04-knowledge/units/works/sichou-zhilu-xian-diaosu.md",
+        "04-knowledge/units/works/huanghe-muqin.md",
+        "04-knowledge/units/works/jiujiang-changjiang-daqiao.md",
+        "04-knowledge/units/works/wanxian-changjiang-daqiao.md",
+        "04-knowledge/units/works/jiangyin-changjiang-daqiao.md",
+        "04-knowledge/units/works/wuhu-changjiang-daqiao.md",
+        "04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md",
+        "04-knowledge/units/works/luoyang-huanghe-daqiao.md",
+        "04-knowledge/units/works/beizhen-huanghe-daqiao.md",
+        "04-knowledge/units/works/jinan-huanghe-daqiao.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/terms/chengshi-diaosu.md"
+      ],
+      "notes": "赵农 2009 册第十章第一至第二节 unit 候选 29 条：create 28、rejected 1、update 0。范围 L7682-L7895。新建覆盖《美术的起源》《建国方略》《中国建筑史》、茅以升、城市雕塑、微缩景观公园、民俗村、重庆人民大会堂、成吉思汗陵、中华民族园、钱塘江大桥、武汉长江大桥、南京长江大桥、兰州铁桥、六件城市雕塑与八座后续大桥；rejected 为「改革开放后城市雕塑」，并入城市雕塑条。已有 KU 的上海、北京、西安、深圳、香港、中国营造学社、朱启钤、孙中山、梁思成等不再重复立条；图 10-2 至图 10-20 未视觉核验。"
+    }
+  }
+}

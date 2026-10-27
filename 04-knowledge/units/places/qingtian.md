@@ -23,13 +23,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -61,7 +61,7 @@ hierarchy_scope_note: "青田是 B 维度下清代青田石雕产地条目。The
 
 ## 相关知识元
 
-`places/liuyang.md` 记菊花石雕；`places/duanzhou.md` 记端砚产地端州；`terms/duan-yan.md`、`terms/she-yan.md` 记端、歙两砚；`terms/...` 中无“石雕”专条，本条与上述产地条同属清代石雕的并列项。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
+`places/liuyang.md` 记菊花石雕；`places/duanzhou.md` 记端砚产地端州；`terms/duan-yan.md`、`terms/she-yan.md` 记端、歙两砚；`terms/qingtian-shidiao.md` 记青田石雕，`terms/shoushan-shidiao.md`、`terms/juhua-shi.md` 分记另两种清代石雕，本条与上述产地条同属清代石雕的并列项。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
 
 ## 验证状态
 

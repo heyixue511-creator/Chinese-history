@@ -1,0 +1,100 @@
+{
+  "work_package": "2026-10-26-2004gaofeng-units-batch-au",
+  "goal": "处理 2004 高丰册第一批 unit 候选 13 条（cand-01 与 cand-02），逐条语义复读后裁定：新建 9、更新 2、no_delta 2、rejected 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:111d627feae133a0418050a014e4076b5914ac9735accfc7a81c9a0276cc2366",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2892,
+        "applied": 1490,
+        "rejected": 813,
+        "no_delta": 144
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        [
+          110,
+          143
+        ],
+        [
+          375,
+          385
+        ],
+        [
+          672,
+          890
+        ],
+        [
+          895,
+          945
+        ],
+        [
+          1040,
+          1075
+        ],
+        [
+          1255,
+          1322
+        ],
+        [
+          1352,
+          1470
+        ],
+        [
+          1488,
+          1600
+        ]
+      ],
+      "spans_scope": "覆盖 651 行：L110-L143、L375-L385、L672-L890、L895-L945、L1040-L1075、L1255-L1322、L1352-L1470、L1488-L1600。",
+      "candidates_in_scope": 13
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2004 册原文。",
+      "13 个候选逐条语义复读，先检索既有 KU 判重，再裁定 create/update/no_delta/rejected。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1、source_count 1。",
+      "update 只并入既有条目缺载的高丰册事实，并升 version、改复核日期与 source_count。",
+      "no_delta 均带 target_ref 指向既有承载条目，不新建近义条。",
+      "类型层与器物层分列：器形类别立 term，单件器物立 work，不以器物条替代类型条。",
+      "被图版或段落隔断的句子用「」，可逐字比对的双引号引文与来源一致；同册异形、异文照录并标注。",
+      "0.3 毫米等单源单器数据只记于所指器物，不上修为类型通例。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 9,
+      "update": 2,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/persons/gao-feng.md",
+        "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+        "04-knowledge/units/terms/xiangsheng-xing.md",
+        "04-knowledge/units/works/hemudu-zhui-muwan.md",
+        "04-knowledge/units/terms/zhiqi-shangxiang.md",
+        "04-knowledge/units/terms/daoqi-tongyi.md",
+        "04-knowledge/units/terms/wenzhi-tongyi.md",
+        "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+        "04-knowledge/units/terms/pingshiti-goutu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/danke-heitao.md",
+        "04-knowledge/units/works/shiwu-lianzhan-tongdeng.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/ding.md",
+        "04-knowledge/units/terms/ganlan-shi-jianzhu.md"
+      ],
+      "paths_rejected": []
+    }
+  }
+}

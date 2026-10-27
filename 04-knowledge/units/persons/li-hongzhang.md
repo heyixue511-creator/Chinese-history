@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "李鸿章是 D 维度下洋务运动与近代工业、航运、海军制度建立的核心人物。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_person
+    primary: true
+    scope_note: "D.1 首批：以李鸿章作为洋务企业创办与制度组织的关键人物复读。"
+hierarchy_scope_note: "李鸿章是 D.1 下洋务运动与近代工业、航运、海军制度建立的核心人物。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

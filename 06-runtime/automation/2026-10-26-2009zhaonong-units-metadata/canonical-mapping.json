@@ -1,0 +1,18 @@
+[
+ {
+  "entity": "中国艺术设计史（赵农，2009）",
+  "target_ref": "04-knowledge/units/publications/zhongguo-yishu-shejishi-zhaonong-2009.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-01",
+  "merged_candidates": [],
+  "note": "canonical 新条；不与 publications/zhongguo-yishu-shejishi-upgraded.md 合并。"
+ },
+ {
+  "entity": "赵农",
+  "target_ref": "04-knowledge/units/persons/zhao-nong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-02",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 publications/zhongguo-yishu-shejishi-zhaonong-2009.md 互见。"
+ }
+]

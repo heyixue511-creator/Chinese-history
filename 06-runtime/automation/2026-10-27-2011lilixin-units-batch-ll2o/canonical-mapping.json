@@ -1,0 +1,90 @@
+[
+ {
+  "entity": "匠籍制度",
+  "target_ref": "04-knowledge/units/terms/jianghu.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jianghu.md。cand-05-38 并入该条。"
+ },
+ {
+  "entity": "家庭作坊",
+  "target_ref": "04-knowledge/units/terms/jia-ting-shou-gong-ye.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-28",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jia-ting-shou-gong-ye.md。cand-05-28 并入该条。"
+ },
+ {
+  "entity": "工字形结构（哑铃式结构）",
+  "target_ref": "04-knowledge/units/terms/gongzixing-jiegou.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/gongzixing-jiegou.md。cand-05-29 并入该条。"
+ },
+ {
+  "entity": "行会",
+  "target_ref": "04-knowledge/units/terms/shougongye-hanghui.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-31",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shougongye-hanghui.md。cand-05-31 并入该条。"
+ },
+ {
+  "entity": "物勒工名",
+  "target_ref": "04-knowledge/units/terms/wule-gongming.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/wule-gongming.md。cand-05-35 并入该条。"
+ },
+ {
+  "entity": "蕃匠",
+  "target_ref": "04-knowledge/units/terms/fanjiang.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/fanjiang.md。cand-05-37 并入该条。"
+ },
+ {
+  "entity": "胡正言",
+  "target_ref": "04-knowledge/units/persons/hu-zheng-yan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/hu-zheng-yan.md。cand-04-06 并入该条。"
+ },
+ {
+  "entity": "吴发祥",
+  "target_ref": "04-knowledge/units/persons/wu-faxiang.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-47",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wu-faxiang.md。cand-05-47 并入该条。"
+ },
+ {
+  "entity": "黄鏻",
+  "target_ref": "04-knowledge/units/persons/huang-lin.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-43",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/huang-lin.md。cand-05-43 并入该条。"
+ },
+ {
+  "entity": "恒版",
+  "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-49",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/procedures/duanban-taoyin.md。cand-05-49 并入该条。"
+ },
+ {
+  "entity": "工商食官",
+  "target_ref": "04-knowledge/units/terms/gong-shang-shi-guan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/gong-shang-shi-guan.md。cand-04-29 并入该条。"
+ }
+]

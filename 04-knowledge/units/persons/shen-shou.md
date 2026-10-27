@@ -56,7 +56,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -69,7 +69,16 @@ primary_dimension: B
 secondary_dimensions:
   - D
   - A
-hierarchy_scope_note: "沈寿的主体成就在刺绣工艺与绣稿设计（B）；高丰同时把她作为近代刺绣教育制度的创办者（D）叙述，并以她与张謇并列支撑“近代织绣两位人物”的判断（A 之史学分期）。本批按四册共同的工艺—教育双重身份归主维度 B。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes:
+  - D.2
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: key_person
+    primary: true
+    scope_note: "B.2 首批：以沈寿为刺绣工艺与绣稿设计的主人物，复读其仿真绣、南通女工传习所与《雪宦绣谱》的关系；教育制度面归 D。"
+hierarchy_scope_note: "沈寿的主体成就在刺绣工艺与绣稿设计（B）；高丰同时把她作为近代刺绣教育制度的创办者（D）叙述。D.2 已物化，故次 Theme 填 D.2；A 维度无已物化 Theme。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

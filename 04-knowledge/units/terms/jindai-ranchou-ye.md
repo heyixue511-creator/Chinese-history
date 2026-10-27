@@ -25,7 +25,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -35,7 +35,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 近代染绸业是 B 维度下近代纺织印染生产形态的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b2-jindai-fangzhipin-ranzhi-tuxiang.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.2 首批：以近代染绸业为染织生产形态样本，复读其与机器缫丝、传统染坊的工序差异；原 KU 无次维度。"
+hierarchy_scope_note: "近代染绸业是 B.2 下近代纺织印染生产形态的条目；原 secondary_dimensions 为空，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

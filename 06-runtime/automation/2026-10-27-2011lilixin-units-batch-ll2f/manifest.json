@@ -1,0 +1,77 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2f",
+  "goal": "李立新 2011 册第二章第二节 L944-L1029 佛教的渗透及其设计史意义的 unit 候选裁写",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:51198301126fe5d3d9ecc2bfb4f8a1d17292172b5f8d24322e193b18bfac344b",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1451,
+        "applied": 2791,
+        "rejected": 867,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          944,
+          1029
+        ]
+      ],
+      "spans_scope": "覆盖 L944-L1029：第二章第二节“佛教的渗透及其设计史意义”全节，含 L946 佛教向艺术领域渗透、L953-L960 造像建寺与江南佛教器物、L964-L966 汉化佛教法器与庄严具、L971-L983 曼荼罗、L985-L990 供具与银熏炉、L992-L1005 钟鼓磬木鱼、L1007-L1009 佛教与设计观念、L1014-L1028 佛教造物艺术研究的三项内容与图2-13至图2-24；止于第三节标题（L1030）之前。",
+      "candidates_in_scope": 10,
+      "candidate_spans_union": [
+        [
+          946,
+          946
+        ],
+        [
+          960,
+          1028
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+      "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 5,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/persons/fu-bao-shi.md",
+        "04-knowledge/units/persons/yang-hong.md",
+        "04-knowledge/units/persons/shi-xing-bang.md",
+        "04-knowledge/units/terms/man-tuo-luo.md",
+        "04-knowledge/units/terms/wu-gong.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/jingangjing-868.md",
+        "04-knowledge/units/works/wensiyuan-yin-xunlu.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/places/famen-si-digong.md",
+        "04-knowledge/units/institutions/shosoin.md",
+        "04-knowledge/units/terms/mise-porcelain.md"
+      ],
+      "notes": ""
+    }
+  }
+}

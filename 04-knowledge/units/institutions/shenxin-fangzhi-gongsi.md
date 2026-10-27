@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下近代民族纺织企业的锚点，其商标设计属于 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-jindai-fangzhi-qiye.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以申新纺织公司作为民族资本纺织企业规模化的锚点复读。"
+hierarchy_scope_note: "申新纺织公司是 D.1 下近代民族纺织企业的锚点；其商标设计属于 C 维度，C 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

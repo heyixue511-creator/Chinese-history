@@ -60,7 +60,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 6
@@ -73,7 +73,15 @@ primary_dimension: C
 secondary_dimensions:
   - B
   - D
-hierarchy_scope_note: "陈之佛在六册中同时出现在书籍装帧（C）、染织纹样与图案（B）、设计教育（D）三条线上。本批按两册明确以书籍设计为中心的叙述归主维度 C，B/D 记为次要维度。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以陈之佛为图案装饰一路的书装家样本，复读其 1930 年代为天马书店、开明书店与《东方杂志》《小说月报》《文学》所作封面。"
+hierarchy_scope_note: "陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计是本 Topic 的风格路径样本，染织图案与设计教育归 B、D。现有 B.1/B.2/D.1/D.2 均不承接书籍装帧，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -121,10 +129,10 @@ hierarchy_scope_note: "陈之佛在六册中同时出现在书籍装帧（C）�
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: B（造物、工艺与生产技术）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中跨线最多的近代人物：同一人被三条叙述线分别征引，来源各取一面。可支持未来的近代设计教育制度化、图案学的引入、书籍装帧职业化等 Topic。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计是本 Topic 的风格路径样本，染织图案与设计教育归 B、D。现有 B.1/B.2/D.1/D.2 均不承接书籍装帧，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

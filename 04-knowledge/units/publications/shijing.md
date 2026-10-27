@@ -57,7 +57,8 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
+disambiguation: "本条 publication 指《诗经》诗歌总集；terms/shijing.md 指石经刻石类别，二者仅拼音同名，不合并。"
 confidence: medium
 consensus: tentative
 source_count: 6

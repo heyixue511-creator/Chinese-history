@@ -1,0 +1,234 @@
+[
+ {
+  "entity": "张安世",
+  "target_ref": "04-knowledge/units/persons/zhang-anshi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhang-anshi.md。"
+ },
+ {
+  "entity": "陈宝光",
+  "target_ref": "04-knowledge/units/persons/chen-baoguang.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-03",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/chen-baoguang.md。"
+ },
+ {
+  "entity": "史游",
+  "target_ref": "04-knowledge/units/persons/shi-you.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/shi-you.md。"
+ },
+ {
+  "entity": "《急就篇》",
+  "target_ref": "04-knowledge/units/publications/jijiu-pian.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jijiu-pian.md。"
+ },
+ {
+  "entity": "云气纹",
+  "target_ref": "04-knowledge/units/terms/yunqi-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-04",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yunqi-wen.md。"
+ },
+ {
+  "entity": "茱萸纹",
+  "target_ref": "04-knowledge/units/terms/zhuyu-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-05",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhuyu-wen.md。"
+ },
+ {
+  "entity": "双菱纹（杯纹）",
+  "target_ref": "04-knowledge/units/terms/shuangling-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shuangling-wen.md。"
+ },
+ {
+  "entity": "万世如意锦",
+  "target_ref": "04-knowledge/units/works/wanshi-ruyi-jin.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wanshi-ruyi-jin.md。"
+ },
+ {
+  "entity": "千金绦",
+  "target_ref": "04-knowledge/units/works/qianjin-tao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-15",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qianjin-tao.md。"
+ },
+ {
+  "entity": "印花敷彩纱",
+  "target_ref": "04-knowledge/units/terms/yinhua-fucai-sha.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yinhua-fucai-sha.md。"
+ },
+ {
+  "entity": "金银色印花纱",
+  "target_ref": "04-knowledge/units/terms/jinyinse-yinhua-sha.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jinyinse-yinhua-sha.md。"
+ },
+ {
+  "entity": "信期绣",
+  "target_ref": "04-knowledge/units/terms/xinqi-xiu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xinqi-xiu.md。"
+ },
+ {
+  "entity": "长寿绣",
+  "target_ref": "04-knowledge/units/terms/changshou-xiu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-85",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/changshou-xiu.md。"
+ },
+ {
+  "entity": "乘云绣",
+  "target_ref": "04-knowledge/units/terms/chengyun-xiu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-86",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chengyun-xiu.md。"
+ },
+ {
+  "entity": "缦（升）",
+  "target_ref": "04-knowledge/units/terms/man-sheng.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/man-sheng.md。"
+ },
+ {
+  "entity": "襄阳擂鼓台人物纹漆奁",
+  "target_ref": "04-knowledge/units/works/xiangyang-leigutai-qiren-wen-qilian.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-24",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/xiangyang-leigutai-qiren-wen-qilian.md。"
+ },
+ {
+  "entity": "泗水捞鼎画象石",
+  "target_ref": "04-knowledge/units/works/sishui-laoding.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sishui-laoding.md。"
+ },
+ {
+  "entity": "纺织图（曾母投杼）画象石",
+  "target_ref": "04-knowledge/units/works/fangzhi-tu-huaxiangshi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-33",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/fangzhi-tu-huaxiangshi.md。"
+ },
+ {
+  "entity": "白玉双螭谷纹璧",
+  "target_ref": "04-knowledge/units/works/baiyu-shuangchi-guwen-bi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-39",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/baiyu-shuangchi-guwen-bi.md。"
+ },
+ {
+  "entity": "咸阳玉马",
+  "target_ref": "04-knowledge/units/works/xianyang-yuma.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-40",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/xianyang-yuma.md。"
+ },
+ {
+  "entity": "汉八刀",
+  "target_ref": "04-knowledge/units/terms/han-badao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/han-badao.md。"
+ },
+ {
+  "entity": "绒圈锦",
+  "target_ref": "04-knowledge/units/terms/rongquan-jin.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-06-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/rongquan-jin.md。cand-06-42 并入该条。"
+ },
+ {
+  "entity": "漆奁盒和梳妆用具",
+  "target_ref": "04-knowledge/units/terms/duozi-he.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/duozi-he.md。cand-07-23 并入该条。"
+ },
+ {
+  "entity": "霍去病墓石雕群",
+  "target_ref": "04-knowledge/units/places/huoqubing-mu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-26",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/huoqubing-mu.md。cand-07-26 并入该条。"
+ },
+ {
+  "entity": "武氏祠画象石",
+  "target_ref": "04-knowledge/units/places/wushi-ci.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-28",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/wushi-ci.md。cand-07-28 并入该条。"
+ },
+ {
+  "entity": "沂南画象石",
+  "target_ref": "04-knowledge/units/places/yinan-huaxiangshi-mu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-32",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/yinan-huaxiangshi-mu.md。cand-07-32 并入该条。"
+ },
+ {
+  "entity": "孟孚",
+  "target_ref": "04-knowledge/units/persons/wei-gai.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wei-gai.md。cand-07-35 并入该条。"
+ },
+ {
+  "entity": "李弟卯",
+  "target_ref": "04-knowledge/units/persons/wei-gai.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wei-gai.md。cand-07-36 并入该条。"
+ },
+ {
+  "entity": "孙宗",
+  "target_ref": "04-knowledge/units/persons/wei-gai.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-07-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wei-gai.md。cand-07-38 并入该条。"
+ }
+]

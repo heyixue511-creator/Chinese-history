@@ -25,13 +25,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -45,7 +45,7 @@ hierarchy_scope_note: "浏阳是 B 维度下清代菊花石雕产地条目。The
 ## 核心内容
 
 - **产地（田自秉）**: 湖南浏阳；生长在浏阳永和镇浏阳河一带，以河底石质最佳——**“河底”是采石位置，来源未给矿段长度与采石方式**
-- **石质成因（田自秉）**: 菊花石系一种方解石，石质中有一种球形放射状的集合体，如菊花花朵，故名——**“球形放射状集合体”是六册中对菊花石成因的唯一矿物学表述**
+- **石质成因（田自秉）**: 菊花石系一种方解石，石质中有一种球形放射状的集合体，如菊花花朵，故名——**球形放射状的集合体是六册中对菊花石成因的唯一矿物学表述**
 - **菊花形分类（田自秉）**: 绣球菊、竹叶菊、蟹爪菊、金钱菊、蒲叶菊等多种——**五种是来源所举，未称穷尽**
 - **乾隆时期的用途（田自秉）**: 开始用作雕刻材料，制作笔筒、水池等文具用品——**起点用途是文房，不是陈设**
 - **清末的转向（田自秉）**: 发展为花屏、桌面等家具装饰——**由文具转为家具装饰，是来源给出的用途变化，未给变化原因**
@@ -64,7 +64,7 @@ hierarchy_scope_note: "浏阳是 B 维度下清代菊花石雕产地条目。The
 
 ## 相关知识元
 
-`places/qingtian.md`、`places/duanzhou.md` 为清代石雕的其他产地；`terms/duan-yan.md`、`terms/she-yan.md` 记端、歙两砚；`terms/...` 中无“石雕”或“菊花石”专条。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
+`places/qingtian.md`、`places/duanzhou.md` 为清代石雕的其他产地；`terms/duan-yan.md`、`terms/she-yan.md` 记端、歙两砚；`terms/juhua-shi.md` 记菊花石，`terms/qingtian-shidiao.md`、`terms/shoushan-shidiao.md` 分记另两种清代石雕。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
 
 ## 验证状态
 

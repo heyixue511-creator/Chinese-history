@@ -1,0 +1,160 @@
+{
+ "after_bytes": 150972,
+ "after_sha256": "sha256:9d69a8186b56dacc516fcb71935da1d16a00c0ba7646d90c8d53291920354ef7",
+ "baseline": {
+  "candidate_applied": 2942,
+  "candidate_needs_evidence": 1293,
+  "claim_registry_total": 69
+ },
+ "before_bytes": 102064,
+ "before_sha256": "sha256:7f209f047b0238e629039324d191732437f81a28b154107c8e9a2be9b32b99b6",
+ "candidate_count": 33,
+ "claim_rows": 33,
+ "date": "2026-10-27",
+ "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+ "goal": "夏燕靖 2009 册春秋战国章 33 条 claim 候选写回 claim-registry",
+ "merged_candidates": 0,
+ "package_id": "2026-10-27-2009xiayanjing-claims-batch-cl2b",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 2975,
+  "candidate_needs_evidence": 1260,
+  "claim_registry_total": 102
+ },
+ "scope_spans": [
+  [
+   791,
+   801
+  ],
+  [
+   835,
+   835
+  ],
+  [
+   841,
+   841
+  ],
+  [
+   853,
+   853
+  ],
+  [
+   857,
+   857
+  ],
+  [
+   863,
+   863
+  ],
+  [
+   870,
+   870
+  ],
+  [
+   874,
+   876
+  ],
+  [
+   900,
+   900
+  ],
+  [
+   912,
+   912
+  ],
+  [
+   938,
+   938
+  ],
+  [
+   954,
+   954
+  ],
+  [
+   983,
+   983
+  ],
+  [
+   1006,
+   1006
+  ],
+  [
+   1034,
+   1034
+  ],
+  [
+   1059,
+   1059
+  ],
+  [
+   1067,
+   1067
+  ],
+  [
+   1088,
+   1088
+  ],
+  [
+   1096,
+   1096
+  ],
+  [
+   1128,
+   1128
+  ],
+  [
+   1132,
+   1132
+  ],
+  [
+   1157,
+   1157
+  ],
+  [
+   1161,
+   1161
+  ],
+  [
+   1177,
+   1177
+  ],
+  [
+   1185,
+   1185
+  ],
+  [
+   1202,
+   1202
+  ],
+  [
+   1206,
+   1214
+  ],
+  [
+   1222,
+   1222
+  ],
+  [
+   1228,
+   1228
+  ],
+  [
+   1232,
+   1232
+  ],
+  [
+   1244,
+   1246
+  ],
+  [
+   1248,
+   1248
+  ],
+  [
+   1259,
+   1259
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+ "with_supported_by": 33
+}

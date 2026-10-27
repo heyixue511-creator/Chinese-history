@@ -1,0 +1,171 @@
+{
+ "work_package": "2026-10-26-2009xiayanjing-units-batch-aq",
+ "goal": "处理 2009 册 unit 候选 24 条（cand-01 14 条、cand-02 8 条、cand-03 2 条），按语义复读与判重结果新建 10、更新 1、no_delta 13。",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:61c3eb965dffc8ea32d0617ccf4574d86c44e18668cffa40fa8c88f3467d50ba",
+   "sha256_scope": "06-runtime/state/candidate-index.jsonl",
+   "counts_before": {
+    "needs_evidence": 2980,
+    "applied": 1437,
+    "rejected": 812,
+    "no_delta": 110
+   }
+  },
+  "source": {
+   "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+   "file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+   "spans": [
+    [
+     249,
+     261
+    ],
+    [
+     306,
+     315
+    ],
+    [
+     308,
+     315
+    ],
+    [
+     367,
+     376
+    ],
+    [
+     367,
+     376
+    ],
+    [
+     390,
+     393
+    ],
+    [
+     396,
+     1015
+    ],
+    [
+     396,
+     413
+    ],
+    [
+     471,
+     478
+    ],
+    [
+     654,
+     654
+    ],
+    [
+     654,
+     654
+    ],
+    [
+     710,
+     718
+    ],
+    [
+     736,
+     741
+    ],
+    [
+     748,
+     766
+    ],
+    [
+     859,
+     871
+    ],
+    [
+     962,
+     980
+    ],
+    [
+     988,
+     992
+    ],
+    [
+     1000,
+     1003
+    ],
+    [
+     1016,
+     1635
+    ],
+    [
+     1036,
+     1043
+    ],
+    [
+     1069,
+     1069
+    ],
+    [
+     1071,
+     1071
+    ],
+    [
+     1255,
+     1262
+    ],
+    [
+     1288,
+     1301
+    ]
+   ],
+   "spans_scope": "并集 1277 行（L249-L1635 内不连续；重复区间见 spans）",
+   "candidates_in_scope": 24
+  }
+ },
+ "method": {
+  "rules": [
+   "来源只读：不改写、不删除 2009 册原文。",
+   "24 个候选逐条语义复读，判重覆盖既有 KU 与同册同名条目。",
+   "create 单源 KU：consensus tentative、evidence_status source_backed、version 1。",
+   "update 仅补来源确证的商代明器一句与 L654 引证，version 1→2。",
+   "no_delta 需既有 target_ref 完整覆盖候选语义，不另立近义条目。",
+   "引文审计：双引号内文字须与源文逐字一致（去空白），非源文或图版隔断用「」。"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 10,
+   "update": 1,
+   "no_delta": 13,
+   "paths_created": [
+    "04-knowledge/units/terms/taoqi.md",
+    "04-knowledge/units/terms/qingtongqi.md",
+    "04-knowledge/units/terms/shangdai-baitao.md",
+    "04-knowledge/units/terms/shangdai-zhouchuan.md",
+    "04-knowledge/units/terms/shangzhou-sizhiwu.md",
+    "04-knowledge/units/terms/nangeng-nvzhi.md",
+    "04-knowledge/units/terms/ma-bu.md",
+    "04-knowledge/units/terms/lianran-ye.md",
+    "04-knowledge/units/terms/fang-vessel.md",
+    "04-knowledge/units/terms/tianren-xiangfen.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/terms/mingqi.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md",
+    "04-knowledge/units/terms/li-cauldron.md",
+    "04-knowledge/units/terms/yuqixingzu-taoding.md",
+    "04-knowledge/units/terms/shuiniaoxing-taohu.md",
+    "04-knowledge/units/terms/tao-zeng.md",
+    "04-knowledge/units/terms/juzhiji.md",
+    "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+    "04-knowledge/units/terms/twelve-symbols.md",
+    "04-knowledge/units/works/yunwen-tongjin.md",
+    "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+    "04-knowledge/units/works/wangchengtu-nie-chongyi.md",
+    "04-knowledge/units/works/wangchengtu-dai-zhen.md",
+    "04-knowledge/units/institutions/qin-gongshi-gongguan.md"
+   ]
+  }
+ }
+}

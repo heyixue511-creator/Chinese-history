@@ -1,0 +1,170 @@
+{
+  "work_package": "2026-10-27-2010tianzibing-units-batch-t11",
+  "goal": "田自秉 2010 册第十章明代工艺美术 UNITS 写回：35 新建、2 更新、1 no_delta",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:db2f36bf23d34112969827467a1e87bdc841d1c66e9ab5c961f6b17a64e2bfbf",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1676,
+        "applied": 2584,
+        "rejected": 852,
+        "no_delta": 227
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          4170,
+          4502
+        ],
+        [
+          4757,
+          4762
+        ]
+      ],
+      "spans_scope": "第十章明代的工艺美术（L4170-L4502）全章；另含合并候选 cand-11-60 的清代跨段 L4757-L4762（百宝嵌周制重述），清代其余章节留待 T12。图版只读图注，未视觉核验。",
+      "candidates_in_scope": 38,
+      "candidate_spans_union": [
+        [
+          4178,
+          4178
+        ],
+        [
+          4206,
+          4207
+        ],
+        [
+          4215,
+          4215
+        ],
+        [
+          4218,
+          4218
+        ],
+        [
+          4220,
+          4220
+        ],
+        [
+          4231,
+          4231
+        ],
+        [
+          4234,
+          4234
+        ],
+        [
+          4244,
+          4244
+        ],
+        [
+          4246,
+          4250
+        ],
+        [
+          4268,
+          4268
+        ],
+        [
+          4302,
+          4302
+        ],
+        [
+          4340,
+          4340
+        ],
+        [
+          4348,
+          4350
+        ],
+        [
+          4358,
+          4358
+        ],
+        [
+          4364,
+          4366
+        ],
+        [
+          4387,
+          4762
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation/location，source_count 不变、version+1",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注、且所指器物已由其他条目承担的候选记 no_delta；所指器物无其他条目承担时，建图版锚点作品条并标未视觉核验与逐项未载",
+      "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "候选 unit_type 与实体性质不符时按实体改写：织物与纹样类型记 term，单件器物与单幅画作记 work",
+      "同段并列条目按证据层级分列：工艺总类归 term，实例器物归 work，人物归 person，不因同段而合并"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 35,
+      "update": 2,
+      "no_delta": 1,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/chenghua-jigang-cup.md",
+        "04-knowledge/units/works/xuande-blue-white-pot.md",
+        "04-knowledge/units/terms/chihui.md",
+        "04-knowledge/units/persons/he-chaozong.md",
+        "04-knowledge/units/terms/tian-cai.md",
+        "04-knowledge/units/works/doucai-grape-cup.md",
+        "04-knowledge/units/works/doucai-cock-cup.md",
+        "04-knowledge/units/works/doucai-bagua-censer.md",
+        "04-knowledge/units/works/wucai-figure-washer.md",
+        "04-knowledge/units/publications/tianshui-bingshanlu.md",
+        "04-knowledge/units/persons/ruan-bi.md",
+        "04-knowledge/units/terms/gu-embroidery.md",
+        "04-knowledge/units/persons/han-ximeng.md",
+        "04-knowledge/units/works/dazhongsi-bell.md",
+        "04-knowledge/units/terms/xuande-censer.md",
+        "04-knowledge/units/persons/zhou-zhu.md",
+        "04-knowledge/units/persons/jiang-huihui.md",
+        "04-knowledge/units/persons/zhang-degang.md",
+        "04-knowledge/units/persons/bao-liang.md",
+        "04-knowledge/units/persons/yang-xun.md",
+        "04-knowledge/units/terms/baibaoqian.md",
+        "04-knowledge/units/persons/lu-zigang.md",
+        "04-knowledge/units/works/lu-zigang-tea-crystal-vase.md",
+        "04-knowledge/units/terms/jiading-school.md",
+        "04-knowledge/units/terms/jinling-school.md",
+        "04-knowledge/units/persons/pu-zhongqian.md",
+        "04-knowledge/units/persons/zhu-he.md",
+        "04-knowledge/units/persons/zhu-xiaosong.md",
+        "04-knowledge/units/persons/zhu-sansong.md",
+        "04-knowledge/units/works/jiading-zhu-xiaosong-bamboo-censer.md",
+        "04-knowledge/units/works/rhinoceros-horn-cup.md",
+        "04-knowledge/units/works/diaoqi-small-box.md",
+        "04-knowledge/units/terms/tianqi-lacquer.md",
+        "04-knowledge/units/persons/jiang-qianli.md",
+        "04-knowledge/units/terms/jin-qi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/jianghu.md",
+        "04-knowledge/units/publications/xiu-shi-lu.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/fahua-qi.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

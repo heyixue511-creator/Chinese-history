@@ -1,0 +1,194 @@
+[
+ {
+  "entity": "三棱尖状石器",
+  "target_ref": "04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-10",
+  "merged_candidates": [],
+  "note": "既有条已载巨厚石片、棱背状打制、西侯度 180 万年前、迳河 70—80 万年前与贾兰坡“迳河—丁村文化系”的定名。"
+ },
+ {
+  "entity": "陶器",
+  "target_ref": "04-knowledge/units/terms/taoqi.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-20",
+  "merged_candidates": [],
+  "note": "新建 terms/taoqi.md（陶器）；判重未见同名同实体总类 KU，按单源 2009 册 L306-L315 新建。"
+ },
+ {
+  "entity": "陶鬲",
+  "target_ref": "04-knowledge/units/terms/li-cauldron.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-21",
+  "merged_candidates": [],
+  "note": "既有六源条已载由鼎演变、三足肥大中空、扩大受热面积，并已引 2009 册 L312、L314 同段。"
+ },
+ {
+  "entity": "鱼鳍形足陶鼎",
+  "target_ref": "04-knowledge/units/terms/yuqixingzu-taoding.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-36",
+  "merged_candidates": [],
+  "note": "既有条已载良渚文化鱼鳍形足陶鼎及模拟自然形态、再按生活需要创造人工形态的造型路径。"
+ },
+ {
+  "entity": "水鸟形陶壶",
+  "target_ref": "04-knowledge/units/terms/shuiniaoxing-taohu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-37",
+  "merged_candidates": [],
+  "note": "既有条已载良渚文化水鸟形陶壶及模拟自然形态、再按生活需要创造人工形态的造型路径。"
+ },
+ {
+  "entity": "河姆渡陶甑",
+  "target_ref": "04-knowledge/units/terms/tao-zeng.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-40",
+  "merged_candidates": [],
+  "note": "既有条已载河姆渡陶甑的盆罐形、两侧耳、底部蒸汽孔、蒸屉式设计与煮食向蒸食过渡，并已引 2009 册同段。"
+ },
+ {
+  "entity": "踞织机",
+  "target_ref": "04-knowledge/units/terms/juzhiji.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-43",
+  "merged_candidates": [],
+  "note": "既有条已载龙山文化织布骨梭、结束手经指挂、席地而坐的织造方式与石寨山铜贮贝器图像。"
+ },
+ {
+  "entity": "骨针",
+  "target_ref": "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-44",
+  "merged_candidates": [],
+  "note": "既有条以“骨针”为别名，已载山顶洞人缝缀皮衣、兽筋到葛麻藤线材的演进与遗址大量骨针骨锥。"
+ },
+ {
+  "entity": "青铜器",
+  "target_ref": "04-knowledge/units/terms/qingtongqi.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-54",
+  "merged_candidates": [],
+  "note": "新建 terms/qingtongqi.md（青铜器）；判重见 terms/qingtong.md 仅记材料，未见器物总类条，按单源 2009 册 L471-L478、L495 新建。"
+ },
+ {
+  "entity": "商代白陶",
+  "target_ref": "04-knowledge/units/terms/shangdai-baitao.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-93",
+  "merged_candidates": [],
+  "note": "新建 terms/shangdai-baitao.md（商代白陶）；判重未见同名同实体 KU，按单源 2009 册 L654 新建。"
+ },
+ {
+  "entity": "商代明器",
+  "target_ref": "04-knowledge/units/terms/mingqi.md",
+  "action": "update",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-95",
+  "merged_candidates": [],
+  "note": "更新 terms/mingqi.md（明器）；补 2009 册 L654 商代专门生产随葬明器一句并新增 L654 引证，version 1→2。"
+ },
+ {
+  "entity": "商代舟船",
+  "target_ref": "04-knowledge/units/terms/shangdai-zhouchuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-81",
+  "merged_candidates": [],
+  "note": "新建 terms/shangdai-zhouchuan.md（商代舟船）；判重未见同名同实体 KU，按单源 2009 册 L710-L718 新建。"
+ },
+ {
+  "entity": "商周丝织物",
+  "target_ref": "04-knowledge/units/terms/shangzhou-sizhiwu.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-86",
+  "merged_candidates": [],
+  "note": "新建 terms/shangzhou-sizhiwu.md（商周丝织物）；判重未见同名同实体 KU，按单源 2009 册 L736-L741 新建。"
+ },
+ {
+  "entity": "十二章纹",
+  "target_ref": "04-knowledge/units/terms/twelve-symbols.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-01-91",
+  "merged_candidates": [],
+  "note": "既有条已载十二种纹样、前六绘后六绣与历代帝王沿用，并已引 2009 册同段。"
+ },
+ {
+  "entity": "淅川下寺楚墓铜禁",
+  "target_ref": "04-knowledge/units/works/yunwen-tongjin.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-12",
+  "merged_candidates": [],
+  "note": "既有 works/yunwen-tongjin.md 即以云纹铜禁记淅川下寺楚墓出土铜禁，已载多层镂空云纹铜梗与分铸焊接工艺。"
+ },
+ {
+  "entity": "男耕女织",
+  "target_ref": "04-knowledge/units/terms/nangeng-nvzhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-33",
+  "merged_candidates": [],
+  "note": "新建 terms/nangeng-nvzhi.md（男耕女织）；判重未见同名同实体 KU，按单源 2009 册 L962-L980 新建。"
+ },
+ {
+  "entity": "布（麻织物）",
+  "target_ref": "04-knowledge/units/terms/ma-bu.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-36",
+  "merged_candidates": [],
+  "note": "新建 terms/ma-bu.md（麻布，来源所谓“布”）；判重见 terms/shangzhou-sizhiwu.md 仅涉丝织，未见麻布专条，按单源 2009 册 L988-L992 新建。"
+ },
+ {
+  "entity": "练染业",
+  "target_ref": "04-knowledge/units/terms/lianran-ye.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-38",
+  "merged_candidates": [],
+  "note": "新建 terms/lianran-ye.md（练染业）；判重未见同名同实体 KU，按单源 2009 册 L1000-L1003 新建。"
+ },
+ {
+  "entity": "脚踏提综斜织机",
+  "target_ref": "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-41",
+  "merged_candidates": [],
+  "note": "既有条已载泗洪曹庄“慈母投杼图”、一长一短踏板分别带动综线与战国秦汉的普及。"
+ },
+ {
+  "entity": "钫",
+  "target_ref": "04-knowledge/units/terms/fang-vessel.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-46",
+  "merged_candidates": [],
+  "note": "新建 terms/fang-vessel.md（钫）；判重见 terms/hu-vessel.md 仅记方壶称谓、terms/chunqiu-zhanguo-qingtong-chuishiqi.md 表列简注，未立专条，按单源 2009 册 L1036-L1043 新建。"
+ },
+ {
+  "entity": "王城图（聂崇义绘）",
+  "target_ref": "04-knowledge/units/works/wangchengtu-nie-chongyi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-85",
+  "merged_candidates": [],
+  "note": "既有 works/wangchengtu-nie-chongyi.md 已载图注、绘者聂崇义与王城图内容。"
+ },
+ {
+  "entity": "王城图（戴震绘）",
+  "target_ref": "04-knowledge/units/works/wangchengtu-dai-zhen.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-02-86",
+  "merged_candidates": [],
+  "note": "既有 works/wangchengtu-dai-zhen.md 已载图注、绘者戴震与王城图内容。"
+ },
+ {
+  "entity": "天人相分",
+  "target_ref": "04-knowledge/units/terms/tianren-xiangfen.md",
+  "action": "create",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-02",
+  "merged_candidates": [],
+  "note": "新建 terms/tianren-xiangfen.md（天人相分）；判重未见同名同实体 KU，按单源 2009 册 L1255-L1262 新建。"
+ },
+ {
+  "entity": "秦汉官手工业制度",
+  "target_ref": "04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-04",
+  "merged_candidates": [],
+  "note": "既有 institutions/qin-gongshi-gongguan.md 已载秦代官手工业门类、中央工室与县工官、汉代东西九市、张安世例、质量处罚与四特点。"
+ }
+]

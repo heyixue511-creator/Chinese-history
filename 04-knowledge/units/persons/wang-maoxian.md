@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "王茂仙在本册只作为苏州缂丝名匠被列名，与沈金水并列，代表“1911 年后苏州缂丝转向挂屏、被面、台毯、靠背与名画卷册引首”这一产品结构变化。归 B 维度（造物、工艺与生产技术）。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: key_person
+    primary: true
+    scope_note: "B.2 首批：以王茂仙为 1911 年后苏州缂丝产品结构变化的名匠样本，与沈金水并列。"
+hierarchy_scope_note: "王茂仙是 B.2 下苏州缂丝名匠，与沈金水并列代表 1911 年后缂丝转向挂屏、被面、台毯、靠背与名画卷册引首；原 secondary_dimensions 为空，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

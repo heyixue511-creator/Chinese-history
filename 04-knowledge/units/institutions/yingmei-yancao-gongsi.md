@@ -57,7 +57,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 5
@@ -70,7 +70,15 @@ primary_dimension: C
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "英美烟草公司是 C 维度下近代商业广告的机构条目，其外资经营与驻厂设计师制度归 D、E；当前只到 Dimension。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/c1-yuefenpai-shangye-guanggao.md
+    role: key_institution
+    primary: true
+    scope_note: "C.1 首批：以英美烟草公司为月份牌广告的机构样本，复读其广告部、驻厂设计师与赠送式广告机制；外资经营归 D/E。"
+hierarchy_scope_note: "英美烟草公司是 C.1 下近代商业广告的机构条目，其外资经营与驻厂设计师制度涉及 D、E 维度；现有 D.2 为服饰制度、E 类 Theme 未 materialize，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -99,10 +107,10 @@ hierarchy_scope_note: "英美烟草公司是 C 维度下近代商业广告的机
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: D（商业、制度与设计教育）；E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代外资企业广告制度的机构样本，可串起“招贴—月份牌—包装—驻厂设计师”四条线索，并与商务印书馆、华商广告公司、穉英画室等条目并置，观察中外广告机构的竞争与人员流动。当前只到 Dimension。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.1 月份牌与商业广告（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 英美烟草公司是 C.1 下近代商业广告的机构条目，其外资经营与驻厂设计师制度涉及 D、E 维度；现有 D.2 为服饰制度、E 类 Theme 未 materialize，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

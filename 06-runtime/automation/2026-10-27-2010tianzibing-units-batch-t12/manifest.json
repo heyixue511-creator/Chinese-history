@@ -1,0 +1,229 @@
+{
+  "work_package": "2026-10-27-2010tianzibing-units-batch-t12",
+  "goal": "完成田自秉 2010 第十一章清代的工艺美术（L4503-L4900）unit 候选裁定：36 条新建、2 条 no_delta、5 条跨章合并候选保留 needs_evidence 随 T13 裁定。",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:90df0076be0438f15efc801dce1b4cfb2dfb558a92d92ef224cb4d917443b200",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1638,
+        "applied": 2621,
+        "rejected": 852,
+        "no_delta": 228
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          4503,
+          4900
+        ]
+      ],
+      "spans_scope": "第十一章清代的工艺美术（L4503-L4900）全章复读并裁定 38 条。5 条跨章合并候选（cand-12-31 苏绣 L4651-L5140、cand-12-80 翻簧 L4816-L5244、cand-12-82 泥人张 L4826-L5323、cand-12-84 惠山泥人 L4830-L5325、cand-12-87 料器 L4846-L5339）的候选跨度延伸至近代章 L4901 之后，该段本批未复读，保留 needs_evidence 随 T13 一并裁定，不记 terminal、不继承合并跨度。图版只读图注，未视觉核验。",
+      "candidates_in_scope": 38,
+      "candidate_spans_union": [
+        [
+          4537,
+          4537
+        ],
+        [
+          4541,
+          4541
+        ],
+        [
+          4543,
+          4543
+        ],
+        [
+          4547,
+          4548
+        ],
+        [
+          4554,
+          4556
+        ],
+        [
+          4579,
+          4579
+        ],
+        [
+          4591,
+          4591
+        ],
+        [
+          4595,
+          4595
+        ],
+        [
+          4635,
+          4635
+        ],
+        [
+          4657,
+          4663
+        ],
+        [
+          4673,
+          4673
+        ],
+        [
+          4675,
+          4675
+        ],
+        [
+          4695,
+          4701
+        ],
+        [
+          4715,
+          4721
+        ],
+        [
+          4724,
+          4724
+        ],
+        [
+          4727,
+          4727
+        ],
+        [
+          4733,
+          4733
+        ],
+        [
+          4757,
+          4757
+        ],
+        [
+          4760,
+          4760
+        ],
+        [
+          4762,
+          4764
+        ],
+        [
+          4770,
+          4770
+        ],
+        [
+          4772,
+          4772
+        ],
+        [
+          4782,
+          4784
+        ],
+        [
+          4788,
+          4788
+        ],
+        [
+          4802,
+          4802
+        ],
+        [
+          4804,
+          4804
+        ],
+        [
+          4806,
+          4806
+        ],
+        [
+          4812,
+          4812
+        ],
+        [
+          4814,
+          4814
+        ],
+        [
+          4820,
+          4822
+        ],
+        [
+          4828,
+          4828
+        ],
+        [
+          4851,
+          4851
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "跨册两源新建：追加第二册 source block，source_count=2；两册说法不一致时并列，不据一说改写另一说",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注的候选建图版锚点作品条并标未视觉核验与逐项未载；图注与正文引图标记不在同段时照录不改排",
+      "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "人物条只承担籍贯、身份、师承、得名与评语；工艺定义、工序与产地归术语条，两组互指不合并",
+      "候选跨度跨入未复读章节时不得继承候选的合并跨度：只复读本章并保留 needs_evidence，随下一批复读全跨度后裁定"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 36,
+      "update": 0,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/langhong.md",
+        "04-knowledge/units/persons/lang-tingji.md",
+        "04-knowledge/units/terms/gu-cai.md",
+        "04-knowledge/units/terms/su-sancai.md",
+        "04-knowledge/units/works/wucai-flower-bird-vase.md",
+        "04-knowledge/units/publications/taoya.md",
+        "04-knowledge/units/works/falangcai-zhuju-anchun-ping.md",
+        "04-knowledge/units/terms/guangcai.md",
+        "04-knowledge/units/terms/mansheng-hu.md",
+        "04-knowledge/units/persons/yang-pengnian.md",
+        "04-knowledge/units/persons/chen-mansheng.md",
+        "04-knowledge/units/terms/xiangxiu.md",
+        "04-knowledge/units/persons/hu-lianxian.md",
+        "04-knowledge/units/terms/shuxiu.md",
+        "04-knowledge/units/terms/jingxiu.md",
+        "04-knowledge/units/terms/ditan.md",
+        "04-knowledge/units/persons/hu-qichang.md",
+        "04-knowledge/units/terms/hua-falang.md",
+        "04-knowledge/units/works/hua-falang-xiaoping.md",
+        "04-knowledge/units/works/hua-falang-kuihua-pan.md",
+        "04-knowledge/units/persons/tang-tianchi.md",
+        "04-knowledge/units/terms/dianluo.md",
+        "04-knowledge/units/works/luodian-zhuiqi-zanhe.md",
+        "04-knowledge/units/persons/lu-kuisheng.md",
+        "04-knowledge/units/persons/shen-zhaoan.md",
+        "04-knowledge/units/persons/tom-qipinte.md",
+        "04-knowledge/units/works/dayu-zhishui-yushan.md",
+        "04-knowledge/units/works/baiyu-qianjin-hongbaoshi-wan.md",
+        "04-knowledge/units/terms/qingtian-shidiao.md",
+        "04-knowledge/units/terms/shoushan-shidiao.md",
+        "04-knowledge/units/terms/juhua-shi.md",
+        "04-knowledge/units/persons/wu-zhifan.md",
+        "04-knowledge/units/terms/liuqing.md",
+        "04-knowledge/units/terms/xiaopin-diaoke.md",
+        "04-knowledge/units/persons/zhang-mingshan.md",
+        "04-knowledge/units/works/hehua-wen-taohong-liaogang.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/blue-and-white-porcelain.md",
+        "04-knowledge/units/institutions/jiangning-zhizaoju.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

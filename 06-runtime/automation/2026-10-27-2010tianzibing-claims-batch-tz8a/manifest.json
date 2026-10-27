@@ -1,0 +1,167 @@
+{
+ "after_bytes": 1698425,
+ "after_sha256": "sha256:52c0e593aabdcb4f70751bc087242576404ef934be66adc8284b141653cd0330",
+ "baseline": {
+  "candidate_applied": 3983,
+  "candidate_needs_evidence": 251,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 991
+ },
+ "before_bytes": 1643396,
+ "before_sha256": "sha256:a0ba81797336dff450f5cf4ce513d7cdf8734ce91a4cf6f10ee45d617f8f24fc",
+ "candidate_count": 34,
+ "claim_rows": 34,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 61,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》清代陶瓷末段至近代太平天国工艺 claim 候选（L4552-L4959），新增 34 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz8a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4017,
+  "candidate_needs_evidence": 217,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1025
+ },
+ "scope_spans": [
+  [
+   4552,
+   4552
+  ],
+  [
+   4554,
+   4554
+  ],
+  [
+   4560,
+   4560
+  ],
+  [
+   4576,
+   4576
+  ],
+  [
+   4599,
+   4599
+  ],
+  [
+   4609,
+   4625
+  ],
+  [
+   4627,
+   4627
+  ],
+  [
+   4633,
+   4633
+  ],
+  [
+   4639,
+   4639
+  ],
+  [
+   4649,
+   4649
+  ],
+  [
+   4661,
+   4661
+  ],
+  [
+   4687,
+   4687
+  ],
+  [
+   4695,
+   4695
+  ],
+  [
+   4715,
+   4715
+  ],
+  [
+   4721,
+   4721
+  ],
+  [
+   4749,
+   4749
+  ],
+  [
+   4772,
+   4772
+  ],
+  [
+   4782,
+   4782
+  ],
+  [
+   4836,
+   4840
+  ],
+  [
+   4859,
+   4859
+  ],
+  [
+   4877,
+   4887
+  ],
+  [
+   4891,
+   4891
+  ],
+  [
+   4893,
+   4893
+  ],
+  [
+   4897,
+   4897
+  ],
+  [
+   4905,
+   4905
+  ],
+  [
+   4909,
+   4909
+  ],
+  [
+   4913,
+   4915
+  ],
+  [
+   4923,
+   4923
+  ],
+  [
+   4929,
+   4929
+  ],
+  [
+   4935,
+   4935
+  ],
+  [
+   4937,
+   4937
+  ],
+  [
+   4945,
+   4945
+  ],
+  [
+   4959,
+   4959
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 105,
+ "with_supported_by": 34
+}

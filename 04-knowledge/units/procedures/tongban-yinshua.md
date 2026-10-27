@@ -25,7 +25,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -35,7 +35,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "铜版印刷是 C 维度下现代铜版蚀刻印刷工序的条目，其版面与图像归 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/c2-shiyin-qianyin-jishu-chuban-jigou.md
+    role: procedure
+    primary: true
+    scope_note: "C.2.1 首批：以铜版印刷为现代凹版蚀刻工序样本，复读其涂蜡、刻画、酸腐蚀与油墨印刷；来源只写“现代”，时段存疑。"
+hierarchy_scope_note: "铜版印刷是 C.2 下现代铜版蚀刻印刷工序的条目；其涂蜡、刻画、酸腐蚀与油墨印刷是本 Topic 的技术样本，版面与图像归 C。来源只写“现代”，无法确认属 1840–1949。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "铜版印刷是 C 维度下现代铜版蚀刻印刷工序
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铜版印刷是 C 维度下现代铜版蚀刻印刷工序的条目，其版面与图像归 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.1 石印、铅印技术与出版机构（procedure，主挂载）
+- role_in_theme: procedure
+- scope_note: 铜版印刷是 C.2 下现代铜版蚀刻印刷工序的条目；其涂蜡、刻画、酸腐蚀与油墨印刷是本 Topic 的技术样本，版面与图像归 C。来源只写“现代”，无法确认属 1840–1949。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

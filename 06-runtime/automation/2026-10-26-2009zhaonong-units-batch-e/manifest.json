@@ -1,0 +1,160 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-e",
+  "goal": "收口赵农 2009 册第五章（魏晋南北朝）88 条 unit 候选：77 新建、4 更新、5 no_delta、2 rejected",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:19fa3c04832f9fd7c4ecf5676e55c729f73821ba522583e43857cd848ddde75a",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2602,
+        "applied": 1749,
+        "rejected": 822,
+        "no_delta": 166
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          3258,
+          3314
+        ],
+        [
+          3317,
+          3405
+        ],
+        [
+          3408,
+          3512
+        ],
+        [
+          3515,
+          4095
+        ]
+      ],
+      "spans_scope": "覆盖 832 行：L3258-L3314、L3317-L3405、L3408-L3512、L3515-L4095。",
+      "candidates_in_scope": 88
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，校正与拼接用「 」，正文禁 ASCII 双引号",
+      "原文疑误照录标疑，不径改",
+      "重复实体只保留一个 canonical，另一候选判 rejected",
+      "已完整覆盖的候选判 no_delta，不改写既有条目"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 77,
+      "update": 4,
+      "no_delta": 5,
+      "rejected": 2,
+      "paths_created": [
+        "04-knowledge/units/publications/luo-yang-qie-lan-ji.md",
+        "04-knowledge/units/terms/jin-cao.md",
+        "04-knowledge/units/works/si-ma-sheng-mu-zhi-ming.md",
+        "04-knowledge/units/works/chan-guo-shan-bei.md",
+        "04-knowledge/units/works/cuan-bao-zi-bei.md",
+        "04-knowledge/units/works/hao-da-wang-bei.md",
+        "04-knowledge/units/works/guang-wu-jiang-jun-bei.md",
+        "04-knowledge/units/works/cuan-long-yan-bei.md",
+        "04-knowledge/units/works/yi-he-ming.md",
+        "04-knowledge/units/works/zhang-hei-nv-mu-zhi.md",
+        "04-knowledge/units/works/jing-shi-jun-bei.md",
+        "04-knowledge/units/works/tai-shan-jing-shi-yu-jin-gang-jing.md",
+        "04-knowledge/units/works/xi-yue-hua-shan-bei.md",
+        "04-knowledge/units/terms/ao.md",
+        "04-knowledge/units/terms/shan-liang-dang-shan.md",
+        "04-knowledge/units/terms/qiu.md",
+        "04-knowledge/units/terms/qun.md",
+        "04-knowledge/units/persons/wang-xian-zhi.md",
+        "04-knowledge/units/terms/da-chang.md",
+        "04-knowledge/units/terms/ku.md",
+        "04-knowledge/units/terms/xuanxue.md",
+        "04-knowledge/units/terms/nan-xiu-bei-xiong.md",
+        "04-knowledge/units/persons/zhuge-liang.md",
+        "04-knowledge/units/works/fanche-longgu-shuiche.md",
+        "04-knowledge/units/works/qian-li-chuan.md",
+        "04-knowledge/units/terms/niu-che.md",
+        "04-knowledge/units/terms/shan-teng-zhi.md",
+        "04-knowledge/units/publications/bo-wu-zhi.md",
+        "04-knowledge/units/terms/xing-shu.md",
+        "04-knowledge/units/terms/bei-xue.md",
+        "04-knowledge/units/terms/wei-bei.md",
+        "04-knowledge/units/works/tian-fa-shen-chen-bei.md",
+        "04-knowledge/units/works/shi-men-ming.md",
+        "04-knowledge/units/works/zhang-meng-long-bei.md",
+        "04-knowledge/units/persons/wang-xi-zhi.md",
+        "04-knowledge/units/persons/lu-ji.md",
+        "04-knowledge/units/works/ping-fu-tie.md",
+        "04-knowledge/units/works/lan-ting-ji-xu.md",
+        "04-knowledge/units/works/qing-ci-gu-cang-guan.md",
+        "04-knowledge/units/terms/xia-bo.md",
+        "04-knowledge/units/terms/mian-guan-mian-liu.md",
+        "04-knowledge/units/terms/ru.md",
+        "04-knowledge/units/terms/mu-ji.md",
+        "04-knowledge/units/publications/bao-pu-zi.md",
+        "04-knowledge/units/terms/jia-ji.md",
+        "04-knowledge/units/terms/dai.md",
+        "04-knowledge/units/works/luo-shen-fu-tu.md",
+        "04-knowledge/units/works/jin-gu-yuan.md",
+        "04-knowledge/units/terms/zhu-lin-qi-xian.md",
+        "04-knowledge/units/works/zhu-ran-mu-hei-hong-qi-ji.md",
+        "04-knowledge/units/terms/lian-zi.md",
+        "04-knowledge/units/terms/di.md",
+        "04-knowledge/units/terms/qiang-di.md",
+        "04-knowledge/units/terms/hu-jia.md",
+        "04-knowledge/units/terms/kong-hou.md",
+        "04-knowledge/units/works/zhuo-qin-tu.md",
+        "04-knowledge/units/persons/ruan-ji.md",
+        "04-knowledge/units/publications/yue-lun.md",
+        "04-knowledge/units/persons/li-dao-yuan.md",
+        "04-knowledge/units/publications/shui-jing-zhu.md",
+        "04-knowledge/units/works/yi-xian-wan-fo-tang.md",
+        "04-knowledge/units/terms/chu-ju.md",
+        "04-knowledge/units/terms/pi-pa.md",
+        "04-knowledge/units/terms/ruan-xian.md",
+        "04-knowledge/units/persons/ji-kang.md",
+        "04-knowledge/units/publications/sheng-wu-ai-le-lun.md",
+        "04-knowledge/units/terms/xi-liang-yue.md",
+        "04-knowledge/units/terms/bi-li.md",
+        "04-knowledge/units/terms/jie-gu.md",
+        "04-knowledge/units/works/yong-ning-si.md",
+        "04-knowledge/units/works/bai-ma-si.md",
+        "04-knowledge/units/terms/zhong-xin-ta-zhu-shi.md",
+        "04-knowledge/units/works/tan-yao-wu-ku.md",
+        "04-knowledge/units/works/di-hou-li-fo-tu.md",
+        "04-knowledge/units/terms/yin-nang.md",
+        "04-knowledge/units/terms/quan-tai.md",
+        "04-knowledge/units/terms/cheng-chen.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/han-ta.md",
+        "04-knowledge/units/places/xiangtangshan-shiku.md",
+        "04-knowledge/units/terms/fota.md",
+        "04-knowledge/units/terms/an-furniture.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/places/yecheng.md",
+        "04-knowledge/units/places/luoyang.md",
+        "04-knowledge/units/terms/ping-feng.md",
+        "04-knowledge/units/places/longmen-grottoes.md",
+        "04-knowledge/units/places/longmen-grottoes.md"
+      ],
+      "paths_rejected": [
+        "04-knowledge/units/works/lan-ting-ji-xu.md",
+        "04-knowledge/units/terms/xuanxue.md"
+      ],
+      "notes": "赵农 2009 册第五章 unit 候选 88 条：create 77、update 4、no_delta 5、rejected 2。"
+    }
+  }
+}

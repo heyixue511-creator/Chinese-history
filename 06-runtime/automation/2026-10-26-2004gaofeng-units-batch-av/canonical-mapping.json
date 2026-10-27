@@ -1,0 +1,138 @@
+[
+ {
+  "entity": "族徽",
+  "target_ref": "04-knowledge/units/terms/zuhui.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-01",
+  "merged_candidates": [],
+  "note": "L1188-L1202 记族徽的定义、内容、形式、三种表现手法与西周衰微；库内无族徽条，terms/ding.md 与 works/fu-geng-zisun-gu.md 只提及，提交 create。"
+ },
+ {
+  "entity": "玄鸟妇壶",
+  "target_ref": "04-knowledge/units/terms/zuhui.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-02",
+  "merged_candidates": [],
+  "note": "L1196 记玄鸟妇壶的鸟形昂首挺立、口衔一物、以线条处理，为“以图形为主”手法的例证；来源未给尺寸、出土与收藏，不另立器物条，提交 no_delta。"
+ },
+ {
+  "entity": "鸢祖辛卣",
+  "target_ref": "04-knowledge/units/terms/zuhui.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-03",
+  "merged_candidates": [],
+  "note": "L1196 记鸢祖辛卣的鸟形作平首造型、鸟首上方置戈形、以剪影表现；来源未给尺寸、出土与收藏，不另立器物条，提交 no_delta。"
+ },
+ {
+  "entity": "戈簋",
+  "target_ref": "04-knowledge/units/terms/zuhui.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-04",
+  "merged_candidates": [],
+  "note": "L1200 记商代晚期“戈”簋的“戈”字族名为图形化的族徽符号；来源未给器形、尺寸与出土，不另立器物条，提交 no_delta。"
+ },
+ {
+  "entity": "亚形",
+  "target_ref": "04-knowledge/units/terms/ya-xing.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-05",
+  "merged_candidates": [],
+  "note": "L1196 与 L1198 记亚形在族徽设计中使用普遍、三种含义说与作为外框的组合方式；库内无亚形条，提交 create。"
+ },
+ {
+  "entity": "漆耳杯（羽觞）",
+  "target_ref": "04-knowledge/units/terms/qi-erbei.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-06",
+  "merged_candidates": [],
+  "note": "L1608 记漆耳杯为战国最具特色的漆器新产品、古称羽觞、名称来历、旧说与制法；库内无耳杯条，提交 create。"
+ },
+ {
+  "entity": "彩绘凤鸟双联漆酒杯",
+  "target_ref": "04-knowledge/units/works/caihui-fengniao-shuanglian-qi-jiubei.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-07",
+  "merged_candidates": [],
+  "note": "L1614 与 L1621 记包山二号墓双联漆酒杯的尺寸、结构、装饰、合卺功能推断与图注；来源给出可独立成条的器物数据，提交 create。"
+ },
+ {
+  "entity": "战国漆酒具盒",
+  "target_ref": "04-knowledge/units/terms/qi-jiuju-baozhuang-he.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-10",
+  "merged_candidates": [],
+  "note": "L1653-L1663 记包装设计起源、战国漆酒（食）具包装盒的共同形制与包山、望山、纪城三套实例；库内无包装盒条，提交 create。"
+ },
+ {
+  "entity": "先秦马车",
+  "target_ref": "04-knowledge/units/terms/xianqin-mache.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-11",
+  "merged_candidates": [],
+  "note": "L1705-L1732 记车的创制、制车分工、功能类型、车轮、车辀、车舆、车盖与选材；库内无先秦马车总条，提交 create。"
+ },
+ {
+  "entity": "独辀",
+  "target_ref": "04-knowledge/units/terms/xianqin-mache.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-12",
+  "merged_candidates": [],
+  "note": "L1724 记独辀马车的特点与车辀曲直结合的设计、《考工记》辀文与译文；按部件并入同批新建的先秦马车条，提交 no_delta。"
+ },
+ {
+  "entity": "车箱（车舆）",
+  "target_ref": "04-knowledge/units/terms/xianqin-mache.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-13",
+  "merged_candidates": [],
+  "note": "L1728 记车舆比例、商车与西周车尺寸、栏杆缺口与“较”；按部件并入同批新建的先秦马车条，提交 no_delta。"
+ },
+ {
+  "entity": "禁",
+  "target_ref": "04-knowledge/units/terms/tongjin.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-16",
+  "merged_candidates": [],
+  "note": "L1749 记铜禁放置祭品祭器、相当于后世箱橱柜、可见家具原始形态；库内无铜禁器类条，提交 create。"
+ },
+ {
+  "entity": "漆木家具",
+  "target_ref": "04-knowledge/units/terms/qimu-jiaju.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-17",
+  "merged_candidates": [],
+  "note": "L1751-L1763 记漆木家具的起源、建筑与漆器基础、品种、床几案屏风实例与总评；库内无漆木家具类别条，提交 create。"
+ },
+ {
+  "entity": "彩绘漆几",
+  "target_ref": "04-knowledge/units/terms/qimu-jiaju.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-18",
+  "merged_candidates": [],
+  "note": "L1757 记曾侯乙彩绘漆几由三块木板榫接、可凭倚可置物、黑漆底朱色云纹；按实例并入同批新建的漆木家具条，提交 no_delta。"
+ },
+ {
+  "entity": "欹器（宥坐）",
+  "target_ref": "04-knowledge/units/terms/pointed-bottom-jar.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-40",
+  "merged_candidates": [],
+  "note": "L120 记尖底瓶后来被称为欹器、置于帝王座右的宥坐、孔子“虚则欹，中则正，满则覆”语；既有尖底瓶条已载并作名称辨析，提交 no_delta。"
+ },
+ {
+  "entity": "团花纹",
+  "target_ref": "04-knowledge/units/terms/tuanhua-wen.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-44",
+  "merged_candidates": [],
+  "note": "L2795-L2797 记自由式团花散点构成的定义、四方连续、联珠组合与飞鸟团花锦实例，L2776 记对称式与自由式两类构成；库内无团花条，提交 create。"
+ },
+ {
+  "entity": "晕色",
+  "target_ref": "04-knowledge/units/terms/yunse.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-45",
+  "merged_candidates": [],
+  "note": "L2760 记晕色为唐代装饰三大特点之一、L2764 记晕绸锦、L2801 记退晕做法与后世沿用；库内无晕色条，提交 create。"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "entity": "木制海船",
+  "target_ref": "04-knowledge/units/works/houzhu-chuan.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-58",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/houzhu-chuan.md。cand-05-58 并入该条。"
+ },
+ {
+  "entity": "鎏金银浑天仪",
+  "target_ref": "04-knowledge/units/works/liujin-yin-huntianyi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-62",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/liujin-yin-huntianyi.md。cand-05-62 并入该条。"
+ },
+ {
+  "entity": "本元特征",
+  "target_ref": "04-knowledge/units/terms/benyuan-tezheng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/benyuan-tezheng.md。cand-05-64 并入该条。"
+ },
+ {
+  "entity": "变与统",
+  "target_ref": "04-knowledge/units/terms/bian-yu-tong.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-65",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/bian-yu-tong.md。cand-05-65 并入该条。"
+ },
+ {
+  "entity": "鎏金忍冬纹镂孔银香球",
+  "target_ref": "04-knowledge/units/works/tang-yin-xiangnang.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-73",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tang-yin-xiangnang.md。cand-05-73 并入该条。"
+ }
+]

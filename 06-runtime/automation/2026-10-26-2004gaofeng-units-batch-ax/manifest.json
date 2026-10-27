@@ -1,0 +1,158 @@
+{
+  "work_package": "2026-10-26-2004gaofeng-units-batch-ax",
+  "goal": "处理 2004 高丰册第五至九章 24 条 unit 候选（陶瓷、漆器、玻璃、灯具、织锦、家具、匠役、广告与近代设计教育），逐条语义复读并判重后裁定：新建 19、更新 3、no_delta 2、rejected 0；另对 terms/tuanhua-wen.md 作 1 处非候选一致性更新。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:440a4d00885164aa433c7e89394ca9f30befd544a15e2f7f536235af7da74b00",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2847,
+        "applied": 1524,
+        "rejected": 813,
+        "no_delta": 155
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        [
+          2568,
+          2685
+        ],
+        [
+          2797,
+          2801
+        ],
+        [
+          2902,
+          2985
+        ],
+        [
+          3022,
+          3064
+        ],
+        [
+          3313,
+          3330
+        ],
+        [
+          3431,
+          3463
+        ],
+        [
+          3548,
+          3556
+        ],
+        [
+          3567,
+          3603
+        ],
+        [
+          3921,
+          3921
+        ],
+        [
+          4110,
+          4149
+        ],
+        [
+          4194,
+          4232
+        ],
+        [
+          4327,
+          4426
+        ],
+        [
+          4818,
+          4818
+        ],
+        [
+          5013,
+          5013
+        ],
+        [
+          5059,
+          5092
+        ],
+        [
+          5172,
+          5172
+        ],
+        [
+          5233,
+          5250
+        ],
+        [
+          5331,
+          5331
+        ],
+        [
+          5465,
+          5483
+        ]
+      ],
+      "spans_scope": "覆盖 602 行：L2568-L2685、L2797-L2801、L2902-L2985、L3022-L3064、L3313-L3330、L3431-L3463、L3548-L3556、L3567-L3603、L3921、L4110-L4149、L4194-L4232、L4327-L4426、L4818、L5013、L5059-L5092、L5172、L5233-L5250、L5331、L5465-L5483。",
+      "candidates_in_scope": 24
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2004 册原文。",
+      "24 个候选逐条语义复读，先检索既有 KU 判重，再裁定 create/update/no_delta。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1、source_count 1；三源条（师夷长技、沈福文）source_count 按实际来源数记。",
+      "update 三文件均取 HEAD blob 的 CRLF→LF 归一 sha256 作 before；version 与 source_count 相应加 1。",
+      "no_delta 均带 target_ref：招幌归 terms/huangzi.md，中学为体西学为用归 persons/zhang-zhidong.md，均说明既有承载位置。",
+      "类型层与器物层分列：灯型、家具类型、匠役制度与成套瓷器立 term；单件器、单幅插图与广告作品立 work；候选 unit_type 与实际裁定不同者（摩羯灯、耕织图）在 note 记录理由。",
+      "tuanhua-wen 的更新为非候选一致性更新，随 cand-sup-63 的实例条新建同步，不改变候选计数。",
+      "被图版或段落隔断的句子用「」，可逐字比对的双引号引文与来源一致；嵌套引号拆开，避免双层“”。",
+      "图版均未视觉核验，图注只作文字记录；OCR 疑字照录并在条目内标疑。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 19,
+      "update": 3,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/persons/he-chou.md",
+        "04-knowledge/units/terms/shengyou-deng.md",
+        "04-knowledge/units/terms/mojie-deng.md",
+        "04-knowledge/units/persons/yang-yao.md",
+        "04-knowledge/units/terms/zhuo-qi.md",
+        "04-knowledge/units/works/caihui-niaoshou-yuwen-qi-ge.md",
+        "04-knowledge/units/terms/lunban-jiang.md",
+        "04-knowledge/units/terms/shi-yi-chang-ji.md",
+        "04-knowledge/units/works/kehua-jinwan.md",
+        "04-knowledge/units/works/feiniao-tuanhua-jin.md",
+        "04-knowledge/units/terms/chouti-zhuo.md",
+        "04-knowledge/units/works/qinghua-youlihong-guan.md",
+        "04-knowledge/units/terms/guan-da-min-shao.md",
+        "04-knowledge/units/works/zitan-tihong-baozuo.md",
+        "04-knowledge/units/works/jinqi-diaolong-baozuo.md",
+        "04-knowledge/units/works/gengzhi-tu.md",
+        "04-knowledge/units/works/zhongguo-yiri-guanggao.md",
+        "04-knowledge/units/persons/shen-fuwen.md",
+        "04-knowledge/units/persons/zheng-ke.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/fengshou-longbing-hu.md",
+        "04-knowledge/units/works/tang-yin-xiangnang.md",
+        "04-knowledge/units/terms/song-jin.md",
+        "04-knowledge/units/terms/tuanhua-wen.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/huangzi.md",
+        "04-knowledge/units/persons/zhang-zhidong.md"
+      ],
+      "paths_rejected": [],
+      "notes": "update 计数按候选计 3；paths_updated 含 1 个非候选一致性更新（04-knowledge/units/terms/tuanhua-wen.md），共 4 个文件。"
+    }
+  }
+}

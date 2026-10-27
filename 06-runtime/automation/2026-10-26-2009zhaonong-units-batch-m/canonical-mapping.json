@@ -1,0 +1,50 @@
+[
+ {
+  "entity": "《多能鄙事》",
+  "target_ref": "04-knowledge/units/publications/duoneng-bishi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-088",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/duoneng-bishi.md。"
+ },
+ {
+  "entity": "刘基",
+  "target_ref": "04-knowledge/units/persons/liu-ji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-089",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/liu-ji.md。"
+ },
+ {
+  "entity": "《三才图会》",
+  "target_ref": "04-knowledge/units/publications/sancai-tuhui.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-090",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/sancai-tuhui.md。"
+ },
+ {
+  "entity": "戴震",
+  "target_ref": "04-knowledge/units/persons/dai-zhen.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-095",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/dai-zhen.md。"
+ },
+ {
+  "entity": "格物致知",
+  "target_ref": "04-knowledge/units/terms/gewu-zhizhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-097",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/gewu-zhizhi.md。"
+ },
+ {
+  "entity": "《大清工部工程做法》",
+  "target_ref": "04-knowledge/units/publications/gongcheng-zuofa.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-092",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/gongcheng-zuofa.md。"
+ }
+]

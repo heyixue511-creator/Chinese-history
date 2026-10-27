@@ -1,0 +1,69 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2l",
+  "goal": "李立新 2011 册第四章第二节：元代嘉兴雕漆与明代紫砂三件器物条",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:060fc87ccf281a5a83887782e99dc78a2b6ad37692b75a93c420d65899598795",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1401,
+        "applied": 2834,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1430,
+          1470
+        ]
+      ],
+      "spans_scope": "覆盖 L1430-L1470：第四章第二节“个体特色与地域色调”全节，含地域性造物的地理与人文条件（L1432-L1438）、扬州制镜与吕氏家族（L1440）、陵阳公样与窦师纶（L1445）、元代嘉兴髹漆与张成、杨茂、彭君宝（L1447-L1459）、宜兴紫砂（L1461-L1464）、地域集群的交流（L1466-L1470）；止于第三节“一般造物与经典造物之间的互动关系”（L1472）之前。",
+      "candidates_in_scope": 3,
+      "candidate_spans_union": [
+        [
+          1447,
+          1457
+        ],
+        [
+          1463,
+          1464
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图4-3 对鹿纹样与陵阳公样、窦师纶相关候选（cand-04-31、cand-04-32）已在此前批次并入 terms/lingyang-gong-pattern.md、persons/dou-shilun.md，本批不重复建条；图4-3 不另建单图条。",
+      "张成、杨茂人物候选（cand-04-34、cand-04-35）已并入既有 person 条，本批只建器物条，不重复写人物。",
+      "图4-4、图4-5、图4-6 只读到图注与正文描述，未视觉核验图版；图注之外不补尺寸、藏地与递藏。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 update 或 no_delta 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 3,
+      "update": 0,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/zhang-cheng-yun-wen-ti-xi-qi-he.md",
+        "04-knowledge/units/works/yang-mao-ti-hong-guan-pu-tu-ba-fang-pan.md",
+        "04-knowledge/units/works/zi-sha-gua-xing-hu.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

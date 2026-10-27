@@ -1,0 +1,250 @@
+[
+ {
+  "entity": "橡胶",
+  "target_ref": "04-knowledge/units/terms/xiangjiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-145",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xiangjiao.md。"
+ },
+ {
+  "entity": "公共器具",
+  "target_ref": "04-knowledge/units/terms/gonggong-qiju.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-150",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/gonggong-qiju.md。"
+ },
+ {
+  "entity": "家用小工具",
+  "target_ref": "04-knowledge/units/terms/jiayong-xiao-gongju.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-151",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiayong-xiao-gongju.md。"
+ },
+ {
+  "entity": "电器",
+  "target_ref": "04-knowledge/units/terms/dianqi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-152",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/dianqi.md。"
+ },
+ {
+  "entity": "手工编织",
+  "target_ref": "04-knowledge/units/terms/shougong-bianzhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-153",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shougong-bianzhi.md。"
+ },
+ {
+  "entity": "王才运",
+  "target_ref": "04-knowledge/units/persons/wang-caiyun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-157",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wang-caiyun.md。"
+ },
+ {
+  "entity": "黄隆生",
+  "target_ref": "04-knowledge/units/persons/huang-longsheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-158",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/huang-longsheng.md。"
+ },
+ {
+  "entity": "红卫服",
+  "target_ref": "04-knowledge/units/terms/hongwei-fu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-160",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hongwei-fu.md。"
+ },
+ {
+  "entity": "军便装",
+  "target_ref": "04-knowledge/units/terms/junbian-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-200",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/junbian-zhuang.md。"
+ },
+ {
+  "entity": "列宁装",
+  "target_ref": "04-knowledge/units/terms/liening-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-201",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liening-zhuang.md。"
+ },
+ {
+  "entity": "迎宾服",
+  "target_ref": "04-knowledge/units/terms/yingbin-fu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-202",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yingbin-fu.md。"
+ },
+ {
+  "entity": "西服",
+  "target_ref": "04-knowledge/units/terms/xifu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-161",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xifu.md。"
+ },
+ {
+  "entity": "职业装",
+  "target_ref": "04-knowledge/units/terms/zhiye-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-162",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhiye-zhuang.md。"
+ },
+ {
+  "entity": "唐装",
+  "target_ref": "04-knowledge/units/terms/tangzhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-163",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tangzhuang.md。"
+ },
+ {
+  "entity": "时装发布会",
+  "target_ref": "04-knowledge/units/terms/shizhuang-fabuhui.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-164",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shizhuang-fabuhui.md。"
+ },
+ {
+  "entity": "毛泽东像章",
+  "target_ref": "04-knowledge/units/terms/maozedong-xiangzhang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-165",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/maozedong-xiangzhang.md。"
+ },
+ {
+  "entity": "礼帽",
+  "target_ref": "04-knowledge/units/terms/limao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-203",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/limao.md。"
+ },
+ {
+  "entity": "军帽",
+  "target_ref": "04-knowledge/units/terms/junmao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-204",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/junmao.md。"
+ },
+ {
+  "entity": "鸭舌帽",
+  "target_ref": "04-knowledge/units/terms/yashed-mao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-205",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yashed-mao.md。"
+ },
+ {
+  "entity": "贝雷帽",
+  "target_ref": "04-knowledge/units/terms/beilei-mao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-206",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/beilei-mao.md。"
+ },
+ {
+  "entity": "手表",
+  "target_ref": "04-knowledge/units/terms/shoubiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-207",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shoubiao.md。"
+ },
+ {
+  "entity": "三转一响",
+  "target_ref": "04-knowledge/units/terms/sanzhuan-yixiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-208",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/sanzhuan-yixiang.md。"
+ },
+ {
+  "entity": "洋布",
+  "target_ref": "04-knowledge/units/terms/yangbu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yangbu.md。"
+ },
+ {
+  "entity": "四大名绣",
+  "target_ref": "04-knowledge/units/terms/sida-mingxiu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/sida-mingxiu.md。"
+ },
+ {
+  "entity": "棉纺厂",
+  "target_ref": "04-knowledge/units/terms/mianfangchang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-160",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/mianfangchang.md。"
+ },
+ {
+  "entity": "紫砂陶",
+  "target_ref": "04-knowledge/units/terms/zisha-tao.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-141",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zisha-tao.md。"
+ },
+ {
+  "entity": "钧窑",
+  "target_ref": "04-knowledge/units/places/jun-kiln.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-196",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/jun-kiln.md。"
+ },
+ {
+  "entity": "汝窑",
+  "target_ref": "04-knowledge/units/places/ru-kiln.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-197",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/ru-kiln.md。"
+ },
+ {
+  "entity": "龙泉窑",
+  "target_ref": "04-knowledge/units/places/longquan-kiln.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-198",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/longquan-kiln.md。"
+ },
+ {
+  "entity": "耀州窑",
+  "target_ref": "04-knowledge/units/places/yaozhou-kiln.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-199",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/yaozhou-kiln.md。"
+ },
+ {
+  "entity": "石湾陶塑",
+  "target_ref": "04-knowledge/units/places/shiwan-yao.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-142",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/shiwan-yao.md。"
+ }
+]

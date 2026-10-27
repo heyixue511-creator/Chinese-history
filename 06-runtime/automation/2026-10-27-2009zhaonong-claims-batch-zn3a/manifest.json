@@ -1,0 +1,119 @@
+{
+ "after_bytes": 895363,
+ "after_sha256": "sha256:2188de895f4f2651cfdbfa787e8582cd9170fafd6c15c69e033b125d6409e1e6",
+ "baseline": {
+  "candidate_applied": 3462,
+  "candidate_needs_evidence": 772,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 470
+ },
+ "before_bytes": 847374,
+ "before_sha256": "sha256:6851d79be0aef8fdf9a349da0cf7b228e476946368b1de4a7eb6a7e12fe0d081",
+ "candidate_count": 30,
+ "claim_rows": 30,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 44,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "赵农 2009《中国艺术设计史》第三章 30 条 claim 候选写回：新建 30 条，无合并",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn3a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3492,
+  "candidate_needs_evidence": 742,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 500
+ },
+ "scope_spans": [
+  [
+   1767,
+   1814
+  ],
+  [
+   1767,
+   1987
+  ],
+  [
+   1817,
+   1839
+  ],
+  [
+   1840,
+   1887
+  ],
+  [
+   1888,
+   1925
+  ],
+  [
+   1926,
+   1963
+  ],
+  [
+   1966,
+   1987
+  ],
+  [
+   1990,
+   2039
+  ],
+  [
+   2040,
+   2054
+  ],
+  [
+   2055,
+   2097
+  ],
+  [
+   2100,
+   2139
+  ],
+  [
+   2140,
+   2161
+  ],
+  [
+   2164,
+   2191
+  ],
+  [
+   2192,
+   2252
+  ],
+  [
+   2253,
+   2279
+  ],
+  [
+   2257,
+   2257
+  ],
+  [
+   2309,
+   2342
+  ],
+  [
+   2343,
+   2352
+  ],
+  [
+   2364,
+   2364
+  ],
+  [
+   2397,
+   2408
+  ],
+  [
+   2448,
+   2464
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 57,
+ "with_supported_by": 28
+}

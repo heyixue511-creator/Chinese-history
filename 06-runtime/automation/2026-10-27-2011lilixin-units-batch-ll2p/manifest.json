@@ -1,0 +1,85 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2p",
+  "goal": "复读李立新 2011 册结论全篇（L1861-L2033），处理 5 个单元候选：3 建条、2 并入既有条目。",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:5ae752bc4065e2ff3a0c9aa3ed151527bd81e491cc9ebe388099757580691de8",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1378,
+        "applied": 2857,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1861,
+          2033
+        ]
+      ],
+      "spans_scope": "覆盖 L1861-L2033：结论全篇，含第一节“对设计史运行规律的认识”L1863-L1912（图表六 L1871、鸭形玻璃注 L1892）、第二节“对中国传统设计艺术特质的认识”L1914-L1984（八项特质，其中第 7 项本元特征 L1972-L1980、第 8 项变与统 L1982-L1985）、第三节“对设计现代化艰难性的历史思考”L1986-L2033（鎏金忍冬纹镂孔银香球 L2019-L2023），止于参考文献标题 L2034 之前。图表六与其余图注只读到文字，未视觉核验。",
+      "candidates_in_scope": 5,
+      "candidate_spans_union": [
+        [
+          1926,
+          1930
+        ],
+        [
+          1952,
+          1954
+        ],
+        [
+          1972,
+          1980
+        ],
+        [
+          1982,
+          1985
+        ],
+        [
+          2019,
+          2023
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以李立新 2011 册 Markdown 文本为主。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注只读到文字，图版未视觉核验；图注不能替代正文论证。",
+      "木制海船图注未称后渚船，按出土地、收藏单位与隔舱数三项线索并入后渚船条；两处长度口径并列，不裁定。",
+      "鎏金忍冬纹镂孔银香球并入唐代银香囊器类条，不另建单件重复条目。",
+      "结论章八项特质中，仅本元特征与变与统有 unit 候选；整合性、延续性、适应性、礼乐性、规范化、地域性六项不越出候选另建条目。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 update 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 3,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/liujin-yin-huntianyi.md",
+        "04-knowledge/units/terms/benyuan-tezheng.md",
+        "04-knowledge/units/terms/bian-yu-tong.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/houzhu-chuan.md",
+        "04-knowledge/units/works/tang-yin-xiangnang.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

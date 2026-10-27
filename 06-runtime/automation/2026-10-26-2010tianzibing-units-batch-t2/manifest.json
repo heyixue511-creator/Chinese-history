@@ -1,0 +1,127 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t2",
+  "goal": "田自秉 2010 册商代章节 unit 候选裁定与写回：新建 16 条、更新 1 条、no_delta 2 条",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:a583d22bc8b9e9775bfa3b89d15aee732859ac3c328da7d4a40efc8da7fe8c61",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1924,
+        "applied": 2370,
+        "rejected": 852,
+        "no_delta": 193
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          854,
+          1275
+        ],
+        [
+          3918,
+          3924
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第二章商代的工艺美术（L854-L1275）逐段复读；另因 cand-10-46（巧色）跨至宋代，补读 L3918-L3924 的宋代巧色定义与实例。图版与插图均未视觉核验。",
+      "candidates_in_scope": 19,
+      "candidate_spans_union": [
+        [
+          864,
+          870
+        ],
+        [
+          899,
+          899
+        ],
+        [
+          907,
+          907
+        ],
+        [
+          919,
+          921
+        ],
+        [
+          925,
+          927
+        ],
+        [
+          959,
+          961
+        ],
+        [
+          970,
+          1001
+        ],
+        [
+          1105,
+          1107
+        ],
+        [
+          1112,
+          1112
+        ],
+        [
+          1114,
+          1114
+        ],
+        [
+          1118,
+          3922
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源的概括估计（如 10 多斤、100 多个）照录并标明为估计，不换算为实测值"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 16,
+      "update": 1,
+      "no_delta": 2,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/du-ling-fang-ding.md",
+        "04-knowledge/units/works/tong-lianzuo-liren.md",
+        "04-knowledge/units/terms/jiang-jun-kui.md",
+        "04-knowledge/units/terms/shangdai-qingtongqi-balei.md",
+        "04-knowledge/units/works/fuhao-sanlian-yan.md",
+        "04-knowledge/units/terms/kui-wen.md",
+        "04-knowledge/units/terms/long-wen.md",
+        "04-knowledge/units/terms/feng-wen.md",
+        "04-knowledge/units/terms/hui-wen.md",
+        "04-knowledge/units/persons/guo-moruo.md",
+        "04-knowledge/units/terms/hui-tao.md",
+        "04-knowledge/units/terms/bai-tao.md",
+        "04-knowledge/units/works/qingyou-ci-zun.md",
+        "04-knowledge/units/works/fuhao-mu-yuren.md",
+        "04-knowledge/units/works/xiangya-bei.md",
+        "04-knowledge/units/terms/hua-tu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/procedures/yudiao-taocai-qiaose.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/places/erlitou-site.md",
+        "04-knowledge/units/terms/qingtong-jiuqi.md"
+      ],
+      "paths_rejected": [],
+      "notes": "田自秉 2010 册 batch T2：商代 unit 候选 19 条，create 16、update 1、no_delta 2。新建含杜岭方鼎、铜连座立人、妇好三联甗、青釉瓷尊、妇好墓玉人、象牙杯六件作品，将军盔、商代青铜器八类、夔纹、龙纹、凤纹、回纹、灰陶、白陶、花土九个术语，郭沫若一位人物。更新为巧色（并入商代与宋代两处）。二里头文化与五爵已由既有遗址条、酒器条承载，记 no_delta。灰陶条在本批一并建立。其余商代块内容与 claim 候选留给后续批次。"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "entity": "阶段性突破推进",
+  "target_ref": "04-knowledge/units/terms/jieduanxing-tupo-tuijin.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jieduanxing-tupo-tuijin.md。cand-01-02 并入该条。"
+ },
+ {
+  "entity": "设计",
+  "target_ref": "04-knowledge/units/terms/sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-04",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/sheji.md。cand-01-04 并入该条。"
+ },
+ {
+  "entity": "石镞",
+  "target_ref": "04-knowledge/units/terms/paleolithic-period.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-05",
+  "merged_candidates": [],
+  "note": "cand-01-05 与 04-knowledge/units/terms/paleolithic-period.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "艺术设计 / 设计艺术",
+  "target_ref": "04-knowledge/units/terms/yishu-sheji.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yishu-sheji.md。cand-01-07 并入该条。"
+ },
+ {
+  "entity": "三种造物设计",
+  "target_ref": "04-knowledge/units/terms/sanzhong-zaowu-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/sanzhong-zaowu-sheji.md。cand-01-08 并入该条。"
+ },
+ {
+  "entity": "石耘田器",
+  "target_ref": "04-knowledge/units/terms/liangzhu-culture.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-12",
+  "merged_candidates": [],
+  "note": "cand-01-12 与 04-knowledge/units/terms/liangzhu-culture.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "鱼形骨匕",
+  "target_ref": "04-knowledge/units/works/yuxing-gubi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yuxing-gubi.md。cand-01-13 并入该条。"
+ },
+ {
+  "entity": "双人抬物纹彩陶盆",
+  "target_ref": "04-knowledge/units/terms/majiayao-culture.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-16",
+  "merged_candidates": [],
+  "note": "cand-01-16 与 04-knowledge/units/terms/majiayao-culture.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "图案",
+  "target_ref": "04-knowledge/units/terms/tu-an.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-17",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tu-an.md。cand-01-17 并入该条。"
+ },
+ {
+  "entity": "《中国工艺美术通史》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-gongyi-meishu-tongshi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-21",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-gongyi-meishu-tongshi.md。cand-01-21 并入该条。"
+ },
+ {
+  "entity": "兽纹黑陶鸭形尊",
+  "target_ref": "04-knowledge/units/works/shouwen-heitao-yaxingzun.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shouwen-heitao-yaxingzun.md。cand-01-23 并入该条。"
+ },
+ {
+  "entity": "青白釉虎枕",
+  "target_ref": "04-knowledge/units/works/qingbaiyou-huzhen.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-30",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qingbaiyou-huzhen.md。cand-01-30 并入该条。"
+ },
+ {
+  "entity": "白釉莲花托注壶",
+  "target_ref": "04-knowledge/units/works/baiyou-lianhua-tuo-zhuhu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-31",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/baiyou-lianhua-tuo-zhuhu.md。cand-01-31 并入该条。"
+ },
+ {
+  "entity": "太阳形器",
+  "target_ref": "04-knowledge/units/works/taiyangxingqi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-34",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/taiyangxingqi.md。cand-01-34 并入该条。"
+ },
+ {
+  "entity": "陶井",
+  "target_ref": "04-knowledge/units/works/taojing.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-39",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/taojing.md。cand-01-39 并入该条。"
+ },
+ {
+  "entity": "傅斯年",
+  "target_ref": "04-knowledge/units/persons/fu-sinian.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/fu-sinian.md。cand-01-42 并入该条。"
+ },
+ {
+  "entity": "《结构人类学的历史》",
+  "target_ref": "04-knowledge/units/publications/jiegou-renleixue-de-lishi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jiegou-renleixue-de-lishi.md。cand-01-45 并入该条。"
+ },
+ {
+  "entity": "错银铜牛灯",
+  "target_ref": "04-knowledge/units/works/hanjiang-niudeng.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/hanjiang-niudeng.md。cand-01-46 并入该条。"
+ },
+ {
+  "entity": "孟蜀宫妓图",
+  "target_ref": "04-knowledge/units/works/mengshu-gongjitu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-48",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/mengshu-gongjitu.md。cand-01-48 并入该条。"
+ },
+ {
+  "entity": "彩绘陶仓楼",
+  "target_ref": "04-knowledge/units/works/caihui-taocanglou.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-49",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/caihui-taocanglou.md。cand-01-49 并入该条。"
+ },
+ {
+  "entity": "民族文化—心理结构",
+  "target_ref": "04-knowledge/units/terms/minzu-wenhua-xinli-jiegou.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-53",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/minzu-wenhua-xinli-jiegou.md。cand-01-53 并入该条。"
+ },
+ {
+  "entity": "黑漆朱绘鸟足漆案",
+  "target_ref": "04-knowledge/units/works/heiqizhuhui-niaozu-qian.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-55",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/heiqizhuhui-niaozu-qian.md。cand-01-55 并入该条。"
+ },
+ {
+  "entity": "长方凳",
+  "target_ref": "04-knowledge/units/works/changfangdeng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-60",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/changfangdeng.md。cand-01-60 并入该条。"
+ },
+ {
+  "entity": "传统设计",
+  "target_ref": "04-knowledge/units/terms/chuantong-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chuantong-sheji.md。cand-01-64 并入该条。"
+ },
+ {
+  "entity": "大历史观",
+  "target_ref": "04-knowledge/units/terms/dashiguan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-67",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/dashiguan.md。cand-01-67 并入该条。"
+ },
+ {
+  "entity": "《中国大历史》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-dalishi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-68",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-dalishi.md。cand-01-68 并入该条。"
+ },
+ {
+  "entity": "写实性设计",
+  "target_ref": "04-knowledge/units/terms/xieshixing-sheji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-73",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/xieshixing-sheji.md。cand-01-73 并入该条。"
+ },
+ {
+  "entity": "长时段",
+  "target_ref": "04-knowledge/units/terms/changshiduan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-75",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/changshiduan.md。cand-01-75 并入该条。"
+ },
+ {
+  "entity": "《艺术发展史》",
+  "target_ref": "04-knowledge/units/publications/yishu-fazhanshi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-76",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yishu-fazhanshi.md。cand-01-76 并入该条。"
+ },
+ {
+  "entity": "《地中海和菲力浦二世的地中海世界》",
+  "target_ref": "04-knowledge/units/publications/dizhonghai-he-feilipu-ershi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-77",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/dizhonghai-he-feilipu-ershi.md。cand-01-77 并入该条。"
+ }
+]

@@ -1,0 +1,103 @@
+{
+  "work_package": "2026-10-26-2004gaofeng-units-batch-av",
+  "goal": "处理 2004 高丰册第二至三章与绪论、序言的 unit 候选 17 条（图形文字、漆器、车制、家具、织纹），逐条语义复读后裁定：新建 10、no_delta 7、rejected 0、update 0。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:150eb5f700ca2e5da49ede1a845892fb956fcd168db41a85b57de95aab5dd03e",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2879,
+        "applied": 1501,
+        "rejected": 813,
+        "no_delta": 146
+      }
+    },
+    "source": {
+      "doc_id": "2004-gaofeng-zhongguo-shejishi",
+      "file": "03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md",
+      "spans": [
+        [
+          120,
+          120
+        ],
+        [
+          404,
+          431
+        ],
+        [
+          1186,
+          1202
+        ],
+        [
+          1598,
+          1630
+        ],
+        [
+          1631,
+          1664
+        ],
+        [
+          1705,
+          1735
+        ],
+        [
+          1736,
+          1767
+        ],
+        [
+          2755,
+          2805
+        ]
+      ],
+      "spans_scope": "覆盖 227 行：L120、L404-L431、L1186-L1202、L1598-L1630、L1631-L1664、L1705-L1735、L1736-L1767、L2755-L2805。",
+      "candidates_in_scope": 17
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读：不改写、不删除 2004 册原文。",
+      "17 个候选逐条语义复读，先检索既有 KU 判重，再裁定 create/no_delta/rejected。",
+      "create 单源 KU：consensus tentative、evidence_status source_backed、version 1、source_count 1。",
+      "no_delta 均带 target_ref：或指向既有承载条，或指向同批新建的类型条并说明并入位置。",
+      "类型层与器物层分列：器类、器形、家具与纹样立 term，数据完整的单件器物立 work，只作例证出现的器物并入类型条。",
+      "cand-sup-44/45 的候选声明跨度为 L422，实质依据在 L2760-L2801，已补读并计入并集；cand-sup-40 的 L120 已复读确认既有条覆盖。",
+      "被图版或段落隔断的句子用「」，可逐字比对的双引号引文与来源一致；同册异文照录并标注。",
+      "推断性表述（如合卺杯）按来源保留“可能”，不作事实化。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 10,
+      "update": 0,
+      "no_delta": 7,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/zuhui.md",
+        "04-knowledge/units/terms/ya-xing.md",
+        "04-knowledge/units/terms/qi-erbei.md",
+        "04-knowledge/units/works/caihui-fengniao-shuanglian-qi-jiubei.md",
+        "04-knowledge/units/terms/qi-jiuju-baozhuang-he.md",
+        "04-knowledge/units/terms/xianqin-mache.md",
+        "04-knowledge/units/terms/tongjin.md",
+        "04-knowledge/units/terms/qimu-jiaju.md",
+        "04-knowledge/units/terms/tuanhua-wen.md",
+        "04-knowledge/units/terms/yunse.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/zuhui.md",
+        "04-knowledge/units/terms/zuhui.md",
+        "04-knowledge/units/terms/zuhui.md",
+        "04-knowledge/units/terms/xianqin-mache.md",
+        "04-knowledge/units/terms/xianqin-mache.md",
+        "04-knowledge/units/terms/qimu-jiaju.md",
+        "04-knowledge/units/terms/pointed-bottom-jar.md"
+      ],
+      "paths_rejected": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "entity": "曾侯尊盘",
+  "target_ref": "04-knowledge/units/works/zenghouyi-zunpan.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zenghouyi-zunpan.md。cand-04-82 并入该条。"
+ },
+ {
+  "entity": "两向演化",
+  "target_ref": "04-knowledge/units/terms/liangxiang-yanhua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-03",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liangxiang-yanhua.md。cand-05-03 并入该条。"
+ },
+ {
+  "entity": "玻璃器（中国古代玻璃）",
+  "target_ref": "04-knowledge/units/terms/liuli.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/liuli.md。cand-05-06 并入该条。"
+ },
+ {
+  "entity": "画像石",
+  "target_ref": "04-knowledge/units/terms/huaxiangshi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-14",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huaxiangshi.md。cand-05-14 并入该条。"
+ }
+]

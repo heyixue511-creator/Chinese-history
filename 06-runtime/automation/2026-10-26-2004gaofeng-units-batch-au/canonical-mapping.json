@@ -1,0 +1,108 @@
+[
+ {
+  "entity": "高丰",
+  "target_ref": "04-knowledge/units/persons/gao-feng.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-01-01",
+  "merged_candidates": [],
+  "note": "L110-L141 记“高丰简历”一节与张道一序；库内无作者人物条，提交 create。"
+ },
+ {
+  "entity": "列鼎",
+  "target_ref": "04-knowledge/units/terms/ding.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-01-07",
+  "merged_candidates": [
+   "2004-gaofeng-zhongguo-shejishi:cand-02-02"
+  ],
+  "note": "L1411-L1423 记镬鼎升鼎羞鼎分化、蔡侯墓列鼎与“列鼎本是西周时期作为奴隶制礼治象征而创造出来的青铜器系列化设计的一种形式”；既有鼎条六源已载，提交 no_delta。"
+ },
+ {
+  "entity": "人面鱼纹彩陶盆",
+  "target_ref": "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-01-09",
+  "merged_candidates": [],
+  "note": "L800 与 L861 记 5 件人面鱼纹盆、纹样结构与三说释读；places/banpo-site.md 只作遗址层记录，无器物条，提交 create。"
+ },
+ {
+  "entity": "蛋壳黑陶高柄杯",
+  "target_ref": "04-knowledge/units/terms/danke-heitao.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-01-11",
+  "merged_candidates": [],
+  "note": "L706 记宽沿蛋壳黑陶高柄杯轮制后胎壁仅厚 0.3 毫米、陶土精细淘洗、轮制原理与为瓷器奠定工艺基础；既有蛋壳黑陶条明写厚度数据缺口，提交 update。"
+ },
+ {
+  "entity": "河姆渡干栏式长屋",
+  "target_ref": "04-knowledge/units/terms/ganlan-shi-jianzhu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-01-12",
+  "merged_candidates": [],
+  "note": "L928-L930 记长屋长度 25 米以上、进深约 7 米、前檐长廊 1.3 米、地板抬高近 1 米、榫卯十余种；既有干栏式建筑条四源已载，提交 no_delta。"
+ },
+ {
+  "entity": "像生形",
+  "target_ref": "04-knowledge/units/terms/xiangsheng-xing.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-01",
+  "merged_candidates": [],
+  "note": "L1049-L1063 立“像生形”一节，L759 给定义与史前阶段，L1457 记春秋战国延续；库内无器形类别条，提交 create。"
+ },
+ {
+  "entity": "河姆渡朱漆木碗",
+  "target_ref": "04-knowledge/units/works/hemudu-zhui-muwan.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-04",
+  "merged_candidates": [],
+  "note": "L1271-L1278 记朱漆木碗与朱漆木筒、生漆鉴定与 7000 年判断；places/hemudu-site.md 记同一批材料但非器物条，提交 create。"
+ },
+ {
+  "entity": "制器尚象",
+  "target_ref": "04-knowledge/units/terms/zhiqi-shangxiang.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-06",
+  "merged_candidates": [],
+  "note": "L1361-L1364 为《周易》三条设计思想之一，含原句、五处内证与“立象以尽意”阐释；publications/zhouyi.md 只列名未展开，提交 create。"
+ },
+ {
+  "entity": "道器统一",
+  "target_ref": "04-knowledge/units/terms/daoqi-tongyi.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-07",
+  "merged_candidates": [],
+  "note": "L1365-L1372 记“形而上者谓之道”原句、器为道之载体、两层意义、与理学“重道轻器”相违及《髹饰录》三原则；提交 create。"
+ },
+ {
+  "entity": "文质统一",
+  "target_ref": "04-knowledge/units/terms/wenzhi-tongyi.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-08",
+  "merged_candidates": [],
+  "note": "L1373-L1382 以贲卦、离卦论文与质、附丽与美丽两组关系，转引王弼注与宗白华；既有 terms/wenzhi.md 属《论语》系统，提交 create。"
+ },
+ {
+  "entity": "宴乐水陆攻战纹壶",
+  "target_ref": "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-11",
+  "merged_candidates": [],
+  "note": "L1500 与 L1506 记四川成都百花潭出土铜壶的上段宴乐下段攻战题材与三层横带；works/shuilu-gongzhan-jian.md 为汲县山彪镇鉴，另器，提交 create。"
+ },
+ {
+  "entity": "平视体构图",
+  "target_ref": "04-knowledge/units/terms/pingshiti-goutu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-12",
+  "merged_candidates": [],
+  "note": "L1506 给平视体构图定义、横带实例与庞薰琹评语，L1502 另记四方连续为对照；库内无构图方法条，提交 create。"
+ },
+ {
+  "entity": "十五连枝铜灯",
+  "target_ref": "04-knowledge/units/works/shiwu-lianzhan-tongdeng.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-02-13",
+  "merged_candidates": [],
+  "note": "L1552-L1561 记连枝灯类型定义、螭龙盘绕、3 只双身虎承托、战国新创造与落地灯类比；既有十五连盏灯条两源缺此三项，提交 update。"
+ }
+]

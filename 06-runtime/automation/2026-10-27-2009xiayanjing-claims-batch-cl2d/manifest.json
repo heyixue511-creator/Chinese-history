@@ -1,0 +1,96 @@
+{
+ "after_bytes": 199318,
+ "after_sha256": "sha256:6b1c988e9edd83f8b0bc50e76d2666aadc73ea63517a83253ea0c3e6dc9acb11",
+ "baseline": {
+  "candidate_applied": 2987,
+  "candidate_needs_evidence": 1248,
+  "claim_registry_total": 114
+ },
+ "before_bytes": 171515,
+ "before_sha256": "sha256:16d295a0eb3f7119a316c3415c9bbb722b3b6f2179214e9a4fa6dfc1ad5703e4",
+ "candidate_count": 17,
+ "claim_rows": 17,
+ "date": "2026-10-27",
+ "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+ "goal": "夏燕靖 2009 册魏晋南北朝章 17 条 claim 候选写回 claim-registry",
+ "merged_candidates": 0,
+ "package_id": "2026-10-27-2009xiayanjing-claims-batch-cl2d",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3004,
+  "candidate_needs_evidence": 1231,
+  "claim_registry_total": 131
+ },
+ "scope_spans": [
+  [
+   1667,
+   1669
+  ],
+  [
+   1675,
+   1675
+  ],
+  [
+   1681,
+   1681
+  ],
+  [
+   1745,
+   1745
+  ],
+  [
+   1779,
+   1779
+  ],
+  [
+   1789,
+   1789
+  ],
+  [
+   1829,
+   1829
+  ],
+  [
+   1839,
+   1839
+  ],
+  [
+   1860,
+   1860
+  ],
+  [
+   1881,
+   1881
+  ],
+  [
+   1895,
+   1895
+  ],
+  [
+   1899,
+   1899
+  ],
+  [
+   1913,
+   1913
+  ],
+  [
+   1925,
+   1925
+  ],
+  [
+   1929,
+   1929
+  ],
+  [
+   1940,
+   1940
+  ],
+  [
+   1942,
+   1942
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+ "with_supported_by": 17
+}

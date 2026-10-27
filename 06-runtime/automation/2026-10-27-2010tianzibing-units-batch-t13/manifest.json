@@ -1,0 +1,122 @@
+{
+  "work_package": "2026-10-27-2010tianzibing-units-batch-t13",
+  "goal": "田自秉 2010 第十二章近代与第十三章新中国 unit 候选裁定与写回",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:9946defb0d4e5177e94f5941df0deba3bcbb1030f6cc55344dbb6f455165106b",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1600,
+        "applied": 2657,
+        "rejected": 852,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          4901,
+          5389
+        ]
+      ],
+      "spans_scope": "第十二章近代的工艺美术（L4901-L5039）与第十三章新中国的工艺美术（L5041-L5389）全章复读并裁定 43 条：本范围内 38 条 needs_evidence 候选，加 T12 保留的 5 条跨章合并候选（cand-12-31 苏绣 L4651-L5140、cand-12-80 翻簧 L4816-L5244、cand-12-82 泥人张 L4826-L5323、cand-12-84 惠山泥人 L4830-L5325、cand-12-87 料器 L4846-L5339），后者两段现均在已复读范围内，故本批裁定 terminal。同范围内另有 25 条 unit 候选已于 2026-10-25 批次 applied，本批不重复裁定。L5391-L5715 为主要参考书目、L5717-L5737 为后记，二者无 unit 候选，未纳入本批复读范围，不记已复读。图版只读图注，未视觉核验。",
+      "candidates_in_scope": 43,
+      "candidate_spans_union": [
+        [
+          4651,
+          5339
+        ],
+        [
+          5361,
+          5363
+        ],
+        [
+          5365,
+          5370
+        ],
+        [
+          5389,
+          5389
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "更新既有条目：只追加本批复读的新段落，不据新段改写原有段落的记述，version+1，source_count 按来源册数不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "人物条只承担籍贯、身份、师承、得名与评语；工艺定义、工序与产地归术语条，两组互指不合并",
+      "T12 保留的跨章合并候选在本批复读全跨度后裁定，不沿用上一批的合并跨度作为已读证明",
+      "单册内相距较远的两段合为一条时，逐段标注行号，不把中间未引段落算作已引"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 40,
+      "update": 3,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/publications/zizheng-xinpian.md",
+        "04-knowledge/units/works/zhidao-qingting.md",
+        "04-knowledge/units/works/xiaomie-qingting.md",
+        "04-knowledge/units/persons/cui-laizhi.md",
+        "04-knowledge/units/publications/jiefang-ribao.md",
+        "04-knowledge/units/terms/xuanhuahui.md",
+        "04-knowledge/units/terms/huaxue-xianwei.md",
+        "04-knowledge/units/persons/yang-shouyu.md",
+        "04-knowledge/units/terms/luanzhenxiu.md",
+        "04-knowledge/units/works/changcheng-bigua.md",
+        "04-knowledge/units/terms/huasi.md",
+        "04-knowledge/units/terms/bantong.md",
+        "04-knowledge/units/terms/yangzhou-luodian.md",
+        "04-knowledge/units/persons/li-zhiqing.md",
+        "04-knowledge/units/terms/yanmo-caihui.md",
+        "04-knowledge/units/works/jinyu-qipan.md",
+        "04-knowledge/units/persons/gong-yuzhang.md",
+        "04-knowledge/units/terms/gongshan.md",
+        "04-knowledge/units/persons/zhang-shuiquan.md",
+        "04-knowledge/units/terms/tezhong-gongyi.md",
+        "04-knowledge/units/persons/weng-wuzhang.md",
+        "04-knowledge/units/terms/xiangyazhu.md",
+        "04-knowledge/units/works/hongqi-chashang-zhumulangmafeng.md",
+        "04-knowledge/units/works/zangzu-siyangyuan-huangyangmudiao.md",
+        "04-knowledge/units/works/xielou-shoushan.md",
+        "04-knowledge/units/works/huaguo-leilei.md",
+        "04-knowledge/units/persons/zhang-jinghu.md",
+        "04-knowledge/units/terms/da-a-fu.md",
+        "04-knowledge/units/persons/mianren-tang.md",
+        "04-knowledge/units/terms/xiandai-gongyi.md",
+        "04-knowledge/units/terms/luzhipin.md",
+        "04-knowledge/units/terms/renzao-cailiao-jiaju.md",
+        "04-knowledge/units/terms/banshi-jiegou.md",
+        "04-knowledge/units/terms/shiyong-jingji-meiguan.md",
+        "04-knowledge/units/terms/riyongpin-meishuhua-gongyipin-shiyonghua.md",
+        "04-knowledge/units/terms/suxiu.md",
+        "04-knowledge/units/terms/fanhuang.md",
+        "04-knowledge/units/terms/nirenzhang.md",
+        "04-knowledge/units/terms/huishan-niren.md",
+        "04-knowledge/units/terms/liaoqi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/procedures/tiehua-zhizuo.md",
+        "04-knowledge/units/terms/diao-qi.md",
+        "04-knowledge/units/terms/tuotai-qiqi.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

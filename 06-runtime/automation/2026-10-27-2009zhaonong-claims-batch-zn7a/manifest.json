@@ -1,0 +1,159 @@
+{
+ "after_bytes": 1138049,
+ "after_sha256": "sha256:acce906ea6d3184eae0604237dec41469af2596dd06854493bd9e88a72dd5d80",
+ "baseline": {
+  "candidate_applied": 3598,
+  "candidate_needs_evidence": 636,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 606
+ },
+ "before_bytes": 1056190,
+ "before_sha256": "sha256:35f75fa5327645fd577113eab4fed317d7f6a95641b2c8a0f9110960544e0d58",
+ "candidate_count": 55,
+ "claim_rows": 55,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 85,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "处理赵农《中国艺术设计史》第七章 claim 候选（L4942-L5824），新增 55 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn7a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3653,
+  "candidate_needs_evidence": 581,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 661
+ },
+ "scope_spans": [
+  [
+   4942,
+   5016
+  ],
+  [
+   5019,
+   5038
+  ],
+  [
+   5039,
+   5061
+  ],
+  [
+   5062,
+   5094
+  ],
+  [
+   5095,
+   5142
+  ],
+  [
+   5143,
+   5207
+  ],
+  [
+   5210,
+   5221
+  ],
+  [
+   5222,
+   5242
+  ],
+  [
+   5243,
+   5257
+  ],
+  [
+   5258,
+   5280
+  ],
+  [
+   5275,
+   5277
+  ],
+  [
+   5283,
+   5323
+  ],
+  [
+   5324,
+   5337
+  ],
+  [
+   5338,
+   5355
+  ],
+  [
+   5356,
+   5385
+  ],
+  [
+   5388,
+   5425
+  ],
+  [
+   5426,
+   5455
+  ],
+  [
+   5456,
+   5463
+  ],
+  [
+   5464,
+   5481
+  ],
+  [
+   5482,
+   5493
+  ],
+  [
+   5496,
+   5533
+  ],
+  [
+   5534,
+   5616
+  ],
+  [
+   5617,
+   5630
+  ],
+  [
+   5631,
+   5659
+  ],
+  [
+   5672,
+   5694
+  ],
+  [
+   5697,
+   5732
+  ],
+  [
+   5733,
+   5745
+  ],
+  [
+   5746,
+   5753
+  ],
+  [
+   5754,
+   5793
+  ],
+  [
+   5794,
+   5814
+  ],
+  [
+   5813,
+   5813
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 108,
+ "with_supported_by": 53
+}

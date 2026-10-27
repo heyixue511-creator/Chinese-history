@@ -1,0 +1,123 @@
+{
+ "after_bytes": 976270,
+ "after_sha256": "sha256:5a970d9b9e7d86d975d30ceec00ff6bff9517690dcf94deabbe730081d040927",
+ "baseline": {
+  "candidate_applied": 3516,
+  "candidate_needs_evidence": 718,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 524
+ },
+ "before_bytes": 931680,
+ "before_sha256": "sha256:c0650520698833bf90c79e49715e684ec05f73c2e5bfddcaf05432927b5d826b",
+ "candidate_count": 28,
+ "claim_rows": 28,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 49,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "赵农 2009《中国艺术设计史》第五章 28 条 claim 候选写回：新建 28 条，无合并",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn5a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3544,
+  "candidate_needs_evidence": 690,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 552
+ },
+ "scope_spans": [
+  [
+   3258,
+   3314
+  ],
+  [
+   3317,
+   3335
+  ],
+  [
+   3336,
+   3352
+  ],
+  [
+   3373,
+   3405
+  ],
+  [
+   3423,
+   3447
+  ],
+  [
+   3448,
+   3482
+  ],
+  [
+   3483,
+   3512
+  ],
+  [
+   3515,
+   3538
+  ],
+  [
+   3539,
+   3551
+  ],
+  [
+   3552,
+   3581
+  ],
+  [
+   3582,
+   3615
+  ],
+  [
+   3637,
+   3700
+  ],
+  [
+   3701,
+   3727
+  ],
+  [
+   3730,
+   3780
+  ],
+  [
+   3781,
+   3803
+  ],
+  [
+   3848,
+   3848
+  ],
+  [
+   3880,
+   3917
+  ],
+  [
+   3950,
+   3978
+  ],
+  [
+   3979,
+   4003
+  ],
+  [
+   4036,
+   4066
+  ],
+  [
+   4083,
+   4095
+  ],
+  [
+   4087,
+   4087
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 60,
+ "with_supported_by": 25
+}

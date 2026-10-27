@@ -1,0 +1,274 @@
+[
+ {
+  "entity": "万里长城",
+  "target_ref": "04-knowledge/units/works/ming-changcheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/ming-changcheng.md。"
+ },
+ {
+  "entity": "郑和",
+  "target_ref": "04-knowledge/units/persons/zheng-he.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-06",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zheng-he.md。"
+ },
+ {
+  "entity": "《农政全书》",
+  "target_ref": "04-knowledge/units/publications/nongzheng-quanshu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/nongzheng-quanshu.md。"
+ },
+ {
+  "entity": "京张铁路",
+  "target_ref": "04-knowledge/units/works/jingzhang-tielu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-11",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jingzhang-tielu.md。"
+ },
+ {
+  "entity": "詹天佑",
+  "target_ref": "04-knowledge/units/persons/zhan-tianyou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-12",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zhan-tianyou.md。"
+ },
+ {
+  "entity": "汤若望",
+  "target_ref": "04-knowledge/units/persons/tang-ruowang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-136",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/tang-ruowang.md。"
+ },
+ {
+  "entity": "南怀仁",
+  "target_ref": "04-knowledge/units/persons/nan-huairen.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-147",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/nan-huairen.md。"
+ },
+ {
+  "entity": "蒯祥",
+  "target_ref": "04-knowledge/units/persons/kuaixiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-17",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/kuaixiang.md。"
+ },
+ {
+  "entity": "左祖右社",
+  "target_ref": "04-knowledge/units/terms/zuo-zu-you-she.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zuo-zu-you-she.md。"
+ },
+ {
+  "entity": "西苑",
+  "target_ref": "04-knowledge/units/places/xi-yuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-19",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/xi-yuan.md。"
+ },
+ {
+  "entity": "天坛",
+  "target_ref": "04-knowledge/units/works/tiantan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-21",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tiantan.md。"
+ },
+ {
+  "entity": "先农坛",
+  "target_ref": "04-knowledge/units/works/xiannongtan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-22",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/xiannongtan.md。"
+ },
+ {
+  "entity": "太和殿",
+  "target_ref": "04-knowledge/units/works/taihedian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/taihedian.md。"
+ },
+ {
+  "entity": "前朝后室",
+  "target_ref": "04-knowledge/units/terms/qianchao-houshi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-139",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qianchao-houshi.md。"
+ },
+ {
+  "entity": "南京城墙",
+  "target_ref": "04-knowledge/units/works/nanjing-chengqiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-25",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/nanjing-chengqiang.md。"
+ },
+ {
+  "entity": "沈阳故宫",
+  "target_ref": "04-knowledge/units/works/shenyang-gugong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-27",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shenyang-gugong.md。"
+ },
+ {
+  "entity": "武当山道观",
+  "target_ref": "04-knowledge/units/works/wudangshan-daoguan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wudangshan-daoguan.md。"
+ },
+ {
+  "entity": "武当山金顶铜殿",
+  "target_ref": "04-knowledge/units/works/wudang-jinding-tongdian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-30",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wudang-jinding-tongdian.md。"
+ },
+ {
+  "entity": "承德外八庙",
+  "target_ref": "04-knowledge/units/works/chengde-waibamiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-32",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chengde-waibamiao.md。"
+ },
+ {
+  "entity": "明孝陵",
+  "target_ref": "04-knowledge/units/works/ming-xiaoling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-34",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/ming-xiaoling.md。"
+ },
+ {
+  "entity": "明十三陵",
+  "target_ref": "04-knowledge/units/works/ming-shisanling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/ming-shisanling.md。"
+ },
+ {
+  "entity": "长陵棱恩殿",
+  "target_ref": "04-knowledge/units/works/changling-lengendian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/changling-lengendian.md。"
+ },
+ {
+  "entity": "定陵",
+  "target_ref": "04-knowledge/units/works/dingling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/dingling.md。"
+ },
+ {
+  "entity": "清西陵",
+  "target_ref": "04-knowledge/units/works/qing-xiling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-38",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qing-xiling.md。"
+ },
+ {
+  "entity": "清东陵",
+  "target_ref": "04-knowledge/units/works/qing-dongling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-39",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qing-dongling.md。"
+ },
+ {
+  "entity": "山海关",
+  "target_ref": "04-knowledge/units/places/shanhaiguan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-40",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/shanhaiguan.md。"
+ },
+ {
+  "entity": "居庸关",
+  "target_ref": "04-knowledge/units/places/juyongguan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-41",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/juyongguan.md。"
+ },
+ {
+  "entity": "八达岭长城",
+  "target_ref": "04-knowledge/units/places/badaling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/badaling.md。"
+ },
+ {
+  "entity": "嘉峪关",
+  "target_ref": "04-knowledge/units/places/jiayuguan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-43",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/jiayuguan.md。"
+ },
+ {
+  "entity": "紫禁城",
+  "target_ref": "04-knowledge/units/works/beijing-zijincheng.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-02",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/beijing-zijincheng.md。"
+ },
+ {
+  "entity": "大清工部工程作法则例",
+  "target_ref": "04-knowledge/units/publications/gongcheng-zuofa.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-10",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/gongcheng-zuofa.md。"
+ },
+ {
+  "entity": "北京中轴线",
+  "target_ref": "04-knowledge/units/terms/central-axis.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/central-axis.md。"
+ },
+ {
+  "entity": "明代西安城",
+  "target_ref": "04-knowledge/units/places/xian.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-26",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/xian.md。"
+ },
+ {
+  "entity": "江南私家园林",
+  "target_ref": null,
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-03",
+  "merged_candidates": [],
+  "note": "无 canonical；材料保留在来源层。"
+ }
+]

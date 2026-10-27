@@ -33,7 +33,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -43,7 +43,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下清末蚕桑与丝织文献的锚点，也涉及 D 维度的服色等级。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b2-jindai-fangzhipin-ranzhi-tuxiang.md
+    role: source_publication
+    primary: true
+    scope_note: "B.2 首批：以《蚕桑萃编》为清末蚕桑丝织知识文本，复读其条目组织与图案记录；服色等级涉及 D，但原 KU 未列 D 次维度。"
+hierarchy_scope_note: "《蚕桑萃编》是 B.2 下清末蚕桑与丝织文献的锚点，正文亦涉及 D 维度的服色等级；原 KU 未将 D 列入 secondary_dimensions，故 secondary_themes 暂空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

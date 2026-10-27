@@ -1,0 +1,234 @@
+[
+ {
+  "entity": "《美术的起源》",
+  "target_ref": "04-knowledge/units/publications/meishu-de-qiyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-104",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/meishu-de-qiyuan.md。"
+ },
+ {
+  "entity": "《建国方略》",
+  "target_ref": "04-knowledge/units/publications/jianguo-fanglue.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-114",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jianguo-fanglue.md。"
+ },
+ {
+  "entity": "《中国建筑史》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-jianzhushi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-133",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-jianzhushi.md。"
+ },
+ {
+  "entity": "茅以升",
+  "target_ref": "04-knowledge/units/persons/mao-yisheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-135",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/mao-yisheng.md。"
+ },
+ {
+  "entity": "城市雕塑",
+  "target_ref": "04-knowledge/units/terms/chengshi-diaosu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-126",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/chengshi-diaosu.md。"
+ },
+ {
+  "entity": "微缩景观公园",
+  "target_ref": "04-knowledge/units/terms/weisuo-jingguan-gongyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-128",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/weisuo-jingguan-gongyuan.md。"
+ },
+ {
+  "entity": "民俗村",
+  "target_ref": "04-knowledge/units/terms/minsucun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-187",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/minsucun.md。"
+ },
+ {
+  "entity": "重庆人民大会堂",
+  "target_ref": "04-knowledge/units/works/chongqing-renmin-dahuitang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-173",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chongqing-renmin-dahuitang.md。"
+ },
+ {
+  "entity": "成吉思汗陵",
+  "target_ref": "04-knowledge/units/works/chengjisihan-ling.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-174",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chengjisihan-ling.md。"
+ },
+ {
+  "entity": "中华民族园",
+  "target_ref": "04-knowledge/units/works/zhonghua-minzuyuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-186",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhonghua-minzuyuan.md。"
+ },
+ {
+  "entity": "钱塘江大桥",
+  "target_ref": "04-knowledge/units/works/qiantangjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-134",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qiantangjiang-daqiao.md。"
+ },
+ {
+  "entity": "武汉长江大桥",
+  "target_ref": "04-knowledge/units/works/wuhan-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-136",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wuhan-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "南京长江大桥",
+  "target_ref": "04-knowledge/units/works/nanjing-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-137",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/nanjing-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "兰州铁桥",
+  "target_ref": "04-knowledge/units/works/lanzhou-tieqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-138",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lanzhou-tieqiao.md。"
+ },
+ {
+  "entity": "拓荒牛",
+  "target_ref": "04-knowledge/units/works/tuohuang-niu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-209",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tuohuang-niu.md。"
+ },
+ {
+  "entity": "深圳人的一天",
+  "target_ref": "04-knowledge/units/works/shenzhenren-de-yitian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-210",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shenzhenren-de-yitian.md。"
+ },
+ {
+  "entity": "珠海鱼女",
+  "target_ref": "04-knowledge/units/works/zhuhai-yunv.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-211",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhuhai-yunv.md。"
+ },
+ {
+  "entity": "五羊",
+  "target_ref": "04-knowledge/units/works/wuyang-diaosu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-212",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wuyang-diaosu.md。"
+ },
+ {
+  "entity": "丝绸之路",
+  "target_ref": "04-knowledge/units/works/sichou-zhilu-xian-diaosu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-213",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sichou-zhilu-xian-diaosu.md。"
+ },
+ {
+  "entity": "黄河母亲",
+  "target_ref": "04-knowledge/units/works/huanghe-muqin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-214",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/huanghe-muqin.md。"
+ },
+ {
+  "entity": "九江长江大桥",
+  "target_ref": "04-knowledge/units/works/jiujiang-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-188",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jiujiang-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "重庆万县长江大桥",
+  "target_ref": "04-knowledge/units/works/wanxian-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-189",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wanxian-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "江阴长江大桥",
+  "target_ref": "04-knowledge/units/works/jiangyin-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-190",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jiangyin-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "芜湖长江大桥",
+  "target_ref": "04-knowledge/units/works/wuhu-changjiang-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-191",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/wuhu-changjiang-daqiao.md。"
+ },
+ {
+  "entity": "郑州京汉铁路桥",
+  "target_ref": "04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-192",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md。"
+ },
+ {
+  "entity": "洛阳黄河大桥",
+  "target_ref": "04-knowledge/units/works/luoyang-huanghe-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-193",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/luoyang-huanghe-daqiao.md。"
+ },
+ {
+  "entity": "山东北镇黄河大桥",
+  "target_ref": "04-knowledge/units/works/beizhen-huanghe-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-194",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/beizhen-huanghe-daqiao.md。"
+ },
+ {
+  "entity": "济南黄河大桥",
+  "target_ref": "04-knowledge/units/works/jinan-huanghe-daqiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-195",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jinan-huanghe-daqiao.md。"
+ },
+ {
+  "entity": "改革开放后城市雕塑",
+  "target_ref": "04-knowledge/units/terms/chengshi-diaosu.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-127",
+  "merged_candidates": [],
+  "note": "merged_into: 04-knowledge/units/terms/chengshi-diaosu.md。"
+ }
+]

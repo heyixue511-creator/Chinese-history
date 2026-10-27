@@ -45,7 +45,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -55,7 +55,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "鲁迅是 C 维度下近代书籍装帧与版式变革的实践锚点，其“中西融合”主张也涉及 E 维度的跨文化互动。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以鲁迅为民国书装提携网络与版式革新的核心，复读其《呐喊》《彷徨》《北平笺谱》等封面、题字、插图与版式实践。"
+hierarchy_scope_note: "鲁迅是 C.2 下民国书籍装帧与版式变革的实践锚点；其封面、题字、插图、版式与对陶元庆、孙福熙、钱君匋的提携是本 Topic 的核心材料，跨文化主张涉及 E 维度。现有 D.1/B.1 均不承接书装，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -80,10 +88,10 @@ hierarchy_scope_note: "鲁迅是 C 维度下近代书籍装帧与版式变革的
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近代书刊装帧的实践锚点，与陈之佛 KU 同属民国书籍设计序列。其“传统精华＋欧洲现代艺术”的主张可支持 E 维度的跨文化转译类 Topic。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 鲁迅是 C.2 下民国书籍装帧与版式变革的实践锚点；其封面、题字、插图、版式与对陶元庆、孙福熙、钱君匋的提携是本 Topic 的核心材料，跨文化主张涉及 E 维度。现有 D.1/B.1 均不承接书装，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

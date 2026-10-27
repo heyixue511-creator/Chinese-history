@@ -31,7 +31,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -41,7 +41,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "陶元庆是 C 维度下民国书籍装帧与鲁迅书装谱系的代表。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以陶元庆为鲁迅书装谱系的核心设计家，复读其《彷徨》《坟》等封面与 1925 年结识鲁迅后的书装实践。"
+hierarchy_scope_note: "陶元庆是 C.2 下鲁迅书装谱系的核心设计家；其《彷徨》《坟》等封面与构图精炼、色彩明快的风格是本 Topic 的核心材料。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "陶元庆是 C 维度下民国书籍装帧与鲁迅书装
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 陶元庆是 C 维度下民国书籍装帧与鲁迅书装谱系的代表。Theme/Topic 尚未 materialize。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 陶元庆是 C.2 下鲁迅书装谱系的核心设计家；其《彷徨》《坟》等封面与构图精炼、色彩明快的风格是本 Topic 的核心材料。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

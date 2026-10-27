@@ -1,0 +1,122 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2d",
+  "goal": "李立新 2011 册第六节 L741-L847 规范化与造物体系形成的 unit 候选裁写",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:c02b1c436aa7eaa668781058378cc2dc2bce197b33b5d61149b4e48d78b5fe3f",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1468,
+        "applied": 2778,
+        "rejected": 863,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          741,
+          847
+        ]
+      ],
+      "spans_scope": "覆盖 L741-L847：第六节“从规范化的完善看造物体系的形成”全节，含 L743-L749 规范化的定义与分期、L751-L759 船舶雏形与初创、L761 三翼与平山木船、L766 秦律工律、L768 汉代造船、L773-L779 船模与标准化四点、L781-L783 普遍规范与孟子、L790-L798 技术成熟、L800-L823 功能设计与品类、L825-L829 官营制度、L831-L843 意匠化与政教、L845-L847 现代标准化与苏轼语；止于第二章标题（L849）之前。",
+      "candidates_in_scope": 13,
+      "candidate_spans_union": [
+        [
+          743,
+          743
+        ],
+        [
+          745,
+          745
+        ],
+        [
+          753,
+          753
+        ],
+        [
+          757,
+          757
+        ],
+        [
+          761,
+          761
+        ],
+        [
+          766,
+          766
+        ],
+        [
+          768,
+          768
+        ],
+        [
+          773,
+          775
+        ],
+        [
+          783,
+          786
+        ],
+        [
+          804,
+          809
+        ],
+        [
+          811,
+          814
+        ],
+        [
+          816,
+          819
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+      "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。",
+      "L804 与 L806 之间的雁鱼铜灯合述句被图1-33 图题隔断，按两截分引，不连读。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 7,
+      "update": 3,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/terms/guifanhua.md",
+        "04-knowledge/units/terms/yaozhou.md",
+        "04-knowledge/units/publications/wuyue-chunqiu.md",
+        "04-knowledge/units/publications/qinlv-gonglv.md",
+        "04-knowledge/units/publications/youyang-zazu.md",
+        "04-knowledge/units/works/yanyu-tongdeng.md",
+        "04-knowledge/units/works/qingtong-lianzhideng.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+        "04-knowledge/units/publications/shiji.md",
+        "04-knowledge/units/publications/zhouyi.md",
+        "04-knowledge/units/terms/chang-deng.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/places/changsha-wujialing.md",
+        "04-knowledge/units/places/wuliangci.md",
+        "04-knowledge/units/places/mawangdui-hanmu.md"
+      ],
+      "notes": ""
+    }
+  }
+}

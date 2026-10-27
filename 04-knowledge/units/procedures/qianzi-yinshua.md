@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -37,7 +37,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "铅字印刷是 C 维度下近代凸版印刷工序的条目，其信息传播与出版制度归 C、D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/c2-shiyin-qianyin-jishu-chuban-jigou.md
+    role: procedure
+    primary: true
+    scope_note: "C.2.1 首批：以铅字印刷为近代凸版工序样本，复读其 19 世纪末传入、活铅字排版与轮转机印刷；信息传播与出版制度归 C、D。"
+hierarchy_scope_note: "铅字印刷是 C.2 下近代凸版印刷工序的条目；其 19 世纪末传入、活铅字排版与轮转机印刷是本 Topic 的技术样本，信息传播与出版制度归 C、D。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "铅字印刷是 C 维度下近代凸版印刷工序的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铅字印刷是 C 维度下近代凸版印刷工序的条目，其信息传播与出版制度归 C、D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.1 石印、铅印技术与出版机构（procedure，主挂载）
+- role_in_theme: procedure
+- scope_note: 铅字印刷是 C.2 下近代凸版印刷工序的条目；其 19 世纪末传入、活铅字排版与轮转机印刷是本 Topic 的技术样本，信息传播与出版制度归 C、D。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

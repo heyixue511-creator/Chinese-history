@@ -21,7 +21,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -31,7 +31,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "司徒乔在本册只有一句风格评语：书装设计“富有强烈的动与静的对比，韵味十足”。他在 L5017 的青年书装家群中被列名，是鲁迅提携路径的一员。书籍装帧归 C 维度（视觉传达与文字设计）。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以司徒乔为动静对比一路的样本，复读其青年书装家群列名与“富有强烈的动与静的对比”评语。"
+hierarchy_scope_note: "司徒乔是 C.2 下以动静对比入书装的设计家；其青年书装家群列名与“富有强烈的动与静的对比”评语是本 Topic 的薄证据样本，confidence 为 low。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -53,10 +61,10 @@ hierarchy_scope_note: "司徒乔在本册只有一句风格评语：书装设计
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条的证据量在本批中属最薄一档：只有一句评语与一次列名，无作品、无年代、无图版。因之 confidence 取 low。它的价值是保留原文对“动与静对比”这一形式判据的使用，而非提供人物传记。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 司徒乔是 C.2 下以动静对比入书装的设计家；其青年书装家群列名与“富有强烈的动与静的对比”评语是本 Topic 的薄证据样本，confidence 为 low。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

@@ -29,13 +29,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
@@ -73,7 +73,7 @@ hierarchy_scope_note: "吴彩霞绣坊是 D 维度下清末长沙湘绣作坊的
 
 ## 相关知识元
 
-`procedures/bian-xiu.md` 记辫绣，`procedures/yun-jian-xiu.md` 记云肩绣，均为刺绣针法或绣品条目；来源没有把吴彩霞绣坊与具体针法对应，本条不建立直接工艺归属。`persons/` 下尚未见胡莲仙专条。relation 未审查，不写入正式 `relations`。
+`procedures/bian-xiu.md` 记辫绣，`procedures/yun-jian-xiu.md` 记云肩绣，均为刺绣针法或绣品条目；来源没有把吴彩霞绣坊与具体针法对应，本条不建立直接工艺归属。`persons/hu-lianxian.md` 记胡莲仙的籍贯、早年学艺、婚姻与迁居开业，其绣坊组织与传授网点归本条。relation 未审查，不写入正式 `relations`。
 
 ## 验证状态
 

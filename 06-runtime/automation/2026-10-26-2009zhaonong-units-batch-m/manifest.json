@@ -1,0 +1,75 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-m",
+  "goal": "把赵农 2009 册第九章第七节设计文献的 6 条 unit 候选写回为可追踪知识元",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:258db6c07277430520de0b6c0d3c6629f40095e6b7f356f1bf1765e430e5965c",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2084,
+        "applied": 2213,
+        "rejected": 851,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          7597,
+          7652
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第九章第七节设计文献 L7597–L7652 逐段复读，含宋应星与《天工开物》、《鲁班经》、《多能鄙事》、《三才图会》、《大清工部工程做法》与其他设计思想；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 6,
+      "candidate_spans_union": [
+        [
+          7614,
+          7620
+        ],
+        [
+          7626,
+          7652
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "同一实体只保留一个 canonical；既有专条不因同段并提而合并",
+      "同一段内人物与著作分别立条时，人物条只记生平与关系，著作内容归出版物条",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 5,
+      "update": 1,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/publications/duoneng-bishi.md",
+        "04-knowledge/units/persons/liu-ji.md",
+        "04-knowledge/units/publications/sancai-tuhui.md",
+        "04-knowledge/units/persons/dai-zhen.md",
+        "04-knowledge/units/terms/gewu-zhizhi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/gongcheng-zuofa.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第九章第七节 unit 候选 6 条：create 5、update 1、rejected 0。范围 L7597-L7652。新建覆盖《多能鄙事》、刘基、《三才图会》、戴震、格物致知；更新为《大清工部工程做法》并入卷目与《营造法式》定位。宋应星与《天工开物》、《鲁班经》、文震亨与《长物志》、李渔与《闲情偶寄》均已有 KU，本段无对应候选；图 9-69 至图 9-72 未视觉核验。"
+    }
+  }
+}

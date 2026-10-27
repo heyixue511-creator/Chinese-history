@@ -47,7 +47,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -60,7 +60,15 @@ primary_dimension: C
 secondary_dimensions:
   - D
   - B
-hierarchy_scope_note: "幌子是 C 维度下店铺标识与商业广告的术语锚点；其商业功能、行业分工与市镇制度属 D；布幔、木幌、模型幌的制作属 B。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/c1-baokan-guanggao-jigou-biaozhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "C.1 首批：以幌子为店铺悬挂广告的术语锚点，复读其布幔酒旗、望子与近代上海黄旗的跨时段外延；商业功能归 D、制作归 B。"
+hierarchy_scope_note: "幌子是 C.1 下店铺标识与商业广告的术语锚点；其商业功能与市镇制度属 D、布幔木幌制作属 B。现有 D.2 为服饰制度、B.2 为织绣服装，均不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -140,10 +148,10 @@ hierarchy_scope_note: "幌子是 C 维度下店铺标识与商业广告的术语
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: D（商业、制度与设计教育）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是店铺悬挂标识与商业广告的术语锚点。文字、图形、色彩与版面属 C；商业功能、行业分工与市镇制度属 D；布幔、木幌、模型与标志物的制作属 B。可与宋代商业美术、明清广告、商标史等主题合成 Topic。当前只到 Dimension。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.2 报刊广告与机构标识（term_anchor，主挂载）
+- role_in_theme: term_anchor
+- scope_note: 幌子是 C.1 下店铺标识与商业广告的术语锚点；其商业功能与市镇制度属 D、布幔木幌制作属 B。现有 D.2 为服饰制度、B.2 为织绣服装，均不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

@@ -1,0 +1,170 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t7",
+  "goal": "田自秉 2010 册第七章六朝（L2713-L3015）unit 候选 23 条：18 新建、5 no_delta",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:39354588471b3063d9ff3ca805773eb6ba990483aefe167cf3d648f369515dd8",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1795,
+        "applied": 2480,
+        "rejected": 852,
+        "no_delta": 212
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          2713,
+          3015
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第七章六朝（L2713-L3015）逐段复读，含陶瓷、染织、金属工艺、漆器、其他工艺与结语；彩版与插图 1、2、4、11、12、13、14 只读图注，未视觉核验。",
+      "candidates_in_scope": 23,
+      "candidate_spans_union": [
+        [
+          2721,
+          2721
+        ],
+        [
+          2745,
+          2745
+        ],
+        [
+          2753,
+          2753
+        ],
+        [
+          2771,
+          2771
+        ],
+        [
+          2791,
+          2793
+        ],
+        [
+          2817,
+          2817
+        ],
+        [
+          2851,
+          2851
+        ],
+        [
+          2879,
+          2881
+        ],
+        [
+          2883,
+          2896
+        ],
+        [
+          2906,
+          2906
+        ],
+        [
+          2910,
+          2910
+        ],
+        [
+          2924,
+          2925
+        ],
+        [
+          2931,
+          2931
+        ],
+        [
+          2939,
+          2945
+        ],
+        [
+          2963,
+          2963
+        ],
+        [
+          2965,
+          2967
+        ],
+        [
+          2969,
+          2978
+        ],
+        [
+          2980,
+          2980
+        ],
+        [
+          2990,
+          2990
+        ],
+        [
+          2996,
+          2997
+        ],
+        [
+          2999,
+          3002
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物并列著录，slug 加时代或身份限定，不合并为同一人物（苏轼／前秦苏氏）",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写（刘桢、《书经》、肖景）",
+      "只有图注、无器物数据的候选记 no_delta，不新建只有图注的作品条",
+      "类型条与单器条分工：总类、制法与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "期别总述与单器条分工：六朝铜镜条记三类镜与工匠纪年，伍子胥画像镜仍归既有单器条",
+      "候选 unit_type 与实体性质不符时按实体改写：织物类型记 term，单件器物记 work"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 18,
+      "update": 0,
+      "no_delta": 5,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/liuchao-gongjiang-zhidu.md",
+        "04-knowledge/units/terms/pan-kou-hu.md",
+        "04-knowledge/units/works/huangyou-ci-bianhu.md",
+        "04-knowledge/units/terms/hunping.md",
+        "04-knowledge/units/terms/lianhua-wen.md",
+        "04-knowledge/units/works/zhulin-qixian-rongqiqi-zhuanhua.md",
+        "04-knowledge/units/terms/tonghua-bu.md",
+        "04-knowledge/units/persons/su-shi-qianqin.md",
+        "04-knowledge/units/works/niaoshou-wen-qi.md",
+        "04-knowledge/units/works/dunhuang-125-126-ku-xiu.md",
+        "04-knowledge/units/terms/liuchao-tongjing.md",
+        "04-knowledge/units/persons/dai-kui.md",
+        "04-knowledge/units/works/waguan-si-jiazhu-foxiang.md",
+        "04-knowledge/units/terms/ban-qi.md",
+        "04-knowledge/units/terms/lvchen-qi.md",
+        "04-knowledge/units/works/beiwei-muban-qihua.md",
+        "04-knowledge/units/works/xiao-jing-mu-shizhu.md",
+        "04-knowledge/units/works/wangwen-boli-bei.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/piao-ci.md",
+        "04-knowledge/units/places/ou-kiln.md",
+        "04-knowledge/units/places/dengxian-xuezhuang-huaxiangzhuan-mu.md",
+        "04-knowledge/units/terms/tangcao-wen.md",
+        "04-knowledge/units/terms/liuli.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

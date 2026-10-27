@@ -26,13 +26,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-26
-review_due: 2027-04-26
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -66,7 +66,7 @@ hierarchy_scope_note: 本 KU 是 B 维度下《考工记》造物原则的条目
 
 ## 相关知识元
 
-`publications/kaogongji.md` 记《考工记》全书；`terms/baigong.md` 记 6 类 30 工种；`terms/wenzhi.md` 记文与质，为同册设计思想条目。relation 未审查。
+`publications/kaogongji.md` 记《考工记》全书；`terms/baigong.md` 记 6 类 30 工种；`terms/wenzhi.md` 记文与质，为同册设计思想条目。`terms/shenqu-mianshi.md` 记李立新 2011 册对同一句四要素的逐项释义，与本条互为详略。relation 未审查。
 
 ## 验证状态
 

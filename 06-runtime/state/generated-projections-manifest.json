@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "manifest_kind": "generated_projection_provenance",
   "ku_state": {
-    "units": 1277,
-    "digest": "sha256:12c4110d1b173a80c8ac667d6f7af80d552456e66c9f1c8526e9c2507d545728"
+    "units": 2570,
+    "digest": "sha256:ec15f92704052c1a0e32dc59d876162e3691e797c071e224195733806ac84f5d"
   },
   "projections": [
     {
@@ -19,11 +19,11 @@
           "04-knowledge/quality/claim-registry.yml",
           ".agents/skills/01-intake/ingest/references/relation-types.yml"
         ],
-        "files": 1286,
-        "digest": "sha256:d366cc6acf6addc69a1e3f7ef55109bc8362bcf572e96692205a441ef8950283"
+        "files": 2602,
+        "digest": "sha256:59f3560893a5f390b3a3697ad85392ba207f9da8be0a105024dbfc7d80274c9d"
       },
       "outputs": {
-        "04-knowledge/quality/relation-index.yml": "sha256:dfcc637a75c19d6c7b4162523b631d920ac3b948e8b630cfaa827a4372bdf9c0"
+        "04-knowledge/quality/relation-index.yml": "sha256:5ddbf228ce1c89be45acf34d71d90c7ec2071c4083a8aa88a4d356968f357d28"
       },
       "missing_outputs": []
     },
@@ -40,8 +40,8 @@
           "04-knowledge/quality/claim-registry.yml",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 1286,
-        "digest": "sha256:1a4bdc1227fdc47852b4c2b65f038360e49db7175556bc771fe11d9946212226"
+        "files": 2602,
+        "digest": "sha256:e70908eefd1cc92bfff1f0b2ed38b70829e577c3112f1352d99f0d61729c6be2"
       },
       "outputs": {
         "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88"
@@ -59,11 +59,11 @@
           "04-knowledge/units/**/*.md",
           "01-domain/naming-conventions.md"
         ],
-        "files": 1278,
-        "digest": "sha256:45301ac90ed54105a42dd9e0449a5bddb3c3464806b95e5d0c7ce606514d849c"
+        "files": 2571,
+        "digest": "sha256:442d5e213b942d8e6c299aea9ce78bfb44b33e5e2a7847f6fd4227e4b1fa629a"
       },
       "outputs": {
-        "04-knowledge/quality/translation-index.yml": "sha256:daf21f795314f26b360ba924f5767b3198a2ef3540be8c529cc3b295352e5498"
+        "04-knowledge/quality/translation-index.yml": "sha256:7f0dad63ce0164fc3bb3367fb897eae416ebb3bbe36e7530508b993f430d4862"
       },
       "missing_outputs": []
     },
@@ -79,12 +79,12 @@
           "04-knowledge/structure/**/*.md",
           "04-knowledge/quality/relation-index.yml"
         ],
-        "files": 1285,
-        "digest": "sha256:4be2daa02972d7e152e629c32a256989334c384ba06f6e92b93445ff01662151"
+        "files": 2601,
+        "digest": "sha256:05ca252b338010a4f12d9a001e89bbfe10da564df66463b81e8d51fa7794bec5"
       },
       "outputs": {
-        "05-outputs/knowledge-graph-data.json": "sha256:05e06ec6dee37b4c9e21e36e33c38a567373aad691ab81c1f30651d4aefcf641",
-        "05-outputs/knowledge-graph-data.js": "sha256:8d86e72de30954587f6e0810ff99a8008677bb673945da418cdccbf4753f7526"
+        "05-outputs/knowledge-graph-data.json": "sha256:9080d4f3749cecc9e0f32f8c58fe488dad56290989b6b5d53ed13569966f4f94",
+        "05-outputs/knowledge-graph-data.js": "sha256:f1b05064a06210acccda8c7407c1dd9d64c4a87c986a31820f99a07fc701a4e5"
       },
       "missing_outputs": []
     },
@@ -104,8 +104,8 @@
         "digest": "sha256:d30b2e77ab11d97b14ecc18d5b5663ae3dd4d2d9284364600ae8eb3b14066800"
       },
       "outputs": {
-        "06-runtime/state/candidate-index.jsonl": "sha256:61c3eb965dffc8ea32d0617ccf4574d86c44e18668cffa40fa8c88f3467d50ba",
-        "06-runtime/state/discovery-manifest.json": "sha256:f9710db36a5d5012146611a0023b2d01cca672e157adfd1b85079790f0c9b2af"
+        "06-runtime/state/candidate-index.jsonl": "sha256:f503a42a37371d440864f4e6c90ec285b73a18040529325d69299e785f19c0a1",
+        "06-runtime/state/discovery-manifest.json": "sha256:1caeb58c1253907450195b813a92f351ab670ec4a23d94b8a612ff45d070bdfd"
       },
       "missing_outputs": []
     },
@@ -120,7 +120,7 @@
           "05-outputs/**/*"
         ],
         "files": 19,
-        "digest": "sha256:2120d3bfb283de3bd82d8d00d75ffcd809725571f2a4dc8611d3d8890c14f6d5"
+        "digest": "sha256:fdc05121a964606e7571d6503432bd6c4bc4e82d8788f1f13ff89d0feed60e56"
       },
       "outputs": {
         "05-outputs/index/output-gallery.md": "sha256:10655bbc374b8bfcd0089d68aa3efc023775991b9e470914a19b87b7ed8c016b"
@@ -138,10 +138,10 @@
           "06-runtime/state/current-health.json"
         ],
         "files": 1,
-        "digest": "sha256:ac51174df0c5547de59d5882cd19507199f377bc1db0b3458ecf7d0d80b47db4"
+        "digest": "sha256:f5634d843415600eb7af8ae5ed388a5e3ee90d85d1cebf715842238ff33e0d8d"
       },
       "outputs": {
-        "05-outputs/index/index.md": "sha256:0c3abd42fd89e0e53a4bb8efc029b26be6f66ed4e9af6a706fa7f133847ab123"
+        "05-outputs/index/index.md": "sha256:a60d4744900e1158d3fccd59a0e69700888ffe893744b52b495363e46d053d87"
       },
       "missing_outputs": []
     },
@@ -155,11 +155,11 @@
         "patterns": [
           "06-runtime/automation/**/*"
         ],
-        "files": 437,
-        "digest": "sha256:550e741f589f5380d7a436b5f8ca7ba84153fdccfb76d56cf259b97bc83363e6"
+        "files": 1099,
+        "digest": "sha256:45ac5bbbd34dc540004d655613aa1a3ddba1b66711caf0303d29b3422967347c"
       },
       "outputs": {
-        "06-runtime/automation/index.md": "sha256:130d8650e236ab30bd5e4a5d342013252f8b0812369147b83d067dcf0cac83f3"
+        "06-runtime/automation/index.md": "sha256:4ed472f370d41c3d72958f3e265041d03b7eacd6557b7d84d5d99d2f8808c721"
       },
       "missing_outputs": []
     },
@@ -194,12 +194,12 @@
           "03-processing/**/*",
           "04-knowledge/quality/**/*"
         ],
-        "files": 1315,
-        "digest": "sha256:3832589ef5071bdd60fb68e9b9e8d0f1f67b320ddf3478226d83e8ca3dfa5f7c"
+        "files": 2608,
+        "digest": "sha256:8b28143734fca2acaba608075741ec003cbf7ff3b150004fb297766470bf56d5"
       },
       "outputs": {
-        "06-runtime/state/current-health.json": "sha256:5ef8655e86738c27c2eb0ee94746c3344b742bd2c7ae463c914644d1c8adfb3b",
-        "06-runtime/governance/governance-backlog.md": "sha256:af09b012c841c5ec665447d634d5ee57fec734644313644f21d47bf7b70323a9"
+        "06-runtime/state/current-health.json": "sha256:024c30359ecd9cb42797b3bab952b8cef84e133a846727d30b0bf64397f32c80",
+        "06-runtime/governance/governance-backlog.md": "sha256:eac30251f4dd70b76bb9a2f45b4b98ce148d5d6df4ad99f1438ffe25ecb475bd"
       },
       "missing_outputs": []
     }

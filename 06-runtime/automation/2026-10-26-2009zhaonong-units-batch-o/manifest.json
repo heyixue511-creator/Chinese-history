@@ -1,0 +1,107 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-o",
+  "goal": "赵农 2009 册第十章第三至第四节 unit 候选写回：器皿材料、公共器具、手工编织与 20 世纪服饰纺织 31 条（25 新建、5 更新、1 no_delta）",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:e06cea67eab6ca4d5bd90fb4d515ffa38357cb49fe869ec1c317ed801dda5e38",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2049,
+        "applied": 2247,
+        "rejected": 852,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          7899,
+          8102
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第十章第三节器皿与家具、第四节服饰与纺织 L7899–L8102 逐段复读，含陶瓷与窑口恢复、塑料玻璃等材料、公共器具与家用工具、手工编织、20 世纪服饰与帽饰、手表与消费、纺织业；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 31,
+      "candidate_spans_union": [
+        [
+          7901,
+          7952
+        ],
+        [
+          7965,
+          8003
+        ],
+        [
+          8006,
+          8102
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨书新增来源：sources 追加新来源块，source_count 加 1，version 加 1",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "列举型候选只著录来源所列名称、领型、材质、颜色与用途，不据来源外材料补形制、裁剪尺寸与设计者",
+      "同名实体不重复立条：紫砂陶、钧窑、汝窑、龙泉窑、耀州窑、石湾窑按更新或 no_delta 处理",
+      "类型与单品分层：四大名绣为合称条，手表与三转一响分属单品与消费组合",
+      "跨页残句不逐字引：被图版、页眉或章节页分隔的文字只作内容转述",
+      "原文疑误与内部张力照录标注，不径改",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 25,
+      "update": 5,
+      "no_delta": 1,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/xiangjiao.md",
+        "04-knowledge/units/terms/gonggong-qiju.md",
+        "04-knowledge/units/terms/jiayong-xiao-gongju.md",
+        "04-knowledge/units/terms/dianqi.md",
+        "04-knowledge/units/terms/shougong-bianzhi.md",
+        "04-knowledge/units/persons/wang-caiyun.md",
+        "04-knowledge/units/persons/huang-longsheng.md",
+        "04-knowledge/units/terms/hongwei-fu.md",
+        "04-knowledge/units/terms/junbian-zhuang.md",
+        "04-knowledge/units/terms/liening-zhuang.md",
+        "04-knowledge/units/terms/yingbin-fu.md",
+        "04-knowledge/units/terms/xifu.md",
+        "04-knowledge/units/terms/zhiye-zhuang.md",
+        "04-knowledge/units/terms/tangzhuang.md",
+        "04-knowledge/units/terms/shizhuang-fabuhui.md",
+        "04-knowledge/units/terms/maozedong-xiangzhang.md",
+        "04-knowledge/units/terms/limao.md",
+        "04-knowledge/units/terms/junmao.md",
+        "04-knowledge/units/terms/yashed-mao.md",
+        "04-knowledge/units/terms/beilei-mao.md",
+        "04-knowledge/units/terms/shoubiao.md",
+        "04-knowledge/units/terms/sanzhuan-yixiang.md",
+        "04-knowledge/units/terms/yangbu.md",
+        "04-knowledge/units/terms/sida-mingxiu.md",
+        "04-knowledge/units/terms/mianfangchang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/zisha-tao.md",
+        "04-knowledge/units/places/jun-kiln.md",
+        "04-knowledge/units/places/ru-kiln.md",
+        "04-knowledge/units/places/longquan-kiln.md",
+        "04-knowledge/units/places/yaozhou-kiln.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/places/shiwan-yao.md"
+      ],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第十章第三至第四节 unit 候选 31 条：create 25、update 5、no_delta 1。范围 L7899-L8102。新建覆盖橡胶、公共器具、家用小工具、电器、手工编织、王才运、黄隆生、红卫服、军便装、列宁装、迎宾服、西服、职业装、唐装、时装发布会、毛泽东像章、礼帽、军帽、鸭舌帽、贝雷帽、手表、三转一响、洋布、四大名绣、棉纺厂；update 为宜兴紫砂陶（跨书）与钧、汝、龙泉、耀州四窑（同书多跨度）；no_delta 为石湾陶塑。塑料、玻璃、搪瓷、红木、瓜皮帽、中山装、旗袍等已有 KU，本批不重复立条；图 10-21 至图 10-36 未视觉核验。"
+    }
+  }
+}

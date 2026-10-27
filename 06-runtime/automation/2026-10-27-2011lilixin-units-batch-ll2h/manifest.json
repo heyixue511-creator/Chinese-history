@@ -1,0 +1,68 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2h",
+  "goal": "完成李立新 2011 册第二章第四节的 unit 候选裁定与写回（L1052-L1133）",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:b690922e86f9035fa71f1f4a7e673c2ce2ffec653962b8af7eb628a772179e5b",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1428,
+        "applied": 2809,
+        "rejected": 871,
+        "no_delta": 231
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1052,
+          1133
+        ]
+      ],
+      "spans_scope": "覆盖 L1052-L1133：第二章第四节“由‘华丽丰腴’到‘典雅质朴’”全节，含 L1054 前辈风格归纳，L1056-L1099 唐代华丽丰腴与金银器造型演变（图2-25至图2-31），L1103-L1119 文人士大夫情趣与“典雅”风格（含图表四），L1121-L1132 宋代一般造物的“质朴”状况（图2-32）；止于第五节标题（L1134）之前。",
+      "candidates_in_scope": 2,
+      "candidate_spans_union": [
+        [
+          1060,
+          1060
+        ],
+        [
+          1107,
+          1111
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接或句内再含引号用「 」；正文禁用 ASCII 双引号。",
+      "候选 knowledge_match 记 novel 时仍须检索既有 KU 的 aliases 与正文；别名命中者按 update 处理，不重复建条。",
+      "同一人物的评价、器物与思想分条记录，不把同段并置的他人材料并入本条。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 1,
+      "update": 1,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/persons/ou-yang-xiu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/baoxianghua-wen.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

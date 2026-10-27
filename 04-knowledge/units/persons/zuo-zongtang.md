@@ -51,7 +51,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -63,7 +63,16 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "左宗棠是 D 维度下洋务官员推动近代工业设计的样本：其活动以海防与军需为动因，以官办局厂为组织形式。夏燕靖两版把他列为洋务派三大人物之一作技术引进叙述，赵农仅在总结中列入洋务官员名单并给出“强政府非民生”的批判框架。Theme/Topic 均未 materialize。"
+primary_theme: D.1
+secondary_themes:
+  - B.1
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_person
+    primary: true
+    scope_note: "D.1 首批：以左宗棠作为海防动因下官办局厂组织的关键人物复读。"
+hierarchy_scope_note: "左宗棠是 D.1 下洋务官员推动近代工业设计的样本：其活动以海防与军需为动因，以官办局厂为组织形式，海防技术侧由 B.1 承接。夏燕靖两版与赵农的评价差异留待 claim 层。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

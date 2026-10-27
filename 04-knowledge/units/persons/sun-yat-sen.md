@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "孙中山是 D 维度下近代服制改革与城市规划的代表人物，中山装是其设计史核心产物。Theme/Topic 尚未 materialize。"
+primary_theme: D.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d2-zhongshanzhuang-guojia-lifu.md
+    role: key_person
+    primary: true
+    scope_note: "D.2 首批：以孙中山为中山装设计、穿着与剪辫易服法令的核心人物，复读其设计者身份与 1912 年定为礼服的关系。"
+hierarchy_scope_note: "孙中山是 D.2 下近代服制改革与中山装设计的核心人物；其《建国方略》城市规划面不属本 Topic，原 KU 未列 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

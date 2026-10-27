@@ -1,0 +1,120 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-c",
+  "goal": "赵农 2009 册第三章 unit 候选 60 条按语义复读裁定并写回：新建 46、更新 10、no_delta 4。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:db0c284d7680113d690fc046d84fed24a34cfab1f4d79d59ae3a03c8c2261175",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2741,
+        "applied": 1623,
+        "rejected": 813,
+        "no_delta": 162
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          1767,
+          1814
+        ],
+        [
+          1817,
+          2785
+        ]
+      ],
+      "spans_scope": "覆盖 1017 行：L1767-L1814、L1817-L2785。",
+      "candidates_in_scope": 60
+    }
+  },
+  "method": {
+    "rules": [
+      "第三章 60 条 unit 候选逐条语义复读后分流为 create / update / no_delta；cand-04-* 前缀的条目按 payload.source_span.chapter 归入第三章。",
+      "来源新建 consensus=tentative、evidence_status=source_backed、version=1、source_count=1；更新按实际并入来源数提高 source_count，其余字段不动。",
+      "原文错字、内部矛盾照录并标注，不径改；只有图注而无正文的条目 confidence 记 low，不据图补形制。",
+      "同一实体命中两条候选时，一条落 create/update，另一条走 no_delta 指向同一文件，不重复建 KU。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 46,
+      "update": 10,
+      "no_delta": 4,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/chunqiu-zhanguo.md",
+        "04-knowledge/units/terms/war-chariot.md",
+        "04-knowledge/units/persons/zhao-wulingwang.md",
+        "04-knowledge/units/terms/nu-crossbow.md",
+        "04-knowledge/units/terms/leather-armor.md",
+        "04-knowledge/units/works/wu-wang-fuchai-spear.md",
+        "04-knowledge/units/terms/wugou-hook.md",
+        "04-knowledge/units/terms/pi-sword-spear.md",
+        "04-knowledge/units/persons/ganjiang.md",
+        "04-knowledge/units/terms/dugout-canoe.md",
+        "04-knowledge/units/terms/plank-boat.md",
+        "04-knowledge/units/terms/v-shaped-iron-ploughshare-cap.md",
+        "04-knowledge/units/terms/shi-mo.md",
+        "04-knowledge/units/terms/lever.md",
+        "04-knowledge/units/terms/hengqi-balance.md",
+        "04-knowledge/units/terms/jiegou-well-sweep.md",
+        "04-knowledge/units/terms/pulley.md",
+        "04-knowledge/units/terms/windlass.md",
+        "04-knowledge/units/terms/cloud-ladder.md",
+        "04-knowledge/units/terms/qi-vessel.md",
+        "04-knowledge/units/terms/wooden-kite.md",
+        "04-knowledge/units/terms/yang-sui-burning-mirror.md",
+        "04-knowledge/units/terms/magnetite.md",
+        "04-knowledge/units/terms/jiance-bamboo-slip-books.md",
+        "04-knowledge/units/terms/bandu-wooden-tablet.md",
+        "04-knowledge/units/works/dujiangyan.md",
+        "04-knowledge/units/works/zhengguo-canal.md",
+        "04-knowledge/units/works/ximen-canal.md",
+        "04-knowledge/units/persons/li-bing.md",
+        "04-knowledge/units/persons/zheng-guo.md",
+        "04-knowledge/units/persons/ximen-bao.md",
+        "04-knowledge/units/terms/city-walls-and-moats.md",
+        "04-knowledge/units/terms/high-terrace-architecture.md",
+        "04-knowledge/units/terms/dao-bi.md",
+        "04-knowledge/units/terms/yi-bi-qian.md",
+        "04-knowledge/units/terms/huan-qian.md",
+        "04-knowledge/units/terms/jin-ban.md",
+        "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+        "04-knowledge/units/works/houma-mengshu.md",
+        "04-knowledge/units/publications/yue-ji.md",
+        "04-knowledge/units/terms/yu-instrument.md",
+        "04-knowledge/units/terms/qing.md",
+        "04-knowledge/units/terms/qin.md",
+        "04-knowledge/units/publications/sun-zi-bing-fa.md",
+        "04-knowledge/units/persons/sun-wu.md",
+        "04-knowledge/units/persons/lv-buwei.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/yugong.md",
+        "04-knowledge/units/terms/ji-halberd.md",
+        "04-knowledge/units/terms/mao.md",
+        "04-knowledge/units/terms/shu-staff.md",
+        "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+        "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+        "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+        "04-knowledge/units/persons/gongshu-pan.md",
+        "04-knowledge/units/works/zenghouyi-bronze-jianfou.md",
+        "04-knowledge/units/terms/xi-mat.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/huan-qian.md",
+        "04-knowledge/units/terms/qimu-jiaju.md",
+        "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+        "04-knowledge/units/persons/gongshu-pan.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

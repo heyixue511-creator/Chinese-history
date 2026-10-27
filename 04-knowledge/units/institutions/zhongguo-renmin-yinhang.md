@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - C
-hierarchy_scope_note: "中国人民银行是 D 维度下国家货币发行机构的条目，其纸币与铸币设计归 C；当前只到 Dimension。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-jiaotong-dianxin-jinrong.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以中国人民银行作为国家货币发行与金融组织的样本复读。"
+hierarchy_scope_note: "中国人民银行是 D.1 下国家货币发行机构的条目；其纸币与铸币设计归 C 维度，C 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

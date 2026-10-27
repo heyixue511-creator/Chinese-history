@@ -1,0 +1,72 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2j",
+  "goal": "处理李立新 2011 册 L1283-L1379 的 unit 候选：近代以来造物艺术的四个阶段与下编导论。",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:c2c8a628a2a5f6004d98a7c27c217476632cd137eb25c403cf1603444176544c",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1407,
+        "applied": 2828,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1283,
+          1379
+        ]
+      ],
+      "spans_scope": "覆盖 L1283-L1379：第三章第三节“近代以来造物艺术的艰辛历程”四个阶段（L1283-L1350），下编“设计艺术专题研究”导论两节（L1352-L1379）；止于第四章“造物历史中的原生状态”（L1380）之前。",
+      "candidates_in_scope": 3,
+      "candidate_spans_union": [
+        [
+          1291,
+          1291
+        ],
+        [
+          1301,
+          1301
+        ],
+        [
+          1320,
+          1320
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "李瑞清条另引高丰 L5461 作交叉印证；该行已回读原文，其余条目不扩引来源外册次。",
+      "L1378 为与正文无关的图片识别说明文字（英文、含 Rule 2 等字样），不据其改写正文，也不把它当作来源论述。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 no_delta 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 3,
+      "update": 0,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/zhong-ti-xi-yong.md",
+        "04-knowledge/units/persons/li-rui-qing.md",
+        "04-knowledge/units/terms/zhu-chang-she-ji-shi.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2k",
+  "goal": "李立新 2011 册第四章开篇与第一节：家庭手工业、和雇补证与图4-2 器物条",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:4c3e3f047b51bd3785078343fc0a2c3d2e0dc51658dce5354297ce0459e1d358",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1404,
+        "applied": 2831,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1380,
+          1429
+        ]
+      ],
+      "spans_scope": "覆盖 L1380-L1429：第四章“造物历史中的原生状态”标题与开篇（L1380-L1386），第一节“民间与官营生产模式的消长状态”前半（L1388-L1429）；止于第二节“个体特色与地域色调”（L1430）之前。L1430 以后留待 LL2l。",
+      "candidates_in_scope": 3,
+      "candidate_spans_union": [
+        [
+          1405,
+          1406
+        ],
+        [
+          1410,
+          1412
+        ],
+        [
+          1420,
+          1420
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "cand-04-30 更新既有 terms/hegu-zhi.md；该条原有赵农 L5484 证据，本批补李立新 L1420、L1422，两册对和雇制起始时段的叙述差异并列，不裁定。",
+      "cand-04-29 工商食官跨度为 L1394-L1831（含并入的 cand-05-34），终点尚未复读，本批不写入 decisions，保持 needs_evidence，待终点覆盖后单独裁定。",
+      "图4-2 只读到图注与论述语境，未视觉核验图版；图注所载器名、工艺与朝代之外不补尺寸、藏地与织造机构。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 update 或 no_delta 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 2,
+      "update": 1,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/huang-di-zhi-jin-wu-long-man-cao-wen-zhong-jin-kao-bei.md",
+        "04-knowledge/units/terms/jia-ting-shou-gong-ye.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/hegu-zhi.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

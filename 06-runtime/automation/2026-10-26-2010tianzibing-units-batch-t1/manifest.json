@@ -1,0 +1,103 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t1",
+  "goal": "田自秉 2010 册 batch T1：前附、原始社会与后记 unit 候选写回（28 新建、4 更新）",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:9f9171cf944650d4916c2d0bf9354092f9e55a582fb46e2bbe313c87d0f65c4e",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1956,
+        "applied": 2338,
+        "rejected": 852,
+        "no_delta": 193
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          1,
+          77
+        ],
+        [
+          391,
+          853
+        ],
+        [
+          5717,
+          5737
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册封面至彩版 4（L1-L77）、第一章原始社会（L391-L853）与后记（L5717-L5737）逐段复读。彩版 5 及以后（L78-L110）属商周至战国器物，留给对应章节批次，不在本包范围。图版均未视觉核验。",
+      "candidates_in_scope": 32,
+      "candidate_spans_union": [
+        [
+          1,
+          5737
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "正文与图注称名不一致时照录并列，不径改",
+      "总结段与后记只著录来源自述，不据来源外材料补生平、版本与器物谱系"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 28,
+      "update": 4,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md",
+        "04-knowledge/units/persons/tian-zizhu.md",
+        "04-knowledge/units/persons/xu-yanzhuo.md",
+        "04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md",
+        "04-knowledge/units/works/da-yulong.md",
+        "04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md",
+        "04-knowledge/units/works/luoxuanwen-caitao-weng.md",
+        "04-knowledge/units/terms/shizu-gongshe.md",
+        "04-knowledge/units/terms/tuteng.md",
+        "04-knowledge/units/works/yu-ben.md",
+        "04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md",
+        "04-knowledge/units/terms/banpo-xing-caitao.md",
+        "04-knowledge/units/works/chuanxing-caitao-hu.md",
+        "04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md",
+        "04-knowledge/units/terms/miaodigou-xing-caitao.md",
+        "04-knowledge/units/works/xiyi-wen-caitao-ping.md",
+        "04-knowledge/units/terms/majiayao-xing-caitao.md",
+        "04-knowledge/units/terms/banshan-xing-caitao.md",
+        "04-knowledge/units/terms/machang-xing-caitao.md",
+        "04-knowledge/units/works/danba-zhitong-bei.md",
+        "04-knowledge/units/publications/gansu-caitao.md",
+        "04-knowledge/units/terms/kaiguang-fa.md",
+        "04-knowledge/units/terms/shuangguan-fa.md",
+        "04-knowledge/units/terms/duoxiao-zhuangshi-fa.md",
+        "04-knowledge/units/terms/xindian-wenhua.md",
+        "04-knowledge/units/terms/qujialing-wenhua.md",
+        "04-knowledge/units/works/shuangniao-wen-gubi.md",
+        "04-knowledge/units/works/toudiao-xiangya-shu.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+        "04-knowledge/units/procedures/sunmao-jiegou.md",
+        "04-knowledge/units/terms/heitao.md",
+        "04-knowledge/units/terms/tao-gui.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": "田自秉 2010 册 batch T1：unit 候选 32 条，create 28、update 4。新建含通史修订本、丛书、恩格斯著作、《甘肃彩陶》四种出版物，田自秉、许衍灼两位人物，大玉龙、鹤衔鱼纹缸、螺旋纹瓮、玉锛、船形壶、鸟衔虫壶、蜥蜴纹瓶、单把直筒杯、双鸟纹骨匕、透雕象牙梳十件作品，氏族公社、图腾、半坡型、庙底沟型、马家窑型、半山型、马厂型、开光法、双关法、多效装饰法、辛店文化、屈家岭文化十二个术语。更新为人面鱼纹盆（并入人面网纹盆）、榫卯结构、黑陶、陶鬶四条。彩版 5 以后与 404 条其余 unit 候选留给后续章节批次；claim 候选未在本包处理。"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+[
+ {
+  "entity": "夏历",
+  "target_ref": "04-knowledge/units/terms/xia-li.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-25",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/xianqin-sandai.md、terms/oracle-bone-script.md 互见，不合并。"
+ },
+ {
+  "entity": "盘庚",
+  "target_ref": "04-knowledge/units/persons/pan-geng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-29",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 events/pangeng-move-to-yin.md 分工，人物条不重复事件叙述。"
+ },
+ {
+  "entity": "井田制",
+  "target_ref": "04-knowledge/units/terms/jingtian-zhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-32",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/leisi.md、terms/li-bi.md 互见，不合并。"
+ },
+ {
+  "entity": "青铜钱铲",
+  "target_ref": "04-knowledge/units/terms/qingtong-qian-chan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-37",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/bu-bi.md 分工，钱铲与布币不合并。"
+ },
+ {
+  "entity": "青铜镢",
+  "target_ref": "04-knowledge/units/terms/qingtong-jue.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-88",
+  "merged_candidates": [],
+  "note": "canonical 新条；文件名 qingtong-jue 指镢，与 terms/jue-vessel.md（爵）分列。"
+ },
+ {
+  "entity": "青铜镰",
+  "target_ref": "04-knowledge/units/terms/qingtong-lian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-89",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/shilian.md（石镰）分工，不合并。"
+ },
+ {
+  "entity": "青铜锄",
+  "target_ref": "04-knowledge/units/terms/qingtong-chu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-90",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/iron-farm-tools.md 互见，不合并。"
+ },
+ {
+  "entity": "青铜犁铧",
+  "target_ref": "04-knowledge/units/terms/qingtong-lihua.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-91",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/li-bi.md 分工，不合并。"
+ },
+ {
+  "entity": "邑",
+  "target_ref": "04-knowledge/units/terms/yi-settlement.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-39",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 places/xiangyi-chenliu.md、places/fenghao.md 互见，不合并。"
+ },
+ {
+  "entity": "中轴线",
+  "target_ref": "04-knowledge/units/terms/central-axis.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-45",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/jiangren-yingguo.md、terms/lifang-zhi.md 只作对照，不合并。"
+ },
+ {
+  "entity": "陶瓦",
+  "target_ref": "04-knowledge/units/terms/tao-wa.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-46",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/wadang.md、terms/qin-zhuan-han-wa.md 互见，不合并。"
+ },
+ {
+  "entity": "灵台",
+  "target_ref": "04-knowledge/units/works/lingtai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-48",
+  "merged_candidates": [],
+  "note": "canonical 新条；灵沼暂不单列，与 places/fenghao.md、terms/central-axis.md 互见。"
+ },
+ {
+  "entity": "戈",
+  "target_ref": "04-knowledge/units/terms/ge-dagger-axe.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-49",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/ji-halberd.md、terms/yue-battle-axe.md、terms/mao.md、terms/shu-staff.md 并列不合并。"
+ },
+ {
+  "entity": "戟",
+  "target_ref": "04-knowledge/units/terms/ji-halberd.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-50",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/ge-dagger-axe.md、terms/mao.md 互见，不合并。"
+ },
+ {
+  "entity": "钺",
+  "target_ref": "04-knowledge/units/terms/yue-battle-axe.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-51",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/yu-yue-cong-bi.md、places/fuhao-tomb.md 互见，不合并。"
+ },
+ {
+  "entity": "双虎食人青铜钺",
+  "target_ref": "04-knowledge/units/places/fuhao-tomb.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-52",
+  "merged_candidates": [],
+  "note": "no_delta 指向 places/fuhao-tomb.md；工作候选与地志条类型不同但事实已覆盖。"
+ },
+ {
+  "entity": "青铜剑",
+  "target_ref": "04-knowledge/units/terms/jian-sword.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-53",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/dao-knife.md、terms/ge-dagger-axe.md 互见，不合并。"
+ },
+ {
+  "entity": "殳（西周）",
+  "target_ref": "04-knowledge/units/terms/shu-staff.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-92",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/ge-dagger-axe.md、terms/ji-halberd.md、terms/mao.md 并列不合并。"
+ },
+ {
+  "entity": "车轮",
+  "target_ref": "04-knowledge/units/terms/chelun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-54",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/xianqin-mache.md、terms/dulunche.md 分工，不合并。"
+ },
+ {
+  "entity": "妇好",
+  "target_ref": "04-knowledge/units/persons/fu-hao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-57",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 places/fuhao-tomb.md 分工，人物条不重复墓葬结构。"
+ },
+ {
+  "entity": "青铜箸",
+  "target_ref": "04-knowledge/units/terms/qingtong-zhu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-05",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 places/mawangdui-hanmu.md、places/fuhao-tomb.md 互见，不合并。"
+ },
+ {
+  "entity": "商周酒器类型",
+  "target_ref": "04-knowledge/units/terms/qingtong-jiuqi.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-09",
+  "merged_candidates": [],
+  "note": "更新既有条；赵农分类与夏燕靖两版并列，不合并、不改写原有两版材料。"
+ },
+ {
+  "entity": "玉琮",
+  "target_ref": "04-knowledge/units/terms/yu-yue-cong-bi.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-14",
+  "merged_candidates": [],
+  "note": "更新既有聚合条；玉琮单材并入，不新建 terms/yu-cong.md。"
+ },
+ {
+  "entity": "郑州杜岭方鼎",
+  "target_ref": "04-knowledge/units/terms/ding.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-16",
+  "merged_candidates": [],
+  "note": "no_delta 指向 terms/ding.md；候选为 work、目标为 term，但事实已覆盖。"
+ },
+ {
+  "entity": "八音",
+  "target_ref": "04-knowledge/units/terms/ba-yin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-22",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/bianzhong.md、institutions/da-yuesi.md 互见，不合并。"
+ },
+ {
+  "entity": "秦公镈",
+  "target_ref": "04-knowledge/units/works/qin-gong-bo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-152",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/bianzhong.md、terms/ba-yin.md 互见，不合并。"
+ },
+ {
+  "entity": "王懿荣",
+  "target_ref": "04-knowledge/units/persons/wang-yirong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-26",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/oracle-bone-script.md、places/yinxu.md 互见，不合并。"
+ },
+ {
+  "entity": "甲骨文编",
+  "target_ref": "04-knowledge/units/publications/jiaguwen-bian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-27",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 publications/jinwen-bian.md 分列，不合并。"
+ },
+ {
+  "entity": "金文编",
+  "target_ref": "04-knowledge/units/publications/jinwen-bian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-28",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 publications/jiaguwen-bian.md 分列，不合并。"
+ },
+ {
+  "entity": "史墙盘",
+  "target_ref": "04-knowledge/units/works/shi-qiang-pan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-29",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 works/mao-gong-ding.md、works/da-yu-ding.md、works/guoji-zibai-pan.md 互见，不合并。"
+ },
+ {
+  "entity": "六书",
+  "target_ref": "04-knowledge/units/terms/liu-shu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-36",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 publications/shuowen-jiezi.md、terms/xiangsheng-xing.md 互见，不合并。"
+ },
+ {
+  "entity": "商代玉器分类",
+  "target_ref": "04-knowledge/units/terms/shangdai-yuqi-fenlei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-42",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/rui-yu-liuqi.md、terms/yu-yue-cong-bi.md 分工，不合并。"
+ },
+ {
+  "entity": "瑞玉六器",
+  "target_ref": "04-knowledge/units/terms/rui-yu-liuqi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-44",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/yu-yue-cong-bi.md 分工，不合并；aliases 不列“六瑞”。"
+ },
+ {
+  "entity": "刻纹白陶",
+  "target_ref": "04-knowledge/units/terms/shangdai-baitao.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-46",
+  "merged_candidates": [],
+  "note": "更新既有条；刻纹白陶并入商代白陶，不新建 terms/kewen-baitao.md。"
+ },
+ {
+  "entity": "布币",
+  "target_ref": "04-knowledge/units/terms/bu-bi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-51",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/qingtong-qian-chan.md 分工，钱与布币不合并。"
+ }
+]

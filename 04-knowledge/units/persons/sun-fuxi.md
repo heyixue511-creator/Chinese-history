@@ -24,7 +24,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -34,7 +34,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "孙福熙在本册是民国书装“以绘画作品作封面”一支的代表：留法归国后在国立杭州艺专任教，为未名社设计版式与封面，《山野拾掇》《归航》采用水彩画、水墨画。书籍装帧归 C 维度（视觉传达与文字设计）。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以孙福熙为绘画作品作封面一路的样本，复读其留法、国立杭州艺专任教、未名社书装与《山野拾掇》《归航》水彩水墨封面。"
+hierarchy_scope_note: "孙福熙是 C.2 下以绘画作品作封面的设计家；其留法背景、未名社书装与水彩水墨封面是本 Topic 的风格路径样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "孙福熙在本册是民国书装“以绘画作品作封
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条锚定民国书装的一条具体路径——**以绘画作品作封面**（相对于钱君匋的取材古代纹样、司徒乔的动静对比、陶元庆的构图精炼）。取 C 维度，因为对象是书籍的视觉传达层。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 孙福熙是 C.2 下以绘画作品作封面的设计家；其留法背景、未名社书装与水彩水墨封面是本 Topic 的风格路径样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

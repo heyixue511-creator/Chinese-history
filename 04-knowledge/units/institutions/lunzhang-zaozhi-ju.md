@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,16 @@ primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "纶章造纸局是 B 维度下近代机器造纸工场的条目，其官商关系与工业制度归 D；当前只到 Dimension。"
+primary_theme: B.1
+secondary_themes:
+  - D.1
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b1-jiqi-fangzhi-zaozhi.md
+    role: key_institution
+    primary: true
+    scope_note: "B.1 首批：以该局作为机器造纸工序落地的机构样本复读。"
+hierarchy_scope_note: "纶章造纸局是 B.1 下近代机器造纸工场的条目，其官商关系与工业制度同时关联 D.1。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

@@ -1,0 +1,195 @@
+{
+ "after_bytes": 1426773,
+ "after_sha256": "sha256:272f47cbf5fb174ff6eed524c516b711bf7d1337c2e6f19d2f071c96dc5603b8",
+ "baseline": {
+  "candidate_applied": 3791,
+  "candidate_needs_evidence": 443,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 799
+ },
+ "before_bytes": 1361404,
+ "before_sha256": "sha256:de687c470163b081e178c1f652b394593c343058689dd1168d257e624999d337",
+ "candidate_count": 41,
+ "claim_rows": 41,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 54,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》第一章结语与第二、三章前半 claim 候选（L842-L1601），新增 41 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz2a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3832,
+  "candidate_needs_evidence": 402,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 840
+ },
+ "scope_spans": [
+  [
+   842,
+   842
+  ],
+  [
+   846,
+   846
+  ],
+  [
+   848,
+   848
+  ],
+  [
+   850,
+   850
+  ],
+  [
+   852,
+   852
+  ],
+  [
+   864,
+   864
+  ],
+  [
+   891,
+   891
+  ],
+  [
+   897,
+   897
+  ],
+  [
+   905,
+   905
+  ],
+  [
+   919,
+   919
+  ],
+  [
+   949,
+   951
+  ],
+  [
+   1103,
+   1103
+  ],
+  [
+   1118,
+   1118
+  ],
+  [
+   1156,
+   1164
+  ],
+  [
+   1184,
+   1184
+  ],
+  [
+   1222,
+   1222
+  ],
+  [
+   1226,
+   1226
+  ],
+  [
+   1258,
+   1258
+  ],
+  [
+   1262,
+   1262
+  ],
+  [
+   1268,
+   1268
+  ],
+  [
+   1270,
+   1270
+  ],
+  [
+   1272,
+   1272
+  ],
+  [
+   1274,
+   1274
+  ],
+  [
+   1284,
+   1290
+  ],
+  [
+   1294,
+   1294
+  ],
+  [
+   1346,
+   1346
+  ],
+  [
+   1431,
+   1431
+  ],
+  [
+   1439,
+   1439
+  ],
+  [
+   1454,
+   1454
+  ],
+  [
+   1456,
+   1456
+  ],
+  [
+   1460,
+   1460
+  ],
+  [
+   1505,
+   1505
+  ],
+  [
+   1507,
+   1507
+  ],
+  [
+   1509,
+   1509
+  ],
+  [
+   1513,
+   1513
+  ],
+  [
+   1541,
+   1541
+  ],
+  [
+   1545,
+   1545
+  ],
+  [
+   1590,
+   1590
+  ],
+  [
+   1599,
+   1599
+  ],
+  [
+   1601,
+   1601
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 113,
+ "with_supported_by": 41
+}

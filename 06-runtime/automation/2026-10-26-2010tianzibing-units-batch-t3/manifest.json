@@ -1,0 +1,152 @@
+{
+ "work_package": "2026-10-26-2010tianzibing-units-batch-t3",
+ "goal": "田自秉《中国工艺美术史》周代章节 unit 候选裁定与写回",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:11e76b39cc3fca70572e99c5b1ed642a1da933b3c8d2a20793e577332ee6bb3c",
+   "sha256_scope": "CRLF→LF 归一",
+   "counts_before": {
+    "needs_evidence": 1905,
+    "applied": 2387,
+    "rejected": 852,
+    "no_delta": 195
+   }
+  },
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "spans": [
+    [
+     1276,
+     1673
+    ]
+   ],
+   "spans_scope": "田自秉 2010 册第三章周代的工艺美术（L1276-L1673）逐段复读，含概说、青铜工艺、陶瓷、染织、漆器、玉雕与结语。彩版 7-8 与插图 1-16 只读图注，未视觉核验。",
+   "candidates_in_scope": 21,
+   "candidate_spans_union": [
+    [
+     1292,
+     1292
+    ],
+    [
+     1296,
+     1338
+    ],
+    [
+     1357,
+     1357
+    ],
+    [
+     1431,
+     1431
+    ],
+    [
+     1443,
+     1443
+    ],
+    [
+     1452,
+     1452
+    ],
+    [
+     1460,
+     1460
+    ],
+    [
+     1462,
+     1462
+    ],
+    [
+     1477,
+     1477
+    ],
+    [
+     1488,
+     1488
+    ],
+    [
+     1490,
+     1490
+    ],
+    [
+     1492,
+     1503
+    ],
+    [
+     1541,
+     1545
+    ],
+    [
+     1605,
+     1613
+    ],
+    [
+     1617,
+     1619
+    ],
+    [
+     1621,
+     1621
+    ],
+    [
+     1623,
+     1623
+    ],
+    [
+     1653,
+     1664
+    ]
+   ]
+  }
+ },
+ "method": {
+  "rules": [
+   "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+   "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+   "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+   "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+   "同名异物或同词两义并列著录，不合并为单一定义",
+   "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 19,
+   "update": 2,
+   "no_delta": 0,
+   "rejected": 0,
+   "paths_created": [
+    "04-knowledge/units/persons/zhou-gong.md",
+    "04-knowledge/units/terms/ba-cai.md",
+    "04-knowledge/units/works/yuezu-nu-tong-li.md",
+    "04-knowledge/units/terms/li-yue-zhidu.md",
+    "04-knowledge/units/works/ling-ding.md",
+    "04-knowledge/units/publications/liangzhou-jinwen-ci-daxi-tulu-kaoshi.md",
+    "04-knowledge/units/terms/qiequ-wen.md",
+    "04-knowledge/units/terms/niao-wen.md",
+    "04-knowledge/units/terms/huan-dai-wen.md",
+    "04-knowledge/units/terms/chong-huan-wen.md",
+    "04-knowledge/units/terms/chui-lin-wen.md",
+    "04-knowledge/units/terms/wa-wen.md",
+    "04-knowledge/units/terms/gui.md",
+    "04-knowledge/units/terms/bi.md",
+    "04-knowledge/units/terms/cong.md",
+    "04-knowledge/units/terms/xuanji.md",
+    "04-knowledge/units/terms/zhou-yu-liqi.md",
+    "04-knowledge/units/works/yu-lu.md",
+    "04-knowledge/units/works/yu-ren-luoyang.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/terms/baigong.md",
+    "04-knowledge/units/terms/twelve-symbols.md"
+   ],
+   "paths_no_delta": [],
+   "paths_rejected": [],
+   "notes": "田自秉 2010 册 batch T3：周代 unit 候选 21 条，create 19、update 2、no_delta 0。新建含周公、八材、礼乐制度、六种纹样、圭璧琮璇玑与周代玉礼器、四件青铜与玉器作品、一部金文著录；更新百工（30 工种职司）与十二章（《书经》全文与逐章含义）。跨章的战国漆座屏、龙凤虎纹绣衣两候选留春秋战国批次。"
+  }
+ }
+}

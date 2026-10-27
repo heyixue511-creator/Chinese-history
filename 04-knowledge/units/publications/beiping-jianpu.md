@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "本 KU 是 C 维度下视觉传达与出版物的文献锚点。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/c2-shuji-xingtai-yuedu-wenhua.md
+    role: representative_work
+    primary: true
+    scope_note: "C.2.3 首批：以《北平笺谱》为线装笺谱样本，复读其暗蓝宣纸封面、签条书名、沈兼士题字、黑字朱印与粗线装订。"
+hierarchy_scope_note: "《北平笺谱》是 C.2 下鲁迅以传统线装形式设计的笺谱；其封面材料、签条题字、印色与装订是本 Topic 的书籍形态样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -52,10 +60,10 @@ hierarchy_scope_note: "本 KU 是 C 维度下视觉传达与出版物的文献�
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 C 维度下视觉传达与出版物的文献锚点。Theme/Topic 尚未 materialize。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.3 书籍形态与阅读文化（representative_work，主挂载）
+- role_in_theme: representative_work
+- scope_note: 《北平笺谱》是 C.2 下鲁迅以传统线装形式设计的笺谱；其封面材料、签条题字、印色与装订是本 Topic 的书籍形态样本。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

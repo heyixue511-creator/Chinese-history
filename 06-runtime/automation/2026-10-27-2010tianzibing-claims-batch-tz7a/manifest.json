@@ -1,0 +1,131 @@
+{
+ "after_bytes": 1643396,
+ "after_sha256": "sha256:a0ba81797336dff450f5cf4ce513d7cdf8734ce91a4cf6f10ee45d617f8f24fc",
+ "baseline": {
+  "candidate_applied": 3959,
+  "candidate_needs_evidence": 275,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 967
+ },
+ "before_bytes": 1604887,
+ "before_sha256": "sha256:b6fd2d53ad91c87df5afbc41df00f267240efef668c31f15bad85105bbd68026",
+ "candidate_count": 24,
+ "claim_rows": 24,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 51,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》元代漆器末、明代工艺与清代工艺概说及清瓷评价 claim 候选（L4134-L4521），新增 24 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz7a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3983,
+  "candidate_needs_evidence": 251,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 991
+ },
+ "scope_spans": [
+  [
+   4134,
+   4134
+  ],
+  [
+   4140,
+   4140
+  ],
+  [
+   4149,
+   4149
+  ],
+  [
+   4164,
+   4164
+  ],
+  [
+   4166,
+   4166
+  ],
+  [
+   4176,
+   4176
+  ],
+  [
+   4188,
+   4188
+  ],
+  [
+   4192,
+   4192
+  ],
+  [
+   4211,
+   4211
+  ],
+  [
+   4226,
+   4226
+  ],
+  [
+   4272,
+   4272
+  ],
+  [
+   4278,
+   4278
+  ],
+  [
+   4304,
+   4324
+  ],
+  [
+   4352,
+   4352
+  ],
+  [
+   4364,
+   4364
+  ],
+  [
+   4373,
+   4373
+  ],
+  [
+   4375,
+   4375
+  ],
+  [
+   4391,
+   4391
+  ],
+  [
+   4443,
+   4443
+  ],
+  [
+   4445,
+   4445
+  ],
+  [
+   4492,
+   4492
+  ],
+  [
+   4499,
+   4499
+  ],
+  [
+   4511,
+   4511
+  ],
+  [
+   4521,
+   4521
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 75,
+ "with_supported_by": 24
+}

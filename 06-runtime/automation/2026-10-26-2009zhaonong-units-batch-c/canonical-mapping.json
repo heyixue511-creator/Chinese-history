@@ -1,0 +1,482 @@
+[
+ {
+  "entity": "尚书·禹贡",
+  "target_ref": "04-knowledge/units/publications/yugong.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-59",
+  "merged_candidates": [],
+  "note": "canonical 指向既有《禹贡》条目；2016 册的贡铁记载与田自秉的物产清单在该文件内并列，不拆分。"
+ },
+ {
+  "entity": "春秋战国",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-56",
+  "merged_candidates": [],
+  "note": "canonical 为新建的春秋战国时代条目；与 terms/xianqin-sandai.md 是前后相接的两个时代，不合并。"
+ },
+ {
+  "entity": "战车",
+  "target_ref": "04-knowledge/units/terms/war-chariot.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-69",
+  "merged_candidates": [],
+  "note": "canonical 为新建战车条目；马车形制仍由 terms/xianqin-mache.md 承载。"
+ },
+ {
+  "entity": "赵武灵王",
+  "target_ref": "04-knowledge/units/persons/zhao-wulingwang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-70",
+  "merged_candidates": [],
+  "note": "canonical 为新建人物条目；胡服形制由 terms/hufu.md 承载，事件由 events/hufu-qishe.md 承载。"
+ },
+ {
+  "entity": "车戟",
+  "target_ref": "04-knowledge/units/terms/ji-halberd.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-153",
+  "merged_candidates": [],
+  "note": "车戟不另立条目，并入既有戟条目。"
+ },
+ {
+  "entity": "酋矛",
+  "target_ref": "04-knowledge/units/terms/mao.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-155",
+  "merged_candidates": [],
+  "note": "酋矛、夷矛作为矛的长短类型并入矛条目，不单独建 KU。"
+ },
+ {
+  "entity": "殳（春秋战国）",
+  "target_ref": "04-knowledge/units/terms/shu-staff.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-77",
+  "merged_candidates": [],
+  "note": "殳在来源第二章与第三章分论，合并入同一 KU，不拆为两条。"
+ },
+ {
+  "entity": "弩",
+  "target_ref": "04-knowledge/units/terms/nu-crossbow.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-78",
+  "merged_candidates": [],
+  "note": "canonical 为新建弩条目；弓与箭仍由 terms/gongjian.md、terms/jianqi.md 承载。"
+ },
+ {
+  "entity": "皮甲",
+  "target_ref": "04-knowledge/units/terms/leather-armor.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-79",
+  "merged_candidates": [],
+  "note": "canonical 为新建皮甲条目；与 terms/war-chariot.md 的战马甲胄互相参照。"
+ },
+ {
+  "entity": "吴王夫差矛",
+  "target_ref": "04-knowledge/units/works/wu-wang-fuchai-spear.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-75",
+  "merged_candidates": [],
+  "note": "canonical 为新建吴王夫差矛条目；与 works/yuewang-goujian-jian.md 同属春秋吴越青铜兵器，不合并。"
+ },
+ {
+  "entity": "镶嵌宴乐水陆攻战纹壶",
+  "target_ref": "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-145",
+  "merged_candidates": [],
+  "note": "与汲县山彪镇水陆攻战纹鉴是两器，不合并；同名辨异已在条目内说明。"
+ },
+ {
+  "entity": "吴钩",
+  "target_ref": "04-knowledge/units/terms/wugou-hook.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-82",
+  "merged_candidates": [],
+  "note": "canonical 为新建吴钩条目；与 terms/jian-sword.md 是相近而不同的器类，不合并。"
+ },
+ {
+  "entity": "铍",
+  "target_ref": "04-knowledge/units/terms/pi-sword-spear.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-83",
+  "merged_candidates": [],
+  "note": "canonical 为新建铍条目；与剑、矛、戟分列，不合并。"
+ },
+ {
+  "entity": "干将",
+  "target_ref": "04-knowledge/units/persons/ganjiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-84",
+  "merged_candidates": [],
+  "note": "canonical 为新建干将条目；铸剑传说与越王剑分属人物与器物两层，不合并。"
+ },
+ {
+  "entity": "大翼船型",
+  "target_ref": "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-89",
+  "merged_candidates": [],
+  "note": "船型总目并入既有条目；单船形制若后续出现独立材料再评估拆分。"
+ },
+ {
+  "entity": "水陆攻战纹铜鉴",
+  "target_ref": "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-90",
+  "merged_candidates": [],
+  "note": "鉴与壶不合并；本条的船舶史意义与 works/yanle-shuilu-gongzhan-wen-hu.md 互为参照。"
+ },
+ {
+  "entity": "独木舟",
+  "target_ref": "04-knowledge/units/terms/dugout-canoe.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-86",
+  "merged_candidates": [],
+  "note": "canonical 为新建独木舟条目；与 terms/plank-boat.md 是前后相续的两种船体结构。"
+ },
+ {
+  "entity": "木板船",
+  "target_ref": "04-knowledge/units/terms/plank-boat.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-87",
+  "merged_candidates": [],
+  "note": "canonical 为新建木板船条目；商代舟船的一般叙述仍由 terms/shangdai-zhouchuan.md 承载。"
+ },
+ {
+  "entity": "V形铁铧冠",
+  "target_ref": "04-knowledge/units/terms/v-shaped-iron-ploughshare-cap.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-92",
+  "merged_candidates": [],
+  "note": "canonical 为新建铁铧冠条目；与 terms/iron-farm-tools.md 是部件与总类的关系。"
+ },
+ {
+  "entity": "石磨",
+  "target_ref": "04-knowledge/units/terms/shi-mo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-93",
+  "merged_candidates": [],
+  "note": "canonical 为新建石磨条目；与 terms/shimopan-mobang.md 是新石器研磨具与战国旋转磨的两条谱系，不合并。"
+ },
+ {
+  "entity": "杠杆",
+  "target_ref": "04-knowledge/units/terms/lever.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-97",
+  "merged_candidates": [],
+  "note": "canonical 为新建杠杆条目；与 terms/hengqi-balance.md、terms/jiegou-well-sweep.md 是原理与应用的关系。"
+ },
+ {
+  "entity": "权衡秤器",
+  "target_ref": "04-knowledge/units/terms/hengqi-balance.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-98",
+  "merged_candidates": [],
+  "note": "canonical 为新建权衡秤器条目；与 terms/lever.md 是应用与原理的关系。"
+ },
+ {
+  "entity": "桔槔",
+  "target_ref": "04-knowledge/units/terms/jiegou-well-sweep.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-99",
+  "merged_candidates": [],
+  "note": "canonical 为新建桔槔条目；与 terms/lever.md、terms/pulley.md 同属省力机械谱系。"
+ },
+ {
+  "entity": "滑轮",
+  "target_ref": "04-knowledge/units/terms/pulley.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-100",
+  "merged_candidates": [],
+  "note": "canonical 为新建滑轮条目；与 terms/lever.md、terms/jiegou-well-sweep.md 同属省力机械谱系。"
+ },
+ {
+  "entity": "辘轳",
+  "target_ref": "04-knowledge/units/terms/windlass.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-101",
+  "merged_candidates": [],
+  "note": "canonical 为新建辘轳条目；与 terms/pulley.md、terms/jiegou-well-sweep.md 同属提水机械谱系。"
+ },
+ {
+  "entity": "云梯",
+  "target_ref": "04-knowledge/units/terms/cloud-ladder.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-102",
+  "merged_candidates": [],
+  "note": "canonical 为新建云梯条目；公输盘与墨子的人物叙述由 persons 条目承载。"
+ },
+ {
+  "entity": "欹器",
+  "target_ref": "04-knowledge/units/terms/qi-vessel.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-103",
+  "merged_candidates": [],
+  "note": "canonical 为新建欹器条目；文件名为 qi-vessel，与候选 proposed_slug 的 qin-vessel 不同。"
+ },
+ {
+  "entity": "木鸢",
+  "target_ref": "04-knowledge/units/terms/wooden-kite.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-104",
+  "merged_candidates": [],
+  "note": "canonical 为新建木鸢条目；与 persons/mozi.md、persons/gongshu-pan.md 的传说叙述互为详略。"
+ },
+ {
+  "entity": "阳燧",
+  "target_ref": "04-knowledge/units/terms/yang-sui-burning-mirror.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-105",
+  "merged_candidates": [],
+  "note": "canonical 为新建阳燧条目；铜镜一般叙述仍由 terms/tongjing.md 承载。"
+ },
+ {
+  "entity": "磁石",
+  "target_ref": "04-knowledge/units/terms/magnetite.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-106",
+  "merged_candidates": [],
+  "note": "canonical 为新建磁石条目；指南针另见 terms/zhinan-che.md，本条不越界展开。"
+ },
+ {
+  "entity": "简策",
+  "target_ref": "04-knowledge/units/terms/jiance-bamboo-slip-books.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-109",
+  "merged_candidates": [],
+  "note": "canonical 为新建简策条目；与 terms/bandu-wooden-tablet.md 是竹简与木牍两种书写载体。"
+ },
+ {
+  "entity": "版牍",
+  "target_ref": "04-knowledge/units/terms/bandu-wooden-tablet.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-110",
+  "merged_candidates": [],
+  "note": "canonical 为新建版牍条目；与 terms/jiance-bamboo-slip-books.md 并列，不合并。"
+ },
+ {
+  "entity": "鲁班",
+  "target_ref": "04-knowledge/units/persons/gongshu-pan.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-118",
+  "merged_candidates": [],
+  "note": "canonical 为公输盘条目，鲁班与公输般均为同一人物的用名差异。"
+ },
+ {
+  "entity": "都江堰",
+  "target_ref": "04-knowledge/units/works/dujiangyan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-112",
+  "merged_candidates": [],
+  "note": "canonical 为新建都江堰条目；与郑国渠、西门渠同属赵农所述战国水利工程，不合并。"
+ },
+ {
+  "entity": "郑国渠",
+  "target_ref": "04-knowledge/units/works/zhengguo-canal.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-114",
+  "merged_candidates": [],
+  "note": "canonical 为新建郑国渠条目；郑国人物由 persons/zheng-guo.md 承载。"
+ },
+ {
+  "entity": "西门渠",
+  "target_ref": "04-knowledge/units/works/ximen-canal.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-116",
+  "merged_candidates": [],
+  "note": "canonical 为新建西门渠条目；西门豹人物由 persons/ximen-bao.md 承载。"
+ },
+ {
+  "entity": "李冰",
+  "target_ref": "04-knowledge/units/persons/li-bing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-113",
+  "merged_candidates": [],
+  "note": "canonical 为新建李冰条目；都江堰工程由 works/dujiangyan.md 承载，二者互链不合并。"
+ },
+ {
+  "entity": "郑国",
+  "target_ref": "04-knowledge/units/persons/zheng-guo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-115",
+  "merged_candidates": [],
+  "note": "canonical 为新建郑国条目；郑国渠工程由 works/zhengguo-canal.md 承载。"
+ },
+ {
+  "entity": "西门豹",
+  "target_ref": "04-knowledge/units/persons/ximen-bao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-117",
+  "merged_candidates": [],
+  "note": "canonical 为新建西门豹条目；漳水十二渠由 works/ximen-canal.md 承载。"
+ },
+ {
+  "entity": "城池",
+  "target_ref": "04-knowledge/units/terms/city-walls-and-moats.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-121",
+  "merged_candidates": [],
+  "note": "canonical 为新建城池条目；郑州商城、雍城、咸阳、临淄等城址见 places 目录，不合并。"
+ },
+ {
+  "entity": "高台建筑",
+  "target_ref": "04-knowledge/units/terms/high-terrace-architecture.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-129",
+  "merged_candidates": [],
+  "note": "canonical 为新建高台建筑条目；与 places/yong-cheng.md、places/linzi.md 的城址描述互为详略。"
+ },
+ {
+  "entity": "曾侯乙冰鉴",
+  "target_ref": "04-knowledge/units/works/zenghouyi-bronze-jianfou.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-141",
+  "merged_candidates": [],
+  "note": "canonical 为既有曾侯乙铜鉴缶条目；同批子代理创建的 zenghouyi-ice-jian.md 已合并删除，不另建文件。"
+ },
+ {
+  "entity": "刀币",
+  "target_ref": "04-knowledge/units/terms/dao-bi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-01",
+  "merged_candidates": [],
+  "note": "canonical 为新建刀币条目；与 terms/bu-bi.md、terms/yi-bi-qian.md、terms/huan-qian.md 并列，不合并。"
+ },
+ {
+  "entity": "蚁鼻钱",
+  "target_ref": "04-knowledge/units/terms/yi-bi-qian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-03",
+  "merged_candidates": [],
+  "note": "canonical 为新建蚁鼻钱条目；贝币、布币、刀币、圜钱分列，不合并。"
+ },
+ {
+  "entity": "圜形钱",
+  "target_ref": "04-knowledge/units/terms/huan-qian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-130",
+  "merged_candidates": [],
+  "note": "canonical 为圜钱条目，圜环钱作为别名并入同一文件。"
+ },
+ {
+  "entity": "金钣",
+  "target_ref": "04-knowledge/units/terms/jin-ban.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-149",
+  "merged_candidates": [],
+  "note": "canonical 为新建金钣条目；与铜铸货币分属不同材质，不合并。"
+ },
+ {
+  "entity": "圜环钱",
+  "target_ref": "04-knowledge/units/terms/huan-qian.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-148",
+  "merged_candidates": [],
+  "note": "合并依据是来源同段同物异名，不是同名异器。"
+ },
+ {
+  "entity": "信阳长台关楚墓漆木床",
+  "target_ref": "04-knowledge/units/terms/qimu-jiaju.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-05",
+  "merged_candidates": [],
+  "note": "后续如出现该床的独立出土报告或图像材料，再评估是否升为 work 条目。"
+ },
+ {
+  "entity": "曾侯乙墓漆木衣箱",
+  "target_ref": "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-06",
+  "merged_candidates": [],
+  "note": "canonical 为新建衣箱条目；与 places/zenghouyi-tomb.md 的天象图材料同墓而异事。"
+ },
+ {
+  "entity": "席子",
+  "target_ref": "04-knowledge/units/terms/xi-mat.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-131",
+  "merged_candidates": [],
+  "note": "canonical 为既有席条目 xi-mat.md；同批子代理创建的 xi-zi.md 已合并删除，不另建文件。"
+ },
+ {
+  "entity": "箱",
+  "target_ref": "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-153",
+  "merged_candidates": [],
+  "note": "若后续出现其他墓葬的箱类器物，再评估是否升为 term 类目。"
+ },
+ {
+  "entity": "侯马盟书",
+  "target_ref": "04-knowledge/units/works/houma-mengshu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-13",
+  "merged_candidates": [],
+  "note": "canonical 为新建侯马盟书条目；仅有图注，材料不与其他条目合并。"
+ },
+ {
+  "entity": "乐记",
+  "target_ref": "04-knowledge/units/publications/yue-ji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-12",
+  "merged_candidates": [],
+  "note": "canonical 为新建乐记条目；与 publications/zhouli.md、publications/lvshi-chunqiu.md 同属先秦文献，不合并。"
+ },
+ {
+  "entity": "竽",
+  "target_ref": "04-knowledge/units/terms/yu-instrument.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-11",
+  "merged_candidates": [],
+  "note": "canonical 为新建竽条目；与 terms/sheng.md、terms/qin.md 同属先秦乐器谱系，不合并。"
+ },
+ {
+  "entity": "磬",
+  "target_ref": "04-knowledge/units/terms/qing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-132",
+  "merged_candidates": [],
+  "note": "canonical 为新建磬条目；编钟见 terms/bianzhong.md 与 works/zenghouyi-bianzhong.md，不合并。"
+ },
+ {
+  "entity": "琴",
+  "target_ref": "04-knowledge/units/terms/qin.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-154",
+  "merged_candidates": [],
+  "note": "canonical 为新建琴条目；与 terms/sheng.md、terms/yu-instrument.md 并列，不合并。"
+ },
+ {
+  "entity": "公输般",
+  "target_ref": "04-knowledge/units/persons/gongshu-pan.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-133",
+  "merged_candidates": [],
+  "note": "用名差异按来源照录，条目名沿用既有文件名。"
+ },
+ {
+  "entity": "孙子兵法",
+  "target_ref": "04-knowledge/units/publications/sun-zi-bing-fa.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-22",
+  "merged_candidates": [],
+  "note": "canonical 为新建孙子兵法条目；孙武人物由 persons/sun-wu.md 承载。"
+ },
+ {
+  "entity": "孙武",
+  "target_ref": "04-knowledge/units/persons/sun-wu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-135",
+  "merged_candidates": [],
+  "note": "canonical 为新建孙武条目；《孙子兵法》由 publications/sun-zi-bing-fa.md 承载。"
+ },
+ {
+  "entity": "吕不韦",
+  "target_ref": "04-knowledge/units/persons/lv-buwei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-139",
+  "merged_candidates": [],
+  "note": "canonical 为新建吕不韦条目；《吕氏春秋》由 publications/lvshi-chunqiu.md 承载。"
+ }
+]

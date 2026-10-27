@@ -1,0 +1,194 @@
+[
+  {
+    "entity": "犁壁",
+    "target_ref": "04-knowledge/units/terms/li-bi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-08",
+    "merged_candidates": [],
+    "note": "犁壁为汉代铁农具的关键部件，仓内无同义同实体 KU；据 2009 册 L1329 新建"
+  },
+  {
+    "entity": "魏晋南北朝青瓷窑口",
+    "target_ref": "04-knowledge/units/terms/qing-ci.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-109",
+    "merged_candidates": [],
+    "note": "既有条已逐项覆盖越、瓯、婺、德清四窑口及南北差异"
+  },
+  {
+    "entity": "汉代青瓷",
+    "target_ref": "04-knowledge/units/terms/qing-ci.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-110",
+    "merged_candidates": [],
+    "note": "既有青瓷条已覆盖四窑口但缺汉代早期青瓷、东汉窑址与烧成技术；据 2009 册 L1487-L1489 补写"
+  },
+  {
+    "entity": "虹管灯（缸灯）",
+    "target_ref": "04-knowledge/units/terms/hong-guan-deng.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-16",
+    "merged_candidates": [],
+    "note": "虹管灯（缸灯）为汉代铜灯类型，既有 works/tong-niu-deng.md 只记实例未立类型条；据 2009 册 L1380-L1387 新建"
+  },
+  {
+    "entity": "汉代铜壶（钟、钫）",
+    "target_ref": "04-knowledge/units/terms/hu-vessel.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-18",
+    "merged_candidates": [],
+    "note": "既有条已覆盖汉代圆壶称钟、方壶称钫、量器与器形定式"
+  },
+  {
+    "entity": "绒圈锦（起毛锦）",
+    "target_ref": "04-knowledge/units/terms/rongquan-jin.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-24",
+    "merged_candidates": [],
+    "note": "候选原 unit_type work，但所指为织锦类型而非单件器物，按 term 写回；据 2009 册 L1418-L1432 新建"
+  },
+  {
+    "entity": "秦代服饰",
+    "target_ref": "04-knowledge/units/terms/qin-dai-fu-shi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-27",
+    "merged_candidates": [],
+    "note": "秦代服饰为断代服制条目，仓内无同义 KU；据 2009 册 L1442-L1445 新建"
+  },
+  {
+    "entity": "汉代袍服",
+    "target_ref": "04-knowledge/units/terms/han-dai-pao-fu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-28",
+    "merged_candidates": [],
+    "note": "汉代袍服为断代服制条目，与深衣条分工不同；据 2009 册 L1446-L1461 新建"
+  },
+  {
+    "entity": "汉代妇女深衣",
+    "target_ref": "04-knowledge/units/terms/shenyi.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-29",
+    "merged_candidates": [],
+    "note": "既有深衣条已有秦汉延续段，补汉代妇女深衣与马王堆帛画形象资料；据 2009 册 L1462-L1469"
+  },
+  {
+    "entity": "始皇陵夔凤纹大瓦当",
+    "target_ref": "04-knowledge/units/works/shihuangling-kuifengwen-dawadang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-30",
+    "merged_candidates": [],
+    "note": "以单件器物立 work 锚点，既有 terms/wadang.md 只记瓦当类型；据 2009 册 L1472-L1490 新建"
+  },
+  {
+    "entity": "金银扣器",
+    "target_ref": "04-knowledge/units/terms/kouqi.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-38",
+    "merged_candidates": [],
+    "note": "既有扣器条只及战国铜箍扣器，补汉代金银扣器价值、《盐铁论》引文与生产背景；据 2009 册 L1516-L1521"
+  },
+  {
+    "entity": "双辕车",
+    "target_ref": "04-knowledge/units/terms/shuang-yuan-che.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-42",
+    "merged_candidates": [],
+    "note": "双辕车为汉代车制类型，仓内无同义 KU；据 2009 册 L1539-L1544 新建"
+  },
+  {
+    "entity": "斧车",
+    "target_ref": "04-knowledge/units/terms/fu-che.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-43",
+    "merged_candidates": [],
+    "note": "斧车为汉代仪仗车类型，与双辕车同段但实体不同；据 2009 册 L1539-L1544 新建"
+  },
+  {
+    "entity": "橹",
+    "target_ref": "04-knowledge/units/terms/lu-oar.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-48",
+    "merged_candidates": [],
+    "note": "橹为西汉出现的船舶推进工具，仓内无同义 KU；据 2009 册 L1559-L1573 新建"
+  },
+  {
+    "entity": "上林苑",
+    "target_ref": "04-knowledge/units/places/shanglinyuan.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-53",
+    "merged_candidates": [],
+    "note": "候选原 unit_type work，但上林苑是宫苑空间而非单件器物，按 place 写回；据 2009 册 L1590-L1593 新建"
+  },
+  {
+    "entity": "一池三岛",
+    "target_ref": "04-knowledge/units/terms/yichi-sanshan.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-54",
+    "merged_candidates": [],
+    "note": "既有条已覆盖上林苑长池蓬莱山、建章宫太液池三岛与汉武帝扩建"
+  },
+  {
+    "entity": "汉代家具",
+    "target_ref": "04-knowledge/units/terms/han-dai-jia-ju.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-56",
+    "merged_candidates": [],
+    "note": "汉代家具为断代器类条目，仓内无同义 KU；据 2009 册 L1594-L1606 新建"
+  },
+  {
+    "entity": "鸡头壶（天鸡壶）",
+    "target_ref": "04-knowledge/units/terms/tianji-hu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-69",
+    "merged_candidates": [],
+    "note": "既有条已覆盖鸡头壶形制、东晋加长与唐代龙耳壶"
+  },
+  {
+    "entity": "黑釉四系盘口壶",
+    "target_ref": "04-knowledge/units/works/hei-you-si-xi-pan-kou-hu.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-73",
+    "merged_candidates": [],
+    "note": "以德清窑单件器物立 work 锚点；据 2009 册 L1708-L1713 新建"
+  },
+  {
+    "entity": "白釉绿彩四系莲瓣缸",
+    "target_ref": "04-knowledge/units/works/bai-you-lv-cai-si-xi-lian-ban-gang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-74",
+    "merged_candidates": [],
+    "note": "以北齐单件器物立 work 锚点；据 2009 册 L1714-L1717 新建"
+  },
+  {
+    "entity": "北方铅釉陶",
+    "target_ref": "04-knowledge/units/terms/qian-you-tao.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-75",
+    "merged_candidates": [],
+    "note": "既有铅釉陶条只及汉代，补北魏施釉创新、北朝呈色与大同、高唐实例；据 2009 册 L1718-L1732"
+  },
+  {
+    "entity": "幅巾",
+    "target_ref": "04-knowledge/units/terms/fujin.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-84",
+    "merged_candidates": [],
+    "note": "幅巾为汉魏首服形制，仓内无同义 KU；据 2009 册 L1787-L1790 新建"
+  },
+  {
+    "entity": "衲裆",
+    "target_ref": "04-knowledge/units/terms/na-dang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-86",
+    "merged_candidates": [],
+    "note": "衲裆为北朝短衣形制，与前批杂裾垂髾服分工不同；据 2009 册 L1791-L1826 新建"
+  },
+  {
+    "entity": "杂裾垂髯",
+    "target_ref": "04-knowledge/units/terms/zaju-chuishao-fu.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-03-87",
+    "merged_candidates": [],
+    "note": "既有条已覆盖纤髯、华带飞髯、北魏左衽窄袖与南北朝形制变化"
+  }
+]

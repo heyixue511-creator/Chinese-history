@@ -1,0 +1,79 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2n",
+  "goal": "李立新 2011 册 L1603-L1737：第五章第三节演化与突破 unit 候选裁定与写回",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:5cd14c20f3b01cdf7827c6dee9fa98bbb7c6de490e9a082f25c6261dc6c125ff",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1393,
+        "applied": 2842,
+        "rejected": 871,
+        "no_delta": 233
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1603,
+          1737
+        ]
+      ],
+      "spans_scope": "覆盖 L1603-L1737：第五章第三节“演化与突破”全节，含七类演化情况（L1607 本为一般造物而后显赫一时、L1617 主导地位消亡或退其次、L1649 同一造物两向演化、L1665 几度沉浮起落、L1698 一物衍生另一物、L1708 断裂、L1729 突破）与全节小结 L1737；止于第六章标题 L1739 之前。",
+      "candidates_in_scope": 4,
+      "candidate_spans_union": [
+        [
+          1635,
+          1636
+        ],
+        [
+          1649,
+          1664
+        ],
+        [
+          1667,
+          1683
+        ],
+        [
+          1710,
+          1723
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+      "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "L1635-L1636 与 L1640-L1642 同属图5-7 的图注与正文语境，分建会拆散同一证据，按 update 并入既有 `works/zenghouyi-zunpan.md`。",
+      "玻璃器与琉璃同指中国古代玻璃，按 update 并入 `terms/liuli.md`；钠钡/铅钡两说不裁定。",
+      "两向演化与三种造物设计是不同概念，画像石与画像砖是两类材料，均不合并。",
+      "同实体先检索既有 KU 与同批目标；能归并者按 update 或 no_delta 处理，不重复建条。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 2,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/terms/liangxiang-yanhua.md",
+        "04-knowledge/units/terms/huaxiangshi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/zenghouyi-zunpan.md",
+        "04-knowledge/units/terms/liuli.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

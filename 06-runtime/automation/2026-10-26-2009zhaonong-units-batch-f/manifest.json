@@ -1,0 +1,158 @@
+{
+ "work_package": "2026-10-26-2009zhaonong-units-batch-f",
+ "goal": "完成赵农《中国艺术设计史》第六章隋唐部分 91 条 unit 候选的裁定、写作与独立语义复读",
+ "status": "applied",
+ "date": "2026-10-26",
+ "inputs": {
+  "candidate_index": {
+   "path": "06-runtime/state/candidate-index.jsonl",
+   "rows_before": 5339,
+   "sha256_before": "sha256:105124448e5844b43d8378d39e06a2568095a98e8af5ea5434b035e42f7bae9a",
+   "sha256_scope": "CRLF→LF 归一",
+   "counts_before": {
+    "needs_evidence": 2514,
+    "applied": 1830,
+    "rejected": 824,
+    "no_delta": 171
+   }
+  },
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "spans": [
+    [
+     4108,
+     4941
+    ]
+   ],
+   "spans_scope": "本章正文 L4108-L4941 全章复读（834 行）。",
+   "candidates_in_scope": 91,
+   "candidate_spans_union": [
+    [
+     4110,
+     7124
+    ]
+   ],
+   "candidate_spans_note": "候选 source_span 并集为 L4110-L7124，超出本章，因薛涛笺合并 cand-07-163（远端 L5038）、四大名砚合并 cand-10-84（远端 L7124）、小雁塔合并 cand-07-126（L4909）三条跨章合并候选；这些远端行未纳入本包复读，写回条目只引本章行。"
+  }
+ },
+ "method": {
+  "rules": [
+   "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+   "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+   "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+   "逐字引文用“ ”，校正与拼接用「 」，正文禁 ASCII 双引号",
+   "原文疑误照录标疑，不径改",
+   "重复实体只保留一个 canonical，另一候选判 rejected",
+   "已完整覆盖的候选判 no_delta，不改写既有条目"
+  ]
+ },
+ "outputs": {
+  "knowledge_units": {
+   "create": 63,
+   "update": 6,
+   "no_delta": 12,
+   "rejected": 10,
+   "paths_created": [
+    "04-knowledge/units/terms/yuban-xuan.md",
+    "04-knowledge/units/terms/xuetao-jian.md",
+    "04-knowledge/units/persons/wu-zetian.md",
+    "04-knowledge/units/persons/xuanzang.md",
+    "04-knowledge/units/publications/da-tang-xiyu-ji.md",
+    "04-knowledge/units/works/baodai-qiao.md",
+    "04-knowledge/units/works/tianjin-qiao.md",
+    "04-knowledge/units/works/xiaoyan-ta.md",
+    "04-knowledge/units/works/simen-ta.md",
+    "04-knowledge/units/works/qixia-si-sheli-ta.md",
+    "04-knowledge/units/works/chongsheng-si-qianxun-ta.md",
+    "04-knowledge/units/terms/shijing.md",
+    "04-knowledge/units/works/xiping-shijing.md",
+    "04-knowledge/units/works/kaicheng-shijing.md",
+    "04-knowledge/units/works/zhengshi-shijing.md",
+    "04-knowledge/units/persons/cai-yong.md",
+    "04-knowledge/units/terms/yinghuang-zhi.md",
+    "04-knowledge/units/persons/wei-dan.md",
+    "04-knowledge/units/terms/si-da-ming-yan.md",
+    "04-knowledge/units/publications/jingangjing-868.md",
+    "04-knowledge/units/publications/wugou-jingguang-daluoni-jing.md",
+    "04-knowledge/units/publications/tuoluoni-jingzhou.md",
+    "04-knowledge/units/publications/miaofa-lianhua-jing.md",
+    "04-knowledge/units/publications/nvze.md",
+    "04-knowledge/units/publications/kaiyuan-zabao.md",
+    "04-knowledge/units/terms/juanzhou-zhuang.md",
+    "04-knowledge/units/terms/zhi-book-wrapper.md",
+    "04-knowledge/units/terms/jingzhe-zhuang.md",
+    "04-knowledge/units/terms/fanjia-zhuang.md",
+    "04-knowledge/units/terms/xuanfeng-zhuang.md",
+    "04-knowledge/units/publications/wang-renxu-qieyun.md",
+    "04-knowledge/units/terms/quyuan-li.md",
+    "04-knowledge/units/terms/tongche.md",
+    "04-knowledge/units/publications/leisi-jing.md",
+    "04-knowledge/units/terms/yizi.md",
+    "04-knowledge/units/terms/wu-deng.md",
+    "04-knowledge/units/terms/kaiyuan-tongbao.md",
+    "04-knowledge/units/terms/shutie.md",
+    "04-knowledge/units/terms/feiqian.md",
+    "04-knowledge/units/terms/hunyi.md",
+    "04-knowledge/units/works/shuiyun-huntianyi.md",
+    "04-knowledge/units/persons/li-chunfeng.md",
+    "04-knowledge/units/persons/seng-yixing.md",
+    "04-knowledge/units/persons/han-zhihe.md",
+    "04-knowledge/units/persons/ge-hong.md",
+    "04-knowledge/units/terms/saoche.md",
+    "04-knowledge/units/terms/huasha.md",
+    "04-knowledge/units/terms/huzhuang.md",
+    "04-knowledge/units/works/leshan-dafo.md",
+    "04-knowledge/units/persons/haitong-heshang.md",
+    "04-knowledge/units/terms/jingbian.md",
+    "04-knowledge/units/terms/dunhuangxue.md",
+    "04-knowledge/units/works/longzang-si-bei.md",
+    "04-knowledge/units/works/jiuchenggong-liquan-ming.md",
+    "04-knowledge/units/works/fuzi-miaotang-bei.md",
+    "04-knowledge/units/works/yanta-shengjiao-xu.md",
+    "04-knowledge/units/works/lushan-si-bei.md",
+    "04-knowledge/units/persons/yan-zhenqing.md",
+    "04-knowledge/units/persons/liu-gongquan.md",
+    "04-knowledge/units/terms/yan-jin-liu-gu.md",
+    "04-knowledge/units/terms/huadeng.md",
+    "04-knowledge/units/terms/zouma-deng.md",
+    "04-knowledge/units/publications/guo-shi-bu.md"
+   ],
+   "paths_updated": [
+    "04-knowledge/units/persons/yan-lide.md",
+    "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+    "04-knowledge/units/terms/yuanling-paoshan.md",
+    "04-knowledge/units/institutions/jiangzuojian.md",
+    "04-knowledge/units/terms/shougongye-hanghui.md",
+    "04-knowledge/units/terms/ling-silk.md"
+   ],
+   "paths_no_delta": [
+    "04-knowledge/units/places/daxing-cheng.md",
+    "04-knowledge/units/places/daxing-cheng.md",
+    "04-knowledge/units/places/luoyang-cheng.md",
+    "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+    "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+    "04-knowledge/units/terms/huchuang.md",
+    "04-knowledge/units/places/zhaoling.md",
+    "04-knowledge/units/places/zhaoling.md",
+    "04-knowledge/units/places/zhaoling.md",
+    "04-knowledge/units/places/longmen-grottoes.md",
+    "04-knowledge/units/places/xing-kiln.md",
+    "04-knowledge/units/works/tang-yin-xiangnang.md"
+   ],
+   "paths_rejected": [
+    "04-knowledge/units/terms/quyuan-li.md",
+    "04-knowledge/units/publications/jingangjing-868.md",
+    "04-knowledge/units/terms/tongche.md",
+    "04-knowledge/units/terms/shikusi.md",
+    "04-knowledge/units/terms/bei-xue.md",
+    "04-knowledge/units/places/hejiacun-jiaocang.md",
+    "04-knowledge/units/places/hejiacun-jiaocang.md",
+    "04-knowledge/units/persons/ding-huan.md",
+    "04-knowledge/units/terms/tang-sancai.md",
+    "04-knowledge/units/places/qianling.md"
+   ],
+   "notes": "赵农 2009 册第六章（隋唐）unit 候选 91 条：create 63、update 6、no_delta 12、rejected 10。第六章范围 L4108-L4941；候选 source_span 粗于实际引用行，正文按实际行段引用。原计划中的含元殿、太极宫、明堂、唐陵、昭陵六骏、顺陵走狮、南青北白经全量回查已由既有 KU 覆盖，改判 no_delta；金花鹦鹉提梁银罐、金花八曲银杯仅有清单与图注，判 rejected；行头、短番匠改判 update。"
+  }
+ }
+}

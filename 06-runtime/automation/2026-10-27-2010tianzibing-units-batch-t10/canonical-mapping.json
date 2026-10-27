@@ -1,0 +1,130 @@
+[
+ {
+  "entity": "枢府窑",
+  "target_ref": "04-knowledge/units/places/jingdezhen-kiln.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-56",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/jingdezhen-kiln.md。cand-10-56 并入该条。"
+ },
+ {
+  "entity": "蓝釉描金匜",
+  "target_ref": "04-knowledge/units/works/lanyou-miaojin-yi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-57",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lanyou-miaojin-yi.md。cand-10-57 并入该条。"
+ },
+ {
+  "entity": "青花八棱海水龙纹瓶",
+  "target_ref": "04-knowledge/units/works/qinghua-baleng-longwen-ping.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-59",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qinghua-baleng-longwen-ping.md。cand-10-59 并入该条。"
+ },
+ {
+  "entity": "三彩龙凤琉璃釉香炉",
+  "target_ref": "04-knowledge/units/works/sancai-longfeng-liuliyou-xianglu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sancai-longfeng-liuliyou-xianglu.md。cand-10-64 并入该条。"
+ },
+ {
+  "entity": "任塘",
+  "target_ref": "04-knowledge/units/persons/rentang.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-65",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/rentang.md。cand-10-65 并入该条。"
+ },
+ {
+  "entity": "辍耕录",
+  "target_ref": "04-knowledge/units/publications/nancun-chuogenglu.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-70",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/nancun-chuogenglu.md。cand-10-70 并入该条。"
+ },
+ {
+  "entity": "元代刺绣针法",
+  "target_ref": "04-knowledge/units/terms/yuan-dai-cixiu-zhenfa.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-76",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yuan-dai-cixiu-zhenfa.md。cand-10-76 并入该条。"
+ },
+ {
+  "entity": "集宁路刺绣夹衫",
+  "target_ref": "04-knowledge/units/works/jininglu-cixiu-jiashan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-77",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/jininglu-cixiu-jiashan.md。cand-10-77 并入该条。"
+ },
+ {
+  "entity": "凸花人物故事盘",
+  "target_ref": "04-knowledge/units/works/tuhua-renwu-gushipan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-81",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tuhua-renwu-gushipan.md。cand-10-81 并入该条。"
+ },
+ {
+  "entity": "银果盒",
+  "target_ref": "04-knowledge/units/works/yinguohe.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-82",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yinguohe.md。cand-10-82 并入该条。"
+ },
+ {
+  "entity": "四合如意金盘",
+  "target_ref": "04-knowledge/units/works/sihe-ruyi-jinpan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-83",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sihe-ruyi-jinpan.md。cand-10-83 并入该条。"
+ },
+ {
+  "entity": "火石底",
+  "target_ref": "04-knowledge/units/terms/huoshidi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-90",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/huoshidi.md。cand-10-90 并入该条。"
+ },
+ {
+  "entity": "张成剔红山水人物圆盒",
+  "target_ref": "04-knowledge/units/works/zhang-cheng-tihong-box.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhang-cheng-tihong-box.md。cand-11-07 并入该条。"
+ },
+ {
+  "entity": "彭君宝",
+  "target_ref": "04-knowledge/units/persons/peng-junbao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-11",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/peng-junbao.md。cand-11-11 并入该条。"
+ },
+ {
+  "entity": "广寒宫螺钿漆盘残片",
+  "target_ref": "04-knowledge/units/works/guanghan-palace-luodian-plate.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-12",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/guanghan-palace-luodian-plate.md。cand-11-12 并入该条。"
+ },
+ {
+  "entity": "剔黑雕漆花鸟纹盘",
+  "target_ref": "04-knowledge/units/works/tihei-diaoqi-flower-bird-plate.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-11-83",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tihei-diaoqi-flower-bird-plate.md。cand-11-83 并入该条。"
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "entity": "均田制",
+  "target_ref": "04-knowledge/units/terms/juntian-zhi.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-24",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/juntian-zhi.md。"
+ },
+ {
+  "entity": "经行记",
+  "target_ref": "04-knowledge/units/publications/jingxing-ji.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-29",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/jingxing-ji.md。"
+ },
+ {
+  "entity": "隋代龙柄双身壶",
+  "target_ref": "04-knowledge/units/terms/sui-longbing-shuangshen-hu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-32",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/sui-longbing-shuangshen-hu.md。"
+ },
+ {
+  "entity": "越窑莲花碗荷叶形托（唐）",
+  "target_ref": "04-knowledge/units/works/yue-kiln-lianhua-wan-heye-tuo.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-104",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yue-kiln-lianhua-wan-heye-tuo.md。"
+ },
+ {
+  "entity": "白釉莲座烛台（唐）",
+  "target_ref": "04-knowledge/units/works/baiyou-lianzuo-zhutai.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-105",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/baiyou-lianzuo-zhutai.md。"
+ },
+ {
+  "entity": "铜官窑釉罐（唐）",
+  "target_ref": "04-knowledge/units/works/tongguan-yao-you-guan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-106",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tongguan-yao-you-guan.md。"
+ },
+ {
+  "entity": "绞胎",
+  "target_ref": "04-knowledge/units/terms/jiaotai.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-39",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiaotai.md。"
+ },
+ {
+  "entity": "鲁山窑瓷拍鼓（唐）",
+  "target_ref": "04-knowledge/units/works/lushan-yao-ci-paigu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-40",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lushan-yao-ci-paigu.md。"
+ },
+ {
+  "entity": "三彩罐（唐）",
+  "target_ref": "04-knowledge/units/works/sancai-guan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-107",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sancai-guan.md。"
+ },
+ {
+  "entity": "三彩女俑（唐）",
+  "target_ref": "04-knowledge/units/works/sancai-nv-yong.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/sancai-nv-yong.md。"
+ },
+ {
+  "entity": "“胡王”锦",
+  "target_ref": "04-knowledge/units/works/huwang-jin.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-44",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/huwang-jin.md。"
+ },
+ {
+  "entity": "晕絰（原文写法）",
+  "target_ref": "04-knowledge/units/terms/yunjian.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-50",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yunjian.md。"
+ },
+ {
+  "entity": "晕絰提花锦裙",
+  "target_ref": "04-knowledge/units/works/yunjian-jin-qun.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-51",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yunjian-jin-qun.md。"
+ },
+ {
+  "entity": "云头锦鞋",
+  "target_ref": "04-knowledge/units/works/yuntou-jin-xie.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-52",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yuntou-jin-xie.md。"
+ },
+ {
+  "entity": "桂管布",
+  "target_ref": "04-knowledge/units/terms/guiguan-bu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-55",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/guiguan-bu.md。"
+ },
+ {
+  "entity": "白叠布",
+  "target_ref": "04-knowledge/units/terms/baidie-bu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-56",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/baidie-bu.md。"
+ },
+ {
+  "entity": "红线毯",
+  "target_ref": "04-knowledge/units/terms/hongxian-tan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-57",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hongxian-tan.md。"
+ },
+ {
+  "entity": "隋代白瓷",
+  "target_ref": "04-knowledge/units/terms/baici.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-30",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/baici.md。cand-08-30 并入该条。"
+ },
+ {
+  "entity": "秘色",
+  "target_ref": "04-knowledge/units/terms/mise-porcelain.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/mise-porcelain.md。cand-08-35 并入该条。"
+ },
+ {
+  "entity": "青釉凤头龙柄壶",
+  "target_ref": "04-knowledge/units/works/fengshou-longbing-hu.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/fengshou-longbing-hu.md。cand-08-36 并入该条。"
+ },
+ {
+  "entity": "团窠纹",
+  "target_ref": "04-knowledge/units/terms/tuanhua-wen.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-47",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/tuanhua-wen.md。cand-08-47 并入该条。"
+ },
+ {
+  "entity": "联珠鹿纹锦（唐）",
+  "target_ref": "04-knowledge/units/works/lianzhu-luwen-jin.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-54",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lianzhu-luwen-jin.md。cand-08-54 并入该条。"
+ },
+ {
+  "entity": "百鸟毛裙",
+  "target_ref": "04-knowledge/units/works/anle-gongzhu-yuqun.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-58",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/anle-gongzhu-yuqun.md。cand-08-58 并入该条。"
+ },
+ {
+  "entity": "凤首龙柄壶（唐）",
+  "target_ref": "04-knowledge/units/works/fengshou-longbing-hu.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-108",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/fengshou-longbing-hu.md。cand-08-108 记 no_delta，并入该条。"
+ }
+]

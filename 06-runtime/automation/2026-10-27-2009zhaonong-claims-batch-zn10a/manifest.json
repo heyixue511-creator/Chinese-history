@@ -1,0 +1,151 @@
+{
+ "after_bytes": 1305420,
+ "after_sha256": "sha256:706b88d0eee13ada29eefa3418cc5d689f197fb3f01def39659aec8ade945f23",
+ "baseline": {
+  "candidate_applied": 3703,
+  "candidate_needs_evidence": 531,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 711
+ },
+ "before_bytes": 1218028,
+ "before_sha256": "sha256:5ff297b44735880450bc4554d534663d255da3fd6975d5ce02e6fcbf3e1a23d7",
+ "candidate_count": 52,
+ "claim_rows": 52,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 59,
+ "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "existing_claims_updated": 0,
+ "goal": "处理赵农《中国艺术设计史》第十章 claim 候选（L7680-L8483），新增 52 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2009zhaonong-claims-batch-zn10a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3755,
+  "candidate_needs_evidence": 479,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 763
+ },
+ "scope_spans": [
+  [
+   7682,
+   7742
+  ],
+  [
+   7686,
+   7686
+  ],
+  [
+   7733,
+   7733
+  ],
+  [
+   7745,
+   7824
+  ],
+  [
+   7848,
+   7867
+  ],
+  [
+   7953,
+   7964
+  ],
+  [
+   7990,
+   8003
+  ],
+  [
+   8042,
+   8042
+  ],
+  [
+   8048,
+   8048
+  ],
+  [
+   8050,
+   8050
+  ],
+  [
+   8056,
+   8083
+  ],
+  [
+   8084,
+   8102
+  ],
+  [
+   8105,
+   8136
+  ],
+  [
+   8137,
+   8150
+  ],
+  [
+   8151,
+   8165
+  ],
+  [
+   8166,
+   8169
+  ],
+  [
+   8170,
+   8209
+  ],
+  [
+   8210,
+   8221
+  ],
+  [
+   8222,
+   8245
+  ],
+  [
+   8248,
+   8266
+  ],
+  [
+   8267,
+   8274
+  ],
+  [
+   8275,
+   8291
+  ],
+  [
+   8292,
+   8356
+  ],
+  [
+   8359,
+   8409
+  ],
+  [
+   8410,
+   8443
+  ],
+  [
+   8444,
+   8468
+  ],
+  [
+   8450,
+   8450
+  ],
+  [
+   8452,
+   8452
+  ],
+  [
+   8469,
+   8483
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "support_links": 107,
+ "with_supported_by": 48
+}

@@ -1,0 +1,105 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t4",
+  "goal": "处理田自秉 2010 册春秋战国 unit 候选 28 条：新建 14、更新 7、no_delta 7，并关闭工作包",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:e009f98d3ae48bcfdc9b6f28335705d254189d8235f69e26fe7ca0d1f32d1b5e",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1884,
+        "applied": 2408,
+        "rejected": 852,
+        "no_delta": 195
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          1674,
+          2068
+        ],
+        [
+          4013,
+          4026
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第四章春秋战国的工艺美术（L1674-L2068）逐段复读，含概说、青铜工艺、陶瓷、染织、漆器、玉器与结语；另因琉璃候选的两义，定点复读元代琉璃节 L4013-L4026。彩版 9-15 与插图 1-14 只读图注，未视觉核验。",
+      "candidates_in_scope": 28,
+      "candidate_spans_union": [
+        [
+          99,
+          2025
+        ],
+        [
+          2035,
+          2035
+        ],
+        [
+          2039,
+          4017
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注、无器物数据的候选记 no_delta，不新建只有图注的作品条"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 14,
+      "update": 7,
+      "no_delta": 7,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/yingshou-hu.md",
+        "04-knowledge/units/works/diaojin-xiangyu-yin-daigou.md",
+        "04-knowledge/units/works/caihui-lugu.md",
+        "04-knowledge/units/works/wunv-qilian.md",
+        "04-knowledge/units/works/longfenghuwen-xiuyi.md",
+        "04-knowledge/units/works/jihexingwen-fengniaowen-jin.md",
+        "04-knowledge/units/terms/panchi-wen.md",
+        "04-knowledge/units/terms/siye-wen.md",
+        "04-knowledge/units/terms/shanzi-wen.md",
+        "04-knowledge/units/terms/qiwan-lugao.md",
+        "04-knowledge/units/terms/shihua-shisui.md",
+        "04-knowledge/units/terms/liuli.md",
+        "04-knowledge/units/works/qi-shuangfeng-gu.md",
+        "04-knowledge/units/works/caihou-ding.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+        "04-knowledge/units/works/zenghouyi-zunpan.md",
+        "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+        "04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md",
+        "04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md",
+        "04-knowledge/units/terms/tongjing.md",
+        "04-knowledge/units/persons/ganjiang.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/qi-erbei.md",
+        "04-knowledge/units/persons/zhuangzi.md",
+        "04-knowledge/units/persons/laozi.md",
+        "04-knowledge/units/terms/dou-vessel.md",
+        "04-knowledge/units/terms/hu-vessel.md",
+        "04-knowledge/units/terms/shanzi-wen.md",
+        "04-knowledge/units/terms/tongjing.md"
+      ],
+      "paths_rejected": [],
+      "notes": "田自秉 2010 册 batch T4：春秋战国 unit 候选 28 条，create 14、update 7、no_delta 7。新建含六件青铜与漆器作品、一件刺绣衣、一件织锦、六种纹样与名产术语（蟠螭、四叶、山字、齐纨鲁缟、蚀花石髓、琉璃）、一件仅有图注的蔡侯鼎；更新宴乐水陆攻战壶、曾侯乙尊盘、彩绘漆座屏、舞人动物纹锦、春秋战国青铜炊食器、铜镜与干将；七条图注或既有条目以 no_delta 关闭。"
+    }
+  }
+}

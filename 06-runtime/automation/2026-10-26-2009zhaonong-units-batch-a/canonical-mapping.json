@@ -1,0 +1,362 @@
+[
+ {
+  "entity": "艺术设计史",
+  "target_ref": "04-knowledge/units/terms/yishu-shejishi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-06",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 publications/zhongguo-yishu-shejishi-upgraded.md（教材体例）分工，不合并。"
+ },
+ {
+  "entity": "何尊",
+  "target_ref": "04-knowledge/units/works/he-zun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-09",
+  "merged_candidates": [],
+  "note": "canonical 新条；第二章图注与导论语词例证合于一条，不拆分。"
+ },
+ {
+  "entity": "石器时期",
+  "target_ref": "04-knowledge/units/terms/stone-age.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-12",
+  "merged_candidates": [],
+  "note": "canonical 新条；与具体文化条（仰韶、龙山、大汶口）分级，不合并。"
+ },
+ {
+  "entity": "弓箭",
+  "target_ref": "04-knowledge/units/terms/gongjian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-16",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/jianqi.md（箭器结构）互为详略，不合并。"
+ },
+ {
+  "entity": "纺轮",
+  "target_ref": "04-knowledge/units/terms/fanglun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-19",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/shandingdong-ren-guzhen.md（骨针）同图不同器，不合并。"
+ },
+ {
+  "entity": "伏羲",
+  "target_ref": "04-knowledge/units/persons/fuxi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-21",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 persons/nuwa.md 为对偶人物，女娲条已作一致性回指。"
+ },
+ {
+  "entity": "八卦（伏羲八卦）",
+  "target_ref": "04-knowledge/units/terms/bagua.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-22",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 persons/fuxi.md（人物）、terms/banpo-kehua-fuhao.md（刻画符号）分工。"
+ },
+ {
+  "entity": "有巢氏",
+  "target_ref": "04-knowledge/units/persons/youchao-shi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-23",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/bandixue-shi-jianzhu.md（半地穴）为不同建筑形态，不合并。"
+ },
+ {
+  "entity": "燧人氏",
+  "target_ref": "04-knowledge/units/persons/suiren-shi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-25",
+  "merged_candidates": [],
+  "note": "canonical 新条；与用火相关的遗址条不强行连线。"
+ },
+ {
+  "entity": "神农氏（炎帝）",
+  "target_ref": "04-knowledge/units/persons/shennong-shi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-26",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 persons/huangdi-legend.md（黄帝）对读，不合并。"
+ },
+ {
+  "entity": "仓颉",
+  "target_ref": "04-knowledge/units/persons/cangjie.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-30",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/banpo-kehua-fuhao.md（早期符号）分级。"
+ },
+ {
+  "entity": "后羿",
+  "target_ref": "04-knowledge/units/persons/houyi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-31",
+  "merged_candidates": [],
+  "note": "canonical 新条；不与弓箭条合并。"
+ },
+ {
+  "entity": "龙凤",
+  "target_ref": "04-knowledge/units/terms/longfeng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-32",
+  "merged_candidates": [],
+  "note": "canonical 新条；与具体龙凤纹器物条（如 works/cuo-jinyi-longfenglu-fangan.md）分工。"
+ },
+ {
+  "entity": "门神",
+  "target_ref": "04-knowledge/units/terms/menshen.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-35",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/muban-nianhua.md（木版年画）分工。"
+ },
+ {
+  "entity": "新石器时期石器类型",
+  "target_ref": "04-knowledge/units/terms/xinshiqi-shiqi-leixing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-37",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/gusi.md、terms/dao-knife.md 等单器条互为总分类与分器。"
+ },
+ {
+  "entity": "玉石（美石）",
+  "target_ref": "04-knowledge/units/terms/yushi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-39",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/yu-yue-cong-bi.md（玉礼器）为材料与器物两级。"
+ },
+ {
+  "entity": "玉钺、玉琮、玉璧（良渚文化玉礼器）",
+  "target_ref": "04-knowledge/units/terms/yu-yue-cong-bi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-41",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 works/shenren-shoumianwen-yucong.md（单件玉琮）分工。"
+ },
+ {
+  "entity": "陶器器形（瓶、盆、壶、罐、瓮、钵、杯、豆）",
+  "target_ref": "04-knowledge/units/terms/taoqi-qixing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-45",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/taoqi.md（陶器总论）、terms/fu-li-zeng.md（炊具）分工。"
+ },
+ {
+  "entity": "釜、鬲、甑（陶质炊具）",
+  "target_ref": "04-knowledge/units/terms/fu-li-zeng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-48",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/taoqi-qixing.md（器形分类）互为专题与总表。"
+ },
+ {
+  "entity": "陶轮（陶钧）",
+  "target_ref": "04-knowledge/units/terms/taolun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-49",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/taoyao.md（陶窑）为成形与烧成两道工序。"
+ },
+ {
+  "entity": "陶窑（竖穴窑、横穴窑）",
+  "target_ref": "04-knowledge/units/terms/taoyao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-50",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 institutions/qin-han-guan-ying-tao-yao.md（官营陶窑制度）分工。"
+ },
+ {
+  "entity": "黑陶（龙山文化黑陶）",
+  "target_ref": "04-knowledge/units/terms/heitao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-51",
+  "merged_candidates": [],
+  "note": "canonical 新条；terms/danke-heitao.md 为子类，不合并；图 1-24 大汶口黑陶杯的归属张力已记。"
+ },
+ {
+  "entity": "骨耜",
+  "target_ref": "04-knowledge/units/terms/gusi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-01",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/xinshiqi-shiqi-leixing.md（石器分类）分工。"
+ },
+ {
+  "entity": "箭器",
+  "target_ref": "04-knowledge/units/terms/jianqi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-04",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/gongjian.md 互为结构与总论。"
+ },
+ {
+  "entity": "山西朔县石箭头",
+  "target_ref": "04-knowledge/units/works/shanxi-shuoxian-shijiantou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-05",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/jianqi.md 为单件与器类两级。"
+ },
+ {
+  "entity": "矛",
+  "target_ref": "04-knowledge/units/terms/mao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-07",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/jianqi.md（箭器）并列，不合并。"
+ },
+ {
+  "entity": "贝币",
+  "target_ref": "04-knowledge/units/terms/beibi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-16",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/xianglian.md（装饰）分工，贝的双重功能在两条互见。"
+ },
+ {
+  "entity": "半坡刻画符号",
+  "target_ref": "04-knowledge/units/terms/banpo-kehua-fuhao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-17",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 works/renmian-yuwen-caitao-pen.md 同属半坡材料但对象不同。"
+ },
+ {
+  "entity": "山东莒县陶尊",
+  "target_ref": "04-knowledge/units/works/shandong-juxian-taozun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-18",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/banpo-kehua-fuhao.md 为不同遗址的符号材料。"
+ },
+ {
+  "entity": "毛笔",
+  "target_ref": "04-knowledge/units/terms/maobi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-20",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/taolun.md（陶轮）等工具条并列。"
+ },
+ {
+  "entity": "骨笛",
+  "target_ref": "04-knowledge/units/terms/gudi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-21",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/taoxun.md、terms/sheng.md 为乐器类并列条。"
+ },
+ {
+  "entity": "陶埙",
+  "target_ref": "04-knowledge/units/terms/taoxun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-22",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/gudi.md（骨笛）并列。"
+ },
+ {
+  "entity": "刀",
+  "target_ref": "04-knowledge/units/terms/dao-knife.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-93",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/xinshiqi-shiqi-leixing.md（石器分类）分工。"
+ },
+ {
+  "entity": "石刃骨身匕首",
+  "target_ref": "04-knowledge/units/terms/shiren-gushen-bishou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-94",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/dao-knife.md（刀）并列，不合并为「刀具」。"
+ },
+ {
+  "entity": "项链",
+  "target_ref": "04-knowledge/units/terms/xianglian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-96",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 terms/beibi.md（贝币）互为装饰与货币两面。"
+ },
+ {
+  "entity": "笙",
+  "target_ref": "04-knowledge/units/terms/sheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-99",
+  "merged_candidates": [],
+  "note": "canonical 新条；与 persons/nuwa.md（女娲）互见，不合并。"
+ },
+ {
+  "entity": "女嫘（L416作嫘祖）",
+  "target_ref": "04-knowledge/units/persons/leizu.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-29",
+  "merged_candidates": [],
+  "note": "canonical：persons/leizu.md；合并 cand-01-29 与 cand-02-13 两条同人候选。"
+ },
+ {
+  "entity": "女嫘",
+  "target_ref": "04-knowledge/units/persons/leizu.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-13",
+  "merged_candidates": [],
+  "note": "canonical：persons/leizu.md；与 cand-01-29 合并，不重复建条。"
+ },
+ {
+  "entity": "黄帝（轩辕黄帝）",
+  "target_ref": "04-knowledge/units/persons/huangdi-legend.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-28",
+  "merged_candidates": [],
+  "note": "canonical：persons/huangdi-legend.md；与 works/huangdi-chuiyishang-sculpture.md（现代雕塑）不合并。"
+ },
+ {
+  "entity": "半地穴式",
+  "target_ref": "04-knowledge/units/terms/bandixue-shi-jianzhu.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-08",
+  "merged_candidates": [],
+  "note": "canonical：terms/bandixue-shi-jianzhu.md；不新建「半地穴式住房」重复条。"
+ },
+ {
+  "entity": "骨针",
+  "target_ref": "04-knowledge/units/terms/shandingdong-ren-guzhen.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-60",
+  "merged_candidates": [],
+  "note": "canonical：terms/shandingdong-ren-guzhen.md；与 terms/gusi.md 等骨器条并列。"
+ },
+ {
+  "entity": "红山文化玉龙",
+  "target_ref": "04-knowledge/units/terms/hongshan-culture.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-33",
+  "merged_candidates": [],
+  "note": "canonical：terms/hongshan-culture.md；玉龙作为该文化的图版实例，不单独立条。"
+ },
+ {
+  "entity": "仰韶文化半坡葫芦型人像瓶",
+  "target_ref": "04-knowledge/units/places/banpo-site.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-43",
+  "merged_candidates": [],
+  "note": "canonical：places/banpo-site.md；图注级材料并入遗址条，不单独立条。"
+ },
+ {
+  "entity": "大汶口文化黑陶杯",
+  "target_ref": "04-knowledge/units/terms/dawenkou-culture.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-56",
+  "merged_candidates": [],
+  "note": "canonical：terms/dawenkou-culture.md；图注级材料并入文化条。"
+ },
+ {
+  "entity": "人面鱼纹盆",
+  "target_ref": "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-01-58",
+  "merged_candidates": [],
+  "note": "canonical：works/renmian-yuwen-caitao-pen.md；赵农释读与 banpo-site.md 的详述互见，不重复全文。"
+ }
+]

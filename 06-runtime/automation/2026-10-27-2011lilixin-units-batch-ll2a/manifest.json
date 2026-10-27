@@ -1,0 +1,91 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll2a",
+  "goal": "李立新 2011 册第一章造物起源与体系形成（L394-L562）unit 候选裁定与写回",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:9e376c022e85df90d27e6501f5b73dbc67febdd06b539ec742d074453855fc43",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1527,
+        "applied": 2727,
+        "rejected": 855,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          230,
+          562
+        ]
+      ],
+      "spans_scope": "覆盖 L230-L562：L230-L393 已在 LL1 全读区间内复读，本批复读 L394-L562（第一章最初的“设计”意识、适应性与多样统一两节及全部图注）；cand-01-24 的 L230-L546 跨度已随两批读毕。",
+      "candidates_in_scope": 23,
+      "candidate_spans_union": [
+        [
+          230,
+          546
+        ],
+        [
+          553,
+          562
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+      "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。",
+      "长跨度候选跨出本批复读范围者（cand-01-79、cand-01-80）留 needs_evidence，转 LL2b。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 18,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/terms/beijingren-moshi.md",
+        "04-knowledge/units/persons/sangzhihua.md",
+        "04-knowledge/units/works/olduvai-kanzhuoqi.md",
+        "04-knowledge/units/terms/lishi-wenhua.md",
+        "04-knowledge/units/works/shandingdong-zuankong.md",
+        "04-knowledge/units/terms/shiyingxing-sheji.md",
+        "04-knowledge/units/publications/wuzhong-qiyuan.md",
+        "04-knowledge/units/persons/hebert-a-simon.md",
+        "04-knowledge/units/works/zhuangbing-shican-fuyuan-tu.md",
+        "04-knowledge/units/works/zhuhui-shifu.md",
+        "04-knowledge/units/works/peiligang-shimopan.md",
+        "04-knowledge/units/terms/yuanzaoxing.md",
+        "04-knowledge/units/persons/zhangpengchuan.md",
+        "04-knowledge/units/works/huoshaogou-renxing-guan.md",
+        "04-knowledge/units/works/caiwen-rentou-ping.md",
+        "04-knowledge/units/persons/subingqi.md",
+        "04-knowledge/units/terms/liuda-sheji-quyu.md",
+        "04-knowledge/units/works/yudiaolong.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/xiangsheng-xing.md",
+        "04-knowledge/units/terms/miaodigou-xing-caitao.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/terms/paleolithic-period.md",
+        "04-knowledge/units/terms/paleolithic-period.md",
+        "04-knowledge/units/terms/miaodigou-xing-caitao.md"
+      ],
+      "notes": ""
+    }
+  }
+}

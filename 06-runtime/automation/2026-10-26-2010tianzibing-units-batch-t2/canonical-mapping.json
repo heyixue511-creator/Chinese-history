@@ -1,0 +1,154 @@
+[
+ {
+  "entity": "杜岭方鼎",
+  "target_ref": "04-knowledge/units/works/du-ling-fang-ding.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/du-ling-fang-ding.md。"
+ },
+ {
+  "entity": "铜连座立人",
+  "target_ref": "04-knowledge/units/works/tong-lianzuo-liren.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-20",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/tong-lianzuo-liren.md。"
+ },
+ {
+  "entity": "将军盔",
+  "target_ref": "04-knowledge/units/terms/jiang-jun-kui.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiang-jun-kui.md。"
+ },
+ {
+  "entity": "商代青铜器八类",
+  "target_ref": "04-knowledge/units/terms/shangdai-qingtongqi-balei.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-26",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shangdai-qingtongqi-balei.md。"
+ },
+ {
+  "entity": "妇好三联甗",
+  "target_ref": "04-knowledge/units/works/fuhao-sanlian-yan.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-32",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/fuhao-sanlian-yan.md。"
+ },
+ {
+  "entity": "夔纹",
+  "target_ref": "04-knowledge/units/terms/kui-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-36",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/kui-wen.md。"
+ },
+ {
+  "entity": "龙纹",
+  "target_ref": "04-knowledge/units/terms/long-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-51",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/long-wen.md。"
+ },
+ {
+  "entity": "凤纹",
+  "target_ref": "04-knowledge/units/terms/feng-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-52",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/feng-wen.md。"
+ },
+ {
+  "entity": "回纹",
+  "target_ref": "04-knowledge/units/terms/hui-wen.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-37",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hui-wen.md。"
+ },
+ {
+  "entity": "郭沫若",
+  "target_ref": "04-knowledge/units/persons/guo-moruo.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-39",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/guo-moruo.md。"
+ },
+ {
+  "entity": "灰陶",
+  "target_ref": "04-knowledge/units/terms/hui-tao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-53",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hui-tao.md。"
+ },
+ {
+  "entity": "白陶",
+  "target_ref": "04-knowledge/units/terms/bai-tao.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-42",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/bai-tao.md。"
+ },
+ {
+  "entity": "青釉瓷尊",
+  "target_ref": "04-knowledge/units/works/qingyou-ci-zun.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/qingyou-ci-zun.md。"
+ },
+ {
+  "entity": "妇好墓玉人",
+  "target_ref": "04-knowledge/units/works/fuhao-mu-yuren.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-49",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/fuhao-mu-yuren.md。"
+ },
+ {
+  "entity": "象牙杯（妇好墓）",
+  "target_ref": "04-knowledge/units/works/xiangya-bei.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-03",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/xiangya-bei.md。"
+ },
+ {
+  "entity": "花土",
+  "target_ref": "04-knowledge/units/terms/hua-tu.md",
+  "action": "create",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-76",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hua-tu.md。"
+ },
+ {
+  "entity": "巧色",
+  "target_ref": "04-knowledge/units/procedures/yudiao-taocai-qiaose.md",
+  "action": "update",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-10-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/procedures/yudiao-taocai-qiaose.md。cand-10-46 并入，不新建。"
+ },
+ {
+  "entity": "二里头文化",
+  "target_ref": "04-knowledge/units/places/erlitou-site.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/places/erlitou-site.md。cand-03-07 并入既有遗址条，不另立。"
+ },
+ {
+  "entity": "五爵",
+  "target_ref": "04-knowledge/units/terms/qingtong-jiuqi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-33",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/qingtong-jiuqi.md。cand-03-33 并入，不另立。"
+ }
+]

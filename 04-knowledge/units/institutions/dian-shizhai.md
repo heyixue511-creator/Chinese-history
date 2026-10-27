@@ -28,7 +28,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -41,7 +41,15 @@ primary_dimension: C
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "点石斋石印局是 C 维度下近代石印出版的机构条目，其外资经营归 D、西方印刷术传入归 E；当前只到 Dimension。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/c2-shiyin-qianyin-jishu-chuban-jigou.md
+    role: key_institution
+    primary: true
+    scope_note: "C.2.1 首批：以点石斋为英商石印局样本，复读其 1876 年创设、蒸汽机与 200 名工人、影印旧版书籍；外资经营归 D、西方印刷术传入归 E。"
+hierarchy_scope_note: "点石斋石印局是 C.2 下近代石印出版机构的条目；其蒸汽动力、影印旧版书籍与石印书籍业务是本 Topic 的技术—机构样本，外资经营归 D、西方印刷术传入归 E。现有 D.1 为洋务企业，不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -65,10 +73,10 @@ hierarchy_scope_note: "点石斋石印局是 C 维度下近代石印出版的机
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代石印出版的机构样本，可与武英殿修书处、汲古阁、商务印书馆等条目并置，观察“雕版—石印—铅印”的印刷技术序列。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.1 石印、铅印技术与出版机构（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 点石斋石印局是 C.2 下近代石印出版机构的条目；其蒸汽动力、影印旧版书籍与石印书籍业务是本 Topic 的技术—机构样本，外资经营归 D、西方印刷术传入归 E。现有 D.1 为洋务企业，不匹配，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

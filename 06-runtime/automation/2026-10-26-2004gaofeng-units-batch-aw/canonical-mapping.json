@@ -1,0 +1,122 @@
+[
+ {
+  "entity": "被中香炉（卧褥香炉）",
+  "target_ref": "04-knowledge/units/persons/ding-huan.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-02",
+  "merged_candidates": [],
+  "note": "L1901-L1903 的全部机环、双支架、相互垂直转轴、万向支架类比与“被中香炉”得名已由 persons/ding-huan.md 完整承载，且该条已引高丰同段；不另立近重复设备条，提交 no_delta。"
+ },
+ {
+  "entity": "缸灯",
+  "target_ref": "04-knowledge/units/terms/hong-guan-deng.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-04",
+  "merged_candidates": [],
+  "note": "更新 terms/hong-guan-deng.md（version 1→2，source_count 1→2）：新增高丰 2004 L1955、L1960 源，补《宣和博古图》卷十八“王氏铜虹烛锭”、“虹”为“缸”之假字、缸灯定名（导烟管如车缸）、体腔贮清水、单双烟管、像生形体作导烟管、烟尘路径、达·芬奇 15 世纪铁皮导烟罩，以及灯罩两片弧形屏板、纽环、宽不到 1 厘米、深不到 2 厘米的凹槽与菱形格孔。"
+ },
+ {
+  "entity": "独轮车（鹿车）",
+  "target_ref": "04-knowledge/units/terms/dulunche.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-07",
+  "merged_candidates": [],
+  "note": "更新 terms/dulunche.md（version 2→3，source_count 3→4）：新增高丰 2004 L2367 源，补鹿车／鸡公车／羊角车三名、汉代画像砖石上的独轮车形象、范罢览（Van Braam Houckgeest）长段构造与推挽描写、欧洲 12 世纪以后才出现类似独轮车、日本学者“自行车始祖”说、9 种类型与图 4-39／4-40。"
+ },
+ {
+  "entity": "弋射收获画像砖",
+  "target_ref": "04-knowledge/units/works/yishe-shouhuo-huaxiangzhuan.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-12",
+  "merged_candidates": [],
+  "note": "新建 works/yishe-shouhuo-huaxiangzhuan.md，依据 L2246-L2265：四川成都凤凰山出土，砖面以横线分上下两景，上层弋射、下层收稻，模制工艺与来源评价。"
+ },
+ {
+  "entity": "四神瓦当",
+  "target_ref": "04-knowledge/units/terms/wadang.md",
+  "action": "no_delta",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-13",
+  "merged_candidates": [],
+  "note": "L2266-L2294 的四神瓦当形制、四神名目、王莽时期与“气势磅礴、姿态雄伟”评价已由 terms/wadang.md 承载（该条六源，已引高丰 L2270-L2278、L2293）；不另立薄条，提交 no_delta。"
+ },
+ {
+  "entity": "阳陵虎符",
+  "target_ref": "04-knowledge/units/works/yangling-hufu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-15",
+  "merged_candidates": [],
+  "note": "新建 works/yangling-hufu.md，依据 L2413-L2456：秦始皇颁发给阳陵驻守将领，虎形左右两半，铭文“甲兵之符，右在皇帝，左在阳陵”，篆体端庄圆润，错金，图 4-44。"
+ },
+ {
+  "entity": "长沙楚墓帛书",
+  "target_ref": "04-knowledge/units/works/chu-boshu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-03-18",
+  "merged_candidates": [],
+  "note": "新建 works/chu-boshu.md，依据 L2457-L2482：1942 年长沙东郊楚墓出土，纵约 38、横约 45 厘米，墨书 900 多字，中心两篇一多一少一正一反，四周树木、三头人、兽首人身像，青棕红三色。"
+ },
+ {
+  "entity": "汉榻",
+  "target_ref": "04-knowledge/units/terms/han-ta.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-20",
+  "merged_candidates": [],
+  "note": "新建 terms/han-ta.md，依据 L2371-L2382：榻为小床，比床更矮更窄，两人坐或独坐，据图像比例推测长 75－100、宽 60－100、高 12－28 厘米。"
+ },
+ {
+  "entity": "汉代漆屏风",
+  "target_ref": "04-knowledge/units/terms/ping-feng.md",
+  "action": "update",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-24",
+  "merged_candidates": [],
+  "note": "更新 terms/ping-feng.md（version 1→2，source_count 1→2）：新增高丰 2004 L2381-L2395 源，补汉代“屏其风也”的挡风定义、遮蔽与分隔功能、马王堆两件漆屏风（长方形、足座、谷纹璧与龙纹云纹）、绢绨小型屏风、帷帐与屏风的分隔作用及图 4-41 图注。"
+ },
+ {
+  "entity": "鎏金铜酒樽",
+  "target_ref": "04-knowledge/units/works/liujin-tong-jiuzun.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-51",
+  "merged_candidates": [],
+  "note": "新建 works/liujin-tong-jiuzun.md，依据 L1857：山西右玉出土，高 24.5、口径 23.4 厘米，饰虎豹熊狐猴鹿兔羊骆驼龙凤鸟等动物纹，来源评其尺度合于实用、装饰为祥禽瑞兽。"
+ },
+ {
+  "entity": "温酒铜杯炉",
+  "target_ref": "04-knowledge/units/works/wenjiu-tongbeilu.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-52",
+  "merged_candidates": [],
+  "note": "新建 works/wenjiu-tongbeilu.md，依据 L1857：山西浑源、太原等地出土，耳杯、炭炉、底盘三部分组成，炉壁四神，炉壁镂孔散烟、底簟通氧助燃并除灰、底盘盛灰渣。"
+ },
+ {
+  "entity": "长灯",
+  "target_ref": "04-knowledge/units/terms/chang-deng.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-53",
+  "merged_candidates": [],
+  "note": "新建 terms/chang-deng.md，依据 L1918：《东宫旧事》“金涂四足长灯”，高丰释为能燃多枝光的灯。"
+ },
+ {
+  "entity": "连盘短灯",
+  "target_ref": "04-knowledge/units/terms/lianpan-duandeng.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-54",
+  "merged_candidates": [],
+  "note": "新建 terms/lianpan-duandeng.md，依据 L1918：《东宫旧事》“金涂二尺连盘短灯”，高丰与“长灯”并提；“连盘”构造来源未释。"
+ },
+ {
+  "entity": "装饰的添加手法",
+  "target_ref": "04-knowledge/units/terms/zhuangshi-tianjia.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-57",
+  "merged_candidates": [],
+  "note": "新建 terms/zhuangshi-tianjia.md，依据 L2142：在茱萸纹、云气纹之间穿插七八种奇禽异兽的构图手法，实例为延年益寿锦与鸟兽葡萄纹绮。"
+ },
+ {
+  "entity": "枰",
+  "target_ref": "04-knowledge/units/terms/ping-furniture.md",
+  "action": "create",
+  "canonical_candidate": "2004-gaofeng-zhongguo-shejishi:cand-sup-60",
+  "merged_candidates": [],
+  "note": "新建 terms/ping-furniture.md，依据 L2377-L2379：比榻更小的坐具，更矮、面方、四周不起沿、矩尺形足、壶门形足间，望都 1 号东汉墓壁画有独坐板枰人像；原文“秤”照录。"
+ }
+]

@@ -28,13 +28,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
@@ -73,7 +73,7 @@ hierarchy_scope_note: "本 KU 是 A 维度下史学方法与研究机构的锚�
 
 ## 相关知识元
 
-六册中无第二处直接记载；尚未建立傅斯年、史料学或中央研究院相关条目。李立新同章另记设计史研究的整体性、寻因寻根与逻辑结构原则，本条只取该所与史料学一段，不把同章方法论全部归入。relation 未审查。
+六册中无第二处直接记载该所；`persons/fu-sinian.md` 记主持者傅斯年的史料学主张，史料学与中央研究院在 `terms/`、`institutions/` 下尚未立条。李立新同章另记设计史研究的整体性、寻因寻根与逻辑结构原则，本条只取该所与史料学一段，不把同章方法论全部归入。relation 未审查。
 
 ## 验证状态
 

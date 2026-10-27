@@ -1,0 +1,130 @@
+[
+  {
+    "entity": "元代寺庙壁画",
+    "target_ref": "04-knowledge/units/terms/yuan-dai-simiao-bihua.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-88",
+    "merged_candidates": [],
+    "note": "新建类型级 term；2009 L3245 记元代寺庙壁画作为建筑壁饰、道释题材与植物几何纹，具体寺院实例交 works/sajia-si.md。"
+  },
+  {
+    "entity": "云锦纹样七类",
+    "target_ref": "04-knowledge/units/terms/nanjing-yunjin.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-90",
+    "merged_candidates": [],
+    "note": "并入既有南京云锦条；七类为云锦花纹样的身份职业分类，不另立微条；《蚕桑萃编》同数七类主体不同，不合并。"
+  },
+  {
+    "entity": "清代丝织品种",
+    "target_ref": "04-knowledge/units/terms/qing-dai-sizhi-pinzhong.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-92",
+    "merged_candidates": [],
+    "note": "新建清单级 term；记苏州、松江四类品种与杭州 14 大类及康熙、雍正、乾隆三期风格；云锦与八达晕分见既有条。"
+  },
+  {
+    "entity": "明代女装与凤冠",
+    "target_ref": "04-knowledge/units/terms/ming-dai-nvzhuang.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-93",
+    "merged_candidates": [],
+    "note": "新建清单级 term；合记士庶女服、贵族高冠、后妃命妇凤冠与万历四种凤冠名目，霞帔细节交 terms/xiapei.md。"
+  },
+  {
+    "entity": "清代首饰与头饰",
+    "target_ref": "04-knowledge/units/terms/qing-dai-shoushi-toushi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-05-94",
+    "merged_candidates": [],
+    "note": "新建清单级 term；按满族、汉族、年龄与贵妇身份分记金镂花、银珐琅、点翠、勒子、纂、冠子、网子与钿子。"
+  },
+  {
+    "entity": "金陵大报恩寺琉璃塔",
+    "target_ref": "04-knowledge/units/works/dabaoensi-liuli-ta.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-02",
+    "merged_candidates": [],
+    "note": "并入既有大报恩寺琉璃塔条；补 2009 寺史沿革、玄奘顶骨舍利、历代寺名与西方七大奇观比较，不新建同名 work。"
+  },
+  {
+    "entity": "《工程作法》",
+    "target_ref": "04-knowledge/units/publications/gongcheng-zuofa.md",
+    "action": "update",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-04",
+    "merged_candidates": [],
+    "note": "与既有《工程做法》异名同指；收“工程作法”为别名并补 2009 来源，不新建异名条。"
+  },
+  {
+    "entity": "饾版",
+    "target_ref": "04-knowledge/units/procedures/duanban-taoyin.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-12",
+    "merged_candidates": [],
+    "note": "既有短版套印条已覆盖分色分版、拱花、南京中心、1626《萝轩变古笺谱》与《十竹斋》两种，并说明“饾版”为来源外写法。"
+  },
+  {
+    "entity": "剪辫易服",
+    "target_ref": "04-knowledge/units/events/jianbian-yifu-1912.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-24",
+    "merged_candidates": [],
+    "note": "既有 1912 年剪辫易服事件条已载 20 天剪辫、孙中山易服主张与中山装设计；政策归 event，形制归 terms/zhongshanzhuang.md。"
+  },
+  {
+    "entity": "五星红旗",
+    "target_ref": "04-knowledge/units/works/prc-national-flag.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-39",
+    "merged_candidates": [],
+    "note": "既有中华人民共和国国旗条已载 3012 份应征、曾联松设计、田汉选图、去镰刀斧头与 9 月 27 日通过。"
+  },
+  {
+    "entity": "飞鸽自行车",
+    "target_ref": "04-knowledge/units/works/flying-pigeon-bicycle.md",
+    "action": "no_delta",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-43",
+    "merged_candidates": [],
+    "note": "既有飞鸽牌自行车条已载 1950 年试制、640 毫米上管、大炉铜焊、十辆样品与 1951 年 1 月投放。"
+  },
+  {
+    "entity": "地方与民族工艺美术品种",
+    "target_ref": null,
+    "action": "rejected",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-06-80",
+    "merged_candidates": [],
+    "note": "跨 20 余省区与 10 余民族的清单级聚合，不构成单一 term；候选 review_notes 已声明不作为单一 KU 直接写回，后续按产区/品种拆分另立批次。"
+  },
+  {
+    "entity": "《工艺美术参考》",
+    "target_ref": "04-knowledge/units/publications/gongyi-meishu-cankao.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-17",
+    "merged_candidates": [],
+    "note": "新建期刊条；1982 年 7 月 1 日中央工艺美术学院编辑出版，1983 年起重点发表工业设计教育文论。"
+  },
+  {
+    "entity": "田自秉《中国工艺美术史》",
+    "target_ref": "04-knowledge/units/publications/tian-zizhu-zhongguo-gongyi-meishu-shi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-32",
+    "merged_candidates": [],
+    "note": "新建书目条；只记知识出版社 1985 年版，不与 2010 修订本来源文档合并。"
+  },
+  {
+    "entity": "王家树《中国工艺美术史》",
+    "target_ref": "04-knowledge/units/publications/wang-jiashu-zhongguo-gongyi-meishu-shi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-33",
+    "merged_candidates": [],
+    "note": "新建书目条；只记文化艺术出版社 1994 年版与参考书目一行，不扩写未载内容。"
+  },
+  {
+    "entity": "龙宗鑫《中国工艺美术史》",
+    "target_ref": "04-knowledge/units/publications/long-zongxin-zhongguo-gongyi-meishu-shi.md",
+    "action": "create",
+    "canonical_candidate": "2009-xiayanjing-zhongguo-shejishi:cand-07-34",
+    "merged_candidates": [],
+    "note": "新建书目条；只记陕西人民出版社 1985 年版与参考书目一行，不扩写未载内容。"
+  }
+]

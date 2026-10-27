@@ -1,0 +1,135 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-d",
+  "goal": "完成赵农《中国艺术设计史》第四章秦汉时期 79 条 unit 候选的分流与写回：新建 64 个知识元、更新 6 个既有条目、9 条重复候选登记 rejected。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:6306f423936bea6cfb7bb86569fae1207b2e2afe5b6a20ff15f5e14839ea873d",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2681,
+        "applied": 1679,
+        "rejected": 813,
+        "no_delta": 166
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          2479,
+          5385
+        ]
+      ],
+      "spans_scope": "覆盖 2907 行：L2479-L5385。",
+      "candidates_in_scope": 79
+    }
+  },
+  "method": {
+    "rules": [
+      "第四章 79 条 unit 候选逐条语义复读后分流为 create 64 / update 6 / rejected 9；cand-04-* 与 cand-05-* 混编，章节归属以 payload.source_span.chapter 为准。",
+      "新建条目统一 consensus=tentative、evidence_status=source_backed、source_count=1、version=1；更新按实际并入来源数提高 source_count，same-book 跨度不增 source_count。",
+      "原文错字、内部矛盾与分页拼接照录并标注，不径改；只有一句话或一句半的材料 confidence 记 low，不据图补形制。",
+      "同一实体命中多条候选时只保留一条 canonical（create 或 update），其余走 rejected 并指向同一目标文件，不重复建 KU。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 64,
+      "update": 6,
+      "no_delta": 0,
+      "rejected": 9,
+      "paths_created": [
+        "04-knowledge/units/persons/qin-shi-huang.md",
+        "04-knowledge/units/persons/han-wu-di.md",
+        "04-knowledge/units/persons/dong-zhong-shu.md",
+        "04-knowledge/units/persons/si-ma-qian.md",
+        "04-knowledge/units/persons/ban-gu.md",
+        "04-knowledge/units/persons/xu-shen.md",
+        "04-knowledge/units/persons/li-si.md",
+        "04-knowledge/units/persons/cai-lun.md",
+        "04-knowledge/units/persons/zhong-yao.md",
+        "04-knowledge/units/persons/cheng-miao.md",
+        "04-knowledge/units/persons/wang-mang.md",
+        "04-knowledge/units/persons/zhang-qian.md",
+        "04-knowledge/units/persons/ban-chao.md",
+        "04-knowledge/units/persons/shi-lu.md",
+        "04-knowledge/units/persons/xiao-he.md",
+        "04-knowledge/units/persons/meng-tian.md",
+        "04-knowledge/units/persons/huo-qu-bing.md",
+        "04-knowledge/units/publications/han-shu.md",
+        "04-knowledge/units/publications/lun-heng.md",
+        "04-knowledge/units/publications/efang-palace-fu.md",
+        "04-knowledge/units/publications/xijing-zaji.md",
+        "04-knowledge/units/works/shi-gu-wen.md",
+        "04-knowledge/units/works/shang-yang-fang-sheng.md",
+        "04-knowledge/units/works/shuihudi-qin-bamboo-slips.md",
+        "04-knowledge/units/works/juyan-han-slips.md",
+        "04-knowledge/units/works/xuan-shi-biao.md",
+        "04-knowledge/units/works/qin-chi-dao.md",
+        "04-knowledge/units/works/baoxie-road.md",
+        "04-knowledge/units/works/ling-qu.md",
+        "04-knowledge/units/works/weishui-three-bridges.md",
+        "04-knowledge/units/works/ba-bridge.md",
+        "04-knowledge/units/works/winnowing-machine.md",
+        "04-knowledge/units/works/xianyang-palace.md",
+        "04-knowledge/units/works/weiyang-palace.md",
+        "04-knowledge/units/works/songshan-three-que.md",
+        "04-knowledge/units/works/epang-palace.md",
+        "04-knowledge/units/works/qin-han-changcheng.md",
+        "04-knowledge/units/works/horse-treading-xiongnu.md",
+        "04-knowledge/units/works/mawangdui-boditu.md",
+        "04-knowledge/units/terms/huntian-theory.md",
+        "04-knowledge/units/terms/si-shen.md",
+        "04-knowledge/units/terms/qin-ban-liang.md",
+        "04-knowledge/units/terms/han-wu-zhu.md",
+        "04-knowledge/units/terms/li-shu.md",
+        "04-knowledge/units/terms/zhang-cao.md",
+        "04-knowledge/units/terms/kai-shu.md",
+        "04-knowledge/units/terms/jin-cuo-dao.md",
+        "04-knowledge/units/terms/han-dai-jin-bi.md",
+        "04-knowledge/units/terms/che-tong-gui.md",
+        "04-knowledge/units/terms/zhan-dao.md",
+        "04-knowledge/units/terms/huan-shou-dao.md",
+        "04-knowledge/units/terms/gou-xiang.md",
+        "04-knowledge/units/terms/han-armor.md",
+        "04-knowledge/units/terms/ou-li.md",
+        "04-knowledge/units/terms/qin-quan.md",
+        "04-knowledge/units/terms/qin-liang.md",
+        "04-knowledge/units/terms/men-que.md",
+        "04-knowledge/units/terms/feng-sui.md",
+        "04-knowledge/units/terms/fudou-xing-fengtu-fangzhong.md",
+        "04-knowledge/units/terms/handai-guanzhi.md",
+        "04-knowledge/units/terms/chanyi.md",
+        "04-knowledge/units/terms/lv-de-zhonglei.md",
+        "04-knowledge/units/terms/sinan.md",
+        "04-knowledge/units/terms/dongwuxing-dengju.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/shuang-yuan-che.md",
+        "04-knowledge/units/terms/nu-crossbow.md",
+        "04-knowledge/units/terms/shi-mo.md",
+        "04-knowledge/units/terms/rongquan-jin.md",
+        "04-knowledge/units/places/wushi-ci.md",
+        "04-knowledge/units/places/huoqubing-mu.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/terms/han-dai-jin-bi.md",
+        "04-knowledge/units/terms/han-dai-jin-bi.md",
+        "04-knowledge/units/procedures/chromate-oxidation-treatment.md",
+        "04-knowledge/units/persons/huo-qu-bing.md",
+        "04-knowledge/units/works/qin-bing-ma-yong.md",
+        "04-knowledge/units/terms/touguang-jing.md",
+        "04-knowledge/units/persons/ding-huan.md",
+        "04-knowledge/units/works/houfeng-dizhenyi.md",
+        "04-knowledge/units/procedures/zaozhishu.md"
+      ],
+      "notes": "第六章章内混编的 cand-05-* 候选（起绒锦、冠制、禅衣、履、透光镜、卧褥香炉、西京杂记、地动仪、蔡侯纸、司南、马王堆帛地图、动物形灯）与 cand-04-* 同批处理，不另立批次。"
+    }
+  }
+}

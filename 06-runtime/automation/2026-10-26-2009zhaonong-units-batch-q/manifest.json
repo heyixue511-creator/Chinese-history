@@ -1,0 +1,89 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-q",
+  "goal": "赵农 2009 册第十章第六至第七节 unit 候选写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:49882a86f2aa2940433dbc7fe27117a9ae16052819d51d869d5d730f3b2a467e",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1986,
+        "applied": 2309,
+        "rejected": 852,
+        "no_delta": 192
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          8246,
+          8443
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第十章第六节货币与交通、第七节艺术设计教育 L8246–L8443 逐段复读，含钱币、生活票证、其他器具、交通工具、设计教育发展与艺术设计研究；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图 10-48 至图 10-64 未视觉核验。",
+      "candidates_in_scope": 21,
+      "candidate_spans_union": [
+        [
+          8248,
+          8356
+        ],
+        [
+          8359,
+          8800
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "逐字引文用“ ”，作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "列举型候选只著录来源所列名称、材质、用途与评语，不据来源外材料补形制、尺寸与设计者",
+      "同名实体不重复立条：龙号机车按 no_delta 处理",
+      "总类与子类分层：生活票证与粮票分列，自行车与永久、飞鸽品牌分列",
+      "图版一律据图注著录，未视觉核验，不据图扩写；神舟五号图注作「神州五号」，照录并标差异",
+      "作者自述影响照录并标注，不当作独立评价"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 20,
+      "update": 0,
+      "no_delta": 1,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/daqing-yinbi.md",
+        "04-knowledge/units/works/yuandatou.md",
+        "04-knowledge/units/terms/renminbi.md",
+        "04-knowledge/units/works/moxige-yingyang.md",
+        "04-knowledge/units/terms/shenghuo-piaozheng.md",
+        "04-knowledge/units/terms/liangpiao.md",
+        "04-knowledge/units/works/shenzhou-wuhao.md",
+        "04-knowledge/units/terms/renliche.md",
+        "04-knowledge/units/works/cixi-zhuanyongche.md",
+        "04-knowledge/units/works/shanghai-cifu.md",
+        "04-knowledge/units/terms/zixingche.md",
+        "04-knowledge/units/persons/cai-yuanpei.md",
+        "04-knowledge/units/publications/shijie-xiandai-shejishi.md",
+        "04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md",
+        "04-knowledge/units/publications/gongye-shejixue-gailun.md",
+        "04-knowledge/units/publications/baima-shejixue-congshu.md",
+        "04-knowledge/units/publications/yishu-shejixue.md",
+        "04-knowledge/units/publications/xiandai-sheji-daxi.md",
+        "04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md",
+        "04-knowledge/units/publications/sheji-gailun.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [
+        "04-knowledge/units/works/longhao-jiche.md"
+      ],
+      "paths_rejected": [],
+      "notes": "赵农 2009 册第十章第六至第七节 unit 候选 21 条：create 20、no_delta 1。范围 L8246-L8443。新建覆盖大清银币、袁大头、人民币、墨西哥鹰洋、生活票证、粮票、神舟五号载人飞船、人力车、慈禧太后专用车、上海磁悬浮列车、自行车十一项货币票证与交通工具，蔡元培一人，以及《世界现代设计史》《世界现代平面设计史》《工业设计学概论》《白马设计学丛书》《艺术设计学》《现代设计大系》《高等院校设计艺术专业系列教材》《设计概论》八种设计研究著述；no_delta 为龙号机车。中央工艺美术学院、清华大学美术学院、陈之佛、包豪斯等已有或属机构/事件候选，本批不重复立条。图 10-48 至图 10-64 未视觉核验。"
+    }
+  }
+}

@@ -54,7 +54,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 5
@@ -64,7 +64,15 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "缂丝是 B 维度下丝织工艺的术语锚点，其以书画为蓝本的生产方式也涉及 C 维度的图像转译问题。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.2 首批：以缂丝为丝织工艺术语，复读其通经断纬、书画蓝本与 1911 年后苏州产品转向；图像转译涉及 C。"
+hierarchy_scope_note: "缂丝是 B.2 下丝织工艺术语，其以书画为蓝本的生产方式涉及 C 维度图像转译；C 类 Theme 尚未 materialize，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

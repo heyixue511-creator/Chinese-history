@@ -1,0 +1,169 @@
+{
+  "work_package": "2026-10-27-2010tianzibing-units-batch-t9",
+  "goal": "完成田自秉 2010 册第八章宋代工艺美术的 unit 候选写回",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:8e358a41efc257ba6d84f1756905b95bca76fda3efe927e434a2addb36f7dcbd",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1729,
+        "applied": 2539,
+        "rejected": 852,
+        "no_delta": 219
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          3468,
+          3948
+        ],
+        [
+          4406,
+          4406
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第八章宋代的工艺美术（L3468-L3948）逐段复读，含五代宋初概说、辽金西夏工艺、陶瓷、染织、刺绣、金属、铜镜、漆器与砚台，至宋代结语。插图 8、12、16、21 及彩版只读图注，未视觉核验。合并候选 cand-11-59 所指明代螺钿段 L4406 随 terms/luodian.md 一并收录，故 scope_spans 另记 L4406；cand-10-24 的候选跨度延至 L4689，其中清段 L4687 已由既有蓝印花布条承担，本批只新增 L3824 宋段，不宣称复读 L3949-L4688。",
+      "candidates_in_scope": 37,
+      "candidate_spans_union": [
+        [
+          3486,
+          3486
+        ],
+        [
+          3595,
+          3595
+        ],
+        [
+          3619,
+          3619
+        ],
+        [
+          3623,
+          3623
+        ],
+        [
+          3638,
+          3638
+        ],
+        [
+          3649,
+          3649
+        ],
+        [
+          3682,
+          3682
+        ],
+        [
+          3704,
+          3704
+        ],
+        [
+          3706,
+          3708
+        ],
+        [
+          3721,
+          3725
+        ],
+        [
+          3759,
+          3759
+        ],
+        [
+          3763,
+          3773
+        ],
+        [
+          3783,
+          3790
+        ],
+        [
+          3816,
+          3816
+        ],
+        [
+          3818,
+          3818
+        ],
+        [
+          3824,
+          4689
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注、且所指器物已由其他条目承担的候选记 no_delta；所指器物无其他条目承担时，建图版锚点作品条并标未视觉核验与逐项未载",
+      "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "候选 unit_type 与实体性质不符时按实体改写：织物与纹样类型记 term，单件器物与单幅画作记 work",
+      "同段并列条目按证据层级分列：工艺总类归 term，实例器物归 work，人物归 person，不因同段而合并"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 27,
+      "update": 3,
+      "no_delta": 7,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/heye-changkou-yinbei.md",
+        "04-knowledge/units/works/qidan-an.md",
+        "04-knowledge/units/works/yingqing-zhihu.md",
+        "04-knowledge/units/persons/shu-weng.md",
+        "04-knowledge/units/persons/shu-jiao.md",
+        "04-knowledge/units/terms/song-sancai.md",
+        "04-knowledge/units/terms/jitui-tan.md",
+        "04-knowledge/units/works/baici-pankou-changjing-ping.md",
+        "04-knowledge/units/terms/fengshou-hu.md",
+        "04-knowledge/units/works/zhengding-longxingsi-tongfo.md",
+        "04-knowledge/units/terms/xin-tongqi.md",
+        "04-knowledge/units/terms/song-jing.md",
+        "04-knowledge/units/terms/qi-silk.md",
+        "04-knowledge/units/terms/song-luo.md",
+        "04-knowledge/units/terms/maohua-shanse-jin.md",
+        "04-knowledge/units/works/liantang-ruya-tu.md",
+        "04-knowledge/units/persons/tang-zhongyou.md",
+        "04-knowledge/units/works/duiniao-duiyang-baoshou.md",
+        "04-knowledge/units/works/miaojin-duidiao-qihe.md",
+        "04-knowledge/units/terms/luodian.md",
+        "04-knowledge/units/terms/tixi.md",
+        "04-knowledge/units/works/tixi-zhijinghe.md",
+        "04-knowledge/units/works/diaoqi-shanbing.md",
+        "04-knowledge/units/persons/wu-xu.md",
+        "04-knowledge/units/works/meique-tu.md",
+        "04-knowledge/units/works/pantao-tu.md",
+        "04-knowledge/units/terms/miaojin.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/persons/zhao-ji.md",
+        "04-knowledge/units/terms/liao-sancai.md",
+        "04-knowledge/units/procedures/lan-yinhua-bu.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/terms/ge-yao.md",
+        "04-knowledge/units/terms/ge-yao.md",
+        "04-knowledge/units/places/jian-kiln.md",
+        "04-knowledge/units/publications/ziren-yizhi.md",
+        "04-knowledge/units/terms/kesi.md",
+        "04-knowledge/units/institutions/xiuyuan.md",
+        "04-knowledge/units/institutions/xiuyuan.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

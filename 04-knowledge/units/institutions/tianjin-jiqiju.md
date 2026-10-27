@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,16 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "天津机器局是 D 维度下晚清洋务军工企业的条目，其机器制造技术归 B；当前只到 Dimension。"
+primary_theme: D.1
+secondary_themes:
+  - B.1
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1 首批：以该局作为洋务军工企业序列中的机构样本复读。"
+hierarchy_scope_note: "天津机器局是 D.1 下晚清洋务军工企业的条目；其机器制造技术属 B 维度，B 侧由 B.1 承接。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

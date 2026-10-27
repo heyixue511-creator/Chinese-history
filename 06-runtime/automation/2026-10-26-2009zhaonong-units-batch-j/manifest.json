@@ -1,0 +1,123 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-batch-j",
+  "goal": "赵农 2009 册第九章第三至第四节（商业与民居、文具与书籍）unit 候选 57 条裁决与类型化写回",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:096896f237b00dbd88e53e9af582ee0817ed26d4e2f38cd7626ecd23b4f224ce",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2200,
+        "applied": 2100,
+        "rejected": 848,
+        "no_delta": 191
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          6834,
+          7296
+        ]
+      ],
+      "spans_scope": "赵农 2009 册第九章第三节商业与民居、第四节文具与书籍正文 L6834–L7296 逐段复读，含市井广告、钱币与邮票、地域民居、明式与清式家具、文房四宝、明代与清代印刷、书籍装帧；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+      "candidates_in_scope": 57,
+      "candidate_spans_union": [
+        [
+          6836,
+          8266
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+      "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+      "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+      "原文疑误与内部张力照录标注，不径改",
+      "重复实体只保留一个 canonical，其余候选判 rejected",
+      "仅图注、单行列举或绪论一句总述不足以立条，实质材料在后续节的候选留待后批处理",
+      "图版一律据图注著录，未视觉核验，不据图扩写"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 53,
+      "update": 1,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/terms/zhaopai.md",
+        "04-knowledge/units/terms/yanghuo.md",
+        "04-knowledge/units/terms/daming-tongxing-baochao.md",
+        "04-knowledge/units/terms/qing-baochao.md",
+        "04-knowledge/units/terms/hubu-guanpiao.md",
+        "04-knowledge/units/terms/longyang.md",
+        "04-knowledge/units/works/dalong-youpiao.md",
+        "04-knowledge/units/persons/liu-mingchuan.md",
+        "04-knowledge/units/terms/siheyuan.md",
+        "04-knowledge/units/terms/yaodong.md",
+        "04-knowledge/units/terms/jiangnan-minju.md",
+        "04-knowledge/units/terms/matou-qiang.md",
+        "04-knowledge/units/terms/minnan-tulou.md",
+        "04-knowledge/units/terms/yikeyin.md",
+        "04-knowledge/units/terms/diaolou.md",
+        "04-knowledge/units/terms/menggubao.md",
+        "04-knowledge/units/terms/shanxi-siheyuan.md",
+        "04-knowledge/units/terms/guanmao-yi.md",
+        "04-knowledge/units/terms/meigui-yi.md",
+        "04-knowledge/units/terms/jiazi-chuang.md",
+        "04-knowledge/units/terms/luohan-chuang.md",
+        "04-knowledge/units/terms/babu-chuang.md",
+        "04-knowledge/units/terms/dengdun.md",
+        "04-knowledge/units/terms/qingshi-ta.md",
+        "04-knowledge/units/terms/pilumao.md",
+        "04-knowledge/units/terms/longdun.md",
+        "04-knowledge/units/terms/lujiao-yi.md",
+        "04-knowledge/units/terms/anle-yi.md",
+        "04-knowledge/units/terms/hubi.md",
+        "04-knowledge/units/terms/huimo.md",
+        "04-knowledge/units/terms/taoyan.md",
+        "04-knowledge/units/terms/chengni-yan.md",
+        "04-knowledge/units/publications/xiqing-yanpu.md",
+        "04-knowledge/units/terms/maobian-zhi.md",
+        "04-knowledge/units/persons/chen-hongshou.md",
+        "04-knowledge/units/persons/johannes-gutenberg.md",
+        "04-knowledge/units/publications/yongle-dadian.md",
+        "04-knowledge/units/persons/zhu-zaiyu.md",
+        "04-knowledge/units/terms/shier-pingjun-lv.md",
+        "04-knowledge/units/publications/yuelv-quanshu.md",
+        "04-knowledge/units/publications/yongle-beizang.md",
+        "04-knowledge/units/terms/dianben.md",
+        "04-knowledge/units/publications/quan-tangshi.md",
+        "04-knowledge/units/terms/qingdai-diaoban-chatu.md",
+        "04-knowledge/units/persons/zhai-jinsheng.md",
+        "04-knowledge/units/publications/wuyingdian-juzhenban-chengshi.md",
+        "04-knowledge/units/publications/nanjiang-yishi-kanben.md",
+        "04-knowledge/units/publications/chaobao.md",
+        "04-knowledge/units/terms/maozhuang.md",
+        "04-knowledge/units/terms/hantao.md",
+        "04-knowledge/units/terms/jiaban.md",
+        "04-knowledge/units/terms/hanhe.md",
+        "04-knowledge/units/terms/shuxiang.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/publications/shizhuzhai-huapu.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        null,
+        null,
+        null
+      ],
+      "notes": "赵农 2009 册第九章第三至第四节 unit 候选 57 条：create 53、update 1、rejected 3。范围 L6834-L7296。新建覆盖招牌、洋货、大明通行宝钞、大清宝钞、户部官票、龙洋、大龙邮票、刘铭传、四合院、窑洞、江南民居、马头墙、闽南土楼、一颗印、碉楼、蒙古包、山西四合院、官帽椅、玫瑰椅、架子床、罗汉床、拔步床、凳墩、清式榻、毗卢帽、龙墩、鹿角椅、安乐椅、湖笔、徽墨、洮砚、澄泥砚、西清砚谱、毛边纸、陈洪绶、古腾堡、永乐大典、朱载堉、十二平均律、乐律全书、永乐北藏、殿本、全唐诗、清代雕版插图、翟金生、武英殿聚珍版程式、南疆绎史勘本、朝报、毛装、函套、夹板、函盒、书箱。1 条更新为十竹斋画谱（跨册，source_count 2→3、version 1→2）；3 条 rejected（苏州网师园仅图注、罗汉床 L7029 与 cand-10-72 同实体、清末地方官书局与既有四局条目重复）。本批范围内 6 条 claim 候选仍保持 needs_evidence，未进入 claim-registry。"
+    }
+  }
+}

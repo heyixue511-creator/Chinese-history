@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "叶灵凤在本册被列为民国书装“唯美主义倾向、现代主义代表”一支，且兼有小说家与出版人身份。书籍装帧归 C 维度（视觉传达与文字设计）。Theme/Topic 尚未 materialize。"
+primary_theme: C.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+    role: key_person
+    primary: true
+    scope_note: "C.2.2 首批：以叶灵凤为唯美主义与现代主义一路的样本，复读其小说家、出版人、书装设计者三重身份与 1920–30 年代书装定位。"
+hierarchy_scope_note: "叶灵凤是 C.2 下以唯美主义与现代主义书装见长的设计家，兼有小说家与出版人身份；其风格定位是本 Topic 的路径样本，原文仅一句评语、confidence 为 low。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "叶灵凤在本册被列为民国书装“唯美主义倾
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条保留原文对“唯美主义—现代主义”这一风格谱系的命名，以及书装作者可以同时是作家与出版人这一身份重叠。原文只有一句评语，无作品、无年代、无图版，故 confidence 取 low。当前只到 Dimension。
+- primary_theme: C.2（书籍装帧、印刷与出版）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 叶灵凤是 C.2 下以唯美主义与现代主义书装见长的设计家，兼有小说家与出版人身份；其风格定位是本 Topic 的路径样本，原文仅一句评语、confidence 为 low。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

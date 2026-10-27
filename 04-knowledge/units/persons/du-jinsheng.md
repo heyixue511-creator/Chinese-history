@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "都锦生是 B 维度下民国丝织风景工艺与工商化生产的代表。Theme/Topic 尚未 materialize。"
+primary_theme: B.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+    role: key_person
+    primary: true
+    scope_note: "B.2 首批：以都锦生为民国丝织风景工艺与工商化生产的代表，复读其风景织锦与产品化路径。"
+hierarchy_scope_note: "都锦生是 B.2 下民国丝织风景工艺与工商化生产的代表；原 secondary_dimensions 为空，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

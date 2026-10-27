@@ -1,0 +1,154 @@
+[
+ {
+  "entity": "宋绣《金刚般若波罗蜜经》",
+  "target_ref": "04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-55",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md。cand-03-55 并入该条。"
+ },
+ {
+  "entity": "沈子蕃缂丝《花鸟图》",
+  "target_ref": "04-knowledge/units/works/shen-zifan-hua-niao-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-44",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shen-zifan-hua-niao-tu.md。cand-03-44 并入该条。"
+ },
+ {
+  "entity": "朱克柔缂丝《牡丹》",
+  "target_ref": "04-knowledge/units/works/zhu-kerou-mu-dan.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-43",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhu-kerou-mu-dan.md。cand-03-43 并入该条。"
+ },
+ {
+  "entity": "院体画",
+  "target_ref": "04-knowledge/units/terms/yuan-ti-hua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-71",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yuan-ti-hua.md。cand-03-71 并入该条。"
+ },
+ {
+  "entity": "粉本",
+  "target_ref": "04-knowledge/units/procedures/fenben-fuzhi.md",
+  "action": "no_delta",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-72",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/procedures/fenben-fuzhi.md。cand-03-72 归并该条，不另建。"
+ },
+ {
+  "entity": "早期工业化",
+  "target_ref": "04-knowledge/units/terms/zaoqi-gongyehua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-73",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zaoqi-gongyehua.md。cand-03-73 并入该条。"
+ },
+ {
+  "entity": "李贽",
+  "target_ref": "04-knowledge/units/persons/li-zhi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-17",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/li-zhi.md。cand-03-17 并入该条。"
+ },
+ {
+  "entity": "《焚书》",
+  "target_ref": "04-knowledge/units/publications/fenshu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-56",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/fenshu.md。cand-03-56 并入该条。"
+ },
+ {
+  "entity": "一器而工聚",
+  "target_ref": "04-knowledge/units/terms/yiqi-er-gongju.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-74",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yiqi-er-gongju.md。cand-03-74 并入该条。"
+ },
+ {
+  "entity": "铸鼎图",
+  "target_ref": "04-knowledge/units/works/zhu-ding-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhu-ding-tu.md。cand-03-45 并入该条。"
+ },
+ {
+  "entity": "锤锚图",
+  "target_ref": "04-knowledge/units/works/chui-mao-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-124",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chui-mao-tu.md。cand-03-124 并入该条。"
+ },
+ {
+  "entity": "花机图",
+  "target_ref": "04-knowledge/units/works/hua-ji-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-122",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/hua-ji-tu.md。cand-03-122 并入该条。"
+ },
+ {
+  "entity": "朝钟同法",
+  "target_ref": "04-knowledge/units/works/chao-zhong-tong-fa.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-123",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chao-zhong-tong-fa.md。cand-03-123 并入该条。"
+ },
+ {
+  "entity": "王征",
+  "target_ref": "04-knowledge/units/persons/wang-zheng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wang-zheng.md。cand-03-18 并入该条。"
+ },
+ {
+  "entity": "《远西奇器图说》",
+  "target_ref": "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-49",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yuanxi-qiqitu-shuo.md。cand-03-49 并入该条。"
+ },
+ {
+  "entity": "《浮梁县志》",
+  "target_ref": "04-knowledge/units/publications/fuliang-xianzhi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-03",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/fuliang-xianzhi.md。cand-04-03 并入该条。"
+ },
+ {
+  "entity": "手工工场",
+  "target_ref": "04-knowledge/units/terms/shougong-gongchang.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shougong-gongchang.md。cand-04-01 并入该条。"
+ },
+ {
+  "entity": "徐光启",
+  "target_ref": "04-knowledge/units/persons/xu-guangqi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-05",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/xu-guangqi.md。cand-04-05 并入该条。"
+ },
+ {
+  "entity": "《奇器图说》",
+  "target_ref": "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md",
+  "action": "no_delta",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/yuanxi-qiqitu-shuo.md。cand-04-08 归并该条，不另建。"
+ }
+]

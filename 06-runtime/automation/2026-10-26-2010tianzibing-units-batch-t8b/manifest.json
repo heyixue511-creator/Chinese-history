@@ -1,0 +1,151 @@
+{
+  "work_package": "2026-10-26-2010tianzibing-units-batch-t8b",
+  "goal": "田自秉 2010 册隋唐工艺美术后半（L3248-L3467）的 19 个候选裁决与类型化写回：17 新建、1 更新、1 no_delta。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:3d128a85c1440df9ea6709b67d0ba30c39e0e19a0816c47cb487463993579ec7",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1748,
+        "applied": 2521,
+        "rejected": 852,
+        "no_delta": 218
+      }
+    },
+    "source": {
+      "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+      "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+      "spans": [
+        [
+          3248,
+          3467
+        ]
+      ],
+      "spans_scope": "田自秉 2010 册第七章隋唐的工艺美术后半（L3248-L3467）逐段复读，含刺绣、金属工艺、金银器、铜镜、漆器、家具、其他工艺与唐代结语，至卷草与牡丹条止。插图 13、16、17 及彩版只读图注，未视觉核验。L3016-L3246 的隋唐前半已由 T8a 处理。",
+      "candidates_in_scope": 19,
+      "candidate_spans_union": [
+        [
+          3268,
+          3268
+        ],
+        [
+          3270,
+          3270
+        ],
+        [
+          3280,
+          3280
+        ],
+        [
+          3282,
+          3282
+        ],
+        [
+          3304,
+          3304
+        ],
+        [
+          3313,
+          3313
+        ],
+        [
+          3341,
+          3341
+        ],
+        [
+          3343,
+          3343
+        ],
+        [
+          3368,
+          3368
+        ],
+        [
+          3388,
+          3388
+        ],
+        [
+          3392,
+          3392
+        ],
+        [
+          3400,
+          3402
+        ],
+        [
+          3415,
+          3425
+        ],
+        [
+          3429,
+          3429
+        ],
+        [
+          3442,
+          3442
+        ],
+        [
+          3462,
+          3462
+        ],
+        [
+          3464,
+          3464
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+      "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+      "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+      "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+      "同名异物或同词两义并列著录，不合并为单一定义",
+      "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+      "只有图注、且所指器物已由其他条目承担的候选记 no_delta；所指器物无其他条目承担时，建图版锚点作品条并标未视觉核验与逐项未载",
+      "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+      "候选 unit_type 与实体性质不符时按实体改写：织物与纹样类型记 term，单件器物与单幅画作记 work",
+      "同段并列条目按证据层级分列：工艺总类归 term，实例器物归 work，人物归 person，不因同段而合并"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 17,
+      "update": 1,
+      "no_delta": 1,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/works/shensi-xiu-bei.md",
+        "04-knowledge/units/persons/lu-meiniang.md",
+        "04-knowledge/units/works/tang-dai-tong-zhenzhi.md",
+        "04-knowledge/units/works/jingyun-er-nian-dazhong.md",
+        "04-knowledge/units/works/tang-dai-yin-xunlu.md",
+        "04-knowledge/units/works/lunyu-yuzhu.md",
+        "04-knowledge/units/terms/haishou-putao-wen.md",
+        "04-knowledge/units/terms/shuangluan-xianshou-wen.md",
+        "04-knowledge/units/terms/tangjing-tuzhi-wushi.md",
+        "04-knowledge/units/works/luodian-wuxian-pipa.md",
+        "04-knowledge/units/terms/kuluzhen.md",
+        "04-knowledge/units/terms/muhua.md",
+        "04-knowledge/units/works/muhua-qiju.md",
+        "04-knowledge/units/terms/shuangliu-ju.md",
+        "04-knowledge/units/works/xiaoyi-zhuan-lanting-tu.md",
+        "04-knowledge/units/works/dazhi-chanshi-bei.md",
+        "04-knowledge/units/terms/mudan.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/tangcao-wen.md"
+      ],
+      "paths_no_delta": [
+        "04-knowledge/units/procedures/jinyin-pingtuo.md"
+      ],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

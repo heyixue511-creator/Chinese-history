@@ -1,0 +1,55 @@
+{
+  "work_package": "2026-10-26-2009zhaonong-units-metadata",
+  "goal": "处理赵农《中国艺术设计史》（2009）书籍与作者 2 条 metadata unit 候选：新建书目条与作者条各 1。",
+  "status": "applied",
+  "date": "2026-10-26",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:24c7ec3c361b7ca373c811f7fc3b5c7fe409ee8e2b72255410fcb7cc8e944951",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 2778,
+        "applied": 1588,
+        "rejected": 813,
+        "no_delta": 160
+      }
+    },
+    "source": {
+      "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+      "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+      "spans": [
+        [
+          10,
+          8775
+        ]
+      ],
+      "spans_scope": "覆盖 8766 行：L10-L8775。",
+      "candidates_in_scope": 2
+    }
+  },
+  "method": {
+    "rules": [
+      "书籍与作者条只取版权页、序言、后记可证信息，不补来源外生平。",
+      "单源新建 consensus=tentative、source_count=1、version=1。",
+      "书目条与作者条分列，不合并。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 2,
+      "update": 0,
+      "no_delta": 0,
+      "rejected": 0,
+      "paths_created": [
+        "04-knowledge/units/publications/zhongguo-yishu-shejishi-zhaonong-2009.md",
+        "04-knowledge/units/persons/zhao-nong.md"
+      ],
+      "paths_updated": [],
+      "paths_no_delta": [],
+      "paths_rejected": [],
+      "notes": ""
+    }
+  }
+}

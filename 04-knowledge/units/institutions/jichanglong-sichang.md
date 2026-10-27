@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -40,7 +40,16 @@ primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "继昌隆缫丝厂是 B 维度下近代机器缫丝生产的机构条目，其民族资本经营归 D、法国技术引入归 E；当前只到 Dimension。"
+primary_theme: B.1
+secondary_themes:
+  - D.1
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b1-jiqi-fangzhi-zaozhi.md
+    role: key_institution
+    primary: true
+    scope_note: "B.1 首批：以该厂作为机器缫丝工序与民族资本经营的机构样本复读。"
+hierarchy_scope_note: "继昌隆缫丝厂是 B.1 下近代机器缫丝生产的机构条目，其民族资本经营同时关联 D.1；法国技术引入的跨文化意义归 E 维度，E 类 Theme 尚未 materialize。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

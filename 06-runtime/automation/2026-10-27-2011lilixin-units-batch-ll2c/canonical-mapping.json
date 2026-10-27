@@ -1,0 +1,122 @@
+[
+ {
+  "entity": "轴心时代",
+  "target_ref": "04-knowledge/units/terms/zhouxin-shidai.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-79",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhouxin-shidai.md。cand-01-79 并入该条。"
+ },
+ {
+  "entity": "审曲面势",
+  "target_ref": "04-knowledge/units/terms/shenqu-mianshi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-80",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shenqu-mianshi.md。cand-01-80 并入该条。"
+ },
+ {
+  "entity": "雅斯贝斯",
+  "target_ref": "04-knowledge/units/persons/yasibeisi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-138",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/yasibeisi.md。cand-02-138 并入该条。"
+ },
+ {
+  "entity": "阴阳五行",
+  "target_ref": "04-knowledge/units/terms/yinyang-wuxing.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-53",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yinyang-wuxing.md。cand-02-53 并入该条。"
+ },
+ {
+  "entity": "曾侯乙墓漆衣箱天象图",
+  "target_ref": "04-knowledge/units/works/zenghouyi-tianxiang-tu.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-55",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zenghouyi-tianxiang-tu.md。cand-02-55 并入该条。"
+ },
+ {
+  "entity": "车马人物出行图",
+  "target_ref": "04-knowledge/units/places/baoshan-chumu.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-57",
+  "merged_candidates": [],
+  "note": "cand-02-57 与 04-knowledge/units/places/baoshan-chumu.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "鹿角立鹤",
+  "target_ref": "04-knowledge/units/works/lujiao-lihe.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-143",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lujiao-lihe.md。cand-02-143 并入该条。"
+ },
+ {
+  "entity": "镇墓兽",
+  "target_ref": "04-knowledge/units/terms/zhenmushou.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-62",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhenmushou.md。cand-02-62 并入该条。"
+ },
+ {
+  "entity": "楚帛书",
+  "target_ref": "04-knowledge/units/works/chu-boshu.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-60",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/chu-boshu.md。cand-02-60 并入该条。"
+ },
+ {
+  "entity": "宴乐渔猎攻战纹壶",
+  "target_ref": "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-63",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md。cand-02-63 并入该条。"
+ },
+ {
+  "entity": "素面青铜器大府镐",
+  "target_ref": "04-knowledge/units/works/dafu-gao.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-144",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/dafu-gao.md。cand-02-144 并入该条。"
+ },
+ {
+  "entity": "宗白华",
+  "target_ref": "04-knowledge/units/persons/zongbaihua.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/zongbaihua.md。cand-02-64 并入该条。"
+ },
+ {
+  "entity": "九流十家",
+  "target_ref": "04-knowledge/units/terms/jiuliu-shijia.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-150",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiuliu-shijia.md。cand-02-150 并入该条。"
+ },
+ {
+  "entity": "大器免成",
+  "target_ref": "04-knowledge/units/terms/daqi-miancheng.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-67",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/daqi-miancheng.md。cand-02-67 并入该条。"
+ },
+ {
+  "entity": "重本抑末",
+  "target_ref": "04-knowledge/units/persons/han-fei-zi.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-02-68",
+  "merged_candidates": [],
+  "note": "cand-02-68 与 04-knowledge/units/persons/han-fei-zi.md 重复，标 rejected 并保留 target_ref。"
+ }
+]

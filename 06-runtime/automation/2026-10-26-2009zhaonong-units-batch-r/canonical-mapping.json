@@ -1,0 +1,74 @@
+[
+ {
+  "entity": "林则徐",
+  "target_ref": "04-knowledge/units/persons/lin-zexu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-122",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/lin-zexu.md。"
+ },
+ {
+  "entity": "水晶宫",
+  "target_ref": "04-knowledge/units/works/shuijinggong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-124",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/shuijinggong.md。"
+ },
+ {
+  "entity": "魏源",
+  "target_ref": "04-knowledge/units/persons/wei-yuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-125",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/wei-yuan.md。"
+ },
+ {
+  "entity": "冯桂芬",
+  "target_ref": "04-knowledge/units/persons/feng-guifen.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-128",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/feng-guifen.md。"
+ },
+ {
+  "entity": "《校邠庐抗议》",
+  "target_ref": "04-knowledge/units/publications/xiaobinlu-kangyi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-129",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/xiaobinlu-kangyi.md。"
+ },
+ {
+  "entity": "陈独秀",
+  "target_ref": "04-knowledge/units/persons/chen-duxiu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-144",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/chen-duxiu.md。"
+ },
+ {
+  "entity": "胡适",
+  "target_ref": "04-knowledge/units/persons/hu-shi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-146",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/hu-shi.md。"
+ },
+ {
+  "entity": "康有为",
+  "target_ref": "04-knowledge/units/persons/kang-youwei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-148",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/kang-youwei.md。"
+ },
+ {
+  "entity": "中国风",
+  "target_ref": "04-knowledge/units/terms/zhongguo-feng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-149",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/zhongguo-feng.md。"
+ }
+]

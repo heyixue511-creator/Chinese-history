@@ -1,0 +1,258 @@
+[
+ {
+  "entity": "《呐喊》",
+  "target_ref": "04-knowledge/units/publications/nahan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-05",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/nahan.md。"
+ },
+ {
+  "entity": "《彷徨》",
+  "target_ref": "04-knowledge/units/publications/panghuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-07",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/panghuang.md。"
+ },
+ {
+  "entity": "《坟》",
+  "target_ref": "04-knowledge/units/publications/fen.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-08",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/fen.md。"
+ },
+ {
+  "entity": "钱君陶",
+  "target_ref": "04-knowledge/units/persons/qian-juntao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-09",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/qian-juntao.md。"
+ },
+ {
+  "entity": "《冯小青》",
+  "target_ref": "04-knowledge/units/publications/feng-xiaoqing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-13",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/feng-xiaoqing.md。"
+ },
+ {
+  "entity": "《万象》",
+  "target_ref": "04-knowledge/units/publications/wanxiang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-15",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/wanxiang.md。"
+ },
+ {
+  "entity": "《中国历代货币大系》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-lidai-huobi-daxi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-18",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-lidai-huobi-daxi.md。"
+ },
+ {
+  "entity": "《毛泽东选集》",
+  "target_ref": "04-knowledge/units/publications/maozedong-xuanji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-19",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/maozedong-xuanji.md。"
+ },
+ {
+  "entity": "《中国历代绘画》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-lidai-huihua.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-20",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-lidai-huihua.md。"
+ },
+ {
+  "entity": "《陈寅恪文集》",
+  "target_ref": "04-knowledge/units/publications/chen-yinke-wenji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-21",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/chen-yinke-wenji.md。"
+ },
+ {
+  "entity": "《老房子》",
+  "target_ref": "04-knowledge/units/publications/lao-fangzi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-22",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/lao-fangzi.md。"
+ },
+ {
+  "entity": "《老照片》",
+  "target_ref": "04-knowledge/units/publications/lao-zhaopian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-23",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/lao-zhaopian.md。"
+ },
+ {
+  "entity": "《汉声》",
+  "target_ref": "04-knowledge/units/publications/hansheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-24",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/hansheng.md。"
+ },
+ {
+  "entity": "《读书》",
+  "target_ref": "04-knowledge/units/publications/dushu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-162",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/dushu.md。"
+ },
+ {
+  "entity": "阴丹士林色布",
+  "target_ref": "04-knowledge/units/terms/yindanshilin-sebu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-40",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/yindanshilin-sebu.md。"
+ },
+ {
+  "entity": "金梅生",
+  "target_ref": "04-knowledge/units/persons/jin-meisheng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-44",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/jin-meisheng.md。"
+ },
+ {
+  "entity": "李慕白",
+  "target_ref": "04-knowledge/units/persons/li-mubai.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-45",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/li-mubai.md。"
+ },
+ {
+  "entity": "《国际广告》",
+  "target_ref": "04-knowledge/units/publications/guoji-guanggao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-46",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/guoji-guanggao.md。"
+ },
+ {
+  "entity": "《中国广告》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-guanggao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-47",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-guanggao.md。"
+ },
+ {
+  "entity": "邮票",
+  "target_ref": "04-knowledge/units/terms/youpiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-50",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/youpiao.md。"
+ },
+ {
+  "entity": "《中国包装》",
+  "target_ref": "04-knowledge/units/publications/zhongguo-baozhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-52",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhongguo-baozhuang.md。"
+ },
+ {
+  "entity": "《包装年鉴》",
+  "target_ref": "04-knowledge/units/publications/baozhuang-nianjian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-53",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/baozhuang-nianjian.md。"
+ },
+ {
+  "entity": "2008年北京奥运会标志",
+  "target_ref": "04-knowledge/units/works/aoyun-2008-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-57",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/aoyun-2008-biaozhi.md。"
+ },
+ {
+  "entity": "中国银行标志",
+  "target_ref": "04-knowledge/units/works/zhongguo-yinhang-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-58",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhongguo-yinhang-biaozhi.md。"
+ },
+ {
+  "entity": "中国铁路标志",
+  "target_ref": "04-knowledge/units/works/zhongguo-tielu-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-59",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhongguo-tielu-biaozhi.md。"
+ },
+ {
+  "entity": "“永久”牌自行车",
+  "target_ref": "04-knowledge/units/works/yongjiu-zixingche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-60",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/yongjiu-zixingche.md。"
+ },
+ {
+  "entity": "中国民航“凤凰”标志",
+  "target_ref": "04-knowledge/units/works/minhang-fenghuang-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-61",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/minhang-fenghuang-biaozhi.md。"
+ },
+ {
+  "entity": "中国人民政治协商会议会徽",
+  "target_ref": "04-knowledge/units/works/zhengxie-huihui.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-62",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/zhengxie-huihui.md。"
+ },
+ {
+  "entity": "交通标志",
+  "target_ref": "04-knowledge/units/terms/jiaotong-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-167",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jiaotong-biaozhi.md。"
+ },
+ {
+  "entity": "商品标志",
+  "target_ref": "04-knowledge/units/terms/shangpin-biaozhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-168",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/shangpin-biaozhi.md。"
+ },
+ {
+  "entity": "良友",
+  "target_ref": "04-knowledge/units/publications/liangyou.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-16",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/liangyou.md。"
+ },
+ {
+  "entity": "装饰杂志",
+  "target_ref": "04-knowledge/units/publications/zhuangshi-zazhi.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-17",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/publications/zhuangshi-zazhi.md。"
+ }
+]

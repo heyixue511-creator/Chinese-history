@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -49,7 +49,15 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
-hierarchy_scope_note: "月份牌是 C 维度下近代商业广告形式的条目。Theme/Topic 尚未 materialize。"
+primary_theme: C.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/c1-yuefenpai-shangye-guanggao.md
+    role: term_anchor
+    primary: true
+    scope_note: "C.1 首批：以月份牌为民国商业广告形式样本，复读其石印、水彩、擦笔与赠送发布机制；市场与消费制度归 D。"
+hierarchy_scope_note: "月份牌是 C.1 下近代商业广告形式的条目；其石印与水彩媒介、广告图像与发布机制是本 Topic 的核心材料。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -71,10 +79,10 @@ hierarchy_scope_note: "月份牌是 C 维度下近代商业广告形式的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 月份牌是 C 维度下近代商业广告形式的条目。Theme/Topic 尚未 materialize。
+- primary_theme: C.1（商业美术与广告）
+- topic_memberships: C.1.1 月份牌与商业广告（term_anchor，主挂载）
+- role_in_theme: term_anchor
+- scope_note: 月份牌是 C.1 下近代商业广告形式的条目；其石印与水彩媒介、广告图像与发布机制是本 Topic 的核心材料。原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。
 
 ## 相关知识元
 

@@ -1,0 +1,91 @@
+{
+ "after_bytes": 1722846,
+ "after_sha256": "sha256:3020d2c51a7e552aee2a7af3a6d12198fb4ba53728232767cf23831da9463459",
+ "baseline": {
+  "candidate_applied": 4017,
+  "candidate_needs_evidence": 217,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1025
+ },
+ "before_bytes": 1698425,
+ "before_sha256": "sha256:52c0e593aabdcb4f70751bc087242576404ef934be66adc8284b141653cd0330",
+ "candidate_count": 14,
+ "claim_rows": 14,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 28,
+ "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "existing_claims_updated": 0,
+ "goal": "处理田自秉《中国工艺美术史》国民党统治下工艺衰落、解放区工艺与新中国工艺 claim 候选（L4963-L5288），新增 14 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2010tianzibing-claims-batch-tz9a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4031,
+  "candidate_needs_evidence": 203,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1039
+ },
+ "scope_spans": [
+  [
+   4963,
+   4965
+  ],
+  [
+   5007,
+   5009
+  ],
+  [
+   5039,
+   5039
+  ],
+  [
+   5049,
+   5049
+  ],
+  [
+   5059,
+   5059
+  ],
+  [
+   5065,
+   5065
+  ],
+  [
+   5073,
+   5073
+  ],
+  [
+   5103,
+   5103
+  ],
+  [
+   5105,
+   5105
+  ],
+  [
+   5126,
+   5126
+  ],
+  [
+   5138,
+   5138
+  ],
+  [
+   5194,
+   5196
+  ],
+  [
+   5222,
+   5222
+  ],
+  [
+   5288,
+   5288
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "support_links": 42,
+ "with_supported_by": 14
+}

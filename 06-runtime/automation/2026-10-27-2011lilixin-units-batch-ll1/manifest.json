@@ -1,0 +1,192 @@
+{
+  "work_package": "2026-10-27-2011lilixin-units-batch-ll1",
+  "goal": "李立新 2011《中国设计艺术史论》L1-L393 单元候选结案：25 新建、2 更新、3 判重",
+  "status": "applied",
+  "date": "2026-10-27",
+  "inputs": {
+    "candidate_index": {
+      "path": "06-runtime/state/candidate-index.jsonl",
+      "rows_before": 5339,
+      "sha256_before": "sha256:bc158b78cbf4190ea8e08658653724baca73d7a666f895d001a478ecca74dc91",
+      "sha256_scope": "CRLF→LF 归一",
+      "counts_before": {
+        "needs_evidence": 1557,
+        "applied": 2700,
+        "rejected": 852,
+        "no_delta": 230
+      }
+    },
+    "source": {
+      "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+      "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+      "spans": [
+        [
+          1,
+          393
+        ]
+      ],
+      "spans_scope": "覆盖 L1-L393：版权页、出版说明、代序、目录、绪言三节与上编导论，含全部图注；长跨度候选不在本批结案。",
+      "candidates_in_scope": 30,
+      "candidate_spans_union": [
+        [
+          90,
+          90
+        ],
+        [
+          163,
+          171
+        ],
+        [
+          175,
+          181
+        ],
+        [
+          184,
+          186
+        ],
+        [
+          198,
+          200
+        ],
+        [
+          213,
+          215
+        ],
+        [
+          221,
+          221
+        ],
+        [
+          225,
+          225
+        ],
+        [
+          228,
+          230
+        ],
+        [
+          243,
+          244
+        ],
+        [
+          251,
+          252
+        ],
+        [
+          258,
+          260
+        ],
+        [
+          269,
+          273
+        ],
+        [
+          283,
+          283
+        ],
+        [
+          289,
+          291
+        ],
+        [
+          293,
+          293
+        ],
+        [
+          298,
+          299
+        ],
+        [
+          307,
+          309
+        ],
+        [
+          323,
+          330
+        ],
+        [
+          333,
+          335
+        ],
+        [
+          346,
+          348
+        ],
+        [
+          362,
+          362
+        ],
+        [
+          364,
+          364
+        ],
+        [
+          378,
+          378
+        ],
+        [
+          384,
+          384
+        ]
+      ]
+    }
+  },
+  "method": {
+    "rules": [
+      "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+      "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+      "图注单独成条时保留图题与说明的行位，不连读被正文隔开的两处。",
+      "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+      "同一器物不重复建条：已有 KU 且形制相符者走 update，已覆盖者 rejected。",
+      "长跨度候选（李立新、象生器、张道一、意匠化设计）留 needs_evidence，转后续批次。"
+    ]
+  },
+  "outputs": {
+    "knowledge_units": {
+      "create": 25,
+      "update": 2,
+      "no_delta": 0,
+      "rejected": 3,
+      "paths_created": [
+        "04-knowledge/units/terms/jieduanxing-tupo-tuijin.md",
+        "04-knowledge/units/terms/sheji.md",
+        "04-knowledge/units/terms/sanzhong-zaowu-sheji.md",
+        "04-knowledge/units/works/yuxing-gubi.md",
+        "04-knowledge/units/terms/tu-an.md",
+        "04-knowledge/units/publications/zhongguo-gongyi-meishu-tongshi.md",
+        "04-knowledge/units/works/shouwen-heitao-yaxingzun.md",
+        "04-knowledge/units/works/qingbaiyou-huzhen.md",
+        "04-knowledge/units/works/baiyou-lianhua-tuo-zhuhu.md",
+        "04-knowledge/units/works/taiyangxingqi.md",
+        "04-knowledge/units/works/taojing.md",
+        "04-knowledge/units/persons/fu-sinian.md",
+        "04-knowledge/units/publications/jiegou-renleixue-de-lishi.md",
+        "04-knowledge/units/works/mengshu-gongjitu.md",
+        "04-knowledge/units/works/caihui-taocanglou.md",
+        "04-knowledge/units/terms/minzu-wenhua-xinli-jiegou.md",
+        "04-knowledge/units/works/heiqizhuhui-niaozu-qian.md",
+        "04-knowledge/units/works/changfangdeng.md",
+        "04-knowledge/units/terms/chuantong-sheji.md",
+        "04-knowledge/units/terms/dashiguan.md",
+        "04-knowledge/units/publications/zhongguo-dalishi.md",
+        "04-knowledge/units/terms/xieshixing-sheji.md",
+        "04-knowledge/units/terms/changshiduan.md",
+        "04-knowledge/units/publications/yishu-fazhanshi.md",
+        "04-knowledge/units/publications/dizhonghai-he-feilipu-ershi.md"
+      ],
+      "paths_updated": [
+        "04-knowledge/units/terms/yishu-sheji.md",
+        "04-knowledge/units/works/hanjiang-niudeng.md",
+        "04-knowledge/units/procedures/qianzhu-maozhu.md",
+        "04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md"
+      ],
+      "paths_no_delta": [],
+      "paths_rejected": [
+        "04-knowledge/units/terms/paleolithic-period.md",
+        "04-knowledge/units/terms/liangzhu-culture.md",
+        "04-knowledge/units/terms/majiayao-culture.md"
+      ],
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "package_id": "2026-10-27-hierarchy-pilot-h3",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-27",
+  "goal": "把晚清至民国主题归并报告中的 T3「商业美术与广告」materialize 为 C.1 Theme 与 2 个 Topic，并为 14 个已逐对象复读的知识元写入五级层级字段。",
+  "scope": {
+    "baseline_hierarchy_version": "v0.3",
+    "baseline_themes": 4,
+    "baseline_topics": 9,
+    "baseline_topic_memberships": 49,
+    "baseline_complete_assignments": 48,
+    "baseline_incomplete_assignments": 2522,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6095,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 97,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1504
+  },
+  "result": {
+    "hierarchy_version": "v0.4",
+    "themes": 5,
+    "topics": 11,
+    "topic_memberships": 63,
+    "complete_assignments": 62,
+    "incomplete_assignments": 2508,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6123,
+    "relation_types": "3/67",
+    "member_of_relations": 125,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "isolated_units": 1495,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/c1-shangye-meishu-yu-guanggao.md",
+      "04-knowledge/structure/themes/b2-jindai-zhixiu-fuzhuang-gongyi.md",
+      "04-knowledge/structure/themes/d2-fushi-zhidu-jindai-shenghuo.md",
+      "04-knowledge/structure/themes/b1-jindai-zaowu-jishu-zhuanxing.md",
+      "04-knowledge/structure/themes/d1-yangwu-qiye-jindai-gongye-zuzhi.md"
+    ],
+    "topics": [
+      "04-knowledge/structure/topics/c1-yuefenpai-shangye-guanggao.md",
+      "04-knowledge/structure/topics/c1-baokan-guanggao-jigou-biaozhi.md",
+      "04-knowledge/structure/topics/b2-jindai-fangzhipin-ranzhi-tuxiang.md",
+      "04-knowledge/structure/topics/b2-cixiu-kesi-fuzhuang-gongyi.md",
+      "04-knowledge/structure/topics/d2-jianbian-yifu-fuzhi-gaige.md",
+      "04-knowledge/structure/topics/d2-zhongshanzhuang-guojia-lifu.md",
+      "04-knowledge/structure/topics/b1-jiqi-fangzhi-zaozhi.md",
+      "04-knowledge/structure/topics/b1-zaochuan-tielu-gongcheng.md",
+      "04-knowledge/structure/topics/d1-yangwu-jungong-chuanbo.md",
+      "04-knowledge/structure/topics/d1-jindai-fangzhi-qiye.md",
+      "04-knowledge/structure/topics/d1-jiaotong-dianxin-jinrong.md"
+    ],
+    "mounted_units": 14,
+    "total_mounted_units": 62,
+    "new_topic_memberships": 14,
+    "secondary_memberships": 0
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2508",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1495",
+    "T4-T7 themes from the merge report remain unmaterialized",
+    "C.2 book design, printing and publishing remains unmaterialized",
+    "E-dimension theme remains unmaterialized; qipao is deferred"
+  ],
+  "notes": "本批 materialize C.1「商业美术与广告」与 2 个 Topic；14 个新 KU 全部主挂载，无次挂载。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

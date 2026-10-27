@@ -61,7 +61,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 4
@@ -73,7 +73,16 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "张謇是 D 维度下实业办学模式的样本：以企业收益支撑技术教育，形成“工厂—学校—传习所”的闭环。同时是 B 维度刺绣工艺文献《雪宦绣谱》得以成书的关键人物（记录整理者与作序者）。四册评价相反：高丰作“先驱”，赵农作“官商一体”的反例。Theme/Topic 均未 materialize。"
+primary_theme: D.1
+secondary_themes:
+  - B.1
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-jindai-fangzhi-qiye.md
+    role: key_person
+    primary: true
+    scope_note: "D.1 首批：以张謇作为实业办学与纺织企业组织的关键人物复读。"
+hierarchy_scope_note: "张謇是 D.1 下实业办学模式的样本：以企业收益支撑技术教育，形成“工厂—学校—传习所”的闭环，纺织技术侧由 B.1 承接。四册评价差异留待 claim 层。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

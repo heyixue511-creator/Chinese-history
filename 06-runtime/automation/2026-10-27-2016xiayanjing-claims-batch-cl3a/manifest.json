@@ -1,0 +1,154 @@
+{
+ "after_bytes": 448995,
+ "after_sha256": "sha256:dcfd0c0e27eddb6d3071635ab892079959b2017787eff706b79b5059b0ff5d9c",
+ "baseline": {
+  "candidate_applied": 3132,
+  "candidate_needs_evidence": 1103,
+  "claim_registry_total": 259
+ },
+ "before_bytes": 419266,
+ "before_sha256": "sha256:273f5cde68a384a73cb3853341e2f06087b23c0824e6652d4b26506932e3bb39",
+ "candidate_count": 27,
+ "claim_rows": 13,
+ "corroboration_claim_ids": [
+  "claim-0038",
+  "claim-0041",
+  "claim-0042",
+  "claim-0043",
+  "claim-0044",
+  "claim-0045",
+  "claim-0046",
+  "claim-0047",
+  "claim-0048",
+  "claim-0049",
+  "claim-0050",
+  "claim-0051",
+  "claim-0091"
+ ],
+ "date": "2026-10-27",
+ "distinct_support": 18,
+ "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+ "existing_claims_updated": 13,
+ "goal": "夏燕靖 2016 升级版再版序言与原始社会章 27 条 claim 候选写回：新建 13 条，13 条并入 2009 版既有 claim，1 条并入新建 claim",
+ "merged_candidates": 14,
+ "package_id": "2026-10-27-2016xiayanjing-claims-batch-cl3a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3159,
+  "candidate_needs_evidence": 1076,
+  "claim_registry_total": 272
+ },
+ "scope_spans": [
+  [
+   101,
+   114
+  ],
+  [
+   109,
+   109
+  ],
+  [
+   287,
+   305
+  ],
+  [
+   289,
+   363
+  ],
+  [
+   306,
+   313
+  ],
+  [
+   306,
+   335
+  ],
+  [
+   316,
+   341
+  ],
+  [
+   322,
+   325
+  ],
+  [
+   365,
+   381
+  ],
+  [
+   407,
+   417
+  ],
+  [
+   420,
+   427
+  ],
+  [
+   434,
+   440
+  ],
+  [
+   443,
+   448
+  ],
+  [
+   447,
+   447
+  ],
+  [
+   451,
+   454
+  ],
+  [
+   466,
+   478
+  ],
+  [
+   495,
+   495
+  ],
+  [
+   504,
+   507
+  ],
+  [
+   508,
+   516
+  ],
+  [
+   517,
+   526
+  ],
+  [
+   529,
+   553
+  ],
+  [
+   556,
+   561
+  ],
+  [
+   562,
+   565
+  ],
+  [
+   566,
+   573
+  ],
+  [
+   572,
+   572
+  ],
+  [
+   574,
+   588
+  ],
+  [
+   580,
+   587
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+ "support_links": 24,
+ "with_supported_by": 12
+}

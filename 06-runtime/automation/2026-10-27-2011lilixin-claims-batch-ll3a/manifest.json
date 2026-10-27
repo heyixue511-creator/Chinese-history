@@ -1,0 +1,183 @@
+{
+ "after_bytes": 1926980,
+ "after_sha256": "sha256:2491920f9eb1e4d8c7fa555747e6c63f3df0a8f9004db009d040678ebdf571cb",
+ "baseline": {
+  "candidate_applied": 4120,
+  "candidate_needs_evidence": 114,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1128
+ },
+ "before_bytes": 1862978,
+ "before_sha256": "sha256:734989f2dc8910267c73fc9d84f54cc0c57582dfd6bc85c8cc99994a44f43cfc",
+ "candidate_count": 37,
+ "claim_rows": 37,
+ "corroboration_claim_ids": [],
+ "date": "2026-10-27",
+ "distinct_support": 57,
+ "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "existing_claims_updated": 0,
+ "goal": "处理李立新《中国设计艺术史论》第一章末段至第三章开篇 claim 候选（L824-L1232），新增 37 条 claim。",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2011lilixin-claims-batch-ll3a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 4157,
+  "candidate_needs_evidence": 77,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 1165
+ },
+ "scope_spans": [
+  [
+   827,
+   827
+  ],
+  [
+   829,
+   829
+  ],
+  [
+   833,
+   833
+  ],
+  [
+   840,
+   840
+  ],
+  [
+   845,
+   845
+  ],
+  [
+   851,
+   853
+  ],
+  [
+   855,
+   855
+  ],
+  [
+   857,
+   857
+  ],
+  [
+   861,
+   861
+  ],
+  [
+   892,
+   897
+  ],
+  [
+   902,
+   902
+  ],
+  [
+   907,
+   909
+  ],
+  [
+   916,
+   916
+  ],
+  [
+   942,
+   942
+  ],
+  [
+   960,
+   960
+  ],
+  [
+   1005,
+   1005
+  ],
+  [
+   1007,
+   1009
+  ],
+  [
+   1020,
+   1020
+  ],
+  [
+   1040,
+   1040
+  ],
+  [
+   1044,
+   1044
+  ],
+  [
+   1046,
+   1046
+  ],
+  [
+   1050,
+   1050
+  ],
+  [
+   1054,
+   1054
+  ],
+  [
+   1058,
+   1060
+  ],
+  [
+   1094,
+   1094
+  ],
+  [
+   1107,
+   1117
+  ],
+  [
+   1123,
+   1123
+  ],
+  [
+   1157,
+   1157
+  ],
+  [
+   1159,
+   1159
+  ],
+  [
+   1161,
+   1161
+  ],
+  [
+   1169,
+   1169
+  ],
+  [
+   1175,
+   1177
+  ],
+  [
+   1183,
+   1190
+  ],
+  [
+   1192,
+   1196
+  ],
+  [
+   1198,
+   1202
+  ],
+  [
+   1218,
+   1220
+  ],
+  [
+   1226,
+   1226
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "support_links": 117,
+ "with_supported_by": 37
+}

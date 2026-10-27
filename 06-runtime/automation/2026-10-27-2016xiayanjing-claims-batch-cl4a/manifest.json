@@ -1,0 +1,140 @@
+{
+ "after_bytes": 602114,
+ "after_sha256": "sha256:0ffb67f57ce7ccf0506c74c260e979e9061f499d355ee26d1e509e39be3a78e9",
+ "baseline": {
+  "candidate_applied": 3252,
+  "candidate_needs_evidence": 982,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 321
+ },
+ "before_bytes": 571703,
+ "before_sha256": "sha256:2ade9093c11cc7de25b8c7b1709a83eef3468dca8698584c6260f7c3e29abae7",
+ "candidate_count": 29,
+ "claim_rows": 11,
+ "corroboration_claim_ids": [
+  "claim-0132",
+  "claim-0134",
+  "claim-0139",
+  "claim-0140",
+  "claim-0141",
+  "claim-0145",
+  "claim-0146",
+  "claim-0147",
+  "claim-0150",
+  "claim-0153",
+  "claim-0154",
+  "claim-0155",
+  "claim-0156",
+  "claim-0163",
+  "claim-0164",
+  "claim-0165"
+ ],
+ "date": "2026-10-27",
+ "distinct_support": 25,
+ "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+ "existing_claims_updated": 16,
+ "goal": "夏燕靖 2016 升级版隋唐五代章 29 条 claim 候选写回：新建 11 条，18 条并入 2009 版既有 claim",
+ "merged_candidates": 0,
+ "no_delta_candidates": 0,
+ "package_id": "2026-10-27-2016xiayanjing-claims-batch-cl4a",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3281,
+  "candidate_needs_evidence": 953,
+  "candidate_no_delta": 234,
+  "claim_registry_total": 332
+ },
+ "scope_spans": [
+  [
+   2463,
+   2482
+  ],
+  [
+   2485,
+   2511
+  ],
+  [
+   2491,
+   2503
+  ],
+  [
+   2518,
+   2528
+  ],
+  [
+   2529,
+   2534
+  ],
+  [
+   2563,
+   2566
+  ],
+  [
+   2576,
+   2585
+  ],
+  [
+   2600,
+   2606
+  ],
+  [
+   2607,
+   2627
+  ],
+  [
+   2634,
+   2639
+  ],
+  [
+   2642,
+   2654
+  ],
+  [
+   2659,
+   2666
+  ],
+  [
+   2709,
+   2714
+  ],
+  [
+   2715,
+   2730
+  ],
+  [
+   2796,
+   2820
+  ],
+  [
+   2835,
+   2848
+  ],
+  [
+   2851,
+   2863
+  ],
+  [
+   2892,
+   2953
+  ],
+  [
+   2974,
+   2981
+  ],
+  [
+   2986,
+   2994
+  ],
+  [
+   2995,
+   3021
+  ],
+  [
+   3024,
+   3027
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+ "support_links": 26,
+ "with_supported_by": 11
+}

@@ -1,0 +1,730 @@
+[
+ {
+  "entity": "曲辕犁",
+  "target_ref": "04-knowledge/units/terms/quyuan-li.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-52",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/quyuan-li.md（cand-07-19）。"
+ },
+ {
+  "entity": "《金刚经》",
+  "target_ref": "04-knowledge/units/publications/jingangjing-868.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-54",
+  "merged_candidates": [],
+  "note": "canonical 为 publications/jingangjing-868.md（cand-07-02）。"
+ },
+ {
+  "entity": "玉版宣",
+  "target_ref": "04-knowledge/units/terms/yuban-xuan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-55",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；用纸与加工纸见 terms/xuan-zhi.md、terms/shan-teng-zhi.md。"
+ },
+ {
+  "entity": "薛涛笺",
+  "target_ref": "04-knowledge/units/terms/xuetao-jian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-56",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；加工纸见 terms/xuan-zhi.md。"
+ },
+ {
+  "entity": "武则天",
+  "target_ref": "04-knowledge/units/persons/wu-zetian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-67",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；城市见 places/luoyang-cheng.md、places/daxing-cheng.md，陵墓见 places/qianling.md，塔见 works/dayan-ta-652.md。"
+ },
+ {
+  "entity": "玄奘",
+  "target_ref": "04-knowledge/units/persons/xuanzang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-80",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；著作见 publications/da-tang-xiyu-ji.md，塔见 works/dayan-ta-652.md，印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "《大唐西域记》",
+  "target_ref": "04-knowledge/units/publications/da-tang-xiyu-ji.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-81",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；人物见 persons/xuanzang.md。"
+ },
+ {
+  "entity": "阎立德",
+  "target_ref": "04-knowledge/units/persons/yan-lide.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-115",
+  "merged_candidates": [],
+  "note": "canonical 为 persons/yan-lide.md；都城见 places/daxing-cheng.md，宫殿见 works/daming-gong.md。"
+ },
+ {
+  "entity": "筒车",
+  "target_ref": "04-knowledge/units/terms/tongche.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-116",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/tongche.md（cand-07-20）。"
+ },
+ {
+  "entity": "含元殿",
+  "target_ref": "04-knowledge/units/places/daxing-cheng.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-63",
+  "merged_candidates": [],
+  "note": "canonical 为 places/daxing-cheng.md。"
+ },
+ {
+  "entity": "太极宫",
+  "target_ref": "04-knowledge/units/places/daxing-cheng.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-117",
+  "merged_candidates": [],
+  "note": "canonical 为 places/daxing-cheng.md。"
+ },
+ {
+  "entity": "明堂",
+  "target_ref": "04-knowledge/units/places/luoyang-cheng.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-66",
+  "merged_candidates": [],
+  "note": "canonical 为 places/luoyang-cheng.md。"
+ },
+ {
+  "entity": "宝带桥",
+  "target_ref": "04-knowledge/units/works/baodai-qiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-73",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；同类见 works/zhaozhou-qiao-595-605.md、works/tianjin-qiao.md。"
+ },
+ {
+  "entity": "敞肩型",
+  "target_ref": "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-74",
+  "merged_candidates": [],
+  "note": "canonical 为 works/zhaozhou-qiao-595-605.md。"
+ },
+ {
+  "entity": "旅人桥",
+  "target_ref": "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-118",
+  "merged_candidates": [],
+  "note": "canonical 为 works/zhaozhou-qiao-595-605.md。"
+ },
+ {
+  "entity": "天津桥",
+  "target_ref": "04-knowledge/units/works/tianjin-qiao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-119",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；城市见 places/luoyang-cheng.md。"
+ },
+ {
+  "entity": "小雁塔",
+  "target_ref": "04-knowledge/units/works/xiaoyan-ta.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-77",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；大雁塔见 works/dayan-ta-652.md。"
+ },
+ {
+  "entity": "四门塔",
+  "target_ref": "04-knowledge/units/works/simen-ta.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-120",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+ },
+ {
+  "entity": "栖霞寺舍利塔",
+  "target_ref": "04-knowledge/units/works/qixia-si-sheli-ta.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-121",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+ },
+ {
+  "entity": "崇圣寺千寻塔",
+  "target_ref": "04-knowledge/units/works/chongsheng-si-qianxun-ta.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-122",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+ },
+ {
+  "entity": "石经",
+  "target_ref": "04-knowledge/units/terms/shijing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-83",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；三刻见 works/xiping-shijing.md、works/zhengshi-shijing.md、works/kaicheng-shijing.md。"
+ },
+ {
+  "entity": "《熹平石经》",
+  "target_ref": "04-knowledge/units/works/xiping-shijing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-84",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；人物见 persons/cai-yong.md，总述见 terms/shijing.md。"
+ },
+ {
+  "entity": "《开成石经》",
+  "target_ref": "04-knowledge/units/works/kaicheng-shijing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-85",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；总述见 terms/shijing.md。"
+ },
+ {
+  "entity": "《正始石经》",
+  "target_ref": "04-knowledge/units/works/zhengshi-shijing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-123",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；总述见 terms/shijing.md。"
+ },
+ {
+  "entity": "蔡邕",
+  "target_ref": "04-knowledge/units/persons/cai-yong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-86",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；石经见 works/xiping-shijing.md。"
+ },
+ {
+  "entity": "硬黄纸",
+  "target_ref": "04-knowledge/units/terms/yinghuang-zhi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-90",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；与 terms/xuan-zhi.md、procedures/ta-ben.md 互见。"
+ },
+ {
+  "entity": "韦诞",
+  "target_ref": "04-knowledge/units/persons/wei-dan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-91",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；毛笔见 terms/maobi.md；墨的专门知识元尚未建立，terms/shi-mo.md 实为石磨，不作墨条链接。"
+ },
+ {
+  "entity": "四大名砚",
+  "target_ref": "04-knowledge/units/terms/si-da-ming-yan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-92",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；单砚见 terms/duan-yan.md、terms/she-yan.md。"
+ },
+ {
+  "entity": "《金刚经》（咸通九年本）",
+  "target_ref": "04-knowledge/units/publications/jingangjing-868.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-02",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "《无垢净光大陀罗尼经》",
+  "target_ref": "04-knowledge/units/publications/wugou-jingguang-daluoni-jing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-03",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "《陀罗尼经咒》",
+  "target_ref": "04-knowledge/units/publications/tuoluoni-jingzhou.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-04",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "《妙法莲花经》（吐鲁番出土本）",
+  "target_ref": "04-knowledge/units/publications/miaofa-lianhua-jing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-05",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "《女则》",
+  "target_ref": "04-knowledge/units/publications/nvze.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-06",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；唐代书籍见 terms/juanzhou-zhuang.md。"
+ },
+ {
+  "entity": "《开元杂报》",
+  "target_ref": "04-knowledge/units/publications/kaiyuan-zabao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-09",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+ },
+ {
+  "entity": "卷轴装",
+  "target_ref": "04-knowledge/units/terms/juanzhou-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-10",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；装帧序列见 terms/jingzhe-zhuang.md、terms/xuanfeng-zhuang.md。"
+ },
+ {
+  "entity": "帙",
+  "target_ref": "04-knowledge/units/terms/zhi-book-wrapper.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-11",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；与 terms/juanzhou-zhuang.md 互见。"
+ },
+ {
+  "entity": "经折装",
+  "target_ref": "04-knowledge/units/terms/jingzhe-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-12",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；与 terms/fanjia-zhuang.md 互见。"
+ },
+ {
+  "entity": "梵夹装",
+  "target_ref": "04-knowledge/units/terms/fanjia-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-13",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；经折装见 terms/jingzhe-zhuang.md。"
+ },
+ {
+  "entity": "旋风装",
+  "target_ref": "04-knowledge/units/terms/xuanfeng-zhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-14",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；实物依据见 publications/wang-renxu-qieyun.md。"
+ },
+ {
+  "entity": "《王仁昫刊谬补缺切韵》",
+  "target_ref": "04-knowledge/units/publications/wang-renxu-qieyun.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-15",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；装帧见 terms/xuanfeng-zhuang.md。"
+ },
+ {
+  "entity": "曲辕犁",
+  "target_ref": "04-knowledge/units/terms/quyuan-li.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-19",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；筒车见 terms/tongche.md，农书见 publications/leisi-jing.md。"
+ },
+ {
+  "entity": "筒车",
+  "target_ref": "04-knowledge/units/terms/tongche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-20",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；犁见 terms/quyuan-li.md。"
+ },
+ {
+  "entity": "《耒耜经》",
+  "target_ref": "04-knowledge/units/publications/leisi-jing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-21",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；犁见 terms/quyuan-li.md。"
+ },
+ {
+  "entity": "椅子",
+  "target_ref": "04-knowledge/units/terms/yizi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-24",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；凳见 terms/wu-deng.md。"
+ },
+ {
+  "entity": "绳床",
+  "target_ref": "04-knowledge/units/terms/huchuang.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-25",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/huchuang.md。"
+ },
+ {
+  "entity": "杌凳",
+  "target_ref": "04-knowledge/units/terms/wu-deng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-27",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；椅见 terms/yizi.md。"
+ },
+ {
+  "entity": "开元通宝",
+  "target_ref": "04-knowledge/units/terms/kaiyuan-tongbao.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-32",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；货币见 terms/han-wu-zhu.md、terms/feiqian.md。"
+ },
+ {
+  "entity": "书帖",
+  "target_ref": "04-knowledge/units/terms/shutie.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-33",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；飞钱见 terms/feiqian.md。"
+ },
+ {
+  "entity": "飞钱",
+  "target_ref": "04-knowledge/units/terms/feiqian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-34",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；书帖见 terms/shutie.md。"
+ },
+ {
+  "entity": "浑仪",
+  "target_ref": "04-knowledge/units/terms/hunyi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-38",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；水运浑天仪见 works/shuiyun-huntianyi.md。"
+ },
+ {
+  "entity": "水运浑天仪（水运浑象）",
+  "target_ref": "04-knowledge/units/works/shuiyun-huntianyi.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-39",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；人物见 persons/seng-yixing.md、persons/li-chunfeng.md。"
+ },
+ {
+  "entity": "李淳风",
+  "target_ref": "04-knowledge/units/persons/li-chunfeng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-40",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；仪器见 terms/hunyi.md。"
+ },
+ {
+  "entity": "僧一行",
+  "target_ref": "04-knowledge/units/persons/seng-yixing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-41",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；仪器见 terms/hunyi.md、works/shuiyun-huntianyi.md。"
+ },
+ {
+  "entity": "韩志和",
+  "target_ref": "04-knowledge/units/persons/han-zhihe.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-42",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；葛洪见 persons/ge-hong.md。"
+ },
+ {
+  "entity": "葛洪",
+  "target_ref": "04-knowledge/units/persons/ge-hong.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-199",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；相关文献见 publications/bao-pu-zi.md，但来源未以该书为据。"
+ },
+ {
+  "entity": "斜织机",
+  "target_ref": "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-45",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/jiaota-tizong-xiezhi-ji.md；不称铜山画像与《慈母投杼图》为同一画像。"
+ },
+ {
+  "entity": "缫车",
+  "target_ref": "04-knowledge/units/terms/saoche.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-47",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；织机见 terms/jiaota-tizong-xiezhi-ji.md。"
+ },
+ {
+  "entity": "花纱",
+  "target_ref": "04-knowledge/units/terms/huasha.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-48",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；印染工序见 procedures/la-ran.md、procedures/jiezhi-yinhua.md、procedures/chuai-ran.md。"
+ },
+ {
+  "entity": "袍衫",
+  "target_ref": "04-knowledge/units/terms/yuanling-paoshan.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-53",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/yuanling-paoshan.md；胡装见 terms/huzhuang.md。"
+ },
+ {
+  "entity": "胡装",
+  "target_ref": "04-knowledge/units/terms/huzhuang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-54",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；袍衫见 terms/yuanling-paoshan.md。"
+ },
+ {
+  "entity": "唐陵",
+  "target_ref": "04-knowledge/units/places/zhaoling.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-57",
+  "merged_candidates": [],
+  "note": "canonical 取 places/zhaoling.md；乾陵见 places/qianling.md。"
+ },
+ {
+  "entity": "昭陵六骏",
+  "target_ref": "04-knowledge/units/places/zhaoling.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-60",
+  "merged_candidates": [],
+  "note": "canonical 为 places/zhaoling.md。"
+ },
+ {
+  "entity": "顺陵走狮",
+  "target_ref": "04-knowledge/units/places/zhaoling.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-61",
+  "merged_candidates": [],
+  "note": "canonical 为 places/zhaoling.md，并见 places/qianling.md。"
+ },
+ {
+  "entity": "卢舍那大佛",
+  "target_ref": "04-knowledge/units/places/longmen-grottoes.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-67",
+  "merged_candidates": [],
+  "note": "canonical 为 places/longmen-grottoes.md。"
+ },
+ {
+  "entity": "乐山大佛",
+  "target_ref": "04-knowledge/units/works/leshan-dafo.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-71",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；人物见 persons/haitong-heshang.md。"
+ },
+ {
+  "entity": "海通和尚",
+  "target_ref": "04-knowledge/units/persons/haitong-heshang.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-72",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；造像见 works/leshan-dafo.md。"
+ },
+ {
+  "entity": "经变",
+  "target_ref": "04-knowledge/units/terms/jingbian.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-75",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；洞窟见 places/dunhuang-mogao-ku.md。"
+ },
+ {
+  "entity": "敦煌学",
+  "target_ref": "04-knowledge/units/terms/dunhuangxue.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-76",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；洞窟见 places/dunhuang-mogao-ku.md。"
+ },
+ {
+  "entity": "《龙藏寺碑》",
+  "target_ref": "04-knowledge/units/works/longzang-si-bei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-79",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；书法见 terms/kai-shu.md，拓本见 procedures/ta-ben.md。"
+ },
+ {
+  "entity": "《九成宫醴泉铭》",
+  "target_ref": "04-knowledge/units/works/jiuchenggong-liquan-ming.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-80",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+ },
+ {
+  "entity": "《夫子庙堂碑》",
+  "target_ref": "04-knowledge/units/works/fuzi-miaotang-bei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-81",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；书法见 terms/kai-shu.md。"
+ },
+ {
+  "entity": "《雁塔圣教序》",
+  "target_ref": "04-knowledge/units/works/yanta-shengjiao-xu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-82",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；塔见 works/dayan-ta-652.md。"
+ },
+ {
+  "entity": "《麓山寺碑》",
+  "target_ref": "04-knowledge/units/works/lushan-si-bei.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-83",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；行书见 terms/xing-shu.md。"
+ },
+ {
+  "entity": "颜真卿",
+  "target_ref": "04-knowledge/units/persons/yan-zhenqing.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-84",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+ },
+ {
+  "entity": "柳公权",
+  "target_ref": "04-knowledge/units/persons/liu-gongquan.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-85",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+ },
+ {
+  "entity": "颜筋柳骨",
+  "target_ref": "04-knowledge/units/terms/yan-jin-liu-gu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-86",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；人物见 persons/yan-zhenqing.md、persons/liu-gongquan.md。"
+ },
+ {
+  "entity": "南青北白",
+  "target_ref": "04-knowledge/units/places/xing-kiln.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-99",
+  "merged_candidates": [],
+  "note": "canonical 为 places/xing-kiln.md；青瓷见 places/yue-kiln.md。"
+ },
+ {
+  "entity": "菩萨身躯（图6-56）",
+  "target_ref": "04-knowledge/units/terms/shikusi.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-204",
+  "merged_candidates": [],
+  "note": "归档锚点为 terms/shikusi.md；图注未能定位具体洞窟。"
+ },
+ {
+  "entity": "《纪泰山铭》",
+  "target_ref": "04-knowledge/units/terms/bei-xue.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-203",
+  "merged_candidates": [],
+  "note": "归档锚点为 terms/bei-xue.md；不据图注补碑制。"
+ },
+ {
+  "entity": "镂空银熏球",
+  "target_ref": "04-knowledge/units/works/tang-yin-xiangnang.md",
+  "action": "no_delta",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-104",
+  "merged_candidates": [],
+  "note": "canonical 为 works/tang-yin-xiangnang.md。"
+ },
+ {
+  "entity": "金花鹦鹉提梁银罐",
+  "target_ref": "04-knowledge/units/places/hejiacun-jiaocang.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-106",
+  "merged_candidates": [],
+  "note": "canonical 归档为 places/hejiacun-jiaocang.md。"
+ },
+ {
+  "entity": "金花八曲银杯",
+  "target_ref": "04-knowledge/units/places/hejiacun-jiaocang.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-107",
+  "merged_candidates": [],
+  "note": "canonical 归档为 places/hejiacun-jiaocang.md；同器关系待证。"
+ },
+ {
+  "entity": "被中香炉",
+  "target_ref": "04-knowledge/units/persons/ding-huan.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-108",
+  "merged_candidates": [],
+  "note": "canonical 为 persons/ding-huan.md（cand-05-17）。"
+ },
+ {
+  "entity": "花灯",
+  "target_ref": "04-knowledge/units/terms/huadeng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-118",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；走马灯见 terms/zouma-deng.md。"
+ },
+ {
+  "entity": "走马灯",
+  "target_ref": "04-knowledge/units/terms/zouma-deng.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-119",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；花灯见 terms/huadeng.md。"
+ },
+ {
+  "entity": "短番匠",
+  "target_ref": "04-knowledge/units/institutions/jiangzuojian.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-129",
+  "merged_candidates": [],
+  "note": "canonical 为 institutions/jiangzuojian.md；同书多跨度更新。"
+ },
+ {
+  "entity": "行头",
+  "target_ref": "04-knowledge/units/terms/shougongye-hanghui.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-130",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/shougongye-hanghui.md。"
+ },
+ {
+  "entity": "《国史补》",
+  "target_ref": "04-knowledge/units/publications/guo-shi-bu.md",
+  "action": "create",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-131",
+  "merged_candidates": [],
+  "note": "canonical 为新建条；纺织业见 places/xing-kiln.md、terms/ling-silk.md。"
+ },
+ {
+  "entity": "缭绫",
+  "target_ref": "04-knowledge/units/terms/ling-silk.md",
+  "action": "update",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-132",
+  "merged_candidates": [],
+  "note": "canonical 为 terms/ling-silk.md；贡绫与民间名目分列。"
+ },
+ {
+  "entity": "唐三彩骆驼乐伎俑",
+  "target_ref": "04-knowledge/units/terms/tang-sancai.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-205",
+  "merged_candidates": [],
+  "note": "canonical 归档为 terms/tang-sancai.md。"
+ },
+ {
+  "entity": "乾陵翼马",
+  "target_ref": "04-knowledge/units/places/qianling.md",
+  "action": "rejected",
+  "canonical_candidate": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-206",
+  "merged_candidates": [],
+  "note": "canonical 归档为 places/qianling.md。"
+ }
+]

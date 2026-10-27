@@ -32,13 +32,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
@@ -77,7 +77,7 @@ hierarchy_scope_note: "孝明帝服饰改革是 E 维度下北朝服饰汉化与
 
 ## 相关知识元
 
-`events/xiao-wen-gai-zhi.md` 记孝文帝改姓与汉魏衣冠；`terms/hufu.md` 记胡服；`terms/yuanling-paoshan.md` 记圆领袍衫。relation 未审查。
+`events/xiao-wen-gai-zhi.md` 记孝文帝改姓与汉魏衣冠；`terms/hufu.md` 记胡服；`terms/yuanling-paoshan.md` 记圆领袍衫；`persons/xiaowendi.md` 记孝文帝其人及其朝服设计。relation 未审查。
 
 ## 验证状态
 

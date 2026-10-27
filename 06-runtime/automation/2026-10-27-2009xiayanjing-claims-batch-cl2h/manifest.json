@@ -1,0 +1,100 @@
+{
+ "after_bytes": 376134,
+ "after_sha256": "sha256:97bb3a762b1e30aa185409102f1a8725e3367d85a533f6c87c5468ca4d11fbf9",
+ "baseline": {
+  "candidate_applied": 3092,
+  "candidate_needs_evidence": 1143,
+  "claim_registry_total": 219
+ },
+ "before_bytes": 342502,
+ "before_sha256": "sha256:627ed34a8fecdf2be5774c822fcd147a7b78bc368bf140d73c786c10125fac4f",
+ "candidate_count": 18,
+ "claim_rows": 18,
+ "date": "2026-10-27",
+ "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+ "goal": "夏燕靖 2009 册明清章 18 条 claim 候选写回 claim-registry",
+ "merged_candidates": 0,
+ "package_id": "2026-10-27-2009xiayanjing-claims-batch-cl2h",
+ "profile": "claim-batch-v1",
+ "result": {
+  "candidate_applied": 3110,
+  "candidate_needs_evidence": 1125,
+  "claim_registry_total": 237
+ },
+ "scope_spans": [
+  [
+   3385,
+   3385
+  ],
+  [
+   3411,
+   3411
+  ],
+  [
+   3445,
+   3445
+  ],
+  [
+   3449,
+   3449
+  ],
+  [
+   3455,
+   3455
+  ],
+  [
+   3465,
+   3465
+  ],
+  [
+   3512,
+   3512
+  ],
+  [
+   3526,
+   3526
+  ],
+  [
+   3550,
+   3550
+  ],
+  [
+   3554,
+   3554
+  ],
+  [
+   3568,
+   3568
+  ],
+  [
+   3583,
+   3583
+  ],
+  [
+   3603,
+   3603
+  ],
+  [
+   3625,
+   3625
+  ],
+  [
+   3658,
+   3658
+  ],
+  [
+   3706,
+   3706
+  ],
+  [
+   3735,
+   3735
+  ],
+  [
+   3766,
+   3766
+  ]
+ ],
+ "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+ "with_supported_by": 18
+}

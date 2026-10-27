@@ -1,0 +1,26 @@
+[
+ {
+  "entity": "黄地织金五龙蔓草纹重锦靠背",
+  "target_ref": "04-knowledge/units/works/huang-di-zhi-jin-wu-long-man-cao-wen-zhong-jin-kao-bei.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-84",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/huang-di-zhi-jin-wu-long-man-cao-wen-zhong-jin-kao-bei.md。cand-04-84 并入该条。"
+ },
+ {
+  "entity": "家庭手工业",
+  "target_ref": "04-knowledge/units/terms/jia-ting-shou-gong-ye.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-28",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/jia-ting-shou-gong-ye.md。cand-04-28 并入该条。"
+ },
+ {
+  "entity": "和雇",
+  "target_ref": "04-knowledge/units/terms/hegu-zhi.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-30",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/hegu-zhi.md。cand-04-30 并入该条，不另建“和雇”条。"
+ }
+]

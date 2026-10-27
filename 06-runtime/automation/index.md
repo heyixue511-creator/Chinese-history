@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `91`
-- Files: `437`
-- Size: `6764223` bytes
+- Batch directories: `207`
+- Files: `1099`
+- Size: `15635513` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `437` files
+- R1 provenance: `1099` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -30,29 +30,29 @@
 | `ingest` | 0 | - |
 | `verify` | 0 | - |
 | `relation` | 0 | - |
-| `claim` | 0 | - |
-| `hierarchy` | 0 | - |
+| `claim` | 51 | [summary](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md) |
+| `hierarchy` | 4 | [summary](2026-10-27-hierarchy-pilot-h4/summary.md) |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 91 | [summary](2026-10-26-2016xiayanjing-works-batch-aj/summary.md) |
+| `other` | 152 | [summary](2026-10-27-quality-backlog-batch-qb1/summary.md) |
 
 ## Recent Batches (15)
 
-- [2026-10-26-2016xiayanjing-works-batch-aj](2026-10-26-2016xiayanjing-works-batch-aj/summary.md)
-- [2026-10-26-2016xiayanjing-works-batch-ai](2026-10-26-2016xiayanjing-works-batch-ai/summary.md)
-- [2026-10-26-2016xiayanjing-terms-batch-ap](2026-10-26-2016xiayanjing-terms-batch-ap/summary.md)
-- [2026-10-26-2016xiayanjing-terms-batch-ao](2026-10-26-2016xiayanjing-terms-batch-ao/summary.md)
-- [2026-10-26-2016xiayanjing-terms-batch-an](2026-10-26-2016xiayanjing-terms-batch-an/summary.md)
-- [2026-10-26-2016xiayanjing-terms-batch-am](2026-10-26-2016xiayanjing-terms-batch-am/summary.md)
-- [2026-10-26-2016xiayanjing-terms-batch-al](2026-10-26-2016xiayanjing-terms-batch-al/summary.md)
-- [2026-10-26-2016xiayanjing-publications-batch-ak](2026-10-26-2016xiayanjing-publications-batch-ak/summary.md)
-- [2026-10-25-2009xiayanjing-procedures-batch-2](2026-10-25-2009xiayanjing-procedures-batch-2/summary.md)
-- [2026-10-25-2009xiayanjing-procedures-batch-1](2026-10-25-2009xiayanjing-procedures-batch-1/summary.md)
-- [2026-10-25-zhaonong2009-places-batch-ab](2026-10-25-zhaonong2009-places-batch-ab/summary.md)
-- [2026-10-25-zhaonong2009-places-batch-aa](2026-10-25-zhaonong2009-places-batch-aa/summary.md)
-- [2026-10-25-xiayanjing2009-places-batch-y](2026-10-25-xiayanjing2009-places-batch-y/summary.md)
-- [2026-10-25-work-doc2-batch-b](2026-10-25-work-doc2-batch-b/summary.md)
-- [2026-10-25-work-doc2-batch-a](2026-10-25-work-doc2-batch-a/summary.md)
+- [2026-10-27-quality-backlog-batch-qb1](2026-10-27-quality-backlog-batch-qb1/summary.md)
+- [2026-10-27-hierarchy-pilot-h4](2026-10-27-hierarchy-pilot-h4/summary.md)
+- [2026-10-27-hierarchy-pilot-h3](2026-10-27-hierarchy-pilot-h3/summary.md)
+- [2026-10-27-hierarchy-pilot-h2](2026-10-27-hierarchy-pilot-h2/summary.md)
+- [2026-10-27-hierarchy-pilot-h1](2026-10-27-hierarchy-pilot-h1/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl9a](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl8a](2026-10-27-2016xiayanjing-claims-batch-cl8a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl7a](2026-10-27-2016xiayanjing-claims-batch-cl7a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl6a](2026-10-27-2016xiayanjing-claims-batch-cl6a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl5a](2026-10-27-2016xiayanjing-claims-batch-cl5a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl4a](2026-10-27-2016xiayanjing-claims-batch-cl4a/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl3e](2026-10-27-2016xiayanjing-claims-batch-cl3e/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl3d](2026-10-27-2016xiayanjing-claims-batch-cl3d/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl3c](2026-10-27-2016xiayanjing-claims-batch-cl3c/summary.md)
+- [2026-10-27-2016xiayanjing-claims-batch-cl3b](2026-10-27-2016xiayanjing-claims-batch-cl3b/summary.md)
 
 ## Current State
 

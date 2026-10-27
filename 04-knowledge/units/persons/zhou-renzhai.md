@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -33,7 +33,15 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "周仁斋在本册是民族电机工业的创办者：1932 年与王汰甄在天津创办中天电机厂，造出我国最早的自行设计生产通话机与第一部手摇磁石电话机。产品工业的创办与市场对抗（与西门子竞争）归 D 维度（商业、制度）。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-jiaotong-dianxin-jinrong.md
+    role: key_person
+    primary: true
+    scope_note: "D.1 首批：以周仁斋作为民族电机工业创办者与产品组织者复读。"
+hierarchy_scope_note: "周仁斋是 D.1 下民族电机工业的创办者：1932 年与王汰甄在天津创办中天电机厂，产品里程碑与本册民国工业叙事相扣。产品技术学习侧尚无对应 Theme。本次为首批 Topic 挂载。"
 ---
 
 ## 描述

@@ -1,0 +1,34 @@
+[
+ {
+  "entity": "孝文帝",
+  "target_ref": "04-knowledge/units/persons/xiaowendi.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-01",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/persons/xiaowendi.md。cand-03-01 并入该条。"
+ },
+ {
+  "entity": "青瓷仰覆莲花尊",
+  "target_ref": "04-knowledge/units/works/lianhua-zun.md",
+  "action": "update",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-35",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/works/lianhua-zun.md。cand-03-35 并入该条。"
+ },
+ {
+  "entity": "腊缬棉布",
+  "target_ref": "04-knowledge/units/places/niya-site.md",
+  "action": "rejected",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-36",
+  "merged_candidates": [],
+  "note": "cand-03-36 与 04-knowledge/units/places/niya-site.md 重复，标 rejected 并保留 target_ref。"
+ },
+ {
+  "entity": "飞天髻",
+  "target_ref": "04-knowledge/units/terms/feitian-ji.md",
+  "action": "create",
+  "canonical_candidate": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-64",
+  "merged_candidates": [],
+  "note": "canonical: 04-knowledge/units/terms/feitian-ji.md。cand-03-64 并入该条。"
+ }
+]

@@ -20,7 +20,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -62,7 +62,7 @@ hierarchy_scope_note: "本条是 B 维度铜制科学仪器的器物锚点。The
 
 ## 相关知识元
 
-`persons/zhang-heng.md` 记张衡其人；同段所述候风地动仪是并列器物。本条不构成关系断言。
+`persons/zhang-heng.md` 记张衡其人；同段所述候风地动仪是并列器物。类型消歧：本条 `work` 记一件具体的浑天仪器物，`terms/hunyi.md` 则记浑仪这一仪器类型与概念，二者不合并。本条不构成关系断言。
 
 ## 验证状态
 

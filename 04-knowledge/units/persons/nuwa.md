@@ -27,13 +27,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 confidence: medium
 consensus: tentative
 source_count: 1
-last_verified: 2026-10-25
-review_due: 2027-04-25
-version: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -67,7 +67,7 @@ hierarchy_scope_note: "女娲是 B 维度下上古造物传说的人物条目：
 
 ## 相关知识元
 
-伏羲、有巢氏、燧人氏、神农氏、轩辕黄帝、嫘祖、仓颉等上古传说人物均尚未单独建 KU。笙与竹笛无独立条目，乐器类可参见 `works/zenghouyi-bianzhong.md`（曾侯乙编钟），但两者不是同一器物。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
+伏羲、有巢氏、燧人氏、神农氏、轩辕黄帝、嫘祖、仓颉等上古传说人物已分别建 KU：`persons/fuxi.md`、`persons/youchao-shi.md`、`persons/suiren-shi.md`、`persons/shennong-shi.md`、`persons/huangdi-legend.md`、`persons/leizu.md`、`persons/cangjie.md`。笙见 `terms/sheng.md`；竹笛尚无独立条目。乐器类可参见 `works/zenghouyi-bianzhong.md`（曾侯乙编钟），但两者不是同一器物。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。
 
 ## 验证状态
 
