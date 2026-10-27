@@ -1,7 +1,7 @@
 # Governance Backlog
 
 > Derived status signal; it is not a semantic decision or proof of publication readiness.
-> Snapshot: 2026-10-27 20:02
+> Snapshot: 2026-10-28 00:24
 > Structural health: 130/130
 > Knowledge units: 2570
 > Maturity metrics: unscored_semantic_maturity
@@ -25,19 +25,19 @@ No active items.
 | RD-SINGLE_SOURCE_UNITS | knowledge units supported by one source | 1919 | research_debt |
 | RD-TENTATIVE_UNITS | knowledge units with tentative consensus | 2570 | research_debt |
 | RD-LOW_CONFIDENCE_UNITS | knowledge units with low confidence | 496 | research_debt |
-| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 2481 | research_debt |
+| RD-UNITS_MISSING_HIERARCHY_ASSIGNMENT | knowledge units missing complete hierarchy assignment | 2465 | research_debt |
 
 ## Candidate opportunities (not accepted knowledge)
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| OPP-ISOLATED | isolated units may warrant relation review | 1476 | candidate_opportunity |
+| OPP-ISOLATED | isolated units may warrant relation review | 1470 | candidate_opportunity |
 
 ## Completed mechanical signals
 
 | ID | Issue | Scope | Status |
 |---|---|---|---|
-| C-FM | required frontmatter coverage complete | 2026-10-27 | completed |
-| C-VERIFY | verification state conflicts absent | 2026-10-27 | completed |
-| C-SCHEMA | deprecated type drift absent | 2026-10-27 | completed |
-| C-CONTENT | mechanical content findings absent | 2026-10-27 | completed |
+| C-FM | required frontmatter coverage complete | 2026-10-28 | completed |
+| C-VERIFY | verification state conflicts absent | 2026-10-28 | completed |
+| C-SCHEMA | deprecated type drift absent | 2026-10-28 | completed |
+| C-CONTENT | mechanical content findings absent | 2026-10-28 | completed |

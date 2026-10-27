@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下近代商业美术企业的锚点，其业务内容同时覆盖 C 维度的广告与装潢。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+    role: key_institution
+    primary: true
+    scope_note: "D.3.2 首批：以亚平艺术装饰公司横跨广告、橱窗、染织图案、室内装饰与制版的业务清单为锚点，观察近代上海设计业务尚未按专业分化。"
+hierarchy_scope_note: "亚平艺术装饰公司在 D.3.2 中作为综合装饰企业样本；其广告与装潢业务涉及 C 维度，但原 KU 未列 C 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -61,10 +70,11 @@ hierarchy_scope_note: "本 KU 是 D 维度下近代商业美术企业的锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下近代商业美术企业的锚点，其业务内容同时覆盖 C 维度的广告与装潢。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.2 建筑研究、建材流通与装饰业（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本 KU 是 D.3.2 的近代综合装饰企业样本：亚平艺术装饰公司同时承接广告、橱窗、染织图案、室内装饰与制版，说明近代上海的设计业务尚未按专业分化为独立行业；其广告与装潢业务涉及 C 维度，但原 KU 未列 C 次维度。
 
 ## 相关知识元
 

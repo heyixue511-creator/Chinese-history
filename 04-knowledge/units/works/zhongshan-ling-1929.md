@@ -37,7 +37,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -50,7 +50,15 @@ primary_dimension: B
 secondary_dimensions:
   - A
   - D
-hierarchy_scope_note: "中山陵是 B 维度下近代纪念性建筑群的样本：牌坊—墓道—陵门—碑亭—石阶—祭堂—墓室的空间序列与钟形平面都在此汇合。竞图制度、征稿条例与评判报告归 D 维度；“中国固有式”“民族形式”的取向归 A 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b3-minzu-xingshi-jinian-jianzhu.md
+    role: representative_work
+    primary: true
+    scope_note: "B.3.2 首批：中山陵以牌坊—墓道—陵门—碑亭—石阶—祭堂—墓室的中轴序列与钟形平面，成为近代纪念建筑的核心样本；竞图制度与评判报告归 D/A 次维度。"
+hierarchy_scope_note: "中山陵是 B.3.2 民族形式与纪念建筑的核心作品：中轴空间序列、钟形平面与中国固有式风格在此时汇合。竞图制度、征稿条例与评判报告归 D/A 次维度，故 secondary_themes 为空。征图 1927 与设计 1929 两说并存，本 KU 不代为排定年表。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -86,10 +94,10 @@ hierarchy_scope_note: "中山陵是 B 维度下近代纪念性建筑群的样本
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: A（设计史观与方法）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 同时是三个问题的入口：竞图制度如何进入中国（D）、纪念性建筑如何编码政治象征（B/A）、“中国固有式”如何被评判方定义为民族风格（A）。来源把“钟形”平面留给了两种释义，这个不统一本身就是可研究的点。当前只到 Dimension。
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.2 民族形式与纪念建筑（representative_work，主挂载）
+- role_in_theme: representative_work
+- scope_note: B.3.2 首批：中山陵以牌坊—墓道—陵门—碑亭—石阶—祭堂—墓室的中轴序列与钟形平面，成为近代纪念建筑的核心样本；竞图制度与评判报告归 D/A 次维度。
 
 ## 相关知识元
 

@@ -26,7 +26,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: low
 consensus: tentative
 source_count: 1
@@ -38,7 +38,15 @@ primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - A
-hierarchy_scope_note: "《中国建筑史》是 B 维度下中国建筑史研究著作的条目；其建筑史书写与分期属 A 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/b3-minzu-xingshi-jinian-jianzhu.md
+    role: supporting_source
+    primary: true
+    scope_note: "B.3.2 首批：以梁思成抗战时期撰写的《中国建筑史》为建筑史书写支撑；来源只有一句转述，成书年份、版本与章节结构缺失，confidence 为 low。"
+hierarchy_scope_note: "《中国建筑史》在 B.3.2 中作 supporting_source，支撑梁思成抗战时期建筑史研究与民族形式叙述；其建筑史书写与分期另属 A 次维度。来源仅一句，confidence 为 low。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "《中国建筑史》是 B 维度下中国建筑史研究
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《中国建筑史》是 B 维度下中国建筑史研究著作的条目；其建筑史书写与分期属 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.2 民族形式与纪念建筑（supporting_source，主挂载）
+- role_in_theme: supporting_source
+- scope_note: B.3.2 首批：以梁思成抗战时期撰写的《中国建筑史》为建筑史书写支撑；来源只有一句转述，成书年份、版本与章节结构缺失，confidence 为 low。
 
 ## 相关知识元
 

@@ -30,7 +30,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -42,7 +42,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - A
-hierarchy_scope_note: "中国营造学社是 D 维度下近代建筑研究机构的条目，其建筑史方法与古籍整理归 A；当前只到 Dimension。"
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+    role: key_institution
+    primary: true
+    scope_note: "D.3.2 首批：以 1925 年营造学会、1930 年改名、古籍整理与实地测绘为锚点；梁思成《中国建筑史》已归 B.3.2，不重复挂载。"
+hierarchy_scope_note: "中国营造学社在 D.3.2 中以其发起、改名、古籍整理与实地测绘为锚点；梁思成建筑史写作归 B.3.2，A 维度方法归次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -68,10 +76,10 @@ hierarchy_scope_note: "中国营造学社是 D 维度下近代建筑研究机构
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代传统建筑研究机构的条目，可与梁思成、朱启钤、《营造法式》《园冶》《梓人遗制》等条目并置，观察“古籍整理—实地测绘—建筑史写作”的近代建筑研究方法。当前只到 Dimension。
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.2 建筑研究、建材流通与装饰业（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本条是 D.3.2 的近代传统建筑研究机构：以 1925 年营造学会、1930 年改名、古籍整理与实地测绘为锚点，观察“古籍整理—实地测绘—建筑史写作”的组织方式；梁思成《中国建筑史》归 B.3.2，不在本 Topic 重复挂载。
 
 ## 相关知识元
 

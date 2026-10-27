@@ -31,7 +31,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -41,7 +41,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "朱启钤是 D 维度下近代建筑研究制度与漆艺文献整理的枢纽人物。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+    role: key_person
+    primary: true
+    scope_note: "D.3.2 首批：以朱启钤 1925 年发起营造学会、1930 年改名中国营造学社与 1927 年刊刻《髹饰录》为锚点；梁思成建筑史研究归 B.3.2。"
+hierarchy_scope_note: "朱启钤在 D.3.2 中以其营造学会／中国营造学社组织工作与《髹饰录》刊刻为锚点；梁思成建筑史研究归 B.3.2，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -60,10 +69,11 @@ hierarchy_scope_note: "朱启钤是 D 维度下近代建筑研究制度与漆艺
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 朱启钤是 D 维度下近代建筑研究制度与漆艺文献整理的枢纽人物。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.2 建筑研究、建材流通与装饰业（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 朱启钤是 D.3.2 的近代建筑研究组织者：以 1925 年发起营造学会、1930 年改名中国营造学社与 1927 年刊刻《髹饰录》为锚点；1949 年后内容不并入，梁思成建筑史研究归 B.3.2。
 
 ## 相关知识元
 

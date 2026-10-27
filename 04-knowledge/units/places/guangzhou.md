@@ -28,7 +28,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -40,7 +40,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "广州是 D 维度下自汉至近代的通商口岸与外来设计影响条目；汉代船模、明代造船、外销瓷与广式家具的造物面属 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/d3-jindai-chengshi-guihua-zhidu.md
+    role: geographical_context
+    primary: true
+    scope_note: "D.3.1 首批：以广州 17 世纪以来的通商口岸定位与 1901–1911 年织布工场为锚点；汉代船模、明代船厂、外销瓷与广式家具留 B 维度，不并入本 Topic。"
+hierarchy_scope_note: "广州在 D.3.1 中取其通商口岸与近代工业起步段；汉代造船、明代船厂、外销瓷与广式家具属 B 维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -72,10 +80,10 @@ hierarchy_scope_note: "广州是 D 维度下自汉至近代的通商口岸与外
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中唯一的**通商口岸型城市**条目：它不是以都城制度或以某一名窑立目，而是以外来影响进入中国的时间序列立目（汉—明—清—近代）。它可支撑未来的“外来设计影响与口岸城市”类 Topic。当前只到 Dimension。
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.1 近代城市与规划制度（geographical_context，主挂载）
+- role_in_theme: geographical_context
+- scope_note: 本 KU 是 D.3.1 的通商口岸型城市样本：以 17 世纪以来的口岸定位与 1901–1911 年织布工场为锚点，观察外来贸易、近代工场与城市空间的连接；汉代船模、明代船厂、外销瓷与广式家具属 B 维度，不并入本 Topic。
 
 ## 相关知识元
 

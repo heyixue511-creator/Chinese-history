@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `207`
-- Files: `1099`
-- Size: `15635513` bytes
+- Batch directories: `209`
+- Files: `1105`
+- Size: `15674412` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `1099` files
+- R1 provenance: `1105` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -31,14 +31,16 @@
 | `verify` | 0 | - |
 | `relation` | 0 | - |
 | `claim` | 51 | [summary](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md) |
-| `hierarchy` | 4 | [summary](2026-10-27-hierarchy-pilot-h4/summary.md) |
+| `hierarchy` | 6 | [summary](2026-10-28-hierarchy-pilot-h6/summary.md) |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
 | `other` | 152 | [summary](2026-10-27-quality-backlog-batch-qb1/summary.md) |
 
 ## Recent Batches (15)
 
+- [2026-10-28-hierarchy-pilot-h6](2026-10-28-hierarchy-pilot-h6/summary.md)
 - [2026-10-27-quality-backlog-batch-qb1](2026-10-27-quality-backlog-batch-qb1/summary.md)
+- [2026-10-27-hierarchy-pilot-h5](2026-10-27-hierarchy-pilot-h5/summary.md)
 - [2026-10-27-hierarchy-pilot-h4](2026-10-27-hierarchy-pilot-h4/summary.md)
 - [2026-10-27-hierarchy-pilot-h3](2026-10-27-hierarchy-pilot-h3/summary.md)
 - [2026-10-27-hierarchy-pilot-h2](2026-10-27-hierarchy-pilot-h2/summary.md)
@@ -51,8 +53,6 @@
 - [2026-10-27-2016xiayanjing-claims-batch-cl4a](2026-10-27-2016xiayanjing-claims-batch-cl4a/summary.md)
 - [2026-10-27-2016xiayanjing-claims-batch-cl3e](2026-10-27-2016xiayanjing-claims-batch-cl3e/summary.md)
 - [2026-10-27-2016xiayanjing-claims-batch-cl3d](2026-10-27-2016xiayanjing-claims-batch-cl3d/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl3c](2026-10-27-2016xiayanjing-claims-batch-cl3c/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl3b](2026-10-27-2016xiayanjing-claims-batch-cl3b/summary.md)
 
 ## Current State
 

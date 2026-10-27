@@ -28,7 +28,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -41,7 +41,15 @@ primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "上海砖瓦锯木厂是 B 维度下近代建筑材料生产的机构条目，其租界市场与外资经营归 D、E；当前只到 Dimension。"
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b3-tongshang-kouan-jianzhu-shinei.md
+    role: key_institution
+    primary: true
+    scope_note: "B.3.1 首批：上海砖瓦锯木厂是近代建材工业的上游样本；1853 年英商在上海租界开设，专为租界建筑供材。其租界市场与外资经营仍归 D、E 次维度。"
+hierarchy_scope_note: "上海砖瓦锯木厂是 B.3.1 通商口岸建筑与室内的建材工业上游样本；其租界市场与外资经营归 D、E 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "上海砖瓦锯木厂是 B 维度下近代建筑材料生
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代建筑材料工业的起点机构，可与盖茨公司、近代室内设计、租界建筑等条目并置，观察建筑技术—材料供应—室内设计的上游关系。当前只到 Dimension。
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.1 通商口岸建筑与室内（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: B.3.1 首批：上海砖瓦锯木厂是近代建材工业的上游样本；1853 年英商在上海租界开设，专为租界建筑供材。其租界市场与外资经营仍归 D、E 次维度。
 
 ## 相关知识元
 

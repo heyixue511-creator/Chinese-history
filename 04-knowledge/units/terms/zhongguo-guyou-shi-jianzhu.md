@@ -30,7 +30,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -40,7 +40,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "中国固有式建筑是 B 维度下近代民族形式建筑的类型条目。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b3-minzu-xingshi-jinian-jianzhu.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.3.2 首批：中国固有式建筑是 20 世纪二三十年代受西方建筑思潮影响、近于折中主义的民族形式类型；上海市市中心区域规划的制度推动归 D 次维度。"
+hierarchy_scope_note: "中国固有式建筑是 B.3.2 民族形式与纪念建筑的类型术语：并非纯传统宫室式，而是受西方建筑思潮影响、近于折中主义的新形式。上海市市中心区域规划的制度推动归 D 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -59,10 +68,11 @@ hierarchy_scope_note: "中国固有式建筑是 B 维度下近代民族形式建
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 中国固有式建筑是 B 维度下近代民族形式建筑的类型条目。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.2 民族形式与纪念建筑（term_anchor，主挂载）
+- role_in_theme: term_anchor
+- scope_note: B.3.2 首批：中国固有式建筑是 20 世纪二三十年代受西方建筑思潮影响、近于折中主义的民族形式类型；上海市市中心区域规划的制度推动归 D 次维度。
 
 ## 相关知识元
 

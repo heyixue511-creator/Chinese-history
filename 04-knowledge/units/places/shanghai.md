@@ -24,7 +24,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -36,7 +36,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - E
-hierarchy_scope_note: "上海是 D 维度下近代开埠城市、租界制度与城市规划条目；租界的西方建筑输入接到 E 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/d3-jindai-chengshi-guihua-zhidu.md
+    role: geographical_context
+    primary: true
+    scope_note: "D.3.1 首批：以上海的开埠、租界制度、1927 年特别市与《建国方略》浦东规划为锚点；1949 年后浦东开发只作边界说明。"
+hierarchy_scope_note: "上海是 D.3.1 近代城市与规划制度的开埠城市样本；其租界建筑输入归 E 次维度，B.3 已承接建筑本体。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "上海是 D 维度下近代开埠城市、租界制度与
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近代开埠城市的样本：制度上以租界为切口，空间上以租界—棚户区的二元结构为特征，规划上以《建国方略》与 1927 年特别市为两个节点。城市制度属 D 维度，西方建筑与技术的输入属 E 维度。当前只到 Dimension。
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.1 近代城市与规划制度（geographical_context，主挂载）
+- role_in_theme: geographical_context
+- scope_note: 本 KU 是 D.3.1 的近代开埠城市样本：制度上以租界为切口，空间上以租界—棚户区的二元结构为特征，规划上以《建国方略》与 1927 年特别市为两个节点。城市制度属 D 维度，西方建筑与技术的输入属 E 维度；1949 年后浦东开发只作边界说明。
 
 ## 相关知识元
 

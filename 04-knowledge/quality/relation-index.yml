@@ -1,7 +1,7 @@
 # Relation Index v2.1
-# generated: 2026-10-27
-# total: 6177
-# sources: {'inferred_by_rule': 179, 'explicit': 5998}
+# generated: 2026-10-28
+# total: 6209
+# sources: {'inferred_by_rule': 211, 'explicit': 5998}
 
 - source: persons/chen-zhifo.md
   source_type: person
@@ -179,6 +179,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: persons/liang-sicheng.md
+  source_type: person
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_person'
+  evidence: 'hierarchy.role_in_theme: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: persons/liang-sicheng.md
+  source_type: person
+  target: structure/topics/b3-minzu-xingshi-jinian-jianzhu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_person'
+  evidence: 'hierarchy.topic_memberships.role: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: persons/lu-xun.md
   source_type: person
   target: structure/themes/c2-shuji-zhuangzhen-yinshua-chuban.md
@@ -193,6 +215,28 @@
 - source: persons/lu-xun.md
   source_type: person
   target: structure/topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_person'
+  evidence: 'hierarchy.topic_memberships.role: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: persons/lu-yanzhi.md
+  source_type: person
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_person'
+  evidence: 'hierarchy.role_in_theme: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: persons/lu-yanzhi.md
+  source_type: person
+  target: structure/topics/b3-minzu-xingshi-jinian-jianzhu.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: key_person'
@@ -608,6 +652,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: persons/zhu-qijian.md
+  source_type: person
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_person'
+  evidence: 'hierarchy.role_in_theme: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: persons/zhu-qijian.md
+  source_type: person
+  target: structure/topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_person'
+  evidence: 'hierarchy.topic_memberships.role: key_person'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: persons/zuo-zongtang.md
   source_type: person
   target: structure/themes/d1-yangwu-qiye-jindai-gongye-zuzhi.md
@@ -740,6 +806,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: institutions/getz-bros.md
+  source_type: institution
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_institution'
+  evidence: 'hierarchy.role_in_theme: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: institutions/getz-bros.md
+  source_type: institution
+  target: structure/topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_institution'
+  evidence: 'hierarchy.topic_memberships.role: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: institutions/hengyuan-zhahuachang.md
   source_type: institution
   target: structure/themes/b1-jindai-zaowu-jishu-zhuanxing.md
@@ -952,6 +1040,28 @@
 - source: institutions/shanghai-jiqi-zhibuju.md
   source_type: institution
   target: structure/topics/b1-jiqi-fangzhi-zaozhi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_institution'
+  evidence: 'hierarchy.topic_memberships.role: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: institutions/shanghai-zhuanwa-jumuchang.md
+  source_type: institution
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_institution'
+  evidence: 'hierarchy.role_in_theme: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: institutions/shanghai-zhuanwa-jumuchang.md
+  source_type: institution
+  target: structure/topics/b3-tongshang-kouan-jianzhu-shinei.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: key_institution'
@@ -1004,6 +1114,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: institutions/yaping-yishu-zhuangshi-gongsi.md
+  source_type: institution
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_institution'
+  evidence: 'hierarchy.role_in_theme: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: institutions/yaping-yishu-zhuangshi-gongsi.md
+  source_type: institution
+  target: structure/topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_institution'
+  evidence: 'hierarchy.topic_memberships.role: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: institutions/yingmei-yancao-gongsi.md
   source_type: institution
   target: structure/themes/c1-shangye-meishu-yu-guanggao.md
@@ -1070,6 +1202,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: institutions/zhongguo-yingzao-xueshe.md
+  source_type: institution
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: key_institution'
+  evidence: 'hierarchy.role_in_theme: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: institutions/zhongguo-yingzao-xueshe.md
+  source_type: institution
+  target: structure/topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: key_institution'
+  evidence: 'hierarchy.topic_memberships.role: key_institution'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: institutions/zhongtian-dianjichang.md
   source_type: institution
   target: structure/themes/d1-yangwu-qiye-jindai-gongye-zuzhi.md
@@ -1092,6 +1246,72 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: places/guangzhou.md
+  source_type: place
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: geographical_context'
+  evidence: 'hierarchy.role_in_theme: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: places/guangzhou.md
+  source_type: place
+  target: structure/topics/d3-jindai-chengshi-guihua-zhidu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: geographical_context'
+  evidence: 'hierarchy.topic_memberships.role: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: places/nanjing.md
+  source_type: place
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: geographical_context'
+  evidence: 'hierarchy.role_in_theme: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: places/nanjing.md
+  source_type: place
+  target: structure/topics/d3-jindai-chengshi-guihua-zhidu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: geographical_context'
+  evidence: 'hierarchy.topic_memberships.role: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: places/shanghai.md
+  source_type: place
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: geographical_context'
+  evidence: 'hierarchy.role_in_theme: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: places/shanghai.md
+  source_type: place
+  target: structure/topics/d3-jindai-chengshi-guihua-zhidu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: geographical_context'
+  evidence: 'hierarchy.topic_memberships.role: geographical_context'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: works/beiyang-jiqiju-biaozhi.md
   source_type: work
   target: structure/themes/c1-shangye-meishu-yu-guanggao.md
@@ -1202,6 +1422,50 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: works/sassoon-house.md
+  source_type: work
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: representative_work'
+  evidence: 'hierarchy.role_in_theme: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/sassoon-house.md
+  source_type: work
+  target: structure/topics/b3-tongshang-kouan-jianzhu-shinei.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: representative_work'
+  evidence: 'hierarchy.topic_memberships.role: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/shanghai-huifeng-yinhang.md
+  source_type: work
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: representative_work'
+  evidence: 'hierarchy.role_in_theme: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/shanghai-huifeng-yinhang.md
+  source_type: work
+  target: structure/topics/b3-tongshang-kouan-jianzhu-shinei.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: representative_work'
+  evidence: 'hierarchy.topic_memberships.role: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: works/tangxu-tielu.md
   source_type: work
   target: structure/themes/b1-jindai-zaowu-jishu-zhuanxing.md
@@ -1282,6 +1546,28 @@
 - source: works/zhongguo-yiri-guanggao.md
   source_type: work
   target: structure/topics/c1-baokan-guanggao-jigou-biaozhi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: representative_work'
+  evidence: 'hierarchy.topic_memberships.role: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/zhongshan-ling-1929.md
+  source_type: work
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: representative_work'
+  evidence: 'hierarchy.role_in_theme: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/zhongshan-ling-1929.md
+  source_type: work
+  target: structure/topics/b3-minzu-xingshi-jinian-jianzhu.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: representative_work'
@@ -1510,6 +1796,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: publications/shanghai-center-plan.md
+  source_type: publication
+  target: structure/themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: source_publication'
+  evidence: 'hierarchy.role_in_theme: source_publication'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: publications/shanghai-center-plan.md
+  source_type: publication
+  target: structure/topics/d3-jindai-chengshi-guihua-zhidu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: source_publication'
+  evidence: 'hierarchy.topic_memberships.role: source_publication'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: publications/shanghai-xinbao.md
   source_type: publication
   target: structure/themes/c1-shangye-meishu-yu-guanggao.md
@@ -1616,6 +1924,28 @@
   relation_type: member_of
   note: 'hierarchy Topic role: source_publication'
   evidence: 'hierarchy.topic_memberships.role: source_publication'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: publications/zhongguo-jianzhushi.md
+  source_type: publication
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: supporting_source'
+  evidence: 'hierarchy.role_in_theme: supporting_source'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: publications/zhongguo-jianzhushi.md
+  source_type: publication
+  target: structure/topics/b3-minzu-xingshi-jinian-jianzhu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: supporting_source'
+  evidence: 'hierarchy.topic_memberships.role: supporting_source'
   confidence: high
   relation_source: inferred_by_rule
   bidirectional_required: false
@@ -1810,6 +2140,28 @@
 - source: terms/zhijin.md
   source_type: term
   target: structure/topics/b2-cixiu-kesi-fuzhuang-gongyi.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: term_anchor'
+  evidence: 'hierarchy.topic_memberships.role: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/zhongguo-guyou-shi-jianzhu.md
+  source_type: term
+  target: structure/themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: term_anchor'
+  evidence: 'hierarchy.role_in_theme: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/zhongguo-guyou-shi-jianzhu.md
+  source_type: term
+  target: structure/topics/b3-minzu-xingshi-jinian-jianzhu.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: term_anchor'

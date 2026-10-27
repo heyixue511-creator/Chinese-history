@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -49,7 +49,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "梁思成是 B 维度下近代至新中国建筑思想、建筑史研究与国徽设计的代表。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b3-minzu-xingshi-jinian-jianzhu.md
+    role: key_person
+    primary: true
+    scope_note: "B.3.2 首批：以梁思成抗战时期的中国建筑史研究与清华学派民族形式主张为锚点；1949 年后国徽设计、天安门广场扩建与 1961 年文章只作边界说明。"
+hierarchy_scope_note: "梁思成在 B.3.2 中以其抗战时期中国建筑史研究与清华学派民族形式主张为主；1949 年后的国徽设计、天安门广场扩建与 1961 年文章不属于本 Theme 范围，仅保留在 KU 正文。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -70,10 +79,11 @@ hierarchy_scope_note: "梁思成是 B 维度下近代至新中国建筑思想、
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 梁思成是 B 维度下近代至新中国建筑思想、建筑史研究与国徽设计的代表。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.2 民族形式与纪念建筑（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: B.3.2 首批：以梁思成抗战时期的中国建筑史研究与清华学派民族形式主张为锚点；1949 年后国徽设计、天安门广场扩建与 1961 年文章只作边界说明。
 
 ## 相关知识元
 

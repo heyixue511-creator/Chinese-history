@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "吕彦直是 B 维度下近代“中国固有式”建筑的代表，连接传统陵墓形制与现代建筑技术。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b3-minzu-xingshi-jinian-jianzhu.md
+    role: key_person
+    primary: true
+    scope_note: "B.3.2 首批：吕彦直以中山陵竞图首奖与广州中山纪念堂设计，连接传统陵墓形制与现代建筑技术。其竞图制度与规划背景归 D 次维度。"
+hierarchy_scope_note: "吕彦直是 B.3.2 民族形式与纪念建筑的关键人物：中山陵竞图首奖、南京中山陵与广州中山纪念堂设计。竞图制度与规划背景归 D 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -62,10 +71,11 @@ hierarchy_scope_note: "吕彦直是 B 维度下近代“中国固有式”建筑
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 吕彦直是 B 维度下近代“中国固有式”建筑的代表，连接传统陵墓形制与现代建筑技术。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.2 民族形式与纪念建筑（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: B.3.2 首批：吕彦直以中山陵竞图首奖与广州中山纪念堂设计，连接传统陵墓形制与现代建筑技术。其竞图制度与规划背景归 D 次维度。
 
 ## 相关知识元
 

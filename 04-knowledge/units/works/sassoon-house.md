@@ -22,7 +22,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -32,7 +32,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度近代外来式建筑的器物锚点，材料为正文一段加图注两行。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: B.3
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b3-tongshang-kouan-jianzhu-shinei.md
+    role: representative_work
+    primary: true
+    scope_note: "B.3.1 首批：沙逊大厦以钢架结构、A 字形平面与芝加哥学派立面，表现折中主义向现代主义过渡的外来式商业建筑。设计者与内部空间缺载。"
+hierarchy_scope_note: "沙逊大厦是 B.3.1 通商口岸建筑与室内的外来式商业建筑样本：钢架结构、10 层、A 字形平面、芝加哥学派立面。其设计者、营造厂与内部空间缺载，故本 KU 只作建筑形式与结构锚点。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -54,10 +63,11 @@ hierarchy_scope_note: "本条是 B 维度近代外来式建筑的器物锚点，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度近代外来式建筑的器物锚点，材料为正文一段加图注两行。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: B.3（近代建筑、室内与建造技术）
+- topic_memberships: B.3.1 通商口岸建筑与室内（representative_work，主挂载）
+- role_in_theme: representative_work
+- scope_note: B.3.1 首批：沙逊大厦以钢架结构、A 字形平面与芝加哥学派立面，表现折中主义向现代主义过渡的外来式商业建筑。设计者与内部空间缺载。
 
 ## 相关知识元
 

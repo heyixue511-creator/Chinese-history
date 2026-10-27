@@ -4253,11 +4253,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "盖茨公司是 D 维度下近代建筑装饰材料流通的机构条目，其材料品类归 B、外资代理归 E；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "盖茨公司在 D.3.2 中作为近代建筑装饰材料流通的机构样本；建材品类归 B、外资代理归 E 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:gongbu",
@@ -6173,11 +6178,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "上海砖瓦锯木厂是 B 维度下近代建筑材料生产的机构条目，其租界市场与外资经营归 D、E；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-tongshang-kouan-jianzhu-shinei.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "上海砖瓦锯木厂是 B.3.1 通商口岸建筑与室内的建材工业上游样本；其租界市场与外资经营归 D、E 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:shanglin-sanguan",
@@ -7115,11 +7125,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 D 维度下近代商业美术企业的锚点，其业务内容同时覆盖 C 维度的广告与装潢。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "亚平艺术装饰公司在 D.3.2 中作为综合装饰企业样本；其广告与装潢业务涉及 C 维度，但原 KU 未列 C 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:yingmei-yancao-gongsi",
@@ -7580,11 +7595,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国营造学社是 D 维度下近代建筑研究机构的条目，其建筑史方法与古籍整理归 A；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "中国营造学社在 D.3.2 中以其发起、改名、古籍整理与实地测绘为锚点；梁思成建筑史写作归 B.3.2，A 维度方法归次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:zhongshang-shu",
@@ -11574,11 +11594,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "梁思成是 B 维度下近代至新中国建筑思想、建筑史研究与国徽设计的代表。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-minzu-xingshi-jinian-jianzhu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "梁思成在 B.3.2 中以其抗战时期中国建筑史研究与清华学派民族形式主张为主；1949 年后的国徽设计、天安门广场扩建与 1961 年文章不属于本 Theme 范围，仅保留在 KU 正文。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "persons:lin-zexu",
@@ -12024,11 +12049,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "吕彦直是 B 维度下近代“中国固有式”建筑的代表，连接传统陵墓形制与现代建筑技术。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-minzu-xingshi-jinian-jianzhu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "吕彦直是 B.3.2 民族形式与纪念建筑的关键人物：中山陵竞图首奖、南京中山陵与广州中山纪念堂设计。竞图制度与规划背景归 D 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "persons:lu-you",
@@ -17341,11 +17371,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "朱启钤是 D 维度下近代建筑研究制度与漆艺文献整理的枢纽人物。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "朱启钤在 D.3.2 中以其营造学会／中国营造学社组织工作与《髹饰录》刊刻为锚点；梁思成建筑史研究归 B.3.2，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "persons:zhu-sansong",
@@ -18634,11 +18669,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "广州是 D 维度下自汉至近代的通商口岸与外来设计影响条目；汉代船模、明代造船、外销瓷与广式家具的造物面属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jindai-chengshi-guihua-zhidu.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "广州在 D.3.1 中取其通商口岸与近代工业起步段；汉代造船、明代船厂、外销瓷与广式家具属 B 维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "places:han-chang-an",
@@ -19919,11 +19959,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "南京是 D 维度下都城制度、博览会场与近代城市规划条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jindai-chengshi-guihua-zhidu.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "南京在 D.3.1 中取其 1928 年首都计划与民国首都规划段；六朝建康、明初都城与博览会场属前近代或 B 维度材料，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "places:nanyang-huaxiangshi-qu",
@@ -20486,11 +20531,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "上海是 D 维度下近代开埠城市、租界制度与城市规划条目；租界的西方建筑输入接到 E 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jindai-chengshi-guihua-zhidu.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "上海是 D.3.1 近代城市与规划制度的开埠城市样本；其租界建筑输入归 E 次维度，B.3 已承接建筑本体。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "places:shanglinyuan",
@@ -29921,11 +29971,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 D 维度下制度与设计管理文献的锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "source_publication",
+      "topic_memberships": [
+        {
+          "topic": "topics/d3-jindai-chengshi-guihua-zhidu.md",
+          "role": "source_publication"
+        }
+      ],
+      "hierarchy_scope_note": "《上海市市中心区域规划》在 D.3.1 中作为规划制度文本的锚点；其『中国式建筑』条文与 B.3.2 的中国固有式建筑相关，但原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "publications:shanghai-xinbao",
@@ -32848,11 +32903,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "《中国建筑史》是 B 维度下中国建筑史研究著作的条目；其建筑史书写与分期属 A 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-minzu-xingshi-jinian-jianzhu.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "《中国建筑史》在 B.3.2 中作 supporting_source，支撑梁思成抗战时期建筑史研究与民族形式叙述；其建筑史书写与分期另属 A 次维度。来源仅一句，confidence 为 low。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "publications:zhongguo-lidai-huihua",
@@ -59783,11 +59843,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国固有式建筑是 B 维度下近代民族形式建筑的类型条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-minzu-xingshi-jinian-jianzhu.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "中国固有式建筑是 B.3.2 民族形式与纪念建筑的类型术语：并非纯传统宫室式，而是受西方建筑思潮影响、近于折中主义的新形式。上海市市中心区域规划的制度推动归 D 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "terms:zhongshanzhuang",
@@ -70629,11 +70694,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度近代外来式建筑的器物锚点，材料为正文一段加图注两行。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-tongshang-kouan-jianzhu-shinei.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "沙逊大厦是 B.3.1 通商口岸建筑与室内的外来式商业建筑样本：钢架结构、10 层、A 字形平面、芝加哥学派立面。其设计者、营造厂与内部空间缺载，故本 KU 只作建筑形式与结构锚点。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "works:shandingdong-zuankong",
@@ -70839,11 +70909,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 B 维度下近代外滩建筑的器物锚点，也涉及 D 维度的通商口岸制度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-tongshang-kouan-jianzhu-shinei.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "上海汇丰银行是 B.3.1 通商口岸建筑与室内的古典主义样本：钢筋混凝土浇灌、外观仿砖石、爱奥尼柱廊与藻井天花。通商口岸制度归 D 次维度，故 secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "works:shanxi-shuoxian-shijiantou",
@@ -76657,11 +76732,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中山陵是 B 维度下近代纪念性建筑群的样本：牌坊—墓道—陵门—碑亭—石阶—祭堂—墓室的空间序列与钟形平面都在此汇合。竞图制度、征稿条例与评判报告归 D 维度；“中国固有式”“民族形式”的取向归 A 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b3-minzu-xingshi-jinian-jianzhu.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "中山陵是 B.3.2 民族形式与纪念建筑的核心作品：中轴空间序列、钟形平面与中国固有式风格在此时汇合。竞图制度、征稿条例与评判报告归 D/A 次维度，故 secondary_themes 为空。征图 1927 与设计 1929 两说并存，本 KU 不代为排定年表。本次为首批 Topic 挂载。"
     },
     {
       "id": "works:zhu-bishan-yincha",
@@ -77203,6 +77283,19 @@
         "path": "themes/b2-jindai-zhixiu-fuzhuang-gongyi.md"
       },
       {
+        "id": "b3-jindai-jianzhu-shinei-jianzao-jishu",
+        "code": "B.3",
+        "title": "近代建筑、室内与建造技术",
+        "name_en": "Modern Architecture, Interiors and Building Technology",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md"
+      },
+      {
         "id": "c1-shangye-meishu-yu-guanggao",
         "code": "C.1",
         "title": "商业美术与广告",
@@ -77253,6 +77346,19 @@
         "secondary_themes": [],
         "summary": "",
         "path": "themes/d2-fushi-zhidu-jindai-shenghuo.md"
+      },
+      {
+        "id": "d3-jindai-chengshi-jianzhu-zhidu-zhiye",
+        "code": "D.3",
+        "title": "近代城市、建筑制度与职业",
+        "name_en": "Modern Cities, Architectural Institutions and Professions",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md"
       }
     ],
     "topics": [
@@ -77315,6 +77421,32 @@
         ],
         "summary": "",
         "path": "topics/b2-jindai-fangzhipin-ranzhi-tuxiang.md"
+      },
+      {
+        "id": "b3-minzu-xingshi-jinian-jianzhu",
+        "code": "b3-minzu-xingshi-jinian-jianzhu",
+        "title": "民族形式与纪念建筑",
+        "name_en": "National Style and Commemorative Architecture",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b3-minzu-xingshi-jinian-jianzhu.md"
+      },
+      {
+        "id": "b3-tongshang-kouan-jianzhu-shinei",
+        "code": "b3-tongshang-kouan-jianzhu-shinei",
+        "title": "通商口岸建筑与室内",
+        "name_en": "Treaty-Port Architecture and Interiors",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b3-tongshang-kouan-jianzhu-shinei.md"
       },
       {
         "id": "c1-baokan-guanggao-jigou-biaozhi",
@@ -77451,14 +77583,40 @@
         ],
         "summary": "",
         "path": "topics/d2-zhongshanzhuang-guojia-lifu.md"
+      },
+      {
+        "id": "d3-jianzhu-yanjiu-jiancai-zhuangshi",
+        "code": "d3-jianzhu-yanjiu-jiancai-zhuangshi",
+        "title": "建筑研究、建材流通与装饰业",
+        "name_en": "Architectural Research, Building Materials and Decoration Trade",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d3-jianzhu-yanjiu-jiancai-zhuangshi.md"
+      },
+      {
+        "id": "d3-jindai-chengshi-guihua-zhidu",
+        "code": "d3-jindai-chengshi-guihua-zhidu",
+        "title": "近代城市与规划制度",
+        "name_en": "Modern Cities and Planning Institutions",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d3-jindai-chengshi-guihua-zhidu.md"
       }
     ]
   },
   "stats": {
     "total_nodes": 2570,
     "total_links": 0,
-    "relation_index_total": 6177,
-    "skipped_non_unit_relations": 6177,
+    "relation_index_total": 6209,
+    "skipped_non_unit_relations": 6209,
     "by_type": {
       "person": 323,
       "institution": 144,
@@ -77472,14 +77630,14 @@
     "hierarchy": {
       "domain_assigned": 2570,
       "dimension_assigned": 2570,
-      "theme_assigned": 89,
-      "topic_assigned": 89
+      "theme_assigned": 105,
+      "topic_assigned": 105
     },
     "structure_nodes": {
       "domains": 0,
       "dimensions": 0,
-      "themes": 6,
-      "topics": 14
+      "themes": 8,
+      "topics": 18
     }
   }
 }

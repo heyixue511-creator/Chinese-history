@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T20:02:36",
+  "timestamp": "2026-10-28T00:24:28",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -17,25 +17,25 @@
     "base_type_coverage": "8/8",
     "structure_node_coverage": "2/4",
     "deprecated_type_drift": 0,
-    "hierarchy_version": "v0.5"
+    "hierarchy_version": "v0.7"
   },
   "structure_node_counts": {
     "domains": 0,
     "dimensions": 0,
-    "themes": 6,
-    "topics": 14
+    "themes": 8,
+    "topics": 18
   },
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
     "total_units": 2570,
-    "complete_assignments": 89,
-    "units_missing_any_assignment": 2481,
+    "complete_assignments": 105,
+    "units_missing_any_assignment": 2465,
     "field_coverage": {
       "primary_domain": "2570/2570",
       "primary_dimension": "2570/2570",
-      "primary_theme": "89/2570",
-      "topic_memberships": "89/2570"
+      "primary_theme": "105/2570",
+      "topic_memberships": "105/2570"
     }
   },
   "counts_by_type": {
@@ -296,7 +296,7 @@
   "architecture_drift": {
     "deprecated_type_drift": 0,
     "deprecated_details": {},
-    "hierarchy_version": "v0.5",
+    "hierarchy_version": "v0.7",
     "hierarchy_has_old_type_refs": false,
     "hierarchy_has_old_statistics": false
   },
@@ -356,9 +356,9 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 6177,
+    "relation_index_total": 6209,
     "explicit_relation_count": 5998,
-    "inferred_relation_count": 179,
+    "inferred_relation_count": 211,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
     "weak_evidence_count": 0,
@@ -373,8 +373,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 1099,
-    "r1_provenance": 1099,
+    "files": 1105,
+    "r1_provenance": 1105,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -433,7 +433,7 @@
       "source_backed": 2570
     },
     "isolated_units": {
-      "count": 1476,
+      "count": 1470,
       "sample": [
         "events/1851-wanguo-bolanhui.md",
         "events/1998-national-furniture-exhibition.md",
@@ -491,7 +491,7 @@
       "tentative_units": 2570,
       "low_confidence_units": 496,
       "candidates_needing_evidence": 0,
-      "units_missing_hierarchy_assignment": 2481
+      "units_missing_hierarchy_assignment": 2465
     }
   },
   "content_quality": {

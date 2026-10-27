@@ -23,7 +23,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
@@ -33,7 +33,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下制度与设计管理文献的锚点。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/d3-jindai-chengshi-guihua-zhidu.md
+    role: source_publication
+    primary: true
+    scope_note: "D.3.1 首批：以《上海市市中心区域规划》『为提倡国粹起见，市府新屋应用中国式建筑』一句为锚点，观察规划条文如何推动中国固有式建筑；规划原件未核，confidence 为 low。"
+hierarchy_scope_note: "《上海市市中心区域规划》在 D.3.1 中作为规划制度文本的锚点；其『中国式建筑』条文与 B.3.2 的中国固有式建筑相关，但原 KU 无 secondary_dimensions，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -50,10 +59,11 @@ hierarchy_scope_note: "本 KU 是 D 维度下制度与设计管理文献的锚�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下制度与设计管理文献的锚点。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.1 近代城市与规划制度（source_publication，主挂载）
+- role_in_theme: source_publication
+- scope_note: 本 KU 是 D.3.1 的规划制度文本锚点：以「为提倡国粹起见，市府新屋应用中国式建筑」一句观察规划条文如何推动中国固有式建筑；规划原件未核，confidence 为 low，只能作 source_publication。
 
 ## 相关知识元
 

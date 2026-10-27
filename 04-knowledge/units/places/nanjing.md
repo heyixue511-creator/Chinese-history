@@ -35,7 +35,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -45,7 +45,16 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "南京是 D 维度下都城制度、博览会场与近代城市规划条目。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.3
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/d3-jindai-chengshi-guihua-zhidu.md
+    role: geographical_context
+    primary: true
+    scope_note: "D.3.1 首批：以 1928 年首都计划与南京作为民国首都的城市规划为锚点；六朝建康、明初都城与南洋劝业会等前近代内容不并入本 Topic。"
+hierarchy_scope_note: "南京在 D.3.1 中取其 1928 年首都计划与民国首都规划段；六朝建康、明初都城与博览会场属前近代或 B 维度材料，故 secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -75,10 +84,11 @@ hierarchy_scope_note: "南京是 D 维度下都城制度、博览会场与近代
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 南京是 D 维度下都城制度、博览会场与近代城市规划条目。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无
+- primary_theme: D.3（近代城市、建筑制度与职业）
+- topic_memberships: D.3.1 近代城市与规划制度（geographical_context，主挂载）
+- role_in_theme: geographical_context
+- scope_note: 南京是 D.3.1 的民国首都规划样本：以 1928 年「首都计划」与中山陵、总统府大门、中央博物院等规划期建筑为锚点；六朝建康、明初都城与南洋劝业会等前近代内容不并入本 Topic。
 
 ## 相关知识元
 
