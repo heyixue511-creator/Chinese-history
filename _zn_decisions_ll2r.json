@@ -1,0 +1,89 @@
+{
+ "doc": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "rules": [
+  "来源只读；正文以田自秉 2010 册 Markdown 文本为主。",
+  "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+  "cand-03-09 是首末提及的包围跨度 L78-L872；本批只复读 L65-L110、L862-L880、L1768-L1782、L1805-L1816、L2325-L2345，不把包围跨度冒充连续复读。",
+  "图注器物先与既有 KU 判重：彩版11 与 L1814 的“（彩版11）”相合，并入曾侯乙尊盘；彩版10 与 L1776 的“（彩版10）”相合，并入错金银龙凤鹿方案；不另建重复条。",
+  "图注与正文用字不一致处（先蜡法/失蜡法、蟻螭纹/蟠螭纹、曾中游父/曾仲游父）照录图注，只记疑点，不改写，不据外部书目裁定。",
+  "二里头铜爵与既有的二里头青铜长流爵数据不同，两册均无馆藏号或发掘编号，分条并列，不合并。",
+  "同实体先检索既有 KU 与同批目标；能归并者按 update 处理，不重复建条。"
+ ],
+ "scope_spans": [
+  [
+   65,
+   110
+  ],
+  [
+   862,
+   880
+  ],
+  [
+   1768,
+   1782
+  ],
+  [
+   1805,
+   1816
+  ],
+  [
+   2325,
+   2345
+  ]
+ ],
+ "scope_note": "复读 L65-L110（彩版图注块）、L862-L880（二里头文化与铜爵）、L1768-L1782（错金银龙凤鹿方案与彩版10）、L1805-L1816（失蜡法与曾侯乙尊盘）、L2325-L2345（金银工艺与随县金匙金盏）。cand-03-09 的包围跨度为 L78-L872、cand-01-13 为 L92、cand-01-14 为 L95、cand-01-16 为 L101、cand-01-10 为 L82；本批实际复读 113 行，候选跨度并集为 L78-L872（795 行），后者不等于连续复读。",
+ "deferred": [],
+ "decisions": [
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-10",
+   "entity": "曾中游父方壶",
+   "action": "create",
+   "target": "04-knowledge/units/works/zengzhongyoufu-fanghu.md",
+   "analysis": "彩版8 图注为“曾中游父方壶（西周）”，正文无对应叙述。04-knowledge 无该器条目；`works/lianhe-fanghu.md` 为春秋莲鹤方壶，非同一器。图注器名“曾中游父”照录，“中”与西周器铭常见的仲字写法不同，疑为排印或 OCR 误写，来源内无铭文可校。",
+   "approve": "图注可复查，按 work 新建 B 维度条；仅一行图注，图版未视觉核验，尺寸、纹饰、铭文与出土信息均未载，confidence 取 low。",
+   "apply_note": "新建 works/zengzhongyoufu-fanghu.md，记彩版8 图注的器名、时代与类别；器名照录并对“中”字用字存疑，注明尺寸、纹饰、铭文、出土与藏地未载。",
+   "note": "canonical: 04-knowledge/units/works/zengzhongyoufu-fanghu.md。cand-01-10 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-13",
+   "entity": "四鹿四龙四凤铜案",
+   "action": "update",
+   "target": "04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md",
+   "analysis": "彩版10 图注作“四鹿四龙四凤铜案（战国）”。同册正文 L1774-L1776 记 1977 年河北平山战国中山王 1 号墓出土错金银龙凤鹿方案，末句“这是一件精美的青铜工艺珍品，也是一件罕见的古代家具(彩版10)”明言引彩版10。图注以四鹿、四龙、四凤命名，与正文四鹿为足、四龙成镂空球、龙隙各出一凤的结构相应，可确认图注即该方案。existing `works/cuo-jinyi-longfenglu-fangan.md` 已收四册来源并记三种写法，本批补第四种图注写法与 L92 出处。",
+   "approve": "图注与正文末句的彩版10 指引相合，判为同一器；按 update 并入既有方案条，补图注异名，不新建重复条。",
+   "apply_note": "更新 works/cuo-jinyi-longfenglu-fangan.md，田自秉出处补 L92、L1774-L1776，定名由三种写法增为四种，图版项补彩版10 图注；version 1→2。",
+   "note": "canonical: 04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md。cand-01-13 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-14",
+   "entity": "青铜尊和盘（先蜡法）",
+   "action": "update",
+   "target": "04-knowledge/units/works/zenghouyi-zunpan.md",
+   "analysis": "彩版11 图注作“青铜尊和盘（先蜡法）（战国）”。同册正文 L1814 记 1977 年湖北随县战国曾侯乙墓出土的铜尊与铜盘用失蜡法制作，并明言引彩版11。图注“尊和盘”合称二器，“先蜡法”与正文“失蜡法”用字不同，疑为误写。existing `works/zenghouyi-zunpan.md` 已收田自秉 L1812、L1814，本批补 L95 图注写法，不另建条。",
+   "approve": "图注与 L1814 的彩版11 指引相合，判为曾侯乙尊盘的图注；按 update 并入既有条，补图注异名与用字差异。",
+   "apply_note": "更新 works/zenghouyi-zunpan.md，田自秉出处补 L95，描述与核心内容补彩版11 图注写法“青铜尊和盘（先蜡法）”，并记“先蜡法/失蜡法”用字差异；version 3→4。",
+   "note": "canonical: 04-knowledge/units/works/zenghouyi-zunpan.md。cand-01-14 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-16",
+   "entity": "蟻螭纹金盏、镂空金匙",
+   "action": "create",
+   "target": "04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md",
+   "analysis": "彩版15 图注合列“蟻螭纹金盏、镂空金匙（战国）”；正文 L2335 另记“如随县出土的金匙、金盏（彩版15）”，作为战国单纯用金银制作器皿的例证，与辉县固围村镂花银片、银制小人并列。existing 无该器 work 条；`places/zenghouyi-tomb.md` 只记墓葬与出土物群，并已注明铜尊盘细节另见 works 条，层级不同。图注“蟻螭纹”疑为蟠螭纹误写，照录不改。",
+   "approve": "图注与正文两处可复查，按 work 新建 B 维度条；出土地只到随县，来源未点明墓葬，尺寸、重量与工艺细节未载。",
+   "apply_note": "新建 works/yichiwen-jinzhan-loukong-jinshi.md，记彩版15 图注的两器组合、纹饰与镂空做法，以及 L2335 的随县出处与战国金银工艺语境；注明蟻螭纹用字存疑、墓葬归属未载。",
+   "note": "canonical: 04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md。cand-01-16 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-09",
+   "entity": "二里头铜爵",
+   "action": "create",
+   "target": "04-knowledge/units/works/erlitou-bronze-jue.md",
+   "analysis": "cand-03-09 是 L78 图注与 L872 正文的首末包围跨度，已合并 cand-01-09（“铜爵”，同一器）。L872 记二里头遗址出土铜爵，高 13.3 厘米，平底束腰，流和尾都比较长，把上有 3 个镂孔，并引彩版5、插图1；L78 彩版5 图注作“铜爵（二里头文化）”。existing `works/erlitou-long-spout-jue.md` 为夏燕靖 2016 册所记 1975 年偃师二里头长流爵（高 22.5 厘米、流至尾长 35 厘米、腰部 5 个乳钉），与本条数据不同；两册均无馆藏号或发掘编号，来源内无法核对是否同一器。",
+   "approve": "正文与图注可复查，按 work 新建 B 维度条；二里头文化与夏文化的关系来源未定，不把夏代当已定年代；与既有的二里头青铜长流爵分条并列，不裁定二者关系。",
+   "apply_note": "新建 works/erlitou-bronze-jue.md，记 13.3 厘米铜爵的尺寸、形制、工艺评价与彩版5、插图1 图注，并记二里头文化的青铜工艺背景；明确与 works/erlitou-long-spout-jue.md 的数据差异与不合并理由。",
+   "note": "canonical: 04-knowledge/units/works/erlitou-bronze-jue.md。cand-03-09 并入该条。"
+  }
+ ]
+}

@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下辽代瓷器的条目，其契丹族器形与中原窑口关系牵涉 E 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "辽瓷是 B.6.5 族群标识层的唯一条目：器形分中原式与契丹式两大类，器形在此回答谁造的而非怎么用，与其余四条生成路径不同层"
+hierarchy_scope_note: "辽瓷是 B.6.5 族群标识层的唯一条目：器形分中原式与契丹式两大类，器形在此回答谁造的而非怎么用，与其余四条生成路径不同层"
 ---
 
 ## 描述
@@ -56,15 +64,15 @@ hierarchy_scope_note: 本 KU 是 B 维度下辽代瓷器的条目，其契丹族
 - **相关品种**：在继承唐、宋三彩釉陶技术基础上发展起来的辽三彩釉陶（2016，另见 `terms/liao-sancai.md`）
 - **证据边界**：未给辽瓷的分期、窑址名录、胎釉化学分析与契丹式器形的功能解释（2016）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下辽代瓷器的条目，其契丹族器形与中原窑口关系牵涉 E 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 辽瓷是 B.6.5 族群标识层的唯一条目：器形分中原式与契丹式两大类，器形在此回答谁造的而非怎么用，与其余四条生成路径不同层
 ## 相关知识元
 
 `terms/liao-sancai.md` 记辽三彩釉陶，`places/chifeng-gangwayaotun-liaoyao.md` 记赤峰缸瓦窑屯辽窑，`places/ding-kiln.md` 记定窑，`institutions/ciyaoguan.md` 记瓷窑官；`works/sancai-shuangyu-hu.md` 记三彩双鱼壶。relation 未审查。

@@ -1,0 +1,367 @@
+[
+ {
+  "claim_id": "claim-0132",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-87",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2463,
+   "line_end": 2482,
+   "span_kind": "bounded",
+   "key_lines": [
+    2475,
+    2479
+   ],
+   "block_ids": [
+    "b0336"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "章首",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-87"
+  }
+ },
+ {
+  "claim_id": "claim-0134",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-89",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2485,
+   "line_end": 2511,
+   "span_kind": "bounded",
+   "key_lines": [
+    2487,
+    2510
+   ],
+   "block_ids": [
+    "b0338",
+    "b0339",
+    "b0340",
+    "b0341"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "1. 手工业的兴盛与设计水平的提升 / 1）官营手工业的兴盛",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-89"
+  }
+ },
+ {
+  "claim_id": "claim-0139",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-91",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2563,
+   "line_end": 2566,
+   "span_kind": "bounded",
+   "key_lines": [
+    2565
+   ],
+   "block_ids": [
+    "b0347"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "2. 陶瓷工艺与陶瓷设计的发展 / 2）重要的陶瓷类别",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-91"
+  }
+ },
+ {
+  "claim_id": "claim-0140",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-93",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2576,
+   "line_end": 2585,
+   "span_kind": "bounded",
+   "key_lines": [
+    2582
+   ],
+   "block_ids": [
+    "b0350"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "2. 陶瓷工艺与陶瓷设计的发展 / 2）重要的陶瓷类别 / ① 青瓷",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-93"
+  }
+ },
+ {
+  "claim_id": "claim-0141",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-94",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2600,
+   "line_end": 2606,
+   "span_kind": "bounded",
+   "key_lines": [
+    2605
+   ],
+   "block_ids": [
+    "b0355"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "2. 陶瓷工艺与陶瓷设计的发展 / 知识链接：唐代秘色瓷",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-94"
+  }
+ },
+ {
+  "claim_id": "claim-0145",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-96",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2634,
+   "line_end": 2639,
+   "span_kind": "bounded",
+   "key_lines": [
+    2636
+   ],
+   "block_ids": [
+    "b0358"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "3. 纺织及印染业的进步与品种的丰富多彩 / 1）丝织业",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-96"
+  }
+ },
+ {
+  "claim_id": "claim-0146",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-98",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2659,
+   "line_end": 2666,
+   "span_kind": "bounded",
+   "key_lines": [
+    2663
+   ],
+   "block_ids": [
+    "b0362"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "3. 纺织及印染业的进步与品种的丰富多彩 / ② 锦",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-98"
+  }
+ },
+ {
+  "claim_id": "claim-0147",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-97",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2642,
+   "line_end": 2654,
+   "span_kind": "bounded",
+   "key_lines": [
+    2644
+   ],
+   "block_ids": [
+    "b0360"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "3. 纺织及印染业的进步与品种的丰富多彩 / 知识链接：陵阳公样",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-97"
+  }
+ },
+ {
+  "claim_id": "claim-0150",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-99",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2715,
+   "line_end": 2730,
+   "span_kind": "bounded",
+   "key_lines": [
+    2723
+   ],
+   "block_ids": [
+    "b0372"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "4. 服装工艺与服饰设计的特色形成 / 1）男服",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-99"
+  }
+ },
+ {
+  "claim_id": "claim-0153",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-100",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2796,
+   "line_end": 2820,
+   "span_kind": "bounded",
+   "key_lines": [
+    2798
+   ],
+   "block_ids": [
+    "b0380"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "5. 金属工艺设计的成熟 / 2）金银器的制作工艺与设计特色",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-100"
+  }
+ },
+ {
+  "claim_id": "claim-0154",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-101",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2835,
+   "line_end": 2848,
+   "span_kind": "bounded",
+   "key_lines": [
+    2837
+   ],
+   "block_ids": [
+    "b0383"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "5. 金属工艺设计的成熟 / 知识链接：伊斯兰文化",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-101"
+  }
+ },
+ {
+  "claim_id": "claim-0154",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-102",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2835,
+   "line_end": 2848,
+   "span_kind": "bounded",
+   "key_lines": [
+    2837
+   ],
+   "block_ids": [
+    "b0383"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "5. 金属工艺设计的成熟 / 知识链接：伊斯兰文化",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-102"
+  }
+ },
+ {
+  "claim_id": "claim-0155",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-141",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2835,
+   "line_end": 2848,
+   "span_kind": "bounded",
+   "key_lines": [
+    2845
+   ],
+   "block_ids": [
+    "b0383"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "5. 金属工艺设计的成熟 / 3）铜器工艺的高度发达",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-141"
+  }
+ },
+ {
+  "claim_id": "claim-0156",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-104",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2851,
+   "line_end": 2863,
+   "span_kind": "bounded",
+   "key_lines": [
+    2857
+   ],
+   "block_ids": [
+    "b0385"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "6. 造船与家具制造业的发展与设计特色 / 1）造船业",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-104"
+  }
+ },
+ {
+  "claim_id": "claim-0163",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-108",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2995,
+   "line_end": 3021,
+   "span_kind": "bounded",
+   "key_lines": [
+    3020
+   ],
+   "block_ids": [
+    "b0394"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "9. 唐代设计理论述要",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-108"
+  }
+ },
+ {
+  "claim_id": "claim-0163",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-63",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3024,
+   "line_end": 3027,
+   "span_kind": "bounded",
+   "key_lines": [
+    3026
+   ],
+   "block_ids": [
+    "b0396"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "9. 唐代设计理论述要 / 知识链接：〈梓人传〉",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-63"
+  }
+ },
+ {
+  "claim_id": "claim-0164",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-142",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2974,
+   "line_end": 2981,
+   "span_kind": "bounded",
+   "key_lines": [
+    2980
+   ],
+   "block_ids": [
+    "b0391"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "8. 五代十国时期的设计特征 / 1）陶瓷工艺",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-142"
+  }
+ },
+ {
+  "claim_id": "claim-0165",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-107",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2986,
+   "line_end": 2994,
+   "span_kind": "bounded",
+   "key_lines": [
+    2990
+   ],
+   "block_ids": [
+    "b0393"
+   ],
+   "chapter": "隋唐五代时期的设计繁荣",
+   "section": "8. 五代十国时期的设计特征",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-107"
+  }
+ }
+]

@@ -1,0 +1,334 @@
+# -*- coding: utf-8 -*-
+"""Build T12 decisions JSON for the 2010 Tian Zibing Qing chapter."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2010-tianzibing-zhongguo-gongyi-meishushi"
+SRC = "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md"
+U = "04-knowledge/units/"
+
+RULES = [
+    "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+    "跨册两源新建：追加第二册 source block，source_count=2；两册说法不一致时并列，不据一说改写另一说",
+    "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+    "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+    "同名异物或同词两义并列著录，不合并为单一定义",
+    "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+    "只有图注的候选建图版锚点作品条并标未视觉核验与逐项未载；图注与正文引图标记不在同段时照录不改排",
+    "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+    "人物条只承担籍贯、身份、师承、得名与评语；工艺定义、工序与产地归术语条，两组互指不合并",
+    "候选跨度跨入未复读章节时不得继承候选的合并跨度：只复读本章并保留 needs_evidence，随下一批复读全跨度后裁定",
+]
+
+
+def C(cid, entity, target, analysis, approve, apply_note, note=None):
+    return {
+        "cid": f"{DOC}:{cid}",
+        "entity": entity,
+        "action": "create",
+        "target": U + target,
+        "analysis": analysis,
+        "approve": approve,
+        "apply_note": apply_note,
+        "note": note or f"canonical: {U}{target}。{cid} 并入该条。",
+    }
+
+
+def UPD(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "update"
+    return d
+
+
+def N(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "no_delta"
+    return d
+
+
+D = []
+
+D.append(C(
+    "cand-11-100", "郎红", "terms/langhong.md",
+    "候选为郎红（L4537-L4539）。`terms/hongyou.md` 只据赵农记铜红釉的呈色原理与宝石红效果，无康熙红釉与郎红之称；`terms/youlihong.md` 为釉里红，施彩方式不同。来源给宝石红别称、郎廷极督造与郎红得名、命名不妥当的判断、挂不住口与口缘淡青的呈色特征，以及同期色釉的列举。建 term 条，与红釉条、郎廷极条互指。",
+    "批准新建 terms/langhong.md；单册单源，consensus=tentative。",
+    "写入 terms/langhong.md，新建；来源 L4537-L4539；配方、烧成温度、窑址与存世器例未载。",
+))
+
+D.append(C(
+    "cand-11-79", "郎廷极", "persons/lang-tingji.md",
+    "候选为郎廷极（L4537）。`persons/` 无郎廷极条；来源只在郎红得名处给督造事实，并立即指出以督造者命名的做法并不妥当。人物条只承担督造者身份与命名争议，不据来源外史料补写生卒、官职与督陶年份。",
+    "批准新建 persons/lang-tingji.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 persons/lang-tingji.md，新建；来源 L4537；生卒、籍贯、官职全称、督陶起止年份与所督窑厂未载。",
+))
+
+D.append(C(
+    "cand-11-80", "古彩", "terms/gu-cai.md",
+    "候选为古彩（L4541）。`terms/wucai.md` 记明代嘉靖万历五彩，不收康熙古彩；`terms/fencai.md` 记粉彩与软彩，未收硬彩一路。来源给古彩的地位、继承明代五彩的技法来源、硬彩别称之因、单线平涂与色彩浓艳，以及较明代五彩的层次差别，段末另标插图1。建 term 条，与五彩、粉彩、釉上彩条互指，不把古彩并入五彩。",
+    "批准新建 terms/gu-cai.md；单册单源，consensus=tentative。",
+    "写入 terms/gu-cai.md，新建；来源 L4541、L4548；彩料成分、烧成温度、具体器例与产量未载。",
+))
+
+D.append(C(
+    "cand-11-101", "素三彩", "terms/su-sancai.md",
+    "候选为素三彩（L4543）。`terms/` 无素三彩条，只有唐、宋、辽三彩三条。田自秉把素三彩系于康熙并作黄、绿、紫而无红色；夏燕靖 2009 L3589 把正德时的素三彩记作黄、绿、蓝、紫而不用红色。两册年代与色目均不一致，属 potential_conflict，按两源并列建条，不裁定先后，confidence 取 low。",
+    "批准新建 terms/su-sancai.md；跨册两源，consensus=tentative，两说并列不裁定。",
+    "写入 terms/su-sancai.md，新建；来源田自秉 L4543、夏燕靖 2009 L3589；胎釉、烧成温度与器物实例未载。",
+))
+
+D.append(N(
+    "cand-11-102", "康青五色", "terms/blue-and-white-porcelain.md",
+    "候选为康青五色（L4543）。`terms/blue-and-white-porcelain.md` 的清代条目已逐字收录田自秉“所谓康青五色，是指渲染的次数加多，更富层次感”，并已与陕西青花、赵农与高丰的青花判断并列。若另立条或再更新，只会在同一来源同一句上重复。记 no_delta，目标 terms/blue-and-white-porcelain.md。",
+    "批准 no_delta；康青五色由 terms/blue-and-white-porcelain.md 承担，本批不重复写回。",
+    "no_delta：L4543 的康青五色已由 terms/blue-and-white-porcelain.md 全文收录，不另建条。",
+))
+
+D.append(C(
+    "cand-11-81", "五彩花鸟纹瓷瓶", "works/wucai-flower-bird-vase.md",
+    "候选为图注所记五彩花鸟纹瓷瓶（L4547-L4548）。`works/` 无此器；`terms/gu-cai.md` 承担古彩技法，不收单器。来源只有图注器名、时代与图号，正文引图标记在古彩段末。按图版锚点建 work 条，标未视觉核验，不据器名补写纹样、尺寸与藏地。",
+    "批准新建 works/wucai-flower-bird-vase.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/wucai-flower-bird-vase.md，新建；来源 L4541、L4547-L4548；尺寸、窑口、款识、收藏地与纹样细目未载。",
+))
+
+D.append(C(
+    "cand-12-03", "《陶雅》", "publications/taoya.md",
+    "候选为《陶雅》（L4554-L4556）。`publications/` 无《陶雅》条；`terms/fencai.md` 只把 L4554 的评语用作粉彩的旁证，未立文献条。来源两处引其评语：粉彩以雍正朝为最美的评语与雍正脱胎器四绝。前一处原文带省略号，按分引处理，不跨省略号连读。作者、年代与版本来源未给，逐项标未载。",
+    "批准新建 publications/taoya.md；单册单源，consensus=tentative。",
+    "写入 publications/taoya.md，新建；来源 L4554-L4556；作者、成书年代、卷数、版本与全书体例未载。",
+))
+
+D.append(C(
+    "cand-12-09", "景德镇窑珐琅彩竹菊鹌鹑瓶", "works/falangcai-zhuju-anchun-ping.md",
+    "候选为图注所记景德镇窑珐琅彩竹菊鹌鹑瓶（L4579）。`terms/falangcai.md` 记珐琅彩的瓷胎、彩绘与二次烧成，不收单器；`works/` 无此器。来源只有图注器名、窑口、时代与图号，同段总评给乾隆珐琅彩的制作水平。按图版锚点建 work 条，标未视觉核验。",
+    "批准新建 works/falangcai-zhuju-anchun-ping.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/falangcai-zhuju-anchun-ping.md，新建；来源 L4576、L4579；尺寸、款识、收藏地与纹样细目未载。",
+))
+
+D.append(C(
+    "cand-12-10", "广彩", "terms/guangcai.md",
+    "候选为广彩（L4591）。`terms/` 无广彩条；`places/guangzhou.md` 记广州口岸与西式工艺影响的入口，但明确把工艺条目分给其他 KU，不收广彩本身。来源给外销动因、清代中期的时段、景德镇胎与广州加工的两地分工、色彩风格与织金之称。建 term 条，B 维度为主，外销与口岸分工归 D、E 维度。",
+    "批准新建 terms/guangcai.md；单册单源，consensus=tentative。",
+    "写入 terms/guangcai.md，新建；来源 L4591；起始年代、外销国家与数量、作坊与器类未载。",
+))
+
+D.append(C(
+    "cand-12-11", "曼生壶", "terms/mansheng-hu.md",
+    "候选为曼生壶（L4595）。`terms/zisha-tao.md` 记紫砂陶总类，`places/yixing.md` 已记曼生壶与杨彭年，但 `terms/` 无曼生壶这一器类条。来源给嘉庆年代、陈曼生设计、杨彭年制作与清代紫砂珍品的评价。建 term 条，与紫砂陶、宜兴、陈曼生、杨彭年条互指，不重复紫砂工艺总述。",
+    "批准新建 terms/mansheng-hu.md；单册单源，consensus=tentative。",
+    "写入 terms/mansheng-hu.md，新建；来源 L4595；器形、铭文内容、制作数量与传世情况未载。",
+))
+
+D.append(C(
+    "cand-12-13", "杨彭年", "persons/yang-pengnian.md",
+    "候选为杨彭年（L4595）。`persons/` 无杨彭年条；`places/yixing.md` 已在产地条内记其与曼生壶，但无人物条。来源给嘉庆年代、与杨凤年的兄妹关系、曼生壶的制作分工与史论家“杨彭年精巧”的评语。建 person 条，与曼生壶条互指。",
+    "批准新建 persons/yang-pengnian.md；单册单源，consensus=tentative。",
+    "写入 persons/yang-pengnian.md，新建；来源 L4595；生卒、籍贯、师承、作品目录与传世品清单未载。",
+))
+
+D.append(C(
+    "cand-12-14", "陈曼生", "persons/chen-mansheng.md",
+    "候选为陈曼生（L4595）。`persons/` 无陈曼生条；来源只以陈曼生称之，给曼生壶的设计者身份与得名关系，未给本名、官职与生卒。建 person 条，confidence 取 low，不据外部文献补写陈鸿寿等本名信息。",
+    "批准新建 persons/chen-mansheng.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 persons/chen-mansheng.md，新建；来源 L4595；本名、字号、官职、生卒与设计图稿未载。",
+))
+
+D.append(N(
+    "cand-12-26", "曹玺", "institutions/jiangning-zhizaoju.md",
+    "候选为曹玺（L4635）。`institutions/jiangning-zhizaoju.md` 已逐字收录田自秉“清代，则设有江宁织造局。《红楼梦》作者曹雪芹的祖父曹玺，就曾于康熙时期任江宁织造局的‘内务府官’，管理织锦的生产”，并已与夏燕靖两版的“特织御用云锦”并列、处理了曹氏任职年数的两说。曹玺是织造官员而非工匠，机构条已完整承担其身份与职能。记 no_delta，目标 institutions/jiangning-zhizaoju.md。",
+    "批准 no_delta；曹玺由 institutions/jiangning-zhizaoju.md 承担，本批不另立人物条。",
+    "no_delta：L4635 的曹玺记载已由 institutions/jiangning-zhizaoju.md 全文收录，不另建条。",
+))
+
+D.append(C(
+    "cand-12-32", "湘绣", "terms/xiangxiu.md",
+    "候选为湘绣（L4657-L4663）。`terms/` 无湘绣条；`terms/sida-mingxiu.md` 只记四大名绣的并称，`institutions/wucaixia-xiufang.md` 只记绣坊，均不收湘绣的技法与题材。来源给形成期、徐崇立两段引文、马王堆发源说及其立论边界、写实作风、施针与针法清单、狮虎题材与色彩衬地。建 term 条，与顾绣、四大名绣、粤绣、吴彩霞绣坊、胡莲仙条互指。",
+    "批准新建 terms/xiangxiu.md；单册单源，consensus=tentative。",
+    "写入 terms/xiangxiu.md，新建；来源 L4657-L4663；湘绣与苏绣针法的具体差别、产地分布与产量未载。",
+))
+
+D.append(C(
+    "cand-12-33", "胡莲仙", "persons/hu-lianxian.md",
+    "候选为胡莲仙（L4659）。`institutions/wucaixia-xiufang.md` 已在绣坊条内记其籍贯、学艺、婚姻与开业，并明言 `persons/` 下尚无胡莲仙专条。人物条只承担籍贯、早年学艺、婚姻、迁居开业、与魏氏的合作与贡献定位，绣坊组织与传授网点仍归机构条，两组互指不重复。",
+    "批准新建 persons/hu-lianxian.md；单册单源，consensus=tentative。",
+    "写入 persons/hu-lianxian.md，新建；来源 L4659；生卒、绘画作品、绣品目录与绣坊规模未载。",
+))
+
+D.append(C(
+    "cand-12-37", "蜀绣", "terms/shuxiu.md",
+    "候选为蜀绣（L4673）。`terms/` 无蜀绣条；`terms/sida-mingxiu.md` 只记并称。来源给成都这一产地的中心地位、成都绸缎与散线红线用料、工整厚重与明快设色的风格、四句口诀、车与拧的释义、产品类别与西北销路。建 term 条，与四大名绣及另三种地方绣互指。",
+    "批准新建 terms/shuxiu.md；单册单源，consensus=tentative。",
+    "写入 terms/shuxiu.md，新建；来源 L4673；形成年代、针法总数、作坊与产量未载。",
+))
+
+D.append(C(
+    "cand-12-38", "京绣", "terms/jingxiu.md",
+    "候选为京绣（L4675）。`terms/` 无京绣条；`terms/sida-mingxiu.md` 只记并称。来源给明清两代北京皇室绣作的源起、小品与精巧富丽的制品特征、戳纱贴绫挑花堆绒四类绣法名目、近郊农村的副业分布。建 term 条，与四大名绣及另三种地方绣互指。",
+    "批准新建 terms/jingxiu.md；单册单源，consensus=tentative。",
+    "写入 terms/jingxiu.md，新建；来源 L4675；具体作坊、工匠名、起始年代与产品数量未载。",
+))
+
+D.append(C(
+    "cand-12-47", "地毯", "terms/ditan.md",
+    "候选为地毯（L4695-L4701）。`terms/shougong-bianzhi.md` 记手工编织，但未收地毯的产地、帮派、纹样与栽绒工艺。来源给历史分布与新疆、宁夏两处著名产地、清代中叶传入北京天津、胡其昌携徒设公司与东西门法之分、北平帮与天津帮的分属、新疆几何骨架与北京花草八宝八仙的纹样差别、团花四角角花的格式、铺地与壁挂卧垫等用途、栽绒为主的制作方法，以及西藏氆氇。建 term 条。",
+    "批准新建 terms/ditan.md；单册单源，consensus=tentative。",
+    "写入 terms/ditan.md，新建；来源 L4695-L4701；胡其昌其名的确切性、各帮产量与外销数量、栽绒工序细节未载。",
+))
+
+D.append(C(
+    "cand-12-48", "胡其昌", "persons/hu-qichang.md",
+    "候选为胡其昌（L4695）。`persons/` 无胡其昌条；来源给咸丰、同治年间的喇嘛僧身份、由西藏经甘肃、绥远到北平、在报国寺设地毯织制公司与二徒分东西二门的记载，并在地毯条中交代工艺。来源在其名后原附问号，本条照录不删，confidence 取 low。",
+    "批准新建 persons/hu-qichang.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 persons/hu-qichang.md，新建；来源 L4695；生卒、籍贯、所属寺院与传法细节未载，姓名自带问号。",
+))
+
+D.append(C(
+    "cand-12-52", "画珐琅", "terms/hua-falang.md",
+    "候选为画珐琅（L4715-L4721）。`terms/falangcai.md` 记瓷胎画珐琅，`terms/jingtai-lan.md` 记铜胎掐丝珐琅，均不收铜胎画珐琅。来源给别称与定义、与掐丝珐琅的分工、画珐琅为掐丝珐琅演进而非外来的判断、康熙产生与乾隆兴盛、造型与绘画式装饰、早期细孔与后期平滑的差别、表白里蓝底白的制作通例、雍正鼻烟壶与乾隆大件及家具应用、西洋风格与“艺术水平下降”的评价，L4729 另给造办处珐琅作与广东两处产地及粤东祥林店铭记。建 term 条，与珐琅彩、景泰蓝、造办处条互指。",
+    "批准新建 terms/hua-falang.md；单册单源，consensus=tentative，confidence=high。",
+    "写入 terms/hua-falang.md，新建；来源 L4715-L4729；起始年份、珐琅料成分、产量与器例清单未载。",
+))
+
+D.append(C(
+    "cand-12-55", "画珐琅小瓶", "works/hua-falang-xiaoping.md",
+    "候选为图注所记画珐琅小瓶（L4724）。`works/` 无此器；`terms/hua-falang.md` 承担工艺定义。来源只有图注器名、时代与图号，正文以插图3、插图4并引。按图版锚点建 work 条，与葵花式盘分列，标未视觉核验。",
+    "批准新建 works/hua-falang-xiaoping.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/hua-falang-xiaoping.md，新建；来源 L4719、L4724；尺寸、釉色、款识、收藏地与制作年份未载。",
+))
+
+D.append(C(
+    "cand-12-56", "画珐琅葵花式盘", "works/hua-falang-kuihua-pan.md",
+    "候选为图注所记画珐琅葵花式盘（L4727）。`works/` 无此器；来源只有图注器名、器式、时代与图号，葵花式是唯一造型信息。按图版锚点建 work 条，标未视觉核验，不据器式推定瓣数与尺寸。",
+    "批准新建 works/hua-falang-kuihua-pan.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/hua-falang-kuihua-pan.md，新建；来源 L4719、L4727；尺寸、釉色、款识、收藏地与制作年份未载。",
+))
+
+D.append(C(
+    "cand-12-57", "汤天池", "persons/tang-tianchi.md",
+    "候选为汤天池（L4733）。`procedures/tiehua-zhizuo.md` 已记铁画的材料、制作手续与风格，并在参与者字段记汤天池，但 `persons/` 无人物条。人物条只承担康熙间铁工身份、与画室为邻的学艺机缘与仿制书画的题材清单，铁画工序仍归工序条，两组互指不重复。",
+    "批准新建 persons/tang-tianchi.md；单册单源，consensus=tentative。",
+    "写入 persons/tang-tianchi.md，新建；来源 L4733；生卒、籍贯、师承、作坊地点与作品存世情况未载。",
+))
+
+D.append(C(
+    "cand-12-61", "点螺", "terms/dianluo.md",
+    "候选为点螺（L4757）。`terms/luodian.md` 记宋、明两代螺钿与软硬螺钿之分，不收清代扬州的点螺；`terms/baibaoqian.md` 记百宝嵌。来源给扬州漆器的分类、点螺在螺钿中的最精巧地位、彩色鲍鱼贝壳切细片的做法与五彩光泽。建 term 条，与螺钿、百宝嵌、扬州条互指，不把点螺并入螺钿条。",
+    "批准新建 terms/dianluo.md；单册单源，consensus=tentative。",
+    "写入 terms/dianluo.md，新建；来源 L4757；胎骨、嵌片厚度、切割与镶嵌工序、存世器例未载。",
+))
+
+D.append(C(
+    "cand-12-63", "螺钿朱漆攒盒", "works/luodian-zhuiqi-zanhe.md",
+    "候选为图注所记螺钿朱漆攒盒（L4760）。`works/` 已有唐宋螺钿器数条，无清代扬州此器；`terms/dianluo.md` 承担工艺。来源只有图注器名、工艺类别、时代与图号，图注在 L4760 而正文引图标记在 L4766，中间隔卢映之、卢葵生段。按图版锚点建 work 条，标未视觉核验并记图注与引图不在一段。",
+    "批准新建 works/luodian-zhuiqi-zanhe.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/luodian-zhuiqi-zanhe.md，新建；来源 L4760、L4766；尺寸、嵌片工艺、纹样细目、收藏地与制作年份未载。",
+))
+
+D.append(C(
+    "cand-12-64", "卢葵生", "persons/lu-kuisheng.md",
+    "候选为卢葵生（L4762-L4766）。`persons/` 无卢葵生条；`terms/luodian.md` 与 `terms/baibaoqian.md` 记工艺与周制，不收人物。来源给卢映之、卢葵生祖孙的漆工名手身份、镶嵌漆器与漆沙砚的闪光沙粒、《履园丛话》今映之孙葵生亦能之的引文、《桥西杂记》以扬州卢葵生家所制为最精与雕刻山水花鸟的评语。建 person 条，与螺钿、百宝嵌、点螺、扬州条互指。",
+    "批准新建 persons/lu-kuisheng.md；单册单源，consensus=tentative。",
+    "写入 persons/lu-kuisheng.md，新建；来源 L4762-L4766；生卒、字号、作品目录与漆沙砚配方未载。",
+))
+
+D.append(C(
+    "cand-12-66", "沈沼安", "persons/shen-zhaoan.md",
+    "候选为沈沼安（L4770）。`terms/tuotai-qiqi.md` 记脱胎漆器这一器类，但 `persons/` 无沈沼安条。来源给乾隆时期制漆艺人身份、运用夹纻技法创造脱胎漆器、制漆家庭与善于塑造、泥模布绸粘贴上漆的工序与沿袭至今。籍贯只在福州脱胎这一节题层面，正文未明言，本条不据节题补写。",
+    "批准新建 persons/shen-zhaoan.md；单册单源，consensus=tentative。",
+    "写入 persons/shen-zhaoan.md，新建；来源 L4770；生卒、籍贯、作品目录与夹纻层数未载。",
+))
+
+D.append(C(
+    "cand-12-67", "汤姆·齐平特", "persons/tom-qipinte.md",
+    "候选为汤姆·齐平特（L4772）。`persons/` 无此外国工艺家条；`terms/qing-style-furniture.md` 记清式家具，不收欧洲接受一侧。来源给 18 世纪英国家具工艺家身份、以中国漆家具为蓝本的设计与齐平特时代之称、福建漆与龙花草佛像塔等纹饰，并以此说明清代漆器对欧洲的影响。建 person 条，E 维度为主，B、D 为次。",
+    "批准新建 persons/tom-qipinte.md；单册单源，consensus=tentative。",
+    "写入 persons/tom-qipinte.md，新建；来源 L4772；生卒、具体作品名、风格流行起止年份与作坊未载。",
+))
+
+D.append(C(
+    "cand-12-69", "大禹治水图玉山", "works/dayu-zhishui-yushan.md",
+    "候选为大禹治水图玉山（L4782-L4786）。`works/` 无此器；`procedures/yudiao-taocai-qiaose.md` 记玉雕的工艺处理，不收单器。来源给藏品与代表性作品的定位、尺寸与 13 年工期、和田密勒塔山玉料、千余名工人与百余匹马的运输、泼水成冰的路线、以《大禹开山图》为蓝本与造办处出坯后扬州制作的三地分工、铊子管钻与金刚石刻玉刀、画面、乾隆题诗、封建帝王与劳动人民的双重评价，以及同类三件大型玉雕。建 work 条，confidence 取 high。",
+    "批准新建 works/dayu-zhishui-yushan.md；单册单源，consensus=tentative，confidence=high。",
+    "写入 works/dayu-zhishui-yushan.md，新建；来源 L4782-L4786；参与工匠名录、各段工期、陈设地点变迁与实际里程未载。",
+))
+
+D.append(C(
+    "cand-12-72", "白玉嵌金红宝石碗", "works/baiyu-qianjin-hongbaoshi-wan.md",
+    "候选为白玉嵌金红宝石碗（L4788）。`works/` 无此器；来源与《大禹治水图玉山》并列为故宫博物院藏代表性作品，给和田白玉材料、浅腹敞口与两个桃形耳、错金花草与 180 颗红宝石、乾隆诗全文、《高宗御制诗集》注两段与赐奶茶用途的判断。建 work 条，与玉山条分列。",
+    "批准新建 works/baiyu-qianjin-hongbaoshi-wan.md；单册单源，consensus=tentative，confidence=high。",
+    "写入 works/baiyu-qianjin-hongbaoshi-wan.md，新建；来源 L4782、L4788；尺寸、重量、碗心诗的刻法、收藏编号与制作年份未载。",
+))
+
+D.append(C(
+    "cand-12-112", "青田石雕", "terms/qingtian-shidiao.md",
+    "候选为青田石雕（L4802）。`places/qingtian.md` 已记青田一地与该石雕的同一句记载，并明言 `terms/` 中无石雕专条；`terms/` 也无石雕类条目。来源给产地、清时盛行、松鼠葡萄题材与葡萄山别称。建 term 条，与青田、寿山石雕、菊花石条互指，不把产地条当工艺条。",
+    "批准新建 terms/qingtian-shidiao.md；单册单源，consensus=tentative。",
+    "写入 terms/qingtian-shidiao.md，新建；来源 L4802；石矿与石质、雕刻工序、艺人、作坊与器物类型未载。",
+))
+
+D.append(C(
+    "cand-12-113", "寿山石雕", "terms/shoushan-shidiao.md",
+    "候选为寿山石雕（L4804）。`terms/` 无寿山石雕条，寿山一地也未立 place 条；`places/qingtian.md` 的同段并列项已把寿山石雕列为另属。来源给福州产地、圆雕见长、始于明代、乾隆发展、杨璇与周尚钧两位艺人。建 term 条，与青田石雕、菊花石条互指。",
+    "批准新建 terms/shoushan-shidiao.md；单册单源，consensus=tentative。",
+    "写入 terms/shoushan-shidiao.md，新建；来源 L4804；石种、雕刻工序、作坊、器物类型与传世作品未载。",
+))
+
+D.append(C(
+    "cand-12-114", "菊花石", "terms/juhua-shi.md",
+    "候选为菊花石（L4806）。`places/liuyang.md` 已记浏阳一地与菊花石雕的同一段记载，并明言 `terms/` 中无菊花石专条。来源给浏阳永和镇浏阳河一带的产地与河底石质最佳、方解石与球形放射状集合体、五种菊花形、乾隆至清末的用途变化、欧锡潘与程维达两位艺人。建 term 条，与浏阳、青田石雕、寿山石雕条互指。",
+    "批准新建 terms/juhua-shi.md；单册单源，consensus=tentative。",
+    "写入 terms/juhua-shi.md，新建；来源 L4806；矿脉分布、采石量、雕刻工序、尺寸与传世品未载。",
+))
+
+D.append(C(
+    "cand-12-78", "吴之璠", "persons/wu-zhifan.md",
+    "候选为吴之璠（L4812）。`persons/` 无吴之璠条；`terms/jiading-school.md` 与 `terms/jinling-school.md` 记两派，未收个人。来源给嘉定派著名竹雕艺人身份、刀法圆润、布局疏朗与薄地阳刻最工绝的评语，并同段列封锡禄、封锡璋、施天章、沈兼、尚勋、周颢与金陵派潘西凤、方洁。人物条只承担吴之璠，其余同段人名以非链接文字记于核心内容。",
+    "批准新建 persons/wu-zhifan.md；单册单源，consensus=tentative。",
+    "写入 persons/wu-zhifan.md，新建；来源 L4812；生卒、籍贯、师承、作品目录与薄地阳刻工序未载。",
+))
+
+D.append(C(
+    "cand-12-79", "留青", "terms/liuqing.md",
+    "候选为留青（L4814）。`terms/` 无留青条；`terms/jiading-school.md` 与 `terms/jinling-school.md` 记竹刻流派，不收技法分种。来源给留青即皮雕的别称、利用竹青外表的原理、张希黄这一艺人，L4810 另给清代竹雕分竹刻、留青、翻簧三种的技法框架。建 term 条，与两派条、吴之璠条互指。",
+    "批准新建 terms/liuqing.md；单册单源，consensus=tentative。",
+    "写入 terms/liuqing.md，新建；来源 L4810、L4814；刻法细节、竹青厚薄控制、产地、器类与作品未载。",
+))
+
+D.append(C(
+    "cand-12-81", "小品雕刻", "terms/xiaopin-diaoke.md",
+    "候选为小品雕刻（L4820-L4822）。`terms/` 无小品雕刻条；`works/` 已有象牙杯、犀角杯、透雕象牙梳等单器，但无清代小件雕刻的类目条。来源给种类繁多与制作精巧的总述、牙骨紫檀黄杨果核匏瓜的材料清单、牙雕染色拼镶与象牙球十余层、犀角与木雕胡桃匏器的名手、作品百花争艳各有特色的总评。建 term 条，逐类列名不分述各家。",
+    "批准新建 terms/xiaopin-diaoke.md；单册单源，consensus=tentative。",
+    "写入 terms/xiaopin-diaoke.md，新建；来源 L4820-L4822；各类小品的工序、尺寸、产地与作品目录未载。",
+))
+
+D.append(C(
+    "cand-12-83", "张明山", "persons/zhang-mingshan.md",
+    "候选为张明山（L4828）。`persons/` 无张明山条；泥人张作为工艺流派尚无专条，其候选 cand-12-82 的跨度延伸至近代章 L5323，本批不裁定，故本条不链流派条。来源给泥人张的清末天津泥塑定位、五代世系、张明山的第二代位置、衣袖塑像的传闻与彩塑形神兼备的标准。",
+    "批准新建 persons/zhang-mingshan.md；单册单源，consensus=tentative。",
+    "写入 persons/zhang-mingshan.md，新建；来源 L4828；生卒、籍贯、个人作品名与传世品目录未载。",
+))
+
+D.append(C(
+    "cand-12-88", "荷花纹套红料缸", "works/hehua-wen-taohong-liaogang.md",
+    "候选为图注所记荷花纹套红料缸（L4851）。`works/` 无此器；`procedures/taoliao.md` 记套料的配色与磨花，`terms/liuli.md` 与 `terms/glass.md` 记玻璃材料，均不收单器。来源只有图注器名、工艺、时代与图号，L4846 给料器即含铅玻璃的定义，L4848 与 L4853 记康熙玻璃厂的生产（生产二字续于 L4853 行首，与 L4848 不连）。按图版锚点建 work 条，标未视觉核验。",
+    "批准新建 works/hehua-wen-taohong-liaogang.md；单册单源，consensus=tentative，confidence=low。",
+    "写入 works/hehua-wen-taohong-liaogang.md，新建；来源 L4846、L4848-L4853；尺寸、釉色层次、套红套烧参数、收藏地与制作年份未载。",
+))
+
+cfg = {
+    "doc": DOC,
+    "file": SRC,
+    "rules": RULES,
+    "scope_spans": [[4503, 4900]],
+    "scope_note": "第十一章清代的工艺美术（L4503-L4900）全章复读并裁定 38 条。5 条跨章合并候选（cand-12-31 苏绣 L4651-L5140、cand-12-80 翻簧 L4816-L5244、cand-12-82 泥人张 L4826-L5323、cand-12-84 惠山泥人 L4830-L5325、cand-12-87 料器 L4846-L5339）的候选跨度延伸至近代章 L4901 之后，该段本批未复读，保留 needs_evidence 随 T13 一并裁定，不记 terminal、不继承合并跨度。图版只读图注，未视觉核验。",
+    "decisions": D,
+}
+
+out = ROOT / "_zn_decisions_t12.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=2), encoding="utf-8")
+print(json.dumps({
+    "decisions": len(D),
+    "creates": sum(1 for d in D if d["action"] == "create"),
+    "updates": sum(1 for d in D if d["action"] == "update"),
+    "no_delta": sum(1 for d in D if d["action"] == "no_delta"),
+}, ensure_ascii=False))

@@ -1,0 +1,74 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+  "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+  "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+  "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+  "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。"
+ ],
+ "scope_spans": [
+  [
+   849,
+   943
+  ]
+ ],
+ "scope_note": "覆盖 L849-L943：第二章“开放融合与风格转变”标题与第一节“传统、外来、时尚”全节，含 L851-L857 全章总论、L861-L865 南北分裂与纺织、L867-L897 牛车鹿车与指南车记里鼓车、L902 青瓷与缥瓷、L907-L928 佛教纹样与莲花尊、L930-L940 胡服胡床与发式时尚、L942 节末；止于第二节标题（L944）之前。",
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-01",
+   "entity": "孝文帝",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xiaowendi.md",
+   "analysis": "cand-03-01 跨度为 L863-L930。L863 给北魏统一中原后孝文帝奖劝农桑、设立官营丝织作坊、平城宫“婢使千余人织绫锦”、任民织造与遣散机织工匠；L930 给孝文帝制订朝服时吸收熟悉南朝典制者参与设计，以及孝明帝再次改制、服饰趋向博大、南朝江表士庶竞相模楷。persons 下无孝文帝条目；相关材料现分散于 `events/xiaowendi-jiangquan-nongsang.md` 与 `events/xiaomingdi-fushi-gaige.md` 两事件条。",
+   "approve": "两事均有直接文本，且分属纺织生产组织与服饰改制两条线；人物条可把分散在两条事件中的统治者行为收拢为可检索的人物锚点，按 medium 建条并互链，不复制事件条的完整叙述。",
+   "apply_note": "新建 persons/xiaowendi.md，记奖劝农桑、官营丝织、任民织造、朝服设计、孝明帝改制与未载项；与两条事件条互链。",
+   "note": "canonical: 04-knowledge/units/persons/xiaowendi.md。cand-03-01 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-35",
+   "entity": "青瓷仰覆莲花尊",
+   "action": "update",
+   "target": "04-knowledge/units/works/lianhua-zun.md",
+   "analysis": "cand-03-35 跨度为 L923-L926。L924 图题作“图2-10 青瓷仰覆莲花尊”，L926 标“(河北景县封氏墓群出土)”。既有 works/lianhua-zun.md 已收夏燕靖、田自秉、高丰、赵农与 2016 册的造型、层数、尺寸与景县四件，别名含“仰覆莲花瓷尊”，但没有李立新册，也没有“封氏墓群”这一墓地信息。",
+   "approve": "同一器形的既有条已覆盖五册，本候选只补图题与出土地，宜更新不宜新建；候选 payload 的 proposed_slug 为 qing-ci-yang-fu-lian-hua-zun，本批按别名归并到上位器形条。",
+   "apply_note": "更新 works/lianhua-zun.md：补李立新 L923-L926 两条要点与两册分工，描述补一句，来源数升为 6，版本升为 3。",
+   "note": "canonical: 04-knowledge/units/works/lianhua-zun.md。cand-03-35 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-36",
+   "entity": "腊缬棉布",
+   "action": "rejected",
+   "target": "04-knowledge/units/places/niya-site.md",
+   "analysis": "cand-03-36 跨度为 L913-L916。该段记 1959 年新疆民丰尼雅遗址出土东汉腊缬棉布，蓝色印花、半身裸体人物像、佛教艺术色彩，以及希腊丰收女神或西亚女神伊什塔尔的解释和狮尾、角杯、葡萄、半裸、头后背光等文化因素。既有 places/niya-site.md 已完整收录发现年份、织物工艺、图像描述、解释与图2-8 图题。",
+   "approve": "既有遗址条已覆盖同一器物的全部信息，单独立 works 条只重复同一段，不增加可检索信息；保留 target_ref 指向该条。",
+   "apply_note": "不新建条目；内容已由现有 KU 覆盖。",
+   "note": "cand-03-36 与 04-knowledge/units/places/niya-site.md 重复，标 rejected 并保留 target_ref。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-64",
+   "entity": "飞天髻",
+   "action": "create",
+   "target": "04-knowledge/units/terms/feitian-ji.md",
+   "analysis": "cand-03-64 跨度为 L935。该行记邓县画像砖中女子发式直向上升、被认为是飞天髻（图2—11），并引“民间妇人结发者，三分发，抽其环直向上，谓之飞天髻，始自东府，流被民庶”解释结发方式；同段列灵蛇髻、撷子髻、流苏髻、双螺髻、双环髻与假髻。terms 下无飞天髻条目，`terms/jia-ji.md` 只记假髻。",
+   "approve": "图像、结发方式与同时流行的发髻名目可复查；尺寸、年代上限与图像细部未载，图2-11 未视觉核验，按 medium 建条并与假髻条互链。",
+   "apply_note": "新建 terms/feitian-ji.md，记图像、结发方式、同时流行与假髻旁证；尺寸、年代与图像细部未载。",
+   "note": "canonical: 04-knowledge/units/terms/feitian-ji.md。cand-03-64 并入该条。"
+  }
+ ],
+ "extras": [
+  {
+   "target": "04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md",
+   "entity": "北魏孝文帝奖劝农桑",
+   "parent_cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-01",
+   "note": "在相关知识元补入 persons/xiaowendi.md 链接，并升版本与日期。"
+  },
+  {
+   "target": "04-knowledge/units/events/xiaomingdi-fushi-gaige.md",
+   "entity": "北魏孝明帝服饰改革",
+   "parent_cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-01",
+   "note": "在相关知识元补入 persons/xiaowendi.md 链接，并升版本与日期。"
+  }
+ ]
+}

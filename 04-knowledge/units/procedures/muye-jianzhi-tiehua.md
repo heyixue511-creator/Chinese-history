@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "木叶与剪纸贴花是 B 维度下吉州窑陶瓷表面装饰的工序条目，其纹样与窑口风格归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: procedure
+    primary: true
+    scope_note: "吉州窑粘贴木叶与剪纸后施釉烧成；玳瑁斑与洒釉的偶然效果"
+hierarchy_scope_note: "吉州窑粘贴木叶与剪纸后施釉烧成；玳瑁斑与洒釉的偶然效果"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "木叶与剪纸贴花是 B 维度下吉州窑陶瓷表面
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（陶瓷装饰方法），与吉州窑窑口条目构成“工艺—产地”的可追溯链，但该链尚未完成 relation 语义审查。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 吉州窑粘贴木叶与剪纸后施釉烧成；玳瑁斑与洒釉的偶然效果
 ## 相关知识元
 
 `places/jizhou-kiln.md` 记吉州窑窑口；`procedures/hua-hua.md` 与 `procedures/diao-you.md` 记磁州窑系的画花、雕釉，与本条同属宋瓷表面装饰谱系但窑口与工序不同。relation 未经审查，不写入正式 `relations`。

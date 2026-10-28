@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "元景德镇卵白釉因枢府定烧而得「枢府窑」名；按烧造机构命名的唯一一例"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "卵白釉瓷是 B 维度下元代景德镇白瓷品种的条目；浮梁瓷局与御烧制度归 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "元景德镇卵白釉因枢府定烧而得「枢府窑」名；按烧造机构命名的唯一一例"
 ---
 
 ## 描述
@@ -62,12 +70,10 @@ hierarchy_scope_note: "卵白釉瓷是 B 维度下元代景德镇白瓷品种的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 卵白釉瓷是 B 维度下元代景德镇白瓷品种的条目；浮梁瓷局与御烧制度归 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 元景德镇卵白釉因枢府定烧而得「枢府窑」名；按烧造机构命名的唯一一例
 ## 相关知识元
 
 `terms/qing-ci.md` 与 `terms/youlihong-ci.md` 记同期景德镇品种（后者本批未立条），`works/lanyou-bailongwen-meiping.md` 记元代釉色装饰。relation 未审查。

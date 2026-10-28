@@ -1,0 +1,93 @@
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-13  [historiographic_claim]  L6601-6652
+明清时期是指1368年至1911年，共543年。
+NOTE: 原文开篇直接给出明清时期的起止年代与总年数。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-14  [historiographic_claim]  L6601-6652
+雍正朝驱逐大多数传教士、清王朝长期实行海禁，加上文字狱的精神压迫，使清朝远离科学文明、闭关锁国，最终导致中国近代的衰败。
+NOTE: 原文将排斥西方科学技术、海禁和文字狱联系起来，作为清朝脱离先进民族运行轨迹并导致近代衰败的原因。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-15  [interpretive_claim]  L6601-6652
+明清艺术设计的发展历史受到明清政治制度的深刻影响：紫禁城是明清艺术设计的集大成者，江南私家园林是对政治专制的逃遁，明式家具则是明清时期的典范。
+NOTE: 原文在政治史叙述之后，以长城、紫禁城、皇家园林、江南私家园林和明式家具为例，提出上述设计史判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-24  [historiographic_claim]  L6655-6727
+明代北京城的整体布局是在国都向北京转移的特定背景下合理规划及设计的结果，其中的设计思想与明代国家制度的需求有很大关系；其中轴线的确立和城市营造的规模、水平较以前朝代有明显进步，清代入关后仅作局部修缮而未改变城市根本格局，使北京城完整延续下来。
+NOTE: 原文在叙述都城布局后，明确将布局归因于国家制度需求，并评价其较前代的进步及清代的延续。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-28  [interpretive_claim]  L6728-6761
+仅仅依靠城墙的坚固不能获得持久的安定。
+NOTE: 原文在列举南京城数次被攻破后得出该判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-44  [historiographic_claim]  L6813-6833
+清代疆域辽阔、各民族共存同荣，万里长城几乎失去了军事战略的实用价值，成为后人凭吊文物故事之地。
+NOTE: 原文在叙述明长城关隘后，对清代长城的功能变化作出判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-74  [historiographic_claim]  L6961-7036
+明式家具在尺度、比例、均衡、对比、节奏、韵律等方面始终简洁明快、流畅自如；明代初期家具以功能为主、崇尚简朴实用，明代后期社会风气浮华使家具风格出现雕琢，但整体仍保持简洁流畅的特点。
+NOTE: 原文先述明初简朴、明后期雕琢的演变，再概括明式家具在比例尺度等方面的整体风格。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-80  [historiographic_claim]  L7037-7052
+清代家具较之明式家具更显繁琐雕琢、富丽华贵，其形制与清代政治文化对社会生活意识的影响有着密切关系。
+NOTE: 原文在比较明清家具风格后，将清式家具的繁琐富丽与清代政治文化影响联系起来。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-91  [interpretive_claim]  L7055-7124
+笔墨纸砚是中国古代文化的载体，有着非常重要的实际作用；历代能工巧匠和知识分子对笔墨纸砚的研究，促使笔墨纸砚的材质更加丰富、形式更加多样，用途也被不断拓展。
+NOTE: 原文在本节末段对笔墨纸砚的文化作用与工艺演进作出总结性判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-107  [historiographic_claim]  L7125-7209
+明代对书籍印刷管理相对宽松，印刷比较随意，没有太大的限制，有能力的人都可以出资印刷；除官方印制外，坊刻的书籍也非常普及，书籍印刷发行的巨大利润，也是明代出版业繁盛的一个原因。
+NOTE: 原文在叙述明代印刷技术前，直接解释了管理宽松、坊刻普及与利润驱动之间的关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-108  [evaluative_claim]  L7125-7209
+短版技术的应用使书籍印刷技术产生了创造性的突破，使画面色调层次、阴阳变化得以加强，从朱、墨色扩展到朱、墨、黛、紫、黄的套色印刷。
+NOTE: 原文在介绍短版套印技术后作出该评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-121  [evaluative_claim]  L7210-7258
+清代的雕版插图在明代的基础上有所发展，但是艺术的趣味和质量不如明代。
+NOTE: 原文在列举清初插图作品前，先给出对清代雕版插图的总体评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-134  [evaluative_claim]  L7299-7345
+在艺术设计发展中，明清时期的园林设计是一个闪光点，尤其是清代皇家园林借助国家财力大肆修建，聚天下园林之精华、荟萃一园，成为蔚为大观的景致。
+NOTE: 原文本节开篇即对明清园林设计、尤其是清代皇家园林作出总体评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-10-138  [historiographic_claim]  L6629-6629
+晚清政府的封建专制的政治体制，不断地消解着技术的先进因素，并限制着科学技术在中国近代社会的迅速发展。即使具有政治性的“戊戌变法”亦无法从根本上动摇清政府的愚昧自大。
+NOTE: 原文把晚清封建专制政治体制视为消解技术先进因素、限制科学技术发展的原因，并据此评价戊戌变法的局限。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-003  [historiographic_claim]  L7346-7416
+江南私人园林的兴盛有两个原因：个人经济富裕带来生活水平和文化意识提高，为私人造园提供经济保证及智慧支持；个人意志的拓展与国家政权专制的冲突，使不少文人选择独善其身，有时间营造私人园林。
+NOTE: L7348 直接列出两项原因，并以苏州、扬州、无锡、上海、杭州等地园林为例。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-021  [interpretive_claim]  L7346-7416
+江南园林融住宅和娱乐功能于一体，寄予造园者的人文理想和生活意识，并表达主人的哲学、文学、艺术、人生观念；园林通过借聚隐透、曲幽疏露的方法，在有限空间中表现隐逸趣味。
+NOTE: L7357—L7359 直接概括江南园林的功能、观念寄托与造园手法，并指出其原本是明清官宦巨商退养之地却不能张扬。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-024  [interpretive_claim]  L7417-7430
+《园冶》中“三分匠七分主人”的说法，说明人作为造物的主人，应最大程度地符合“能主”的审美需求。
+NOTE: L7423 在引述“三分匠七分主人”后直接给出这一解释。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-036  [synthetic_claim]  L7431-7445
+明代的制瓷业朝着两个极端方向发展：一方面观赏瓷满足人们精神审美的需要，另一方面民用瓷大量生产，白瓷、青花瓷进入寻常人家，成为普通的生活用品。
+NOTE: L7444 在叙述官窑贡品与粗瓷技术提高后，直接作出“两个极端方向”的总结。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-064  [historiographic_claim]  L7513-7550
+明代造船和航海技术本处于领先地位，却因明代“海禁”制度而逐渐衰退；自宣德年间郑和七下西洋之后，明代彻底实行海禁，甚至出现因制造双桅大船使工匠和船主遭遇逮捕的现象。
+NOTE: L7539 将领先技术、海禁制度与具体限制措施放在同一段作出因果判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-065  [historiographic_claim]  L7513-7550
+中国明清统治者一直不认为海域应该作为国家领土的一部分，几乎放弃了中华民族的海洋疆域，使近代中国海军远远落后于世界先进水平。
+NOTE: L7543 直接提出明清统治者放弃海洋疆域与近代海军落后的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-066  [historiographic_claim]  L7513-7550
+鸦片战争中西方的坚船利炮粉碎了大清帝国闭关锁国的昏梦，刺激了晚清洋务运动的开展；造船也成为向西方科学技术学习的一个标志，揭开了中国近代工业和科技发展的序幕。
+NOTE: L7547 将鸦片战争、洋务运动与近代造船业的开端联系起来。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-083  [historiographic_claim]  L7579-7596
+1909年詹天佑设计修筑的京张铁路成功通车，取得了中国科学技术近代化的初步成就。
+NOTE: L7591 直接给出京张铁路通车与科学技术近代化初步成就的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-086  [synthetic_claim]  L7599-7609
+《天工开物》实为中国古代手工业、农业的百科全书；其中纺织、服饰、砖瓦、陶瓷、车船、兵器、颜料、珠玉等部分，为设计史研究保存和提供了极其重要的文献资料。
+NOTE: L7608 先给全书性质判断，再列举与设计史相关的具体门类。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-091  [historiographic_claim]  L7626-7629
+明代书籍印刷的昌盛，为《三才图会》这样的类书提供了技术的保证。
+NOTE: L7628 在介绍《三才图会》后直接提出印刷昌盛与类书出版之间的技术保证关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-093  [historiographic_claim]  L7630-7635
+《大清工部工程做法》是继宋代《营造法式》之后官方制订的又一建筑标准书，在提高建筑质量、减少浪费、确定建筑规范和标准、保障建筑实施工程顺利等方面起到一定作用。
+NOTE: L7634 直接评价该书在建筑标准史上的位置与作用。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-098  [interpretive_claim]  L7636-7652
+明清时期的文人对社会生活的研究非常多，虽然不是设计史的内容，但客观上也介入了设计史的诸多问题，对研究明清的设计观念有一定的意义。
+NOTE: L7641 直接给出文人生活研究与设计史关系的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-099  [historiographic_claim]  L7653-7669
+明清时期中国古代社会进入缓慢发展的阶段；明代朱元璋政权虽驱逐蒙古族统治，但汉族社会机制并没有明显进步，明代政治的残酷制度制约了中华文明的积极发展，张居正等改革无法从根本上挽回颓败时局。
+NOTE: L7655—L7657 以“缓慢发展”为总判断，并列出明代制度与张居正改革两项论据。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-100  [historiographic_claim]  L7653-7669
+清政府在早期的文治武功在一定意义上保证了社会生活的安定，出现了“康乾盛世”的繁荣；但随着政治体制中积垢渐多，再次出现朝纲混乱、外忧内患，西方坚船利炮打开清帝国大门，许多仁人志士的改良努力被清政府昏庸腐败、丧权辱国的机制阻碍。
+NOTE: L7659 对清代前期稳定、后期衰败与改革受阻作出连续判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-101  [evaluative_claim]  L7653-7669
+回望明清时期的设计史，最有意义的是宋应星等人的研究成果，最为壮观的是詹天佑成功设计的京张铁路。
+NOTE: L7666 是作者对明清设计史成就的明确价值排序。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-169  [interpretive_claim]  L7359-7359
+江南私家园林原本是明清官宦巨商退养之地，他们斥资修筑，却不能张扬。
+NOTE: L7359 直接说明江南私家园林的营造者身份与心态；2009-zhaonong-zhongguo-yishu-shejishi:cand-11-021 的 claim_text 未包含该句。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-170  [evaluative_claim]  L7664-7666
+中国社会在封建腐败的机制下缓慢运行，腐败到了极致，革命的需求也就如星火燎原之势；因此晚清的历史，也是中华民族百折不挠、可歌可泣的历史。回望明清时期的设计史，虽有明清故宫的壮观，也有圆明园的毁灭；既有江南园林的闲逸之地，也有虎门炮台惨烈的硝烟。
+NOTE: 节引 L7664—L7666；末句价值排序见 2009-zhaonong-zhongguo-yishu-shejishi:cand-11-101。

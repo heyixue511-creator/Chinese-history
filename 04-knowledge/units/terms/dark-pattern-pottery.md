@@ -40,19 +40,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "暗纹陶是 B.5.3 装饰可见性的中间一档：坯未干前压出浅细花纹，仅在光线斜射时隐约可见；春秋兴、战国盛、以河南为中心，砑花陶与研花陶两种用字并存"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "暗纹陶是 B 维度下战国中原陶器类型条目：压花工序与胎质属工艺，隐约可见的线纹效果属装饰。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "暗纹陶是 B.5.3 装饰可见性的中间一档：坯未干前压出浅细花纹，仅在光线斜射时隐约可见；春秋兴、战国盛、以河南为中心，砑花陶与研花陶两种用字并存"
 ---
 
 ## 描述
@@ -84,12 +92,10 @@ hierarchy_scope_note: "暗纹陶是 B 维度下战国中原陶器类型条目：
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国中原陶器"低对比度装饰"的代表条目，与南方的几何印纹硬陶、以及同为明器的彩绘陶构成战国陶器品种序列。可支持未来"战国陶器装饰手法谱系"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 暗纹陶是 B.5.3 装饰可见性的中间一档：坯未干前压出浅细花纹，仅在光线斜射时隐约可见；春秋兴、战国盛、以河南为中心，砑花陶与研花陶两种用字并存
 ## 相关知识元
 
 同批写回的 `terms/caihui-tao.md`、`terms/geometric-stamped-hard-pottery.md` 与本案在田自秉"战国的陶瓷"一节内前后相邻（暗纹陶—彩绘陶—几何印纹硬陶—原始青瓷），夏燕靖两版亦在"② 陶器的品种分类"下依次排列；`terms/geometric-stamped-pottery.md` 是南方印纹陶的上位类别，与本条的压印工艺不同（一为模印几何纹，一为压出暗花）。`terms/painted-pottery.md`（彩陶）与本条同属"以纹饰命名的陶器"，但一为烧前彩绘、一为压痕。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

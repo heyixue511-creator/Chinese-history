@@ -59,19 +59,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "定窑是 B 维度下白瓷体系与覆烧、印花工艺的关键窑口，其“民窑而供御”的身份又落在 D 维度的官民关系上。Theme/Topic 均未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "民窑而供御的制度样本；窑口身份、四份款识清单与断代下限三说在本条"
+hierarchy_scope_note: "民窑而供御的制度样本；窑口身份、四份款识清单与断代下限三说在本条"
 ---
 
 ## 描述
@@ -106,12 +114,10 @@ hierarchy_scope_note: "定窑是 B 维度下白瓷体系与覆烧、印花工艺
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“民窑供御”的制度样本，与汝窑、钧窑的官窑属性构成对照；其覆烧与印花是宋代产量化与装饰标准化的一组技术条件。可支持未来的宋代窑系与官民关系类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 民窑而供御的制度样本；窑口身份、四份款识清单与断代下限三说在本条
 ## 相关知识元
 
 `places/xing-kiln.md` 为定窑的直接技术前身（来源明记“最初是仿制邻近的邢窑”）；`places/ru-kiln.md`、`places/jun-kiln.md`、`places/cizhou-kiln.md` 同属宋代窑系序列；`places/jingdezhen-kiln.md` 的“粉定／南定”即仿定产品；`events/1972-1976-dingci-huifu.md` 记 1972—1976 年定瓷复烧的完整时间线，与本条现代段互为分工。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

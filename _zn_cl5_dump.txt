@@ -1,0 +1,550 @@
+﻿======================================================================
+cand-03-85 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "秦朝采取了许多措施，统一文字、货币、度量衡等，为经济和文化的发展提供了重要的条件。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0224"
+  ],
+  "evidence_block_ids": [
+   "b0224"
+  ],
+  "line_end": 1619,
+  "line_start": 1609
+ },
+ "support_note": "教材对秦统一措施之经济文化后果的概括。"
+}
+======================================================================
+cand-03-88 needs_evidence {
+ "claim_scope": "synthetic_claim",
+ "claim_text": "总之，秦汉时期官手工业管理十分严格，如产品质量不合格，工官、工师及制造者都要受到责罚。而此时的官手工业更是以规模庞大，行业众多，分工细致，管理完善为其特点。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0226"
+  ],
+  "evidence_block_ids": [
+   "b0226"
+  ],
+  "line_end": 1634,
+  "line_start": 1622
+ },
+ "support_note": "教材对秦汉官手工业制度特点的总结。"
+}
+======================================================================
+cand-03-91 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "据文献记载，秦汉时期铁制农具已达几十种之多。有耒、耜、犁、铧、稷、镢、锸等整地农具8种，耨、镈、锄、钱（铲）、铫等耕草农具5种，铚、镰、枷、杷等收割脱粒农具4种，杵、臼、碓、砻、石靡（砢）等谷物加工农具5种；还有灌溉农具桔槔等。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0227"
+  ],
+  "evidence_block_ids": [
+   "b0227"
+  ],
+  "line_end": 1642,
+  "line_start": 1635
+ },
+ "support_note": "原文以分类清单统计秦汉铁农具种类。"
+}
+======================================================================
+cand-03-94 needs_evidence {
+ "claim_scope": "interpretive_claim",
+ "claim_text": "这种措施，在客观上使得各地的冶铁技术得以交流和全面提高。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0228"
+  ],
+  "evidence_block_ids": [
+   "b0228"
+  ],
+  "line_end": 1660,
+  "line_start": 1643
+ },
+ "support_note": "作者对秦迁冶铁豪族政策客观后果的判断，原文以“客观上”限定。"
+}
+======================================================================
+cand-03-95 needs_evidence {
+ "claim_scope": "interpretive_claim",
+ "claim_text": "比如，在耕犁上已安装了犁壁，提高了耕作效率，比欧洲早了近千年。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0228"
+  ],
+  "evidence_block_ids": [
+   "b0228"
+  ],
+  "line_end": 1660,
+  "line_start": 1643
+ },
+ "support_note": "原文以欧洲作比较，称中国犁壁早近千年，属教材比较性判断。"
+}
+======================================================================
+cand-03-96 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "因此，可以推断，铁器尤其是铁制农具的使用兴起于春秋，发展于战国、秦朝，至汉代完全占统治地位。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0228"
+  ],
+  "evidence_block_ids": [
+   "b0228"
+  ],
+  "line_end": 1660,
+  "line_start": 1643
+ },
+ "support_note": "作者对铁器使用阶段的分期判断，原文用“可以推断”。"
+}
+======================================================================
+cand-03-102 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "秦陵铜车马的出土，解决了当今学术界对古代车制设计方面长期争论的一些问题，特别是车舆、马饰各部件的名称，车马的系驾关系等，通过秦陵铜车马都一一得到了科学的证明。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0231"
+  ],
+  "evidence_block_ids": [
+   "b0231"
+  ],
+  "line_end": 1694,
+  "line_start": 1671
+ },
+ "support_note": "作者对秦陵铜车马学术价值的评价。"
+}
+======================================================================
+cand-03-103 needs_evidence {
+ "claim_scope": "evaluative_claim",
+ "claim_text": "后期，即东汉时期，此时的镜面微凸，可以照出人面的全部，更符合科学原理。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0233"
+  ],
+  "evidence_block_ids": [
+   "b0233"
+  ],
+  "line_end": 1707,
+  "line_start": 1697
+ },
+ "support_note": "作者对东汉铜镜镜面微凸设计的技术评价。"
+}
+======================================================================
+cand-03-105 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "虹管灯，又称缸灯，灯体有虹管，灯座可以盛水，利用虹吸原理，可将灯烟送入灯座，溶于水中，防止烟尘污染空气。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0234"
+  ],
+  "evidence_block_ids": [
+   "b0234"
+  ],
+  "line_end": 1715,
+  "line_start": 1708
+ },
+ "support_note": "原文对汉代虹管灯工作原理的说明，并以铜牛灯为例。"
+}
+======================================================================
+cand-03-112 needs_evidence {
+ "claim_scope": "bibliographic_fact",
+ "claim_text": "1877年，德国地理学家李希霍芬在他所写的《中国》一书中，首次把汉代中国和中亚南部、西部，以及印度之间的丝绸贸易为主的交通路线，称作“丝绸之路”。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0241"
+  ],
+  "evidence_block_ids": [
+   "b0241"
+  ],
+  "line_end": 1750,
+  "line_start": 1739
+ },
+ "support_note": "原文关于“丝绸之路”命名史的 bibliographic 陈述。"
+}
+======================================================================
+cand-03-114 needs_evidence {
+ "claim_scope": "source_claim",
+ "claim_text": "英国历史学家李约瑟在《中国古代科技史》一书中提到，西方的提花机是从中国传去的，比中国要晚4个世纪才得以推广使用。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0242"
+  ],
+  "evidence_block_ids": [
+   "b0242"
+  ],
+  "line_end": 1760,
+  "line_start": 1751
+ },
+ "support_note": "原文转述李约瑟观点，属外部权威引述，非教材独立论证。"
+}
+======================================================================
+cand-03-118 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "汉代丝的精练已能利用砧杵的机械作用和草木灰的化学作用相结合的捣练法，提高了生丝的脱胶效率，缩短了工艺时间。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0243"
+  ],
+  "evidence_block_ids": [
+   "b0243"
+  ],
+  "line_end": 1766,
+  "line_start": 1761
+ },
+ "support_note": "原文据班婕妤《捣练赋》转述的工艺判断。"
+}
+======================================================================
+cand-03-120 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "蜡染，古称“蜡缬”，是我国古老民间传统纺织印染手工艺，它与绞缬（扎染）、夹缬（镂空印花）并称为我国古代三大印花技艺。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0246"
+  ],
+  "evidence_block_ids": [
+   "b0246"
+  ],
+  "line_end": 1789,
+  "line_start": 1778
+ },
+ "support_note": "原文对蜡染与三大印花技艺关系的直接陈述。"
+}
+======================================================================
+cand-03-122 needs_evidence {
+ "claim_scope": "interpretive_claim",
+ "claim_text": "在这种思想的影响下，服装的形制和衣料的质地色彩、纹饰都形成了森严的阶级等级一面。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0247"
+  ],
+  "evidence_block_ids": [
+   "b0247"
+  ],
+  "line_end": 1799,
+  "line_start": 1790
+ },
+ "support_note": "作者将汉代服饰等级化归因于独尊儒术与董仲舒思想体系。"
+}
+======================================================================
+cand-04-01 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "到东汉晚期，终于在浙江地区烧制出成熟的青瓷器。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0250"
+  ],
+  "evidence_block_ids": [
+   "b0250"
+  ],
+  "line_end": 1817,
+  "line_start": 1808
+ },
+ "support_note": "原文对秦汉陶瓷史的直接分期陈述。"
+}
+======================================================================
+cand-04-07 needs_evidence {
+ "claim_scope": "evaluative_claim",
+ "claim_text": "秦汉时期的漆器生产规模庞大，工艺水平也达到新的高峰。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0256"
+  ],
+  "evidence_block_ids": [
+   "b0256"
+  ],
+  "line_end": 1859,
+  "line_start": 1856
+ },
+ "support_note": "作者对秦汉漆器的总评，后文以官营作坊、工序分工和金银扣器价值为据。"
+}
+======================================================================
+cand-04-09 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "漆器生产工序多达6-8道，各道工种分工协作，皆有记录；金银扣器的价值是同类铜器的10倍。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0257"
+  ],
+  "evidence_block_ids": [
+   "b0257"
+  ],
+  "line_end": 1870,
+  "line_start": 1860
+ },
+ "support_note": "原文据当时金属铸器铭文及《盐铁论》记载；铭文对象原文表述未核。"
+}
+======================================================================
+cand-04-11 needs_evidence {
+ "claim_scope": "interpretive_claim",
+ "claim_text": "多子盒即多件盒，往往有9子、11子之多；在一个大的圆盒中容纳多种不同形式的小盒，既节省位置，又美观协调，是一种集约性的设计。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0258"
+  ],
+  "evidence_block_ids": [
+   "b0258"
+  ],
+  "line_end": 1885,
+  "line_start": 1871
+ },
+ "support_note": "作者对汉代多子盒造型的评价，并以湖北云梦出土9件漆奁为例。"
+}
+======================================================================
+cand-04-13 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "独轮车是交通史上的一项重要发明，早于欧洲国家千余年。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0260"
+  ],
+  "evidence_block_ids": [
+   "b0260"
+  ],
+  "line_end": 1891,
+  "line_start": 1888
+ },
+ "support_note": "原文对独轮车历史地位的判断，未给出具体欧洲年代。"
+}
+======================================================================
+cand-04-76 needs_evidence {
+ "claim_scope": "evaluative_claim",
+ "claim_text": "汉武帝乘坐的船，号称“可载万人，上起宫室”，堪称造船设计与技术初步成熟的标志。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0261"
+  ],
+  "evidence_block_ids": [
+   "b0261"
+  ],
+  "line_end": 1896,
+  "line_start": 1896
+ },
+ "support_note": "作者以文献所载船体规模判断秦汉造船技术已初步成熟；原文未给出技术细节或实物证据。"
+}
+======================================================================
+cand-04-20 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "两汉可谓我国建筑成熟期的肇始，建筑组合和结构处理上日臻完善，并直接影响了我国2000年来的民族建筑形式的发展。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0269"
+  ],
+  "evidence_block_ids": [
+   "b0269"
+  ],
+  "line_end": 1942,
+  "line_start": 1931
+ },
+ "support_note": "作者对秦汉建筑史地位的总评。"
+}
+======================================================================
+cand-04-21 needs_evidence {
+ "claim_scope": "source_claim",
+ "claim_text": "陈景元《兵马俑真相》认为，秦兵马俑不应是秦始皇陵的兵马俑，而是秦宣太后陵的兵马俑；理由包括方位里程靠近宣太后陵、秦俑头顶有楚人偏侧歪髻、服色鲜艳与秦尚黑制度不符、陶俑刻“芈”字，以及宣太后本姓芈并在秦国统治41年。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0271"
+  ],
+  "evidence_block_ids": [
+   "b0271"
+  ],
+  "line_end": 1948,
+  "line_start": 1945
+ },
+ "support_note": "原文以“则认为”引出陈景元一家之说，非教材定论。"
+}
+======================================================================
+cand-04-27 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "汉代二牛抬杠式耕犁已普遍使用，犁上专门装置用于翻土碎土的犁壁；欧洲直到11世纪才出现犁壁，我国至迟在汉代就有，比欧洲早了近千年。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0278"
+  ],
+  "evidence_block_ids": [
+   "b0278"
+  ],
+  "line_end": 2017,
+  "line_start": 1999
+ },
+ "support_note": "作者的中外技术史比较判断。"
+}
+======================================================================
+cand-04-77 needs_evidence {
+ "claim_scope": "basic_fact",
+ "claim_text": "秦汉之际长江、黄河流域普遍采用脚踏提综的斜织机，效率比腰机高10倍以上。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0279"
+  ],
+  "evidence_block_ids": [
+   "b0279"
+  ],
+  "line_end": 2020,
+  "line_start": 2020
+ },
+ "support_note": "作者给出的效率比较为量化判断；原文未说明测量方法与比较基准。"
+}
+======================================================================
+cand-04-31 needs_evidence {
+ "claim_scope": "historiographic_claim",
+ "claim_text": "秦汉时期是我国古代设计理论形成的重要时期，在当时的文献典籍中可以挖掘出丰富的设计理论；重皇权以及典章制度的制定和执行，是设计理论开始形成的主要特征。",
+ "knowledge_match": {
+  "notes": "04-knowledge 当前无 KU；待人工复核。",
+  "status": "novel",
+  "target_refs": []
+ },
+ "proposed_confidence": "tentative",
+ "source_span": {
+  "block_ids": [
+   "b0280"
+  ],
+  "evidence_block_ids": [
+   "b0280"
+  ],
+  "line_end": 2038,
+  "line_start": 2022
+ },
+ "support_note": "作者对秦汉设计文献的整体分期判断。"
+}

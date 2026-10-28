@@ -1,0 +1,13 @@
+04-knowledge/units/terms/chunqiu-zhanguo.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/war-chariot.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/nu-crossbow.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/leather-armor.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/wugou-hook.md	version=1	source_count=1	confidence=low	type=term
+04-knowledge/units/terms/pi-sword-spear.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/v-shaped-iron-ploughshare-cap.md	version=1	source_count=1	confidence=low	type=term
+04-knowledge/units/terms/shi-mo.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/lever.md	version=1	source_count=1	confidence=low	type=term
+04-knowledge/units/terms/hengqi-balance.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/jiegou-well-sweep.md	version=1	source_count=1	confidence=medium	type=term
+04-knowledge/units/terms/pulley.md	version=1	source_count=1	confidence=medium	type=term
+problems: 0

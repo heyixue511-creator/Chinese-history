@@ -1,0 +1,159 @@
+# -*- coding: utf-8 -*-
+"""Build the LL2a decisions JSON."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2011-lilixin-zhongguo-sheji-yishu-shilun"
+SRC = "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+U = "04-knowledge/units/"
+
+
+def C(cid, entity, target, analysis, approve, apply_note, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "create", "target": U + target,
+        "analysis": analysis, "approve": approve, "apply_note": apply_note,
+        "note": note or f"canonical: {U}{target}。{cid} 并入该条。",
+    }
+
+
+def UPD(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "update"
+    return d
+
+
+def REJ(cid, entity, target, analysis, approve, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "rejected", "target": U + target,
+        "analysis": analysis, "approve": approve,
+        "apply_note": "不新建条目；内容已由现有 KU 覆盖。",
+        "note": note or f"{cid} 与 {U}{target} 重复，标 rejected 并保留 target_ref。",
+    }
+
+
+D = [
+    UPD("cand-01-24", "象生器", "terms/xiangsheng-xing.md",
+        "cand-01-24 跨度为 L230-L546。L230 的兽纹黑陶鸭形尊图注已在 LL1 由 works/shouwen-heitao-yaxingzun.md 承接；L540-L546 给出象生器的出现时段、局部象生、发生条件与实用联系，是既有高丰条缺少的另一册论述。",
+        "既有 terms/xiangsheng-xing.md 已收高丰的定义、史前实例与商周类型，本候选补的是李立新对新石器中后期象生器的判断，宜更新不宜新建；两册分期口径不同，须并列。",
+        "更新 terms/xiangsheng-xing.md：补李立新 L540、L546 五条要点与两件局部象生陶器，记两册分期口径差异，版本升为 2。",
+        note="canonical: 04-knowledge/units/terms/xiangsheng-xing.md。cand-01-24 并入该条，L230 图注仍由 works/shouwen-heitao-yaxingzun.md 承担。"),
+    C("cand-02-02", "北京人模式", "terms/beijingren-moshi.md",
+      "L414 明确给出命名、比较依据与“元模式”的用法，是李立新解释中国设计起源的自拟概念；现有 terms/beijingren.md 只记北京人这一人类化石名称，places/zhoukoudian-site.md 只提及该词而不定义。",
+      "命名、依据与用法均在同一条内可复查，且与旧石器分期条、周口店遗址条分工不同，应独立成条。",
+      "新建 terms/beijingren-moshi.md，记命名、10 万件石制品的依据、三地比较与元模式用法，并照录“命之日”的原文用字。"),
+    REJ("cand-02-149", "人体工学", "terms/paleolithic-period.md",
+        "L419 以砾石打制一头留圆滑另一头以便握手说明其“符合‘人体工学’的原理”，该句与 terms/paleolithic-period.md 所引李立新 L111 为同一论述。",
+        "既有旧石器时代条已收砾石选择与人体工学原理，单独立条只重复同一句，不增加可检索信息。"),
+    REJ("cand-02-07", "北京人砾石工具", "terms/paleolithic-period.md",
+        "L419-L424 记北京猿人石器原料均选取砾石、图 1-2 为“北京人的砾石工具”；该内容与旧石器条已收的砾石选择、北京人 10 万件石制品两条论述重合。",
+        "旧石器时代条已覆盖北京人砾石工具的原料选择与图版关系，图 1-2 为同类工具图版，不另建单器条目。"),
+    C("cand-02-135", "桑志华", "persons/sangzhihua.md",
+      "L421 记法国古生物学家桑志华 1920 年在甘肃庆阳找到一件石核和两件石片，发现于黄土底部砾石层，是李立新论证中国旧石器大都选用砾石的例证。",
+      "人物、年份、地点、发现物与层位均可复查；persons 下无桑志华条目。",
+      "新建 persons/sangzhihua.md，记身份、年份、地点、三件石制品与砾石层层位，未载项明列。"),
+    C("cand-02-08", "奥杜韦砾石砍斫器", "works/olduvai-kanzhuoqi.md",
+      "L421 给坦桑尼亚奥杜韦峡谷、距今 200 万年前、最典型砾石石器与图 1-3，L427 图题作“砾石砍斫器（奥杜韦文化）”；属可独立检索的单器图版。",
+      "地点、年代、原料与文化名可复查；works 下无该器条目，places/olduvai-gorge.md 只记遗址。",
+      "新建 works/olduvai-kanzhuoqi.md，记地点、年代、砾石原料、图题与文化名，尺寸与收藏未载。"),
+    C("cand-02-03", "砾石文化", "terms/lishi-wenhua.md",
+      "L429-L435 给名称、渐进判断、预设形状的选择机制与“第一把石刀”的河滩场所，L437 给四项选料标准；是李立新解释旧石器原料选择的核心概念。",
+      "名称与判断可复查，且与旧石器分期条、北京人模式条分工不同，应独立成条。",
+      "新建 terms/lishi-wenhua.md，记名称、渐进判断、预设形状选择、河滩场所与四项选料标准。"),
+    C("cand-02-99", "山顶洞人钻孔雕刻品", "works/shandingdong-zuankong.md",
+      "L445 图题“山顶洞人的钻孔雕刻品”，L447 把钻孔、磨光、刮挖列为北京人设计能力提升所产生的新工艺；属可独立检索的旧石器晚期工艺例证。",
+      "图题与工艺判断可复查，works 下无该组器物条目，与山顶洞骨针条不重复。",
+      "新建 works/shandingdong-zuankong.md，记图题、三项工艺与论证位置，件数材质尺寸未载。"),
+    C("cand-02-09", "适应性设计", "terms/shiyingxing-sheji.md",
+      "L461 给定义与从本能适应到创造性适应的推进线索，L463 给词义与生物学类比，L465 引西蒙的内在环境、外在环境与分界面定义；是李立新解释造物演化的理论概念。",
+      "定义、类比与理论支撑均可复查，且与设计史观、分期条分工不同，应独立成条。",
+      "新建 terms/shiyingxing-sheji.md，记定义、词义、生物学类比与西蒙引文，声明来源未给类推边界。"),
+    C("cand-02-10", "物种起源", "publications/wuzhong-qiyuan.md",
+      "L463 给达尔文、书名、进化解释与自然选择的目的，并交代其在适应性论述中的位置；属可独立检索的著作。",
+      "作者、书名与被引内容可复查，publications 下无该书条目。",
+      "新建 publications/wuzhong-qiyuan.md，记作者、书名、进化解释与引用语境，版本信息未载。"),
+    C("cand-02-136", "赫伯特·阿·西蒙", "persons/hebert-a-simon.md",
+      "L465 完整引用西蒙关于人为事物、内在环境、外在环境与分界面的定义，是适应性设计条的理论支撑。",
+      "引文完整可复查，persons 下无西蒙条目。",
+      "新建 persons/hebert-a-simon.md，记姓名、被引文句与引用作用，身份与出处未载。"),
+    C("cand-02-139", "装柄石铲复原图", "works/zhuangbing-shican-fuyuan-tu.md",
+      "L491 图题“用于农业生产的装柄石铲复原图”，L495 把农耕生产列为磨制石器出现的最直接因素；属可独立检索的农具复原图。",
+      "图题与正文位置可复查，且须标明其为复原图而非出土原器，works 下无该图条目。",
+      "新建 works/zhuangbing-shican-fuyuan-tu.md，记图题、正文位置与复原性质，复原依据未载。"),
+    C("cand-02-12", "朱绘有孔石斧", "works/zhuhui-shifu.md",
+      "L498 图题给安徽潜山薛家岗出土，L495 给通体磨光、更规范更装饰化与费时费工的评价，L500 给原始宗教礼器的推测；属新石器晚期非实用石器的单器例证。",
+      "出土地、形制评价与礼器推测均可复查，与良渚石耘田器等实用农具条不同类。",
+      "新建 works/zhuhui-shifu.md，记出土地、非实用判断、工艺评价与礼器推测，尺寸纹样未载。"),
+    C("cand-02-14", "裴李岗石磨盘石磨棒", "works/peiligang-shimopan.md",
+      "L515 图题“石磨盘和石磨棒（裴李岗文化）”，L510 把二者列入新石器时代石器家族的系统种类；属可独立检索的农具组合图版。",
+      "图题与文化名可复查，works 下无该组合条目。",
+      "新建 works/peiligang-shimopan.md，记图题与器类位置，尺寸用法出土地未载。"),
+    C("cand-02-13", "元造型", "terms/yuanzaoxing.md",
+      "L529 给“初始造型”与“元造型”的双重称谓、圆形与对称形的基础性质，以及后世造型只是组合变换繁殖的判断；是李立新解释造型演化的自拟概念。",
+      "称谓、判断与辩证关系可复查，且与北京人模式条并用而层次未明，须独立成条并声明关系未定。",
+      "新建 terms/yuanzaoxing.md，记初始与元两个称谓、圆形对称的基础性质与后续演化判断。"),
+    C("cand-02-15", "张朋川", "persons/zhangpengchuan.md",
+      "L531 引张朋川关于彩陶鸟鱼纹分解、夸张变形、统一形态与再组合的说法，并附李立新“已指出分解过程中的统一因素”的评价。",
+      "被引文句与评价可复查，persons 下无张朋川条目。",
+      "新建 persons/zhangpengchuan.md，记称谓、被引文句与李立新评价，身份与出处未载。"),
+    UPD("cand-02-147", "庙底沟类型", "terms/miaodigou-xing-caitao.md",
+        "L533-L538 给庙底沟鸟纹的正侧两类、演变特征、四种图案格式、6000 年前的创立与对后世的影响；L536 为图 1-9 图题。既有条目已收田自秉的分布、器形、比例、纹样与年代。",
+        "既有条已覆盖田自秉一侧，本候选补的是李立新的纹样演变与格式论，宜更新不宜新建；两册年代口径不同，须并列。",
+        "更新 terms/miaodigou-xing-caitao.md：补李立新 L533、L536、L538 六条要点，记两册年代口径差异，版本升为 2。"),
+    REJ("cand-02-140", "庙底沟彩陶二方连续纹饰的演进", "terms/miaodigou-xing-caitao.md",
+        "L533-L538 与该图题所述二方连续纹饰的演进，是庙底沟类型鸟纹与图案格式论述的一部分；图 1-9 已作为该条的图版证据引入。",
+        "庙底沟型彩陶条已收鸟纹演变、四种格式与图 1-9 图题，单独立条只重复同一段论述。"),
+    C("cand-02-20", "火烧沟人形罐", "works/huoshaogou-renxing-guan.md",
+      "L540 记玉门火烧沟出土人形罐的口部双肩耳短领、底部象形双足与鼓腹站立的人形，是象生器局部象生的例证。",
+      "出土地与形制可复查，works 下无该器条目，且与大地湾人头形瓶为两件不同器物。",
+      "新建 works/huoshaogou-renxing-guan.md，记出土地、口部形制、底部双足与人形效果，尺寸年代未载。"),
+    C("cand-02-18", "彩陶人头形瓶", "works/caiwen-rentou-ping.md",
+      "L540 记大地湾人头形彩陶瓶只在口径部作象生表现、其他部位几何化，L543-L544 图题与出土地作“彩陶人头形瓶（甘肃秦安县大地湾出土）”。",
+      "图题、出土地与形制判断可复查，works 下无该器条目，与火烧沟人形罐为两件不同器物。",
+      "新建 works/caiwen-rentou-ping.md，记图题、出土地、口径部象生与器身几何化，尺寸年代未载。"),
+    C("cand-02-21", "苏秉琦", "persons/subingqi.md",
+      "L553 给区系类型理论、六大区系划分与对原始设计史研究的意义，L557 给六大设计区与其六大考古文化区域完全对应的判断。",
+      "理论归属与对应判断可复查，persons 下无苏秉琦条目。",
+      "新建 persons/subingqi.md，记区系类型理论、六大区系与对应判断，生平与著作出处未载。"),
+    C("cand-02-22", "六大设计文化区域", "terms/liuda-sheji-quyu.md",
+      "L553-L557 列出六个设计区名称并称与苏秉琦六大考古文化区域完全对应，L557 给六个发端地与“总根系”的判断；是李立新的史前设计分区框架。",
+      "六个名称、对应关系与评价可复查，且与苏秉琦人物条分工为框架与学者，应独立成条。",
+      "新建 terms/liuda-sheji-quyu.md，记理论来源、六个区域名称、完全对应与总根系判断，分区依据未载。"),
+    C("cand-02-23", "红山玉雕龙", "works/yudiaolong.md",
+      "L560 图题“玉雕龙（红山文化）”，属红山文化玉器图版；来源只给图题与文化名。",
+      "图题与文化名可复查，works 下无该器条目；信息仅到图题一级，按 low 置信度建条并声明不据外部资料补写器形。",
+      "新建 works/yudiaolong.md，只登记图题与所属文化，尺寸出土地玉料造型均未载。"),
+]
+
+for d in D:
+    if d["action"] in ("create", "update") and not (ROOT / d["target"]).exists():
+        raise SystemExit("missing target " + d["target"])
+
+
+def nlines(rel):
+    return len((ROOT / rel).read_text(encoding="utf-8").replace("\r\n", "\n").splitlines())
+
+
+cfg = {
+    "doc": DOC,
+    "file": SRC,
+    "rules": [
+        "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+        "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+        "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+        "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+        "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。",
+        "长跨度候选跨出本批复读范围者（cand-01-79、cand-01-80）留 needs_evidence，转 LL2b。",
+    ],
+    "scope_spans": [[230, 562]],
+    "scope_note": "覆盖 L230-L562：L230-L393 已在 LL1 全读区间内复读，本批复读 L394-L562（第一章最初的“设计”意识、适应性与多样统一两节及全部图注）；cand-01-24 的 L230-L546 跨度已随两批读毕。",
+    "decisions": D,
+    "extras": [],
+}
+
+out = ROOT / "_zn_decisions_ll2a.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(json.dumps({"decisions": len(D), "create": sum(1 for d in D if d["action"] == "create"),
+                  "update": sum(1 for d in D if d["action"] == "update"),
+                  "rejected": sum(1 for d in D if d["action"] == "rejected"),
+                  "extras": len(cfg["extras"])}, ensure_ascii=False))

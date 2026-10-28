@@ -47,17 +47,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "哥窑是 B 维度下宋代名窑的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "无窑址而传世器存在的名窑样本；章氏兄弟传说与修内司说并存，本条不裁"
+hierarchy_scope_note: "无窑址而传世器存在的名窑样本；章氏兄弟传说与修内司说并存，本条不裁"
 ---
 
 ## 描述
@@ -79,11 +87,10 @@ hierarchy_scope_note: "哥窑是 B 维度下宋代名窑的条目。Theme/Topic 
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 哥窑是 B 维度下宋代名窑的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 无窑址而传世器存在的名窑样本；章氏兄弟传说与修内司说并存，本条不裁
 ## 相关知识元
 
 `terms/kaipian.md`、`terms/zikou-tiezu.md` 是哥窑特征的专条；`terms/wuda-mingyao.md` 为名窑总目。relation 未审查。

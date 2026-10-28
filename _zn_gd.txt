@@ -1,0 +1,208 @@
+warning: in the working copy of '04-knowledge/quality/claim-registry.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/events/xiaomingdi-fushi-gaige.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiangzuojian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiaoziwu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/wucaixia-xiufang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/gongshu-pan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/huangdi-legend.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/leizu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/nuwa.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/yan-lide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/huoqubing-mu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/jun-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/liuyang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/longquan-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/qingtian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/ru-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/suzhou-wangshiyuan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/wushi-ci.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/xian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/xiangtangshan-shiku.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/yaozhou-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/duanban-taoyin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/qianzhu-maozhu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/sunmao-jiegou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/tiehua-zhizuo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/xian-zhuang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/yudiao-taocai-qiaose.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/gongcheng-zuofa.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/jieziyuan-huazhuan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/liangyou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/nancun-chuogenglu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/shiji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/shizhuzhai-huapu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/xiu-shi-lu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/yugong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/zhouyi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/zhuangshi-zazhi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/an-furniture.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baici.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baigong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/bandixue-shi-jianzhu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baoxianghua-wen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/danke-heitao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/diao-qi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/dulunche.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/fota.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jianghu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jiguang-hu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/kouqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/liao-sancai.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/ling-silk.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/mingqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/mise-porcelain.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/nanjing-yunjin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/ping-feng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qian-you-tao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qing-ci.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qingtong-jiuqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shandingdong-ren-guzhen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shenyi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shougongye-hanghui.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/song-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tangcao-wen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tao-gui.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tongjing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tuotai-qiqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/twelve-symbols.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/xi-mat.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/yishu-sheji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/yuanling-paoshan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/zisha-tao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/anle-gongzhu-yuqun.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/beijing-zijincheng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/dabaoensi-liuli-ta.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/fengshou-longbing-hu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/jinci-shengmu-dian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/lianhua-zun.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/lianzhu-luwen-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/man-eating-you.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/qin-bing-ma-yong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/shiwu-lianzhan-tongdeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/shuilu-gongzhan-jian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/tang-yin-xiangnang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/tongbenma.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/wensiyuan-yin-xunlu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/yuan-huoqiang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/zenghouyi-bronze-jianfou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/zenghouyi-zunpan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '晚清至民国设计史主题归并报告_2026-10-26.md', LF will be replaced by CRLF the next time Git touches it
+04-knowledge/quality/claim-registry.yml
+04-knowledge/quality/relation-index.yml
+04-knowledge/quality/translation-index.yml
+04-knowledge/units/events/xiaomingdi-fushi-gaige.md
+04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md
+04-knowledge/units/institutions/jiangzuojian.md
+04-knowledge/units/institutions/jiaoziwu.md
+04-knowledge/units/institutions/wucaixia-xiufang.md
+04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md
+04-knowledge/units/persons/gongshu-pan.md
+04-knowledge/units/persons/huangdi-legend.md
+04-knowledge/units/persons/leizu.md
+04-knowledge/units/persons/nuwa.md
+04-knowledge/units/persons/yan-lide.md
+04-knowledge/units/places/huoqubing-mu.md
+04-knowledge/units/places/jun-kiln.md
+04-knowledge/units/places/liuyang.md
+04-knowledge/units/places/longquan-kiln.md
+04-knowledge/units/places/qingtian.md
+04-knowledge/units/places/ru-kiln.md
+04-knowledge/units/places/suzhou-wangshiyuan.md
+04-knowledge/units/places/wushi-ci.md
+04-knowledge/units/places/xian.md
+04-knowledge/units/places/xiangtangshan-shiku.md
+04-knowledge/units/places/yaozhou-kiln.md
+04-knowledge/units/procedures/duanban-taoyin.md
+04-knowledge/units/procedures/lan-yinhua-bu.md
+04-knowledge/units/procedures/qianzhu-maozhu.md
+04-knowledge/units/procedures/sunmao-jiegou.md
+04-knowledge/units/procedures/tiehua-zhizuo.md
+04-knowledge/units/procedures/xian-zhuang.md
+04-knowledge/units/procedures/yudiao-taocai-qiaose.md
+04-knowledge/units/publications/gongcheng-zuofa.md
+04-knowledge/units/publications/jieziyuan-huazhuan.md
+04-knowledge/units/publications/liangyou.md
+04-knowledge/units/publications/nancun-chuogenglu.md
+04-knowledge/units/publications/shiji.md
+04-knowledge/units/publications/shizhuzhai-huapu.md
+04-knowledge/units/publications/xiu-shi-lu.md
+04-knowledge/units/publications/yugong.md
+04-knowledge/units/publications/zhouyi.md
+04-knowledge/units/publications/zhuangshi-zazhi.md
+04-knowledge/units/terms/an-furniture.md
+04-knowledge/units/terms/baici.md
+04-knowledge/units/terms/baigong.md
+04-knowledge/units/terms/bandixue-shi-jianzhu.md
+04-knowledge/units/terms/baoxianghua-wen.md
+04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md
+04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md
+04-knowledge/units/terms/danke-heitao.md
+04-knowledge/units/terms/diao-qi.md
+04-knowledge/units/terms/dulunche.md
+04-knowledge/units/terms/fota.md
+04-knowledge/units/terms/jianghu.md
+04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md
+04-knowledge/units/terms/jiguang-hu.md
+04-knowledge/units/terms/kouqi.md
+04-knowledge/units/terms/liao-sancai.md
+04-knowledge/units/terms/ling-silk.md
+04-knowledge/units/terms/mingqi.md
+04-knowledge/units/terms/mise-porcelain.md
+04-knowledge/units/terms/nanjing-yunjin.md
+04-knowledge/units/terms/ping-feng.md
+04-knowledge/units/terms/qian-you-tao.md
+04-knowledge/units/terms/qing-ci.md
+04-knowledge/units/terms/qingtong-jiuqi.md
+04-knowledge/units/terms/shandingdong-ren-guzhen.md
+04-knowledge/units/terms/shenyi.md
+04-knowledge/units/terms/shougongye-hanghui.md
+04-knowledge/units/terms/song-jin.md
+04-knowledge/units/terms/tangcao-wen.md
+04-knowledge/units/terms/tao-gui.md
+04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md
+04-knowledge/units/terms/tongjing.md
+04-knowledge/units/terms/tuotai-qiqi.md
+04-knowledge/units/terms/twelve-symbols.md
+04-knowledge/units/terms/xi-mat.md
+04-knowledge/units/terms/yishu-sheji.md
+04-knowledge/units/terms/yuanling-paoshan.md
+04-knowledge/units/terms/zisha-tao.md
+04-knowledge/units/works/anle-gongzhu-yuqun.md
+04-knowledge/units/works/beijing-zijincheng.md
+04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md
+04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md
+04-knowledge/units/works/dabaoensi-liuli-ta.md
+04-knowledge/units/works/fengshou-longbing-hu.md
+04-knowledge/units/works/jinci-shengmu-dian.md
+04-knowledge/units/works/lianhua-zun.md
+04-knowledge/units/works/lianzhu-luwen-jin.md
+04-knowledge/units/works/man-eating-you.md
+04-knowledge/units/works/qin-bing-ma-yong.md
+04-knowledge/units/works/shiwu-lianzhan-tongdeng.md
+04-knowledge/units/works/shuilu-gongzhan-jian.md
+04-knowledge/units/works/tang-yin-xiangnang.md
+04-knowledge/units/works/tongbenma.md
+04-knowledge/units/works/wensiyuan-yin-xunlu.md
+04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md
+04-knowledge/units/works/yuan-huoqiang.md
+04-knowledge/units/works/zenghouyi-bronze-jianfou.md
+04-knowledge/units/works/zenghouyi-zunpan.md
+05-outputs/index/index.md
+05-outputs/knowledge-graph-data.js
+05-outputs/knowledge-graph-data.json
+06-runtime/automation/index.md
+06-runtime/governance/governance-backlog.md
+06-runtime/state/candidate-index.jsonl
+06-runtime/state/current-health.json
+06-runtime/state/discovery-manifest.json
+06-runtime/state/generated-projections-manifest.json
+"\346\231\232\346\270\205\350\207\263\346\260\221\345\233\275\350\256\276\350\256\241\345\217\262\344\270\273\351\242\230\345\275\222\345\271\266\346\212\245\345\221\212_2026-10-26.md"

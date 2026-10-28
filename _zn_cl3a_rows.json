@@ -1,0 +1,449 @@
+[
+ {
+  "claim_id": "claim-0260",
+  "statement_zh": "夏燕靖指出，按照我国传统学科分类法，设计当属“技艺”与“营造”诸门类；他据此说明类书与古代文献中的设计史料范围。",
+  "statement_en": "Xia Yanjing points out that, according to China's traditional classification of disciplines, design falls under the categories of craft/skill (jiyi) and building/construction (yingzao); he uses this to explain the range of design materials found in encyclopedias and ancient texts.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 109,
+    "line_end": 109,
+    "span_kind": "line",
+    "key_lines": [
+     109
+    ],
+    "block_ids": [
+     "b0007"
+    ],
+    "chapter": "再版序言",
+    "section": "关于中国艺术设计史的脉络梳理"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-113"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "候选作 historiographic；断言取 L109。作者没有展开“技艺”“营造”的古今义，也没有给出这一分类的文献依据，本条只保留分类判断，不把随后列举的类书部卷写成已经逐条核验的设计门类。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0261",
+  "statement_zh": "夏燕靖认为，人与古猿的区别主要在于制造工具和使用工具；能否制造工具是人和动物相区别的标志。",
+  "statement_en": "Xia Yanjing argues that the distinction between humans and the great apes lies mainly in making and using tools, and that the ability to make tools is the mark distinguishing humans from animals.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 289,
+    "line_end": 363,
+    "span_kind": "bounded",
+    "key_lines": [
+     289,
+     363
+    ],
+    "block_ids": [
+     "b0018",
+     "b0031"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "章首概述 / 1. 设计起源与石器制作"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-108"
+  },
+  "confidence": "high",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/procedures/shiqi-dazhi-sanfa.md"
+  ],
+  "discussion_notes": "候选作 historiographic，路由 interpretive：这是关于人与动物界限的一般命题，不是设计史分期判断。断言取 L289 与 L363，两处相隔较远，记 bounded。本条不把“主要在于”扩展为唯一标准，也不把制造工具等同于设计意识。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0262",
+  "statement_zh": "夏燕靖认为，华夏文明的发展是多点起源而非单一化的文明；他以北方、东方、中原、东南、西南、南方六个新石器文化区域，以及仰韶、红山、龙山、齐家、良渚等文化并列为据。",
+  "statement_en": "Xia Yanjing argues that Chinese civilization developed from multiple origins rather than a single source, citing six Neolithic cultural regions—northern, eastern, central plains, southeastern, southwestern and southern—together with Yangshao, Hongshan, Longshan, Qijia and Liangzhu cultures.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 298,
+    "line_end": 298,
+    "span_kind": "line",
+    "key_lines": [
+     298
+    ],
+    "block_ids": [
+     "b0018"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "章首概述"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-11"
+  },
+  "confidence": "high",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yangshao-culture.md",
+   "04-knowledge/units/terms/liangzhu-culture.md"
+  ],
+  "discussion_notes": "候选作 historiographic；断言取 L298。六个区域与文化的并列是来源的叙述框架，不是考古学定论；本条保留“多点起源”的判断，不把区域数量写成唯一分期，也不把“华夏文明”与考古学文化直接等同。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0263",
+  "statement_zh": "夏燕靖认为，从旧石器中晚期起，黄河流域就成为我国远古文化的发展中心；他并称从中石器时代起，黄河流域就是我国远古文化的中心区域，并为黄河流域历代王朝在此建都夯实了基础。",
+  "statement_en": "Xia Yanjing argues that the Yellow River basin became the developmental center of China's remote antiquity from the middle and late Paleolithic, and that from the Mesolithic it was the central region of China's ancient culture, laying the foundation for successive dynasties in the Yellow River basin to establish their capitals there.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 306,
+    "line_end": 334,
+    "span_kind": "bounded",
+    "key_lines": [
+     308,
+     334
+    ],
+    "block_ids": [
+     "b0019",
+     "b0026"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "知识链接：黄河流域文化遗址 / 中石器时代"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-14"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yangshao-culture.md",
+   "04-knowledge/units/places/banpo-site.md",
+   "04-knowledge/units/places/erlitou-site.md"
+  ],
+  "discussion_notes": "候选作 historiographic；断言取 L308 与 L334。来源先说“从旧石器中晚期起”，又说“因此从中石器时代起”，两种起点表述并不完全一致；本条并列保留，不合并为单一起点。“发展中心”是作者的文明史判断，不是单一遗址的测年结论；L308 的都城序列含传说与后世都城，未逐项核验。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0264",
+  "statement_zh": "夏燕靖认为，我国原始社会的设计，其实就是代表着人类有意识的、用艺术创造力所体现的造物活动；更确切地说，是我们的祖先在造物过程中运用智慧和技巧发展起来的特殊的劳作成果。",
+  "statement_en": "Xia Yanjing defines the design of China's primitive society as the conscious creation of artifacts embodying artistic creativity—more precisely, the special labor achievements developed by our ancestors through wisdom and skill in the process of making things.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 312,
+    "line_end": 312,
+    "span_kind": "line",
+    "key_lines": [
+     312
+    ],
+    "block_ids": [
+     "b0019"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "章首概述：原始社会设计的界定"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-15"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/sheji.md"
+  ],
+  "discussion_notes": "候选作 interpretive；断言取 L312。“其实就是”与“更确切地说”是作者的定义性表述，不是考古学定义；本条保留“有意识”“艺术创造力”“智慧和技巧”三个限定，不扩展为一般设计定义，也不把原始社会所有造物都写成自觉设计。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0265",
+  "statement_zh": "夏燕靖称，就我国陶器产生而言，已发现的最早陶器是1962年在江西万年县仙人洞出土的8000多年以前的陶器。",
+  "statement_en": "Xia Yanjing states that, as far as the origin of pottery in China is concerned, the earliest pottery discovered to date is that unearthed in 1962 at Xianrendong in Wannian County, Jiangxi, dating to more than 8,000 years ago.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 422,
+    "line_end": 422,
+    "span_kind": "line",
+    "key_lines": [
+     422
+    ],
+    "block_ids": [
+     "b0040"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "2. 陶器制作与器形设计 / 1）陶器产生"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-38"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/xianrendong-site.md",
+   "04-knowledge/units/terms/taoqi.md"
+  ],
+  "discussion_notes": "候选作 basic_fact，路由 factual；断言取 L422。来源未给测年方法；同章 L298 又写作“江西万县仙人洞”，地名前后不一致，本条按 L422 的“万年县”表述并保留校勘问题。“最早”是来源所记的考古发现判断，不是本条独立核验的结论。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0266",
+  "statement_zh": "夏燕靖据仰韶文化遗址的石斧、骨锄、粟、家畜骨骼、陶器、弓箭以及玉片、海贝等遗存推测，仰韶文化期手工业的发展在氏族内部开始有某种程度的分工，并有了私有制度萌芽。",
+  "statement_en": "Drawing on stone axes, bone hoes, millet, animal bones, pottery, bows and arrows, jade pieces and cowrie shells from Yangshao culture sites, Xia Yanjing infers that handicraft production during the Yangshao period began to involve a certain degree of division of labor within the clan and that private property was beginning to emerge.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 445,
+    "line_end": 445,
+    "span_kind": "line",
+    "key_lines": [
+     445
+    ],
+    "block_ids": [
+     "b0045"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "知识链接：仰韶文化"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-42"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yangshao-culture.md"
+  ],
+  "discussion_notes": "候选作 interpretive；断言取 L445。原文用“由此推测”限定，本条保留“推测”，不把分工与私有制萌芽写成已证事实；玉片、海贝被作者视为地区交换的佐证，交换与私有制之间的因果未展开，本条也不补写。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0267",
+  "statement_zh": "夏燕靖从社会进化角度评价，陶器比石器更为重要；陶器的出现促进了家畜豢养、五谷种植以及安定和文明的生活形成。",
+  "statement_en": "From the perspective of social evolution, Xia Yanjing evaluates pottery as more important than stone tools, arguing that its emergence promoted animal domestication, grain cultivation and the formation of settled and civilized life.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 447,
+    "line_end": 447,
+    "span_kind": "line",
+    "key_lines": [
+     447
+    ],
+    "block_ids": [
+     "b0045"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "2. 陶器制作与器形设计 / 1）陶器产生"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-109"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taoqi.md"
+  ],
+  "discussion_notes": "候选作 evaluative；断言取 L447。“更为重要”是作者的比较性评价，来源未给比较指标；本条不把它改写为可量化结论，也不把“促进”写成单向因果。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0268",
+  "statement_zh": "夏燕靖以龙山文化的陶鬻（原文如此，通行名陶鬶）为例，认为其三足中空扩大受热面积、颈部高拔、口前有鸟喙状长流，体现了陶匠师实用与美观有机结合的造型设计思想。",
+  "statement_en": "Taking the Longshan culture pottery gui (written 鬻 in the source, conventionally 鬶) as an example, Xia Yanjing argues that its hollow tripod legs enlarged the heated surface, its tall neck and bird-beak spout show that the potter combined practical use with visual appeal in his design thinking.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 495,
+    "line_end": 495,
+    "span_kind": "line",
+    "key_lines": [
+     495
+    ],
+    "block_ids": [
+     "b0053"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "2. 陶器制作与器形设计 / 2）重要的陶文化期 / ③ 龙山文化"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-110"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/tao-gui.md"
+  ],
+  "discussion_notes": "候选作 evaluative；断言取 L495。来源多写作“陶鬻”，通行名为“陶鬶”，本条并存两名并以“原文如此”标明；三足、长流等形制描述来自来源，未给尺寸与出土单位。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0269",
+  "statement_zh": "夏燕靖称，良渚古城是目前所发现的新石器时代我国最大城址，堪称“中华第一城”；其年代上限很可能是公元前2600—前2300年。",
+  "statement_en": "Xia Yanjing states that the Liangzhu ancient city is the largest Neolithic city site discovered in China to date and can be called 'China's first city'; its upper date is very likely 2600–2300 BCE.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 506,
+    "line_end": 506,
+    "span_kind": "line",
+    "key_lines": [
+     506
+    ],
+    "block_ids": [
+     "b0055"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "知识链接：良渚文化"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-57"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/liangzhu-gucheng.md",
+   "04-knowledge/units/terms/liangzhu-culture.md"
+  ],
+  "discussion_notes": "候选作 evaluative；断言取 L506。“最大城址”“中华第一城”是来源的评价性判断，年代用“很可能”限定。该行只称良渚文化遗址群“有座古城”，未在本行使用“良渚古城”这一专名；本条按候选与 KU 的通行名表述，并保留这一称名差异。本条不把良渚古城直接写成中国最早城市。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0270",
+  "statement_zh": "夏燕靖认为，良渚文化的鱼鳍形足陶鼎和水鸟形陶壶，均是人类在摹拟自然形态的基础上积累造型经验，进而按照生活需要创造出的人工形态，即根据生活需要而造型。",
+  "statement_en": "Xia Yanjing argues that the Liangzhu culture's fish-fin-legged pottery ding and waterbird-shaped pottery hu both reflect accumulated modeling experience based on imitating natural forms, from which human-made forms were created according to the needs of life—that is, modeling for life's needs.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 515,
+    "line_end": 515,
+    "span_kind": "line",
+    "key_lines": [
+     515
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "知识链接：良渚文化（续）"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-60"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yuqixingzu-taoding.md",
+   "04-knowledge/units/terms/shuiniaoxing-taohu.md",
+   "04-knowledge/units/terms/liangzhu-culture.md"
+  ],
+  "discussion_notes": "候选作 interpretive；断言取 L515。相关句子从 L497“良渚文化的水鸟形陶壶是以动物形态为造型”起，被图版与“河姆渡文化”知识链接隔断，至 L515“依据的”续完；候选跨度 L508-L516 只覆盖续句，本条按 L515 表述并记录这一排录断裂。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0271",
+  "statement_zh": "夏燕靖认为，原始建筑是在巢居和穴居的基础上发展起来的，其基本形式是利用固体材料建造居住空间，以满足人的居住需要；在建筑实践中，人又按照美的规律营造出样式各异的建筑。",
+  "statement_en": "Xia Yanjing argues that primitive architecture developed from nest dwellings and cave dwellings; its basic form uses solid materials to build dwelling space to meet human habitation needs, while in building practice people also created diverse forms according to the laws of beauty.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 572,
+    "line_end": 572,
+    "span_kind": "line",
+    "key_lines": [
+     572
+    ],
+    "block_ids": [
+     "b0063"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "4. 原始居住设计的雏形"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-111"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/chaoju.md",
+   "04-knowledge/units/terms/xueju.md",
+   "04-knowledge/units/terms/bandixue-shi-jianzhu.md",
+   "04-knowledge/units/terms/ganlan-shi-jianzhu.md"
+  ],
+  "discussion_notes": "候选作 interpretive；断言取 L572。“按照美的规律”是作者的建筑美学判断，来源未给实例逐条对应；本条保留这一规范性表述，不把它写成所有原始建筑的共同规律。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0272",
+  "statement_zh": "夏燕靖称，江浙地区是原始农业稻作发育区，良渚文化区是典型的稻作区域，因而也是我国最早实现犁耕的地区；许多遗址发现所谓石犁等耘田器。但他同时指出，良渚文化的石犁是否真正用作犁耕、良渚文化是否有犁耕农业，学界尚有争议。若三角形石犁能够确认为犁铧，则说明良渚文化农业已由耜耕农业发展到犁耕农业。",
+  "statement_en": "Xia Yanjing states that the Jiangnan region was a rice-growing area of primitive agriculture and that the Liangzhu culture area was a typical rice-growing region and therefore the earliest area in China to practice plough agriculture; many sites have yielded so-called stone ploughs and other field-implement tools. He nevertheless notes that whether Liangzhu stone ploughs were actually used for ploughing, and whether Liangzhu culture had plough agriculture at all, remains disputed. If the triangular stone ploughs can be confirmed as ploughshares, then Liangzhu agriculture had developed from spade cultivation to plough cultivation.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 580,
+    "line_end": 587,
+    "span_kind": "bounded",
+    "key_lines": [
+     580,
+     587
+    ],
+    "block_ids": [
+     "b0064"
+    ],
+    "chapter": "原始社会的设计缘起",
+    "section": "5. 原始农业生产器具设计"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-112",
+   "merged_candidate_ids": [
+    "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-79"
+   ]
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/liangzhu-shili.md",
+   "04-knowledge/units/terms/yuanshi-nongju.md",
+   "04-knowledge/units/terms/liangzhu-culture.md"
+  ],
+  "discussion_notes": "候选 01-79 与 01-112 同段重出，合并为一条；01-112 为主候选，01-79 记 merged_candidate_ids。断言取 L580-L587。来源先说“最早实现犁耕”，随即以学界争议和“如果能够确认”收回强度，本条保留这一前后张力，不把良渚犁耕写成定论；商代青铜犁、战国铁犁的比较未展开。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "metric_kind": "deterministic_content_integrity",
+ "metric_boundary": "仅检查可机械判定的结构、编码、占位、链接和状态一致性；不评估语义细节密度、事实充分性或知识价值。",
+ "empty_body": 0,
+ "empty_frontmatter_values": 20,
+ "missing_sections": 0,
+ "text_corruption": 0,
+ "title_format_issues": 0,
+ "duplicate_titles": 0,
+ "cross_type_same_name": 1,
+ "body_verify_vs_fm": 0,
+ "local_file_broken": 0,
+ "body_type_residue": 0,
+ "h1_in_body": 0,
+ "english_headings": 0,
+ "placeholder_content": 3,
+ "fm_body_verify_conflict": 0,
+ "total_files": 2567,
+ "total_findings": 24
+}

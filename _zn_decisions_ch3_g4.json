@@ -1,0 +1,122 @@
+[
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-70",
+    "entity": "赵武灵王",
+    "action": "create",
+    "target": "04-knowledge/units/persons/zhao-wulingwang.md",
+    "analysis": "L1838 记其于公元前 307 年组建中原地带第一支骑兵；L2175-L2177 记其力排众议引进胡服骑射，引《史记·赵世家》「夫服者，所以便用也；礼者，所以便事也」，并称改革奠定赵国强盛基础。既有 persons 目录无赵武灵王条目，胡服与胡服骑射另有 terms/hufu.md 与 events/hufu-qishe.md。",
+    "approve": "新建 persons/zhao-wulingwang.md：承载骑兵组建、胡服骑射的推行与服饰功能论，primary B、secondary E（跨文化采纳），与胡服、带钩条目分工。",
+    "apply_note": "六节齐全；来源未给生卒、在位年数与胡服形制，已写入证据边界；公元前 307 年只系于骑兵组建，未系于胡服骑射。",
+    "note": "canonical 为新建人物条目；胡服形制由 terms/hufu.md 承载，事件由 events/hufu-qishe.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-84",
+    "entity": "干将",
+    "action": "create",
+    "target": "04-knowledge/units/persons/ganjiang.md",
+    "analysis": "L1905 据《吴越春秋》记干将采五山铁精、六合金英铸剑，妻断发剪爪投炉、三百人鼓橐装炭，铸成干将莫邪，阳作龟文、阴作漫理；既有 works/yuewang-goujian-jian.md 只涉勾践剑，无铸剑匠人条目。",
+    "approve": "新建 persons/ganjiang.md：承载铸剑传说的人物、材料与工艺叙述，不把传说当作可验证的冶金事实。",
+    "apply_note": "六节齐全；原文作「使童女童男三百人」（童女在前），照录；来源只称「干将妻」，未以莫邪称其人，条目据实记录。",
+    "note": "canonical 为新建干将条目；铸剑传说与越王剑分属人物与器物两层，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-113",
+    "entity": "李冰",
+    "action": "create",
+    "target": "04-knowledge/units/persons/li-bing.md",
+    "analysis": "L2060-L2062、L2066 记其为战国秦蜀郡太守，公元前 256 年起用六年烧山凿石建都江堰，设鱼嘴、飞沙堰、宝瓶口，总结治水经验，使成都平原成为天府之国；既有 persons/dayu.md 记大禹治水，无李冰条目，工程本体另见 works/dujiangyan.md。",
+    "approve": "新建 persons/li-bing.md：承载李冰的官职、年代、工程分工与治水经验，工程形制交由 works/dujiangyan.md。",
+    "apply_note": "六节齐全；L2062 作「都江水利」、同段及 L2066 作「都江堰」，两存照录；L2062-L2066 被页眉隔断，已按实际引用行标注。",
+    "note": "canonical 为新建李冰条目；都江堰工程由 works/dujiangyan.md 承载，二者互链不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-115",
+    "entity": "郑国",
+    "action": "create",
+    "target": "04-knowledge/units/persons/zheng-guo.md",
+    "analysis": "L2068-L2070 记韩国水利专家郑国以间谍身份入秦，公元前 246 年建议穿凿泾洛水渠，事泄后以「为韩延数岁之命，而为秦建万世之功」自辩，仍主持完成郑国渠；工程本体另见 works/zhengguo-canal.md。",
+    "approve": "新建 persons/zheng-guo.md：承载郑国的身份、入秦经过、自辩语与主持完工的事实。",
+    "apply_note": "六节齐全；「气奄息息的韩国」疑为「气息奄奄」，「进入秦国内向秦王嬴政建议」断句可疑，均照录标疑。",
+    "note": "canonical 为新建郑国条目；郑国渠工程由 works/zhengguo-canal.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-117",
+    "entity": "西门豹",
+    "action": "create",
+    "target": "04-knowledge/units/persons/ximen-bao.md",
+    "analysis": "L2072 记其为魏文侯时邺令，治邺破除迷信，兴建漳水十二渠，使邺地物产丰富、土地肥沃；既有 places/yecheng.md 记邺城，无西门豹条目，渠系另见 works/ximen-canal.md。",
+    "approve": "新建 persons/ximen-bao.md：承载西门豹的官职、治邺举措与十二渠的成效。",
+    "apply_note": "六节齐全；来源材料集中在一段，未给十二渠的渠线、长度与工程技术参数，已写入证据边界。",
+    "note": "canonical 为新建西门豹条目；漳水十二渠由 works/ximen-canal.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-135",
+    "entity": "孙武",
+    "action": "create",
+    "target": "04-knowledge/units/persons/sun-wu.md",
+    "analysis": "L2416 记孙武为春秋军事家、思想家，著《孙子》十三篇，与孔子同时代，提出令民与上同意、厚爱其民、知彼知己，并有兵器配用思想；著作本体另见 publications/sun-zi-bing-fa.md。",
+    "approve": "新建 persons/sun-wu.md：承载其时代、身份、十三篇与主要命题，兵法文本交由 publications 条目。",
+    "apply_note": "六节齐全；来源多称「孙子」，未载国别与仕宦，条目据实记录；sub_type 用 scholar（taxonomy.md 的 person 无 strategist 枚举）。",
+    "note": "canonical 为新建孙武条目；《孙子兵法》由 publications/sun-zi-bing-fa.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-139",
+    "entity": "吕不韦",
+    "action": "create",
+    "target": "04-knowledge/units/persons/lv-buwei.md",
+    "analysis": "L1805、L2422 记吕不韦为战国末年秦国杂家，门客集体编纂《吕氏春秋》（又称《吕览》），内容庞杂，其中音乐与乐器叙述有设计史意义；著作本体另见 publications/lvshi-chunqiu.md。",
+    "approve": "新建 persons/lv-buwei.md：confidence 记 low，只承载来源所记身份、编纂方式与设计史相关点。",
+    "apply_note": "六节齐全；来源未载其官职生平，occupation 记「未载（来源称杂家）」，未把政治家身份写成本源事实。",
+    "note": "canonical 为新建吕不韦条目；《吕氏春秋》由 publications/lvshi-chunqiu.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-03",
+    "entity": "蚁鼻钱",
+    "action": "create",
+    "target": "04-knowledge/units/terms/yi-bi-qian.md",
+    "analysis": "L2274 记蚁鼻钱为楚国铜铸仿贝，因中间凸出像人鼻得名，携带方便、制作精巧；既有 terms/beibi.md 记贝币、terms/bu-bi.md 记布币，无蚁鼻钱专条。",
+    "approve": "新建 terms/yi-bi-qian.md：confidence 记 low，primary_dimension 用 D（与既有货币条目一致），承载器名由来与两条优点。",
+    "apply_note": "六节齐全；原文置于「圜形钱」标题下，标题与内容不完全对应，已在条目内说明；材料仅一句，未给尺寸、重量与出土地。",
+    "note": "canonical 为新建蚁鼻钱条目；贝币、布币、刀币、圜钱分列，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-130",
+    "entity": "圜形钱",
+    "action": "create",
+    "target": "04-knowledge/units/terms/huan-qian.md",
+    "analysis": "L2274、L2276 记圆形钱从纺轮演变，战国出现规范的圆形圆孔钱与圆形方孔钱，环形圜钱便于携带、制钱趋于标准化，方孔便于打磨，秦半两为简洁标准代表；既有 terms/bu-bi.md、terms/beibi.md、terms/dao-bi.md 均无圜钱专条。",
+    "approve": "新建 terms/huan-qian.md：primary_dimension 用 D，合并圜形钱、圜环钱、环形圜钱等写法；cand-04-148 圜环钱走 no_delta 指向本文件。",
+    "apply_note": "六节齐全；来源内部「圆孔」与「方孔」表述不一致，已标出；未给尺寸、重量、出土地与型式对应。",
+    "note": "canonical 为圜钱条目，圜环钱作为别名并入同一文件。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-149",
+    "entity": "金钣",
+    "action": "create",
+    "target": "04-knowledge/units/terms/jin-ban.md",
+    "analysis": "L2264、L2274 记金钣为春秋战国两种金属货币之一，黄金铸成，便于分割携带，形成固定的天然货币概念；既有货币条目未收金钣。",
+    "approve": "新建 terms/jin-ban.md：confidence 记 low，primary_dimension 用 D，承载材质、形制与货币功能。",
+    "apply_note": "六节齐全；L2264 作「金饭」、L2274 作「金钣」，「金饭」疑为形近误字，照录标疑；未给重量单位与出土地。",
+    "note": "canonical 为新建金钣条目；与铜铸货币分属不同材质，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-86",
+    "entity": "独木舟",
+    "action": "create",
+    "target": "04-knowledge/units/terms/dugout-canoe.md",
+    "analysis": "L1930、L1932-L1933、L1941 记独木舟刳木为舟、船壳式结构，河姆渡最早独木舟与木桨陶模型，武进、荣城春秋独木舟尺寸，以及竹木筏与独木舟为早期基本船型；既有 terms/shangdai-zhouchuan.md 记商代舟船，无独木舟专条。",
+    "approve": "新建 terms/dugout-canoe.md：承载独木舟的制法、最早实例、春秋实物尺寸与船型地位。",
+    "apply_note": "六节齐全；「荣城」原文如此，照录；荣城尺寸句被图 3-15/3-16 图版说明与页眉隔断，「3.9」与「米」分处两行，用「」标示拼接。",
+    "note": "canonical 为新建独木舟条目；与 terms/plank-boat.md 是前后相续的两种船体结构。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-87",
+    "entity": "木板船",
+    "action": "create",
+    "target": "04-knowledge/units/terms/plank-boat.md",
+    "analysis": "L1943、L1954、L1956、L1958 记木板船在夏商出现，甲骨文舟字可见建构意识，独木舟加固木板而成龙骨、扩大容量，商代帆已可用于航行，西周至春秋战国制船业发达，有青铜钉、铁钉、连舫与舟牧，公元前 648 年秦船运粮。",
+    "approve": "新建 terms/plank-boat.md：承载木板船的起源、构造演进、帆、钉接、连舫与舟牧，scope_note 与商代舟船条目分工。",
+    "apply_note": "六节齐全；甲骨文「舟（）」括号内字形在文本中未显示，照录；「泌水」疑为「汾水」，《史记》引文作「自雍相望至绛」，均照录标疑。",
+    "note": "canonical 为新建木板船条目；商代舟船的一般叙述仍由 terms/shangdai-zhouchuan.md 承载。"
+  }
+]

@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下东汉建筑明器的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: boundary_case
+    primary: true
+    scope_note: "绿釉陶楼是 B.5.3 的建筑明器边界样本：只取东汉豪强庄园坞堡的楼阁模型这一角色，其铅釉与低温釉陶工艺归 B.5.4，本 Topic 不重复"
+hierarchy_scope_note: "绿釉陶楼是 B.5.3 的建筑明器边界样本：只取东汉豪强庄园坞堡的楼阁模型这一角色，其铅釉与低温釉陶工艺归 B.5.4，本 Topic 不重复"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下东汉建筑明器的器物锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下东汉建筑明器的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 绿釉陶楼是 B.5.3 的建筑明器边界样本：只取东汉豪强庄园坞堡的楼阁模型这一角色，其铅釉与低温釉陶工艺归 B.5.4，本 Topic 不重复
 ## 相关知识元
 
 与明器同属墓葬明器谱系；绿釉陶楼是建筑类明器的代表。relation 未审查。

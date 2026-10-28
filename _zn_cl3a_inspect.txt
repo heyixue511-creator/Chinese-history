@@ -1,0 +1,332 @@
+=== CANDIDATES 27 ===
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-07 needs_evidence
+span {'block_ids': ['b0007'], 'evidence_block_ids': ['b0007'], 'line_end': 114, 'line_start': 101}
+scope: historiographic_claim
+text: 中国艺术设计史与以往的工艺美术史形成的最大区别，就在于前者侧重于设计与功能，而后者侧重于工艺与欣赏。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者在再版序言中明确比较，并举原始陶器、青铜器为例：设计史关注功能与形态，工艺美术史偏重纹样装饰赏析。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-113 needs_evidence
+span {'block_ids': ['b0007'], 'evidence_block_ids': ['b0007'], 'line_end': 109, 'line_start': 109}
+scope: historiographic_claim
+text: 按照我国传统学科分类法，设计当属“技艺”与“营造”诸门类。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者在再版序言中据此说明类书与古代文献中的设计史料范围。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-11 needs_evidence
+span {'block_ids': ['b0018'], 'evidence_block_ids': ['b0018'], 'line_end': 305, 'line_start': 287}
+scope: historiographic_claim
+text: 华夏文明的发展是多点起源而非单一化的文明。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者以北方、东方、中原、东南、西南、南方六个新石器文化区域，以及仰韶、红山、龙山、齐家、良渚等文化并列为据。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-108 needs_evidence
+span {'block_ids': ['b0018', 'b0031'], 'evidence_block_ids': ['b0018', 'b0031'], 'line_end': 363, 'line_start': 289}
+scope: historiographic_claim
+text: 人与古猿的区别主要在于制造工具和使用工具；能否制造工具是人和动物相区别的标志。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 原文在章首以此说明原始社会起点，并在北京人石器段落再次以“能否制造工具”作为人与动物区别的标志。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-14 needs_evidence
+span {'block_ids': ['b0019', 'b0026'], 'evidence_block_ids': ['b0019', 'b0026'], 'line_end': 335, 'line_start': 306}
+scope: historiographic_claim
+text: 从旧石器中晚期起，黄河流域就成为我国远古文化的发展中心；从中石器时代起，这一中心地位进一步确立，并为黄河流域历代王朝建都夯实了基础。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 原文以黄河流域大量细石器遗存、农业经济起源，以及夏至宋历代都城序列为证据。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-15 needs_evidence
+span {'block_ids': ['b0019'], 'evidence_block_ids': ['b0019'], 'line_end': 313, 'line_start': 306}
+scope: interpretive_claim
+text: 关于我国原始社会的设计，其实就是代表着人类有意识的、用艺术创造力所体现的造物活动；更确切地说，是我们的祖先在造物过程中运用智慧和技巧发展起来的特殊的劳作成果。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者在章导论中给出定义，并以石器、制陶、纺织缝纫和居住规划等造物活动为例。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-16 needs_evidence
+span {'block_ids': ['b0021', 'b0027'], 'evidence_block_ids': ['b0021', 'b0027'], 'line_end': 341, 'line_start': 316}
+scope: historiographic_claim
+text: 一切人造物即意味着设计，设计的起源是与人类的起源同步产生；人类在300万年前最初打制的原始石器，就已经是设计的产物。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者先从工具需要推论设计意识，再以300万年前石器为据；同时承认这种设计仍处于朦胧状态，并非自觉的人性产物。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-21 needs_evidence
+span {'block_ids': ['b0023'], 'evidence_block_ids': ['b0023'], 'line_end': 325, 'line_start': 322}
+scope: historiographic_claim
+text: 先秦以降手工业发展较为迅速，各行业有了较为细致的分工；分工的细致又推动了技术的提高。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者引《考工记》“凡攻木之工七，攻金之工六，攻皮之工五，刮摩之工五，搏填之工二”为证。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-20 needs_evidence
+span {'block_ids': ['b0032'], 'evidence_block_ids': ['b0032'], 'line_end': 381, 'line_start': 365}
+scope: historiographic_claim
+text: 第二步加工的产生，不仅在工具的设计制造史上，而且在改造客观世界上同样具有重要的意义；它标志着人类的设计能力有了明显提高和发展。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者以丁村、郧县等遗址的第二步修整、不同边缘加工方向为据，并联系审美意识滋生。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-30 needs_evidence
+span {'block_ids': ['b0038'], 'evidence_block_ids': ['b0038'], 'line_end': 417, 'line_start': 407}
+scope: historiographic_claim
+text: 磨制石器在形状规则性、表面光洁度、材料选择等方面，已经开始超出实用的需要，兼具有明显的形式意义；从纯功能性设计到对审美的自觉追求，我们的祖先将设计文明向前推进了一大步。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者以新石器时代中期经先打制后磨制的石器为据，并联系石铲、石镰等带柄工具的力学改进。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-38 needs_evidence
+span {'block_ids': ['b0040'], 'evidence_block_ids': ['b0040'], 'line_end': 427, 'line_start': 420}
+scope: basic_fact
+text: 就我国陶器产生而言，已发现的最早陶器，是1962年在江西万年县仙人洞出土的8000多年以前的陶器。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 原文作为考古发现陈述，未给具体测年方法；同章第298行又作“江西万县仙人洞”，地名有前后不一致。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-40 needs_evidence
+span {'block_ids': ['b0043'], 'evidence_block_ids': ['b0043'], 'line_end': 440, 'line_start': 434}
+scope: interpretive_claim
+text: 陶器的设计具有实用与审美的完整统一性：彩陶纹样绘于器物腹部以上，依循当时人们席地而坐的俯视观看要求；陶罐口小是为防止水外流，大腹则是为增大水的容量。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者将用途与装饰形式综合为原始陶器三个设计特点之一，并以彩陶纹样位置、陶罐口腹比例为例。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-42 needs_evidence
+span {'block_ids': ['b0045'], 'evidence_block_ids': ['b0045'], 'line_end': 448, 'line_start': 443}
+scope: interpretive_claim
+text: 仰韶文化期手工业的发展在氏族内部开始有某种程度的分工，并有了私有制度萌芽。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者据石斧、骨锄、粟、家畜骨骼、陶器、弓箭、玉片与海贝等遗存作推测，原文用“由此推测”限定。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-109 needs_evidence
+span {'block_ids': ['b0045'], 'evidence_block_ids': ['b0045'], 'line_end': 447, 'line_start': 447}
+scope: evaluative_claim
+text: 从社会进化角度来看，陶器比石器更为重要，它的出现促进了家畜豢养、五谷种植以及安定和文明的生活形成。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者在陶器制作段末作社会进化评价，未给比较指标。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-45 needs_evidence
+span {'block_ids': ['b0047'], 'evidence_block_ids': ['b0047'], 'line_end': 454, 'line_start': 451}
+scope: interpretive_claim
+text: 考古学界比较普遍的看法认为，尖底瓶是制造者掌握了一定的力学原理后制造出的产品；但作者同时指出这只是一种看法，制造者是否具备这种意识还有待进一步查考。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者先述小口、尖底、双耳的功能结构，再对“力学原理”解释作有限度承认，保留不确定性。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-48 needs_evidence
+span {'block_ids': ['b0050'], 'evidence_block_ids': ['b0050'], 'line_end': 478, 'line_start': 466}
+scope: source_claim
+text: 自1973年青海大通舞蹈纹彩陶盆出土以来，对其舞蹈纹样至少有五种解释：原始装饰成型期范例、叙事型绘画风格代表、生殖崇拜与“求偶舞”写照、原始祭祀活动“化石”、图腾与氏族社会联系佐证。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者罗列五说而未判定哪一说成立，并强调舞蹈纹盆的人物、服饰、发型、性别和舞蹈场面含义丰富。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-110 needs_evidence
+span {'block_ids': ['b0053'], 'evidence_block_ids': ['b0053'], 'line_end': 495, 'line_start': 495}
+scope: evaluative_claim
+text: 以作为炊煮器的陶鬻（原文如此，通行名陶鬶）为例，其造型体现了陶匠师实用与美观有机结合的造型设计思想。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者以三足中空扩大受热面积、鸟喙长流等形制特征作评价；原文多写作“陶鬻”。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-57 needs_evidence
+span {'block_ids': ['b0055'], 'evidence_block_ids': ['b0055'], 'line_end': 507, 'line_start': 504}
+scope: evaluative_claim
+text: 良渚古城是目前所发现的新石器时代我国最大城址，堪称“中华第一城”；其年代上限很可能是公元前2600—前2300年。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者据城墙范围、残高、底部垫石与夯土做法作判断；年代用“很可能”限定。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-60 needs_evidence
+span {'block_ids': ['b0056'], 'evidence_block_ids': ['b0056'], 'line_end': 516, 'line_start': 508}
+scope: interpretive_claim
+text: 良渚文化的鱼鳍形足陶鼎和水鸟形陶壶，均是人类在摹拟自然形态的基础上所积累的造型经验，进而按照生活的需要创造出无数的人工形态，即根据生活需要而造型。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者由两件良渚陶器的动物形态归纳其造型方法，属设计史解释。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-64 needs_evidence
+span {'block_ids': ['b0057'], 'evidence_block_ids': ['b0057'], 'line_end': 526, 'line_start': 517}
+scope: evaluative_claim
+text: 陶甑的设计意图是我国烹饪工艺的一大突破，同时也标志着陶器时代的到来，意味着以熟食、热食为主要特征的饮食文化风格的形成。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者由陶甑底部蒸汽孔、蒸屉式结构和蒸汽熟化功能作评价。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-69 needs_evidence
+span {'block_ids': ['b0059'], 'evidence_block_ids': ['b0059'], 'line_end': 553, 'line_start': 529}
+scope: interpretive_claim
+text: 《易·系辞篇》“黄帝、尧、舜垂衣裳而天下治”，原文将“垂衣裳”与“天下治”理解为统治方式：垂拱、垂衣裳是因，天下治是果；并据此推断新石器时代中晚期已有成形衣服，服装定形为上衣下裳。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者明确说这是按《易·系辞篇》的说法作解释，属文本阐释，并以“最初大概是围裙和披肩”保留推测语气。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-71 needs_evidence
+span {'block_ids': ['b0061'], 'evidence_block_ids': ['b0061'], 'line_end': 561, 'line_start': 556}
+scope: source_claim
+text: 河姆渡遗址发现的干栏式建筑遗迹是迄今为止世界上最早的木构建筑。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 原文在干栏式建筑知识链接中直接断言，未列比较材料或测年数据。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-72 needs_evidence
+span {'block_ids': ['b0062'], 'evidence_block_ids': ['b0062'], 'line_end': 565, 'line_start': 562}
+scope: evaluative_claim
+text: 良渚文化早期丝织物的出现，说明我国早在四五千年前就开始养蚕织绢，是世界上最早出产丝织品的国家。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者以良渚文化丝织物，以及姜寨、半坡编织物遗存为据，作文明史评价。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-75 needs_evidence
+span {'block_ids': ['b0063'], 'evidence_block_ids': ['b0063'], 'line_end': 573, 'line_start': 566}
+scope: historiographic_claim
+text: 这些早期的原始木构架建筑，奠定了未来木构架建筑的雏形，揭开了我国建筑设计的序幕。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者由半坡半地穴房屋、庙底沟柱洞与房基、龙山套间和干栏式建筑归纳。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-111 needs_evidence
+span {'block_ids': ['b0063'], 'evidence_block_ids': ['b0063'], 'line_end': 572, 'line_start': 572}
+scope: interpretive_claim
+text: 原始建筑是在巢居和穴居的基础上发展起来的，其基本形式是利用固体材料来建造居住空间，以满足于人的居住需要；而在建筑实践中，人又于天性之中按照美的规律营造出样式各异的建筑。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者由半坡、庙底沟、龙山、牛河梁等史前建筑遗存归纳。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-79 needs_evidence
+span {'block_ids': ['b0064'], 'evidence_block_ids': ['b0064'], 'line_end': 588, 'line_start': 574}
+scope: historiographic_claim
+text: 良渚文化的石犁是否真正用作犁耕，抑或说良渚文化是否有犁耕农业，学界尚有争议；如果能够确认三角形石犁为犁铧，则说明良渚文化农业已由耜耕农业发展到犁耕农业。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者并列争议与“如果能够确认”后的推论，未作定论；并以战国铁犁、商代青铜犁作比较。
+
+### 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-112 needs_evidence
+span {'block_ids': ['b0064'], 'evidence_block_ids': ['b0064'], 'line_end': 587, 'line_start': 580}
+scope: historiographic_claim
+text: 江浙地区是原始农业稻作发育区，良渚文化区便是典型的稻作区域，因而也是我国最早实现犁耕的地区。然而，对于良渚文化的石犁是否真正用作犁耕，抑或说良渚文化是否有犁耕农业，学界尚有争议。
+match: {"notes": "04-knowledge 当前无 KU；待人工复核。", "status": "novel", "target_refs": []}
+confidence: tentative
+support_note: 作者先作“最早实现犁耕”判断，随后明确保留学界争议，并以甲骨文“犁”、战国铁犁和商代青铜犁作比较。
+
+
+=== CLAIMS 0036-0052 ===
+
+### claim-0036 factual_claim medium
+高丰引郑观庆（原文如此，通行作郑观应）《盛世危言》卷七，以洋布、洋纱、洋花边、洋袜、洋巾、煤油、洋烛、洋电灯、洋铁、洋针、洋钉等洋货输入为例，说明中国女红失业、柏树弃为不材、业治者无事偷闲，是当时社会经济与手工业受冲击的真实写照。
+source: 2004-gaofeng-zhongguo-shejishi 5219 5219 cand 2004-gaofeng-zhongguo-shejishi:cand-sup-76
+supported_by: []
+
+### claim-0037 historiographic_claim high
+夏燕靖认为，中国艺术设计史研究应摆脱沿袭已久的工艺美术史叙事方式与研究方法，用艺术设计的眼光重新认识造物行为的发展历程，并揭示“匠作之业”的思维方式与设计演变过程。
+source: 2009-xiayanjing-zhongguo-shejishi 68 68 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-03
+supported_by: ['04-knowledge/units/terms/yishu-shejishi.md', '04-knowledge/units/terms/gongyi-meishu.md']
+
+### claim-0038 historiographic_claim high
+夏燕靖把中国艺术设计史与工艺美术史的最大区别概括为：前者侧重设计与功能，后者侧重工艺与欣赏；并以原始陶器和青铜器为例，说明设计史关注功能与形态构成，工艺美术史则侧重彩陶纹样或商周青铜装饰赏析。
+source: 2009-xiayanjing-zhongguo-shejishi 70 70 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-04
+supported_by: ['04-knowledge/units/terms/yishu-shejishi.md', '04-knowledge/units/terms/gongyi-meishu.md']
+
+### claim-0039 historiographic_claim high
+夏燕靖把现当代中国艺术设计的叙述重点定为：近代以上世纪初叶机器工业的起步与发展为中心，介绍纺织印染、机器制造与商业贸易中的设计；当代则突出工业设计与多媒体艺术设计，并遵循“以史带论”、突出重点的原则。
+source: 2009-xiayanjing-zhongguo-shejishi 70 70 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-05
+supported_by: ['04-knowledge/units/terms/yishu-shejishi.md']
+
+### claim-0040 historiographic_claim high
+夏燕靖认为，中国艺术设计史的取材应以生产生活器具以及城镇布局、建筑构造、室内装修与陈设、庭园布置等环境建筑内容为重点；以陈设欣赏为主的玉器、刺绣、雕刻、艺术瓷等工艺品不重点列入，这构成设计史与工艺美术史在对象范围上的又一区别。
+source: 2009-xiayanjing-zhongguo-shejishi 70 70 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-92
+supported_by: ['04-knowledge/units/terms/yishu-shejishi.md', '04-knowledge/units/terms/gongyi-meishu.md']
+
+### claim-0041 interpretive_claim medium
+夏燕靖认为设计的起源与人类起源同步：约300万年前猿人形成时已开始制造石器，最早石器具有一定形态规格和初级形式感，因此“一切人造物即意味着设计”；但最初的设计仍处于朦胧、不自觉的状态。
+source: 2009-xiayanjing-zhongguo-shejishi 233 233 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-07
+supported_by: ['04-knowledge/units/terms/sheji.md', '04-knowledge/units/procedures/shiqi-dazhi-sanfa.md']
+
+### claim-0042 interpretive_claim high
+夏燕靖认为，石器第二步修整加工的产生不仅在工具设计制造史上具有重要意义，在改造客观世界上同样重要，它标志着人类设计能力与主观能动性的进一步提高。
+source: 2009-xiayanjing-zhongguo-shejishi 264 264 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-15
+supported_by: ['04-knowledge/units/procedures/shiqi-dazhi-sanfa.md', '04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md']
+
+### claim-0043 interpretive_claim high
+夏燕靖认为，新石器时代中期经打制后磨制的石器在形状规则性、表面光洁度和材料选择上已超出实用需要，兼具形式意义；从纯功能性设计到对审美的自觉追求，是设计文明的一大进步。
+source: 2009-xiayanjing-zhongguo-shejishi 304 304 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-19
+supported_by: ['04-knowledge/units/procedures/mozhi-shiqi.md', '04-knowledge/units/terms/xinshiqi-shiqi-leixing.md']
+
+### claim-0044 interpretive_claim high
+夏燕靖把原始陶器的设计特点归纳为三点：制作与生活息息相关，既满足物质需要又满足审美需要，制作者同时是使用者与欣赏者；实用与审美完整统一；装饰纹样来源于当时的社会生活形态，是社会生活的真实写照与艺术反映。
+source: 2009-xiayanjing-zhongguo-shejishi 330 330 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-28
+supported_by: ['04-knowledge/units/terms/taoqi.md', '04-knowledge/units/terms/painted-pottery.md']
+
+### claim-0045 interpretive_claim medium
+夏燕靖指出，考古学界较普遍地认为尖底瓶是制造者掌握一定力学原理后的产品，但这只是一种看法；当时的制造者是否具备这样的意识，仍有待进一步查考。
+source: 2009-xiayanjing-zhongguo-shejishi 344 344 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-26
+supported_by: ['04-knowledge/units/terms/pointed-bottom-jar.md']
+
+### claim-0046 historiographic_claim medium
+夏燕靖把舞蹈纹彩陶盆纹样的解释归纳为五说：原始装饰成型期的范例、叙事型绘画风格的代表、生殖崇拜与“求偶舞”的写照、原始祭祀活动的“化石”资料、图腾与氏族社会联系的佐证；他未判定唯一解释，而称其象征含义十分丰富。
+source: 2009-xiayanjing-zhongguo-shejishi 342 342 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-30
+supported_by: ['04-knowledge/units/works/wudaowen-caitao-pen.md']
+
+### claim-0047 interpretive_claim high
+夏燕靖认为河姆渡文化陶甑的设计是我国烹饪工艺的一大突破，标志着陶器时代的到来，也意味着以熟食、热食为主要特征的饮食文化风格的形成。
+source: 2009-xiayanjing-zhongguo-shejishi 392 392 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-41
+supported_by: ['04-knowledge/units/terms/tao-zeng.md', '04-knowledge/units/terms/fu-li-zeng.md']
+
+### claim-0048 interpretive_claim medium
+夏燕靖把《易·繫辞篇》“黄帝、尧、舜垂衣裳而天下治，盖取诸乾坤”解释为一种统治方式：无论“垂拱”还是“垂衣裳”都与“天下治”构成因果关系；并据此认为新石器时代中晚期已有纺织衣料，黄帝、尧、舜时代已有成型衣服，服装形式定型为上衣下裳。
+source: 2009-xiayanjing-zhongguo-shejishi 398 398 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-42
+supported_by: ['04-knowledge/units/terms/yuanshi-fuzhuang.md', '04-knowledge/units/persons/huangdi-legend.md']
+
+### claim-0049 factual_claim medium
+夏燕靖据良渚文化早期丝织物遗存指出，我国早在四五千年前就开始养蚕织绢，是世界上最早出产丝织品的国家。
+source: 2009-xiayanjing-zhongguo-shejishi 416 416 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-45
+supported_by: ['04-knowledge/units/terms/liangzhu-culture.md', '04-knowledge/units/terms/ling-silk.md']
+
+### claim-0050 interpretive_claim high
+夏燕靖认为，半地穴式、干栏式等早期原始木构架建筑奠定了未来木构架建筑的雏形，揭开了我国建筑设计的序幕。
+source: 2009-xiayanjing-zhongguo-shejishi 420 420 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-48
+supported_by: ['04-knowledge/units/terms/ganlan-shi-jianzhu.md']
+
+### claim-0051 factual_claim medium
+夏燕靖在解释干栏式建筑时指出，河姆渡遗址发现的干栏式建筑遗迹是迄今为止世界上最早的木构建筑。
+source: 2009-xiayanjing-zhongguo-shejishi 435 435 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-50
+supported_by: ['04-knowledge/units/terms/ganlan-shi-jianzhu.md', '04-knowledge/units/places/hemudu-site.md']
+
+### claim-0052 historiographic_claim high
+夏燕靖把夏朝定为中国文明史的开端，认为它意味着由原始社会进入奴隶社会；二里头遗址及偃师商城等考古材料证明，夏代晚期已具备宫殿、手工作坊和礼仪青铜器、玉器等国家政治中心条件。
+source: 2009-xiayanjing-zhongguo-shejishi 461 461 cand 2009-xiayanjing-zhongguo-shejishi:cand-01-51
+supported_by: ['04-knowledge/units/places/erlitou-site.md', '04-knowledge/units/places/yanshi-shangcheng.md']
+
+
+=== KEYWORD OVERLAP (outside 0036-0052) ===
+claim-0002 interpretive_claim ['工具']
+   高丰倾向于认为设计的起源与人类起源同步：人类历史从制造工具开始，人类制造的第一件工具就是最早的设计作品，工具设计是原始时代艺术设计的重要内容。
+claim-0003 interpretive_claim ['陶器']
+   高丰认为原始陶器设计是中国古代设计史上的第一座丰碑：陶器通过化学变化把黏土变成另一种物质，是人类最早真正意义上的人造物，标志着造物活动从改变形态到改变本质的质的飞跃。
+claim-0007 interpretive_claim ['陶器']
+   高丰认为，大汶口文化晚期陶器上的刻划与彩绘图形符号与汉字起源关系密切：于省吾释为原始旦字，唐兰释为炅字；但即使视为图形化文字，这些符号的主要作用可能仍是强调和识别，即一种图形化文字的徽记设计。
+claim-0018 interpretive_claim ['技艺']
+   高丰认为，明式家具融合贵族化的消费、文人化的审美、市民化的实用和民间匠人的技艺，形成选材优良、造型简炼、结构严谨、装饰高雅、工艺精细、实用性强的设计风格，并树立了中国古代手工业艺术设计的典范。
+claim-0019 evaluative_claim ['技艺']
+   高丰认为，清代艺术设计整体上失多于得并走入歧途：制作工艺虽有进步，但设计缺乏创造性，主要是明代风格的延续并把烦琐堆饰发展到极限；最大失误是未与当时最先进的科学技术结合开创新领域，而沉迷手工技艺展示，使设计沦为脱离生活实用的特种手工艺和贵族玩物。清代瓷器设计尤其自始至终走下坡路。
+claim-0059 interpretive_claim ['陶器']
+   夏燕靖认为青铜既具有石器的坚硬，又具有陶器的可塑性，可以按设计者的需要自由创造实用而美观的器形；这是继制陶之后人类在产品设计领域的又一伟大创造。
+claim-0091 interpretive_claim ['分工']
+   夏燕靖认为，在手工艺方面，官方手工艺荟萃众多能工巧匠并实行严格的工艺管理和细密分工，极大促进了手工艺技术进步，同时孕育出丰富的设计思想；诸子百家的思想观念对当时设计思想的形成与启迪起到巨大作用。
+claim-0134 interpretive_claim ['分工']
+   夏燕靖认为，隋唐官营手工业主要为满足皇室、官府和军事需要，经营矿冶、制盐、丝织、制瓷、铸钱、造船等行业，在规模、组织、分工和工艺水平上居主导地位；唐中叶后还承办水利交通等公共工程，产品通过贡赐、贸易和专卖流通。
+claim-0168 factual_claim ['分工']
+   夏燕靖据《天盛律令》指出，西夏具有完备的典章制度，曾设制金司、织绢院、铁工院、木工院、纸工院、砖瓦院、造车院等机构，可见其专业分工相当细致。
+claim-0172 historiographic_claim ['工具']
+   夏燕靖认为，宋代中期以后陶瓷装饰更具艺术表现力，往往采用综合手法，如在刻花或印花花纹上用梳栉状工具划出线条表示叶脉或水波；除传统纹饰外又发展出莲瓣、蕉叶、葵瓣、回纹、桂花边、如意云头等辅助纹饰，磁州窑、耀州窑首开纹样装饰之先河。
+claim-0186 interpretive_claim ['营造']
+   夏燕靖据《营造法式》指出，宋代建筑彩画有五彩遍装、碾玉装、青绿叠晕棱间装、解绿装、丹粉刷装、杂间装六种类型，制作分“衬地”“衬色”“细色”“贴金”四步，并盛行退晕和对晕手法；明清两代的建筑漆绘彩画都由此发展而来。
+claim-0232 interpretive_claim ['陶器']
+   夏燕靖认为，石湾陶艺长期依赖大宗日用陶器的制作而存在，一直是石湾窑赖以维持的经济来源；假如没有日用陶器生产，陶艺充其量只是石湾窑的“锦上之花”。

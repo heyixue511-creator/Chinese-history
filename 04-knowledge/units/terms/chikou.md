@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下器形描述术语的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "侈口是 B.6.5 描述语汇层的唯一条目：跨陶瓷与金属器的口沿术语，说明器形条目使用的形式语汇并非瓷器专有，且与敞口、敛口、盘口无统一对照量表"
+hierarchy_scope_note: "侈口是 B.6.5 描述语汇层的唯一条目：跨陶瓷与金属器的口沿术语，说明器形条目使用的形式语汇并非瓷器专有，且与敞口、敛口、盘口无统一对照量表"
 ---
 
 ## 描述
@@ -51,15 +59,15 @@ hierarchy_scope_note: "本 KU 是 B 维度下器形描述术语的条目。Theme
 - **另一义**: 也有夸大其言的意思（2016）
 - **证据边界**: 来源未给侈口与敞口、敛口、盘口等器口术语的对照关系（2016）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下器形描述术语的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 侈口是 B.6.5 描述语汇层的唯一条目：跨陶瓷与金属器的口沿术语，说明器形条目使用的形式语汇并非瓷器专有，且与敞口、敛口、盘口无统一对照量表
 ## 相关知识元
 
 与 `terms/zun-vessel.md`、`terms/gui-vessel.md`、`terms/yu-basin.md` 等以侈口描述形制的器形条目相关。relation 未审查。

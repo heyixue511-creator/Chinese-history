@@ -1,0 +1,22 @@
+== _zn_ch3_exist.txt 60
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-56	spring-autumn-and-warring-states	春秋战国	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-59	shangshu-yugong	尚书·禹贡	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-69	war-chariot	战车	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-70	zhao-wulingwang	赵武灵王	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-153	che-ji	车戟	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-155	qiu-mao	酋矛	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-75	wu-wang-fuchai-spear	吴王夫差矛	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-77	shu-weapon-zhanguo	殳（春秋战国）	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-78	nu-crossbow	弩	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-79	leather-armor	皮甲	-
+== _zn_ch3_match.txt 60
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-56	春秋战国	04-knowledge/units\terms\chunqiu-zhanguo-qingtong-chuishiqi.md?;04-knowledge/units\terms\chunqiu-zhanguo-zhanche-zhonglei.md?;04-knowledge/units\terms\chunqiu-zhanguo-zhanchuan-zhonglei.md?;04-knowledge/units\terms\qimu-jiaju.md?
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-59	尚书·禹贡	04-knowledge/units\publications\yugong.md
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-69	战车	04-knowledge/units\terms\chunqiu-zhanguo-zhanche-zhonglei.md?
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-70	赵武灵王	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-153	车戟	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-155	酋矛	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-75	吴王夫差矛	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-77	殳（春秋战国）	04-knowledge/units\terms\shu-staff.md
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-78	弩	-
+2009-zhaonong-zhongguo-yishu-shejishi:cand-03-79	皮甲	-

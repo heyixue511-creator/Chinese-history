@@ -11,7 +11,7 @@
 | candidates_deferred | 0 |
 | candidates_ready | 0 |
 | filed_back | 0 |
-| not_reviewed | 0 |
+| not_reviewed | 1 |
 | rejected | 2 |
 | reviewed_no_candidates | 0 |
 
@@ -21,6 +21,7 @@
 |---|---|---:|---:|---:|---|
 | `browsing-index` | navigation | 5 | 2 | 0 | rejected |
 | `knowledge-graph` | display | 10 | 2 | 0 | rejected |
+| `qingmo-design-literature-1840-1911-2026-10-28` | research-report | 1 | 6 | 0 | not_reviewed |
 
 ## Boundaries
 

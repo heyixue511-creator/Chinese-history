@@ -1,0 +1,327 @@
+# -*- coding: utf-8 -*-
+"""Build CL3d claim rows (17 new) and 7 cross-edition corroboration patches."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+SRC = "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md"
+DATE = "2026-10-27"
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(cid, ctype, zh, en, confidence, supported, note, start, end, kind,
+      key_lines, block_ids, chapter, section):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": cid,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": kind,
+                "key_lines": key_lines,
+                "block_ids": block_ids,
+                "chapter": chapter,
+                "section": section,
+            },
+            "candidate_id": None,
+        },
+        "confidence": confidence,
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+CH = "秦汉时期的设计发展"
+rows = []
+
+rows.append(C(
+    "claim-0300", "historiographic_claim",
+    "夏燕靖认为，秦朝为加强统治、巩固国家统一，采取统一文字、货币、度量衡等措施，为经济和文化的发展提供了重要条件。",
+    "Xia Yanjing holds that the Qin dynasty, to strengthen rule and consolidate unification, standardized writing, currency, and weights and measures, thereby providing important conditions for economic and cultural development.",
+    "medium",
+    ["04-knowledge/units/persons/qin-shi-huang.md",
+     "04-knowledge/units/terms/qin-ban-liang.md",
+     "04-knowledge/units/publications/qinlv-gonglv.md"],
+    "断言取 L1611。来源把统一文字、货币、度量衡与“为经济和文化的发展提供了重要条件”连为因果表述，但未给具体制度文本、实施范围或经济后果数据；本条保留来源的概括，不把“重要条件”写成已量化的因果结论。同段 L1616 另述长城、宫殿与陵墓，本断言不并入。",
+    1609, 1619, "bounded", [1611], ["b0224"],
+    CH, "章首"))
+
+rows.append(C(
+    "claim-0301", "synthetic_claim",
+    "夏燕靖认为，秦汉时期官手工业管理十分严格，产品质量不合格时工官、工师及制造者都要受到责罚；此时官手工业以规模庞大、行业众多、分工细致、管理完善为特点。",
+    "Xia Yanjing argues that Qin and Han state handicraft was strictly managed: when products failed quality standards, the workshop official, master artisan, and maker were all punished. He characterizes state handicraft of the period as large in scale, broad in trades, finely divided in labor, and well managed.",
+    "medium",
+    ["04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+     "04-knowledge/units/institutions/han-dai-guan-ying-sizhi-zuofang.md",
+     "04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md",
+     "04-knowledge/units/terms/guanying-shougongye.md"],
+    "断言取 L1624。来源以秦简“工室”“工官”与《汉书》张安世条为据，归纳秦汉官手工业的严格管理与四大特点；责罚条款未引具体律文，规模与分工也无统计数字。本条保留“十分严格”“规模庞大”等来源判断，不把它扩写为全国官手工业的统一制度描述。",
+    1622, 1634, "bounded", [1624], ["b0226"],
+    CH, "知识链接：秦汉时期的官手工业制度"))
+
+rows.append(C(
+    "claim-0302", "factual_claim",
+    "夏燕靖据文献记载指出，秦汉时期铁制农具已达几十种之多：整地农具8种，耕草农具5种，收割脱粒农具4种，谷物加工农具5种，另有灌溉农具桔槔等；翻车、辘轳、扬扇、碾、耧等近30种亦见于相关文献。",
+    "Citing documentary records, Xia Yanjing states that iron farm tools in the Qin and Han numbered in the dozens: eight land-preparation tools, five weeding tools, four harvesting and threshing tools, five grain-processing tools, and the irrigation tool jiegao, with nearly thirty more such as fanche, pulley, winnowing fan, roller, and seed drill mentioned in related texts.",
+    "medium",
+    ["04-knowledge/units/terms/tieqi-shidai.md",
+     "04-knowledge/units/terms/li-bi.md",
+     "04-knowledge/units/works/san-jiao-lou.md"],
+    "断言取 L1637。来源称“据文献记载”，但未列具体书名、版本与条目；分类计数为8、5、4、5，合计22种，与“几十种”“近30种”只是约数关系，本条保留原计数，不代为补足或折算。耒、耜等未必全为铁制，来源以“铁制农具”统称，本条保留其口径。",
+    1635, 1642, "bounded", [1637], ["b0227"],
+    CH, "知识链接：秦汉时期的农具"))
+
+rows.append(C(
+    "claim-0303", "historiographic_claim",
+    "夏燕靖指出，汉代二牛抬杠式耕犁已普遍使用，犁上专门装置用于翻土碎土的犁壁；欧洲直到11世纪才出现犁壁，我国至迟在汉代已有，比欧洲早了近千年。",
+    "Xia Yanjing states that the two-ox beam plough was already widespread in the Han, fitted with a moldboard for turning and breaking the soil; Europe did not have the moldboard until the eleventh century, whereas China had it by the Han at the latest, nearly a thousand years earlier.",
+    "medium",
+    ["04-knowledge/units/terms/ou-li.md",
+     "04-knowledge/units/terms/li-bi.md",
+     "04-knowledge/units/terms/tieqi-shidai.md"],
+    "断言取 L2003，并与 L1649 的同章表述合并；L1649 由 cand-03-95 记录，故本条 source.merged_candidate_ids 含该候选。来源两次称犁壁“比欧洲早了近千年”，但未给欧洲11世纪犁壁的文献或实物依据，也未给中国汉代犁壁的断代序列；“二牛抬杠”与“耦犁”是否完全同指，来源未作界定。本条保留比较性判断，不写成独立测年结论。",
+    1999, 2017, "bounded", [2003], ["b0278"],
+    CH, "8. 工具的使用与设计 / 1）农业工具"))
+
+rows.append(C(
+    "claim-0304", "historiographic_claim",
+    "夏燕靖认为，秦陵铜车马的出土解决了学术界关于古代车制设计的长期争论，特别是车舆、马饰各部件名称与车马系驾关系，通过铜车马得到科学证明；铜车马综合使用铸造、焊接、嵌铸、镶嵌及机械连接等工艺，在冶金史与金属工艺史上占有重要一页。",
+    "Xia Yanjing argues that the excavation of the Qinling bronze chariots and horses resolved long-standing academic disputes over ancient carriage design, especially the names of carriage and harness components and the harnessing relationships, which the bronze chariots scientifically demonstrated. He notes that they combine casting, welding, inset casting, inlay, and mechanical connections, occupying an important place in metallurgical and metal-craft history.",
+    "high",
+    ["04-knowledge/units/works/qinling-tongchema.md",
+     "04-knowledge/units/persons/qin-shi-huang.md",
+     "04-knowledge/units/works/qin-shi-huang-ling.md"],
+    "断言取 L1675。来源用“解决了……长期争论”“一一得到了科学的证明”等强表述，但未列争论各方、具体歧见与复原比对过程；铜车马为缩小1/2的明器复制品，能否直接等同实用车制，来源未讨论。本条保留来源的判断与工艺清单，不把“科学证明”扩写为对所有车制问题的定论。",
+    1671, 1694, "bounded", [1675], ["b0231"],
+    CH, "2. 冶铜业与铜器设计 / 2）秦地陵两组铜车马的精巧设计"))
+
+rows.append(C(
+    "claim-0305", "factual_claim",
+    "夏燕靖指出，虹管灯又称缸灯，灯体有虹管，灯座可以盛水，利用虹吸原理将灯烟送入灯座并溶于水中，防止烟尘污染空气；长沙出土的铜牛灯以牛角顺背向上做成虹吸管，并有碗状灯罩吸收灯烟。",
+    "Xia Yanjing states that the siphonic lamp, also called a cylinder lamp, has a tube and a water-filled base; by siphon action it conducts smoke into the water, preventing soot from polluting the air. The bronze ox lamp from Changsha uses the ox horns as the siphon and a bowl-shaped shade to collect smoke.",
+    "high",
+    ["04-knowledge/units/terms/hong-guan-deng.md",
+     "04-knowledge/units/works/changxin-palace-lamp.md"],
+    "断言取 L1714。来源以“虹吸原理”解释灯烟导入水中的机制，属现代技术解释，未给烟气成分、流量或实验数据；铜牛灯的出土地点只写“长沙”，未给墓葬与年代。本条保留来源的形制描述与功能解释，不把虹吸效果写成经检测的性能结论。",
+    1708, 1715, "bounded", [1714], ["b0234"],
+    CH, "2. 冶铜业与铜器设计 / 3）铜器的分类型设计 / ② 铜灯"))
+
+rows.append(C(
+    "claim-0306", "historiographic_claim",
+    "夏燕靖引英国历史学家李约瑟《中国古代科技史》指出，西方提花机是从中国传去的，比中国晚4个世纪才得以推广使用。",
+    "Citing Joseph Needham's Zhongguo Gudai Kejishi (History of Science and Technology in Ancient China), Xia Yanjing states that the Western figured loom was transmitted from China and came into widespread use four centuries later than in China.",
+    "medium",
+    ["04-knowledge/units/terms/tihuaji.md",
+     "04-knowledge/units/terms/jingjin.md",
+     "04-knowledge/units/works/susha-chanyi.md"],
+    "断言取 L1755。来源只给李约瑟书名与“晚4个世纪”的结论，未给版本、页码、传播路线或技术比较细则；书名中译在来源作《中国古代科技史》，通行为《中国科学技术史》，本条保留来源题名并注明其性质。提花机西传是宏观技术史判断，不写成单一路线或单一年代。",
+    1751, 1760, "bounded", [1755], ["b0242"],
+    CH, "3. 丝织、印染与服饰设计 / 1）绸织造、印染技术提升与丝绸之路开辟 / ② 纺织工艺技术的提高"))
+
+rows.append(C(
+    "claim-0307", "factual_claim",
+    "夏燕靖据班婕妤《捣练赋》指出，汉代丝的精练已能利用砧杵的机械作用和草木灰的化学作用相结合的捣练法，提高生丝脱胶效率并缩短工艺时间。",
+    "Citing Ban Jieyu's Daolian Fu, Xia Yanjing states that Han silk scouring already combined the mechanical action of pestle and block with the chemical action of plant ash, improving degumming efficiency and shortening processing time.",
+    "medium",
+    ["04-knowledge/units/procedures/daolian-fa.md",
+     "04-knowledge/units/publications/daolianfu.md"],
+    "断言取 L1763。来源以《捣练赋》为文献依据，但未给赋文版本、原文语句与工艺复原细节；“提高效率、缩短时间”是相对判断，来源未给对比数据。本条保留文献转述，不把捣练法写成汉代唯一或普遍采用的精练工艺。",
+    1761, 1766, "bounded", [1763], ["b0243"],
+    CH, "3. 丝织、印染与服饰设计 / 1）绸织造、印染技术提升与丝绸之路开辟 / ③ 印染工艺的发展"))
+
+rows.append(C(
+    "claim-0308", "factual_claim",
+    "夏燕靖指出，蜡染古称蜡缬，是我国古老民间传统纺织印染手工艺，与绞缬（扎染）、夹缬（镂空印花）并称为我国古代三大印花技艺。",
+    "Xia Yanjing states that wax resist dyeing, anciently called la xie, is an old Chinese folk textile-printing craft, and that together with jiao xie (tie dyeing) and jia xie (resist printing with cut boards) it is counted among the three great ancient Chinese printing techniques.",
+    "medium",
+    ["04-knowledge/units/procedures/la-ran.md"],
+    "断言取 L1780。“三大印花技艺”是后世的归类表述，来源未注明提出者与文献依据；同章 L1765 另称秦汉时西南少数民族已掌握蜡染并称“阑干斑布”，而知识链接又说最早文献见于唐代《一切经音义》，两种时间层次并存。本条只取知识链接的定义句，不把“三大”写成古代原生的固定分类。",
+    1778, 1789, "bounded", [1780], ["b0246"],
+    CH, "知识链接：蜡染"))
+
+rows.append(C(
+    "claim-0309", "interpretive_claim",
+    "夏燕靖认为，汉武帝罢黜百家、独尊儒术，董仲舒以儒家宗法思想为核心并糅合阴阳五行，将神权、君权、父权、夫权结为一体，形成统一的封建思想体系；在这种思想影响下，服装的形制、衣料质地、色彩与纹饰都形成了森严的阶级等级。",
+    "Xia Yanjing argues that Emperor Wu's rejection of the Hundred Schools and elevation of Confucianism, with Dong Zhongshu joining Confucian patriarchal thought to yin-yang and Five Phases cosmology, unified divine, royal, paternal, and marital authority into a single feudal ideology; under its influence, garment form, fabric quality, color, and ornament became markers of a strict class hierarchy.",
+    "medium",
+    ["04-knowledge/units/persons/dong-zhong-shu.md",
+     "04-knowledge/units/events/han-wudi-duzun-rushu.md",
+     "04-knowledge/units/terms/han-dai-pao-fu.md",
+     "04-knowledge/units/terms/shenyi.md"],
+    "断言取 L1792。来源把思想体系与服饰等级直接连为因果，但同段未引汉代舆服令、品级令或具体服色制度；“森严的阶级等级”是来源的概括，不是对某一法令的条文分析。本条保留“在这种思想的影响下”的限定，不把儒学独尊写成服饰等级的唯一成因。",
+    1790, 1799, "bounded", [1792], ["b0247"],
+    CH, "3. 丝织、印染与服饰设计 / 2）服饰设计的突出特点 / ① 秦汉男装"))
+
+rows.append(C(
+    "claim-0310", "evaluative_claim",
+    "夏燕靖认为，秦汉时期漆器轻便耐用、精致艳丽，深受人们喜爱，王侯贵族不惜耗费大量人力财力聘请工匠制作，漆器生产规模庞大，工艺水平达到新的高峰。",
+    "Xia Yanjing holds that Qin and Han lacquerware was light, durable, refined, and colorful, and thus widely admired; nobles and kings spent great labor and wealth on commissioning it, so production was large in scale and craftsmanship reached a new peak.",
+    "medium",
+    ["04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md",
+     "04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md",
+     "04-knowledge/units/procedures/qiqi-mutai-san-zuofa.md"],
+    "断言取 L1858。“规模庞大”“新的高峰”是来源的评价性判断，同段未给产量、作坊数、工匠数或与前代的量化比较；“王侯贵族不惜耗费大量人力财力”也只有《史记·货殖列传》的富商记载作旁证。本条保留评价，不把它写成可统计的产业规模结论。",
+    1856, 1859, "bounded", [1858], ["b0256"],
+    CH, "5. 漆器业的兴盛与漆艺设计"))
+
+rows.append(C(
+    "claim-0311", "factual_claim",
+    "夏燕靖指出，汉代漆器生产工序多达6至8道，各道工种分工协作皆有记录；金银扣器的价值是同类铜器的10倍。",
+    "Xia Yanjing states that Han lacquer production involved as many as six to eight separate stages, with each stage of specialized labor coordinated and recorded; a gold- or silver-mounted lacquer vessel was worth ten times a comparable bronze vessel.",
+    "high",
+    ["04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md",
+     "04-knowledge/units/procedures/qiqi-mutai-san-zuofa.md",
+     "04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md"],
+    "断言取 L1869。来源称工序“6-8道”并说金属铸器铭文记录制作地点、年代、工序与工官姓名，但未给铭文实例或工序清单；“价值是同类铜器的10倍”未给出处、年代与计价单位。本条保留数字与“皆有记录”的表述，不把十倍价值写成全时段通例。",
+    1860, 1870, "bounded", [1869], ["b0257"],
+    CH, "5. 漆器业的兴盛与漆艺设计 / 1）漆器业的兴盛"))
+
+rows.append(C(
+    "claim-0312", "historiographic_claim",
+    "夏燕靖指出，独轮车是交通史上的一项重要发明，可在狭窄小道上通行，使用范围广，早于欧洲国家千余年；汉魏时期盛行，据文献记载由三国时期蜀国木匠蒲元设计发明。",
+    "Xia Yanjing states that the wheelbarrow was an important invention in transport history, usable on narrow paths and widely employed, and that it predated Europe by more than a thousand years. It flourished in the Han-Wei period and is recorded as the design of the Three Kingdoms Shu carpenter Pu Yuan.",
+    "medium",
+    ["04-knowledge/units/terms/dulunche.md"],
+    "断言取 L1890。来源把“汉魏时期盛行”与“三国时期蜀国蒲元设计发明”并置，汉魏与三国的时间层次不完全对齐；蒲元说只见“据文献记载”，未给出处；“早于欧洲千余年”也未给欧洲独轮车的年代依据。本条保留来源的发明归属与比较判断，不把蒲元写成唯一发明者。",
+    1888, 1891, "bounded", [1890], ["b0260"],
+    CH, "6. 车船设计水平的提高 / 1）车的类型与特点"))
+
+rows.append(C(
+    "claim-0313", "evaluative_claim",
+    "夏燕靖指出，汉武帝乘坐的船号称“可载万人，上起宫室”，堪称造船设计与技术初步成熟的标志。",
+    "Xia Yanjing notes that the ship boarded by Emperor Wu of Han was said to carry ten thousand people and to have palace rooms built on it, and regards it as a marker of the initial maturity of ship design and technology.",
+    "medium",
+    ["04-knowledge/units/terms/louchuan.md",
+     "04-knowledge/units/persons/han-wu-di.md"],
+    "断言取 L1896。“可载万人，上起宫室”是来源转述的夸张性记载，未给船体尺寸、排水量或考古实物；“堪称……标志”是评价性推断。本条保留“号称”与“堪称”的限定，不把万人载量当成实测数据。",
+    1896, 1896, "line", [1896], ["b0261"],
+    CH, "6. 车船设计水平的提高 / 2）造船业与船运"))
+
+rows.append(C(
+    "claim-0314", "historiographic_claim",
+    "夏燕靖认为，两汉是我国建筑成熟期的肇始，建筑组合和结构处理日臻完善，并直接影响了我国2000年来民族建筑形式的发展。",
+    "Xia Yanjing holds that the two Han dynasties mark the beginning of the mature phase of Chinese architecture: building composition and structural handling became increasingly refined and directly shaped the development of Chinese architectural forms over the following two thousand years.",
+    "medium",
+    ["04-knowledge/units/terms/dougong.md",
+     "04-knowledge/units/terms/wadang.md",
+     "04-knowledge/units/works/gao-yi-que.md"],
+    "断言取 L1933。“成熟期的肇始”与“直接影响2000年”是来源的宏观建筑史判断，同段未给结构演变序列、断代数据或前后代比较；“2000年”为约数。本条保留来源的分期判断，不把它写成已完成的建筑史定论。",
+    1931, 1942, "bounded", [1933], ["b0269"],
+    CH, "7. 建筑设计与木作业 / 1）建筑设计"))
+
+rows.append(C(
+    "claim-0315", "contested_claim",
+    "秦兵马俑的归属存在争议：通常认为是秦始皇陵陪葬坑中的陶塑人物、马匹与兵器；陈景元《兵马俑真相》主张它们是秦宣太后陵的兵马俑，理由包括方位里程靠近宣太后陵、秦俑头顶有楚人偏侧歪髻、服色鲜艳与秦尚黑制度不符、陶俑刻“芈”字，以及宣太后本姓芈并在秦掌权41年。",
+    "The attribution of the Qin terracotta army is disputed: it is usually regarded as the pottery figures, horses, and weapons in a burial pit of the First Qin Emperor's mausoleum, while Chen Jingyuan's Bingmayong Zhenxiang argues that it belongs to the mausoleum of Queen Dowager Xuan, citing proximity, the Chu-style side-set hair knots, brightly colored garments at odds with Qin's black-favoring system, a character mi incised on a figure, and the queen dowager's mi surname and forty-one-year rule.",
+    "medium",
+    ["04-knowledge/units/works/qin-bing-ma-yong.md",
+     "04-knowledge/units/works/qin-shi-huang-ling.md",
+     "04-knowledge/units/persons/qin-shi-huang.md"],
+    "断言取 L1947。来源以知识链接形式转述陈景元《兵马俑真相》的宣太后陵说，理由多为方位、发式、服色与刻字等间接线索，未给发掘地层、陵园布局或文字考释的系统论证；主流秦始皇陵说仍是通行归属。本条按 contested_claim 并置两说，不把宣太后陵说写成已证结论。",
+    1945, 1948, "bounded", [1947], ["b0271"],
+    CH, "知识链接：秦陵兵马俑的疑问"))
+
+rows.append(C(
+    "claim-0316", "factual_claim",
+    "夏燕靖指出，秦汉之际长江、黄河流域已普遍采用脚踏提综的斜织机，效率比腰机高10倍以上。",
+    "Xia Yanjing states that around the Qin-Han transition the treadle-operated pattern-lifting slant loom was already widely used in the Yangtze and Yellow River basins, with efficiency more than ten times that of the backstrap loom.",
+    "medium",
+    ["04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+     "04-knowledge/units/terms/danding-fangche.md",
+     "04-knowledge/units/terms/tihuaji.md"],
+    "断言取 L2020。“普遍采用”覆盖长江、黄河流域，来源未给遗址或图像的数量分布；“效率比腰机高10倍以上”是相对估算，未给织造试验、单位产量或比较方法。本条保留来源的推广范围与倍数判断，不把它写成统一的技术普查结论。",
+    2020, 2020, "line", [2020], ["b0279"],
+    CH, "8. 工具的使用与设计 / 2）纺织工具"))
+
+for row in rows:
+    row["source"]["candidate_id"] = {
+        "claim-0300": DOC + ":cand-03-85",
+        "claim-0301": DOC + ":cand-03-88",
+        "claim-0302": DOC + ":cand-03-91",
+        "claim-0303": DOC + ":cand-04-27",
+        "claim-0304": DOC + ":cand-03-102",
+        "claim-0305": DOC + ":cand-03-105",
+        "claim-0306": DOC + ":cand-03-114",
+        "claim-0307": DOC + ":cand-03-118",
+        "claim-0308": DOC + ":cand-03-120",
+        "claim-0309": DOC + ":cand-03-122",
+        "claim-0310": DOC + ":cand-04-07",
+        "claim-0311": DOC + ":cand-04-09",
+        "claim-0312": DOC + ":cand-04-13",
+        "claim-0313": DOC + ":cand-04-76",
+        "claim-0314": DOC + ":cand-04-20",
+        "claim-0315": DOC + ":cand-04-21",
+        "claim-0316": DOC + ":cand-04-77",
+    }[row["claim_id"]]
+
+rows[3]["source"]["merged_candidate_ids"] = [DOC + ":cand-03-95"]
+
+patches = []
+
+
+def P(claim_id, candidate_id, start, end, kind, key_lines, block_ids, section):
+    patches.append({
+        "claim_id": claim_id,
+        "candidate_id": DOC + ":" + candidate_id,
+        "corroborating_span": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "line_start": start,
+            "line_end": end,
+            "span_kind": kind,
+            "key_lines": key_lines,
+            "block_ids": block_ids,
+            "chapter": CH,
+            "section": section,
+            "candidate_id": DOC + ":" + candidate_id,
+        },
+    })
+
+
+P("claim-0103", "cand-03-94", 1645, 1645, "line", [1645], ["b0228"],
+  "1. 铁制工具的广泛使用")
+P("claim-0104", "cand-03-96", 1657, 1657, "line", [1657], ["b0228"],
+  "1. 铁制工具的广泛使用")
+P("claim-0106", "cand-03-103", 1706, 1706, "line", [1706], ["b0233"],
+  "2. 冶铜业与铜器设计 / 3）铜器的分类型设计 / ① 汉镜")
+P("claim-0107", "cand-03-112", 1741, 1741, "line", [1741], ["b0241"],
+  "知识链接：丝绸之路")
+P("claim-0108", "cand-04-01", 1810, 1810, "line", [1810], ["b0250"],
+  "4. 陶瓷设计日臻完善 / 1）制陶业的进步与瓷器烧制技术的成熟")
+P("claim-0110", "cand-04-11", 1884, 1884, "line", [1884], ["b0258"],
+  "5. 漆器业的兴盛与漆艺设计 / 2）漆艺设计的丰富样式")
+P("claim-0114", "cand-04-31", 2024, 2029, "bounded", [2024, 2029], ["b0280"],
+  "9. 秦汉时期文献典籍中的设计理论")
+
+(ROOT / "_zn_cl5_rows.json").write_text(
+    json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+(ROOT / "_zn_cl5_patch.json").write_text(
+    json.dumps(patches, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+
+print(json.dumps({
+    "rows": len(rows),
+    "patches": len(patches),
+    "types": {t: sum(1 for r in rows if r["claim_type"] == t)
+              for t in sorted({r["claim_type"] for r in rows})},
+    "confidence": {c: sum(1 for r in rows if r["confidence"] == c)
+                   for c in sorted({r["confidence"] for r in rows})},
+    "links": sum(len(r["supported_by"]) for r in rows),
+    "distinct": len({p for r in rows for p in r["supported_by"]}),
+}, ensure_ascii=False))

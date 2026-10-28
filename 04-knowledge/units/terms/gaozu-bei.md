@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 高足杯是 B 维度下元代瓷杯代表器形的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "高足杯是 B.6.5 追加路径的元代样本：口微撇、近底丰厚、承以竹节式高足；单源一句，只能支撑元代最流行杯式这一判断"
+hierarchy_scope_note: "高足杯是 B.6.5 追加路径的元代样本：口微撇、近底丰厚、承以竹节式高足；单源一句，只能支撑元代最流行杯式这一判断"
 ---
 
 ## 描述
@@ -50,15 +58,15 @@ hierarchy_scope_note: 高足杯是 B 维度下元代瓷杯代表器形的条目�
 - **足部**：上小下大的竹节式高足（2016）
 - **证据边界**：未给口径、通高、窑口、釉色与实物编号（2016）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 高足杯是 B 维度下元代瓷杯代表器形的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 高足杯是 B.6.5 追加路径的元代样本：口微撇、近底丰厚、承以竹节式高足；单源一句，只能支撑元代最流行杯式这一判断
 ## 相关知识元
 
 `terms/blue-and-white-porcelain.md` 记元青花，`terms/doucai.md` 记成化斗彩，`terms/yingqing.md` 记影青瓷；本条是器形条目，与瓷种条目并列。relation 未审查。

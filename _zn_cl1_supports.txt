@@ -1,0 +1,21 @@
+claim-0003	04-knowledge/units/terms/taoqi.md
+claim-0004	04-knowledge/units/terms/qingtong-liqi.md
+claim-0005	04-knowledge/units/works/changxin-palace-lamp.md, 04-knowledge/units/terms/wadang.md, 04-knowledge/units/terms/tongjing.md
+claim-0008	04-knowledge/units/terms/qingtongqi.md
+claim-0009	04-knowledge/units/places/yue-kiln.md
+claim-0011	04-knowledge/units/terms/tongjing.md
+claim-0012	04-knowledge/units/places/yue-kiln.md, 04-knowledge/units/places/xing-kiln.md
+claim-0014	04-knowledge/units/terms/gaoxing-jiaju.md
+claim-0015	04-knowledge/units/terms/blue-and-white-porcelain.md, 04-knowledge/units/places/jingdezhen-kiln.md
+claim-0016	04-knowledge/units/terms/gaoxing-jiaju.md
+claim-0017	04-knowledge/units/terms/blue-and-white-porcelain.md
+claim-0018	04-knowledge/units/terms/ming-style-furniture.md
+claim-0020	04-knowledge/units/terms/songti-zi.md
+claim-0021	04-knowledge/units/procedures/xian-zhuang.md
+claim-0023	04-knowledge/units/terms/qing-style-furniture.md
+claim-0024	04-knowledge/units/procedures/xian-zhuang.md
+claim-0027	04-knowledge/units/terms/han-dai-jia-ju.md
+claim-0029	04-knowledge/units/terms/qingtongqi.md
+claim-0031	04-knowledge/units/terms/diao-qi.md
+claim-0033	04-knowledge/units/works/changxin-palace-lamp.md
+claim-0034	04-knowledge/units/procedures/huozi-yinshua.md, 04-knowledge/units/procedures/tao-se-yinshua.md

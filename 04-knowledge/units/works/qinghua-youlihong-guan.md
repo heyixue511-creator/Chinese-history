@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: representative_work
+    primary: true
+    scope_note: "元保定出土，青花与釉里红并用于一器；来源判为「只是一种尝试」而非批量生产"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度下元代景德镇青花与釉里红同器装饰的实物锚点，材料只有两句。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "元保定出土，青花与釉里红并用于一器；来源判为「只是一种尝试」而非批量生产"
 ---
 
 ## 描述
@@ -56,12 +64,10 @@ hierarchy_scope_note: "本条是 B 维度下元代景德镇青花与釉里红同
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下元代瓷器工艺的实物锚点，可用于说明青花与釉里红同器装饰在元代尚属试验性做法。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 元保定出土，青花与釉里红并用于一器；来源判为「只是一种尝试」而非批量生产
 ## 相关知识元
 
 `terms/youlihong.md`、`terms/youlihong-ci.md` 记釉里红，`terms/blue-and-white-porcelain.md` 记青花瓷，`terms/underglaze-color.md` 记釉下彩；元代景德镇瓷业与浮梁瓷局见同册 L3470 通论，尚未单独成条。relation 未审查，不写入正式 `relations`。

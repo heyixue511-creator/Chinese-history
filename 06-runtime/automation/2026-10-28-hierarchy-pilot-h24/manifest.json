@@ -1,0 +1,111 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h24",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.6「瓷器工艺与窑业传统」下新建 B.6.4「胎装饰、釉装饰与彩绘：瓷器装饰的三层技术」，挂载瓷器装饰术语、装饰工序与代表器物共 36 个 KU；把瓷器装饰按「施加在胎、釉、彩哪一层」分层，并登记彩瓷谱系四种互不兼容的结构，同时把辽瓷、法华器与三条图注单条条目按边界排除。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.14",
+    "baseline_themes": 20,
+    "baseline_topics": 50,
+    "baseline_topic_memberships": 314,
+    "baseline_complete_assignments": 310,
+    "baseline_incomplete_assignments": 2260,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6622,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 624,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1367
+  },
+  "result": {
+    "hierarchy_version": "v1.15",
+    "themes": 20,
+    "topics": 51,
+    "topic_memberships": 350,
+    "complete_assignments": 346,
+    "incomplete_assignments": 2224,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6694,
+    "relation_types": "3/67",
+    "member_of_relations": 696,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1347,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b6-ciqi-gongyi-yu-yaoye-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b6-ciqi-zhuangshi-sanceng-jishu.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 36,
+    "changed_units": 36,
+    "total_mounted_units": 346,
+    "new_topic_memberships": 36,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "taxonomy_split": "胎装饰、釉装饰与彩绘三层技术→B.6.4；器形与器类→B.6.5；窑炉、窑具、胎釉工艺→B.6.2；材料判据与早期釉色名→B.6.1；陶器、低温釉陶与紫砂→B.5",
+    "planned_topics_not_created": [
+      "B.6.5 瓷器器形与器类：梅瓶、玉壶春、执壶、高足杯、鸡冠壶、凤首壶、辽瓷与元代器形"
+    ],
+    "deferred_by_boundary": [
+      "辽瓷 → 核心内容是「中原式碗盘瓶罐盂壶」与「契丹式三角碟、四方碟、海棠盘、长颈瓶、凤首瓶、鸡冠壶、鸡腿坛」两类器形的对照，器形分类归 B.6.5，本批不挂载",
+      "法华器 → 陶胎、牙硝助溶的低温釉，按 B.6「陶器与低温釉陶归 B.5」的边界留 B.5.4，不因「勾凸线轮廓＋彩釉填彩」与斗彩相似而并入 B.6.4",
+      "唐三彩二次烧成法 → 唯一案例属低温釉陶；B.6.4 建立后复核，其釉烧温度（900℃／850—950℃）与釉上彩的 750—860℃ 同量级，但器物本体是陶，留 B.5.4 从釉陶侧挂载，不在 B.6 内双挂",
+      "苏泥勃青 → 外来钴料，按边界归 E／D，只作青花呈色与宣德青花执壶的原料证据",
+      "象生形 → 跨新石器陶器与商周青铜器的器形概念，非瓷器专有，不入 B.6，留后续器形 Theme",
+      "釉里红瓷（terms/youlihong-ci）→ 与 terms/youlihong 重复，其内容为 2009 版定义的子集，登记为 potential_duplicate，待 reconcile 合并",
+      "五彩人物洗、珐琅彩竹菊鹌鹑瓶、铜官窑釉罐 → 只有图注一条，尺寸、款识、纹样与工艺全缺，挂载会制造空壳代表器物，待图版核验后回挂",
+      "追韩信图梅瓶、蒙恬将军玉壶春瓶 → 图注单条且元代故事题材属纹样母题，留 B.6.5 作器形样本",
+      "清光绪彩釉雕瓷四季花鸟纹方瓶 → 外销后被改为台灯底座，主证是「移植设计」而非雕瓷工序，留晚清外销与移植设计线",
+      "黄釉瓷扁壶（北齐） → 来源作「陶瓷工艺品」，陶／瓷未定，主证为中外文化交流，留 B.5.4 或 E 维度",
+      "鲁山窑瓷拍鼓 → 与 B.6.1 已挂载的「花釉腰鼓」可能为同一器物的两条记录，本批不挂载",
+      "釉里红／青花的纹样题材与图像解释 → 归 C，本批只取装饰层位与呈色"
+    ]
+  },
+  "changed_files": 43,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2224",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1347",
+    "Doucai-vs-wucai-vs-tiancai: four mutually incompatible structures coexist (parallel品种 in Xia Yanjing 2009/2016 and Gao Feng; inclusion 'doucai is one kind of wucai' in Tian Zibing; same-level doucai/tiancai as the two methods of qinghua jiacai in Tian Zibing; tiancai as one of Chen Wanli's five doucai techniques in Gao Feng); Gao Feng's boundary by proportion of overglaze colour resolves the first two but not tiancai",
+    "Doucai name: three etymologies (Nan Yao Biji 'cou qi quan ti', Tian Zibing 'shang xia dou he', Xia Yanjing 'zheng yan dou yan'); the date of Nan Yao Biji is given as Yongzheng reign or 'first seen in Kangxi-Yongzheng'",
+    "Overglaze firing temperature: three non-overlapping ranges (Gao Feng 600-900 C, Xia Yanjing 750-860 C, Tian Zibing fencai 700 C and wucai 800 C); no source reconciles them",
+    "Qinghua origin: four positions (Tang, Song, post-mid-Yuan) with three temperature ranges (1170-1210 C, 1200 C, 1300 C); Xia Yanjing 2016 calls it a problem 'never clarified'",
+    "Youlihong craft origin: three attributions (Tang Changsha, Jun purple-red glaze, Yuan Jingdezhen); the order of the three painting methods (line, baibai, tuhui) is internally inconsistent; 2009 writes Huang Jiu, 2016 writes Huang Maijiu",
+    "Underglaze colour origin: the disagreement is qualitative, not chronological - Xia Yanjing calls the Three Kingdoms wares 'simple dotting', Gao Feng calls the same class 'already invented'; Tang kilns are given as three different sets",
+    "Fencai starting point: three phrasings with different force (Zhao Nong 'developed', Tian Zibing 'began', Xia Yanjing 'created'); the arsenic opacifier in glass white is given only by Tian Zibing",
+    "Falangcai definition: three orientations (colour material, ware type, court-imperial object); two readings of 'Guyuexuan'; Zhao Nong's figure caption 'Zhuolang cai' is a graphic variant left uncorrected",
+    "Su-sancai: Tian Zibing dates it to Kangxi with yellow-green-purple, Xia Yanjing to Ming Zhengde with yellow-green-blue-purple; the negative definition 'no red' is never examined",
+    "Song ceramic decoration: Tian Zibing's four methods (carved, impressed, needle-pricked, painted) cannot be mapped onto Xia Yanjing's nine; whether 'painted flower' counts as decoration is unstated",
+    "Monochrome-glaze naming overlaps B.6.1: yingqing/tianbai/luanbai are glaze-surface effects here but read as ware categories in B.6.1's three-criteria framework; piaci, mise and huayou remain in B.6.1",
+    "Chihui: three candidate origins (Wenzhou, Zhangzhou, Shima) and a name given by the Japanese, i.e. an externally assigned name",
+    "Thin entries: seven KUs (hongyou, huangyou, tianbai, gu-cai, tian-cai, guangcai, chihui) rest on one or two sentences and can support naming only, not process reconstruction",
+    "Missing process parameters across all sources: glaze thickness, colourant formulae, glass-white ratio, firing curves, number of firings, yield rate",
+    "2224 KUs remain unmounted"
+  ],
+  "notes": "本批新建 1 个 Topic（B.6.4 胎装饰、釉装饰与彩绘），挂载 36 个 KU，不新增 Theme。结构设计的四项判断：其一，Topic 名与原定方案不同——h23 manifest 登记的是「釉色、彩绘与瓷器类型」，读完 33 条术语与工序候选（术语 27、工序 6）与 16 件器物候选后，材料实际按「装饰施加在胎、釉、彩哪一层」分成三个技术时点，而非按釉色与彩绘两分；器形部分（辽瓷）按原计划转入 B.6.5，故改题「胎装饰、釉装饰与彩绘：瓷器装饰的三层技术」。其二，第一层框架是装饰施加位置三分，它直接解释了两套清单为何不能互相映射：田自秉的刻、印、绣、画四法把「画花」列在胎装饰向彩绘过渡的位置，夏燕靖的九法只收胎装饰，因而没有「画花」却必须补入珍珠地划花与春字纹。其三，第二层框架「失控—受控」把窑变与开片、釉里红的飞红与拔白写成同一技术的两种状态，而不是成功与失败的评语。其四，第三层框架是装饰品种的命名依据八型（呈色剂、督陶官姓氏、釉面视觉、感官评价、烧造机构、装饰工序、产销地、域外命名），与 B.6.3 的「地望／制度／姓氏传说／文献品第」四型形成对照：装饰品种的命名几乎不依赖地理，而依赖釉面效果与工序序列，这正是它无法形成稳定分类的原因。角色分配：名目一律 term_anchor（21 个），装饰工序 procedure（5 个），代表器物 representative_work（8 个），工序可与制胎分离的广彩与名由域外给定的赤绘标 boundary_case（2 个）。三项边界处置：辽瓷的核心内容是中原式与契丹式两类器形的对照，留 B.6.5；法华器为陶胎低温釉，与唐三彩、辽三彩、宋三彩及二次烧成法同留 B.5.4；五彩人物洗、珐琅彩竹菊鹌鹑瓶、铜官窑釉罐三条只有图注，挂载会制造空壳代表器物，本批不挂载。v1.14 归档由工作树 v1.14 内容反向重构并核对哈希（21651 字节，sha256:1c8e547f221ebd93e208216d78d97e575d58b2e542b24f3b317969e178c3def9，与 h23 apply-plan 记录逐字节一致）——因 h23 尚未 commit，git HEAD 仍是 v1.13，不能直接取 HEAD。relation 总数由 6622 增至 6694（36 Theme + 36 Topic），member_of 由 624 增至 696；隔离单元由 1367 降至 1347（36 个 KU 中 20 个原本已通过 claim 关系入图）。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

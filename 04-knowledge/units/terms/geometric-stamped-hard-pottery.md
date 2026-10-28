@@ -49,19 +49,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "几何印纹硬陶是 B.5.3 南方体系的下位类别：胎骨坚致、呈紫或紫黑色、烧成温度较高；时代三说、成型法两作、纹样装饰与成型副产品两说并存"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "几何印纹硬陶是 B 维度下高温陶器类型条目：胎料成分、烧成温度与成型工艺是主问题，拍印几何纹的视觉效果属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "几何印纹硬陶是 B.5.3 南方体系的下位类别：胎骨坚致、呈紫或紫黑色、烧成温度较高；时代三说、成型法两作、纹样装饰与成型副产品两说并存"
 ---
 
 ## 描述
@@ -96,12 +104,10 @@ hierarchy_scope_note: "几何印纹硬陶是 B 维度下高温陶器类型条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是南方高温陶的核心条目，向上归几何印纹陶，向旁与原始青瓷共用窑炉。可支持未来"印纹陶系与原始瓷的技术衔接"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 几何印纹硬陶是 B.5.3 南方体系的下位类别：胎骨坚致、呈紫或紫黑色、烧成温度较高；时代三说、成型法两作、纹样装饰与成型副产品两说并存
 ## 相关知识元
 
 `terms/geometric-stamped-pottery.md` 是本条的上位类别，田自秉明确写作"印纹软陶和印纹硬陶两种"；`terms/proto-porcelain.md` 所指原始青瓷在田自秉册中与本条"同窑共烧"；`terms/dark-pattern-pottery.md` 与 `terms/caihui-tao.md` 同在田自秉"战国的陶瓷"一节内并列，一北一南。高丰册把本类放在商周陶器一节，与白陶并列。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

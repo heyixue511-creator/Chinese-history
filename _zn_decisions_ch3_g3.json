@@ -1,0 +1,132 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "第三章 60 条 unit 候选逐条语义复读后分流为 create / update / no_delta；cand-04-* 前缀的条目按 payload.source_span.chapter 归入第三章。",
+  "来源新建 consensus=tentative、evidence_status=source_backed、version=1、source_count=1；更新按实际并入来源数提高 source_count，其余字段不动。",
+  "原文错字、内部矛盾照录并标注，不径改；只有图注而无正文的条目 confidence 记 low，不据图补形制。",
+  "同一实体命中两条候选时，一条落 create/update，另一条走 no_delta 指向同一文件，不重复建 KU。"
+ ],
+ "decisions": [
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-112",
+   "entity": "都江堰",
+   "action": "create",
+   "target": "04-knowledge/units/works/dujiangyan.md",
+   "analysis": "L2060、L2062、L2066 记李冰为战国秦国蜀郡太守，于公元前 256 年起用六年时间烧山凿石，利用岷江沙洲修筑鱼嘴分流，在沙洲尾部与离堆构筑飞沙堰，把一部分江水引入宝瓶口形成内外江，并总结「深掏滩，低作堰」「水竭不见足，盛不没肩」等经验，使成都平原成为「天府之国」；既有 works 与 places 条目无都江堰。",
+   "approve": "新建 works/dujiangyan.md：承载主持者、年代、鱼嘴—飞沙堰—宝瓶口结构与治水经验。",
+   "apply_note": "六节齐全；来源 L2062 作「都江水利」而非「都江堰」，照录；「深掏滩」通行作「深淘滩」，照录标疑；L2062 末与 L2066 首被页眉隔断，拼接处以直角引号标示。",
+   "note": "canonical 为新建都江堰条目；与郑国渠、西门渠同属赵农所述战国水利工程，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-114",
+   "entity": "郑国渠",
+   "action": "create",
+   "target": "04-knowledge/units/works/zhengguo-canal.md",
+   "analysis": "L2068、L2070 记公元前 246 年韩国水工郑国以间谍身份入秦，建议在泾水与洛水之间穿凿灌溉水渠，阴谋败露后以「为韩延数岁之命，而为秦建万世之功」自辩，秦王仍用其主持完工，使关中平原北部大量盐碱地变为良田；既有条目无郑国渠。",
+   "approve": "新建 works/zhengguo-canal.md：承载疲秦计起因、年代、主持者与改土效果。",
+   "apply_note": "六节齐全；「气奄息息」原文如此、通行作「气息奄奄」，「进入秦国内向」疑脱句读，均照录标疑；《汉书·沟洫志》引文照录，未核原书。",
+   "note": "canonical 为新建郑国渠条目；郑国人物由 persons/zheng-guo.md 承载。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-116",
+   "entity": "西门渠",
+   "action": "create",
+   "target": "04-knowledge/units/works/ximen-canal.md",
+   "analysis": "L2072 记魏文侯派西门豹做邺令，漳水从太行山奔流而出、在邺地常泛滥，西门豹治邺、破除迷信、兴建漳水十二渠，使邺地成为物产丰富、土地肥沃的地区；既有条目无西门渠。",
+   "approve": "新建 works/ximen-canal.md：承载主持者、任职、水患与十二渠效果。",
+   "apply_note": "六节齐全；来源把「西门渠」与「漳水十二渠」并置一段，未说明总名与分名关系，本条并列照录不作合并判定；未展开破除迷信的具体事件。",
+   "note": "canonical 为新建西门渠条目；西门豹人物由 persons/ximen-bao.md 承载。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-141",
+   "entity": "曾侯乙冰鉴",
+   "action": "update",
+   "target": "04-knowledge/units/works/zenghouyi-bronze-jianfou.md",
+   "analysis": "L2235 记湖北随县曾侯乙墓出土冰鉴，鉴中有一方壶，壶与鉴之间可以盛冰，以冰镇凉酒；既有 works/zenghouyi-bronze-jianfou.md 已收 2016 册 L850-L869 的曾侯乙铜鉴缶（缶器、图 2-23 上图），两册所指同为曾侯乙墓鉴缶一类器物，2016 册内器作缶、赵农册内器作方壶，名称与内器说法不同。",
+   "approve": "以 update 并入 works/zenghouyi-bronze-jianfou.md：补赵农 L2235 来源、aliases（曾侯乙冰鉴、冰鉴）、tags（鉴、冰鉴、冰镇凉酒）、套合与冰镇用途、两册内器说法与证据边界；source_count 由 1 升至 2，version 升为 2。子代理最初另建 works/zenghouyi-ice-jian.md，主代理复核时判定同物重复，已删除该文件并将内容并入本条。",
+   "apply_note": "描述与核心内容补赵农一源；保留 2016 的缶器叙述与图 2-23 图注，两册内器名不同（缶／方壶）照录不强合；赵农 L2235 前半为鉴类通述，只取冰鉴一句作该器描述。",
+   "note": "canonical 为既有曾侯乙铜鉴缶条目；同批子代理创建的 zenghouyi-ice-jian.md 已合并删除，不另建文件。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-75",
+   "entity": "吴王夫差矛",
+   "action": "create",
+   "target": "04-knowledge/units/works/wu-wang-fuchai-spear.md",
+   "analysis": "L1852 记湖北江陵楚墓出土的春秋青铜矛，长 29.5 厘米，宛如短剑，矛脊上铸有血槽，脊上错金铭文为「吴王夫差自作用口」，并称为当时青铜矛的典型；既有条目无吴王夫差矛。",
+   "approve": "新建 works/wu-wang-fuchai-spear.md：承载尺寸、器形、血槽、错金铭文与评价。",
+   "apply_note": "六节齐全；铭文末字作「口」，系缺字照录，来源未说明所缺何字，本条不补；未记墓葬编号、重量与收藏。",
+   "note": "canonical 为新建吴王夫差矛条目；与 works/yuewang-goujian-jian.md 同属春秋吴越青铜兵器，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-06",
+   "entity": "曾侯乙墓漆木衣箱",
+   "action": "create",
+   "target": "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+   "analysis": "L2301、L2317 记湖北随县曾侯乙墓所出 5 件漆木长方形衣箱，盖部隆起绘有纹饰，其中一件箱盖上有「紫锦之衣」字样，用来储存衣服；既有条目无曾侯乙墓衣箱。",
+   "approve": "新建 works/zenghouyi-lacquer-clothing-chests.md：承载件数、器形、盖部纹饰与「紫锦之衣」铭文用途，confidence 记 low。",
+   "apply_note": "六节齐全；L2301 末与 L2317 首被页眉与图注隔断，拼接处以直角引号标示；天象图归 places/zenghouyi-tomb.md，本条不并入；图版未视觉核验。",
+   "note": "canonical 为新建衣箱条目；与 places/zenghouyi-tomb.md 的天象图材料同墓而异事。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-13",
+   "entity": "侯马盟书",
+   "action": "create",
+   "target": "04-knowledge/units/works/houma-mengshu.md",
+   "analysis": "L2315 只有图 3-49「▲ 图 3-49 春秋 侯马盟书」一行图注，正文未介绍盟书的数量、材质、字数、出土与收藏；既有条目无侯马盟书。",
+   "approve": "新建 works/houma-mengshu.md：confidence 记 low，只登记图注给出的图号、时代与名称，不据图补形制。",
+   "apply_note": "六节齐全；仅图注，无正文描述；图版未视觉核验；未用赵农册之外的信息补足盟书内容。",
+   "note": "canonical 为新建侯马盟书条目；仅有图注，材料不与其他条目合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-12",
+   "entity": "乐记",
+   "action": "create",
+   "target": "04-knowledge/units/publications/yue-ji.md",
+   "analysis": "L2341 引《乐记》「音之起，由人心生也；人心之动，物使之然也。感于物而动，故形于声」说明物感心动，引「乐者为同，礼者为异」说明音乐与政治制度关联，并称其为中国音乐有极大影响的著作；既有 publications 无乐记专条。",
+   "approve": "新建 publications/yue-ji.md：承载儒家音乐理论属性、物感心动、礼乐关联与评价；primary_dimension 记 A，secondary 记 B、D。",
+   "apply_note": "六节齐全；来源未给作者、篇数、成书年代、版本与引文所出篇目；《周礼》《吕氏春秋》同段并提，另见各自条目。",
+   "note": "canonical 为新建乐记条目；与 publications/zhouli.md、publications/lvshi-chunqiu.md 同属先秦文献，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-22",
+   "entity": "孙子兵法",
+   "action": "create",
+   "target": "04-knowledge/units/publications/sun-zi-bing-fa.md",
+   "analysis": "L2416 记《孙子》又称《孙子兵法》，为春秋军事家孙武著作，传世 13 篇，与孔子同时代，提出「令民与上同意」「厚爱其民」「知彼知己」等战略观点，并在兵器配制与运用中有独到思想；既有 publications 无孙子兵法专条。",
+   "approve": "新建 publications/sun-zi-bing-fa.md：承载书名、作者、篇数、战略观点与兵器思想。",
+   "apply_note": "六节齐全；来源未给成书年代、版本、注家、十三篇篇名与出土竹简；战略观点未对应具体篇目。",
+   "note": "canonical 为新建孙子兵法条目；孙武人物由 persons/sun-wu.md 承载。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-01",
+   "entity": "刀币",
+   "action": "create",
+   "target": "04-knowledge/units/terms/dao-bi.md",
+   "analysis": "L2272 记刀币为象形币的一种，以赵、齐、燕国为主，也称刀，传说从「削」一类器形演变而来但借用战争武器形象，有尖刃、弧背、环首，分大刀小刀，后期体轻背直并铸刻精细文字，成因归于北方战争武器观念与草原游牧民族交换；既有 terms/bu-bi.md 记布币，无刀币专条。",
+   "approve": "新建 terms/dao-bi.md：承载象形币属性、赵齐燕国别、形制演变与北方成因；primary_dimension 记 D，secondary 记 B。",
+   "apply_note": "六节齐全；来源未给尺寸、重量、国别型式、年代序列、出土地与铭文内容；大刀小刀只有名称。",
+   "note": "canonical 为新建刀币条目；与 terms/bu-bi.md、terms/yi-bi-qian.md、terms/huan-qian.md 并列，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-11",
+   "entity": "竽",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yu-instrument.md",
+   "analysis": "L2337 记竽为春秋战国最有影响的乐器之一，是笙的一种变体，有 36 簧，为乐器合奏时定调的主器，并引《韩非子》「竽先，则钟瑟皆随；竽唱，则诸乐皆和」，先秦多以竽定音调；既有 terms/sheng.md 记笙，无竽专条。",
+   "approve": "新建 terms/yu-instrument.md：承载竽的簧数、合奏定调功能与《韩非子》引文。",
+   "apply_note": "六节齐全；来源作「有36簧」，阿拉伯数字照录；未给尺寸、管数、材质、出土实物与《韩非子》篇名。",
+   "note": "canonical 为新建竽条目；与 terms/sheng.md、terms/qin.md 同属先秦乐器谱系，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-154",
+   "entity": "琴",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qin.md",
+   "analysis": "L2331、L2333 记琴为春秋战国主要弦乐器，可合奏、伴奏或独奏，独奏是个人情怀的流露，并举师旷、师文、师冕、伯牙；又记杞梁殖妻援琴作歌、七日城崩的故事，并引《古诗源·琴歌》「乐莫乐兮新相知，悲莫悲兮生别离」；既有条目无琴专条。",
+   "approve": "新建 terms/qin.md：承载演奏形式、琴师名录、杞梁殖妻琴歌故事与《古诗源》引文。",
+   "apply_note": "六节齐全；「杞梁殖」原文如此、通行多作杞梁（杞殖），照录标疑；未给琴的形制、弦数、尺寸、材质与出土实物。",
+   "note": "canonical 为新建琴条目；与 terms/sheng.md、terms/yu-instrument.md 并列，不合并。"
+  }
+ ]
+}

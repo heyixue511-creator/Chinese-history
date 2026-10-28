@@ -25,18 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "明永乐白瓷以感官「甜」命名；一句话定义的命名样本"
 secondary_dimensions:
-hierarchy_scope_note: "甜白是 B 维度下明代景德镇白瓷釉色的术语条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "明永乐白瓷以感官「甜」命名；一句话定义的命名样本"
 ---
 
 ## 描述
@@ -54,12 +62,10 @@ hierarchy_scope_note: "甜白是 B 维度下明代景德镇白瓷釉色的术语
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 甜白是 B 维度下明代景德镇白瓷釉色的术语条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 明永乐白瓷以感官「甜」命名；一句话定义的命名样本
 ## 相关知识元
 
 `terms/blue-and-white-porcelain.md` 记青花瓷，同段并提。relation 未审查。

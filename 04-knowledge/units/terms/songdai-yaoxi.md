@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "宋代窑系是 B 维度下宋代制瓷地域分类的条目；其国内外贸易背景归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "宋代制瓷地域格局的集合名；来源未给窑系定义与边界，本条只承担名单与分布规模"
+hierarchy_scope_note: "宋代制瓷地域格局的集合名；来源未给窑系定义与边界，本条只承担名单与分布规模"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "宋代窑系是 B 维度下宋代制瓷地域分类的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 宋代窑系是 B 维度下宋代制瓷地域分类的条目；其国内外贸易背景归 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 宋代制瓷地域格局的集合名；来源未给窑系定义与边界，本条只承担名单与分布规模
 ## 相关知识元
 
 `places/ru-kiln.md`、`places/ding-kiln.md`、`places/jizhou-kiln.md`、`places/longquan-kiln.md`、`places/yaozhou-kiln.md` 等分记各窑口；`terms/mantouyao.md`、`terms/huluyao.md` 记窑炉形制。relation 未审查。

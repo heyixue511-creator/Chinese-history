@@ -20,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "明清彩瓷装饰技法是 B 维度下明清景德镇等地釉上彩工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: procedure
+    primary: true
+    scope_note: "斗彩、素三彩、五彩、珐琅彩、粉彩五类釉上彩的工序差别与宫廷／民窑分野"
+hierarchy_scope_note: "斗彩、素三彩、五彩、珐琅彩、粉彩五类釉上彩的工序差别与宫廷／民窑分野"
 ---
 
 ## 描述
@@ -53,11 +61,10 @@ hierarchy_scope_note: "明清彩瓷装饰技法是 B 维度下明清景德镇等
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 明清彩瓷装饰技法是 B 维度下明清景德镇等地釉上彩工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 斗彩、素三彩、五彩、珐琅彩、粉彩五类釉上彩的工序差别与宫廷／民窑分野
 ## 相关知识元
 
 `terms/blue-and-white-porcelain.md` 记青花瓷（釉下彩），与本条釉上彩形成对照；`terms/youlihong-ci.md` 记釉里红瓷；`places/jingdezhen-kiln.md` 与 `places/jingdezhen.md` 记景德镇窑与景德镇。relation 未审查。

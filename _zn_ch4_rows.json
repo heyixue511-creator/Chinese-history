@@ -1,0 +1,3560 @@
+[
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-40",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2486-L2492"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "秦始皇",
+    "notes": "统一六国，建立中央集权；原文兼述其暴政与汉承秦制。",
+    "period": "秦",
+    "role": "皇帝"
+   },
+   "proposed_slug": "qin-shi-huang",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "秦始皇以武力统一全国，结束战乱分裂的社会格局，建立中央集权，大一统制度奠定中华民族统一的政治基础。作者批评其手段残暴、钳制舆论、焚书坑儒、生活奢侈、大肆修建宫苑陵墓，秦帝国仅十数年而亡；但汉承秦制，汉帝国在许多方面延续了秦始皇的政治制度。",
+   "title": "秦始皇",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-42",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2505-L2513"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "汉武帝",
+    "notes": "击败匈奴、开发西南、盐铁酒官营、开通丝绸之路、独尊儒术。",
+    "period": "西汉",
+    "role": "皇帝"
+   },
+   "proposed_slug": "han-wu-di",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "汉武帝雄才大略，击败北方匈奴，征讨和开发西南地区，奠定中国古代的地理版图。他强化盐、铁、酒官营政策，促进冶铁业发展，并在农业推行“耦犁，二牛三人”；汉武帝时开通丝绸之路，采用董仲舒建议实行“罢黜百家，独尊儒术”，使儒学成为政治伦理的教义。",
+   "title": "汉武帝",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-43",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2513-L2513"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "董仲舒",
+    "notes": "推动独尊儒术。",
+    "period": "西汉（公元前179—公元前104年）",
+    "role": "儒生、思想家"
+   },
+   "proposed_slug": "dong-zhong-shu",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "董仲舒（公元前179—公元前104年）以战国公羊高《春秋公羊传》的大义为依托，推崇儒术。他以儒生之遇采取外儒内法的思想，推动汉武帝实行“罢黜百家，独尊儒术”的政策。",
+   "title": "董仲舒",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-45",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2515-L2515",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2692-L2692"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "司马迁",
+    "notes": "著《史记》。",
+    "period": "西汉（约公元前145年—？）",
+    "role": "历史学家"
+   },
+   "proposed_slug": "si-ma-qian",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0104"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2720,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "司马迁（约公元前145年—？）忍辱负重、发愤著述，完成《史记》，鲁迅评为“千古之绝唱，无韵之离骚”。他自述青年时南游江淮、上会稽、探禹穴、窥九疑，北涉汶泗、讲业齐鲁，后奉使西征巴蜀以南，见《史记·太史公自序》。",
+   "title": "司马迁",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-47",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2517-L2517"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "班固",
+    "notes": "著《汉书》。",
+    "period": "东汉（公元32—公元92年）",
+    "role": "历史学家"
+   },
+   "proposed_slug": "ban-gu",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "东汉班固（公元32—公元92年）著《汉书》，延续司马迁所开拓的史学工作，开始形成历朝断代史的著述。",
+   "title": "班固",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-48",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2517-L2517"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "班固",
+    "period": "东汉",
+    "title": "汉书"
+   },
+   "proposed_slug": "han-shu",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "《汉书》为东汉班固（公元32—公元92年）所著，延续司马迁《史记》所开拓的史学工作，开始形成历朝断代史的著述。",
+   "title": "汉书",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-49",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2517-L2525",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2609-L2616"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "许慎",
+    "notes": "字叔重，汝南召陵（河南郾城）人，著《说文解字》。",
+    "period": "东汉（约公元58—约公元147年）",
+    "role": "文字学家"
+   },
+   "proposed_slug": "xu-shen",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "许慎（约公元58—约公元147年）著《说文解字》，对文字的起源和流变进行详细解说。他字叔重，汝南召陵（河南郾城）人，曾为太尉南閤祭酒，有“五经无双许叔重”之誉，归纳“六书”特征，形成传统“小学”的基础。",
+   "title": "许慎",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-51",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2525-L2525"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "王充",
+    "period": "东汉（公元27—约公元97年）",
+    "title": "论衡"
+   },
+   "proposed_slug": "lun-heng",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "王充（公元27—约公元97年）著述的《论衡》，以高屋建瓴的学术姿态，推崇文章的情感真实。",
+   "title": "论衡",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-52",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2527-L2527",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2571-L2590"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "李斯",
+    "notes": "整理规范小篆。",
+    "period": "秦",
+    "role": "丞相、文字整理者"
+   },
+   "proposed_slug": "li-si",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "秦代汉字由李斯整理规范出小篆，勒石刻书以示规范。秦始皇统一六国后采用丞相李斯创意的小篆并颁布全国；李斯根据秦国石鼓文和商鞅方升铭文的书写特点制定小篆，以《泰山刻石碑》《峄山刻石碑》《会稽刻石碑》确立规范。",
+   "title": "李斯",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-53",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2529-L2529",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3127-L3138"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-20"
+   ],
+   "proposed_fields": {
+    "name": "蔡伦",
+    "notes": "造纸。",
+    "period": "东汉（公元62—公元121年）",
+    "role": "造纸术改进者"
+   },
+   "proposed_slug": "cai-lun",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0122"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3141,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "东汉蔡伦（公元62—公元121年）造纸，使人类文化的传播有了充分的条件。作者称纸张的出现是对人类历史的重大贡献之一，影响着世界各民族文明的进程。",
+   "title": "蔡伦",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-56",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2531-L2531"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "张衡提出的宇宙学说，以鸡蛋比喻天体与地的关系。",
+    "term": "浑天说"
+   },
+   "proposed_slug": "huntian-theory",
+   "source_span": {
+    "block_ids": [
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2566,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "张衡提出浑天说：“浑天如鸡子，天体圆如弹丸，地如鸡中黄，孤居于内，天大而地小。”（《浑天仪图注》）作者视之为汉代人对地理天文知识的必然生发。",
+   "title": "浑天说",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-57",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2535-L2535",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2879-L2879"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "青龙、白虎、朱雀、玄武四种方位标志形象。",
+    "term": "四神"
+   },
+   "proposed_slug": "si-shen",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "四神为左青龙、右白虎、上朱雀、下玄武，以四神形象为标志分别代表地理方位，并推动了建筑技术的发展。汉代以五行确立方位，四神对应东青、西白、南朱、北玄而中央尚黄；作者解释这与中国位于北半球、人们面南而居有关。",
+   "title": "四神",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-60",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2559-L2559",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2627-L2631"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "秦朝圆形方孔铜钱，每枚重半两，为统一货币标准。",
+    "term": "秦半两"
+   },
+   "proposed_slug": "qin-ban-liang",
+   "source_span": {
+    "block_ids": [
+     "b0098",
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2644,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "秦国的“秦半两”出现，使中国社会第一次有了圆形方孔的货币；秦朝统一货币，便以秦半两为标准。秦半两方孔便于穿木棍打磨锉齐并使货币重量统一，各地铸造因技术与材质差异份量常有不同，秦半两慢慢成为一种货币制度；后人推测圆形方孔体现天圆地方宇宙观，作者认为仅是文化联想。",
+   "title": "秦半两",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-61",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2637-L2639",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2559-L2559"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉武帝时确立的铜钱币制，五铢为重量单位，行用至隋代。",
+    "term": "汉五铢"
+   },
+   "proposed_slug": "han-wu-zhu",
+   "source_span": {
+    "block_ids": [
+     "b0101",
+     "b0098"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2644,
+    "line_start": 2479,
+    "section": "第一节 绪论"
+   },
+   "summary": "汉武帝罢半两钱、行五铢钱，汉五铢的币制成为此后很长时期内的货币形态，直至隋代。五铢钱在造型上吸收半两钱样式，又采用战国刀币边缘轮廓线的铸造方式，提高耐磨程度；国家统一铸造、铜质钱范浇铸、串叠锉平边缘，重量适中、携带和计数方便。",
+   "title": "汉五铢",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-64",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2586-L2586",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2590-L2590"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石刻文字",
+    "material": "石",
+    "period": "战国（秦国）",
+    "title": "石鼓文"
+   },
+   "proposed_slug": "shi-gu-wen",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "石鼓文是秦国文字的代表，亦称大篆或籀文，与西周以来的金文有一定的关联。李斯制定小篆时参考了秦国石鼓文与商鞅方升铭文的书写特点。",
+   "title": "石鼓文",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-65",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2819-L2821",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2586-L2586",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2590-L2590"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "量器",
+    "location": "秦国",
+    "material": "青铜",
+    "period": "战国秦（商鞅变法时）",
+    "title": "商鞅方升"
+   },
+   "proposed_slug": "shang-yang-fang-sheng",
+   "source_span": {
+    "block_ids": [
+     "b0109",
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2838,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "商鞅方升是商鞅变法时的量器，器上铭刻秦国文字；李斯根据秦国石鼓文字和商鞅方升铭文的书写特点制定小篆。秦始皇依秦国度量衡标准颁布全国，使中国社会有了统一的衡量标准，推动经济生活繁荣。",
+   "title": "商鞅方升",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-66",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2592-L2601"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "由小篆圆曲笔画演变为方折书写、结体简约的书体，其形成过程称隶变。",
+    "term": "隶书"
+   },
+   "proposed_slug": "li-shu",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "隶书将圆曲的笔画演变为方折的书写，加快书写速度、提高文字表达能力；方笔使文字进一步符号化，结体更简洁、笔画减少，便于更多人参与书写，此形成过程在书法史上称“隶变”。传说囚徒程邈创造一种民间自发的文字结构，后世称秦隶，代表作品为湖北云梦睡虎地出土的秦简文字；作者认为隶变不仅是字体变化，也体现文化传播方式的进步。",
+   "title": "隶书",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-67",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2592-L2592"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "简牍文字",
+    "location": "湖北云梦睡虎地",
+    "material": "竹木",
+    "period": "秦",
+    "title": "睡虎地秦简"
+   },
+   "proposed_slug": "shuihudi-qin-bamboo-slips",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "湖北云梦睡虎地出土的秦简文字，是传说中程邈所创民间文字结构（秦隶）的代表作品。原文以其说明秦隶的书写形态。",
+   "title": "睡虎地秦简",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-68",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2603-L2605"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "由汉隶草书规范而成的官方文件书体，保留隶书捺挑，笔锋由扁归圆。",
+    "term": "章草"
+   },
+   "proposed_slug": "zhang-cao",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "西汉末年出现一种草书字体，以甘肃居延出土的汉简为代表，运笔以隶书为基点、飘逸活泼、笔意连缀，已具草书风格。这种书体在东汉进一步规范为章草，是书法家在民间汉隶草书基础上修定的官方文件书写方式，缘于奏章之意；章草保留隶书捺和挑，笔锋由扁归圆，是由隶变楷的重要阶段，也是楷书出现的前兆。",
+   "title": "章草",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-69",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2603-L2603"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "简牍文字",
+    "location": "甘肃居延",
+    "material": "竹木",
+    "period": "西汉末年",
+    "title": "居延汉简"
+   },
+   "proposed_slug": "juyan-han-slips",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "甘肃居延出土的汉简是西汉末年草书字体的代表，运笔以隶书为基点，飘逸活泼、笔意连缀，已具有草书风格。",
+   "title": "居延汉简",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-70",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2607-L2607",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3436-L3440",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4364-L4368"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-59",
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-89"
+   ],
+   "proposed_fields": {
+    "definition": "东汉末年形成、减少隶书捺挑、整洁简练的新型书体。",
+    "term": "楷书"
+   },
+   "proposed_slug": "kai-shu",
+   "source_span": {
+    "block_ids": [
+     "b0100",
+     "b0138",
+     "b0177"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 4401,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "最早的楷书出现于东汉末年书法家钟繇的作品，其《宣示表》等为代表作。楷书书写已将横波顿挫，减少以往隶书捺挑的书写习惯，成为整洁简练的新型书体。唐代楷书在唐初有虞世南、欧阳询、褚遂良、薛稷四大家，共同点是文字书写的规范化；作者认为唐以后楷书似乎缺乏魏晋书体的内在质量，但楷书因规范而易于推广，并为雕版印刷提供了文字规范条件。",
+   "title": "楷书",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T20:07:33+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-71",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2607-L2607",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3440-L3440",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3496-L3496"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-70"
+   ],
+   "proposed_fields": {
+    "name": "钟繇",
+    "notes": "最早楷书代表作《宣示表》的作者。",
+    "period": "东汉末年",
+    "role": "书法家"
+   },
+   "proposed_slug": "zhong-yao",
+   "source_span": {
+    "block_ids": [
+     "b0100",
+     "b0140",
+     "b0138"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3512,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "钟繇是东汉末年书法家，其《宣示表》等被视为最早楷书的代表作。其书写已将横波顿挫、减少隶书捺挑，成为整洁简练的新型书体。",
+   "title": "钟繇",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-72",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2607-L2607"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "书法作品",
+    "designer": "钟繇",
+    "period": "东汉末年",
+    "title": "宣示表"
+   },
+   "proposed_slug": "xuan-shi-biao",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2617,
+    "line_start": 2569,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "《宣示表》是东汉末年书法家钟繇的代表作，被视为最早楷书的代表作品。其书写已将横波顿挫，减少以往隶书捺挑的书写习惯，成为整洁简练的新型书体。",
+   "title": "宣示表",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-141",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2592-L2592"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "程邈",
+    "notes": "原文称“传说”，未作史实确认。",
+    "period": "秦",
+    "role": "传说中秦隶的创造者"
+   },
+   "proposed_slug": "cheng-miao",
+   "source_span": {
+    "block_ids": [
+     "b0100"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2592,
+    "line_start": 2592,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "程邈是原文所记传说人物：传说囚徒程邈创造了一种民间自发的文字结构，后世称为秦隶；秦隶的代表作品为湖北云梦睡虎地出土的秦简文字。",
+   "title": "程邈",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-74",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2641-L2641"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "货币",
+    "material": "铜错金",
+    "period": "西汉末年（王莽时期）",
+    "title": "金错刀"
+   },
+   "proposed_slug": "jin-cuo-dao",
+   "source_span": {
+    "block_ids": [
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2644,
+    "line_start": 2618,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "西汉末年王莽托古改制，废除五铢钱，采用错金技术制成“金错刀”货币。东汉张衡《四愁诗》有“美人赠我金错刀，何以报之英琼瑶”；原文称金错刀钱成为礼品，有馈赠收藏价值但缺乏实用意义，作者视为王莽时期货币的误区。",
+   "title": "金错刀",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-75",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2641-L2643"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "王莽",
+    "notes": "托古改制，货币混乱。",
+    "period": "西汉末年",
+    "role": "改制者、新朝皇帝"
+   },
+   "proposed_slug": "wang-mang",
+   "source_span": {
+    "block_ids": [
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2644,
+    "line_start": 2618,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "西汉末年王莽托古改制，废除五铢钱而代以刀、布、贝等形式，并用金、铜、银、贝、龟甲等材质，不断改制货币造成流通极大混乱。作者批评其食古不化、私欲太盛，导致国体变动、民不聊生；东汉立朝后五铢钱恢复使用。",
+   "title": "王莽",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-142",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2635-L2635"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "黄金制品",
+    "material": "黄金",
+    "notes": "黄金一斤等于铜钱一万。",
+    "period": "西汉汉武帝时",
+    "title": "马蹄金"
+   },
+   "proposed_slug": "matijin",
+   "source_span": {
+    "block_ids": [
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2635,
+    "line_start": 2635,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "马蹄金是汉武帝时铸造的黄金制品；秦汉的黄金制形以金饼、金钣为主，《汉书·食货志》有“黄金方寸，而重一斤”，黄金和铜钱的交换值是黄金一斤等于铜钱一万。",
+   "title": "马蹄金",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-155",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2635-L2635"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "黄金制品",
+    "material": "黄金",
+    "notes": "黄金一斤等于铜钱一万。",
+    "period": "西汉汉武帝时",
+    "title": "麟趾金"
+   },
+   "proposed_slug": "linzhijin",
+   "source_span": {
+    "block_ids": [
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2635,
+    "line_start": 2635,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "麟趾金是汉武帝时铸造的黄金制品；秦汉的黄金制形以金饼、金钣为主，《汉书·食货志》有“黄金方寸，而重一斤”，黄金和铜钱的交换值是黄金一斤等于铜钱一万。",
+   "title": "麟趾金",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-156",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2635-L2635"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "黄金制品",
+    "material": "黄金",
+    "notes": "黄金一斤等于铜钱一万。",
+    "period": "西汉汉武帝时",
+    "title": "金五铢"
+   },
+   "proposed_slug": "jinwuzhu",
+   "source_span": {
+    "block_ids": [
+     "b0101"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2635,
+    "line_start": 2635,
+    "section": "第二节 文字与货币"
+   },
+   "summary": "金五铢是汉武帝时铸造的黄金制品；秦汉的黄金制形以金饼、金钣为主，《汉书·食货志》有“黄金方寸，而重一斤”，黄金和铜钱的交换值是黄金一斤等于铜钱一万。",
+   "title": "金五铢",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-77",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2653-L2668"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "道路",
+    "location": "以咸阳为中心，北通九原",
+    "period": "秦",
+    "title": "秦驰道"
+   },
+   "proposed_slug": "qin-chi-dao",
+   "source_span": {
+    "block_ids": [
+     "b0103"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2689,
+    "line_start": 2647,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "秦统一六国后拆建六国道路、城墙、关隘，几乎花十年修筑以咸阳为中心向全国辐射的交通干线秦驰道。秦驰道宽约60米，高出两边地平面，分中心皇帝专用车道、军事车道和常人行道，每隔10里修建管理亭；北通九原的驰道长约1400公里，由太子扶苏和大将蒙恬修筑，经陕西、甘肃、内蒙古到达九原郡（内蒙古包头）。",
+   "title": "秦驰道",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-78",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2653-L2653",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2672-L2672"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "秦统一后推行的车辆零件与车轨宽度标准化政策，车轨六尺约合1.66米。",
+    "term": "车同轨"
+   },
+   "proposed_slug": "che-tong-gui",
+   "source_span": {
+    "block_ids": [
+     "b0103"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2689,
+    "line_start": 2647,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "车同轨即车辆零件的标准化，其目的仍然是军事和政治的需要，车同轨提高了交通运输能力，使国防力量得到加强，并带来对驰道的统一修建。秦始皇统一了车轨的宽度，以六尺为准，约合今1.66米。",
+   "title": "车同轨",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-80",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2680-L2682"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代按等级使用的车辆体系，含金根车、轩车、轺车、辎车及牛车等。",
+    "term": "汉代车制"
+   },
+   "proposed_slug": "han-dynasty-carriages",
+   "source_span": {
+    "block_ids": [
+     "b0103"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2689,
+    "line_start": 2647,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "汉代车辆的一个主要变化是双辕车的出现，而且车辆种类繁多：皇帝乘坐“金根车”，高级官吏乘坐“轩车”，下级官员乘坐“轺车”，贵族妇女乘坐“辎车”。东汉贵族特别喜欢乘坐牛车，因牛车缓慢而平稳、车厢高大宽敞；汉代车具繁杂，并因礼仪需要形成繁琐的坐车姿势程式。",
+   "title": "汉代车制",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-82",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2696-L2696"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "张骞",
+    "notes": "两次出使西域，推动丝绸之路开通。",
+    "period": "西汉汉武帝时",
+    "role": "使节"
+   },
+   "proposed_slug": "zhang-qian",
+   "source_span": {
+    "block_ids": [
+     "b0104"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2720,
+    "line_start": 2690,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "汉武帝派张骞出使西域，欲联络大月氏部落抵御北方匈奴，结果在玉门关外被匈奴人抓获并扣留十余年。张骞逃回长安汇报后，汉武帝第二次派他赴西域，带大量丝帛金币作为馈赠礼品，受到西域各部落民族欢迎，汉王朝开始在西域设置管理机构。",
+   "title": "张骞",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-83",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2700-L2700"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "班超",
+    "notes": "巩固丝绸之路通畅。",
+    "period": "东汉（公元73年出使）",
+    "role": "使节"
+   },
+   "proposed_slug": "ban-chao",
+   "source_span": {
+    "block_ids": [
+     "b0104"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2720,
+    "line_start": 2690,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "东汉时期匈奴一度强盛，班超在公元73年出使西域，在西域获得空前的威望，巩固了丝绸之路的通畅，使丝绸之路成为国际性的交通要道。",
+   "title": "班超",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-84",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2704-L2719"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "在河谷岩壁凿孔插入方木、分层铺设木板的山地道路。",
+    "term": "栈道"
+   },
+   "proposed_slug": "zhan-dao",
+   "source_span": {
+    "block_ids": [
+     "b0104"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2720,
+    "line_start": 2690,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "栈道是秦汉道路交通中因地制宜利用山地地形的道路，在河谷岩壁凿出30厘米见方、50厘米深的石孔，用方木嵌入，分上中下三层：上层为雨篷，下层为支架，中层用木板铺成道路。秦国在战国时期开始连通陕川，秦惠王修褒斜栈道，秦汉续修子午道、金牛道等；《史记·货殖列传》称“栈道千里，无所不通，唯褒斜道绾毂其口”，刘邦烧栈道、韩信“明修栈道，暗渡陈仓”均见其军事经济用途。",
+   "title": "栈道",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-85",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2710-L2710",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2715-L2715"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "栈道",
+    "location": "秦岭，连接陕西眉县斜水谷与褒水谷",
+    "period": "战国秦惠王时始修",
+    "title": "褒斜道"
+   },
+   "proposed_slug": "baoxie-road",
+   "source_span": {
+    "block_ids": [
+     "b0104"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2720,
+    "line_start": 2690,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "秦惠王时曾修筑褒斜栈道，利用山谷地形将秦岭北麓陕西眉县的斜水谷与秦岭南麓的褒水谷打通，成为著名的褒斜道，长达200余公里。《史记·货殖列传》称“栈道千里，无所不通，唯褒斜道绾毂其口”。",
+   "title": "褒斜道",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-86",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2723-L2725"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "水利工程",
+    "designer": "史禄",
+    "location": "广西兴安",
+    "period": "秦（公元前219年）",
+    "title": "灵渠"
+   },
+   "proposed_slug": "ling-qu",
+   "source_span": {
+    "block_ids": [
+     "b0105"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2730,
+    "line_start": 2721,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "秦始皇在公元前219年派史禄到广西兴安，将湘江和漓江开凿沟通，修筑一条33公里的灵渠，使长江和珠江水系连通，加强中原与岭南的密切关系。灵渠巧妙利用船闸设置提高和平衡水位，并修筑分水工程保持水源充足，使船只不受河流落差限制顺利通过。",
+   "title": "灵渠",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-87",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2723-L2723"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "史禄",
+    "notes": "主持开凿灵渠。",
+    "period": "秦（公元前219年）",
+    "role": "水利工程主持者"
+   },
+   "proposed_slug": "shi-lu",
+   "source_span": {
+    "block_ids": [
+     "b0105"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2730,
+    "line_start": 2721,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "秦始皇在公元前219年派史禄到广西兴安，将湘江和漓江开凿沟通，修筑33公里的灵渠。",
+   "title": "史禄",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-88",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2727-L2727"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "桥梁",
+    "location": "咸阳渭水",
+    "period": "秦汉",
+    "title": "渭水三桥"
+   },
+   "proposed_slug": "weishui-three-bridges",
+   "source_span": {
+    "block_ids": [
+     "b0105"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2730,
+    "line_start": 2721,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "咸阳渭水三桥包括东、西、中三座渭水桥，是秦汉时期著名的桥梁建筑；中渭水桥战国时已修筑，秦始皇时加固翻修，桥长约525米、宽约13.8米，用750根木桩组成67个桥墩。木桩上构架横梁、铺架桥面，桥侧有雕花护栏，桥身中间高、两边斜下呈八字形，利于行走和排水，并有石灯、华表等附件；汉代又增修东西渭水桥。",
+   "title": "渭水三桥",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-89",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2729-L2729"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "桥梁",
+    "location": "西安灞河",
+    "period": "汉代",
+    "title": "灞桥"
+   },
+   "proposed_slug": "ba-bridge",
+   "source_span": {
+    "block_ids": [
+     "b0105"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2730,
+    "line_start": 2721,
+    "section": "第三节 车辆与道路"
+   },
+   "summary": "西安灞河上的灞桥是一座汉代古桥，初为木桥，在王莽时被烧毁，后来屡毁屡修。汉唐时灞桥为十里相送、灞柳相别之地，成为人们友谊的象征。",
+   "title": "灞桥",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-92",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2763-L2763"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "兵器",
+    "location": "秦始皇兵马俑坑",
+    "material": "青铜",
+    "period": "秦",
+    "title": "秦俑坑青铜剑"
+   },
+   "proposed_slug": "qin-bronze-sword",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2785,
+    "line_start": 2733,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "秦始皇兵马俑坑中出土许多精美青铜兵器，其中青铜剑剑刃变细加长，一般长90厘米，为近身防卫的格杀利器。剑身的脊刃对称，表面经过铬盐氧化防锈处理，2000年后被发掘出土后仍寒光闪烁、锋利无比。",
+   "title": "秦俑坑青铜剑",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-96",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2769-L2769"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "弩的发射机构，秦俑坑有青铜弩机，汉代增加刻度以提高瞄准精度。",
+    "term": "弩机"
+   },
+   "proposed_slug": "nu-ji",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2785,
+    "line_start": 2733,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "弩是秦汉兵器中的重要器具，作为远程射击的利器，在冷兵器时代一直具有高度杀伤力。秦俑坑中出土青铜弩机；汉代弩机仍以青铜材料铸造，并增加刻度以加强瞄准的精确性。",
+   "title": "弩机",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-97",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2780-L2780"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "刀柄铸环、刀身长达100厘米的汉代钢铁刀具。",
+    "term": "环首刀"
+   },
+   "proposed_slug": "huan-shou-dao",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2785,
+    "line_start": 2733,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "环首刀是在刀柄上铸成环形的刀，刀长达100厘米，以便骑兵和步兵手持。汉代刀具逐渐代替铁剑，从此铁剑不再是士兵的主要武器，剑器仅作为少数官员的佩饰。",
+   "title": "环首刀",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-98",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2782-L2782"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "东汉铁盾，盾中有短锥、上下有铁钩，可攻可防。",
+    "term": "钩镶"
+   },
+   "proposed_slug": "gou-xiang",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2785,
+    "line_start": 2733,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "东汉时出现了“钩镶”的特殊盾牌，即将铁盾缩小，盾中有一短锥，而上下铸成铁钩，盾后有手柄，既可进攻，亦可防御。",
+   "title": "钩镶",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-99",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2784-L2784"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以铁甲为主，有鱼鳞甲、札甲等制式。",
+    "term": "汉代铠甲"
+   },
+   "proposed_slug": "han-armor",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2785,
+    "line_start": 2733,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "铠甲在汉代以铁甲为主，普遍装备士兵，有细密制作的“鱼鳞甲”，也有长条形的“札甲”。秦俑的甲衣变化多样、制式丰富，秦汉出土的大量兵马俑中也有众多甲衣样式。",
+   "title": "汉代铠甲",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-100",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2799-L2801"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉武帝时推广的二牛三人耕作方法，二牛抬杠，一人导牛、一人扶犁、一人压辕。",
+    "term": "耦犁"
+   },
+   "proposed_slug": "ou-li",
+   "source_span": {
+    "block_ids": [
+     "b0108"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2812,
+    "line_start": 2786,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "汉武帝时开始推广二牛三人的耦犁，耦犁是一种二牛抬杠的方法，一人在前导引牛，一人在后面扶犁，一人在中间压辕。耦犁在黄河流域普及和推广，为农业生产的增产丰收作出了贡献。",
+   "title": "耦犁",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-103",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2805-L2805"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "农具",
+    "period": "汉代",
+    "title": "风车"
+   },
+   "proposed_slug": "winnowing-machine",
+   "source_span": {
+    "block_ids": [
+     "b0108"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2812,
+    "line_start": 2786,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "扬谷麦的风车是汉代的一种发明，在风车中装有叶形的风扇，一经摇动，风力可将秕壳和籽粒分离，粮食中杂草等物也被风吹去。风车成为粮食加工的便利器具。",
+   "title": "风车",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-105",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2809-L2809"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "粮食加工器具",
+    "period": "汉代",
+    "title": "石磨"
+   },
+   "proposed_slug": "stone-mill",
+   "source_span": {
+    "block_ids": [
+     "b0108"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2812,
+    "line_start": 2786,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "汉代时石磨开始流行，可使小麦加工成为面粉。饮食习惯的改变为许多器具的出现提供契机，如碗和筷子成为主要餐具，进而改变了生活节奏。",
+   "title": "石磨",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-106",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2823-L2829"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "衡器",
+    "material": "铜",
+    "period": "秦",
+    "title": "秦权"
+   },
+   "proposed_slug": "qin-quan",
+   "source_span": {
+    "block_ids": [
+     "b0109"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2838,
+    "line_start": 2813,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "秦权器为石、钧、24斤、16斤、9斤、8斤、5斤、1斤和半两。铜质秦权作为砝码使用，衡标的一端是实物、另一端是秦权，提钮在衡标的中心，衡标平稳则物重相等，衡标不平则物重不等。",
+   "title": "秦权",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-107",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2829-L2829",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2821-L2821"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "秦代量器，分铜量（1/2、1/3、1/4斗）与陶量（半斗、一斗、一斛即100升）。",
+    "term": "秦量"
+   },
+   "proposed_slug": "qin-liang",
+   "source_span": {
+    "block_ids": [
+     "b0109"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2838,
+    "line_start": 2813,
+    "section": "第四节 兵器与农具"
+   },
+   "summary": "秦量器分为铜量和陶量：铜量制是1/2、1/3、1/4斗量，陶量制是半斗、一斗以及一斛（100升）。秦始皇的诏书出现在各种衡器和量器上，近年山东出土的秦陶量上面就有诏书。",
+   "title": "秦量",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-109",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2854-L2854"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "宫殿",
+    "location": "咸阳原",
+    "period": "秦",
+    "title": "咸阳宫"
+   },
+   "proposed_slug": "xianyang-palace",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2841,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "咸阳宫是秦王朝的重要宫殿，位于咸阳原上，是一座多重楼台建筑群，分别有主殿、侧殿、卧室、浴室，采用回廊和甬道连通，并设有复杂的陶制下水管道，体现建筑豪华富丽的格调。秦始皇每消灭一个国家，就按原来的各国宫殿样式在咸阳原上复制重建，并将缴获的钟鼓美人安置其中，因而咸阳原上有六国宫殿的别称；考古出土资料显示存有一些六国纹饰的建筑瓦当。",
+   "title": "咸阳宫",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-110",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2856-L2860"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "宫殿",
+    "designer": "萧何",
+    "location": "汉长安城",
+    "period": "西汉",
+    "title": "未央宫"
+   },
+   "proposed_slug": "weiyang-palace",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2841,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "未央宫是汉长安城中的重要建筑，今存遗址地基是一座南北长200余米、东西长100余米、高10余米的夯土高台。当年“萧丞相营作未央宫，立东阙、北阙、前殿、武库、太仓”，高祖见宫阙壮甚而怒，萧何答“非壮丽无以重威”，且称“无令后世有以加也”，高祖乃说。作者认为萧何之语也有迎奉之意。",
+   "title": "未央宫",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-113",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2881-L2881"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代地表遗存的门阙，是活动领域的范围象征，用于宫殿、坛庙、陵墓、城门等。",
+    "term": "门阙"
+   },
+   "proposed_slug": "men-que",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2841,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "汉代地表建筑现在仅存的是阙，其中有东汉时营造的石质嵩山三阙，为坛庙性的祭祀建筑遗迹；四川、山东等地还有陵墓性的门阙，如山东嘉祥武氏祠阙，高大威仪、卓尔不群。门阙是人们活动领域的范围象征，广泛应用于宫殿、坛庙、陵墓、城门等地，成为标志性建筑。",
+   "title": "门阙",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-114",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2881-L2881"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石阙",
+    "material": "石",
+    "period": "东汉",
+    "title": "嵩山三阙"
+   },
+   "proposed_slug": "songshan-three-que",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2841,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "嵩山三阙是东汉时营造的石质门阙，为坛庙性的祭祀建筑遗迹，属于汉代地表建筑今仅存的门阙实例。",
+   "title": "嵩山三阙",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-115",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2881-L2881"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "门阙",
+    "location": "山东嘉祥",
+    "period": "汉",
+    "title": "武氏祠阙"
+   },
+   "proposed_slug": "wushi-shrine-que",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2890,
+    "line_start": 2841,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "山东嘉祥武氏祠阙是陵墓性的门阙，高大威仪、卓尔不群，与四川、山东等地的陵墓性门阙同属汉代门阙实例。",
+   "title": "武氏祠阙",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-143",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2858-L2858"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "萧何",
+    "notes": "主持营作未央宫。",
+    "period": "汉高祖时",
+    "role": "丞相"
+   },
+   "proposed_slug": "xiao-he",
+   "source_span": {
+    "block_ids": [
+     "b0111"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2858,
+    "line_start": 2858,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "萧何是原文所称“萧丞相”，主持营作未央宫，立东阙、北阙、前殿、武库、太仓。高祖见宫阙壮甚而怒，萧何答“天子以四海为家，非壮丽无以重威，且无令后世有以加也”，高祖乃说；作者称萧何之语也有迎奉之意。",
+   "title": "萧何",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-118",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2893-L2895",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2911-L2911"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "宫殿",
+    "location": "今西安西郊",
+    "period": "秦",
+    "title": "阿房宫"
+   },
+   "proposed_slug": "epang-palace",
+   "source_span": {
+    "block_ids": [
+     "b0112"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2914,
+    "line_start": 2891,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "阿房宫是秦王朝宫殿建筑的重要代表，在夯土高台上用大型木构架技术营造，使用大量木材，四川、湖北诸地的木材源源不断运往关中。据《史记·秦始皇本纪》，先作前殿阿房，东西五百步、南北五十丈，上可以坐万人，下可以建五丈旗；文中称“阿房宫未成”，作者认为阿房宫仅是未竟之作。今西安西郊阿房宫遗址尚存，高台夯土，占地面积硕大。",
+   "title": "阿房宫",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-119",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2903-L2907"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "杜牧",
+    "notes": "辞赋名篇，借阿房宫寄托兴亡之叹。",
+    "period": "唐",
+    "title": "《阿房宫赋》"
+   },
+   "proposed_slug": "efang-palace-fu",
+   "source_span": {
+    "block_ids": [
+     "b0112"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2914,
+    "line_start": 2891,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "《阿房宫赋》是唐代诗人杜牧的辞赋名篇，赋中描写阿房宫“覆压三百余里，隔离天日”“五步一楼，十步一阁”，极尽铺陈。作者认为这篇辞赋使阿房宫为之生色，其中“秦人不暇自哀，而后人哀之；后人哀之而不鉴之，亦使后人而复哀后人也”的议论借景寓意，演绎成历史政治的警惕观念。",
+   "title": "《阿房宫赋》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-121",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2917-L2928"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "军事防御工程",
+    "location": "西起临洮、东入辽东",
+    "period": "秦汉",
+    "title": "长城"
+   },
+   "proposed_slug": "great-wall",
+   "source_span": {
+    "block_ids": [
+     "b0113"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2929,
+    "line_start": 2915,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "战国时期诸国在黄河流域修筑许多边墙作为防御工事。秦统一后拆毁中原各国原有城墙关隘，但基本保留北方边域与游牧民族接触的城墙群；公元前214年，秦始皇派大将蒙恬率30万军民，将秦、赵、燕旧长城连结修筑，并沿阴山、黄河建立要塞关隘戍卫边疆，形成西起临洮、东入辽东的万里长城。汉武帝时又为保障河西走廊将长城向西延续2000里，直到酒泉、敦煌以西的阳关，并在阴山以北加固外长城、建立防御城堡和烽燧。",
+   "title": "长城",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-122",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2922-L2922"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "蒙恬",
+    "notes": "率30万军民连结修筑秦、赵、燕旧长城。",
+    "period": "秦",
+    "role": "秦朝大将"
+   },
+   "proposed_slug": "meng-tian",
+   "source_span": {
+    "block_ids": [
+     "b0113"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2929,
+    "line_start": 2915,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "蒙恬是秦朝大将。公元前214年，秦始皇派蒙恬率30万军民，将北方秦、赵、燕旧长城连结修筑，并沿阴山、黄河一带建立许多要塞关隘，戍卫边疆，以防草原游牧民族南下入侵。",
+   "title": "蒙恬",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-123",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2926-L2926"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "长城沿线用于防御和报警的设施，战乱时十里一报、传递信号。",
+    "term": "烽燧"
+   },
+   "proposed_slug": "feng-sui",
+   "source_span": {
+    "block_ids": [
+     "b0113"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2929,
+    "line_start": 2915,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "秦汉长城因地制宜利用草木、芦苇、石块等材料夯土垒集，提高城墙的牢固程度，并设置许多烽燧，有明确的防御和报警作用。每逢边界战乱，只见大漠尘烟滚滚高悬，十里一报，信号竞传，起到防卫的战争功能。",
+   "title": "烽燧",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-144",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2924-L2924"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "卫青",
+    "notes": "与霍去病同受命收复西域许多地区。",
+    "period": "汉武帝时",
+    "role": "大将"
+   },
+   "proposed_slug": "wei-qing",
+   "source_span": {
+    "block_ids": [
+     "b0113"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2924,
+    "line_start": 2924,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "卫青是汉武帝时的大将。汉武帝派卫青、霍去病西扫黄沙、北荡荒草，收复了西域的许多地区。",
+   "title": "卫青",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-125",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2971-L2986"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "陵墓石雕",
+    "location": "渭河北岸咸阳原",
+    "period": "西汉",
+    "title": "霍去病墓石刻"
+   },
+   "proposed_slug": "huo-qubing-tomb-stone-carvings",
+   "source_span": {
+    "block_ids": [
+     "b0114"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2987,
+    "line_start": 2930,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "霍去病墓石刻位于渭河北岸的咸阳原上、汉武帝茂陵之侧；咸阳原上有九座汉朝帝王陵墓，均呈覆斗形，其中汉武帝茂陵最为庞大，每边长230米、高46.5米。墓前石刻有立马、卧马、跃马、卧虎等，以陵为山、封土筑山，纪功表彰，营造人与自然融合的艺术气氛；目前有石刻约16件，形象包括马、牛、虎、羊、象、猪、鱼、怪兽、熊与人等，采取浮雕、线雕、圆雕相结合的手法。",
+   "title": "霍去病墓石刻",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-126",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2978-L2978",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2982-L2982"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石雕",
+    "location": "霍去病墓",
+    "period": "汉",
+    "title": "马踏匈奴"
+   },
+   "proposed_slug": "horse-treading-xiongnu",
+   "source_span": {
+    "block_ids": [
+     "b0114"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2987,
+    "line_start": 2930,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "《马踏匈奴》是霍去病墓石刻群的中心作品，为纪念碑式的石雕，采取了写意的雕凿手法，以石赋形、化形寓意，张扬了石刻的硬质品格，形成饱满丰富的艺术风格。图注标为“汉 霍去病墓石刻马踏匈奴”。",
+   "title": "马踏匈奴",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-127",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2975-L2980"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "霍去病",
+    "notes": "对匈奴战争取得决定性胜利，24岁早逝，墓在茂陵之侧。",
+    "period": "西汉汉武帝时",
+    "role": "青年将军"
+   },
+   "proposed_slug": "huo-qubing",
+   "source_span": {
+    "block_ids": [
+     "b0114"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 2987,
+    "line_start": 2930,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "霍去病是汉武帝时期的青年将军，英勇骁战、所向披靡，在对北方匈奴的战争中取得决定性的胜利，解除了匈奴长期以来对汉王朝的威胁。他英年早逝，仅仅24岁；汉武帝出于怜惜和缅怀，将其墓置于自己的茂陵之侧，使之成为一座彰功纪念的陪葬墓。",
+   "title": "霍去病",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-02",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2995-L3004"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "帝王陵墓的方形覆斗状夯土封土，底边正四边形、向上内收、层层夯土，讳称“方中”，寓意地方；一般人的封土仍为圆形。",
+    "term": "覆斗形封土（方中）"
+   },
+   "proposed_slug": "fudou-xing-fengtu-fangzhong",
+   "source_span": {
+    "block_ids": [
+     "b0115"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3011,
+    "line_start": 2988,
+    "section": "第五节 建筑与雕塑"
+   },
+   "summary": "战国开始，帝王封土多为覆斗形：底边呈正四边形，向上内收，层层夯土筑成，下大上小，讳称“方中”，寓意地方、一国一域的势力。方形的封土坟丘是帝王的规格，除个别的合葬后妃和亲王外，一般人仍为圆形。春秋中期开始出现封土，战国时期植树封土成为制度，《周礼·冢人》有“以爵等为丘封之度与其树数”之说。",
+   "title": "覆斗形封土（方中）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-106",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3042-L3042"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "纺织品",
+    "definition": "汉代一种花形富丽、具有明显浮雕效果的起绒织物。",
+    "term": "起绒锦"
+   },
+   "proposed_slug": "qirong-jin",
+   "source_span": {
+    "block_ids": [
+     "b0117"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3042,
+    "line_start": 3042,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "长沙马王堆汉墓出土的纺织品中有一种起绒锦，花形富丽，有明显的浮雕效果。",
+   "title": "起绒锦",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-09",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3052-L3054"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以冠、帻区分身份的汉代冠服制度：进贤冠（梁冠）配介帻为文官，武弁大冠（笼冠）配平巾帻为武将，冕冠为帝王，长冠为宦官，法冠为法官；庶人只能戴帻。",
+    "term": "汉代冠制"
+   },
+   "proposed_slug": "handai-guanzhi",
+   "source_span": {
+    "block_ids": [
+     "b0118"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3074,
+    "line_start": 3050,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "汉代冠制是社会人士身份的标志：文官戴进贤冠、与介帻相配，武将戴武弁大冠（漆纱所制，又称笼冠）、与平巾帻相配。进贤冠前有梁，亦称梁冠，以梁的多少来区分等级；冕冠为帝王冠，长冠为宦官内侍佩戴，法官有法冠。帻即头巾，普通人不能戴冠只能戴帻，并有平顶的“平巾帻”和房屋状的“介帻”之分。",
+   "title": "汉代冠制",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-10",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3069-L3073"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "陶俑群/雕塑",
+    "location": "秦兵马俑坑",
+    "period": "秦",
+    "title": "秦始皇兵马俑"
+   },
+   "proposed_slug": "qinshihuang-bingmayong",
+   "source_span": {
+    "block_ids": [
+     "b0118"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3074,
+    "line_start": 3050,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "秦汉时期的将士服饰，以秦始皇兵马俑和汉代兵马俑的服饰为典范，有不同的铠甲、战袍样式。从出土的将军俑服饰看，战袍外罩以护甲，甲衣多留阔边，胸前缀以佩饰，而武士俑的服饰为编缀的甲衣。秦兵马俑坑中出现过御手俑的服饰上有护袖的设计，起到保护御手手臂的作用。",
+   "title": "秦始皇兵马俑",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-107",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3063-L3063"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "有面无里的单衣，应为衬衣样式。",
+    "term": "禅衣"
+   },
+   "proposed_slug": "chanyi",
+   "source_span": {
+    "block_ids": [
+     "b0118"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3063,
+    "line_start": 3063,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "衣制中有禅衣，应为一种衬衣的样式，亦作有面无里的单衣。",
+   "title": "禅衣",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-108",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3063-L3063"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代鞋履按用途分类：舄用于祭祀，屦用于家居，屐为雨天践泥的木制鞋。",
+    "term": "履的种类"
+   },
+   "proposed_slug": "lv-de-zhonglei",
+   "source_span": {
+    "block_ids": [
+     "b0118"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3063,
+    "line_start": 3063,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "履按用途分为汉代鞋履的三类：舄为祭祀用鞋；屦是家居用鞋；屐是雨天践泥的木制鞋子。",
+   "title": "履的种类",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T20:12:04+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-13",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3096-L3096"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "镜面对阳光反射到墙面时光斑能呈现镜背纹饰的汉镜，作者归因于铜质冷却加工研磨造成的内质不匀。",
+    "term": "透光镜（魔光镜）"
+   },
+   "proposed_slug": "touguangjing",
+   "source_span": {
+    "block_ids": [
+     "b0119"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3099,
+    "line_start": 3075,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "汉镜中还有一种奇妙的透光镜：用镜面对阳光反射到墙面时，光斑中能够呈现镜子背面的纹饰。作者解释这是利用了制镜中铜质材料在冷却时加工研磨所产生的内质变化原理，镜中材质出现分子不匀的结果，因而俗称“魔光镜”。",
+   "title": "透光镜（魔光镜）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-17",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3113-L3113"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "香炉",
+    "designer": "丁缓",
+    "period": "西汉",
+    "title": "卧褥香炉（被中香炉）"
+   },
+   "proposed_slug": "woyue-xianglu",
+   "source_span": {
+    "block_ids": [
+     "b0120"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3120,
+    "line_start": 3100,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "《西京杂记》载西汉长安工匠丁缓作卧褥香炉，一名被中香炉；“为机环转运四周，而炉体常平，可置之被褥”，故以为名。其法本出房风，后绝，至丁缓始更为之。作者据此认为丁缓的发明是对前人制作香炉技术的恢复和延续。",
+   "title": "卧褥香炉（被中香炉）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-18",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3113-L3113",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3171-L3171",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3199-L3199"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "title": "《西京杂记》"
+   },
+   "proposed_slug": "xijing-zaji",
+   "source_span": {
+    "block_ids": [
+     "b0120",
+     "b0124",
+     "b0125"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3227,
+    "line_start": 3100,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "《西京杂记》为本书多处引用的文献，记载西汉长安工匠丁缓作卧褥香炉、常满灯，以及“记道车，驾四，中道”等工艺与器物轶事。原文未署作者。",
+   "title": "《西京杂记》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-25",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3148-L3150",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3109-L3109"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "测震仪器",
+    "material": "精铜",
+    "period": "东汉阳嘉元年",
+    "title": "地动仪（候风地动仪）"
+   },
+   "proposed_slug": "didongyi",
+   "source_span": {
+    "block_ids": [
+     "b0123",
+     "b0120"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3155,
+    "line_start": 3100,
+    "section": "第六节 服饰与铜镜"
+   },
+   "summary": "阳嘉元年造候风地动仪：以精铜铸成，员径八尺，合盖隆起，形似酒尊，饰以篆文山龟鸟兽之形；中有都柱，傍行八道，施关发机；外有八龙，首衔铜丸，下有蟾蜍，张口承之。地震时尊振龙机发吐丸，蟾蜍衔之，虽一龙发机而七首不动，寻其方面乃知震之所在。作者称这是世界上第一个测量地震的仪器，今人复制了地动仪的木质模型。",
+   "title": "地动仪（候风地动仪）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-21",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3127-L3127"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "蔡伦用树肤、麻头、敝布、鱼网所造之纸，元兴元年奏上后天下称“蔡侯纸”。",
+    "term": "蔡侯纸"
+   },
+   "proposed_slug": "caihouzhi",
+   "source_span": {
+    "block_ids": [
+     "b0122"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3141,
+    "line_start": 3123,
+    "section": "第七节 造纸与灯具"
+   },
+   "summary": "蔡侯纸指蔡伦所造的纸：以树肤、麻头、敝布、鱼网为原料，“元兴元年奏上之，帝善其能，自是莫不从用焉，故天下咸称蔡侯纸”（《后汉书·宦官传》）。作者认为蔡伦的造纸发明为后来中国文化的传播产生了极其广泛的影响。",
+   "title": "蔡侯纸",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-27",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3161-L3161",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L5358-L5358"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-66"
+   ],
+   "proposed_fields": {
+    "category": "磁性指向仪器",
+    "material": "天然磁石",
+    "period": "战国至秦汉",
+    "title": "司南"
+   },
+   "proposed_slug": "sinan",
+   "source_span": {
+    "block_ids": [
+     "b0124",
+     "b0221"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 5385,
+    "line_start": 3156,
+    "section": "第七节 造纸与灯具"
+   },
+   "summary": "司南利用磁石的原理获得方向的指引；战国时期，人们开始发现并利用磁铁的指极特性，发明了司南，这是一种以磁性辨别方向的仪器，在秦汉时期已广为使用。东汉王充《论衡·是应篇》“司南之杓，投之于地，其柢指南”说明当时人们的认识水平；作者认为司南在唐宋时期被指南针替代，因天然磁石加工中磁性散失、方向精准度失偏。",
+   "title": "司南",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-30",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3183-L3191"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "帛地图",
+    "location": "长沙马王堆",
+    "period": "西汉",
+    "title": "马王堆帛地图（地形图、驻军图、城邑图）"
+   },
+   "proposed_slug": "mawangdui-boditu",
+   "source_span": {
+    "block_ids": [
+     "b0124"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3194,
+    "line_start": 3156,
+    "section": "第七节 造纸与灯具"
+   },
+   "summary": "1973年长沙马王堆出土三幅绘制在帛上的地图，有地形图、驻军图、城邑图，是西汉时期重要的地图资料。作者称其繁密而井然、详备而明晰，地形图为18万分之一、驻军图为8万分之一比例，是经过精心计算和设计的结果，反映测绘方法严谨的科学特征。此组地图为清单级聚合，非单幅作品。",
+   "title": "马王堆帛地图（地形图、驻军图、城邑图）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-33",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3208-L3208"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代灯具类型，包括动物形灯（牛灯、羊灯、朱雀灯等）与树形灯；动物形灯利用动物形态，将动物姿态与灯具结合。",
+    "term": "动物形灯与树形灯"
+   },
+   "proposed_slug": "dongwuxing-dengju",
+   "source_span": {
+    "block_ids": [
+     "b0125"
+    ],
+    "chapter": "第四章 统一的气量——秦汉时期的设计",
+    "line_end": 3227,
+    "line_start": 3195,
+    "section": "第七节 造纸与灯具"
+   },
+   "summary": "汉代其他灯具有动物形灯和树形灯，其中的牛灯、羊灯、朱雀灯、树形灯等造型优美、功能明确。动物形灯具利用动物形态，将动物的姿态与灯具连结在一起，如朱雀衔环；羊形铜灯是在羊背上开一盖，羊身内部盛油燃芯；牛形铜灯是在牛身上另置一灯具，灯罩可自由旋转，利用虹吸原理使油烟随通管进入牛腹。此为类型聚合条目。",
+   "title": "动物形灯与树形灯（牛灯、羊灯、朱雀灯、树形灯）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ }
+]

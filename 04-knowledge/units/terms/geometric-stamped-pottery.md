@@ -40,19 +40,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "几何印纹陶是 B.5.3 南方体系的上位类别：在陶坯上拍印或压印几何形纹样，按火度分印纹软陶与印纹硬陶两档，长江以南为主要分布"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "几何印纹陶是 B 维度下陶器类型条目的上位类别：胎料、火度与成型属工艺，几何纹的排布属装饰效果。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "几何印纹陶是 B.5.3 南方体系的上位类别：在陶坯上拍印或压印几何形纹样，按火度分印纹软陶与印纹硬陶两档，长江以南为主要分布"
 ---
 
 ## 描述
@@ -91,12 +99,10 @@ hierarchy_scope_note: "几何印纹陶是 B 维度下陶器类型条目的上位
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是南方印纹陶系的入口条目，向下分出软陶与硬陶，向外与彩陶、黑陶构成田自秉式的三大陶系并置。可支持未来"陶器类型分类体系"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 几何印纹陶是 B.5.3 南方体系的上位类别：在陶坯上拍印或压印几何形纹样，按火度分印纹软陶与印纹硬陶两档，长江以南为主要分布
 ## 相关知识元
 
 同批写回的 `terms/geometric-stamped-hard-pottery.md` 是本条的下位类别，田自秉明确把二者列为"两种"；`terms/dark-pattern-pottery.md`、`terms/caihui-tao.md` 与本案同属战国陶器品种序列，三册在"② 陶器的品种分类"一节内前后相邻。`terms/proto-porcelain.md` 所指原始青瓷与硬陶在田自秉册中同窑共烧。`terms/painted-pottery.md`（彩陶）在田自秉的三系并置中与本条并列；`terms/longshan-culture.md`、`terms/hemudu-culture.md` 是夏燕靖两版本条前后相邻的文化条目。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

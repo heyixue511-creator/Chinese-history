@@ -1,0 +1,12 @@
+persons/zhao-wulingwang | B | - | ruler | medium | body_dim_mentions: True
+persons/ganjiang | B | - | craftsman | medium | body_dim_mentions: False
+persons/li-bing | B | - | engineer | medium | body_dim_mentions: True
+persons/zheng-guo | B | - | engineer | medium | body_dim_mentions: False
+persons/ximen-bao | B | - | statesman | medium | body_dim_mentions: False
+persons/sun-wu | B | - | scholar | medium | body_dim_mentions: False
+persons/lv-buwei | B | - | statesman | low | body_dim_mentions: False
+terms/yi-bi-qian | D | - | currency | low | body_dim_mentions: True
+terms/huan-qian | D | - | currency | medium | body_dim_mentions: True
+terms/jin-ban | D | - | currency | low | body_dim_mentions: True
+terms/dugout-canoe | B | - | ship_type | medium | body_dim_mentions: False
+terms/plank-boat | B | - | ship_type | medium | body_dim_mentions: False

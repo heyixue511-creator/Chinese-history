@@ -52,17 +52,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下秦代陶俑群的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: representative_work
+    primary: true
+    scope_note: "秦兵马俑是 B.5.3 明器尺度的等身一端：7000 余件、按真人大小、身高 1.75—1.85 米、最高 1.98 米，以陶俑替代真人殉葬；窑址尚未发现"
+hierarchy_scope_note: "秦兵马俑是 B.5.3 明器尺度的等身一端：7000 余件、按真人大小、身高 1.75—1.85 米、最高 1.98 米，以陶俑替代真人殉葬；窑址尚未发现"
 ---
 
 ## 描述
@@ -94,11 +102,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下秦代陶俑群的器物锚点。Th
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下秦代陶俑群的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 秦兵马俑是 B.5.3 明器尺度的等身一端：7000 余件、按真人大小、身高 1.75—1.85 米、最高 1.98 米，以陶俑替代真人殉葬；窑址尚未发现
 ## 相关知识元
 
 与秦始皇陵同属秦代陵墓系统；陵是整体，兵马俑是陪葬坑。relation 未审查。

@@ -1,0 +1,57 @@
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-195  [historiographic_claim]  L5827-5906
+辽、金、西夏、元时期是游牧民族文化与中原汉文化并行的发展阶段。
+NOTE: 原文在总述年代后直接作此分期判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-196  [historiographic_claim]  L5827-5906
+这段历史是中原汉民族的农耕文化和北方草原游牧民族文化的较量，结果是中原文化的软弱而导致了游牧民族的胜利。
+NOTE: 原文以“较量”与因果句作总判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-197  [synthetic_claim]  L5827-5906
+辽金西夏元的经历，是草原文化在向农耕文化征服中的一种失败，同时也是不同程度接受和学习中原农耕文化的过程，因此在艺术设计史上有着较高的研究和参照意义。
+NOTE: 原文综合政治、文化与设计史意义作总结性判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-198  [interpretive_claim]  L5827-5906
+马上得天下，却不能马上治天下，如辽国和元朝；同时，马上得天下，也不能用北宋末年的方法治理，如金朝。
+NOTE: 原文以三个政权为例提出治理方式判断；句子被图版页中断，跨 L5858 与 L5874。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-70  [historiographic_claim]  L5909-5961
+文字的使用和完善是一个民族智慧成熟的标志；中国北方的游牧、渔猎民族创建文字，表述民族的意志，从部落文明走向定居生活。
+NOTE: L5913 为第二节文字部分的总论，作者以文字创制概括辽、金、西夏、元的设计史意义。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-71  [historiographic_claim]  L5909-5961
+任何文字的形成，都是社会生活积累的结果，最后仅仅是由某个人整理完成。
+NOTE: L5945 在引述沈括关于西夏文字创制的说法后，作者提出这一一般性判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-72  [interpretive_claim]  L5962-6017
+辽代对中原文化的企慕，造成汉文字典籍的大量印制。
+NOTE: L5973 在列举《史记》《汉书》等汉籍印制后给出因果解释，并以汉籍译为契丹文印刷为证。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-73  [interpretive_claim]  L5962-6017
+元代的印刷由于官方审查制度严格，印刷水平的提高较为缓慢。
+NOTE: L6001 以官方审查制度解释元代印刷水平提高缓慢。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-74  [historiographic_claim]  L6032-6049
+元人的书法是对五代至宋书法“尚意”风格的修正，将个人书写和古人法度结合起来，主观也有异族统治下对传统文化的无奈选择，既保存了汉文字的传统书写方式，又延续和充实了中华民族的文化意蕴。
+NOTE: L6038 在叙述赵孟頫影响后，作者对元人书法的整体取向作出解释。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-75  [evaluative_claim]  L6032-6049
+元人书法的规范化，加强了书法艺术的观赏性，却淡化了书写的实用价值。
+NOTE: L6048 为书法节末段的价值判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-76  [evaluative_claim]  L6321-6355
+以瓷器模仿皮囊壶、形成扁形鸡冠瓷壶，是契丹民族创造性的制瓷设计。
+NOTE: L6325 在描述皮囊壶造型后直接作出设计评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-77  [historiographic_claim]  L6310-6318
+棉花纺织技术的广泛应用，使棉布量产成为可能，这逐渐地改变了人们服饰形态，提高了社会生活水平，也使后来的服饰文化有了新的发展契机。
+NOTE: L6317 为黄道婆节的总结判断，将棉纺技术应用与服饰形态变化联系起来。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-78  [historiographic_claim]  L6577-6588
+宋代兵器和战术是当时最先进的，但最根本的因素应是人。
+NOTE: L6579 在比较宋与辽金元胜负后提出，强调人的因素高于器物技术。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-79  [historiographic_claim]  L6577-6588
+这是中原文明的精湛所导致的文弱与衰落，而北方游牧民族的野蛮粗犷，在不断冲击中原政权的同时，也为中国社会注入了阳刚豪迈的风俗。
+NOTE: L6583 为结论节对中原文明与游牧民族关系的核心判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-80  [historiographic_claim]  L6577-6588
+游牧民族在破坏了中原政权之后，也未能有“前车之鉴”的清醒认识，最终还是重蹈覆辙，如金代。
+NOTE: L6583 以金代为例说明游牧政权亦重蹈中原政权覆辙。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-81  [synthetic_claim]  L6577-6588
+辽、金、西夏、元时期北方游牧民族高度重视器具设计及工匠，在实践中展示了诸多器具设计的真实水平；这其中有对宋代设计文化的借鉴，也有根据民族实际的改造。
+NOTE: L6585 综合全章材料，对辽金西夏元器具设计作出总体评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-82  [historiographic_claim]  L6520-6542
+宋代毕昇的陶泥活字技术提供了活字印刷的思想，但后来极少有人继承操作，而王祯的实践使活字印刷开始进入了社会生活的文化流通中。
+NOTE: L6541 比较毕昇陶泥活字与王祯活木字实践，评价王祯的技术史意义。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-83  [historiographic_claim]  L6581-6581
+人具有自然和文化的双重属性，一方面为了满足生存的需要，发明和创造了许多器物；另一方面又因为生活的富足而多生惰性，而渐积腐朽，以至量变到质变。对于国家来讲，就是天翻地覆的巨变，导致“后人哀之而不鉴之”的必然结果。
+NOTE: L6581 为结论第二段，以人的自然/文化双重属性解释国家兴亡与“后人哀之而不鉴之”。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-09-84  [evaluative_claim]  L6269-6269
+金代后期的风俗中，男性的衣饰也有红黄颜色，与妇女相差无几，并用金珠等贵重材料装饰，非常华丽。而金地的汉族富贵者也竞相效仿，至此，金代已有亡国之象。
+NOTE: L6269 由金代后期男性衣饰华丽、汉族富贵者竞相效仿，直接推出“金代已有亡国之象”。

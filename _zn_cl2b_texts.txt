@@ -1,0 +1,164 @@
+## cand-02-01  L787-811  periodization
+claim_text: 春秋战国时期奴隶制逐步衰落瓦解并向封建制急剧转变，炼铜业结束、冶铁业兴起，铸铁农具的推广使用是这一时期社会生产力变革的主要标志。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-05  L825-838  interpretation
+claim_text: 我国由块炼铁到生铁冶铸的技术突破，与商周时期高度发展的青铜冶铸技术分不开，其中鼓风技术的进步（春秋末年使用排橐）是最关键的设备条件。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-07  L839-844  basic_fact
+claim_text: 我国生产黑心、白心可锻铸铁的历史早于欧洲1700年以上。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-09  L845-854  interpretation
+claim_text: 铁范铸造降低了铁器的成本，有利于质量和生产效率的提高。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-10  L855-858  interpretation
+claim_text: 河南辉县出土的战国铁犁是现存我国最早的铁犁，用畜力作业，成为农业史上划时代的革命。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-13  L859-871  interpretation
+claim_text: 曾国仅为不大的诸侯小国，却能铸造曾侯乙编钟等精湛青铜器，说明当时冶铜业的规模和推广程度已经相当普及。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-14  L859-1043  periodization
+claim_text: 进入春秋战国时期，青铜器的使用主要是‘钟鸣鼎食’器具的组合，已失去祭祀和礼器的特性，转向日用生活器具发展。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-16  L872-882  periodization
+claim_text: 青铜器装饰纹样格式由商代的单独纹样（中轴对称），变为周代左右连续反复的二方连续纹样，再变为春秋战国的上下左右四方连续纹样。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-21  L896-901  interpretation
+claim_text: 春秋战国时期官私制陶作坊遍布各城镇、陶窑面积比西周大五倍，且殉葬明器数量巨大，是此时制陶业的一大特点。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-24  L910-919  interpretation
+claim_text: 彩绘陶的纹样按装饰位置采用不同形式，器盖多用规则对称的旋转形式，器颈部或脚部多用三角形，以适应器皿面积收缩或扩展的需要。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-27  L934-939  interpretation
+claim_text: 由于漆器轻便精巧，战国时期已部分取代了粗笨的青铜器。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-31  L952-955  interpretation
+claim_text: 地处长江流域的楚国髹漆业尤负盛名，代表着战国漆器工艺的高超水平。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-35  L981-987  interpretation
+claim_text: 缫丝技术和脚踏提综斜织机取代古老的踞织机，提高了织造的速度和质量。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-39  L1004-1009  interpretation
+claim_text: 春秋战国诸子对服饰持不同主张：墨家提倡节俭朴素，荀子主张按等级穿着不同服饰，韩非子提倡‘崇尚自然，反对修饰’。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-44  L1028-1035  interpretation
+claim_text: 春秋战国时期的服饰有庞大的织染工艺作后盾，奠定了上衣下裳和上下连属等传统服装的基本形制，并显露出服饰的纹样寓意和色彩的象征性。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-50  L1053-1062  interpretation
+claim_text: 《考工记》的营国制度把实际生活的需求、礼仪活动的要求、形式上的美感和巫术上的效用严整地结合在一起，成为对以后都城建设具有持续而深刻影响的建造模式。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-51  L1063-1083  periodization
+claim_text: 春秋时期是车战的黄金时代，诸侯争战常出动千辆以上战车，‘千乘之国’‘万乘之君’成为强国争霸的重要标志。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-52  L1084-1089  basic_fact
+claim_text: 《考工记》对兵车、田车、乘车的车轮尺寸作了标准化规定，依齐尺推算兵车、乘车轮径为1.30米，与河南辉县琉璃阁战国墓16号车轮径实测1.30米相符。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-54  L1094-1097  interpretation
+claim_text: 所有类型的战船设计都脱离不开船舶结构与技术的设计，这些设计不仅要符合作战要求，还要考虑使用方便直至船舶造型的气势，注入的设计意识十分丰富。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-57  L1108-1135  interpretation
+claim_text: ‘几’与‘席’是自先秦开始使用的两种比较特别的家具，用席的多少、好坏按贵贱而论，几席与冠冕合用成为表明等级之意的重要象征，故有‘冠冕几席’之说。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-58  L1130-1135  interpretation
+claim_text: 越王勾践剑不锈有三方面原因：铜作为主要成分是不活泼金属、日常不易锈蚀；髹漆木质剑鞘与夯土密封使墓室基本隔绝空气；墓室长期被中性地下水浸泡使空气含量更少。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-62  L1155-1158  interpretation
+claim_text: 在手工艺方面，官方手工艺荟萃众多能工巧匠并实行严格的工艺管理和细密分工，极大促进了手工艺技术进步，同时孕育出丰富的设计思想，诸子百家的思想观念对当时设计思想的形成与启迪起到巨大作用。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-63  L1159-1174  periodization
+claim_text: 春秋战国时期‘诸侯异政，百家异说’，统治者礼贤下士、网罗知识分子著书立说，打破‘学在官府’的封闭局面，形成比较活跃的‘士’阶层，其中一些人从事自然科学和实际生产技术的整理。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-67  L1175-1178  interpretation
+claim_text: 孔子的‘文质兼备’审美主张加深了对实用与审美统一性的认识，尤其对古代服饰审美观念的形成影响极大。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-69  L1181-1195  interpretation
+claim_text: 墨子以‘利于人谓之巧，不利于人谓之拙’为古代设计行业提出了一种评判标准，体现重功能而反对无谓装饰、追求‘器完而不饰’与‘质真而素朴’的设计审美意趣。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-72  L1200-1203  interpretation
+claim_text: 老子‘有之以为利，无之以为用’的‘有’‘无’辩证关系，用今天的话说即是设计的空间观念，丰富了古代设计思想。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-74  L1204-1215  interpretation
+claim_text: 孟子以民为本、包括设计应以民为本的主张虽具有进步意义，但在封建社会里不过只是一种幻想，哪个君主都不听他的。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-78  L1220-1223  interpretation
+claim_text: 韩非子‘去淫丽’是正确的，但‘去智巧’则带有片面性，这样反而会将美的内质和美的外形一同削弱。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-79  L1224-1229  basic_fact
+claim_text: 成书于春秋末年的《考工记》是我国第一部手工艺专著，其述及的30项手工艺生产设计规范是以往生产经验的科学总结。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-81  L1230-1233  interpretation
+claim_text: 《考工记》所载‘金有六齐’的铜锡合金配方基本符合现代金属学原理。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-82  L1242-1254  interpretation
+claim_text: 《考工记》强调‘天时’‘地气’‘材美’‘工巧’四原则，即‘天有时，地有气，材有美，工有巧，合此四者方可为良’，这是一种朴素的辩证唯物论的美学思想。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-02-83  L1242-1254  interpretation
+claim_text: 《考工记》第一次提出了朴素的工艺观，即‘材美工巧’的认识观念；这不仅是当时较为系统的理论总结，即使在今天仍可视为工艺制作的基本法则。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}
+
+## cand-03-03  L1255-1262  interpretation
+claim_text: 《管子·奢靡篇》“富者靡之，贫者为之”一段，是为剖析奢侈消费提供理论阐述的依据。
+summary: 
+knowledge_match: {"notes": "知识库当前为 0 KU；待人工复核。", "status": "novel", "target_refs": []}

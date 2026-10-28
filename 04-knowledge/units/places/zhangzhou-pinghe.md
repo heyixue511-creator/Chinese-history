@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "漳州平和是 B 维度下克拉克瓷原产地与窑址群的产地条目；欧洲命名与外销市场属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "克拉克瓷原产地与五处古窑址；本批只取产地与窑址群"
+hierarchy_scope_note: "克拉克瓷原产地与五处古窑址；本批只取产地与窑址群"
 ---
 
 ## 描述
@@ -64,12 +72,10 @@ hierarchy_scope_note: "漳州平和是 B 维度下克拉克瓷原产地与窑址
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明清外销瓷的**产地端**，与 `terms/blue-and-white-porcelain.md` 的瓷种端、`institutions/dutch-east-india-company.md` 的贸易端合成克拉克瓷的三段。它的独有价值是窑址名目与“宽边＋开光”的辨识特征。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 克拉克瓷原产地与五处古窑址；本批只取产地与窑址群
 ## 相关知识元
 
 `terms/blue-and-white-porcelain.md` 已登记克拉克瓷的定义、得名与万历期浙料、分水、3-4 色阶，本条不复述其瓷种特征；`institutions/dutch-east-india-company.md` 记荷兰东印度公司与 1602 年捕获事件；`terms/mise-porcelain.md` 记分水与色阶一类的青花技法；`places/guangzhou.md` 记广州作为贸易瓷交易中心之一，是本条产品出海的另一节点。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

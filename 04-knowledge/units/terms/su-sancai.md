@@ -34,19 +34,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "以「不用红」界定的彩瓷；田自秉作康熙、夏燕靖作明正德，时代与彩料清单均冲突"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度彩绘瓷的品种条目，色目与不用红色的界定属 C 维度；两册年代分歧使本条只能并列。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "以「不用红」界定的彩瓷；田自秉作康熙、夏燕靖作明正德，时代与彩料清单均冲突"
 ---
 
 ## 描述
@@ -66,12 +74,10 @@ hierarchy_scope_note: "本条是 B 维度彩绘瓷的品种条目，色目与不
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度彩绘瓷的品种条目，色目与不用红色的界定属 C 维度；两册年代分歧使本条只能并列。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 以「不用红」界定的彩瓷；田自秉作康熙、夏燕靖作明正德，时代与彩料清单均冲突
 ## 相关知识元
 
 `terms/tang-sancai.md`、`terms/song-sancai.md`、`terms/liao-sancai.md` 分记唐、宋、辽三彩；`procedures/ming-qing-caici-zhuangshi.md` 记明清彩瓷装饰。本条与上述各条并列，不合并。relation 未审查。

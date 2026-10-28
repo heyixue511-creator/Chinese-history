@@ -1,0 +1,8 @@
+中国工艺美术史 => 04-knowledge/units/publications/long-zongxin-zhongguo-gongyi-meishu-shi.md; 04-knowledge/units/publications/tian-zizhu-zhongguo-gongyi-meishu-shi.md; 04-knowledge/units/publications/wang-jiashu-zhongguo-gongyi-meishu-shi.md
+中国艺术设计史 => 04-knowledge/units/publications/zhongguo-yishu-shejishi-upgraded.md; 04-knowledge/units/publications/zhongguo-yishu-shejishi-zhaonong-2009.md
+中国设计史 => 04-knowledge/units/publications/zhongguo-shejishi-gaofeng.md; 04-knowledge/units/publications/zhongguo-shejishi-xiayanjing.md
+孟子 => 04-knowledge/units/persons/mengzi.md; 04-knowledge/units/publications/mengzi.md
+庄子 => 04-knowledge/units/persons/zhuangzi.md; 04-knowledge/units/publications/zhuangzi.md
+王城图 => 04-knowledge/units/works/wangchengtu-dai-zhen.md; 04-knowledge/units/works/wangchengtu-nie-chongyi.md
+荀子 => 04-knowledge/units/persons/xunzi.md; 04-knowledge/units/publications/xunzi.md
+韩非子 => 04-knowledge/units/persons/han-fei-zi.md; 04-knowledge/units/publications/hanfeizi.md

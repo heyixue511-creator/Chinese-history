@@ -1,0 +1,303 @@
+[
+ {
+  "claim_id": "claim-0072",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-112",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1087,
+   "line_end": 1087,
+   "span_kind": "line",
+   "key_lines": [
+    1087
+   ],
+   "block_ids": [
+    "b0126"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-112"
+  }
+ },
+ {
+  "claim_id": "claim-0083",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-137",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1262,
+   "line_end": 1262,
+   "span_kind": "line",
+   "key_lines": [
+    1262
+   ],
+   "block_ids": [
+    "b0158"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-137"
+  }
+ },
+ {
+  "claim_id": "claim-0084",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-19",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1290,
+   "line_end": 1290,
+   "span_kind": "line",
+   "key_lines": [
+    1290
+   ],
+   "block_ids": [
+    "b0163"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-19"
+  }
+ },
+ {
+  "claim_id": "claim-0076",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-22",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1298,
+   "line_end": 1303,
+   "span_kind": "bounded",
+   "key_lines": [
+    1300,
+    1302
+   ],
+   "block_ids": [
+    "b0166"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-22"
+  }
+ },
+ {
+  "claim_id": "claim-0085",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-25",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1325,
+   "line_end": 1325,
+   "span_kind": "line",
+   "key_lines": [
+    1325
+   ],
+   "block_ids": [
+    "b0171"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-25"
+  }
+ },
+ {
+  "claim_id": "claim-0086",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-26",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1331,
+   "line_end": 1331,
+   "span_kind": "line",
+   "key_lines": [
+    1331
+   ],
+   "block_ids": [
+    "b0173"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-26"
+  }
+ },
+ {
+  "claim_id": "claim-0087",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-29",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1362,
+   "line_end": 1362,
+   "span_kind": "line",
+   "key_lines": [
+    1362
+   ],
+   "block_ids": [
+    "b0177"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-29"
+  }
+ },
+ {
+  "claim_id": "claim-0093",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-50",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1475,
+   "line_end": 1475,
+   "span_kind": "line",
+   "key_lines": [
+    1475
+   ],
+   "block_ids": [
+    "b0200"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-50"
+  }
+ },
+ {
+  "claim_id": "claim-0094",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-54",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1489,
+   "line_end": 1489,
+   "span_kind": "line",
+   "key_lines": [
+    1489
+   ],
+   "block_ids": [
+    "b0204"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-54"
+  }
+ },
+ {
+  "claim_id": "claim-0095",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-58",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1506,
+   "line_end": 1506,
+   "span_kind": "line",
+   "key_lines": [
+    1506
+   ],
+   "block_ids": [
+    "b0206"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-58"
+  }
+ },
+ {
+  "claim_id": "claim-0097",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-64",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1532,
+   "line_end": 1532,
+   "span_kind": "line",
+   "key_lines": [
+    1532
+   ],
+   "block_ids": [
+    "b0213"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-64"
+  }
+ },
+ {
+  "claim_id": "claim-0098",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-66",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1538,
+   "line_end": 1538,
+   "span_kind": "line",
+   "key_lines": [
+    1538
+   ],
+   "block_ids": [
+    "b0215"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-66"
+  }
+ },
+ {
+  "claim_id": "claim-0099",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-72",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1558,
+   "line_end": 1558,
+   "span_kind": "line",
+   "key_lines": [
+    1558
+   ],
+   "block_ids": [
+    "b0216"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-72"
+  }
+ },
+ {
+  "claim_id": "claim-0100",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-76",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1575,
+   "line_end": 1575,
+   "span_kind": "line",
+   "key_lines": [
+    1575
+   ],
+   "block_ids": [
+    "b0219"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-76"
+  }
+ },
+ {
+  "claim_id": "claim-0101",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-77",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1577,
+   "line_end": 1577,
+   "span_kind": "line",
+   "key_lines": [
+    1577
+   ],
+   "block_ids": [
+    "b0219"
+   ],
+   "chapter": "春秋战国时期的设计自觉",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-77"
+  }
+ }
+]

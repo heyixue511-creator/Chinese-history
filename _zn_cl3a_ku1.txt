@@ -1,0 +1,419 @@
+
+===== places/liangzhu-gucheng.md =====
+---
+title: 良渚古城（Liangzhu City Site）
+name_en: Liangzhu City Site
+type: place
+sub_type: archaeological_site
+modern_name: 浙江余杭良渚
+historical_names:
+  - 良渚古城
+administrative_context: 浙江余杭良渚、瓶窑、安溪三镇之间（原文按良渚文化遗址群定位）
+spatial_scope: 东西长约 1500—1700 米，南北长约 1800—1900 米，略呈圆角长方形，正南北方向；城墙部分地段残高 4 米多，底部先垫石块、宽 40—60 米，上堆纯净黄土夯实
+tags:
+  - 良渚文化
+  - 史前城址
+  - 城墙
+  - 中华第一城
+  - 新石器时代
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L487-L507."
+    location: "L487-L507"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本条是 B 维度史前城址与夯筑技术的锚点。原文只给平面尺度与城墙做法，未涉及城内功能分区，故不构成绩能或规划制度判断。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+良渚古城是本册讨论良渚文化时给出的城址材料。原文记：对良渚文化遗址全貌的考察发现这一区域有座古城，东西长约 1500—1700 米、南北长约 1800—1900 米，略呈圆角长方形，正南北方向；城墙部分地段残高 4 米多，做法考究，底部先垫石块、宽度达 40—60 米，上面堆筑纯净的黄土夯实。原文称其为目前所发现的新石器时代我国最大城址，堪称“
+
+===== places/xianrendong-site.md =====
+---
+title: 仙人洞遗址（Xianrendong Site）
+name_en: Xianrendong Site
+type: place
+sub_type: archaeological_site
+modern_name: 江西万年
+administrative_context: 江西万年县；旧石器时代末至新石器时代早期洞穴遗址
+spatial_scope: 洞穴遗址；1962年出土陶器，原文称距今8000多年
+tags:
+  - 新石器时代
+  - 陶器起源
+  - 洞穴遗址
+  - 江西万年
+sources:
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L484."
+    location: "L484"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L287-L427."
+    location: "L287-L427"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 2
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "仙人洞遗址是 B 维度下陶器起源与史前造物遗址条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+仙人洞遗址位于江西万年县，1962年出土距今8000多年的陶器。田自秉称为我国目前发现最早的陶器资
+
+===== terms/liangzhu-shili.md =====
+---
+title: 良渚石犁（Liangzhu Shili (Liangzhu Stone Plough)）
+name_en: Liangzhu Stone Plough
+type: term
+sub_type: agricultural_tool
+term_original: 良渚石犁
+term_zh: 良渚石犁
+academic_translation_status: provisional
+translation_note: 采用遗址名加器名译法 Liangzhu Stone Plough；来源未提供英文名。
+tags:
+  - 良渚文化
+  - 石犁
+  - 犁耕
+  - 稻作农业
+  - 破土器
+  - 学术争议
+aliases:
+  - 三角形石犁
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L574-L588."
+    location: "L574-L588"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下良渚文化农具与犁耕争议的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+良渚石犁是良渚文化的三角形石犁。2016 册称江浙良渚文化区为我国最早实现犁耕的地区，许多遗址发现石犁等耘田器；但石犁是否真正用于犁耕、良渚文化是否有犁耕农业，学界尚有争议。
+
+## 核心内容
+
+- **区域与农业**: 江浙地区是原始农业稻作发育区，良渚文化区是典型的稻作区域，也是我国最早实现犁耕的地区（2016）
+- **器形**: 良渚文化石犁是三角形石犁，还有呈“V”字形的破土器（2016）
+- **功能推测**: 与商代青铜犁形制很像，很可能是犁铧
+
+===== terms/shuiniaoxing-taohu.md =====
+---
+title: 水鸟形陶壶（Shuiniaoxing Taohu (Waterbird-Shaped Pottery Hu)）
+name_en: Waterbird-Shaped Pottery Hu
+type: term
+sub_type: vessel_form
+term_original: 水鸟形陶壶
+term_zh: 水鸟形陶壶
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Waterbird-Shaped Pottery Hu；来源未提供英文名。
+tags:
+  - 良渚文化
+  - 陶壶
+  - 仿生造型
+  - 水鸟
+  - 黑皮陶
+aliases:
+  - 水鸟形壶
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L487-L516."
+    location: "L487-L516"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: low
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下良渚文化陶壶器形的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+水鸟形陶壶是良渚文化以水鸟形态为造型依据的陶壶。2016 册把它与鱼鳍形足陶鼎并提，认为二者都是模拟自然形态、按生活需要创造人工形态的例证。
+
+## 核心内容
+
+- **文化归属**: 良渚文化陶器以泥质黑皮陶和类砂灰黑陶为主，制作多为轮制，表面经过打磨（2016）
+- **造型依据**: 良渚文化的水鸟形陶壶是以动物形态为造型依据的（2016）
+- **造型观念**: 来源认为无论是鱼鳍形足陶鼎或水鸟形陶壶，均是人类在摹拟自然形态的基础上所积累的造型经验，
+
+===== terms/yuqixingzu-taoding.md =====
+---
+title: 鱼鳍形足陶鼎（Yuqixingzu Taoding (Fish-Fin-Leg Pottery Ding)）
+name_en: Fish-Fin-Leg Pottery Ding
+type: term
+sub_type: vessel_form
+term_original: 鱼鳍形足陶鼎
+term_zh: 鱼鳍形足陶鼎
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Fish-Fin-Leg Pottery Ding；来源未提供英文名。
+tags:
+  - 良渚文化
+  - 陶鼎
+  - 鱼鳍形足
+  - 仿生造型
+  - 黑皮陶
+aliases:
+  - 鱼鳍足陶鼎
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L487-L516."
+    location: "L487-L516"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: low
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下良渚文化陶鼎器形的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+鱼鳍形足陶鼎是良渚文化的代表性陶鼎，以鱼鳍形鼎足得名。2016 册称其具有代表性并显示南方地方色彩，并与水鸟形陶壶一起被视为模拟自然形态、按生活需要造型的例证。
+
+## 核心内容
+
+- **文化归属**: 良渚文化陶器以泥质黑皮陶和类砂灰黑陶为主，制作多为轮制，表面经过打磨，烧制后呈漆黑色的光泽（2016）
+- **器形特征**: 以鱼鳍形足为特征；来源未给尺寸、足部具体形态与出土单位（2016）
+- **代表性**: 鱼鳍形足陶鼎具有代表性，显示出南方的地
+
+===== terms/tao-gui.md =====
+---
+title: 陶鬶（Pottery Gui (Tripod Pourer)）
+name_en: Pottery Gui (Tripod Pourer)
+type: term
+sub_type: vessel_form
+term_original: 陶鬶
+term_zh: 陶鬶
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Pottery Gui (Tripod Pourer)；来源未提供英文名。
+tags:
+  - 龙山文化
+  - 款足
+  - 鸟喙流
+  - 炊煮器
+aliases:
+  - 陶鬻
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L487-L501."
+    location: "L487-L501"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L354-L366."
+    location: "L354-L366"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L755, L763-L768."
+    location: "L755, L763-L768"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-26
+confidence: medi
+
+===== terms/taoqi.md =====
+---
+title: 陶器（Taoqi (Pottery)）
+name_en: Pottery
+type: term
+sub_type: ceramic_type
+term_original: 陶器
+term_zh: 陶器
+academic_translation_status: provisional
+translation_note: 采用通行译名 Pottery；来源未提供英文名。
+tags:
+  - 新石器时代
+  - 黏土
+  - 羼和料
+  - 轮制
+  - 陶窑
+  - 封窑
+  - 原始手工艺
+aliases:
+  - 陶制器皿
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L306-L315."
+    location: "L306-L315"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "陶器是 B 维度下新石器时代制陶与器形设计的总类条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+陶器是新石器时代设计的重要领域。2009 册记其传说由舜设计制造，已发现的最早实物为 1962 年江西万年县仙人洞出土的 8000 多年前陶器；原料多加入羼和料，制作有手制、泥条盘筑与轮制，表面处理有压磨、压印、堆贴和刻划，新石器时代晚期陶窑、陶轮和封窑技术的应用使陶器设计达到很高水平。
+
+## 核心内容
+
+- **传说起源**: 传说陶器最初由舜设计制造，所谓“陶可滨，作什器于寿丘”，记录的就是“舜陶于水滨”这段传说（2009）
+- **最早实物**: 已发现的最早陶器，是 1962 年在江西万年县仙人洞出土的 8000 多年以前的陶器（2009）
+- **原料与羼和料**: 陶器加工原料大部分加入羼和料；炊器釜、鼎、鬲等加入量
+
+===== terms/yangshao-culture.md =====
+---
+title: 仰韶文化（Yangshao Culture）
+name_en: Yangshao Culture
+type: term
+sub_type: archaeological_culture
+term_original: 仰韶文化
+term_zh: 仰韶文化
+academic_translation_status: confirmed
+translation_note: 考古学通用拼音译名 Yangshao Culture，无争议。
+tags:
+  - 新石器时代
+  - 彩陶
+  - 黄河中游
+  - 考古学文化
+aliases:
+  - 彩陶文化（旧称，见辨析）
+  - 甘肃仰韶文化（马家窑文化别称）
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L759, L787, L794, L837, L926."
+    location: "L759, L787, L794, L837, L926"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L318-L320, L326, L334, L344, L348, L352."
+    location: "L318-L320, L326, L334, L344, L348, L352"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L458, L677, L685, L723."
+    location: "L458, L677, L685, L723"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chun
+
+===== terms/liangzhu-culture.md =====
+---
+title: 良渚文化（Liangzhu Culture）
+name_en: Liangzhu Culture
+type: term
+sub_type: archaeological_culture
+term_original: 良渚文化
+term_zh: 良渚文化
+academic_translation_status: provisional
+translation_note: 采用考古学通用拼音译名 Liangzhu Culture；来源未提供英文名。
+tags:
+  - 新石器时代
+  - 长江下游
+  - 黑陶
+  - 玉琮
+  - 玉璧
+  - 古城
+  - 考古学文化
+aliases:
+  - 东南良渚文化设计区（李立新用语）
+  - 龙山文化四类型之一（田自秉、夏燕靖归类）
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L352, L369, L388, L416."
+    location: "L352, L369, L388, L416"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L590, L602, L889, L904, L907, L917, L932, L1339, L1562."
+    location: "L590, L602, L889, L904, L907, L917, L932, L1339, L1562"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L417, L427, L734, L744."
+    location: "L417, L427, L734, L744"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      sour

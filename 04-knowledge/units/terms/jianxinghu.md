@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: boundary_case
+    primary: true
+    scope_note: "茧形壶是 B.5.3 的类别边界样本：秦代陶器品种之一，器名与器形均为来源描述；用途未载，不能据器名或蚕茧形推定其为明器或酒器"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "茧形壶是 B 维度下秦代陶器形制的术语条目；曲线与比例的形式分析归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "茧形壶是 B.5.3 的类别边界样本：秦代陶器品种之一，器名与器形均为来源描述；用途未载，不能据器名或蚕茧形推定其为明器或酒器"
 ---
 
 ## 描述
@@ -58,12 +66,10 @@ hierarchy_scope_note: "茧形壶是 B 维度下秦代陶器形制的术语条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 茧形壶是 B 维度下秦代陶器形制的术语条目；曲线与比例的形式分析归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 茧形壶是 B.5.3 的类别边界样本：秦代陶器品种之一，器名与器形均为来源描述；用途未载，不能据器名或蚕茧形推定其为明器或酒器
 ## 相关知识元
 
 `places/xianyang.md` 记咸阳秦代陶器品种；`terms/taoqi.md` 记陶器；`terms/taoqi-qixing.md` 记陶器器形；`terms/suantouping.md` 为同段所列秦代特色器形。relation 未审查。

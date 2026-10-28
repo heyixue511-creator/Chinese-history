@@ -1,0 +1,926 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+  "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+  "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+  "逐字引文用“ ”，校正与拼接用「 」，正文禁 ASCII 双引号",
+  "原文疑误照录标疑，不径改",
+  "重复实体只保留一个 canonical，另一候选判 rejected",
+  "已完整覆盖的候选判 no_delta，不改写既有条目"
+ ],
+ "decisions": [
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-52",
+   "entity": "曲辕犁",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/quyuan-li.md",
+   "analysis": "L4152 与 L4481 都以“曲辕犁（江东犁）”记唐代犁具，属农具术语；本章另有 cand-07-19 以 term 建条。work 与 term 指向同一实体，分列会形成同一农具的两种类型条目。",
+   "approve": "判 rejected：重复归类，canonical 取 cand-07-19 的 terms/quyuan-li.md；本候选不另建 work 条。",
+   "apply_note": "不写回；材料并入 terms/quyuan-li.md。",
+   "note": "canonical 为 terms/quyuan-li.md（cand-07-19）。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-54",
+   "entity": "《金刚经》",
+   "action": "rejected",
+   "target": "04-knowledge/units/publications/jingangjing-868.md",
+   "analysis": "L4162、L4401 附近所记《金刚经》与 cand-07-02“咸通九年本”同指 868 年王玠刻本；本章材料集中在刊刻、题记与印刷方式，已由该条承载。",
+   "approve": "判 rejected：与 cand-07-02 重复，canonical 为 publications/jingangjing-868.md；不另建泛称条。",
+   "apply_note": "不写回；材料并入 868 年本。",
+   "note": "canonical 为 publications/jingangjing-868.md（cand-07-02）。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-55",
+   "entity": "玉版宣",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yuban-xuan.md",
+   "analysis": "L4386 记唐代舒州与宣州造纸之地隔江相望，此时产生以檀皮为原料的名贵“玉版宣”纸；纸名、原料与产地构成独立术语身份，既有纸类条未收。",
+   "approve": "新建 terms/yuban-xuan.md：sub_type paper，primary_dimension B，confidence low（材料仅一段）；原料写檀皮，产地关系照来源。",
+   "apply_note": "六节齐全；只写来源所记檀皮原料、宣州造纸背景与纸名，来源未载的尺寸、工序与后世仿制不补。",
+   "note": "canonical 为新建条；用纸与加工纸见 terms/xuan-zhi.md、terms/shan-teng-zhi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-56",
+   "entity": "薛涛笺",
+   "action": "create",
+   "target": "04-knowledge/units/terms/xuetao-jian.md",
+   "analysis": "L4388 记薛涛笺的创制、形制与用途，是唐代染色加工纸的专名；既有 terms/xuan-zhi.md 只记清代“仿薛涛笺”，未覆盖唐代原产。",
+   "approve": "新建 terms/xuetao-jian.md：sub_type paper，primary_dimension B，confidence low。",
+   "apply_note": "六节齐全；与 terms/xuan-zhi.md 互见但不重复清代仿制；不补薛涛生平与诗事。",
+   "note": "canonical 为新建条；加工纸见 terms/xuan-zhi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-67",
+   "entity": "武则天",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wu-zetian.md",
+   "analysis": "L4132 作者评“雄才大略”；L4215 记其洛阳宫城建明堂并引《旧唐书·则天皇后纪》；L4217 记改号武周与热衷明堂；L4225 记天堂、通天宫、九鼎与乾元殿；L4291 记重建大雁塔；L4632、L4640-L4644 记与高宗合葬乾陵及山体女性化比喻。五组材料均以武则天为主语，足成人物条。",
+   "approve": "新建 persons/wu-zetian.md：sub_type ruler，primary_dimension D，secondary A，confidence medium；以“明堂与天堂／助卢舍那大佛／重建大雁塔／合葬乾陵”承载。",
+   "apply_note": "六节齐全；L4132 评语与 L4640-L4644 山体比喻标明为来源判断；不补生卒、籍贯与年表；图版未核。",
+   "note": "canonical 为新建条；城市见 places/luoyang-cheng.md、places/daxing-cheng.md，陵墓见 places/qianling.md，塔见 works/dayan-ta-652.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-80",
+   "entity": "玄奘",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xuanzang.md",
+   "analysis": "L4286 记俗姓陈、河南偃师人、少年出家、贞观元年（627）出发、前后 19 年、归国译经 74 部 1335 卷 1300 万字；L4284 记大雁塔为其存经场所；L4146 与 L4286 分别作“十六载”“19 年”；L4429 引冯贽《云仙散录》记回锋纸印普贤像。",
+   "approve": "新建 persons/xuanzang.md：sub_type monk，primary_dimension A，secondary E，confidence medium；两处行期表述并列照录，不统一。",
+   "apply_note": "六节齐全；L4429 标明为唐人笔记所记，不作玄奘自述；不补籍贯以外的生卒与师承。",
+   "note": "canonical 为新建条；著作见 publications/da-tang-xiyu-ji.md，塔见 works/dayan-ta-652.md，印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-81",
+   "entity": "《大唐西域记》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/da-tang-xiyu-ji.md",
+   "analysis": "L4146 记其为中亚和南亚 110 多个国家地区漫游十六载之后的考察记录；L4286 评“资料详实、叙述生动”，为后世研究西域的珍贵文献。两条均直接述书。",
+   "approve": "新建 publications/da-tang-xiyu-ji.md：sub_type travel_record，primary_dimension A，secondary E，confidence medium；作者玄奘，成书年、卷数与版本写未载。",
+   "apply_note": "六节齐全；不补梵名、译场与敦煌写本。",
+   "note": "canonical 为新建条；人物见 persons/xuanzang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-115",
+   "entity": "阎立德",
+   "action": "update",
+   "target": "04-knowledge/units/persons/yan-lide.md",
+   "analysis": "L4148 记“唐阎立德修复的长安城”；L4192 记其为外郭城设计监工、改大兴城为长安城、大兴宫为太极宫；L4200 与宇文恺并称长安布局的精心设计者。既有条仅据夏燕靖 2016 L2855 的洪州造海船，职能可扩。",
+   "approve": "更新 persons/yan-lide.md：追加赵农 citation（L4148, L4192, L4200），source_count 1→2，version 1→2，confidence low→medium；保留洪州造船内容。",
+   "apply_note": "新增“都城规划与监工”条；跨源姓名用字“闫立德／阎立德”并列照录，不统一。",
+   "note": "canonical 为 persons/yan-lide.md；都城见 places/daxing-cheng.md，宫殿见 works/daming-gong.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-116",
+   "entity": "筒车",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/tongche.md",
+   "analysis": "L4152、L4483 均记唐代筒车，属灌溉工具术语；本章另有 cand-07-20 以 term 建条。work 与 term 指向同一实体。",
+   "approve": "判 rejected：重复归类，canonical 取 cand-07-20 的 terms/tongche.md；本候选不另建 work 条。",
+   "apply_note": "不写回；材料并入 terms/tongche.md。",
+   "note": "canonical 为 terms/tongche.md（cand-07-20）。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-63",
+   "entity": "含元殿",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/daxing-cheng.md",
+   "analysis": "L4176-L4206 记含元殿为大朝正殿、翔鸾阁与栖凤阁、龙尾道，并引王维、岑参诗；既有 places/daxing-cheng.md 已逐字收录 L4198 全部要点，并置于大明宫—长安城整体。",
+   "approve": "判 no_delta：殿为宫城构成，既有条已完整承载；来源未给台基尺度与殿身构架，不足以独立成 work 条。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/daxing-cheng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-117",
+   "entity": "太极宫",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/daxing-cheng.md",
+   "analysis": "L4194 记太极宫即隋大兴宫改名、位于长安城中轴线北部；既有条已收 L4194-L4196 的中轴线位置、李渊李世民朝政与玄武门之变。",
+   "approve": "判 no_delta：宫名沿革与朝政材料已被既有长安城条覆盖。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/daxing-cheng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-66",
+   "entity": "明堂",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/luoyang-cheng.md",
+   "analysis": "L4207-L4231 记明堂 10 个月建成、294 尺与 300 尺两说、三层、80 余米、天堂、通天宫、九鼎与乾元殿；既有 places/luoyang-cheng.md 已全部收录。",
+   "approve": "判 no_delta：明堂为洛阳宫城中心建筑，既有条已完整承载形制与沿革。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/luoyang-cheng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-73",
+   "entity": "宝带桥",
+   "action": "create",
+   "target": "04-knowledge/units/works/baodai-qiao.md",
+   "analysis": "L4266 记 816 年（唐元和十一年）苏州葑门外六里建多孔石拱桥，刺史王仲舒捐宝带资助得名；L4271 记长 317 米、53 孔、两端 6.1 米、中央 4.1 米、最大跨度 6.85 米、榫卯拱石与“长虹卧波”评语。年代、形制、尺度齐全。",
+   "approve": "新建 works/baodai-qiao.md：sub_type bridge，primary_dimension B，secondary D，confidence medium；creator 只写王仲舒资助，不称设计者。",
+   "apply_note": "六节齐全；“世界古代拱桥中泄水能力最强”写明为来源判断；不补现存孔数与修缮史。",
+   "note": "canonical 为新建条；同类见 works/zhaozhou-qiao-595-605.md、works/tianjin-qiao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-74",
+   "entity": "敞肩型",
+   "action": "no_delta",
+   "target": "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+   "analysis": "L4266 附近的“敞肩型”是赵州桥拱肩结构的术语概括；既有 works/zhaozhou-qiao-595-605.md 已详敞肩拱定义与本桥四孔敞肩。",
+   "approve": "判 no_delta：该词在本章用于赵州桥，无独立于桥条的新材料。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 works/zhaozhou-qiao-595-605.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-118",
+   "entity": "旅人桥",
+   "action": "no_delta",
+   "target": "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+   "analysis": "L4260 引“旅人桥”为赵州桥前身的最早石拱桥记载；既有条已收该文献与桥史。",
+   "approve": "判 no_delta：桥名与文献均属赵州桥条已有材料。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 works/zhaozhou-qiao-595-605.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-119",
+   "entity": "天津桥",
+   "action": "create",
+   "target": "04-knowledge/units/works/tianjin-qiao.md",
+   "analysis": "L4273 一句记 605 年（隋大业元年）洛阳天津桥为铁链联接船只组成的浮桥，与西安灞桥并称隋唐天下闻名。",
+   "approve": "新建 works/tianjin-qiao.md：sub_type pontoon_bridge，primary_dimension B，confidence low；只写年代、地点、浮桥结构与并称。",
+   "apply_note": "六节齐全；材料仅一行，不补长度、桥址变迁与唐代重修。",
+   "note": "canonical 为新建条；城市见 places/luoyang-cheng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-77",
+   "entity": "小雁塔",
+   "action": "create",
+   "target": "04-knowledge/units/works/xiaoyan-ta.md",
+   "analysis": "L4295 记 707 年建、又称荐福寺塔、为纪念唐高宗而修、因规模小于大雁塔得名；L4297 记砖结构密檐式方塔、叠涩塔檐、原 15 层、明中期关中大地震坍顶两层、现存 13 层，以及塔身收分与“端庄秀丽、丰润优雅”评语。",
+   "approve": "新建 works/xiaoyan-ta.md：sub_type pagoda，primary_dimension B，secondary A，confidence medium；原层数与现存层数分列。",
+   "apply_note": "六节齐全；不与大雁塔混条；图版未核。",
+   "note": "canonical 为新建条；大雁塔见 works/dayan-ta-652.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-120",
+   "entity": "四门塔",
+   "action": "create",
+   "target": "04-knowledge/units/works/simen-ta.md",
+   "analysis": "L4299 一段记现存最早的仿木单檐石塔、济南青龙山神通寺、方形青石、高 15 米、塔心柱佛像、须弥座山华蕉叶相轮宝顶、四面圆形拱门与“隋代佛塔的典范”评语。",
+   "approve": "新建 works/simen-ta.md：sub_type pagoda，primary_dimension B，confidence medium。",
+   "apply_note": "六节齐全；不补平面尺寸、佛像尊数与近世修缮。",
+   "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-121",
+   "entity": "栖霞寺舍利塔",
+   "action": "create",
+   "target": "04-knowledge/units/works/qixia-si-sheli-ta.md",
+   "analysis": "L4301 一句记 601 年（隋文帝仁寿元年）始建、南唐重建、八角五层密檐式、南方佛塔秀丽玲珑样式。",
+   "approve": "新建 works/qixia-si-sheli-ta.md：sub_type pagoda，primary_dimension B，confidence low；始建与重建分列。",
+   "apply_note": "六节齐全；只一句，不补塔高、地宫与栖霞寺沿革。",
+   "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-122",
+   "entity": "崇圣寺千寻塔",
+   "action": "create",
+   "target": "04-knowledge/units/works/chongsheng-si-qianxun-ta.md",
+   "analysis": "L4303-L4309 记云南大理崇圣寺千寻塔为唐代密檐式塔、高 16 层、约 58 米、外观柔美简洁，并以“造型雅致庆典”评之；16 层与 58 米两处被图版与页眉隔断。",
+   "approve": "新建 works/chongsheng-si-qianxun-ta.md：sub_type pagoda，primary_dimension B，confidence low；16 层与约 58 米分别引。",
+   "apply_note": "六节齐全；“造型雅致庆典”照录并标疑（疑「典雅」）；不拼成连续引文，不补三塔关系。",
+   "note": "canonical 为新建条；佛塔类型见 terms/fota.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-83",
+   "entity": "石经",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shijing.md",
+   "analysis": "L4338-L4340 总述石经刊刻传统与固定经学文本的功能，L4342、L4344、L4346 分记熹平、正始、开成三刻；总述足以立术语条，三刻各立 works。",
+   "approve": "新建 terms/shijing.md：sub_type textual_monument，primary_dimension C，secondary A，confidence medium；按“刊刻传统—三次刻经—文本与书法价值”承载。",
+   "apply_note": "六节齐全；三刻只在总述层概括，细节见各 works；不补佛教石经。",
+   "note": "canonical 为新建条；三刻见 works/xiping-shijing.md、works/zhengshi-shijing.md、works/kaicheng-shijing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-84",
+   "entity": "《熹平石经》",
+   "action": "create",
+   "target": "04-knowledge/units/works/xiping-shijing.md",
+   "analysis": "L4342 记熹平四年（175）蔡邕主持刊刻七经、立于洛阳太学门外、碑石 46 块、观览摹写者车乘日千余辆；材料完整。",
+   "approve": "新建 works/xiping-shijing.md：sub_type stone_classic，primary_dimension C，secondary A，confidence medium。",
+   "apply_note": "六节齐全；经数、碑数与纪年照来源；不补残石存藏与经目细目。",
+   "note": "canonical 为新建条；人物见 persons/cai-yong.md，总述见 terms/shijing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-85",
+   "entity": "《开成石经》",
+   "action": "create",
+   "target": "04-knowledge/units/works/kaicheng-shijing.md",
+   "analysis": "L4346 记开成二年（837）刻成十二经、立于长安国子监、碑石 114 块、约 65 万字；材料完整。",
+   "approve": "新建 works/kaicheng-shijing.md：sub_type stone_classic，primary_dimension C，secondary A，confidence medium。",
+   "apply_note": "六节齐全；不补现存西安碑林与后世补刻。",
+   "note": "canonical 为新建条；总述见 terms/shijing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-123",
+   "entity": "《正始石经》",
+   "action": "create",
+   "target": "04-knowledge/units/works/zhengshi-shijing.md",
+   "analysis": "L4344 一句记正始年间以古文、篆、隶三体刻《尚书》《春秋》等，又称三体石经。",
+   "approve": "新建 works/zhengshi-shijing.md：sub_type stone_classic，primary_dimension C，confidence low；只写三体与经目。",
+   "apply_note": "六节齐全；不补碑数、残石与立碑地点。",
+   "note": "canonical 为新建条；总述见 terms/shijing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-86",
+   "entity": "蔡邕",
+   "action": "create",
+   "target": "04-knowledge/units/persons/cai-yong.md",
+   "analysis": "L4342 记蔡邕主持熹平石经刊刻、书丹上石；来源未给生卒、官职与其他著作。人物以石经事功立条。",
+   "approve": "新建 persons/cai-yong.md：sub_type calligrapher，primary_dimension C，secondary A，confidence low；只写石经主持与书丹。",
+   "apply_note": "六节齐全；不补生平、官职与《独断》等著作。",
+   "note": "canonical 为新建条；石经见 works/xiping-shijing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-90",
+   "entity": "硬黄纸",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yinghuang-zhi.md",
+   "analysis": "L4382 记唐代黄纸中有一种加蜡处理的纸、非常名贵、称为“硬黄纸”，并记敦煌藏经洞唐人写经中就有这种纸；是唐代加工纸专名。",
+   "approve": "新建 terms/yinghuang-zhi.md：sub_type paper，primary_dimension B，confidence low。",
+   "apply_note": "六节齐全；工艺只写来源所记“加蜡处理”，不补黄檗染纸、砑光等来源未载工序；不补尺寸与实物。",
+   "note": "canonical 为新建条；与 terms/xuan-zhi.md、procedures/ta-ben.md 互见。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-91",
+   "entity": "韦诞",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wei-dan.md",
+   "analysis": "L4390 记三国时期韦诞既是造笔名家、也是制墨高手，贾思勰《齐民要术》载其“合墨法”，后世称其为制墨祖师；来源未及其他书艺与题署。",
+   "approve": "新建 persons/wei-dan.md：sub_type artisan，primary_dimension B，secondary C，confidence low；只写造笔、制墨、合墨法与制墨祖师之称。",
+   "apply_note": "六节齐全；不写题署、书榜等来源未载之事；不补生卒、官职与作品。",
+   "note": "canonical 为新建条；毛笔见 terms/maobi.md；墨的专门知识元尚未建立，terms/shi-mo.md 实为石磨，不作墨条链接。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-92",
+   "entity": "四大名砚",
+   "action": "create",
+   "target": "04-knowledge/units/terms/si-da-ming-yan.md",
+   "analysis": "L4396 以合称记唐代四大名砚并逐一列名；既有 terms/duan-yan.md、terms/she-yan.md 只及单砚，无合称条。",
+   "approve": "新建 terms/si-da-ming-yan.md：sub_type stationery，primary_dimension B，confidence low；四砚名目与排序照来源。",
+   "apply_note": "六节齐全；只列名与来源评语，不补各砚石质、产地与坑口；与单砚条互见。",
+   "note": "canonical 为新建条；单砚见 terms/duan-yan.md、terms/she-yan.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-02",
+   "entity": "《金刚经》（咸通九年本）",
+   "action": "create",
+   "target": "04-knowledge/units/publications/jingangjing-868.md",
+   "analysis": "L4162 与 L4417 记咸通九年（868）王玠为二亲敬造普施的《金刚经》刻本，是现存最早有明确纪年的雕版印刷品之一；题记完整。",
+   "approve": "新建 publications/jingangjing-868.md：sub_type printed_sutra，primary_dimension C，secondary B，confidence medium；年代、题记与形制照来源。",
+   "apply_note": "六节齐全；题记“咸通九年四月十五日王玠为二亲敬造普施”逐字；不补斯坦因编号与现藏。",
+   "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-03",
+   "entity": "《无垢净光大陀罗尼经》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/wugou-jingguang-daluoni-jing.md",
+   "analysis": "L4423 记 1966 年韩国庆州佛国寺释迦塔发现的《无垢净光大陀罗尼经》印本，来源以“推断”“应是”称其为唐长安印本。",
+   "approve": "新建 publications/wugou-jingguang-daluoni-jing.md：sub_type printed_sutra，primary_dimension C，secondary E，confidence low。",
+   "apply_note": "六节齐全；“推断”“应是”照录，保留推测语气；不补年代争论与现藏。",
+   "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-04",
+   "entity": "《陀罗尼经咒》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/tuoluoni-jingzhou.md",
+   "analysis": "L4425 记 1944 年成都唐墓出土《陀罗尼经咒》印本、卞家刻印，为早期民间雕版印刷实物。",
+   "approve": "新建 publications/tuoluoni-jingzhou.md：sub_type printed_charm，primary_dimension C，secondary B，confidence low。",
+   "apply_note": "六节齐全；只写来源所记出土、刻家与形制；不补咒文内容与现藏。",
+   "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-05",
+   "entity": "《妙法莲花经》（吐鲁番出土本）",
+   "action": "create",
+   "target": "04-knowledge/units/publications/miaofa-lianhua-jing.md",
+   "analysis": "L4427 记吐鲁番出土《妙法莲华经》印本残卷，为唐代西州雕印实物；来源作“妙法莲花经”，通行作“莲华”。",
+   "approve": "新建 publications/miaofa-lianhua-jing.md：sub_type printed_sutra，primary_dimension C，secondary E，confidence low。",
+   "apply_note": "六节齐全；书名照录“妙法莲花经”并标疑；不补译者、品数与出土地点细节。",
+   "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-06",
+   "entity": "《女则》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/nvze.md",
+   "analysis": "L4431 记传说唐太宗为纪念长孙皇后雕版印刷其著述《女则》10 卷，并称“若是事实，应当是最早的雕版印刷书籍”；来源只此一句且带传说限定。",
+   "approve": "新建 publications/nvze.md：sub_type women_instruction，primary_dimension D，secondary A，confidence low；作者长孙皇后，卷数照来源，印刷一事标为传说。",
+   "apply_note": "六节齐全；“传说”“若是事实”保留，不作印刷史实；不补成书年、篇目与后世刻本。",
+   "note": "canonical 为新建条；唐代书籍见 terms/juanzhou-zhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-09",
+   "entity": "《开元杂报》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/kaiyuan-zabao.md",
+   "analysis": "L4439 记唐玄宗开元年间（公元713年起）唐朝官方出版中国最早的报纸《开元杂报》，属政府公文邸报性质，并称其标志印刷术进入新闻领域；材料一段。",
+   "approve": "新建 publications/kaiyuan-zabao.md：sub_type official_gazette，primary_dimension D，secondary C，confidence low；年代与“邸报性质”照来源。",
+   "apply_note": "六节齐全；“中国最早的报纸”写明为来源判断；不补敦煌残页与年代争论。",
+   "note": "canonical 为新建条；印刷见 procedures/diaoban-yinshua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-10",
+   "entity": "卷轴装",
+   "action": "create",
+   "target": "04-knowledge/units/terms/juanzhou-zhuang.md",
+   "analysis": "L4443-L4445 记卷轴装以纸卷、轴、褾、带组成，是唐代以前书籍主要装帧；结构完整。",
+   "approve": "新建 terms/juanzhou-zhuang.md：sub_type book_binding，primary_dimension B，secondary C，confidence medium。",
+   "apply_note": "六节齐全；部件名照来源；不补敦煌实物编号。",
+   "note": "canonical 为新建条；装帧序列见 terms/jingzhe-zhuang.md、terms/xuanfeng-zhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-11",
+   "entity": "帙",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zhi-book-wrapper.md",
+   "analysis": "L4457 记帙为包裹卷轴书的书衣，以数卷为一帙；是卷轴装的配套护书用具。",
+   "approve": "新建 terms/zhi-book-wrapper.md：sub_type book_wrapper，primary_dimension B，confidence medium。",
+   "apply_note": "六节齐全；材质与形制只写来源；不补“帙”作量词的其他用法。",
+   "note": "canonical 为新建条；与 terms/juanzhou-zhuang.md 互见。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-12",
+   "entity": "经折装",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jingzhe-zhuang.md",
+   "analysis": "L4461、L4463-L4467 记经折装即折子装，受卷轴装与梵夹装影响，将佛经卷折叠成一定宽度、前后用硬纸或木板夹护裱糊为书皮，因佛经流行而兴起；材料充分。",
+   "approve": "新建 terms/jingzhe-zhuang.md：sub_type book_binding，primary_dimension B，secondary C，confidence medium。",
+   "apply_note": "六节齐全；折叠方式、得名与两种前身影响照来源；不补与梵夹装的先后争论。",
+   "note": "canonical 为新建条；与 terms/fanjia-zhuang.md 互见。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-13",
+   "entity": "梵夹装",
+   "action": "create",
+   "target": "04-knowledge/units/terms/fanjia-zhuang.md",
+   "analysis": "L4463-L4465 记梵夹装（又称梵荚装）于隋朝从印度传入，将贝多树叶上抄写的佛经以木板或竹板夹之、用绳穿串；并影响经折装。",
+   "approve": "新建 terms/fanjia-zhuang.md：sub_type book_binding，primary_dimension B，secondary E，confidence low；传入时间照来源作隋朝。",
+   "apply_note": "六节齐全；只写夹板、贝叶与隋朝传入；不补西藏梵夹装实物。",
+   "note": "canonical 为新建条；经折装见 terms/jingzhe-zhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-14",
+   "entity": "旋风装",
+   "action": "create",
+   "target": "04-knowledge/units/terms/xuanfeng-zhuang.md",
+   "analysis": "L4469 记旋风装吸收经折装与卷轴装优点、单页折起双面文字后从右向左排压、宛如鱼鳞或旋风，所有书页装裱于一张长纸可卷起；并明记故宫博物院藏唐抄本《王仁昫刊谬补缺切韵》为典型实物，且称旋风装与龙鳞装实为一物两名。",
+   "approve": "新建 terms/xuanfeng-zhuang.md：sub_type book_binding，primary_dimension B，confidence medium；aliases 增龙鳞装。",
+   "apply_note": "六节齐全；结构、异名与实物藏地均照来源；来源已裁定龙鳞装为同物异名，照录不另立条。",
+   "note": "canonical 为新建条；实物依据见 publications/wang-renxu-qieyun.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-15",
+   "entity": "《王仁昫刊谬补缺切韵》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/wang-renxu-qieyun.md",
+   "analysis": "L4469 记《王仁昫刊谬补缺切韵》为唐代韵书、采用旋风装，是现存旋风装实物依据。",
+   "approve": "新建 publications/wang-renxu-qieyun.md：sub_type rhyme_dictionary，primary_dimension C，secondary B，confidence low。",
+   "apply_note": "六节齐全；书名逐字；不补卷数、成书年与现藏。",
+   "note": "canonical 为新建条；装帧见 terms/xuanfeng-zhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-19",
+   "entity": "曲辕犁",
+   "action": "create",
+   "target": "04-knowledge/units/terms/quyuan-li.md",
+   "analysis": "L4481 详记江东犁即曲辕犁：将汉代直长辕改为短曲辕、二牛抬杠改一牛耕犁，并改变犁辕、犁箭、犁梢、犁底，使犁架变小、操作简便、深浅自如；L4152 绪论并举。形制演变完整。",
+   "approve": "新建 terms/quyuan-li.md：aliases 江东犁，sub_type farm_tool，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；不补尺寸、重量与出土实物；与 procedures/daogeng-huozhong.md 分工，不写耕作工序。",
+   "note": "canonical 为新建条；筒车见 terms/tongche.md，农书见 publications/leisi-jing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-20",
+   "entity": "筒车",
+   "action": "create",
+   "target": "04-knowledge/units/terms/tongche.md",
+   "analysis": "L4483 记水转筒车以竹木作轮、架于水边、下轮浸水、借水力转动、小水桶携水上升注入高渠；L4152 与曲辕犁并举。",
+   "approve": "新建 terms/tongche.md：aliases 水转筒车，sub_type irrigation_tool，primary_dimension B，confidence medium。",
+   "apply_note": "六节齐全；与马钧龙骨水车分列，不混为一种；图版未核。",
+   "note": "canonical 为新建条；犁见 terms/quyuan-li.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-21",
+   "entity": "《耒耜经》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/leisi-jing.md",
+   "analysis": "L4493 记陆龟蒙（？—约881）、姑苏人、与皮日休并称“皮陆”，《耒耜经》为中国最早记载和研究农具的书籍，并记爬（耙）、砺、夯等农具。",
+   "approve": "新建 publications/leisi-jing.md：sub_type agricultural_treatise，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；生卒照录；“中国最早”写明为来源判断；农具名照录，不补形制。",
+   "note": "canonical 为新建条；犁见 terms/quyuan-li.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-24",
+   "entity": "椅子",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yizi.md",
+   "analysis": "L4506-L4510 记隋唐出现椅子、从西域渐入、由佛教高僧宝座转人民间、椅本意为倚、改变坐姿与身体重心，并记唐高元圭墓壁画与敦煌壁画中的中原化样式。",
+   "approve": "新建 terms/yizi.md：sub_type seating_furniture，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；与 terms/huchuang.md 的绳床、胡床分工，不重复；壁画图版未核。",
+   "note": "canonical 为新建条；凳见 terms/wu-deng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-25",
+   "entity": "绳床",
+   "action": "no_delta",
+   "target": "04-knowledge/units/terms/huchuang.md",
+   "analysis": "L4495-L4531 中绳床与胡床并述；既有 terms/huchuang.md 已详绳床形制及其向椅子的演化。",
+   "approve": "判 no_delta：绳床材料已被胡床条完整覆盖。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 terms/huchuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-27",
+   "entity": "杌凳",
+   "action": "create",
+   "target": "04-knowledge/units/terms/wu-deng.md",
+   "analysis": "L4516-L4520 记床榻前踏登与几相似后成凳、“机本有树桩之意”、南北朝杌凳联称、隋唐高足坐具流行，并记唐画《捣练图》《簪花仕女图》、高矮方圆半圆凳与长凳。",
+   "approve": "新建 terms/wu-deng.md：sub_type seating_furniture，primary_dimension B，confidence medium。",
+   "apply_note": "六节齐全；“踏登”“机本”照录并标疑（疑「踏蹬」「杌本」）；绘画图版未核。",
+   "note": "canonical 为新建条；椅见 terms/yizi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-32",
+   "entity": "开元通宝",
+   "action": "create",
+   "target": "04-knowledge/units/terms/kaiyuan-tongbao.md",
+   "analysis": "L4539-L4541 记武德四年（621）废五铢、铸开元通宝、“意即新世开元，流通宝货”，一枚一钱、十枚一两、废铢制、厘分钱两十进位、钱成固定重量单位，通宝钱共流通 1290 年。",
+   "approve": "新建 terms/kaiyuan-tongbao.md：sub_type coinage，primary_dimension D，secondary B，confidence medium。",
+   "apply_note": "六节齐全；1290 年照录；“以朝代年号为文字标志”只作来源表述，不引申年号钱谱系；图版未核。",
+   "note": "canonical 为新建条；货币见 terms/han-wu-zhu.md、terms/feiqian.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-33",
+   "entity": "书帖",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shutie.md",
+   "analysis": "L4552、L4548 记唐代西市钱庄存钱、商人以书帖列交易账目与款项、收款者持帖到钱庄支取现钱，来源类比支票；两句被图版与页眉隔断。",
+   "approve": "新建 terms/shutie.md：sub_type financial_instrument，primary_dimension D，secondary B，confidence low。",
+   "apply_note": "六节齐全；L4552 末句与 L4548 分别引并说明拼合，不伪造成连续引文。",
+   "note": "canonical 为新建条；飞钱见 terms/feiqian.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-34",
+   "entity": "飞钱",
+   "action": "create",
+   "target": "04-knowledge/units/terms/feiqian.md",
+   "analysis": "L4554 记飞钱为类似汇票的异地汇兑，唐宪宗年间地方政府在京城设进凑院，商人存钱领凭证、返乡兑付；“本阜”“进凑院”均疑误。",
+   "approve": "新建 terms/feiqian.md：sub_type financial_instrument，primary_dimension D，secondary B，confidence medium。",
+   "apply_note": "六节齐全；两处疑误照录标疑（疑「本埠」「进奏院」）；不补飞钱与宋代交子的关系。",
+   "note": "canonical 为新建条；书帖见 terms/shutie.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-38",
+   "entity": "浑仪",
+   "action": "create",
+   "target": "04-knowledge/units/terms/hunyi.md",
+   "analysis": "L4570 记浑仪定义、李淳风改造北魏铁浑仪并于 633 年制浑天黄道铜仪、僧一行与梁令瓒于 725 年改进；仪器史脉络完整。",
+   "approve": "新建 terms/hunyi.md：sub_type astronomical_instrument，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；“诋摭前世得失”照录；不补圈数、结构与尺寸。",
+   "note": "canonical 为新建条；水运浑天仪见 works/shuiyun-huntianyi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-39",
+   "entity": "水运浑天仪（水运浑象）",
+   "action": "create",
+   "target": "04-knowledge/units/works/shuiyun-huntianyi.md",
+   "analysis": "L4572 记僧一行与梁令瓒改造张衡水运浑象、注水激轮使一日一夜天转一周、安装自动报时器成原始天文钟、后因失养锈蚀停转；L4568 小节名作“水运浑天仪”。",
+   "approve": "新建 works/shuiyun-huntianyi.md：aliases 水运浑象，sub_type astronomical_instrument，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；标题名与所改造对象“水运浑象”并见不混同；不补齿轮结构与漏刻比较。",
+   "note": "canonical 为新建条；人物见 persons/seng-yixing.md、persons/li-chunfeng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-40",
+   "entity": "李淳风",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-chunfeng.md",
+   "analysis": "L4570 仅一句记其改造北魏铁浑仪、633 年制成浑天黄道铜仪；材料薄。",
+   "approve": "新建 persons/li-chunfeng.md：sub_type astronomer，primary_dimension B，secondary A，confidence low。",
+   "apply_note": "六节齐全；不补生平、官职与《乙巳占》等其他著作。",
+   "note": "canonical 为新建条；仪器见 terms/hunyi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-41",
+   "entity": "僧一行",
+   "action": "create",
+   "target": "04-knowledge/units/persons/seng-yixing.md",
+   "analysis": "L4146 记大衍历；L4570 记与梁令瓒于 725 年改进浑仪；L4572 记改造水运浑象、自动报时并制大衍历；三处互证。",
+   "approve": "新建 persons/seng-yixing.md：sub_type astronomer，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；梁令瓒只作合作者，来源未给其独立材料，不单立人物条；不补俗名、籍贯、生卒与师承。",
+   "note": "canonical 为新建条；仪器见 terms/hunyi.md、works/shuiyun-huntianyi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-42",
+   "entity": "韩志和",
+   "action": "create",
+   "target": "04-knowledge/units/persons/han-zhihe.md",
+   "analysis": "L4574 记传说唐代工匠韩志和制飞行器飞 100 尺、飞行 450 尺，并能作飞动龙床、飞鹤等器具；“传说”限定明确。",
+   "approve": "新建 persons/han-zhihe.md：sub_type artisan，primary_dimension B，confidence low。",
+   "apply_note": "六节齐全；“传说”保留，100 尺、450 尺照录；不补飞行器结构、动力与出处。",
+   "note": "canonical 为新建条；葛洪见 persons/ge-hong.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-199",
+   "entity": "葛洪",
+   "action": "create",
+   "target": "04-knowledge/units/persons/ge-hong.md",
+   "analysis": "L4574 记东晋葛洪参照老鹰飞行、以牛皮革和枣木制飞行器、腹置动力器械但未见实施；来源未提《抱朴子》。",
+   "approve": "新建 persons/ge-hong.md：sub_type scholar，primary_dimension B，secondary A，confidence low。",
+   "apply_note": "六节齐全；不把飞行器内容挂到《抱朴子》；不补生卒与著述。",
+   "note": "canonical 为新建条；相关文献见 publications/bao-pu-zi.md，但来源未以该书为据。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-45",
+   "entity": "斜织机",
+   "action": "update",
+   "target": "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+   "analysis": "L4580 记江苏铜山等地汉画像斜织机“有机架、经面、脚踏提综板等”，并记斜织机经隋唐工匠改进、流传至现代北方乡村；L4580-L4584 另记竖织机。既有条仅据夏燕靖 2016 L1276-L1278、L1753、L2020 的《慈母投杼图》。",
+   "approve": "更新 terms/jiaota-tizong-xiezhi-ji.md：追加赵农 citation（L4580, L4584），source_count 1→2，version 1→2；保留原有内容。",
+   "apply_note": "新增“隋唐改进与流传”“竖织机”两条；L4580 末与 L4584 被图版隔断，分别引。",
+   "note": "canonical 为 terms/jiaota-tizong-xiezhi-ji.md；不称铜山画像与《慈母投杼图》为同一画像。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-47",
+   "entity": "缫车",
+   "action": "create",
+   "target": "04-knowledge/units/terms/saoche.md",
+   "analysis": "L4590 记缫车为抽丝工具、战国出现手摇轱辘雏形、唐代手摇缫车广泛使用，并引陆龟蒙“每和烟雨掉缫车”、王建“檐头索索缫车鸣”。",
+   "approve": "新建 terms/saoche.md：sub_type textile_tool，primary_dimension B，confidence low。",
+   "apply_note": "六节齐全；只三句，不补结构、锭数、效率与出土实物。",
+   "note": "canonical 为新建条；织机见 terms/jiaota-tizong-xiezhi-ji.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-48",
+   "entity": "花纱",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huasha.md",
+   "analysis": "L4592-L4594 记唐代纬锦与花纱产量提高、纬锦以纬线显花，花纱指纱质印染，并有绞缬、夹缬、蜡缬、介质印花四法；总述手工印染传承。",
+   "approve": "新建 terms/huasha.md：sub_type textile_type，primary_dimension B，confidence medium。",
+   "apply_note": "六节齐全；花纱照来源写“纱质印染”，不写成织造提花；四缬分述；图版未核。",
+   "note": "canonical 为新建条；印染工序见 procedures/la-ran.md、procedures/jiezhi-yinhua.md、procedures/chuai-ran.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-53",
+   "entity": "袍衫",
+   "action": "update",
+   "target": "04-knowledge/units/terms/yuanling-paoshan.md",
+   "analysis": "L4610 记袍衫为唐代男子常服、圆领紧袖、受北方骑射风俗影响、文官长遮脚面武官仅过膝，并以服色分等级称“品色衣”、庶民白衣士兵皂衣。既有条据夏燕靖 2009 L2185、2016 L2715-L2730，缺品色衣与文武长度差。",
+   "approve": "更新 terms/yuanling-paoshan.md：追加赵农 citation（L4610），source_count 2→3，version 1→2；保留旧说。",
+   "apply_note": "新增“唐代袍衫与品色衣”条；两家袍长表述并列照录，不裁定。",
+   "note": "canonical 为 terms/yuanling-paoshan.md；胡装见 terms/huzhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-54",
+   "entity": "胡装",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huzhuang.md",
+   "analysis": "L4618-L4620 记盛唐妇女翻领细袖上衣、卷沿胡帽与西域服饰影响，引《旧唐书·舆服志》“贵人御馔，尽供胡食，士女皆竟衣胡服”“开元初，从驾宫人骑马者，皆著胡帽”及元稹诗，并及女扮男装。",
+   "approve": "新建 terms/huzhuang.md：sub_type garment_form，primary_dimension B，secondary E，confidence medium。",
+   "apply_note": "六节齐全；“竟衣胡服”照录并标疑（疑「竞」）；女扮男装作相邻背景，不混为一名；绘画图版未核。",
+   "note": "canonical 为新建条；袍衫见 terms/yuanling-paoshan.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-57",
+   "entity": "唐陵",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/zhaoling.md",
+   "analysis": "L4624-L4651 总述唐陵因山为陵、以昭陵与乾陵为代表；既有 places/zhaoling.md、places/qianling.md 已分别承载两陵形制与石刻。",
+   "approve": "判 no_delta：总述已分散于两陵条，无独立于两陵的新对象。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 取 places/zhaoling.md；乾陵见 places/qianling.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-60",
+   "entity": "昭陵六骏",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/zhaoling.md",
+   "analysis": "L4646 记六骏名目、三组形态、四骏存碑林、二骏在费城、阎立本绘样、唐太宗题辞、欧阳询书与高浮雕；既有 places/zhaoling.md 已逐字收录。",
+   "approve": "判 no_delta：六骏全部细节已在昭陵条内。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/zhaoling.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-61",
+   "entity": "顺陵走狮",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/zhaoling.md",
+   "analysis": "L4650 记顺陵走狮；既有 places/zhaoling.md 与 places/qianling.md 均已收录。",
+   "approve": "判 no_delta：石狮材料已被两陵条覆盖。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/zhaoling.md，并见 places/qianling.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-67",
+   "entity": "卢舍那大佛",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/longmen-grottoes.md",
+   "analysis": "L4652-L4675 记奉先寺卢舍那大佛；既有 places/longmen-grottoes.md 已完整承载龛制、九尊布局、通高约 17 米与面容评语。",
+   "approve": "判 no_delta：造像细节已被龙门石窟条覆盖。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/longmen-grottoes.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-71",
+   "entity": "乐山大佛",
+   "action": "create",
+   "target": "04-knowledge/units/works/leshan-dafo.md",
+   "analysis": "L4681-L4685 记开元年间海通发起、前后 90 年、依山造像、高 71 米、三江汇流凌云山、袈裟袒胸倚坐、传说抠目明志、“石破山开，大佛凿成”与民族精神评语。",
+   "approve": "新建 works/leshan-dafo.md：sub_type cliff_buddha，primary_dimension B，secondary A，confidence medium；高度 71 米与 90 年照录。",
+   "apply_note": "六节齐全；海通故事保留“传说”语气；不据图补发髻、手印、衣纹与排水系统。",
+   "note": "canonical 为新建条；人物见 persons/haitong-heshang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-72",
+   "entity": "海通和尚",
+   "action": "create",
+   "target": "04-knowledge/units/persons/haitong-heshang.md",
+   "analysis": "L4681 记其发起开凿乐山大佛；L4683 记传说立志造像、化缘遭州官戏弄、手抠双目明志；除发起外均为来源标明的传说。",
+   "approve": "新建 persons/haitong-heshang.md：sub_type monk，primary_dimension A，secondary B，confidence low。",
+   "apply_note": "六节齐全；传说语气保留；不补籍贯、师承、生卒与法号。",
+   "note": "canonical 为新建条；造像见 works/leshan-dafo.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-75",
+   "entity": "经变",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jingbian.md",
+   "analysis": "L4701-L4703 记唐代莫高窟画风由“秀骨清像”转“丰满华丽”、经变故事充满人间欢乐、菩萨飞天佛陀力士成为唐代社会影像；来源未下正式定义。",
+   "approve": "新建 terms/jingbian.md：sub_type buddhist_image_type，primary_dimension C，secondary A，confidence medium。",
+   "apply_note": "六节齐全；描述与验证状态写明“来源未下定义”，所述为来源语境义；不补具体经变作品名。",
+   "note": "canonical 为新建条；洞窟见 places/dunhuang-mogao-ku.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-76",
+   "entity": "敦煌学",
+   "action": "create",
+   "target": "04-knowledge/units/terms/dunhuangxue.md",
+   "analysis": "L4705 记莫高窟保存唐代社会文献、经近代西方学者发掘利用引起中国学术界重视、成为现代“敦煌学”的学术基础；仅两句。",
+   "approve": "新建 terms/dunhuangxue.md：sub_type academic_field，primary_dimension A，secondary E，confidence low。",
+   "apply_note": "六节齐全；只写“学术基础”一句，不补学科定义、形成年代、代表人物与机构。",
+   "note": "canonical 为新建条；洞窟见 places/dunhuang-mogao-ku.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-79",
+   "entity": "《龙藏寺碑》",
+   "action": "create",
+   "target": "04-knowledge/units/works/longzang-si-bei.md",
+   "analysis": "L4726 记隋唐立碑风气与碑额、碑身、碑座，隋《龙藏寺碑》为开皇六年（586），有“整密瘦健”“一线之延”评语与“隋碑第一”俗称，并影响初唐虞世南、褚遂良。",
+   "approve": "新建 works/longzang-si-bei.md：sub_type stele，primary_dimension C，secondary B，confidence low。",
+   "apply_note": "六节齐全；评语与俗称加引号；不补碑址、行数、撰书人姓名与存藏。",
+   "note": "canonical 为新建条；书法见 terms/kai-shu.md，拓本见 procedures/ta-ben.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-80",
+   "entity": "《九成宫醴泉铭》",
+   "action": "create",
+   "target": "04-knowledge/units/works/jiuchenggong-liquan-ming.md",
+   "analysis": "L4728 记欧阳询《九成宫醴泉铭》为贞观六年（632）立、欧阳询 75 岁奉唐太宗诏书，并以“笔力刚劲、峻利凝重、法度严谨”评之，有“唐楷之冠”称誉。",
+   "approve": "新建 works/jiuchenggong-liquan-ming.md：sub_type stele，primary_dimension C，secondary B，confidence medium。",
+   "apply_note": "六节齐全；“唐楷之冠”写明为来源称誉；不补魏征撰文、碑文内容与石存何处。",
+   "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-81",
+   "entity": "《夫子庙堂碑》",
+   "action": "create",
+   "target": "04-knowledge/units/works/fuzi-miaotang-bei.md",
+   "analysis": "L4728 记虞世南《夫子庙堂碑》为武德九年（公元629年），并以“方中见圆、平中见奇、笔力秀健、精气饱满”评之；原文纪年与公元换算不符。",
+   "approve": "新建 works/fuzi-miaotang-bei.md：sub_type stele，primary_dimension C，secondary B，confidence low；年份照录标疑。",
+   "apply_note": "六节齐全；“武德九年（公元629年）”照录并标疑（武德九年为 626 年），不径改；不补碑址、碑文与翻刻。",
+   "note": "canonical 为新建条；书法见 terms/kai-shu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-82",
+   "entity": "《雁塔圣教序》",
+   "action": "create",
+   "target": "04-knowledge/units/works/yanta-shengjiao-xu.md",
+   "analysis": "L4728 记褚遂良《雁塔圣教序》为奉唐太宗之命而书，并以“婉媚遒逸、波拂如铁”评之；未给立碑年与碑址。",
+   "approve": "新建 works/yanta-shengjiao-xu.md：sub_type stele，primary_dimension C，secondary B，confidence low。",
+   "apply_note": "六节齐全；大雁塔只作来源语境，不据此补立碑位置细节；不补立碑年、字数。",
+   "note": "canonical 为新建条；塔见 works/dayan-ta-652.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-83",
+   "entity": "《麓山寺碑》",
+   "action": "create",
+   "target": "04-knowledge/units/works/lushan-si-bei.md",
+   "analysis": "L4728 记李邕《麓山寺碑》为开元十八年（公元703年）所立，有“李北海第一”说法，并以“天姿矫健、英华高卓”评之；原文纪年与公元换算不符。",
+   "approve": "新建 works/lushan-si-bei.md：sub_type stele，primary_dimension C，secondary B，confidence low；年份照录标疑。",
+   "apply_note": "六节齐全；“开元十八年（公元703年）”照录并标疑（开元十八年为 730 年），不径改；不另补李邕生平。",
+   "note": "canonical 为新建条；行书见 terms/xing-shu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-84",
+   "entity": "颜真卿",
+   "action": "create",
+   "target": "04-knowledge/units/persons/yan-zhenqing.md",
+   "analysis": "L4734 记颜真卿为开元进士、曾任平原太守、封鲁郡开国公、为人忠烈刚直，石刻有《多宝塔》《颜勤礼碑》《麻姑仙坛记》《东方朔画赞》《大唐中兴颂》等，并评“数量众多、结体丰厚、气象磅礴、雄伟壮美，实为唐代书法的最高峰”。",
+   "approve": "新建 persons/yan-zhenqing.md：sub_type calligrapher，primary_dimension C，secondary A，confidence medium。",
+   "apply_note": "六节齐全；“最高峰”写明为来源判断；不据图 6-52、6-53 图注补《颜氏家庙碑》；不补生卒、籍贯与书学渊源。",
+   "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-85",
+   "entity": "柳公权",
+   "action": "create",
+   "target": "04-knowledge/units/persons/liu-gongquan.md",
+   "analysis": "L4736 记柳公权以《玄秘塔碑》《神策军碑》闻名，书“刚劲饱满、工稳清晰”，与颜书并称“颜筋柳骨”；来源仅一句。",
+   "approve": "新建 persons/liu-gongquan.md：sub_type calligrapher，primary_dimension C，secondary A，confidence medium；验证状态写明仅一句。",
+   "apply_note": "六节齐全；不补生卒、官职、其他碑目与“柳体”说法。",
+   "note": "canonical 为新建条；并称见 terms/yan-jin-liu-gu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-86",
+   "entity": "颜筋柳骨",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yan-jin-liu-gu.md",
+   "analysis": "L4734-L4736 给两家书风评语与并称，未解释“筋”“骨”所指，也未给并称出处与最早用例；术语身份明确。",
+   "approve": "新建 terms/yan-jin-liu-gu.md：sub_type calligraphic_style_term，primary_dimension C，secondary A，confidence medium。",
+   "apply_note": "六节齐全；不把“颜筋柳骨”拆解为来源未说的笔画、结体理论；写明来源未释筋、骨。",
+   "note": "canonical 为新建条；人物见 persons/yan-zhenqing.md、persons/liu-gongquan.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-99",
+   "entity": "南青北白",
+   "action": "no_delta",
+   "target": "04-knowledge/units/places/xing-kiln.md",
+   "analysis": "L4738-L4779 记唐代陶瓷“南青北白”的制作技术与风格区分；既有 places/xing-kiln.md 与 places/yue-kiln.md 已完整定义并分述两窑。",
+   "approve": "判 no_delta：格局判断已被邢窑、越窑两条覆盖。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 places/xing-kiln.md；青瓷见 places/yue-kiln.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-204",
+   "entity": "菩萨身躯（图6-56）",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/shikusi.md",
+   "analysis": "仅有图 6-56 图注“唐 菩萨身躯”，无正文描述、窟号、尺寸与材质；单凭图注不能立 work 条。",
+   "approve": "判 rejected：图注材料不足以成条，不写回。",
+   "apply_note": "不写回；图版未核。",
+   "note": "归档锚点为 terms/shikusi.md；图注未能定位具体洞窟。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-203",
+   "entity": "《纪泰山铭》",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/bei-xue.md",
+   "analysis": "仅有图 6-57 图注“唐 纪泰山铭”，无正文；碑名、撰书人、年代与形制均未记。",
+   "approve": "判 rejected：图注材料不足以成条，不写回。",
+   "apply_note": "不写回；图版未核。",
+   "note": "归档锚点为 terms/bei-xue.md；不据图注补碑制。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-104",
+   "entity": "镂空银熏球",
+   "action": "no_delta",
+   "target": "04-knowledge/units/works/tang-yin-xiangnang.md",
+   "analysis": "L4792 何家村清单详记镂空银熏球上下两个半圆、透雕飞鸟葡萄纹、同心圆机环与轴承环香盂、香盂恒处平衡，并称是对汉“被中香炉”的进一步发展；既有 works/tang-yin-xiangnang.md 已完整承载。",
+   "approve": "判 no_delta：器物形制、机环结构与技术谱系均已在既有条内。",
+   "apply_note": "不写回；记录并入位置。",
+   "note": "canonical 为 works/tang-yin-xiangnang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-106",
+   "entity": "金花鹦鹉提梁银罐",
+   "action": "rejected",
+   "target": "04-knowledge/units/places/hejiacun-jiaocang.md",
+   "analysis": "仅 L4792 何家村清单列名与图 6-60 图注，无独立描述；形制、尺寸、工艺均未记。",
+   "approve": "判 rejected：清单列名与图注不足以立 work 条；材料保留在何家村条。",
+   "apply_note": "不写回；不据图注补器形与纹饰。",
+   "note": "canonical 归档为 places/hejiacun-jiaocang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-107",
+   "entity": "金花八曲银杯",
+   "action": "rejected",
+   "target": "04-knowledge/units/places/hejiacun-jiaocang.md",
+   "analysis": "仅 L4792 何家村清单列名与图 6-61 图注，无独立描述；且与 2016 册“舞伎八棱金杯”是否同器未明，不能据名合并。",
+   "approve": "判 rejected：材料不足，且与既有器物的同一性未定；不立条、不并入 2016 册条目。",
+   "apply_note": "不写回；与 2016 册“舞伎八棱金杯”的关系存疑，不作合并。",
+   "note": "canonical 归档为 places/hejiacun-jiaocang.md；同器关系待证。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-108",
+   "entity": "被中香炉",
+   "action": "rejected",
+   "target": "04-knowledge/units/persons/ding-huan.md",
+   "analysis": "L4792 只作为镂空银熏球的技术前身提及，无独立材料；canonical 已由 cand-05-17 建为 persons/ding-huan.md。",
+   "approve": "判 rejected：重复实体，canonical 取 persons/ding-huan.md；本条不另建。",
+   "apply_note": "不写回；材料并入 persons/ding-huan.md。",
+   "note": "canonical 为 persons/ding-huan.md（cand-05-17）。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-118",
+   "entity": "花灯",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huadeng.md",
+   "analysis": "L4843-L4845 记花灯又叫灯彩、为汉代以来元宵节民俗，述汉文帝与正月十五的相传、上元与元宵称谓、佛教燃灯，以及盛唐上元灯节的灯火、鱼灯龙灯灯楼。",
+   "approve": "新建 terms/huadeng.md：aliases 灯彩，sub_type festival_object，primary_dimension B，secondary A，confidence medium。",
+   "apply_note": "六节齐全；汉文帝事保留“相传”语气；不补制作材料、尺寸与灯市制度；不据图 6-66 补写走马灯形制。",
+   "note": "canonical 为新建条；走马灯见 terms/zouma-deng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-119",
+   "entity": "走马灯",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zouma-deng.md",
+   "analysis": "L4847 一句记唐代走马灯利用灯光热气流推动灯罩内人物马形流转，产生光怪陆离的灯影效果。",
+   "approve": "新建 terms/zouma-deng.md：sub_type festival_object，primary_dimension B，confidence low。",
+   "apply_note": "六节齐全；只一句，不补灯体结构、尺寸、图样与流传；图 6-66 图版未核。",
+   "note": "canonical 为新建条；花灯见 terms/huadeng.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-129",
+   "entity": "短番匠",
+   "action": "update",
+   "target": "04-knowledge/units/institutions/jiangzuojian.md",
+   "analysis": "L4890 记少府与将作监在固定工匠外有按期服役的短番匠、在家为官府加工，引王建“一匹千金亦不卖，限日未成宫里怪”，并及民间作坊中官府淘汰的年老工匠。既有条已写短番匠，但赵农 citation 只列 L4871-L4875、L4994，缺 L4890。",
+   "approve": "更新 institutions/jiangzuojian.md：赵农 citation 补入 L4890，同书增列跨度，source_count 不变，version 加 1；扩写短番匠条目。",
+   "apply_note": "不重复添加赵农 source；只做最小增补；若现行 citation 与上述不同，以文件为准。",
+   "note": "canonical 为 institutions/jiangzuojian.md；同书多跨度更新。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-130",
+   "entity": "行头",
+   "action": "update",
+   "target": "04-knowledge/units/terms/shougongye-hanghui.md",
+   "analysis": "L4904 记行肆、行头、牙人三层：肆指店铺、行指同行业、行头为身服徭役的商人、牙人相当于经纪人；并记隋丰都市 100 行、唐西京市 220 行与行业规范渐成。既有条只及“行首又称行头”，未覆盖赵农定义与行数。",
+   "approve": "更新 terms/shougongye-hanghui.md：追加赵农 citation（L4904），source_count 1→2，version 1→2，confidence 维持 medium。",
+   "apply_note": "新增“行肆、行头与牙人”“隋唐行业规模”两条；两家定义并列照录，不裁定；100 行、220 行不作全国统计。",
+   "note": "canonical 为 terms/shougongye-hanghui.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-131",
+   "entity": "《国史补》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/guo-shi-bu.md",
+   "analysis": "L4894 记李肇《国史补》所载越州妇女本不会织布、浙江东道节度使出钱让未婚士兵娶北方织妇、每年数百名北方纺织巧手到南方的故事；来源未给成书年、卷数、体例与版本。",
+   "approve": "新建 publications/guo-shi-bu.md：author 李肇，sub_type notebook，primary_dimension D，secondary B，confidence low。",
+   "apply_note": "六节齐全；“每年数百名”是来源叙述，不作统计；与 places/xing-kiln.md 所引同书另条分开，不混为一条引文。",
+   "note": "canonical 为新建条；纺织业见 places/xing-kiln.md、terms/ling-silk.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-132",
+   "entity": "缭绫",
+   "action": "update",
+   "target": "04-knowledge/units/terms/ling-silk.md",
+   "analysis": "L4900 记民间私营纺织名目有缭绫、八棱绫、轻容、轻绢、红线毯、桂管等，所在段述唐代商业繁荣与民间纺织基础；既有条已收“可幅盘缔缭绫”与唐代贡绫 24 处，缺民间名目。",
+   "approve": "更新 terms/ling-silk.md：追加赵农 citation（L4900），source_count 2→3，version 1→2；新增民间名目条。",
+   "apply_note": "与贡绫制度分开表述；来源未逐一说明材质与工艺，不补。",
+   "note": "canonical 为 terms/ling-silk.md；贡绫与民间名目分列。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-205",
+   "entity": "唐三彩骆驼乐伎俑",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/tang-sancai.md",
+   "analysis": "仅有图 6-73 图注，无正文描述；类型层面已由 terms/tang-sancai.md 承载，单件形制、尺寸与出土均未记。",
+   "approve": "判 rejected：图注材料不足以立 work 条；不写回。",
+   "apply_note": "不写回；图版未核。",
+   "note": "canonical 归档为 terms/tang-sancai.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-206",
+   "entity": "乾陵翼马",
+   "action": "rejected",
+   "target": "04-knowledge/units/places/qianling.md",
+   "analysis": "仅有图 6-74 图注，无正文描述；乾陵石刻整体已由 places/qianling.md 承载，翼马单体形制与尺寸未记。",
+   "approve": "判 rejected：图注材料不足以立 work 条；不写回。",
+   "apply_note": "不写回；图版未核。",
+   "note": "canonical 归档为 places/qianling.md。"
+  }
+ ],
+ "notes": "赵农 2009 册第六章（隋唐）unit 候选 91 条：create 63、update 6、no_delta 12、rejected 10。第六章范围 L4108-L4941；候选 source_span 粗于实际引用行，正文按实际行段引用。原计划中的含元殿、太极宫、明堂、唐陵、昭陵六骏、顺陵走狮、南青北白经全量回查已由既有 KU 覆盖，改判 no_delta；金花鹦鹉提梁银罐、金花八曲银杯仅有清单与图注，判 rejected；行头、短番匠改判 update。"
+}

@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "省油灯是 B.6.5 夹层结构定形的样本：灯身一层装油一层装水，冷水降温以减少油的热损耗；陆游引文与李约瑟评价同条，无实物尺寸与实验数据"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "省油灯是 B 维度下宋代瓷灯具的类型条目，其夹层降温原理属器物功能设计，来源称之为“科学美”。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "省油灯是 B.6.5 夹层结构定形的样本：灯身一层装油一层装水，冷水降温以减少油的热损耗；陆游引文与李约瑟评价同条，无实物尺寸与实验数据"
 ---
 
 ## 描述
@@ -80,16 +88,15 @@ hierarchy_scope_note: "省油灯是 B 维度下宋代瓷灯具的类型条目，
 - “可省油之半”是陆游的记述，来源未给实验数据。
 - 李约瑟的评价只到“预示”一层，来源未给其书中的具体页码或论证过程。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下宋代瓷灯具的类型条，可与辽代摩羯灯并置，观察同一省油原理在不同造型中的移植与改造。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 省油灯是 B.6.5 夹层结构定形的样本：灯身一层装油一层装水，冷水降温以减少油的热损耗；陆游引文与李约瑟评价同条，无实物尺寸与实验数据
 ## 相关知识元
 
 `terms/mojie-deng.md` 记辽代摩羯灯，来源明确说它“具有与汉族发明的省油灯同样的功能”，并把隔层由“上下式”改为“前后式”；`terms/chang-deng.md`、`terms/gao-shuyao-deng.md`、`terms/yaoyuan-deng.md`、`terms/hong-guan-deng.md` 记其他灯型；`terms/liuqi.md` 记六器。李约瑟无独立 KU，属研究债务。relation 未审查，不写入正式 `relations`。

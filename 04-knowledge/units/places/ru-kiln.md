@@ -55,17 +55,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "汝窑是 B 维度下宋代青瓷官窑的窑口锚点，其“窑址在宝丰还是在临汝”的分歧同时构成 E 维度的考古学证据史问题。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "北宋青瓷官窑；窑址、始烧与装饰三处分歧并列保留，本批不裁"
+hierarchy_scope_note: "北宋青瓷官窑；窑址、始烧与装饰三处分歧并列保留，本批不裁"
 ---
 
 ## 描述
@@ -95,11 +103,10 @@ hierarchy_scope_note: "汝窑是 B 维度下宋代青瓷官窑的窑口锚点，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 同时是窑口、官窑制度与考古证据史三者的交汇点，其窑址分歧（清凉寺发掘 vs 临汝旧说）可支持未来的陶瓷考古与设计史书写关系类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 北宋青瓷官窑；窑址、始烧与装饰三处分歧并列保留，本批不裁
 ## 相关知识元
 
 本批写回的钧窑 KU 与本 KU 同属宋代五大名窑序列，夏燕靖两版记官钧窑为“继汝窑之后建立的第二座官窑”；relation 未经审查，不写入正式 `relations`。本段不构成关系断言。

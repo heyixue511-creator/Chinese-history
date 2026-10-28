@@ -1,0 +1,543 @@
+
+===== terms/sheji.md =====
+---
+title: 设计（Design）
+name_en: Design
+type: term
+sub_type: design_concept
+title_original: 设计
+title_original_language: zh
+title_zh: 设计
+term_original: 设计
+term_zh: 设计
+academic_translation_status: provisional
+translation_note: 来源未提供英文名；Design 为描述性说明或通行译名，故标 provisional。
+tags:
+  - 设计概念
+  - Design
+  - 词源
+  - 造物活动
+aliases: []
+sources:
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L163, L171, L173."
+    location: "L163, L171, L173"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-27
+updated: 2026-10-27
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-27
+review_due: 2027-04-27
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: A
+secondary_dimensions:
+  - D
+hierarchy_scope_note: "本条是 A 维度设计概念的条目，学科名称的演变属 D 维度。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+“设计”在古汉语中指筹划计策，见于《三国志·魏志》“密因鸩毒，重相设计”与元杂剧“运筹设计”之语。李立新所论设计从英文 Design 译来，指人类造物为实现一定目的而进行的设想、规划、方案等创造性活动；他指出该词作造物专用词有两重问题：内涵过广，且把造物看成单项因素的作用。
+
+## 核心内容
+
+- **古汉语义（L163）**: “密因鸩毒，重相设计”
+- **古义训释（L163）**: “都是指筹划计策，有设下计谋的意思。”
+- **本文界定
+
+===== terms/yishu-shejishi.md =====
+---
+title: 艺术设计史（History of Art Design）
+name_en: History of Art Design
+type: term
+sub_type: design_historiography
+term_original: 艺术设计史
+term_zh: 艺术设计史
+academic_translation_status: provisional
+translation_note: 采用描述性译名 History of Art Design；来源未提供英文名。
+tags:
+  - 导论
+  - 设计史
+  - 器具史
+  - 工艺美术史
+  - 学科方法
+aliases: []
+sources:
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L302-L304, L314-L316, L331-L335."
+    location: "L302-L304, L314-L316, L331-L335"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: A
+secondary_dimensions:
+  - B
+hierarchy_scope_note: "本条是 A 维度下设计史学科对象与方法的界定，向下关联具体器具史条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+艺术设计史是赵农在《中国艺术设计史》导论中界定的学科对象：它从器具的立场出发，研究具体器具的功能和美感，并推陈出新、古为今用。赵农把它与科技史、美术史、建筑史以及陶瓷、兵器、农具、服饰、家具、文字、钱币、乐器等专门史区分开来，并强调“过去的工艺史研究的往往是材料史，而设计史首先是器具史”。这一界定是全书取材与叙述方法的纲领，不是对某一历史时期的具体描述。
+
+## 核心内容
+
+### 一、研究对象与立场
+
+===== terms/gongyi-meishu.md =====
+---
+title: 工艺美术（Arts and Crafts）
+name_en: Arts and Crafts
+type: term
+sub_type: design_discipline
+term_original: 工艺美术
+term_zh: 工艺美术
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Arts and Crafts；来源未提供英文名。
+tags:
+  - 清末民初
+  - 学科
+  - 实用经济美观
+  - 1998
+  - 艺术设计
+aliases:
+  - 工艺美术学科
+sources:
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L7682-L8409."
+    location: "L7682-L8409"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "李立新, *中国设计艺术史论* (北京: 人民出版社, 2011), L221."
+    location: "L221"
+    evidence_ref:
+      doc_id: 2011-lilixin-zhongguo-sheji-yishu-shilun
+      source_file: 03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 2
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: D
+hierarchy_scope_note: "工艺美术是 D 维度下设计学科名称与教育体制的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+工艺美术是清末民初艺术革命中形成的学科概念：在建筑、绘画、雕塑之外成为一种体系
+
+===== terms/chaoju.md =====
+---
+title: 巢居（Chaoju (Nest Dwelling)）
+name_en: Nest Dwelling
+type: term
+sub_type: building_type
+term_original: 巢居
+term_zh: 巢居
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Nest Dwelling；来源未提供英文名。
+tags:
+  - 原始居住
+  - 槽巢
+  - 窝棚
+  - 干栏式建筑
+  - 礼记
+aliases:
+  - 槽巢
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L546-L572."
+    location: "L546-L572"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下原始居住形态的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+巢居是原始居住形式之一，指在树上或以柴草堆成的窝棚居住。2016 册引《礼记·礼运篇》“夏则居槽巢”，称槽巢为用柴草堆成的窝棚，并把干栏式建筑视为巢居的继承和发展。
+
+## 核心内容
+
+- **文献**: 《礼记·礼运篇》记“昔者先王，未有宫窑，冬则居管窑，夏则居槽巢”（原文如此）（2016）
+- **形制**: 槽巢乃为用柴草堆成的窝棚（2016）
+- **考古旁证**: 距今六七千年前的西安半坡遗址中就能看到这种住房（2016）
+- **与干栏式的关系**: 干栏式建筑是巢居的继承和发展（2016）
+- **建筑史位置**: 原始建筑是在巢居和穴居的基础上发展起来的（2016
+
+===== terms/xueju.md =====
+---
+title: 穴居（Xueju (Cave Dwelling)）
+name_en: Cave Dwelling
+type: term
+sub_type: building_type
+term_original: 穴居
+term_zh: 穴居
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Cave Dwelling；来源未提供英文名。
+tags:
+  - 原始居住
+  - 天然洞穴
+  - 半地穴式
+  - 仰韶文化
+  - 庙底沟
+  - 龙山文化
+aliases:
+  - 半地穴式房屋
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L549-L572."
+    location: "L549-L572"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下原始居住形态的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+穴居是原始居住形式之一，指以天然洞穴为栖身之处，并逐步过渡到半地穴式房屋。2016 册引《礼记·礼运篇》“冬则居管窑”，记黄河流域仰韶文化遗址中大量半地穴式泥木房屋的构造。
+
+## 核心内容
+
+- **文献**: 《礼记·礼运篇》“冬则居管窑”（原文如此，疑为“营窟”）（2016）
+- **起源**: 原始人的住所，先是以天然洞穴作为栖身之处（2016）
+- **过渡**: 新石器时代后逐步过渡到半地穴式的一种泥木房屋，在黄河流域仰韶文化遗址中大量存在（2016）
+- **构造**: 先挖成半人高的坑，中心支有木柱，最大的木柱直径可达半米左右；屋顶
+
+===== terms/bandixue-shi-jianzhu.md =====
+---
+title: 半地穴式建筑（Semi-Subterranean Dwelling）
+name_en: Semi-Subterranean Dwelling
+type: term
+sub_type: building_type
+term_original: 半地穴式建筑
+term_zh: 半地穴式建筑
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Semi-Subterranean Dwelling；来源未提供英文名。
+tags:
+  - 新石器时代
+  - 仰韶文化
+  - 半坡
+  - 木骨草泥
+aliases:
+  - 半地穴房屋
+  - 地穴式
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L418-L430."
+    location: "L418-L430"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L566-L573."
+    location: "L566-L573"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L832, L840, L842, L6431."
+    location: "L832, L840, L842, L6431"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated:
+
+===== terms/ganlan-shi-jianzhu.md =====
+---
+title: 干栏式建筑（Ganlan Building / Stilt House）
+name_en: Ganlan Building
+type: term
+sub_type: building_type
+term_original: 干栏式建筑
+term_zh: 干栏式建筑
+academic_translation_status: provisional
+translation_note: "Ganlan 为音译；英文另有 Stilt House 等描述性译法，建筑史与考古文献常用，但来源未给英文，故标 provisional。"
+tags:
+  - 新石器时代
+  - 长江流域
+  - 河姆渡
+  - 巢居
+  - 榫卯
+  - 穿斗式
+aliases:
+  - 干栏式
+  - 干栏
+term_note: "四册的界定基本一致：以桩木为基础、架高于地面的木构房屋，是巢居的继承和发展。差异在范围与强度：高丰说‘高出地面(或水上)’，并把河姆渡定为‘目前发现年代最早的、最具典型性的干栏式建筑’；夏燕靖两版说‘迄今为止世界上最早的木构建筑’，把限定从干栏式扩大到全部木构建筑；赵农以河姆渡遗址样式为南方干栏的代表，并把它接到有巢氏巢居的谱系上。"
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L928, L930."
+    location: "L928, L930"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L420, L435."
+    location: "L420, L435"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L468, L844, L851, L853, L855."
+    location: "L468, L844, L851, L853, L855"
+    evidence_ref:
+
+===== terms/tao-zeng.md =====
+---
+title: 陶甑（Pottery Zeng (Steamer)）
+name_en: Pottery Zeng (Steamer)
+type: term
+sub_type: vessel_form
+term_original: 陶甑
+term_zh: 陶甑
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Pottery Zeng (Steamer)；来源未提供英文名。
+tags:
+  - 河姆渡
+  - 蒸食
+  - 蒸汽孔
+  - 炊器
+aliases:
+  - 陶甑
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L517-L526."
+    location: "L517-L526"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L308-L315."
+    location: "L308-L315"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 2
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "陶甑是 B 维度下新石器时代炊器的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+陶甑是底部有通蒸汽小孔的蒸食器，功能类似“蒸屉”。河姆渡
+
+===== terms/yuanshi-nongju.md =====
+---
+title: 原始农具（Yuanshi Nongju (Prehistoric Farm Tools)）
+name_en: Prehistoric Farm Tools
+type: term
+sub_type: agricultural_tool
+term_original: 原始农具
+term_zh: 原始农具
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Prehistoric Farm Tools；来源未提供英文名。
+tags:
+  - 原始农业
+  - 农具
+  - 石骨蚌木
+  - 良渚文化
+  - 农耕收割加工
+aliases:
+  - 原始农业生产器具
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L574-L588."
+    location: "L574-L588"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下原始农业器具总类的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+原始农具是原始农业所用器具的总称。2016 册记原始农业为粗放式生产，农具材料以石、骨、蚌、木为主，按用途分为农耕、收割和加工三类，良渚文化遗址发现石犁、石镰、石刀等成套农具。
+
+## 核心内容
+
+- **生产方式**: 原始农业是粗放式生产（2016）
+- **材料**: 农具材料以石、骨、蚌、木为主（2016）
+- **三类分工**: 种类可分为农耕、收割和加工用具三类（2016）
+- **农耕器具**: 大体有铲、耒、锄等（2016）
+- **收割器具**:
+
+===== terms/xinshiqi-shidai.md =====
+---
+title: 新石器时代（Neolithic Period）
+name_en: Neolithic Period
+type: term
+sub_type: archaeological_period
+term_original: 新石器时代
+term_zh: 新石器时代
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Neolithic Period；来源未提供英文名。
+tags:
+  - 磨制石器
+  - 农业
+  - 定居
+  - 制陶
+aliases:
+  - 新石器时期
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L312-L350."
+    location: "L312-L350"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "田自秉, *中国工艺美术史（修订本）* (上海: 东方出版中心, 2010), L401."
+    location: "L401"
+    evidence_ref:
+      doc_id: 2010-tianzibing-zhongguo-gongyi-meishushi
+      source_file: 03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-25
+updated: 2026-10-25
+confidence: medium
+consensus: tentative
+source_count: 2
+last_verified: 2026-10-25
+review_due: 2027-04-25
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "新石器时代是 B 维度下的考古分期框架，用于安放农业、聚落与制陶材料。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+新石器
+
+===== terms/yuanshi-fuzhuang.md =====
+---
+title: 原始服装（Yuanshi Fuzhuang (Prehistoric Clothing)）
+name_en: Prehistoric Clothing
+type: term
+sub_type: garment_form
+term_original: 原始服装
+term_zh: 原始服装
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Prehistoric Clothing；来源未提供英文名。
+tags:
+  - 旧石器
+  - 新石器
+  - 上衣下裳
+  - 衣其羽皮
+  - 骨针
+  - 垂衣裳
+aliases:
+  - 原始衣着
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L523-L535."
+    location: "L523-L535"
+    evidence_ref:
+      doc_id: 2016-xiayanjing-zhongguo-yishu-shejishi-upgrade
+      source_file: 03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+updated: 2026-10-26
+confidence: medium
+consensus: tentative
+source_count: 1
+last_verified: 2026-10-26
+review_due: 2027-04-26
+version: 1
+evidence_status: source_backed
+primary_domain: chinese-design-history
+primary_dimension: B
+hierarchy_scope_note: "本 KU 是 B 维度下服饰起源与上衣下裳形制的条目。Theme/Topic 尚未 materialize。"
+---
+
+## 描述
+
+原始服装指纺织品出现以前的衣着方式及其向成形衣服的过渡。2016 册记人类最初以动物羽毛、兽皮遮身御寒，夏天用树叶或野草披身；新石器时代中晚期开始有纺织衣料，黄帝、尧、舜时代有成形的衣服，服装形式定形为上衣下裳。
+
+## 核心内容
+
+- **旧石器衣着**: 人们最初只是用动物的羽毛和兽皮来遮身和御寒，夏天还有用树叶或野草等披身（2016）
+- **文献依据**: 《韩非·五蠹篇》记“妇人不织，禽兽之皮是衣也”；《礼记·礼运篇》记“未有麻丝，衣其羽皮”（2016）
+- **纺织

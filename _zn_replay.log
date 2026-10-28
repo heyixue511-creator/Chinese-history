@@ -1,0 +1,1 @@
+{"total": 5339, "by_origin_type": {"source": 5339}, "by_candidate_type": {"claim": 1363, "unit": 3976}, "by_state": {"applied": 1590, "needs_evidence": 2776, "no_delta": 160, "rejected": 813}, "by_lifecycle_class": {"active": 2776, "terminal": 2563}}

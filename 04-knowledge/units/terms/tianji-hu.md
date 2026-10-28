@@ -38,17 +38,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "天鸡壶是 B 维度下六朝隋代壶式的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "天鸡壶是 B.6.5 追加路径的核心样本：在盘口壶肩部一面加鸡头、另一面安把手，东晋后鸡头加长，唐代演变为龙耳壶；六册中唯一有祖型与中间环节的器形谱系"
+hierarchy_scope_note: "天鸡壶是 B.6.5 追加路径的核心样本：在盘口壶肩部一面加鸡头、另一面安把手，东晋后鸡头加长，唐代演变为龙耳壶；六册中唯一有祖型与中间环节的器形谱系"
 ---
 
 ## 描述
@@ -68,15 +76,15 @@ hierarchy_scope_note: "天鸡壶是 B 维度下六朝隋代壶式的条目。The
 - **名称关系**: 天鸡壶即鸡头壶／鸡首壶，同一器类的不同称法；本 KU 以“天鸡壶”为题，别名并列
 - **设计史意义**: 鸡首由写实转向雄健、颈部由管状变粗，是六朝至隋造型语言由秀挺转向饱满的器物证据；鸡头由装饰转为流部功能，则是器物“仿生造型功能化”的过程
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 天鸡壶是 B 维度下六朝隋代壶式的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 天鸡壶是 B.6.5 追加路径的核心样本：在盘口壶肩部一面加鸡头、另一面安把手，东晋后鸡头加长，唐代演变为龙耳壶；六册中唯一有祖型与中间环节的器形谱系
 ## 相关知识元
 
 与匜、敦同属器形条目；鸡首装饰与生肖、吉祥题材相关。relation 未审查。

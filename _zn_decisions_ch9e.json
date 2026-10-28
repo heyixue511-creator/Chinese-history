@@ -1,0 +1,84 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+  "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+  "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+  "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+  "原文疑误与内部张力照录标注，不径改",
+  "同一实体只保留一个 canonical；既有专条不因同段并提而合并",
+  "同一段内人物与著作分别立条时，人物条只记生平与关系，著作内容归出版物条",
+  "图版一律据图注著录，未视觉核验，不据图扩写"
+ ],
+ "scope_spans": [
+  [
+   7597,
+   7652
+  ]
+ ],
+ "scope_note": "赵农 2009 册第九章第七节设计文献 L7597–L7652 逐段复读，含宋应星与《天工开物》、《鲁班经》、《多能鄙事》、《三才图会》、《大清工部工程做法》与其他设计思想；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+ "decisions": [
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-088",
+   "entity": "《多能鄙事》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/duoneng-bishi.md",
+   "analysis": "《多能鄙事》是相传为明代刘基所著的农业及家庭手工业技术书。检索既有 KU 无同实体条目；既有 `publications/tiangong-kaiwu.md` 与 `publications/lubanjing.md` 分属另两部技术书，不合并。按出版物新建，证据行 L7619。",
+   "approve": "批准新建 04-knowledge/units/publications/duoneng-bishi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/duoneng-bishi.md（新建）；引用 L7619。",
+   "note": "canonical: 04-knowledge/units/publications/duoneng-bishi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-089",
+   "entity": "刘基",
+   "action": "create",
+   "target": "04-knowledge/units/persons/liu-ji.md",
+   "analysis": "刘基是朱元璋的谋士、明代开国功臣。既有 KU 无刘基人物条目；`publications/duoneng-bishi.md` 为托名于他的技术书条目，二者分属人物与著作。按人物新建，证据行 L7619；人物条只记字号、身份、归隐与托名关系，不重复书籍内容。",
+   "approve": "批准新建 04-knowledge/units/persons/liu-ji.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/liu-ji.md（新建）；引用 L7619。",
+   "note": "canonical: 04-knowledge/units/persons/liu-ji.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-090",
+   "entity": "《三才图会》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/sancai-tuhui.md",
+   "analysis": "《三才图会》是明代嘉靖年间王圻、王思义编纂的 106 卷类书。检索既有 KU 无同实体条目；按出版物新建，证据行 L7628。",
+   "approve": "批准新建 04-knowledge/units/publications/sancai-tuhui.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/sancai-tuhui.md（新建）；引用 L7628。",
+   "note": "canonical: 04-knowledge/units/publications/sancai-tuhui.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-095",
+   "entity": "戴震",
+   "action": "create",
+   "target": "04-knowledge/units/persons/dai-zhen.md",
+   "analysis": "戴震是清代乾隆年间以《考工记图》图注《考工记》的学者。既有 `publications/kaogongji-tu.md` 记其著作，`works/wangchengtu-dai-zhen.md` 记传为其所绘的王城图，均非人物本体；检索无戴震人物条目，按人物新建，证据行 L7645-L7647。人物条只记时代、身份、考据方法与著作关系，著作内容归出版物条。",
+   "approve": "批准新建 04-knowledge/units/persons/dai-zhen.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/dai-zhen.md（新建）；引用 L7645-L7647。",
+   "note": "canonical: 04-knowledge/units/persons/dai-zhen.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-097",
+   "entity": "格物致知",
+   "action": "create",
+   "target": "04-knowledge/units/terms/gewu-zhizhi.md",
+   "analysis": "格物致知是宋明理学的观念，赵农以它与慎独并提，解释明清器具设计思想研究成为热点的思想背景。检索既有 KU 无同实体条目；按术语新建，证据行 L7651。来源未给出处与流变，只作背景陈述，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/terms/gewu-zhizhi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/gewu-zhizhi.md（新建）；引用 L7651。",
+   "note": "canonical: 04-knowledge/units/terms/gewu-zhizhi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-092",
+   "entity": "《大清工部工程做法》",
+   "action": "update",
+   "target": "04-knowledge/units/publications/gongcheng-zuofa.md",
+   "analysis": "《大清工部工程做法》与既有 `publications/gongcheng-zuofa.md` 为同一部书的不同题名：既有条目已据 2016 册两处、2009 夏燕靖册 L3658 与赵农册 L6649 立条，source_count 3、version 3，别名含“工程作法”“大清工部工程作法则例”。赵农册 L7632、L7634 在第九章第七节另记其共 74 卷、分四部分及卷 1—27、28—40、41—47、48—72 的卷目，并称其为继《营造法式》之后官方制订的又一建筑标准书，给规范作用与文献地位。按同书多跨度更新，在既有赵农 citation 内追加 L7632、L7634，source_count 不增、version 加 1；不另立“大清工部工程做法”条目。来源称共 74 卷而所列四部分止于卷 72，且“市作”疑为“石作”之讹，均在条目内照录标注。",
+   "approve": "批准更新 04-knowledge/units/publications/gongcheng-zuofa.md：保留既有来源，补入赵农 2009 册第七节材料并顺延复核日期。",
+   "apply_note": "04-knowledge/units/publications/gongcheng-zuofa.md（更新）；赵农 citation 追加 L7632、L7634，source_count 3 不变，version 3→4；补 74 卷四部分卷目、继《营造法式》定位与规范作用，标注卷数差额与“市作”疑字。",
+   "note": "canonical: 04-knowledge/units/publications/gongcheng-zuofa.md。"
+  }
+ ],
+ "notes": "赵农 2009 册第九章第七节 unit 候选 6 条：create 5、update 1、rejected 0。范围 L7597-L7652。新建覆盖《多能鄙事》、刘基、《三才图会》、戴震、格物致知；更新为《大清工部工程做法》并入卷目与《营造法式》定位。宋应星与《天工开物》、《鲁班经》、文震亨与《长物志》、李渔与《闲情偶寄》均已有 KU，本段无对应候选；图 9-69 至图 9-72 未视觉核验。"
+}

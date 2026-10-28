@@ -1,0 +1,46 @@
+{
+ "doc_id": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "source_file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "date": "2026-10-27",
+ "package": "2026-10-27-2011lilixin-claims-batch-ll6a",
+ "goal": "处理后记 claim 候选（L2444-L2448），新增 2 条 claim，清空李立新《中国设计艺术史论》的 claim 候选。",
+ "rows_file": "_ll_ll6a_rows.json",
+ "patch_file": "_ll_ll6a_patch.json",
+ "scope": {
+  "line_start": 2444,
+  "line_end": 2448,
+  "chapter": "后记（成书与答辩）"
+ },
+ "baseline": {
+  "registry_total": 1240,
+  "last_claim": "claim-1240",
+  "applied": 4232,
+  "needs": 2,
+  "no_delta": 234,
+  "rejected": 871
+ },
+ "expected": {
+  "candidates": 2,
+  "claims": 2,
+  "patches": 0,
+  "types": {
+   "factual_claim": 2
+  },
+  "links": 4,
+  "distinct": 3,
+  "registry_total": 1242,
+  "applied": 4234,
+  "needs": 0,
+  "no_delta": 234,
+  "rejected": 871,
+  "lifecycle_terminal": 5339,
+  "lifecycle_active": 0,
+  "applied_doc": 435,
+  "needs_doc": 0,
+  "claim_debt": 0
+ },
+ "keywords": {
+  "claim-1241": ["本书是在我的博士论文《造物之迹——中国设计艺术史引论》的基础上修改完成的"],
+  "claim-1242": ["2002年6月15日，论文在东南大学艺术学系通过答辩"]
+ }
+}

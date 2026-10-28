@@ -1,0 +1,11 @@
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-112", "title": "都江堰", "slug": "dujiangyan", "type": "work", "start": 2055, "end": 2097, "section": "第三节 农具与工具", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-114", "title": "郑国渠", "slug": "zhengguo-canal", "type": "work", "start": 2055, "end": 2097, "section": "第三节 农具与工具", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-116", "title": "西门渠", "slug": "ximen-canal", "type": "work", "start": 2055, "end": 2097, "section": "第三节 农具与工具", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-141", "title": "曾侯乙冰鉴", "slug": "zenghouyi-ice-jian", "type": "work", "start": 2192, "end": 2252, "section": "第五节 服饰与货币", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-75", "title": "吴王夫差矛", "slug": "wu-wang-fuchai-spear", "type": "work", "start": 1840, "end": 1887, "section": "第二节 车辆与兵器", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-01", "title": "刀币", "slug": "dao-bi", "type": "term", "start": 2253, "end": 2279, "section": "第五节 服饰与货币", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-03", "title": "蚁鼻钱", "slug": "yi-bi-qian", "type": "term", "start": 2253, "end": 2279, "section": "第五节 服饰与货币", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-06", "title": "曾侯乙墓漆木衣箱", "slug": "zenghouyi-lacquer-clothing-chests", "type": "work", "start": 2282, "end": 2342, "section": "第六节 家具与乐器", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-12", "title": "乐记", "slug": "yue-ji", "type": "publication", "start": 2309, "end": 2342, "section": "第六节 家具与乐器", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-13", "title": "侯马盟书", "slug": "houma-mengshu", "type": "work", "start": 2309, "end": 2617, "section": "第六节 家具与乐器", "state": "needs_evidence"}
+{"cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-22", "title": "孙子兵法", "slug": "sun-zi-bing-fa", "type": "publication", "start": 2409, "end": 2423, "section": "第七节 先秦设计文献", "state": "needs_evidence"}

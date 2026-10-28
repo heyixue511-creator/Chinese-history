@@ -39,17 +39,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "五大名窑是 B 维度下宋瓷分类的总目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "宋瓷合称的书写样本；赵农称其仅为习惯说法、田自秉称其显然有偏颇，本 Topic 以名单层而非定义层使用"
+hierarchy_scope_note: "宋瓷合称的书写样本；赵农称其仅为习惯说法、田自秉称其显然有偏颇，本 Topic 以名单层而非定义层使用"
 ---
 
 ## 描述
@@ -69,11 +77,10 @@ hierarchy_scope_note: "五大名窑是 B 维度下宋瓷分类的总目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 五大名窑是 B 维度下宋瓷分类的总目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 宋瓷合称的书写样本；赵农称其仅为习惯说法、田自秉称其显然有偏颇，本 Topic 以名单层而非定义层使用
 ## 相关知识元
 
 `terms/ge-yao.md`、`terms/guan-yao.md`、`terms/yingqing.md` 等同属宋瓷谱系；汝、钧、定三窑尚未单独成 KU。relation 未审查。

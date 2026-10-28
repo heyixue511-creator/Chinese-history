@@ -1,0 +1,215 @@
+{
+ "doc": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "rules": [
+  "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+  "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+  "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+  "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+  "同名异物或同词两义并列著录，不合并为单一定义",
+  "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+  "只有图注、且所指器物已由其他条目承担的候选记 no_delta；所指器物无其他条目承担时，建图版锚点作品条并标未视觉核验与逐项未载",
+  "类型条与单器条分工：总类、制法、纹样与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+  "候选 unit_type 与实体性质不符时按实体改写：织物与纹样类型记 term，单件器物与单幅画作记 work",
+  "同段并列条目按证据层级分列：工艺总类归 term，实例器物归 work，人物归 person，不因同段而合并"
+ ],
+ "scope_spans": [
+  [
+   3248,
+   3467
+  ]
+ ],
+ "scope_note": "田自秉 2010 册第七章隋唐的工艺美术后半（L3248-L3467）逐段复读，含刺绣、金属工艺、金银器、铜镜、漆器、家具、其他工艺与唐代结语，至卷草与牡丹条止。插图 13、16、17 及彩版只读图注，未视觉核验。L3016-L3246 的隋唐前半已由 T8a 处理。",
+ "decisions": [
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-63",
+   "entity": "神丝绣被",
+   "action": "create",
+   "target": "04-knowledge/units/works/shensi-xiu-bei.md",
+   "analysis": "候选为神丝绣被（L3268）。检索 `works/` 无此器，`terms/` 无丝绣被类；`publications/sixiu-biji.md` 记《丝绣笔记》，`procedures/bian-xiu.md`、`procedures/yun-jian-xiu.md` 记辫绣与纭裥绣针法。本条只记《杜阳杂编》转引的一条：同昌公主出降、绣三千鸳鸯、间以奇花异叶、缀灵粟之珠。尺寸、地色、针法、绣工与藏地均作未载，不据转引书补写。",
+   "approve": "批准新建 works/shensi-xiu-bei.md：单册单源、文献一条，consensus=tentative；与针法条分工互指。",
+   "apply_note": "写入 works/shensi-xiu-bei.md（新建）；引用 L3268；尺寸、针法与藏地作未载。",
+   "note": "canonical: 04-knowledge/units/works/shensi-xiu-bei.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-64",
+   "entity": "卢眉娘",
+   "action": "create",
+   "target": "04-knowledge/units/persons/lu-meiniang.md",
+   "analysis": "候选为卢眉娘（L3270）。检索 `persons/` 无此人物，亦无唐代绣女条。本条据《杜阳杂编》记永贞元年南海所贡、一尺绢上绣《法华经》七卷、字不逾粟粒而点画分明；生卒、籍贯（只称南海所贡）、师承、针法、绣作存佚与贡入后去向均作未载。",
+   "approve": "批准新建 persons/lu-meiniang.md：单册单源，consensus=tentative；只作工匠锚点。",
+   "apply_note": "写入 persons/lu-meiniang.md（新建）；引用 L3270；生卒、师承与存佚作未载。",
+   "note": "canonical: 04-knowledge/units/persons/lu-meiniang.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-66",
+   "entity": "唐代铜镇纸",
+   "action": "create",
+   "target": "04-knowledge/units/works/tang-dai-tong-zhenzhi.md",
+   "analysis": "候选为唐代铜镇纸（L3280）。检索 `works/` 无镇纸类，`terms/` 无文房铜器条。来源在唐代铜器遗物总述中以一段记新疆吉木萨尔出土、作蹲兽状、可镇纸可作案头摆设；尺寸、重量、兽种、铸地与藏地未载。建单器作品条，不据此扩展为唐代文房器具总类。",
+   "approve": "批准新建 works/tang-dai-tong-zhenzhi.md：单册单源，consensus=tentative。",
+   "apply_note": "写入 works/tang-dai-tong-zhenzhi.md（新建）；引用 L3280；尺寸、重量与藏地作未载。",
+   "note": "canonical: 04-knowledge/units/works/tang-dai-tong-zhenzhi.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-67",
+   "entity": "唐睿宗景云二年铭文大钟",
+   "action": "create",
+   "target": "04-knowledge/units/works/jingyun-er-nian-dazhong.md",
+   "analysis": "候选为唐睿宗景云二年铭文大钟（L3282）。检索 `works/` 无铜钟条，`terms/` 无钟类。来源只记西安博物馆陈列、景云二年（711）、重约12000多斤、饰舞狮翔鹤云纹宝相花、风格粗犷雄健；通高、口径、钟纽、铭文内容、铸地与音响未载。建单器条，名称从来源的纪年与铭文表述。",
+   "approve": "批准新建 works/jingyun-er-nian-dazhong.md：单册单源，consensus=tentative。",
+   "apply_note": "写入 works/jingyun-er-nian-dazhong.md（新建）；引用 L3282；尺寸、铭文与铸地作未载。",
+   "note": "canonical: 04-knowledge/units/works/jingyun-er-nian-dazhong.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-08-70",
+   "entity": "唐代银薰炉",
+   "action": "create",
+   "target": "04-knowledge/units/works/tang-dai-yin-xunlu.md",
+   "analysis": "候选为唐代银薰炉（L3304）。检索 `works/` 无薰炉条，`terms/` 无香具条。来源一段给圆球炉体、子母口卡轴、四股银丝绳辫与钩、内层同心圆机环与焚香杯、活轴对称连接、重心平衡与薰衣被用途；尺寸、重量、出土地、藏地与所据实物未载。建单器条，重点记结构原理，不据现代机械常识补写。",
+   "approve": "批准新建 works/tang-dai-yin-xunlu.md：单册单源，consensus=tentative；结构描述照录。",
+   "apply_note": "写入 works/tang-dai-yin-xunlu.md（新建）；引用 L3304；尺寸、出土地与藏地作未载。",
+   "note": "canonical: 04-knowledge/units/works/tang-dai-yin-xunlu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-02",
+   "entity": "涂金龟负“论语玉烛”",
+   "action": "create",
+   "target": "04-knowledge/units/works/lunyu-yuzhu.md",
+   "analysis": "候选为涂金龟负“论语玉烛”（L3313）。检索 `works/` 无此器，`terms/` 无酒令器具条。来源记 1982 年江苏丹徒丁卯桥出土、银龟座昂首曲尾四足内缩、背负圆筒刻龙凤卷草与“论语玉烛”四字、筒内五十支刻《论语》章句银酒筹、属古代行酒令器具且尚属首见；尺寸、重量、涂金范围、酒筹长度与藏地未载。名从来源，不把“涂金”扩写为通体鎏金。",
+   "approve": "批准新建 works/lunyu-yuzhu.md：单册单源，consensus=tentative。",
+   "apply_note": "写入 works/lunyu-yuzhu.md（新建）；引用 L3313；尺寸、涂金范围与藏地作未载。",
+   "note": "canonical: 04-knowledge/units/works/lunyu-yuzhu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-04",
+   "entity": "海兽葡萄纹",
+   "action": "create",
+   "target": "04-knowledge/units/terms/haishou-putao-wen.md",
+   "analysis": "候选为海兽葡萄纹（L3341）。检索 `terms/tangjing.md` 记唐镜总类与断代，`terms/tongjing.md` 记铜镜通名，但 `terms/` 无海兽葡萄纹专题。本条记外来意匠、武周至盛唐流行、满花构图、内区圆圈纹与过梁葡萄、浮雕做法、陕西河南以洛阳为多的出土分布；葡萄与海兽数目、镜径、年代序列与具体镜例未载。",
+   "approve": "批准新建 terms/haishou-putao-wen.md：单册单源，consensus=tentative；与唐镜总类分工。",
+   "apply_note": "写入 terms/haishou-putao-wen.md（新建）；引用 L3341；数目、尺寸与镜例作未载。",
+   "note": "canonical: 04-knowledge/units/terms/haishou-putao-wen.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-05",
+   "entity": "双鸾衔绶纹",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shuangluan-xianshou-wen.md",
+   "analysis": "候选为双鸾衔绶纹（L3343）。检索 `terms/tangjing.md` 记唐镜，`works/shuangluan-ruishou-kuihua-jing.md` 记双鸾瑞兽葵花镜，但后者器名作双鸾瑞兽、未提衔绶，不能等同。本条记对称双鸾作舞蹈状、嘴衔飘动绶带、绶与寿同音、玄宗诗、《山海经》鸾鸟记载、象征夫妇或贤俊、盛唐流行且可能与千秋节有关；镜径、鸾鸟细部、绶带长度与出土实例未载。",
+   "approve": "批准新建 terms/shuangluan-xianshou-wen.md：单册单源，consensus=tentative；与双鸾瑞兽葵花镜分列。",
+   "apply_note": "写入 terms/shuangluan-xianshou-wen.md（新建）；引用 L3343；尺寸与实例作未载。",
+   "note": "canonical: 04-knowledge/units/terms/shuangluan-xianshou-wen.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-06",
+   "entity": "唐镜图案组织五式",
+   "action": "create",
+   "target": "04-knowledge/units/terms/tangjing-tuzhi-wushi.md",
+   "analysis": "候选为唐镜图案组织五式（L3368）。检索 `terms/tangjing.md` 记唐镜总类，`terms/` 无图案组织分类条。本条是田自秉的五式分类（对称、散点、单独、旋转、满花），逐式给例纹；各式年代序列、数量比例与镜例清单未载。建分类术语条，不与唐镜总类合并，也不把五式写成唯一分类。",
+   "approve": "批准新建 terms/tangjing-tuzhi-wushi.md：单册单源，consensus=tentative；标明为田自秉分类。",
+   "apply_note": "写入 terms/tangjing-tuzhi-wushi.md（新建）；引用 L3368；年代序列与镜例清单作未载。",
+   "note": "canonical: 04-knowledge/units/terms/tangjing-tuzhi-wushi.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-09",
+   "entity": "平文",
+   "action": "no_delta",
+   "target": "04-knowledge/units/procedures/jinyin-pingtuo.md",
+   "analysis": "候选为平文（L3388）。检索 `procedures/jinyin-pingtuo.md` 已在田自秉 L3386-L3388 的引用中收入“还有一种花纹高出于漆面的，称为平文”，并在正文与平脱对举说明高低差。本条候选只是同一句的另立条目，材料不足以另建术语条（无工序、工具、实物与产地）；单独立条会与平脱条重复。故记 no_delta，材料保留在平脱条内。",
+   "approve": "不新建平文条；L3388 的平文句已由 procedures/jinyin-pingtuo.md 承担。",
+   "apply_note": "cand-09-09 记 no_delta，target 指向 procedures/jinyin-pingtuo.md。",
+   "note": "canonical: 04-knowledge/units/procedures/jinyin-pingtuo.md。cand-09-09 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-13",
+   "entity": "螺钿五弦琵琶",
+   "action": "create",
+   "target": "04-knowledge/units/works/luodian-wuxian-pipa.md",
+   "analysis": "候选为螺钿五弦琵琶（L3392）。检索 `terms/pi-pa.md` 记琵琶类型，`institutions/shosoin.md` 记正仓院并已引《正仓院考古记》，`works/luodian-huaniao-wen-jinghan.md` 记五代螺钿经函，但 `works/` 无此器。本条据 L3392 记正仓院所藏螺钿花鸟纹镜、螺钿紫檀琵琶、螺钿紫檀阮咸与五弦琵琶最精，并录《正仓院考古记》的背板描述；通长、弦制、螺钿片数、琥珀玳瑁用量与入藏经过未载。不另建《正仓院考古记》出版物条。",
+   "approve": "批准新建 works/luodian-wuxian-pipa.md：单册单源，consensus=tentative；引文与正仓院条互指。",
+   "apply_note": "写入 works/luodian-wuxian-pipa.md（新建）；引用 L3392；尺寸、弦制与入藏经过作未载。",
+   "note": "canonical: 04-knowledge/units/works/luodian-wuxian-pipa.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-17",
+   "entity": "库路真",
+   "action": "create",
+   "target": "04-knowledge/units/terms/kuluzhen.md",
+   "analysis": "候选为库路真（L3400-L3402）。检索 `procedures/jinyin-pingtuo.md` 记金银平脱，但 `terms/` 无库路真或襄样条，`places/` 无襄阳。来源据《新唐书·地理志》记襄州土贡漆器库路真二十品乘、花文五乘，称库路真系鲜卑语、属漆器名称，唐代闻名全国、称“天下以为法”并称“襄样”，并明言不知其具体内容。器形、胎骨、纹样、工序与技法归属均未载；来源未把它归入平脱，条目不作此断言。",
+   "approve": "批准新建 terms/kuluzhen.md：单册单源，consensus=tentative；只记名称、贡额与名声。",
+   "apply_note": "写入 terms/kuluzhen.md（新建）；引用 L3400-L3402；器形、胎骨与技法归属作未载。",
+   "note": "canonical: 04-knowledge/units/terms/kuluzhen.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-19",
+   "entity": "木画",
+   "action": "create",
+   "target": "04-knowledge/units/terms/muhua.md",
+   "analysis": "候选为木画（L3415-L3417、L3425）。检索 `procedures/jinyin-pingtuo.md` 记平脱，`institutions/shosoin.md` 记正仓院，但 `terms/` 无木画条。本条据 L3415 记木画为唐代创造、用染色的象牙鹿角黄杨木制花纹镶嵌木器，并记家具装饰法中的螺钿平脱金银绘密陀僧绘夹缬蜡缬；据 L3417 记正仓院木画挟轼、据 L3425 记木画棋局及其纹样。工序、胶料、嵌片厚度与产地未载。木画与螺钿、平脱材料不同，不合并。",
+   "approve": "批准新建 terms/muhua.md：单册单源，consensus=tentative；与平脱、螺钿分列。",
+   "apply_note": "写入 terms/muhua.md（新建）；引用 L3415-L3417、L3425；工序与产地作未载。",
+   "note": "canonical: 04-knowledge/units/terms/muhua.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-21",
+   "entity": "唐代木画棋局",
+   "action": "create",
+   "target": "04-knowledge/units/works/muhua-qiju.md",
+   "analysis": "候选为唐代木画棋局（L3425）。检索 `works/` 无棋局条，`terms/muhua.md` 同批承担木画工艺总类。本条据 L3425 记棋局与双六局为唐代流行的娱乐家具、正仓院藏棋局以木画装饰雉雁狮象鹿及胡人牵驼、两侧金环抽屉中有机关、屉内龟形盒装棋子；尺寸、木质、棋盘道数与图版未载。类型条与单器条分工，不并入木画条。",
+   "approve": "批准新建 works/muhua-qiju.md：单册单源，consensus=tentative。",
+   "apply_note": "写入 works/muhua-qiju.md（新建）；引用 L3425；尺寸、道数与图版作未载。",
+   "note": "canonical: 04-knowledge/units/works/muhua-qiju.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-94",
+   "entity": "双六局",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shuangliu-ju.md",
+   "analysis": "候选为双六局（L3425）。检索 `works/muhua-qiju.md` 同批承担木画棋局单器条，`terms/` 无双六或博戏器具条。本条据 L3425 记双六为古代博戏、盛行于六朝隋唐、双六局长方形、两边月牙形门、左右十二花眼、新疆出土螺钿双六棋盘与正仓院同式、壶门卷口下加托泥；尺寸、盘面布局细节、博法规则与掷具未载。来源只称新疆棋盘为螺钿，不称木画，本条照录。",
+   "approve": "批准新建 terms/shuangliu-ju.md：单册单源，consensus=tentative；与棋局分列。",
+   "apply_note": "写入 terms/shuangliu-ju.md（新建）；引用 L3425；尺寸、博法与掷具作未载。",
+   "note": "canonical: 04-knowledge/units/terms/shuangliu-ju.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-23",
+   "entity": "《萧翼赚兰亭图》",
+   "action": "create",
+   "target": "04-knowledge/units/works/xiaoyi-zhuan-lanting-tu.md",
+   "analysis": "候选为《萧翼赚兰亭图》（L3429）。检索 `works/` 无此画，`works/lan-ting-ji-xu.md` 记《兰亭集序》书法，`persons/wang-xi-zhi.md`、`persons/yan-lide.md` 分记王羲之与阎立本，但无画作条。本条据 L3429 记阎立本画唐太宗遣监察御史到会稽骗取辨才所藏《兰亭序》真迹、辨才坐高背竹椅，并引《唐语林》颜鲁公立藤子事与“竹椅和藤椅在唐代早期就已使用”的结论；材质、尺寸、收藏地与画面其余细节未载，图像未视觉核验。画作主维度取 B（家具史料），C 为次。",
+   "approve": "批准新建 works/xiaoyi-zhuan-lanting-tu.md：单册单源，consensus=tentative；以家具史料立条。",
+   "apply_note": "写入 works/xiaoyi-zhuan-lanting-tu.md（新建）；引用 L3429；材质、尺寸与藏地作未载。",
+   "note": "canonical: 04-knowledge/units/works/xiaoyi-zhuan-lanting-tu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-25",
+   "entity": "大智禅师碑",
+   "action": "create",
+   "target": "04-knowledge/units/works/dazhi-chanshi-bei.md",
+   "analysis": "候选为大智禅师碑（L3442）。检索 `works/` 无此碑，`terms/mudan.md` 同批判定承担牡丹纹条，`terms/tangcao-wen.md` 记卷草。本条据 L3442 记碑在西安碑林、碑侧花纹为唐代碑侧石雕最典型作品、以卷曲波折的牡丹构成带状花边、间缀凤凰鸳鸯狮子仙佛、剔雕法刻地并以线刻表现轮廓转折、具有层次感；碑主法号、立碑年代、撰书人、碑高与图版细节未载。来源本段称牡丹不称卷草，条目不代改。",
+   "approve": "批准新建 works/dazhi-chanshi-bei.md：单册单源，consensus=tentative；纹样名从来源。",
+   "apply_note": "写入 works/dazhi-chanshi-bei.md（新建）；引用 L3442；年代、撰书人与尺寸作未载。",
+   "note": "canonical: 04-knowledge/units/works/dazhi-chanshi-bei.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-26",
+   "entity": "卷草（唐草）",
+   "action": "update",
+   "target": "04-knowledge/units/terms/tangcao-wen.md",
+   "analysis": "候选为卷草（唐草）（L3462）。检索 `terms/tangcao-wen.md` 已据夏燕靖 2016 L2707 立条，记 S 形波状、二方连续、通称卷草纹、因盛行唐代故名唐草纹；但未收田自秉的汉代已有、六朝石刻边饰、三片一叶分列、唐代繁复华美、牡丹主花、明中期后莲花串枝，也未收日本人称唐草一说。按同实体跨册更新：追加 2010 册 source block，source_count 1→2，version 1→2，两名来源不同并列不裁断。",
+   "approve": "批准更新 terms/tangcao-wen.md：补田自秉 L3462，保留 2016 册叙述。",
+   "apply_note": "追加田自秉 L3462；source_count 1→2，version 1→2；名称来源两说并列。",
+   "note": "canonical: 04-knowledge/units/terms/tangcao-wen.md。cand-09-26 并入该条。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-09-93",
+   "entity": "牡丹",
+   "action": "create",
+   "target": "04-knowledge/units/terms/mudan.md",
+   "analysis": "候选为牡丹（L3464）。检索 `terms/` 无牡丹条，`terms/baoxianghua-wen.md` 记宝相花，`terms/tangcao-wen.md` 同批更新并记卷草以牡丹为主花。本条据 L3464 记牡丹为唐人所爱赏、引《本草》《唐本注》《通志略》《群芳谱》《异人录》的异名与国色天香、赏牡丹成风与卷草以牡丹为主体的社会原因；并据 L3458、L3462 记植物纹多以牡丹为主题、卷草多以牡丹为主花。牡丹纹构成式样、年代序列与器物实例未载。",
+   "approve": "批准新建 terms/mudan.md：单册单源，consensus=tentative；与宝相花分列。",
+   "apply_note": "写入 terms/mudan.md（新建）；引用 L3458、L3462、L3464；构成式样与实例作未载。",
+   "note": "canonical: 04-knowledge/units/terms/mudan.md。"
+  }
+ ]
+}

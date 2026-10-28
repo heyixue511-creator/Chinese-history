@@ -1,0 +1,228 @@
+[
+ {
+  "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-10",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:17:39+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L82-L82"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "青铜方壶",
+    "culture": null,
+    "notes": "据彩版8图注，图版未视觉核验；“曾中游父”疑为“曾仲游父”OCR误写，照录。",
+    "period": "西周",
+    "title": "曾中游父方壶"
+   },
+   "proposed_slug": "zengzhongyoufu-fanghu",
+   "source_span": {
+    "block_ids": [
+     "b0005"
+    ],
+    "line_end": 82,
+    "line_start": 82
+   },
+   "summary": "彩版8图注所记西周青铜方壶；原文仅记器名与时代。",
+   "title": "曾中游父方壶（西周）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:17:39+08:00"
+ },
+ {
+  "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-13",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:17:39+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L92-L92"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "青铜案",
+    "culture": null,
+    "notes": "据彩版10图注，图版未视觉核验。",
+    "period": "战国",
+    "title": "四鹿四龙四凤铜案"
+   },
+   "proposed_slug": "silu-silong-sifeng-tongan",
+   "source_span": {
+    "block_ids": [
+     "b0005"
+    ],
+    "line_end": 92,
+    "line_start": 92
+   },
+   "summary": "彩版10图注所记战国青铜案，装饰母题含鹿、龙、凤；原文未记尺寸与出土信息。",
+   "title": "四鹿四龙四凤铜案（战国）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:29:05+08:00"
+ },
+ {
+  "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-14",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:17:39+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L95-L95"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "青铜器（尊、盘）",
+    "culture": null,
+    "notes": "据彩版11图注，图版未视觉核验；“先蜡法”疑为“失蜡法”OCR误写，照录。",
+    "period": "战国",
+    "title": "青铜尊和盘"
+   },
+   "proposed_slug": "qingtong-zun-he-pan",
+   "source_span": {
+    "block_ids": [
+     "b0005"
+    ],
+    "line_end": 95,
+    "line_start": 95
+   },
+   "summary": "彩版11图注所记战国青铜尊与盘，图注括注“先蜡法”，未展开说明铸造工艺。",
+   "title": "青铜尊和盘（战国）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:29:05+08:00"
+ },
+ {
+  "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-16",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:17:39+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L101-L101"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "金银器",
+    "culture": null,
+    "notes": "据彩版15图注，图版未视觉核验；“蟻螭纹”疑为“蟠螭纹”OCR误写，照录。",
+    "period": "战国",
+    "title": "蟻螭纹金盏、镂空金匙"
+   },
+   "proposed_slug": "yichiwen-jinzhan-loukong-jinshi",
+   "source_span": {
+    "block_ids": [
+     "b0006"
+    ],
+    "line_end": 101,
+    "line_start": 101
+   },
+   "summary": "彩版15图注合列战国金盏与镂空金匙两件金银器，金盏饰蟻螭纹；原文未记尺寸与出土信息。",
+   "title": "蟻螭纹金盏、镂空金匙（战国）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:17:39+08:00"
+ },
+ {
+  "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-09",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:17:39+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L872",
+   "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md#L78-L78"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-09"
+   ],
+   "proposed_fields": {
+    "category": "青铜酒器",
+    "culture": "二里头文化",
+    "notes": "原文引彩版5、插图1；据正文，图版未视觉核验。合并候选差异：title: canonical='二里头铜爵' other='铜爵' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-09)；period: canonical='二里头文化（约夏代）' other='二里头文化' (2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-09)",
+    "period": "二里头文化（约夏代）",
+    "title": "二里头铜爵"
+   },
+   "proposed_slug": "erlitou-bronze-jue",
+   "source_span": {
+    "block_ids": [
+     "b0005",
+     "b0045"
+    ],
+    "evidence_block_ids": [],
+    "line_end": 872,
+    "line_start": 78
+   },
+   "summary": "二里头遗址出土的青铜爵，高13.3厘米，平底束腰，流和尾都比较长，把上有3个镂孔；原文称其造型别致优美，反映出当时制铜技术已具有一定水平。彩版5图注所记即此器。",
+   "title": "二里头铜爵",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T23:14:57+08:00"
+ }
+]

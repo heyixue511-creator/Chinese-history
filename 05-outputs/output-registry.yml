@@ -1,5 +1,5 @@
 # 输出登记。
-# 知识图谱是派生展示，不是知识事实；当前知识库为 0 KU，因此不产生可写回候选。
+# 知识图谱是派生展示，不是知识事实；知识库规模以 06-runtime/state/current-health.json 为准。
 records:
   - output_id: knowledge-graph
     output_type: display
@@ -35,3 +35,43 @@ records:
       - "05-outputs/index/places.md"
       - "05-outputs/index/publications.md"
       - "05-outputs/index/works.md"
+  - output_id: qingmo-design-literature-1840-1911-2026-10-28
+    output_type: research-report
+    used_units:
+      - haiguo-tuzhi
+      - zizheng-xinpian
+      - xiaobinlu-kangyi
+      - shengshi-weiyan
+      - shanghai-xinbao
+      - shenbao
+      - dianshizhai-huabao
+      - cansang-cuibian
+      - xiupu
+      - xuehuan-xiupu
+      - jianbian-tongling
+      - fuzhi-tiaoli
+      - qinggongbu-zaobanchchu-dangan
+    used_claims: []
+    used_relations: []
+    source_refs:
+      - "高丰《中国设计史》（2004）第九章"
+      - "夏燕靖《中国设计史》（2009）近现代史上的艺术设计"
+      - "赵农《中国艺术设计史》（2009）第十章"
+      - "田自秉《中国工艺美术史（修订本）》（2010）第十二章"
+      - "李立新《中国设计艺术史论》（2011）第三章"
+      - "夏燕靖《中国艺术设计史（升级版）》（2016）近现代史上的设计更新"
+      - "04-knowledge/structure/hierarchy/index.md（v1.15）"
+      - "04-knowledge/quality/claim-registry.yml（1,242 claims）"
+      - "06-runtime/state/current-health.json（2026-10-28）"
+      - "02-sources/_catalog-status-2026-10-24.md"
+    uncertain_points:
+      - "《绣谱》成书年存在 1821 与“清末”两种表述，报告按 1821 列入边界层。"
+      - "《益都县志》版本（光绪/民国）待核，暂列核心层并标注。"
+      - "《岭南丛述》《三百六十行》《姑苏阊门图》《长州县碑》年代未载，列待考层。"
+      - "六书行号是二次文献出处，不是原件页码；年代、作者未做外部核验。"
+      - "221 是书名号条目数，不是清末文献种数；167/221 均为阅读统计。"
+      - "报告中的核心/边界/关联/待考/排除是研究分层，不是 KU 的 confidence 或 consensus。"
+    file_back_status: not_reviewed
+    candidate_refs: []
+    artifact_patterns:
+      - "05-outputs/drafts/清末设计文献整理报告_1840-1911_2026-10-28.md"

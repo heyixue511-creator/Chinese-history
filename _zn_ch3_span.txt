@@ -1,0 +1,5 @@
+candidates 60
+merged_blocks 2
+covered_lines 1017
+first [1767, 1814] last [1817, 2785]
+gaps [(1815, 1816)]

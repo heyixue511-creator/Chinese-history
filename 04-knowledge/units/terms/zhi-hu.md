@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "执壶是 B 维度下唐代酒器器形的条目，其青瓷窑口与饮酒风尚另涉 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "执壶是 B.6.5 追加与称名两层的样本：唐代称酒壶为执壶或注子，晚唐壶身增高、多作瓜棱形、嘴与柄渐长；单源一段且同段图证为凤首龙柄壶"
+hierarchy_scope_note: "执壶是 B.6.5 追加与称名两层的样本：唐代称酒壶为执壶或注子，晚唐壶身增高、多作瓜棱形、嘴与柄渐长；单源一段且同段图证为凤首龙柄壶"
 ---
 
 ## 描述
@@ -53,15 +61,15 @@ hierarchy_scope_note: "执壶是 B 维度下唐代酒器器形的条目，其青
 - **同段酒器**: 酒杯有高足杯、小环耳杯、圈足小杯等（2009）
 - **证据边界**: 未给尺寸、窑口、釉色与实物编号；图 6-8 图注为“唐代 凤首龙柄壶”，不是典型执壶，不能据以核对执壶形制（2009）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 执壶是 B 维度下唐代酒器器形的条目，其青瓷窑口与饮酒风尚另涉 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 执壶是 B.6.5 追加与称名两层的样本：唐代称酒壶为执壶或注子，晚唐壶身增高、多作瓜棱形、嘴与柄渐长；单源一段且同段图证为凤首龙柄壶
 ## 相关知识元
 
 `terms/tang-dai-qingci-yao.md` 记唐代青瓷窑场，并同记执壶或注子的形制；`works/fengshou-longbing-hu.md` 记同段图 6-8 的凤首龙柄壶，形制与典型执壶不同；`works/bronze-ewer.md` 记宋代铜执壶，可与本条对读器形与材质的时代变化；`terms/meiping.md` 记梅瓶，同属酒器谱系。relation 未审查。

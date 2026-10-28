@@ -1,0 +1,105 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h25",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.6「瓷器工艺与窑业传统」下新建 B.6.5「器形、器类与成套组合：瓷器形态的四种生成路径」，挂载瓷器器形、器类、描述语汇与代表器物共 22 个 KU；把瓷器形态按「形从哪里来」分为取象、追加、用法定形、组合成类四条路径，另设描述语汇与族群标识两个横切层，并拒绝把器名当作分类依据。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.15",
+    "baseline_themes": 20,
+    "baseline_topics": 51,
+    "baseline_topic_memberships": 350,
+    "baseline_complete_assignments": 346,
+    "baseline_incomplete_assignments": 2224,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6694,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 696,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1347
+  },
+  "result": {
+    "hierarchy_version": "v1.16",
+    "themes": 20,
+    "topics": 52,
+    "topic_memberships": 372,
+    "complete_assignments": 368,
+    "incomplete_assignments": 2202,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6738,
+    "relation_types": "3/67",
+    "member_of_relations": 740,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1333,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b6-ciqi-gongyi-yu-yaoye-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b6-qixing-qilei-chengtao-zuhe.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 22,
+    "changed_units": 22,
+    "total_mounted_units": 368,
+    "new_topic_memberships": 22,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "taxonomy_split": "器形、器类与成套组合→B.6.5；装饰与彩绘品种→B.6.4；窑口归属与名窑名单→B.6.3；胎料、装烧与窑具→B.6.2；材料判据与早期釉色名→B.6.1；陶器、明器与低温釉陶器形→B.5",
+    "planned_topics_not_created": [
+      "B.5.3 商周秦汉陶器与明器：魂瓶、茧形壶与陶器器形留此",
+      "B.5.4 低温釉陶：唐三彩、辽三彩、宋三彩、法华器与二次烧成法留此",
+      "B.5.5 紫砂与明清陶器：宜兴、石湾窑留此",
+      "D 维度前近代官手工业 Theme：御器厂、浮梁瓷局、瓷窑官、景德镇四条的窑业制度面"
+    ],
+    "deferred_by_boundary": [
+      "魂瓶 → 六朝明器，属陶与低温釉陶系统，器形虽为瓷器史常见条目，按 B.5／B.6 材料分工留 B.5.3",
+      "茧形壶 → 秦代陶器，非瓷器，留 B.5.3",
+      "陶器器形 → 新石器陶器器形的总称，留 B.5.2，不因「器形」二字并入 B.6.5",
+      "辽三彩、唐三彩、宋三彩的器形 → 低温釉陶，留 B.5.4；B.6.5 只取辽瓷的中原式／契丹式瓷器器形对照",
+      "鲁山窑瓷拍鼓 → 与 B.6.1 已挂载的「花釉腰鼓」可能为同一器物的两条记录，待 reconcile 后再定归属",
+      "追韩信图梅瓶、蒙恬将军玉壶春瓶的纹样题材与图像解释 → 归 C，B.6.5 只取器类锚点",
+      "侈口以外的口沿术语（敞口、敛口、盘口） → 分别已在 B.6.5 谱系链（盘口壶）或缺乏独立条目（敞口、敛口），不另立描述语汇条目",
+      "各代器形的窑口归属 → 归 B.6.3，B.6.5 不按窑口编排器形",
+      "器形的胎料与装烧条件 → 归 B.6.2，B.6.5 只取外形与结构"
+    ]
+  },
+  "changed_files": 29,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2202",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1333",
+    "Vessel-form genealogy conflict: the chain pan-kou-hu -> tianji-hu -> long-er-hu has a prototype and intermediate links and is decidable; the chain yuhuchun-ping -> suantouping/fengweiping rests on one sentence in Xia Yanjing 2016, while Tian Zibing records bronze and pottery suantouping already in the Qin dynasty ('bulbous near the mouth, usually six-lobed'), so the Yuan porcelain form cannot be a derivative of yuhuchun; the two accounts cannot both hold and are kept side by side",
+    "Name-form displacement: three mechanisms coexist - name follows form (after the Yuan, vessels with a spout are called hu and those without are called ping, per Gegu Yaolun); form persists while the name migrates (suantouping spans Qin bronze/pottery and Yuan porcelain; duozi-he has three referents of which only the second is porcelain); one form carries several names (tianji-hu = jitou-hu = jishou-hu; zhi-hu = zhu-zi; jiguang-hu = pinang-hu = deng-hu = madeng-hu = mameng)",
+    "Jiguang-hu classification: Gao Feng divides by presence of a handle loop into youkong-shi and tiliang-shi, Tian Zibing divides by body (flat/round/low), handle form (huan-liang/heng-liang) and number of holes into five types; the two schemes do not map onto each other. Xia Yanjing's plates show gold and silver jiguang-hu, while Gao Feng, Tian Zibing and Zhao Nong describe porcelain ones; the relation between the materials is not discussed in any of the five books",
+    "Liao porcelain: only two大类 are enumerated (Zhongyuan-style and Qidan-style), with no periodization, no kiln list, and no functional explanation of Qidan forms; the uses given for jitui-tan ('suitable for storing wine and easy to ferment' vs 'takes little space in a tent and is easy to hold') are both conjectures",
+    "Vessel dimensions are almost entirely absent: only meiping (height c. 40 cm, mouth 4-5 cm) and zhuo-qi (1,340 sets of 27 pieces each; Longqing increases of 36 and 61 pieces) carry absolute figures; the zhuo-qi list totals 29 items against a stated 27 per set, unexplained by the source",
+    "Form vocabulary has no shared scale: the relations among chikou, changkou, liankou and penkou are not given; the 'pan-kou' of pan-kou-hu, the 'kuo-yan' of zhadou and the 'zhi-kou' of jiaer-guan cannot be converted into one descriptive scale",
+    "Daoliu-hu is described only by principle (no neck, round body, filled from a small opening in the base, inner wall divided into a circulating channel); no section drawing or inner-tube structure is given",
+    "Shengyou-deng: the two-layer oil/water construction and the cooling rationale come from a Lu You quotation and a Joseph Needham appraisal; no vessel dimensions, no experimental data",
+    "Zhuo-qi: the source lists 1,340 sets, 27 pieces per set, and Longqing increases of 36 and 61 pieces; whether the increase is per set or total is not stated"
+  ],
+  "notes": "本批新建 1 个 Topic（B.6.5 器形、器类与成套组合），挂载 22 个 KU，不新增 Theme。结构设计的三项判断：其一，Topic 名与原定方案不同——h24 manifest 登记的是「B.6.5 瓷器器形与器类」，读完 22 条候选（术语 20、器物 2）后，材料实际按「形从哪里来」分成取象（7）、追加（5）、用法定形（4）、组合成类（2）四条路径，另有两个横切层（描述语汇 1、族群标识 1），故改题「器形、器类与成套组合：瓷器形态的四种生成路径」；四条路径是并存的发生机制而非四个阶段，且常叠加于同一器物（鸡冠壶＝取象＋追加，元代壶＝追加＋称名重写）。其二，本 Topic 不画器形树：两条谱系链方向冲突，盘口壶→天鸡壶→龙耳壶可判定，玉壶春→蒜头瓶／凤尾瓶与田自秉所记秦代已有蒜头瓶冲突、不可判定；器名与器形按名随形改、形存名移、名多形一三种方式脱节，以器名建类会把不同生成路径的器物排进同一序列。其三，证据分三档：有尺度与套数（梅瓶、桌器）、有形制描述无尺度（多数条目）、只有图注一行（两件代表器物），器形比较只能停在形制描述层。三项边界处置：蒜头瓶与多子盒以 boundary_case 挂载，只为登记同名跨材质；魂瓶、茧形壶与陶器器形留 B.5；装饰与纹样归 B.6.4 与 C，窑口归 B.6.3，胎料与装烧归 B.6.2。本批不 commit、不 push。"
+}

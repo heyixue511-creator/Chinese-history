@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "五彩是 B 维度下明代釉上彩瓷的类型条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "嘉靖万历直接在烧成瓷器上描绘焙烧的釉上彩；斗彩并列结构的一端"
+hierarchy_scope_note: "嘉靖万历直接在烧成瓷器上描绘焙烧的釉上彩；斗彩并列结构的一端"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "五彩是 B 维度下明代釉上彩瓷的类型条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 五彩是 B 维度下明代釉上彩瓷的类型条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 嘉靖万历直接在烧成瓷器上描绘焙烧的釉上彩；斗彩并列结构的一端
 ## 相关知识元
 
 `terms/youshangcai.md` 是工艺总类；`terms.doucai`、`terms.fencai`、`terms.falangcai` 为相邻彩瓷类型。relation 未审查。

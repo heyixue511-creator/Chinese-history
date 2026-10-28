@@ -1,0 +1,150 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+  "引文照录：同行用“ ”，跨行拼接或句内再含引号用「 」；正文禁用 ASCII 双引号。",
+  "人物、文献、概念分立：同一段中的作者、书名与术语各建其条，不以人物条吞并文献条或概念条。",
+  "未完成著作不建 publication 条；既有 KU 已逐句覆盖者标 no_delta 或 rejected，并保留 target_ref。",
+  "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。"
+ ],
+ "scope_spans": [
+  [
+   1030,
+   1051
+  ]
+ ],
+ "scope_note": "覆盖 L1030-L1051：第二章第三节“风格论——学术史的追溯”全节，含 L1032 风格语源与刘勰八体说、司空图二十四诗品，L1034 西方风格概念与 maniera 入艺，L1036-L1038 近代风格理论诸家，L1040 两个基本含义与中西类型论比较，L1044 风格即人及其限制，L1046 森珀与里格尔，L1048 艺术意志评价与庞薰琹，L1050 《中国装饰风格研究》；止于第四节标题（L1052）之前。",
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-06",
+   "entity": "刘勰",
+   "action": "create",
+   "target": "04-knowledge/units/persons/liu-xie.md",
+   "analysis": "cand-03-06 跨度为 L1032。该行在追溯“风格”时记南朝刘勰《文心雕龙》提出“八体说”，列典雅、远奥、精约、显附、繁缛、壮丽、新奇、轻靡八体；L1040 又以沃尔夫林五对概括的形式性对举，称八体说揭示艺术的精神审美性，并记刘勰、司空图关注志、性、情与意象、意匠。persons 下无刘勰条目。",
+   "approve": "两处判断均可复查；生卒、籍贯、官职与《文心雕龙》成书年代未载，按 medium 建条只登记风格论称引，不补来源外生平。",
+   "apply_note": "新建 persons/liu-xie.md，记八体说、与形式论的分野及未载项。",
+   "note": "canonical: 04-knowledge/units/persons/liu-xie.md。cand-03-06 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-07",
+   "entity": "司空图",
+   "action": "create",
+   "target": "04-knowledge/units/persons/si-kong-tu.md",
+   "analysis": "cand-03-07 跨度为 L1032。该行记唐人司空图在《二十四诗品》中把艺术风格分为雄浑、冲淡、纤秾、沉着、高古、典雅、洗练、劲健、绮丽、自然、含蓄、豪放、精神、缜密、疏野、清奇、委曲、实境、悲慨、形容、超诣、飘逸、旷达、流动二十四品，并把这类型区分评为主观感悟式、所指与现代风格论思想相同而颇相参差；L1040 与刘勰并置。persons 下无司空图条目。",
+   "approve": "二十四品全目与类型论评价可复查；生卒、籍贯、官职与成书年代未载，按 medium 建条。",
+   "apply_note": "新建 persons/si-kong-tu.md，记二十四品、类型论评价与未载项。",
+   "note": "canonical: 04-knowledge/units/persons/si-kong-tu.md。cand-03-07 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-50",
+   "entity": "《文心雕龙》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/wen-xin-diao-long.md",
+   "analysis": "cand-03-50 跨度为 L1032。该行记南朝刘勰《文心雕龙》提出“八体说”及其八体名目，并称这八种艺术类型与现代风格概念较为接近、很具学术色彩；L1040 另称八体说揭示艺术的精神审美性。publications 下无《文心雕龙》条目；本条与刘勰、八体说分列，避免把书与人、概念混为一条。",
+   "approve": "作者、书名、八体名目与风格论定位均可复查；成书年代、篇目、版本与注疏未载，按 medium 建条。",
+   "apply_note": "新建 publications/wen-xin-diao-long.md，记作者、八体与风格论定位。",
+   "note": "canonical: 04-knowledge/units/publications/wen-xin-diao-long.md。cand-03-50 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-51",
+   "entity": "《二十四诗品》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/er-shi-si-shi-pin.md",
+   "analysis": "cand-03-51 跨度为 L1032。该行记唐人司空图《二十四诗品》把艺术风格分为二十四种品类，列全目，并把这类传统类型区分评为主观感悟式、所指与现代风格论思想相同而颇相参差。publications 下无《二十四诗品》条目。",
+   "approve": "作者、书名、二十四品全目与评价均可复查；成书年代、版本与注疏未载，按 medium 建条。",
+   "apply_note": "新建 publications/er-shi-si-shi-pin.md，记作者、二十四品与类型论评价。",
+   "note": "canonical: 04-knowledge/units/publications/er-shi-si-shi-pin.md。cand-03-51 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-68",
+   "entity": "风格（maniera）",
+   "action": "create",
+   "target": "04-knowledge/units/terms/feng-ge-maniera.md",
+   "analysis": "cand-03-68 跨度为 L1032-L1040。该段记现代汉语“风格”是 maniera 的反映，中国古代文论已有相应类型论；西方自古把风格作为研究对象，亚里士多德、西塞罗、昆提利安视为思维的恰当修饰，14 至 15 世纪法语 manière 与意大利语 maniera 有优美高贵风度与精于世故举止之意，1442 年阿诺罗·加利或奥塔维亚诺·乌巴迪尼首次用于艺术，瓦萨里引入艺术史研究；近代上升为普适理论。L1040 归结内容—评价风格与形式—描述风格两个基本含义；L1044 记“风格即人”并限定造物设计风格不等同于艺术家独特性创造；L1046-L1048 转入森珀与里格尔的历史风格研究。terms 下无风格概念条。",
+   "approve": "各段判断均可复查；maniera 的完整词源、理论家原文与中西类型论逐条对应未载，按 medium 建条，汇总同节风格论。",
+   "apply_note": "新建 terms/feng-ge-maniera.md，记汉语对应、中国古代类型论、西方词义与入艺、两个基本含义及历史风格研究。",
+   "note": "canonical: 04-knowledge/units/terms/feng-ge-maniera.md。cand-03-68 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-69",
+   "entity": "八体说",
+   "action": "create",
+   "target": "04-knowledge/units/terms/ba-ti-shuo.md",
+   "analysis": "cand-03-69 跨度为 L1032。该行给八体说出处、八体名目与现代风格概念的接近，L1040 给其精神审美性及与沃尔夫林形式论的分野。terms 下无八体说条目；它与刘勰、〈文心雕龙〉分列，人物、文献、概念各承其位。",
+   "approve": "八体名目与两处判断均可复查；八体界定、排序原则与后世注疏未载，按 medium 建条。",
+   "apply_note": "新建 terms/ba-ti-shuo.md，记出处、八体、类型论定位与形式论分野。",
+   "note": "canonical: 04-knowledge/units/terms/ba-ti-shuo.md。cand-03-69 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-08",
+   "entity": "森珀",
+   "action": "create",
+   "target": "04-knowledge/units/persons/sen-po.md",
+   "analysis": "cand-03-08 跨度为 L1046。该行记森珀的重要著作《工艺美术与建筑的风格》：探讨从远古至当代的艺术历史，视为连续的、线性的发展过程，风格定型变化由地域、气候、时代、习俗，特别是材料、工具等因素造成；他从建筑和工艺品设计在功能、材料技术与装饰的联系入手，为设计史研究在美术史研究领域赢得地位。L1048 另称其环境地理、人文、技术因素造成风格定型和变化是一个很好的视角。persons 下无森珀条目，来源只称“森珀”，未给本名。",
+   "approve": "著作、线性史观、四类成因与研究路径均可复查；生卒、国籍、生平与著作年代未载，按 medium 建条，不据来源外知识补本名。",
+   "apply_note": "新建 persons/sen-po.md，记著作、线性史观、风格成因、方法地位与李立新评价。",
+   "note": "canonical: 04-knowledge/units/persons/sen-po.md。cand-03-08 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-09",
+   "entity": "里格尔",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-ge-er.md",
+   "analysis": "cand-03-09 跨度为 L1046。该行记里格尔曾在奥地利美术与工业博物馆纺织品部任职，接触大量工艺设计品；在《风格问题——装饰艺术史的基础》中提出“艺术意志”（Kunstwollen），强调设计艺术是心智的精神性活动，批评森珀的机械性被动性反应理论，认为风格发展既服从技术材料的多样性要求，又是创造性选择。L1048 记其艺术意志将艺术发展完全独立于外界条件，是对森珀理论的否定也是补充，并用以理解庞薰琹的中国装饰艺术判断。persons 下无里格尔条目。",
+   "approve": "任职、著作、理论内涵与两处评价均可复查；生卒、国籍、教育与著作年代未载，按 medium 建条。",
+   "apply_note": "新建 persons/li-ge-er.md，记任职、艺术意志、对森珀的批评及与庞薰琹的关联。",
+   "note": "canonical: 04-knowledge/units/persons/li-ge-er.md。cand-03-09 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-52",
+   "entity": "《工艺美术与建筑的风格》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/gong-yi-mei-shu-yu-jian-zhu-de-feng-ge.md",
+   "analysis": "cand-03-52 跨度为 L1046。该行记森珀此书的从远古至当代线性史观、地域气候时代习俗与材料工具等风格成因，以及从功能、材料技术与装饰的联系入手的研究路径，称其为设计史研究在美术史研究领域赢得地位。publications 下无此书条目；与森珀人物条分列，文献条只承书目与书内论点。",
+   "approve": "书名、研究对象、史观、成因与研究路径均可复查；出版年份、出版地、原书名与版本未载，按 medium 建条。",
+   "apply_note": "新建 publications/gong-yi-mei-shu-yu-jian-zhu-de-feng-ge.md，记书名、线性史观、风格成因与研究路径。",
+   "note": "canonical: 04-knowledge/units/publications/gong-yi-mei-shu-yu-jian-zhu-de-feng-ge.md。cand-03-52 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-53",
+   "entity": "《风格问题——装饰艺术史的基础》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/feng-ge-wen-ti.md",
+   "analysis": "cand-03-53 跨度为 L1046。该行记里格尔在此书中提出“艺术意志”（Kunstwollen），强调设计艺术是心智的精神性活动，批评森珀的机械性被动性反应理论，认为风格发展服从技术材料的多样性要求又是创造性选择。publications 下无此书条目；与里格尔人物条、艺术意志概念条分列。",
+   "approve": "作者、书名、艺术意志与对森珀的批评均可复查；出版年份、出版地、原书名与版本未载，按 medium 建条。",
+   "apply_note": "新建 publications/feng-ge-wen-ti.md，记作者、书名、艺术意志与理论内涵。",
+   "note": "canonical: 04-knowledge/units/publications/feng-ge-wen-ti.md。cand-03-53 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-70",
+   "entity": "艺术意志（Kunstwollen）",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yi-shu-yi-zhi.md",
+   "analysis": "cand-03-70 跨度为 L1046。该行记里格尔在《风格问题——装饰艺术史的基础》中提出“艺术意志”（Kunstwollen），强调设计艺术是心智的精神性活动，批评森珀的机械性被动性反应理论，认为风格发展既服从技术材料的多样性要求，又是创造性选择；L1048 记李立新评其将艺术发展完全独立于外界条件，是对森珀理论的否定也是补充。terms 下无艺术意志条目。",
+   "approve": "提出、内涵与两处评价均可复查；Kunstwollen 的德文原义、理论形成年代与后续研究未载，按 medium 建条。",
+   "apply_note": "新建 terms/yi-shu-yi-zhi.md，记提出、内涵、李立新评价与庞薰琹关联。",
+   "note": "canonical: 04-knowledge/units/terms/yi-shu-yi-zhi.md。cand-03-70 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-10",
+   "entity": "庞薰桀/庞薰栗（原文异写）",
+   "action": "no_delta",
+   "target": "04-knowledge/units/persons/pang-xunqin.md",
+   "analysis": "cand-03-10 跨度为 L1048-L1050。L1048 记里格尔理论可帮助理解庞薰桀所说中国造物装饰艺术“两千多年来，一直是在不断地吸收、融化和创新，但是却始终保持着我国装饰艺术的特有风格”；L1050 记庞薰栗在 20 世纪 60 年代准备撰写《中国装饰风格研究》而未完成，并举“简和变”“没有不写实的变形，也没有不变形的写实”“风格中可以包括许多不同的作风，作风中可以包括许多不同的手法”。persons/pang-xunqin.md 已把这两行列入来源（L1048、L1050），正文“装饰艺术研究”条逐句抄录同一引文，字形统计亦记李立新 L1048 作“桀”、L1050 作“栗”。候选不提供新事实。",
+   "approve": "同一人物、同一两行材料，既有 KU 已覆盖；标 no_delta 并保留 target_ref，不重复写入。",
+   "apply_note": "不修改文件；内容已由 persons/pang-xunqin.md 覆盖。",
+   "note": "cand-03-10 无新增内容，标 no_delta 并保留 target_ref 指向 04-knowledge/units/persons/pang-xunqin.md。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-54",
+   "entity": "《中国装饰风格研究》",
+   "action": "rejected",
+   "target": "04-knowledge/units/persons/pang-xunqin.md",
+   "analysis": "cand-03-54 跨度为 L1050。该行只记庞薰栗 20 世纪 60 年代准备撰写《中国装饰风格研究》专著而未完成，未给成书、目录、出版社或内容结构；书名与未完成事实已完整见于 persons/pang-xunqin.md 的“装饰艺术研究”条。未完成著作不构成可独立著录的出版物。",
+   "approve": "只有一句写作计划，无成书与文本；不新建 publication 条，rejected 并保留 target_ref。",
+   "apply_note": "不新建条目；内容已由现有 KU 覆盖。",
+   "note": "cand-03-54 与 04-knowledge/units/persons/pang-xunqin.md 重复，标 rejected 并保留 target_ref。"
+  }
+ ]
+}

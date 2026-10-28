@@ -1,0 +1,418 @@
+# -*- coding: utf-8 -*-
+"""Build CL2b claim rows (Xia Yanjing 2009, ch.3 Spring-Autumn / Warring States)."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2009-xiayanjing-zhongguo-shejishi"
+SRC = "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md"
+DATE = "2026-10-27"
+CH = "春秋战国时期的艺术设计"
+
+ROWS = []
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(cid, ctype, zh, en, confidence, supported, note, start, end, kind,
+      key_lines, block_ids, section):
+    ROWS.append({
+        "claim_id": None,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": kind,
+                "key_lines": key_lines,
+                "block_ids": block_ids,
+                "chapter": CH,
+                "section": section,
+            },
+            "candidate_id": DOC + ":" + cid,
+        },
+        "confidence": confidence,
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    })
+
+
+C("cand-02-01", "historiographic_claim",
+  "夏燕靖认为，春秋战国时期奴隶制逐步衰落、瓦解并向封建制急剧转变；在社会生产中，炼铜业宣告结束，冶铁业代而兴起，铸铁器具被广泛应用，其主要标志是铸铁农具的推广使用。",
+  "Xia Yanjing argues that during the Spring and Autumn and Warring States periods the slave system gradually declined and collapsed and shifted sharply toward feudalism; in social production, copper smelting came to an end while iron smelting rose in its place, and cast-iron implements were widely applied, with the spread of cast-iron farm tools as the main marker.",
+  "high",
+  ["04-knowledge/units/terms/tieqi-shidai.md",
+   "04-knowledge/units/terms/iron-farm-tools.md",
+   "04-knowledge/units/procedures/ye-tie-shu-qi-yuan.md"],
+  "候选作 periodization，按类型映射路由 historiographic_claim；断言限于 L791 与 L801 两句，不把 L801 关于小农、地主与“通商惠工”的段落并入。跨度跨越 L792-L800 的历史地图与“美金与恶金”知识框，故记 bounded。",
+  791, 801, "bounded", [791, 801], ["b0089", "b0091"], "章首导论")
+
+C("cand-02-05", "interpretive_claim",
+  "夏燕靖认为，中国由块炼铁到生铁冶铸的技术突破与商周时期高度发展的青铜冶铸技术分不开，其中最关键的设备条件是鼓风技术的进步，春秋末年冶铁炉已使用巨大的鼓风设备排橐。",
+  "Xia Yanjing holds that China's technological breakthrough from bloomery iron to cast-iron smelting was inseparable from the highly developed bronze-casting technology of the Shang and Zhou, and that the most critical equipment condition was the advance in air-blasting: by the late Spring and Autumn period iron-smelting furnaces already used the large box-bellows known as paituo.",
+  "medium",
+  ["04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md",
+   "04-knowledge/units/procedures/paituo-gufeng.md",
+   "04-knowledge/units/terms/qingtongqi.md"],
+  "候选作 interpretation；把“与青铜冶铸技术分不开”与“最关键设备是鼓风”合并为一条，L835 同段还有“鼓橐装炭需300人”的量化细节，未并入断言。",
+  835, 835, "line", [835], ["b0095"], "1）冶铁发明与铁制器具")
+
+C("cand-02-07", "factual_claim",
+  "夏燕靖据考古材料指出，中国生产黑心、白心可锻铸铁的历史早于欧洲1700年以上。",
+  "Citing archaeological material, Xia Yanjing states that China's production of black-heart and white-heart malleable cast iron predates Europe by more than 1,700 years.",
+  "high",
+  ["04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md",
+   "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md"],
+  "候选作 basic_fact，路由 factual；来源以洛阳铁锛、铁镈与铜绿山六角锄、易县铁鐏为例，断言只保留年代比较，不把具体器名写入主句。",
+  841, 841, "line", [841], ["b0096"], "1）冶铁发明与铁制器具")
+
+C("cand-02-09", "interpretive_claim",
+  "夏燕靖认为，铁范铸造可重复使用、铸件规整，因而降低了铁器的成本，有利于质量和生产效率的提高。",
+  "Xia Yanjing argues that iron-mold casting, being reusable and producing regular castings, lowered the cost of iron implements and helped improve both quality and production efficiency.",
+  "medium",
+  ["04-knowledge/units/procedures/tiefan-zhuzao.md",
+   "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md",
+   "04-knowledge/units/terms/iron-farm-tools.md"],
+  "候选作 interpretation；L851-L853 先述兴隆、磁县铁范及薄壁不过3毫米，再作成本与效率判断，断言取判断句，不把工艺描述并入。",
+  853, 853, "line", [853], ["b0097"], "1）冶铁发明与铁制器具")
+
+C("cand-02-10", "interpretive_claim",
+  "夏燕靖认为，河南辉县出土的战国铁犁是现存中国最早的铁犁，以畜力作业，成为农业史上划时代的革命。",
+  "Xia Yanjing holds that the Warring States iron plow unearthed at Huixian, Henan, is the earliest surviving iron plow in China; worked with animal power, it constituted an epoch-making revolution in agricultural history.",
+  "high",
+  ["04-knowledge/units/terms/iron-farm-tools.md",
+   "04-knowledge/units/terms/tieqi-shidai.md",
+   "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md"],
+  "候选作 interpretation，主句是考古事实加历史评价，按“interpretation 默认 interpretive”处理；不断言所有战国铁犁均用畜力。",
+  857, 857, "line", [857], ["b0098"], "1）冶铁发明与铁制器具")
+
+C("cand-02-13", "interpretive_claim",
+  "夏燕靖认为，曾国仅为不大的诸侯小国，却能铸造曾侯乙编钟等精湛青铜器，说明当时冶铜业的规模和推广程度已经相当普及。",
+  "Xia Yanjing argues that Zeng, though only a small vassal state, could cast superb bronzes such as the Zeng Hou Yi bells, which shows that copper smelting at the time was already quite widespread in scale and diffusion.",
+  "medium",
+  ["04-knowledge/units/works/zenghouyi-bianzhong.md",
+   "04-knowledge/units/places/zenghouyi-tomb.md",
+   "04-knowledge/units/procedures/hunzhu-fa.md",
+   "04-knowledge/units/procedures/fenzhu-fa.md"],
+  "候选作 interpretation；这是由单座墓葬器群反推行业规模的解释，保留“说明”而非改写为已证事实。",
+  870, 870, "line", [870], ["b0100"], "2）青铜冶铸技术与青铜外观装饰")
+
+C("cand-02-14", "historiographic_claim",
+  "夏燕靖认为，进入春秋战国时期，青铜器的使用主要是“钟鸣鼎食”器具的组合，已失去祭祀和礼器的特性，转向日用生活器具发展。",
+  "Xia Yanjing argues that in the Spring and Autumn and Warring States periods bronze vessels were used mainly as “bell-and-tripod” sets for dining, had lost their character as sacrificial ritual vessels, and turned toward daily-life utensils.",
+  "high",
+  ["04-knowledge/units/terms/qingtong-liqi.md",
+   "04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md",
+   "04-knowledge/units/terms/qingtong-shiqi.md"],
+  "候选跨度 L859-L1043 覆盖整个青铜器与陶器小节，实际断言句在 L863，另在 L1040 复述；本行取 L863 为首证，不把 L1040 表格并入。periodization 路由 historiographic。",
+  863, 863, "line", [863], ["b0100"], "2）青铜冶铸技术与青铜外观装饰")
+
+C("cand-02-16", "historiographic_claim",
+  "夏燕靖把青铜器装饰纹样的格式变化概括为：商代用单独纹样并取中轴对称，周代变为左右连续反复的二方连续纹样，春秋战国再变为上下左右的四方连续纹样。",
+  "Xia Yanjing summarizes the formal evolution of bronze decoration as follows: the Shang used isolated motifs in axial symmetry; the Zhou changed to bilateral repeating friezes; and the Spring and Autumn and Warring States periods moved to four-direction all-over repeat patterns.",
+  "high",
+  ["04-knowledge/units/procedures/yin-wen-mo-yin.md",
+   "04-knowledge/units/terms/tu-an.md",
+   "04-knowledge/units/terms/qingtongqi.md"],
+  "候选作 periodization，路由 historiographic；三段式概括是作者对装饰格式的分期，不断言所有器物无例外。",
+  874, 876, "contiguous", [874, 875, 876], ["b0101"], "2）青铜冶铸技术与青铜外观装饰")
+
+C("cand-02-21", "interpretive_claim",
+  "夏燕靖认为，春秋战国时期官私制陶作坊遍布诸侯分封地的各个城镇，陶窑面积比西周时期大五倍，殉葬明器数量巨大，这是此时制陶业的一大特点。",
+  "Xia Yanjing argues that in the Spring and Autumn and Warring States periods state and private pottery workshops spread through the towns of the feudal domains, kilns were five times the area of Western Zhou ones, and burial mingqi were produced in huge quantities—a major feature of pottery making at the time.",
+  "high",
+  ["04-knowledge/units/places/zhenghan-gucheng-taofang-yizhi.md",
+   "04-knowledge/units/terms/taoyao.md",
+   "04-knowledge/units/terms/mingqi.md",
+   "04-knowledge/units/institutions/zhou-pottery-officials.md"],
+  "候选作 interpretation；L900 同段还有轮制为主、明器仿铜礼器等判断，未并入。",
+  900, 900, "line", [900], ["b0106"], "3）制陶业的发展与陶器设计")
+
+C("cand-02-24", "interpretive_claim",
+  "夏燕靖认为，彩绘陶的纹样按装饰位置采用不同形式，器盖多用规则对称的旋转形式，器颈部或脚部多用三角形，以适应器皿面积收缩或扩展的需要。",
+  "Xia Yanjing argues that painted pottery (caihui tao) varied its motifs by decorative position: lids mostly used regular symmetrical whorls, while necks or feet mostly used triangles, adapting to the contraction or expansion of the vessel's surface.",
+  "high",
+  ["04-knowledge/units/terms/caihui-tao.md",
+   "04-knowledge/units/terms/mingqi.md"],
+  "候选作 interpretation；来源在此把“彩绘陶”与新石器时代“彩陶”区分，断言保留“彩绘陶”，不写成彩陶。",
+  912, 912, "line", [912], ["b0109"], "3）制陶业的发展与陶器设计")
+
+C("cand-02-27", "interpretive_claim",
+  "夏燕靖认为，由于漆器轻便精巧，战国时期已部分取代了粗笨的青铜器。",
+  "Xia Yanjing argues that because lacquerware was light and refined, by the Warring States period it had already partially replaced heavy, clumsy bronzes.",
+  "high",
+  ["04-knowledge/units/terms/qimu-jiaju.md",
+   "04-knowledge/units/procedures/xiu-qi.md",
+   "04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md"],
+  "候选作 interpretation；断言限定“部分取代”，不扩大为全面替代。",
+  938, 938, "line", [938], ["b0113"], "4）漆器工艺与设计的渐趋成熟")
+
+C("cand-02-31", "interpretive_claim",
+  "夏燕靖认为，地处长江流域的楚国髹漆业尤负盛名，代表着战国漆器工艺的高超水平。",
+  "Xia Yanjing holds that the lacquer industry of Chu in the Yangtze valley was especially renowned and represented the highest level of Warring States lacquer craft.",
+  "medium",
+  ["04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+   "04-knowledge/units/places/jiangling-chumuqun.md",
+   "04-knowledge/units/procedures/xiu-qi.md"],
+  "候选作 interpretation；这是评价性判断，保留“尤负盛名”“代表着”的作者立场，不改写为比较研究结论。",
+  954, 954, "line", [954], ["b0115"], "4）漆器工艺与设计的渐趋成熟")
+
+C("cand-02-35", "interpretive_claim",
+  "夏燕靖据《礼记·祭义》和《列子·汤问》“纪昌学射”的记载指出，缫丝技术和脚踏提综斜织机已取代古老的踞织机，提高了织造的速度和质量。",
+  "Citing the “Ji Chang Learns Archery” story in the “Record of Sacrifice” chapter of the Book of Rites and in Liezi, Xia Yanjing states that silk-reeling techniques and the treadle pattern-lifting slant loom replaced the ancient backstrap loom and improved weaving speed and quality.",
+  "high",
+  ["04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+   "04-knowledge/units/terms/juzhiji.md",
+   "04-knowledge/units/terms/zhijin.md"],
+  "候选作 interpretation；来源把文献记载与技术判断连写，断言以“据……指出”保留文献中介，不把记载当作独立实物证据。",
+  983, 983, "line", [983], ["b0121"], "2. 设计与生活｜1）衣")
+
+C("cand-02-39", "interpretive_claim",
+  "夏燕靖把春秋战国诸子的服饰主张概括为：墨家提倡节俭朴素，荀子主张按等级穿着不同服饰，韩非子提倡“崇尚自然，反对修饰”。",
+  "Xia Yanjing summarizes the clothing positions of the Spring and Autumn and Warring States thinkers as follows: the Mohists advocated frugality and plainness, Xunzi held that dress should differ according to rank, and Han Feizi advocated “revering nature and opposing adornment.”",
+  "high",
+  ["04-knowledge/units/persons/mozi.md",
+   "04-knowledge/units/persons/xunzi.md",
+   "04-knowledge/units/persons/han-fei-zi.md",
+   "04-knowledge/units/publications/mozi-jieyong.md"],
+  "候选作 interpretation；三人主张分见 L1006 同段，墨家部分还引《墨子·公孟篇》四君之例，未并入。",
+  1006, 1006, "line", [1006], ["b0125"], "2. 设计与生活｜1）衣")
+
+C("cand-02-44", "interpretive_claim",
+  "夏燕靖认为，春秋战国时期的服饰有庞大的织染工艺作后盾，奠定了上衣下裳和上下连属等传统服装的基本形制，并显露出服饰的纹样寓意和色彩的象征性。",
+  "Xia Yanjing argues that Spring and Autumn and Warring States dress was backed by a vast weaving and dyeing craft, laid the basic forms of traditional garments such as the upper-garment-lower-skirt ensemble and the one-piece robe, and revealed the symbolic meanings of motifs and colors.",
+  "medium",
+  ["04-knowledge/units/terms/shenyi.md",
+   "04-knowledge/units/terms/shangzhou-sizhiwu.md",
+   "04-knowledge/units/terms/zhijin.md",
+   "04-knowledge/units/terms/pei-huang.md"],
+  "候选作 interpretation；这是章末综合判断，保留“奠定了……基本形制”的强表述，未把它拆成单件服饰考证。",
+  1034, 1034, "line", [1034], ["b0130"], "2. 设计与生活｜1）衣")
+
+C("cand-02-50", "interpretive_claim",
+  "夏燕靖认为，《考工记》的营国制度把实际生活的需求、礼仪活动的要求、形式上的美感和巫术上的效用严整地结合在一起，成为对以后都城建设具有持续而深刻影响的建造模式。",
+  "Xia Yanjing argues that the Kaogongji's capital-planning system tightly integrated practical needs, ritual requirements, formal beauty, and magical efficacy, becoming a building model with a sustained and profound influence on later capital construction.",
+  "high",
+  ["04-knowledge/units/terms/jiangren-yingguo.md",
+   "04-knowledge/units/publications/kaogongji.md"],
+  "候选作 interpretation；L1055-L1057 的尺度、数字与等级规定未逐条写入断言。",
+  1059, 1059, "line", [1059], ["b0135"], "2. 设计与生活｜3）住")
+
+C("cand-02-51", "historiographic_claim",
+  "夏燕靖认为，春秋时期是车战的黄金时代，诸侯争战常出动千辆以上战车，“千乘之国”“万乘之君”成为强国争霸的重要标志。",
+  "Xia Yanjing argues that the Spring and Autumn period was the golden age of chariot warfare: contending lords often fielded more than a thousand chariots, and “a state of a thousand chariots” or “a ruler of ten thousand chariots” became an important mark of a powerful contender.",
+  "high",
+  ["04-knowledge/units/terms/war-chariot.md",
+   "04-knowledge/units/terms/chunqiu-zhanguo-zhanche-zhonglei.md",
+   "04-knowledge/units/terms/xianqin-mache.md"],
+  "候选作 periodization，路由 historiographic；《孙子兵法》与鲁昭公十三年“兵车四千乘”等例证未并入主句。",
+  1067, 1067, "line", [1067], ["b0137"], "2. 设计与生活｜4）行")
+
+C("cand-02-52", "factual_claim",
+  "夏燕靖据《考工记》“车有六等之数”指出，兵车、田车、乘车的车轮尺寸有标准化规定；依齐尺每尺约19.7厘米推算，兵车、乘车轮径为1.30米，与河南辉县琉璃阁战国墓16号车轮径实测1.30米相符。",
+  "Citing the “six grades of chariots” passage in the Kaogongji, Xia Yanjing notes standardized wheel dimensions for war chariots, hunting chariots, and passenger chariots; reckoning by the Qi foot of about 19.7 cm, the war and passenger chariot wheels measure 1.30 m in diameter, matching the 1.30 m measured on wheel no. 16 from the Warring States tomb at Liulige, Huixian, Henan.",
+  "high",
+  ["04-knowledge/units/terms/chelun.md",
+   "04-knowledge/units/procedures/chelun-jiance-fa.md",
+   "04-knowledge/units/terms/xianqin-mache.md"],
+  "候选作 basic_fact，路由 factual；同时保留文献推算与考古实测两条证据链。",
+  1088, 1088, "line", [1088], ["b0139"], "2. 设计与生活｜4）行")
+
+C("cand-02-54", "interpretive_claim",
+  "夏燕靖认为，所有类型的战船设计都离不开船舶结构与技术的设计，这些设计既要符合作战要求，又要考虑使用方便直至船舶造型的气势，其中注入的设计意识十分丰富。",
+  "Xia Yanjing argues that the design of every type of warship was inseparable from hull structure and technical design; such design had to meet combat requirements, consider ease of use, and even the imposing presence of the vessel's form, embodying a rich design consciousness.",
+  "medium",
+  ["04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+   "04-knowledge/units/terms/louchuan.md",
+   "04-knowledge/units/institutions/chuangong.md"],
+  "候选作 interpretation；这是作者对造船设计意图的总结，不是对某一船型的形制考证。",
+  1096, 1096, "line", [1096], ["b0141"], "2. 设计与生活｜4）行")
+
+C("cand-02-57", "interpretive_claim",
+  "夏燕靖认为，“几”与“席”是自先秦开始使用的两种比较特别的家具；当时人们席地而坐，用席的多少、好坏按贵贱而论，几席与冠冕合用成为表明等级之意的重要象征，故有“冠冕几席”之说。",
+  "Xia Yanjing argues that the ji (low table) and the mat were two distinctive types of furniture used from pre-Qin times; people then sat on the floor, the number and quality of mats indicated rank, and ji and mats together with crowns and caps became an important symbol of status, hence the saying “crowns, caps, ji, and mats.”",
+  "high",
+  ["04-knowledge/units/terms/ji-furniture.md",
+   "04-knowledge/units/terms/xi-mat.md",
+   "04-knowledge/units/works/kongzi-shengjitu.md"],
+  "候选跨度 L1108-L1135 同时覆盖几、席与越王勾践剑知识框；本行只取 L1128 的“几”与“席”知识链接，另立 0090 处理越王勾践剑。",
+  1128, 1128, "line", [1128], ["b0145"], "2. 设计与生活｜5）用")
+
+C("cand-02-58", "interpretive_claim",
+  "夏燕靖把越王勾践剑不锈的原因归为三方面：铜作为主要成分是不活泼金属，日常条件下不易锈蚀；髹漆木质剑鞘与夯土密封使墓室基本隔绝空气；墓室长期被中性地下水浸泡，使空气含量更少。",
+  "Xia Yanjing attributes the corrosion resistance of the Goujian sword to three factors: copper, its main component, is an inactive metal not easily corroded under ordinary conditions; the lacquered wooden scabbard and rammed-earth sealing largely cut the tomb chamber off from air; and the chamber was long soaked in neutral groundwater, further reducing its air content.",
+  "high",
+  ["04-knowledge/units/works/yuewang-goujian-jian.md",
+   "04-knowledge/units/terms/qingtong.md"],
+  "候选跨度与 0089 重叠，但主题是青铜剑防锈，故保留为独立断言；来源用“原因之一/之二/之三”分述，本行合并为一条。",
+  1132, 1132, "line", [1132], ["b0146"], "2. 设计与生活｜5）用")
+
+C("cand-02-62", "interpretive_claim",
+  "夏燕靖认为，在手工艺方面，官方手工艺荟萃众多能工巧匠并实行严格的工艺管理和细密分工，极大促进了手工艺技术进步，同时孕育出丰富的设计思想；诸子百家的思想观念对当时设计思想的形成与启迪起到巨大作用。",
+  "Xia Yanjing argues that in handicraft, official workshops gathered many skilled artisans and imposed strict craft management and fine division of labor, greatly advancing technical progress and nurturing rich design thought; the ideas of the Hundred Schools played a huge role in forming and inspiring design thinking of the time.",
+  "medium",
+  ["04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/terms/wenzhi.md"],
+  "候选作 interpretation；这是第四章“设计思想的形成”的总起句，断言保留两个并列因果，不拆成“官方作坊”与“诸子”两条。",
+  1157, 1157, "line", [1157], ["b0152"], "4. 设计思想的形成")
+
+C("cand-02-63", "historiographic_claim",
+  "夏燕靖认为，春秋战国时期“诸侯异政，百家异说”，统治者礼贤下士、网罗知识分子著书立说，打破了“学在官府”的封闭局面，形成比较活跃的“士”阶层，其中一些人从事自然科学和实际生产技术的整理。",
+  "Xia Yanjing argues that in the Spring and Autumn and Warring States periods, with “lords pursuing different policies and the Hundred Schools different doctrines,” rulers honored scholars and recruited intellectuals to write and propagate ideas, breaking the closed situation of “learning held by the officials” and forming a relatively active shi stratum, some of whom engaged in natural science and the organization of practical production techniques.",
+  "high",
+  ["04-knowledge/units/terms/shi-class.md",
+   "04-knowledge/units/persons/mozi.md",
+   "04-knowledge/units/publications/guanzi.md"],
+  "候选作 periodization，路由 historiographic；齐威王、齐宣王、吕不韦等具体人物未并入主句。",
+  1161, 1161, "line", [1161], ["b0153"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-67", "interpretive_claim",
+  "夏燕靖认为，孔子“文质兼备”的审美主张在早期造物活动中加深了对实用与审美统一性的认识，尤其对古代服饰审美观念的形成影响极大。",
+  "Xia Yanjing argues that Confucius's aesthetic position of “the unity of ornament and substance” deepened the understanding of the unity of utility and beauty in early artifact making, and had an especially great influence on the formation of ancient dress aesthetics.",
+  "medium",
+  ["04-knowledge/units/persons/confucius.md",
+   "04-knowledge/units/terms/wenzhi.md",
+   "04-knowledge/units/terms/wenzhi-tongyi.md",
+   "04-knowledge/units/publications/lunyu.md"],
+  "候选作 interpretation；孔子“质胜文则野，文胜质则史”与“仁者乐山，智者乐水”原文未全引，断言只保留作者的影响判断。",
+  1177, 1177, "line", [1177], ["b0156"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-69", "interpretive_claim",
+  "夏燕靖认为，墨子以“利于人谓之巧，不利于人谓之拙”为古代设计行业提出了一种评判标准，体现出重功能而反对无谓装饰、追求“器完而不饰”与“质真而素朴”的设计审美意趣。",
+  "Xia Yanjing argues that Mozi's dictum “what benefits people is called skillful; what does not benefit people is called clumsy” offered a standard of judgment for the ancient design craft, embodying a design aesthetic that valued function, opposed pointless ornament, and pursued “complete vessels without adornment” and “plain and genuine substance.”",
+  "high",
+  ["04-knowledge/units/persons/mozi.md",
+   "04-knowledge/units/publications/mozi-jieyong.md",
+   "04-knowledge/units/works/mozi-jiu-song-tu.md"],
+  "候选作 interpretation；《墨子·鲁问》公输子木鹊与车辖的对话是标准出处，断言保留结论，不把故事全文写入。",
+  1185, 1185, "line", [1185], ["b0159"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-72", "interpretive_claim",
+  "夏燕靖把老子“有之以为利，无之以为用”的“有”“无”辩证关系，用今天的话解释为设计的空间观念，认为它丰富了古代设计思想。",
+  "Xia Yanjing interprets the dialectic of “being” and “non-being” in Laozi's “being provides the benefit, non-being provides the use” as, in modern terms, a spatial conception of design, and holds that it enriched ancient design thought.",
+  "medium",
+  ["04-knowledge/units/persons/laozi.md",
+   "04-knowledge/units/publications/daodejing.md"],
+  "候选作 interpretation；这是以现代设计术语回译老子，保留“用今天的话来说”的解释性限定。",
+  1202, 1202, "line", [1202], ["b0161"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-74", "evaluative_claim",
+  "夏燕靖认为，孟子“与民同乐”及“民为贵，社稷次之，君为轻”的主张要求包括设计在内的一切事物以民为本，虽具有进步意义，但在封建社会里不过是一种幻想，哪个君主都不听他的。",
+  "Xia Yanjing argues that Mencius's ideas of “sharing joy with the people” and “the people are most precious, the state next, the ruler least” demanded that all things, including design, take the people as the foundation; although progressive, this was merely a fantasy in feudal society, and no ruler listened to him.",
+  "medium",
+  ["04-knowledge/units/persons/mengzi.md",
+   "04-knowledge/units/publications/mengzi.md"],
+  "候选作 interpretation，但断言后半是作者对孟子主张历史效力的明确评价，按“评价占主导”路由 evaluative；跨度跨 L1207-L1213 的《考工记》知识框，故记 bounded。",
+  1206, 1214, "bounded", [1206, 1214], ["b0162", "b0164"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-78", "evaluative_claim",
+  "夏燕靖认为，韩非子“去淫丽”是正确的，但“去智巧”带有片面性，这样反而会将美的内质和美的外形一同削弱。",
+  "Xia Yanjing argues that Han Feizi's call to “eliminate excessive beauty” was correct, but his call to “eliminate cleverness” was one-sided and would weaken both the inner substance and the outer form of beauty.",
+  "medium",
+  ["04-knowledge/units/persons/han-fei-zi.md",
+   "04-knowledge/units/publications/hanfeizi.md"],
+  "候选作 interpretation，因断言以作者对韩非子主张的得失评价为主，路由 evaluative；韩非子“以文害用”“好质而恶饰”的原文保留在讨论层，不全部写入主句。",
+  1222, 1222, "line", [1222], ["b0166"], "4. 设计思想的形成｜1）诸子百家对设计思想的影响")
+
+C("cand-02-79", "factual_claim",
+  "夏燕靖认为，成书于春秋末年的《考工记》是中国第一部手工艺专著，被后世工匠奉为经典，其述及的30项手工艺生产设计规范是以往生产经验的科学总结。",
+  "Xia Yanjing holds that the Kaogongji, completed in the late Spring and Autumn period, is China's first monograph on handicraft, revered by later artisans as a classic; the thirty design norms for craft production it sets out are a scientific summation of earlier production experience.",
+  "high",
+  ["04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/publications/zhouli.md"],
+  "候选作 basic_fact，路由 factual；成书年代、“第一部”与“30项”均是作者陈述，未另作独立考证。",
+  1228, 1228, "line", [1228], ["b0168"], "4. 设计思想的形成｜2）重要的设计著作")
+
+C("cand-02-81", "interpretive_claim",
+  "夏燕靖认为，《考工记》所载“金有六齐”的铜锡合金配方基本符合现代金属学原理。",
+  "Xia Yanjing argues that the six bronze-tin alloy formulas recorded as the “six qi of metal” in the Kaogongji basically accord with modern metallurgical principles.",
+  "high",
+  ["04-knowledge/units/terms/liuqi.md",
+   "04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/terms/qingtongqi.md"],
+  "候选作 interpretation；六齐全文在 L1232 同段，断言只取作者与现代金属学对照的判断。",
+  1232, 1232, "line", [1232], ["b0169"], "4. 设计思想的形成｜2）重要的设计著作")
+
+C("cand-02-82", "interpretive_claim",
+  "夏燕靖认为，《考工记》强调“天时”“地气”“材美”“工巧”四个原则，即“天有时，地有气，材有美，工有巧，合此四者方可为良”，这是一种朴素的辩证唯物论的美学思想。",
+  "Xia Yanjing argues that the Kaogongji stresses four principles—heaven's seasons, earth's qi, fine materials, and skilled workmanship, namely “there is a time for heaven, a qi for earth, a beauty in materials, and a skill in work; only with these four together can a thing be good”—and that this is a naive dialectical-materialist aesthetic thought.",
+  "high",
+  ["04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md",
+   "04-knowledge/units/publications/kaogongji.md"],
+  "候选作 interpretation；L1250 对四项条件的逐条解释未并入断言。",
+  1244, 1246, "contiguous", [1244, 1245, 1246], ["b0172"], "4. 设计思想的形成｜2）重要的设计著作")
+
+C("cand-02-83", "interpretive_claim",
+  "夏燕靖认为，《考工记》第一次提出了朴素的工艺观，即“材美工巧”的认识观念；这不仅是当时较为系统的理论总结，即使在今天仍可视为工艺制作的基本法则。",
+  "Xia Yanjing argues that the Kaogongji was the first to put forward a plain view of craft, namely the idea of “fine materials and skilled workmanship”; this was not only a relatively systematic theoretical summation at the time but can still be regarded today as a basic principle of craft production.",
+  "medium",
+  ["04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md",
+   "04-knowledge/units/publications/kaogongji.md"],
+  "候选与 0100 同跨度 L1242-L1254，但分别对应“四原则/朴素辩证唯物论”和“第一次提出材美工巧/今日仍适用”，语义不重复，故不合并。",
+  1248, 1248, "line", [1248], ["b0172"], "4. 设计思想的形成｜2）重要的设计著作")
+
+C("cand-03-03", "interpretive_claim",
+  "夏燕靖认为，《管子·奢靡篇》“富者靡之，贫者为之”一段，是为剖析奢侈消费提供理论阐述的依据。",
+  "Xia Yanjing holds that the passage “the rich lavish, the poor produce for them” in the “She Mi” chapter of the Guanzi provides a theoretical basis for analyzing luxury consumption.",
+  "high",
+  ["04-knowledge/units/publications/guanzi.md"],
+  "候选位于春秋战国章末，但 candidate id 属 cand-03；按来源跨度 L1255-L1262 归入本章。断言只取作者对该段性质的判断，不把整段引文写入。",
+  1259, 1259, "line", [1259], ["b0173"], "4. 设计思想的形成｜2）重要的设计著作")
+
+
+def main():
+    assert len(ROWS) == 33, len(ROWS)
+    types = {"factual_claim", "interpretive_claim", "synthetic_claim",
+             "evaluative_claim", "contested_claim", "historiographic_claim"}
+    seen = set()
+    for i, row in enumerate(ROWS):
+        row["claim_id"] = "claim-%04d" % (70 + i)
+        assert row["claim_type"] in types, row["claim_type"]
+        assert row["confidence"] in {"high", "medium", "low"}
+        assert row["statement_zh"].startswith("夏燕靖"), row["claim_id"]
+        assert row["statement_en"].strip()
+        assert row["discussion_notes"].strip()
+        assert row["consensus"] == "tentative"
+        assert row["review_status"] == "source_backed"
+        cid = row["source"]["candidate_id"]
+        assert cid not in seen, cid
+        seen.add(cid)
+        sp = row["source"]["source_span"]
+        assert 787 <= sp["line_start"] <= sp["line_end"] <= 1262, sp
+        assert sp["key_lines"] and all(sp["line_start"] <= x <= sp["line_end"] for x in sp["key_lines"]), sp
+        assert sp["block_ids"], sp
+        assert sp["span_kind"] in {"line", "contiguous", "bounded"}
+        if sp["span_kind"] == "line":
+            assert sp["line_start"] == sp["line_end"]
+        for p in row["supported_by"]:
+            assert p.startswith("04-knowledge/units/"), p
+            assert (ROOT / p).exists(), p
+    assert len({r["source"]["candidate_id"] for r in ROWS}) == 33
+    (ROOT / "_zn_claim_xyj09b_rows.json").write_text(
+        json.dumps(ROWS, ensure_ascii=False, indent=2), encoding="utf-8")
+    from collections import Counter
+    print(json.dumps({
+        "claims": len(ROWS),
+        "with_support": sum(1 for r in ROWS if r["supported_by"]),
+        "links": sum(len(r["supported_by"]) for r in ROWS),
+        "distinct_support": len({p for r in ROWS for p in r["supported_by"]}),
+        "types": dict(Counter(r["claim_type"] for r in ROWS)),
+        "confidence": dict(Counter(r["confidence"] for r in ROWS)),
+        "span_kinds": dict(Counter(r["source"]["source_span"]["span_kind"] for r in ROWS)),
+    }, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

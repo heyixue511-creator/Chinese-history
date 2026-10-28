@@ -47,19 +47,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "彩绘陶是 B.5.3 用途定义优先于工序定义的证据：四册对烧后绘花与绘花后烧的工序定义相反，但在「主要用作明器陪葬」上完全一致"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "彩绘陶是 B 维度下战国至两汉明器类型条目：彩绘层与陶胎的结合方式属工艺，纹样与设色属装饰。其明器用途另涉丧葬制度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "彩绘陶是 B.5.3 用途定义优先于工序定义的证据：四册对烧后绘花与绘花后烧的工序定义相反，但在「主要用作明器陪葬」上完全一致"
 ---
 
 ## 描述
@@ -96,12 +104,10 @@ hierarchy_scope_note: "彩绘陶是 B 维度下战国至两汉明器类型条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是"以彩绘命名的陶器"这一组概念的辨析入口，与彩陶、暗纹陶、几何印纹硬陶同属战国陶器品种序列，同时是汉代言明器设计的主要门类。可支持未来"陶器装饰工序与命名"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 彩绘陶是 B.5.3 用途定义优先于工序定义的证据：四册对烧后绘花与绘花后烧的工序定义相反，但在「主要用作明器陪葬」上完全一致
 ## 相关知识元
 
 `terms/painted-pottery.md`（彩陶）已在辨析段按"烧成前绘纹"立条，并声明不并入彩绘陶；本条不据夏燕靖两版把彩绘陶写成烧前绘，两条的工序分工以该辨析与本条的并列记录为准。同批写回的 `terms/dark-pattern-pottery.md`、`terms/geometric-stamped-hard-pottery.md` 与本案在田自秉"战国的陶瓷"一节内依次相邻；`works/wudaowen-caitao-pen.md`（舞蹈纹彩陶盆）是彩陶一侧的实物条目。高丰册的汉代彩绘陶与其同节的低温铅釉陶、画像砖、瓦当构成汉代明器与建筑陶的序列。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

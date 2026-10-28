@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "康熙红釉因郎廷极督造得名；以督陶官姓氏命名的样本，来源自认该命名「并不妥当」"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度清代康熙红釉的称名条目，挂口与口缘淡青的呈色效果属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "康熙红釉因郎廷极督造得名；以督陶官姓氏命名的样本，来源自认该命名「并不妥当」"
 ---
 
 ## 描述
@@ -58,12 +66,10 @@ hierarchy_scope_note: "本条是 B 维度清代康熙红釉的称名条目，挂
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代康熙红釉的称名条目，挂口与口缘淡青的呈色效果属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 康熙红釉因郎廷极督造得名；以督陶官姓氏命名的样本，来源自认该命名「并不妥当」
 ## 相关知识元
 
 `terms/hongyou.md` 记铜红釉的呈色原理与宝石红效果；`persons/lang-tingji.md` 记督造者；`terms/youlihong.md` 记釉里红，与本条的釉面红釉分属不同施彩方式，本条不合并。relation 未审查。

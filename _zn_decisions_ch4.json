@@ -1,0 +1,803 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "第四章 79 条 unit 候选逐条语义复读后分流为 create 64 / update 6 / rejected 9；cand-04-* 与 cand-05-* 混编，章节归属以 payload.source_span.chapter 为准。",
+  "新建条目统一 consensus=tentative、evidence_status=source_backed、source_count=1、version=1；更新按实际并入来源数提高 source_count，same-book 跨度不增 source_count。",
+  "原文错字、内部矛盾与分页拼接照录并标注，不径改；只有一句话或一句半的材料 confidence 记 low，不据图补形制。",
+  "同一实体命中多条候选时只保留一条 canonical（create 或 update），其余走 rejected 并指向同一目标文件，不重复建 KU。"
+ ],
+ "decisions": [
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-40",
+   "entity": "秦始皇",
+   "action": "create",
+   "target": "04-knowledge/units/persons/qin-shi-huang.md",
+   "analysis": "L2486-L2492 给统一六国、中央集权与焚书坑儒，L2527 与 L2571 给书同文与李斯颁小篆，L2653 与 L2672 给车同轨与驰道，L2817-L2829 给统一度量衡，L2848-L2850 给宫苑与阙制，L2922 给连长城，L3027 给秦人尚黑；六册中只有赵农把秦始皇的文本政策、车制、量制、宫苑、长城与服色收在同一章内。",
+   "approve": "新建 persons/qin-shi-huang.md：sub_type ruler，primary_dimension B，secondary A、D；只承载赵农册的秦汉设计政策材料，不收生平年表。",
+   "apply_note": "六节齐全；核心按「统一与制度」「文字与度量衡」「车制与道路」「宫苑与陵墓」「服色」分组；李白《古风》引句照录；“焚书坑儒”按来源语气记录而不评价。",
+   "note": "canonical 为新建秦始皇条目；与 works/qin-bing-ma-yong.md、works/qinling-tongchema.md 是人物与器物的分工，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-42",
+   "entity": "汉武帝",
+   "action": "create",
+   "target": "04-knowledge/units/persons/han-wu-di.md",
+   "analysis": "L2505、L2509-L2513 给击败匈奴、盐铁酒官营与独尊儒术，L2561 给货币改革，L2633-L2639 给白金皮币、上林三官、五铢、马蹄金麟趾金与黄金库存，L2694-L2698 给张骞通西域，L2799 给赵过耦犁，L2924 给霍去病；汉武帝是赵农册中跨货币、农业、军事与外交四条线的人物。",
+   "approve": "新建 persons/han-wu-di.md：sub_type ruler，primary_dimension D，secondary A、B；按政策条目组织，不作帝王生平。",
+   "apply_note": "六节齐全；货币、耦犁、西域、独尊儒术四条各成一组；黄金库存“50万斤”照录并注明为来源数字；不补在位年号与纪年。",
+   "note": "canonical 为新建汉武帝条目；与 terms/han-wu-zhu.md、terms/ou-li.md 是人物与制度的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-43",
+   "entity": "董仲舒",
+   "action": "create",
+   "target": "04-knowledge/units/persons/dong-zhong-shu.md",
+   "analysis": "L2513 一句给生卒（公元前179—公元前104年）、以《春秋公羊传》大义为依托、外儒内法与罢黜百家独尊儒术；全章只有这一句，属一句话人物。",
+   "approve": "新建 persons/dong-zhong-shu.md：sub_type thinker，primary_dimension A；confidence 记 low，只写来源给的思想定位与政策关联。",
+   "apply_note": "六节齐全；描述只有一句来源事实加一句上下文；不补著作名目与生平；证据边界明写“来源只一句”。",
+   "note": "canonical 为新建董仲舒条目；与 events/han-wudi-duzun-rushu.md 是人物与事件的分工，事件条不因本条目改写。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-45",
+   "entity": "司马迁",
+   "action": "create",
+   "target": "04-knowledge/units/persons/si-ma-qian.md",
+   "analysis": "L2515 给约公元前145年生、忍辱负重著《史记》与鲁迅“千古之绝唱，无韵之离骚”评语，L2692 给《史记·太史公自序》的青年游历长引文，用来说明秦汉道路通达。",
+   "approve": "新建 persons/si-ma-qian.md：sub_type historian，primary_dimension A；两处行段合为一条，游历引文按“道路史料”用法记录。",
+   "apply_note": "六节齐全；鲁迅评语标为鲁迅语而非来源判断；《太史公自序》引文按段落压缩，逐字句用“”；不补《史记》篇数与成书年。",
+   "note": "canonical 为新建司马迁条目；《史记》本体见 publications/shiji.md，不在本条重复书志信息。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-47",
+   "entity": "班固",
+   "action": "create",
+   "target": "04-knowledge/units/persons/ban-gu.md",
+   "analysis": "L2517 一句给公元32—92年、著《汉书》、延续司马迁并开创历朝断代史；全章只有这一句。",
+   "approve": "新建 persons/ban-gu.md：sub_type historian，primary_dimension A；confidence 记 low。",
+   "apply_note": "六节齐全；只写生卒、著作与断代史开创三项；不补《汉书》体例与篇目，书志信息归 publications/han-shu.md。",
+   "note": "canonical 为新建班固条目；与 publications/han-shu.md 同一来源但分属人物层与文献层。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-49",
+   "entity": "许慎",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xu-shen.md",
+   "analysis": "L2517-L2525 给约公元58—约147年、字叔重、汝南召陵（河南郾城）人、太尉南閤祭酒、“五经无双许叔重”与《说文解字》，L2609-L2616 给六书与小学训诂传统。",
+   "approve": "新建 persons/xu-shen.md：sub_type scholar，primary_dimension C，secondary A；文字学与生平两段合并，不拆条。",
+   "apply_note": "六节齐全；六书按来源列名，不补每书定义；《说文解字》本体归 publications/shuowen-jiezi.md；籍贯与官职照录。",
+   "note": "canonical 为新建许慎条目；与 terms/liu-shu.md 是人物与术语的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-52",
+   "entity": "李斯",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-si.md",
+   "analysis": "L2527 与 L2571 给以丞相身份颁行小篆、整理规范文字，L2590 给据石鼓文与商鞅方升铭文制定标准，L2592 给《史记·李斯列传》“平斗桶度量文章”引句，L2831 给度量衡检验；李斯是赵农册中“书同文”与“统一量制”的共同执行者。",
+   "approve": "新建 persons/li-si.md：sub_type official，primary_dimension C，secondary D；只写文字与量制两项制度行为。",
+   "apply_note": "六节齐全；“平斗桶度量文章”按《史记》引文照录并标出处；泰山、峄山、会稽刻石只列名，不补字数与存佚。",
+   "note": "canonical 为新建李斯条目；与 terms/xiaozhuan.md、works/shi-gu-wen.md、works/shang-yang-fang-sheng.md 是人物与对象的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-53",
+   "entity": "蔡伦",
+   "action": "create",
+   "target": "04-knowledge/units/persons/cai-lun.md",
+   "analysis": "L2529 给公元62—121年、字敬仲、桂阳（湖南耒阳）人、汉和帝时尚方令与“莫不精工坚密，为后世法”，L3127-L3138 给《后汉书·宦官传》造纸引文、元兴元年奏上与蔡侯纸；两段相隔八百余行但同指一人。",
+   "approve": "新建 persons/cai-lun.md：sub_type official，primary_dimension B；生平与造纸两段合并，造纸工艺细节归 procedures/zaozhishu.md。",
+   "apply_note": "六节齐全；《后汉书》引文逐字照录；西汉麻纸发现与蔡侯纸的关系按来源两存；不补纸幅、原料配比与产量。",
+   "note": "canonical 为新建蔡伦条目；与 procedures/zaozhishu.md、institutions/shangfang.md 是人物、工艺与机构的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-71",
+   "entity": "钟繇",
+   "action": "create",
+   "target": "04-knowledge/units/persons/zhong-yao.md",
+   "analysis": "L2607 一句给东汉末年书法家、最早楷书、《宣示表》为代表作、横波顿挫与减少隶书捺挑；全章只有这一句。",
+   "approve": "新建 persons/zhong-yao.md：sub_type calligrapher，primary_dimension C；confidence 记 low。",
+   "apply_note": "六节齐全；只写书体贡献与代表作；不补官职、生卒与书迹流传；《宣示表》本体归 works/xuan-shi-biao.md。",
+   "note": "canonical 为新建钟繇条目；与 terms/kai-shu.md、works/xuan-shi-biao.md 分属人物、书体与作品。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-141",
+   "entity": "程邈",
+   "action": "create",
+   "target": "04-knowledge/units/persons/cheng-miao.md",
+   "analysis": "L2592 给“传说”囚徒程邈创造民间自发文字结构、后世称秦隶与睡虎地秦简为代表作；来源本身用“传说”，只有一句。",
+   "approve": "新建 persons/cheng-miao.md：sub_type calligrapher，primary_dimension C；confidence 记 low，并把“传说”写进描述与证据边界。",
+   "apply_note": "六节齐全；不得把传说写成定论；不补籍贯、生卒与官职；秦隶与汉隶的分期归 terms/li-shu.md。",
+   "note": "canonical 为新建程邈条目；与 terms/li-shu.md 是人物传说与书体史的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-75",
+   "entity": "王莽",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wang-mang.md",
+   "analysis": "L2561 给西汉末期改制复古，L2641 与 L2643 给抑制商业、废五铢行刀布贝、材质扩至银贝龟甲、错金金错刀、以泉称钱与食古不化的混乱；三处合为一条货币改革人物。",
+   "approve": "新建 persons/wang-mang.md：sub_type ruler，primary_dimension D，secondary B；只写改制与货币两项。",
+   "apply_note": "六节齐全；货币名目按来源列举，不补形制与重量；评价语“食古不化”标为来源判断；东汉恢复五铢另见 terms/han-wu-zhu.md。",
+   "note": "canonical 为新建王莽条目；与 terms/jin-cuo-dao.md 是人物与货币实物的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-82",
+   "entity": "张骞",
+   "action": "create",
+   "target": "04-knowledge/units/persons/zhang-qian.md",
+   "analysis": "L2696 与 L2698 给汉武帝派其出使西域联络大月氏、玉门关外被匈奴扣留十余年、第二次带丝帛金币、西域设管理机构、商队与物产交流、长安到罗马四年行程。",
+   "approve": "新建 persons/zhang-qian.md：sub_type official，primary_dimension D，secondary E；只写通西域的两次出使与制度后果。",
+   "apply_note": "六节齐全；扣留“十余年”与“四年行程”照录；不补出使年份与路线细节；丝绸之路本体归 terms/sichou-zhilu.md。",
+   "note": "canonical 为新建张骞条目；与 events/zhangqian-chushi-xiyu.md 是人物与事件的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-83",
+   "entity": "班超",
+   "action": "create",
+   "target": "04-knowledge/units/persons/ban-chao.md",
+   "analysis": "L2700 一句给公元73年出使西域、获得威望、巩固丝绸之路通畅并使其成为国际性交通要道；全章只有这一句。",
+   "approve": "新建 persons/ban-chao.md：sub_type official，primary_dimension D，secondary E；confidence 记 low。",
+   "apply_note": "六节齐全；只写出使年份与通路的后果；不补三十六年经营、都护府与具体战事。",
+   "note": "canonical 为新建班超条目；与 persons/zhang-qian.md 是前后两次通西域的人物分工，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-87",
+   "entity": "史禄",
+   "action": "create",
+   "target": "04-knowledge/units/persons/shi-lu.md",
+   "analysis": "L2723 一句给公元前219年秦始皇派史禄到广西兴安、开凿湘江漓江、修33公里灵渠并连通长江珠江水系。",
+   "approve": "新建 persons/shi-lu.md：sub_type engineer，primary_dimension B；confidence 记 low。",
+   "apply_note": "六节齐全；只写主持开凿一事；不补官职、籍贯与工程细节，工程数据归 works/ling-qu.md。",
+   "note": "canonical 为新建史禄条目；与 works/ling-qu.md 是人物与工程的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-143",
+   "entity": "萧何",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xiao-he.md",
+   "analysis": "L2858 给营作未央宫、立东阙北阙前殿武库太仓、刘邦怒其过度与“非壮丽无以重威”答语及“高祖乃说”；这是建筑规模与皇权关系的直接材料。",
+   "approve": "新建 persons/xiao-he.md：sub_type official，primary_dimension A，secondary B、D；只写营作未央宫一事。",
+   "apply_note": "六节齐全；《史记·高祖本纪》对话按引文照录；“非壮丽无以重威”标为萧何语；不补未央宫尺寸，尺寸归 works/weiyang-palace.md。",
+   "note": "canonical 为新建萧何条目；与 works/weiyang-palace.md 是人物与建筑的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-122",
+   "entity": "蒙恬",
+   "action": "create",
+   "target": "04-knowledge/units/persons/meng-tian.md",
+   "analysis": "L2657 给太子扶苏与大将蒙恬修筑北通九原驰道（长约1400公里），L2922 给公元前214年率30万军民连结秦赵燕旧长城、西起临洮东入辽东。",
+   "approve": "新建 persons/meng-tian.md：sub_type general，primary_dimension B，secondary D；驰道与长城两事合并。",
+   "apply_note": "六节齐全；里数与军民数照录；不补蒙恬生平与结局；工程本体见 works/qin-chi-dao.md、works/qin-han-changcheng.md。",
+   "note": "canonical 为新建蒙恬条目；与两处工程条是人物与工程的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-127",
+   "entity": "霍去病",
+   "action": "create",
+   "target": "04-knowledge/units/persons/huo-qu-bing.md",
+   "analysis": "L2924 给汉武帝时期对匈奴的战功，L2975-L2980 给青年将军、决定性胜利、英年早逝年仅24岁、墓置于茂陵之侧与封土模拟祁连山。",
+   "approve": "新建 persons/huo-qu-bing.md：sub_type general，primary_dimension B，secondary A；战功与墓葬两段合并。",
+   "apply_note": "六节齐全；年岁与陪葬关系照录；不补战役名称与年份；墓与石刻见 places/huoqubing-mu.md、works/horse-treading-xiongnu.md。",
+   "note": "canonical 为新建霍去病条目；与墓、石刻两条是人物、地点与作品的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-48",
+   "entity": "汉书",
+   "action": "create",
+   "target": "04-knowledge/units/publications/han-shu.md",
+   "analysis": "L2517 给班固撰、延续《史记》并开断代史，L2633 与 L2637 引《武帝本纪》，L2635 引《食货志》“黄金方寸，而重一斤”，L2668 引《贾山传》驰道句，L2833 引《律历志》度量衡三条；指定行段中的 L2672 与 L2702 实际为车同轨与丝绸之路诸道，无《汉书》引文，按实际行号著录。",
+   "approve": "新建 publications/han-shu.md：sub_type history，primary_dimension A；只记作者、史体地位与赵农实际引用到的篇目。",
+   "apply_note": "六节齐全；《武帝本纪》《食货志》《贾山传》《律历志》按章内实际引文列名，不补卷数与体例；验证状态记录指定行段与实际行号的差异。",
+   "note": "canonical 为新建《汉书》条目；与 persons/ban-gu.md 分属文献层与人物层，与 publications/shiji.md 是前后史书。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-51",
+   "entity": "论衡",
+   "action": "create",
+   "target": "04-knowledge/units/publications/lun-heng.md",
+   "analysis": "L2525 给王充（公元27—约97年）著、推崇文章情感真实，L3161 给《论衡·是应篇》司南引文；两处相隔六百余行但同指一书。",
+   "approve": "新建 publications/lun-heng.md：sub_type essay_collection，primary_dimension A；作者生卒与司南引文合并。",
+   "apply_note": "六节齐全；司南引文逐字照录并标《是应篇》；不补篇目总数、版本与思想评价；司南本体归 terms/sinan.md。",
+   "note": "canonical 为新建《论衡》条目；与 terms/sinan.md 是文献与器物的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-119",
+   "entity": "《阿房宫赋》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/efang-palace-fu.md",
+   "analysis": "L2903-L2907 给杜牧作、“覆压三百余里隔离天日”长段引文、“秦人不暇自哀而后人哀之”议论、借景寓意演成历史政治警惕观念，并以“杜牧的阿房宫还是秦始皇的阿房宫哪个更真实”追问文学与史实的关系。",
+   "approve": "新建 publications/efang-palace-fu.md：sub_type literary_work，primary_dimension A，secondary C；只写文本、名句与史学追问。",
+   "apply_note": "六节齐全；长段引文按句压缩，逐字句用“”；明确标为唐代文学作品，不与秦代建筑混同；建筑本体归 works/epang-palace.md。",
+   "note": "canonical 为新建《阿房宫赋》条目；与 works/epang-palace.md 是文学文本与建筑的分工，来源的“哪个更真实”追问原样保留。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-18",
+   "entity": "《西京杂记》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/xijing-zaji.md",
+   "analysis": "L3113 给丁缓卧褥香炉与常满灯、“为机环转运四周而炉体常平”，L3171 给记里鼓车“记道车驾四中道”，L3199 给长安巧工丁缓“七龙五凤杂以芙蓉莲藕之奇”；三处均为转引，是汉代机械与灯具的关键文献。",
+   "approve": "新建 publications/xijing-zaji.md：sub_type essay_collection，primary_dimension A，secondary B；按被引内容组织，不写成书目提要。",
+   "apply_note": "六节齐全；三处引文各标行段；来源未给作者、卷数与成书年代，明写为证据边界；丁缓本人归 persons/ding-huan.md。",
+   "note": "canonical 为新建《西京杂记》条目；与 persons/ding-huan.md、terms/jili-guche.md 分属文献、人物与器物。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-64",
+   "entity": "石鼓文",
+   "action": "create",
+   "target": "04-knowledge/units/works/shi-gu-wen.md",
+   "analysis": "L2586 给秦国文字的代表、亦称大篆或籀文并与西周金文有关联，L2590 给李斯据其书写特点制定小篆；两处合为一条，来源只有书写传统层面的描述。",
+   "approve": "新建 works/shi-gu-wen.md：sub_type inscription，primary_dimension C；confidence 记 low，只写文字史定位。",
+   "apply_note": "六节齐全；不写石鼓形制、字数、现藏与发现经过；大篆、籀文两名并列；李斯与小篆的关系单列一条核心内容。",
+   "note": "canonical 为新建石鼓文条目；与 terms/xiaozhuan.md 是前源文字与规范书体的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-65",
+   "entity": "商鞅方升",
+   "action": "create",
+   "target": "04-knowledge/units/works/shang-yang-fang-sheng.md",
+   "analysis": "L2586 与 L2590 给商鞅变法时的量器、铭刻文字与李斯据其铭文制定小篆，L2819-L2821 给商鞅“平权衡正度量”、秦始皇依秦制颁全国与廿六年诏书；同一器物跨文字与量制两节。",
+   "approve": "新建 works/shang-yang-fang-sheng.md：sub_type measuring_vessel，primary_dimension B，secondary D；铭文与量制两项合并。",
+   "apply_note": "六节齐全；廿六年诏书“法度量则不壹歉疑者皆明壹之”逐字照录；不补器高、容积与藏地；秦量制度归 terms/qin-liang.md。",
+   "note": "canonical 为新建商鞅方升条目；与 terms/qin-liang.md、terms/qin-quan.md 是单器与制度的分别，与山东秦陶量的诏书关系另记。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-67",
+   "entity": "睡虎地秦简",
+   "action": "create",
+   "target": "04-knowledge/units/works/shuihudi-qin-bamboo-slips.md",
+   "analysis": "L2592 一句给湖北云梦睡虎地出土与秦隶代表作品；全章只有这一句。",
+   "approve": "新建 works/shuihudi-qin-bamboo-slips.md：sub_type manuscript，primary_dimension C；confidence 记 low。",
+   "apply_note": "六节齐全；只写出土地点与书体史地位；不补简数、内容、墓主与年代；与程邈传说、秦隶的关系归 terms/li-shu.md。",
+   "note": "canonical 为新建睡虎地秦简条目；与 places/shuihudi-qinmu.md 是简牍与墓葬的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-69",
+   "entity": "居延汉简",
+   "action": "create",
+   "target": "04-knowledge/units/works/juyan-han-slips.md",
+   "analysis": "L2603 一句给甘肃居延出土、西汉末年草书字体的代表、以隶书为基点、飘逸活泼与笔意连缀；全章只有这一句。",
+   "approve": "新建 works/juyan-han-slips.md：sub_type manuscript，primary_dimension C；confidence 记 low。",
+   "apply_note": "六节齐全；只写出土地点与书体特征；不补简数、年代与内容；章草本体归 terms/zhang-cao.md。",
+   "note": "canonical 为新建居延汉简条目；与 terms/zhang-cao.md 是实物与书体的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-72",
+   "entity": "宣示表",
+   "action": "create",
+   "target": "04-knowledge/units/works/xuan-shi-biao.md",
+   "analysis": "L2607 一句给钟繇代表作、最早楷书作品、横波顿挫、减少隶书捺挑与整洁简练；全章只有这一句。",
+   "approve": "新建 works/xuan-shi-biao.md：sub_type calligraphy，primary_dimension C；confidence 记 low。",
+   "apply_note": "六节齐全；只写书体地位与笔法评价；来源未给内容、流传与拓本，明写为证据边界；不补帖文与尺寸。",
+   "note": "canonical 为新建《宣示表》条目；与 persons/zhong-yao.md、terms/kai-shu.md 分属作品、人物与书体。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-77",
+   "entity": "秦驰道",
+   "action": "create",
+   "target": "04-knowledge/units/works/qin-chi-dao.md",
+   "analysis": "L2651-L2672 给以咸阳为中心辐射、宽约60米、高出地面、分皇帝专用道／军事道／常人道、每10里一管理亭、北通九原约1400公里、《汉书·贾山传》引文与汉代扩为长安中心道路。",
+   "approve": "新建 works/qin-chi-dao.md：sub_type road，primary_dimension B，secondary D；制度与工程合并叙述。",
+   "apply_note": "六节齐全；宽度、里程与亭距照录；《贾山传》引文逐字照录；不补路线图与考古勘测；车同轨另见 terms/che-tong-gui.md。",
+   "note": "canonical 为新建秦驰道条目；与 terms/che-tong-gui.md 是道路工程与车制标准的分工，与 persons/meng-tian.md 是工程与主持者。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-85",
+   "entity": "褒斜道",
+   "action": "create",
+   "target": "04-knowledge/units/works/baoxie-road.md",
+   "analysis": "L2710-L2719 给秦惠王时修、连接秦岭北麓眉县斜水谷与南麓褒水谷、长200余公里、石孔30厘米见方50厘米深、三层结构、《史记·货殖列传》“栈道千里…唯褒斜道绾毂其口”、刘邦烧绝栈道与韩信明修暗渡。",
+   "approve": "新建 works/baoxie-road.md：sub_type road，primary_dimension B；单条道路，栈道通制归 terms/zhan-dao.md。",
+   "apply_note": "六节齐全；石孔尺寸与里程照录；《货殖列传》引文按原样压缩；烧绝栈道与明修暗渡标为史事与传说并存；不补现存遗迹。",
+   "note": "canonical 为新建褒斜道条目；与 terms/zhan-dao.md 是具体道路与道路类型的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-86",
+   "entity": "灵渠",
+   "action": "create",
+   "target": "04-knowledge/units/works/ling-qu.md",
+   "analysis": "L2723-L2725 给公元前219年史禄主持、广西兴安、连通湘江漓江、长33公里、连通长江珠江水系、船闸提高平衡水位、分水工程保持水源与岭南设行政机构。",
+   "approve": "新建 works/ling-qu.md：sub_type waterway_engineering，primary_dimension B；工程本体，主持者归 persons/shi-lu.md。",
+   "apply_note": "六节齐全；里程与年代照录；船闸与分水工程按来源描述，不补坡降、斗门数与渠宽；水道联通关系只写来源原话。",
+   "note": "canonical 为新建灵渠条目；与 persons/shi-lu.md 是工程与主持者的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-88",
+   "entity": "渭水三桥",
+   "action": "create",
+   "target": "04-knowledge/units/works/weishui-three-bridges.md",
+   "analysis": "L2727 给东中西三座、中渭桥战国已修秦始皇加固翻修、长约525米宽约13.8米、750根木桩67个桥墩、横梁桥面、雕花护栏、中间高两边斜下呈八字、石灯华表与汉代增修东西两桥。",
+   "approve": "新建 works/weishui-three-bridges.md：sub_type bridge，primary_dimension B；三桥合一条，不拆为三条。",
+   "apply_note": "六节齐全；长度、宽度、桩数与墩数照录；八字桥面与石灯华表按来源描述，不补结构图；不补三桥各自址点。",
+   "note": "canonical 为新建渭水三桥条目；与 works/ba-bridge.md 是渭水与灞水两组桥的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-89",
+   "entity": "灞桥",
+   "action": "create",
+   "target": "04-knowledge/units/works/ba-bridge.md",
+   "analysis": "L2729 给西安灞河、汉代古桥、初为木桥、王莽时烧毁、屡毁屡修与十里相送灞柳相别；来源未给长度与形制。",
+   "approve": "新建 works/ba-bridge.md：sub_type bridge，primary_dimension B；只写沿革与送别文化两项。",
+   "apply_note": "六节齐全；“灞柳相别”标为后世送别习俗，不写成汉代制度；不补桥长、桥墩与遗址发掘。",
+   "note": "canonical 为新建灞桥条目；与 works/weishui-three-bridges.md 并列，不合并为“汉代桥梁”。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-103",
+   "entity": "风车",
+   "action": "create",
+   "target": "04-knowledge/units/works/winnowing-machine.md",
+   "analysis": "L2805 给汉代发明、叶形风扇、摇动生风分离秕壳与籽粒、吹去杂草与粮食加工便利；来源未给尺寸、材质与传动结构。",
+   "approve": "新建 works/winnowing-machine.md：sub_type agricultural_machine，primary_dimension B；与耧车、水碓同列粮食加工器具。",
+   "apply_note": "六节齐全；只写工作原理与用途；不补扇叶数、箱体与曲柄结构；与石磨、舂米的工序关系按来源概括，不补工艺流程。",
+   "note": "canonical 为新建风车条目；与 works/san-jiao-lou.md、works/shui-dui.md 是播种、舂米与扬场三类农具的并列。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-109",
+   "entity": "咸阳宫",
+   "action": "create",
+   "target": "04-knowledge/units/works/xianyang-palace.md",
+   "analysis": "L2852-L2854 给咸阳原上多重楼台建筑群、主殿侧殿卧室浴室、回廊甬道连通、陶制下水管道、灭一国即仿建其宫殿、六国宫殿别称与六国纹饰瓦当。",
+   "approve": "新建 works/xianyang-palace.md：sub_type palace，primary_dimension B；建筑群与仿建制度合并。",
+   "apply_note": "六节齐全；仿建六国宫殿按来源记录，不补六国宫名；陶制下水管道只写来源所给功能，不补管径与走向；不补遗址面积。",
+   "note": "canonical 为新建咸阳宫条目；与 places/xianyang.md 是宫殿与城址的分工，与 works/epang-palace.md 是两座秦宫分别立条。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-110",
+   "entity": "未央宫",
+   "action": "create",
+   "target": "04-knowledge/units/works/weiyang-palace.md",
+   "analysis": "L2856-L2860 给汉长安城重要建筑、遗址南北200余米东西100余米高10余米夯土高台、《史记·高祖本纪》萧何营作与“非壮丽无以重威”长引文、张衡《西京赋》“正紫宫于未央”引句、长安城周长25公里与夯土板筑。",
+   "approve": "新建 works/weiyang-palace.md：sub_type palace，primary_dimension B，secondary D；建筑、遗址与文献三项合并。",
+   "apply_note": "六节齐全；遗址尺度与城墙周长照录；《高祖本纪》《西京赋》引文分别标注；萧何本人的营作动机归 persons/xiao-he.md，本条只留建筑与制度关系。",
+   "note": "canonical 为新建未央宫条目；与 places/han-chang-an.md 是宫殿与都城的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-114",
+   "entity": "嵩山三阙",
+   "action": "create",
+   "target": "04-knowledge/units/works/songshan-three-que.md",
+   "analysis": "L2881 给东汉营造、石质、坛庙性祭祀建筑遗迹与“汉代地表建筑现在仅存的是阙”；来源未给三阙具体名称、位置与尺寸。",
+   "approve": "新建 works/songshan-three-que.md：sub_type stone_architecture，primary_dimension B；confidence 记 low。",
+   "apply_note": "六节齐全；只写年代、材质与坛庙性质；不补太室、少室、启母三阙的名称与测绘数据；门阙通制归 terms/men-que.md。",
+   "note": "canonical 为新建嵩山三阙条目；与 places/wushi-ci.md 的陵墓性门阙形成两类对照。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-118",
+   "entity": "阿房宫",
+   "action": "create",
+   "target": "04-knowledge/units/works/epang-palace.md",
+   "analysis": "L2893-L2911 给夯土高台上大型木构架建筑群、四川湖北木材运关中、《史记·秦始皇本纪》长引文（东西五百步南北五十丈、上坐万人下建五丈旗、阁道复道、未成）、“阿，近也”颜师古语与“我的房子”解、七十余万人分作、蜀山兀阿房出、项羽烧秦宫室火三月不灭但未确指阿房宫与遗址尚存。",
+   "approve": "新建 works/epang-palace.md：sub_type palace，primary_dimension B，secondary A；工程、文献与焚毁三事合并。",
+   "apply_note": "六节齐全；《秦始皇本纪》引文与颜师古语分别标注；“项羽烧阿房”按来源的不确定表述记录，不写成定论；《阿房宫赋》的文学形象归 publications/efang-palace-fu.md。",
+   "note": "canonical 为新建阿房宫条目；与 publications/efang-palace-fu.md 是建筑与文学文本的分工，来源“哪个更真实”的追问两边都保留。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-121",
+   "entity": "长城",
+   "action": "create",
+   "target": "04-knowledge/units/works/qin-han-changcheng.md",
+   "analysis": "L2917-L2928 给战国边墙、秦拆中原城墙保留北方边墙、公元前214年蒙恬率30万军民连结秦赵燕旧长城、西起临洮东入辽东、汉武帝向西延2000里至阳关、阴山以北外长城、板筑夯土与草木芦苇石块、烽燧报警、王昌龄《出塞》与明代砌砖护面。",
+   "approve": "新建 works/qin-han-changcheng.md：sub_type defensive_wall，primary_dimension B，secondary D；秦汉长城合一条，不拆为秦、汉两条。",
+   "apply_note": "六节齐全；里数、军民数与起止照录；《出塞》引诗标为王昌龄；明代砌砖只作后世对照一句；烽燧本体归 terms/feng-sui.md。",
+   "note": "canonical 为新建秦汉长城条目；与 terms/feng-sui.md 是墙体与报警设施的分工，与 procedures/rammed-earth-board-construction.md 是工程与工艺。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-126",
+   "entity": "马踏匈奴",
+   "action": "create",
+   "target": "04-knowledge/units/works/horse-treading-xiongnu.md",
+   "analysis": "L2973 与 L2982 给霍去病墓石刻群的中心、纪念碑式石雕、写意雕凿、以石赋形化形寓意与浮雕线雕圆雕结合，并给石刻约16件与马牛虎羊象猪鱼怪兽熊人的形象范围。",
+   "approve": "新建 works/horse-treading-xiongnu.md：sub_type sculpture，primary_dimension B，secondary A；单件作品，墓与整组石刻归 places/huoqubing-mu.md。",
+   "apply_note": "六节齐全；不补石雕尺寸、石质与现藏；不据图版描述马与人的姿态细节；整组件数与名录只在墓条展开，本条只留一句背景。",
+   "note": "canonical 为新建《马踏匈奴》条目；与 places/huoqubing-mu.md 是单件与墓群的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-30",
+   "entity": "马王堆帛地图",
+   "action": "create",
+   "target": "04-knowledge/units/works/mawangdui-boditu.md",
+   "analysis": "L3183-L3193 给1973年长沙马王堆出土、三幅帛地图（地形图、驻军图、城邑图）、西汉重要地图资料、繁密而井然详备而明晰、地形图18万分之一、驻军图8万分之一与《汉书·地理志》的地理记录。",
+   "approve": "新建 works/mawangdui-boditu.md：sub_type map，primary_dimension C，secondary B；三幅合一条，按图幅分述。",
+   "apply_note": "六节齐全；比例尺照录；三幅图的名称与功能按来源分列；不补图幅尺寸、帛色与墓号；马王堆墓葬背景归 places/mawangdui-hanmu.md。",
+   "note": "canonical 为新建马王堆帛地图条目；与 places/mawangdui-hanmu.md 是器物与墓葬的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-56",
+   "entity": "浑天说",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huntian-theory.md",
+   "analysis": "L2531 给张衡提出、“浑天如鸡子，天体圆如弹丸，地如鸡中黄，孤居于内，天大而地小”（《浑天仪图注》），并与地动仪、地图、指南车并列为汉代地理天文知识。",
+   "approve": "新建 terms/huntian-theory.md：sub_type cosmology，primary_dimension A，secondary B；只写宇宙模型与相邻技术两项。",
+   "apply_note": "六节齐全；《浑天仪图注》引文逐字照录；不补浑天说的源流、与盖天说宣夜说的论争；张衡本人与浑天仪另条。",
+   "note": "canonical 为新建浑天说条目；与 persons/zhang-heng.md、works/huntianyi.md 是学说、人物与仪器的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-57",
+   "entity": "四神",
+   "action": "create",
+   "target": "04-knowledge/units/terms/si-shen.md",
+   "analysis": "L2535 给左青龙右白虎上朱雀下玄武与代表地理方位，L2879 给五行五色对应（东青西白南朱北玄中央尚黄）与面南而居的解释，L3079 给规矩四神纹铜镜以十二地支为铭；三处合为一条，跨建筑方位、色彩与铜镜纹样。",
+   "approve": "新建 terms/si-shen.md：sub_type iconography，primary_dimension A，secondary B、C；三处行段合并，按方位、色配与器物三组组织。",
+   "apply_note": "六节齐全；四方与四色的对应按来源列表，不补五行生克；十二地支铭文只记来源所给关系，不补镜铭释文；不据图补纹样。",
+   "note": "canonical 为新建四神条目；与 terms/wadang.md、terms/hanjing.md 是观念、瓦当与铜镜的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-60",
+   "entity": "秦半两",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qin-ban-liang.md",
+   "analysis": "L2559 与 L2625-L2631 给圆形方孔、方孔穿木棍打磨锉齐以统一重量、半两重、各地份量差异、天圆地方为后人推测、《史记·平准书》“铜钱识曰半两，重如其文”、优于刀布与黄金上币铜钱下币。",
+   "approve": "新建 terms/qin-ban-liang.md：sub_type currency，primary_dimension D，secondary B；形制、工艺与货币地位三组。",
+   "apply_note": "六节齐全；《平准书》引文照录；“天圆地方”标为后人推测而非秦人自述；不补钱径、重量实测与出土地点。",
+   "note": "canonical 为新建秦半两条目；与 terms/han-wu-zhu.md 是秦汉两种主币的分工，与 terms/huan-qian.md、terms/dao-bi.md 是圜钱体系与刀布体系。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-61",
+   "entity": "汉五铢",
+   "action": "create",
+   "target": "04-knowledge/units/terms/han-wu-zhu.md",
+   "analysis": "L2633-L2639 给汉承秦制黄金铜钱、汉半两笨重、榆荚半两、白金与皮币、上林三官、罢半两行五铢、半两12铢一铢1/24两、吸收半两样式与刀币边缘轮廓、耐磨、铜质精美色泽稳定文字庄重、重量适中便于携带计数与行至隋代。",
+   "approve": "新建 terms/han-wu-zhu.md：sub_type currency，primary_dimension D，secondary B；制度、形制与技术评价三组。",
+   "apply_note": "六节齐全；铢两换算与“行至隋代”照录；白金皮币只作为改革背景一句；不补钱径、版别与铸造遗址。",
+   "note": "canonical 为新建汉五铢条目；与 terms/qin-ban-liang.md 是前后主币，与 institutions/shanglin-sanguan.md 是货币与铸造机构。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-66",
+   "entity": "隶书",
+   "action": "create",
+   "target": "04-knowledge/units/terms/li-shu.md",
+   "analysis": "L2527 与 L2592-L2601 给汉代演绎成汉隶、传说程邈创秦隶、睡虎地秦简为代表、圆曲变方折以加快书写、方笔符号化、结体简洁笔画减少、“隶变”、小篆典雅隶书洒脱与文字成熟定型。",
+   "approve": "新建 terms/li-shu.md：sub_type script，primary_dimension C；书体史条目，程邈传说与简牍实物分列。",
+   "apply_note": "六节齐全；“隶变”按来源用法记录；程邈传说标为传说；不补碑刻名目与分期细目；小篆、章草、楷书各自另条。",
+   "note": "canonical 为新建隶书条目；与 terms/xiaozhuan.md、terms/zhang-cao.md、terms/kai-shu.md 构成秦汉书体序列。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-68",
+   "entity": "章草",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zhang-cao.md",
+   "analysis": "L2603-L2605 给西汉末年草书、居延汉简为代表、以隶书为基点飘逸活泼笔意连缀、东汉规范为章草、缘于奏章之意、保留隶书捺挑而笔锋由扁归圆、由隶变楷的重要阶段与集体设计创造意识。",
+   "approve": "新建 terms/zhang-cao.md：sub_type script，primary_dimension C；只写书体特征与演变位置。",
+   "apply_note": "六节齐全；“缘于奏章之意”标为来源给出的得名说；不补章草名家与法帖；居延汉简本体归 works/juyan-han-slips.md。",
+   "note": "canonical 为新建章草条目；与 terms/li-shu.md、terms/kai-shu.md 是书体演变的前后环节。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-70",
+   "entity": "楷书",
+   "action": "create",
+   "target": "04-knowledge/units/terms/kai-shu.md",
+   "analysis": "L2607 一句给最早楷书为东汉末年钟繇作品、《宣示表》为代表、横波顿挫、减少隶书捺挑、整洁简练与为中华文明传播起作用；全章只有这一句。",
+   "approve": "新建 terms/kai-shu.md：sub_type script，primary_dimension C；以书体特征为主，钟繇与《宣示表》各留一句。",
+   "apply_note": "六节齐全；只写来源所给的起源与笔法；不补楷书分期、名家与碑帖；钟繇本人与《宣示表》另条。",
+   "note": "canonical 为新建楷书条目；与 persons/zhong-yao.md、works/xuan-shi-biao.md 分属书体、人物与作品。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-74",
+   "entity": "金错刀",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jin-cuo-dao.md",
+   "analysis": "L2641 与 L2643 给西汉末年王莽托古改制、废五铢、刀布贝等形式、以错金技术制成金错刀、张衡《四愁诗》“美人赠我金错刀，何以报之英琼瑶”、成为礼品有馈赠收藏价值但缺乏实用意义与王莽以泉称钱。",
+   "approve": "新建 terms/jin-cuo-dao.md：sub_type currency，primary_dimension D，secondary B；货币形制、错金工艺与文学引用三组。",
+   "apply_note": "六节齐全；《四愁诗》引句照录；错金工艺只写来源所给；“缺乏实用意义”标为来源判断；不补刀身尺寸与铭文。",
+   "note": "canonical 为新建金错刀条目；与 persons/wang-mang.md 是货币与改制者，与 terms/dao-bi.md 是刀币传统。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-142",
+   "entity": "马蹄金",
+   "action": "create",
+   "target": "04-knowledge/units/terms/han-dai-jin-bi.md",
+   "analysis": "L2635 给黄金赏赐库存朝贡、汉武帝时库存50万斤为全国一半、秦汉黄金制形以金饼金钣为主、《汉书·食货志》“黄金方寸而重一斤”、汉武帝铸马蹄金麟趾金与金五铢、黄金一斤等于铜钱一万与东汉黄金货币功能减退转为金银器皿；同段的麟趾金、金五铢另有候选，合并入本条。",
+   "approve": "新建 terms/han-dai-jin-bi.md：sub_type currency，primary_dimension D，secondary B；以“汉代金币”总名收纳马蹄金、麟趾金、金五铢三名，不拆三条。",
+   "apply_note": "六节齐全；《食货志》引文照录；50万斤与一斤万钱的换算关系照录；三名的异名并列并注明同出 L2635；不补各器重量、出土地点与藏地。",
+   "note": "canonical 为新建汉代金币条目；cand-04-155（麟趾金）与 cand-04-156（金五铢）以 rejected 并入本条，不重复建 KU。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-78",
+   "entity": "车同轨",
+   "action": "create",
+   "target": "04-knowledge/units/terms/che-tong-gui.md",
+   "analysis": "L2653 与 L2672 给车辆零件标准化、军事政治目的、提高运输能力加强国防、带来驰道统一修建、统一车轨宽度以六尺为准约合今1.66米与秦始皇乘舆金饰技术从车81辆。",
+   "approve": "新建 terms/che-tong-gui.md：sub_type institution_term，primary_dimension B，secondary D；制度条目，道路本体归 works/qin-chi-dao.md。",
+   "apply_note": "六节齐全；六尺与1.66米照录并注明来源未给换算依据；“从车81辆”照录；不补秦尺实测与车轨考古。",
+   "note": "canonical 为新建车同轨条目；与 works/qin-chi-dao.md 是标准与道路，与 terms/shuang-yuan-che.md 是制度与车形。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-84",
+   "entity": "栈道",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zhan-dao.md",
+   "analysis": "L2704-L2719 给山地因地制宜的道路、河谷岩壁凿30厘米见方50厘米深石孔、方木嵌入、上中下三层（雨篷／木板道路／支架）、《史记·货殖列传》引文、刘邦烧绝栈道与明修栈道暗渡陈仓。",
+   "approve": "新建 terms/zhan-dao.md：sub_type road，primary_dimension B；道路类型条目，褒斜道作为实例一句带过。",
+   "apply_note": "六节齐全；石孔尺寸与三层结构照录；《货殖列传》引文与“明修暗渡”分别标注为文献与后世成语；不补现存栈道遗迹。",
+   "note": "canonical 为新建栈道条目；与 works/baoxie-road.md 是类型与实例的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-97",
+   "entity": "环首刀",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huan-shou-dao.md",
+   "analysis": "L2780 给刀柄铸成环形、刀长100厘米、骑兵步兵手持、逐渐代替铁剑、铁剑不再是士兵主要武器与剑器仅为少数官员佩饰。",
+   "approve": "新建 terms/huan-shou-dao.md：sub_type weapon，primary_dimension B；只写形制、长度与替代关系。",
+   "apply_note": "六节齐全；长度照录；不补刀身宽度、装具与出土实物；铁剑的退场按来源一句记录，不补剑制史。",
+   "note": "canonical 为新建环首刀条目；与 terms/jian-sword.md、terms/dao-knife.md 是剑、刀两类与具体刀型的分别。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-98",
+   "entity": "钩镶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/gou-xiang.md",
+   "analysis": "L2782 给东汉出现、铁盾缩小、盾中短锥、上下铸铁钩、盾后手柄与可攻可防；来源未给尺寸、重量与出土实物。",
+   "approve": "新建 terms/gou-xiang.md：sub_type weapon，primary_dimension B；只写结构与应用两项。",
+   "apply_note": "六节齐全；上下铸铁钩与盾中短锥按来源描述；不补尺寸、重量与图像；与铠甲、环首刀的关系只列相关条目不写关系断言。",
+   "note": "canonical 为新建钩镶条目；与 terms/leather-armor.md、terms/han-armor.md 是攻具与防具的并列。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-99",
+   "entity": "汉代铠甲",
+   "action": "create",
+   "target": "04-knowledge/units/terms/han-armor.md",
+   "analysis": "L2784 给汉代以铁甲为主普遍装备、鱼鳞甲与札甲，L3069-L3073 给秦俑甲衣变化多样、将士服饰以战争需要和等级差别为设计原则、将军俑战袍外罩护甲甲衣留阔边胸前佩饰、武士俑编缀甲衣、汉代士兵“三甲”（兜鍪盆领膝甲）与御手俑护袖。",
+   "approve": "新建 terms/han-armor.md：sub_type armor，primary_dimension B；汉代铠甲为主，秦俑甲衣作前源对照。",
+   "apply_note": "六节齐全；鱼鳞甲、札甲与“三甲”按来源列名；不补甲片尺寸、编缀方式与出土数量；秦俑本体归 works/qin-bing-ma-yong.md。",
+   "note": "canonical 为新建汉代铠甲条目；与 terms/leather-armor.md 是铁甲与皮甲，与 terms/qin-dai-fu-shi.md 是甲与服。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-100",
+   "entity": "耦犁",
+   "action": "create",
+   "target": "04-knowledge/units/terms/ou-li.md",
+   "analysis": "L2509 给汉武帝时推广“耦犁，二牛三人”，L2799-L2801 给二牛抬杠、一人前导牛一人后扶犁一人中间压辕、搜粟都尉赵过推行、黄河流域普及与提高农业生产力。",
+   "approve": "新建 terms/ou-li.md：sub_type agricultural_implement，primary_dimension B；耕作制度与器具合并。",
+   "apply_note": "六节齐全；二牛三人的分工照录；赵过官职照录；“提高农业生产力”标为来源判断；不补犁铧形制与尺寸。",
+   "note": "canonical 为新建耦犁条目；与 persons/zhao-guo.md、works/san-jiao-lou.md、terms/v-shaped-iron-ploughshare-cap.md 分属人物、配套农具与部件。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-106",
+   "entity": "秦权",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qin-quan.md",
+   "analysis": "L2823-L2829 给秦权器为石钧24斤16斤9斤8斤5斤1斤半两、铜质秦权作砝码、衡标一端实物一端秦权、提钮在中心、衡标平稳则物重相等、秦一斤约今250克、秦一尺约23厘米与一升约200毫升（原文作“200毫克”，标疑）。",
+   "approve": "新建 terms/qin-quan.md：sub_type measuring_tool，primary_dimension B，secondary D；权器本体，量器归 terms/qin-liang.md。",
+   "apply_note": "六节齐全；石钧与斤数序列照录；250克／23厘米／200毫升照录并把“200毫克”标疑为毫升；不补各权实测重量与藏地。",
+   "note": "canonical 为新建秦权条目；与 terms/qin-liang.md 是权与量的分工，与 terms/hengqi-balance.md 是砝码与衡器。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-107",
+   "entity": "秦量",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qin-liang.md",
+   "analysis": "L2821-L2829 给铜量与陶量、铜量制1/2、1/3、1/4斗量、陶量制半斗一斗一斛（100升）、秦始皇廿六年诏书见于各种衡器量器、山东出土秦陶量有诏书与“一法度衡石丈尺”（《史记·秦始皇本纪》）；检验严格（《史记·李斯列传》引句）与汉承秦制实际在 L2831，超出本条行段，不引。",
+   "approve": "新建 terms/qin-liang.md：sub_type measuring_tool，primary_dimension B，secondary D；量器体系与诏书制度合并。",
+   "apply_note": "六节齐全；斗、斛与100升的换算照录；《秦始皇本纪》引文标注；L2831 两句留待后续补证；不补各量实测容积与藏地；单器商鞅方升另条。",
+   "note": "canonical 为新建秦量条目；与 works/shang-yang-fang-sheng.md 是制度与单器，与 terms/qin-quan.md 是量与权。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-113",
+   "entity": "门阙",
+   "action": "create",
+   "target": "04-knowledge/units/terms/men-que.md",
+   "analysis": "L2848 给“表南山之巅以为阙”的门阙观念，L2881 给汉代地表建筑仅存阙、石质嵩山三阙为坛庙祭祀遗迹、四川山东陵墓性门阙如武氏祠阙、活动领域范围象征、用于宫殿坛庙陵墓城门与标志性建筑。",
+   "approve": "新建 terms/men-que.md：sub_type architecture_term，primary_dimension B，secondary A；类型条目，两处实例各一句。",
+   "apply_note": "六节齐全；“表南山之巅以为阙”标为来源所引门阙观念；三阙与武氏祠阙只作例证，形制细节不展开；不补阙身、子阙与尺寸。",
+   "note": "canonical 为新建门阙条目；与 works/songshan-three-que.md、places/wushi-ci.md 是类型与实例的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-123",
+   "entity": "烽燧",
+   "action": "create",
+   "target": "04-knowledge/units/terms/feng-sui.md",
+   "analysis": "L2926 给秦汉长城设置、明确防御与报警作用、边界战乱时大漠尘烟十里一报信号竞传与因地制宜草木芦苇石块夯土垒集；汉武帝阴山以北外长城建城堡烽燧在 L2924。",
+   "approve": "新建 terms/feng-sui.md：sub_type architecture_term，primary_dimension B，secondary D；报警制度与构筑材料两组。",
+   "apply_note": "六节齐全；十里一报照录；材料因地制宜按来源记录；不补烽燧形制、举火规则与遗址数量；长城本体归 works/qin-han-changcheng.md。",
+   "note": "canonical 为新建烽燧条目；与 works/qin-han-changcheng.md 是设施与墙体。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-02",
+   "entity": "覆斗形封土（方中）",
+   "action": "create",
+   "target": "04-knowledge/units/terms/fudou-xing-fengtu-fangzhong.md",
+   "analysis": "L2995-L3004 给春秋中期出现封土、战国植树封土成制度、《周礼·冢人》“以爵等为丘封之度与其树数”、封土植树祭祀与昭示权威、帝王封土多覆斗形、底边正四边形向上内收层层夯土、讳称“方中”寓意地方、方形为帝王规格、后妃亲王之外一般人为圆形与秦始皇陵内外夯土围墙及尺寸。",
+   "approve": "新建 terms/fudou-xing-fengtu-fangzhong.md：sub_type burial_term，primary_dimension B，secondary A；制度、形制与等级三组。",
+   "apply_note": "六节齐全；《周礼·冢人》引文照录；方形／圆形的等级差别按来源记录；不补各陵封土实测；秦始皇陵本体归 works/qin-shi-huang-ling.md。",
+   "note": "canonical 为新建覆斗形封土条目；与 works/qin-shi-huang-ling.md、places/huoqubing-mu.md 是形制与具体陵墓。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-09",
+   "entity": "汉代冠制",
+   "action": "create",
+   "target": "04-knowledge/units/terms/handai-guanzhi.md",
+   "analysis": "L3052-L3054 给冠与帻的关系、文官进贤冠配介帻、武将武弁大冠配平巾帻、进贤冠前有梁以梁多少分等级、武弁大冠漆纱制又称笼冠、冕冠为帝王冠、长冠宦官内侍、法官法冠、帻为头巾普通人只能戴帻；「冠服致美佩纷玺玉」实际在 L3042。",
+   "approve": "新建 terms/handai-guanzhi.md：sub_type dress_term，primary_dimension D，secondary B；按冠名与佩戴身份列表。",
+   "apply_note": "六节齐全；冠名与身份对应照录；“冠服致美佩纷玺玉”按 L3042 著录并标为《后汉书·舆服志》语；不补冠体尺寸与图像；不据图补形制。",
+   "note": "canonical 为新建汉代冠制条目；与 terms/qin-dai-fu-shi.md、terms/han-dai-pao-fu.md、terms/futou.md 分属冠、服与头巾。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-107",
+   "entity": "禅衣",
+   "action": "create",
+   "target": "04-knowledge/units/terms/chanyi.md",
+   "analysis": "L3063 一句给一种衬衣样式、有面无里的单衣；全章只有这一句，且马王堆素纱禅衣的实测数据在既有条目中。",
+   "approve": "新建 terms/chanyi.md：sub_type dress_term，primary_dimension B，secondary D；confidence 记 low。",
+   "apply_note": "六节齐全；只写“有面无里”的类型定义；不补马王堆尺寸与重量，明确指向 works/susha-chanyi.md；不补裁法与图像。",
+   "note": "canonical 为新建禅衣类型条目；与 works/susha-chanyi.md 是类型与实物，不因名称相近而合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-108",
+   "entity": "履的种类",
+   "action": "create",
+   "target": "04-knowledge/units/terms/lv-de-zhonglei.md",
+   "analysis": "L3063 一句给舄为祭祀用鞋、屦为家居用鞋与屐为雨天践泥的木制鞋；全章只有这一句。",
+   "approve": "新建 terms/lv-de-zhonglei.md：sub_type dress_term，primary_dimension B，secondary D；confidence 记 low。",
+   "apply_note": "六节齐全；三名三用照录；来源未给形制、材质差异与等级规定，明写为证据边界；不补出土实物。",
+   "note": "canonical 为新建履的种类条目；与 terms/chanyi.md 同出 L3063 但分属足衣与身衣，不合并。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-27",
+   "entity": "司南",
+   "action": "create",
+   "target": "04-knowledge/units/terms/sinan.md",
+   "analysis": "L3161 给利用磁石指极特性、战国发现、秦汉广为使用、王充《论衡·是应篇》“司南之杓，投之于地，其柢指南”、唐宋被指南针替代、天然磁石加工磁性散失与准确性不够。",
+   "approve": "新建 terms/sinan.md：sub_type mechanism，primary_dimension B；原理、文献与局限三组。",
+   "apply_note": "六节齐全；《是应篇》引文逐字照录；“战国发现”按来源记录，不补考古实物；不补形制尺寸与复原模型。",
+   "note": "canonical 为新建司南条目；与 terms/zhinan-che.md、terms/magnetite.md、terms/jili-guche.md 是磁指向、机械指向与计量车三种装置。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-33",
+   "entity": "动物形灯与树形灯",
+   "action": "create",
+   "target": "04-knowledge/units/terms/dongwuxing-dengju.md",
+   "analysis": "L3208 给牛灯羊灯朱雀灯树形灯、造型优美功能明确、动物姿态与灯具结合、朱雀衔环、羊背开盖羊身盛油燃芯与牛身另置灯具灯罩可旋转利用虹吸油烟入牛腹；图版未核。",
+   "approve": "新建 terms/dongwuxing-dengju.md：sub_type lighting_device，primary_dimension B；类型条目，按动物与树形两类组织。",
+   "apply_note": "六节齐全；羊灯与牛灯的构造按来源文字记录，不据图补形；明写图版未核；长信宫灯与博山炉另条。",
+   "note": "canonical 为新建动物形灯与树形灯条目；与 works/tong-niu-deng.md、works/changxin-palace-lamp.md 是类型与单器的分工。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-80",
+   "entity": "汉代车制",
+   "action": "update",
+   "target": "04-knowledge/units/terms/shuang-yuan-che.md",
+   "analysis": "L2680-L2682 给汉代车辆以双辕车为主要变化、金根车轩车轺车辎车四等按身份分配、《后汉书·舆服志》的礼仪丧葬狩猎用车、东汉贵族喜乘牛车与车具繁杂的礼仪程式；既有 terms/shuang-yuan-che.md 已收夏燕靖册的双辕车结构、七类分法与普及过程。",
+   "approve": "以 update 并入 terms/shuang-yuan-che.md：补赵农来源一条、tags「金根车」「轺车」「牛车」、五组核心内容与两册分类／时代差异，source_count 由 1 升至 2，version 由 1 升至 2。",
+   "apply_note": "写入赵农 L2680-L2682 的车名、身份对应与东汉牛车；把夏燕靖“先秦已有”与赵农“汉代出现”两说并列，不裁决；分类清单不合表。",
+   "note": "canonical 指向既有双辕车条目；cand-04-80 的“汉代车制”是类别名而非新实体，不另建 KU。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-96",
+   "entity": "弩机",
+   "action": "update",
+   "target": "04-knowledge/units/terms/nu-crossbow.md",
+   "analysis": "L2769 给秦汉弩的地位、秦俑坑出土青铜弩机、汉代弩机仍以青铜铸造并增加刻度以加强瞄准精确性与秦王朝青铜材料的高峰判断；既有 terms/nu-crossbow.md 已收第三章的弩结构、发射方式与《吴越春秋》引文。",
+   "approve": "以 update 并入 terms/nu-crossbow.md：补赵农 L2769 一条同书跨度（citation 内逗号并列，source_count 仍为 1）、tags「秦汉」「刻度」、新增“四、秦汉的弩机”一节与相应证据边界，version 由 1 升至 2。",
+   "apply_note": "写入秦汉弩的地位、秦俑坑青铜弩机、汉代刻度三项；明写来源未给刻度单位与位置，不得把“刻度”写成现代瞄准具。",
+   "note": "canonical 指向既有弩条目；候选名为“弩机”，但来源内容覆盖弩的整体与弩机部件，并入弩条而不拆出弩机独立条目。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-105",
+   "entity": "石磨",
+   "action": "update",
+   "target": "04-knowledge/units/terms/shi-mo.md",
+   "analysis": "L2809 给汉代石磨开始流行、可使小麦加工成为面粉，并接记碗筷成为主要餐具与生活节奏改变；既有 terms/shi-mo.md 已收第三章战国石磨的出现、邯郸赵故城与临潼出土、砂岩材质与直径约55厘米。",
+   "approve": "以 update 并入 terms/shi-mo.md：sources 增加 L2809 同书跨度（source_count 仍为 1）、tags「汉代」「小麦」、新增“三、汉代的流行”一节，version 由 1 升至 2。",
+   "apply_note": "写入汉代流行、小麦加工为面粉与碗筷联动；明写汉代条只有两句，不据此推断战国石磨已普遍；别名补“石磨”。",
+   "note": "canonical 指向既有石磨条目；候选 type 标 work，但实体为器具类型，按 term 写回。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-106",
+   "entity": "起绒锦",
+   "action": "update",
+   "target": "04-knowledge/units/terms/rongquan-jin.md",
+   "analysis": "L3042 给马王堆出土100多件纺织品、素纱禅衣的尺寸重量与“有一种起绒锦，花形富丽，有明显的浮雕效果”；既有 terms/rongquan-jin.md 已收夏燕靖册的绒圈锦定义、起毛锦异名与起绒提花机判断。",
+   "approve": "以 update 并入 terms/rongquan-jin.md：sources 增加赵农 L3042、aliases 增加“起绒锦”、tags 增加「浮雕效果」、补赵农三组核心内容与两册差异，source_count 由 1 升至 2，version 由 1 升至 2。",
+   "apply_note": "写入马王堆纺织品数量、起绒锦外观与素纱禅衣参照；把“绒圈锦／起绒锦”标为同类别名而非同物，明写两书未给组织图。",
+   "note": "canonical 指向既有绒圈锦条目；候选名“起绒锦”按起绒工艺与浮雕效果判为同类，不另建重复条目。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-115",
+   "entity": "武氏祠阙",
+   "action": "update",
+   "target": "04-knowledge/units/places/wushi-ci.md",
+   "analysis": "L2881 给汉代地表建筑仅存阙、石质嵩山三阙为坛庙性祭祀遗迹、四川山东的陵墓性门阙以山东嘉祥武氏祠阙为例“高大威仪，卓尔不群”、门阙为活动领域范围象征并用于宫殿坛庙陵墓城门；既有 places/wushi-ci.md 已收田自秉册的四祠布局、十类题材、平面剔地法与石工姓名。",
+   "approve": "以 update 并入 places/wushi-ci.md：sources 增加赵农 L2881、tags「门阙」「汉阙」、补五组门阙核心内容与两册对象差异，source_count 由 1 升至 2，version 由 1 升至 2。",
+   "apply_note": "写入汉阙仅存、嵩山三阙的坛庙性与武氏祠阙的陵墓性定位；明写赵农册未给阙的尺寸与形制，不与石祠画像混同。",
+   "note": "canonical 指向既有武氏祠地点条目；门阙作为祠前建筑的补充，不另建 places/wushi-shrine-que.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-125",
+   "entity": "霍去病墓石刻",
+   "action": "update",
+   "target": "04-knowledge/units/places/huoqubing-mu.md",
+   "analysis": "L2971-L2986 给咸阳原九座汉陵与茂陵尺度、汉陵等级制度、霍去病生平与陪葬、封土模拟祁连山、石刻立马卧马跃马卧虎的布置、以《马踏匈奴》为中心的写意雕凿、约16件与三种雕法并用、环境艺术定位；既有 places/huoqubing-mu.md 已收田自秉册的十类石雕清单与圆雕循石判断。",
+   "approve": "以 update 并入 places/huoqubing-mu.md：sources 增加赵农 L2971-L2986、tags「茂陵」「覆斗形封土」「环境艺术」、补八组核心内容与两册清单差异，source_count 由 1 升至 2，version 由 1 升至 2。",
+   "apply_note": "写入陵区格局、汉陵制度、石刻与环境、封土与中心作品、约16件与三种雕法、环境艺术定位；两册件数与名目并列不合表；《马踏匈奴》单件归 works/horse-treading-xiongnu.md。",
+   "note": "canonical 指向既有霍去病墓地点条目；石刻作为墓区组成写入墓条，不另建 works/huo-qubing-tomb-stone-carvings.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-155",
+   "entity": "麟趾金",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/han-dai-jin-bi.md",
+   "analysis": "L2635 的麟趾金与马蹄金、金五铢同出一句，属汉武帝所铸金币的三个名目，没有独立形制、尺寸与出土材料。",
+   "approve": "重复候选：同一句的三个金币名目已由 canonical 候选 cand-04-142 合并写入 04-knowledge/units/terms/han-dai-jin-bi.md（aliases 含麟趾金），不再单独建条。",
+   "apply_note": "不写回；麟趾金作为别名保留在 terms/han-dai-jin-bi.md。",
+   "note": "canonical 为 cand-04-142；本条与 cand-04-156 同组并入，避免同一句拆成三条薄条。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-156",
+   "entity": "金五铢",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/han-dai-jin-bi.md",
+   "analysis": "L2635 的金五铢与马蹄金、麟趾金同出一句，仅列名；来源未给形制、重量与出土材料。",
+   "approve": "重复候选：同一句的三个金币名目已由 canonical 候选 cand-04-142 合并写入 04-knowledge/units/terms/han-dai-jin-bi.md（aliases 含金五铢），不再单独建条。",
+   "apply_note": "不写回；金五铢作为别名保留在 terms/han-dai-jin-bi.md，与铜质汉五铢（terms/han-wu-zhu.md）分开。",
+   "note": "canonical 为 cand-04-142；金五铢为金币名目，不得与铜钱五铢混为一条。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-92",
+   "entity": "秦俑坑青铜剑",
+   "action": "rejected",
+   "target": "04-knowledge/units/procedures/chromate-oxidation-treatment.md",
+   "analysis": "L2733-L2785 中的秦俑坑青铜剑只作为铬盐氧化处理工艺的实物证据出现，来源的论述重心是表面处理技术而非剑的形制。",
+   "approve": "重复候选：青铜剑的铬盐氧化层材料已并入 04-knowledge/units/procedures/chromate-oxidation-treatment.md，剑形制本身来源未展开，不再单独建条。",
+   "apply_note": "不写回；技术内容保留在既有工艺条目，兵器形制不入本条。",
+   "note": "canonical 为既有工艺条目；若日后需要剑器形制条目，应以来源新增材料为依据，不从此条复活。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-144",
+   "entity": "卫青",
+   "action": "rejected",
+   "target": "04-knowledge/units/persons/huo-qu-bing.md",
+   "analysis": "L2924 只在霍去病的战功叙述中提及其与卫青并称，来源没有给卫青的设计、工艺或制度材料。",
+   "approve": "重复候选：卫青仅为背景提及，无设计史内容，其名随霍去病条目的战功叙述保留，不单独建人物条。",
+   "apply_note": "不写回；在 persons/huo-qu-bing.md 的战功一句中保留并称关系。",
+   "note": "canonical 为新建 persons/huo-qu-bing.md；背景人物不作 KU，避免以一句话人物充数。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-10",
+   "entity": "秦始皇兵马俑",
+   "action": "rejected",
+   "target": "04-knowledge/units/works/qin-bing-ma-yong.md",
+   "analysis": "L3050-L3074 的兵马俑材料用于说明甲衣、发饰与服饰等级，实体本身已在既有条目中。",
+   "approve": "重复候选：04-knowledge/units/works/qin-bing-ma-yong.md 已收兵马俑的形制、军阵与制作材料，本条只补服饰视角，已随 cand-04-99 的铠甲条写入，不再单独建条。",
+   "apply_note": "不写回；服饰与甲衣内容归 terms/han-armor.md 与 terms/qin-dai-fu-shi.md，兵马俑本体条目不动。",
+   "note": "canonical 为既有 works/qin-bing-ma-yong.md；禁止为同一遗址建第二条 works 条目。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-13",
+   "entity": "透光镜（魔光镜）",
+   "action": "rejected",
+   "target": "04-knowledge/units/terms/touguang-jing.md",
+   "analysis": "L3075-L3099 的透光镜材料与既有条目同指一物，来源未给新的形制或实验数据。",
+   "approve": "重复候选：04-knowledge/units/terms/touguang-jing.md 已收透光镜的镜面微结构解释与“魔光镜”异名，本条不再单独建条。",
+   "apply_note": "不写回；透光镜现象保留在既有条目。",
+   "note": "canonical 为既有透光镜条目；本条与其覆盖同一段 L3075-L3099，属同段重复。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-17",
+   "entity": "卧褥香炉（被中香炉）",
+   "action": "rejected",
+   "target": "04-knowledge/units/persons/ding-huan.md",
+   "analysis": "L3100-L3120 的卧褥香炉材料集中于丁缓的机环装置，来源的论述对象是工匠与其机械设计。",
+   "approve": "重复候选：卧褥香炉的“为机环转运四周而炉体常平”已并入 04-knowledge/units/persons/ding-huan.md，本条不再单独建器物件。",
+   "apply_note": "不写回；机环结构内容保留在丁缓条与 publications/xijing-zaji.md 的转引中。",
+   "note": "canonical 为既有 persons/ding-huan.md；器物细节过薄且与工匠条同段，不拆条。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-25",
+   "entity": "地动仪（候风地动仪）",
+   "action": "rejected",
+   "target": "04-knowledge/units/works/houfeng-dizhenyi.md",
+   "analysis": "L3100-L3155 的地动仪材料与既有条目同指一器，来源未给新的复原结构或尺寸。",
+   "approve": "重复候选：04-knowledge/units/works/houfeng-dizhenyi.md 已收候风地动仪的形制、功能与文献争议，本条不再单独建条。",
+   "apply_note": "不写回；地动仪内容保留在既有条目，浑天说另见 terms/huntian-theory.md。",
+   "note": "canonical 为既有 works/houfeng-dizhenyi.md；本条与其覆盖同一段材料。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-21",
+   "entity": "蔡侯纸",
+   "action": "rejected",
+   "target": "04-knowledge/units/procedures/zaozhishu.md",
+   "analysis": "L3123-L3141 的蔡侯纸材料是造纸工艺叙述的一部分，来源的重心在原料、工序与奏上经过。",
+   "approve": "重复候选：蔡侯纸的原料与工序已并入 04-knowledge/units/procedures/zaozhishu.md，人物层面的材料归 persons/cai-lun.md，不再单独建纸品条。",
+   "apply_note": "不写回；造纸工序在 procedures/zaozhishu.md，蔡伦生平与奏上在 persons/cai-lun.md。",
+   "note": "canonical 为既有造纸工艺条目；纸作为产品名不另立 term，避免工艺条与产品条重复。"
+  }
+ ],
+ "notes": "第六章章内混编的 cand-05-* 候选（起绒锦、冠制、禅衣、履、透光镜、卧褥香炉、西京杂记、地动仪、蔡侯纸、司南、马王堆帛地图、动物形灯）与 cand-04-* 同批处理，不另立批次。"
+}

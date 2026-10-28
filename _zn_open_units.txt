@@ -1,0 +1,5 @@
+('2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-10', '曾中游父方壶（西周）', 82, 82)
+('2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-13', '四鹿四龙四凤铜案（战国）', 92, 92)
+('2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-14', '青铜尊和盘（战国）', 95, 95)
+('2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-16', '蟻螭纹金盏、镂空金匙（战国）', 101, 101)
+('2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-09', '二里头铜爵', 78, 872)

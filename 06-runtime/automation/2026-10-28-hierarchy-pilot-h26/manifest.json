@@ -1,0 +1,119 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h26",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.5「陶器工艺与陶系传统」下新建 B.5.3「陶器的三重分化：材质、装饰与随葬」，挂载商周至六朝陶器、明器与代表器物共 15 个 KU；把陶器的材质（灰陶、白陶、几何印纹硬陶）、装饰（绳纹、暗纹、彩绘）与用途（日用、随葬明器、建筑模型）三条线放在同一个问题下，检验三重分化是否同源。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.16",
+    "baseline_themes": 20,
+    "baseline_topics": 52,
+    "baseline_topic_memberships": 372,
+    "baseline_complete_assignments": 368,
+    "baseline_incomplete_assignments": 2202,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6738,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 740,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1333
+  },
+  "result": {
+    "hierarchy_version": "v1.17",
+    "themes": 20,
+    "topics": 53,
+    "topic_memberships": 387,
+    "complete_assignments": 383,
+    "incomplete_assignments": 2187,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6768,
+    "relation_types": "3/67",
+    "member_of_relations": 770,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1326,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b5-taoci-sanzhong-fenhua.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 15,
+    "changed_units": 15,
+    "total_mounted_units": 383,
+    "new_topic_memberships": 15,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 7,
+      "representative_work": 4,
+      "boundary_case": 3,
+      "procedure": 1
+    },
+    "type_distribution": {
+      "term": 10,
+      "work": 4,
+      "procedure": 1
+    },
+    "taxonomy_split": "材质与用途分化→B.5.3；成形与烧成技术→B.5.1；史前陶系、彩陶类型与文化分区→B.5.2；低温釉陶工艺→B.5.4；紫砂与明清陶器→B.5.5；建筑用陶与画像砖→后续建筑用陶 Topic；陶器纹样的母题与图像解释→C",
+    "planned_topics_not_created": [
+      "B.5.4 低温釉陶：铅釉陶、琉璃、唐三彩、辽三彩、宋三彩、法华器、二次烧成法、北齐黄釉扁壶、三彩女俑",
+      "B.5.5 紫砂与明清陶器：宜兴紫砂、石湾窑",
+      "建筑用陶 Topic：秦砖汉瓦、陶瓦、瓦当、双鹿瓦当、始皇陵夔凤纹大瓦当、瓦纹、画像砖、采莲画象砖、丸剑舞乐画象砖、弋射收获画像砖、戏车图空心砖、竹林七贤画像砖、邓县学庄画像砖墓",
+      "制陶生产组织 Topic：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址",
+      "D 维度前近代官手工业 Theme：御器厂、浮梁瓷局、瓷窑官、景德镇四条的窑业制度面"
+    ],
+    "deferred_by_boundary": [
+      "陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊 → 新石器时代陶器，器形与功能问题归 B.5.1／B.5.2，不因「陶器」二字并入 B.5.3",
+      "秦砖汉瓦、陶瓦、瓦当、瓦纹、画像砖、画象砖、空心砖 → 建筑构件与图像载体，归后续建筑用陶 Topic",
+      "低温釉陶工艺（铅釉、琉璃、唐三彩、辽三彩、宋三彩、法华器、二次烧成法） → 归 B.5.4；绿釉陶楼只取建筑明器角色",
+      "三彩女俑 → 唐三彩制品，归 B.5.4",
+      "商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址 → 制陶生产组织，归后续生产组织 Topic",
+      "陶器纹样的母题、图像与符号解释 → 归 C；兵马俑甲衣发饰、仓楼乐舞图、魂瓶堆塑题材只作器形与工艺证据",
+      "terms/shangdai-baitao（商代白陶） → 与 terms/bai-tao（白陶）指向同一对象，本批只挂后者，前者登记 potential_duplicate 待 reconcile，不为同一对象制造两条主挂载",
+      "五彩人物洗、珐琅彩竹菊鹌鹑瓶、铜官窑釉罐 → h24 已登记图注单条待核，本批不重复处理"
+    ]
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2187",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1326",
+    "Triple-division homology is a library-level hypothesis, not a source conclusion: no book places material, decoration and use in one causal chain; the claim that pottery repositioned itself (daily use / bronze-emulation / burial) after bronze took over the ritual-vessel role, and that bai-tao therefore disappeared, is marked as an explanatory frame",
+    "Bai-tao (white pottery) disappearance: Tian Zibing records only 'after the Shang, this product is no longer found', plus a reported conjecture that northern potters were imitating southern hard pottery; neither the disappearance nor the conjecture is verified by any of the six books",
+    "Duplicate entries: terms/bai-tao (white pottery, Tian Zibing) and terms/shangdai-baitao (Shang white pottery, Xia Yanjing + Zhao Nong) denote the same object; only the former is mounted, so the evidence for bai-tao remains incomplete (one source, no Zhengzhou kiln material, no Zhao Nong carved white pottery description)",
+    "Caihui-tao (painted pottery) process definition is inverted across the six books: Tian Zibing and Gao Feng paint on the fired body, Xia Yanjing (both editions) paints the raw body and then fires - the latter is the caicao (painted Neolithic pottery) process. Uses agree across all four (mainly burial mingqi), which is why this batch classifies by use; but under the Xia account caihui-tao and caicao become indistinguishable in process",
+    "Anwen-tao (dark-pattern pottery): two spellings of the alias coexist (yahua-tao / yanhua-tao); centre of production given as 'the Central Plains' in one book and 'centred on Henan' in another; tool form, and the process relation to polished and painted pottery, are not given in any book",
+    "Geometric stamped hard pottery: three periods coexist (Spring and Autumn / Warring States / Shang-Western Zhou); two forming methods (coil-built / coil-ring stacked); the geometric patterns are explained once as decoration and once as a by-product of forming",
+    "Mingqi (burial models): no book gives the sumptuary rules or a material classification, so this batch can say what was buried but not who was entitled to what; the proportional relation between model and real object is stated only as 'reduced to scale', with no ratio data",
+    "Qin terracotta army: kiln site not found ('the kiln site is still being sought'); 7,000-odd versus c. 8,000-odd pieces; 'life-size' coexists with a height range of 1.75-1.85 m and a maximum of 1.98 m without explaining the distribution; 'fire then join' and 'join then fire' coexist without conditions, adhesive, or yield; mould material, module count, fine-clay layer thickness, firing temperature and pigment composition are all missing",
+    "Model mingqi scale data is almost entirely absent: the painted granary tower at 78.2 cm is the only absolute dimension; the storyteller figurine, the well model and the green-glazed tower have none; the well model rests on a single caption (confidence: low) with no well-frame or pulley construction",
+    "Hunping (urn): the alias 'grain jar' cannot establish a storage function - the source itself lists it alongside huntng and shenting; no height, belly diameter, tomb, kiln or date; the stacking layers and glaze colour are unverified",
+    "Jianxing-hu (cocoon jar): use not recorded; listed among Qin pottery types alongside ding, gui, yan, dou, yu, pen, guan, bo, weng, fu, zao and suantou-ping; it cannot be inferred from the name or the cocoon shape to be either mingqi or a wine vessel",
+    "Continuity between Neolithic functional pottery (gui, zeng, xun) and the Shang-Zhou-Han triple division is not narrated in any book; if a functional-classification Topic is later created, the boundary between 'function determines form' and 'use determines category' must be drawn against B.5.3"
+  ],
+  "notes": "本批新建 1 个 Topic（B.5.3 陶器的三重分化），挂载 15 个 KU，不新增 Theme。结构设计的三项判断：其一，Topic 名与原定方案不同——h25 manifest 登记的是「B.5.3 商周秦汉陶器与明器」，读完 15 条候选后，材料实际在回答「三重分化是否同源」，故改题并按材质（三把尺子）、装饰（三档可见性）、用途（明器尺度两极）三层组织。其二，三把材质尺子不能排成演化线：灰陶按烧成气氛（还原焰，占商代出土陶器九成以上）、白陶按原料（高岭土，仿青铜纹饰，商以后不复发现）、硬陶按火度（高温，胎骨坚致），三者不是同一分类系统的三个值。其三，明器内部有尺度两极：兵马俑等身写实（7000 余件、1.75—1.85 米）与仓楼、井、绿釉陶楼缩小模型（仓楼 78.2 厘米）对应被替代对象不同（人／物），不是工艺水平高低。四项边界处置：彩绘陶按用途定义而非工序定义（四册工序相反、用途一致），故不与彩陶并置；史前功能陶器留 B.5.1／B.5.2；建筑用陶与画像砖留后续 Topic；低温釉陶工艺归 B.5.4。白陶与商代白陶为同一对象的两个条目，本批只挂前者并登记 potential_duplicate。本批不 commit、不 push。"
+}

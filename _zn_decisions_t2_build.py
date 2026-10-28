@@ -1,0 +1,140 @@
+# -*- coding: utf-8 -*-
+"""Build Tian Zibing 2010 batch T2 (Shang chapter) decisions JSON."""
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2010-tianzibing-zhongguo-gongyi-meishushi"
+PREFIX = DOC + ":"
+
+CREATES = [
+    ("cand-03-16", "杜岭方鼎", "04-knowledge/units/works/du-ling-fang-ding.md",
+     "杜岭方鼎是郑州张寨南街杜岭土岗出土的两件商代早期大型铜方鼎。检索 works 下无同实体条目，terms 下器类条只列鼎名未收此鼎。新建依据 L899 一段：斗形鼎身、立耳、圆柱形空足、饕餮纹和乳丁文，并称其为目前所见的商代早期重要铜器。来源未给尺寸、重量、铭文、藏地与两鼎差异；杜岭方鼎是两件鼎的合称，条目照录不合并为一件，confidence 取 medium。",
+     "写入 04-knowledge/units/works/du-ling-fang-ding.md（新建）；引用 L899；两鼎合称，不并作一件。"),
+    ("cand-03-20", "铜连座立人", "04-knowledge/units/works/tong-lianzuo-liren.md",
+     "铜连座立人是 1986 年四川广汉两座祭祀坑出土的商末周初青铜立人。检索 works 下无同实体条目；places 下有三星堆遗址条，未收此器。新建依据 L907：通高 262 厘米、粗眉大眼、头戴高冠、两手开合原有握物、赤足站在饰类似饕餮纹的方座上，同段并记铜人头像眼珠突出、鼻梁高直（彩版 6）。来源未给重量、铸造工艺、所握器物与藏地，图版未视觉核验，confidence 取 medium。",
+     "写入 04-knowledge/units/works/tong-lianzuo-liren.md（新建）；引用 L907；彩版 6 未视觉核验。"),
+    ("cand-03-23", "将军盔", "04-knowledge/units/terms/jiang-jun-kui.md",
+     "将军盔是商代熔铜坩埚的俗称，因形状特点得名。检索 terms 下无同实体条目。新建依据 L919 得名句、L919-L921 容量与“一件大的铜器往往要几十个坩埚同时熔铸”的跨行句（用「 」），并以 L953 司母戊鼎需 100 多个将军盔补充。来源未给坩埚材质、尺寸与容量实测，10 多斤与 100 多个均为概括估计，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/jiang-jun-kui.md（新建）；引用 L919-L921、L953。"),
+    ("cand-03-26", "商代青铜器八类", "04-knowledge/units/terms/shangdai-qingtongqi-balei.md",
+     "商代青铜器八类是田自秉按生活用途所作的分类，分烹饪、食、酒、水、杂、兵器、乐器、工具八类。检索 terms 下已有 `qingtong-jiuqi.md` 记酒器与五爵，但不含八类总纲。新建依据 L925 总纲与 L927-L1075 逐类器名。来源未给分类原则的进一步说明与各类数量统计；八类不是考古类型学标准分类，条目照录来源分类，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/shangdai-qingtongqi-balei.md（新建）；引用 L925、L927、L963、L965、L1058、L1069、L1071、L1073、L1075。"),
+    ("cand-03-32", "妇好三联甗", "04-knowledge/units/works/fuhao-sanlian-yan.md",
+     "妇好三联甗是殷墟妇好墓出土的商代炊煮器。检索 works 下无同实体条目；`places/fuhao-tomb.md` 记墓葬，未收此器。新建依据 L959-L961：长方形器身、三个等距圈口、下底 6 足、腹足烟迹、三个甑、总高 64 厘米、总重 138.2 公斤，并记三圈口三龙纹、龙身回纹、侧面夔纹与圆涡纹相间、甑口夔纹相对。来源未给各甑尺寸、铭文与藏地，插图 4 未视觉核验，confidence 取 medium。",
+     "写入 04-knowledge/units/works/fuhao-sanlian-yan.md（新建）；引用 L959、L961；插图 4 未视觉核验。"),
+    ("cand-03-36", "夔纹", "04-knowledge/units/terms/kui-wen.md",
+     "夔纹是商代铜器常见的近似龙纹的怪兽纹。检索 terms 下无同实体纹样条。新建依据 L1105 的定义、两夔相对组成饕餮或作附饰、《说文》一足说与来源的爬虫类侧面描写解释，L1107 两头夔、蕉叶夔、三角夔、蟠夔四种变化名。来源未给型式谱系、年代序列与器物分布，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/kui-wen.md（新建）；引用 L1105、L1107。"),
+    ("cand-03-51", "龙纹", "04-knowledge/units/terms/long-wen.md",
+     "龙纹是中国装饰纹样中应用最久的一种，最早见于青铜器。检索 terms 下无同实体条目。新建依据 L1112 一段：巨首两角、身有鳞、蟠曲，《说文》鳞虫之长与来源的神化判断。来源未给型式分类、年代序列与器物分布，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/long-wen.md（新建）；引用 L1112。"),
+    ("cand-03-52", "凤纹", "04-knowledge/units/terms/feng-wen.md",
+     "凤纹是吸取各种鸟禽特点组成的装饰图案，应用很广。检索 terms 下无同实体条目。新建依据仅 L1114 两句：应用很广、凤尾可见孔雀尾羽的翎眼。来源未给类型划分、年代序列与器物分布，证据只两句，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/feng-wen.md（新建）；引用 L1114。"),
+    ("cand-03-37", "回纹", "04-knowledge/units/terms/hui-wen.md",
+     "回纹是商代青铜器的主要地纹。检索 terms 下无同实体条目。新建依据 L1118 一段：主纹饕餮与地纹回纹的结合、彩陶旋涡纹与铜器方形回纹之别、圆形称云纹方形称雷纹合称云雷纹、郭沫若指纹说、来源的编织纹遗留判断。来源未给型式分类与年代序列，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/hui-wen.md（新建）；引用 L1118；与郭沫若条互指但不合并。"),
+    ("cand-03-39", "郭沫若", "04-knowledge/units/persons/guo-moruo.md",
+     "郭沫若是田自秉书中引述的学者。检索 persons 下无郭沫若条。新建依据 L1118 回纹指纹演变说与 L1460 窃曲纹模拟鬼柳、榉柳木材花纹说，后者附来源的反驳。来源未给生卒年、籍贯、任职、著述与两说出处，证据只有两处转述，confidence 取 low。",
+     "写入 04-knowledge/units/persons/guo-moruo.md（新建）；引用 L1118、L1460；不据来源外材料补生平。"),
+    ("cand-03-53", "灰陶", "04-knowledge/units/terms/hui-tao.md",
+     "灰陶是商代各遗址出土数量最多的陶器，占全部出土陶器九成以上。检索 terms 下无灰陶条，`heitao.md` 记龙山黑陶为另一器类。新建依据 L1180：还原焰烧成、胎质较硬、器类（鼎鬲甗釜、簋豆碗盆、瓮罍壶尊）、绳纹与弦纹为主的装饰、陶模陶车盘条手制的成形方法。来源未给烧成温度、还原焰控制方式与各遗址量化比较，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/hui-tao.md（新建）；引用 L1180。"),
+    ("cand-03-42", "白陶", "04-knowledge/units/terms/bai-tao.md",
+     "白陶是商代用高岭土制成的特殊陶器。检索 terms 下无白陶条，`heitao.md` 记龙山黑陶为另一器类。新建依据 L1184：器形壶、罍、觯、卣、簋，刻饕餮纹、夔纹、回纹，殷墟出土不多、完整者更少，来源所记北方模仿南方硬陶说与商代以后不复发现。来源未给高岭土产地、烧成温度与化学分析，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/bai-tao.md（新建）；引用 L1184；插图 19、20 未视觉核验。"),
+    ("cand-03-45", "青釉瓷尊", "04-knowledge/units/works/qingyou-ci-zun.md",
+     "青釉瓷尊是郑州铭功路商墓出土的原始瓷器。检索 works 下无同实体条目。新建依据 L1196：釉陶又称原始瓷器的定名、郑州铭功路商墓青釉瓷尊釉质青黄细润，并以同段上虞商代青瓷窑址为背景。来源未给尊的尺寸、藏地与胎釉分析，插图 21 未视觉核验，confidence 取 medium。",
+     "写入 04-knowledge/units/works/qingyou-ci-zun.md（新建）；引用 L1196、L1199；插图 21 未视觉核验。"),
+    ("cand-03-49", "妇好墓玉人", "04-knowledge/units/works/fuhao-mu-yuren.md",
+     "妇好墓玉人是殷墟五号墓出土的商代圆雕玉人。检索 works 下无同实体条目；`places/fuhao-tomb.md` 记墓葬，未收此器。新建依据 L1226-L1231：高 7 厘米、黄褐色、跪坐、双手抚膝、长脸尖颌大鼻小口、长辫与圆箍形颊、交领衣与蔽膝、腰左宽柄器，并记妇好墓 755 件玉器与玉料鉴定。来源未给玉料结论、藏地与同出玉人数量，confidence 取 medium。",
+     "写入 04-knowledge/units/works/fuhao-mu-yuren.md（新建）；引用 L1226、L1231；服饰句跨图版分段，按两处引。"),
+    ("cand-04-03", "象牙杯（妇好墓）", "04-knowledge/units/works/xiangya-bei.md",
+     "象牙杯是殷墟妇好墓出土的商代牙雕。检索 works 下无同实体条目。新建依据 L1249：高 30.5 厘米、象牙管口制筒状杯身、把手几与杯身等高、线刻浮雕镶嵌、四段装饰面（夔纹、兽面纹交替）、把手上部鹰形下部夔形、绿松石与象牙色彩对比。来源未给口径、壁厚、藏地与同出牙骨器数量，插图 27 未视觉核验，confidence 取 medium。",
+     "写入 04-knowledge/units/works/xiangya-bei.md（新建）；引用 L1249；插图 27 未视觉核验。"),
+    ("cand-04-76", "花土", "04-knowledge/units/terms/hua-tu.md",
+     "花土是考古学家对商代遗存印痕的称名。检索 terms 下无同实体条目。新建依据 L1260 大司空村殷墓麻布残痕上的黑色饕餮图案，与 L1262 殷墟武官村大墓雕花木器涂朱红漆后在夯土中留下的印痕；同一名词指麻布与漆器两类对象，来源未说明关系，条目两义并列不合并，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/hua-tu.md（新建）；引用 L1260、L1262；两义并列，不合并为单一定义。"),
+]
+
+UPDATES = [
+    ("cand-10-46", "巧色", "04-knowledge/units/procedures/yudiao-taocai-qiaose.md",
+     "检索发现既有 `procedures/yudiao-taocai-qiaose.md`（别名 巧色）只据 L5288-L5290 记新中国玉雕的套裁与巧色，未收本候选的商代 L1231 与宋代 L3922 两处；本条候选由 cand-03-50 合并而来，两处均已列入其跨度。按同实体更新：补商代已用巧色的判断、宋代巧色定义与子母猫／甘黄玉葵花杯／玉雕人物三例，citation 追加 L1231、L3922。同册多跨段追加 citation，source_count 不变（1），version 1→2。",
+     "批准更新 04-knowledge/units/procedures/yudiao-taocai-qiaose.md：同实体合并，补商代与宋代两处材料，不新建重复术语条。",
+     "追加田自秉 L1231、L3922；citation 改为 L1231, L3922, L5288-L5290；source_count 1，version 2；明代陆子冈巧色另在 L4464，不在本候选跨度，留明代批次。",
+     "canonical: 04-knowledge/units/procedures/yudiao-taocai-qiaose.md。cand-10-46 并入，不新建。"),
+]
+
+NO_DELTA = [
+    ("cand-03-07", "二里头文化", "04-knowledge/units/places/erlitou-site.md",
+     "候选为二里头文化的定名、分布与早晚两期特征（L864-L870）。检索发现既有 `places/erlitou-site.md` 已据田自秉同段立条：别名收“洛达庙文化”，正文引 L864 文化界定与夏文化存疑、L870 早晚两期平底篮纹与圜底绳纹，并记遗址群清单。文化内容已由该遗址条承载，另立 `terms/erlitou-culture.md` 会与遗址条重复，故不新建。",
+     "不新建：二里头文化的定名、分布与两期特征已由 places/erlitou-site.md 依同一田自秉段落承载。",
+     "no_delta：目标 places/erlitou-site.md 已覆盖 L864-L870 的文化定性与陶器序列；不新建术语条。",
+     "canonical: 04-knowledge/units/places/erlitou-site.md。cand-03-07 并入既有遗址条，不另立。"),
+    ("cand-03-33", "五爵", "04-knowledge/units/terms/qingtong-jiuqi.md",
+     "候选为爵、斝、角、觚、觯五种饮酒器的合称（L970-L1001）。检索发现既有 `terms/qingtong-jiuqi.md` 已收“五爵”为别名，正文与核心条均记“爵、斝、觚、觯、角合称五爵”，并已收两版夏燕靖与赵农的器类分组。候选 payload 的定义只是这一合称，无新增内容，不另立条目。",
+     "不新建：五爵合称已由 terms/qingtong-jiuqi.md 以别名与正文承载。",
+     "no_delta：目标 terms/qingtong-jiuqi.md 已记五爵合称；不新建。",
+     "canonical: 04-knowledge/units/terms/qingtong-jiuqi.md。cand-03-33 并入，不另立。"),
+]
+
+
+decisions = []
+for suffix, entity, target, analysis, apply_note in CREATES:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": entity,
+        "action": "create",
+        "target": target,
+        "analysis": analysis,
+        "approve": f"批准新建 {target}：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+        "apply_note": apply_note,
+        "note": f"canonical: {target}。",
+    })
+
+for suffix, entity, target, analysis, approve, apply_note, note in UPDATES:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": entity,
+        "action": "update",
+        "target": target,
+        "analysis": analysis,
+        "approve": approve,
+        "apply_note": apply_note,
+        "note": note,
+    })
+
+for suffix, entity, target, analysis, approve, apply_note, note in NO_DELTA:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": entity,
+        "action": "no_delta",
+        "target": target,
+        "analysis": analysis,
+        "approve": approve,
+        "apply_note": apply_note,
+        "note": note,
+    })
+
+cfg = {
+    "doc": DOC,
+    "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+    "rules": [
+        "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+        "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+        "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+        "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+        "同名异物或同词两义并列著录，不合并为单一定义",
+        "来源的概括估计（如 10 多斤、100 多个）照录并标明为估计，不换算为实测值",
+    ],
+    "scope_spans": [[854, 1275], [3918, 3924]],
+    "scope_note": "田自秉 2010 册第二章商代的工艺美术（L854-L1275）逐段复读；另因 cand-10-46（巧色）跨至宋代，补读 L3918-L3924 的宋代巧色定义与实例。图版与插图均未视觉核验。",
+    "decisions": decisions,
+    "notes": "田自秉 2010 册 batch T2：商代 unit 候选 19 条，create 16、update 1、no_delta 2。新建含杜岭方鼎、铜连座立人、妇好三联甗、青釉瓷尊、妇好墓玉人、象牙杯六件作品，将军盔、商代青铜器八类、夔纹、龙纹、凤纹、回纹、灰陶、白陶、花土九个术语，郭沫若一位人物。更新为巧色（并入商代与宋代两处）。二里头文化与五爵已由既有遗址条、酒器条承载，记 no_delta。灰陶条在本批一并建立。其余商代块内容与 claim 候选留给后续批次。",
+}
+
+out = ROOT / "_zn_decisions_t2.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(Counter(d["action"] for d in decisions), len(decisions))

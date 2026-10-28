@@ -1,0 +1,250 @@
+[
+ {
+  "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-01",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:04:50+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L5-L27",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L2444-L2464"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-02"
+   ],
+   "proposed_fields": {
+    "name": "李立新",
+    "notes": "版权页与CIP数据仅载著者姓名，未载其他身份信息。后记（L2444—L2464）补充其1998年苏州大学艺术学院研究生毕业、1999年9月考入东南大学师从张道一、2002年6月15日博士论文答辩通过等生平信息，并称本书由其博士论文修改完成。合并候选差异：role: canonical='《中国设计艺术史论》著者' other='《中国设计艺术史论》作者、博士论文作者' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-02)；period: canonical='2011年出版时' other='1998—2003（后记所记求学与署年）' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-02)",
+    "period": "2011年出版时",
+    "role": "《中国设计艺术史论》著者"
+   },
+   "proposed_slug": "li-lixin",
+   "source_span": {
+    "block_ids": [
+     "b0001",
+     "b0134"
+    ],
+    "evidence_block_ids": [],
+    "line_end": 2464,
+    "line_start": 5
+   },
+   "summary": "《中国设计艺术史论》著者，人民出版社2011年出版。封面提要称其所论设计史更重古代中国一般造物及其规律，而不仅是经典的、宫廷的设计史。《中国设计艺术史论》作者，后记署名为李立新（2003年6月28日）。1998年从苏州大学艺术学院研究生毕业，1999年9月考入东南大学，师从张道一攻读造物艺术方向博士，2002年6月15日博士论文答辩通过。",
+   "title": "李立新",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:18:54+08:00"
+ },
+ {
+  "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-57",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:04:50+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L341",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L368-L370",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L2444-L2446",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L1517-L1517"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-01",
+    "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-40"
+   ],
+   "proposed_fields": {
+    "name": "张道一",
+    "notes": "原文称“著名学者张道一先生”“导师张道一先生”“道一师”。后记对其人品与治学有直接评价；另提及合写《中国设计艺术史》的计划。合并候选差异：role: canonical='著名学者；东南大学艺术学系倡导组建者；李立新的导师' other='博士论文指导教授、造物艺术方向导师' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-01)；period: canonical='1994年前后' other='1999—2002年指导作者攻读博士' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-01)；原文称“张道一先生”；其批评仅及单线叙述与承传关系，“共时多元”方法为作者引申。合并候选差异：role: canonical='著名学者；东南大学艺术学系倡导组建者；李立新的导师' other='美术史家' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-40)；period: canonical='1994年前后' other='现代' (2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-40)",
+    "period": "1994年前后",
+    "role": "著名学者；东南大学艺术学系倡导组建者；李立新的导师"
+   },
+   "proposed_slug": "zhang-daoyi",
+   "source_span": {
+    "block_ids": [
+     "b0016",
+     "b0018",
+     "b0081",
+     "b0134"
+    ],
+    "evidence_block_ids": [],
+    "line_end": 2446,
+    "line_start": 341
+   },
+   "summary": "著名学者，李立新的导师。1994年6月在东南大学倡导并组建我国第一个艺术学系；曾与作者讨论设计史分期，指出宋代之后的设计再无以前的意匠化局面、几乎被写实风格垄断。作者博士论文的指导教授与造物艺术方向导师。后记称其为人正直、为学缜密推演、博约结合，并计划由他带头，与胡平及作者合写《中国设计艺术史》。美术史家，在《跛者不踊》中批评美术史习惯把美术传统穿成一条线，并质疑其承传关系是否客观；作者李立新继而提出美术传统多元并进、史家应在共时多元的整合转化中理清传承分化线索。",
+   "title": "张道一",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:39:43+08:00"
+ },
+ {
+  "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-01-72",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:04:50+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L368-L370",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L384",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L857-L857",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L1159-L1161",
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L1169-L1169"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-75"
+   ],
+   "proposed_fields": {
+    "definition": "作者用以概括宋之前中国造物设计的整体风格，与写实性设计相对；原文举例兼及彩陶、青铜器、玉器等汉以前造物，指其具有象征性或寓意性的装饰意匠。原文又称汉代以来中国造物意匠化的设计到宋代画上句号，宋之后“再无以前那种设计上的意匠化局面”。",
+    "name": "意匠化设计",
+    "notes": "与“写实性设计”成对使用；异名“意匠化（设计）”。原文未给单一定义句，据多处论述归纳。合并 2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-75；两候选同指作者所用“意匠化设计”概念，保留较早记录。",
+    "period": "宋之前（原文亦述汉代以来）"
+   },
+   "proposed_slug": "yijianghua-sheji",
+   "source_span": {
+    "block_ids": [
+     "b0018",
+     "b0019",
+     "b0041",
+     "b0057"
+    ],
+    "evidence_block_ids": [],
+    "line_end": 1169,
+    "line_start": 368
+   },
+   "summary": "作者所称宋之前中国造物设计的整体风格，与宋之后倾向写实性设计相对。原文又以“意匠化设计”概括中国古代造物具有象征性或寓意性的装饰意匠，举例包括彩陶、青铜器、玉器、丝织品、画像石、金银器等；并称汉代以来中国造物的意匠化设计到宋代画上句号，元明清对写生方法和绘画形式的汲取使意匠性设计急剧衰退。",
+   "title": "意匠化设计",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:54:45+08:00"
+ },
+ {
+  "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-04",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:04:50+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L2444-L2448"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "李立新",
+    "notes": "论文题名与答辩信息据后记；2002 为答辩年，原文未记论文完成年与出版项，故 publisher 置空、year 仅作答辩年使用。",
+    "publisher": null,
+    "title": "造物之迹——中国设计艺术史引论",
+    "year": 2002
+   },
+   "proposed_slug": "zaowu-zhi-ji",
+   "source_span": {
+    "block_ids": [
+     "b0134"
+    ],
+    "line_end": 2448,
+    "line_start": 2444
+   },
+   "summary": "李立新的博士论文，2002年6月15日在东南大学艺术学系通过答辩；后记称本书即在此论文基础上修改完成。",
+   "title": "造物之迹——中国设计艺术史引论",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:18:54+08:00"
+ },
+ {
+  "candidate_id": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-06-08",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T22:18:54+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md#L2446"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "authors": [
+     "张道一",
+     "胡平",
+     "李立新"
+    ],
+    "notes": "后记原文：「按张先生的计划，由他带头，有胡平老师与我参与合写一本《中国设计艺术史》」。书名与本书《中国设计艺术史论》不同，勿混。",
+    "status": "计划合写（原文未记出版信息）",
+    "title": "中国设计艺术史"
+   },
+   "proposed_slug": "zhongguo-sheji-yishu-shi",
+   "source_span": {
+    "block_ids": [
+     "b0134"
+    ],
+    "line_end": 2446,
+    "line_start": 2446
+   },
+   "summary": "张道一计划牵头、胡平与李立新参与合写的中国设计艺术史著作。后记称李立新入学初期即为此书重新归纳、分析已有资料并收集整理新出资料，其博士论文即在这一前期工作的基础上撰成。原文未记该书的出版信息。",
+   "title": "中国设计艺术史",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T22:18:54+08:00"
+ }
+]

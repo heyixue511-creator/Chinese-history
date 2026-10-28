@@ -1,0 +1,183 @@
+[
+ {
+  "claim_id": "claim-0167",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-65",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3094,
+   "line_end": 3094,
+   "span_kind": "line",
+   "key_lines": [
+    3094
+   ],
+   "block_ids": [
+    "b0405"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "1. 手工业的发展与对外贸易的形成",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-65"
+  }
+ },
+ {
+  "claim_id": "claim-0174",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-67",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3262,
+   "line_end": 3267,
+   "span_kind": "bounded",
+   "key_lines": [
+    3262,
+    3267
+   ],
+   "block_ids": [
+    "b0420"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "3. 宋代丝织、染缬工艺的发展 / 2）丝织纹样设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-67"
+  }
+ },
+ {
+  "claim_id": "claim-0176",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-68",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3273,
+   "line_end": 3273,
+   "span_kind": "line",
+   "key_lines": [
+    3273
+   ],
+   "block_ids": [
+    "b0421"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "3. 宋代丝织、染缬工艺的发展 / 3）染缬工艺的发展",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-68"
+  }
+ },
+ {
+  "claim_id": "claim-0182",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-87",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3362,
+   "line_end": 3362,
+   "span_kind": "line",
+   "key_lines": [
+    3362
+   ],
+   "block_ids": [
+    "b0430"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "5. 雕版印刷与商业美术设计 / 2）商业美术设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-87"
+  }
+ },
+ {
+  "claim_id": "claim-0185",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-71",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3411,
+   "line_end": 3411,
+   "span_kind": "line",
+   "key_lines": [
+    3411
+   ],
+   "block_ids": [
+    "b0437"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "7. 宋代建筑及家具设计 / 1）建筑与建筑彩绘设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-71"
+  }
+ },
+ {
+  "claim_id": "claim-0187",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-86",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3433,
+   "line_end": 3433,
+   "span_kind": "line",
+   "key_lines": [
+    3433
+   ],
+   "block_ids": [
+    "b0438"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "7. 宋代建筑及家具设计 / 2）家具",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-86"
+  }
+ },
+ {
+  "claim_id": "claim-0189",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-72",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3466,
+   "line_end": 3466,
+   "span_kind": "line",
+   "key_lines": [
+    3466
+   ],
+   "block_ids": [
+    "b0441"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "8. 辽和金时期的设计继承与特色 / 2）金瓷的工艺特色",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-72"
+  }
+ },
+ {
+  "claim_id": "claim-0191",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-73",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3524,
+   "line_end": 3524,
+   "span_kind": "line",
+   "key_lines": [
+    3524
+   ],
+   "block_ids": [
+    "b0445"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "8. 辽和金时期的设计继承与特色 / 6) 金代银铜及铁制器工艺的形成与发展",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-73"
+  }
+ },
+ {
+  "claim_id": "claim-0193",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-74",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3545,
+   "line_end": 3545,
+   "span_kind": "line",
+   "key_lines": [
+    3545
+   ],
+   "block_ids": [
+    "b0448"
+   ],
+   "chapter": "宋辽金西夏时期的设计纷繁",
+   "section": "9. 西夏时期的设计成就 / 2）西夏的瓷器工艺",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-74"
+  }
+ }
+]

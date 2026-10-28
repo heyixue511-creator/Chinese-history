@@ -1,0 +1,145 @@
+[
+ {
+  "cid": "cand-05-58",
+  "type": "unit",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "船",
+    "culture": "中国",
+    "notes": "据图注，泉州海外交通史博物馆藏品，长约3500cm，船身扁阔、尖底方头，船内设计十三个水密隔舱，多桅多舱，有升降舵，为大型远洋海船；图版未视觉核验。",
+    "period": "南宋",
+    "title": "木制海船"
+   },
+   "proposed_slug": "muzhi-haichuan",
+   "source_span": {
+    "block_ids": [
+     "b0107"
+    ],
+    "line_end": 1930,
+    "line_start": 1926
+   },
+   "summary": "南宋木制海船，原文图注以其水密隔舱和多桅多舱结构说明当时造船设计水平。",
+   "title": "木制海船",
+   "unit_type": "work"
+  }
+ },
+ {
+  "cid": "cand-05-62",
+  "type": "unit",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "天文仪器",
+    "culture": "中国",
+    "notes": "据图注，引自《中国文物精华大辞典》；浑天仪上有地平线、子午环、赤道环、太阳、月亮、地球等，地球上刻经纬线及各大洲名称，设计精巧，可手工操作观察天体运转关系；图版未视觉核验。图注本身未出现“规范化”三字。",
+    "period": "清",
+    "title": "鎏金银浑天仪"
+   },
+   "proposed_slug": "liujin-huntianyi",
+   "source_span": {
+    "block_ids": [
+     "b0110"
+    ],
+    "line_end": 1954,
+    "line_start": 1952
+   },
+   "summary": "清代鎏金银浑天仪，原文在“规范化”一节插入其图注，图注描述其结构精巧、可手工操作观察天体运转；图注本身未明言其为规范化例证。",
+   "title": "鎏金银浑天仪",
+   "unit_type": "work"
+  }
+ },
+ {
+  "cid": "cand-05-64",
+  "type": "unit",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "造物设计具有始源性：艺术源自实用器物，最初依附于器物及其实用性而展现，并不独立；造物设计在艺术发展中扮演“母体”角色，显示本元特征。",
+    "name": "本元特征",
+    "notes": "原文以史前石器陶器到青铜丝织品说明实用物质与审美精神两种特性统一融合、可相互转化。",
+    "period": "贯穿艺术史"
+   },
+   "proposed_slug": "benyuan-tezheng",
+   "source_span": {
+    "block_ids": [
+     "b0112"
+    ],
+    "line_end": 1980,
+    "line_start": 1972
+   },
+   "summary": "李立新概括的中国传统设计艺术特质之一，强调造物设计是艺术历史的原初存在和纯粹艺术发展的母体。",
+   "title": "本元特征",
+   "unit_type": "term"
+  }
+ },
+ {
+  "cid": "cand-05-65",
+  "type": "unit",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "构成设计史发展的阴阳两极：变是适应工艺制作条件和社会时势要求，不是抛弃传统，而是变其刻板、变其烦琐；统是整合、延续，化凌乱为协调，在整合中融入外来、民族、地域性因素，在延续中保持中国造物设计艺术特有面貌。",
+    "name": "变与统",
+    "notes": "原文认为变与统在传统社会可演绎出阶段性突破及不断上升的造物设计变易图式，但近代中国造物艺术落在欧美设计之后。",
+    "period": "中国传统社会至近代"
+   },
+   "proposed_slug": "bian-yu-tong",
+   "source_span": {
+    "block_ids": [
+     "b0113"
+    ],
+    "line_end": 1985,
+    "line_start": 1982
+   },
+   "summary": "李立新概括的设计史发展机制，以“变”与“统”两极解释中国造物的持续演化与近代转型困境。",
+   "title": "变与统",
+   "unit_type": "term"
+  }
+ },
+ {
+  "cid": "cand-05-73",
+  "type": "unit",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "金属器/香具",
+    "culture": "中国",
+    "notes": "原文标题作“镂孔”。据图注，西安市文物管理委员会藏品，直径5.4cm，钣金成型，上半球为盖、下半球为身，两半球以子母口扣合，内设两个同心圆环，环内置焚香金盂，同心圆与金盂用对称活轴相连，无论如何转动盂面始终平衡，运用陀螺仪设计原理；图版未视觉核验。",
+    "period": "唐",
+    "title": "鎏金忍冬纹镂孔银香球"
+   },
+   "proposed_slug": "liujin-yinxiangqiu",
+   "source_span": {
+    "block_ids": [
+     "b0115"
+    ],
+    "line_end": 2023,
+    "line_start": 2019
+   },
+   "summary": "唐代银香球，原文图注以其同心圆环持平装置说明古代造物对陀螺仪原理的巧妙运用。",
+   "title": "鎏金忍冬纹镂孔银香球",
+   "unit_type": "work"
+  }
+ }
+]

@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "赤峰缸瓦窑屯辽窑是 B 维度下辽瓷主要产地条目；瓷窑官与辽代官窑的设立归 institutions/ciyaoguan.md。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "辽瓷主要产地；约二平方里是唯一辽代窑场面积数值，官字款背景在此"
+hierarchy_scope_note: "辽瓷主要产地；约二平方里是唯一辽代窑场面积数值，官字款背景在此"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "赤峰缸瓦窑屯辽窑是 B 维度下辽瓷主要产地
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是辽瓷的**主产地标尺**：以一处窑场兼出仿定白瓷、辽三彩与单色釉陶，向上接“辽瓷仿定”的体系判断，向下接金代在辽窑基础上发展的抚顺大官屯窑。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 辽瓷主要产地；约二平方里是唯一辽代窑场面积数值，官字款背景在此
 ## 相关知识元
 
 `places/fushun-daguantun-yao.md` 记金代前期在辽代窑址基础上发展的抚顺大官屯窑；`places/ding-kiln.md` 记定窑；`institutions/ciyaoguan.md` 记瓷窑官；`terms/tang-sancai.md` 记唐三彩，辽三彩与之同名而不同代；`terms/youlihong.md` 一类单色釉条目可与茶叶末绿釉对读。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: representative_work
+    primary: true
+    scope_note: "说唱俑是 B.5.3 明器尺度的写意一端：东汉陶塑以姿态与表情代替比例，与兵马俑的写实相对；来源只给一段描述，无尺寸与出土单位"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "说唱俑是 B 维度下东汉陶塑人物俑的器物条目；表情、姿态与叙事性的视觉处理归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "说唱俑是 B.5.3 明器尺度的写意一端：东汉陶塑以姿态与表情代替比例，与兵马俑的写实相对；来源只给一段描述，无尺寸与出土单位"
 ---
 
 ## 描述
@@ -59,12 +67,10 @@ hierarchy_scope_note: "说唱俑是 B 维度下东汉陶塑人物俑的器物条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 说唱俑是 B 维度下东汉陶塑人物俑的器物条目；表情、姿态与叙事性的视觉处理归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 说唱俑是 B.5.3 明器尺度的写意一端：东汉陶塑以姿态与表情代替比例，与兵马俑的写实相对；来源只给一段描述，无尺寸与出土单位
 ## 相关知识元
 
 `terms/mingqi.md` 记明器；`terms/taoqi.md` 记陶器；`works/qin-bing-ma-yong.md` 记秦代陶塑；汉代陶塑的人物俑分类见本条核心内容。relation 未审查。

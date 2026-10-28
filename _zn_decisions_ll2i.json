@@ -1,0 +1,218 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+  "引文照录：同行用“ ”，跨行拼接或句内再含引号用「 」；正文禁用 ASCII 双引号。",
+  "候选类型与实体介质不符时按实际介质改型，例如 L1141 的宋绣佛经按 work 而不按 publication 建条。",
+  "同书异名、同实体异写先检索既有 KU 与同批目标；能归并者按 no_delta 处理，不重复建条。",
+  "图注只有图号与题名时按 work 建 low 条；图号与图题冲突时并列两处，不据图补写。"
+ ],
+ "scope_spans": [
+  [
+   1134,
+   1279
+  ]
+ ],
+ "scope_note": "覆盖 L1134-L1279：第二章第五节“院画的扩张与意匠化设计的衰落”（L1134-L1169，含图2-33至图2-38），第三章开篇（L1171-L1177），第一节“《天工开物》：传统造物的历史镜像”（L1179-L1220，含图3-1），第二节“早期工业化时期一般造物设计的发展”（L1222-L1279，含图3-2至图3-10）；止于第三节“近代以来造物艺术的艰辛历程”（L1283）之前。",
+ "deferred": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-06",
+   "entity": "胡正言",
+   "span": "L1246-L1846",
+   "reason": "跨度终点 L1846 尚未在本批复读；L1246 的短版拱花与《十竹斋画谱》已由 procedures/duanban-taoyin.md 与 publications/shizhuzhai-huapu.md 覆盖，但长跨度候选须待终点覆盖后单独裁定，本批不提前置为终态。"
+  }
+ ],
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-55",
+   "entity": "宋绣《金刚般若波罗蜜经》",
+   "action": "create",
+   "target": "04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md",
+   "analysis": "cand-03-55 跨度为 L985-L1141，L985 已由 publications/jingangjing-868.md 覆盖唐咸通九年雕版印本；本批新读 L1141 记《存素堂丝绣录》有宋时在绫地上绣成的《金刚般若波罗蜜经》，共五十六页、五千九百九十六字。该条是宋代绫地刺绣本，与 868 年雕版印本同名而异媒，候选的 publication 类型不适用于刺绣本。",
+   "approve": "L1141 的宋绣本有独立介质、篇幅与文献出处，按 work 建条；不并入 868 年敦煌印本条。",
+   "apply_note": "新建 works/song-xiu-jingang-bore-boluomi-jing.md，记宋绣本、绫地、五十六页与五千九百九十六字。",
+   "note": "canonical: 04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md。cand-03-55 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-44",
+   "entity": "沈子蕃缂丝《花鸟图》",
+   "action": "create",
+   "target": "04-knowledge/units/works/shen-zifan-hua-niao-tu.md",
+   "analysis": "cand-03-44 跨度为 L1143-L1155。L1143 记现藏故宫博物院的南宋缂丝高手沈子蕃的《花鸟图》直接将绘画引入设计，把原画面貌用针线表现得惟妙惟肖；L1155 图注作“图2-36 沈子蕃缂丝《花鸟图》”。persons/shen-zifan.md 已记其生平与《梅鹊图》，但 works 下无《花鸟图》单件条。",
+   "approve": "作品有作者、藏地、图号与设计史定位，按 work 建条；与人物条分工，不把作品信息只压在人物条内。",
+   "apply_note": "新建 works/shen-zifan-hua-niao-tu.md，记作者、故宫藏地、图2-36 与绘画入设计的定位。",
+   "note": "canonical: 04-knowledge/units/works/shen-zifan-hua-niao-tu.md。cand-03-44 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-43",
+   "entity": "朱克柔缂丝《牡丹》",
+   "action": "create",
+   "target": "04-knowledge/units/works/zhu-kerou-mu-dan.md",
+   "analysis": "cand-03-43 跨度为 L1150-L1151。L1141 记藏于辽宁省博物馆的缂丝《牡丹》，L1151 图注作“图2-35 朱克柔缂丝《牡丹》（辽宁省博物馆藏）”，L1143 把它与沈子蕃《花鸟图》并列为绘画入设计的例证。persons/zhu-kerou.md 已记其生平与《莲塘乳鸭图》，works 下无《牡丹》单件条。",
+   "approve": "作品有作者、藏地、图号与设计史定位，按 work 建条；与人物条及《莲塘乳鸭图》条分工。",
+   "apply_note": "新建 works/zhu-kerou-mu-dan.md，记作者、辽宁省博物馆藏地、图2-35 与绘画入设计的定位。",
+   "note": "canonical: 04-knowledge/units/works/zhu-kerou-mu-dan.md。cand-03-43 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-71",
+   "entity": "院体画",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yuan-ti-hua.md",
+   "analysis": "cand-03-71 跨度为 L1155-L1157。L1155 记宋代画院以“格法”“形似”“新意”为特质，形成工笔花鸟画与界画为代表的“院体画”，并影响文思院、甲库、文绣院、绫锦院等宫中工艺机构；L1157 引《筠清轩秘录》绣品评语与李唐“早知不入时人眼，多买胭脂画牡丹”；L1159 批评其束缚设计意匠。既有 institutions/song-dai-huayuan.md 与 events/song-dai-huayuan-sheli.md 记机构与设立事件，但无院体画样式专条。",
+   "approve": "院体画是绘画样式，与画院机构、设立事件分属不同实体；按 term 建条，并在相关知识元链接三者。",
+   "apply_note": "新建 terms/yuan-ti-hua.md，记定义、画院条件、花鸟与界画取向、对工艺机构的影响及消极面。",
+   "note": "canonical: 04-knowledge/units/terms/yuan-ti-hua.md。cand-03-71 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-72",
+   "entity": "粉本",
+   "action": "no_delta",
+   "target": "04-knowledge/units/procedures/fenben-fuzhi.md",
+   "analysis": "cand-03-72 跨度为 L1161。既有 procedures/fenben-fuzhi.md 已完整收录 L1161 的粉本定义、扎孔扑粉勾勒的复制工序、写实绘画的模仿、皇家喜爱与顾绣苏绣湘绣粤绣谱系，并另引 L857 的宋代粉本摹写；候选没有超出既有条目的新事实。",
+   "approve": "同实体已有 procedure 专条，定义与工序均已覆盖；不另建 term 条。",
+   "apply_note": "no_delta：归并 procedures/fenben-fuzhi.md，不新建 terms/fen-ben.md。",
+   "note": "canonical: 04-knowledge/units/procedures/fenben-fuzhi.md。cand-03-72 归并该条，不另建。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-73",
+   "entity": "早期工业化",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zaoqi-gongyehua.md",
+   "analysis": "cand-03-73 跨度为 L1175-L1226。L1175 以早期工业化指明代中叶以来与近代欧洲早期相似的工场手工业阶段，并称中国已有一定生产基础而并非空白；L1224 说明该词用以区别于近现代工业化，并与“资本主义萌芽”说并列；L1226 记其主要特征仍是手工业而非机械化、与近代工业化无必然因果、但为近代设计准备条件，是近现代设计的早期先行阶段。",
+   "approve": "该词是来源自设的时期概念，横跨第三章节，既有 terms 下无同条；按 term 建条，保留其与“资本主义萌芽”说的关系。",
+   "apply_note": "新建 terms/zaoqi-gongyehua.md，记术语界定、主要特征、与近代工业化的关系及先行阶段定位。",
+   "note": "canonical: 04-knowledge/units/terms/zaoqi-gongyehua.md。cand-03-73 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-17",
+   "entity": "李贽",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-zhi.md",
+   "analysis": "cand-03-17 跨度为 L1192。L1192 引李贽《焚书》“穿衣吃饭即是人伦物理。除却穿衣吃饭，无伦物矣”，置于明代民间手工业规模扩大、士大夫转向“讲求良知”的语境，并称对下层民间日需的关注成为明代知识分子普遍思想，《天工开物》尤体现此观点。persons 下无李贽条。",
+   "approve": "引文、出处与思想语境均可复查；生卒、籍贯、官职与著述目录未载，按 low 建条，只登记来源所引的日用伦理。",
+   "apply_note": "新建 persons/li-zhi.md，记《焚书》引文、出处与明代民间日需语境。",
+   "note": "canonical: 04-knowledge/units/persons/li-zhi.md。cand-03-17 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-56",
+   "entity": "《焚书》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/fenshu.md",
+   "analysis": "cand-03-56 跨度为 L1192。L1192 记李贽在《焚书》中说“穿衣吃饭即是人伦物理。除却穿衣吃饭，无伦物矣”，用以说明明代知识分子对下层民间日需的关注。publications 下无《焚书》条；来源未给卷数、成书年代、版本与刊刻地。",
+   "approve": "著作有作者、书名与可复查引文，按 publication 建 low 条；不据来源外知识补写版本与篇目。",
+   "apply_note": "新建 publications/fenshu.md，记作者、引文与思想语境。",
+   "note": "canonical: 04-knowledge/units/publications/fenshu.md。cand-03-56 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-74",
+   "entity": "一器而工聚",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yiqi-er-gongju.md",
+   "analysis": "cand-03-74 跨度为 L1204。L1204 以“这种自先秦以来的‘一器而工聚’的制物生产方式”概括《天工开物·陶埏》“共计一杯功，过手七十二方克成器”的分工，又以汉时漆器“一杯卷用百人之力，一屏风就万人之功”说明生产密集型，并指出其规模与局限。terms 下无同条。",
+   "approve": "该概念是来源概括传统制物方式的核心术语，按 term 建条；与《考工记》条、手工工场条分工。",
+   "apply_note": "新建 terms/yiqi-er-gongju.md，记概念、陶埏七十二过手、汉代漆器例与密集型局限。",
+   "note": "canonical: 04-knowledge/units/terms/yiqi-er-gongju.md。cand-03-74 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-45",
+   "entity": "铸鼎图",
+   "action": "create",
+   "target": "04-knowledge/units/works/zhu-ding-tu.md",
+   "analysis": "cand-03-45 跨度为 L1204-L1213。L1204 记铸鼎场面鼓风、熔铜、浇铸，人多、繁忙、紧张，“甲炉既顷，乙炉疾继之，丙炉又疾继之”，各就其位、动作迅捷有序，作为“一器而工聚”密集型生产的形象资料；L1213 图注作“图3-4 铸鼎图”。",
+   "approve": "图有独立图号、场面描述与论证功能，按 work 建条；图版未视觉核验，只登记文字。",
+   "apply_note": "新建 works/zhu-ding-tu.md，记图3-4、铸鼎场面、炉火衔接与密集型生产。",
+   "note": "canonical: 04-knowledge/units/works/zhu-ding-tu.md。cand-03-45 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-124",
+   "entity": "锤锚图",
+   "action": "create",
+   "target": "04-knowledge/units/works/chui-mao-tu.md",
+   "analysis": "cand-03-124 跨度为 L1204-L1216。L1204 记锤锚一图集合十五人之多，上下协调、同时操作、劳动强度极大，与铸鼎图并列为密集型生产的形象资料；L1216 图注作“图3-5 锤锚图”。",
+   "approve": "图有独立图号、人数与协作描述，按 work 建条；图版未视觉核验。",
+   "apply_note": "新建 works/chui-mao-tu.md，记图3-5、十五人协作与劳动强度。",
+   "note": "canonical: 04-knowledge/units/works/chui-mao-tu.md。cand-03-124 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-122",
+   "entity": "花机图",
+   "action": "create",
+   "target": "04-knowledge/units/works/hua-ji-tu.md",
+   "analysis": "cand-03-122 跨度为 L1207。L1207 图注作“图3-2 花机图（织造过程及构件说明）”；L1200 却以图3-2 作为冶铸、锤锻、陶埏、舟车等系统设计安排的“工艺操作和结构示意图解”。两处图号相同而图题所指不一致，来源未解释。",
+   "approve": "图注与正文图号冲突，仍按 work 建 low 条；在条内并列两处，不据图补写构件，也不擅自判定图号归属。",
+   "apply_note": "新建 works/hua-ji-tu.md，记图3-2 图注、L1200 的系统设计语境与图号图题不一致。",
+   "note": "canonical: 04-knowledge/units/works/hua-ji-tu.md。cand-03-122 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-123",
+   "entity": "朝钟同法",
+   "action": "create",
+   "target": "04-knowledge/units/works/chao-zhong-tong-fa.md",
+   "analysis": "cand-03-123 跨度为 L1210。L1210 只有图注“图3-3 朝钟同法”，正文未解释其工艺、钟制或与同段冶铸诸图的关系；图版未视觉核验。",
+   "approve": "材料只有图注，按 work 建 low 条，只登记图号与题名，不据图补写。",
+   "apply_note": "新建 works/chao-zhong-tong-fa.md，记图3-3 与正文未展开的证据边界。",
+   "note": "canonical: 04-knowledge/units/works/chao-zhong-tong-fa.md。cand-03-123 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-18",
+   "entity": "王征",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wang-zheng.md",
+   "analysis": "cand-03-18 跨度为 L1226。L1226 把王征与徐光启、方以智并列为关心国计民生、敏锐认识到机械机器重要性的有识之士，并引其《远西奇器图说》论民生日用诸器；L1244 记他从传教士处获得风磨图样，设计过“止借风力，省人之力”的风磴。persons 下无王征条（persons/wang-zhen.md 为元代王祯，非一人）。",
+   "approve": "人物有定位、书名、长引与风磴事例，按 person 建条；与王祯条严格区分，不因字形相近合并。",
+   "apply_note": "新建 persons/wang-zheng.md，记有识之士定位、《远西奇器图说》引文与风磴。",
+   "note": "canonical: 04-knowledge/units/persons/wang-zheng.md。cand-03-18 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-03-49",
+   "entity": "《远西奇器图说》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md",
+   "analysis": "cand-03-49 跨度为 L1226。L1226 记王征在《远西奇器图说》中指出民生日用诸器为人世所急需，并列举代耕、恒升、龙尾、辘轳、螺丝、机车、剪刀、舟车、起重、引重等器；L1236 又记 1627 年传教士邓玉函写了《奇器图说》《诸图说》等工艺技术书籍。来源对作者与书名的记载不一致，本条并列两说，以《奇器图说》为别名。",
+   "approve": "著作有书名、引文与 1627 年线索，按 publication 建条；作者张力与书名异写一并记录，不据来源外知识判定。",
+   "apply_note": "新建 publications/yuanxi-qiqitu-shuo.md，并列王征说与邓玉函说，收《奇器图说》别名。",
+   "note": "canonical: 04-knowledge/units/publications/yuanxi-qiqitu-shuo.md。cand-03-49 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-03",
+   "entity": "《浮梁县志》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/fuliang-xianzhi.md",
+   "analysis": "cand-04-03 跨度为 L1230。L1230 引《浮梁县志》载昔日景德镇只有三百座窑、当时窑数已达三千座，置于康熙十九年前后景德镇民窑手工工场扩张的语境；places/jingdezhen.md 已引同条窑数，但 publications 下无《浮梁县志》条。",
+   "approve": "地方志有书名、引文与明确用途，按 publication 建 low 条；只登记来源所引窑数，不补纂修人与版本。",
+   "apply_note": "新建 publications/fuliang-xianzhi.md，记三百座到三千座的窑数引文与手工工场语境。",
+   "note": "canonical: 04-knowledge/units/publications/fuliang-xianzhi.md。cand-04-03 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-01",
+   "entity": "手工工场",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shougong-gongchang.md",
+   "analysis": "cand-04-01 跨度为 L1230-L1232。L1230 以康熙十九年前后景德镇民窑、陕西联合工场等为例，记手工工场运用巨额资本、使用大量劳力，并详列制瓷与画工分工；L1232 强调工场规模扩大而造物设计变化有限、机器使用不普及、家庭小作坊仍是主导，手工工场与手工作坊并存。terms 下无同条。",
+   "approve": "该词是早期工业化一节的生产组织概念，按 term 建条；与《早期工业化》《景德镇》条分工。",
+   "apply_note": "新建 terms/shougong-gongchang.md，记定义、景德镇分工、设计停滞、机器不普及与并存判断。",
+   "note": "canonical: 04-knowledge/units/terms/shougong-gongchang.md。cand-04-01 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-05",
+   "entity": "徐光启",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xu-guangqi.md",
+   "analysis": "cand-04-05 跨度为 L1236。L1226 把徐光启与王征、方以智并列为关心国计民生的有识之士；L1236 记他在《农政全书》中介绍各种金属器件的制造及方法，同句又出现“在戴震等人的倡导鼓吹下”，戴震为清代人，与徐光启时代不合。persons 下无徐光启条；publications/nongzheng-quanshu.md 已记其书。",
+   "approve": "人物有定位与《农政全书》材料，按 person 建条；戴震同句的时代不合照录标疑，不据来源外知识改写。",
+   "apply_note": "新建 persons/xu-guangqi.md，记有识之士定位、《农政全书》金属器件与戴震同句标疑。",
+   "note": "canonical: 04-knowledge/units/persons/xu-guangqi.md。cand-04-05 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-08",
+   "entity": "《奇器图说》",
+   "action": "no_delta",
+   "target": "04-knowledge/units/publications/yuanxi-qiqitu-shuo.md",
+   "analysis": "cand-04-08 跨度为 L1236，记 1627 年传教士邓玉函写了《奇器图说》《诸图说》等工艺技术书籍。该条与 cand-03-49 的《远西奇器图说》同指一书，书名一处作《远西奇器图说》、一处作《奇器图说》；本批已在 publications/yuanxi-qiqitu-shuo.md 并列王征说与邓玉函说，并把《奇器图说》列为别名。",
+   "approve": "同书异名，已在《远西奇器图说》条内并列两说；不另建《奇器图说》重复条。",
+   "apply_note": "no_delta：归并 publications/yuanxi-qiqitu-shuo.md，不新建 publications/qiqitu-shuo.md。",
+   "note": "canonical: 04-knowledge/units/publications/yuanxi-qiqitu-shuo.md。cand-04-08 归并该条，不另建。"
+  }
+ ]
+}

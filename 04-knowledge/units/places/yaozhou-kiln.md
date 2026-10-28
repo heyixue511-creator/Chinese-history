@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "耀州窑是 B 维度下唐至宋北方青瓷窑条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "唐至宋北方青瓷窑；刻花青瓷为其辨识特征"
+hierarchy_scope_note: "唐至宋北方青瓷窑；刻花青瓷为其辨识特征"
 ---
 
 ## 描述
@@ -64,11 +72,10 @@ hierarchy_scope_note: "耀州窑是 B 维度下唐至宋北方青瓷窑条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 耀州窑是 B 维度下唐至宋北方青瓷窑条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 唐至宋北方青瓷窑；刻花青瓷为其辨识特征
 ## 相关知识元
 
 `places/ding-kiln.md`、`places/cizhou-kiln.md` 同属北方名窑条目；relation 未审查。

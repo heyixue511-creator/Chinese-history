@@ -38,17 +38,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "柴窑是 B 维度下文献记载而未证实的瓷窑条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "文献名窑而非考古实证窑口；窑址从未发现，存在性悬而未决"
+hierarchy_scope_note: "文献名窑而非考古实证窑口；窑址从未发现，存在性悬而未决"
 ---
 
 ## 描述
@@ -70,11 +78,10 @@ hierarchy_scope_note: "柴窑是 B 维度下文献记载而未证实的瓷窑条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 柴窑是 B 维度下文献记载而未证实的瓷窑条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 文献名窑而非考古实证窑口；窑址从未发现，存在性悬而未决
 ## 相关知识元
 
 与五大名窑、官窑同属宋以前名窑谱系，但柴窑缺乏窑址与实物证据。relation 未审查。

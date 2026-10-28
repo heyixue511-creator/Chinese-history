@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "玉壶春瓶是 B 维度下宋元瓷瓶造型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "玉壶春瓶是 B.6.5 取象路径与谱系判断的交汇点：2016 称元代其他瓶类多由其基本形态变化而成，赵农却系于宋代，两说并存"
+hierarchy_scope_note: "玉壶春瓶是 B.6.5 取象路径与谱系判断的交汇点：2016 称元代其他瓶类多由其基本形态变化而成，赵农却系于宋代，两说并存"
 ---
 
 ## 描述
@@ -56,15 +64,15 @@ hierarchy_scope_note: "玉壶春瓶是 B 维度下宋元瓷瓶造型的条目。
 - **与梅瓶的关系**: 二者同为宋以后沿用的传统瓶式，梅瓶深腹盛酒、玉壶春颈细腹圆，造型取向不同
 - **设计史意义**: 玉壶春以“外斜口—长颈—鼓腹—圈足”的连续曲线构成，是瓷器造型中以轮廓线取胜的代表
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 玉壶春瓶是 B 维度下宋元瓷瓶造型的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 玉壶春瓶是 B.6.5 取象路径与谱系判断的交汇点：2016 称元代其他瓶类多由其基本形态变化而成，赵农却系于宋代，两说并存
 ## 相关知识元
 
 与梅瓶同属宋元瓷瓶谱系；蒜头瓶、凤尾瓶为其衍生器形。relation 未审查。

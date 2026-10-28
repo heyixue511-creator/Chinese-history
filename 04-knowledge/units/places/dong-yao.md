@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "董窑是 B 维度下仅见于文献、窑址未发现的宋代瓷窑条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "仅《格古要论》一条文献的孤证名窑；无窑址无实物，只登记文献状态"
+hierarchy_scope_note: "仅《格古要论》一条文献的孤证名窑；无窑址无实物，只登记文献状态"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "董窑是 B 维度下仅见于文献、窑址未发现的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是宋瓷谱系中的**文献孤证条目**：以《格古要论》的一条品第记录保存一个窑名，与官窑条构成“有址—无址”的对照。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 仅《格古要论》一条文献的孤证名窑；无窑址无实物，只登记文献状态
 ## 相关知识元
 
 `terms/guan-yao.md` 记官窑的制度义与北宋官窑；`places/song-official-kiln.md` 记两宋官窑窑址；`publications/gegu-yaolun.md` 为《格古要论》条目，董窑、官窑、哥窑的品第均出此书；`terms/ge-yao.md` 记哥窑，同属以文献与传世器为主的宋瓷条目。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

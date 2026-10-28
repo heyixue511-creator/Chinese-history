@@ -1,0 +1,324 @@
+# -*- coding: utf-8 -*-
+"""Build CL3c claim rows (17 new) and 15 cross-edition corroboration patches."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+SRC = "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md"
+DATE = "2026-10-27"
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(cid, ctype, zh, en, confidence, supported, note, start, end, kind,
+      key_lines, block_ids, chapter, section):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": cid,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": kind,
+                "key_lines": key_lines,
+                "block_ids": block_ids,
+                "chapter": chapter,
+                "section": section,
+            },
+            "candidate_id": None,
+        },
+        "confidence": confidence,
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+CH = "春秋战国时期的设计自觉"
+rows = []
+
+rows.append(C(
+    "claim-0283", "synthetic_claim",
+    "夏燕靖认为，春秋战国时期铁器与铸铁农具的推广使用，为农业和手工业提供了廉价高效的工具；手工业匠人从奴隶制奴役下解放出来，提高了生产效率；铁器使用又使荒地得到开垦、私田不断增多，出现以一家一户为单位的小农阶层和依靠私有土地的地主阶层，旧有奴隶制生产关系被新兴封建制生产关系取代。他并称百家争鸣与众多工艺文献集中体现了这一时期设计思想的多元与科学探索精神。",
+    "Xia Yanjing argues that the spread of iron tools and cast-iron farm implements gave agriculture and handicraft cheap and efficient tools; artisans freed from slavery improved productivity; iron tools opened wasteland and increased private fields, producing household-based small farmers and a landlord class based on private land, so that the old slave-mode relations of production were replaced by emerging feudal relations. He further holds that the Hundred Schools of Thought and the many craft texts of the period embody the pluralism and scientific inquiry of design thinking in this era.",
+    "high",
+    ["04-knowledge/units/terms/tieqi-shidai.md",
+     "04-knowledge/units/terms/hundred-schools.md",
+     "04-knowledge/units/terms/baigong.md"],
+    "断言取 L1031 与 L1041，记 bounded。L1031 称“炼铜业宣告结束，冶铁业代而兴起”，是来源对社会生产主部门的概括，不宜读作青铜工艺完全终止；同章后文仍大量讨论春秋战国青铜器。来源把铁器推广、匠人解放、私田与小农地主阶层出现串为封建制取代奴隶制的因果链，本条保留这一整体论断，不把它拆成已独立验证的单因果。",
+    1027, 1051, "bounded", [1031, 1041], ["b0120", "b0121"],
+    CH, "章首"))
+
+rows.append(C(
+    "claim-0284", "historiographic_claim",
+    "夏燕靖称中国是最早出现冶铁术的国家；关于冶铁术出现的时间，史学界据《尚书》《诗经》《左传》等文献有两说：一说商代已有铁器、西周开始使用铁器，一说冶铁术发明于春秋战国之交。他并据河北藁城台西村商墓与北京平谷刘家河商墓出土的铁刃铜钺、陕西雍城秦公墓铁器以及河南三门峡西周晚期铁剑等考古发现，认为商代已有金属铁的生产，春秋后期工匠已掌握冶铁技术并普遍使用铁器；生铁与块炼铁同时发展是中国古代钢铁冶金技术发展的独特途径。",
+    "Xia Yanjing states that China was the earliest country to develop iron smelting. On its date, scholars working from the Shangshu, Shijing, and Zuozhuan have two views: either iron appeared in the Shang and came into use in the Western Zhou, or iron smelting was invented at the turn of the Spring and Autumn and Warring States periods. Citing iron-bladed bronze yue from Shang tombs at Taixi in Gaocheng and Liujiahe in Pinggu, iron objects from the Qin duke's tomb at Yongcheng, and a late Western Zhou iron sword from Sanmenxia, he concludes that metallic iron was produced in the Shang and that smiths had mastered smelting and widely used iron by the late Spring and Autumn. He also identifies the simultaneous development of cast iron and bloomery iron as a distinctive path of ancient Chinese ferrous metallurgy.",
+    "medium",
+    ["04-knowledge/units/procedures/ye-tie-shu-qi-yuan.md",
+     "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md",
+     "04-knowledge/units/terms/iron-three-brothers.md",
+     "04-knowledge/units/terms/tieqi-shidai.md"],
+    "断言取 L1058、L1064、L1076，记 bounded。来源先称“我国是最早出现冶铁术的国家”，又并列商代说与春秋战国之交说；L1079 更明确称商代是“利用陨铁锻制铁刃铜钺”，故商代金属铁是否等于人工冶铁，来源前后并不一致。本条保留两说与考古证据，不把商代铁器直接等同于冶铁术发明；L1064 作“铜柄铁剑”，L1080 作“玉柄铁剑”，器柄材质记载互异，本条只写“西周晚期铁剑”。",
+    1056, 1084, "bounded", [1058, 1064, 1076], ["b0124", "b0125"],
+    CH, "1. 早期工艺技术与器具设计 / 1）冶铁发明与铁制器具 / ① 冶铁发明"))
+
+rows.append(C(
+    "claim-0285", "historiographic_claim",
+    "夏燕靖认为，春秋战国青铜器装饰技术进步显著：商周时期在器模上雕纹，春秋时期进入印纹阶段，用刻有花纹的印模在尚未冷却的模胎上连续盖印，一模多用，既省工省时又取得统一效果；镶嵌绿松石与错金银工艺在春秋中期有所发展，燕、赵、蔡等国还出现以红铜镶嵌图案的错铜新工艺。",
+    "Xia Yanjing holds that bronze decoration advanced markedly in the Spring and Autumn and Warring States periods: Shang and Zhou craftsmen carved patterns into the vessel model, whereas in the Spring and Autumn they entered a stamping (yinwen) phase, using a patterned stamp on the still-warm mold to repeat a single motif, saving labor and producing uniform effects. Turquoise inlay and gold-and-silver inlay developed further in the mid-Spring and Autumn, and Yan, Zhao, Cai, and other states introduced copper inlay (cuotong).",
+    "high",
+    ["04-knowledge/units/terms/qingtongqi.md",
+     "04-knowledge/units/terms/qingtong-liqi.md"],
+    "断言取 L1124 与 L1126，记 bounded。L1124 同时含“单独纹样—二方连续—四方连续”的格式变化，该部分已由 claim-0077 记录；本条只取“器模雕纹→印纹”的工艺转折，避免重复。来源称印纹是“趁模胎尚未冷却时”盖印，属工艺复原描述，未给实物印模或实验证据。“错金银”与“错铜”是两种不同镶嵌工艺，本条分列，不合并。",
+    1122, 1127, "bounded", [1124, 1126], ["b0133"],
+    CH, "2）青铜冶铸技术与青铜外观装饰 / ② 青铜器外观装饰的变化"))
+
+rows.append(C(
+    "claim-0286", "historiographic_claim",
+    "夏燕靖指出，战国中期以前漆器胎骨厚重，多在精工雕刻的木胎上施绘彩漆；战国中期以后漆器制造从木作业中分化出来，成为新兴手工艺行业，胎骨向轻巧发展，除木、竹胎外，还出现薄木卷曲成胎再贴麻布或丝帛的木片卷粘胎、以纻麻为胎骨的早期夹纻胎（脱胎漆器的前身）、牛皮作胎的皮胎，以及战国末期在器物口沿、底、腹部镶套铜箍以加固器身的扣器。",
+    "Xia Yanjing states that before the mid-Warring States period lacquer bodies were thick and heavy, usually carved wood coated with colored lacquer; after the mid-Warring States, lacquer making separated from woodworking and became a new craft industry, with bodies becoming lighter. Besides wood and bamboo, there appeared thin wood sheets curved and glued into bodies and then covered with hemp cloth or silk, early hemp-core (jiazhu) bodies—the precursor of bodiless lacquerware—leather bodies, and, by the late Warring States, vessels reinforced with copper hoops (kouqi) at the rim, base, or belly.",
+    "high",
+    ["04-knowledge/units/terms/tuotai-qiqi.md"],
+    "断言取 L1197。来源把“木片卷粘胎”“早期夹纻胎”“皮胎”“扣器”并列为战国中期以后的胎骨与加固做法，其中夹纻胎被明确称为脱胎漆器的前身；本条保留“早期”限定，不把它等同于后世脱胎漆器。来源未给各胎骨的出土实例与年代序列，胎骨轻巧化的时间上限只写作“战国中期以后”。",
+    1195, 1198, "bounded", [1197], ["b0146"],
+    CH, "4）漆器工艺与设计的渐趋成熟 / ② 漆器制作"))
+
+rows.append(C(
+    "claim-0287", "synthetic_claim",
+    "夏燕靖认为，春秋战国时期随着封建制度建立和铁器推广，农业和手工业有很大发展，以“男耕女织”为标志的自然经济基本形成；城市中纺、织、染、缝作坊兴旺，官府也设作坊由工官指使工匠织造练染，产品供统治者享用、赏赐和馈赠；布帛在当时还作为通用货币，与黄金可比价交换。",
+    "Xia Yanjing holds that with the establishment of the feudal order and the spread of iron tools in the Spring and Autumn and Warring States periods, agriculture and handicraft developed greatly and a natural economy marked by men plowing and women weaving took basic shape. Urban weaving, dyeing, and sewing workshops flourished; even the state set up workshops in which officials directed artisans to weave, scour, and dye for the ruler's use, gifts, and tribute. Cloth and silk also served as a common currency, exchangeable against gold.",
+    "high",
+    ["04-knowledge/units/terms/nangeng-nvzhi.md",
+     "04-knowledge/units/terms/tieqi-shidai.md",
+     "04-knowledge/units/terms/lianran-ye.md"],
+    "断言取 L1209。来源在同一段先说诸侯卿大夫馈赠布帛“动辄以十万计”，L1213 又说春秋馈赠丝织品“不过数十匹”、战国“千余匹”；两者计量对象与口径不同（布帛总额与丝织品），本条不据后者否定前者，也不把“十万计”折算成匹数。“男耕女织”是来源概括的自然经济标志，本条不把它写成全国统一的生产组织形态。",
+    1207, 1210, "line", [1209], ["b0150"],
+    CH, "2. 设计与生活 / 1) 衣 / ① 织造业和练染业的兴旺发展"))
+
+rows.append(C(
+    "claim-0288", "factual_claim",
+    "夏燕靖称，春秋时诸侯间馈赠丝织品不过数十匹，至战国时已发展到千余匹。",
+    "Xia Yanjing states that in the Spring and Autumn period feudal lords gave silk textiles in gifts of no more than several tens of bolts, whereas by the Warring States the amount had grown to more than a thousand bolts.",
+    "medium",
+    ["04-knowledge/units/terms/zhijin.md",
+     "04-knowledge/units/terms/nangeng-nvzhi.md"],
+    "断言取 L1213。来源只给“数十匹”与“千余匹”的对比，未给文献出处、统计范围与匹的规格；同期 L1209 又有“馈赠布帛动辄以十万计”之说，二者计量对象不同，本条不作合并或折算。",
+    1211, 1217, "line", [1213], ["b0151"],
+    CH, "◇丝织业"))
+
+rows.append(C(
+    "claim-0289", "factual_claim",
+    "夏燕靖指出，战国是漆器制作的繁荣时期，出现大量实用与观赏的漆器制品；这一时期的髹漆工艺主要有描彩漆、镶嵌、针刻等；装饰纹样盛行动物纹、云纹、几何图案，特点是色彩丰富、线条奔放、勾勒交错、气韵生动。",
+    "Xia Yanjing states that the Warring States was a period of flourishing lacquer production, with large numbers of both practical and ornamental lacquer wares. The lacquer techniques of the period included painted lacquer, inlay, and needle engraving; animal, cloud, and geometric motifs prevailed, characterized by rich color, unrestrained lines, interlaced outlines, and lively spirit.",
+    "high",
+    ["04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md",
+     "04-knowledge/units/places/jiangling-chumuqun.md",
+     "04-knowledge/units/terms/tuotai-qiqi.md"],
+    "断言取 L1222。来源把描彩漆、镶嵌、针刻并列为髹漆工艺，未说明镶嵌材质与针刻工具；“气韵生动”是来源的审美评语，不是可测量的工艺指标。本条保留来源的分类与评语，不把三类工艺写成战国漆器的全部技法。",
+    1220, 1223, "line", [1222], ["b0153"],
+    CH, "知识链接：髹漆"))
+
+rows.append(C(
+    "claim-0290", "interpretive_claim",
+    "夏燕靖据湖南长沙战国楚墓出土的彩绘木俑指出，春秋战国服饰以沿宽边的下身缠绕式肥大衣服为主，其缠绕是将前襟向后身围裹，并以平挺的锦类织物镶边、边饰云纹，即“衣作绣，锦为沿”，把实用与审美结合；他认为曲裾深衣是春秋战国时的典型服饰，也是深衣成熟的标志。",
+    "Drawing on painted wooden figurines from Warring States Chu tombs in Changsha, Xia Yanjing holds that Spring and Autumn and Warring States dress was dominated by a voluminous wrapped garment with broad borders, whose front lapel wrapped around to the back; a stiff brocade border decorated with cloud patterns—'embroidery for the garment, brocade for the border'—combined practicality with aesthetic effect. He regards the curved-lapel shenyi as the typical dress of the period and as a sign of the maturity of the shenyi.",
+    "medium",
+    ["04-knowledge/units/terms/shenyi.md",
+     "04-knowledge/units/places/changsha-chumuqun.md"],
+    "断言取 L1226。来源由长沙楚墓彩绘木俑推及“春秋战国时很有代表性的服饰特点”，并以“曲裾深衣”为典型、以“深衣成熟的标志”作判断；这是来源的典型化解释，不是对有纪年墓葬的统计结论。木俑所显示的缠绕式肥大衣服与文献所称“曲裾深衣”是否完全对应，来源未作形制比对，本条保留“来源认为”的归属。",
+    1224, 1242, "line", [1226], ["b0154"],
+    CH, "春秋战国时期的服饰"))
+
+rows.append(C(
+    "claim-0291", "interpretive_claim",
+    "夏燕靖称，湖北江陵出土的战国舞蹈人物动物纹三色锦由7个单元组成横贯全幅的花纹，经向长5.5厘米、纬向宽49.1厘米，经纬密度为每平方厘米156×52根；他认为这表明战国时已有较先进的提花机和熟练的织造技术。",
+    "Xia Yanjing reports that a three-color dance-and-animal patterned brocade from Jiangling, Hubei, comprises seven units spanning the full width, measures 5.5 cm warpwise and 49.1 cm weftwise, and has a warp-and-weft density of 156 × 52 threads per square centimeter. He takes this as evidence that a relatively advanced pattern loom and skilled weaving technique already existed in the Warring States period.",
+    "medium",
+    ["04-knowledge/units/terms/zhijin.md",
+     "04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md",
+     "04-knowledge/units/places/jiangling-chumuqun.md"],
+    "断言取 L1245。7 个单元、5.5×49.1 厘米、156×52 根/平方厘米是来源给出的织物数据；“已有较先进的提花机”是据密度与纹样复杂度作出的推断，来源未描述织机结构，也未给同期织机实物。本条把数据与推断分开表述，不把推断写成直接考古证据。",
+    1243, 1251, "line", [1245], ["b0155"],
+    CH, "◇麻纺织业"))
+
+rows.append(C(
+    "claim-0292", "factual_claim",
+    "夏燕靖据《考工记》记载指出，当时官府设有7个工官掌管练染之事，如画缋之工、钟人染羽、筐人设色、幌人练丝、梁人掌染草等；染织技术涉及漂白、浸晒、浸渍、浸染、着色等复杂的化学和物理过程，当时都已掌握。",
+    "Citing the Kaogongji, Xia Yanjing states that the government maintained seven craft officials in charge of scouring and dyeing, such as the painter-embroiderer, the zhongren who dyed feathers, the kuangren who managed coloring, the huangren who scoured silk, and the liangren who managed dye plants. He adds that the dyeing and weaving processes involved complex chemical and physical operations—bleaching, sunning, steeping, dyeing, and coloring—all of which were already mastered.",
+    "medium",
+    ["04-knowledge/units/terms/lianran-ye.md",
+     "04-knowledge/units/terms/baigong.md",
+     "04-knowledge/units/publications/kaogongji.md"],
+    "断言取 L1258。来源称“7个工官”，但同段只列画缋、钟人染羽、筐人设色、幌人练丝、梁人掌染草五类；L1270 又称设色之工共分四节、其中“筐人”一节阙，L1550 则作“钟氏”“覩氏”“筐人”。工官数目、名目与异写在各处并不一致，本条保留“7个工官”的来源表述并列出五类例证，不擅自补足其余两官。",
+    1256, 1259, "line", [1258], ["b0157"],
+    CH, "◇练染业"))
+
+rows.append(C(
+    "claim-0293", "contested_claim",
+    "夏燕靖在2016版中把《考工记》“车有六等之数”解释为可分为6种不同的劳动部门，并称《考工记》将造车列为官手工业之首、“一器而工聚焉者，车为多”。其2009版则据同条解释为兵车、田车、乘车车轮尺寸的标准化管理（见 claim-0087）；两种读法针对同一短语，本条记录2016版读法，不把两说合并为“六等”的唯一定义。",
+    "In the 2016 edition Xia Yanjing interprets the Kaogongji phrase 'the chariot has the number six' as six different labor departments, and notes that the Kaogongji places chariot making first among official handicrafts, saying that 'no implement gathers so many crafts as the chariot.' His 2009 edition reads the same phrase as a standardized regulation of wheel sizes for war, hunting, and riding chariots (see claim-0087). The two readings address the same phrase; this entry records the 2016 reading and does not merge them into a single definition of 'six.'",
+    "medium",
+    ["04-knowledge/units/terms/chunqiu-zhanguo-zhanche-zhonglei.md",
+     "04-knowledge/units/publications/kaogongji.md",
+     "04-knowledge/units/terms/chelun.md",
+     "04-knowledge/units/terms/xianqin-mache.md"],
+    "断言取 L1356。来源把“车有六等之数”解释为“可分为6种不同的劳动部门”；其2009版 L1088 及 claim-0087 则把同条解释为兵车、田车、乘车车轮尺寸的标准化管理，并换算轮径。两种读法针对同一短语，彼此不相容；本条按 contested_claim 记录2016版读法，并在讨论中保留与 claim-0087 的冲突，不把两说合并为“六等”的唯一定义。",
+    1341, 1357, "line", [1356], ["b0175"],
+    CH, "4) 行 / ① 造车业"))
+
+rows.append(C(
+    "claim-0294", "interpretive_claim",
+    "夏燕靖认为，中国古代的跪坐（跽坐）姿势决定了家具的基本形制，即早期家具为低矮形制，这一基本形制一直延续至汉代；当时坐具主要是席、榻、秤（棋盘）和床，坐时双膝着席、脚背朝下、臀部压在脚后跟上。",
+    "Xia Yanjing argues that the kneeling posture (jizuo) of ancient China determined the basic form of furniture: early Chinese furniture was low, and this basic form persisted into the Han dynasty. The seating of the time consisted mainly of mats, low couches, game boards, and beds; people sat with both knees on the mat, insteps down, and buttocks resting on the heels.",
+    "medium",
+    ["04-knowledge/units/terms/an-furniture.md",
+     "04-knowledge/units/terms/ji-furniture.md",
+     "04-knowledge/units/terms/han-dai-jia-ju.md"],
+    "断言取 L1404。来源由跪坐姿势推出“早期家具乃为低矮的形制”，并把下限延至汉代；这是因果解释，来源未讨论其他可能成因（如席地起居、建筑高度、取暖方式），也未给家具高度的实测序列。坐具名单中的“秤（棋盘）”疑为“枰”之误，本条保留原文并附括号。",
+    1402, 1407, "line", [1404], ["b0186"],
+    CH, "知识链接：跽坐"))
+
+rows.append(C(
+    "claim-0295", "evaluative_claim",
+    "夏燕靖指出，春秋后期吴越之地的青铜剑制作工艺十分精绝，出现欧冶子、风胡子、干将等冶剑大师；1965年湖北江陵出土的越王勾践剑，剑格两面镶嵌蓝色琉璃和绿松石，剑身饰菱形花纹和错金鸟篆铭文，埋藏地下2400余年仍完好如新、寒光逼人，剑刃可割透十余层纸，反映出当时冶金技术的高超与工艺设计水平的绝妙。",
+    "Xia Yanjing states that bronze sword making in the Wu-Yue region was highly refined in the late Spring and Autumn, producing master smiths such as Ou Yezi, Feng Huzi, and Gan Jiang. The Sword of Goujian, King of Yue, excavated at Jiangling, Hubei, in 1965, has blue glass and turquoise inlaid on both sides of the guard, diamond patterns and gold-inlaid bird-seal inscriptions on the blade, and after more than 2,400 years underground remains intact and sharp enough to cut through more than ten layers of paper. He takes it as evidence of the high level of metallurgy and craft design of the time.",
+    "medium",
+    ["04-knowledge/units/works/yuewang-goujian-jian.md",
+     "04-knowledge/units/terms/jian-sword.md",
+     "04-knowledge/units/persons/ganjiang.md"],
+    "断言取 L1426。“反映出当时冶金技术的高超与工艺设计水平的绝妙”是来源的评价性推断；本条候选跨度内没有成分分析、硬度测试或工艺实验。越王勾践剑不锈的具体原因见同章 L1444 知识链接及 claim-0090，本条不重复，也不把“完好如新”写成未经检验的绝对状态。",
+    1424, 1427, "line", [1426], ["b0192"],
+    CH, "3. 设计与征战 / 1）兵器工艺的提高与设计的进步 / ② 兵器种类的扩充与工艺的进步"))
+
+rows.append(C(
+    "claim-0296", "historiographic_claim",
+    "夏燕靖认为，诸子百家中针对“用与美”“文与质”以及对美的客观性和社会性的探究出现异常激烈的争鸣，由此形成的多元审美观念对先秦乃至后世的设计产生了重要影响。",
+    "Xia Yanjing holds that among the Hundred Schools there was intense debate over 'use and beauty,' 'ornament and substance,' and the objectivity and social character of beauty, and that the resulting pluralistic aesthetic outlook had an important influence on design in the pre-Qin and later periods.",
+    "high",
+    ["04-knowledge/units/terms/wenzhi.md",
+     "04-knowledge/units/terms/wenzhi-tongyi.md",
+     "04-knowledge/units/terms/hundred-schools.md",
+     "04-knowledge/units/terms/shi-class.md"],
+    "断言取 L1459。来源把“用与美”“文与质”及美的客观性、社会性并列为诸子争鸣的议题，但同章 L1455-L1457 的“文质”知识链接主要把“文质”释为文论概念，并引孔子《论语·雍也》；设计史意义上的“用与美”讨论是来源的延伸，本条保留“诸子百家”这一集合主语，不指定单一学派。",
+    1455, 1472, "line", [1459], ["b0199"],
+    CH, "4. 设计思想的初步形成 / 1）诸子百家对设计思想的影响"))
+
+rows.append(C(
+    "claim-0297", "historiographic_claim",
+    "夏燕靖指出，关于《考工记》的作者和成书年代长期有不同看法；目前多数学者认为《考工记》是齐国官书，作者为齐稷下学宫的学者，编纂时间大约从春秋末至战国初年，部分内容补于战国中晚期；今本《考工记》是作为《周礼》的一部分，西汉时因《周礼》“冬官”篇佚缺，河间献王刘德取《考工记》补入。",
+    "Xia Yanjing notes long-standing disagreement over the authorship and date of the Kaogongji. Most scholars now regard it as an official Qi text, written by scholars of the Qi Jixia academy, compiled roughly from the late Spring and Autumn to the early Warring States, with parts added in the mid- and late Warring States. The received text is part of the Zhouli: since the 'Winter Offices' chapter was missing in the Western Han, Liu De, King Xian of Hejian, substituted the Kaogongji.",
+    "medium",
+    ["04-knowledge/units/publications/kaogongji.md",
+     "04-knowledge/units/terms/baigong.md",
+     "04-knowledge/units/publications/zhouli.md"],
+    "断言取 L1540。来源称“多数学者认为”，是转述学界共识而非定论；“齐国官书”“稷下学者”均属来源归属，未给具体学者、论著与页码。L1538 又称《考工记》“成书于春秋末年”，与 L1540“约从春秋末至战国初年，部分内容补于战国中晚期”不完全一致；本条取 L1540 的讨论，不把单一成书年写成定论。",
+    1536, 1555, "line", [1540], ["b0215"],
+    CH, "2）重要的设计著作 / ① 我国第一部手工艺专著——《考工记》"))
+
+rows.append(C(
+    "claim-0298", "historiographic_claim",
+    "夏燕靖指出，《考工记》对建筑包括布局有详尽规范，主要是对周朝以来建筑布局方式的总结；从侯马、邯郸等春秋战国城市遗址看，其规划设计方式与《考工记》所言大致相同，这种规划布局对中国历代城市建设产生了深远影响。",
+    "Xia Yanjing states that the Kaogongji contains detailed norms for architecture and layout, mainly summarizing building practice since the Zhou. At the Spring and Autumn and Warring States city sites excavated at Houma, Handan, and elsewhere, the planning and layout are broadly consistent with the Kaogongji, and this pattern had a profound influence on later Chinese city building.",
+    "medium",
+    ["04-knowledge/units/publications/kaogongji.md",
+     "04-knowledge/units/terms/jiangren-yingguo.md",
+     "04-knowledge/units/places/houma-zhutong-site.md"],
+    "断言取 L1569。来源用“大致相同”比较侯马、邯郸等城址与《考工记》，未给城址年代、面积、道路间距等实测数据，也未说明比较的是哪一版复原；本条保留“大致相同”的限定，不写成逐项吻合。来源同时称《考工记》是“对周朝以来建筑布局方式的总结”，与据春秋战国城址反推文本的做法存在解释方向上的张力，本条并置两者，不强行统一。",
+    1567, 1570, "line", [1569], ["b0218"],
+    CH, "◇建筑技术"))
+
+rows.append(C(
+    "claim-0299", "historiographic_claim",
+    "夏燕靖认为，战国前期记载墨家学说的《墨经》反映了手工业小生产者的利益，墨翟与来自社会下层的能工巧匠一起参与手工业生产实践、注重实验手段；《墨经》记载了不少从实践中提炼出的科学技术知识，涉及几何学、光学和力学（时空观念、力的定义、杠杆原理、滑轮和斜面等），是研究中国古代设计史的重要古籍。他并称《管子》《荀子》等著作中也有涉及设计问题的零星见解。",
+    "Xia Yanjing holds that the Mojing, which records Mohist doctrine in the early Warring States, reflects the interests of small handicraft producers; Mo Di and artisans from the lower strata took part in production and stressed experiment. The Mojing records scientific and technical knowledge drawn from practice, including geometry, optics, and mechanics (concepts of space and time, the definition of force, the lever, pulley, and inclined plane), and is an important ancient text for the study of Chinese design history. He adds that the Guanzi and Xunzi also contain scattered observations on design.",
+    "medium",
+    ["04-knowledge/units/publications/mo-jing.md",
+     "04-knowledge/units/persons/mozi.md",
+     "04-knowledge/units/publications/guanzi.md",
+     "04-knowledge/units/publications/xunzi.md"],
+    "断言取 L1583。来源称《墨经》“无疑是一部重要古籍”，是评价性判断；“战国前期”是来源的成书定位，未给具体年代与篇目。几何、光学、力学诸条只见类别与例举（杠杆、滑轮、斜面），本条不扩写为具体定理，也不把《墨经》与《考工记》视为同一性质的官书。L1585、L1587 另及《管子》《荀子》，本条只作并列提及，不展开其学派归属。",
+    1581, 1588, "line", [1583], ["b0220"],
+    CH, "③ 可与《考工记》相媲美的《墨经》《管子》与《荀子》"))
+
+cand_ids = {
+    "claim-0283": "cand-02-115",
+    "claim-0284": "cand-02-111",
+    "claim-0285": "cand-02-113",
+    "claim-0286": "cand-02-148",
+    "claim-0287": "cand-03-02",
+    "claim-0288": "cand-03-03",
+    "claim-0289": "cand-03-05",
+    "claim-0290": "cand-03-08",
+    "claim-0291": "cand-03-11",
+    "claim-0292": "cand-03-14",
+    "claim-0293": "cand-03-28",
+    "claim-0294": "cand-03-39",
+    "claim-0295": "cand-03-44",
+    "claim-0296": "cand-03-48",
+    "claim-0297": "cand-03-67",
+    "claim-0298": "cand-03-74",
+    "claim-0299": "cand-03-79",
+}
+for r in rows:
+    r["source"]["candidate_id"] = DOC + ":" + cand_ids[r["claim_id"]]
+
+patches = [
+    ("claim-0072", "cand-02-112", 1087, 1087, "line", [1087], ["b0126"]),
+    ("claim-0083", "cand-03-137", 1262, 1262, "line", [1262], ["b0158"]),
+    ("claim-0084", "cand-03-19", 1290, 1290, "line", [1290], ["b0163"]),
+    ("claim-0076", "cand-03-22", 1298, 1303, "bounded", [1300, 1302], ["b0166"]),
+    ("claim-0085", "cand-03-25", 1325, 1325, "line", [1325], ["b0171"]),
+    ("claim-0086", "cand-03-26", 1331, 1331, "line", [1331], ["b0173"]),
+    ("claim-0087", "cand-03-29", 1362, 1362, "line", [1362], ["b0177"]),
+    ("claim-0093", "cand-03-50", 1475, 1475, "line", [1475], ["b0200"]),
+    ("claim-0094", "cand-03-54", 1489, 1489, "line", [1489], ["b0204"]),
+    ("claim-0095", "cand-03-58", 1506, 1506, "line", [1506], ["b0206"]),
+    ("claim-0097", "cand-03-64", 1532, 1532, "line", [1532], ["b0213"]),
+    ("claim-0098", "cand-03-66", 1538, 1538, "line", [1538], ["b0215"]),
+    ("claim-0099", "cand-03-72", 1558, 1558, "line", [1558], ["b0216"]),
+    ("claim-0100", "cand-03-76", 1575, 1575, "line", [1575], ["b0219"]),
+    ("claim-0101", "cand-03-77", 1577, 1577, "line", [1577], ["b0219"]),
+]
+
+patch_rows = []
+for claim_id, short, start, end, kind, key_lines, blocks in patches:
+    patch_rows.append({
+        "claim_id": claim_id,
+        "candidate_id": DOC + ":" + short,
+        "corroborating_span": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "line_start": start,
+            "line_end": end,
+            "span_kind": kind,
+            "key_lines": key_lines,
+            "block_ids": blocks,
+            "chapter": CH,
+            "section": "cross-edition corroboration",
+            "candidate_id": DOC + ":" + short,
+        },
+    })
+
+(ROOT / "_zn_cl4b_rows.json").write_text(
+    json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
+(ROOT / "_zn_cl4b_patch.json").write_text(
+    json.dumps(patch_rows, ensure_ascii=False, indent=1), encoding="utf-8")
+print(json.dumps({
+    "rows": len(rows), "patches": len(patch_rows),
+    "ids": [r["claim_id"] for r in rows],
+    "candidates": sorted(cand_ids.values()) + sorted(p["candidate_id"].split(":")[1] for p in patch_rows),
+}, ensure_ascii=False))

@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "多子盒是 B 维度下多格容器与成套组合设计的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: boundary_case
+    primary: true
+    scope_note: "多子盒以边界案例入 B.6.5：三义之中只有宋代耀州窑瓷盒属瓷器，多格食器与汉代漆器多件套盒分属其他材料线；本 Topic 只取一器多格的组合单位义"
+hierarchy_scope_note: "多子盒以边界案例入 B.6.5：三义之中只有宋代耀州窑瓷盒属瓷器，多格食器与汉代漆器多件套盒分属其他材料线；本 Topic 只取一器多格的组合单位义"
 ---
 
 ## 描述
@@ -57,15 +65,15 @@ hierarchy_scope_note: "多子盒是 B 维度下多格容器与成套组合设计
 - **名称问题**: 三义同名而材质、年代、功能不同；本 KU 并存，不合并为单一定义
 - **设计史意义**: 多子盒的共同点是“一器多格”的空间分割，是成套组合与收纳设计的早期形态
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 多子盒是 B 维度下多格容器与成套组合设计的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 多子盒以边界案例入 B.6.5：三义之中只有宋代耀州窑瓷盒属瓷器，多格食器与汉代漆器多件套盒分属其他材料线；本 Topic 只取一器多格的组合单位义
 ## 相关知识元
 
 与凭几、食案同属汉代起居家具谱系；宋代瓷盒另与影青、耀州窑相关。relation 未审查。

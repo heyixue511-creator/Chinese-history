@@ -1,0 +1,132 @@
+{
+  "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+  "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "rules": [
+    "第三章 60 条 unit 候选逐条语义复读后分流为 create / update / no_delta；cand-04-* 前缀的条目按 payload.source_span.chapter 归入第三章。",
+    "来源新建 consensus=tentative、evidence_status=source_backed、version=1、source_count=1；更新按实际并入来源数提高 source_count，其余字段不动。",
+    "原文错字、内部矛盾照录并标注，不径改；只有图注而无正文的条目 confidence 记 low，不据图补形制。",
+    "同一实体命中两条候选时，一条落 create/update，另一条走 no_delta 指向同一文件，不重复建 KU。"
+  ],
+  "decisions": [
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-59",
+      "entity": "尚书·禹贡",
+      "action": "update",
+      "target": "04-knowledge/units/publications/yugong.md",
+      "analysis": "L1798 把《尚书·禹贡》与《管子·地员》《山海经》并列为地理知识拓展后的专门著述，并接记齐人驺衍的大九州说；既有 publications/yugong.md 已收田自秉的染织物产与 2016 的梁州贡铁，本条只补赵农一源，不另建重复条目。",
+      "approve": "以 update 并入 publications/yugong.md：补赵农来源、tags「地理文献」「大九州说」、地理文献序列与大九州说两条核心内容、三册用法对照，source_count 由 2 升至 3。",
+      "apply_note": "写入赵农 L1798 的文献序列与大九州说，标明大九州说属驺衍而不属《禹贡》本文；三册均未记篇次、作者与成书年代，保留为证据边界。",
+      "note": "canonical 指向既有《禹贡》条目；2016 册的贡铁记载与田自秉的物产清单在该文件内并列，不拆分。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-77",
+      "entity": "殳（春秋战国）",
+      "action": "update",
+      "target": "04-knowledge/units/terms/shu-staff.md",
+      "analysis": "L1878 记湖北随县曾侯乙墓出土的殳：铜殳头三棱矛形、与竹秘相连、击打与刺杀双重作用、通长 3.30 米左右；既有 terms/shu-staff.md 已收商周殳的形制与《诗经》禁卫之用，本条是该条目在春秋战国的实例补写。",
+      "approve": "以 update 并入 terms/shu-staff.md：补 L1878 来源、tags「曾侯乙墓」「三棱矛形」「竹柲」「疏导行人」、春秋战国实例与证据边界；source_count 不变（同一来源另一处），version 升为 2。",
+      "apply_note": "新增「曾侯乙墓实例」「《诗经》与禁卫」「章节分工」「证据边界」四条；原文作「竹秘」，通行多作「竹柲」，照录并标注。",
+      "note": "殳在来源第二章与第三章分论，合并入同一 KU，不拆为两条。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-89",
+      "entity": "大翼船型",
+      "action": "update",
+      "target": "04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md",
+      "analysis": "L1960 列大翼、中翼、小翼、桥船、戈船等船型并给大翼尺度；既有 terms/chunqiu-zhanguo-zhanchuan-zhonglei.md 已收 2016 册的楼船、冒突、赤马、斗舰与三翼，赵农的船型清单与尺度是对同一主题的另一册记载，宜并入而非另立。",
+      "approve": "以 update 并入 terms/chunqiu-zhanguo-zhanchuan-zhonglei.md：补赵农 L1960 来源、tags「大翼」「中翼」「小翼」「桥船」「戈船」、赵农所列船型、大翼尺度、水战规模与两册差异；source_count 由 1 升至 2。",
+      "apply_note": "新增「赵农所列船型」「大翼尺度」「水战规模」「两册差异」四条，标明两册船名不重合处不强行对应。",
+      "note": "船型总目并入既有条目；单船形制若后续出现独立材料再评估拆分。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-118",
+      "entity": "鲁班",
+      "action": "update",
+      "target": "04-knowledge/units/persons/gongshu-pan.md",
+      "analysis": "L2074 称「鲁班又称公输般，鲁国人」，L2090 引《孟子》「公输子之巧，不以规矩，不能成方圆」，L2094-L2096 记锯、刨、钻、墨斗、曲尺、石磨、门轴、雨伞等发明传说与民间形象；既有 persons/gongshu-pan.md 已收 2016 册的公输盘，鲁班即公输般，同一人物不另建条目。",
+      "approve": "以 update 并入 persons/gongshu-pan.md：补赵农三处来源、tags 与 aliases 中的鲁班系统、赵农册的籍贯与时代、文献依据、孟子评语、发明传说、民间形象、名号问题与石磨传说的内部张力；source_count 由 1 升至 2。",
+      "apply_note": "描述改为一抑一扬的两册对照；核心内容保留 2016 册的木鹊与云梯两条，新增赵农册六条；cand-04-133 公输般走 no_delta 指向同一文件。",
+      "note": "canonical 为公输盘条目，鲁班与公输般均为同一人物的用名差异。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-145",
+      "entity": "镶嵌宴乐水陆攻战纹壶",
+      "action": "update",
+      "target": "04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md",
+      "analysis": "L2233 称四川成都出土的镶嵌宴乐水陆攻战纹壶「景物丰富，场面宏大，对战国时期的社会生活景象作了深入细致的描写」；既有 works/yanle-shuilu-gongzhan-wen-hu.md 已收高丰所记同名器的出土、题材与横带结构，本条只补赵农的器名与评语。",
+      "approve": "以 update 并入 works/yanle-shuilu-gongzhan-wen-hu.md：加 alias「镶嵌宴乐水陆攻战纹壶」、赵农 L2233 来源与核心一条；source_count 由 1 升至 2，version 升为 2。",
+      "apply_note": "新增「赵农册的器名与评语」一条，标明赵农未展开纹饰内容、未给尺寸与收藏；器名差异照录不改。",
+      "note": "与汲县山彪镇水陆攻战纹鉴是两器，不合并；同名辨异已在条目内说明。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-90",
+      "entity": "水陆攻战纹铜鉴",
+      "action": "update",
+      "target": "04-knowledge/units/works/shuilu-gongzhan-jian.md",
+      "analysis": "L1962 据河南汲县出土的水陆攻战纹铜鉴记战国木板船样式：上下两层，上层士兵击鼓、挥戈、射箭，下层水手划棹行船，视为楚国水战的生动描写；L2235 又评其「制器大方，绘画生动」。既有 works/shuilu-gongzhan-jian.md 已收田自秉与李立新所记同器，本条为同一器物的另一册记载。",
+      "approve": "以 update 并入 works/shuilu-gongzhan-jian.md：加 alias「水陆攻战纹铜鉴」、赵农 L1962 与 L2235 来源、船层描写与器评、三册分工；source_count 由 2 升至 3。",
+      "apply_note": "新增「赵农册的船层描写」「赵农册的器评」「三册分工」三条；赵农称「河南汲县出土」，田自秉作「河南汲县山彪镇」，两说相容并记。",
+      "note": "鉴与壶不合并；本条的船舶史意义与 works/yanle-shuilu-gongzhan-wen-hu.md 互为参照。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-153",
+      "entity": "车戟",
+      "action": "update",
+      "target": "04-knowledge/units/terms/ji-halberd.md",
+      "analysis": "L1836 记车戟一般为身高的一倍、与酋矛同属车战常规利器；既有 terms/ji-halberd.md 已收 L1337 的戈矛复合、蒿城最早青铜戟与贵族仪仗之用，本条只是戟在车战中的长度事实，宜并入。",
+      "approve": "以 update 并入 terms/ji-halberd.md：补 L1836 与 L1856-L1862 来源、tags「春秋战国」「车戟」「燕下都」「卜形戟」、车戟长度、春秋战国分铸组装、燕下都铁戟与卜形戟；version 升为 2。",
+      "apply_note": "新增六条核心内容；L1327 酋矛为步兵所用与 L1836 酋矛为车兵常规利器互相矛盾，两存待考；「秘」疑为「柲」，照录不改。",
+      "note": "车戟不另立条目，并入既有戟条目。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-155",
+      "entity": "酋矛",
+      "action": "update",
+      "target": "04-knowledge/units/terms/mao.md",
+      "analysis": "L1836 称酋矛是身高 1.5 倍、车战中车兵的常规利器；既有 terms/mao.md 已收 L1327 酋矛为步兵所用、长 2 丈，以及 L1852-L1854 的血槽、吴王夫差矛与南阳铁矛，本条属同一兵器的另一处记载。",
+      "approve": "以 update 并入 terms/mao.md：补 L1836、L1852-L1854 来源，新增「四、春秋战国的矛」一节（车战中的酋矛、与 L1327 的矛盾、血槽与矛锋、吴王夫差矛、南阳铁矛、原文异常），原证据边界改为第五节；version 升为 2。",
+      "apply_note": "L1327 与 L1836 对酋矛兵种归属不一致，两存待考；「宛钜铁钺」原文如此，未核《荀子》原文，照录不径改。",
+      "note": "酋矛、夷矛作为矛的长短类型并入矛条目，不单独建 KU。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-05",
+      "entity": "信阳长台关楚墓漆木床",
+      "action": "no_delta",
+      "target": "04-knowledge/units/terms/qimu-jiaju.md",
+      "analysis": "L2282-L2308 记信阳长台关楚墓漆木床的尺寸、栏杆与屉板；terms/qimu-jiaju.md 与 terms/ji-furniture.md 已分别收录该床（长 218、宽 139、通高 44 厘米，足高约 19 厘米，栏杆与缺口），本条无新增事实。",
+      "approve": "不新建器物条目：该床已作为先秦漆木家具的实例写入既有条目，另立 work 会造成同物重复。",
+      "apply_note": "no_delta 指向 terms/qimu-jiaju.md；该床的尺寸与结构另见 terms/ji-furniture.md，两处互为详略。",
+      "note": "后续如出现该床的独立出土报告或图像材料，再评估是否升为 work 条目。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-148",
+      "entity": "圜环钱",
+      "action": "no_delta",
+      "target": "04-knowledge/units/terms/huan-qian.md",
+      "analysis": "L2276 的圜环钱与 L2274 的圜形钱同指圆形圆孔钱，来源在同一段内并称；本批已由 cand-04-130 新建 terms/huan-qian.md。",
+      "approve": "不重复建条目：两候选合并为一条 KU，cand-04-130 走 create，本条走 no_delta 指向同一文件。",
+      "apply_note": "圜环钱作为别名保留在 terms/huan-qian.md 的 aliases 中，不另建文件。",
+      "note": "合并依据是来源同段同物异名，不是同名异器。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-133",
+      "entity": "公输般",
+      "action": "no_delta",
+      "target": "04-knowledge/units/persons/gongshu-pan.md",
+      "analysis": "L2391 的公输般即 L2074 的鲁班、亦即 2016 册的公输盘，来源明言「鲁班又称公输般」；本批已由 cand-03-118 更新 persons/gongshu-pan.md。",
+      "approve": "不重复建人物条目：三名同指一人，公输般作为别名保留在既有条目。",
+      "apply_note": "no_delta 指向 persons/gongshu-pan.md；该条的 aliases 已收公输子、公输般、鲁班。",
+      "note": "用名差异按来源照录，条目名沿用既有文件名。"
+    },
+    {
+      "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-153",
+      "entity": "箱",
+      "action": "no_delta",
+      "target": "04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md",
+      "analysis": "L2301 的「箱」指曾侯乙墓出土的漆木衣箱，来源同段先列席、床、屏风、几、案，再及箱；本批已由 cand-04-06 新建 works/zenghouyi-lacquer-clothing-chests.md。",
+      "approve": "不重复建条目：箱作为器物类名，其唯一实例是曾侯乙墓漆木衣箱，合并到该 work 条目。",
+      "apply_note": "no_delta 指向 works/zenghouyi-lacquer-clothing-chests.md；箱的类名用法在家具序列中另有 terms/qimu-jiaju.md 承载。",
+      "note": "若后续出现其他墓葬的箱类器物，再评估是否升为 term 类目。"
+    }
+  ]
+}

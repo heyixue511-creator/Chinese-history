@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "开片是 B 维度下陶瓷釉面装饰与缺陷转化的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "釉与胎收缩率差而冷却开裂的缺陷，后转为人为装饰；哥窑金丝铁线与汝窑冰裂纹"
+hierarchy_scope_note: "釉与胎收缩率差而冷却开裂的缺陷，后转为人为装饰；哥窑金丝铁线与汝窑冰裂纹"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "开片是 B 维度下陶瓷釉面装饰与缺陷转化的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 开片是 B 维度下陶瓷釉面装饰与缺陷转化的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 釉与胎收缩率差而冷却开裂的缺陷，后转为人为装饰；哥窑金丝铁线与汝窑冰裂纹
 ## 相关知识元
 
 与哥窑、五大名窑同属宋瓷谱系；开片的“金丝铁线”与紫口铁足并称哥窑特征。relation 未审查。

@@ -47,19 +47,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "玻璃白打底、油料调色、渲染浓淡的软彩；玻璃白成分只有田自秉给出"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "粉彩是 B 维度下清代釉上彩装饰类型条目：玻璃白打底、油料调色与烘烧温度属工艺，柔和淡雅的色彩效果属装饰。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "玻璃白打底、油料调色、渲染浓淡的软彩；玻璃白成分只有田自秉给出"
 ---
 
 ## 描述
@@ -91,12 +99,10 @@ hierarchy_scope_note: "粉彩是 B 维度下清代釉上彩装饰类型条目：
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是清代釉上彩的核心条目，与五彩构成软硬彩的对照，与珐琅彩同属康熙后期宫廷与民窑互动的产物。可支持未来"清代彩瓷工序与风格分类"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 玻璃白打底、油料调色、渲染浓淡的软彩；玻璃白成分只有田自秉给出
 ## 相关知识元
 
 同批写回的 `terms/falangcai.md` 与本案在夏燕靖两版同一段内并列（"五彩、粉彩、珐琅彩名闻海内外"），田自秉以"康熙的五彩、雍正的粉彩、乾隆的珐琅彩"三分三朝；`terms/doucai.md`（斗彩）、`terms/youlihong.md`（釉里红）同属彩瓷序列；`terms/underglaze-color.md` 是工序上的对照极（釉下）。四册多次以五彩为粉彩的比较对象，`terms/` 下五彩尚未立条。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

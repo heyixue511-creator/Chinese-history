@@ -1,0 +1,1376 @@
+[
+ {
+  "claim_id": "claim-0430",
+  "statement_zh": "赵农指出，夏、商、西周是指公元前21世纪至公元前770年，前后约有1330余年。",
+  "statement_en": "Zhao Nong states that the Xia, Shang and Western Zhou period runs from the twenty-first century BCE to 770 BCE, a span of about 1,330 years.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1040,
+    "line_end": 1052,
+    "span_kind": "bounded",
+    "key_lines": [
+     1045
+    ],
+    "block_ids": [
+     "b0040"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-71"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xianqin-sandai.md"
+  ],
+  "discussion_notes": "断言取 L1045。年代范围为原文直接给出的通行分期，未给测年依据与各期起止的逐项论证。概念见 terms/xianqin-sandai。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0431",
+  "statement_zh": "赵农认为，中国文化从夏、商、周时期开始进入一个周而复始的朝代循环；这一循环源于中华民族受黄河、长江平原的促发培育而形成的国家制度，以及定居生活和农业文明规模化之后形成的先进模式；中华民族早期国家政权的建立以中原地区为主。",
+  "statement_en": "Zhao Nong holds that Chinese culture entered a cyclical dynastic pattern from the Xia, Shang and Zhou; the cycle grew out of a state system fostered by the Yellow River and Yangtze plains and out of the advanced model formed when sedentary life and agrarian civilization were scaled up, with the Central Plains as the core of early state power.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1047,
+    "line_end": 1047,
+    "span_kind": "line",
+    "key_lines": [
+     1047
+    ],
+    "block_ids": [
+     "b0040"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-101"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xianqin-sandai.md"
+  ],
+  "discussion_notes": "断言取 L1047。朝代循环、平原培育与国家制度的关系为作者的历史解释；来源未给比较文明样本与制度形成的考古序列。概念见 terms/xianqin-sandai。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0432",
+  "statement_zh": "赵农评价，商朝对铜的充分认识是中国艺术设计史上的盛事；青铜文化的发达使商代文明在许多方面展示了优越的时代特征。",
+  "statement_en": "Zhao Nong evaluates the Shang mastery of copper as a landmark in Chinese design history, holding that the flourishing of bronze culture gave Shang civilization superior features in many respects.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1053,
+    "line_end": 1125,
+    "span_kind": "bounded",
+    "key_lines": [
+     1079
+    ],
+    "block_ids": [
+     "b0041"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-72"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/qingtong-shidai.md"
+  ],
+  "discussion_notes": "断言取 L1079。盛事与优越的时代特征均为作者评价；来源未给青铜器产量、合金配比与技术水平的量化比较。概念见 terms/qingtongqi、terms/qingtong-shidai。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0433",
+  "statement_zh": "赵农评价，禹传位于启不仅是禅让制度的终结，更是社会秩序的进步，既适应了当时的生产力水平，也是地理环境中人类生存制度的保证。",
+  "statement_en": "Zhao Nong evaluates Yu's transmission of rule to Qi as more than the end of abdication: it was progress in social order, suited to the productive forces of the time and a guarantee of human survival institutions within the geographical environment.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1058,
+    "line_end": 1058,
+    "span_kind": "line",
+    "key_lines": [
+     1058
+    ],
+    "block_ids": [
+     "b0041"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-87"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/dayu.md",
+   "04-knowledge/units/terms/shanrang-system.md"
+  ],
+  "discussion_notes": "断言取 L1058。社会秩序的进步与生存制度的保证均为作者评价；来源未给禅让制向世袭制过渡的考古与文献序列。人物与制度见 persons/dayu、terms/shanrang-system。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0434",
+  "statement_zh": "赵农指出，西周时期生活器皿和武器的制造，特别是武器，青铜材料和技术的广泛使用有着积极的意义；另一方面，严格的统治又有“作奇技奇器以疑众者杀”（《礼记·王制》）的限制。",
+  "statement_en": "Zhao Nong notes that the making of household vessels and weapons in the Western Zhou, especially weapons, gave positive significance to the wide use of bronze materials and techniques; on the other hand, strict rule imposed the limit recorded in the Record of Rites: those who made strange techniques or strange implements to mislead the people were put to death.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1118,
+    "line_end": 1118,
+    "span_kind": "line",
+    "key_lines": [
+     1118
+    ],
+    "block_ids": [
+     "b0041"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-102"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md"
+  ],
+  "discussion_notes": "断言取 L1118。原文直接引用《礼记·王制》说明西周对器具制作的限制，属转引；来源未给该条文的具体施行案例与年代。概念见 terms/qingtongqi。候选作 source_claim，按语义映射为 interpretive_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0435",
+  "statement_zh": "赵农评价，大禹是中华民族最早的规划设计师。",
+  "statement_en": "Zhao Nong evaluates Yu the Great as the earliest planning designer of the Chinese nation.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1128,
+    "line_end": 1185,
+    "span_kind": "bounded",
+    "key_lines": [
+     1133
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第二节 工具与农具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-73"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/dayu.md"
+  ],
+  "discussion_notes": "断言取 L1133。最早的规划设计师为作者评价；来源以治水、耕种与中原农耕文化形成为据，未给规划遗存与年代序列。人物见 persons/dayu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0436",
+  "statement_zh": "赵农认为，大禹治水时成功地利用了疏导河水的方法，疏导由此成为后来中国社会的一种政治文化规范，即疏胜于堵；堵是大禹父亲鲧的办法，鲧因此而被舜斩首。",
+  "statement_en": "Zhao Nong holds that Yu the Great successfully used the method of channeling the waters, and that channeling became a political and cultural norm in later Chinese society—guiding rather than blocking; blocking was the method of Yu's father Gun, who was executed by Shun for it.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1128,
+    "line_end": 1185,
+    "span_kind": "bounded",
+    "key_lines": [
+     1139
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第二节 工具与农具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-74"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/dayu.md"
+  ],
+  "discussion_notes": "断言取 L1139。疏胜于堵由治水方法引申为政治文化规范，属作者解释；鲧被舜斩首为传说叙述，来源未给文献出处与版本。人物见 persons/dayu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0437",
+  "statement_zh": "赵农认为，甲骨文的内容往往由商王来占卜解释，是吉是祸商王说什么就是什么；这种神性的结果是权力对自然人事的认识并予以心理上的满足，也是统治者借上天而言己事，代表着法律、政权、军事的绝对权威，是以王命而非民意的治理。",
+  "statement_en": "Zhao Nong holds that oracle-bone inscriptions were often divined and interpreted by the Shang king, whose word alone determined fortune or misfortune; this sacred result was power's understanding of nature and human affairs giving psychological satisfaction, the ruler speaking of his own concerns through Heaven, representing absolute legal, political and military authority—rule by royal command rather than by popular will.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1128,
+    "line_end": 1185,
+    "span_kind": "bounded",
+    "key_lines": [
+     1174,
+     1176
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第二节 工具与农具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-75"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md"
+  ],
+  "discussion_notes": "断言取 L1174、L1176。由“王占曰”推论商王政教合一的权力性质，属作者解释；来源未给卜辞统计、占卜程序与王权结构的定量分析。概念见 terms/oracle-bone-script。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0438",
+  "statement_zh": "赵农认为，青铜“钱”本是一种农具，因广泛使用而成为比较固定的交换信物，渐渐固定为特殊商品并演变为货币的代称；作为商品的钱演变为货币，可见器物的生发与社会的价值取向。",
+  "statement_en": "Zhao Nong holds that the bronze qian was originally a farm implement; its wide use made it a fairly fixed token of exchange, then a special commodity, and eventually a synonym for money. The transformation of the commodity qian into currency reveals how implements develop and how society assigns value.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1186,
+    "line_end": 1217,
+    "span_kind": "bounded",
+    "key_lines": [
+     1202
+    ],
+    "block_ids": [
+     "b0044"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第二节 工具与农具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-76"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-qian-chan.md",
+   "04-knowledge/units/terms/beibi.md"
+  ],
+  "discussion_notes": "断言取 L1202。由农具到交换信物、特殊商品与货币代称的链条为作者解释；来源未给钱铲出土情境、流通范围与年代序列。概念见 terms/qingtong-qian-chan、terms/beibi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0439",
+  "statement_zh": "赵农认为，青铜文化的发展在农具及工具的制作中起到了积极作用；青铜农具虽不如兵器和食器辉煌，但逐渐提高了农耕生产水平，为铁器时代的到来奠定了基础。",
+  "statement_en": "Zhao Nong holds that bronze culture played a positive role in making farm implements and tools; though less splendid than weapons and food vessels, bronze farm tools gradually raised agricultural productivity and prepared the way for the Iron Age.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1186,
+    "line_end": 1217,
+    "span_kind": "bounded",
+    "key_lines": [
+     1216
+    ],
+    "block_ids": [
+     "b0044"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第二节 工具与农具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-77"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-chu.md",
+   "04-knowledge/units/terms/qingtong-qian-chan.md"
+  ],
+  "discussion_notes": "断言取 L1216。青铜农具的历史位置为作者总结；来源未给农具数量、使用痕迹与生产力测算。概念见 terms/qingtong-chu、terms/qingtong-qian-chan。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0440",
+  "statement_zh": "赵农认为，南面即面南、朝着太阳的方向，是中国文化的一个内在意识特征；贯穿于古代建筑设计中坐北朝南的方向感渐渐延伸为一种政治意识的体现，形成了中国历代宫殿建筑的基本立场。",
+  "statement_en": "Zhao Nong holds that facing south—toward the sun—is an inner characteristic of Chinese culture; the north-south orientation running through ancient architectural design gradually extended into a political consciousness and became the basic stance of Chinese palace architecture across the dynasties.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1220,
+    "line_end": 1272,
+    "span_kind": "bounded",
+    "key_lines": [
+     1227
+    ],
+    "block_ids": [
+     "b0046"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第三节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-78"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/central-axis.md",
+   "04-knowledge/units/places/erlitou-site.md"
+  ],
+  "discussion_notes": "断言取 L1227。由“南面朝天下”与二里头宫室坐北朝南推论建筑方向的政治意识，属作者解释；来源未给宫殿朝向的系统统计。概念与遗址见 terms/central-axis、places/erlitou-site。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0441",
+  "statement_zh": "赵农指出，商代建筑常常借助标杆测影的方法，以太阳正午的直射之影定位南北方向；为了得到冬暖夏凉，窗门一律向南，并采取四合院的布局结构，这是人们充分掌握测影技术之后构筑的生活空间。",
+  "statement_en": "Zhao Nong states that Shang buildings often used the gnomon method, fixing north and south by the shadow cast at noon; for warmth in winter and coolness in summer, doors and windows all faced south and a courtyard layout was adopted, creating living space after people had fully mastered shadow measurement.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1237,
+    "line_end": 1237,
+    "span_kind": "line",
+    "key_lines": [
+     1237
+    ],
+    "block_ids": [
+     "b0046"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第三节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-100"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/pan-geng.md",
+   "04-knowledge/units/terms/central-axis.md"
+  ],
+  "discussion_notes": "断言取 L1237。原文引《尚书·盘庚》“奠厥攸居，乃正厥位”说明正位，并直接叙述测影、门窗向南与四合院布局；来源未给商代建筑遗址的朝向测量与四合院实例。人物见 persons/pan-geng，概念见 terms/central-axis。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0442",
+  "statement_zh": "赵农指出，一般认为中国古典园林的建立是从西周开始的。",
+  "statement_en": "Zhao Nong states that it is generally held that classical Chinese gardens began in the Western Zhou.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1273,
+    "line_end": 1307,
+    "span_kind": "bounded",
+    "key_lines": [
+     1300
+    ],
+    "block_ids": [
+     "b0047"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第三节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-79"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言取 L1300。原文以灵台、灵沼及《诗经》《孟子》记载立论，并以“一般认为”限定；来源未给园林遗址的考古确认与学界分歧。无直接对应 KU，supported_by 为空。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0443",
+  "statement_zh": "赵农认为，夏、商、西周时期的青铜兵器成为武器发展中的一个重要阶段，这是一个武器与工具不分离的时期。",
+  "statement_en": "Zhao Nong holds that bronze weapons of the Xia, Shang and Western Zhou form an important stage in the development of weaponry, a period in which weapons and tools were not yet separated.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1310,
+    "line_end": 1374,
+    "span_kind": "bounded",
+    "key_lines": [
+     1315
+    ],
+    "block_ids": [
+     "b0049"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第四节 兵器与车辆"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-80"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ge-dagger-axe.md",
+   "04-knowledge/units/terms/qingtong.md"
+  ],
+  "discussion_notes": "断言取 L1315。原文以“禹穴之时，以铜为兵”为据提出分期判断；武器与工具不分离为作者概括，来源未给兵器谱系与工具功能的重叠统计。概念见 terms/ge-dagger-axe、terms/qingtong。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0444",
+  "statement_zh": "赵农认为，戈的出现是受镰形农具的启发而成为一种长兵器，它适应了商周车战的需要。",
+  "statement_en": "Zhao Nong holds that the ge dagger-axe developed from the sickle-shaped farm implement into a long weapon and was suited to the needs of Shang and Zhou chariot warfare.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1310,
+    "line_end": 1374,
+    "span_kind": "bounded",
+    "key_lines": [
+     1319
+    ],
+    "block_ids": [
+     "b0049"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第四节 兵器与车辆"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-81"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ge-dagger-axe.md"
+  ],
+  "discussion_notes": "断言取 L1319。器形来源与车战适应性为作者因果解释；来源未给戈的形态演变序列与车战战术复原。概念见 terms/ge-dagger-axe。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0445",
+  "statement_zh": "赵农评价，轮子的出现是为了减轻车体对地面的摩擦并提高运行速度，合理地解决车体在快速前进中的稳定感；因此车轮的出现是一个重大的设计发明。",
+  "statement_en": "Zhao Nong evaluates the wheel as a response to the need to reduce friction between vehicle and ground, raise speed and resolve stability in rapid motion, and therefore as a major design invention.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1375,
+    "line_end": 1432,
+    "span_kind": "bounded",
+    "key_lines": [
+     1387
+    ],
+    "block_ids": [
+     "b0050"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第四节 兵器与车辆"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-82"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/chelun.md",
+   "04-knowledge/units/terms/war-chariot.md"
+  ],
+  "discussion_notes": "断言取 L1387。摩擦、速度、稳定三项功能与重大设计发明均为作者评价；来源未给车轮力学实验与早期车辆遗存测量。概念见 terms/chelun、terms/war-chariot。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0446",
+  "statement_zh": "赵农指出，夏代尚黑、商代尚白、周代尚赤，上古三代各有各自的主色调。",
+  "statement_en": "Zhao Nong states that the Xia favoured black, the Shang white and the Zhou red, each of the three ancient dynasties having its own dominant colour.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1457,
+    "line_end": 1484,
+    "span_kind": "bounded",
+    "key_lines": [
+     1464
+    ],
+    "block_ids": [
+     "b0053"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第五节 纺织与服饰"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-83"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/mianfu-zhidu.md"
+  ],
+  "discussion_notes": "断言取 L1464。原文由“易服色，上白”等记载归纳三代主色；来源未给各代服色制度的完整文献与实物比对。概念见 terms/mianfu-zhidu。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0447",
+  "statement_zh": "赵农认为，服饰在人类社会中不仅是一种取暖御寒的衣物，也标志着个人的身份和地位；随着国家制度的建立出现了等级化的服饰现象，以服饰区分人群既是部落种族的遗风，也是政治文化的需要。",
+  "statement_en": "Zhao Nong holds that clothing is not merely warmth but a marker of personal status; with the rise of the state, dress became graded, and distinguishing people by dress was both a tribal legacy and a requirement of political culture.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1457,
+    "line_end": 1484,
+    "span_kind": "bounded",
+    "key_lines": [
+     1459
+    ],
+    "block_ids": [
+     "b0053"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第五节 纺织与服饰"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-84"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/mianfu-zhidu.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md"
+  ],
+  "discussion_notes": "断言取 L1459。服饰的等级功能与政治文化需要为作者判断；来源未给服饰等级的制度文本与墓葬服饰统计。概念见 terms/mianfu-zhidu、terms/li-yue-zhidu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0448",
+  "statement_zh": "赵农评价，夏、商、西周时期的社会形态相对于原始蒙昧的石器时期是一种进步，是当时人们生活方式的自然选择；但其残酷的奴隶制度对奴隶的压迫，是人类用血腥手段摆脱原始蒙昧的阶段，必然有着合理与不合理的因素；东周开始的“礼崩乐坏”的冲撞也是一种不可抗拒的历史潮流。",
+  "statement_en": "Zhao Nong evaluates the Xia, Shang and Western Zhou social formation as progress over the primitive Stone Age and a natural choice of livelihood, yet its harsh slavery was humanity's bloody means of leaving savagery, necessarily containing both reasonable and unreasonable elements; the collapse of ritual and music from the Eastern Zhou was an irresistible historical tide.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1457,
+    "line_end": 1484,
+    "span_kind": "bounded",
+    "key_lines": [
+     1483
+    ],
+    "block_ids": [
+     "b0053"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第五节 纺织与服饰"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-02-85"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xianqin-sandai.md"
+  ],
+  "discussion_notes": "断言取 L1483。进步、自然选择、血腥手段与不可抗拒的历史潮流均为作者评价；来源未给奴隶制规模、社会流动与考古人口数据。概念见 terms/xianqin-sandai。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0449",
+  "statement_zh": "赵农认为，青铜鼎是在陶鼎的造型上发展起来的，并由食器转向了权力的象征；鼎的作用被引申为政治意义，并随着改朝换代而不断转移归属。",
+  "statement_en": "Zhao Nong holds that the bronze ding developed from the pottery ding and shifted from food vessel to symbol of power; its function was extended into political meaning and its ownership transferred with each change of dynasty.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1487,
+    "line_end": 1545,
+    "span_kind": "bounded",
+    "key_lines": [
+     1507
+    ],
+    "block_ids": [
+     "b0055"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-10"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/qingtong-liqi.md"
+  ],
+  "discussion_notes": "断言取 L1507。原文并引《史记·孝武本纪》九鼎与“象天地人”说明政治寓意；由食器转向权力象征为作者解释，来源未给鼎的形态序列与归属转移的完整文献。概念见 terms/ding、terms/qingtong-liqi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0450",
+  "statement_zh": "赵农指出，商周时期青铜器具制作精良、材料昂贵，主要是王室和贵族的器具；一般平民多以陶制品为饮食器具，因此陶制品的需求量仍然很大。",
+  "statement_en": "Zhao Nong states that Shang and Zhou bronzes were finely made and costly, mainly vessels of the royal house and nobility, while commoners mostly used pottery for food and drink, so demand for pottery remained large.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1487,
+    "line_end": 1545,
+    "span_kind": "bounded",
+    "key_lines": [
+     1511
+    ],
+    "block_ids": [
+     "b0055"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-11"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/taoqi.md"
+  ],
+  "discussion_notes": "断言取 L1511。青铜器主要为王室贵族器具、平民多用陶器为原文直接陈述；来源未给青铜器与陶器的出土数量比例与墓葬等级统计。概念见 terms/qingtongqi、terms/taoqi。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0451",
+  "statement_zh": "赵农指出，甲骨文中“艺”写为“艹”，有种植、劳作、园艺的含义。",
+  "statement_en": "Zhao Nong states that in oracle-bone script the character yi was written as the grass radical, carrying the senses of planting, labour and horticulture.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1491,
+    "line_end": 1491,
+    "span_kind": "line",
+    "key_lines": [
+     1491
+    ],
+    "block_ids": [
+     "b0055"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-147"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md"
+  ],
+  "discussion_notes": "断言取 L1491。字形与含义为原文直接陈述，未引其他文献与字形考释；来源未给该字的卜辞用例与释读依据。概念见 terms/oracle-bone-script。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0452",
+  "statement_zh": "赵农认为，商早期的青铜器多为方形，高古质朴、品格坚硬，象征着商王朝的威仪；武乙以后的青铜器造型出现了细丽繁密的纹饰，亦是社会生活的写照。",
+  "statement_en": "Zhao Nong holds that early Shang bronzes were mostly square, archaic and austere in character, symbolizing the majesty of the Shang house; after Wu Yi, forms acquired fine and dense ornament, reflecting social life.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1518,
+    "line_end": 1518,
+    "span_kind": "line",
+    "key_lines": [
+     1518
+    ],
+    "block_ids": [
+     "b0055"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-148"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shangdai-qingtongqi-balei.md",
+   "04-knowledge/units/terms/taotie-motif.md"
+  ],
+  "discussion_notes": "断言取 L1518。以商早期与武乙以后对举构成风格分期，属作者判断；来源未给青铜器类型学序列与武乙纪年的器物断代。概念见 terms/shangdai-qingtongqi-balei、terms/taotie-motif。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0453",
+  "statement_zh": "赵农认为，礼器的作用是维持社会生活的正常秩序，王室贵族致敬鬼神的活动实际是在强化个人统治的地位；由此鼎成为一种象征意义的宝物，问鼎亦就有了窥伺权力的意思。",
+  "statement_en": "Zhao Nong holds that ritual vessels served to maintain normal social order, and that the nobility's rites to spirits and gods in fact reinforced personal rule; the ding thus became a symbolic treasure, and to ask about the ding came to mean coveting power.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1546,
+    "line_end": 1577,
+    "span_kind": "bounded",
+    "key_lines": [
+     1574
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-18"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-liqi.md",
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md"
+  ],
+  "discussion_notes": "断言取 L1574。礼器维持秩序、祭祀强化统治与问鼎的政治含义为作者解释；来源未给礼器使用制度、祭祀程序与问鼎事件的文献比对。概念见 terms/qingtong-liqi、terms/ding、terms/li-yue-zhidu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0454",
+  "statement_zh": "赵农认为，礼器的造型多与饮食器具有关，作为饮食作用的祭祀器具与作为祭祀作用的饮食器具常常交织在一起、相互促进，礼仪也推动了饮食器具的发展。",
+  "statement_en": "Zhao Nong holds that ritual vessel forms are mostly related to food vessels; vessels serving food in sacrifice and vessels serving sacrifice at meals were intertwined and mutually promoted, and ritual also drove the development of food vessels.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1546,
+    "line_end": 1577,
+    "span_kind": "bounded",
+    "key_lines": [
+     1566
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-19"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-liqi.md",
+   "04-knowledge/units/terms/qingtong-shiqi.md"
+  ],
+  "discussion_notes": "断言取 L1566。礼器与饮食器交织、礼仪推动饮食器具发展为作者判断；来源未给器物功能分类与使用场景的考古复原。概念见 terms/qingtong-liqi、terms/qingtong-shiqi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0455",
+  "statement_zh": "赵农引孔子“祭如在，祭神如神在”之语，认为人的精神信仰的一个直接源泉是对祖先的崇拜，在对祖先的怀念中，祭祀的方式有助于人生积极思索。",
+  "statement_en": "Quoting Confucius—sacrifice as if the spirits were present—Zhao Nong holds that ancestor worship is a direct source of spiritual belief, and that in remembering ancestors the practice of sacrifice encourages positive reflection on life.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1556,
+    "line_end": 1558,
+    "span_kind": "bounded",
+    "key_lines": [
+     1556,
+     1558
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-149"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/confucius.md"
+  ],
+  "discussion_notes": "断言取 L1556、L1558。孔子语出《论语·八佾》，属转引；祖先崇拜为信仰源泉、祭祀助人积极思索为作者解释，来源未给祭祀制度与信仰结构的比较材料。人物见 persons/confucius。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0456",
+  "statement_zh": "赵农评价，乐器种类的丰富奠定了中华民族音乐表现的多样性，也使中华民族音乐成为一种民族精神积极张扬的艺术形式。",
+  "statement_en": "Zhao Nong evaluates the richness of instrument types as the foundation of the diversity of Chinese musical expression, making Chinese music an art form in which national spirit is actively asserted.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1578,
+    "line_end": 1614,
+    "span_kind": "bounded",
+    "key_lines": [
+     1613
+    ],
+    "block_ids": [
+     "b0057"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第六节 食器和礼器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-24"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/bianzhong.md",
+   "04-knowledge/units/terms/taoxun.md"
+  ],
+  "discussion_notes": "断言取 L1613。多样性、民族精神积极张扬均为作者评价；来源未给乐器种类统计、音阶测定与音乐考古的完整序列。概念见 terms/bianzhong、terms/taoxun。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0457",
+  "statement_zh": "赵农指出，甲骨文因其数量众多、规范整齐，被认为是殷商文字的代表。",
+  "statement_en": "Zhao Nong states that oracle-bone script, being numerous and well standardized, is regarded as the representative writing of the Yin-Shang.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1617,
+    "line_end": 1647,
+    "span_kind": "bounded",
+    "key_lines": [
+     1621
+    ],
+    "block_ids": [
+     "b0059"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-33"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md"
+  ],
+  "discussion_notes": "断言取 L1621。原文在统计约15万片、约4672字、可确认约1723字之后作出该判断；字数统计据孙海波《甲骨文编》，来源未给逐片著录与复核。概念见 terms/oracle-bone-script。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0458",
+  "statement_zh": "赵农认为，甲骨文是先用朱砂或墨书写再用刀刻画或直接刀刻的雕刻文字，这种刻画方式延续了新石器时期陶器刻画方式，但在书写中加入了绘画意趣，因此“书画同源”的观点是客观存在的。",
+  "statement_en": "Zhao Nong holds that oracle-bone script was written in cinnabar or ink and then incised, or incised directly; this practice continued the Neolithic tradition of incising pottery but added a painterly quality to writing, so the view that calligraphy and painting share one origin is objectively grounded.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1617,
+    "line_end": 1647,
+    "span_kind": "bounded",
+    "key_lines": [
+     1638
+    ],
+    "block_ids": [
+     "b0059"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-34"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md",
+   "04-knowledge/units/terms/maobi.md"
+  ],
+  "discussion_notes": "断言取 L1638。书写加绘画意趣推出“书画同源”，属作者解释；来源未给甲骨刻辞的书写痕迹检测与绘画性分析。概念见 terms/oracle-bone-script、terms/maobi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0459",
+  "statement_zh": "赵农评价，较之甲骨文字，钟鼎文字进了一大步。",
+  "statement_en": "Zhao Nong evaluates bronze inscriptions as a major advance over oracle-bone script.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1617,
+    "line_end": 1647,
+    "span_kind": "bounded",
+    "key_lines": [
+     1640
+    ],
+    "block_ids": [
+     "b0059"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-35"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言取 L1640。进了一大步为作者比较性评价；来源未给字形规范度、字汇数量与书写工具的量化比较。无直接对应 KU，supported_by 为空。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0460",
+  "statement_zh": "赵农认为，中国文字一方面成为实用的说明，另一方面成为一种书法艺术；结体、用笔、章法等书法主要特征在甲骨文和钟鼎文中已基本确定。",
+  "statement_en": "Zhao Nong holds that Chinese writing became both a practical notation and a calligraphic art; the main features of calligraphy—structure, brushwork and composition—were basically established in oracle-bone and bronze inscriptions.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1648,
+    "line_end": 1674,
+    "span_kind": "bounded",
+    "key_lines": [
+     1665
+    ],
+    "block_ids": [
+     "b0060"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-39"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/liu-shu.md"
+  ],
+  "discussion_notes": "断言取 L1665。文字的双重性质与书法特征的形成时点为作者判断；来源未给字形结构与用笔的形态学测量。概念见 terms/liu-shu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0461",
+  "statement_zh": "赵农认为，上古结绳记事的上下结构记忆方式影响着人们的表述习惯；进入夏商周后人们明确方位意识，在日晷标志的阅读习惯中形成从右到左的秩序，商代甲骨文采取从上到下的表述，周代钟鼎文则显示从左到右的书写习惯已经形成；这种原理影响了后来中国文字的设计编排顺序。",
+  "statement_en": "Zhao Nong holds that the vertical structure of prehistoric knot records shaped habits of expression; after entering the Xia-Shang-Zhou people gained a clear sense of orientation, and reading gnomon marks formed a right-to-left order, so Shang oracle bones were written top to bottom while Zhou bronzes show a left-to-right habit; this principle shaped later Chinese text layout.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1648,
+    "line_end": 1674,
+    "span_kind": "bounded",
+    "key_lines": [
+     1667
+    ],
+    "block_ids": [
+     "b0060"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-40"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md",
+   "04-knowledge/units/terms/liu-shu.md"
+  ],
+  "discussion_notes": "断言取 L1667。结绳、方位意识与日晷阅读解释书写方向，属作者推论；原文先称形成从右到左的秩序，又称周代钟鼎文显示从左到右的书写习惯，前后表述存在张力，本行按原文照录并在 notes 标记。概念见 terms/oracle-bone-script、terms/liu-shu。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0462",
+  "statement_zh": "赵农认为，甲骨文字的干支文字大多数是假借器具的象形，如“戊戌”即兵器、“庚”即乐器、“午”是杵、“酉”是酒尊、“寅”是箭器、“辛”是刻刀；这是商代人将生活器具标志为时间符号的智慧结晶。",
+  "statement_en": "Zhao Nong holds that most sexagenary characters in oracle-bone script borrowed the pictographic forms of implements—wu and xu for weapons, geng for a musical instrument, wu for a pestle, you for a wine vessel, yin for arrow gear and xin for a carving knife—a Shang achievement that marked everyday implements as symbols of time.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1648,
+    "line_end": 1674,
+    "span_kind": "bounded",
+    "key_lines": [
+     1671
+    ],
+    "block_ids": [
+     "b0060"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-41"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/oracle-bone-script.md"
+  ],
+  "discussion_notes": "断言取 L1671。干支字与器具的对应为作者列举，来源未给逐字的古文字考释与卜辞用例。概念见 terms/oracle-bone-script。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0463",
+  "statement_zh": "赵农认为，金文中的“寶”字有玉、贝、陶器或铜器一类的象形，人们将玉器视为重宝。",
+  "statement_en": "Zhao Nong holds that the bronze-inscription character bao depicts jade, cowries and pottery or bronze vessels, showing that jade objects were regarded as precious treasures.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1682,
+    "line_end": 1682,
+    "span_kind": "line",
+    "key_lines": [
+     1682
+    ],
+    "block_ids": [
+     "b0061"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-150"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shangdai-yuqi-fenlei.md",
+   "04-knowledge/units/terms/yushi.md"
+  ],
+  "discussion_notes": "断言取 L1682。由“寶”字构形说明玉器为重宝，属作者解释；来源未给该字的字形谱系与释读分歧。概念见 terms/shangdai-yuqi-fenlei、terms/yushi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0464",
+  "statement_zh": "赵农认为，由于铸造青铜器具需要大量陶范并不断改进陶范性能，这也推动了制陶业本身的发展。",
+  "statement_en": "Zhao Nong holds that bronze casting required large numbers of pottery molds and continual improvement of their performance, which in turn drove the development of the pottery industry itself.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1696,
+    "line_end": 1721,
+    "span_kind": "bounded",
+    "key_lines": [
+     1710
+    ],
+    "block_ids": [
+     "b0062"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-48"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taoqi.md",
+   "04-knowledge/units/terms/qingtongqi.md"
+  ],
+  "discussion_notes": "断言取 L1710。青铜铸造的陶范需求推动制陶业发展为作者提出的因果关系；来源未给陶范数量、材质检测与窑炉技术参数。概念见 terms/taoqi、terms/qingtongqi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0465",
+  "statement_zh": "赵农认为，商代的陶质酒器非常多，如觚、尊、壶、爵等，这是缘于商王朝饮酒风气的盛行。",
+  "statement_en": "Zhao Nong holds that pottery wine vessels were very numerous in the Shang—gu, zun, hu and jue among them—because of the prevalence of drinking in Shang society.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1696,
+    "line_end": 1721,
+    "span_kind": "bounded",
+    "key_lines": [
+     1708
+    ],
+    "block_ids": [
+     "b0062"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-49"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taoqi.md"
+  ],
+  "discussion_notes": "断言取 L1708。酒器数量与饮酒风气的因果关系为作者判断；来源未给陶质酒器的类型统计与墓葬组合分析。概念见 terms/taoqi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0466",
+  "statement_zh": "赵农认为，大量金属货币的出现使货币成为一种独特的形式，直接影响着人们的社会生活；金属货币的出现标志着人们社会水平和商品交换意识的提高。",
+  "statement_en": "Zhao Nong holds that the appearance of metal currency in quantity made money a distinctive form with a direct impact on social life; it marked a rise in social level and in the consciousness of commodity exchange.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1722,
+    "line_end": 1744,
+    "span_kind": "bounded",
+    "key_lines": [
+     1735
+    ],
+    "block_ids": [
+     "b0063"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-52"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/beibi.md",
+   "04-knowledge/units/terms/qingtong-qian-chan.md"
+  ],
+  "discussion_notes": "断言取 L1735。金属货币的社会意义与标志性判断为作者解释；来源未给金属货币的出土数量、流通范围与年代序列。概念见 terms/beibi、terms/qingtong-qian-chan。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0467",
+  "statement_zh": "赵农认为，商朝是一个经商的时代，货币是商周时期出现的有着奇特意义的设计物品；仿贝以自然物品为模仿对象，采用许多新材料补充海贝的不足，这种设计对后世有着重要启示。",
+  "statement_en": "Zhao Nong holds that the Shang was a trading age and that currency was a design object of peculiar significance in Shang and Zhou times; imitation cowries copied a natural object while using many new materials to make up for the scarcity of sea shells, a design with important lessons for later ages.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1722,
+    "line_end": 1744,
+    "span_kind": "bounded",
+    "key_lines": [
+     1739
+    ],
+    "block_ids": [
+     "b0063"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-53"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/beibi.md"
+  ],
+  "discussion_notes": "断言取 L1739。经商时代、货币为设计物品与仿贝设计的启示为作者判断；来源未给商代贸易规模、仿贝材质统计与流通证据。概念见 terms/beibi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0468",
+  "statement_zh": "赵农指出，齿贝一面有齿口、一面圆润，在商品交易中常常作为固定形式，于是称为“货币”，货币的名称被保留下来，成为衡量物品的价值尺度；财、贪、贫、贵、贱、赏、赐、贺、贡等与财富有关的辞语几乎都与贝有关。",
+  "statement_en": "Zhao Nong states that the toothed cowrie, with a toothed opening on one side and a smooth surface on the other, served as a fixed form in exchange and gave its name to currency, which became the measure of value; words for wealth such as cai, tan, pin, gui, jian, shang, ci, he and gong all relate to the cowrie.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1731,
+    "line_end": 1733,
+    "span_kind": "bounded",
+    "key_lines": [
+     1731,
+     1733
+    ],
+    "block_ids": [
+     "b0063"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第七节 文字与玉器"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-151"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/beibi.md"
+  ],
+  "discussion_notes": "断言取 L1731、L1733。“货币”名称由来、价值尺度作用与贝部字群为原文直接陈述；来源未给字群统计与词源考释。概念见 terms/beibi。候选作 basic_fact，按语义映射为 factual_claim。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0469",
+  "statement_zh": "赵农认为，设计文化的成熟是因为夏、商、西周社会生活质量明显提高，工具、农具、兵器、车辆等形态发达，是设计家智慧的结晶；服饰、建筑、文字、货币的进一步发展，成为商周时期的文明标志。",
+  "statement_en": "Zhao Nong holds that design culture matured because living standards rose markedly in the Xia, Shang and Western Zhou and tools, farm implements, weapons and vehicles became well developed—the crystallization of designers' wisdom—while clothing, architecture, writing and currency became the marks of Shang and Zhou civilization.",
+  "claim_type": "synthetic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1745,
+    "line_end": 1754,
+    "span_kind": "bounded",
+    "key_lines": [
+     1749
+    ],
+    "block_ids": [
+     "b0064"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-54"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xianqin-sandai.md"
+  ],
+  "discussion_notes": "断言取 L1749。第八节结论综合全章材料；生活质量提高导致设计文化成熟为作者的总括判断，来源未给生活质量指标与器物形态的量化序列。概念见 terms/xianqin-sandai。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0470",
+  "statement_zh": "赵农认为，在夏商周的时代演变中，鼎作为一种特殊意义的器具，标志着朝代的兴衰，也使一种政治文化的机制有了不断调整修正的可能。",
+  "statement_en": "Zhao Nong holds that in the dynastic changes from Xia through Zhou the ding, as an implement of special significance, marked the rise and fall of dynasties and allowed a political-cultural mechanism to be continually adjusted and corrected.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 1745,
+    "line_end": 1754,
+    "span_kind": "bounded",
+    "key_lines": [
+     1753
+    ],
+    "block_ids": [
+     "b0064"
+    ],
+    "chapter": "第二章 沉痛的狞厉——夏商西周时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-55"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/qingtong-liqi.md"
+  ],
+  "discussion_notes": "断言取 L1753。鼎标志朝代兴衰、政治文化机制可调整修正为作者结论；来源未给鼎的归属转移事件与制度演变的完整文献。概念见 terms/ding、terms/qingtong-liqi。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ }
+]

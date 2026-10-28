@@ -1,0 +1,4042 @@
+[
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-52",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4152"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "农具",
+    "notes": "又称江东犁。",
+    "period": "唐代",
+    "title": "曲辕犁"
+   },
+   "proposed_slug": "qu-yuan-li",
+   "source_span": {
+    "block_ids": [
+     "b0168"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4173,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "唐代的生产农具，又称“江东犁”，结构合理，使用便利。",
+   "title": "曲辕犁",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-54",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4162",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4371"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "notes": "现存雕版印刷作品，卷轴。",
+    "period": "唐咸通九年（868年）",
+    "title": "《金刚经》"
+   },
+   "proposed_slug": "jin-gang-jing",
+   "source_span": {
+    "block_ids": [
+     "b0168",
+     "b0177"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4401,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "现存雕版印刷的作品是唐代咸通九年（公元868年）的《金刚经》卷，印刷精美、技术成熟；图 6-22 为“唐 金刚经扉页”。",
+   "title": "《金刚经》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-55",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4164",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4386"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代以檀皮为原料制成的名贵纸张。",
+    "term": "玉版宣"
+   },
+   "proposed_slug": "yu-ban-xuan",
+   "source_span": {
+    "block_ids": [
+     "b0168",
+     "b0177"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4401,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "唐代开始出现的以檀皮为原料制成的名贵纸张；文中在述唐代造纸时两次提及，并称其产生于以檀皮为原料的名贵纸张背景下。",
+   "title": "玉版宣",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-56",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4164",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4388",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L5033-L5033"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-163"
+   ],
+   "proposed_fields": {
+    "definition": "唐代成都名纸，因女诗人薛涛所制花色纸张而闻名。",
+    "term": "薛涛笺"
+   },
+   "proposed_slug": "xue-tao-jian",
+   "source_span": {
+    "block_ids": [
+     "b0168",
+     "b0177",
+     "b0207"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 5038,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "唐代成都所产纸张中的著名品种，因女诗人薛涛所制花色纸张而闻名；文中将其与色纸、花纸、水纹纸并列为唐代出现的纸品。",
+   "title": "薛涛笺",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-67",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4215-L4225",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4132"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "武则天",
+    "notes": "建明堂、号武周、重建通天宫。",
+    "period": "唐代",
+    "role": "皇帝"
+   },
+   "proposed_slug": "wu-ze-tian",
+   "source_span": {
+    "block_ids": [
+     "b0171",
+     "b0168"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4231,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "唐王朝在李世民“贞观之治”后由武则天雄才大略地治理；她在洛阳宫城中心用10个月建成明堂，改朝换代自号“武周”，追尊始祖周文王为始祖文皇帝；明堂毁于大火后重新建筑，命名“通天宫”，并铸铜为九州鼎置于明堂之庭。",
+   "title": "武则天",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-80",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4286",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4146"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "玄奘",
+    "notes": "西行求法，译经74部1335卷，著《大唐西域记》。",
+    "period": "唐代",
+    "role": "僧人、翻译家"
+   },
+   "proposed_slug": "xuan-zang",
+   "source_span": {
+    "block_ids": [
+     "b0174",
+     "b0168"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4314,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "俗姓陈，河南偃师人，少年出家；贞观元年（公元627年）从长安出发，孤身穿越西域，在南亚诸国学习佛教知识，前后19年。返回长安后居住大慈恩寺，又不辞辛苦翻译佛经19年，达74部、1335卷，共1300万字；所著《大唐西域记》资料详实、叙述生动，成为后世研究西域的珍贵文献。",
+   "title": "玄奘",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-81",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4286",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4146"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "玄奘",
+    "period": "唐代",
+    "title": "《大唐西域记》"
+   },
+   "proposed_slug": "da-tang-xi-yu-ji",
+   "source_span": {
+    "block_ids": [
+     "b0174",
+     "b0168"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4314,
+    "line_start": 4110,
+    "section": "第一节 绪论"
+   },
+   "summary": "玄奘所著，资料详实、叙述生动，成为后世人们研究西域的珍贵文献；是在中亚和南亚110多个国家地区漫游十六载之后的考察记录。",
+   "title": "《大唐西域记》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-115",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4148-L4148",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4192-L4192"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "阎立德",
+    "notes": "主持长安城外郭城修建与改名。",
+    "period": "唐初",
+    "role": "设计监工"
+   },
+   "proposed_slug": "yan-li-de",
+   "source_span": {
+    "block_ids": [
+     "b0168",
+     "b0170"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4192,
+    "line_start": 4148,
+    "section": "第一节 绪论"
+   },
+   "summary": "唐初设计监工；初唐在大兴城基础上修外郭城，以阎立德为设计监工，将大兴城改名长安城、大兴宫改名太极宫。",
+   "title": "阎立德",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-116",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4152-L4152"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "农具",
+    "notes": "利用水力提水的灌溉器具。",
+    "period": "唐代",
+    "title": "筒车"
+   },
+   "proposed_slug": "tong-che",
+   "source_span": {
+    "block_ids": [
+     "b0168"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4152,
+    "line_start": 4152,
+    "section": "第一节 绪论"
+   },
+   "summary": "南方“筒车”利用水的冲力，可将低处的水流引向高地。",
+   "title": "筒车",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-63",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4198"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "宫殿",
+    "location": "长安大明宫",
+    "period": "唐代",
+    "title": "含元殿"
+   },
+   "proposed_slug": "han-yuan-dian",
+   "source_span": {
+    "block_ids": [
+     "b0170"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4206,
+    "line_start": 4176,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "大明宫的前殿，殿前东有“翔鸾阁”、西有“栖凤阁”，还有两座阁楼以及龙尾道，展示了大唐帝国的威仪；王维、岑参同题早朝大明宫诗中的描写正是其壮丽气象的写照。",
+   "title": "含元殿",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-117",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4194-L4194"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "宫殿",
+    "location": "长安城承天门大街北端",
+    "period": "唐初",
+    "title": "太极宫"
+   },
+   "proposed_slug": "tai-ji-gong",
+   "source_span": {
+    "block_ids": [
+     "b0170"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4194,
+    "line_start": 4194,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "太极宫在长安城中轴线承天门大街北端，至高无上、面南而王，为初唐李渊、李世民父子朝政的地方，既有“贞观之治”的辉煌，也有“玄武门之变”的血腥。",
+   "title": "太极宫",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-66",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4215-L4225"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "礼制建筑",
+    "location": "洛阳宫城中心",
+    "period": "武则天时期",
+    "title": "明堂"
+   },
+   "proposed_slug": "ming-tang",
+   "source_span": {
+    "block_ids": [
+     "b0171"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4231,
+    "line_start": 4207,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "武则天时期在洛阳宫城中心用10个月建成；“（垂拱）四年春二月，毁乾元殿，就地造明堂”（《旧唐书·则天皇后纪》）。明堂是古时帝王宣布政教的地方，举行庆典、祭祀、朝会等活动；“明堂成，凡高二百九十四尺，东西南北各三百尺，有三层”（《旧唐书·礼仪志》），隋唐一尺相当于今0.27米，故高达80余米。此后武则天又在明堂后造天堂以安佛像、高百余尺；明堂毁于大火后重建，命名“通天宫”，并铸铜为九州鼎置于明堂之庭；唐玄宗时拆去上层改建为“乾元殿”。",
+   "title": "明堂",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-73",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4266-L4271"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "桥梁",
+    "location": "苏州葑门外6里",
+    "period": "公元816年",
+    "title": "宝带桥"
+   },
+   "proposed_slug": "bao-dai-qiao",
+   "source_span": {
+    "block_ids": [
+     "b0173"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4276,
+    "line_start": 4247,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "公元816年（唐元和十一年）在苏州葑门外6里处修建的多孔式石拱桥，因刺史王仲舒捐赠宝带资助而得名；长317米，为53孔多孔桥，桥两端6.1米、桥中央4.1米，最大跨度6.85米，是世界古代拱桥中泄水能力最强的桥梁；拱石用榫头和卯眼对接完成。",
+   "title": "宝带桥",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-74",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4258"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "大拱两肩各开小拱的桥梁样式，见于赵州桥。",
+    "term": "敞肩型"
+   },
+   "proposed_slug": "chang-jian-xing",
+   "source_span": {
+    "block_ids": [
+     "b0173"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4276,
+    "line_start": 4247,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "赵州桥在大拱桥两边各开两个小拱的样式，不但可以节省石料，而且减轻桥身压力、提高洪水高峰时的泻洪能力。",
+   "title": "敞肩型",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-118",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4260-L4260"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石拱桥",
+    "location": "洛阳",
+    "period": "公元282年",
+    "title": "旅人桥"
+   },
+   "proposed_slug": "lv-ren-qiao",
+   "source_span": {
+    "block_ids": [
+     "b0173"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4260,
+    "line_start": 4260,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "《水经注》记载，公元282年洛阳用石头修建了一座“下圆可通水”的“旅人桥”；原文称拱桥在汉代已非常流行。",
+   "title": "旅人桥",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-119",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4273-L4273"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "浮桥",
+    "location": "洛阳",
+    "period": "隋大业元年（605）",
+    "title": "天津桥"
+   },
+   "proposed_slug": "tian-jin-qiao",
+   "source_span": {
+    "block_ids": [
+     "b0173"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4273,
+    "line_start": 4273,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "公元605年（隋大业元年）修建的洛阳天津桥，是由铁链联接的船只组成的浮桥。",
+   "title": "天津桥",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-77",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4295-L4297",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4873-L4873"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-126"
+   ],
+   "proposed_fields": {
+    "category": "佛塔",
+    "location": "西安荐福寺",
+    "material": "砖",
+    "period": "公元707年",
+    "title": "小雁塔"
+   },
+   "proposed_slug": "xiao-yan-ta",
+   "source_span": {
+    "block_ids": [
+     "b0174",
+     "b0202",
+     "b0201"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4909,
+    "line_start": 4277,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "又称荐福寺塔，建于公元707年，原为纪念唐高宗而修造，因规模小于大雁塔而俗称小雁塔；为砖结构密檐式方塔，塔檐用叠涩砌法，原为15层，明代中期关中大地震将塔顶两层震坍，现存13层。从第二层开始每层向上高度变低变密，塔身中部略鼓、顶部收缩，形成一条柔和弧线。",
+   "title": "小雁塔",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-120",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4299-L4299"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "佛塔",
+    "location": "济南青龙山神通寺",
+    "period": "隋大业七年（611）",
+    "title": "四门塔"
+   },
+   "proposed_slug": "si-men-ta",
+   "source_span": {
+    "block_ids": [
+     "b0174"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4299,
+    "line_start": 4299,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "济南青龙山神通寺四门塔，是现存最早的仿木单檐石塔；建于公元611年（隋大业七年），塔身为方形、用青石砌成，高15米，塔室内为方形塔心柱并刻有佛像，塔顶置须弥座、山华蕉叶、相轮宝顶，四面有圆形拱门，是隋代佛塔的典范。",
+   "title": "四门塔",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-121",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4301-L4301"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "佛塔",
+    "location": "南京栖霞寺",
+    "period": "隋始建、南唐重建",
+    "title": "栖霞寺舍利塔"
+   },
+   "proposed_slug": "qi-xia-si-she-li-ta",
+   "source_span": {
+    "block_ids": [
+     "b0174"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4301,
+    "line_start": 4301,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "南京栖霞寺舍利塔于公元601年（隋文帝仁寿元年）始建，南唐时期重建；外形呈现八角五层密檐式，为南方佛塔秀丽玲珑的样式。",
+   "title": "栖霞寺舍利塔",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-122",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4303-L4309"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "佛塔",
+    "location": "云南大理崇圣寺",
+    "period": "唐代",
+    "title": "崇圣寺千寻塔"
+   },
+   "proposed_slug": "chong-sheng-si-qian-xun-ta",
+   "source_span": {
+    "block_ids": [
+     "b0174"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4309,
+    "line_start": 4303,
+    "section": "第二节 城市与建筑"
+   },
+   "summary": "云南大理崇圣寺千寻塔，为唐代密檐式塔，高16层、约58米；外观柔美简洁，素裹淡妆，是西南地区唐代建筑的精华。",
+   "title": "崇圣寺千寻塔",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-83",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4338-L4340"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "刻于石上、供抄录校对的儒家经典范本。",
+    "term": "石经"
+   },
+   "proposed_slug": "shi-jing",
+   "source_span": {
+    "block_ids": [
+     "b0176"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4361,
+    "line_start": 4317,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "将儒家经典刻石后提供人们抄录校对的范本；古代最著名的石经是汉代《熹平石经》、魏晋《正始石经》、唐代《开成石经》，堪称中国汉唐时期的文化经典。文中并称在雕版印刷术出现以前，文字表达手段中最稳定的形式是刻石，石经因此作为一种经典样式受人们崇敬。",
+   "title": "石经",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-84",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4342"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石经",
+    "location": "洛阳太学门外",
+    "notes": "蔡邕书写，46块石碑。",
+    "period": "东汉熹平四年（175年）",
+    "title": "《熹平石经》"
+   },
+   "proposed_slug": "xi-ping-shi-jing",
+   "source_span": {
+    "block_ids": [
+     "b0176"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4361,
+    "line_start": 4317,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "刻于东汉后期汉灵帝熹平四年（公元175年）；官方把七种儒家经典《周易》《尚书》《仪礼》《鲁诗》《春秋》《公羊传》《论语》约20余万字，由蔡邕书写，刻在46块石碑上作为标准，树立在洛阳太学门外，供儒生学习对照；从今存残石看，是一种八分书的书体。",
+   "title": "《熹平石经》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-85",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4346"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石经",
+    "location": "今存西安碑林",
+    "notes": "楷书刻石，十三经。",
+    "period": "唐开成二年（837年）",
+    "title": "《开成石经》"
+   },
+   "proposed_slug": "kai-cheng-shi-jing",
+   "source_span": {
+    "block_ids": [
+     "b0176"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4361,
+    "line_start": 4317,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "公元837年（唐文宗开成二年）用楷书刻石，有儒家经典12种，后补刻《孟子》，共13种，是为“十三经”，包括《周易》《尚书》《诗经》《周礼》《仪礼》《礼记》《公羊传》《谷梁传》《左传》《论语》《孝经》《尔雅》《孟子》；今存西安碑林，规模宏大，气象壮观。",
+   "title": "《开成石经》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-86",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4342"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "蔡邕",
+    "notes": "书写《熹平石经》。",
+    "period": "东汉",
+    "role": "书法家"
+   },
+   "proposed_slug": "cai-yong",
+   "source_span": {
+    "block_ids": [
+     "b0176"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4361,
+    "line_start": 4317,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "东汉后期人，书写《熹平石经》；官方将七种儒家经典约20余万字由蔡邕书写，刻在46块石碑上作为标准，树立于洛阳太学门外。",
+   "title": "蔡邕",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-123",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4344-L4344"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "notes": "又称三体石经。",
+    "period": "三国魏正始年间",
+    "title": "《正始石经》"
+   },
+   "proposed_slug": "zheng-shi-shi-jing",
+   "source_span": {
+    "block_ids": [
+     "b0176"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4344,
+    "line_start": 4344,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "三国魏曹芳正始年间的刻石，因用古文、篆、隶三种书体书写，也称“三体石经”。",
+   "title": "《正始石经》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-90",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4382"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代加蜡处理的黄色名贵纸张，敦煌唐人写经曾使用。",
+    "term": "硬黄纸"
+   },
+   "proposed_slug": "ying-huang-zhi",
+   "source_span": {
+    "block_ids": [
+     "b0177"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4401,
+    "line_start": 4362,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "唐代黄纸中一种加蜡处理的纸，非常名贵；敦煌藏经洞出土的唐人写经中就有这种硬黄纸。",
+   "title": "硬黄纸",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-91",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4390"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "韦诞",
+    "notes": "合墨法见于《齐民要术》，被后世称为制墨祖师。",
+    "period": "三国",
+    "role": "造笔名家、制墨高手"
+   },
+   "proposed_slug": "wei-dan",
+   "source_span": {
+    "block_ids": [
+     "b0177"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4401,
+    "line_start": 4362,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "三国时期既是造笔名家、也是制墨高手；贾思勰《齐民要术》中记载了韦诞的“合墨法”技术，对先前理论予以总结并加以发展，因此韦诞被后世称为制墨祖师。",
+   "title": "韦诞",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-92",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4396",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L7111-L7119"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-10-84"
+   ],
+   "proposed_fields": {
+    "definition": "唐代指端砚、歙砚、鲁砚、澄泥砚；明清指歙砚、端砚、洮砚、澄泥砚。该术语在唐代与明清所指不同。",
+    "term": "四大名砚"
+   },
+   "proposed_slug": "si-da-ming-yan",
+   "source_span": {
+    "block_ids": [
+     "b0177",
+     "b0294"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 7124,
+    "line_start": 4362,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "唐代的砚台不仅仅在石砚中有所发展，而且陶砚为文人普遍使用。制砚业的进步，使得石砚中出现了端砚、歙砚、鲁砚、澄泥砚的四大名砚的说法。明清时期，制砚（采集砚材，雕刻砚台和砚铭）技术明显提高，风格也呈现多样化，歙、端、洮、澄泥砚被誉为“四大名砚”。其中主要的分为浙派、宫作、广作等区域性的制作。",
+   "title": "四大名砚",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T20:07:33+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-02",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4417-L4417"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "唐咸通九年（公元868年）",
+    "title": "《金刚经》"
+   },
+   "proposed_slug": "diamond-sutra-868",
+   "source_span": {
+    "block_ids": [
+     "b0178"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4432,
+    "line_start": 4402,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "1900年敦煌藏经洞出土一卷完整《金刚经》，用雕版印在7张纸上，连接成高1尺、长16尺的佛经。扉页有木刻画，描绘释迦牟尼说法场面。卷尾印“咸通九年四月十五日王玠为二亲敬造普施”，咸通九年即公元868年。",
+   "title": "《金刚经》（咸通九年本）",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-03",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4423-L4423"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "唐代盛期（据武则天新字推断）",
+    "title": "《无垢净光大陀罗尼经》"
+   },
+   "proposed_slug": "wugou-jingguang-dharani-sutra",
+   "source_span": {
+    "block_ids": [
+     "b0178"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4432,
+    "line_start": 4402,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "1966年韩国佛国寺发现《无垢净光大陀罗尼经》，无年代注明，因含武则天在位期间新创的几个文字，推断为唐代盛期印刷品。该经比咸通九年《金刚经》早100余年，用12块木刻雕版印在楮纸上，连成一体，长6.6米、高0.08米。作者称其应为发现最早的印刷品。",
+   "title": "《无垢净光大陀罗尼经》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-04",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4425-L4425"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "约公元800年（据成都府设置推断）",
+    "title": "《陀罗尼经咒》"
+   },
+   "proposed_slug": "tuoluoni-jingzhou",
+   "source_span": {
+    "block_ids": [
+     "b0178"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4432,
+    "line_start": 4402,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "1944年四川成都东门望江楼唐墓出土单页印刷《陀罗尼经咒》，约1尺见方，印在蚕茧纸上。上面绘佛像，大部分是梵文经咒，旁有“成都府成都县龙池坊卞家印卖咒本”字样。因成都府于唐肃宗至德二年设立，作者推断此经咒约在公元800年左右印刷。",
+   "title": "《陀罗尼经咒》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-05",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4427-L4427"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "武则天时期（据新字推断）",
+    "title": "《妙法莲花经》"
+   },
+   "proposed_slug": "miaofa-lianhua-jing",
+   "source_span": {
+    "block_ids": [
+     "b0178"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4432,
+    "line_start": 4402,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "新疆吐鲁番出土过一卷《妙法莲花经》，印在黄麻纸上。其中有武则天时期创造的新字，以欧体字形刻印，与韩国出土《无垢净光大陀罗尼经》风格相同，作者认为可能是同时期印刷品。",
+   "title": "《妙法莲花经》（吐鲁番出土本）",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-06",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4431-L4431"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "长孙皇后",
+    "period": "唐太宗时（传说）",
+    "title": "《女则》"
+   },
+   "proposed_slug": "nvze",
+   "source_span": {
+    "block_ids": [
+     "b0178"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4432,
+    "line_start": 4402,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "原文称传说唐太宗李世民为纪念长孙皇后，雕版印刷了长孙皇后的著述《女则》10卷。作者指出若此事属实，应当是最早的雕版印刷书籍。该条以“传说”限定，未作确证。",
+   "title": "《女则》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-09",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4439-L4439"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "唐玄宗开元年间（713年起）",
+    "publisher": "唐朝官方",
+    "title": "《开元杂报》"
+   },
+   "proposed_slug": "kaiyuan-zabao",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "唐玄宗开元年间即公元713年起，唐朝官方出版中国最早的报纸《开元杂报》。它属政府公文邸报性质，数量不多，但标志印刷术进入新闻领域。",
+   "title": "《开元杂报》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-10",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4443-L4443"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "纸本书籍装成手卷并配置卷轴的装帧形式，受竹简韦编影响。",
+    "term": "卷轴装"
+   },
+   "proposed_slug": "scroll-binding",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "卷轴装是东汉后期纸抄本书籍的装帧形式，受韦编竹简影响。隋唐时期僧人写经与文人抄本多装潢成手卷，并开始配置卷轴。敦煌藏经洞文书中的卷轴实物可为佐证。",
+   "title": "卷轴装",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-11",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4457-L4457"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "书衣，麻布里、丝织面，常以10卷或15卷为一帙，后演变为书函或书套。",
+    "term": "帙"
+   },
+   "proposed_slug": "zhi-book-wrapper",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "《说文解字》称“帙，书衣也”。帙以麻布为里、丝织品为面，常以10卷或15卷为一帙，后演变为书函或书套。",
+   "title": "帙",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-12",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4463-L4467"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "将佛经卷折叠成一定宽度，前后用硬纸或木板夹护并裱糊书皮的装帧形式。",
+    "term": "经折装"
+   },
+   "proposed_slug": "jingzhe-binding",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "经折装即折子装，是受卷轴装和梵夹装影响发展起来的书籍装帧形式。它出现于唐代末年，将佛经卷折叠成一定宽度，前后用硬纸或木板夹护，并用硬纸木板裱糊成书皮，便于经卷阅读。",
+   "title": "经折装",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-13",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4463-L4465"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "隋朝从印度传入的佛经装帧，以木板或竹板夹贝多树叶写经并以绳穿串。",
+    "term": "梵夹装"
+   },
+   "proposed_slug": "fanjia-binding",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "梵夹装也称梵荚装，荚是册的意思。它于隋朝从印度传入，将在贝多树叶上抄写的佛经以木板或竹板夹之，并用绳子穿串在一起。",
+   "title": "梵夹装",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-14",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4469-L4469"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "单页折成双面文字后从右向左排压、留边检索，并装裱于长纸可卷起的装帧形式，又称龙鳞装。",
+    "term": "旋风装"
+   },
+   "proposed_slug": "xuanfeng-binding",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "旋风装是吸收经折装和卷轴装优点的特殊书籍装帧形式，多用于音韵类工具书。它将单页折成双面文字，从右向左排压，后一页置于前一页下面并留出书页边以便检索，状如鱼鳞或旋风；所有书页装裱在一张长纸上，可卷成卷轴。有人也称其为“龙鳞装”。",
+   "title": "旋风装",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-15",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4469-L4469"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "period": "唐抄本",
+    "title": "《王仁昫刊谬补缺切韵》"
+   },
+   "proposed_slug": "wang-renxu-qieyun",
+   "source_span": {
+    "block_ids": [
+     "b0179"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4476,
+    "line_start": 4433,
+    "section": "第三节 印刷与书籍"
+   },
+   "summary": "故宫博物院现藏唐抄本《王仁昫刊谬补缺切韵》，是典型的旋风装书籍。原文以此书说明旋风装的形制。",
+   "title": "《王仁昫刊谬补缺切韵》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-19",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4481-L4481"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代江东犁，以短曲辕代替直长辕，一牛耕犁，犁架变小、深浅自如。",
+    "term": "曲辕犁"
+   },
+   "proposed_slug": "quyuan-plow",
+   "source_span": {
+    "block_ids": [
+     "b0181"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4494,
+    "line_start": 4479,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "曲辕犁又称江东犁，是唐代最引人注目的农具。它将汉代以来的直长辕改为短曲辕，改变二牛抬杠方式，演变为一牛耕犁的简便方式。曲辕犁改变犁辕、犁箭、犁梢、犁底的模式，使犁架变小、操作简便、深浅自如，奠定后来犁具的基础。",
+   "title": "曲辕犁",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-20",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4483-L4486"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "利用水流冲力转动木轮、以轮上小水桶提水至高处的灌溉工具。",
+    "term": "筒车"
+   },
+   "proposed_slug": "tongche-waterwheel",
+   "source_span": {
+    "block_ids": [
+     "b0181"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4494,
+    "line_start": 4479,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "筒车是唐代出现的大型提水灌溉工具，又称水转筒车。它以竹木制作木轮，架在水边木架中，使木轮下部浸入水中，利用河水冲力转动木轮。轮上小水桶携水从低处转到高处，注入高处水渠。",
+   "title": "筒车",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-21",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4493-L4493"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "陆龟蒙",
+    "period": "唐",
+    "title": "《耒耜经》"
+   },
+   "proposed_slug": "leisi-jing",
+   "source_span": {
+    "block_ids": [
+     "b0181"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4494,
+    "line_start": 4479,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "《耒耜经》作者陆龟蒙（？—约881年），姑苏人，唐代著名诗人，与皮日休齐名并称“皮陆”。该书是中国最早记载和研究农具的书籍。书中记录爬（耙）、砺、夯等农具及其碎土、除草、平整土地的功能。",
+   "title": "《耒耜经》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-24",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4506-L4510"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "有靠背、扶手的木制坐具，隋唐时期广泛使用并改变中原席地而坐的习惯。",
+    "term": "椅子"
+   },
+   "proposed_slug": "chair",
+   "source_span": {
+    "block_ids": [
+     "b0182"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4531,
+    "line_start": 4495,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "隋唐时期家具中最重要的现象是出现椅子。椅子从西域渐入中原，随佛教文化传播成为生活家具，先为高僧说法宝座，后由上流社会转入民间。椅本意为倚，多以木制，提升身体重心、改变盘跪箕坐姿，靠背、扶手、脚踏可分散体重。隋唐椅子经中原文化改造，唐高元圭墓壁画所见制器粗壮、简洁古朴。",
+   "title": "椅子",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-25",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4512-L4512"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "背部和坐面为绳索、多有扶手的坐具，唐代僧侣社会常见，后世俗化并与椅子融合。",
+    "term": "绳床"
+   },
+   "proposed_slug": "shengchuang",
+   "source_span": {
+    "block_ids": [
+     "b0182"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4531,
+    "line_start": 4495,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "绳床坐面近乎胡床的绳状坐面，但不像胡床可折叠；有椅子造型而背部、坐面为绳索，多有扶手，是唐代僧侣社会常见之物。后来世俗生活也使用绳床并中原化，加入竹木衬板；五代以后江南有竹制绳床，为寻常家庭坐具。后人有时将绳床与椅子混为一谈，宋以后二者渐渐融合。",
+   "title": "绳床",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-27",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4516-L4518"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "无背无扶手的坐具，南北朝起以杌凳联称，隋唐广泛用于世俗社会。",
+    "term": "杌凳"
+   },
+   "proposed_slug": "wudeng-stool",
+   "source_span": {
+    "block_ids": [
+     "b0182"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4531,
+    "line_start": 4495,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "床榻前的踏登后成为“凳”，“机”本有树桩之意，魏晋以来成为坐具；因凳与机形接近，南北朝起以“杌凳”联称。隋唐高足坐具流行，杌凳无背无扶手而区别于椅子，广泛用于世俗社会。唐画中杌凳形象很多，张萱《捣练图》、周昉《簪花仕女图》中杌凳为妇女常备坐具，并有高凳、矮凳、方凳、圆凳、半圆凳等造型。",
+   "title": "杌凳",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-32",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4535-L4541"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐高祖武德四年始铸的圆形方孔钱，废铢制、行十进位，钱成为重量单位。",
+    "term": "开元通宝"
+   },
+   "proposed_slug": "kaiyuan-tongbao",
+   "source_span": {
+    "block_ids": [
+     "b0183"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4565,
+    "line_start": 4532,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "开元通宝是唐代新型币制：唐高祖武德四年（公元621年）废五铢钱，铸造“开元通宝”，意即新世开元、流通宝货。它以一枚为一钱、十枚为一两，废除铢制，改为厘、分、钱、两的十进位计算，钱成为固定重量单位。通宝钱以朝代年号为文字标志，仍为圆形方孔制，从唐至清末共流通1290年。",
+   "title": "开元通宝",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-33",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4552-L4552"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代商人存钱于钱庄后书写、由收款者凭以支取现钱的交易凭证。",
+    "term": "书帖"
+   },
+   "proposed_slug": "shutie",
+   "source_span": {
+    "block_ids": [
+     "b0183"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4565,
+    "line_start": 4532,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "书帖是唐代类似支票的金融交易凭证。各地商人将钱币存入西市钱庄，购货时书写列明交易账目与款项的书帖，由收款者到钱庄凭书帖支取现钱。",
+   "title": "书帖",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-34",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4554-L4554"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代商人异地存钱领凭证、返乡凭证取现的汇兑方式，具早期汇票性质。",
+    "term": "飞钱"
+   },
+   "proposed_slug": "feiqian",
+   "source_span": {
+    "block_ids": [
+     "b0183"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4565,
+    "line_start": 4532,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "飞钱是唐代类似汇票的金融交易方式，其出现是由于地方政府要保障本阜商人利益。唐宪宗年间（公元806—820年），有些地方政府在京城设进奏院（原文作“进凑院”），商人将钱币存入并领取凭证，返乡后向当地政府凭证领取现钱。作者称这是早期汇票性质的金融流通，多少有些纸币的意思。",
+   "title": "飞钱",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-38",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4570-L4570"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "测绘星象、制定历法的仪器，唐代有浑天黄道铜仪等改进形式。",
+    "term": "浑仪"
+   },
+   "proposed_slug": "hunyi",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4575,
+    "line_start": 4566,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "浑仪是测绘星象、制定历法的仪器。唐代李淳风改造北魏铁浑仪，于公元633年制成浑天黄道铜仪；僧一行与梁令瓒在公元725年进一步改进浑仪，使之完备精准。",
+   "title": "浑仪",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-39",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4572-L4572"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "天文仪器",
+    "designer": "僧一行、梁令瓒",
+    "period": "唐",
+    "title": "水运浑天仪（水运浑象）"
+   },
+   "proposed_slug": "water-powered-armillary",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4575,
+    "line_start": 4566,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "僧一行和梁令瓒改造张衡的水运浑象，“注水激轮，令其自转，一日一夜，天转一周”，并安装自动报时器，成为原始天文钟。它既能表示天象又能记时，作者称其为真正意义的机械钟，较早期刻漏先进。后因缺乏保养，铜铁材料生锈而无法继续转动。",
+   "title": "水运浑天仪（水运浑象）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-40",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4570-L4570"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "李淳风",
+    "period": "唐",
+    "role": "浑仪改造者"
+   },
+   "proposed_slug": "li-chunfeng",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4575,
+    "line_start": 4566,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "李淳风是唐代改造浑仪的官员。他对北魏铁浑仪进行改造，于公元633年制成浑天黄道铜仪，《新唐书·方技列传》称其“诋摭前世得失”。",
+   "title": "李淳风",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-41",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4570-L4572"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "僧一行",
+    "period": "唐",
+    "role": "天文学家、历法制定者"
+   },
+   "proposed_slug": "seng-yixing",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4575,
+    "line_start": 4566,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "僧一行是唐代改进浑仪、水运浑象并制定大衍历的人物。他与梁令瓒在公元725年进一步改进浑仪，使之完备精准；又改造张衡水运浑象并安装自动报时器。他在浑仪测量基础上制定大衍历，对太阳运行作了正确描述。",
+   "title": "僧一行",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-42",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4574-L4574"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "韩志和",
+    "period": "唐",
+    "role": "工匠"
+   },
+   "proposed_slug": "han-zhihe",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4575,
+    "line_start": 4566,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "韩志和是唐代传说中制作飞行器的工匠。传说他制作的飞行器能飞到100尺高空，飞行距离达450尺，作者称为中国早期第一次对飞行原理的实践。他还能制作飞动的龙床、飞鹤等器具。",
+   "title": "韩志和",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-199",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4574-L4574"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "contribution": "探索飞行原理，参照老鹰飞行姿势，以牛皮革和枣木制作飞行器，腹部安置动力器械，未见实施。",
+    "name": "葛洪",
+    "period": "东晋"
+   },
+   "proposed_slug": "ge-hong",
+   "source_span": {
+    "block_ids": [
+     "b0184"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4574,
+    "line_start": 4574,
+    "section": "第四节 农具与家具"
+   },
+   "summary": "葛洪是东晋时期探索飞行原理的人物。他参照老鹰飞行的姿势，利用牛皮革和枣木制成飞行器，在腹部安置动力器械，但未见实施。",
+   "title": "葛洪",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-45",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4580-L4580"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "有机架、经面、脚踏提综板的织布机，汉画像已见，隋唐改进后流传至现代北方乡村。",
+    "term": "斜织机"
+   },
+   "proposed_slug": "slant-loom",
+   "source_span": {
+    "block_ids": [
+     "b0186"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4599,
+    "line_start": 4578,
+    "section": "第五节 纺织与服饰"
+   },
+   "summary": "斜织机是织布机的一种，汉画像中已明确出现，如江苏铜山等地汉画像中的斜织机，有机架、经面、脚踏提综板。斜织机经隋唐工匠改进，构造已非常合理，一直流传到现代北方乡村。",
+   "title": "斜织机",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-47",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4590-L4590"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "抽丝工具，战国已有手摇轱辘雏形，唐代手摇缫车广泛使用。",
+    "term": "缫车"
+   },
+   "proposed_slug": "saoche-reeling",
+   "source_span": {
+    "block_ids": [
+     "b0186"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4599,
+    "line_start": 4578,
+    "section": "第五节 纺织与服饰"
+   },
+   "summary": "缫车是用来抽丝的工具，战国出现手摇轱辘的缫车雏形。唐代手摇缫车广泛使用，陆龟蒙诗“每和烟雨掉缫车”、王建诗“檐头索索缫车鸣”描写缫车劳作与机器响声。",
+   "title": "缫车",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-48",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4594-L4594"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "纱质印染，包括绞缬、夹缬、蜡缬、介质印花等工艺。",
+    "term": "花纱"
+   },
+   "proposed_slug": "huasha",
+   "source_span": {
+    "block_ids": [
+     "b0186"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4599,
+    "line_start": 4578,
+    "section": "第五节 纺织与服饰"
+   },
+   "summary": "花纱指在纱质中的印染，出现绞缬、夹缬、蜡缬、介质印花等技术。绞缬将素绸扎染，夹缬用镂刻印板夹素绸印制，蜡缬用竹签沾蜡绘图案后浸染漂洗，介质印花用碱剂、媒剂及清除媒染剂印花。这些印染技术沿传至今，成为手工印染特色。",
+   "title": "花纱",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-53",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4610-L4610"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代男子圆领紧袖常服，以服色、腰带材质区分品级。",
+    "term": "袍衫"
+   },
+   "proposed_slug": "paoshan",
+   "source_span": {
+    "block_ids": [
+     "b0188"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4621,
+    "line_start": 4604,
+    "section": "第五节 纺织与服饰"
+   },
+   "summary": "袍衫是唐代男子常服，圆领紧袖，受北方游牧民族骑射风俗影响。文官袍衫长遮脚面，武官仅过膝下；以服色区别等级，皇帝黄色，官员紫、绯、绿、青，腰配金、玉、银腰带，称“品色衣”；庶民多为白衣，士兵多为皂衣。",
+   "title": "袍衫",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-54",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4618-L4618"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "盛唐妇女模仿西域服饰的装束，翻领细袖上衣、卷沿胡帽等。",
+    "term": "胡装"
+   },
+   "proposed_slug": "huzhuang",
+   "source_span": {
+    "block_ids": [
+     "b0188"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4621,
+    "line_start": 4604,
+    "section": "第五节 纺织与服饰"
+   },
+   "summary": "胡装是盛唐妇女受西域服饰影响的装束，常着翻领细袖上衣、戴卷沿胡帽。波斯、印度等地服饰成为唐朝妇女模仿对象，《旧唐书·舆服志》称“贵人御馔，尽供胡食，士女皆竟衣胡服”“开元初，从驾宫人骑马者，皆著胡帽”。元稹诗称“女为胡妇学胡装，伎进胡音务胡乐”，长安一时胡汉合一。",
+   "title": "胡装",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-57",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4626-L4628"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "关中渭北的唐代帝王陵墓群，18座帝陵以山为陵，另有大量陪葬墓。",
+    "term": "唐陵"
+   },
+   "proposed_slug": "tang-mausoleums",
+   "source_span": {
+    "block_ids": [
+     "b0190"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4651,
+    "line_start": 4624,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "唐陵是关中平原渭河北面山地的唐朝帝王陵墓群，共有18座帝王陵及大量王公贵族陪葬墓。从唐太宗开始，唐代帝王以山为陵，陵墓宏构巨制；地表有庞大建筑，甬道两旁有石刻立像、碑石，地下有宏大墓室。唐陵尚未发掘，仅部分陪葬墓被发掘，揭示地宫的一般类型。",
+   "title": "唐陵",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-60",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4646-L4646",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4659-L4662"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "陵墓石刻",
+    "location": "昭陵；现存西安碑林及美国费城",
+    "period": "唐",
+    "title": "昭陵六骏"
+   },
+   "proposed_slug": "zhaoling-six-steeds",
+   "source_span": {
+    "block_ids": [
+     "b0190",
+     "b0191"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4675,
+    "line_start": 4624,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "昭陵六骏是立于昭陵的六件高浮雕马像，现存西安碑林四座，1914年被贩运出的两座现藏美国费城宾夕法尼亚大学博物馆。六骏分三组：奔驰的什伐赤、青骓、白蹄乌，行走的拳毛騧、特勒骠，站立的飒露紫。它们本是唐太宗坐骑，唐太宗诏令阎立本绘样、亲自题辞，欧阳询书写，刻工镌刻成高浮雕。",
+   "title": "昭陵六骏",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-61",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4650-L4650"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "陵墓石刻",
+    "period": "唐",
+    "title": "顺陵走狮"
+   },
+   "proposed_slug": "shunling-walking-lion",
+   "source_span": {
+    "block_ids": [
+     "b0190"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4651,
+    "line_start": 4624,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "顺陵走狮是唐陵石刻之一，作者评为高古磅礴、慑人心魄。原文仅以此一句提及，未说明其尺寸、材质与具体位置。",
+   "title": "顺陵走狮",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-67",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4664-L4666"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "佛教造像",
+    "location": "洛阳龙门奉先寺",
+    "material": "石",
+    "period": "唐",
+    "title": "卢舍那大佛"
+   },
+   "proposed_slug": "lushena-buddha",
+   "source_span": {
+    "block_ids": [
+     "b0191"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4675,
+    "line_start": 4652,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "卢舍那大佛是奉先寺中央主尊，通高约17米，形态安详、面容端庄；卢舍那是代表智慧的佛身。大佛两边依次为佛弟子、菩萨，左右两面为护法天王、力士，形成智慧与力量的对比，也使整体布局有跌宕起伏的韵律。作者称其以宏大饱满的气魄、雍容高贵的形象，召唤着世俗社会的精神向往。",
+   "title": "卢舍那大佛",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-71",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4681-L4683"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "佛教造像",
+    "location": "四川乐山凌云山",
+    "material": "山体摩崖石刻",
+    "period": "唐",
+    "title": "乐山大佛"
+   },
+   "proposed_slug": "leshan-buddha",
+   "source_span": {
+    "block_ids": [
+     "b0192"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4686,
+    "line_start": 4676,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "乐山大佛地处四川乐山，缘起于唐代开元年间海通和尚的舍身开凿，前后用90年时间，依山造像，高达71米，为古代社会第一大佛。大佛位于岷江、大渡河、青衣江三江汇流之地的凌云山摩崖，身披袈裟、袒胸倚坐、面目和蔼、法相庄严。",
+   "title": "乐山大佛",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-72",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4681-L4683"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "海通和尚",
+    "period": "唐开元年间",
+    "role": "乐山大佛开凿发起者"
+   },
+   "proposed_slug": "haitong-monk",
+   "source_span": {
+    "block_ids": [
+     "b0192"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4686,
+    "line_start": 4676,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "海通和尚是唐代发起开凿乐山大佛的僧人。传说他见三江汹涌、舟船翻覆，立志造像以惕世人；化缘时遭州官戏弄，不惜手抠双目以明心志，历经数十年精诚不移，终于凿成大佛。",
+   "title": "海通和尚",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-75",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4701-L4701"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以图像表现佛教经典与活动场面的形式，唐代敦煌经变趋向丰满华丽、世俗欢愉。",
+    "term": "经变"
+   },
+   "proposed_slug": "jingbian",
+   "source_span": {
+    "block_ids": [
+     "b0193"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4723,
+    "line_start": 4687,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "经变是唐代莫高窟表现佛教活动场面的艺术形式。唐代经变改变北朝画风苦涩沉重的面貌，将秀骨清像演变为丰满华丽，充满人间欢乐情趣；从大量经变故事中可见西方极乐世界“净土”里的人们有着东土大唐社会的欢愉。",
+   "title": "经变",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-76",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4705-L4705"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以敦煌莫高窟文献文物为学术基础的现代学科。",
+    "term": "敦煌学"
+   },
+   "proposed_slug": "dunhuang-studies",
+   "source_span": {
+    "block_ids": [
+     "b0193"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4723,
+    "line_start": 4687,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "敦煌学是以莫高窟保存的唐代社会文献等文物为学术基础的现代学科。这些珍贵文物经近代西方学者发掘和利用，引起中国学术界高度重视，成为现代“敦煌学”的学术基础。",
+   "title": "敦煌学",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-79",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4726-L4726"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "material": "石",
+    "period": "隋开皇六年（公元586年）",
+    "title": "《龙藏寺碑》"
+   },
+   "proposed_slug": "longzang-temple-stele",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《龙藏寺碑》是隋代碑刻，立于开皇六年（公元586年）。它有“整密瘦健”“一线之延”的评语，笔力沉着、方正得体，俗称“隋碑第一”，对初唐虞世南、褚遂良书风的形成起到一定作用。",
+   "title": "《龙藏寺碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-80",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4728-L4728"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "designer": "欧阳询",
+    "period": "唐贞观六年（公元632年）",
+    "title": "《九成宫醴泉铭》"
+   },
+   "proposed_slug": "jiucheng-palace-spring-inscription",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《九成宫醴泉铭》是欧阳询的唐代碑刻，立于贞观六年（公元632年），为欧阳询75岁作品，奉唐太宗之诏而书。其书笔力刚劲、峻利凝重、法度严谨，有唐楷之冠的称誉。",
+   "title": "《九成宫醴泉铭》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-81",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4728-L4728"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "designer": "虞世南",
+    "period": "唐武德九年（公元629年）",
+    "title": "《夫子庙堂碑》"
+   },
+   "proposed_slug": "fuzimiao-tang-stele",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《夫子庙堂碑》是虞世南的唐代碑刻，立于武德九年（公元629年）。其书方中见圆、平中见奇、笔力秀健、精气饱满。",
+   "title": "《夫子庙堂碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-82",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4728-L4728"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "designer": "褚遂良",
+    "period": "唐",
+    "title": "《雁塔圣教序》"
+   },
+   "proposed_slug": "yanta-sacred-edict",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《雁塔圣教序》是褚遂良奉唐太宗之命书写的唐代碑刻。其书婉媚遒逸、波拂如铁。",
+   "title": "《雁塔圣教序》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-83",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4728-L4728"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "designer": "李邕",
+    "period": "原文记开元十八年（公元703年）",
+    "title": "《麓山寺碑》"
+   },
+   "proposed_slug": "lushan-temple-stele",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《麓山寺碑》是李邕的唐代碑刻，有“李北海第一”的说法，其书天姿矫健、英华高卓。原文记其为开元十八年所立并注“公元703年”，年号纪年与公历年份不一致，需人工核对。",
+   "title": "《麓山寺碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-84",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4734-L4734"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "颜真卿",
+    "period": "唐",
+    "role": "书法家、官员"
+   },
+   "proposed_slug": "yan-zhenqing",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "颜真卿是唐代开元进士，曾任平原太守，封鲁郡开国公，为人忠烈、刚直不阿。其书法石刻有《多宝塔》《颜勤礼碑》《麻姑仙坛记》《东方朔画赞》《大唐中兴颂》等，数量众多、结体丰厚、气象磅礴、雄伟壮美。作者评为唐代书法的最高峰。",
+   "title": "颜真卿",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-85",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4736-L4736"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "柳公权",
+    "period": "唐",
+    "role": "书法家"
+   },
+   "proposed_slug": "liu-gongquan",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "柳公权是唐代书法家，以《玄秘塔碑》《神策军碑》等闻名于世。其书刚劲饱满、工稳清晰，与颜真卿书法并称“颜筋柳骨”。",
+   "title": "柳公权",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-86",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4734-L4736"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "颜真卿与柳公权书法的并称，概括颜书丰厚雄伟、柳书刚劲工稳的风格。",
+    "term": "颜筋柳骨"
+   },
+   "proposed_slug": "yan-jin-liu-gu",
+   "source_span": {
+    "block_ids": [
+     "b0194"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4737,
+    "line_start": 4724,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "颜筋柳骨是对颜真卿与柳公权书法并称的品评用语。颜书结体丰厚、气象磅礴、雄伟壮美，柳书刚劲饱满、工稳清晰，二者并称“颜筋柳骨”。",
+   "title": "颜筋柳骨",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-99",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4746-L4746"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代制瓷南方的青瓷与北方的白瓷并立的技术与风格格局。",
+    "term": "南青北白"
+   },
+   "proposed_slug": "nanqing-beibai",
+   "source_span": {
+    "block_ids": [
+     "b0195"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4779,
+    "line_start": 4738,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "南青北白是唐代制瓷业在制作技术和风格上的区分。“南青”指以越窑为代表的青瓷特色，“北白”指以邢窑为代表的白瓷。",
+   "title": "南青北白",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-204",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4740-L4741"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "菩萨身躯（图6-56）",
+    "note": "图6-56图注；正文未展开说明，图版未视觉核验。",
+    "period": "唐",
+    "type": "佛教造像"
+   },
+   "proposed_slug": "bodhisattva-torso-figure-6-56",
+   "source_span": {
+    "block_ids": [
+     "b0195"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4741,
+    "line_start": 4740,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "菩萨身躯是唐代佛教造像，见图6-56图注“唐 菩萨身躯”；正文未展开说明其形制、材质与出处，图版未视觉核验。",
+   "title": "菩萨身躯（图6-56）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-203",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4743-L4744"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "《纪泰山铭》",
+    "note": "图6-57图注；正文未展开说明，图版未视觉核验。",
+    "period": "唐",
+    "type": "碑刻"
+   },
+   "proposed_slug": "ji-taishan-inscription",
+   "source_span": {
+    "block_ids": [
+     "b0195"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4744,
+    "line_start": 4743,
+    "section": "第六节 雕刻与陶瓷"
+   },
+   "summary": "《纪泰山铭》是唐代碑刻，见图6-57图注“唐 纪泰山铭”；正文未展开说明其形制、书者与内容，图版未视觉核验。",
+   "title": "《纪泰山铭》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-104",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4792-L4792"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "金银器",
+    "location": "何家村出土",
+    "material": "银",
+    "period": "唐",
+    "title": "镂空银熏球"
+   },
+   "proposed_slug": "openwork-silver-incense-burner",
+   "source_span": {
+    "block_ids": [
+     "b0197"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4797,
+    "line_start": 4782,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "镂空银熏球是何家村出土的唐代金银器。其上下为两个半圆，透雕飞鸟及葡萄纹饰，中心有两个同心圆机环，机环中还有轴承环的香盂；香盂总是处在平衡位置，不因晃动而倾斜。作者称其为精心构思的杰作，其设计技艺是对汉代“被中香炉”的进一步发展。",
+   "title": "镂空银熏球",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-106",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4792-L4792",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4784-L4785"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "金银器",
+    "location": "何家村出土",
+    "material": "银",
+    "period": "唐",
+    "title": "金花鹦鹉提梁银罐"
+   },
+   "proposed_slug": "gold-flower-parrot-silver-jar",
+   "source_span": {
+    "block_ids": [
+     "b0197"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4797,
+    "line_start": 4782,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "金花鹦鹉提梁银罐是何家村出土的唐代金银器之一，正文仅列其名，未描述形制与工艺。图版题名为“唐 金花鹦鹉提梁银罐”。",
+   "title": "金花鹦鹉提梁银罐",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-107",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4792-L4792",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4787-L4788"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "金银器",
+    "location": "何家村出土",
+    "material": "银",
+    "period": "唐",
+    "title": "金花八曲银杯"
+   },
+   "proposed_slug": "gold-flower-eight-lobed-silver-cup",
+   "source_span": {
+    "block_ids": [
+     "b0197"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4797,
+    "line_start": 4782,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "金花八曲银杯是何家村出土的唐代金银器之一，正文仅列其名，未描述形制与工艺。图版题名为“唐 金花八曲银杯”。",
+   "title": "金花八曲银杯",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-108",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4792-L4792"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代香炉，为唐代熏球平衡机环设计的前身。",
+    "term": "被中香炉"
+   },
+   "proposed_slug": "han-dynasty-bed-incense-burner",
+   "source_span": {
+    "block_ids": [
+     "b0197"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4797,
+    "line_start": 4782,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "被中香炉是汉代出现的一种香炉。唐代镂空银熏球的设计技艺，被视为对被中香炉的进一步发展。",
+   "title": "被中香炉",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-118",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4843-L4845"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "又称灯彩，元宵节挂灯观赏的民俗活动与灯具样式。",
+    "term": "花灯"
+   },
+   "proposed_slug": "huadeng-lantern",
+   "source_span": {
+    "block_ids": [
+     "b0199"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4848,
+    "line_start": 4816,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "花灯又叫灯彩，是挂灯观赏的民俗活动，属汉代以来元宵节（农历正月十五日）习俗。相传汉文帝登基之日为正月十五，此日成为纪念日，正月十五称“上元”，上元之夜为“元宵”。佛教进入中原后亦以元宵燃灯为佛事；盛唐上元灯节灯火辉煌、君民同乐，制作灯具成为民俗风气，鱼灯、龙灯、灯楼等样式衬托出盛世繁荣。",
+   "title": "花灯",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-119",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4847-L4847"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代彩灯，以灯光热气流推动灯罩内人物马形流转。",
+    "term": "走马灯"
+   },
+   "proposed_slug": "zouma-lantern",
+   "source_span": {
+    "block_ids": [
+     "b0199"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4848,
+    "line_start": 4816,
+    "section": "第七节 金银器与铜镜"
+   },
+   "summary": "走马灯是唐代出现的一种彩灯。它利用灯光产生的热气流，推动灯罩内人物马形流转，产生光怪陆离的灯影效果。",
+   "title": "走马灯",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-129",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4890-L4890"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代少府和将作监除固定工匠之外的按期服役人员，即在家为官府加工的人员；其中在家纺织者需按期提交纺织成品。",
+    "term": "短番匠"
+   },
+   "proposed_slug": "duanfan-artisan",
+   "source_span": {
+    "block_ids": [
+     "b0202"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4909,
+    "line_start": 4879,
+    "section": "第八节 设计行业管理"
+   },
+   "summary": "短番匠是唐代少府和将作监除固定工匠之外的按期服役人员，即在家为官府加工的人员。其中在家纺织者需按期向官府提交纺织成品，王建诗“一匹千金亦不卖，限日未成宫里怪”即指在家纺织者；民间作坊中也有被官府淘汰的年老体衰工匠。",
+   "title": "短番匠",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-130",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4904-L4904"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代行业领袖，由身服徭役的商人担任。",
+    "term": "行头"
+   },
+   "proposed_slug": "hangtou",
+   "source_span": {
+    "block_ids": [
+     "b0202"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4909,
+    "line_start": 4879,
+    "section": "第八节 设计行业管理"
+   },
+   "summary": "行头是唐代行业的领袖，是身服徭役的商人。与之相关的有行肆、牙人：肆指店铺，行指同行业，牙人相当于经纪人；这些是民间自由贸易的标志。",
+   "title": "行头",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-131",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4894-L4894"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "李肇",
+    "period": "唐",
+    "title": "《国史补》"
+   },
+   "proposed_slug": "guoshi-bu",
+   "source_span": {
+    "block_ids": [
+     "b0202"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4909,
+    "line_start": 4879,
+    "section": "第八节 设计行业管理"
+   },
+   "summary": "《国史补》是唐代李肇的著作。书中记载越州妇女本来不会织布，浙江东道节度使出钱让未婚士兵到北方娶回会纺织的媳妇，每年使数百名北方纺织巧手来到南方，促进了浙江地区民间纺织业发展。",
+   "title": "《国史补》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-132",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4900-L4900"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "唐代民间私营纺织业技术中的名目之一，与八棱绫、轻容、轻绢、红线毯、桂管等并列；原文未逐一说明其材质。",
+    "term": "缭绫"
+   },
+   "proposed_slug": "liaoling",
+   "source_span": {
+    "block_ids": [
+     "b0202"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4909,
+    "line_start": 4879,
+    "section": "第八节 设计行业管理"
+   },
+   "summary": "缭绫是唐代民间私营纺织业技术中的名目之一，与八棱绫、轻容、轻绢、红线毯、桂管等并列；原文未逐一说明这些名目的材质。",
+   "title": "缭绫",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-205",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4916-L4917"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "唐三彩骆驼乐伎俑",
+    "note": "图6-73图注；正文未展开说明，图版未视觉核验。",
+    "period": "唐",
+    "type": "唐三彩明器"
+   },
+   "proposed_slug": "sancai-camel-musician",
+   "source_span": {
+    "block_ids": [
+     "b0203"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4917,
+    "line_start": 4916,
+    "section": "第九节 结论"
+   },
+   "summary": "唐三彩骆驼乐伎俑是唐代唐三彩器物，见图6-73图注；正文未展开说明其形制、尺寸与出土地点，图版未视觉核验。",
+   "title": "唐三彩骆驼乐伎俑",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-07-206",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4919-L4920"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "乾陵翼马",
+    "note": "图6-74图注；正文未展开说明，图版未视觉核验。",
+    "period": "唐",
+    "type": "陵墓石刻"
+   },
+   "proposed_slug": "qianling-winged-horse",
+   "source_span": {
+    "block_ids": [
+     "b0203"
+    ],
+    "chapter": "第六章 繁盛的浮华——隋唐时期的设计",
+    "line_end": 4920,
+    "line_start": 4919,
+    "section": "第九节 结论"
+   },
+   "summary": "乾陵翼马是唐乾陵的陵墓石刻，见图6-74图注；正文未展开说明其形制与尺寸，图版未视觉核验。",
+   "title": "乾陵翼马",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ }
+]

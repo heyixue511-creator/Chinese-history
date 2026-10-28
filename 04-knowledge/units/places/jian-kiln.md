@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "建窑是 B 维度下宋代黑釉瓷窑与茶器条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "宋代黑釉茶器窑口；供御与进盏款识是民窑贡瓷的直接物证"
+hierarchy_scope_note: "宋代黑釉茶器窑口；供御与进盏款识是民窑贡瓷的直接物证"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "建窑是 B 维度下宋代黑釉瓷窑与茶器条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 建窑是 B 维度下宋代黑釉瓷窑与茶器条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 宋代黑釉茶器窑口；供御与进盏款识是民窑贡瓷的直接物证
 ## 相关知识元
 
 `places/jizhou-kiln.md`、`terms/ge-yao.md` 为同时代名窑条目；relation 未审查。

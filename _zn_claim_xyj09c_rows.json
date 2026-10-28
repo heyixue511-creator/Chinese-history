@@ -1,0 +1,439 @@
+[
+  {
+    "claim_id": "claim-0103",
+    "statement_zh": "夏燕靖认为，秦代冶铁业属官营并设有铁官；秦每得一地，必先将该地的冶铁业强迁到秦的大后方或统治稳固的地区，如迁卓氏、程氏于四川，迁孔氏于南阳，其目的是集中控制冶铁业、彻底缴除六国敌对势力的武装；这一措施在客观上使各地冶铁技术得以交流和全面提高。",
+    "statement_en": "Xia Yanjing argues that Qin iron smelting was state-run under iron officials; whenever Qin took a territory it first forcibly relocated that region's iron industry to its rear areas or firmly held regions, for example moving the Zhuo and Cheng clans to Sichuan and the Kong clan to Nanyang, in order to centralize control of iron production and completely disarm the hostile forces of the six states; objectively, this measure allowed iron-smelting techniques from different regions to be exchanged and comprehensively raised.",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1304,
+        "line_end": 1304,
+        "span_kind": "line",
+        "key_lines": [
+          1304
+        ],
+        "block_ids": [
+          "b0181"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "1. 铁制工具的广泛使用"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-06"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/events/qin-qian-yetie-haozu.md",
+      "04-knowledge/units/institutions/qin-gongshi-gongguan.md",
+      "04-knowledge/units/procedures/ye-tie-shu-qi-yuan.md",
+      "04-knowledge/units/terms/iron-farm-tools.md"
+    ],
+    "discussion_notes": "候选跨度 L1302-L1314 覆盖小节标题与“铁器时代”知识框，实际断言集中在 L1304 一段，故取单行并以 b0181 为首证块；“彻底缴除六国敌对势力的武装”是作者对政策目的判断，保留原表述，不写成已证史实。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0104",
+    "statement_zh": "夏燕靖据文献与出土材料指出，铁器尤其是铁农具的使用兴起于春秋，发展于战国、秦朝，至汉代完全占统治地位，这在我国古代冶金史上占有重要的历史地位。",
+    "statement_en": "Citing documents and excavated material, Xia Yanjing states that iron implements, especially iron farm tools, arose in the Spring and Autumn period, developed through the Warring States and Qin, and became fully dominant by the Han; this holds an important place in the history of Chinese metallurgy.",
+    "claim_type": "historiographic_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1329,
+        "line_end": 1331,
+        "span_kind": "contiguous",
+        "key_lines": [
+          1329,
+          1331
+        ],
+        "block_ids": [
+          "b0183"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "1. 铁制工具的广泛使用｜秦汉时期的农具"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-09"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/iron-farm-tools.md",
+      "04-knowledge/units/terms/tieqi-shidai.md",
+      "04-knowledge/units/terms/li-bi.md",
+      "04-knowledge/units/terms/ou-li.md",
+      "04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md",
+      "04-knowledge/units/publications/yantielun.md"
+    ],
+    "discussion_notes": "候选作 periodization，按类型映射路由 historiographic；断言句被图注分隔在 L1329 与 L1331，故记 contiguous 并同时保留两句为 key_lines。犁壁、环首铁刀等例证留在 L1329 前段，未逐项写入断言。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0105",
+    "statement_zh": "夏燕靖认为，秦汉时期虽说铁器已非常普遍，但冶铜业的生产规模仍超过之前的战国，冶铸技术有了进一步提高；此时的青铜器制作开始注重生活化和艺术性，铜器除铜镜、灯、炉及盥洗日用品外，还有印符、度量衡、礼器、乐器和工艺品，其中最大宗的便是铸铜钱。",
+    "statement_en": "Xia Yanjing argues that although iron implements were already very common in the Qin and Han, the scale of copper smelting still exceeded that of the preceding Warring States and casting techniques improved further; bronze production now began to stress everyday use and artistry, and besides mirrors, lamps, braziers and washing vessels, bronzes included seals and tallies, weights and measures, ritual vessels, musical instruments and crafts, with coin casting the largest category.",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1337,
+        "line_end": 1337,
+        "span_kind": "line",
+        "key_lines": [
+          1337
+        ],
+        "block_ids": [
+          "b0185"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "2. 冶铜业与铜器设计｜1）冶铜业的发展与青铜制器的提升"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-10"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/qingtongqi.md",
+      "04-knowledge/units/terms/qingtong-liqi.md",
+      "04-knowledge/units/terms/qin-ban-liang.md",
+      "04-knowledge/units/terms/han-wu-zhu.md",
+      "04-knowledge/units/institutions/shanglin-sanguan.md"
+    ],
+    "discussion_notes": "候选作 interpretation，默认路由 interpretive；候选跨度含 L1333-L1334 的小节标题（b0184），断言本身在 L1337（b0185），故只记 b0185。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0106",
+    "statement_zh": "夏燕靖认为，东汉时期铜镜的镜面微凸，可以照出人面的全部，比前期更符合科学原理。",
+    "statement_en": "Xia Yanjing argues that in the Eastern Han the mirror surface became slightly convex, so that a person's whole face could be reflected, making it more scientifically sound than earlier mirrors.",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1375,
+        "line_end": 1375,
+        "span_kind": "line",
+        "key_lines": [
+          1375
+        ],
+        "block_ids": [
+          "b0188"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "2. 冶铜业与铜器设计｜3）铜器的分类型设计｜① 汉镜"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-15"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/tongjing.md",
+      "04-knowledge/units/terms/hanjing.md",
+      "04-knowledge/units/terms/guijujing.md"
+    ],
+    "discussion_notes": "候选作 interpretation；L1375 同段前半还述西汉平雕、中期规矩镜，断言只取东汉镜面微凸一条，不把三期演变整体并入。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0107",
+    "statement_zh": "夏燕靖指出，“丝绸之路”并非汉代已有的固定名称：1877年德国地理学家李希霍芬在《中国》一书中首次把汉代中国和中亚南部、西部以及印度之间以丝绸贸易为主的交通路线称作“丝绸之路”；1910年德国历史学家赫尔曼在《中国和叙利亚之间的古代丝绸之路》中根据新发现的文物考古资料，进一步把丝绸之路延伸到地中海西岸和小亚细亚，并确定为它的基本内涵。",
+    "statement_en": "Xia Yanjing notes that “Silk Road” was not a fixed name in Han times: in 1877 the German geographer Ferdinand von Richthofen, in his China, first called the mainly silk-trading routes between Han China, southern and western Central Asia, and India the “Silk Road”; in 1910 the German historian Albert Herrmann, in The Ancient Silk Road between China and Syria, extended it on new archaeological evidence to the eastern Mediterranean and Asia Minor and fixed its basic meaning.",
+    "claim_type": "factual_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1411,
+        "line_end": 1411,
+        "span_kind": "line",
+        "key_lines": [
+          1411
+        ],
+        "block_ids": [
+          "b0196"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "3. 丝织、印染与服饰设计｜1）绸织造、印染技术提升与丝绸之路开辟｜知识链接：丝绸之路"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-22"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/sichou-zhilu.md",
+      "04-knowledge/units/events/zhangqian-chushi-xiyu.md"
+    ],
+    "discussion_notes": "候选作 attribution，按类型映射路由 factual；这是学术命名史而非汉代事实，断言以“并非汉代已有的固定名称”限定，避免把近代概念回溯为汉代自称。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0108",
+    "statement_zh": "夏燕靖认为，随着原料和烧造技术的改进，到东汉晚期，浙江地区终于烧制出成熟的青瓷器。",
+    "statement_en": "Xia Yanjing argues that with improvements in raw materials and firing techniques, mature celadon was finally produced in the Zhejiang region by the late Eastern Han.",
+    "claim_type": "historiographic_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1474,
+        "line_end": 1474,
+        "span_kind": "line",
+        "key_lines": [
+          1474
+        ],
+        "block_ids": [
+          "b0203"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "4. 陶瓷设计日臻完善｜1）制陶业的进步与瓷器烧制技术的成熟"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-32"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/qing-ci.md",
+      "04-knowledge/units/terms/proto-porcelain.md",
+      "04-knowledge/units/places/shangyu-yaozhi.md",
+      "04-knowledge/units/places/yue-kiln.md",
+      "04-knowledge/units/works/donghan-qingci-gaozu-wan.md"
+    ],
+    "discussion_notes": "候选作 periodization，路由 historiographic；L1474 同段前半述秦汉官营陶窑与秦砖，断言只取末句的瓷器成熟时点与地域。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0109",
+    "statement_zh": "夏燕靖指出，汉代官府制陶业主要是烧制建筑材料，供宫殿、官府衙门修造之用；民间的砖瓦生产也十分发达，多用于民居和墓室的建造。",
+    "statement_en": "Xia Yanjing states that Han state pottery production was mainly devoted to building materials for palaces and government offices, while private brick-and-tile production was also well developed and mostly used for houses and tomb chambers.",
+    "claim_type": "factual_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1493,
+        "line_end": 1493,
+        "span_kind": "line",
+        "key_lines": [
+          1493
+        ],
+        "block_ids": [
+          "b0204"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "4. 陶瓷设计日臻完善｜2）建筑材料"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-33"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/institutions/qin-han-guan-ying-tao-yao.md",
+      "04-knowledge/units/terms/qin-zhuan-han-wa.md",
+      "04-knowledge/units/terms/tao-wa.md",
+      "04-knowledge/units/terms/wadang.md",
+      "04-knowledge/units/terms/huaxiangzhuan.md"
+    ],
+    "discussion_notes": "候选作 basic_fact，路由 factual；《三国志》“杜陵南山下，有成瓦窑数千处”是支撑例证，未写入主句。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0110",
+    "statement_zh": "夏燕靖认为，汉代漆器的制作特点首先从实用出发，考虑到使用的方便和放置的容积，其次才考虑装饰效果；多子盒即多件盒在一个大圆盒中容纳多种不同形式的小盒，既节省位置又美观协调，是一种集约性的设计。",
+    "statement_en": "Xia Yanjing argues that Han lacquerware making began from practical use, considering convenience of handling and capacity for storage, and only then decorative effect; the multi-compartment box (duozi he) held various small boxes inside one large round box, saving space while remaining visually harmonious—a design of intensive integration.",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1535,
+        "line_end": 1535,
+        "span_kind": "line",
+        "key_lines": [
+          1535
+        ],
+        "block_ids": [
+          "b0209"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "5. 漆器业的兴盛与漆艺设计｜2）漆艺设计的丰富样式"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-41"
+    },
+    "confidence": "medium",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/qi-jiuju-baozhuang-he.md",
+      "04-knowledge/units/procedures/qiqi-mutai-san-zuofa.md",
+      "04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md",
+      "04-knowledge/units/works/wunv-qilian.md"
+    ],
+    "discussion_notes": "候选作 interpretation；“集约性的设计”是作者以现代设计概念回译汉代器物，保留该判断而不改写为当时人的自我表述；云梦9件漆奁的配色例证未并入。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0111",
+    "statement_zh": "夏燕靖把我国造船业的发展概括为三大时期，即秦汉、宋元和明代。",
+    "statement_en": "Xia Yanjing summarizes the development of China's shipbuilding industry as three great periods: the Qin-Han, the Song-Yuan, and the Ming.",
+    "claim_type": "historiographic_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1555,
+        "line_end": 1555,
+        "span_kind": "line",
+        "key_lines": [
+          1555
+        ],
+        "block_ids": [
+          "b0214"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "6. 车船设计水平的提高｜造船业的发展"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-46"
+    },
+    "confidence": "high",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/terms/louchuan.md",
+      "04-knowledge/units/terms/plank-boat.md",
+      "04-knowledge/units/works/zhenghe-baochuan.md",
+      "04-knowledge/units/works/penglai-yuan-zhanshu.md",
+      "04-knowledge/units/terms/sida-chuanxing.md"
+    ],
+    "discussion_notes": "候选作 periodization，路由 historiographic；L1555 后文列举秦船队、汉楼船、隋唐龙舟海船、宋船与郑和宝船，属分期论证，未逐条写入断言。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0112",
+    "statement_zh": "夏燕靖指出，有学者认为广州发掘的一处遗址是秦汉时的造船工场，它有3个造船平台，船台和滑道相结合，在当时已相当先进；据分析，可造宽8米、长30米、载重60吨的船舶。",
+    "statement_en": "Xia Yanjing notes that some scholars regard a site excavated in Guangzhou as a Qin-Han shipyard with three building platforms combining slipways and launch ways, quite advanced for its time; analysis suggests it could build vessels 8 m wide, 30 m long and of 60-ton capacity.",
+    "claim_type": "factual_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1561,
+        "line_end": 1561,
+        "span_kind": "line",
+        "key_lines": [
+          1561
+        ],
+        "block_ids": [
+          "b0215"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "6. 车船设计水平的提高｜2）造船业与船运"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-49"
+    },
+    "confidence": "medium",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/places/guangzhou-qin-han-zaochuan-gongchang-yizhi.md",
+      "04-knowledge/units/institutions/chuangong.md",
+      "04-knowledge/units/terms/louchuan.md",
+      "04-knowledge/units/terms/plank-boat.md"
+    ],
+    "discussion_notes": "候选作 basic_fact，路由 factual；来源以“有学者认为”“据分析”双重限定，断言保留归因，不写成定论。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0113",
+    "statement_zh": "夏燕靖认为，张骞出使西域时在大夏市场上见到从印度转运去的四川竹杖和蜀布，说明巴蜀到印度再到西亚早就存在一条通道，这便是史家按惯例所称的“南方丝绸之路”。",
+    "statement_en": "Xia Yanjing argues that when Zhang Qian went to the Western Regions he saw Sichuan bamboo staffs and Shu cloth in the markets of Daxia, brought there via India, which shows that a route from Ba-Shu through India to West Asia already existed—what historians conventionally call the “Southern Silk Road.”",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1596,
+        "line_end": 1596,
+        "span_kind": "line",
+        "key_lines": [
+          1596
+        ],
+        "block_ids": [
+          "b0219"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "7. 建筑设计与木作业｜3）竹木作业"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-57"
+    },
+    "confidence": "medium",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/persons/zhang-qian.md",
+      "04-knowledge/units/events/zhangqian-chushi-xiyu.md",
+      "04-knowledge/units/terms/sichou-zhilu.md"
+    ],
+    "discussion_notes": "候选作 interpretation；由市场见闻反推通道存在的推论性质保留在“说明”一词，未改写为直接考古证明；“南方丝绸之路”标明为史家惯例称谓。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  },
+  {
+    "claim_id": "claim-0114",
+    "statement_zh": "夏燕靖认为，秦汉时期是我国古代设计理论形成的重要时期，其开始形成的主要特征是文献中出现重皇权以及典章制度制定和执行的记述；汉代“罢黜百家、独尊儒术”后，美学乃至工艺理论中贯穿的主要是儒家的礼教观点。",
+    "statement_en": "Xia Yanjing argues that the Qin-Han was an important period for the formation of ancient Chinese design theory, whose main emerging feature was the appearance in texts of records stressing imperial authority and the making and enforcement of statutes and institutions; after the Han “rejected the Hundred Schools and revered Confucianism alone,” aesthetics and craft theory were pervaded mainly by Confucian ritual doctrine.",
+    "claim_type": "interpretive_claim",
+    "source": {
+      "doc_id": "2009-xiayanjing-zhongguo-shejishi",
+      "source_file": "03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md",
+      "source_span": {
+        "line_start": 1638,
+        "line_end": 1638,
+        "span_kind": "line",
+        "key_lines": [
+          1638
+        ],
+        "block_ids": [
+          "b0223"
+        ],
+        "chapter": "秦汉时期的艺术设计",
+        "section": "9. 秦汉时期的文献典籍中的设计理论"
+      },
+      "candidate_id": "2009-xiayanjing-zhongguo-shejishi:cand-03-63"
+    },
+    "confidence": "medium",
+    "consensus": "tentative",
+    "review_status": "source_backed",
+    "supported_by": [
+      "04-knowledge/units/events/han-wudi-duzun-rushu.md",
+      "04-knowledge/units/terms/li-yue-zhidu.md",
+      "04-knowledge/units/terms/cangli-yuqi.md",
+      "04-knowledge/units/terms/zhiqi-shangxiang.md",
+      "04-knowledge/units/publications/liji.md",
+      "04-knowledge/units/terms/handai-guanzhi.md"
+    ],
+    "discussion_notes": "候选作 interpretation，默认路由 interpretive；本条兼具分期判断，但主语是“设计理论形成的重要时期”及其特征，未改路由 historiographic。董仲舒《春秋繁露》与《后汉书·舆服志》引文留在来源，未逐句写入断言。",
+    "created": "2026-10-27",
+    "updated": "2026-10-27"
+  }
+]

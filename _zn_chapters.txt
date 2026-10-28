@@ -1,0 +1,95 @@
+## None  count=2  L10-L8775
+  cand-01-01 L10-L111 中国艺术设计史（赵农，2009） [publication]
+  cand-01-02 L20-L8775 赵农 [person]
+
+## 导论  count=2  L280-L1577
+  cand-01-06 L280-L357 艺术设计史 [term]
+  cand-01-09 L280-L1577 何尊 [work]
+
+## 第一章 文明的曙光——石器时期的设计  count=43  L360-L4848
+  cand-01-12 L360-L371 石器时期 [term]
+  cand-01-16 L372-L419 弓箭 [term]
+  cand-01-29 L372-L510 女嫘（L416作嫘祖） [person]
+  cand-01-30 L372-L984 仓颉 [person]
+  cand-01-21 L422-L510 伏羲 [person]
+  cand-01-35 L422-L4848 门神 [term]
+
+## 第二章 沉痛的狞厉——夏商西周时期的设计  count=35  L1053-L2279
+  cand-02-25 L1053-L1125 夏历 [term]
+  cand-02-32 L1053-L1217 井田制 [term]
+  cand-02-29 L1053-L1272 盘庚 [person]
+  cand-02-37 L1186-L1217 青铜钱铲 [term]
+  cand-02-88 L1188-L1188 青铜镢 [term]
+  cand-02-89 L1206-L1206 青铜镰 [term]
+
+## 第三章 霸业的冲撞——春秋战国时期的设计  count=60  L1767-L2785
+  cand-03-56 L1767-L1814 春秋战国 [term]
+  cand-03-59 L1767-L1814 尚书·禹贡 [publication]
+  cand-03-69 L1817-L1839 战车 [term]
+  cand-03-70 L1817-L2191 赵武灵王 [person]
+  cand-03-153 L1836-L1836 车戟 [term]
+  cand-03-155 L1836-L1836 酋矛 [term]
+
+## 第四章 统一的气量——秦汉时期的设计  count=79  L2479-L5385
+  cand-04-40 L2479-L2566 秦始皇 [person]
+  cand-04-42 L2479-L2566 汉武帝 [person]
+  cand-04-43 L2479-L2566 董仲舒 [person]
+  cand-04-47 L2479-L2566 班固 [person]
+  cand-04-48 L2479-L2566 汉书 [publication]
+  cand-04-51 L2479-L2566 论衡 [publication]
+
+## 第五章 丧乱的文明——三国两晋南北朝时期的设计  count=88  L3258-L4095
+  cand-05-39 L3258-L3314 魏晋玄学 [term]
+  cand-05-40 L3258-L3314 南秀北雄 [term]
+  cand-05-45 L3317-L3335 诸葛亮 [person]
+  cand-05-49 L3336-L3352 翻车（龙骨水车） [work]
+  cand-05-51 L3353-L3372 千里船 [work]
+  cand-05-52 L3373-L3405 牛车 [term]
+
+## 第六章 繁盛的浮华——隋唐时期的设计  count=91  L4110-L7124
+  cand-06-52 L4110-L4173 曲辕犁 [work]
+  cand-06-67 L4110-L4231 武则天 [person]
+  cand-06-80 L4110-L4314 玄奘 [person]
+  cand-06-81 L4110-L4314 《大唐西域记》 [publication]
+  cand-06-54 L4110-L4401 《金刚经》 [publication]
+  cand-06-55 L4110-L4401 玉版宣 [term]
+
+## 第七章 文弱的精湛——五代两宋时期的设计  count=126  L4942-L7416
+  cand-07-143 L4942-L5016 理学 [term]
+  cand-07-151 L4942-L5016 汴京虹桥 [work]
+  cand-07-154 L4942-L5016 火药 [term]
+  cand-07-155 L4942-L5016 宋代窑系 [term]
+  cand-07-152 L4942-L5355 福船 [term]
+  cand-07-150 L4942-L5481 泉州洛阳桥 [work]
+
+## 第八章 游牧的强悍——辽金西夏元时期的设计  count=63  L5827-L6576
+  cand-08-183 L5827-L5906 耶律阿保机 [person]
+  cand-08-184 L5827-L5906 阿骨打 [person]
+  cand-08-185 L5827-L5906 李元昊 [person]
+  cand-08-186 L5827-L5906 成吉思汗 [person]
+  cand-08-187 L5827-L5906 忽必烈 [person]
+  cand-08-192 L5827-L5906 青花凤首扁壶 [work]
+
+## 第九章 专制的文化——明清时期的设计  count=156  L6601-L8560
+  cand-10-03 L6601-L6652 江南私家园林 [term]
+  cand-10-09 L6601-L6652 农政全书 [publication]
+  cand-10-10 L6601-L6652 大清工部工程作法则例 [publication]
+  cand-10-02 L6601-L6727 紫禁城 [work]
+  cand-10-01 L6601-L6833 万里长城 [work]
+  cand-10-06 L6601-L7550 郑和 [person]
+
+## 第十章 艰难的变革——现代时期的设计  count=113  L7682-L8800
+  cand-11-104 L7682-L8409 《美术的起源》 [publication]
+  cand-11-114 L7745-L8560 《建国方略》 [publication]
+  cand-11-173 L7813-L7813 重庆人民大会堂 [work]
+  cand-11-174 L7813-L7813 成吉思汗陵 [work]
+  cand-11-126 L7825-L7847 城市雕塑 [term]
+  cand-11-127 L7825-L7847 改革开放后城市雕塑 [term]
+
+## 总结  count=9  L8484-L8560
+  cand-12-122 L8484-L8560 林则徐 [person]
+  cand-12-124 L8484-L8560 水晶宫 [work]
+  cand-12-125 L8484-L8560 魏源 [person]
+  cand-12-128 L8484-L8560 冯桂芬 [person]
+  cand-12-129 L8484-L8560 《校邠庐抗议》 [publication]
+  cand-12-144 L8484-L8560 陈独秀 [person]

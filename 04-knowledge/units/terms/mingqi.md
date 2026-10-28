@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "明器是 B 维度下随葬器物与模型化设计的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "明器是 B.5.3 的用途总纲：专为随葬而制，模仿礼器、日用器、工具、兵器与人畜、车船、家具、建筑模型；商代制陶业已出现专门生产随葬明器"
+hierarchy_scope_note: "明器是 B.5.3 的用途总纲：专为随葬而制，模仿礼器、日用器、工具、兵器与人畜、车船、家具、建筑模型；商代制陶业已出现专门生产随葬明器"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "明器是 B 维度下随葬器物与模型化设计的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 明器是 B 维度下随葬器物与模型化设计的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 明器是 B.5.3 的用途总纲：专为随葬而制，模仿礼器、日用器、工具、兵器与人畜、车船、家具、建筑模型；商代制陶业已出现专门生产随葬明器
 ## 相关知识元
 
 与俑、陶模型同属随葬器物谱系；明器的器形模仿可与礼器、家具条目对读。relation 未审查。

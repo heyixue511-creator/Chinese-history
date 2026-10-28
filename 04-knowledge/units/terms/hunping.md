@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: boundary_case
+    primary: true
+    scope_note: "魂瓶是 B.5.3 的时间边界样本：六朝宗教性明器，由东汉五联罐演变，坛形器上堆塑亭台人兽；「谷仓」别名不能推定储存功能，主体时代超出本 Topic 的秦汉范围"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "魂瓶是 B 维度下六朝明器类型的条目，其堆塑题材与丧葬观念归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "魂瓶是 B.5.3 的时间边界样本：六朝宗教性明器，由东汉五联罐演变，坛形器上堆塑亭台人兽；「谷仓」别名不能推定储存功能，主体时代超出本 Topic 的秦汉范围"
 ---
 
 ## 描述
@@ -66,12 +74,10 @@ hierarchy_scope_note: "魂瓶是 B 维度下六朝明器类型的条目，其堆
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 魂瓶是 B 维度下六朝明器类型的条目，其堆塑题材与丧葬观念归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 魂瓶是 B.5.3 的时间边界样本：六朝宗教性明器，由东汉五联罐演变，坛形器上堆塑亭台人兽；「谷仓」别名不能推定储存功能，主体时代超出本 Topic 的秦汉范围
 ## 相关知识元
 
 `terms/mingqi.md` 记明器通名；`procedures/liuchao-qingci-zhuangshi-liufa.md` 记六朝青瓷装饰六法中的塑饰与堆贴；`terms/qing-ci.md` 记六朝青瓷。relation 未审查。

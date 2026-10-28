@@ -28,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "三足尊是 B.6.5 取象路径中唯一原型为青铜器的样本：汝窑仿汉代铜尊，广口、直身、平底、三足，与三足洗并列"
 secondary_dimensions:
-hierarchy_scope_note: "三足尊是 B 维度下宋代汝窑仿古器形的条目，材料限于用途、仿古来源与器形特征。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "三足尊是 B.6.5 取象路径中唯一原型为青铜器的样本：汝窑仿汉代铜尊，广口、直身、平底、三足，与三足洗并列"
 ---
 
 ## 描述
@@ -54,16 +62,15 @@ hierarchy_scope_note: "三足尊是 B 维度下宋代汝窑仿古器形的条目
 - **原文未载**: 高度、口径、容量、纹饰、制作工序与存世数量。
 - **证据边界**: 来源只给用途、仿古来源与器形特征，未给尺寸。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 三足尊是 B 维度下宋代汝窑仿古器形的条目，材料限于用途、仿古来源与器形特征。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 三足尊是 B.6.5 取象路径中唯一原型为青铜器的样本：汝窑仿汉代铜尊，广口、直身、平底、三足，与三足洗并列
 ## 相关知识元
 
 `places/ru-kiln.md` 记汝窑；本条与三足洗并列，均为汝瓷形制。relation 未审查。

@@ -1,0 +1,380 @@
+[
+ {
+  "claim_id": "claim-0322",
+  "statement_zh": "夏燕靖指出，隋朝结束了魏晋以来长达300多年的分裂局面，开创了自秦汉以后又一个统一局面，为唐朝的繁荣奠定了坚实基础；隋朝创立的三省六部制、科举制推动了封建政治昌明，大运河的开挖为南北沟通与经济繁荣开创了新局面。",
+  "statement_en": "Xia Yanjing states that the Sui dynasty ended more than three centuries of division since the Wei and Jin, created another unified order after Qin and Han, and laid a solid foundation for the prosperity of the Tang. The Three Departments and Six Ministries and the imperial examination system established under the Sui promoted orderly government, and the digging of the Grand Canal opened a new phase of north-south communication and economic prosperity.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2477,
+    "line_end": 2477,
+    "span_kind": "line",
+    "key_lines": [
+     2477
+    ],
+    "block_ids": [
+     "b0336"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "章首"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-88"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/sui-conquers-chen.md",
+   "04-knowledge/units/events/sui-pinghui-jiankang.md"
+  ],
+  "discussion_notes": "断言取 L2477。来源把三省六部制、科举制与大运河并列为隋朝遗产，未给制度文本、运河长度或经济后果数据；“300多年”按来源口径保留。隋唐鼎盛的分期判断另由 claim-0132 承接，本条不重复。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0323",
+  "statement_zh": "夏燕靖把隋唐文化概括为丰富多彩、兼容并蓄、承前启后三大特点，认为它是我国封建时代文化发展的高峰标志，唐代文化尤被誉为“诗意华章”。",
+  "statement_en": "Xia Yanjing summarizes Sui-Tang culture under three features — rich and varied, inclusive and syncretic, and carrying the past into the future — and regards it as the peak marker of culture in China's feudal era, with Tang culture in particular praised as “poetic splendor”.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2491,
+    "line_end": 2503,
+    "span_kind": "bounded",
+    "key_lines": [
+     2496
+    ],
+    "block_ids": [
+     "b0339"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "知识链接：隋唐文化"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-138"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/tangzhuang.md",
+   "04-knowledge/units/publications/quan-tangshi.md"
+  ],
+  "discussion_notes": "断言取 L2496。“三大特点”与“高峰标志”是来源的总括判断；“诗意华章”在来源中兼指诗文与服饰，本条保留合称，不拆成文学史与服饰史两条，也未给文化史分期依据。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0324",
+  "statement_zh": "夏燕靖认为，唐中期实行的纳资代役使工匠获得较大自由、有利于劳动生产率提高，在一定程度上也是促进手工业行会自身改进的动力。",
+  "statement_en": "Xia Yanjing argues that the mid-Tang substitution of taxes for corvée (nazi daiyi) gave artisans greater freedom and favored higher labor productivity, and was to a certain extent a driving force for the improvement of craft guilds themselves.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2518,
+    "line_end": 2528,
+    "span_kind": "bounded",
+    "key_lines": [
+     2525
+    ],
+    "block_ids": [
+     "b0343"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "1. 手工业的兴盛与设计水平的提升 / 3）手工业行会组织"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-90"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shougongye-hanghui.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md"
+  ],
+  "discussion_notes": "断言取 L2525。来源同时指出纳资代役意味着剥削量增加，本条保留“在一定程度上”的限定，不把它写成行会改进的唯一原因；行首、师傅、徒工等组织细节留在来源。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0325",
+  "statement_zh": "夏燕靖认为，从隋唐五代手工业繁荣的形势看，这是我国手工业技术发展的关键时期；在此基础上，我国设计和工艺制造业形成了特有且已具成熟的经验体系。",
+  "statement_en": "Xia Yanjing holds that, judging from the prosperity of handicraft in the Sui, Tang, and Five Dynasties, this was a key period in the development of Chinese handicraft technology, and that design and craft manufacturing formed a distinctive and already mature body of experience on that basis.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2529,
+    "line_end": 2534,
+    "span_kind": "bounded",
+    "key_lines": [
+     2533
+    ],
+    "block_ids": [
+     "b0344"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "1. 手工业的兴盛与设计水平的提升 / 4）五代手工业"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-139"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shougong-gongchang.md",
+   "04-knowledge/units/terms/tangci.md",
+   "04-knowledge/units/terms/tangzhuang.md"
+  ],
+  "discussion_notes": "断言取 L2533。同段“中外文化科技交流的高潮”已由 2009 版 claim-0136 记录，本条不重复；“关键时期”与“经验体系”是作者的总括判断，未给技术指标或行业统计。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0326",
+  "statement_zh": "夏燕靖认为，我国制瓷业经过三国两晋南北朝的大发展，到唐代形成我国陶瓷史上第一个高峰，青瓷则是其主流；唐代青瓷窑场众多，南方几乎各省区皆有，北方青瓷也得到发展，青瓷仍是唐代居民最钟爱、使用最普遍的瓷器。",
+  "statement_en": "Xia Yanjing holds that after the great expansion of porcelain making in the Three Kingdoms, Jin, and Southern and Northern Dynasties, the Tang formed the first peak in China's ceramic history, with celadon as its mainstream. Tang celadon kilns were numerous, found in almost every southern province, northern celadon also developed, and celadon remained the porcelain most favored and most widely used by Tang residents.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2576,
+    "line_end": 2585,
+    "span_kind": "bounded",
+    "key_lines": [
+     2578
+    ],
+    "block_ids": [
+     "b0350"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "2. 陶瓷工艺与陶瓷设计的发展 / 2）重要的陶瓷类别 / ① 青瓷（知识链接：唐代著名青瓷窑）"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-92"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/tang-dai-qingci-yao.md",
+   "04-knowledge/units/places/yue-kiln.md",
+   "04-knowledge/units/terms/mise-porcelain.md"
+  ],
+  "discussion_notes": "断言取 L2578。“第一个高峰”与“主流”是来源的分期与结构判断，未给窑址统计或产量数据；同段列举的瓯窑、婺州窑、岳州窑、长沙窑、洪州窑、寿州窑、邛窑等窑名留在来源。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0327",
+  "statement_zh": "夏燕靖认为，唐贞观以后国力强盛、百业俱兴导致厚葬之风日盛；唐三彩作为冥器曾被列入官府丧葬明文规定，按品级随葬，这是唐三彩迅速在中原地区发展和兴起的一个主要原因。",
+  "statement_en": "Xia Yanjing argues that after the Zhenguan era the Tang's strong national power and general prosperity led to a growing vogue for lavish burials; Tang sancai, used as a tomb figurine ware, was written into official burial regulations with grades of grave goods, and this was a principal reason for its rapid rise and spread in the Central Plains.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2607,
+    "line_end": 2627,
+    "span_kind": "bounded",
+    "key_lines": [
+     2618
+    ],
+    "block_ids": [
+     "b0356"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "2. 陶瓷工艺与陶瓷设计的发展 / 2）重要的陶瓷类别 / ④ 唐三彩"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-95"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/tang-sancai.md",
+   "04-knowledge/units/terms/mingqi.md",
+   "04-knowledge/units/works/sancai-shuangyu-hu.md"
+  ],
+  "discussion_notes": "断言取 L2618。来源把厚葬制度与风气列为唐三彩兴起的主因，未给官府丧葬令原文、随葬品数量或窑址产量；安史之乱后唐三彩衰退的叙述留在来源，唐三彩三期兴衰另由 claim-0143 承接。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0328",
+  "statement_zh": "夏燕靖认为，介质印花以助剂为印染原料，须依染料性能浸染：碱剂可使生丝胶膨胀脱落而显出白色花纹，也可用明矾胶浆等媒染剂印花或清除媒染剂印花；介质印花是我国古代印染技术的一大进步。",
+  "statement_en": "Xia Yanjing holds that medium printing (jiezi yinhua) uses assistants as printing materials and requires immersion dyeing according to the dye's properties: alkali can swell and remove sericin to reveal white patterns, and alum paste or similar mordants can be used to print or to clear mordants; medium printing was a major advance in ancient Chinese dyeing technology.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2709,
+    "line_end": 2714,
+    "span_kind": "bounded",
+    "key_lines": [
+     2711
+    ],
+    "block_ids": [
+     "b0371"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "4. 服装工艺与服饰设计的特色形成 / 知识链接：介质印花"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-140"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/procedures/jiezhi-yinhua.md",
+   "04-knowledge/units/terms/jiaxie.md"
+  ],
+  "discussion_notes": "断言取 L2711。“一大进步”是来源的评价性判断；碱剂印花与媒染剂印花两种做法并列，本条不把它们写成同一工艺，也未给工艺试验或年代序列。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0329",
+  "statement_zh": "夏燕靖指出，唐镜制作符合科学原理，铜锡铅比例约为70:25:5，加锡较多使镜面呈白色、花纹清晰；为在小镜面上照到全脸，镜面微向外凸，类似现代汽车的反光镜，沈括《梦溪笔谈》已有相关说明。",
+  "statement_en": "Xia Yanjing states that Tang mirrors were made on scientific principles, with a copper-tin-lead ratio of about 70:25:5; the high tin content gave a white surface with clear patterns. To reflect a whole face in a small mirror the surface was made slightly convex, similar to a modern car mirror, as already explained in Shen Kuo's Dream Pool Essays.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2845,
+    "line_end": 2848,
+    "span_kind": "bounded",
+    "key_lines": [
+     2847
+    ],
+    "block_ids": [
+     "b0383"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "5. 金属工艺设计的成熟 / 3）铜器工艺的高度发达"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-103"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/tangjing.md",
+   "04-knowledge/units/works/tang-dai-tong-zhenzhi.md",
+   "04-knowledge/units/terms/tangjing-tuzhi-wushi.md"
+  ],
+  "discussion_notes": "断言取 L2847。合金比例与凸面设计按来源照录；“非常符合科学原理”是来源的现代解释，本条保留数字与功能说明，不写成检测报告；沈括引文只作佐证，未核对版本与页码。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0330",
+  "statement_zh": "夏燕靖认为，李春于595-605年设计修建的赵州桥是现存最早的双曲石拱桥，大桥拱两端各有两个小拱，是世界上首创“敞肩拱”桥型；从建筑设计角度说，赵州桥在桥址选择、建筑材料与力学性能等方面都达到了当时建桥的最高水平。",
+  "statement_en": "Xia Yanjing holds that the Zhaozhou Bridge, designed and built by Li Chun in 595-605, is the earliest surviving double-curved stone arch bridge; with two small arches at each end of the main arch, it pioneered the open-spandrel arch type. In architectural design terms, it reached the highest level of bridge building of its time in site selection, materials, and structural performance.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2892,
+    "line_end": 2953,
+    "span_kind": "bounded",
+    "key_lines": [
+     2894
+    ],
+    "block_ids": [
+     "b0387"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "7. 建筑设计的成熟与繁荣"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-105"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/zhaozhou-qiao-595-605.md",
+   "04-knowledge/units/terms/gongzixing-jiegou.md"
+  ],
+  "discussion_notes": "断言取 L2894。“世界首创”与“最高水平”是来源的评价，未给同类桥梁的比较范围与断代依据；桥长50余米、宽9米多、跨度37米余等数据留在来源。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0331",
+  "statement_zh": "夏燕靖指出，大兴城于开皇二年（582）6月开始营建，当年12月基本竣工，次年3月迁入使用，前后仅用9个月，是世界都市建设史上的一大奇迹。",
+  "statement_en": "Xia Yanjing states that Daxing City began construction in the sixth month of Kaihuang 2 (582), was essentially completed in the twelfth month of that year, and was occupied in the third month of the next year — nine months in all — which he calls a marvel in the history of world urban construction.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2892,
+    "line_end": 2953,
+    "span_kind": "bounded",
+    "key_lines": [
+     2926
+    ],
+    "block_ids": [
+     "b0387"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "7. 建筑设计的成熟与繁荣 / 宇文恺"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-106"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/daxing-cheng.md",
+   "04-knowledge/units/persons/yuwen-kai.md"
+  ],
+  "discussion_notes": "断言取 L2926。营建起止月份按来源照录，“9个月”是来源的合计；“世界都市建设史上的一大奇迹”是评价性判断，未给同时期世界城市的比较数据。城区区划判断另由 claim-0158 承接。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0332",
+  "statement_zh": "夏燕靖指出，隋唐佛教建筑遍布全国，留存至今的唐代木结构殿堂建筑仅两座，即山西五台山境内的南禅寺大殿和佛光寺大殿；二者以内外柱列和梁枋互相联结组成稳固整体，至今十分完好。",
+  "statement_en": "Xia Yanjing states that Buddhist architecture spread throughout the country in the Sui and Tang, but only two Tang timber-frame halls survive: the Main Hall of Nanchan Temple and the Main Hall of Foguang Temple, both at Mount Wutai in Shanxi. Both join inner and outer colonnades with beams to form a stable whole and remain in good condition.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "source_span": {
+    "line_start": 2892,
+    "line_end": 2953,
+    "span_kind": "bounded",
+    "key_lines": [
+     2944
+    ],
+    "block_ids": [
+     "b0387"
+    ],
+    "chapter": "隋唐五代时期的设计繁荣",
+    "section": "7. 建筑设计的成熟与繁荣"
+   },
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-109"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/nanchan-si-dadian.md",
+   "04-knowledge/units/works/foguang-si-dadian.md"
+  ],
+  "discussion_notes": "断言取 L2944。“仅两座”是来源的存世数量判断，未给普查范围与断代依据；斗拱、出檐、琉璃与砖塔三型等形制描述留在来源，建筑整体风格评价另由 claim-0159 承接。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ }
+]

@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+"""Build the LL2h decisions JSON (Song elegance and plainness, L1052-L1133)."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2011-lilixin-zhongguo-sheji-yishu-shilun"
+SRC = "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+U = "04-knowledge/units/"
+
+
+def C(cid, entity, target, analysis, approve, apply_note, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "create", "target": U + target,
+        "analysis": analysis, "approve": approve, "apply_note": apply_note,
+        "note": note or f"canonical: {U}{target}。{cid} 并入该条。",
+    }
+
+
+def UPD(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "update"
+    return d
+
+
+D = [
+    UPD("cand-03-63", "宝相花", "terms/baoxianghua-wen.md",
+        "cand-03-63 跨度为 L1060。该行在唐代锦绫纹饰段记：初唐仍有菱形、方形、龟甲式六边形及椭圆套环形骨架纹，但已出现缠枝卷草环和瓣式宝相花甚至蕾形宝相花，卷草与宝相花走出魏晋的“瘦窄”向“丰满”演进，是唐代装饰风格的转折阶段；盛唐骨架形式基本消失，缠枝卷草和宝相花广泛流行。又记宝相花一般认为以莲花和牡丹为主体，有瓣形、蕾形、侧式，形状以饱满正圆形构成，与卷草环、柿蒂纹等圆形轮廓纹样统称“团窠”，团窠套叠多者十多层，盛唐变化极快；L1066 图题作“图2-26 唐代宝相花琵琶锦袋（日本正仓院藏）”。候选 knowledge_match 记 novel、称 04-knowledge 无 KU，但既有 terms/baoxianghua-wen.md 以“宝相花”为别名，已收 2016 册定义、平面团形与立面层叠形、唐三彩载体及宋代衰退，只是未收李立新的初唐至盛唐演变与团窠关系。",
+        "同一纹样已有专条，李立新提供的是新增的历时演变与团窠关系，不是重复定义；按 update 并入，不新建 bao-xiang-hua 条。",
+        "更新 terms/baoxianghua-wen.md：补初唐转折、盛唐流行、主体与形式、团窠、团窠层叠与图2-26 六条，来源升为2，版本升为2。"),
+    C("cand-03-12", "欧阳修", "persons/ou-yang-xiu.md",
+      "cand-03-12 跨度为 L1107-L1111。L1107 在士阶层兴起段引欧阳修“作诗无古今，唯有平淡难”，并释“平淡”为绚烂至极后的风格转化、内在修养的艺术显示与严谨的典雅境界；L1109 记其所得端溪绿石枕十分雅致而无唐时雕琢绮靡之风；L1111 记其与王安石都主张器物“以适用为本”，并以文辞比器用，称“不适用，非所以为器也”。persons 下无欧阳修条目；persons/su-shi.md 已收同段苏轼与 L1109，但不含欧阳修。",
+      "三处引文与判断均可复查；生卒、籍贯、官职、著述与诗文出处未载，按 medium 建条，只登记李立新所引的造物评价与适用思想。",
+      "新建 persons/ou-yang-xiu.md，记士阶层语境、平淡说、端溪绿石枕、适用为本与文辞器用。"),
+]
+
+for d in D:
+    if d["action"] in ("create", "update") and not (ROOT / d["target"]).exists():
+        raise SystemExit("missing target " + d["target"])
+
+cfg = {
+    "doc": DOC,
+    "file": SRC,
+    "rules": [
+        "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+        "引文照录：同行用“ ”，跨行拼接或句内再含引号用「 」；正文禁用 ASCII 双引号。",
+        "候选 knowledge_match 记 novel 时仍须检索既有 KU 的 aliases 与正文；别名命中者按 update 处理，不重复建条。",
+        "同一人物的评价、器物与思想分条记录，不把同段并置的他人材料并入本条。",
+        "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+    ],
+    "scope_spans": [[1052, 1133]],
+    "scope_note": "覆盖 L1052-L1133：第二章第四节“由‘华丽丰腴’到‘典雅质朴’”全节，含 L1054 前辈风格归纳，L1056-L1099 唐代华丽丰腴与金银器造型演变（图2-25至图2-31），L1103-L1119 文人士大夫情趣与“典雅”风格（含图表四），L1121-L1132 宋代一般造物的“质朴”状况（图2-32）；止于第五节标题（L1134）之前。",
+    "decisions": D,
+}
+
+out = ROOT / "_zn_decisions_ll2h.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(json.dumps({"decisions": len(D), "create": sum(1 for d in D if d["action"] == "create"),
+                  "update": sum(1 for d in D if d["action"] == "update"),
+                  "rejected": sum(1 for d in D if d["action"] == "rejected"),
+                  "extras": len(cfg.get("extras", []))}, ensure_ascii=False))

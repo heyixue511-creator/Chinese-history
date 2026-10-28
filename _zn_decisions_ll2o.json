@@ -1,0 +1,141 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文以李立新 2011 册 Markdown 文本为主，高丰与赵农只作已读旁证。",
+  "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+  "cand-04-06 胡正言（L1246-L1846）与 cand-04-29 工商食官（L1394-L1831）是首末提及的包围跨度；本批只复读两端语境，不把包围跨度冒充连续复读。",
+  "“恒版”“短版”“饱版”与来源外的饾版同指短版套印，按 update 并入 `procedures/duanban-taoyin.md`，不另立条目。",
+  "家庭作坊并入 `terms/jia-ting-shou-gong-ye.md`；工字形结构是三者强弱的结构模型，另建一条，不重复两端制度。",
+  "工商食官的“世袭奴隶”与“又不是奴隶”两说并存，并列照录，不裁定。",
+  "同实体先检索既有 KU 与同批目标；能归并者按 update 或 no_delta 处理，不重复建条。"
+ ],
+ "scope_spans": [
+  [
+   1240,
+   1257
+  ],
+  [
+   1386,
+   1413
+  ],
+  [
+   1739,
+   1859
+  ]
+ ],
+ "scope_note": "覆盖 L1739-L1859：第六章“设计史运行的动力结构”全章，含开篇 L1741-L1747、第一节 L1749-L1781、第二节 L1783-L1819、第三节 L1821-L1859，止于结论标题 L1861 之前。另复读两处长跨度候选的起点语境：L1240-L1257（胡正言首次出现于第三章印刷技术进步段）与 L1386-L1413（工商食官首次出现于第四章开篇论官营手工业段及家庭手工业基础段）。cand-04-06 的 L1246-L1846 与 cand-04-29 的 L1394-L1831 为首末提及的包围跨度，中间未逐行复读，按端点语义裁定。",
+ "deferred": [],
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-38",
+   "entity": "匠籍制度",
+   "action": "update",
+   "target": "04-knowledge/units/terms/jianghu.md",
+   "analysis": "cand-05-38 跨度为 L1775-L1835。L1775 称元代空前的大规模官营手工业和严格的匠籍制度是劳资关系的大倒退，L1777 对比宋代雇佣制与元代匠籍制的奴役性质及怠工、低效、出逃，L1827 记明代匠户子孙相继、不得改籍、不可做官与明初轮班、住坐人数，L1835 记成化二十一年轮班工匠折银与赎买判断。existing terms 下已有 `terms/jianghu.md`，其别名即“匠籍”，已覆盖元明匠籍、轮班、住坐与嘉靖征银；本条按 update 并入，不另建重复制度条。",
+   "approve": "宋元对比、明代限制、明初人数与成化折银均可复查，按 update 并入匠户条；元代匠户总数与折银总额未载。",
+   "apply_note": "更新 terms/jianghu.md：加李立新为第四来源、补宋元对比、劳资倒退、市场萎缩、明代改籍限制、明初轮班与住坐人数、成化折银与赎买，version 3→4。",
+   "note": "canonical: 04-knowledge/units/terms/jianghu.md。cand-05-38 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-28",
+   "entity": "家庭作坊",
+   "action": "update",
+   "target": "04-knowledge/units/terms/jia-ting-shou-gong-ye.md",
+   "analysis": "cand-05-28 跨度为 L1789-L1797，语境在第六章第二节“家庭作坊的历史合理性”（L1783-L1819）。L1745 给“传统社会中的基本造物经济组织是家庭作坊”与对消极、封闭论的反驳，L1789-L1797 给家庭作为最古老经济组织、小农经济、仰韶与龙山例证、最佳结构判断、市场供应与实物赋税。existing terms 下已有 `terms/jia-ting-shou-gong-ye.md`，其正文即以家庭作坊与家庭手工业互称，来源为李立新 L1410-L1412；本条按 update 并入并扩展至第六章。",
+   "approve": "定义、历史合理性论证、小农经济与市场供应均可复查，按 update 并入家庭手工业条；产量、商品化比例与地域统计未载。",
+   "apply_note": "更新 terms/jia-ting-shou-gong-ye.md：加李立新第六章第二来源、补家庭作坊的历史合理性、小农经济例证、实物赋税、合作与迁徙扩散、改机与造船等技术突破，加“家庭作坊”“家庭作坊制”别名，version 1→2。",
+   "note": "canonical: 04-knowledge/units/terms/jia-ting-shou-gong-ye.md。cand-05-28 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-29",
+   "entity": "工字形结构（哑铃式结构）",
+   "action": "create",
+   "target": "04-knowledge/units/terms/gongzixing-jiegou.md",
+   "analysis": "cand-05-29 为 L1793 单行。该行以家庭手工业、民营手工业、官府手工业三种基本类型为底，提出民营弱、两头强的哑铃式或工字形结构，并以欧洲中世纪城市手工业两头弱中间强的十字形结构作对比。existing terms 下无该结构模型条；`terms/jia-ting-shou-gong-ye.md`、`terms/guanying-shougongye.md` 分记两端的具体制度，不承担结构模型。",
+   "approve": "三种类型、哑铃式与工字形命名、欧洲十字形对比与动态消长均可复查，按 term 建 D 维度条；比例数据与命名出处未载。",
+   "apply_note": "新建 terms/gongzixing-jiegou.md，记三种基本类型、工字形与哑铃式结构、欧洲十字形对比与官营挤压，别名“哑铃式结构”。",
+   "note": "canonical: 04-knowledge/units/terms/gongzixing-jiegou.md。cand-05-29 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-31",
+   "entity": "行会",
+   "action": "update",
+   "target": "04-knowledge/units/terms/shougongye-hanghui.md",
+   "analysis": "cand-05-31 为 L1817 单行，语境在第六章第二节论造物传承。该行记中国行会的一部分是手工业职业团体，与欧洲基尔特型行会不同；中国行会对同业生产销售无约束性，职能为协助政府平定物价、监督质量、统一技术规范、组织祭祀、统一行业用语；行会促进家庭作坊与技术承传，并引明清行帮传播。existing terms 下已有 `terms/shougongye-hanghui.md`，覆盖唐至北宋行会、行户与职业服装；本条按 update 并入，不另建重复组织条。",
+   "approve": "行会性质、五项职能、与家庭作坊的关系及明清行帮传播均可复查，按 update 并入手工业行会条；成员数量与地域分布未载。",
+   "apply_note": "更新 terms/shougongye-hanghui.md：加李立新为第三来源、补中国行会与基尔特差异、五项职能、家庭作坊承传与明清行帮，version 3→4。",
+   "note": "canonical: 04-knowledge/units/terms/shougongye-hanghui.md。cand-05-31 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-35",
+   "entity": "物勒工名",
+   "action": "create",
+   "target": "04-knowledge/units/terms/wule-gongming.md",
+   "analysis": "cand-05-35 为 L1829 单行。该行引《礼记·月令》“物勒工名，以考其诚”，记西安三桥镇出土上林苑铜鉴、铜鼎的工匠姓名与件数，并引《晋书·赫连勃勃载记》说明制裁之严；高丰 L1395、L3983 另给春秋战国勒名与质量检查、宋代铭记商业化。existing terms 下无物勒工名条；`terms/guanying-shougongye.md` 只记生产体制，不记署名责任制度。",
+   "approve": "《礼记·月令》原文、上林苑工匠件数、赫连勃勃例与高丰旁证均可复查，按 term 建 D 维度条；条文、执行机构与检验标准未载。",
+   "apply_note": "新建 terms/wule-gongming.md，记《礼记·月令》规定、上林苑铜器工匠与件数、责任与制裁、高丰所记春秋战国与宋代铭记。",
+   "note": "canonical: 04-knowledge/units/terms/wule-gongming.md。cand-05-35 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-37",
+   "entity": "蕃匠",
+   "action": "create",
+   "target": "04-knowledge/units/terms/fanjiang.md",
+   "analysis": "cand-05-37 为 L1833 单行。该行记隋唐蕃匠、短蕃匠 5029 人、上蕃期二十多天、纳资代役、长上匠户籍与帮贴钱，以及明资匠、巧儿匠、和雇匠的服役与和雇性质区别。existing terms 下无蕃匠条；`terms/hegu-zhi.md` 记和雇制通论，`terms/nazi-daiyi.md` 记纳资代役，均不承担蕃匠、短蕃匠与长上匠的名目。",
+   "approve": "蕃匠定义、短蕃匠人数、上蕃期、纳资代役、长上匠与明资匠区别均可复查，按 term 建 D 维度条；总人数、轮换周期与帮贴钱数额未载。",
+   "apply_note": "新建 terms/fanjiang.md，记蕃匠定义、短蕃匠与长上匠、纳资代役、明资匠与和雇匠的性质区别。",
+   "note": "canonical: 04-knowledge/units/terms/fanjiang.md。cand-05-37 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-06",
+   "entity": "胡正言",
+   "action": "create",
+   "target": "04-knowledge/units/persons/hu-zheng-yan.md",
+   "analysis": "cand-04-06 的包围跨度为 L1246-L1846，首末两处提及分别在第三章印刷技术进步段与第六章印刷设计家集群段。L1246 记明末安徽休宁人胡正言改进分色套印、创“短版拱花”、《十竹斋画谱》为代表；L1846 记其用“恒版”刻《十竹斋画谱》（1627年）。赵农 L7195、L7197、L7202 另给《十竹斋书画谱》八部分结构、图稿来源与拱花。existing 无 person 条；`publications/shizhuzhai-huapu.md` 是作品条，不承担人物。",
+   "approve": "籍贯、改进、代表作品、1627 年与赵农所记书画谱结构均可复查，按 person 建 C 维度条；生卒年、仕履与刻书总数未载。",
+   "apply_note": "新建 persons/hu-zheng-yan.md，记籍贯、分色套印改进、“短版拱花”与“恒版”两处写法、《十竹斋画谱》1627 年及赵农所记书画谱结构与拱花。",
+   "note": "canonical: 04-knowledge/units/persons/hu-zheng-yan.md。cand-04-06 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-47",
+   "entity": "吴发祥",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wu-faxiang.md",
+   "analysis": "cand-05-47 为 L1846 单行。该行记吴发祥用“恒版拱花”印制《萝轩变古笺谱》（1626年）；赵农 L7195、L7202 另记《萝轩变古笺谱》运用短版技术与拱花压印。existing 无 person 条；`publications/luoxuan-biangu-jianpu.md` 是作品条，不承担人物。",
+   "approve": "1626 年、恒版拱花、短版与拱花均可复查，按 person 建 C 维度条；生卒年、籍贯与刻书总数未载。",
+   "apply_note": "新建 persons/wu-faxiang.md，记“恒版拱花”与 1626 年《萝轩变古笺谱》、赵农所记短版与拱花。",
+   "note": "canonical: 04-knowledge/units/persons/wu-faxiang.md。cand-05-47 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-43",
+   "entity": "黄鏻",
+   "action": "create",
+   "target": "04-knowledge/units/persons/huang-lin.md",
+   "analysis": "cand-05-43 为 L1846 单行。该行记刻工黄鏻用五色套印刻《程氏墨苑》（1605年）；赵农 L7178 记程大约编、丁云鹏绘、黄磷等刻的分工，名字作“黄磷”。existing 无 person 条；`publications/chengshi-moyuan.md` 是作品条，不承担刻工。",
+   "approve": "五色套印、1605 年与赵农所记编绘刻分工均可复查，按 person 建 B 维度条；名用字异写并列保留，生卒年、籍贯与所刻其他书目未载。",
+   "apply_note": "新建 persons/huang-lin.md，记五色套印《程氏墨苑》1605 年、赵农所记编绘刻分工与“黄磷”异写。",
+   "note": "canonical: 04-knowledge/units/persons/huang-lin.md。cand-05-43 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-05-49",
+   "entity": "恒版",
+   "action": "update",
+   "target": "04-knowledge/units/procedures/duanban-taoyin.md",
+   "analysis": "cand-05-49 为 L1846 单行。该行“胡正言用‘恒版’刻《十竹斋画谱》（1627年）；吴发祥用‘恒版拱花’印制《萝轩变古笺谱》（1626年）”中的“恒版”与 L1246 的“短版拱花”、2016 的“饱版”、候选标题的“饾版”同指短版套印。existing `procedures/duanban-taoyin.md` 已以“短版”立目，并明确不另立饱版或饾版条目；本条按 update 并入，加恒版异写，不另建重复技法条。",
+   "approve": "“恒版”“恒版拱花”与 1627、1626 两处年份均可复查，按 update 并入短版套印条；李立新未说明恒版与短版是否同一技法的不同写法，本条并列照录。",
+   "apply_note": "更新 procedures/duanban-taoyin.md：加李立新 L1846 位置、补“恒版”“恒版拱花”别名与两处年份，修正“三册均作短版”的写法说明，version 3→4。",
+   "note": "canonical: 04-knowledge/units/procedures/duanban-taoyin.md。cand-05-49 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-29",
+   "entity": "工商食官",
+   "action": "create",
+   "target": "04-knowledge/units/terms/gong-shang-shi-guan.md",
+   "analysis": "cand-04-29 的包围跨度为 L1394-L1831，首末两处分别在第四章开篇论官营手工业出现与第六章第三节论工艺匠人身份。L1394 记商周“工商食官”、工匠成为官府世袭奴隶、西周铭文“仆驭百工，牧臣妾”为官营手工业开端；L1825 记周代工商食官、酒诰、东圉、附庸国与“又不是奴隶”的身份判断；L1831 记春秋战国制度被打破、王子朝事件、卫国工匠暴动与食官制衰落。高丰 L1397 另给“官退私进”旁证。existing terms 下无工商食官条；`terms/guanying-shougongye.md` 是生产体制条，`terms/baigong.md` 是百工条，均不承担该制度及其解体。",
+   "approve": "商周出现、西周铭文、酒诰与东圉、身份两说、春秋战国解体与高丰旁证均可复查，按 term 建 D 维度条；“世袭奴隶”与“又不是奴隶”并列照录，不裁定。",
+   "apply_note": "新建 terms/gong-shang-shi-guan.md，记商周出现与铭文开端、周代酒诰与东圉、身份两说、春秋战国解体与高丰“官退私进”旁证，别名“食官制”。",
+   "note": "canonical: 04-knowledge/units/terms/gong-shang-shi-guan.md。cand-04-29 并入该条。"
+  }
+ ]
+}

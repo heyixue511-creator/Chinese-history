@@ -1,0 +1,1780 @@
+[
+ {
+  "claim_id": "claim-0712",
+  "statement_zh": "赵农说明，我国历史分期上的“现代”通常特指1919年五四运动至现今，有时也指五四运动至中华人民共和国成立前的一段时期；本章所用的“现代”则指1911年至今。",
+  "statement_en": "Zhao Nong explains that in Chinese historical periodisation the modern era usually refers specifically to the period from the May Fourth Movement of 1919 to the present, and sometimes to the span from 1919 to the founding of the People's Republic; in this chapter, however, the modern era denotes 1911 to the present.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7682,
+    "line_end": 7742,
+    "span_kind": "bounded",
+    "key_lines": [
+     7684
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-102"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言语义取 L7684。原文先列通行分期的两种用法，再界定本章口径；statement 保留三层时间指涉，不把“1911年至今”等同于通行分期。五四运动与中华人民共和国成立在库内无独立适龄条目，未强行链接。与 claim-0681（明清分期 1368 至 1911）为同册前后章近邻，后者止于 1911、本章起于 1911，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0713",
+  "statement_zh": "赵农认为，中国艺术设计思想定位于“工艺美术”，而与“现代设计”拉开了一定的距离；原因有二：一是社会政治变革中民众生活水平提高的需要，二是中国艺术家在留学西方过程中接受了不同的设计观念。",
+  "statement_en": "Zhao Nong holds that Chinese design thinking positioned itself as arts and crafts and thus kept a certain distance from modern design, for two reasons: the need to raise living standards amid social and political change, and the different design concepts Chinese artists encountered while studying in the West.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7682,
+    "line_end": 7742,
+    "span_kind": "bounded",
+    "key_lines": [
+     7723
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-106"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L7723。两项原因为原文明确列举；“拉开距离”是作者对学科定位的判断。工艺美术条对应前一定位，工业设计条对应“现代设计”参照。20世纪上半叶设计文化的意义被包含在工艺美术概念中见同段。与 claim-0715（1998年学科替代）为同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0714",
+  "statement_zh": "赵农评价，1950年代以后政治化的设计活动比比皆是；在日常生活用品的生产设计中，艺术设计成为附庸，不管器皿的造型和功能，一律采取装饰图案的方式套用，最终从笨拙、简陋、俗气的花卉人物风景走向熟练、臃肿、腻味的政治主题。",
+  "statement_en": "Zhao Nong judges that politicised design activities proliferated after the 1950s; in the production of everyday utensils art design became subordinate, applying decorative patterns regardless of form and function, and moved from clumsy, crude and vulgar floral, figure and landscape motifs to practised, bloated and cloying political themes.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7682,
+    "line_end": 7742,
+    "span_kind": "bounded",
+    "key_lines": [
+     7731
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-110"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/events/quanguo-gongyi-meishu-zhanlanhui-1959.md"
+  ],
+  "discussion_notes": "断言语义取 L7731。“附庸”“笨拙、简陋、俗气”“熟练、臃肿、腻味”均为作者的连续评价，非形制描述；1959年全国工艺美术展览会条代表同一时期工艺美术的制度化展示。原文未给具体器皿品类与产量数据。与 claim-0713 同节，前者论学科定位、后者论设计政治化，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0715",
+  "statement_zh": "赵农认为，1998年教育部颁布高等教育专业目录，其中“艺术设计”替代了“工艺美术”；这不仅仅是一个名词的改变，更是一种中国社会文化方式和生活观念的改变。",
+  "statement_en": "Zhao Nong holds that when the Ministry of Education issued its higher-education programme catalogue in 1998, art design replaced arts and crafts; this was not merely a change of name but a change in Chinese social-cultural practice and life concepts.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7682,
+    "line_end": 7742,
+    "span_kind": "bounded",
+    "key_lines": [
+     7741
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-112"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/1998-moe-major-catalog.md",
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L7741。1998年教育部本科专业目录调整条记录制度事件；工艺美术与工业设计两条对应被替代与替代后的学科概念。“不只是名词改变”为作者的解释性判断，原文未给课程、师资与招生规模的变化数据。与 claim-0713、claim-0726 同章近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0716",
+  "statement_zh": "赵农认为，上海的早期繁荣不是中国传统社会发展的结果，而是西方列强国家在东方贸易、工业、交通等方面发展的产物，带有半殖民地的政治色彩。",
+  "statement_en": "Zhao Nong holds that Shanghai's early prosperity was not a product of China's traditional social development but of Western powers' expansion in Eastern trade, industry and transport, and carried a semi-colonial political character.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7745,
+    "line_end": 7824,
+    "span_kind": "bounded",
+    "key_lines": [
+     7756,
+     7758
+    ],
+    "block_ids": [
+     "b0324"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第二节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-116"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/shanghai.md",
+   "04-knowledge/units/institutions/shanghai-jiqi-zhibuju.md",
+   "04-knowledge/units/works/shanghai-huifeng-yinhang.md"
+  ],
+  "discussion_notes": "断言语义取 L7756-L7758，跨行断句已并合。上海机器织布局条代表早期近代工业，上海汇丰银行条代表外资金融；租界行政、警察、监狱与驻军见 L7756。“半殖民地政治色彩”为作者的性质判断，未给租界面积与外资统计。与 claim-0635（宋代都城布局）不同议题，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0717",
+  "statement_zh": "赵农认为，梁思成对北京城市的规划良好建议遭到批判，结果是城墙被拆毁、城河填平；这影响了全国其他城市重新规划时的布局，也使20世纪六七十年代的中国建筑文化倒退到了一个很低的水准。",
+  "statement_en": "Zhao Nong holds that Liang Sicheng's sound proposals for planning Beijing were criticised, resulting in the demolition of the city wall and the filling of the moat; this affected the replanning of other Chinese cities and pushed Chinese architectural culture in the 1960s and 1970s back to a very low level.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7745,
+    "line_end": 7824,
+    "span_kind": "bounded",
+    "key_lines": [
+     7805,
+     7807
+    ],
+    "block_ids": [
+     "b0324"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第二节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-122"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/persons/liang-sicheng.md",
+   "04-knowledge/units/works/renmin-dahuitang-1959.md",
+   "04-knowledge/units/events/beijing-ten-great-buildings.md"
+  ],
+  "discussion_notes": "断言语义取 L7805-L7807。十大建筑与人民大会堂条代表同一时期北京的大型公共建筑实践；梁思成条对应被批判的规划建议。“倒退到很低的水准”为作者的强烈评价，原文未给拆城时间表与城市规划审批程序。与 claim-0718（公园改变园林性质）同章近邻，均涉现代城市空间，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0718",
+  "statement_zh": "赵农认为，现代社会大量公园出现，改变了原先城市园林中皇家或私家园林的特点；民国时期北京社稷坛、太庙、颐和园、北海、景山及江南大量清代私家园林陆续向公众开放，1949年以后许多中小城市兴建以烈士纪念塔为中心的新型公园。",
+  "statement_en": "Zhao Nong holds that the appearance of large numbers of public parks in modern society changed the character of the former imperial and private gardens; in the Republican period the Beijing Altar of Soil and Grain, Imperial Ancestral Temple, Summer Palace, Beihai and Jingshan, along with many Qing private gardens in Jiangnan, opened to the public, and after 1949 many small and medium cities built new parks centred on martyrs' memorial towers.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7848,
+    "line_end": 7867,
+    "span_kind": "bounded",
+    "key_lines": [
+     7850,
+     7858,
+     7860
+    ],
+    "block_ids": [
+     "b0326"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第二节 城市与建筑"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-129"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/beijing.md",
+   "04-knowledge/units/places/nanjing.md"
+  ],
+  "discussion_notes": "断言语义取 L7850、L7858、L7860。北京与南京两条对应原文列举的开放城市；社稷坛、太庙、颐和园、北海、景山及江南私家园林库内无逐一适龄条目，未强行链接。“改变性质”为作者的园林史判断，未给开放年代与公园数量。库内微缩景观公园条属深圳当代类型，不用于此。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0719",
+  "statement_zh": "赵农认为，20世纪家具的演变过程非常显著：原先多由私人木工完成的工作，到了20世纪后半期几乎全为家具工厂来承担，传统的“细木匠”和“粗木匠”也渐渐转为了室内装修工。",
+  "statement_en": "Zhao Nong holds that the evolution of furniture in the twentieth century was striking: work formerly done mostly by private carpenters was taken over almost entirely by furniture factories in the second half of the century, and traditional fine and rough carpenters gradually became interior decorators.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7953,
+    "line_end": 7964,
+    "span_kind": "bounded",
+    "key_lines": [
+     7957
+    ],
+    "block_ids": [
+     "b0331"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第三节 器皿与家具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-148"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ming-style-furniture.md",
+   "04-knowledge/units/terms/qing-style-furniture.md"
+  ],
+  "discussion_notes": "断言语义取 L7957。“非常显著”为作者的总体判断；明式、清式家具两条提供前现代家具形制基线。原文未给家具工厂数量、产值与工匠转业统计。与 claim-0720 同段，前者论生产组织与职业、后者论材料与加工，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0720",
+  "statement_zh": "赵农认为，家具材料由实木制家具转向金属钢管材料的家具应用，利用电镀、深冲、冷弯、静电喷涂、红外烘烤等原理制造圆形、方形、异型家具；后来板式家具传入，利用纤维板、胶合板、木工板、细木板、塑胶板等压缩板材，采取工厂流水作业制作不同形态和标准的组合家具、折叠家具。",
+  "statement_en": "Zhao Nong holds that furniture materials shifted from solid wood to metal steel tubing, using electroplating, deep drawing, cold bending, electrostatic spraying and infrared baking to make round, square and irregular forms; later panel furniture arrived, using fibreboard, plywood, blockboard, batten board and plastic board in factory assembly lines to produce modular and folding furniture in various forms and standards.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7953,
+    "line_end": 7964,
+    "span_kind": "bounded",
+    "key_lines": [
+     7959
+    ],
+    "block_ids": [
+     "b0331"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第三节 器皿与家具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-149"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/renzao-cailiao-jiaju.md",
+   "04-knowledge/units/terms/ming-style-furniture.md"
+  ],
+  "discussion_notes": "断言语义取 L7959。人造材料家具条对应压缩板材与流水作业，明式家具条提供实木工艺基线。“后来”未系年；原文未给各类板材的市场份额与工艺参数。与 claim-0719 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0721",
+  "statement_zh": "赵农评价，在近现代工业化的影响下，传统手工艺技术扮演了悲壮的角色，也折射了中国现代文化进程中的一种潜流；手工艺体现了中华民族的民间艺术思想，是民生的基本经济手段，并在日常生活中以其技术方式传递着文化的理念。",
+  "statement_en": "Zhao Nong judges that under modern industrialisation traditional handicraft played a tragic role and refracted an undercurrent in China's modern cultural process; handicraft embodies the folk art thinking of the Chinese nation, is a basic economic means of livelihood, and transmits cultural ideas through its techniques in daily life.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7990,
+    "line_end": 8003,
+    "span_kind": "bounded",
+    "key_lines": [
+     8002
+    ],
+    "block_ids": [
+     "b0334"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第三节 器皿与家具"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-154"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/events/quanguo-minjian-meishu-gongyipin-zhanlanhui.md"
+  ],
+  "discussion_notes": "断言语义取 L8002。“悲壮”“潜流”为作者的文学化评价；全国民间美术工艺品展览会条代表民间手工艺的制度化展示，工艺美术条对应手工艺的学科归属。原文未给手工艺从业人数与产值。与 claim-0714 同章，前者论政治化设计、后者论手工艺处境，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0722",
+  "statement_zh": "赵农评价，工商、税务、保安人员的服饰模仿警察服，加上佩饰、皮带，常常使市民误识；这应该是职业装设计的一个误区。",
+  "statement_en": "Zhao Nong judges that the uniforms of industry and commerce, tax and security staff imitate police uniforms, and with their accessories and belts often mislead the public; this should count as a mistaken approach in occupational-uniform design.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8056,
+    "line_end": 8083,
+    "span_kind": "bounded",
+    "key_lines": [
+     8064
+    ],
+    "block_ids": [
+     "b0337"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-166"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言语义取 L8064。“应该是……一个误区”为作者的规范性评价，非行业统计结论；同段先述士兵、警察、法官、医师、厨师、清洁工与校服等职业装类型。库内无职业装或警察服条目，未强行链接。与 claim-0723、claim-0724 同节，分别论职业装误区、西服平民化与改革初期服饰争议，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0723",
+  "statement_zh": "赵农认为，西服在20世纪80年代以后迅速普及为当代社会男性的主要服饰，从国家领导人到进城的民工、从学者到商人都穿西服，已演变成无明显阶层特征的平民化服饰；除了极少的庄重场合，西服的礼仪性质已被人们淡化。",
+  "statement_en": "Zhao Nong holds that after the 1980s the Western suit rapidly became the main dress of contemporary Chinese men, worn from state leaders to migrant workers and from scholars to merchants, and evolved into a plebeian dress without clear class markers; except on a few solemn occasions its ceremonial character has been diluted.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8056,
+    "line_end": 8083,
+    "span_kind": "bounded",
+    "key_lines": [
+     8062
+    ],
+    "block_ids": [
+     "b0337"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-167"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xifu.md",
+   "04-knowledge/units/terms/zhongshanzhuang.md"
+  ],
+  "discussion_notes": "断言语义取 L8062。西服条对应主体，中山装条为20世纪中国男性正式服装的对照。原文另述文革时期西服几乎销声匿迹、80年代初仍有思想解放的政治含义。“无明显阶层特征”为作者的社会观察，未给穿着率调查。与 claim-0727（中山装政治阐释）跨节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0724",
+  "statement_zh": "赵农认为，改革开放后，青少年喜爱的牛仔服、喇叭裤和太阳镜竟被视为“资产阶级”的妖风，受到保守政治势力的粗暴干涉；一度流行的“蝙蝠衫”“迷你裙”实际上是对文革服饰的反叛，也是人性解放的象征。",
+  "statement_en": "Zhao Nong holds that after reform and opening, denim jackets, flared trousers and sunglasses favoured by the young were treated as a bourgeois evil wind and crudely interfered with by conservative political forces; the once-popular bat-wing shirt and miniskirt were in fact rebellions against Cultural Revolution dress and symbols of human liberation.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8056,
+    "line_end": 8083,
+    "span_kind": "bounded",
+    "key_lines": [
+     8080
+    ],
+    "block_ids": [
+     "b0337"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-168"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/xifu.md",
+   "04-knowledge/units/terms/qipao.md"
+  ],
+  "discussion_notes": "断言语义取 L8080。“妖风”“粗暴干涉”“反叛”“人性解放”均为作者的转述与评价；西服、旗袍两条代表同一时期服装变迁的相邻线索。原文未给具体禁令、查处事件与流行年代。与 claim-0722、claim-0723 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0725",
+  "statement_zh": "赵农认为，中国现代社会的历程是中华民族历史上最艰难的时期之一；中国现代化建设既需要与西方社会积极交流合作，又不能放弃民族化特征，全球化与民族化的矛盾并不仅仅限于一国一地，并深刻影响近百年中国现代化的进程。",
+  "statement_en": "Zhao Nong holds that modern China's course is one of the hardest periods in the nation's history; Chinese modernisation needs active exchange and cooperation with the West while not abandoning national characteristics, and the tension between globalisation and nationalisation is not confined to one country or place but has deeply shaped nearly a century of Chinese modernisation.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7686,
+    "line_end": 7686,
+    "span_kind": "line",
+    "key_lines": [
+     7686
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-171"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L7686。“最艰难的时期之一”为作者的分期评价；工业设计条仅作现代设计语境的弱关联。原文未给“全球化”“民族化”的定义与衡量指标。与 claim-0712（现代分期）同节，前者论分期口径、后者论现代化矛盾，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0726",
+  "statement_zh": "赵农认为，设计落后关系到民族文化的振兴发展；时代变革迫使工艺美术教育转型，需要形成现代艺术设计教育体系的成果，积极建立面向市场经济的设计文化。",
+  "statement_en": "Zhao Nong holds that design backwardness bears on the revitalisation of national culture; changing times forced arts-and-crafts education to transform, requiring achievements in a modern art-design education system and the active building of a market-oriented design culture.",
+  "claim_type": "synthetic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 7733,
+    "line_end": 7733,
+    "span_kind": "line",
+    "key_lines": [
+     7733
+    ],
+    "block_ids": [
+     "b0322"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第一节 绪论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-172"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/1998-moe-major-catalog.md",
+   "04-knowledge/units/institutions/central-academy-arts-design.md",
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L7733。该行有 OCR 脱字，“设计落后进入人们的视设计水平”句意残缺；statement 只概括可读主旨，不补拟原文。1998年专业目录调整条、中央工艺美术学院条与工艺美术条分别对应教育转型的制度、机构与学科三个落点。与 claim-0715 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0727",
+  "statement_zh": "赵农转述，有好事者对中山装的特殊设计加以阐释其政治含义：四个口袋引申为“礼、义、廉、耻”；口袋盖为倒山形笔架，意为革命需要文化；五个纽扣有五院分立之意，也有“汉、蒙、满、回、藏”五族同荣之喻，与辛亥革命的五色旗对应；袖口三个纽扣就是三民主义等。",
+  "statement_en": "Zhao Nong relays that some enthusiasts interpreted the political meanings of Zhongshan suit details: the four pockets as propriety, righteousness, integrity and shame; the inverted-mountain pen-rack pocket flaps as the revolution's need for culture; the five buttons as the separation of five powers or the unity of Han, Mongol, Manchu, Hui and Tibetan peoples, corresponding to the five-colour flag of the 1911 Revolution; and the three cuff buttons as the Three Principles of the People.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8042,
+    "line_end": 8042,
+    "span_kind": "line",
+    "key_lines": [
+     8042
+    ],
+    "block_ids": [
+     "b0336"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-175"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/zhongshanzhuang.md",
+   "04-knowledge/units/persons/sun-yat-sen.md"
+  ],
+  "discussion_notes": "断言语义取 L8042。“有好事者”表明以下符号解释是原文转述的时人附会，不是赵农本人主张；statement 用“转述”保留归因边界。中山装条与孙中山条对应服装及其命名来源。与 claim-0723 跨节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0728",
+  "statement_zh": "赵农认为，20世纪上半叶的旗袍改良往往受电影明星的流行风尚影响。",
+  "statement_en": "Zhao Nong holds that qipao reform in the first half of the twentieth century was often influenced by the fashion of film stars.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8048,
+    "line_end": 8048,
+    "span_kind": "line",
+    "key_lines": [
+     8048
+    ],
+    "block_ids": [
+     "b0336"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-176"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qipao.md"
+  ],
+  "discussion_notes": "断言语义取 L8048。同段述旗袍源于满族女子服饰，领、袖、下摆与边饰不断变化，现代旗袍特征为腰部紧收、曲线凹凸，并带高跟鞋与烫发。原文未举具体影星与影片。与 claim-0729 同段，前者论明星影响、后者论妓女引领潮流，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0729",
+  "statement_zh": "赵农认为，在服装改良过程中有一个特殊现象，即妓女引领服装潮流，当时多为社会正统人士所谴责。",
+  "statement_en": "Zhao Nong holds that a peculiar phenomenon in clothing reform was that courtesans led fashion trends, which drew condemnation from orthodox members of society at the time.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8050,
+    "line_end": 8050,
+    "span_kind": "line",
+    "key_lines": [
+     8050
+    ],
+    "block_ids": [
+     "b0336"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-11-177"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qipao.md"
+  ],
+  "discussion_notes": "断言语义取 L8050。“特殊现象”为作者的判断，“多为社会正统人士的谴责”为当时社会评价的概括；原文未给报刊言论、服装样式与传播路径的个案。与 claim-0728 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0730",
+  "statement_zh": "赵农认为，洋布冲击破坏了传统纺织技术的生存条件，使传统纺织退为乡村社会底层妇女农闲时期的劳作，少许手工纺织品仅在周围集市交换，“丝绸大国”的盛景已不复存在。",
+  "statement_en": "Zhao Nong holds that the influx of machine-made foreign cloth destroyed the conditions for traditional textile techniques, reducing traditional weaving to off-season work by poor rural women, with a little handwoven cloth exchanged only in nearby markets; the grandeur of the great silk nation was gone.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8084,
+    "line_end": 8102,
+    "span_kind": "bounded",
+    "key_lines": [
+     8086
+    ],
+    "block_ids": [
+     "b0338"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第四节 服饰与纺织"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-03"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yangbu.md",
+   "04-knowledge/units/terms/sichou-zhilu.md",
+   "04-knowledge/units/terms/suxiu.md"
+  ],
+  "discussion_notes": "断言语义取 L8086。洋布条对应冲击来源，丝绸之路与苏绣条代表传统丝绸生产与工艺的长期传统。“丝绸大国”为原文的概括性说法；原文未给洋布进口量与传统纺织户数。L8092 续述1949年后纺织业恢复。与 claim-0720 跨节近邻，均涉近代材料与产业冲击，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0731",
+  "statement_zh": "赵农评价，1949年后的书籍装帧受政治环境影响，只有少数作品保持一定风格，大多数书籍采用简陋粗糙的设计；文化大革命时期书籍装帧几乎成为图解政治概念的手法，“红光亮”色调使书籍装帧艺术陷入泥沼。",
+  "statement_en": "Zhao Nong judges that after 1949 book design was affected by the political environment: only a few works kept a certain style while most books used crude, rough design; during the Cultural Revolution book design became almost a means of illustrating political concepts, and the red, bright and shiny palette sank book-design art into a mire.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8105,
+    "line_end": 8136,
+    "span_kind": "bounded",
+    "key_lines": [
+     8127,
+     8129
+    ],
+    "block_ids": [
+     "b0340"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-25"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/national-book-design-exhibition-1959.md",
+   "04-knowledge/units/events/1999-book-design-exhibition.md",
+   "04-knowledge/units/persons/zhang-guang-yu.md"
+  ],
+  "discussion_notes": "断言语义取 L8127、L8129。“简陋粗糙”“图解政治概念”“泥沼”均为作者的连续评价；第一、第五届全国书籍装帧艺术展览条对应前后两个制度性节点，张光宇条对应原文所举《装饰》字体设计。原文未给书籍品种与印数统计。与 claim-0732 同节，前者论1949年后与文革、后者论改革开放后，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0732",
+  "statement_zh": "赵农评价，改革开放以后书籍装帧逐渐恢复，《中国历代绘画》《陈寅恪文集》等古朴沉稳、风格典雅，多种杂志与出版社封面装帧焕然一新，具有非常重要的文化意义。",
+  "statement_en": "Zhao Nong judges that after reform and opening book design gradually recovered; works such as Zhongguo Lidai Huihua and The Collected Works of Chen Yinke were plain, steady and elegant, covers of many magazines and publishers took on a new look, and this had very important cultural significance.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8105,
+    "line_end": 8136,
+    "span_kind": "bounded",
+    "key_lines": [
+     8131
+    ],
+    "block_ids": [
+     "b0340"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-26"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/1999-book-design-exhibition.md",
+   "04-knowledge/units/institutions/central-academy-arts-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8131。“非常重要的文化意义”为作者的明确评价；同段列举人民美术出版社、上海古籍出版社、人民文学出版社、三联书店《读书》、中央工艺美术学院《装饰》、江苏美术出版社《老房子》、山东画报出版社《老照片》及台湾《汉声》、香港商业文化。第五届全国书籍装帧艺术展览条与中央工艺美术学院条对应恢复期的行业与机构节点。与 claim-0731 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0733",
+  "statement_zh": "赵农认为，中国虽发明造纸技术，但近代造纸技术已落后于西方诸国，除宣纸保持一定优势外，工业用纸和生活用纸等方面与欧洲社会相差很多。",
+  "statement_en": "Zhao Nong holds that although China invented papermaking, its modern paper technology had fallen behind Western countries; apart from a certain advantage in xuan paper, industrial and consumer paper lagged far behind European societies.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8137,
+    "line_end": 8150,
+    "span_kind": "bounded",
+    "key_lines": [
+     8139,
+     8143
+    ],
+    "block_ids": [
+     "b0341"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-31"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/procedures/xiandai-zaozhi-jishu.md",
+   "04-knowledge/units/procedures/zaozhishu.md"
+  ],
+  "discussion_notes": "断言语义取 L8139-L8143，因页眉“第十章 艰难的变革——现代时期的设计”插入而跨行，已并合。现代造纸技术条对应西方技术参照，造纸术条对应中国发明传统。“落后”“相差很多”为作者的比较判断，未给产量、设备与人均用纸数据。与 claim-0734（印刷技术冲击）同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0734",
+  "statement_zh": "赵农认为，19世纪末西方石版印刷和铅字印刷技术传入中国，使中国明清时期的雕版印刷及铜、铅、木、泥、陶等传统印刷方法面临被淘汰的危机。",
+  "statement_en": "Zhao Nong holds that the introduction of Western lithography and movable-metal-type printing at the end of the nineteenth century put Ming-Qing woodblock printing and traditional copper, lead, wood, clay and ceramic printing methods under threat of elimination.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8151,
+    "line_end": 8165,
+    "span_kind": "bounded",
+    "key_lines": [
+     8153
+    ],
+    "block_ids": [
+     "b0342"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-37"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/procedures/shiyin-ben.md",
+   "04-knowledge/units/procedures/huozi-yinshua.md",
+   "04-knowledge/units/procedures/duanban-taoyin.md"
+  ],
+  "discussion_notes": "断言语义取 L8153。石印本、活字印刷与短版套印三条分别对应传入技术与传统技术两端。“面临被淘汰的危机”为作者的形势判断，原文未给传统书坊停业数量与石印所占市场份额。与 claim-0733 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0735",
+  "statement_zh": "赵农指出，中国近现代的广告是从香烟和药品开始的。",
+  "statement_en": "Zhao Nong states that modern Chinese advertising began with cigarettes and medicines.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8166,
+    "line_end": 8169,
+    "span_kind": "bounded",
+    "key_lines": [
+     8168
+    ],
+    "block_ids": [
+     "b0343"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-39"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/yingmei-yancao-gongsi.md",
+   "04-knowledge/units/works/zhongguo-yiri-guanggao.md"
+  ],
+  "discussion_notes": "断言语义取 L8168。英美烟草公司条对应香烟广告的主要投放者，《中国一日》广告条对应同期广告作品实例。“从香烟和药品开始”为作者的起源判断，后文以路牌、招贴与英美烟草公司为例展开；原文未给早期广告主与投放量的统计。与 claim-0736、claim-0737 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0736",
+  "statement_zh": "赵农认为，1949年以后广告活动进入低潮期，广告受政府主管部门控制并常与宣传活动连接，文化大革命时期广告一度绝迹，1979年以后才逐步恢复。",
+  "statement_en": "Zhao Nong holds that after 1949 advertising entered a low period, controlled by the responsible government department and often tied to propaganda campaigns; during the Cultural Revolution advertising disappeared, and only after 1979 did it gradually recover.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8170,
+    "line_end": 8209,
+    "span_kind": "bounded",
+    "key_lines": [
+     8192
+    ],
+    "block_ids": [
+     "b0344"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-48"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/national-advertising-design-exhibition-1982.md",
+   "04-knowledge/units/publications/zhongguo-guanggao.md"
+  ],
+  "discussion_notes": "断言语义取 L8192。第一届全国广告装潢设计展览条与《中国广告》条对应1979年后的恢复与专业化节点。1949年后至文革的广告管理原文未给法规名称；statement 用“政府主管部门控制”保持原文表述。与 claim-0737 同节，前者论起伏、后者论1992年后与CI，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0737",
+  "statement_zh": "赵农认为，1992年以来广告已成为经济社会的重要现象，为艺术设计人员提供了创业的良好机遇；中国艺术设计界引入CI设计，建立标准化的企业识别系统。",
+  "statement_en": "Zhao Nong holds that since 1992 advertising has become an important phenomenon of the economic society and offered designers good opportunities to start businesses; the Chinese design field introduced CI design and built standardised corporate identity systems.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8170,
+    "line_end": 8209,
+    "span_kind": "bounded",
+    "key_lines": [
+     8194
+    ],
+    "block_ids": [
+     "b0344"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-49"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/publications/zhongguo-guanggao.md",
+   "04-knowledge/units/publications/guoji-guanggao.md",
+   "04-knowledge/units/events/national-advertising-design-exhibition-1982.md"
+  ],
+  "discussion_notes": "断言语义取 L8194。《国际广告》《中国广告》两条对应原文列举的专业杂志，第一届全国广告装潢设计展览条对应行业展示机制。“重要现象”“良好机遇”为作者的判断；CI 的具体导入案例与标准化手册原文未展开。与 claim-0736 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0738",
+  "statement_zh": "赵农指出，20世纪初期作为现代意义的包装，仍然是伴随着英美烟草公司的香烟销售出现在国内，此外还有火柴盒、食品盒、礼品盒、化妆品、花布、药品、衣服等物品的包装。",
+  "statement_en": "Zhao Nong states that modern packaging in the early twentieth century still entered China with the cigarette sales of the Yingmei Tobacco Company, alongside packaging for matches, food boxes, gift boxes, cosmetics, printed cloth, medicines and clothing.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8210,
+    "line_end": 8221,
+    "span_kind": "bounded",
+    "key_lines": [
+     8214
+    ],
+    "block_ids": [
+     "b0345"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-54"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/yingmei-yancao-gongsi.md",
+   "04-knowledge/units/publications/zhongguo-baozhuang.md"
+  ],
+  "discussion_notes": "断言语义取 L8214。英美烟草公司条对应原文点名的传播渠道，《中国包装》条对应包装行业后来的专业化刊物。“仍然是”表明作者将其视为此前包装传统的延续。原文未给包装品类与产量的统计。与 claim-0739 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0739",
+  "statement_zh": "赵农认为，包装是产品与消费者之间的桥梁，要有亲和力，色彩使用要达到和谐、温暖、雅致的效果，使消费者获得适用的快感和美感。",
+  "statement_en": "Zhao Nong holds that packaging is a bridge between product and consumer, should have affinity, and should use colour to achieve harmonious, warm and elegant effects so that consumers gain both practical pleasure and aesthetic pleasure.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8210,
+    "line_end": 8221,
+    "span_kind": "bounded",
+    "key_lines": [
+     8220
+    ],
+    "block_ids": [
+     "b0345"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-55"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/publications/zhongguo-baozhuang.md",
+   "04-knowledge/units/publications/baozhuang-nianjian.md"
+  ],
+  "discussion_notes": "断言语义取 L8220。“桥梁”“亲和力”“和谐、温暖、雅致”为作者的规范性主张，不是对具体包装的形制描述；《中国包装》《包装年鉴》两条代表包装行业的知识载体。原文未给色彩实验或消费者测试数据。与 claim-0738 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0740",
+  "statement_zh": "赵农评价，从标志设计的意义上看，中华人民共和国国徽应是中国20世纪设计作品中最重要的一个。",
+  "statement_en": "Zhao Nong judges that in terms of logo design the National Emblem of the People's Republic of China should be the most important Chinese design work of the twentieth century.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8222,
+    "line_end": 8245,
+    "span_kind": "bounded",
+    "key_lines": [
+     8236
+    ],
+    "block_ids": [
+     "b0346"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-63"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/guohui-1950.md",
+   "04-knowledge/units/events/founding-ceremony-tiananmen-decoration-1949.md"
+  ],
+  "discussion_notes": "断言语义取 L8236。“最重要的一个”为作者的明确价值排序，原文未给评选标准与同行作品比较；同段继述申办奥运标志与2008年北京奥运会标志的中国文化意义。国徽条对应作品本体，开国大典天安门城楼布置条对应同一国家仪式视觉系统。与 claim-0741 同节，前者论国徽地位、后者论标志成为文化象征，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0741",
+  "statement_zh": "赵农认为，一种成功的设计可以成为社会文化的象征，如“中国银行”标志以圆形方孔古币为依托、“中国铁路”标志稳定庄重、“永久”牌自行车字体与车形结合、中国民航“凤凰”标志以凤鸟表现现代文明。",
+  "statement_en": "Zhao Nong holds that a successful design can become a symbol of social culture, as the Bank of China logo draws on the round coin with a square hole, the China Railway logo is steady and dignified, the Forever bicycle logotype combines lettering with bicycle form, and the CAAC phoenix logo uses the auspicious bird to express modern civilisation.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8222,
+    "line_end": 8245,
+    "span_kind": "bounded",
+    "key_lines": [
+     8238
+    ],
+    "block_ids": [
+     "b0346"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第五节 书籍与包装"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-64"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/zhongguo-yinhang-biaozhi.md",
+   "04-knowledge/units/works/zhongguo-tielu-biaozhi.md",
+   "04-knowledge/units/works/yongjiu-zixingche.md",
+   "04-knowledge/units/works/minhang-fenghuang-biaozhi.md"
+  ],
+  "discussion_notes": "断言语义取 L8238。四个标志条与原文四项例证一一对应；“成功的设计成为社会文化的象征”为作者的解释性命题，四例为支撑而非统计样本。原文未给标志启用年代与认知度调查。与 claim-0740 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0742",
+  "statement_zh": "赵农认为，机器铸造的钱币逐渐代替了圆形方孔钱，币制的改变使中国货币改革向前推进了一步。",
+  "statement_en": "Zhao Nong holds that machine-struck coins gradually replaced the round coin with a square hole, and the change in coinage advanced China's currency reform by one step.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8248,
+    "line_end": 8266,
+    "span_kind": "bounded",
+    "key_lines": [
+     8252
+    ],
+    "block_ids": [
+     "b0348"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-70"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/yuandatou.md",
+   "04-knowledge/units/terms/renminbi.md",
+   "04-knowledge/units/institutions/zhongguo-renmin-yinhang.md"
+  ],
+  "discussion_notes": "断言语义取 L8252。袁大头条对应机器铸币的代表，人民币条与中国人民银行条对应后续现代货币体系。“向前推进了一步”为作者的有限评价，未给银元与制钱的流通比例。与 claim-0743 同节，前者论币制更替、后者论袁大头流通，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0743",
+  "statement_zh": "赵农指出，“袁大头”质量稳定、币型统一、便于交易，很快流通全国，为民国初年金融经济的稳定起到了重要作用。",
+  "statement_en": "Zhao Nong states that the Yuan Shikai silver dollar was stable in quality and uniform in type, convenient for transactions, quickly circulated nationwide, and played an important role in stabilising finance and the economy in the early Republic.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8248,
+    "line_end": 8266,
+    "span_kind": "bounded",
+    "key_lines": [
+     8256,
+     8261
+    ],
+    "block_ids": [
+     "b0348"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-71"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/yuandatou.md",
+   "04-knowledge/units/terms/renminbi.md"
+  ],
+  "discussion_notes": "断言语义取 L8256、L8261，因图版说明插入而跨行，已并合。同段补充钱商打戳致银圆变形成为“烂板”的后果。“重要作用”为作者的判断，原文未给发行量与物价数据；人民币条仅作现代货币谱系的弱关联。与 claim-0742 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0744",
+  "statement_zh": "赵农认为，生活票证是20世纪中国艺术设计史中的一个特殊产物，在六七十年代关系到千家万户的基本生存状态。",
+  "statement_en": "Zhao Nong holds that living coupons were a peculiar product of twentieth-century Chinese design history and in the 1960s and 1970s affected the basic survival of millions of households.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8267,
+    "line_end": 8274,
+    "span_kind": "bounded",
+    "key_lines": [
+     8269
+    ],
+    "block_ids": [
+     "b0349"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-74"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/liangpiao.md"
+  ],
+  "discussion_notes": "断言语义取 L8269。“特殊产物”为作者的设计史定位；粮票条对应原文列举的核心票证。同段另列工作证、户口本、结婚证、布票、肉票、油票、副食票、棉花票及工业券，并区分地方粮票与全国通用粮票。原文未给票证种类与发放量的统计。与 claim-0745 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0745",
+  "statement_zh": "赵农认为，计划经济对流通环节的控制导致了对消费方式的绝对垄断，破坏了经济发展的正常秩序；政府按人口比例分发数种票证来控制购买需求，票证设计实际上十分简单，票证不是货币却成为货币使用的辅助证明。",
+  "statement_en": "Zhao Nong holds that planned-economy control of circulation led to an absolute monopoly over consumption and disrupted the normal order of economic development; the government distributed several kinds of coupons by population ratio to control demand, coupon design was in fact very simple, and coupons were not money but became auxiliary proof for its use.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8267,
+    "line_end": 8274,
+    "span_kind": "bounded",
+    "key_lines": [
+     8271,
+     8273
+    ],
+    "block_ids": [
+     "b0349"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-75"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/liangpiao.md",
+   "04-knowledge/units/terms/renminbi.md"
+  ],
+  "discussion_notes": "断言语义取 L8271、L8273。“绝对垄断”“破坏了正常秩序”为作者的强评价；粮票条对应票证主体，人民币条对应“不是货币却辅助货币使用”的参照。同段另述票证期限、闲置浪费与发放权腐败。原文未给计划调拨与票证发放的制度文本。与 claim-0744 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0746",
+  "statement_zh": "赵农认为，生产流水线的推广使生产工艺水平不再局限于手工业的个人技术体现，呈现出集体劳动、合理分工的生产格局。",
+  "statement_en": "Zhao Nong holds that the spread of the production line meant craft skill was no longer confined to the individual technique of handicraft, producing an organisation of collective labour and rational division of work.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8275,
+    "line_end": 8291,
+    "span_kind": "bounded",
+    "key_lines": [
+     8280
+    ],
+    "block_ids": [
+     "b0350"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-76"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/diyi-qiche-zhizaochang.md",
+   "04-knowledge/units/works/jiefang-truck.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8280。第一汽车制造厂条与解放牌载重卡车条对应流水线生产的机构与产品实例，工业设计条对应生产组织转型的学科语境。“合理分工”为作者的正面评价，原文未给流水线节拍、产量与工时数据。与 claim-0747 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0747",
+  "statement_zh": "赵农认为，20世纪人类两次世界性的战争为各国兵器研制和提高开拓了广阔空间；中国国防实力在1949年之后全面提高，兵器发展从常规武器拓展到导弹、电子战、信息战等尖端项目。",
+  "statement_en": "Zhao Nong holds that the two world wars of the twentieth century opened broad space for weapons development in many countries; China's national defence capacity improved comprehensively after 1949, and weapons development expanded from conventional arms to missiles, electronic warfare, information warfare and other advanced fields.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8275,
+    "line_end": 8291,
+    "span_kind": "bounded",
+    "key_lines": [
+     8286,
+     8288
+    ],
+    "block_ids": [
+     "b0350"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-77"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言语义取 L8286、L8288。“广阔空间”为作者的因果判断；库内无适龄的现代兵器、导弹或电子战条目，虎门火炮条属19世纪海防，不用于此。原文列举步枪、火炮、坦克、导弹、雷达、舰艇与飞机等装备品类，未给型号与产量。与 claim-0746 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0748",
+  "statement_zh": "赵农评价，作为20世纪中国社会的最大交通工具，火车发挥着重要作用；从1881年“龙”号机车到磁悬浮列车，火车印证着交通工具的设计对社会大众的积极影响。",
+  "statement_en": "Zhao Nong judges that as the largest means of transport in twentieth-century Chinese society the railway played an important role; from the Dragon locomotive of 1881 to the maglev train, it demonstrates the positive effect of transport design on the public.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8292,
+    "line_end": 8356,
+    "span_kind": "bounded",
+    "key_lines": [
+     8313,
+     8332
+    ],
+    "block_ids": [
+     "b0351"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-83"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/works/shanghai-cifu.md",
+   "04-knowledge/units/works/tangxu-tielu.md",
+   "04-knowledge/units/works/jingzhang-tielu.md"
+  ],
+  "discussion_notes": "断言语义取 L8313、L8332。唐胥铁路条对应1881年“龙”号机车，上海磁悬浮列车条对应文末磁悬浮，京张铁路条为近代铁路自主设计的代表。“最大交通工具”“积极作用”为作者的排序与评价，原文未给客运量、路网里程与份额数据。与 claim-0749 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0749",
+  "statement_zh": "赵农指出，中国汽车的出现以1902年进口的慈禧太后专用车为标志；1949年以前中国汽车主要是政府用车，生产和维修能力都比较差。",
+  "statement_en": "Zhao Nong states that the appearance of the automobile in China is marked by the 1902 imported car reserved for the Empress Dowager Cixi; before 1949 Chinese automobiles were mainly government vehicles, and production and repair capacity were both rather weak.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8292,
+    "line_end": 8356,
+    "span_kind": "bounded",
+    "key_lines": [
+     8334
+    ],
+    "block_ids": [
+     "b0351"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第六节 货币与交通"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-84"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/diyi-qiche-zhizaochang.md",
+   "04-knowledge/units/works/jiefang-truck.md"
+  ],
+  "discussion_notes": "断言语义取 L8334。第一汽车制造厂条与解放牌载重卡车条对应1949年后的汽车工业起点，与1949年前状况形成对照。“1902年”“慈禧太后专用车”为原文的起源叙事，未注车辆型号与进口档案；1949年前的汽车保有量原文未给。与 claim-0748 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0750",
+  "statement_zh": "赵农认为，中国现代设计教育的结构是从两个不同的方面切入的：一方面是美术类的教育体系，以工艺美术专业为出发点，缺乏生产市场的机制调节；另一方面是轻工业类的教育模式，注意设计的功能性而将审美教育置于身后，有时容易忽略对民族传统文化的深入研究。",
+  "statement_en": "Zhao Nong holds that the structure of modern Chinese design education entered from two different directions: one was the fine-arts education system starting from arts-and-crafts programmes, lacking adjustment by the production market; the other was the light-industry education model, which attended to design functionality but put aesthetic education behind, sometimes tending to neglect deep study of national traditional culture.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8359,
+    "line_end": 8409,
+    "span_kind": "bounded",
+    "key_lines": [
+     8386,
+     8388
+    ],
+    "block_ids": [
+     "b0353"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-99"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/liangjiang-shifan-xuetang.md",
+   "04-knowledge/units/institutions/beiping-guoli-yizhuan.md",
+   "04-knowledge/units/institutions/jiangnan-chuanzhengju-gongyi-xuetang.md",
+   "04-knowledge/units/institutions/central-academy-arts-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8386、L8388。“两个不同方面”为作者的结构判断；两江师范学堂、北平国立艺术专科学校两条对应美术类教育谱系，江南船政局工艺学堂条对应工艺教育，中央工艺美术学院条对应20世纪后半期的建制化。原文未给两系院校数量、课程与招生数据。与 claim-0751、claim-0752 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0751",
+  "statement_zh": "赵农认为，1998年“艺术设计”替换“工艺美术”，形成“美术学”和“艺术设计学”的分流，是一次突破性的回归，标志艺术设计的独立价值，从一个边缘学科到中心综合文化形态的建立。",
+  "statement_en": "Zhao Nong holds that the 1998 replacement of arts and crafts by art design, forming a split between fine arts studies and art design studies, was a breakthrough return that marked the independent value of art design and its establishment from a marginal discipline to a central comprehensive cultural form.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8359,
+    "line_end": 8409,
+    "span_kind": "bounded",
+    "key_lines": [
+     8390
+    ],
+    "block_ids": [
+     "b0353"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-100"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/events/1998-moe-major-catalog.md",
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8390。“突破性的回归”“独立价值”“从边缘到中心”均为作者的连续评价；1998年专业目录调整条对应制度事件，工艺美术与工业设计两条对应学科概念的前后关系。原文未给专业点、师资与招生规模的变化数据。与 claim-0715 跨节近邻，二者同述1998年调整，前者在绪论、后者在教育节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0752",
+  "statement_zh": "赵农评价，中央工艺美术学院的教学成果无疑代表着中国艺术设计的发展方向。",
+  "statement_en": "Zhao Nong judges that the teaching achievements of the Central Academy of Arts and Design undoubtedly represented the development direction of Chinese art design.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8359,
+    "line_end": 8409,
+    "span_kind": "bounded",
+    "key_lines": [
+     8382
+    ],
+    "block_ids": [
+     "b0353"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-101"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/central-academy-arts-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8382。“无疑”为作者的强断言；同段列该院自建院至1984年陆续设立的染织、陶瓷、装潢、室内装饰、书籍装帧、壁画、服装、工业、金属工艺、工艺美术史等专业，并述1999年并入清华大学、更名清华大学美术学院。原文未给毕业生去向与教学评估数据。与 claim-0751 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0753",
+  "statement_zh": "赵农认为，设计和美术在历史发展中同源而异流：美术是审美的、感性的、回顾性的，设计是判断的、理性的、前瞻性的；设计通过对器具的设计和修正融合人与自然的矛盾，美术则安抚人的精神、缓释人与社会的精神冲撞。",
+  "statement_en": "Zhao Nong holds that design and fine art share an origin but diverged: fine art is aesthetic, emotional and retrospective, while design is judgmental, rational and forward-looking; design reconciles the conflict between humanity and nature through designing and correcting implements, whereas fine art soothes the spirit and eases spiritual collisions between people and society.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8410,
+    "line_end": 8443,
+    "span_kind": "bounded",
+    "key_lines": [
+     8412
+    ],
+    "block_ids": [
+     "b0354"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-102"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8412。“同源而异流”与三组成对判断为作者的理论解释，不是可量化命题；工艺美术与工业设计两条对应美术与设计连续体的两端。原文未给艺术史与设计史的分期证据。与 claim-0754、claim-0755 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0754",
+  "statement_zh": "赵农认为，以往的艺术设计学科往往以西方现代设计文化为基础，缺乏中国传统的民族文化特征；艺术设计史论的深入研究就是要对这种现象予以拨正。",
+  "statement_en": "Zhao Nong holds that the art-design discipline has generally been based on Western modern design culture and lacked Chinese traditional cultural characteristics; in-depth research in art-design history and theory should correct this.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8410,
+    "line_end": 8443,
+    "span_kind": "bounded",
+    "key_lines": [
+     8416
+    ],
+    "block_ids": [
+     "b0354"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-103"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md",
+   "04-knowledge/units/events/1998-moe-major-catalog.md"
+  ],
+  "discussion_notes": "断言语义取 L8416。“往往”“就是要……拨正”为作者的学科批评与主张，未给课程体系、教材与论文的抽样证据；工业设计条对应西方现代设计学科来源，1998年专业目录调整条对应中国学科建制节点。与 claim-0753、claim-0755 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0755",
+  "statement_zh": "赵农认为，中国艺术设计教育的研究需要创建学院化的智慧能源，与社会化的需求衔接，从“中国制造”到“中国设计”，建构中华民族的形象品牌。",
+  "statement_en": "Zhao Nong holds that research on Chinese art-design education needs to create an academy-based intellectual energy, connect with social demand, move from Made in China to Designed in China, and build the image brand of the Chinese nation.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8410,
+    "line_end": 8443,
+    "span_kind": "bounded",
+    "key_lines": [
+     8418
+    ],
+    "block_ids": [
+     "b0354"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-104"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md",
+   "04-knowledge/units/institutions/central-academy-arts-design.md",
+   "04-knowledge/units/publications/yishu-shejixue.md"
+  ],
+  "discussion_notes": "断言语义取 L8418。“智慧能源”“形象品牌”为作者的比喻性主张，不是既有制度安排；工业设计条、中央工艺美术学院条与《艺术设计学》条分别对应学科、机构与理论文本。原文未给“中国制造”向“中国设计”转型的产业数据。与 claim-0754 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0756",
+  "statement_zh": "赵农评价，将设计学院投入经济市场，在经济杠杆的调节中探索现代教学规律，改变校办产业方式，不失为中国艺术设计学院在现实条件下发展的道路。",
+  "statement_en": "Zhao Nong judges that putting design schools into the economic market, exploring modern teaching patterns through economic leverage and changing the mode of school-run enterprises is a viable development path for Chinese art-design schools under current conditions.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8410,
+    "line_end": 8443,
+    "span_kind": "bounded",
+    "key_lines": [
+     8438
+    ],
+    "block_ids": [
+     "b0354"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第七节 艺术设计教育"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-105"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/central-academy-arts-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8438。“不失为……发展的道路”为作者的政策性评价；同段以“活性创造机制”“教师和学生参与社会化设计活动”作论据。中央工艺美术学院条对应设计院校主体。原文未给校办产业产值与教学改革案例。与 claim-0755 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0757",
+  "statement_zh": "赵农评价，艺术设计是建立在先进的生产力发展水平上的；一味推崇“实用、经济、美观”的工艺美术思想无法建立真正的设计文化。",
+  "statement_en": "Zhao Nong judges that art design is grounded in an advanced level of productive forces; one-sided promotion of the arts-and-crafts idea of practical, economical and beautiful cannot build a genuine design culture.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8444,
+    "line_end": 8468,
+    "span_kind": "bounded",
+    "key_lines": [
+     8446
+    ],
+    "block_ids": [
+     "b0355"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-114"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8446。“无法建立真正的设计文化”为作者对“实用、经济、美观”口号的否定判断；工艺美术与工业设计两条对应被批评与被主张的两种设计观。原文未给该口号的政策文本与实施效果。与 claim-0758、claim-0759 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0758",
+  "statement_zh": "赵农认为，中国20世纪的艺术设计伴随着社会动荡，常常忽略其健康发展，更缺乏人文主义精神的融入。",
+  "statement_en": "Zhao Nong holds that twentieth-century Chinese art design was accompanied by social turmoil, often neglected its healthy development and lacked the integration of humanist spirit.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8444,
+    "line_end": 8468,
+    "span_kind": "bounded",
+    "key_lines": [
+     8448
+    ],
+    "block_ids": [
+     "b0355"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-115"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [],
+  "discussion_notes": "断言语义取 L8448。“常常忽略”“更缺乏”为作者对百年设计整体状况的判断；库内无适龄的20世纪社会动荡或人文主义条目，未强行链接。同节后文以包豪斯教育思想与人文主义作正面主张。与 claim-0757、claim-0759 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0759",
+  "statement_zh": "赵农认为，设计文化的结果需要大众化的实践检验，是社会主流文明所体现的价值；艺术设计中的人文主义思想是中国艺术设计业兴盛的根本。",
+  "statement_en": "Zhao Nong holds that the results of design culture require testing in mass practice and embody the values of mainstream civilisation; humanist thought in art design is the root of the flourishing of China's art-design industry.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8444,
+    "line_end": 8468,
+    "span_kind": "bounded",
+    "key_lines": [
+     8461
+    ],
+    "block_ids": [
+     "b0355"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-116"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/bauhaus.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8461。“根本”为作者的强判断；同段以包豪斯最初的教育问题作引，包豪斯条对应其思想来源，工业设计条对应学科语境。原文未给“大众化实践检验”的指标与案例。与 claim-0758 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0760",
+  "statement_zh": "赵农认为，设计作为一种智慧的生产力，促进了生产力技术的快速发展，改变了中国历史上技术不能转化为生产力的落后状态，成为广泛应用的社会学科。",
+  "statement_en": "Zhao Nong holds that design as an intellectual productive force has promoted the rapid development of productive technology, changed the backward state in which technology could not be converted into productive forces in Chinese history, and become a widely applied social discipline.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8469,
+    "line_end": 8483,
+    "span_kind": "bounded",
+    "key_lines": [
+     8471
+    ],
+    "block_ids": [
+     "b0356"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-117"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8465、L8471。原文在“设计作为一种”后因版式插入“中国艺术设计史”与“思考练习题”标题，句意跨页续于 L8471，本 claim 按可读语义并合，不据此改写原文。工业设计条对应设计作为社会学科的落点。“智慧的生产力”为作者的比喻性命题。与 claim-0761 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0761",
+  "statement_zh": "赵农评价，一部中国艺术设计的发展历史，是由许多可歌可泣的事迹所构成的文化篇章；许多艺术设计家精诚努力，为提升艺术设计的文化意义作出了杰出的贡献。",
+  "statement_en": "Zhao Nong judges that the history of Chinese art design is a cultural chapter composed of many moving deeds; many designers worked with dedication and made outstanding contributions to raising the cultural significance of art design.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8469,
+    "line_end": 8483,
+    "span_kind": "bounded",
+    "key_lines": [
+     8473
+    ],
+    "block_ids": [
+     "b0356"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-118"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md",
+   "04-knowledge/units/publications/yishu-shejixue.md"
+  ],
+  "discussion_notes": "断言语义取 L8473。“可歌可泣”“杰出的贡献”为作者的褒扬性评价，原文未列设计家名录与具体事迹；工业设计条与《艺术设计学》条分别对应学科与理论文本。与 claim-0760 同节，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0762",
+  "statement_zh": "赵农评价，中国经济改革处于严峻、艰辛的时代进程中：一方面，经济水平的提高使艺术设计业快速发展，为艺术设计提供了广阔的空间；另一方面，社会制度尚不完善，众多经济犯罪产生负面影响，为艺术设计提出了新课题。",
+  "statement_en": "Zhao Nong judges that China's economic reform is proceeding through a severe and arduous period: on one hand rising economic levels have rapidly developed the art-design industry and opened broad space for it; on the other, social institutions remain imperfect and widespread economic crime has negative effects, posing new tasks for art design.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8450,
+    "line_end": 8450,
+    "span_kind": "line",
+    "key_lines": [
+     8450
+    ],
+    "block_ids": [
+     "b0355"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-169"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/industrial-design.md",
+   "04-knowledge/units/institutions/central-academy-arts-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8450。“一方面……另一方面……”为原文明确的双面判断；工业设计条与中央工艺美术学院条分别对应产业与院校两端。“严峻、艰辛”为作者的时代评价，未给经济犯罪与设计产业的数据。与 claim-0763 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0763",
+  "statement_zh": "赵农认为，社会化的需求促进了学院的发展，改变了以往艺术设计教育的被动局面；艺术设计史也将伴随着经济改革的发展，形成持续性的文化现象。",
+  "statement_en": "Zhao Nong holds that social demand has promoted the development of the academy and changed the previous passive situation of art-design education; art-design history will also accompany economic reform and form a continuing cultural phenomenon.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2009-zhaonong-zhongguo-yishu-shejishi",
+   "source_file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+   "source_span": {
+    "line_start": 8452,
+    "line_end": 8452,
+    "span_kind": "line",
+    "key_lines": [
+     8452
+    ],
+    "block_ids": [
+     "b0355"
+    ],
+    "chapter": "第十章 艰难的变革——现代时期的设计",
+    "section": "第八节 结论"
+   },
+   "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-12-170"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/institutions/central-academy-arts-design.md",
+   "04-knowledge/units/publications/yishu-shejixue.md",
+   "04-knowledge/units/terms/industrial-design.md"
+  ],
+  "discussion_notes": "断言语义取 L8452。“促进了”“改变了”为作者的因果判断，“将持续形成文化现象”为前瞻性预测；中央工艺美术学院条与《艺术设计学》条分别对应学院与史论文本。“任何一门学科，如果基础理论不过关，就无法深入的建立学科规范”为同段另一命题，本 claim 未纳入。与 claim-0762 同段，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ }
+]

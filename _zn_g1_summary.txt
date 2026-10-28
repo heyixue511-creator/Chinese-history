@@ -1,0 +1,12 @@
+chunqiu-zhanguo.md | 春秋战国（Spring and Autumn and Warring States Period） | archaeological_period | B | medium | 
+war-chariot.md | 战车（War Chariot） | vehicle_type | B | medium | 
+nu-crossbow.md | 弩（Crossbow） | weapon | B | medium | 
+leather-armor.md | 皮甲（Leather Armor） | armor | B | medium | 
+wugou-hook.md | 吴钩（Wu Hook） | weapon | B | low | 
+pi-sword-spear.md | 铍（Pi Sword-Spear） | weapon | B | medium | 
+v-shaped-iron-ploughshare-cap.md | V形铁铧冠（V-Shaped Iron Ploughshare Cap） | agricultural_tool | B | low | 
+shi-mo.md | 石磨（Stone Quern） | agricultural_tool | B | medium | 本条指战国时期出现的旋转石磨，与新石器时代的石磨盘、磨棒不是一物；后者见 terms/shimopan-mobang.m
+lever.md | 杠杆（Lever） | device_type | B | low | 
+hengqi-balance.md | 权衡秤器（Balance and Steelyard） | measuring_device | B | medium | 
+jiegou-well-sweep.md | 桔槔（Well Sweep） | device_type | B | medium | 
+pulley.md | 滑轮（Pulley） | device_type | B | medium | 

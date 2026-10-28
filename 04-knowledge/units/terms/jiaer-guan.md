@@ -27,18 +27,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "夹耳罐是 B.6.5 盖系结构定形的样本：肩部两组系口、盖上两片带孔瓷片固定罐盖；单源一段，只能支撑结构描述"
 secondary_dimensions:
-hierarchy_scope_note: "夹耳罐是 B 维度下宋代青瓷水器的条目，材料限于器形与盖系结构。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "夹耳罐是 B.6.5 盖系结构定形的样本：肩部两组系口、盖上两片带孔瓷片固定罐盖；单源一段，只能支撑结构描述"
 ---
 
 ## 描述
@@ -54,16 +62,15 @@ hierarchy_scope_note: "夹耳罐是 B 维度下宋代青瓷水器的条目，材
 - **原文未载**: 高度、腹径、容量、具体窑口、制作工序与存世数量。
 - **证据边界**: 来源只给器形与盖系结构，未给尺寸或线图。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 夹耳罐是 B 维度下宋代青瓷水器的条目，材料限于器形与盖系结构。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 夹耳罐是 B.6.5 盖系结构定形的样本：肩部两组系口、盖上两片带孔瓷片固定罐盖；单源一段，只能支撑结构描述
 ## 相关知识元
 
 `terms/songdai-yaoxi.md` 记宋代窑系；本条为瓷器形制条目。relation 未审查。

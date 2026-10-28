@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "梅瓶是 B 维度下宋代瓷酒器造型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "梅瓶是 B.6.5 取象路径的代表器形：名取自梅骨清像，形为小口丰肩深腹；高丰给通高约 40 厘米、口径 4—5 厘米，是本 Topic 唯一有绝对尺度的瓶式"
+hierarchy_scope_note: "梅瓶是 B.6.5 取象路径的代表器形：名取自梅骨清像，形为小口丰肩深腹；高丰给通高约 40 厘米、口径 4—5 厘米，是本 Topic 唯一有绝对尺度的瓶式"
 ---
 
 ## 描述
@@ -58,15 +66,15 @@ hierarchy_scope_note: "梅瓶是 B 维度下宋代瓷酒器造型的条目。The
 - **产地**: 南北方的定窑、龙泉窑、耀州窑、磁州窑等均有此形制，区别在纹饰、胎质、釉色；另有小口圆肩鼓腹的梅瓶变化，为定窑、吉州窑产品（赵农）
 - **沿用**: 宋以后其他瓷酒具造型不断变化，梅瓶与玉壶春瓶一直沿用，成为中国古代传统酒瓶造型的典型式样（高丰）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 梅瓶是 B 维度下宋代瓷酒器造型的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 梅瓶是 B.6.5 取象路径的代表器形：名取自梅骨清像，形为小口丰肩深腹；高丰给通高约 40 厘米、口径 4—5 厘米，是本 Topic 唯一有绝对尺度的瓶式
 ## 相关知识元
 
 与玉壶春瓶同属宋元瓷瓶谱系；梅瓶的盛酒功能可与酒器、注子对读。relation 未审查。

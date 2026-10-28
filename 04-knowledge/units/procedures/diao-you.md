@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "雕釉是 B 维度下宋代磁州窑系剔刻装饰工序的条目，其纹样与器形归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: procedure
+    primary: true
+    scope_note: "先施白釉或黑釉再剔刻花纹以外空间露出胎体；以胎釉色差成纹，当阳峪多层色釉为变体"
+hierarchy_scope_note: "先施白釉或黑釉再剔刻花纹以外空间露出胎体；以胎釉色差成纹，当阳峪多层色釉为变体"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "雕釉是 B 维度下宋代磁州窑系剔刻装饰工序
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 雕釉是 B 维度下宋代磁州窑系剔刻装饰工序的条目，其纹样与器形归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 先施白釉或黑釉再剔刻花纹以外空间露出胎体；以胎釉色差成纹，当阳峪多层色釉为变体
 ## 相关知识元
 
 `procedures/hua-hua.md` 记同段并称的画花，为磁州窑系另一流行装饰；`procedures/pearl-ground-sgraffito.md` 记登封窑珍珠地划花；`places/cizhou-kiln.md` 记磁州窑；`procedures/liuchao-qingci-zhuangshi-liufa.md` 记六朝青瓷雕镂，为坯体透雕而非釉面剔刻，工序不同。relation 未审查。

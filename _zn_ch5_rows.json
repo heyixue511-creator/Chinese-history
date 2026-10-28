@@ -1,0 +1,3892 @@
+[
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-39",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3271-L3273"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以老庄、易经精神为依托，关注个人生存现实，讨论人与社会、人与自然关系的学说；代表为何晏、王弼、嵇康。",
+    "term": "魏晋玄学"
+   },
+   "proposed_slug": "weijin-xuanxue",
+   "source_span": {
+    "block_ids": [
+     "b0130"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3314,
+    "line_start": 3258,
+    "section": null
+   },
+   "summary": "三国时期的军阀混战为知识界提供了思想解放的机会；汉代经学衰败后，思想领域出现以何晏、王弼、嵇康为代表的玄学。玄学是以老庄、易经的精神为依托，关注个人的生存现实，讨论人与社会、人与自然的特殊关系的学说，也是经过汉末动荡之后知识分子对社会现实的深入思考。",
+   "title": "魏晋玄学",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-40",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3289-L3291"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "作者概括南北分裂后文化分化的审美格局：南方柔美秀逸，北方苍雄豪爽，尤见于书法。",
+    "term": "南秀北雄"
+   },
+   "proposed_slug": "nanxiu-beixiong",
+   "source_span": {
+    "block_ids": [
+     "b0130"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3314,
+    "line_start": 3258,
+    "section": null
+   },
+   "summary": "南北疆土分裂的结果，最终是文化意义上的分化，南秀北雄的审美趣味成为后来文化风格的散逸。仅以书法论，苍雄的北朝摩崖石刻与柔美的南方文人书札相对；此后的南北朝时代继续保持着南朝的旖旎和北方的豪爽。",
+   "title": "南秀北雄",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-45",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3330-L3332"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "诸葛亮",
+    "notes": "损益连弩、木牛流马皆出其意。",
+    "period": "三国",
+    "role": "政治家、军事家"
+   },
+   "proposed_slug": "zhugeliang",
+   "source_span": {
+    "block_ids": [
+     "b0132"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3335,
+    "line_start": 3317,
+    "section": "第二节 交通与工具"
+   },
+   "summary": "诸葛亮是一个杰出的政治家、军事家，在三国争雄的过程中鞠躬尽瘁、死而后已。他“性长于巧思，损益连弩，木牛流马，皆出其意”，木牛的实际效果是“载一岁粮，日行二十里，而人不大劳”（《三国志·蜀书·诸葛亮传》），减轻了人力劳作，提高了运输能力。",
+   "title": "诸葛亮",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-49",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3342-L3347"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "灌溉机械",
+    "designer": "马钧",
+    "period": "三国",
+    "title": "翻车（龙骨水车）"
+   },
+   "proposed_slug": "fanche-longgu-shuiche",
+   "source_span": {
+    "block_ids": [
+     "b0133"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3352,
+    "line_start": 3336,
+    "section": "第二节 交通与工具"
+   },
+   "summary": "“翻车”即后世的龙骨水车，是马钧创造性发明和设计中首推者。《三国志·魏书·方技》载“乃作翻车，令儿童转之，而灌水自覆，更入更出，其巧百倍于常”；龙骨水车利用水流的原理，加之少许的人力，就可以引流灌溉，改变农人劳作的被动、提高生产效率。",
+   "title": "翻车（龙骨水车）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-51",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3367-L3367"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "船",
+    "designer": "祖冲之",
+    "period": "南齐",
+    "title": "千里船"
+   },
+   "proposed_slug": "qianlichuan",
+   "source_span": {
+    "block_ids": [
+     "b0134"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3372,
+    "line_start": 3353,
+    "section": "第二节 交通与工具"
+   },
+   "summary": "南齐时期造船业的进步体现在技术手段的提高上：“又造千里船，于新亭江试之，日行百余里。”（《南齐书·祖冲之传》）作者判断这应是一种人力脚踏车轮的推动船。",
+   "title": "千里船",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-52",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3379-L3384"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "魏晋时期贵族代步工具并成社会时尚；《晋书·舆服志》载其由贫者所乘渐变为天子至士常乘，速度可达马车。",
+    "term": "牛车"
+   },
+   "proposed_slug": "niuche",
+   "source_span": {
+    "block_ids": [
+     "b0135"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3405,
+    "line_start": 3373,
+    "section": "第二节 交通与工具"
+   },
+   "summary": "许多贵族以牛车为代步工具，并演变为一种社会时尚。《晋书·舆服志》载“古之贵者不乘牛车，汉武帝推恩之末，诸侯寡弱，贫者至乘牛车，其后稍见贵之。自灵献以来，天子至士遂以为常乘”。牛的运输能力和速度提高使牛车用途广泛，驭牛术已能使牛车速度达到马车速度，乘坐姿势也改变，立乘方式只在重大礼仪活动中出现。",
+   "title": "牛车",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-55",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3415-L3415"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以浙江嵊县剡溪古藤所造之纸，西晋至唐代驰名数百年。",
+    "term": "剡藤纸"
+   },
+   "proposed_slug": "shantengzhi",
+   "source_span": {
+    "block_ids": [
+     "b0137"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3422,
+    "line_start": 3408,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "西晋文学家张华的著作《博物志》记载：“剡溪古藤甚多，可造纸，故即名纸为剡藤。”剡溪在浙江嵊县；从西晋到唐代，剡藤纸驰名数百年。",
+   "title": "剡藤纸",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-57",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3415-L3415"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "张华",
+    "period": "西晋",
+    "title": "《博物志》"
+   },
+   "proposed_slug": "bowuzhi",
+   "source_span": {
+    "block_ids": [
+     "b0137"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3422,
+    "line_start": 3408,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "西晋文学家张华的著作《博物志》记载“剡溪古藤甚多，可造纸，故即名纸为剡藤”，是本书叙述剡藤纸的文献依据。",
+   "title": "《博物志》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-60",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3444-L3444"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "出现于汉代、独立与楷书有关的书体；张弛起伏、自然有序、字迹清晰，王羲之《兰亭集序》被称为“天下第一行书”。",
+    "term": "行书"
+   },
+   "proposed_slug": "xingshu",
+   "source_span": {
+    "block_ids": [
+     "b0138"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3447,
+    "line_start": 3423,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "行书本出现于汉代，但是行书的独立却与楷书有关。行书张弛起伏、自然有序，富于变化却字迹清晰，成为人们书写的最重要的理想方式；王羲之《兰亭集序》的书法挥洒自如、风韵雅逸，有“天下第一行书”的美誉。",
+   "title": "行书",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-67",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3440-L3440",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3479-L3479"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "北魏",
+    "title": "《张猛龙碑》"
+   },
+   "proposed_slug": "zhangmenglong-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139",
+     "b0138"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3482,
+    "line_start": 3423,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "北魏《张猛龙碑》雄强挺健，变化自如，书体精美玉润，婀娜多姿。书中又将此碑列为南北朝时期已经非常成熟的楷书作品之一。",
+   "title": "《张猛龙碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-73",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3444-L3444",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3501-L3503"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "书法作品（行书）",
+    "designer": "王羲之",
+    "period": "东晋",
+    "title": "《兰亭集序》"
+   },
+   "proposed_slug": "lantingjixu",
+   "source_span": {
+    "block_ids": [
+     "b0138",
+     "b0140"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3512,
+    "line_start": 3423,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "王羲之《兰亭集序》的书法挥洒自如、风韵雅逸，有“天下第一行书”的美誉；现存《姨母帖》《丧乱帖》《快雪时晴帖》《二谢帖》《初月帖》《兰亭集序》等，均为勾摹本，存有20余种。图5-19为东晋王羲之《兰亭集序》局部。",
+   "title": "《兰亭集序》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-115",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3440-L3440"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "墓志铭",
+    "period": "东魏",
+    "script_style": "成熟的楷书",
+    "title": "《司马升墓志铭》"
+   },
+   "proposed_slug": "simasheng-muzhiming",
+   "source_span": {
+    "block_ids": [
+     "b0138"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3440,
+    "line_start": 3440,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "南北朝时期已是楷书发达的开端，东魏《司马升墓志铭》与北魏《张猛龙碑》等作品已经是非常成熟的楷书。",
+   "title": "《司马升墓志铭》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-114",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3442-L3442"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "由章草演变而来、去除波磔并加强笔势转变的独立书体，书写流畅飞扬，但随意性可能带来文字表达的模糊性。",
+    "term": "草书（今草）"
+   },
+   "proposed_slug": "caoshu-jincao",
+   "source_span": {
+    "block_ids": [
+     "b0138"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3442,
+    "line_start": 3442,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "草书随着书体改革，将章草演变为今草，去掉章草的波磔而加强笔势的转变，迅速发展成一种独立的书体。今草流畅飞扬、飘逸变化的运笔，似乎更能表现人们内心的激动情绪；书写的速度几乎最能体现书写者的思维变化，可完整记录书写的内容，这是其他书体无法替代的；但是草书书写的随意性，在日常操作中容易使文字表达出现模糊性。",
+   "title": "草书（今草）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-63",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3450-L3450"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "后人对墓志与碑刻的统称。",
+    "term": "碑学"
+   },
+   "proposed_slug": "beixue",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3482,
+    "line_start": 3448,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "魏晋以来，石刻文字广为流行，其中分为墓志和碑刻，后人统称为碑学。",
+   "title": "碑学",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-64",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3465-L3465"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "北魏时期碑刻书风，以《龙门二十品》中《始平公造像记》《杨大眼造像记》及《石门铭》等为代表，质朴天然、开张纵逸。",
+    "term": "魏碑"
+   },
+   "proposed_slug": "weibei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3482,
+    "line_start": 3448,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "魏碑指北魏时期碑刻书风：北魏《龙门二十品》中的《始平公造像记》《杨大眼造像记》等质朴天然、开张纵逸；北魏《石门铭》为摩崖石刻，清人康有为论其“飞逸奇浑，分行流宕，翩翩欲仙”。",
+   "title": "魏碑",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-65",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3452-L3452"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "东吴（公元276年）",
+    "title": "《天发神谶碑》"
+   },
+   "proposed_slug": "tianfa-shenchen-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3482,
+    "line_start": 3448,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "南方的碑刻中以东吴的《天发神谶碑》为代表，其原碑刻于公元276年，笔意在于篆隶之间，字势雄伟，以方见圆。同时期的《禅国山碑》以篆书中寓隶意，浑厚苍雄。",
+   "title": "《天发神谶碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-66",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3465-L3468"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "摩崖石刻",
+    "period": "北魏",
+    "title": "《石门铭》"
+   },
+   "proposed_slug": "shimenming",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3482,
+    "line_start": 3448,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "北魏的《石门铭》描写褒斜谷道的开拓情景，为摩崖石刻；清人康有为论其“飞逸奇浑，分行流宕，翩翩欲仙”。",
+   "title": "《石门铭》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-116",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3452-L3452"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "relative_period": "与东吴《天发神谶碑》同时期",
+    "script_style": "篆书中寓隶意，浑厚苍雄",
+    "title": "《禅国山碑》"
+   },
+   "proposed_slug": "changuoshan-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3452,
+    "line_start": 3452,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "与东吴《天发神谶碑》同时期的《禅国山碑》，以篆书中寓隶意，浑厚苍雄。",
+   "title": "《禅国山碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-117",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3454-L3454"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "context": "东晋时期仍禁碑、墓志铭盛行",
+    "script_style": "方笔运行，字体错落笨拙，古朴凝重，寓静于动",
+    "title": "《爨宝子碑》"
+   },
+   "proposed_slug": "cuanbaozi-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3454,
+    "line_start": 3454,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "《爨宝子碑》仿汉制而立，整个石碑以方笔运行，字体错落笨拙，却古朴凝重、寓静于动。",
+   "title": "《爨宝子碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-118",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3454-L3454"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "location": "吉林",
+    "script_style": "方正古朴",
+    "title": "《好大王碑》"
+   },
+   "proposed_slug": "haodawang-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3454,
+    "line_start": 3454,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "吉林《好大王碑》也有方正古朴的寓意。",
+   "title": "《好大王碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-119",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3461-L3461"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "十六国时期前秦",
+    "script_style": "随意纵横，体格多变，体现北方游牧民族文化特征",
+    "title": "《广武将军碑》"
+   },
+   "proposed_slug": "guangwu-jiangjun-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3461,
+    "line_start": 3461,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "十六国时期前秦的《广武将军碑》，随意纵横，体格多变，体现了北方游牧民族的文化特征。",
+   "title": "《广武将军碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-120",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3463-L3463"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "南朝宋",
+    "script_style": "生动雄强，姿态奇逸",
+    "title": "《爨龙颜碑》"
+   },
+   "proposed_slug": "cuanlongyan-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3463,
+    "line_start": 3463,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "南朝宋的《爨龙颜碑》，生动雄强，姿态奇逸。",
+   "title": "《爨龙颜碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-121",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3463-L3463"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "南朝梁",
+    "script_style": "仙气逼人，萧散飞动，厚重古朴，有南北书风合一的气象",
+    "title": "《瘗鹤铭》"
+   },
+   "proposed_slug": "yiheming",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3463,
+    "line_start": 3463,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "南朝梁的《瘗鹤铭》，仙气逼人，萧散飞动，却厚重古朴，有南北书风合一的气象。",
+   "title": "《瘗鹤铭》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-122",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3479-L3479"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "墓志铭",
+    "period": "北魏",
+    "script_style": "端庄媚妩，遒厚精古",
+    "title": "《张黑女墓志》"
+   },
+   "proposed_slug": "zhangheinv-muzhi",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3479,
+    "line_start": 3479,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "北魏《张黑女墓志》，端庄媚妩，遒厚精古。",
+   "title": "《张黑女墓志》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-123",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3479-L3479"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "东魏",
+    "script_style": "清婉秀丽，细巧宜人",
+    "title": "《敬史君碑》"
+   },
+   "proposed_slug": "jingshijun-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3479,
+    "line_start": 3479,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "东魏《敬史君碑》，清婉秀丽，细巧宜人。",
+   "title": "《敬史君碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-124",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3481-L3481"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "摩崖刻石",
+    "period": "北齐（相传）",
+    "script_style": "字大径尺，以隶书为主，兼有篆、楷、行书体，气吞河山，雄浑无比",
+    "title": "《泰山经石峪金刚经》"
+   },
+   "proposed_slug": "taishan-jingshiyu-jingangjing",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3481,
+    "line_start": 3481,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "相传北齐时期的《泰山经石峪金刚经》为摩崖刻石，字大径尺，以隶书为主，兼有篆、楷、行书体，气吞河山，雄浑无比。",
+   "title": "《泰山经石峪金刚经》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-125",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3481-L3481"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "碑刻",
+    "period": "北周",
+    "script_style": "上承北魏，清朗和平，端庄雅致",
+    "title": "《西岳华山碑》"
+   },
+   "proposed_slug": "xiyue-huashan-bei",
+   "source_span": {
+    "block_ids": [
+     "b0139"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3481,
+    "line_start": 3481,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "北周《西岳华山碑》上承北魏，清朗和平，端庄雅致。",
+   "title": "《西岳华山碑》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-69",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3498-L3503"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "王羲之",
+    "notes": "书学卫夫人、张芝、钟繇；行楷融合；《兰亭集序》等为勾摹本。",
+    "period": "东晋",
+    "role": "书法家、右军将军"
+   },
+   "proposed_slug": "wangxizhi",
+   "source_span": {
+    "block_ids": [
+     "b0140"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3512,
+    "line_start": 3483,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "东晋王羲之是中国书法史上的巨匠，官拜右军将军，又称“王右军”。他少年时书学卫夫人，后草书学张芝、楷书学钟繇等前辈大家，并从山东到江南广泛吸收民间书法营养，达到“尤善草隶，为古今之冠”（《晋书·王羲之传》），形成一种行楷融合的新书体。现存《姨母帖》《丧乱帖》《快雪时晴帖》《二谢帖》《初月帖》《兰亭集序》等，均为勾摹本，存有20余种；唐代怀仁和尚集王书为《圣教序》。",
+   "title": "王羲之",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-71",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3489-L3494"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "陆机",
+    "notes": "手书《平复帖》，为现存最早的书法作品真迹。",
+    "period": "西晋",
+    "role": "文学家、书法家"
+   },
+   "proposed_slug": "luji",
+   "source_span": {
+    "block_ids": [
+     "b0140"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3512,
+    "line_start": 3483,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "陆机是一位著名的文学家，也是杰出的书法家；现存最早的书法作品真迹，是西晋文学家陆机手书的《平复帖》。《平复帖》的存在，使后人看到了魏晋时期书法的真实面貌。",
+   "title": "陆机",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-72",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3489-L3494"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "书法作品（章草与今草之间）",
+    "designer": "陆机",
+    "period": "西晋",
+    "title": "《平复帖》"
+   },
+   "proposed_slug": "pingfutie",
+   "source_span": {
+    "block_ids": [
+     "b0140"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3512,
+    "line_start": 3483,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "《平复帖》是西晋文学家陆机手书的作品，为现存最早的书法作品真迹（图5-18）。其书体为章草和今草之间的一种书体，含隶含篆，笔法奇倔；《平复帖》的存在，使后人看到了魏晋时期书法的真实面貌。",
+   "title": "《平复帖》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-130",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3505-L3505"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "王献之",
+    "relationship": "王羲之第七子",
+    "title": "二王",
+    "works": "《鸭头丸帖》《中秋帖》《洛神赋》《二十九日帖》等"
+   },
+   "proposed_slug": "wangxianzhi",
+   "source_span": {
+    "block_ids": [
+     "b0140"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3505,
+    "line_start": 3505,
+    "section": "第三节 造纸与文字"
+   },
+   "summary": "王献之是王羲之的第七子，与王羲之并称“二王”，今流传有《鸭头丸帖》《中秋帖》《洛神赋》《二十九日帖》等。",
+   "title": "王献之",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-78",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3525-L3525"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "瓷器（殉葬明器）",
+    "material": "青瓷",
+    "period": "孙吴（公元260年）",
+    "title": "青瓷谷仓罐（永安三年）"
+   },
+   "proposed_slug": "qingci-gucangguan",
+   "source_span": {
+    "block_ids": [
+     "b0142"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3538,
+    "line_start": 3515,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "青瓷谷仓罐是一种典型的造型样式，在口沿上以人物、飞禽为雕饰，而在罐腹部以羊、龟、蛇、鱼等动物为浮雕造型，整个造型由两个罐粘接而成，将制器和雕塑融为一体。其中碑文标志为“永安三年”（公元260年）字样的孙吴时期的青瓷谷仓罐，更是造型繁密，制器精美。",
+   "title": "青瓷谷仓罐（永安三年，公元260年）",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-82",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3546-L3550"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "南北朝使用的窑具，可防止瓷胎挤压变形、隔离烟尘与高温对釉色的损害，提高瓷器质地纯度。",
+    "term": "匣钵"
+   },
+   "proposed_slug": "xiabo",
+   "source_span": {
+    "block_ids": [
+     "b0143"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3551,
+    "line_start": 3539,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "在南北朝时期的窑址中，出土过许多窑具，其中匣钵的使用，对于瓷器的成型起到了重要作用。匣钵在防止瓷胎的挤压变形方面，能够保护瓷胎的稳定；在预防烟尘对瓷胎的熏染中，匣钵通过隔离的方法，避免因高温导致的釉分解而使釉色减弱。匣钵的使用，是南北朝时期窑工制瓷技术经验的体现，在窑炉有限的空间中，可以掌握制瓷的温度变化，提高瓷器的质地纯度。",
+   "title": "匣钵",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-84",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3556-L3556"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "魏晋帝王头饰，由冕板（宽7寸、长1尺2寸，前圆后方）与前后垂旒构成；南朝以12/9/8/6旒区分皇帝、皇太子、三公、诸卿。",
+    "term": "冕冠与冕旒"
+   },
+   "proposed_slug": "mianguan-mianliu",
+   "source_span": {
+    "block_ids": [
+     "b0144"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3581,
+    "line_start": 3552,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "冠冕在魏晋时期是贵族士人的地位象征；冕是帝王的头饰，分为冕板和冕旒，冕板宽7寸，长1尺2寸，前圆后方，固定在通天冠上，而冕旒在冕板前后，各垂挂12旒，由珊瑚珠制成。阎立本《历代帝王图》中的晋武帝像，就有冠冕的形象描绘。到了南朝，规定皇帝为12旒，皇太子为9旒，三公为8旒，诸卿为6旒，成为政治地位的象征。",
+   "title": "冕冠与冕旒",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-87",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3586-L3591"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "短衣，原为汉衣制式，《说文解字》称“襦，短衣也”；多为布制，亦有纱、罗丝制品，与袄相近。",
+    "term": "襦"
+   },
+   "proposed_slug": "ru-duanyi",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3615,
+    "line_start": 3582,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "襦是一种短衣，原为常见的汉衣制式；许慎《说文解字》中有“襦，短衣也”，多为布制，也有纱、罗一类的丝制品。襦与袄相近，而袄早期应为北朝的皮制短袄，袖口窄紧，亦为北方游牧民族的打扮，在南北朝时期广泛流传于南方。",
+   "title": "襦",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-88",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3606-L3606"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "居家冶游鞋具，底部有两齿以践踏泥水；江南、中原普遍流行，因谢灵运着屐游山而有“谢公屐”之称。",
+    "term": "木屐（谢公屐）"
+   },
+   "proposed_slug": "muji-xiegongji",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3615,
+    "line_start": 3582,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "木屐是一种居家冶游的鞋具，脚底部有两齿，以践踏泥水；此时屐的形式在江南、中原均普遍流行。传说南朝宋谢灵运好作名山游，多着木屐，有“谢公屐”之说，李白《梦游天姥吟留别》即有“脚著谢公屐，身登青云梯”之句。木屐的特点适于江南湿润温暖的气候。",
+   "title": "木屐（谢公屐）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-89",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3584-L3584"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "葛洪",
+    "period": "东晋",
+    "title": "《抱朴子》"
+   },
+   "proposed_slug": "baopuzi",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3615,
+    "line_start": 3582,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "东晋葛洪的《抱朴子》中说：“丧乱以来，衣物屡变。冠履衣服，袖袂财制，日月改易，无复一定。”作者引此说明北方游牧民族进入中原后，将自身服饰制度与汉族风俗习惯不断融合，以至当时出现极其混乱的服装样式。",
+   "title": "《抱朴子》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-126",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3591-L3591"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "与襦相近的短衣，早期为北朝皮制短袄，袖口窄紧，南北朝时期广泛流传于南方。",
+    "term": "袄"
+   },
+   "proposed_slug": "ao-duanao",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3591,
+    "line_start": 3591,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "袄与襦相近，早期应为北朝的皮制短袄，袖口窄紧，亦为北方游牧民族的打扮，在南北朝时期广泛流传于南方。",
+   "title": "袄",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-127",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3593-L3593"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "衫为汉制便服，无袖口、衣袖宽大，多为夏季居家服；两裆衫前后两片布衣，肩部以布带连缀，缘起于铠甲样式。",
+    "term": "衫（两裆衫）"
+   },
+   "proposed_slug": "shan-liangdangshan",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3593,
+    "line_start": 3593,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "衫本是汉制便服，特点是无袖口，衣袖宽大，多为夏季居家便服；此时出现了两裆衫，前后为两片布衣，在肩部用布带连缀，缘起于铠甲的样式，由于简洁适用逐渐流行。",
+   "title": "衫（两裆衫）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-128",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3595-L3595"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "皮制御寒保暖的衣服。",
+    "term": "裘"
+   },
+   "proposed_slug": "qiu",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3595,
+    "line_start": 3595,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "裘衣是皮制御寒保暖的衣服；贵族与普通人的裘衣区别，仅仅是皮料的差异。",
+   "title": "裘",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-131",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3595-L3595"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "无袖、比皮裘宽敞肥大的皮制御寒衣，后亦称“披风”。",
+    "term": "大氅"
+   },
+   "proposed_slug": "da-chang",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3595,
+    "line_start": 3595,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "大氅一般无袖，比皮裘宽敞肥大，后来亦称“披风”，着衣行走飘逸欲仙，成为魏晋名士冬季喜爱的衣物。",
+   "title": "大氅",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-129",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3597-L3601"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "亦名裳，多与襦配置，魏晋以后被裤替代。",
+    "term": "裙"
+   },
+   "proposed_slug": "qun",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3597,
+    "line_start": 3597,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "裙亦名裳，多与襦配置；由于裤的兴起，裙虽然仍为正式场合的服饰，但在魏晋以后被裤替代。",
+   "title": "裙",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-132",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3597-L3601"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "保护腿部、促成上衣下裤衣式的服制。",
+    "term": "裤"
+   },
+   "proposed_slug": "ku",
+   "source_span": {
+    "block_ids": [
+     "b0145"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3601,
+    "line_start": 3599,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "裤起到保护腿部的作用，并改变了以前上衣下裳的衣式，形成上衣下裤；这是北方游牧民族马背生活习俗对中原的影响。裤式因袍、衫长衣有时裆部无须缝合，身着短衣时合裆的裤子自然流行。",
+   "title": "裤",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-91",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3627-L3627"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "魏晋南北朝妇女普遍使用的假发髻饰，用以改变头发造型；《北齐书》载其状如飞鸟，始自宫内而传于四远。",
+    "term": "假髻"
+   },
+   "proposed_slug": "jiaji",
+   "source_span": {
+    "block_ids": [
+     "b0146"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3634,
+    "line_start": 3616,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "魏晋南北朝时期妇女的头饰非常复杂，除各种各样的发式外，普遍使用了假髻。《北齐书·帝纪第八》载“而危邪之状如飞鸟，至于南面，则髻心正西。始自宫内为之，被于四远”。以假髻作为装饰，改变头发的造型，形成了一种女性的头饰变化，并产生了深远的影响。",
+   "title": "假髻",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-92",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3629-L3629"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "剃去眉毛后以青黑色颜料描眉的化妆技术；粉黛连称后引申为妇女的代称。",
+    "term": "黛"
+   },
+   "proposed_slug": "dai-huazhuang",
+   "source_span": {
+    "block_ids": [
+     "b0146"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3634,
+    "line_start": 3616,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "黛原指将眉毛剃去，而以青黑色的颜料描出眉毛；陶渊明《闲情赋》中即有“愿在眉而为黛，随瞻视以闲扬”。粉黛连称，后来引以为妇女的代称；原文并引北朝民歌《木兰辞》“当窗理云鬓，对镜贴花黄”及南朝诗歌，说明其对理解南北朝妇女生活的帮助。",
+   "title": "黛",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-93",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3620-L3620",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3624-L3625",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3643-L3644",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3654-L3655"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "绘画",
+    "designer": "顾恺之",
+    "period": "东晋",
+    "title": "《洛神赋图》"
+   },
+   "proposed_slug": "luoshenfutu",
+   "source_span": {
+    "block_ids": [
+     "b0146",
+     "b0148"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3700,
+    "line_start": 3616,
+    "section": "第四节 制瓷与服饰"
+   },
+   "summary": "顾恺之的《洛神赋图》中的妇女形象，多为当时日常女服的写照：上着襦、衫，下垂长裙，襦、衫以右衽为主。图5-25、图5-26、图5-27均标注为东晋顾恺之《洛神赋图》局部。",
+   "title": "《洛神赋图》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-100",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3695-L3695"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "builder": "曹操",
+    "category": "游乐场所、建筑",
+    "location": "邺城",
+    "period": "建安十五年",
+    "title": "铜雀台"
+   },
+   "proposed_slug": "tongquetai",
+   "source_span": {
+    "block_ids": [
+     "b0148"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3700,
+    "line_start": 3637,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "曹操在建安十五年修建了游乐场所铜雀台，聚集“建安七子”（孔融、王粲、刘祯、阮瑀、徐幹、陈琳、应玚），与三曹（曹操、曹丕、曹植）父子和唱着良宵美景，把本来的政治斗争演义成艺术生活。",
+   "title": "铜雀台",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-103",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3657-L3661",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3928-L3932"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "merged_candidate_ids": [
+    "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-30"
+   ],
+   "proposed_fields": {
+    "period": "北魏",
+    "title": "《洛阳伽蓝记》"
+   },
+   "proposed_slug": "luoyang-qielan-ji",
+   "source_span": {
+    "block_ids": [
+     "b0148",
+     "b0158"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3949,
+    "line_start": 3637,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "《洛阳伽蓝记》是记述北魏洛阳城市的重要文献；书中《城北》载“庙社宫室府曹以外，方三百步为一里，里开四门，门置里正二人，门士八人，合有二百二十里”。书中并记市东通商、达货二里“尽皆工巧，屠贩为生，资财巨万”，市南调音、乐律二里“丝竹讴歌，天下妙伎出焉”等，以及“天下难得之货，咸悉在焉”。书中并载北魏洛阳有1300余座佛教寺院，最著名者为永宁寺与白马寺（L3928-L3932）。",
+   "title": "《洛阳伽蓝记》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-05-95",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3648-L3648"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "城中城、军事堡垒",
+    "location": "洛阳城西北隅",
+    "period": "魏晋至北朝",
+    "title": "金墉城"
+   },
+   "proposed_slug": "jinyongcheng",
+   "source_span": {
+    "block_ids": [
+     "b0148"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3700,
+    "line_start": 3637,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "魏晋重修洛阳时，在城市的西北隅修建了著名的城中城——金墉城；金墉城由南北相连的三座小城以城门通连，犹如堡垒，高大坚固，形成了防卫的制高点。在此后的北朝时期，金墉城一直是军事重地。",
+   "title": "金墉城",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-01",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3707-L3715"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "园林",
+    "designer": "石崇",
+    "location": "河南金谷涧",
+    "period": "西晋",
+    "title": "金谷园"
+   },
+   "proposed_slug": "jin-gu-yuan",
+   "source_span": {
+    "block_ids": [
+     "b0149"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3727,
+    "line_start": 3701,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "西晋石崇的园林，位于河南金谷涧中；《金谷诗序》称其别庐“或高或下，有清泉茂林，众果竹柏、草药之属，莫不毕备。又有水碓、鱼池、土窑”。作者认为它由“众果”“草药”“水碓”的经济需要“物备”达到“娱目欢心”，同时金谷园也是政治势力较量的结果；杜牧《金谷园》“落花犹似坠楼人”指石崇失败后绿珠坠楼。",
+   "title": "金谷园",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-02",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3705-L3710",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4087"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "文中指魏晋风骨人物群体，其竹林被视为朝廷和山水之间的过渡。",
+    "term": "竹林七贤"
+   },
+   "proposed_slug": "zhu-lin-qi-xian",
+   "source_span": {
+    "block_ids": [
+     "b0149",
+     "b0164"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4095,
+    "line_start": 3701,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "魏晋名士群体。文中以“竹林七贤”的竹林比喻朝廷和山水之间的过渡，并提及嵇康被杀、阮籍佯醉、山涛王戎很快进入朝廷权力中心；图5-32题为“竹林七贤《阮咸》”。",
+   "title": "竹林七贤",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-03",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3717",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4087"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "王羲之",
+    "period": "东晋",
+    "title": "《兰亭集序》"
+   },
+   "proposed_slug": "lan-ting-ji-xu",
+   "source_span": {
+    "block_ids": [
+     "b0149",
+     "b0164"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4095,
+    "line_start": 3701,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "东晋王羲之所作，文中引“此地有崇山峻岭，茂林修竹，又有清流激湍，映带左右，引以为流觞曲水，列坐其次”，作者认为其中更多是文化的深刻和时空的阔拓；结论章又引“当其欣于所遇，暂得于己，怏然自足，不知老之将至”等句。",
+   "title": "《兰亭集序》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-04",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3721-L3726"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "魏晋兴起、崇尚自然并强调个人生命觉醒的思想，文中视为园林繁盛的文化因素。",
+    "term": "玄学"
+   },
+   "proposed_slug": "xuan-xue",
+   "source_span": {
+    "block_ids": [
+     "b0149"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3727,
+    "line_start": 3701,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "魏晋时期兴起的思想，崇尚自然，完善个人生命的觉醒；作者将其视为园林繁盛的文化因素，并称南朝文人“以玄学为旗帜，追求空灵的诗意”。",
+   "title": "玄学",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-20",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3876-L3878",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3705"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "嵇康",
+    "notes": "善弹《广陵散》；《声无哀乐论》提出“和声无象”；在政治争执中被杀。",
+    "period": "魏晋",
+    "role": "思想家、音乐家"
+   },
+   "proposed_slug": "ji-kang",
+   "source_span": {
+    "block_ids": [
+     "b0155",
+     "b0149"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3879,
+    "line_start": 3701,
+    "section": "第五节 建筑与园林"
+   },
+   "summary": "魏晋时期思想家、音乐家，善弹古曲《广陵散》，为当时人们广泛称赞；能创造新乐曲并提出音乐理论，在《声无哀乐论》中认为音乐的精神终极应是“和”，提出“和声无象”的艺术观点。文中又载其在政治争执中被杀。",
+   "title": "嵇康",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-06",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3747-L3751"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "低矮的小床，可合坐或独坐，为魏晋时期主要坐具之一。",
+    "term": "榻"
+   },
+   "proposed_slug": "ta-couch",
+   "source_span": {
+    "block_ids": [
+     "b0151"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3780,
+    "line_start": 3730,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "榻是小床，比较低，便于脱鞋上榻跽坐；可合坐也可独坐，独坐之榻称“独榻”以示尊重，《世说新语》有坐独榻、连榻的记载。东汉时长三尺五寸（约合84厘米）的“榻版”为坐具，也称“枰”；目前已知最早的榻是河南郸城西汉晚期墓中的石质明器坐榻。",
+   "title": "榻",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-09",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3770"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "漆木家具",
+    "location": "安徽马鞍山朱然墓",
+    "material": "漆木",
+    "period": "东吴",
+    "title": "朱然墓黑红漆几"
+   },
+   "proposed_slug": "zhu-ran-tomb-black-red-lacquer-table",
+   "source_span": {
+    "block_ids": [
+     "b0151"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3780,
+    "line_start": 3730,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "安徽马鞍山东吴朱然墓出土的黑红漆几，高26厘米，弧形弦长69.5厘米，几面宽13厘米，为三足形、几面扁平圆弧的魏晋凭几，作者据此认为此类凭几的使用已经相当成熟。",
+   "title": "朱然墓黑红漆几",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-95",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3772-L3772"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "棉锦织物制成、置于三足几上供身体依靠的靠垫。",
+    "term": "隐囊"
+   },
+   "proposed_slug": "yin-nang",
+   "source_span": {
+    "block_ids": [
+     "b0151"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3772,
+    "line_start": 3772,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "隐囊是棉锦织物的靠垫；将隐囊放置于移动的三足几上，身体可以前后左右依靠休息，减轻长期跽坐的疲劳。",
+   "title": "隐囊",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-96",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3774-L3774"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "腰鼓形坐墩，魏晋佛教造像常见，后成为寺院实用坐具。",
+    "term": "筌台（筌蹄）"
+   },
+   "proposed_slug": "quan-tai",
+   "source_span": {
+    "block_ids": [
+     "b0151"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3774,
+    "line_start": 3774,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "筌台是腰鼓形坐墩，也称“筌蹄”；其形象为腰鼓，在魏晋时期佛教造像中屡屡出现，中原本有墩的造型，佛教进入中原时被引入寺院，成为实用坐具。",
+   "title": "筌台",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-97",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3783-L3785"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "案为放置食品的家具，几为放置文具书籍的家具；魏晋以后几案连称，泛指办公用具。",
+    "term": "案（几案）"
+   },
+   "proposed_slug": "ji-an",
+   "source_span": {
+    "block_ids": [
+     "b0152"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3785,
+    "line_start": 3783,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "案在高桌出现以前是重要家具，南北朝已有许多大案，带足案造型普遍；形式有长案、圆案，功能有书案、奏案、食案、香案等。案本身放置食品，相当于后来的餐桌；几放置文具、书籍，相当于书桌，后世合称几案；魏晋以来几案功能混淆，成为写作公文、办公行政的同义词。",
+   "title": "案（几案）",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-15",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3809-L3821"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "魏晋南北朝时期橱、柜、匣、箱、箧等储存器具的统称，其使用被视为生活富裕的象征。",
+    "term": "储具"
+   },
+   "proposed_slug": "chu-ju-storage-furniture",
+   "source_span": {
+    "block_ids": [
+     "b0153"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3822,
+    "line_start": 3804,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "储具的使用被视为社会生活富裕的象征。文中列举橱（厨，带门）、柜（有抽屉，金匮为铜制小柜）、匣（带推拉抽屉，有漆匣、玉函）、箱（书箱、衣箱、漆箱、竹衣箱）、箧（小箱，装书籍珠宝，竹木或金银）等类型，并有大者为柜、次者为匣、小者为椟的区分。此候选为清单级聚合，非单一器物。",
+   "title": "储具",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-17",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3834"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以竹木漆竿插地、围挂丝织物而成的临时室外遮蔽设施。",
+    "term": "步障"
+   },
+   "proposed_slug": "bu-zhang",
+   "source_span": {
+    "block_ids": [
+     "b0154"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3839,
+    "line_start": 3823,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "与屏风接近，多以室外布置为主，临时使用，用竹木漆竿插于地面，将丝织物围挂起来遮蔽。西晋石崇与王恺斗富以步障为契机，《世说新语·汰侈》载“君夫作紫丝布步障碧绫裹四十里，石崇作锦步障五十里以敌之”。",
+   "title": "步障",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-98",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3825-L3825"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "床榻上方悬挂的席子或木板，用于防尘。",
+    "term": "承尘"
+   },
+   "proposed_slug": "cheng-chen",
+   "source_span": {
+    "block_ids": [
+     "b0154"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3825,
+    "line_start": 3825,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "承尘是在室内床榻上方悬挂的席子或木板，可防止灰尘下落到居住者身上。",
+   "title": "承尘",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-100",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3836-L3836"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "房门口或室内悬挂的丝织、竹编垂具，用于遮蔽与回避。",
+    "term": "帘子"
+   },
+   "proposed_slug": "lian-zi",
+   "source_span": {
+    "block_ids": [
+     "b0154"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3836,
+    "line_start": 3836,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "帘子是在房门口或室内悬挂的丝织或竹编垂具，有曲隐遮蔽的作用，也有安全回避的意义；后世“垂帘听政”中的“帘”即与此相关。",
+   "title": "帘子",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-18",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3850-L3864"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "秦汉曾为弹拨乐器总称；魏晋时期包括汉琵琶（阮咸）、曲项琵琶、五弦琵琶等形制。",
+    "term": "琵琶"
+   },
+   "proposed_slug": "pi-pa",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3879,
+    "line_start": 3840,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "文中称琵琶在秦汉曾是弹拨乐器的总称，刘熙《释名》释“枇杷，本出于胡中，马上所鼓也。推手前曰枇，引手却曰杷”；琵是手向前弹，琶是手向后弹。传说汉代乌孙公主出嫁西域，工人据琴、筝、筑、箜篌制成马上弹奏的乐器，中虚外实、盘圆柄直，有四弦、十二柱，名“琵琶”，即“汉琵琶”，后也称“阮咸”。后来广为流传的曲项琵琶、五弦琵琶均是4世纪时经印度传入中国西北地区的乐器，曲项琵琶曲项、梨形音箱、四弦，五弦琵琶略小、五弦，形象在北魏敦煌壁画中多有描绘。",
+   "title": "琵琶",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-19",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3862"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代所制四弦十二柱、盘圆柄直的马上弹奏乐器，初名汉琵琶，后称阮咸。",
+    "term": "阮咸"
+   },
+   "proposed_slug": "ruan-xian",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3879,
+    "line_start": 3840,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "汉代由乌孙公主遣工人所制的马上弹奏乐器，中虚外实、盘圆柄直，有四弦、十二柱，初名“琵琶”，又称“汉琵琶”，后称“阮咸”。",
+   "title": "阮咸",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-21",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3876-L3878"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "嵇康",
+    "period": "魏晋",
+    "title": "《声无哀乐论》"
+   },
+   "proposed_slug": "sheng-wu-ai-le-lun",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3879,
+    "line_start": 3840,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "嵇康的音乐理论著作，文中称其中认为音乐的精神终极应是“和”，并提出“和声无象”的艺术观点。",
+   "title": "《声无哀乐论》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-23",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3893",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3872"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "木制九孔、带芦哨的吹奏乐器，原为龟兹乐器，南北朝传入中原。",
+    "term": "筚篥"
+   },
+   "proposed_slug": "bi-li",
+   "source_span": {
+    "block_ids": [
+     "b0156",
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3917,
+    "line_start": 3840,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "吹奏乐器，为木制管子，有九孔，管上有芦哨，与笳近似；原为龟兹乐器，在南北朝传入中原，分为大筚篥、小筚篥、竖小筚篥、桃皮筚篥、双筚篥等形式。",
+   "title": "筚篥",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-102",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3866-L3866"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代横吹乐器，在张骞带回的吹笛经验基础上重新研制。",
+    "term": "笛"
+   },
+   "proposed_slug": "di",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3866,
+    "line_start": 3866,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "汉时的笛是一种横吹乐器，原本是在张骞出使西域时带回吹笛经验的基础上重新研制的。",
+   "title": "笛",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-103",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3866-L3866"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "甘肃、四川羌族乐器，竖吹，为后来箫的雏形。",
+    "term": "羌笛"
+   },
+   "proposed_slug": "qiang-di",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3866,
+    "line_start": 3866,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "羌笛是甘肃、四川一带的羌族乐器，是后来箫的雏形；羌笛与笛的区别是竖吹与横吹。",
+   "title": "羌笛",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-104",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3868-L3868"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "以芦苇制哨装管的吹奏乐器，由芦笳演变而来。",
+    "term": "胡笳"
+   },
+   "proposed_slug": "hu-jia",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3868,
+    "line_start": 3868,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "秦汉时期的笳几乎失传，记载中的“芦笳”是用芦叶卷起吹奏；后来把芦苇制成哨安装到管子上，称为胡笳。",
+   "title": "胡笳",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-105",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3870-L3870"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "汉代横弹的卧箜篌及约2世纪从朝鲜传入的竖箜篌。",
+    "term": "箜篌"
+   },
+   "proposed_slug": "kong-hou",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3870,
+    "line_start": 3870,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "汉代箜篌最初是横弹的演奏方式，为“卧箜篌”，亦称箜篌瑟；竖箜篌大约于公元2世纪从朝鲜传到中原，汉乐府《箜篌引》叙述了有关箜篌的故事。",
+   "title": "箜篌",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-107",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3874-L3874"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "绘画",
+    "creator": "顾恺之（相传）",
+    "period": "东晋",
+    "title": "《斫琴图》"
+   },
+   "proposed_slug": "zhuo-qin-tu",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3874,
+    "line_start": 3874,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "相传为东晋顾恺之所作，描绘古琴制作，可见南方制作乐器工序的严格。",
+   "title": "《斫琴图》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-108",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3878-L3878"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "阮籍",
+    "notes": "著《乐论》。",
+    "period": "魏晋",
+    "role": "诗人、音乐理论家"
+   },
+   "proposed_slug": "ruan-ji",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3878,
+    "line_start": 3878,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "魏晋诗人，与嵇康交好；在其《乐论》中认为音乐是天地的本体、万物的本性，能够使音乐和谐达到万物一体。",
+   "title": "阮籍",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-109",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3878-L3878"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "阮籍",
+    "period": "魏晋",
+    "title": "《乐论》"
+   },
+   "proposed_slug": "yue-lun",
+   "source_span": {
+    "block_ids": [
+     "b0155"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3878,
+    "line_start": 3878,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "阮籍所作乐论，认为音乐是天地的本体、万物的本性，能够使音乐和谐达到万物一体。",
+   "title": "《乐论》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-22",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3885-L3887"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "凉州（今甘肃武威）音乐，吸收龟兹音乐并融入部分中原古乐。",
+    "term": "西凉乐"
+   },
+   "proposed_slug": "xi-liang-yue",
+   "source_span": {
+    "block_ids": [
+     "b0156"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3917,
+    "line_start": 3880,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "指凉州音乐，凉州即今甘肃武威；西凉本为十六国之一，在酒泉敦煌一带立国。西凉乐是在吸收西域龟兹音乐的基础上加以改变，并融入一部分中原古乐。",
+   "title": "西凉乐",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-24",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3910"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "形如桶、置于架上以两杖击打的打击乐器，南北朝从西域传入。",
+    "term": "羯鼓"
+   },
+   "proposed_slug": "jie-gu",
+   "source_span": {
+    "block_ids": [
+     "b0156"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3917,
+    "line_start": 3880,
+    "section": "第六节 家具与乐器"
+   },
+   "summary": "南北朝时期从西域传入中原的打击乐器，形如桶置于架上，以两杖击之。",
+   "title": "羯鼓",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-26",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3928-L3930"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "location": "北魏洛阳宫城南1公里",
+    "name": "永宁寺",
+    "period": "516-534年"
+   },
+   "proposed_slug": "yong-ning-si",
+   "source_span": {
+    "block_ids": [
+     "b0158"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3949,
+    "line_start": 3920,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "北魏洛阳著名佛寺，兴建于公元516年，公元534年毁于大火；经考古勘探位于北魏宫城南1公里处，呈长方形，周长1060米，寺院中心有一处塔基，出土陶塑、石雕及建筑材料，原为九层木塔，推测高度不低于75米。",
+   "title": "永宁寺",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-27",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3932"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "location": "洛阳西阳门外三里御道南",
+    "name": "白马寺",
+    "period": "东汉"
+   },
+   "proposed_slug": "bai-ma-si",
+   "source_span": {
+    "block_ids": [
+     "b0158"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3949,
+    "line_start": 3920,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "东汉明帝所立，被称为“佛入中国之始”，在洛阳西阳门外三里御道南；《洛阳伽蓝记·城西》载明帝梦金神长六丈、项背日月光明，遣使西域求经像，白马负经而来因以为名。白马寺至今完好，为中国佛教传入之初的建筑，在佛教建筑中有特殊地位。",
+   "title": "白马寺",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-29",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3940-L3942"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "佛塔的梵文音译旧称，源自印度覆钵式塔形。",
+    "term": "浮图"
+   },
+   "proposed_slug": "fu-tu",
+   "source_span": {
+    "block_ids": [
+     "b0158"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3949,
+    "line_start": 3920,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "佛塔原称“浮图”，为梵文音译；在古印度是自下而上的半球体建筑，称覆钵，覆钵之上有平头和伞盖形成“刹”，中间有中心柱贯通，象征“宇宙之柱”，后来受希腊文化影响出现方形和矩形基座。",
+   "title": "浮图",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-32",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3968-L3970"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "definition": "主室后部建中心塔柱、四周开龛、前部作人字披屋顶的北朝石窟结构。",
+    "term": "中心塔柱式"
+   },
+   "proposed_slug": "zhong-xin-ta-zhu-shi",
+   "source_span": {
+    "block_ids": [
+     "b0159"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3978,
+    "line_start": 3950,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "北朝莫高窟洞窟的主要结构形式：在主室后部建一中心塔柱，四周开佛龛，主室前部凿成人字披屋顶式，可供僧人居住，窟壁均绘以千佛为主的壁画。其形制与印度支提窟有渊源关系，但支提窟为窟内一圆塔且塔顶与窟顶分离，而北朝中心柱窟吸收了斗拱、枋子、椽子等中原木构建筑特点，并出现方形塔的意味。",
+   "title": "中心塔柱式",
+   "unit_type": "term"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-36",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3992-L3998"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石窟",
+    "location": "山西大同云冈",
+    "period": "约公元453年",
+    "title": "昙曜五窟"
+   },
+   "proposed_slug": "tan-yao-wu-ku",
+   "source_span": {
+    "block_ids": [
+     "b0160"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4003,
+    "line_start": 3979,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "约公元453年，和尚昙曜白帝，于京城西武州塞凿山石壁、开窟五所、镌建佛像各一，高者七十尺、次者六十尺，雕饰奇伟、冠于一时，是开凿云冈石窟的最早时间。早期昙曜五窟基本上是一种穹隆式大洞结构，以大佛为主，成为云冈石窟的标志性雕塑。",
+   "title": "昙曜五窟",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-110",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3988-L3990"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "name": "郦道元",
+    "notes": "撰《水经注》。",
+    "period": "北魏",
+    "role": "地理学家"
+   },
+   "proposed_slug": "li-dao-yuan",
+   "source_span": {
+    "block_ids": [
+     "b0160"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3990,
+    "line_start": 3988,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "北魏地理学家，所撰《水经注》描绘武州川水、石祗园舍、灵岩、山堂水殿，可见当时佛教寺院的繁盛。",
+   "title": "郦道元",
+   "unit_type": "person"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-111",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L3988-L3990"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "author": "郦道元",
+    "period": "北魏",
+    "title": "《水经注》"
+   },
+   "proposed_slug": "shui-jing-zhu",
+   "source_span": {
+    "block_ids": [
+     "b0160"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 3990,
+    "line_start": 3988,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "北魏郦道元所撰地理著作；书中描绘武州川水、石祗园舍、灵岩、山堂水殿，可见当时佛教寺院的繁盛。",
+   "title": "《水经注》",
+   "unit_type": "publication"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-40",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4023"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石窟",
+    "location": "河南洛阳龙门",
+    "period": "公元495年始凿",
+    "title": "古阳洞"
+   },
+   "proposed_slug": "gu-yang-dong",
+   "source_span": {
+    "block_ids": [
+     "b0161"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4035,
+    "line_start": 4004,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "北魏宗室比丘慧成从公元495年开始开凿的龙门石窟洞窟，即著名的古阳洞；呈现窑洞形式，周壁上有数百个中小型佛龛，并以造像题记著称，尤其保存了《龙门二十品》中的“十九品”，为天下闻名。",
+   "title": "古阳洞",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-41",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4028-L4030"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石窟",
+    "location": "河南洛阳龙门",
+    "period": "景明元年（500年）始凿",
+    "title": "宾阳洞"
+   },
+   "proposed_slug": "bin-yang-dong",
+   "source_span": {
+    "block_ids": [
+     "b0161"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4035,
+    "line_start": 4004,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "龙门石窟洞窟，据《魏书·释老志》记载，景明初世宗诏大长秋卿白整准代京灵岩寺石窟，于洛南伊阙山为高祖、文昭皇太后营石窟二所，永平中中尹刘腾奏为世宗复造石窟一，凡为三所；从景明元年至正光四年六月以前，用功八十万二千三百六十六。文中称宾阳中洞的营构和其中精美的《帝后礼佛图》最能代表北魏时期的风格。",
+   "title": "宾阳洞",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-42",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4030-L4032",
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4017"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "浮雕",
+    "location": "河南洛阳龙门宾阳中洞",
+    "period": "北魏",
+    "title": "《帝后礼佛图》"
+   },
+   "proposed_slug": "di-hou-li-fo-tu",
+   "source_span": {
+    "block_ids": [
+     "b0161"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4035,
+    "line_start": 4004,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "龙门石窟宾阳中洞中的浮雕作品，利用浮雕效果表现帝后礼佛的场面，用中原浮雕艺术技巧刻画佛教活动故事，进一步体现了佛教文化和中原艺术的结合；图 5-55 标注为“北魏《帝后礼佛图》”。",
+   "title": "《帝后礼佛图》",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-112",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4073-L4073"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石窟",
+    "location": "河北峰峰市",
+    "period": "北齐至明",
+    "title": "南北响堂山石窟"
+   },
+   "proposed_slug": "nan-bei-xiang-tang-shan",
+   "source_span": {
+    "block_ids": [
+     "b0163"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4073,
+    "line_start": 4073,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "在河北峰峰市，属北齐时期开凿的石窟，因位于北齐故都安阳附近山峦；从北齐开窟以来，隋、唐、宋、明朝不断有所增补。",
+   "title": "南北响堂山石窟",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ },
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-06-113",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:51:48+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L4079-L4079"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "石窟",
+    "location": "辽宁义县",
+    "period": "北朝",
+    "title": "义县万佛堂"
+   },
+   "proposed_slug": "yi-xian-wan-fo-tang",
+   "source_span": {
+    "block_ids": [
+     "b0163"
+    ],
+    "chapter": "第五章 丧乱的文明——三国两晋南北朝时期的设计",
+    "line_end": 4079,
+    "line_start": 4079,
+    "section": "第七节 石窟与雕刻"
+   },
+   "summary": "在辽宁义县，为北朝时期开凿；后来受河流影响，加上明清时期的改造，原始风貌已经丧失，但作为北朝造像系统仍有研究价值。",
+   "title": "义县万佛堂",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:51:48+08:00"
+ }
+]

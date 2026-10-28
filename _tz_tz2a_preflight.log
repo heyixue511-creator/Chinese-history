@@ -1,0 +1,29 @@
+source-map blocks 378
+registry 799 last claim-0799
+candidate states {'applied': 3791, 'rejected': 871, 'no_delta': 234, 'needs_evidence': 443}
+{
+ "scope": {
+  "line_start": 842,
+  "line_end": 1601,
+  "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）"
+ },
+ "claims": 41,
+ "patches": 0,
+ "types": {
+  "historiographic_claim": 7,
+  "interpretive_claim": 15,
+  "contested_claim": 2,
+  "factual_claim": 11,
+  "synthetic_claim": 3,
+  "evaluative_claim": 3
+ },
+ "links": 113,
+ "distinct": 54,
+ "scope_claim_candidates": 41,
+ "used": 41,
+ "missing": 0,
+ "extra": 0,
+ "problems": [],
+ "problem_count": 0
+}
+PREFLIGHT OK

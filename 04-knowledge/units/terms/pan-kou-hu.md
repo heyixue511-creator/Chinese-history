@@ -28,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "盘口壶是 B.6.5 谱系链的祖型：六朝青瓷壶式，因口呈盘形得名；天鸡壶在其基础上加鸡头与把手，追加路径以此条为起点"
 secondary_dimensions:
-hierarchy_scope_note: "盘口壶是 B 维度下六朝青瓷壶式的条目，其盘口与系耳的造型谱系属器物形制层面。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "盘口壶是 B.6.5 谱系链的祖型：六朝青瓷壶式，因口呈盘形得名；天鸡壶在其基础上加鸡头与把手，追加路径以此条为起点"
 ---
 
 ## 描述
@@ -57,16 +65,15 @@ hierarchy_scope_note: "盘口壶是 B 维度下六朝青瓷壶式的条目，其
 - **窑口例**: 越窑品种中有盘口壶（L2751），德清窑黑瓷制品也有盘口壶（L2869）；本条不把盘口壶归为单一窑口。
 - **证据边界**: 来源未给高度、口径、腹径、年代分期与型式编号；不能据“盘口”推定盘沿深浅或系耳形状。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 盘口壶是 B 维度下六朝青瓷壶式的条目，其盘口与系耳的造型谱系属器物形制层面。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 盘口壶是 B.6.5 谱系链的祖型：六朝青瓷壶式，因口呈盘形得名；天鸡壶在其基础上加鸡头与把手，追加路径以此条为起点
 ## 相关知识元
 
 `terms/tianji-hu.md` 记在盘口壶基础上加鸡头的天鸡壶；`terms/qing-ci.md` 记六朝青瓷四窑系；`works/hei-you-si-xi-pan-kou-hu.md` 记德清窑黑釉四系盘口壶单器；`places/yue-kiln.md` 记越窑盘口壶品种。relation 未审查。

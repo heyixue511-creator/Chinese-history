@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "黄卖九在本册是景德镇青花与釉里红彩绘的民间艺人代表，被称“青花大王”。其价值在于说明民间绘画笔法如何进入瓷器装饰，归 B 维度（造物、工艺与生产技术）。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: key_person
+    primary: true
+    scope_note: "景德镇青花与釉里红民间艺人；来源未把他系于清末民初"
+hierarchy_scope_note: "景德镇青花与釉里红民间艺人；来源未把他系于清末民初"
 ---
 
 ## 描述
@@ -57,11 +65,10 @@ hierarchy_scope_note: "黄卖九在本册是景德镇青花与釉里红彩绘的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条锚定“民间绘画笔法进入瓷器装饰”这一技法路径，以及父子相传的技艺传承形态。原文的评价语是鉴赏性的（生动俊秀、苍劲疏宕、简洁空灵），不是技术参数。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 景德镇青花与釉里红民间艺人；来源未把他系于清末民初
 ## 相关知识元
 
 `persons/chai-fei.md` 与本条同段出现，但分属染织与陶瓷两条线索。景德镇青花、釉里红、分水等术语无独立 KU；景德镇窑作为 place KU 另册可能已有条目，本册未与人物关联，本段不构成关系断言。同段沈才田等五人亦无独立 KU，属研究债务。

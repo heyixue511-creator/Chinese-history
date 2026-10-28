@@ -1,0 +1,65 @@
+[
+ {
+  "claim_id": "claim-0255",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-64",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5843,
+   "line_end": 5858,
+   "span_kind": "bounded",
+   "key_lines": [
+    5843,
+    5845
+   ],
+   "block_ids": [
+    "b0675"
+   ],
+   "chapter": "附录",
+   "section": "当代中国工艺美术、艺术设计大事年表（1949-2000） / 1983年",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-64"
+  }
+ },
+ {
+  "claim_id": "claim-0256",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-61",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 6009,
+   "line_end": 6018,
+   "span_kind": "bounded",
+   "key_lines": [
+    6009,
+    6017
+   ],
+   "block_ids": [
+    "b0687"
+   ],
+   "chapter": "附录",
+   "section": "当代中国工艺美术、艺术设计大事年表（1949-2000） / 1994年",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-61"
+  }
+ },
+ {
+  "claim_id": "claim-0257",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-99",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 6059,
+   "line_end": 6072,
+   "span_kind": "bounded",
+   "key_lines": [
+    6059,
+    6071
+   ],
+   "block_ids": [
+    "b0691"
+   ],
+   "chapter": "附录",
+   "section": "当代中国工艺美术、艺术设计大事年表（1949-2000） / 1998年",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-11-99"
+  }
+ }
+]

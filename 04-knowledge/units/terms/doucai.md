@@ -52,19 +52,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "釉下青花勾轮廓＋釉上填彩的两次烧成；名称三解、谱系四种结构、温度三套数值"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "斗彩是 B 维度下明代景德镇釉上彩与釉下青花结合的装饰技法，其色彩与纹饰效果属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "釉下青花勾轮廓＋釉上填彩的两次烧成；名称三解、谱系四种结构、温度三套数值"
 ---
 
 ## 描述
@@ -107,12 +115,10 @@ hierarchy_scope_note: "斗彩是 B 维度下明代景德镇釉上彩与釉下青
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明代彩瓷技术分类的关键争议点，与五彩、青花、釉里红、粉彩、珐琅彩构成彩瓷序列。可支持未来的明清彩瓷分类体系类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 釉下青花勾轮廓＋釉上填彩的两次烧成；名称三解、谱系四种结构、温度三套数值
 ## 相关知识元
 
 同批写回的釉里红、秘色瓷两条同属瓷器线索；`terms/painted-pottery.md` 属彩绘陶；青花已由同批 `terms/blue-and-white-porcelain.md` 立条，五彩尚未单独成 KU。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

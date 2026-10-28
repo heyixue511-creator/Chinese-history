@@ -1,0 +1,83 @@
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-03 | historiographic_claim | 842 - 842
+     黄河中上游的彩陶工艺，东海之滨的黑陶工艺，东南地区的几何印纹陶工艺以及其他工艺等，……都各自以独特的风格放射着艺术的光彩。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-04 | interpretive_claim | 846 - 846
+     工艺美术的装饰，是适应实用的需要而产生的。……原始工艺的装饰，不是附加，而是和实用有机地统一的。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-05 | interpretive_claim | 848 - 848
+     技术对艺术产生着巨大的影响，甚而形成新的风格。当然，技术的精进是提高艺术的条件，而并不是唯一的因素。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-06 | interpretive_claim | 852 - 852
+     从写实到表号化，从具象到抽象化，是工艺美术常用的重要艺术手法。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-10 | contested_claim | 864 - 864
+     二里头文化是介于龙山文化和商文化之间的一种文化。从文化遗存的地域和发展的时序来看，大体和传说中的夏代相一致。二里头文化是否就是夏文化，考古界还有不同的看法。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-13 | factual_claim | 891 - 891
+     武王灭商，分鲁公以殷民六族，分康叔以殷民七族，所俘的这些奴隶，许多都隶属于手工业的氏族。例如陶氏是陶工，长勺氏、尾勺氏是酒器工，锜氏是釜工，樊氏是篱笆工，施氏是旗工等。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-15 | factual_claim | 897 - 897
+     商代早期的青铜器,不论是炊食器或酒器,大都直接仿自陶器。当时的青铜器体壁较薄,多平底,足作锥柱状。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-18 | factual_claim | 905 - 905
+     而铜镜的出现,更确切地把我国铜镜发展的历史从春秋时期推前了几百年。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-25 | factual_claim | 919 - 919
+     青铜中锡的比例17%～20%最坚韧，30%～40%硬度最高，超过这种比例就要减低，所以《考工记》所记的铜锡的比例，大体上符合或接近科学试验结论。这是我国古代冶金工艺的实践总结。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-28 | factual_claim | 949 - 951
+     鼎在古代不只是一种实用品，也是权力的象征。……在商代，用鼎有着严格的等级规定，例如天子用九鼎，卿用七鼎，大夫用五鼎，士用一或三鼎，而普通人则不能用。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-35 | interpretive_claim | 1103 - 1103
+     被称为饕餮的兽面纹,应是牛、羊、猪等作为祭祀牺牲的形象的表现。……这类纹样是富有宗教意义。它的社会意义大于其审美意义。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-38 | interpretive_claim | 1118 - 1118
+     实际上，可认为是编织纹的遗留，因陶器的产生和编织有关，各种编织几何纹成为早期陶器的一种自然装饰，而这种编织纹经过归纳定型后，装饰在铜器上，就形成铜器表面地纹的回纹了。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-40 | synthetic_claim | 1156 - 1164
+     商代青铜器的装饰艺术特点可以归纳为：……1. 图案纹样是以单独适合纹样为主。……2. 图案纹样多采用对称的格式。……3. 商代的装饰多采用主纹和地纹的结合。……4. 商代铜器装饰方法,早期脱胎于陶器的拍印,后期则运用刻花的方法。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-43 | contested_claim | 1184 - 1184
+     有人推测它的起源，系北方制陶工人模仿南方硬陶所作，除有较精致的刻纹装饰外，烧制火度不如硬陶高，器壁也不如硬陶薄。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-47 | interpretive_claim | 1222 - 1222
+     商代的玉器已渐从实用转向欣赏，成为奴隶主所重视的装饰品，有了较大的发展。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-48 | basic_fact | 1226 - 1226
+     1976年，在河南安阳殷墟五号墓（即妇好墓）发掘出755件精美的玉器，具体地反映了殷代玉器工艺的制作水平。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-54 | interpretive_claim | 850 - 850
+     在原始社会的石器的制作中，对称的形式，是力量的均衡的体现。而节奏，即规律的变化，则又是产生力量的形式。形式感的应用，丰富了工艺语言，也提高了人们对形式美的感受和认识。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-49 | interpretive_claim | 1268 - 1268
+     商代统治阶级的宗教观念，已由原始社会的多神教，转而成为一神教……因此，商代的工艺美术装饰纹样也往往带有宗教迷信的色彩。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-50 | evaluative_claim | 1270 - 1270
+     商代工艺美术的艺术特点，是威严、神秘、慑服的精神力量的反映。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-51 | synthetic_claim | 1272 - 1272
+     以致考古学家认为，商代青铜器的组合，乃是酒器的组合。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-52 | evaluative_claim | 1274 - 1274
+     商代工艺装饰的社会意义，其宗教意义大于审美意义。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-53 | interpretive_claim | 1284 - 1290
+     周代的社会政治的特点是：分封制、世袭制和等级制……这种森严的等级制度，给周代的工艺美术制作和发展以极大的影响。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-54 | source_claim | 1294 - 1294
+     《考工记》……最可贵的是提出了朴素的工艺观，如“天有时，地有气，材有美，工有巧，合此四者，然后可以为良”的论点。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-55 | historiographic_claim | 1346 - 1346
+     在前期，大体上是继承商代的艺术风格。在后期，即在成康以后，才开始形成周代的自己的特点。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-56 | synthetic_claim | 1439 - 1439
+     商代是重酒器的组合，而周代则是重食器的组合。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-57 | interpretive_claim | 1454 - 1454
+     所以周代的制器是服从礼的需要，是适应当时政治的需要，是“藏礼于器”。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-58 | basic_fact | 1456 - 1456
+     礼祭：天子九鼎，诸侯七，卿大夫五，元士三也……周代的列鼎是用单数，而盛饭食的食器则为偶数。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-59 | historiographic_claim | 1460 - 1460
+     周代纹样打破了商代以直线为主的特点，也打破了对称的格式，一般都组成S形，但又未完全摆脱直线的雏形，因此形成直中有圆，圆中有方的特点。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-60 | evaluative_claim | 1505 - 1505
+     周代青铜器装饰的又一特色，是不用地纹。因此总的艺术风格是质朴洗练，疏朗畅达，富于韵律感，有节奏美。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-61 | interpretive_claim | 1507 - 1507
+     这种格式，与当时文学作品《诗经》有相似之处……这种秩序，和周代的礼治要求有一种间接的联系。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-62 | historiographic_claim | 1509 - 1509
+     这种质朴的风格大体从穆王时期开始，到宣王、厉王时期则已完全形成。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-63 | factual_claim | 1513 - 1513
+     在长安张家坡发现的瓷豆、瓷罐，其残瓷片经过科学分析鉴定，烧成温度已达1200℃左右，吸水性弱……但无疑已很接近瓷器。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-64 | historiographic_claim | 1541 - 1541
+     它从西周以来，为历代帝王所采用。直到民国初年，袁世凯窃权想当皇帝，也以十二章制定服式。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-65 | interpretive_claim | 1545 - 1545
+     总之，十二种纹样都贯穿着儒家伦理道德的含义，具有鲜明的社会意义。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-66 | historiographic_claim | 1590 - 1590
+     这种蚌泡镶嵌，实际是现今漆器中螺钿的前身。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-67 | interpretive_claim | 1599 - 1599
+     周代的玉器，由于与伦理道德有着直接的联系，所以得到社会的特别重视……它成为一种具有社会道德含义的特殊物品。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-68 | basic_fact | 1601 - 1601
+     周代的玉器，主要作为礼器使用，体现周代的等级名分制度。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-69 | factual_claim | 1258 - 1258
+     我国是最早发明养蚕织绸的国家。在商代，蚕已经由野蚕发展成了家蚕。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-70 | factual_claim | 1262 - 1262
+     我国也是用漆最早的国家。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-73 | interpretive_claim | 1431 - 1431
+     所谓礼乐制度，实际上就是等级制度，反映了统治者的尊卑关系和等级特权。
+2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-74 | historiographic_claim | 1439 - 1439
+     周代的青铜器，进入一个尚质的阶段，装饰趋向规格简单。
+TOTAL 41

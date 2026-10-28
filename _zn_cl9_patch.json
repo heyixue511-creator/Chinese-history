@@ -1,0 +1,182 @@
+[
+ {
+  "claim_id": "claim-0197",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-75",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3621,
+   "line_end": 3621,
+   "span_kind": "line",
+   "key_lines": [
+    3621
+   ],
+   "block_ids": [
+    "b0457"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "知识链接：取消科举制",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-75"
+  }
+ },
+ {
+  "claim_id": "claim-0198",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-76",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3628,
+   "line_end": 3628,
+   "span_kind": "line",
+   "key_lines": [
+    3628
+   ],
+   "block_ids": [
+    "b0457"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "1. 瓷器工艺与设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-06-76"
+  }
+ },
+ {
+  "claim_id": "claim-0200",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-63",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3653,
+   "line_end": 3653,
+   "span_kind": "line",
+   "key_lines": [
+    3653
+   ],
+   "block_ids": [
+    "b0459"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "1. 瓷器工艺与设计 / 2）元代瓷器的造型特色",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-63"
+  }
+ },
+ {
+  "claim_id": "claim-0202",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-65",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3694,
+   "line_end": 3694,
+   "span_kind": "line",
+   "key_lines": [
+    3694
+   ],
+   "block_ids": [
+    "b0465"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "1. 瓷器工艺与设计 / 3）元代瓷器的装饰风格",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-65"
+  }
+ },
+ {
+  "claim_id": "claim-0206",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-68",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3744,
+   "line_end": 3744,
+   "span_kind": "line",
+   "key_lines": [
+    3744
+   ],
+   "block_ids": [
+    "b0469"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "2. 染织工艺及其品种设计 / 1）丝织工艺和织金锦工艺",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-68"
+  }
+ },
+ {
+  "claim_id": "claim-0209",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-98",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3867,
+   "line_end": 3867,
+   "span_kind": "line",
+   "key_lines": [
+    3867
+   ],
+   "block_ids": [
+    "b0486"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "4. 金属工艺及品种设计特色 / 1）金属工艺的继承与发展",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-98"
+  }
+ },
+ {
+  "claim_id": "claim-0211",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-73",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 3926,
+   "line_end": 3926,
+   "span_kind": "line",
+   "key_lines": [
+    3926
+   ],
+   "block_ids": [
+    "b0492"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "5. 农业器具与天文器具的设计记载 / 1）王祯《农书》和秧马记载",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-73"
+  }
+ },
+ {
+  "claim_id": "claim-0216",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-91",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4010,
+   "line_end": 4010,
+   "span_kind": "line",
+   "key_lines": [
+    4010
+   ],
+   "block_ids": [
+    "b0500"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "7. 印刷、家具与商业美术",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-91"
+  }
+ },
+ {
+  "claim_id": "claim-0218",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-71",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4054,
+   "line_end": 4054,
+   "span_kind": "line",
+   "key_lines": [
+    4054
+   ],
+   "block_ids": [
+    "b0504"
+   ],
+   "chapter": "元代的设计交融",
+   "section": "7. 印刷、家具与商业美术 / 2) 家具及制作工艺",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-71"
+  }
+ }
+]

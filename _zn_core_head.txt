@@ -1,0 +1,10 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "第三章 60 条 unit 候选逐条语义复读后分流为 create / update / no_delta；cand-04-* 前缀的条目按 payload.source_span.chapter 归入第三章。",
+  "来源新建 consensus=tentative、evidence_status=source_backed、version=1、source_count=1；更新按实际并入来源数提高 source_count，其余字段不动。",
+  "原文错字、内部矛盾照录并标注，不径改；只有图注而无正文的条目 confidence 记 low，不据图补形制。",
+  "同一实体命中两条候选时，一条落 create/update，另一条走 no_delta 指向同一文件，不重复建 KU。"
+ ]
+}

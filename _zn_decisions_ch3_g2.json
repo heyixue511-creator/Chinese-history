@@ -1,0 +1,122 @@
+[
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-101",
+    "entity": "辘轳",
+    "action": "create",
+    "target": "04-knowledge/units/terms/windlass.md",
+    "analysis": "L2013-L2015 记辘轳为井口架圆木、套圆柱形卷筒、绳绕省力的提水与升降装置，用于饮水、灌溉与矿井吊筐，并举商代中期木辘轳与铜绿山战国至西汉两件实物；既有 terms/chelun.md 记车轮，无辘轳专条。",
+    "approve": "新建 terms/windlass.md：承载辘轳的构造、用途、商代木辘轳与铜绿山实物。",
+    "apply_note": "六节齐全；「辕轳」原文如此、疑为「辘轳」之讹，「圆横木」原文如此，均照录标疑；L2013 末与 L2015 首跨行连读处已按原文拼接。",
+    "note": "canonical 为新建辘轳条目；与 terms/pulley.md、terms/jiegou-well-sweep.md 同属提水机械谱系。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-102",
+    "entity": "云梯",
+    "action": "create",
+    "target": "04-knowledge/units/terms/cloud-ladder.md",
+    "analysis": "L2017 据《墨子·墨经》车梯原理、公输般为楚造云梯攻宋与《吕氏春秋·开春》九攻九却，记云梯为战国攻城器械；既有 persons/gongshu-pan.md 只记公输盘事迹，无云梯器械条目。",
+    "approve": "新建 terms/cloud-ladder.md：承载云梯的器械属性、文献依据与攻宋故事，不据后世图像补形制。",
+    "apply_note": "六节齐全；来源作「公输般」，人物条作「公输盘」，两存照录；来源写《墨子·墨经》，未说明与《墨子》的篇目层级，已写入证据边界。",
+    "note": "canonical 为新建云梯条目；公输盘与墨子的人物叙述由 persons 条目承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-103",
+    "entity": "欹器",
+    "action": "create",
+    "target": "04-knowledge/units/terms/qi-vessel.md",
+    "analysis": "L2019 记鲁桓公庙中的注水器，虚则欹、中则正、满则覆，孔子令学生注水验证，并用以象征社会规范；既有条目无欹器专条。",
+    "approve": "新建 terms/qi-vessel.md：承载欹器的三态、验证故事与规范象征，文件名按欹读 qī 作 qi-vessel（候选 proposed_slug 作 qin-vessel，已更正）。",
+    "apply_note": "六节齐全；来源只记《荀子·宥坐》故事，未给器物尺寸与材质，已写入证据边界；正文按义作 Qi Vessel。",
+    "note": "canonical 为新建欹器条目；文件名为 qi-vessel，与候选 proposed_slug 的 qin-vessel 不同。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-104",
+    "entity": "木鸢",
+    "action": "create",
+    "target": "04-knowledge/units/terms/wooden-kite.md",
+    "analysis": "L2023 并置墨子为木鸢三年而成、飞一日而败与公输般削竹木为鹊三日不下两说，记木制机械飞行器；既有 persons/mozi.md、persons/gongshu-pan.md 只记人物，无木鸢器械条目。",
+    "approve": "新建 terms/wooden-kite.md：承载两说的制作者、工时、飞行时日与器物名差异，不作事实裁定。",
+    "apply_note": "六节齐全；制作者墨子／公输般、飞行一日／三日、器名鸢／鹊三处不一致，均照录并标出；「飞一日而败」的「飞」字照录，未据他本改字。",
+    "note": "canonical 为新建木鸢条目；与 persons/mozi.md、persons/gongshu-pan.md 的传说叙述互为详略。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-105",
+    "entity": "阳燧",
+    "action": "create",
+    "target": "04-knowledge/units/terms/yang-sui-burning-mirror.md",
+    "analysis": "L2025-L2029 记阳燧为凹面镜，聚太阳光热取火，西周已普遍使用，并与《庄子·天下》两镜相照、重影无穷的光学认识相连；既有 terms/tongjing.md 记铜镜，无阳燧专条。",
+    "approve": "新建 terms/yang-sui-burning-mirror.md：承载阳燧的取火原理、使用年代与光学认识。",
+    "apply_note": "六节齐全；取火原理句被第三章章页眉隔断，正文以「」跨页拼接并注明；未给阳燧尺寸、材质与出土实物。",
+    "note": "canonical 为新建阳燧条目；铜镜一般叙述仍由 terms/tongjing.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-106",
+    "entity": "磁石",
+    "action": "create",
+    "target": "04-knowledge/units/terms/magnetite.md",
+    "analysis": "L2033 记春秋战国铁矿开发使磁石被认识，铁砂聚附其上，当时写作「慈石」，并为后期指南针研制提供条件；材料只有一段两句。",
+    "approve": "新建 terms/magnetite.md：confidence 记 low，只承载磁石的发现语境、古称与后续影响。",
+    "apply_note": "六节齐全；来源作「慈石」，为原文古称，照录；未给矿物成分、产地、实物与指南针年代，已写入证据边界。",
+    "note": "canonical 为新建磁石条目；指南针另见 terms/zhinan-che.md，本条不越界展开。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-109",
+    "entity": "简策",
+    "action": "create",
+    "target": "04-knowledge/units/terms/jiance-bamboo-slip-books.md",
+    "analysis": "L2047 记简策为细竹条或细木条编穿成册的先秦书籍形式，一简编策、麻丝皮绳编册，并有孔子「韦编三绝」的典故；既有 terms/maobi.md 记毛笔、terms/oracle-bone-script.md 记甲骨文，无简策条目。",
+    "approve": "新建 terms/jiance-bamboo-slip-books.md：承载简策的材质、编连方式与韦编三绝典故。",
+    "apply_note": "六节齐全；来源只说「策或册」，未作字形分化，照录；未给简的尺寸、字数与出土实例。",
+    "note": "canonical 为新建简策条目；与 terms/bandu-wooden-tablet.md 是竹简与木牍两种书写载体。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-110",
+    "entity": "版牍",
+    "action": "create",
+    "target": "04-knowledge/units/terms/bandu-wooden-tablet.md",
+    "analysis": "L2047、L2049 记版牍为写字的薄木板，未写为「版」、已写为「牍」，多作公文、书信、诏令，并有检、署、封泥的封缄形式与「版图」说法；既有条目无版牍专条。",
+    "approve": "新建 terms/bandu-wooden-tablet.md：承载版牍的命名、用途与封缄形式。",
+    "apply_note": "六节齐全；来源只列「检」「署」「封泥」名目，未给形制与尺寸，已写入证据边界；sources 含 L2047，因该行明列简策与版牍的并列关系。",
+    "note": "canonical 为新建版牍条目；与 terms/jiance-bamboo-slip-books.md 并列，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-121",
+    "entity": "城池",
+    "action": "create",
+    "target": "04-knowledge/units/terms/city-walls-and-moats.md",
+    "analysis": "L2102-L2136 记城池为城垣与城壕构成的设防聚落，含商代夯土城、郑州古城与黄陂商前期城垣护城河、凤翔雍城与咸阳夯筑、临淄大小二城布局、《考工记》营国与《管子·乘马》立都原则、燕下都陶排水管与都州县城市等级；既有 places 条目记单个城址，无城池制度条目。",
+    "approve": "新建 terms/city-walls-and-moats.md：承载城池的定义、起源、夯筑技术、都城布局与规划制度，具体城址交由 places 条目。",
+    "apply_note": "六节齐全；「毫都」原文如此、疑为「亳都」之讹，照录标疑；凤翔 3300×3200 米是遗址东西、南北长约，非城墙周长，已在证据边界纠正。",
+    "note": "canonical 为新建城池条目；郑州商城、雍城、咸阳、临淄等城址见 places 目录，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-129",
+    "entity": "高台建筑",
+    "action": "create",
+    "target": "04-knowledge/units/terms/high-terrace-architecture.md",
+    "analysis": "L2150-L2154 记春秋战国宫殿的高台形制，有邯郸、淄博十几米土台遗存与「债台高筑」典故，并体现国中之「中」的中心观念与天地人一位的宇宙意识；既有 entries 无高台建筑条目。",
+    "approve": "新建 terms/high-terrace-architecture.md：承载高台的遗存、形制特征与观念解释。",
+    "apply_note": "六节齐全；来源目作「高台」、正文作「高台建筑」，条目从正文；L2152-L2154 引文跨行，以「」标出。",
+    "note": "canonical 为新建高台建筑条目；与 places/yong-cheng.md、places/linzi.md 的城址描述互为详略。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-131",
+    "entity": "席子",
+    "action": "update",
+    "target": "04-knowledge/units/terms/xi-mat.md",
+    "analysis": "L2295 记席子为「最初家具」，从兽皮延伸、以编织技术完成，新石器时期已有大量芦苇编织残片，夏商西周至春秋战国为坐卧主器，「席地而坐」的「地」指席面；既有 terms/xi-mat.md 已收高丰与 2016 两源的席名、礼制与坐席礼俗，与本条同指一物。",
+    "approve": "以 update 并入 terms/xi-mat.md：补赵农 L2295 来源、tags、aliases「席子」「席面」、起源与编织、席面释义、三册分工与证据边界；source_count 由 2 升至 3，version 升为 2。子代理最初另建 terms/xi-zi.md，主代理复核时判定同物重复，已删除该文件并将内容并入本条。",
+    "apply_note": "描述与核心内容补赵农一源；三册分工写明高丰礼制、2016 坐席礼俗、赵农起源编织；未给席的尺寸、编法与出土单位。",
+    "note": "canonical 为既有席条目 xi-mat.md；同批子代理创建的 xi-zi.md 已合并删除，不另建文件。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-04-132",
+    "entity": "磬",
+    "action": "create",
+    "target": "04-knowledge/units/terms/qing.md",
+    "analysis": "L2329 记孔子击磬于卫、荷蒉者闻声感悟与「有心哉」指音从心出，L2289 仅存图 3-45「战国 彩绘石编磬」图注，L2335 只把编磬列入曾侯乙墓编钟之外的 124 件乐器清单；三处均无磬的形制描述。",
+    "approve": "新建 terms/qing.md：confidence 记 low，只承载故事、图注与清单三类材料，不据图补形制。",
+    "apply_note": "六节齐全；124 件是编钟之外各类乐器的合计、不是编磬件数，已写明；图 3-45 未核图，只作图注记录。",
+    "note": "canonical 为新建磬条目；编钟见 terms/bianzhong.md 与 works/zenghouyi-bianzhong.md，不合并。"
+  }
+]

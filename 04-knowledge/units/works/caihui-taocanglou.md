@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-taoci-sanzhong-fenhua.md
+    role: representative_work
+    primary: true
+    scope_note: "彩绘陶仓楼是 B.5.3 缩小模型的一端：东汉建筑明器，高 78.2 厘米，悬山二层、五朵斗拱、底层绘乐舞图，是本 Topic 唯一有绝对尺度的模型明器"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度东汉建筑明器的单器条目，悬山、斗拱与彩绘装饰的视觉形制属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "彩绘陶仓楼是 B.5.3 缩小模型的一端：东汉建筑明器，高 78.2 厘米，悬山二层、五朵斗拱、底层绘乐舞图，是本 Topic 唯一有绝对尺度的模型明器"
 ---
 
 ## 描述
@@ -54,12 +62,10 @@ hierarchy_scope_note: "本条是 B 维度东汉建筑明器的单器条目，悬
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度东汉建筑明器的单器条目，悬山、斗拱与彩绘装饰的视觉形制属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 彩绘陶仓楼是 B.5.3 缩小模型的一端：东汉建筑明器，高 78.2 厘米，悬山二层、五朵斗拱、底层绘乐舞图，是本 Topic 唯一有绝对尺度的模型明器
 ## 相关知识元
 
 `terms/dougong.md` 记斗拱；`terms/qimu-jiaju.md` 记漆木家具，与本条陶制建筑明器不同类。relation 未审查。

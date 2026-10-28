@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度元代瓷器装饰题材的器物锚点，材料为图注一行加同段题材列举。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: representative_work
+    primary: true
+    scope_note: "追韩信图梅瓶在 B.6.5 只作梅瓶在元代被用作历史故事画载体的器物锚点；材料为图注一行，纹样解释归 C"
+hierarchy_scope_note: "追韩信图梅瓶在 B.6.5 只作梅瓶在元代被用作历史故事画载体的器物锚点；材料为图注一行，纹样解释归 C"
 ---
 
 ## 描述
@@ -46,15 +54,15 @@ hierarchy_scope_note: "本条是 B 维度元代瓷器装饰题材的器物锚点
 - **figure**：图8-11（与图8-12 并引）
 - **原文未载**：尺寸、窑口、出土、藏地、画面人物与构图
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代瓷器装饰题材的器物锚点，材料为图注一行加同段题材列举。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 追韩信图梅瓶在 B.6.5 只作梅瓶在元代被用作历史故事画载体的器物锚点；材料为图注一行，纹样解释归 C
 ## 相关知识元
 
 同段并引的 `works/mengtian-jiangjun-yuhuchun-ping.md`（图8-12）与本条同属历史故事题材；元代瓷器装饰体系见同章 L3696。本条不构成关系断言。

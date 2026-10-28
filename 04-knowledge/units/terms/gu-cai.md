@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "康熙古彩即硬彩，承明代五彩、单线平涂；以风格硬度命名的品种"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度清代康熙釉上彩的品种条目，单线平涂与色彩浓艳的装饰效果属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "康熙古彩即硬彩，承明代五彩、单线平涂；以风格硬度命名的品种"
 ---
 
 ## 描述
@@ -61,12 +69,10 @@ hierarchy_scope_note: "本条是 B 维度清代康熙釉上彩的品种条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代康熙釉上彩的品种条目，单线平涂与色彩浓艳的装饰效果属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 康熙古彩即硬彩，承明代五彩、单线平涂；以风格硬度命名的品种
 ## 相关知识元
 
 `terms/wucai.md` 记明代嘉靖万历五彩；`terms/fencai.md` 记粉彩与软彩之称；`terms/youshang-cai.md` 记釉上彩通名；`works/wucai-flower-bird-vase.md` 为同段图注器例。relation 未审查。

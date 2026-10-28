@@ -1,0 +1,1428 @@
+[
+ {
+  "claim_id": "claim-0800",
+  "statement_zh": "原始社会各地区的工艺文化发展不平衡：黄河中上游的彩陶工艺、东海之滨的黑陶工艺、东南地区的几何印纹陶工艺以及其他工艺，都以各自独特的风格放射着艺术的光彩。",
+  "statement_en": "Craft cultures of remote antiquity developed unevenly by region: painted pottery in the middle and upper Yellow River, black pottery on the eastern seaboard, geometric-stamped pottery in the southeast and other crafts each radiated artistic brilliance in their own distinctive style.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 842,
+    "line_end": 842,
+    "span_kind": "line",
+    "key_lines": [
+     842
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第一章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-03"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/yangshao-culture.md",
+   "04-knowledge/units/terms/longshan-culture.md",
+   "04-knowledge/units/terms/caihui-tao.md",
+   "04-knowledge/units/terms/heitao.md",
+   "04-knowledge/units/terms/geometric-stamped-pottery.md"
+  ],
+  "discussion_notes": "断言语义取 L842，为第一章结语的总体判断。区域对举按原文；未给各文化的年代序列与工艺比较指标。与 claim-0801 至 0804 同属结语，分论区域特色与四项启示，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0801",
+  "statement_zh": "工艺美术的装饰是适应实用的需要而产生的；彩绘和刻划装饰多具表号作用，器皿的立体装饰最先作为盖纽、流、把手、耳等部件，有的经压捏、堆贴以增加牢固度，因此原始工艺的装饰不是附加，而是和实用有机地统一。",
+  "statement_en": "Decoration in arts and crafts arose from practical needs: painted and incised ornament largely served emblematic purposes, and three-dimensional ornament began as lid knobs, spouts, handles and ears, sometimes pressed or appliqued for strength; primitive craft decoration was therefore not additive but organically unified with use.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 846,
+    "line_end": 846,
+    "span_kind": "line",
+    "key_lines": [
+     846
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第一章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-04"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taoqi.md",
+   "04-knowledge/units/terms/caihui-tao.md",
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L846，为作者的工艺观归纳。原文以彩绘、刻划与器体部件为例，未给器物使用痕迹或功能实验数据。与 claim-0802 同属结语，分论实用与装饰、技术与艺术，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0802",
+  "statement_zh": "技术对艺术产生巨大影响，甚而形成新的风格；技术的精进是提高艺术的条件，而不是唯一因素，创作的源泉来自社会生活，以本国人民和本民族发展的需要与传统为先决条件。",
+  "statement_en": "Technology profoundly affects art and can even generate new styles; technical refinement is a condition for raising artistic quality but not the only factor, since creation springs from social life and is conditioned by the needs and traditions of the nation and its people.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 848,
+    "line_end": 848,
+    "span_kind": "line",
+    "key_lines": [
+     848
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第一章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-05"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taoyao.md",
+   "04-knowledge/units/terms/taolun.md",
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L848。技术—艺术关系属作者的阐释；原文以石器打制到磨制、制陶手工到轮制为例，未给工艺参数与风格计量。与 claim-0801、0803 同属结语，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0803",
+  "statement_zh": "在原始社会的石器制作中，对称的形式是力量的均衡的体现，节奏即规律的变化则是产生力量的形式；形式感的应用丰富了工艺语言，也提高了人们对形式美的感受和认识。",
+  "statement_en": "In primitive stone working, symmetry embodied a balance of forces and rhythm, or regular variation, was the form that generated force; the application of formal feeling enriched the craft vocabulary and heightened people's perception and understanding of formal beauty.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 850,
+    "line_end": 850,
+    "span_kind": "line",
+    "key_lines": [
+     850
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第一章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-54"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L850。形式感判断属作者的阐释；原文以石器制作与陶器纹样为例，未给形式分析或知觉实验。与 claim-0801、0802 同属结语，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0804",
+  "statement_zh": "当技术条件受到限制，或者为了更有效地达到识别作用，人们通常运用简约的表现方法突出形象特征；从写实到表号化、从具象到抽象化，是工艺美术常用的重要艺术手法。",
+  "statement_en": "When technical conditions were limited, or to achieve recognition more effectively, people commonly used simplified expression to bring out a figure's distinctive features; the movement from realism to emblem and from figuration to abstraction is a major and recurrent technique in arts and crafts.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 852,
+    "line_end": 852,
+    "span_kind": "line",
+    "key_lines": [
+     852
+    ],
+    "block_ids": [
+     "b0043"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第一章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-06"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/caihui-tao.md",
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L852。属艺术手法归纳；原文以彩陶纹样与青铜器纹样为例，未给纹样序列的量化分析。与 claim-0800 至 0803 同属结语，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0805",
+  "statement_zh": "二里头文化（又称洛达庙文化）介于龙山文化和商文化之间，其地域与发展的时序大体和传说中的夏代相一致；但二里头文化是否就是夏文化，考古界还有不同的看法。",
+  "statement_en": "The Erlitou culture, also called the Luodamiao culture, lies between the Longshan and Shang cultures and broadly matches the legendary Xia in territory and chronological position; whether it is the Xia culture remains disputed among archaeologists.",
+  "claim_type": "contested_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 864,
+    "line_end": 864,
+    "span_kind": "line",
+    "key_lines": [
+     864
+    ],
+    "block_ids": [
+     "b0045"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第一节 概说"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-10"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/erlitou-site.md",
+   "04-knowledge/units/terms/qingtong-shidai.md",
+   "04-knowledge/units/works/erlitou-bronze-jue.md"
+  ],
+  "discussion_notes": "断言语义取 L864。原文明确保留争议，属 contested；未给夏代纪年、碳十四序列与都邑性质的论证。与 claim-0806 同节近邻，分论二里头与商代手工业，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0806",
+  "statement_zh": "武王灭商后分鲁公以殷民六族、分康叔以殷民七族，所俘奴隶多隶属于手工业氏族，例如陶氏为陶工，长勺氏、尾勺氏为酒器工，锜氏为釜工，樊氏为篱笆工，施氏为旗工。",
+  "statement_en": "After defeating Shang, King Wu gave the Duke of Lu six Yin clans and Kangshu seven; many of the captured slaves belonged to craft clans, for example the Tao clan as potters, the Changshao and Weishao clans as wine-vessel makers, the Qi clan as cauldron makers, the Fan clan as fence makers and the Shi clan as flag makers.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 891,
+    "line_end": 891,
+    "span_kind": "line",
+    "key_lines": [
+     891
+    ],
+    "block_ids": [
+     "b0046"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第一节 概说"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-13"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/baigong.md",
+   "04-knowledge/units/terms/qingtong-jiuqi.md"
+  ],
+  "discussion_notes": "断言语义取 L891。氏族与工种的对应按原文；所据文献（《左传》定公四年）未注版本与页码。与 claim-0805 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0807",
+  "statement_zh": "商代早期的青铜器，不论是炊食器或酒器，大都直接仿自陶器；当时青铜器体壁较薄，多平底，足作锥柱状，装饰花纹线条粗笨、结构简单，多为单层组织，一般不用回纹作地纹。",
+  "statement_en": "Early Shang bronzes, whether cooking or wine vessels, mostly imitated pottery directly: walls were thin, bases flat, legs conical, and ornament coarse in line and simple in structure, usually in a single layer and generally without meander ground patterns.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 897,
+    "line_end": 897,
+    "span_kind": "line",
+    "key_lines": [
+     897
+    ],
+    "block_ids": [
+     "b0047"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-15"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/taoqi.md",
+   "04-knowledge/units/terms/hui-wen.md"
+  ],
+  "discussion_notes": "断言语义取 L897。器形与装饰特征按原文；未给郑州二里冈各期的器物统计。与 claim-0808 同节近邻，分论早期铜器与妇好墓铜镜，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0808",
+  "statement_zh": "1976年殷墟妇好墓（五号墓）出土的铜镜，更确切地把我国铜镜发展的历史从春秋时期推前了几百年。",
+  "statement_en": "The bronze mirror unearthed in 1976 from the Fu Hao tomb (tomb no. 5) at Yinxu pushes the history of Chinese bronze mirrors back several centuries from the Spring and Autumn period.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 905,
+    "line_end": 905,
+    "span_kind": "line",
+    "key_lines": [
+     905
+    ],
+    "block_ids": [
+     "b0047"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-18"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/fuhao-tomb.md",
+   "04-knowledge/units/places/yinxu.md",
+   "04-knowledge/units/persons/fu-hao.md"
+  ],
+  "discussion_notes": "断言语义取 L905。原文未给铜镜的尺寸、纹饰与测年数据；同段以妇好墓铜器468件、总重1625公斤以上为背景。与 claim-0807 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0809",
+  "statement_zh": "《考工记》所记铜锡比例大体符合或接近科学试验结论：青铜中锡占17%~20%最坚韧，30%~40%硬度最高，超过这种比例性能就要减低；这是我国古代冶金工艺的实践总结。",
+  "statement_en": "The copper-tin ratios recorded in the Kaogongji broadly agree with or approach experimental findings: bronze with 17-20 per cent tin is toughest, 30-40 per cent hardest, and properties decline beyond these ranges; this is a practical summation of ancient Chinese metallurgy.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 919,
+    "line_end": 919,
+    "span_kind": "line",
+    "key_lines": [
+     919
+    ],
+    "block_ids": [
+     "b0048"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺 一、青铜器的制作"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-25"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/qingtong-shidai.md"
+  ],
+  "discussion_notes": "断言语义取 L919。锡比例区间按原文；引文“六分其金而锡居一”等按原文，未校勘版本。与 claim-0807 同节近邻，分论合金配比与器形装饰，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0810",
+  "statement_zh": "鼎在古代不只是实用品，也是权力的象征；商代用鼎有严格等级规定，天子用九鼎，卿用七鼎，大夫用五鼎，士用一或三鼎，普通人不能用，超越规定称为僭越。",
+  "statement_en": "The ding was not only a practical vessel but a symbol of power; Shang ding use followed strict rank rules, with nine for the king, seven for ministers, five for senior officers and one or three for retainers, none for commoners, and exceeding these limits was trespass.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 949,
+    "line_end": 951,
+    "span_kind": "bounded",
+    "key_lines": [
+     951
+    ],
+    "block_ids": [
+     "b0050"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺 二、青铜器的造型"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-28"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/qingtong-liqi.md",
+   "04-knowledge/units/terms/lieding-system.md"
+  ],
+  "discussion_notes": "断言语义取 L949-L951。用鼎等级按原文；与 claim-0830 周代列鼎制度同章近邻，分论商代与周代，未合并。原文“定鼎郏郕”注音与史事未展开。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0811",
+  "statement_zh": "被称为饕餮的兽面纹，应是牛、羊、猪等作为祭祀牺牲的形象的表现，往往象征化、抽象化或综合处理；这类纹样富有宗教意义，其社会意义大于审美意义。",
+  "statement_en": "The animal-face motif called taotie probably represents sacrificial victims such as oxen, sheep and pigs, often rendered symbolically, abstractly or in composite form; such motifs are religious in meaning, and their social significance exceeds their aesthetic significance.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1103,
+    "line_end": 1103,
+    "span_kind": "line",
+    "key_lines": [
+     1103
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺 三、青铜器的装饰"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-35"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/publications/lvshi-chunqiu.md",
+   "04-knowledge/units/publications/zuozhuan.md"
+  ],
+  "discussion_notes": "断言语义取 L1103。牺牲说为作者的推断；同段列举怪兽说、吉祥说、虎说、牛头说等多种解释，原文未裁定。与 claim-0822 同章近邻，分论纹样含义与商代装饰的社会意义，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0812",
+  "statement_zh": "回纹可认为是编织纹的遗留：陶器的产生和编织有关，各种编织几何纹成为早期陶器的一种自然装饰，这种编织纹经归纳定型后装饰在铜器上，就形成铜器表面地纹的回纹。",
+  "statement_en": "The meander can be regarded as a survival of basketry: pottery arose in connection with weaving, woven geometric patterns became a natural ornament on early pottery, and after being regularised these patterns were applied to bronzes as the meander ground pattern.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1118,
+    "line_end": 1118,
+    "span_kind": "line",
+    "key_lines": [
+     1118
+    ],
+    "block_ids": [
+     "b0056"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺 三、青铜器的装饰"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-38"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/hui-wen.md",
+   "04-knowledge/units/terms/taoqi.md",
+   "04-knowledge/units/terms/shougong-bianzhi.md"
+  ],
+  "discussion_notes": "断言语义取 L1118。编织说为作者的判断；同段并引郭沫若指纹说与水浪说，均未给纹样比对样本。与 claim-0813 同节近邻，分论地纹来源与装饰四特点，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0813",
+  "statement_zh": "商代青铜器的装饰艺术特点可归纳为四点：图案纹样以单独适合纹样为主，多以饕餮纹为主体或以双夔纹组成饕餮；多采用对称格式；多采用主纹和地纹的结合，以饕餮为主纹、回纹为地纹；装饰方法早期脱胎于陶器拍印，后期运用刻花并多用三层花纹（三叠法）。",
+  "statement_en": "Shang bronze ornament may be summarised in four points: self-contained appropriate motifs dominate, mostly taotie or paired kui forming a taotie; symmetrical formats prevail; main motifs are combined with ground patterns, taotie over meander; and the technique began with pottery stamping and later used carving with three-layer ornament, the so-called three-fold method.",
+  "claim_type": "synthetic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1156,
+    "line_end": 1164,
+    "span_kind": "bounded",
+    "key_lines": [
+     1156,
+     1162
+    ],
+    "block_ids": [
+     "b0058"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第二节 青铜工艺 四、青铜器的艺术特点"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-40"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/terms/kui-wen.md",
+   "04-knowledge/units/terms/hui-wen.md",
+   "04-knowledge/units/terms/qingtongqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1156-L1164 的四点归纳。“三层花纹（三叠法）”为原文术语；对称格式的两种解释（狩猎观察说、两分世界观说）未展开。与 claim-0812 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0814",
+  "statement_zh": "白陶用高岭土制成，器形有壶、罍、觯、卣、簋等，装饰基本和青铜器相似；有人推测其起源系北方制陶工人模仿南方硬陶所作，烧制火度不如硬陶高、器壁不如硬陶薄；商代以后不复发现这种产品。",
+  "statement_en": "White pottery was made of kaolin, with forms including hu, lei, zhi, you and gui and ornament close to bronze; some suggest it originated when northern potters imitated southern hard pottery, with lower firing temperature and thicker walls than hard pottery; it disappears after the Shang.",
+  "claim_type": "contested_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1184,
+    "line_end": 1184,
+    "span_kind": "line",
+    "key_lines": [
+     1184
+    ],
+    "block_ids": [
+     "b0061"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第三节 陶瓷工艺 二、白陶"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-43"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shangdai-baitao.md",
+   "04-knowledge/units/terms/bai-tao.md",
+   "04-knowledge/units/terms/taoqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1184。起源说原文以“有人推测”标记，属 contested；未给高岭土成分与烧成温度检测。与 claim-0835 同章近邻，分论白陶与周代原始瓷，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0815",
+  "statement_zh": "商代的玉器已渐从实用转向欣赏，成为奴隶主所重视的装饰品，有了较大的发展。",
+  "statement_en": "Shang jades gradually shifted from practical use toward appreciation, becoming ornaments valued by slave owners and developing considerably.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1222,
+    "line_end": 1222,
+    "span_kind": "line",
+    "key_lines": [
+     1222
+    ],
+    "block_ids": [
+     "b0065"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第四节 雕刻工艺 二、玉雕"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-47"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shangdai-yuqi-fenlei.md",
+   "04-knowledge/units/works/fuhao-jade-figure.md"
+  ],
+  "discussion_notes": "断言语义取 L1222。功能转向为作者的判断；原文以周武王所得商代玉器“旧宝玉万四千，佩玉亿有八万”的文献记载为据，数字未注出处。与 claim-0816 同节近邻，分论功能转向与妇好墓玉器，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0816",
+  "statement_zh": "1976年在河南安阳殷墟五号墓（即妇好墓）发掘出755件精美的玉器，具体地反映了殷代玉器工艺的制作水平。",
+  "statement_en": "In 1976, 755 fine jades were excavated from tomb no. 5 at Yinxu in Anyang, Henan, the tomb of Fu Hao, concretely reflecting the level of Shang jade craftsmanship.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1226,
+    "line_end": 1226,
+    "span_kind": "line",
+    "key_lines": [
+     1226
+    ],
+    "block_ids": [
+     "b0065"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第四节 雕刻工艺 二、玉雕"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-03-48"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/fuhao-tomb.md",
+   "04-knowledge/units/persons/fu-hao.md",
+   "04-knowledge/units/works/fuhao-jade-figure.md",
+   "04-knowledge/units/works/fuhao-mu-yuren.md"
+  ],
+  "discussion_notes": "断言语义取 L1226。755件与墓号按原文；同段并述玉料来源鉴定（多数近辽宁岫岩玉）与器类清单，未逐一建 claim。与 claim-0815 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0817",
+  "statement_zh": "我国是最早发明养蚕织绸的国家；在商代，蚕已经由野蚕发展成了家蚕，人们十分重视蚕，奉为蚕神，卜辞有“蚕示三牢”的记载。",
+  "statement_en": "China was the first country to invent sericulture and silk weaving; by the Shang, the silkworm had been domesticated from the wild form, was highly valued and worshipped as a silkworm deity, and oracle bone inscriptions record the offering of three victims to the silkworm spirit.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1258,
+    "line_end": 1258,
+    "span_kind": "line",
+    "key_lines": [
+     1258
+    ],
+    "block_ids": [
+     "b0067"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第五节 其他工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-69"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/shangzhou-sizhiwu.md"
+  ],
+  "discussion_notes": "断言语义取 L1258。“最早发明养蚕织绸”属通说性判断，原文未注比较范围；卜辞“蚕示三牢”与铜戈绢纹痕迹按原文。与 claim-0818 同节近邻，分论蚕丝与漆器，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0818",
+  "statement_zh": "我国也是用漆最早的国家；漆是漆树的汁液，在潮润空气中充分氧化后表面呈栗壳色，干固后变成褐黑色，耐酸、耐热、防腐、绝缘；商代漆器虽无出土实物，但殷墟武官村大墓发现雕花木器印痕，考古学家称为“花土”。",
+  "statement_en": "China was also the earliest country to use lacquer; lacquer is the sap of the lacquer tree, which oxidises to chestnut brown in moist air and dries to dark brown, resisting acid, heat, decay and electricity. No Shang lacquerware survives, but carved wooden furniture impressions, called flower earth by archaeologists, were found in the Wuguan village tomb at Yinxu.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1262,
+    "line_end": 1262,
+    "span_kind": "line",
+    "key_lines": [
+     1262
+    ],
+    "block_ids": [
+     "b0067"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第五节 其他工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-70"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/places/yinxu.md"
+  ],
+  "discussion_notes": "断言语义取 L1262。“用漆最早”属通说性判断，未注比较范围；同段 L1264 另述1973年藁城台西漆片，本 claim 未合并。库内无商代漆器专门条目，仅链接殷墟出土地。与 claim-0817 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0819",
+  "statement_zh": "商代统治阶级的宗教观念已由原始社会的多神教转为一神教，政治思想表现为宗教迷信的思想；因此商代的工艺美术装饰纹样也往往带有宗教迷信的色彩。",
+  "statement_en": "The Shang ruling class's religion shifted from the polytheism of primitive society to monotheism, and its political thought took the form of religious superstition; Shang craft ornament therefore often carries a religious and superstitious colouring.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1268,
+    "line_end": 1268,
+    "span_kind": "line",
+    "key_lines": [
+     1268
+    ],
+    "block_ids": [
+     "b0068"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-49"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/publications/liji.md",
+   "04-knowledge/units/terms/qingtong-liqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1268。一神教判断为作者的概括，同段引马克思语与《小戴礼·表记》；宗教学界对商代信仰是否为一神教有不同意见，原文未展开。与 claim-0820 同节近邻，分论宗教观念与艺术特点，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0820",
+  "statement_zh": "商代工艺美术的艺术特点是威严、神秘、慑服的精神力量的反映；造型多运用安定而又庄重的直线，装饰采用对称而又规整的格式，这是服从于祭祀的要求，也是适应奴隶主阶级统治人民的精神需要。",
+  "statement_en": "The artistic character of Shang crafts reflects an awe-inspiring, mysterious and subduing spiritual force; forms use stable and grave straight lines, ornament uses symmetrical and regular formats, serving sacrificial requirements and the spiritual needs of slave-owner rule.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1270,
+    "line_end": 1270,
+    "span_kind": "line",
+    "key_lines": [
+     1270
+    ],
+    "block_ids": [
+     "b0068"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-50"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/qingtong-liqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1270。“威严、神秘、慑服”属评价；原文以人殉、人牲与造型装饰为例，未给墓葬统计。与 claim-0819、0822 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0821",
+  "statement_zh": "商代青铜器造型首先从实用出发，因统治阶级盛行饮酒之风而酒器十分发达，基本完备了酒器的各个使用品种；考古学家因此认为，商代青铜器的组合乃是酒器的组合。",
+  "statement_en": "Shang bronze forms began from practical use; the ruling class's heavy drinking made wine vessels highly developed and essentially complete in every functional type, so archaeologists regard the Shang bronze assemblage as a wine-vessel assemblage.",
+  "claim_type": "synthetic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1272,
+    "line_end": 1272,
+    "span_kind": "line",
+    "key_lines": [
+     1272
+    ],
+    "block_ids": [
+     "b0068"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-51"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-jiuqi.md",
+   "04-knowledge/units/terms/shangdai-qingtongqi-balei.md",
+   "04-knowledge/units/terms/jue-vessel.md"
+  ],
+  "discussion_notes": "断言语义取 L1272。“酒器的组合”为转述考古学界的判断；原文以爵、斝与尊、彝及罍、卣的用途区分为据。与 claim-0828 同章近邻，分论商代酒器组合与商周组合比较，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0822",
+  "statement_zh": "商代工艺装饰的社会意义，其宗教意义大于审美意义；虽然许多制品在装饰的艺术处理上极为精巧卓越，但这种审美要求必须服从宗教意义的要求。",
+  "statement_en": "In Shang craft ornament religious meaning outweighs aesthetic meaning; however exquisite the artistic treatment, aesthetic demands were subordinated to religious ones.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1274,
+    "line_end": 1274,
+    "span_kind": "line",
+    "key_lines": [
+     1274
+    ],
+    "block_ids": [
+     "b0068"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第二章 第六节 结语"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-52"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/taotie-motif.md",
+   "04-knowledge/units/terms/qingtong-liqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1274。属评价性判断；原文以纹样与器用制度为据，未给审美接受的接受史材料。与 claim-0811 同章近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0823",
+  "statement_zh": "周代社会政治的特点是分封制、世袭制和等级制；森严的等级制度给周代工艺美术制作和发展以极大影响，反映在祭祖、服饰、器物、宫室、车马等的严格等级规定上，不得僭越。",
+  "statement_en": "Zhou society and politics were characterised by enfeoffment, hereditary status and hierarchy; the strict hierarchy strongly shaped Zhou craft production and development, appearing in rigid sumptuary rules for ancestral rites, dress, vessels, buildings and carriages that could not be exceeded.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1284,
+    "line_end": 1290,
+    "span_kind": "bounded",
+    "key_lines": [
+     1290
+    ],
+    "block_ids": [
+     "b0070"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第一节 概说"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-53"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/li-yue-zhidu.md",
+   "04-knowledge/units/terms/mianfu-zhidu.md",
+   "04-knowledge/units/publications/zhouli.md",
+   "04-knowledge/units/publications/zuozhuan.md"
+  ],
+  "discussion_notes": "断言语义取 L1284-L1290。制度归纳按原文；所引《左传》《周礼·春官·典命》《礼记》未注版本与页码。与 claim-0824 同节近邻，分论等级制与《考工记》，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0824",
+  "statement_zh": "《考工记》是我国最早的关于工艺的专门著作，总结了各种工艺制作的科学经验，最可贵的是提出“天有时，地有气，材有美，工有巧，合此四者，然后可以为良”的朴素工艺观，至今仍可作为工艺制作的基本法则。",
+  "statement_en": "The Kaogongji is China's earliest specialised work on crafts, summing up scientific experience in various techniques; its most valuable contribution is the plain craft view that when heaven has its seasons, earth its qi, materials their beauty and workmen their skill, and all four are combined, the result can be good, a principle still usable today.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1294,
+    "line_end": 1294,
+    "span_kind": "line",
+    "key_lines": [
+     1294
+    ],
+    "block_ids": [
+     "b0070"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第一节 概说"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-54"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/terms/gongyi-meishu.md"
+  ],
+  "discussion_notes": "断言语义取 L1294。“我国最早”与“至今仍可作为基本法则”属作者的判断；同段下接三十个工种的分类，未逐条建 claim。与 claim-0823 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0825",
+  "statement_zh": "西周青铜工艺的发展可分为两个阶段：在前期，大体上是继承商代的艺术风格；在后期，即在成康以后，才开始形成周代自己的特点。",
+  "statement_en": "Western Zhou bronze work falls into two stages: the earlier phase largely continued Shang artistic style, while the later phase, after the reigns of Cheng and Kang, began to form a distinct Zhou character.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1346,
+    "line_end": 1346,
+    "span_kind": "line",
+    "key_lines": [
+     1346
+    ],
+    "block_ids": [
+     "b0073"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-55"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/works/da-yu-ding.md"
+  ],
+  "discussion_notes": "断言语义取 L1346。两阶段划分为作者的分期判断；原文未给各期的器形、纹饰统计与王世测年。与 claim-0834 同章近邻，分论总分期与质朴风格形成，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0826",
+  "statement_zh": "所谓礼乐制度，实际上就是等级制度，反映了统治者的尊卑关系和等级特权；一切视听言行，一切吉礼、凶礼、宾礼、嘉礼、军礼，从生活方式到政治活动，都要合乎礼乐制度。",
+  "statement_en": "The so-called ritual and music system was in effect a system of rank, reflecting rulers' hierarchical relations and privileges; all seeing, hearing, speech and action, and all auspicious, mourning, guest, auspicious-celebration and military rites, from daily life to political activity, had to accord with it.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1431,
+    "line_end": 1431,
+    "span_kind": "line",
+    "key_lines": [
+     1431
+    ],
+    "block_ids": [
+     "b0079"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺 五、乐器"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-73"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/li-yue-zhidu.md",
+   "04-knowledge/units/terms/bianzhong.md",
+   "04-knowledge/units/publications/zhouli.md"
+  ],
+  "discussion_notes": "断言语义取 L1431。礼乐即等级制的判断属作者的阐释；原文以周公汇集增补、建立法定制度为背景，未给礼制文本的成书年代考证。与 claim-0823 同章近邻，分论礼乐制度与分封世袭等级，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0827",
+  "statement_zh": "周代的青铜器进入一个尚质的阶段，装饰趋向规格简单；由于王室和诸侯各国都有铸造作坊，青铜器的种类相对减少，而数量却大大超过了商代。",
+  "statement_en": "Zhou bronzes entered a phase that valued substance, with ornament tending toward simple standardisation; because both the royal house and the feudal states had casting workshops, vessel types decreased while quantities greatly exceeded the Shang.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1439,
+    "line_end": 1439,
+    "span_kind": "line",
+    "key_lines": [
+     1439
+    ],
+    "block_ids": [
+     "b0080"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-74"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/qingtong-shiqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1439。尚质与数量判断按原文；未给青铜器出土数量统计与作坊规模数据。与 claim-0828 同句近邻，分论尚质阶段与商周器类组合，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0828",
+  "statement_zh": "青铜器的组合，考古学家认为，商代是重酒器的组合，而周代则是重食器的组合。",
+  "statement_en": "Archaeologists hold that the Shang bronze assemblage emphasised wine vessels while the Zhou assemblage emphasised food vessels.",
+  "claim_type": "synthetic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1439,
+    "line_end": 1439,
+    "span_kind": "line",
+    "key_lines": [
+     1439
+    ],
+    "block_ids": [
+     "b0080"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-56"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-jiuqi.md",
+   "04-knowledge/units/terms/qingtong-shiqi.md",
+   "04-knowledge/units/terms/shangdai-qingtongqi-balei.md"
+  ],
+  "discussion_notes": "断言语义取 L1439。组合差异为转述考古学界的判断；原文以食器增加、酒器减少为据，未给墓葬随葬品组合统计。与 claim-0821、0827 同章近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0829",
+  "statement_zh": "周代的制器服从礼的需要，适应当时政治的需要，是“藏礼于器”；名位不同、礼亦异数，制作的数量、式样都反映礼的秩序，标志着等级和地位。",
+  "statement_en": "Zhou vessel making served ritual and political needs, embedding ritual in vessels; since rank differed, ritual allowances differed, and the number and form of vessels reflected ritual order and marked rank and status.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1454,
+    "line_end": 1454,
+    "span_kind": "line",
+    "key_lines": [
+     1454
+    ],
+    "block_ids": [
+     "b0080"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-57"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtong-liqi.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md",
+   "04-knowledge/units/terms/lieding-system.md"
+  ],
+  "discussion_notes": "断言语义取 L1454。“藏礼于器”为作者的概括；同段据《两周金文辞大系图录考释》167篇铭文统计，祭祖85篇，未逐条建 claim。与 claim-0830 同节近邻，分论藏礼于器与列鼎制度，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0830",
+  "statement_zh": "周代列鼎用单数，天子九鼎、诸侯七、卿大夫五、元士三；盛饭食的食器用偶数，天子八簋、诸侯六、大夫四、士二，出土情况大体与记载相符。",
+  "statement_en": "Zhou graduated ding sets used odd numbers: nine for the king, seven for feudal lords, five for ministers and three for senior retainers; food vessels used even numbers: eight gui for the king, six for lords, four for ministers and two for retainers, broadly matching excavated evidence.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1456,
+    "line_end": 1456,
+    "span_kind": "line",
+    "key_lines": [
+     1456
+    ],
+    "block_ids": [
+     "b0080"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-58"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/lieding-system.md",
+   "04-knowledge/units/terms/ding.md",
+   "04-knowledge/units/terms/gui-vessel.md"
+  ],
+  "discussion_notes": "断言语义取 L1456。鼎簋奇偶制度按原文，引《春秋公羊传·桓公二年》何休解诂；“出土情况大体相符”未给具体墓葬与统计。与 claim-0810 同章近邻，分论周代与商代用鼎，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0831",
+  "statement_zh": "周代纹样打破了商代以直线为主的特点，也打破了对称的格式，一般都组成S形，但又未完全摆脱直线的雏形，因此形成直中有圆、圆中有方的特点。",
+  "statement_en": "Zhou ornament broke with the Shang emphasis on straight lines and symmetrical formats, generally composing S-curves while not fully abandoning straight-line prototypes, thus forming a character of roundness within straightness and squareness within roundness.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1460,
+    "line_end": 1460,
+    "span_kind": "line",
+    "key_lines": [
+     1460
+    ],
+    "block_ids": [
+     "b0081"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-59"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qiequ-wen.md",
+   "04-knowledge/units/terms/niao-wen.md",
+   "04-knowledge/units/terms/qingtongqi.md"
+  ],
+  "discussion_notes": "断言语义取 L1460。纹样演变属风格分期判断；原文以窃曲纹、鸟纹为例，未给纹样测绘与统计。与 claim-0832 同节近邻，分论纹样骨架与总体风格，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0832",
+  "statement_zh": "周代青铜器装饰的又一特色，是不用地纹；因此总的艺术风格是质朴洗练、疏朗畅达、富于韵律感、有节奏美。",
+  "statement_en": "Another feature of Zhou bronze ornament is the absence of ground patterns; the overall style is therefore plain and refined, open and fluent, rich in rhythm and rhythmic beauty.",
+  "claim_type": "evaluative_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1505,
+    "line_end": 1505,
+    "span_kind": "line",
+    "key_lines": [
+     1505
+    ],
+    "block_ids": [
+     "b0082"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-60"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qiequ-wen.md",
+   "04-knowledge/units/terms/huan-dai-wen.md",
+   "04-knowledge/units/terms/wa-wen.md"
+  ],
+  "discussion_notes": "断言语义取 L1505。“质朴洗练、疏朗畅达”属风格评价；原文以窃曲纹、环带纹、重环纹、垂鳞纹、瓦纹的带状布局为据。与 claim-0831、0833 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0833",
+  "statement_zh": "周代装饰运用二方连续的带状纹样，以一个母题组织成带状的连续反复，产生秩序感；这种格式与《诗经》一唱三叹的反复形式有相似之处，并与周代的礼治要求有一种间接的联系。",
+  "statement_en": "Zhou ornament uses two-directional continuous bands, organising a single motif into repeated bands to produce a sense of order; this format resembles the refrain structure of the Shijing and is indirectly linked to Zhou ritual governance.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1507,
+    "line_end": 1507,
+    "span_kind": "line",
+    "key_lines": [
+     1507
+    ],
+    "block_ids": [
+     "b0082"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-61"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/publications/shijing.md",
+   "04-knowledge/units/terms/qiequ-wen.md",
+   "04-knowledge/units/terms/huan-dai-wen.md"
+  ],
+  "discussion_notes": "断言语义取 L1507。诗—纹类比与礼治联系属作者的阐释；原文未给《诗经》篇章统计或纹样节律测量。与 claim-0832 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0834",
+  "statement_zh": "周代青铜器质朴的风格大体从穆王时期开始，到宣王、厉王时期则已完全形成。",
+  "statement_en": "The plain style of Zhou bronzes began roughly in the reign of King Mu and was fully formed by the reigns of Kings Xuan and Li.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1509,
+    "line_end": 1509,
+    "span_kind": "line",
+    "key_lines": [
+     1509
+    ],
+    "block_ids": [
+     "b0082"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第二节 青铜工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-62"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/qingtongqi.md",
+   "04-knowledge/units/terms/qiequ-wen.md"
+  ],
+  "discussion_notes": "断言语义取 L1509。风格分期按原文；未给标准器序列与王世断代依据。与 claim-0825 同章近邻，分论两阶段与质朴风格形成，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0835",
+  "statement_zh": "长安张家坡发现的瓷豆、瓷罐，其残瓷片经过科学分析鉴定，烧成温度已达1200℃左右，吸水性弱；由于在弱还原焰中烧制，还不能将胎料中的钛、铁成分烧透，故不能达到纯白和透明，但无疑已很接近瓷器。",
+  "statement_en": "The porcelain dou and jars found at Zhangjiapo near Chang'an had sherds scientifically analysed as fired at about 1200 degrees Celsius with low water absorption; firing in a weak reducing atmosphere left titanium and iron in the body untransformed, so the ware was not pure white or translucent, yet it was undoubtedly close to porcelain.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1513,
+    "line_end": 1513,
+    "span_kind": "line",
+    "key_lines": [
+     1513
+    ],
+    "block_ids": [
+     "b0083"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第三节 陶瓷工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-63"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/proto-porcelain.md",
+   "04-knowledge/units/terms/taoqi.md",
+   "04-knowledge/units/terms/taoyao.md"
+  ],
+  "discussion_notes": "断言语义取 L1513。1200℃与弱还原焰按原文；同段并述安徽屯溪、江苏金坛等地点，未逐一建 claim。与 claim-0814 同章近邻，分论周代原始瓷与商代白陶，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0836",
+  "statement_zh": "《书经·益稷篇》所记十二章，是古代帝王服饰上具有宗教意义的十二种图案；它从西周以来为历代帝王所采用，直到民国初年袁世凯窃权想当皇帝，也以十二章制定服式。",
+  "statement_en": "The twelve symbols recorded in the Yiji chapter of the Book of Documents are twelve religiously significant motifs on ancient imperial dress; they were used by rulers from the Western Zhou onward, and even Yuan Shikai, seeking the throne in the early Republic, prescribed dress by the twelve symbols.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1541,
+    "line_end": 1541,
+    "span_kind": "line",
+    "key_lines": [
+     1541
+    ],
+    "block_ids": [
+     "b0084"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第四节 染织工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-64"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/twelve-symbols.md",
+   "04-knowledge/units/terms/mianfu-zhidu.md"
+  ],
+  "discussion_notes": "断言语义取 L1541。“从西周以来为历代帝王所采用”为长时段判断；十二章的起源与形成年代学界有不同意见，原文未展开。与 claim-0837 同节近邻，分论制度沿革与纹样含义，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0837",
+  "statement_zh": "十二章的十二种纹样都贯穿着儒家伦理道德的含义，具有鲜明的社会意义：日、月、星辰取其照临，山取其镇，龙取其变，藻取其洁，火取其明，粉米取其养，黼取其断，黻有背恶向善之意。",
+  "statement_en": "The twelve motifs are all informed by Confucian ethical meaning and carry clear social significance: sun, moon and stars for illumination, mountain for stability, dragon for transformation, water plant for purity, fire for brightness, grain for nourishment, the axe for decisiveness, and the fu figure for turning from evil toward good.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1545,
+    "line_end": 1545,
+    "span_kind": "line",
+    "key_lines": [
+     1545
+    ],
+    "block_ids": [
+     "b0084"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第四节 染织工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-65"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/twelve-symbols.md",
+   "04-knowledge/units/terms/mianfu-zhidu.md",
+   "04-knowledge/units/publications/zhouli.md"
+  ],
+  "discussion_notes": "断言语义取 L1545。含义解释为历代儒学家（孔安国、马融、郑玄、聂崇义等）之说，原文称“大同小异”；属经学阐释，非实物纹样分析。与 claim-0836 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0838",
+  "statement_zh": "用蚌泡作为镶嵌，是周代漆器工艺的一种非常流行的装饰手法；西安普渡村、濬县辛村、宝鸡斗鸡台、洛阳庞家沟等地的周代墓葬都发现有大量蚌泡镶嵌漆器，这种蚌泡镶嵌实际是现今漆器中螺钿的前身。",
+  "statement_en": "Shell-boss inlay was a highly popular decorative technique in Zhou lacquerwork; large quantities of shell-inlaid lacquer were found in Zhou tombs at Pupu village near Xi'an, Xincun in Jun county, Doujitai in Baoji and Pangjiagou in Luoyang, and this inlay is in effect the predecessor of later mother-of-pearl inlay.",
+  "claim_type": "historiographic_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1590,
+    "line_end": 1590,
+    "span_kind": "line",
+    "key_lines": [
+     1590
+    ],
+    "block_ids": [
+     "b0087"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第五节 漆器工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-66"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/procedures/bangpao-xiangqian.md",
+   "04-knowledge/units/terms/luodian.md"
+  ],
+  "discussion_notes": "断言语义取 L1590。“螺钿前身”属源流判断；原文称未见完整器形，仅据镶嵌物推定木胎或编织物胎。与 claim-0839 同章近邻，分论漆器镶嵌与玉器伦理，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0839",
+  "statement_zh": "周代的玉器由于与伦理道德有着直接的联系，所以得到社会的特别重视，成为一种具有社会道德含义的特殊物品；祭祀朝聘、礼仪大典都以玉为必需品，自天子以至士庶都以佩玉为尚。",
+  "statement_en": "Because Zhou jades were directly linked to ethics, they received special social attention and became special objects with social and moral meaning; jade was essential in sacrifice, audience and ceremonial occasions, and from king to commoner the wearing of jade was esteemed.",
+  "claim_type": "interpretive_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1599,
+    "line_end": 1599,
+    "span_kind": "line",
+    "key_lines": [
+     1599
+    ],
+    "block_ids": [
+     "b0088"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第六节 玉雕工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-67"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/zhou-yu-liqi.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md",
+   "04-knowledge/units/publications/zhouli.md"
+  ],
+  "discussion_notes": "断言语义取 L1599。玉—德联系属作者的阐释，引《遵生八笺》“上古用玉，珍重似不敢亵”；未给佩玉制度的社会史材料。与 claim-0840 同节近邻，分论道德含义与礼器等级，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "claim_id": "claim-0840",
+  "statement_zh": "周代的玉器主要作为礼器使用，体现周代的等级名分制度；《考工记》所记镇圭、桓圭、信圭、躬圭尺寸与使用者等级不同，天子用全，上公用陇，侯用瓒，伯用将。",
+  "statement_en": "Zhou jades served mainly as ritual vessels embodying the rank system; the Kaogongji records zhengui, huangui, xingui and gonggui of differing sizes for different ranks, with the king using pure jade, the senior duke a four-to-one jade-stone mix, the marquis three-to-two and the earl equal parts.",
+  "claim_type": "factual_claim",
+  "source": {
+   "doc_id": "2010-tianzibing-zhongguo-gongyi-meishushi",
+   "source_file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+   "source_span": {
+    "line_start": 1601,
+    "line_end": 1601,
+    "span_kind": "line",
+    "key_lines": [
+     1601
+    ],
+    "block_ids": [
+     "b0088"
+    ],
+    "chapter": "第一章 第六节与第二、三章（商代和周代工艺美术）",
+    "section": "第三章 第六节 玉雕工艺"
+   },
+   "candidate_id": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-04-68"
+  },
+  "confidence": "medium",
+  "consensus": "tentative",
+  "review_status": "source_backed",
+  "supported_by": [
+   "04-knowledge/units/terms/zhou-yu-liqi.md",
+   "04-knowledge/units/publications/kaogongji.md",
+   "04-knowledge/units/terms/li-yue-zhidu.md"
+  ],
+  "discussion_notes": "断言语义取 L1601。圭名、尺寸与玉石配比按原文；“陇”“瓒”“将”为原文用字，释义未展开。与 claim-0839 同节近邻，未合并。",
+  "created": "2026-10-27",
+  "updated": "2026-10-27"
+ }
+]

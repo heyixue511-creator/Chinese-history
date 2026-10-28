@@ -25,18 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "铜配入釉、还原焰呈宝石红；按呈色剂命名的单色釉，与釉里红同源而名分两处"
 secondary_dimensions:
-hierarchy_scope_note: "红釉是 B 维度下明清铜红釉瓷的术语条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "铜配入釉、还原焰呈宝石红；按呈色剂命名的单色釉，与釉里红同源而名分两处"
 ---
 
 ## 描述
@@ -54,12 +62,10 @@ hierarchy_scope_note: "红釉是 B 维度下明清铜红釉瓷的术语条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 红釉是 B 维度下明清铜红釉瓷的术语条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 铜配入釉、还原焰呈宝石红；按呈色剂命名的单色釉，与釉里红同源而名分两处
 ## 相关知识元
 
 `terms/youlihong.md` 记釉里红，`terms/blue-and-white-porcelain.md` 记青花瓷。relation 未审查。

@@ -1,0 +1,264 @@
+[
+ {
+  "claim_id": "claim-0052",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-92",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 611,
+   "line_end": 611,
+   "span_kind": "line",
+   "key_lines": [
+    611
+   ],
+   "block_ids": [
+    "b0068"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-92"
+  }
+ },
+ {
+  "claim_id": "claim-0054",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-94",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 652,
+   "line_end": 652,
+   "span_kind": "line",
+   "key_lines": [
+    652
+   ],
+   "block_ids": [
+    "b0075"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-94"
+  }
+ },
+ {
+  "claim_id": "claim-0055",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-95",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 656,
+   "line_end": 656,
+   "span_kind": "line",
+   "key_lines": [
+    656
+   ],
+   "block_ids": [
+    "b0076"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-95"
+  }
+ },
+ {
+  "claim_id": "claim-0056",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-99",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 708,
+   "line_end": 708,
+   "span_kind": "line",
+   "key_lines": [
+    708
+   ],
+   "block_ids": [
+    "b0083"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-99"
+  }
+ },
+ {
+  "claim_id": "claim-0057",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-100",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 710,
+   "line_end": 710,
+   "span_kind": "line",
+   "key_lines": [
+    710
+   ],
+   "block_ids": [
+    "b0083"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-100"
+  }
+ },
+ {
+  "claim_id": "claim-0058",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-145",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 718,
+   "line_end": 718,
+   "span_kind": "line",
+   "key_lines": [
+    718
+   ],
+   "block_ids": [
+    "b0084"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-145"
+  }
+ },
+ {
+  "claim_id": "claim-0061",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-147",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 876,
+   "line_end": 876,
+   "span_kind": "line",
+   "key_lines": [
+    876
+   ],
+   "block_ids": [
+    "b0096"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-147"
+  }
+ },
+ {
+  "claim_id": "claim-0062",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-103",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 882,
+   "line_end": 882,
+   "span_kind": "line",
+   "key_lines": [
+    882
+   ],
+   "block_ids": [
+    "b0097"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-103"
+  }
+ },
+ {
+  "claim_id": "claim-0063",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-104",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 905,
+   "line_end": 905,
+   "span_kind": "line",
+   "key_lines": [
+    905
+   ],
+   "block_ids": [
+    "b0101"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-104"
+  }
+ },
+ {
+  "claim_id": "claim-0064",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-105",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 907,
+   "line_end": 907,
+   "span_kind": "line",
+   "key_lines": [
+    907
+   ],
+   "block_ids": [
+    "b0101"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-105"
+  }
+ },
+ {
+  "claim_id": "claim-0066",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-107",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 950,
+   "line_end": 950,
+   "span_kind": "line",
+   "key_lines": [
+    950
+   ],
+   "block_ids": [
+    "b0106"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-107"
+  }
+ },
+ {
+  "claim_id": "claim-0067",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-108",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 957,
+   "line_end": 957,
+   "span_kind": "line",
+   "key_lines": [
+    957
+   ],
+   "block_ids": [
+    "b0107"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-108"
+  }
+ },
+ {
+  "claim_id": "claim-0069",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-109",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 967,
+   "line_end": 983,
+   "span_kind": "bounded",
+   "key_lines": [
+    967,
+    983
+   ],
+   "block_ids": [
+    "b0110",
+    "b0112"
+   ],
+   "chapter": "夏商西周时期的设计规制",
+   "section": "cross-edition corroboration",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-02-109"
+  }
+ }
+]

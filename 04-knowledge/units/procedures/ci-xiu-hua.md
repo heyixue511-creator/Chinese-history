@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "瓷绣花是 B 维度下宋瓷表面装饰的工序条目，与纺织刺绣分属不同材料谱系。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: procedure
+    primary: true
+    scope_note: "以针刺出花纹；田自秉刻印绣画四法之一，与纺织刺绣严格区分"
+hierarchy_scope_note: "以针刺出花纹；田自秉刻印绣画四法之一，与纺织刺绣严格区分"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "瓷绣花是 B 维度下宋瓷表面装饰的工序条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（陶瓷装饰方法），与刻花、印花、画花共同构成宋瓷装饰方法的分类条目；当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 以针刺出花纹；田自秉刻印绣画四法之一，与纺织刺绣严格区分
 ## 相关知识元
 
 `procedures/hua-hua.md` 记画花，`procedures/diao-you.md` 记雕釉，`procedures/liuchao-qingci-zhuangshi-liufa.md` 记六朝青瓷的刻花、压印等坯体装饰；纺织刺绣见 `procedures/bian-xiu.md`、`procedures/yun-jian-xiu.md`。relation 未经审查，不写入正式 `relations`。

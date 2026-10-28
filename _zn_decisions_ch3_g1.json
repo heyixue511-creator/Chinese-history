@@ -1,0 +1,122 @@
+[
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-56",
+    "entity": "春秋战国",
+    "action": "create",
+    "target": "04-knowledge/units/terms/chunqiu-zhanguo.md",
+    "analysis": "L1772-L1813 是第三章绪论，给春秋战国的起止（公元前 770—前 221，共 549 年）、诸侯争霸与百家争鸣、变法、冶铁、商业贸易、自然探索与器具设计六条主线；既有 terms/xianqin-sandai.md 只覆盖夏商周三代，无春秋战国的时代条目。",
+    "approve": "新建 terms/chunqiu-zhanguo.md：作为 B 维度下的时代锚点，只承载来源给出的分期与六条主线，不展开各诸侯国史。",
+    "apply_note": "六节齐全；核心按「分期与政治」「百家争鸣」「冶铁与商业」「自然探索与器具」分组；来源「铸铁揉化技术」照录并标疑「柔化」。",
+    "note": "canonical 为新建的春秋战国时代条目；与 terms/xianqin-sandai.md 是前后相接的两个时代，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-69",
+    "entity": "战车",
+    "action": "create",
+    "target": "04-knowledge/units/terms/war-chariot.md",
+    "analysis": "L1817-L1838 单列车战：车战为最重要作战形式、《孙子兵法》驰车千驷、左中右三人加七十二步兵、千乘之国与列国战车数、独辕双轮毂辐结构、三门峡虢国墓 25 辆与淮阳楚墓 31 辆、赵武灵王前 307 年骑兵；既有 terms/xianqin-mache.md 只把战车作为马车功能类型之一，无独立的战车形制与战制条目。",
+    "approve": "新建 terms/war-chariot.md：承载车战制度、战车形制与两批车马坑实物，scope_note 与先秦马车条目分工。",
+    "apply_note": "六节齐全；「车喜」「车患」疑为「车軎」、「车规」疑为「车轨」，照录标疑；未据图 3-5 补形制。",
+    "note": "canonical 为新建战车条目；马车形制仍由 terms/xianqin-mache.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-78",
+    "entity": "弩",
+    "action": "create",
+    "target": "04-knowledge/units/terms/nu-crossbow.md",
+    "analysis": "L1880-L1882 记弩由臂、弓、机三部分合成，竹弓硬木臂、青铜弩机，一扳即发，是机械远射兵器；既有 terms/gongjian.md 与 terms/jianqi.md 记弓与箭，无弩的机械结构条目。",
+    "approve": "新建 terms/nu-crossbow.md：承载弩的三部分结构、材料与发射方式，与弓、箭条目分工。",
+    "apply_note": "六节齐全；原文「弪」疑为「弩」、「箭簇」通行作「箭镞」，照录标疑；未给弩的张力、射程与出土实例。",
+    "note": "canonical 为新建弩条目；弓与箭仍由 terms/gongjian.md、terms/jianqi.md 承载。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-79",
+    "entity": "皮甲",
+    "action": "create",
+    "target": "04-knowledge/units/terms/leather-armor.md",
+    "analysis": "L1884-L1886 记合甲与七札、牛皮切片以皮条串联成甲札、彩绘铜饰、吴甲楚甲之分与曾侯乙墓马甲实物；既有兵器条目均未覆盖防护装具。",
+    "approve": "新建 terms/leather-armor.md：承载皮甲的制法、札联结构、地域差别与马甲实物。",
+    "apply_note": "六节齐全；「七甲」与「七札」的关系来源未明，按传说记录不作断言；未给甲片尺寸与编缀图。",
+    "note": "canonical 为新建皮甲条目；与 terms/war-chariot.md 的战马甲胄互相参照。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-82",
+    "entity": "吴钩",
+    "action": "create",
+    "target": "04-knowledge/units/terms/wugou-hook.md",
+    "analysis": "L1915 记吴钩为与剑器接近的吴国钩器，并叙阖闾百金赏善钩者、杀子以血相涂制钩的传说；材料只有一句正文加一段传说，无形制、尺寸与出土实物。",
+    "approve": "新建 terms/wugou-hook.md：confidence 记 low，只承载来源所记器类与传说，不推补形制。",
+    "apply_note": "六节齐全；原文作「杀子以血相涂」，逐字照录；证据边界明确写出无形制、尺寸与出土材料。",
+    "note": "canonical 为新建吴钩条目；与 terms/jian-sword.md 是相近而不同的器类，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-83",
+    "entity": "铍",
+    "action": "create",
+    "target": "04-knowledge/units/terms/pi-sword-spear.md",
+    "analysis": "L1917-L1922 记铍为剑形禁卫兵器，兼刺戳与砍劈，后几乎失传，秦兵马俑坑青铜铍与文献记载吻合；既有 terms/mao.md、terms/ji-halberd.md 均未收铍。",
+    "approve": "新建 terms/pi-sword-spear.md：承载铍的器形、用途、失传与秦俑坑实物。",
+    "apply_note": "六节齐全；「青铜铍是一种护卫的兵器」被图 3-14 与图注隔断，用「」标示拼接；未据图补形。",
+    "note": "canonical 为新建铍条目；与剑、矛、戟分列，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-92",
+    "entity": "V形铁铧冠",
+    "action": "create",
+    "target": "04-knowledge/units/terms/v-shaped-iron-ploughshare-cap.md",
+    "analysis": "L1982 记春秋时套在木犁铧上的铁铧冠，以牛力辅助耕地，并引《国语·晋语》「畎田之勤」；材料只有一句半，无实物尺寸与出土地点。",
+    "approve": "新建 terms/v-shaped-iron-ploughshare-cap.md：confidence 记 low，只承载铧冠的套接方式、动力与文献引语。",
+    "apply_note": "六节齐全；原文「V 形」的拉丁字母与汉字间空格照录；未给铧冠尺寸、重量与出土单位。",
+    "note": "canonical 为新建铁铧冠条目；与 terms/iron-farm-tools.md 是部件与总类的关系。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-93",
+    "entity": "石磨",
+    "action": "create",
+    "target": "04-knowledge/units/terms/shi-mo.md",
+    "analysis": "L1986 记战国出现旋转石磨，邯郸赵故城与临潼发现砂岩下扇磨身、直径约 55 厘米，并称其推动北方面食习惯；既有 terms/shimopan-mobang.md 记新石器石磨盘与磨棒，是研磨具而非旋转磨。",
+    "approve": "新建 terms/shi-mo.md：承载战国旋转石磨的年代、出土地、材质与直径，并与石磨盘、磨棒明确区分。",
+    "apply_note": "六节齐全；来源只提下扇磨身，未提完整器形与上扇结构，已写入证据边界；文件名为 shi-mo.md（非候选 proposed_slug 的 stone-mill）。",
+    "note": "canonical 为新建石磨条目；与 terms/shimopan-mobang.md 是新石器研磨具与战国旋转磨的两条谱系，不合并。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-97",
+    "entity": "杠杆",
+    "action": "create",
+    "target": "04-knowledge/units/terms/lever.md",
+    "analysis": "L1994 记杠杆的省力平衡原理，称石器时期已有木棒撬物的经验，制成平衡器具后成为「权衡」「衡器」概念的雏形；只有概念段，无实物与量化材料。",
+    "approve": "新建 terms/lever.md：confidence 记 low，只承载原理、经验来源与概念雏形，不补力学公式。",
+    "apply_note": "六节齐全；未给任何杠杆实物、支点位置或力臂数据，已写入证据边界。",
+    "note": "canonical 为新建杠杆条目；与 terms/hengqi-balance.md、terms/jiegou-well-sweep.md 是原理与应用的关系。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-98",
+    "entity": "权衡秤器",
+    "action": "create",
+    "target": "04-knowledge/units/terms/hengqi-balance.md",
+    "analysis": "L1996 记《史记》禹「称以出」、长沙楚墓春秋等臂秤具、《墨子·墨经》衡木本标权的原理，以及后世发展为铢秤；既有条目无衡器专条。",
+    "approve": "新建 terms/hengqi-balance.md：承载秤具实物、文献依据与衡木原理。",
+    "apply_note": "六节齐全；「夏本记」通行作「夏本纪」，照录标疑；《墨经》引文未给篇名，已写入证据边界。",
+    "note": "canonical 为新建权衡秤器条目；与 terms/lever.md 是应用与原理的关系。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-99",
+    "entity": "桔槔",
+    "action": "create",
+    "target": "04-knowledge/units/terms/jiegou-well-sweep.md",
+    "analysis": "L1998-L2002 记桔槔为井旁木架、横木一端水桶一端重物的汲水器具，省力提速，并称《墨子》中亦作守城武器；既有条目无此器。",
+    "approve": "新建 terms/jiegou-well-sweep.md：承载桔槔的构造、汲水效率与守城用途。",
+    "apply_note": "六节齐全；图 3-18 图注作「桔檬图」，「桔檬」疑为「桔槔」，照录标疑；「汲水非常省力」被图 3-20 与图注隔断，用「」标示。",
+    "note": "canonical 为新建桔槔条目；与 terms/lever.md、terms/pulley.md 同属省力机械谱系。"
+  },
+  {
+    "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-100",
+    "entity": "滑轮",
+    "action": "create",
+    "target": "04-knowledge/units/terms/pulley.md",
+    "analysis": "L2004、L2011 记滑车亦称滑轮，固定滑轮改变力向、节省人力，战国生产与战争常见，并引《墨经》「绳制挈之也」与汉画像石「泗水捞鼎」；既有条目无滑轮专条。",
+    "approve": "新建 terms/pulley.md：承载滑轮的定义、力学作用、战国用例与文献图像证据。",
+    "apply_note": "六节齐全；来源只述固定滑轮，未分定滑轮与动滑轮，未给器物数据，已写入证据边界。",
+    "note": "canonical 为新建滑轮条目；与 terms/lever.md、terms/jiegou-well-sweep.md 同属省力机械谱系。"
+  }
+]

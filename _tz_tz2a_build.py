@@ -1,0 +1,416 @@
+# -*- coding: utf-8 -*-
+"""Build 田自秉 2010 claim rows, batch tz2a (ch.1 closeout + ch.2-3, 41 claims)."""
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2010-tianzibing-zhongguo-gongyi-meishushi"
+SRC = "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md"
+DATE = "2026-10-27"
+CH = "第一章 第六节与第二、三章（商代和周代工艺美术）"
+
+T = "04-knowledge/units/terms/"
+P = "04-knowledge/units/places/"
+R = "04-knowledge/units/persons/"
+W = "04-knowledge/units/works/"
+B = "04-knowledge/units/publications/"
+PR = "04-knowledge/units/procedures/"
+
+MAP = ROOT / "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi/source-map.jsonl"
+BLOCKS = []
+for line in MAP.read_text(encoding="utf-8").splitlines():
+    if not line.strip():
+        continue
+    d = json.loads(line)
+    BLOCKS.append((d["block_id"], d["line_start"], d["line_end"]))
+
+
+def blocks(start, end):
+    return [b for b, s, e in BLOCKS if s <= end and e >= start]
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(claim_id, cand, ctype, zh, en, supported, note, start, end, key_lines, section, chapter=CH):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": claim_id,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": "line" if start == end else "bounded",
+                "key_lines": key_lines,
+                "block_ids": blocks(start, end),
+                "chapter": chapter,
+                "section": section,
+            },
+            "candidate_id": DOC + ":" + cand,
+        },
+        "confidence": "medium",
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+rows = []
+
+rows.append(C(
+    "claim-0800", "cand-03-03", "historiographic_claim",
+    "原始社会各地区的工艺文化发展不平衡：黄河中上游的彩陶工艺、东海之滨的黑陶工艺、东南地区的几何印纹陶工艺以及其他工艺，都以各自独特的风格放射着艺术的光彩。",
+    "Craft cultures of remote antiquity developed unevenly by region: painted pottery in the middle and upper Yellow River, black pottery on the eastern seaboard, geometric-stamped pottery in the southeast and other crafts each radiated artistic brilliance in their own distinctive style.",
+    [T + "yangshao-culture.md", T + "longshan-culture.md", T + "caihui-tao.md", T + "heitao.md", T + "geometric-stamped-pottery.md"],
+    "断言语义取 L842，为第一章结语的总体判断。区域对举按原文；未给各文化的年代序列与工艺比较指标。与 claim-0801 至 0804 同属结语，分论区域特色与四项启示，未合并。",
+    842, 842, [842], "第一章 第六节 结语"))
+
+rows.append(C(
+    "claim-0801", "cand-03-04", "interpretive_claim",
+    "工艺美术的装饰是适应实用的需要而产生的；彩绘和刻划装饰多具表号作用，器皿的立体装饰最先作为盖纽、流、把手、耳等部件，有的经压捏、堆贴以增加牢固度，因此原始工艺的装饰不是附加，而是和实用有机地统一。",
+    "Decoration in arts and crafts arose from practical needs: painted and incised ornament largely served emblematic purposes, and three-dimensional ornament began as lid knobs, spouts, handles and ears, sometimes pressed or appliqued for strength; primitive craft decoration was therefore not additive but organically unified with use.",
+    [T + "taoqi.md", T + "caihui-tao.md", T + "gongyi-meishu.md"],
+    "断言语义取 L846，为作者的工艺观归纳。原文以彩绘、刻划与器体部件为例，未给器物使用痕迹或功能实验数据。与 claim-0802 同属结语，分论实用与装饰、技术与艺术，未合并。",
+    846, 846, [846], "第一章 第六节 结语"))
+
+rows.append(C(
+    "claim-0802", "cand-03-05", "interpretive_claim",
+    "技术对艺术产生巨大影响，甚而形成新的风格；技术的精进是提高艺术的条件，而不是唯一因素，创作的源泉来自社会生活，以本国人民和本民族发展的需要与传统为先决条件。",
+    "Technology profoundly affects art and can even generate new styles; technical refinement is a condition for raising artistic quality but not the only factor, since creation springs from social life and is conditioned by the needs and traditions of the nation and its people.",
+    [T + "taoyao.md", T + "taolun.md", T + "gongyi-meishu.md"],
+    "断言语义取 L848。技术—艺术关系属作者的阐释；原文以石器打制到磨制、制陶手工到轮制为例，未给工艺参数与风格计量。与 claim-0801、0803 同属结语，未合并。",
+    848, 848, [848], "第一章 第六节 结语"))
+
+rows.append(C(
+    "claim-0803", "cand-03-54", "interpretive_claim",
+    "在原始社会的石器制作中，对称的形式是力量的均衡的体现，节奏即规律的变化则是产生力量的形式；形式感的应用丰富了工艺语言，也提高了人们对形式美的感受和认识。",
+    "In primitive stone working, symmetry embodied a balance of forces and rhythm, or regular variation, was the form that generated force; the application of formal feeling enriched the craft vocabulary and heightened people's perception and understanding of formal beauty.",
+    [T + "gongyi-meishu.md"],
+    "断言语义取 L850。形式感判断属作者的阐释；原文以石器制作与陶器纹样为例，未给形式分析或知觉实验。与 claim-0801、0802 同属结语，未合并。",
+    850, 850, [850], "第一章 第六节 结语"))
+
+rows.append(C(
+    "claim-0804", "cand-03-06", "interpretive_claim",
+    "当技术条件受到限制，或者为了更有效地达到识别作用，人们通常运用简约的表现方法突出形象特征；从写实到表号化、从具象到抽象化，是工艺美术常用的重要艺术手法。",
+    "When technical conditions were limited, or to achieve recognition more effectively, people commonly used simplified expression to bring out a figure's distinctive features; the movement from realism to emblem and from figuration to abstraction is a major and recurrent technique in arts and crafts.",
+    [T + "caihui-tao.md", T + "taotie-motif.md", T + "gongyi-meishu.md"],
+    "断言语义取 L852。属艺术手法归纳；原文以彩陶纹样与青铜器纹样为例，未给纹样序列的量化分析。与 claim-0800 至 0803 同属结语，未合并。",
+    852, 852, [852], "第一章 第六节 结语"))
+
+rows.append(C(
+    "claim-0805", "cand-03-10", "contested_claim",
+    "二里头文化（又称洛达庙文化）介于龙山文化和商文化之间，其地域与发展的时序大体和传说中的夏代相一致；但二里头文化是否就是夏文化，考古界还有不同的看法。",
+    "The Erlitou culture, also called the Luodamiao culture, lies between the Longshan and Shang cultures and broadly matches the legendary Xia in territory and chronological position; whether it is the Xia culture remains disputed among archaeologists.",
+    [P + "erlitou-site.md", T + "qingtong-shidai.md", W + "erlitou-bronze-jue.md"],
+    "断言语义取 L864。原文明确保留争议，属 contested；未给夏代纪年、碳十四序列与都邑性质的论证。与 claim-0806 同节近邻，分论二里头与商代手工业，未合并。",
+    864, 864, [864], "第二章 第一节 概说"))
+
+rows.append(C(
+    "claim-0806", "cand-03-13", "factual_claim",
+    "武王灭商后分鲁公以殷民六族、分康叔以殷民七族，所俘奴隶多隶属于手工业氏族，例如陶氏为陶工，长勺氏、尾勺氏为酒器工，锜氏为釜工，樊氏为篱笆工，施氏为旗工。",
+    "After defeating Shang, King Wu gave the Duke of Lu six Yin clans and Kangshu seven; many of the captured slaves belonged to craft clans, for example the Tao clan as potters, the Changshao and Weishao clans as wine-vessel makers, the Qi clan as cauldron makers, the Fan clan as fence makers and the Shi clan as flag makers.",
+    [T + "baigong.md", T + "qingtong-jiuqi.md"],
+    "断言语义取 L891。氏族与工种的对应按原文；所据文献（《左传》定公四年）未注版本与页码。与 claim-0805 同节近邻，未合并。",
+    891, 891, [891], "第二章 第一节 概说"))
+
+rows.append(C(
+    "claim-0807", "cand-03-15", "factual_claim",
+    "商代早期的青铜器，不论是炊食器或酒器，大都直接仿自陶器；当时青铜器体壁较薄，多平底，足作锥柱状，装饰花纹线条粗笨、结构简单，多为单层组织，一般不用回纹作地纹。",
+    "Early Shang bronzes, whether cooking or wine vessels, mostly imitated pottery directly: walls were thin, bases flat, legs conical, and ornament coarse in line and simple in structure, usually in a single layer and generally without meander ground patterns.",
+    [T + "qingtongqi.md", T + "taoqi.md", T + "hui-wen.md"],
+    "断言语义取 L897。器形与装饰特征按原文；未给郑州二里冈各期的器物统计。与 claim-0808 同节近邻，分论早期铜器与妇好墓铜镜，未合并。",
+    897, 897, [897], "第二章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0808", "cand-03-18", "factual_claim",
+    "1976年殷墟妇好墓（五号墓）出土的铜镜，更确切地把我国铜镜发展的历史从春秋时期推前了几百年。",
+    "The bronze mirror unearthed in 1976 from the Fu Hao tomb (tomb no. 5) at Yinxu pushes the history of Chinese bronze mirrors back several centuries from the Spring and Autumn period.",
+    [P + "fuhao-tomb.md", P + "yinxu.md", R + "fu-hao.md"],
+    "断言语义取 L905。原文未给铜镜的尺寸、纹饰与测年数据；同段以妇好墓铜器468件、总重1625公斤以上为背景。与 claim-0807 同节近邻，未合并。",
+    905, 905, [905], "第二章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0809", "cand-03-25", "factual_claim",
+    "《考工记》所记铜锡比例大体符合或接近科学试验结论：青铜中锡占17%~20%最坚韧，30%~40%硬度最高，超过这种比例性能就要减低；这是我国古代冶金工艺的实践总结。",
+    "The copper-tin ratios recorded in the Kaogongji broadly agree with or approach experimental findings: bronze with 17-20 per cent tin is toughest, 30-40 per cent hardest, and properties decline beyond these ranges; this is a practical summation of ancient Chinese metallurgy.",
+    [B + "kaogongji.md", T + "qingtongqi.md", T + "qingtong-shidai.md"],
+    "断言语义取 L919。锡比例区间按原文；引文“六分其金而锡居一”等按原文，未校勘版本。与 claim-0807 同节近邻，分论合金配比与器形装饰，未合并。",
+    919, 919, [919], "第二章 第二节 青铜工艺 一、青铜器的制作"))
+
+rows.append(C(
+    "claim-0810", "cand-03-28", "factual_claim",
+    "鼎在古代不只是实用品，也是权力的象征；商代用鼎有严格等级规定，天子用九鼎，卿用七鼎，大夫用五鼎，士用一或三鼎，普通人不能用，超越规定称为僭越。",
+    "The ding was not only a practical vessel but a symbol of power; Shang ding use followed strict rank rules, with nine for the king, seven for ministers, five for senior officers and one or three for retainers, none for commoners, and exceeding these limits was trespass.",
+    [T + "ding.md", T + "qingtong-liqi.md", T + "lieding-system.md"],
+    "断言语义取 L949-L951。用鼎等级按原文；与 claim-0830 周代列鼎制度同章近邻，分论商代与周代，未合并。原文“定鼎郏郕”注音与史事未展开。",
+    949, 951, [951], "第二章 第二节 青铜工艺 二、青铜器的造型"))
+
+rows.append(C(
+    "claim-0811", "cand-03-35", "interpretive_claim",
+    "被称为饕餮的兽面纹，应是牛、羊、猪等作为祭祀牺牲的形象的表现，往往象征化、抽象化或综合处理；这类纹样富有宗教意义，其社会意义大于审美意义。",
+    "The animal-face motif called taotie probably represents sacrificial victims such as oxen, sheep and pigs, often rendered symbolically, abstractly or in composite form; such motifs are religious in meaning, and their social significance exceeds their aesthetic significance.",
+    [T + "taotie-motif.md", B + "lvshi-chunqiu.md", B + "zuozhuan.md"],
+    "断言语义取 L1103。牺牲说为作者的推断；同段列举怪兽说、吉祥说、虎说、牛头说等多种解释，原文未裁定。与 claim-0822 同章近邻，分论纹样含义与商代装饰的社会意义，未合并。",
+    1103, 1103, [1103], "第二章 第二节 青铜工艺 三、青铜器的装饰"))
+
+rows.append(C(
+    "claim-0812", "cand-03-38", "interpretive_claim",
+    "回纹可认为是编织纹的遗留：陶器的产生和编织有关，各种编织几何纹成为早期陶器的一种自然装饰，这种编织纹经归纳定型后装饰在铜器上，就形成铜器表面地纹的回纹。",
+    "The meander can be regarded as a survival of basketry: pottery arose in connection with weaving, woven geometric patterns became a natural ornament on early pottery, and after being regularised these patterns were applied to bronzes as the meander ground pattern.",
+    [T + "hui-wen.md", T + "taoqi.md", T + "shougong-bianzhi.md"],
+    "断言语义取 L1118。编织说为作者的判断；同段并引郭沫若指纹说与水浪说，均未给纹样比对样本。与 claim-0813 同节近邻，分论地纹来源与装饰四特点，未合并。",
+    1118, 1118, [1118], "第二章 第二节 青铜工艺 三、青铜器的装饰"))
+
+rows.append(C(
+    "claim-0813", "cand-03-40", "synthetic_claim",
+    "商代青铜器的装饰艺术特点可归纳为四点：图案纹样以单独适合纹样为主，多以饕餮纹为主体或以双夔纹组成饕餮；多采用对称格式；多采用主纹和地纹的结合，以饕餮为主纹、回纹为地纹；装饰方法早期脱胎于陶器拍印，后期运用刻花并多用三层花纹（三叠法）。",
+    "Shang bronze ornament may be summarised in four points: self-contained appropriate motifs dominate, mostly taotie or paired kui forming a taotie; symmetrical formats prevail; main motifs are combined with ground patterns, taotie over meander; and the technique began with pottery stamping and later used carving with three-layer ornament, the so-called three-fold method.",
+    [T + "taotie-motif.md", T + "kui-wen.md", T + "hui-wen.md", T + "qingtongqi.md"],
+    "断言语义取 L1156-L1164 的四点归纳。“三层花纹（三叠法）”为原文术语；对称格式的两种解释（狩猎观察说、两分世界观说）未展开。与 claim-0812 同节近邻，未合并。",
+    1156, 1164, [1156, 1162], "第二章 第二节 青铜工艺 四、青铜器的艺术特点"))
+
+rows.append(C(
+    "claim-0814", "cand-03-43", "contested_claim",
+    "白陶用高岭土制成，器形有壶、罍、觯、卣、簋等，装饰基本和青铜器相似；有人推测其起源系北方制陶工人模仿南方硬陶所作，烧制火度不如硬陶高、器壁不如硬陶薄；商代以后不复发现这种产品。",
+    "White pottery was made of kaolin, with forms including hu, lei, zhi, you and gui and ornament close to bronze; some suggest it originated when northern potters imitated southern hard pottery, with lower firing temperature and thicker walls than hard pottery; it disappears after the Shang.",
+    [T + "shangdai-baitao.md", T + "bai-tao.md", T + "taoqi.md"],
+    "断言语义取 L1184。起源说原文以“有人推测”标记，属 contested；未给高岭土成分与烧成温度检测。与 claim-0835 同章近邻，分论白陶与周代原始瓷，未合并。",
+    1184, 1184, [1184], "第二章 第三节 陶瓷工艺 二、白陶"))
+
+rows.append(C(
+    "claim-0815", "cand-03-47", "interpretive_claim",
+    "商代的玉器已渐从实用转向欣赏，成为奴隶主所重视的装饰品，有了较大的发展。",
+    "Shang jades gradually shifted from practical use toward appreciation, becoming ornaments valued by slave owners and developing considerably.",
+    [T + "shangdai-yuqi-fenlei.md", W + "fuhao-jade-figure.md"],
+    "断言语义取 L1222。功能转向为作者的判断；原文以周武王所得商代玉器“旧宝玉万四千，佩玉亿有八万”的文献记载为据，数字未注出处。与 claim-0816 同节近邻，分论功能转向与妇好墓玉器，未合并。",
+    1222, 1222, [1222], "第二章 第四节 雕刻工艺 二、玉雕"))
+
+rows.append(C(
+    "claim-0816", "cand-03-48", "factual_claim",
+    "1976年在河南安阳殷墟五号墓（即妇好墓）发掘出755件精美的玉器，具体地反映了殷代玉器工艺的制作水平。",
+    "In 1976, 755 fine jades were excavated from tomb no. 5 at Yinxu in Anyang, Henan, the tomb of Fu Hao, concretely reflecting the level of Shang jade craftsmanship.",
+    [P + "fuhao-tomb.md", R + "fu-hao.md", W + "fuhao-jade-figure.md", W + "fuhao-mu-yuren.md"],
+    "断言语义取 L1226。755件与墓号按原文；同段并述玉料来源鉴定（多数近辽宁岫岩玉）与器类清单，未逐一建 claim。与 claim-0815 同节近邻，未合并。",
+    1226, 1226, [1226], "第二章 第四节 雕刻工艺 二、玉雕"))
+
+rows.append(C(
+    "claim-0817", "cand-04-69", "factual_claim",
+    "我国是最早发明养蚕织绸的国家；在商代，蚕已经由野蚕发展成了家蚕，人们十分重视蚕，奉为蚕神，卜辞有“蚕示三牢”的记载。",
+    "China was the first country to invent sericulture and silk weaving; by the Shang, the silkworm had been domesticated from the wild form, was highly valued and worshipped as a silkworm deity, and oracle bone inscriptions record the offering of three victims to the silkworm spirit.",
+    [T + "shangzhou-sizhiwu.md"],
+    "断言语义取 L1258。“最早发明养蚕织绸”属通说性判断，原文未注比较范围；卜辞“蚕示三牢”与铜戈绢纹痕迹按原文。与 claim-0818 同节近邻，分论蚕丝与漆器，未合并。",
+    1258, 1258, [1258], "第二章 第五节 其他工艺"))
+
+rows.append(C(
+    "claim-0818", "cand-04-70", "factual_claim",
+    "我国也是用漆最早的国家；漆是漆树的汁液，在潮润空气中充分氧化后表面呈栗壳色，干固后变成褐黑色，耐酸、耐热、防腐、绝缘；商代漆器虽无出土实物，但殷墟武官村大墓发现雕花木器印痕，考古学家称为“花土”。",
+    "China was also the earliest country to use lacquer; lacquer is the sap of the lacquer tree, which oxidises to chestnut brown in moist air and dries to dark brown, resisting acid, heat, decay and electricity. No Shang lacquerware survives, but carved wooden furniture impressions, called flower earth by archaeologists, were found in the Wuguan village tomb at Yinxu.",
+    [P + "yinxu.md"],
+    "断言语义取 L1262。“用漆最早”属通说性判断，未注比较范围；同段 L1264 另述1973年藁城台西漆片，本 claim 未合并。库内无商代漆器专门条目，仅链接殷墟出土地。与 claim-0817 同节近邻，未合并。",
+    1262, 1262, [1262], "第二章 第五节 其他工艺"))
+
+rows.append(C(
+    "claim-0819", "cand-04-49", "interpretive_claim",
+    "商代统治阶级的宗教观念已由原始社会的多神教转为一神教，政治思想表现为宗教迷信的思想；因此商代的工艺美术装饰纹样也往往带有宗教迷信的色彩。",
+    "The Shang ruling class's religion shifted from the polytheism of primitive society to monotheism, and its political thought took the form of religious superstition; Shang craft ornament therefore often carries a religious and superstitious colouring.",
+    [T + "taotie-motif.md", B + "liji.md", T + "qingtong-liqi.md"],
+    "断言语义取 L1268。一神教判断为作者的概括，同段引马克思语与《小戴礼·表记》；宗教学界对商代信仰是否为一神教有不同意见，原文未展开。与 claim-0820 同节近邻，分论宗教观念与艺术特点，未合并。",
+    1268, 1268, [1268], "第二章 第六节 结语"))
+
+rows.append(C(
+    "claim-0820", "cand-04-50", "evaluative_claim",
+    "商代工艺美术的艺术特点是威严、神秘、慑服的精神力量的反映；造型多运用安定而又庄重的直线，装饰采用对称而又规整的格式，这是服从于祭祀的要求，也是适应奴隶主阶级统治人民的精神需要。",
+    "The artistic character of Shang crafts reflects an awe-inspiring, mysterious and subduing spiritual force; forms use stable and grave straight lines, ornament uses symmetrical and regular formats, serving sacrificial requirements and the spiritual needs of slave-owner rule.",
+    [T + "taotie-motif.md", T + "ding.md", T + "qingtong-liqi.md"],
+    "断言语义取 L1270。“威严、神秘、慑服”属评价；原文以人殉、人牲与造型装饰为例，未给墓葬统计。与 claim-0819、0822 同节近邻，未合并。",
+    1270, 1270, [1270], "第二章 第六节 结语"))
+
+rows.append(C(
+    "claim-0821", "cand-04-51", "synthetic_claim",
+    "商代青铜器造型首先从实用出发，因统治阶级盛行饮酒之风而酒器十分发达，基本完备了酒器的各个使用品种；考古学家因此认为，商代青铜器的组合乃是酒器的组合。",
+    "Shang bronze forms began from practical use; the ruling class's heavy drinking made wine vessels highly developed and essentially complete in every functional type, so archaeologists regard the Shang bronze assemblage as a wine-vessel assemblage.",
+    [T + "qingtong-jiuqi.md", T + "shangdai-qingtongqi-balei.md", T + "jue-vessel.md"],
+    "断言语义取 L1272。“酒器的组合”为转述考古学界的判断；原文以爵、斝与尊、彝及罍、卣的用途区分为据。与 claim-0828 同章近邻，分论商代酒器组合与商周组合比较，未合并。",
+    1272, 1272, [1272], "第二章 第六节 结语"))
+
+rows.append(C(
+    "claim-0822", "cand-04-52", "evaluative_claim",
+    "商代工艺装饰的社会意义，其宗教意义大于审美意义；虽然许多制品在装饰的艺术处理上极为精巧卓越，但这种审美要求必须服从宗教意义的要求。",
+    "In Shang craft ornament religious meaning outweighs aesthetic meaning; however exquisite the artistic treatment, aesthetic demands were subordinated to religious ones.",
+    [T + "taotie-motif.md", T + "qingtong-liqi.md"],
+    "断言语义取 L1274。属评价性判断；原文以纹样与器用制度为据，未给审美接受的接受史材料。与 claim-0811 同章近邻，未合并。",
+    1274, 1274, [1274], "第二章 第六节 结语"))
+
+rows.append(C(
+    "claim-0823", "cand-04-53", "interpretive_claim",
+    "周代社会政治的特点是分封制、世袭制和等级制；森严的等级制度给周代工艺美术制作和发展以极大影响，反映在祭祖、服饰、器物、宫室、车马等的严格等级规定上，不得僭越。",
+    "Zhou society and politics were characterised by enfeoffment, hereditary status and hierarchy; the strict hierarchy strongly shaped Zhou craft production and development, appearing in rigid sumptuary rules for ancestral rites, dress, vessels, buildings and carriages that could not be exceeded.",
+    [T + "li-yue-zhidu.md", T + "mianfu-zhidu.md", B + "zhouli.md", B + "zuozhuan.md"],
+    "断言语义取 L1284-L1290。制度归纳按原文；所引《左传》《周礼·春官·典命》《礼记》未注版本与页码。与 claim-0824 同节近邻，分论等级制与《考工记》，未合并。",
+    1284, 1290, [1290], "第三章 第一节 概说"))
+
+rows.append(C(
+    "claim-0824", "cand-04-54", "interpretive_claim",
+    "《考工记》是我国最早的关于工艺的专门著作，总结了各种工艺制作的科学经验，最可贵的是提出“天有时，地有气，材有美，工有巧，合此四者，然后可以为良”的朴素工艺观，至今仍可作为工艺制作的基本法则。",
+    "The Kaogongji is China's earliest specialised work on crafts, summing up scientific experience in various techniques; its most valuable contribution is the plain craft view that when heaven has its seasons, earth its qi, materials their beauty and workmen their skill, and all four are combined, the result can be good, a principle still usable today.",
+    [B + "kaogongji.md", T + "gongyi-meishu.md"],
+    "断言语义取 L1294。“我国最早”与“至今仍可作为基本法则”属作者的判断；同段下接三十个工种的分类，未逐条建 claim。与 claim-0823 同节近邻，未合并。",
+    1294, 1294, [1294], "第三章 第一节 概说"))
+
+rows.append(C(
+    "claim-0825", "cand-04-55", "historiographic_claim",
+    "西周青铜工艺的发展可分为两个阶段：在前期，大体上是继承商代的艺术风格；在后期，即在成康以后，才开始形成周代自己的特点。",
+    "Western Zhou bronze work falls into two stages: the earlier phase largely continued Shang artistic style, while the later phase, after the reigns of Cheng and Kang, began to form a distinct Zhou character.",
+    [T + "qingtongqi.md", W + "da-yu-ding.md"],
+    "断言语义取 L1346。两阶段划分为作者的分期判断；原文未给各期的器形、纹饰统计与王世测年。与 claim-0834 同章近邻，分论总分期与质朴风格形成，未合并。",
+    1346, 1346, [1346], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0826", "cand-04-73", "interpretive_claim",
+    "所谓礼乐制度，实际上就是等级制度，反映了统治者的尊卑关系和等级特权；一切视听言行，一切吉礼、凶礼、宾礼、嘉礼、军礼，从生活方式到政治活动，都要合乎礼乐制度。",
+    "The so-called ritual and music system was in effect a system of rank, reflecting rulers' hierarchical relations and privileges; all seeing, hearing, speech and action, and all auspicious, mourning, guest, auspicious-celebration and military rites, from daily life to political activity, had to accord with it.",
+    [T + "li-yue-zhidu.md", T + "bianzhong.md", B + "zhouli.md"],
+    "断言语义取 L1431。礼乐即等级制的判断属作者的阐释；原文以周公汇集增补、建立法定制度为背景，未给礼制文本的成书年代考证。与 claim-0823 同章近邻，分论礼乐制度与分封世袭等级，未合并。",
+    1431, 1431, [1431], "第三章 第二节 青铜工艺 五、乐器"))
+
+rows.append(C(
+    "claim-0827", "cand-04-74", "historiographic_claim",
+    "周代的青铜器进入一个尚质的阶段，装饰趋向规格简单；由于王室和诸侯各国都有铸造作坊，青铜器的种类相对减少，而数量却大大超过了商代。",
+    "Zhou bronzes entered a phase that valued substance, with ornament tending toward simple standardisation; because both the royal house and the feudal states had casting workshops, vessel types decreased while quantities greatly exceeded the Shang.",
+    [T + "qingtongqi.md", T + "qingtong-shiqi.md"],
+    "断言语义取 L1439。尚质与数量判断按原文；未给青铜器出土数量统计与作坊规模数据。与 claim-0828 同句近邻，分论尚质阶段与商周器类组合，未合并。",
+    1439, 1439, [1439], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0828", "cand-04-56", "synthetic_claim",
+    "青铜器的组合，考古学家认为，商代是重酒器的组合，而周代则是重食器的组合。",
+    "Archaeologists hold that the Shang bronze assemblage emphasised wine vessels while the Zhou assemblage emphasised food vessels.",
+    [T + "qingtong-jiuqi.md", T + "qingtong-shiqi.md", T + "shangdai-qingtongqi-balei.md"],
+    "断言语义取 L1439。组合差异为转述考古学界的判断；原文以食器增加、酒器减少为据，未给墓葬随葬品组合统计。与 claim-0821、0827 同章近邻，未合并。",
+    1439, 1439, [1439], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0829", "cand-04-57", "interpretive_claim",
+    "周代的制器服从礼的需要，适应当时政治的需要，是“藏礼于器”；名位不同、礼亦异数，制作的数量、式样都反映礼的秩序，标志着等级和地位。",
+    "Zhou vessel making served ritual and political needs, embedding ritual in vessels; since rank differed, ritual allowances differed, and the number and form of vessels reflected ritual order and marked rank and status.",
+    [T + "qingtong-liqi.md", T + "li-yue-zhidu.md", T + "lieding-system.md"],
+    "断言语义取 L1454。“藏礼于器”为作者的概括；同段据《两周金文辞大系图录考释》167篇铭文统计，祭祖85篇，未逐条建 claim。与 claim-0830 同节近邻，分论藏礼于器与列鼎制度，未合并。",
+    1454, 1454, [1454], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0830", "cand-04-58", "factual_claim",
+    "周代列鼎用单数，天子九鼎、诸侯七、卿大夫五、元士三；盛饭食的食器用偶数，天子八簋、诸侯六、大夫四、士二，出土情况大体与记载相符。",
+    "Zhou graduated ding sets used odd numbers: nine for the king, seven for feudal lords, five for ministers and three for senior retainers; food vessels used even numbers: eight gui for the king, six for lords, four for ministers and two for retainers, broadly matching excavated evidence.",
+    [T + "lieding-system.md", T + "ding.md", T + "gui-vessel.md"],
+    "断言语义取 L1456。鼎簋奇偶制度按原文，引《春秋公羊传·桓公二年》何休解诂；“出土情况大体相符”未给具体墓葬与统计。与 claim-0810 同章近邻，分论周代与商代用鼎，未合并。",
+    1456, 1456, [1456], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0831", "cand-04-59", "historiographic_claim",
+    "周代纹样打破了商代以直线为主的特点，也打破了对称的格式，一般都组成S形，但又未完全摆脱直线的雏形，因此形成直中有圆、圆中有方的特点。",
+    "Zhou ornament broke with the Shang emphasis on straight lines and symmetrical formats, generally composing S-curves while not fully abandoning straight-line prototypes, thus forming a character of roundness within straightness and squareness within roundness.",
+    [T + "qiequ-wen.md", T + "niao-wen.md", T + "qingtongqi.md"],
+    "断言语义取 L1460。纹样演变属风格分期判断；原文以窃曲纹、鸟纹为例，未给纹样测绘与统计。与 claim-0832 同节近邻，分论纹样骨架与总体风格，未合并。",
+    1460, 1460, [1460], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0832", "cand-04-60", "evaluative_claim",
+    "周代青铜器装饰的又一特色，是不用地纹；因此总的艺术风格是质朴洗练、疏朗畅达、富于韵律感、有节奏美。",
+    "Another feature of Zhou bronze ornament is the absence of ground patterns; the overall style is therefore plain and refined, open and fluent, rich in rhythm and rhythmic beauty.",
+    [T + "qiequ-wen.md", T + "huan-dai-wen.md", T + "wa-wen.md"],
+    "断言语义取 L1505。“质朴洗练、疏朗畅达”属风格评价；原文以窃曲纹、环带纹、重环纹、垂鳞纹、瓦纹的带状布局为据。与 claim-0831、0833 同节近邻，未合并。",
+    1505, 1505, [1505], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0833", "cand-04-61", "interpretive_claim",
+    "周代装饰运用二方连续的带状纹样，以一个母题组织成带状的连续反复，产生秩序感；这种格式与《诗经》一唱三叹的反复形式有相似之处，并与周代的礼治要求有一种间接的联系。",
+    "Zhou ornament uses two-directional continuous bands, organising a single motif into repeated bands to produce a sense of order; this format resembles the refrain structure of the Shijing and is indirectly linked to Zhou ritual governance.",
+    [B + "shijing.md", T + "qiequ-wen.md", T + "huan-dai-wen.md"],
+    "断言语义取 L1507。诗—纹类比与礼治联系属作者的阐释；原文未给《诗经》篇章统计或纹样节律测量。与 claim-0832 同节近邻，未合并。",
+    1507, 1507, [1507], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0834", "cand-04-62", "historiographic_claim",
+    "周代青铜器质朴的风格大体从穆王时期开始，到宣王、厉王时期则已完全形成。",
+    "The plain style of Zhou bronzes began roughly in the reign of King Mu and was fully formed by the reigns of Kings Xuan and Li.",
+    [T + "qingtongqi.md", T + "qiequ-wen.md"],
+    "断言语义取 L1509。风格分期按原文；未给标准器序列与王世断代依据。与 claim-0825 同章近邻，分论两阶段与质朴风格形成，未合并。",
+    1509, 1509, [1509], "第三章 第二节 青铜工艺"))
+
+rows.append(C(
+    "claim-0835", "cand-04-63", "factual_claim",
+    "长安张家坡发现的瓷豆、瓷罐，其残瓷片经过科学分析鉴定，烧成温度已达1200℃左右，吸水性弱；由于在弱还原焰中烧制，还不能将胎料中的钛、铁成分烧透，故不能达到纯白和透明，但无疑已很接近瓷器。",
+    "The porcelain dou and jars found at Zhangjiapo near Chang'an had sherds scientifically analysed as fired at about 1200 degrees Celsius with low water absorption; firing in a weak reducing atmosphere left titanium and iron in the body untransformed, so the ware was not pure white or translucent, yet it was undoubtedly close to porcelain.",
+    [T + "proto-porcelain.md", T + "taoqi.md", T + "taoyao.md"],
+    "断言语义取 L1513。1200℃与弱还原焰按原文；同段并述安徽屯溪、江苏金坛等地点，未逐一建 claim。与 claim-0814 同章近邻，分论周代原始瓷与商代白陶，未合并。",
+    1513, 1513, [1513], "第三章 第三节 陶瓷工艺"))
+
+rows.append(C(
+    "claim-0836", "cand-04-64", "historiographic_claim",
+    "《书经·益稷篇》所记十二章，是古代帝王服饰上具有宗教意义的十二种图案；它从西周以来为历代帝王所采用，直到民国初年袁世凯窃权想当皇帝，也以十二章制定服式。",
+    "The twelve symbols recorded in the Yiji chapter of the Book of Documents are twelve religiously significant motifs on ancient imperial dress; they were used by rulers from the Western Zhou onward, and even Yuan Shikai, seeking the throne in the early Republic, prescribed dress by the twelve symbols.",
+    [T + "twelve-symbols.md", T + "mianfu-zhidu.md"],
+    "断言语义取 L1541。“从西周以来为历代帝王所采用”为长时段判断；十二章的起源与形成年代学界有不同意见，原文未展开。与 claim-0837 同节近邻，分论制度沿革与纹样含义，未合并。",
+    1541, 1541, [1541], "第三章 第四节 染织工艺"))
+
+rows.append(C(
+    "claim-0837", "cand-04-65", "interpretive_claim",
+    "十二章的十二种纹样都贯穿着儒家伦理道德的含义，具有鲜明的社会意义：日、月、星辰取其照临，山取其镇，龙取其变，藻取其洁，火取其明，粉米取其养，黼取其断，黻有背恶向善之意。",
+    "The twelve motifs are all informed by Confucian ethical meaning and carry clear social significance: sun, moon and stars for illumination, mountain for stability, dragon for transformation, water plant for purity, fire for brightness, grain for nourishment, the axe for decisiveness, and the fu figure for turning from evil toward good.",
+    [T + "twelve-symbols.md", T + "mianfu-zhidu.md", B + "zhouli.md"],
+    "断言语义取 L1545。含义解释为历代儒学家（孔安国、马融、郑玄、聂崇义等）之说，原文称“大同小异”；属经学阐释，非实物纹样分析。与 claim-0836 同节近邻，未合并。",
+    1545, 1545, [1545], "第三章 第四节 染织工艺"))
+
+rows.append(C(
+    "claim-0838", "cand-04-66", "historiographic_claim",
+    "用蚌泡作为镶嵌，是周代漆器工艺的一种非常流行的装饰手法；西安普渡村、濬县辛村、宝鸡斗鸡台、洛阳庞家沟等地的周代墓葬都发现有大量蚌泡镶嵌漆器，这种蚌泡镶嵌实际是现今漆器中螺钿的前身。",
+    "Shell-boss inlay was a highly popular decorative technique in Zhou lacquerwork; large quantities of shell-inlaid lacquer were found in Zhou tombs at Pupu village near Xi'an, Xincun in Jun county, Doujitai in Baoji and Pangjiagou in Luoyang, and this inlay is in effect the predecessor of later mother-of-pearl inlay.",
+    [PR + "bangpao-xiangqian.md", T + "luodian.md"],
+    "断言语义取 L1590。“螺钿前身”属源流判断；原文称未见完整器形，仅据镶嵌物推定木胎或编织物胎。与 claim-0839 同章近邻，分论漆器镶嵌与玉器伦理，未合并。",
+    1590, 1590, [1590], "第三章 第五节 漆器工艺"))
+
+rows.append(C(
+    "claim-0839", "cand-04-67", "interpretive_claim",
+    "周代的玉器由于与伦理道德有着直接的联系，所以得到社会的特别重视，成为一种具有社会道德含义的特殊物品；祭祀朝聘、礼仪大典都以玉为必需品，自天子以至士庶都以佩玉为尚。",
+    "Because Zhou jades were directly linked to ethics, they received special social attention and became special objects with social and moral meaning; jade was essential in sacrifice, audience and ceremonial occasions, and from king to commoner the wearing of jade was esteemed.",
+    [T + "zhou-yu-liqi.md", T + "li-yue-zhidu.md", B + "zhouli.md"],
+    "断言语义取 L1599。玉—德联系属作者的阐释，引《遵生八笺》“上古用玉，珍重似不敢亵”；未给佩玉制度的社会史材料。与 claim-0840 同节近邻，分论道德含义与礼器等级，未合并。",
+    1599, 1599, [1599], "第三章 第六节 玉雕工艺"))
+
+rows.append(C(
+    "claim-0840", "cand-04-68", "factual_claim",
+    "周代的玉器主要作为礼器使用，体现周代的等级名分制度；《考工记》所记镇圭、桓圭、信圭、躬圭尺寸与使用者等级不同，天子用全，上公用陇，侯用瓒，伯用将。",
+    "Zhou jades served mainly as ritual vessels embodying the rank system; the Kaogongji records zhengui, huangui, xingui and gonggui of differing sizes for different ranks, with the king using pure jade, the senior duke a four-to-one jade-stone mix, the marquis three-to-two and the earl equal parts.",
+    [T + "zhou-yu-liqi.md", B + "kaogongji.md", T + "li-yue-zhidu.md"],
+    "断言语义取 L1601。圭名、尺寸与玉石配比按原文；“陇”“瓒”“将”为原文用字，释义未展开。与 claim-0839 同节近邻，未合并。",
+    1601, 1601, [1601], "第三章 第六节 玉雕工艺"))
+
+types = Counter(r["claim_type"] for r in rows)
+links = sum(len(r["supported_by"]) for r in rows)
+distinct = len({p for r in rows for p in r["supported_by"]})
+print(json.dumps({
+    "claims": len(rows),
+    "first": rows[0]["claim_id"],
+    "last": rows[-1]["claim_id"],
+    "types": dict(types),
+    "links": links,
+    "distinct": distinct,
+}, ensure_ascii=False, indent=1))
+
+(ROOT / "_tz_tz2a_rows.json").write_text(
+    json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+(ROOT / "_tz_tz2a_patch.json").write_text("[]\n", encoding="utf-8", newline="\n")
+print("written _tz_tz2a_rows.json / _tz_tz2a_patch.json")

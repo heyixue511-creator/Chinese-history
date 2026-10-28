@@ -1,0 +1,36 @@
+## claim-0005 [historiographic_claim/high] span=400-400 cand=2004-gaofeng-zhongguo-shejishi:cand-01-18
+ZH: 高丰认为，汉代是中国古代设计史发展的第一个高峰，也是中国古代艺术设计史上的第一个黄金时代：漆器逐渐取代青铜器成为主要生活用品，青铜灯具、铜镜、丝织印染刺绣与服饰、瓦当和画像砖、汉字与书籍装帧等均有突出成就。
+EN: Gao Feng identifies the Han dynasty as the first peak, and the first golden age, of Chinese design history, citing lacquer replacing bronze as the main household ware, bronze lamps and mirrors, textiles and dress, tile ends and pictorial bricks, and the maturation of Chinese character design.
+NOTE: cand-01-18（L400）与 cand-02-20（L1835）同义，合并为一条断言；主跨度取 L400，L1835 作为同书复述另列 corroborating_spans。
+MERGED: 2004-gaofeng-zhongguo-shejishi:cand-02-20
+CORROB: [{"line_start": 1835, "line_end": 1835, "block_ids": ["b0082"], "chapter": "第四章 封建制上升时期设计的高度发展", "key_lines": [1835]}]
+
+## claim-0009 [historiographic_claim/high] span=2280-2282 cand=2004-gaofeng-zhongguo-shejishi:cand-03-14
+ZH: 高丰把中国真正瓷器的发明时间定在东汉，书中叙述为东汉晚期；理由是已发现一批有确凿年代可考的东汉青瓷器，浙江上虞窑址最多，上虞小仙坛窑青瓷标本经中国科学院硅酸盐研究所测试符合近代瓷标准。
+EN: Gao Feng dates the invention of true porcelain to the Eastern Han, described in the book as the late Eastern Han, citing dated Eastern Han celadons, most numerously from Shangyu kiln sites in Zhejiang, and tests of Xiaoxiantan celadon sherds by the Chinese Academy of Sciences' Institute of Silicate Research that met modern porcelain standards.
+NOTE: L2280 述商代中期原始瓷至东汉晚期经一千多年探索而发明真正瓷器；L2282 明言把瓷器发明时间定在东汉并给出上虞小仙坛窑测试依据。
+
+## claim-0011 [interpretive_claim/medium] span=1899-1899 cand=2004-gaofeng-zhongguo-shejishi:cand-03-20
+ZH: 高丰引雷圭元之说，汉代铜镜图案属四方八位的米字格装饰格律体，风格规矩有余、活泼不足，静止性多、飞动性少；并据此判断汉镜装饰构成体现中国古代图案装饰设计的一种典型民族风格。
+EN: Gao Feng, following Lei Guiyuan's characterization of Han mirror patterns as a four-direction, eight-position mi-grid 'decorative metrical style' that is orderly but static, concludes that Han mirror composition embodies a typical national style of Chinese decorative design.
+NOTE: L1899 引雷圭元、李骐《中外图案装饰风格》第29页；后半句关于典型民族风格的判断为高丰的引申，分别属于转引与作者判断。
+
+## claim-0017 [historiographic_claim/high] span=4152-4152 cand=2004-gaofeng-zhongguo-shejishi:cand-06-16
+ZH: 高丰认为，从艺术设计史角度看，明代而非清代康雍乾是中国古代瓷器的高峰。理由有三：明代官窑与民窑青花均达很高水平且清代未超过；明代瓷器造型种类丰富并实现成套组合的系列化设计突破；明代解决了釉上彩绘这一瓷器装饰的最大难题。
+EN: Gao Feng argues that in design-historical terms the Ming, not the Kangxi-Yongzheng-Qianlong era of the Qing, is the peak of Chinese porcelain: Ming official and popular blue-and-white reached a level not surpassed in the Qing; Ming forms were rich and achieved serialized sets; and Ming potters solved the major problem of overglaze painting.
+NOTE: 断言语句集中在 L4152，明确列出三条理由；候选跨度 L4150-L4155 含小节标题，取 L4152 为关键行。
+
+## claim-0020 [interpretive_claim/high] span=4660-4675 cand=2004-gaofeng-zhongguo-shejishi:cand-06-19
+ZH: 高丰认为，宋体字经元代与明初反复摸索，于明代中叶之后定型为四边见方、横细直粗、字体端正、整齐大方的标准印刷字体；其成熟定型是中国古代平面设计史上一个重要的成就和重大突破，其点画组合兼具楷书审美韵味与装饰化、程式化的美学特征。
+EN: Gao Feng argues that the Songti typeface, after experiments in the Yuan and early Ming, was standardized by the mid-Ming as a regular, square, thin-horizontal and thick-vertical printing type; its maturation was a major achievement in Chinese graphic-design history, combining the aesthetic flavour of regular script with decorative, formulaic qualities.
+NOTE: L4660 述宋体字在明代中叶后定型及其结构、风格特点；L4675 从雕版印刷与平面设计两个角度评价其意义。候选跨度 L4652-L4687 为包围跨度。
+
+## claim-0028 [interpretive_claim/medium] span=120-120 cand=2004-gaofeng-zhongguo-shejishi:cand-sup-41
+ZH: 张道一认为，造物从最初的为用到赋予一定寓意，说明物质与精神的相互关系；设计的核心就是处理好这种关系。
+EN: Zhang Daoyi argues that the shift from making objects purely for use to endowing them with meaning illustrates the relationship between material and spiritual life, and that the core of design is managing that relationship.
+NOTE: L120 为张道一序言，先述尖底瓶的实用设计，再述其到孔子时称欹器、宥坐及虚则欹、中则正、满则覆，末言从最初的造物为用到赋予一定的寓意。
+
+## claim-0036 [factual_claim/medium] span=5219-5219 cand=2004-gaofeng-zhongguo-shejishi:cand-sup-76
+ZH: 高丰引郑观庆（原文如此，通行作郑观应）《盛世危言》卷七，以洋布、洋纱、洋花边、洋袜、洋巾、煤油、洋烛、洋电灯、洋铁、洋针、洋钉等洋货输入为例，说明中国女红失业、柏树弃为不材、业治者无事偷闲，是当时社会经济与手工业受冲击的真实写照。
+EN: Gao Feng quotes the 'Shengshi Weiyan' (juan 7) on the impact of foreign goods such as cotton cloth and yarn, lace, socks, kerchiefs, kerosene, candles, electric lights, iron, needles, and nails, which ruined women's weaving, rendered cypress useless, and left metalworkers idle, as a true picture of China's late-Qing economy and handicrafts under foreign competition.
+NOTE: L5219 引《盛世危言》卷七原文，并称这是中国当时社会经济的一个真实写照；原文作者名作郑观庆，通行为郑观应，照录不改。

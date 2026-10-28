@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: representative_work
+    primary: true
+    scope_note: "宋宿松影青执壶带温酒器；细长流与把手、蹲兽盖纽、花瓣状温酒器，源流或来自金银器"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度宋代影青酒器的单器锚点，盖纽蹲兽与花瓣形温酒器属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "宋宿松影青执壶带温酒器；细长流与把手、蹲兽盖纽、花瓣状温酒器，源流或来自金银器"
 ---
 
 ## 描述
@@ -58,12 +66,10 @@ hierarchy_scope_note: "本条是 B 维度宋代影青酒器的单器锚点，盖
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度宋代影青酒器的单器锚点，盖纽蹲兽与花瓣形温酒器属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 宋宿松影青执壶带温酒器；细长流与把手、蹲兽盖纽、花瓣状温酒器，源流或来自金银器
 ## 相关知识元
 
 `terms/yingqing.md` 记影青的釉色特征与产地，`places/jingdezhen-kiln.md` 记景德镇窑，执壶类 term 未建；`works/wenjiu-tongbeilu.md` 记温酒铜杯炉，可与本条温酒器互看。relation 未审查。

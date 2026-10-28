@@ -64,20 +64,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "景德镇窑是 B 维度下青白瓷—影青—青花—釉里红这条釉色与彩绘技术线的枢纽，浮梁瓷局与枢府铭记又把它接到 D 维度的官营手工业，钴料进口与外销接到 E 维度。地名与产业形态归 places/jingdezhen.md。Theme/Topic 均未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "宋元明清窑场主干；浮梁瓷局与御器厂只作窑侧引用，制度本体归 D 维度"
+hierarchy_scope_note: "宋元明清窑场主干；浮梁瓷局与御器厂只作窑侧引用，制度本体归 D 维度"
 ---
 
 ## 描述
@@ -106,12 +114,10 @@ hierarchy_scope_note: "景德镇窑是 B 维度下青白瓷—影青—青花—
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是宋代以来釉色技术与装饰技术的主干样本：青白瓷—影青刻花—支圈覆烧—枢府白釉—青花—釉里红依次叠加，且每一步都有窑具、胎釉或款识的具体证据。地名、人口、御器厂建制与近现代产业形态归 `places/jingdezhen.md` 与 `institutions/yuqichang.md`。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 宋元明清窑场主干；浮梁瓷局与御器厂只作窑侧引用，制度本体归 D 维度
 ## 相关知识元
 
 `places/jingdezhen.md` 为同地地名与产业形态条目，二者互为正反面（赵农“3. 景德镇”一节兼述二者）；`places/ding-kiln.md` 是覆烧与“粉定”的技术来源；`places/longquan-kiln.md` 在元代沉船与元青花外销的同一条证据里并列出现；`institutions/fuliang-ciju.md` 为浮梁瓷局建制，`institutions/yuqichang.md` 为明代御器厂建制；`terms/youlihong.md` 与 `terms/doucai.md` 分别对应本条提到的釉里红与成化斗彩。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

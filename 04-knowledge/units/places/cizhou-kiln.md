@@ -48,17 +48,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "磁州窑是 B 维度下民窑体系与白地黑花装饰传统的锚点，其绘画性装饰也涉及 C 维度的视觉表现问题。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "北方最大民窑体系；白地黑花与毛笔彩绘是民窑装饰路线的锚点"
+hierarchy_scope_note: "北方最大民窑体系；白地黑花与毛笔彩绘是民窑装饰路线的锚点"
 ---
 
 ## 描述
@@ -83,11 +91,10 @@ hierarchy_scope_note: "磁州窑是 B 维度下民窑体系与白地黑花装饰
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是民窑体系的窑口锚点。其毛笔彩绘装饰与定窑、汝窑等官窑系形成来源内并置的对照，但尚未完成 relation 语义审查。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 北方最大民窑体系；白地黑花与毛笔彩绘是民窑装饰路线的锚点
 ## 相关知识元
 
 本批写回的邢窑 KU 同属窑口类知识元，在来源中与磁州窑处于同一陶瓷史叙述段落序列；但两者无直接的工艺传承叙述，且 relation 类型与方向尚未审查，故不写入正式 `relations`。

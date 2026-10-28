@@ -1,0 +1,290 @@
+# -*- coding: utf-8 -*-
+"""Build CL9a claim rows (15 new) and 7 cross-edition corroboration patches.
+
+Chapter: 新中国时期的设计进步 (L5124-L5544), 22 claim candidates.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade"
+SRC = "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md"
+DATE = "2026-10-27"
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(cid, ctype, zh, en, confidence, supported, note, start, end, kind,
+      key_lines, block_ids, section):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": cid,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": kind,
+                "key_lines": key_lines,
+                "block_ids": block_ids,
+                "chapter": CH,
+                "section": section,
+            },
+            "candidate_id": None,
+        },
+        "confidence": confidence,
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+def P(claim_id, cand, start, end, kind, key_lines, block_ids, section):
+    return {
+        "claim_id": claim_id,
+        "candidate_id": DOC + ":" + cand,
+        "corroborating_span": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "line_start": start,
+            "line_end": end,
+            "span_kind": kind,
+            "key_lines": key_lines,
+            "block_ids": block_ids,
+            "chapter": CH,
+            "section": section,
+            "candidate_id": DOC + ":" + cand,
+        },
+    }
+
+
+CH = "新中国时期的设计进步"
+rows = []
+
+rows.append(C(
+    "claim-0364", "factual_claim",
+    "夏燕靖指出，1954年6月，南京市人民政府文化处为抢救濒临消亡的南京云锦，组织云锦老艺人张福永、吉干臣和一部分美术工作者成立“云锦研究工作组”，由工艺美术教育家陈之佛担任组长，这是新中国建立初期最早的工艺美术研究机构。",
+    "Xia Yanjing notes that in June 1954 the Nanjing Municipal People's Government Cultural Office, to rescue the dying art of Nanjing Yunjin, organized the veteran craftsmen Zhang Fuyong and Ji Ganchen together with art workers into the Yunjin Research Working Group under the arts-and-crafts educator Chen Zhifo, the earliest arts-and-crafts research institution in the early years of the PRC.",
+    "medium",
+    ["04-knowledge/units/institutions/yunjin-yanjiu-gongzuozu.md",
+     "04-knowledge/units/terms/nanjing-yunjin.md",
+     "04-knowledge/units/persons/chen-zhifo.md"],
+    "断言取 L5194。1953 年全国民间美术工艺展览会上刘少奇、朱德、周恩来关注南京云锦，华东局文化部门下达挖掘整理指示，以及工作组初期搜集纹样画稿、恢复“双面锦”“凹凸锦”等留在同段；来源称其为“新中国建立初期最早的工艺美术研究机构”，比较范围限于该时期，未给全国机构普查依据。云锦研究工作组见 institutions/yunjin-yanjiu-gongzuozu，南京云锦见 terms/nanjing-yunjin，组长陈之佛见 persons/chen-zhifo。",
+    5164, 5197, "line", [5194], ["b0623"],
+    "1. 恢复时期和社会主义改造时期的工艺美术 / 1）恢复时期举办的全国民间美术工艺展览会及其代表作品 / 知识链接：新中国初期工艺美术事业建立与恢复"))
+
+rows.append(C(
+    "claim-0365", "interpretive_claim",
+    "夏燕靖引庞薰琹1953年12月7日《人民日报》《巩固民间美术工艺的成就》一文指出，我国民间艺术具有共同性：作者热爱生活、观察入微，因此作品中含蓄着活跃的生命；他们的工作态度忠实严肃，充分掌握了材料和工具的特性，发挥了高度的创造性。",
+    "Citing Pang Xunqin's article “Consolidating the Achievements of Folk Arts and Crafts” in People's Daily on 7 December 1953, Xia Yanjing reports Pang's view that Chinese folk art shares a common character: its makers love life and observe closely, so their works hold a lively vitality; their attitude is faithful and serious, they fully master the properties of materials and tools, and they exercise a high degree of creativity.",
+    "medium",
+    ["04-knowledge/units/persons/pang-xunqin.md",
+     "04-knowledge/units/events/quanguo-minjian-meishu-gongyipin-zhanlanhui.md"],
+    "断言取 L5177。来源两处分别作“庞薰栗”“庞薰琴”，均指庞薰琹；引文后续“他们生活在人民中间……体现了健康而又优美的民族特色”留在同句，本条只取前段对民间艺术共同性的评价。文章发表时间与报刊按原文，来源未给文章全文或版次。庞薰琹见 persons/pang-xunqin，展览会与座谈见 events/quanguo-minjian-meishu-gongyipin-zhanlanhui。",
+    5164, 5197, "line", [5177], ["b0623"],
+    "1. 恢复时期和社会主义改造时期的工艺美术 / 1）恢复时期举办的全国民间美术工艺展览会及其代表作品 / 知识链接：新中国初期工艺美术事业建立与恢复"))
+
+rows.append(C(
+    "claim-0366", "synthetic_claim",
+    "夏燕靖把社会主义改造时期工艺美术的发展概括为四方面价值：第一是产业价值，传统工艺美术成为地方传统工业和城市的象征，并成为当时国民经济和社会发展的新增长点；第二是就业价值，生产主要靠人工和技艺、适合家庭生产，初步估计全国相关从业者在1000万人以上；第三是市场价值，产品覆盖国内外两个市场，据统计1950-1983年全国工艺美术出口创汇达110亿美元；第四是文化价值，传统工艺美术是民族传统文化的物质载体和重要的非物质文化，在世界文化交流中具有不可替代的作用。",
+    "Xia Yanjing summarizes the value of arts and crafts in the socialist-transformation period under four headings: industrial value, as traditional crafts became symbols of local industry and a new growth point of the national economy; employment value, since production relied on manual skill and suited household work, with an estimated ten million-plus people involved nationwide; market value, covering both domestic and export markets, with export earnings of 11 billion US dollars between 1950 and 1983; and cultural value, as the material carrier of national tradition and an irreplaceable force in cultural exchange.",
+    "medium",
+    ["04-knowledge/units/events/craft-recovery-transformation-1950s.md",
+     "04-knowledge/units/terms/gongyi-meishu.md"],
+    "断言取 L5254 与 L5256、L5270、L5272、L5274 四段。四项价值是作者概括，不是当时统计口径；产业价值的“就地取材、就地加工、能耗低、污染少、附加值高”与就业价值的家庭副业说明留在同段。1000 万人为“初步估计”，110 亿美元为“据统计”，来源均未给统计部门与年份边界。工艺美术生产恢复与改造见 events/craft-recovery-transformation-1950s，概念见 terms/gongyi-meishu。",
+    5204, 5275, "line", [5254, 5256, 5270, 5272, 5274], ["b0626"],
+    "1. 恢复时期和社会主义改造时期的工艺美术 / 2）社会主义改造时期的工艺美术发展状况"))
+
+rows.append(C(
+    "claim-0367", "historiographic_claim",
+    "夏燕靖认为，1956年中央工艺美术学院的成立，标志着我国综合性高等工艺美术教育的全面启动。",
+    "Xia Yanjing holds that the founding of the Central Academy of Arts and Crafts in 1956 marked the full launch of comprehensive higher education in arts and crafts in China.",
+    "medium",
+    ["04-knowledge/units/institutions/central-academy-arts-design.md"],
+    "断言取 L5278 三项大事中的第一项。1956 年 5 月 21 日国务院批准成立、11 月 1 日举行建院典礼、邓洁任院长、下设染织美术、陶瓷美术与装潢设计三系及中央工艺美术研究所留在 L5280；三种办学思路与反右后果另见 claim-0248 的 2016 补证。来源以“标志着”作意义判断，未给此前同类院校的比较。学院见 institutions/central-academy-arts-design。",
+    5276, 5283, "line", [5278], ["b0627"],
+    "2. 全面建设社会主义时期的工艺美术"))
+
+rows.append(C(
+    "claim-0368", "interpretive_claim",
+    "夏燕靖引梁思成1961年7月26日《人民日报》《建筑和建筑艺术》一文指出，建筑物的艺术处理即装饰问题，首要是装饰用得恰当，就应该从建筑物的功能和结构两方面进行考虑。",
+    "Citing Liang Sicheng's article “Architecture and Architectural Art” in People's Daily on 26 July 1961, Xia Yanjing notes Liang's argument that the artistic treatment of a building, that is, its decoration, must above all be appropriate and should be considered from the building's function and structure.",
+    "medium",
+    ["04-knowledge/units/persons/liang-sicheng.md",
+     "04-knowledge/units/works/renmin-dahuitang-1959.md"],
+    "断言取 L5302 所引梁思成文章。来源未给文章全文、版次或写作背景；梁思成时任清华大学营建系主任、国徽设计组组长，其角色另见 2016 国徽设计段。人民大会堂室内设计的组织方式与周恩来分包各省厅另见 claim-0249 的 2016 补证。梁思成见 persons/liang-sicheng，人民大会堂见 works/renmin-dahuitang-1959。",
+    5300, 5318, "line", [5302], ["b0631"],
+    "2. 全面建设社会主义时期的工艺美术 / 知识链接：人民大会堂室内设计"))
+
+rows.append(C(
+    "claim-0369", "historiographic_claim",
+    "夏燕靖认为，1956年7月13日第一辆“解放”牌载重卡车在长春第一汽车制造厂总装线试制成功、首批12辆驶下装配线，标志着第一汽车制造厂的3年建厂目标如期达到，也结束了我国不能批量设计和制造汽车的历史。",
+    "Xia Yanjing holds that the successful trial production of the first “Jiefang” heavy truck on the assembly line of the First Automobile Works in Changchun on 13 July 1956, with the first twelve vehicles rolling off, marked the fulfillment of the plant's three-year construction target and ended China's inability to design and manufacture automobiles in batch.",
+    "medium",
+    ["04-knowledge/units/works/jiefang-truck.md",
+     "04-knowledge/units/institutions/diyi-qiche-zhizaochang.md"],
+    "断言取 L5323。1950 年中苏商定、1953 年《中共中央关于力争三年建设长春汽车厂的指示》、7 月 15 日奠基，以及以苏联吉斯 150 型为范本、90 匹马力、载重 4 吨等留在同段；1958 年“东风”牌小轿车试制见 L5332，不并入本条。来源未给“批量设计”的产量口径。解放牌卡车见 works/jiefang-truck，第一汽车制造厂见 institutions/diyi-qiche-zhizaochang。",
+    5319, 5343, "line", [5323], ["b0632"],
+    "3. 社会主义建设时期的工业产品设计"))
+
+rows.append(C(
+    "claim-0370", "factual_claim",
+    "夏燕靖指出，工艺技师们对位于河北曲阳北镇村通天河一带的定窑遗址进行了两次发掘，得出定窑“始烧于唐、兴盛于宋、失传于元”的初步定论。",
+    "Xia Yanjing notes that technicians conducted two excavations at the Ding kiln site along the Tongtian River at Beizhen Village, Quyang, Hebei, and reached the preliminary conclusion that Ding ware “began firing in the Tang, flourished in the Song and was lost in the Yuan”.",
+    "medium",
+    ["04-knowledge/units/events/1972-1976-dingci-huifu.md",
+     "04-knowledge/units/places/ding-kiln.md"],
+    "断言取 L5360。1972 年田中角荣询问、周恩来答正在恢复，1974 年定瓷厂在曲阳建立、两年后恢复工作展开，以及分析省博物馆定瓷样品的过程留在同段；来源明言“初步定论”，不是最终考古结论。定瓷恢复见 events/1972-1976-dingci-huifu，定窑见 places/ding-kiln。",
+    5346, 5385, "line", [5360], ["b0634"],
+    "4. 文革时期的工艺美术 / 1）遭受摧残的工艺美术行业与扭转过程的艰难起步"))
+
+rows.append(C(
+    "claim-0371", "factual_claim",
+    "夏燕靖据当时统计指出，到1970年全国有半数以上工艺美术企业转产或停产，生产产值下降了47%。",
+    "Citing statistics of the time, Xia Yanjing notes that by 1970 more than half of China's arts-and-crafts enterprises had switched or halted production, and output value had fallen by 47 percent.",
+    "medium",
+    ["04-knowledge/units/events/cultural-revolution-crafts-four-olds.md"],
+    "断言取 L5358。来源以“据统计”引出，未给统计部门、统计口径与企业总数；景德镇重工粉彩瓷、凤翔泥塑、寿山石雕、北京景泰蓝等案例留在同段。文革工艺美术见 events/cultural-revolution-crafts-four-olds。",
+    5346, 5385, "line", [5358], ["b0634"],
+    "4. 文革时期的工艺美术 / 1）遭受摧残的工艺美术行业与扭转过程的艰难起步"))
+
+rows.append(C(
+    "claim-0372", "factual_claim",
+    "夏燕靖据国家统计局统计指出，2005年全国工艺美术产业规模已达到3343户，总产值达到1430亿元。",
+    "Citing National Bureau of Statistics figures, Xia Yanjing notes that by 2005 the national arts-and-crafts industry comprised 3,343 enterprises with total output value of 143 billion yuan.",
+    "medium",
+    [],
+    "断言取 L5450。1997 年《传统工艺美术保护条例》与 2006 年第五届中国工艺美术大师评审留在同段前文，不并入本条；来源称“国家统计局统计”，未给统计口径与产业范围。当前无直接承载该统计的 KU，supported_by 为空。",
+    5435, 5451, "line", [5450], ["b0639"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 1）新时期的工艺美术与其产业调整"))
+
+rows.append(C(
+    "claim-0373", "interpretive_claim",
+    "夏燕靖在知识链接中引联合国教科文组织《保护非物质文化遗产公约》的定义指出，非物质文化遗产指被各群体、团体，有时为个人所视为其文化遗产的各种实践、表演、表现形式、知识体系和技能及其有关的工具、实物、工艺品和文化场所。",
+    "Citing the UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage, Xia Yanjing defines intangible cultural heritage as the practices, representations, expressions, knowledge and skills—together with the associated instruments, objects, artefacts and cultural spaces—that communities, groups and, in some cases, individuals recognize as part of their cultural heritage.",
+    "medium",
+    ["04-knowledge/units/terms/feiyi.md"],
+    "断言取 L5437。知识链接后续列口头传统与表述、表演艺术、社会风俗礼仪节庆、有关自然界和宇宙的知识和实践、传统手工艺技能五类，以及“活化石”“民族记忆的背影”等评语留在同段；本条只取公约定义主干。来源只给公约名称，未给通过年份与条文号。非遗见 terms/feiyi。",
+    5435, 5451, "line", [5437], ["b0639"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 1）新时期的工艺美术与其产业调整 / 知识链接：非物质文化遗产"))
+
+rows.append(C(
+    "claim-0374", "historiographic_claim",
+    "夏燕靖认为，我国现代设计的形成，是在20世纪80年代初开始起步的。",
+    "Xia Yanjing holds that the formation of modern design in China began in the early 1980s.",
+    "medium",
+    ["04-knowledge/units/terms/industrial-design.md",
+     "04-knowledge/units/terms/yishu-shejishi.md"],
+    "断言取 L5454 首句。80 年代初工业设计引进推广、80 年代中后期各设计领域扩展、90 年代数码与交互设计出现，是作者支撑该分期判断的领域序列，留在同句后半；来源未给具体年份、机构或项目。绿色设计、数字媒体设计、广告设计与城市建筑环境设计的分述见后文，不并入本条。工业设计见 terms/industrial-design，艺术设计史分期见 terms/yishu-shejishi。",
+    5452, 5468, "line", [5454], ["b0640"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业"))
+
+rows.append(C(
+    "claim-0375", "factual_claim",
+    "夏燕靖指出，绿色设计的核心是“3R”，即Reduce（节能）、Recycle（再利用）和Reuse（循环）。",
+    "Xia Yanjing states that the core of green design is the “3R”, glossed in the source as Reduce (energy saving), Recycle (reuse) and Reuse (recycling).",
+    "medium",
+    ["04-knowledge/units/terms/lvse-sheji.md"],
+    "断言取 L5465。来源把 Reduce 注为“节能”、Recycle 注为“再利用”、Reuse 注为“循环”，与常见 3R 释义（Reduce 减量化、Reuse 再利用、Recycle 再循环）不对应，本条照录不改写；绿色设计的生态伦理表述与苎麻服饰案例留在同段。绿色设计见 terms/lvse-sheji。",
+    5452, 5468, "line", [5465], ["b0640"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业"))
+
+rows.append(C(
+    "claim-0376", "factual_claim",
+    "夏燕靖在知识链接中指出，北京奥运会火炬“祥云”是我国自主设计研发的产物，拥有完全的知识产权。",
+    "In a knowledge note, Xia Yanjing states that the Beijing Olympic torch “Xiangyun” was independently designed and developed in China and carries full intellectual property rights.",
+    "medium",
+    ["04-knowledge/units/works/xiangyun-huoju.md"],
+    "断言取 L5473 末句。火炬造型取自纸卷轴、长 72 厘米、重 985 克、燃烧 15 分钟、丙烷燃料与可回收材料、抗 65 公里强风与 50 毫米大雨等技术参数留在同段；来源未给专利号、设计单位或知识产权登记信息。火炬见 works/xiangyun-huoju。",
+    5471, 5477, "line", [5473], ["b0642"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业 / 知识链接：北京奥运会火炬设计"))
+
+rows.append(C(
+    "claim-0377", "evaluative_claim",
+    "夏燕靖主张，发展设计教育不仅仅是数量上的增加，而且还必须优化教育结构，包括学科专业结构、层次结构、类型结构、课程结构和地区结构。",
+    "Xia Yanjing argues that developing design education requires not merely an increase in quantity but also the optimization of its structure—disciplinary and program structure, level structure, type structure, curriculum structure and regional structure.",
+    "medium",
+    ["04-knowledge/units/events/1998-moe-major-catalog.md",
+     "04-knowledge/units/events/1999-design-education-forum.md",
+     "04-knowledge/units/institutions/central-academy-arts-design.md"],
+    "断言取 L5500。来源在同段先记我国现代设计仍处引进、学习与消化过程，后接人才培养须适应市场经济与制造产业需求并“与国际接轨”；本条只取教育结构优化的规范性主张。1998 年专业目录调整见 events/1998-moe-major-catalog，世纪之交设计教育讨论见 events/1999-design-education-forum，学院见 institutions/central-academy-arts-design。",
+    5480, 5501, "line", [5500], ["b0644"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业"))
+
+rows.append(C(
+    "claim-0378", "historiographic_claim",
+    "夏燕靖认为，1957-1965年是我国动画片第一个繁荣时期：1957年上海美术电影制片厂建立，拍摄了不少动画影片在国际电影节上获奖，成为被世界公认的“中国动画学派”。",
+    "Xia Yanjing periodizes 1957–1965 as the first flourishing period of Chinese animation: the Shanghai Animation Film Studio was founded in 1957, its films won awards at international festivals, and the period became internationally recognized as the “Chinese Animation School”.",
+    "medium",
+    ["04-knowledge/units/terms/zhongguo-donghua-xuepai.md",
+     "04-knowledge/units/institutions/shanghai-meishu-dianying-zhipianchang.md",
+     "04-knowledge/units/works/da-nao-tian-gong.md"],
+    "断言取 L5482 动画知识链接。该链接按 1922-1945 萌芽、1947-1956 稳定发展、1957-1965 第一个繁荣、1966-1976 文革、1976-1989 第二个繁荣共 6 期叙述，本条只取第一个繁荣期；《小猫钓鱼》《神笔》《骄傲的将军》《大闹天宫》《小蝌蚪找妈妈》《牧笛》等作品序列留在同段。来源未给“学派”命名者与国际奖项清单。中国动画学派见 terms/zhongguo-donghua-xuepai，上海美术电影制片厂见 institutions/shanghai-meishu-dianying-zhipianchang，《大闹天宫》见 works/da-nao-tian-gong。",
+    5480, 5501, "line", [5482], ["b0644"],
+    "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业 / 知识链接：我国动画影片的发展历史"))
+
+patches = [
+    P("claim-0247", "cand-09-122", 5124, 5127, "line", [5126], ["b0617"],
+      "章首导论"),
+    P("claim-0248", "cand-09-107", 5276, 5283, "line", [5280], ["b0627"],
+      "2. 全面建设社会主义时期的工艺美术"),
+    P("claim-0249", "cand-09-116", 5300, 5318, "line", [5302], ["b0631"],
+      "2. 全面建设社会主义时期的工艺美术 / 知识链接：人民大会堂室内设计"),
+    P("claim-0250", "cand-09-113", 5346, 5385, "line", [5384], ["b0634"],
+      "4. 文革时期的工艺美术 / 1）遭受摧残的工艺美术行业与扭转过程的艰难起步"),
+    P("claim-0251", "cand-09-105", 5386, 5400, "line", [5399], ["b0635"],
+      "4. 文革时期的工艺美术 / 2）文革时期的政治宣传设计和书籍设计"),
+    P("claim-0252", "cand-09-108", 5403, 5432, "line", [5427], ["b0637"],
+      "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 1）新时期的工艺美术与其产业调整"),
+    P("claim-0253", "cand-10-18", 5480, 5501, "line", [5495], ["b0644"],
+      "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业"),
+]
+
+MAP = {
+    "claim-0364": "cand-09-110",
+    "claim-0365": "cand-09-118",
+    "claim-0366": "cand-09-109",
+    "claim-0367": "cand-09-106",
+    "claim-0368": "cand-09-117",
+    "claim-0369": "cand-09-115",
+    "claim-0370": "cand-09-111",
+    "claim-0371": "cand-09-112",
+    "claim-0372": "cand-09-114",
+    "claim-0373": "cand-09-119",
+    "claim-0374": "cand-10-16",
+    "claim-0375": "cand-10-17",
+    "claim-0376": "cand-10-20",
+    "claim-0377": "cand-10-19",
+    "claim-0378": "cand-10-21",
+}
+for row in rows:
+    row["source"]["candidate_id"] = DOC + ":" + MAP[row["claim_id"]]
+
+out_rows = ROOT / "_zn_cl12_rows.json"
+out_patch = ROOT / "_zn_cl12_patch.json"
+out_rows.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n",
+                    encoding="utf-8", newline="\n")
+out_patch.write_text(json.dumps(patches, ensure_ascii=False, indent=1) + "\n",
+                     encoding="utf-8", newline="\n")
+
+from collections import Counter
+print(json.dumps({
+    "rows": len(rows),
+    "patches": len(patches),
+    "patch_claims": len({p["claim_id"] for p in patches}),
+    "types": dict(Counter(r["claim_type"] for r in rows)),
+    "links": sum(len(r["supported_by"]) for r in rows),
+    "distinct": len({p for r in rows for p in r["supported_by"]}),
+}, ensure_ascii=False))

@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "德化窑是 B 维度下明代白瓷与瓷塑窑口条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "明代白瓷与瓷塑名窑；中国白的海外称名与何朝宗同出一段"
+hierarchy_scope_note: "明代白瓷与瓷塑名窑；中国白的海外称名与何朝宗同出一段"
 ---
 
 ## 描述
@@ -58,11 +66,10 @@ hierarchy_scope_note: "德化窑是 B 维度下明代白瓷与瓷塑窑口条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明代白瓷谱系中与景德镇并行的一支：以釉色（牙黄）与瓷塑（佛像、何朝宗）立目，与景德镇青花、彩瓷的装饰路线不同。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 明代白瓷与瓷塑名窑；中国白的海外称名与何朝宗同出一段
 ## 相关知识元
 
 `terms/bai-ci.md` 记白瓷；`places/jingdezhen-kiln.md` 记景德镇窑，明代白瓷与青花彩瓷的另一中心；`places/xing-kiln.md` 记邢窑，是早期白瓷“南青北白”的一端；`terms/blue-and-white-porcelain.md`、`terms/wucai.md` 记景德镇的彩瓷路线。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

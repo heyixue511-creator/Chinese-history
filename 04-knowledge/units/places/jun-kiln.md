@@ -56,17 +56,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "钧窑是 B 维度下宋代铜红釉窑变工艺的窑口锚点，其“是否属于青瓷系统”的归类分歧是陶瓷分类标准的样本。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "铜红釉窑变窑口；青瓷系统与窑变花瓷两种归类并存，官钧民钧之分亦在本条"
+hierarchy_scope_note: "铜红釉窑变窑口；青瓷系统与窑变花瓷两种归类并存，官钧民钧之分亦在本条"
 ---
 
 ## 描述
@@ -95,11 +103,10 @@ hierarchy_scope_note: "钧窑是 B 维度下宋代铜红釉窑变工艺的窑口
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 的核心价值是“分类难题”：同一批器物是否应归入青瓷系统，四册来源给出相反答案。可支持未来的陶瓷分类标准、釉色技术史类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 铜红釉窑变窑口；青瓷系统与窑变花瓷两种归类并存，官钧民钧之分亦在本条
 ## 相关知识元
 
 本批写回的汝窑 KU 与本 KU 同属五大名窑，夏燕靖两版记官钧窑为“继汝窑之后建立的第二座官窑”；relation 未经审查，不写入正式 `relations`。本段不构成关系断言。

@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: boundary_case
+    primary: true
+    scope_note: "蒜头瓶本体为秦代铜器与陶器，以边界案例入 B.6.5：只为登记同名器在元代瓷器中再次出现且被 2016 判为由玉壶春瓶衍生，不表示本 Topic 收纳铜器与陶器"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "蒜头瓶是 B 维度下秦代器物形制的术语条目；六瓣蒜头口的造型归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "蒜头瓶本体为秦代铜器与陶器，以边界案例入 B.6.5：只为登记同名器在元代瓷器中再次出现且被 2016 判为由玉壶春瓶衍生，不表示本 Topic 收纳铜器与陶器"
 ---
 
 ## 描述
@@ -56,16 +64,15 @@ hierarchy_scope_note: "蒜头瓶是 B 维度下秦代器物形制的术语条目
 - **后世边界**: 来源未述蒜头瓶在汉以后的发展；`terms/yuhuchun-ping.md` 另记元代蒜头瓶为玉壶春瓶的衍生器形，二者非同一时代器例。
 - **证据边界**: 来源未给蒜头瓶的实物尺寸、出土墓号、藏地与铜、陶两类的数量。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 蒜头瓶是 B 维度下秦代器物形制的术语条目；六瓣蒜头口的造型归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 蒜头瓶本体为秦代铜器与陶器，以边界案例入 B.6.5：只为登记同名器在元代瓷器中再次出现且被 2016 判为由玉壶春瓶衍生，不表示本 Topic 收纳铜器与陶器
 ## 相关知识元
 
 `places/xianyang.md` 记咸阳秦代陶器品种；`terms/hu-vessel.md` 记壶器类；`terms/yuhuchun-ping.md` 记玉壶春瓶及其元代蒜头瓶衍生器形。relation 未审查。

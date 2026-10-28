@@ -1,0 +1,152 @@
+# -*- coding: utf-8 -*-
+"""Build the LL2b decisions JSON."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2011-lilixin-zhongguo-sheji-yishu-shilun"
+SRC = "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+U = "04-knowledge/units/"
+
+
+def C(cid, entity, target, analysis, approve, apply_note, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "create", "target": U + target,
+        "analysis": analysis, "approve": approve, "apply_note": apply_note,
+        "note": note or f"canonical: {U}{target}。{cid} 并入该条。",
+    }
+
+
+def UPD(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "update"
+    return d
+
+
+def REJ(cid, entity, target, analysis, approve, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "rejected", "target": U + target,
+        "analysis": analysis, "approve": approve,
+        "apply_note": "不新建条目；内容已由现有 KU 覆盖。",
+        "note": note or f"{cid} 与 {U}{target} 重复，标 rejected 并保留 target_ref。",
+    }
+
+
+D = [
+    REJ("cand-02-142", "红山女神庙", "terms/hongshan-culture.md",
+        "L564 在六大设计区论述中把“玉雕龙”、女神庙与麟龙纹图形列为以辽宁为中心的红山文化设计的主要特征；既有 terms/hongshan-culture.md 已在北方区设计特征条内收“玉雕龙”、女神庙与麟龙纹图形。",
+        "既有红山文化条已收女神庙作为区域设计特征，单独立条只重复同一句，不增加可检索信息。"),
+    REJ("cand-02-141", "红山文化祭坛", "terms/hongshan-culture.md",
+        "L564 把祭坛列入红山文化设计特征，L569 图题作“图1-13 祭坛（红山文化）”；既有 terms/hongshan-culture.md 已收图 1-13 的题名与祭坛这一区域特征。",
+        "既有条已覆盖同一图题与区域特征，单独立条只重复图注，不增加可检索信息。"),
+    C("cand-02-24", "蛋壳黑陶高脚杯", "works/danke-heitao-gaojiaobei.md",
+      "L566 与 L571 在六大设计区论述中把黑陶、蛋壳陶与袋足列为以山东为中心的龙山文化设计区的主要特征，L576 图题作“图1-14 蛋壳黑陶高脚杯（龙山文化）”，L578 给六大区域共同器类的背景；既有 terms/danke-heitao.md 记蛋壳陶的胎壁与高柄杯形制，无单器图版条目。",
+      "图题、文化名与区域特征可复查；与类型条 danke-heitao 分工为单器图版与类型总述，应独立成条并按 low 置信度建条。",
+      "新建 works/danke-heitao-gaojiaobei.md，记图1-14 图题、L566/L571 区域特征与 L578 共同器类背景；L566 末“袋足”疑脱“器”字，照录不补。"),
+    C("cand-02-25", "许倬云", "persons/xu-zhuoyun.md",
+      "L591 给许倬云在《西周史》研究中追溯到新石器时代、以新出考古资料为据、文化现象为“一波接一波”的“推背行”与“接触→冲突→交流→融合→整合”五段过程的概括，并附李立新“极为重要的史实”的评价；persons 下无许倬云条目。",
+      "人物、著作、两项概括与评价均可复查，且与《西周史》著作条分工为学者与著作，应分别立条。",
+      "新建 persons/xu-zhuoyun.md，记被引研究、推背行、五段过程与作者评价；生卒、机构与身份称谓未载。"),
+    C("cand-02-26", "西周史", "publications/xi-zhou-shi.md",
+      "L591 给书名《西周史》、作者许倬云、追溯到新石器时代的取径与两项概括；publications 下无该书条目。",
+      "书名与作者可复查，版本信息虽未载但可建条；与许倬云人物条分工为著作与学者。",
+      "新建 publications/xi-zhou-shi.md，记作者、书名、被引研究与两项概括；版本、出版社与页码未载。"),
+    UPD("cand-02-28", "良渚玉琮", "terms/yu-yue-cong-bi.md",
+        "cand-02-28 跨度为 L595-L598。L595 给良渚文化大量玉琮的发现、内圆外方柱形中空的形制、学者通天说与《周礼》方圆配祀，L598 为图1-15 图题，L600-L602 续给天穹大地象征、“天圆地方”观念时段与三代青铜器造型的联系；既有 terms/yu-yue-cong-bi.md 已收赵农册的玉钺、玉琮、玉璧分工、形制与《周礼》六器，未含李立新册。",
+        "既有条已覆盖赵农一侧，本候选补的是李立新对良渚玉琮的形制、象征与观念史论述，宜更新不宜新建；两册形制表述次序相反，须并列而不改写。",
+        "更新 terms/yu-yue-cong-bi.md：补李立新 L595、L598、L600、L602 九条要点，新增“五、李立新 2011 的玉琮论述”，图版节改为“六”，来源数升为 2，版本升为 3。"),
+    C("cand-02-30", "天圆地方", "terms/tianyuan-difang.md",
+      "L595 给玉琮形制与《周礼》“以苍璧礼天，以黄琮礼地”的方圆配祀，L600 给内部圆形中空象征天穹、外部方形实体象征大地，以及“天圆地方”观念始于原始设计时期、盛行于中国早期设计时期的判断，L600-L602 给三代青铜器“内圆外方”造型与原始玉琮有密切联系的判断；terms 下无该观念条目。",
+      "形制、象征与时段判断均可复查；与玉琮条分工为观念与器物，应独立成条。",
+      "新建 terms/tianyuan-difang.md，记玉琮例证、《周礼》配祀、方圆象征、实施时段与三代青铜器联系；最早文献出处与传承环节未载。"),
+    C("cand-02-148", "取象比类", "terms/quxiang-bilei.md",
+      "L602 给“内圆外方”象征“天圆地方”具有“取象比类”的思维方法、对“象”的把握、各文化区域通有性、中国以“天圆地方”为起点的推演路径与“更进一步”的判断；terms 下无该概念条目。",
+      "提出语境与五项判断可复查，且与天圆地方条分工为思维方式与宇宙观，应独立成条。",
+      "新建 terms/quxiang-bilei.md，记提出语境、对“象”的把握、通有性、中国路径与“更进一步”判断；词源与操作规则未载。"),
+    C("cand-02-29", "李学勤", "persons/li-xueqin.md",
+      "L602 称近来不少学者特别是李学勤在论及良渚玉器兽面纹与三代青铜器饕餮纹关系时从八个方面做了对照比较，更证明后者承袭前者并非偶合；persons 下无李学勤条目。",
+      "人物、比较对象与判断可复查，八个方面本身未展开，按 low 置信度建条。",
+      "新建 persons/li-xueqin.md，记被引句、八个方面与“并非偶合”判断；生卒、机构与著作出处未载。"),
+    C("cand-02-31", "妇好长方扁足鼎", "works/fuhao-changfang-bianzu-ding.md",
+      "L605 图题作“图1-16 妇好长方扁足鼎饕餮纹饰”，L607 与 L612 在兽面纹、饕餮纹由自然物象综合而成并体现人化、社会化、伦理化倾向的论述中引及此图；works 下无该器条目，places/fuhao-tomb.md 只记妇好墓。",
+      "图题与引及语境可复查；图题所标为饕餮纹饰而非全器图，须在条目中声明并按 low 置信度建条。",
+      "新建 works/fuhao-changfang-bianzu-ding.md，记图1-16 图题与 L607、L612 引及语境；声明图题所示为纹饰，鼎的形制与尺寸未载。"),
+    REJ("cand-02-33", "陶鬲", "terms/li-cauldron.md",
+        "L619 图题作“图1-18 陶鬲”，L621 以三袋足式陶鬲的原形为斝形器或釜；既有 terms/li-cauldron.md 已收李立新 L619、L621，并在来源中列 L619、L621 与图1-18。",
+        "既有鬲条已覆盖同一段论述与图题，单独立条只重复，不增加可检索信息。"),
+    C("cand-02-34", "宋镇豪", "persons/song-zhenhao.md",
+      "L625 引宋镇豪对殷墟 939 座平民墓中陶制觚爵礼器 508 座、铜制或铅制觚爵礼器 67 座、两者占总发掘墓五分之三的统计，并用以说明礼器随葬的普遍；persons 下无宋镇豪条目。",
+      "统计数字与论证作用可复查；统计方法与著作出处未载，按 medium 建条。",
+      "新建 persons/song-zhenhao.md，记 939、508、67 与五分之三的统计及其论证作用；统计方法与著作出处未载。"),
+    C("cand-02-152", "尔雅", "publications/erya.md",
+      "L642 引《尔雅·释器》“玉谓之雕”“雕谓之琢”并接叙选料→审视→开片→成型→琢线→钻孔→整修抛光的七道工序；publications 下无《尔雅》条目，terms/cong.md 只在琮的训释中提及《尔雅》。",
+      "书名、两条训释与工序可复查；成书与版本信息未载，按 low 建条。",
+      "新建 publications/erya.md，记《尔雅·释器》两条训释与雕琢七道工序；成书年代、作者与注疏未载。"),
+    C("cand-02-41", "吴大澂", "persons/wu-dacheng.md",
+      "L646 称卜辞中的“帝”，吴大澂释花蒂之义，是自然崇拜的象征，之后逐渐升华，变为至上神；persons 下无吴大澂条目。",
+      "释读与升华判断可复查；释读依据与著作出处未载，按 low 建条。",
+      "新建 persons/wu-dacheng.md，记“帝”释花蒂之义与至上神判断；生卒、机构与释读依据未载。"),
+    C("cand-02-42", "陈梦家", "persons/chen-mengjia.md",
+      "L646 称陈梦家从甲骨文系统中归纳上帝的权能有十六种，分支配气象现象与支配社会现象两大类，原文用半角逗号并带脚注号①；persons 下无陈梦家条目。",
+      "十六种与两类划分可复查；名目未载，按 low 建条并照录原文标点与脚注号。",
+      "新建 persons/chen-mengjia.md，照录十六种权能与两类划分；十六种名目、生卒与著作出处未载。"),
+    UPD("cand-02-44", "虎食人卣", "works/man-eating-you.md",
+        "cand-02-44 跨度为 L648-L651。L649 图题作“图1-20 虎食人卤”，L651 正文作“虎食人卣”并转引张光直“不是食人的举动”“动物张开大口，嘘气成风，帮助巫师上宾于天”的解释，另称商周青铜器动物纹样是巫觋通天地的一项工具；既有 works/man-eating-you.md 只收夏燕靖 2016 册 L718 的一句审美评述。",
+        "既有条已覆盖夏燕靖一侧，本候选补的是李立新的图题、正文用字与张光直说，宜更新不宜新建；两册名称三种写法须并列。",
+        "更新 works/man-eating-you.md：补李立新 L649、L651 四条要点与两册分工，别名增虎食人卣、虎食人卤，来源数升为 2，版本升为 2。"),
+    C("cand-02-43", "张光直", "persons/zhang-guangzhi.md",
+      "L651 给动物纹样作为巫觋通天工具、“重黎绝地天通”、天地交通成为权贵专利与虎食人卣的通天解释，L653 给濮阳蚌塑不用真兽随葬而以艺术品表示、“艺术形象似乎也可以发挥实际的作用”的判断；persons 下无张光直条目。",
+      "两处引述与解释均可复查；生卒、机构与著作出处未载，按 medium 建条，并照录“巫跻”“三跻”原文用字。",
+      "新建 persons/zhang-guangzhi.md，记动物纹样、绝地天通、沟通工具、虎食人卣与蚌塑五项解释；原文“巫跻”“三跻”照录不改。"),
+    C("cand-02-45", "龙虎蚌塑", "works/longhu-bangsu.md",
+      "L651 记新石器时期濮阳三组蚌壳摆塑，其中一组龙背骑有一人，认为是巫觋关系；L653 引张光直不用真兽随葬而以艺术品表示的说法，L658 图题作“图1-21 龙虎蚌塑（河南濮阳西水坡遗址出土）”；works 下无该器条目，places/xishuipo-site.md 只记遗址。",
+      "图题、出土地与两项解释可复查；三组摆塑的内容与年代未载，按 medium 建条。",
+      "新建 works/longhu-bangsu.md，记图1-21 图题、三组摆塑、龙背骑人与张光直解释；三组内容、尺寸与年代未载。"),
+    C("cand-02-137", "弗雷泽", "persons/fraser.md",
+      "L660 给《金枝》的巫术定义“借符咒魔法的力量来使自然界符合人的愿望”、巫术“强迫或压制这些神灵”与宗教“取悦或讨好它们”的区别、“后者才是真正的宗教形态”的判断，以及三代宗教三阶段；persons 下无弗雷泽条目。",
+      "四项引述可复查；生卒、国籍与身份称谓未载，按 medium 建条，英文名标 provisional。",
+      "新建 persons/fraser.md，记巫术定义、巫术与宗教的区别方式、弗雷泽判断与三代三阶段；英文名 Frazer 暂定。"),
+    C("cand-02-47", "金枝", "publications/jinzhi.md",
+      "L660 给书名《金枝》、作者弗雷泽、巫术定义、巫术与宗教的区别方式与“后者才是真正的宗教形态”的判断；publications 下无该书条目。",
+      "书名与作者可复查；版本、译者与出版信息未载，按 medium 建条。",
+      "新建 publications/jinzhi.md，记作者、书名、巫术定义与巫术/宗教之别；版本、译者与出版年未载。"),
+    C("cand-02-48", "冕服制度", "terms/mianfu-zhidu.md",
+      "L668 给西周冕服制度的形成标志、尊祖“敬天”与周礼诞生的形成因素、周人的论证、“冠，贯也”与“冠有法制从寸”的训释，以及冕服体系成为正统礼乐制度并延续两千年的判断；terms 下无冕服制度条目，terms/shenyi.md 的“胡服、冕服制度尚未单独成 KU”一句已过时。",
+      "形成标志、因素、训释与延续判断可复查；等级序列与服物名目未载，按 medium 建条，并同步修正 shenyi 的过时表述。",
+      "新建 terms/mianfu-zhidu.md，记形成标志、形成因素、周人论证、冠的训释与冕服体系；等级、形制与服物名目未载。"),
+]
+
+for d in D:
+    if d["action"] in ("create", "update") and not (ROOT / d["target"]).exists():
+        raise SystemExit("missing target " + d["target"])
+
+cfg = {
+    "doc": DOC,
+    "file": SRC,
+    "rules": [
+        "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+        "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+        "图注单独成条时保留图题与说明的行位，不连读被正文或图注隔开的两处。",
+        "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+        "同一对象不重复建条：既有 KU 已覆盖者 rejected，形制相符可互补者 update。",
+        "长跨度候选（cand-01-79 轴心时代、cand-01-80 审曲面势）跨出本批复读范围，留 needs_evidence 转 LL2c。",
+    ],
+    "scope_spans": [[561, 671]],
+    "scope_note": "覆盖 L561-L671：第三节六大设计区的区域特征与交流论述、第四节夏商西周造物及图1-13 至图1-21 图注，止于第五节标题（L672）之前。",
+    "decisions": D,
+    "extras": [
+        {
+            "target": "04-knowledge/units/terms/shenyi.md",
+            "entity": "深衣",
+            "parent_cid": f"{DOC}:cand-02-48",
+            "note": "把“胡服、冕服制度尚未单独成 KU”改为指向 terms/hufu.md 与 terms/mianfu-zhidu.md 的链接。",
+        }
+    ],
+}
+
+out = ROOT / "_zn_decisions_ll2b.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(json.dumps({"decisions": len(D), "create": sum(1 for d in D if d["action"] == "create"),
+                  "update": sum(1 for d in D if d["action"] == "update"),
+                  "rejected": sum(1 for d in D if d["action"] == "rejected"),
+                  "extras": len(cfg["extras"])}, ensure_ascii=False))

@@ -31,19 +31,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "宋瓷装饰九法合称与逐法工具工序；与田自秉刻花、印花、绣花、画花四法清单不能互相映射，两套并列"
 secondary_dimensions:
   - C
-hierarchy_scope_note: 本 KU 是 B 维度下宋代制瓷装饰技法的清单级条目，其纹样组织与视觉效果牵涉 C 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "宋瓷装饰九法合称与逐法工具工序；与田自秉刻花、印花、绣花、画花四法清单不能互相映射，两套并列"
 ---
 
 ## 描述
@@ -69,12 +77,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下宋代制瓷装饰技法的清单级
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下宋代制瓷装饰技法的清单级条目，其纹样组织与视觉效果牵涉 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 宋瓷装饰九法合称与逐法工具工序；与田自秉刻花、印花、绣花、画花四法清单不能互相映射，两套并列
 ## 相关知识元
 
 `procedures/pearl-ground-sgraffito.md` 记珍珠地划花，`procedures/kehua.md` 记刻花，`procedures/liuchao-qingci-zhuangshi-liufa.md` 记六朝青瓷装饰六法，为宋代之前的技法序列；`terms/rendong-wen.md` 记忍冬纹。relation 未审查。

@@ -1,0 +1,143 @@
+[
+ {
+  "claim_id": "claim-0103",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-94",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1645,
+   "line_end": 1645,
+   "span_kind": "line",
+   "key_lines": [
+    1645
+   ],
+   "block_ids": [
+    "b0228"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "1. 铁制工具的广泛使用",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-94"
+  }
+ },
+ {
+  "claim_id": "claim-0104",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-96",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1657,
+   "line_end": 1657,
+   "span_kind": "line",
+   "key_lines": [
+    1657
+   ],
+   "block_ids": [
+    "b0228"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "1. 铁制工具的广泛使用",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-96"
+  }
+ },
+ {
+  "claim_id": "claim-0106",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-103",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1706,
+   "line_end": 1706,
+   "span_kind": "line",
+   "key_lines": [
+    1706
+   ],
+   "block_ids": [
+    "b0233"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "2. 冶铜业与铜器设计 / 3）铜器的分类型设计 / ① 汉镜",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-103"
+  }
+ },
+ {
+  "claim_id": "claim-0107",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-112",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1741,
+   "line_end": 1741,
+   "span_kind": "line",
+   "key_lines": [
+    1741
+   ],
+   "block_ids": [
+    "b0241"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "知识链接：丝绸之路",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-03-112"
+  }
+ },
+ {
+  "claim_id": "claim-0108",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-01",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1810,
+   "line_end": 1810,
+   "span_kind": "line",
+   "key_lines": [
+    1810
+   ],
+   "block_ids": [
+    "b0250"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "4. 陶瓷设计日臻完善 / 1）制陶业的进步与瓷器烧制技术的成熟",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-01"
+  }
+ },
+ {
+  "claim_id": "claim-0110",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-11",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 1884,
+   "line_end": 1884,
+   "span_kind": "line",
+   "key_lines": [
+    1884
+   ],
+   "block_ids": [
+    "b0258"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "5. 漆器业的兴盛与漆艺设计 / 2）漆艺设计的丰富样式",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-11"
+  }
+ },
+ {
+  "claim_id": "claim-0114",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-31",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2024,
+   "line_end": 2029,
+   "span_kind": "bounded",
+   "key_lines": [
+    2024,
+    2029
+   ],
+   "block_ids": [
+    "b0280"
+   ],
+   "chapter": "秦汉时期的设计发展",
+   "section": "9. 秦汉时期文献典籍中的设计理论",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-31"
+  }
+ }
+]

@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "鸡腿坛是 B.6.5 取象路径的辽金样本：体形细长、小口，两种用途推测并存，来源未给尺寸与实例，只能支撑器形描述"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度辽金瓷器器形的条目，细长小口的造型属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "鸡腿坛是 B.6.5 取象路径的辽金样本：体形细长、小口，两种用途推测并存，来源未给尺寸与实例，只能支撑器形描述"
 ---
 
 ## 描述
@@ -56,16 +64,15 @@ hierarchy_scope_note: "本条是 B 维度辽金瓷器器形的条目，细长小
 - **证据边界**: 两种用途均为时人推测，来源未作裁断，也未给装酒或帐中使用的实物证据。
 - **原文未载**: 尺寸、容量、胎釉、出土实例、图版未视觉核验（插图16-④）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度辽金瓷器器形的条目，细长小口的造型属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 鸡腿坛是 B.6.5 取象路径的辽金样本：体形细长、小口，两种用途推测并存，来源未给尺寸与实例，只能支撑器形描述
 ## 相关知识元
 
 `terms/liao-ci.md` 记辽瓷总类与契丹式器形，`terms/jiguang-hu.md` 记鸡冠壶，二者与鸡腿坛同为来源所举辽瓷代表器形。relation 未审查。

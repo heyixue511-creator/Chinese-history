@@ -1,0 +1,165 @@
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-156  [historiographic_claim]  L4942-5016
+中央集权只是在一定程度上缓解了上层社会的矛盾和压力，并没有促使政治和经济快速发展，反而引起边域异族不断骚扰、国家赋役逐渐繁重。
+NOTE: L4964 以“但”转折提出中央集权的有限作用与负面后果，并以辽国进贡、王小波李顺起义、方腊宋江起义为例。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-157  [historiographic_claim]  L4942-5016
+火药、印刷术、指南针是中国人发明并逐渐传入并影响欧洲社会的，推动了欧洲近代社会的飞速发展，而中国社会却由此渐弱渐衰。
+NOTE: L5015 引培根、马克思论述后，提出三大发明推动欧洲而中国渐弱渐衰的对比判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-158  [basic_fact]  L4942-5016
+宋代少府分工精细、管理严格：少府监下分为三十二作，将作监下有东西八作，军器监下分东西五十一作。
+NOTE: L4994 直接给出三机构下的“作”数，属具体制度数据。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-167  [basic_fact]  L5019-5038
+竹纸使纸张更加洁白柔韧、光滑细腻，因此在宋代十分流行；由于书籍印刷技术的需要，造纸作坊还专门生产了相应尺寸规格的纸张。
+NOTE: L5023 直接陈述竹纸的性能、流行程度与书籍印刷对纸张规格的推动。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-168  [basic_fact]  L5019-5038
+为印制“交子”，官方在京城设置了员工1200人之多的造纸工场，用特制纸张印制纸币，以保障纸币质量、防止伪币。
+NOTE: L5037 直接给出交子工场规模、特制纸与防伪目的。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-171  [basic_fact]  L5039-5061
+毕昇的活字印刷与雕版印刷的区别在于：以胶泥刻字、烧成陶质字型，使每一个字单独出现；印刷时将单字排出文章用字的秩序，用松脂、黄蜡、纸灰一类材料固定在铁板上，再用另一铁板压平版面，使字面平整。
+NOTE: L5052 直接比较活字与雕版工艺，并概括陶质单字、排字、固定、压平的技术要点。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-172  [historiographic_claim]  L5039-5061
+毕昇的活字印刷方法是成功的；活字印刷在宋代因印刷质量原因未能广泛使用，但其发明推动了人类文明进步，后人在元明时期改进出木字、铅字、铜字，终于使活字印刷成为传播文化的重要方式。
+NOTE: L5060 为活字印刷节的总结，评价其成功、宋代未广用的原因及元明改进后的历史作用。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-173  [historiographic_claim]  L5039-5061
+隋唐雕版印刷虽有开天辟地之功，但仅仅在上层社会和宗教活动中流布；北宋活字印刷的出现不仅提高了印刷速度，而且应用范围广泛，对传播和普及文化知识有着根本的意义。
+NOTE: L5041 与 L5046 构成完整判断：先述雕版流布范围有限，再述活字印刷速度与普及意义。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-181  [evaluative_claim]  L5062-5094
+宋版书有雕刻精湛、校对细心、印制清晰等优点，更重要的是书体整齐规范，宋体字也成为后世雕版及活字印刷的标准字。
+NOTE: L5071 概括宋版书的三项优点，并强调书体规范对后世印刷字体的标准意义。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-182  [basic_fact]  L5062-5094
+宋版书官刻为政府所刻，不惜工本、印刷技术精致；家刻为文人士大夫私人刻制，校对严谨、文字准确；坊刻因商业原因排版紧密，内容多通俗杂芜。
+NOTE: L5073 分别陈述官刻、家刻、坊刻的刻印主体与质量特征。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-183  [historiographic_claim]  L5062-5094
+印刷业的兴盛从根本上改变了手抄书籍的被动性；宋代文治国法、教育兴盛使图书需求量大，政府鼓励自由印刷，也为商人带来巨大利润。
+NOTE: L5069 以“从根本上改变”作印刷业历史作用的判断，并说明需求与商业利润的动因。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-190  [basic_fact]  L5095-5142
+蝴蝶装从宋至元，流行了300余年。
+NOTE: L5103 直接给出蝴蝶装流行的时间跨度。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-191  [source_claim]  L5095-5142
+宋版《列女传》体现出民间刻工的朴素观念，书上标有“晋大司马参军顾恺之图画”的字样，其实是借用顾恺之的名望，以宋代绘画技巧和生活场景刻画古代列女形象。
+NOTE: L5137 对宋版《列女传》的顾恺之题名作真伪与借名判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-07-192  [evaluative_claim]  L5095-5142
+插图是书籍装帧设计的重要内容；宋版图书的插图在大规模书籍印刷发行中获得社会普遍欢迎，带来良好经济利益，也推动着插图水平的提高。
+NOTE: L5141 直接判断插图在装帧设计中的地位，并说明宋版插图的社会与经济作用。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-17  [evaluative_claim]  L5143-5207
+宋代书法没有唐楷的法象森严，却有了雍雅洒脱的气度；苏轼、黄庭坚、米芾、蔡襄与赵佶瘦金体各具一格，宋人儒雅高古的文化气息成为中国书法流变中的典范。
+NOTE: 原文以“法象森严”与“雍雅洒脱”对照，逐一评价苏、黄、米、蔡、赵佶书风，最后以“典范”作总评。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-18  [historiographic_claim]  L5143-5207
+《清明上河图》描绘北宋汴梁的繁华社会景象，绘制城楼、桥梁、船只、车马、旅店、酒肆、商铺、寺院及各类人物810多个，是研究宋代城市和环境设计的重要资料。
+NOTE: 原文直接给出画面内容、人物数量与史料价值判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-26  [historiographic_claim]  L5210-5221
+宋代的商业活动又有新的发展，首都开封城市不断扩大、布局很不规范，形成随行就市的自由商业贸易气氛；城市管理取消夜禁制度，出现“夜市”。
+NOTE: 原文由开封城市扩大、布局不规范推出自由商业气氛，并明确“城市管理取消了夜禁制度”。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-32  [historiographic_claim]  L5222-5242
+现存宋代“济南刘家功夫针铺白兔商标”是最早的广告形式，刘姓功夫针以白兔为商标，以钢针精制获得畅销，又以商标促销商品，反映了宋代商人的广告意识。
+NOTE: 原文直接作“最早”判断，并解释钢针精制与白兔商标的促销关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-33  [interpretive_claim]  L5222-5242
+《四美图》是迎合社会世俗的商业年画，从人物故事和画面形态推测，它只是“对屏”年画中左边的一幅，另一幅尚无下落。
+NOTE: 原文以题材、尺寸、刻印记载与画面形态作推测，并明确另一幅尚无下落。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-37  [interpretive_claim]  L5243-5257
+货币是一种金融信誉，作为国家经济的象征，如果不计后果地贬值，只能导致社会危机的产生。
+NOTE: 原文在叙述蔡京铸大钱一枚当十引起商业社会普遍反对后，作此判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-42  [historiographic_claim]  L5258-5280
+纸币的出现缘于商业社会的迫切需要，而纸币的生产条件必须有特殊的纸张以及良好的印刷技术，这些因素在宋代社会已经具备。
+NOTE: 原文以因果句直接提出纸币出现的原因与生产条件。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-43  [historiographic_claim]  L5258-5280
+从贝币的记数到秦半两的记重，再到交子的记值，货币随着商业社会的发展进入信用制度时期，这是历史性的进步。
+NOTE: 原文以货币形态演变作分期式判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-49  [evaluative_claim]  L5283-5323
+在古代社会，宋代的冷兵器制造水平达到了高峰，武备力量也为当时之冠。宋代的马术射箭已达到当时最高水平，而刀枪铠甲等武器装备也是古今以来最好的。
+NOTE: 原文以“在古代社会”限定范围，并以“高峰”“之冠”“古今以来最好”等评价语直接判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-50  [interpretive_claim]  L5283-5323
+决定战争胜负的最终往往不是武器，而是政治管理的机制。
+NOTE: 原文在叙述宋军火药箭重创金兵后，以转折句提出该判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-57  [historiographic_claim]  L5324-5337
+宋代钢铁技术的广泛应用使农具制造水平明显提高，犁刀、麦钐、铁搭、长鐙等农具样式是钢铁锻造技术提高的体现，也是对原有农具的改进和发展。
+NOTE: 原文以因果句直接说明钢铁技术与农具样式的关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-65  [historiographic_claim]  L5338-5355
+宋代内河船的篷、橹、舵、锚、桅、帆、篙、索已非常完整，已具有近代木船的基本特征。
+NOTE: 原文在列举船具后直接作“近代木船基本特征”的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-77  [evaluative_claim]  L5356-5385
+指南针的应用和普及，是中华文明对人类生活的重大贡献。
+NOTE: 原文在叙述指南针航海应用后直接作此评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-78  [historiographic_claim]  L5356-5385
+只有到了宋代的典籍中，才明确地记载算盘有“横梁隔木”的形状，从造型上看这已经与近代算盘非常相似。
+NOTE: 原文以“只有到了宋代”强调时间节点，并作形制比较。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-84  [historiographic_claim]  L5388-5425
+开封的御道为京城的中轴线，大内设置在城市中心，这种格局变化不同于隋唐以前宫城居于城市北部的惯例，而为后来的都城提供了一种新的样式。
+NOTE: 原文以比较句直接提出都城规划史判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-85  [historiographic_claim]  L5388-5425
+由于城市发展、经济繁荣与手工业技术进步，北宋开封消除了唐代流传下来的里坊制度、废除了夜禁，出现夜市，完全成为一座商业化城市，并成为当时全国最大的商业交易中心。
+NOTE: 原文以因果与“完全成为”“最大”等判断语表述。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-96  [historiographic_claim]  L5426-5455
+宋代国力的逐渐衰弱对士人心理产生影响，在构造园林中形成自己的人生意义。
+NOTE: 原文以因果句将国力衰弱、士人心理与造园意义联系起来。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-97  [interpretive_claim]  L5426-5455
+艮岳根本上是宋徽宗对灾难重重的现实国事的避难之地。
+NOTE: 原文在描述艮岳“集天地精华、聚人间财富”后作此解释性判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-99  [historiographic_claim]  L5456-5463
+宋代塔制多为六角或八角形，以楼阁式为主，塔身用中心塔柱与外壁构联，加强了抗震防风的作用，使塔身矗立千余年而巍然不移。
+NOTE: 原文直接给出塔制形制与结构功能的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-106  [historiographic_claim]  L5464-5481
+泉州洛阳桥以石块作石堤、上筑石桥，运用“筏形基础”，并利用牡蛎衍生连接石基，桥墩以尖形减缓潮汐压力，其建构成功促进了建桥技术水平的迅速提高。
+NOTE: 原文具体描述建桥技术并作技术史影响判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-109  [historiographic_claim]  L5482-5493
+《营造法式》以“有定式而无定法”为指导思想，对前人的建筑经验加以总结，形成了一种建筑的技术标准。
+NOTE: 原文直接概括该书指导思想与技术标准性质。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-110  [historiographic_claim]  L5482-5493
+宋代的劳作制度由唐代的“徭役制”转变为“和雇制”，工匠的劳动观念也随之改变，官方根据工匠的手艺水平来判定其价值。
+NOTE: 原文以制度变迁解释建筑标准需求。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-117  [historiographic_claim]  L5496-5533
+制瓷业是商业贸易的产物，如果没有宋代社会经济的发达、瓷器不为日常生活所需，制瓷的规模和数量也难以发展；随着商业贸易繁荣，宋瓷成为国内外畅销商品。
+NOTE: 原文以因果句直接说明商业贸易对制瓷业的根本影响。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-118  [historiographic_claim]  L5496-5533
+宋代煤矿开采技术发展、煤炭生产数量增加，用煤炭作烧窑燃料增加了窑内火力温度，改变了柴薪烧窑的不稳定性，对宋代制瓷业水平有非常重要的意义。
+NOTE: 原文以燃料变化解释窑温与制瓷水平的关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-135  [historiographic_claim]  L5534-5616
+“官、汝、钧、哥、定”仅仅是一种习惯的说法，不同地域的窑制自然体现着区域的特点。
+NOTE: 原文在讨论官窑窑址不确定性后作此判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-136  [evaluative_claim]  L5534-5616
+汝窑为青瓷体系，代表着宋代制瓷的最高水平，为官窑的产地之一。
+NOTE: 原文直接作“最高水平”评价。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-137  [historiographic_claim]  L5534-5616
+磁州窑使用毛笔在瓷胎上绘制，出现了一种民间写意风格的绘画样式，成为了瓷绘艺术的开端。
+NOTE: 原文以技术手法推出瓷绘艺术起点的判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-140  [evaluative_claim]  L5617-5630
+景德镇瓷器比定窑白中泛青，较龙泉窑又以白为主色，从而形成了景德镇制瓷的特色。
+NOTE: 原文以两组比较直接概括其特色。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-145  [historiographic_claim]  L5631-5659
+倒流壶无颈圆腹，酒水从底面小口灌入，利用壶腹内壁分割形成循环流水结构，充分利用水流力学原理，为宋代制瓷中的奇异造型。
+NOTE: 原文对其内部结构与力学原理作解释。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-153  [historiographic_claim]  L5672-5694
+宋代高足家具流行，椅子以无扶手的高背椅最为常见；带扶手的交椅形成圈椅形状，成为“太师椅”的基本造型。
+NOTE: 原文以《韩熙载夜宴图》《白描罗汉图》等图像与形制描述作判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-158  [historiographic_claim]  L5697-5732
+宋代公服沿袭唐制，但官服的要求更为严格，制型更为规范。
+NOTE: 原文在引《宋史·舆服志》后作此比较判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-162  [historiographic_claim]  L5733-5745
+宋代女服常常是由妓女领导服饰变化的潮流；妓女头饰服装华丽奇艳、敢为天下先，往往成为良家妇女仿效的对象，却遭到正统社会士人的强烈指责。
+NOTE: 原文以宋词描写与元宵节变化为例，直接提出该判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-165  [historiographic_claim]  L5746-5753
+宋代服饰是隋唐以来北方少数民族与中原汉族服饰融合之后的结果，其已作为商品在集市上大量出售。
+NOTE: 原文在引沈括胡服说后作融合判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-166  [historiographic_claim]  L5746-5753
+士人对衣冠的自律要求往往与人格相齐，朱熹将服饰与为人格合为一谈，是宋代理学观念对服饰文化的要求，也是宋代服饰制度的一种特色。
+NOTE: 原文由朱熹言论推出理学与服饰制度的关系。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-173  [historiographic_claim]  L5754-5793
+影人的形象形成了脸谱化的规范：“公忠者雕以正貌，奸邪者刻以丑形”，宋代艺人已用羊皮雕形并以剪纸手法镂刻平面人物花卉形象。
+NOTE: 原文引《梦梁录》并描述制作手法。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-174  [historiographic_claim]  L5754-5793
+宋代木偶戏最盛、种类最多；从种类和内容看，现代尚在流行的木偶戏应是宋代傀儡戏的继承与发展。
+NOTE: 原文列举宋代傀儡种类后作继承关系判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-180  [historiographic_claim]  L5794-5814
+五代至宋代中国社会从混乱重新走向统一，但由于内在政治机制得不到良性循环、外部北方少数民族屡屡南下，宋代开始呈现滞留下滑的社会特征。
+NOTE: 原文以政治机制与外部压力解释宋代社会特征。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-181  [interpretive_claim]  L5794-5814
+王安石变法的失败，与其说坏于小人之手，不如说坏于制度之朽。
+NOTE: 原文以对比句式直接提出制度归因。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-182  [synthetic_claim]  L5794-5814
+宋代拥有精良武器，但北宋败于金、南宋败于元；先进的技术与统治者的管理机制之间的矛盾，最终以牺牲和制约技术的发展为代价。
+NOTE: 原文综合兵器、政治与民族战争材料作此判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-203  [evaluative_claim]  L5275-5277
+纸币等同于价值相当的金属货币。从贝币的记数到秦半两的记重，再到交子的记值，货币随着商业社会的发展，进入到信用制度时期，这是历史性的进步。但是，纸币若不在国家金融制度上得到充分保证，往往不会被广泛使用，亦会因管理混乱而出现贬值。
+NOTE: 原文以“历史性的进步”与“但是”转折句作评价性判断。
+=== 2009-zhaonong-zhongguo-yishu-shejishi:cand-08-204  [historiographic_claim]  L5813-5813
+回首五代十国以及赵宋王朝的历史，却深深感到一种野蛮消退而文化精致之后的衰败。
+NOTE: 原文以“深深感到”引出对五代至宋历史的总评。

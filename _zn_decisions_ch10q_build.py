@@ -1,0 +1,133 @@
+# -*- coding: utf-8 -*-
+"""Build chapter 10 batch Q decisions JSON from generated KU files."""
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2009-zhaonong-zhongguo-yishu-shejishi"
+PREFIX = DOC + ":"
+
+CREATES = [
+    ("cand-12-66", "04-knowledge/units/works/daqing-yinbi.md",
+     "大清银币是清宣统年间铸造的银币。赵农把它放在光绪龙洋之后、铜币作辅币的币制演变中叙述。检索无同实体条目；`terms/qing-baochao.md` 记大清宝钞（纸币），与银币不同。按作品新建，证据行 L8250。来源未给具体年份、版别、重量、成色、铸造局与设计者，confidence 取 low。",
+     "写入 04-knowledge/units/works/daqing-yinbi.md（新建）；引用 L8250。"),
+    ("cand-12-67", "04-knowledge/units/works/yuandatou.md",
+     "袁大头是中华民国政府 1914 年铸造、铸有袁世凯头像的银元俗称。赵农称其质量稳定、币型统一、便于交易，很快流通全国，对民国初年金融经济稳定起过作用；又记钱商打戳使银圆变形而成「烂板」。检索无同实体条目。按作品新建，证据行 L8254、L8256、L8261。来源未给重量、成色、版别、铸造局与设计者，confidence 取 medium。",
+     "写入 04-knowledge/units/works/yuandatou.md（新建）；引用 L8254、L8256、L8261。"),
+    ("cand-12-69", "04-knowledge/units/terms/renminbi.md",
+     "人民币是中国人民银行 1948 年 12 月开始发行的法定货币。赵农称货币是一个国家的经济标志，记已发行 5 套人民币、以元角分为单位、十进位、分铸币与纸币，并按时更新、引进技术、精心设计、采取防伪措施。检索无同实体条目；`terms/qing-baochao.md`、`terms/daming-tongxing-baochao.md` 等记古代纸币，不合并。按术语新建，证据行 L8259、L8265。来源未给各套年份、面额谱系、设计者与印钞单位，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/renminbi.md（新建）；引用 L8259、L8265。"),
+    ("cand-12-166", "04-knowledge/units/works/moxige-yingyang.md",
+     "墨西哥鹰洋是晚清在中国市场流通的外国银元。赵农称外国银元造型、质量均属上乘，记数与携带方便；清政府光绪年间铸龙洋，重量与鹰洋一致并可互为通用。检索无同实体条目。按作品新建，证据行 L8250。来源未给成色、版别、铸造年代、流入数量与图样，confidence 取 low。",
+     "写入 04-knowledge/units/works/moxige-yingyang.md（新建）；引用 L8250。"),
+    ("cand-12-72", "04-knowledge/units/terms/shenghuo-piaozheng.md",
+     "生活票证是计划经济时期按人口分发、用于购买生活必需品的凭证总称。赵农称其为 20 世纪中国艺术设计史中的特殊产物，六七十年代关系到千家万户的基本生存状态；种类含证件与布票、肉票、油票、副食票、粮票、棉花票及工业券，票证有期限、过期作废，设计实际上十分简单。检索无同实体条目。按术语新建，证据行 L8269、L8271、L8273。来源未给设计者、印制单位、版式谱系与地区差异，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/shenghuo-piaozheng.md（新建）；引用 L8269、L8271、L8273。"),
+    ("cand-12-73", "04-knowledge/units/terms/liangpiao.md",
+     "粮票是生活票证中用于购买粮食的凭证。赵农记粮票分地方粮票与全国通用粮票，并把粮票列入六七十年代按人口分发的票证种类。检索无同实体条目；`terms/shenghuo-piaozheng.md` 为票证总类，本条为粮票子类，不合并。按术语新建，证据行 L8269。来源未给发行年份、面额、版式、印制单位与设计者，confidence 取 low。",
+     "写入 04-knowledge/units/terms/liangpiao.md（新建）；引用 L8269。"),
+    ("cand-12-78", "04-knowledge/units/works/shenzhou-wuhao.md",
+     "神舟五号载人飞船是中国载人航天工程的飞船。赵农正文只泛称载人太空飞船的发射回收成功证明中国科学技术具有国际先进水平；图 10-52 图注作「神州五号载人飞船发射」，正文未点名。检索无同实体条目。按作品新建，证据行 L8290、L8303。图片未视觉核验，来源未给发射年份、乘员、飞船结构与设计者，confidence 取 low。",
+     "写入 04-knowledge/units/works/shenzhou-wuhao.md（新建）；引用 L8290、L8303；图注用字与通行名不同，未视觉核验。"),
+    ("cand-12-79", "04-knowledge/units/terms/renliche.md",
+     "人力车是 20 世纪中国城市与乡村以人力牵引的车辆类别。赵农记两轮拉车俗称「拉洋车」，是城市短途交通工具；人力三轮车后面多为平板，多拉货物，也称「平板车」，后来被改造为载人工具；乡村另有双轮双辕、方型车厢的架子车，也称「劳动车」。检索无同实体条目；`terms/dulunche.md` 记独轮车，与人力车不同。按术语新建，证据行 L8307。来源未给尺寸、材料、产地与设计者，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/renliche.md（新建）；引用 L8307。"),
+    ("cand-12-81", "04-knowledge/units/works/cixi-zhuanyongche.md",
+     "慈禧太后专用车是 1902 年进口的汽车。赵农称中国汽车的出现以该车为标志，并记 1949 年以前中国汽车主要是政府用车。检索无同实体条目。按作品新建，证据行 L8334。来源未给车型、制造国、制造厂、功率、车身结构与现存状态，confidence 取 low。",
+     "写入 04-knowledge/units/works/cixi-zhuanyongche.md（新建）；引用 L8334。"),
+    ("cand-12-82", "04-knowledge/units/works/shanghai-cifu.md",
+     "上海磁悬浮列车是上海成功运行的磁悬浮轨道交通车辆。赵农称其高速安全、无震动和噪声，是中国交通工具最先进的标志，并以它与 1881 年「龙」号机车对举。检索无同实体条目。按作品新建，证据行 L8315、L8324、L8332。来源未给线路长度、通车年份、最高速度、制造方与设计者，confidence 取 medium。",
+     "写入 04-knowledge/units/works/shanghai-cifu.md（新建）；引用 L8315、L8324、L8332。"),
+    ("cand-12-161", "04-knowledge/units/terms/zixingche.md",
+     "自行车是 20 世纪中国家庭常用的两轮人力交通工具。赵农记其最初只有少量进口，随着国产自行车增加成为家庭必备交通工具；六七十年代成为家庭生活富裕的象征，国产「凤凰」「永久」「飞鸽」「红旗」等品牌深受欢迎。检索无自行车总类术语；`works/yongjiu-zixingche.md`、`works/flying-pigeon-bicycle.md` 分记永久与飞鸽品牌，本条为车类，不合并。按术语新建，证据行 L8309。来源未给车型、尺寸、材料、产量与设计者，confidence 取 medium。",
+     "写入 04-knowledge/units/terms/zixingche.md（新建）；引用 L8309。"),
+    ("cand-12-90", "04-knowledge/units/persons/cai-yuanpei.md",
+     "蔡元培是民国初期教育家。赵农记其在《美术的起源》中确定「建筑、造像（雕刻）、图画与工艺美术（包括装饰品）」的概念，为后来学科分类划出范围；并判断此后艺术设计文化更多关注「装饰品」而缺少现代生活的存在意义。检索无同实体人物；`persons/chen-zhifo.md` 记同段陈之佛，为另一人物。按人物新建，证据行 L8367。来源未给生卒、籍贯、任职与教育主张全文，confidence 取 medium。",
+     "写入 04-knowledge/units/persons/cai-yuanpei.md（新建）；引用 L8367。"),
+    ("cand-12-106", "04-knowledge/units/publications/shijie-xiandai-shejishi.md",
+     "《世界现代设计史》是王受之的设计史著述。赵农在「设计研究」段将其与《世界现代平面设计史》并列，称这些著述十余年来已有着广泛的社会影响。检索无同实体出版物；`publications/zhongguo-yishu-shejishi-zhaonong-2009.md` 为另一设计史著作。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册与内容结构，confidence 取 low。",
+     "写入 04-knowledge/units/publications/shijie-xiandai-shejishi.md（新建）；引用 L8440。"),
+    ("cand-12-107", "04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md",
+     "《世界现代平面设计史》是王受之的平面设计史著述。赵农在「设计研究」段将其与《世界现代设计史》并列，称这些著述十余年来已有着广泛的社会影响。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册与内容结构，confidence 取 low。",
+     "写入 04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md（新建）；引用 L8440。"),
+    ("cand-12-108", "04-knowledge/units/publications/gongye-shejixue-gailun.md",
+     "《工业设计学概论》是柳冠中的工业设计理论著述。赵农在「设计研究」段将其列入十余年来有影响的设计著述。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册与内容结构，confidence 取 low。",
+     "写入 04-knowledge/units/publications/gongye-shejixue-gailun.md（新建）；引用 L8440。"),
+    ("cand-12-109", "04-knowledge/units/publications/baima-shejixue-congshu.md",
+     "《白马设计学丛书》是尹定邦主编的设计学丛书。赵农在「设计研究」段将其列入十余年来有影响的设计著述。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、书目种数与各册作者，confidence 取 low。",
+     "写入 04-knowledge/units/publications/baima-shejixue-congshu.md（新建）；引用 L8440。"),
+    ("cand-12-110", "04-knowledge/units/publications/yishu-shejixue.md",
+     "《艺术设计学》是凌继尧、徐恒醇合著的艺术设计理论著述。赵农在「设计研究」段将其列入十余年来有影响的设计著述。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册与内容结构，confidence 取 low。",
+     "写入 04-knowledge/units/publications/yishu-shejixue.md（新建）；引用 L8440。"),
+    ("cand-12-111", "04-knowledge/units/publications/xiandai-sheji-daxi.md",
+     "《现代设计大系》是潘公凯、卢辅圣主编的设计丛书。赵农在「设计研究」段将其列入十余年来有影响的设计著述。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册数与各卷作者，confidence 取 low。",
+     "写入 04-knowledge/units/publications/xiandai-sheji-daxi.md（新建）；引用 L8440。"),
+    ("cand-12-112", "04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md",
+     "《高等院校设计艺术专业系列教材》是潘鲁生主编的设计教材丛书。赵农在「设计研究」段将其列入十余年来有影响的设计著述。检索无同实体出版物。按出版物新建，证据行 L8440。来源未给出版社、出版年、书目种数与各册作者，confidence 取 low。",
+     "写入 04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md（新建）；引用 L8440。"),
+    ("cand-12-113", "04-knowledge/units/publications/sheji-gailun.md",
+     "《设计概论》是赵农的设计理论著述。赵农在「设计研究」段将其本人此书列入十余年来有影响的设计著述。检索无同实体出版物；`publications/zhongguo-yishu-shejishi-zhaonong-2009.md` 为同一作者的另一著作，不合并。按出版物新建，证据行 L8440。来源未给出版社、出版年、卷册与内容结构；作者自述影响，confidence 取 low。",
+     "写入 04-knowledge/units/publications/sheji-gailun.md（新建）；引用 L8440。"),
+]
+
+NO_DELTA = [
+    ("cand-12-80", "龙号机车", "04-knowledge/units/works/longhao-jiche.md",
+     "「龙」号机车与既有 `works/longhao-jiche.md` 同指。既有条目已据赵农 L7583 记唐胥铁路与中国人自造机车；本批 L8332 重提「从 1881 年 ‘龙’ 号机车，到磁悬浮列车」，只作交通史对举，未提供新型式、功率、制造厂或制造年份。按 no_delta 处理，不改写既有条目。",
+     "不写入知识元；候选标 no_delta，目标 works/longhao-jiche.md。"),
+]
+
+
+def title_of(path):
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if line.startswith("title:"):
+            return line.split(":", 1)[1].strip().split("（")[0].strip()
+    return Path(path).stem
+
+
+decisions = []
+for suffix, target, analysis, apply_note in CREATES:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": title_of(target),
+        "action": "create",
+        "target": target,
+        "analysis": analysis,
+        "approve": f"批准新建 {target}：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+        "apply_note": apply_note,
+        "note": f"canonical: {target}。",
+    })
+
+for suffix, entity, target, analysis, apply_note in NO_DELTA:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": entity,
+        "action": "no_delta",
+        "target": target,
+        "analysis": analysis,
+        "approve": "批准 no_delta：「龙」号机车与既有条目同指，L8332 未超出既有证据，保持原状。",
+        "apply_note": apply_note,
+        "note": f"canonical: {target}。",
+    })
+
+cfg = {
+    "doc": DOC,
+    "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+    "rules": [
+        "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+        "逐字引文用“ ”，作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+        "列举型候选只著录来源所列名称、材质、用途与评语，不据来源外材料补形制、尺寸与设计者",
+        "同名实体不重复立条：龙号机车按 no_delta 处理",
+        "总类与子类分层：生活票证与粮票分列，自行车与永久、飞鸽品牌分列",
+        "图版一律据图注著录，未视觉核验，不据图扩写；神舟五号图注作「神州五号」，照录并标差异",
+        "作者自述影响照录并标注，不当作独立评价",
+    ],
+    "scope_spans": [[8246, 8443]],
+    "scope_note": "赵农 2009 册第十章第六节货币与交通、第七节艺术设计教育 L8246–L8443 逐段复读，含钱币、生活票证、其他器具、交通工具、设计教育发展与艺术设计研究；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图 10-48 至图 10-64 未视觉核验。",
+    "decisions": decisions,
+    "notes": "赵农 2009 册第十章第六至第七节 unit 候选 21 条：create 20、no_delta 1。范围 L8246-L8443。新建覆盖大清银币、袁大头、人民币、墨西哥鹰洋、生活票证、粮票、神舟五号载人飞船、人力车、慈禧太后专用车、上海磁悬浮列车、自行车十一项货币票证与交通工具，蔡元培一人，以及《世界现代设计史》《世界现代平面设计史》《工业设计学概论》《白马设计学丛书》《艺术设计学》《现代设计大系》《高等院校设计艺术专业系列教材》《设计概论》八种设计研究著述；no_delta 为龙号机车。中央工艺美术学院、清华大学美术学院、陈之佛、包豪斯等已有或属机构/事件候选，本批不重复立条。图 10-48 至图 10-64 未视觉核验。",
+}
+
+out = ROOT / "_zn_decisions_ch10q.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(Counter(d["action"] for d in decisions), len(decisions))

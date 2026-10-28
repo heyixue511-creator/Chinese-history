@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "褐彩是 B 维度下西晋至东晋瓷器装饰的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "西晋晚期至东晋的氧化铁褐彩点画；田自秉称「瓷上彩釉装饰的先声」，彩绘层的起点"
+hierarchy_scope_note: "西晋晚期至东晋的氧化铁褐彩点画；田自秉称「瓷上彩釉装饰的先声」，彩绘层的起点"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "褐彩是 B 维度下西晋至东晋瓷器装饰的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 褐彩是 B 维度下西晋至东晋瓷器装饰的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 西晋晚期至东晋的氧化铁褐彩点画；田自秉称「瓷上彩釉装饰的先声」，彩绘层的起点
 ## 相关知识元
 
 与釉上彩、釉里红瓷同属瓷器彩饰谱系；褐彩是釉上点彩的早期实例。relation 未审查。

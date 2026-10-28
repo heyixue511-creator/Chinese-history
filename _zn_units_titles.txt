@@ -1,0 +1,2570 @@
+04-knowledge/units/events/1851-wanguo-bolanhui.md	"1851年英国万国博览会（The Great Exhibition of 1851）"
+04-knowledge/units/events/1972-1976-dingci-huifu.md	"定瓷恢复（Revival of Ding Ware Production）"
+04-knowledge/units/events/1998-moe-major-catalog.md	"1998 年教育部本科专业目录调整（1998 Adjustment of the Ministry of Education Undergraduate Program Catalogue）"
+04-knowledge/units/events/1998-national-furniture-exhibition.md	"第五届全国家具展览（The Fifth National Furniture Exhibition）"
+04-knowledge/units/events/1999-book-design-exhibition.md	"第五届全国书籍装帧艺术展览（The Fifth National Book Design Exhibition）"
+04-knowledge/units/events/1999-china-italy-industrial-design-week.md	"中国—意大利工业设计周（China-Italy Industrial Design Week）"
+04-knowledge/units/events/1999-design-education-forum.md	"新世纪中国设计教育发展高层论坛（New Century Chinese Design Education High-Level Forum）"
+04-knowledge/units/events/2000-beijing-intl-graphic-design-exhibition.md	"2000 北京国际平面设计展（2000 Beijing International Graphic Design Exhibition）"
+04-knowledge/units/events/2000-cad-industrial-design-conference.md	"第三届计算机辅助工业设计及计算机辅助概念设计国际会议（Third International Conference on Computer-Aided Industrial Design and Conceptual Design）"
+04-knowledge/units/events/2000-china-craft-art-exhibition.md	"中国工艺美术精品展（China Arts and Crafts Masterworks Exhibition）"
+04-knowledge/units/events/2000-national-folk-craft-art-exhibition.md	"中国民族民间工艺美术大展（China Ethnic and Folk Arts and Crafts Exhibition）"
+04-knowledge/units/events/2000-shanghai-eco-landscape-avenue.md	"上海生态景观大道建成（Completion of Shanghai's First Ecological Landscape Avenue）"
+04-knowledge/units/events/6th-century-fangzhi-jishu-waichuan.md	"中国纺织印染技术外传（Diffusion of Chinese Textile and Dyeing Technology Abroad）"
+04-knowledge/units/events/anshi-zhiluan.md	安史之乱（An Lushan Rebellion）
+04-knowledge/units/events/banama-saihui.md	巴拿马赛会（Panama-Pacific International Exposition）
+04-knowledge/units/events/bauhaus-exhibition-hongkong-1989.md	"“包豪斯——现代艺术设计的革命”展览（Bauhaus: Revolution in Modern Art and Design Exhibition）"
+04-knowledge/units/events/beijing-ten-great-buildings.md	"北京十大建筑（The Ten Great Buildings of Beijing）"
+04-knowledge/units/events/boyan-collects-song-regalia.md	1272年伯颜收取宋宫冕服图籍（Bayan Collects Song Court Regalia and Archives）
+04-knowledge/units/events/capital-ten-buildings-art-conference-1958.md	"首都十大建筑美术工作会议（Capital Ten Great Buildings Art Work Conference）"
+04-knowledge/units/events/chenqiao-mutiny.md	"陈桥驿兵变（Chenqiao Mutiny）"
+04-knowledge/units/events/china-art-expo-design-1997.md	"“'97 中国艺术大展·中国当代艺术设计展”（1997 China Art Exhibition: Chinese Contemporary Art and Design Exhibition）"
+04-knowledge/units/events/computer-art-symposium-1995.md	"首届中国计算机艺术研讨会暨作品展示会（The First Chinese Computer Art Symposium and Exhibition）"
+04-knowledge/units/events/craft-recovery-transformation-1950s.md	"新中国初期工艺美术生产的恢复与改造（Recovery and Reorganization of Arts and Crafts Production in the Early PRC）"
+04-knowledge/units/events/crafts-artist-title-1979.md	"授予“工艺美术家”荣誉称号（Conferral of the Arts and Crafts Master Title）"
+04-knowledge/units/events/crafts-college-entrance-exam-resumption-1977.md	"工艺美术高等院校恢复统一招生考试（Restoration of Unified Admissions Examinations in Arts and Crafts Colleges）"
+04-knowledge/units/events/cultural-revolution-crafts-four-olds.md	"“文化大革命”中传统工艺品被打成“四旧”（Traditional Crafts Denounced as the Four Olds during the Cultural Revolution）"
+04-knowledge/units/events/da-shengchan-yundong.md	"大生产运动（The Great Production Campaign）"
+04-knowledge/units/events/dayu-flood-control.md	"大禹治水（Yu the Great Controls the Floods）"
+04-knowledge/units/events/deyang-xiaoquan-silver-find.md	德阳孝泉镇宋代银器出土（Deyang Xiaoquan Silver Hoard）
+04-knowledge/units/events/donghulin-muzang.md	东胡林墓葬发现（Donghulin Burial Discovery）
+04-knowledge/units/events/dongnan-daxue-yishuxuexi-1994.md	"东南大学设立我国第一个艺术学系（Southeast University Establishes China's First Department of Art Studies）"
+04-knowledge/units/events/feishui-zhizhan.md	"淝水之战（Battle of Feishui）"
+04-knowledge/units/events/fojiao-chuanru-zhongguo.md	"佛教传入中国（Buddhism Enters China）"
+04-knowledge/units/events/founding-ceremony-tiananmen-decoration-1949.md	"开国大典天安门城楼布置装饰（Decoration of Tiananmen Rostrum for the Founding Ceremony）"
+04-knowledge/units/events/fucangshan-tomb.md	浮仓山南宋墓（Fucangshan Southern Song Tomb）
+04-knowledge/units/events/ganshi-battle.md	甘泽之战（Battle of Ganshi）
+04-knowledge/units/events/han-wudi-duzun-rushu.md	汉武帝独尊儒术（Emperor Wu of Han Adopts Confucianism）
+04-knowledge/units/events/huangjin-uprising.md	"黄巾大起义（Yellow Turban Rebellion）"
+04-knowledge/units/events/hufu-qishe.md	胡服骑射（Hufu Qishe Reform）
+04-knowledge/units/events/icsid-1989-nagoya.md	"中国工业设计代表团首次参加 ICSID 年会（First Chinese Delegation to the ICSID Congress）"
+04-knowledge/units/events/industrial-design-society-1985.md	"全国高校工业设计学会成立（Founding of the National Higher Education Industrial Design Society）"
+04-knowledge/units/events/ji-zha-gift-sword.md	"季札赠剑（Ji Zha Presents His Sword）"
+04-knowledge/units/events/jianbian-yifu-1912.md	"1912年剪辫易服（The 1912 Queue-Cutting and Dress Reform）"
+04-knowledge/units/events/jiawu-haizhan.md	"甲午海战（Naval Battle of the Jiawu Year）"
+04-knowledge/units/events/jin-casting-legal-cauldron.md	晋国铸刑鼎（Jin Casts the Legal Cauldron）
+04-knowledge/units/events/jingkang-zhibian.md	靖康之难（Jingkang Incident）
+04-knowledge/units/events/kangxi-abolish-loom-quota-1712.md	"康熙五十一年废除机户织机限额（Abolition of the Loom Quota in 1712）"
+04-knowledge/units/events/kangxi-ditu-cehui.md	"康熙时期中国地图测绘（Cartographic Survey of China under the Kangxi Emperor）"
+04-knowledge/units/events/king-wu-conquers-zhou.md	武王伐纣（King Wu Conquers Zhou）
+04-knowledge/units/events/li-lixin-doctoral-defense-2002.md	"李立新博士论文答辩（Li Lixin's Doctoral Dissertation Defense）"
+04-knowledge/units/events/liuchao-buddhist-caves.md	"六朝佛教石窟开凿（Buddhist Cave Temple Carving in the Six Dynasties）"
+04-knowledge/units/events/ma-gaerni-shihua.md	"马葛尔尼使华（Macartney Embassy to China）"
+04-knowledge/units/events/mashan-yihao-mu-sichupin.md	马山一号墓丝织品出土（Mashan Tomb No.1 Silk Textile Discovery）
+04-knowledge/units/events/mawangdui-yihao-mu-fajue.md	马王堆一号汉墓发掘（Mawangdui Tomb No.1 Excavation）
+04-knowledge/units/events/mozi-zhi-chu-gong-song.md	墨子止楚攻宋（Mozi Stops Chu from Attacking Song）
+04-knowledge/units/events/nanyang-quanyehui.md	南洋劝业会（Nanyang Industrial Exposition）
+04-knowledge/units/events/national-advertising-design-exhibition-1982.md	"第一届全国广告装潢设计展览（The First National Advertising and Display Design Exhibition）"
+04-knowledge/units/events/national-book-design-exhibition-1959.md	"第一届全国书籍装帧艺术展览会（The First National Book Design Exhibition）"
+04-knowledge/units/events/national-craft-artists-conference-1957.md	"全国工艺美术艺人代表会议（1957）（National Conference of Arts and Crafts Artisans (1957)）"
+04-knowledge/units/events/national-craft-exhibition-1972.md	"全国工艺美术展览会（1972）（National Arts and Crafts Exhibition (1972)）"
+04-knowledge/units/events/national-craft-exhibition-1978.md	"全国工艺美术展览（1978）（National Arts and Crafts Exhibition (1978)）"
+04-knowledge/units/events/national-crafts-education-symposium-1982.md	"全国高等院校工艺美术教学座谈会（National Symposium on Arts and Crafts Teaching in Higher Education）"
+04-knowledge/units/events/national-lacquer-conference-1959.md	"1959年全国漆器交流参观会议（National Lacquerware Exchange Conference (1959)）"
+04-knowledge/units/events/opium-war.md	鸦片战争（Opium War）
+04-knowledge/units/events/pangeng-move-to-yin.md	盘庚迁殷（Pangeng's Move to Yin）
+04-knowledge/units/events/party-third-plenum.md	"党的三中全会（The Party's Third Plenary Session）"
+04-knowledge/units/events/ping-wang-dong-qian.md	"平王东迁（King Ping Moves the Capital East）"
+04-knowledge/units/events/qianqiu-festival.md	"千秋节（Qianqiu Festival）"
+04-knowledge/units/events/qin-mie-liuguo.md	秦灭六国（Qin Conquers the Six States）
+04-knowledge/units/events/qin-qian-yetie-haozu.md	秦迁六国冶铁豪族（Qin Relocates Iron-Making Clans）
+04-knowledge/units/events/qing-opens-sea-ban-1684.md	1684年清廷开放海禁（Qing Opens the Sea Ban in 1684）
+04-knowledge/units/events/qingli-xinzheng.md	"庆历新政（Qingli New Policies）"
+04-knowledge/units/events/qingshousi-tomb-textiles.md	1955年北京庆寿寺双塔出土丝织品（Qingshou Temple Textile Find）
+04-knowledge/units/events/quanguo-gongyi-meishu-zhanlanhui-1959.md	1959年全国工艺美术展览会（National Arts and Crafts Exhibition 1959）
+04-knowledge/units/events/quanguo-minjian-meishu-gongyipin-zhanlanhui.md	全国民间美术工艺品展览会（National Folk Arts and Crafts Exhibition）
+04-knowledge/units/events/queue-and-dress-edicts.md	清初剃发易服（Queue and Dress Edicts of the Early Qing）
+04-knowledge/units/events/shang-tang-overthrows-xia.md	商汤灭夏（Shang Tang Overthrows the Xia）
+04-knowledge/units/events/shang-yang-reforms.md	"商鞅变法（Shang Yang's Reforms）"
+04-knowledge/units/events/shanghai-expo-2010.md	"2010年上海世界博览会（Expo 2010 Shanghai）"
+04-knowledge/units/events/shanghai-shougongye-shouxian-dahui.md	上海市首次手工业技艺人员授衔大会（Shanghai First Handicraft Artisan Title Conferral）
+04-knowledge/units/events/sheji-yishuxue-1998.md	"研究生专业目录以“设计艺术学”取代“工艺美术学”（Graduate Catalogue Replaces Arts and Crafts Studies with Design Art Studies）"
+04-knowledge/units/events/song-dai-huayuan-sheli.md	"宋代宫廷画院设立（Establishment of the Song Imperial Painting Academy）"
+04-knowledge/units/events/sui-conquers-chen.md	"隋灭陈统一（Sui Conquers Chen and Reunifies China）"
+04-knowledge/units/events/sui-pinghui-jiankang.md	"隋文帝平毁建康（Emperor Wen of Sui Destroys Jiankang）"
+04-knowledge/units/events/taiping-tianguo.md	"太平天国（Taiping Heavenly Kingdom）"
+04-knowledge/units/events/tang-ban-jinyin-pingtuo.md	"唐肃宗、代宗禁止金银平脱（Tang Ban on Gold and Silver Pingtuo Lacquerware）"
+04-knowledge/units/events/technical-aesthetics-symposium-1994.md	"全国技术美学研讨会（National Symposium on Technical Aesthetics）"
+04-knowledge/units/events/united-nations-gift-1974.md	"我国政府向联合国总部赠送《长城》壁毯和牙雕《成昆铁路》（Gift of the Great Wall Tapestry and Chengdu-Kunming Railway Ivory Carving to the United Nations）"
+04-knowledge/units/events/wang-anshi-reforms.md	"王安石变法（Wang Anshi's Reforms）"
+04-knowledge/units/events/wangzichao-shijian.md	"王子朝事件（The Prince Zhao Incident）"
+04-knowledge/units/events/wen-jing-zhi-zhi.md	"文景之治（Reign of Emperor Wen and Jing）"
+04-knowledge/units/events/xianrendong-taoci-chutu.md	仙人洞陶器出土（Xianrendong Pottery Discovery）
+04-knowledge/units/events/xiao-wen-gai-zhi.md	孝文改制（汉化政策）（Emperor Xiaowen's Sinicization Reform）
+04-knowledge/units/events/xiaomingdi-fushi-gaige.md	"北魏孝明帝服饰改革（Emperor Xiaoming of Northern Wei's Dress Reform）"
+04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md	"北魏孝文帝奖劝农桑（Emperor Xiaowen of Northern Wei Promotes Agriculture and Sericulture）"
+04-knowledge/units/events/xiaowendi-qian-du-luoyang.md	"北魏孝文帝迁都洛阳（Emperor Xiaowen Moves the Capital to Luoyang）"
+04-knowledge/units/events/xinhai-geming.md	辛亥革命（Xinhai Revolution）
+04-knowledge/units/events/xinwenhua-yundong.md	"新文化运动（New Culture Movement）"
+04-knowledge/units/events/xixia-mausoleum.md	西夏王陵发掘（Excavation of the Western Xia Mausoleums）
+04-knowledge/units/events/xixiacun-canjian.md	西阴村蚕茧发现（Xiyincun Silk Cocoon Discovery）
+04-knowledge/units/events/xu-shou-hua-hengfang-zhengqi-ji.md	"徐寿、华衡芳研制中国第一部蒸汽机（Xu Shou and Hua Hengfang Build China's First Steam Engine）"
+04-knowledge/units/events/yangjiacun-bronze-hoard-2003.md	"宝鸡眉县杨家村青铜器出土（Yangjiacun Bronze Hoard in Meixian, Baoji）"
+04-knowledge/units/events/yangwu-yundong.md	洋务运动（Self-Strengthening Movement）
+04-knowledge/units/events/yanyou-fuse.md	延祐元年（1314）贵族夫人服色规定（Yanyou Sumptuary Regulations for Noblewomen）
+04-knowledge/units/events/ysl-retrospective-1985.md	"伊夫·圣·洛朗 25 年作品回顾展（Yves Saint Laurent 25-Year Retrospective）"
+04-knowledge/units/events/yu-casts-nine-cauldrons.md	禹铸九鼎（Nine Cauldrons of Yu）
+04-knowledge/units/events/yu-chuan-qi.md	"禹传启（Yu Passes the Throne to Qi）"
+04-knowledge/units/events/yuan-abolish-keju.md	元代科举废止（Abolition of the Imperial Examination in the Yuan）
+04-knowledge/units/events/zenghouyi-mu-fajue.md	曾侯乙墓发掘（Zenghouyi Tomb Excavation）
+04-knowledge/units/events/zhangqian-chushi-xiyu.md	张骞出使西域（Zhang Qian's Missions to the Western Regions）
+04-knowledge/units/events/zhenghe-voyages.md	郑和下西洋（Zheng He's Voyages to the Western Ocean）
+04-knowledge/units/events/zhongguo-gongyi-meishupin-baihuajiang.md	"中国工艺美术品百花奖（China Arts and Crafts Hundred Flowers Award）"
+04-knowledge/units/events/zhongguo-gongyi-meishushi-completed.md	"《中国工艺美术史》编写完成（Completion of The History of Chinese Arts and Crafts）"
+04-knowledge/units/events/zhou-enlai-handicraft-1972.md	"周恩来提出“手工艺要大力提倡”（Zhou Enlai's Call to Vigorously Promote Handicrafts）"
+04-knowledge/units/events/zhou-initial-wine-ban.md	"周初禁酒（Early Zhou Wine Ban）"
+04-knowledge/units/institutions/anqing-junxiesuo.md	安庆军械所（Anqing Arsenal）
+04-knowledge/units/institutions/baigongya.md	百工衙（Hundred Crafts Offices）
+04-knowledge/units/institutions/baoshi.md	暴室（Baoshi Palace Workshop）
+04-knowledge/units/institutions/bauhaus.md	包豪斯（Bauhaus）
+04-knowledge/units/institutions/beijing-falangchang.md	北京珐琅厂（Beijing Enamel Factory）
+04-knowledge/units/institutions/beiping-guoli-yizhuan.md	北平国立艺术专科学校（Beiping National Art College）
+04-knowledge/units/institutions/bintieju.md	镔铁局（Bintie Bureau）
+04-knowledge/units/institutions/central-academy-arts-design.md	中央工艺美术学院（Central Academy of Arts and Design）
+04-knowledge/units/institutions/chengdu-cungu-shuju.md	成都存古书局（Chengdu Cungu Book Bureau）
+04-knowledge/units/institutions/chengyi-gongsuo.md	成衣公所（Chengyi Guild）
+04-knowledge/units/institutions/china-commercial-art-writers-association.md	中国商业美术作家协会（China Commercial Art Writers Association）
+04-knowledge/units/institutions/chuangong.md	船宫（Chuangong Shipyard）
+04-knowledge/units/institutions/ciyaoguan.md	瓷窑官（Porcelain Kiln Officer）
+04-knowledge/units/institutions/da-yuesi.md	大乐司（Office of Great Music）
+04-knowledge/units/institutions/dasheng-shachang.md	大生纱厂（Dasheng Cotton Mill）
+04-knowledge/units/institutions/dechang-huabianzhuang.md	德昌花边庄（Dechang Lace Workshop）
+04-knowledge/units/institutions/dian-shizhai.md	点石斋石印局（Dianshizhai Lithographic Press）
+04-knowledge/units/institutions/dian-si.md	典丝（Dian Si）
+04-knowledge/units/institutions/dier-qinggongyebu.md	第二轻工业部（Second Ministry of Light Industry）
+04-knowledge/units/institutions/diyi-qiche-zhizaochang.md	第一汽车制造厂（First Automobile Works）
+04-knowledge/units/institutions/dongxi-zhishi.md	长安东、西织室（Eastern and Western Weaving Rooms in Chang'an）
+04-knowledge/units/institutions/dutch-east-india-company.md	荷兰东印度公司（Dutch East India Company）
+04-knowledge/units/institutions/fujian-chuanzhengju.md	福建船政局（Fujian Naval Yard）
+04-knowledge/units/institutions/fuliang-ciju.md	浮梁瓷局（Fuliang Porcelain Bureau）
+04-knowledge/units/institutions/fuzhou-mawei-chuanzheng-xuetang-huishiyuan.md	福州马尾船政学堂绘事院（Fuzhou Mawei Naval School Drawing Institute）
+04-knowledge/units/institutions/getz-bros.md	盖茨公司（Getz Bros. & Co.）
+04-knowledge/units/institutions/gongbu.md	工部（Ministry of Works）
+04-knowledge/units/institutions/guangdong-gongyiju.md	广东工艺局（Guangdong Craft Bureau）
+04-knowledge/units/institutions/guangdong-nanhai-tengchang.md	广东南海藤厂（Guangdong Nanhai Rattan Factory）
+04-knowledge/units/institutions/guangzhou-zaozhichang.md	广州造纸厂（Guangzhou Paper Mill）
+04-knowledge/units/institutions/gugong-bowuyuan.md	故宫博物院（The Palace Museum）
+04-knowledge/units/institutions/guowuyuan-xuewei-weiyuanhui.md	国务院学位委员会（Academic Degrees Committee of the State Council）
+04-knowledge/units/institutions/guoyuanchang.md	果园厂（Guoyuan Lacquer Workshop）
+04-knowledge/units/institutions/han-dai-guan-ying-sizhi-zuofang.md	汉代官营丝织作坊（Han Dynasty State-Run Silk Workshops）
+04-knowledge/units/institutions/han-dai-qiqi-zuofang-guan-yuan.md	汉代漆器作坊官员（Han Lacquer Workshop Officials）
+04-knowledge/units/institutions/hangzhou-guoli-yizhuan.md	国立杭州艺术专科学校（Hangzhou National Art College）
+04-knowledge/units/institutions/hannuowei-gongye-sheji-luntan.md	汉诺威工业设计论坛（Hannover Industrial Design Forum）
+04-knowledge/units/institutions/hengyuan-zhahuachang.md	恒沅轧花厂（Hengyuan Cotton Ginning Factory）
+04-knowledge/units/institutions/houzhao-yecheng-zhijinshu.md	后赵邺城织锦署（Later Zhao Yecheng Brocade Office）
+04-knowledge/units/institutions/hubei-qiangpaochang.md	湖北枪炮厂（Hubei Arsenal）
+04-knowledge/units/institutions/huitongguan.md	会通馆（Huitong Guan）
+04-knowledge/units/institutions/hunan-ciye-gongsi.md	湖南瓷业公司（Hunan Porcelain Company）
+04-knowledge/units/institutions/hunan-sixian-shuju.md	湖南思贤书局（Hunan Sixian Book Bureau）
+04-knowledge/units/institutions/jiangnan-chuanzhengju-gongyi-xuetang.md	江南船政局工艺学堂（Jiangnan Naval Yard Technical School）
+04-knowledge/units/institutions/jiangnan-zhizao-zongju.md	江南制造总局（Jiangnan Manufacturing Bureau）
+04-knowledge/units/institutions/jiangning-zhizaoju.md	江宁织造局（Jiangning Imperial Silk Manufactory）
+04-knowledge/units/institutions/jiangzuojian.md	将作监（Directorate of Imperial Construction）
+04-knowledge/units/institutions/jianhua-cichang.md	建华瓷厂（Jianhua Porcelain Factory）
+04-knowledge/units/institutions/jiankanglu-zhiranju.md	建康路织染局（Jiankang Route Weaving and Dyeing Bureau）
+04-knowledge/units/institutions/jianyang-shufang.md	建阳书坊（Jianyang Bookshops）
+04-knowledge/units/institutions/jiaoyubu.md	教育部（Ministry of Education）
+04-knowledge/units/institutions/jiaoziwu.md	交子务（Jiaozi Office）
+04-knowledge/units/institutions/jichanglong-sichang.md	继昌隆缫丝厂（Jichanglong Silk Reeling Factory）
+04-knowledge/units/institutions/jiefangqu-diyige-taoci-yanjiusuo.md	解放区第一个陶瓷研究所（First Ceramics Research Institute of the Liberated Areas in Cizhou）
+04-knowledge/units/institutions/jiguge.md	汲古阁（Jiguge）
+04-knowledge/units/institutions/jingchang.md	经厂（Jingchang Printing Office）
+04-knowledge/units/institutions/jingdezhen-ciye-gongsi.md	景德镇瓷业公司（Jingdezhen Porcelain Company）
+04-knowledge/units/institutions/jinling-jiqiju.md	金陵机器局（Jinling Arsenal）
+04-knowledge/units/institutions/jinling-shuju.md	金陵书局（Jinling Book Bureau）
+04-knowledge/units/institutions/jinshu.md	锦署（Brocade Office）
+04-knowledge/units/institutions/jinyin-zuofangyuan.md	金银作坊院（Gold and Silver Workshop Institute）
+04-knowledge/units/institutions/jixia-xuegong.md	稷下学宫（Jixia Academy）
+04-knowledge/units/institutions/kezisi.md	刻字司（Western Xia Block-Printing Office）
+04-knowledge/units/institutions/liangjiang-shifan-xuetang.md	两江师范学堂（Liangjiang Normal College）
+04-knowledge/units/institutions/lingjinyuan.md	绫锦院（Brocade and Silk Weaving Office）
+04-knowledge/units/institutions/liubiju.md	六必居（Liubiju）
+04-knowledge/units/institutions/longjiang-chuanchang.md	龙江船厂（Longjiang Shipyard）
+04-knowledge/units/institutions/lunchuan-zhaoshangju.md	轮船招商局（China Merchants Steam Navigation Company）
+04-knowledge/units/institutions/lunzhang-zaozhi-ju.md	纶章造纸局（Lunzhang Paper Mill）
+04-knowledge/units/institutions/mumian-tijusi.md	木棉提举司（Cotton Promotion Office）
+04-knowledge/units/institutions/nanchao-ranshu.md	南朝染署（Southern Dynasties Dye Office）
+04-knowledge/units/institutions/nanjing-yunjin-yanjiusuo.md	南京市云锦研究所（Nanjing Yunjin Research Institute）
+04-knowledge/units/institutions/nashishiju.md	纳失失局（Nasish Bureau）
+04-knowledge/units/institutions/neiwufu-zaobanchu.md	内务府造办处（Imperial Household Department Workshops）
+04-knowledge/units/institutions/pingzhunling.md	平准令（Pingzhunling）
+04-knowledge/units/institutions/qiaoergou-taocichang.md	桥儿沟陶瓷厂（Qiao'ergou Ceramics Factory）
+04-knowledge/units/institutions/qin-gongshi-gongguan.md	秦代工室与工官（Qin Workshops and Craft Officials）
+04-knowledge/units/institutions/qin-han-guan-ying-tao-yao.md	秦汉官营陶窑（Qin and Han State Pottery Kilns）
+04-knowledge/units/institutions/qinggongbu-qinggong-xueyuan.md	轻工业部属四所轻工学院（Four Light Industry Colleges under the Ministry of Light Industry）
+04-knowledge/units/institutions/qingjiang-chuanchang.md	清江船厂（Qingjiang Shipyard）
+04-knowledge/units/institutions/qiyi-gongsi.md	奇异公司（Shanghai GE Lamp Works）
+04-knowledge/units/institutions/quanguo-gaoxiao-gongye-sheji-xuehui.md	全国高校工业设计学会（National Higher Education Industrial Design Society）
+04-knowledge/units/institutions/sanfuguan.md	三服官（Three-Season Silk Office）
+04-knowledge/units/institutions/shang-royal-pottery-workshop.md	商代王室制陶作坊（Shang Royal Pottery Workshop）
+04-knowledge/units/institutions/shangfang.md	尚方（Shangfang）
+04-knowledge/units/institutions/shanghai-jiqi-zhibuju.md	上海机器织布局（Shanghai Machine Weaving Mill）
+04-knowledge/units/institutions/shanghai-meishu-dianying-zhipianchang.md	上海美术电影制片厂（Shanghai Animation Film Studio）
+04-knowledge/units/institutions/shanghai-zhuanwa-jumuchang.md	上海砖瓦锯木厂（Shanghai Brick, Tile and Sawmill）
+04-knowledge/units/institutions/shanglin-sanguan.md	上林三官（Three Offices of Shanglin）
+04-knowledge/units/institutions/shangmei-tuananguan.md	尚美图案馆（Shangmei Pattern Studio）
+04-knowledge/units/institutions/shangwu-yinshuguan.md	商务印书馆（The Commercial Press）
+04-knowledge/units/institutions/shaofujian.md	少府监（Court of the Imperial Workshops）
+04-knowledge/units/institutions/shenxin-fangzhi-gongsi.md	申新纺织公司（Shenxin Textile Company）
+04-knowledge/units/institutions/shibosi.md	市舶司（Maritime Trade Office）
+04-knowledge/units/institutions/shiquge.md	石渠阁（Shiqu Pavilion）
+04-knowledge/units/institutions/shosoin.md	正仓院（Shōsōin）
+04-knowledge/units/institutions/shujun-chengdu-guanghanjun-gongguan.md	蜀郡、成都、广汉郡工官（Craft Offices of Shu, Chengdu and Guanghan Commanderies）
+04-knowledge/units/institutions/sichuan-jinyuan.md	四川锦院（Sichuan Brocade Institute）
+04-knowledge/units/institutions/sinongsi.md	司农司（Directorate of Agriculture）
+04-knowledge/units/institutions/song-dai-huayuan.md	宋代宫廷画院（Song Imperial Painting Academy）
+04-knowledge/units/institutions/song-dai-ranzhi-guanli-jigou.md	宋代染织管理机构（Song Dynasty Weaving and Dyeing Administration）
+04-knowledge/units/institutions/southeast-university.md	东南大学（Southeast University）
+04-knowledge/units/institutions/suzhou-cixiu-yanjiusuo.md	苏州刺绣研究所（Suzhou Embroidery Research Institute）
+04-knowledge/units/institutions/swedish-museum-of-far-eastern-antiquities.md	瑞典远东古物博物馆（Swedish Museum of Far Eastern Antiquities）
+04-knowledge/units/institutions/taifu-si.md	太府寺（Taifu Si）
+04-knowledge/units/institutions/taishiju.md	太史局（Yuan Astronomical Bureau）
+04-knowledge/units/institutions/taiwan-youzheng-zongju.md	台湾邮政总局（Taiwan Postal Administration）
+04-knowledge/units/institutions/tianjin-jiqiju.md	天津机器局（Tianjin Arsenal）
+04-knowledge/units/institutions/wangmazi-jiandao-pu.md	王麻子剪刀铺（Wang Mazi Scissors Shop）
+04-knowledge/units/institutions/wensiyuan.md	文思院（Wensi Yuan）
+04-knowledge/units/institutions/wucaixia-xiufang.md	吴彩霞绣坊（Wucaixia Embroidery Workshop）
+04-knowledge/units/institutions/wuyingdian-xiushuchu.md	武英殿修书处（Wuyingdian Book Repair Office）
+04-knowledge/units/institutions/xi-xia-guan-ying-shou-gong-ye-jigou.md	西夏官营手工业机构（Western Xia State Handicraft Bureaus）
+04-knowledge/units/institutions/xi-xia-wensiyuan.md	西夏文思院（Western Xia Wensi Yuan）
+04-knowledge/units/institutions/xingwenshu.md	兴文署（Xingwen Shu）
+04-knowledge/units/institutions/xiuyuan.md	绣院（Song Embroidery Institute）
+04-knowledge/units/institutions/yanan-bolichang.md	延安玻璃厂（Yan'an Glass Factory）
+04-knowledge/units/institutions/yandao-muguan.md	严道木官（Yandao Timber Office）
+04-knowledge/units/institutions/yaping-yishu-zhuangshi-gongsi.md	亚平艺术装饰公司（Yaping Art Decoration Company）
+04-knowledge/units/institutions/yingmei-yancao-gongsi.md	英美烟草公司（Yingmei Tobacco Company）
+04-knowledge/units/institutions/yiwensi-tushu-gongsi.md	伊文思图书公司（Yiwensi Book Company）
+04-knowledge/units/institutions/yuan-dai-huaju.md	元代画局（Yuan Painting Bureau）
+04-knowledge/units/institutions/yuan-dai-yizhan.md	元代驿站（Yuan Dynasty Postal Relay Stations）
+04-knowledge/units/institutions/yunjin-yanjiu-gongzuozu.md	云锦研究工作组（Yunjin Research Working Group）
+04-knowledge/units/institutions/yuqichang.md	御器厂（Imperial Porcelain Factory）
+04-knowledge/units/institutions/zhejiang-shuju.md	浙江书局（Zhejiang Book Bureau）
+04-knowledge/units/institutions/zhiranshu.md	织染署（Weaving and Dyeing Bureau）
+04-knowledge/units/institutions/zhongguo-cansi-gongsi.md	中国蚕丝公司（China Silk Company）
+04-knowledge/units/institutions/zhongguo-fangzhi-jianshe-gongsi.md	中国纺织建设公司（China Textile Construction Company）
+04-knowledge/units/institutions/zhongguo-gongyi-meishu-xuehui.md	中国工艺美术学会（China Society of Arts and Crafts）
+04-knowledge/units/institutions/zhongguo-gongyi-meishuguan.md	中国工艺美术馆（China National Arts and Crafts Museum）
+04-knowledge/units/institutions/zhongguo-meishuguan.md	中国美术馆（National Art Museum of China）
+04-knowledge/units/institutions/zhongguo-renmin-yinhang.md	中国人民银行（People's Bank of China）
+04-knowledge/units/institutions/zhongguo-yingzao-xueshe.md	中国营造学社（Society for the Study of Chinese Architecture）
+04-knowledge/units/institutions/zhongshang-shu.md	中尚署（Zhongshang Shu）
+04-knowledge/units/institutions/zhongtian-dianjichang.md	中天电机厂（Zhongtian Electric Motor Factory）
+04-knowledge/units/institutions/zhongyang-gongyi-meishu-kexue-yanjiu-suo.md	中央工艺美术科学研究所（Central Research Institute of Arts and Crafts Science）
+04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md	中央历史语言研究所（Central Institute of History and Philology）
+04-knowledge/units/institutions/zhongyang-meishu-xueyuan.md	中央美术学院（Central Academy of Fine Arts）
+04-knowledge/units/institutions/zhongyang-shougongye-guanliju.md	中央手工业管理局（Central Handicraft Administration）
+04-knowledge/units/institutions/zhou-pottery-officials.md	周代制陶职官（Zhou Pottery Officials）
+04-knowledge/units/institutions/zhou-ranren-zhangrancao.md	周代染人与掌染草（Zhou Dyers and Dye-Plant Officers）
+04-knowledge/units/institutions/zhujiangying.md	诸匠营（Craftsmen Battalions）
+04-knowledge/units/institutions/zhujingju.md	铸镜局（Mirror Casting Bureau）
+04-knowledge/units/persons/aguda.md	阿骨打（Aguda (Wanyan Aguda)）
+04-knowledge/units/persons/anige.md	阿尼哥（Anige）
+04-knowledge/units/persons/ban-chao.md	班超（Ban Chao）
+04-knowledge/units/persons/ban-gu.md	班固（Ban Gu）
+04-knowledge/units/persons/bao-liang.md	包亮（Bao Liang）
+04-knowledge/units/persons/bi-sheng.md	毕昇（Bi Sheng）
+04-knowledge/units/persons/cai-lun.md	蔡伦（Cai Lun）
+04-knowledge/units/persons/cai-xiang.md	蔡襄（Cai Xiang）
+04-knowledge/units/persons/cai-yong.md	蔡邕（Cai Yong）
+04-knowledge/units/persons/cai-yuanpei.md	蔡元培（Cai Yuanpei）
+04-knowledge/units/persons/cangjie.md	仓颉（Cangjie）
+04-knowledge/units/persons/cao-liang.md	曹谅（Cao Liang）
+04-knowledge/units/persons/cao-xueqin.md	曹雪芹（Cao Xueqin）
+04-knowledge/units/persons/chabi.md	察必（Chabi）
+04-knowledge/units/persons/chai-fei.md	柴扉（Chai Fei）
+04-knowledge/units/persons/chen-baoguang.md	陈宝光（Chen Baoguang）
+04-knowledge/units/persons/chen-duxiu.md	陈独秀（Chen Duxiu）
+04-knowledge/units/persons/chen-hongshou.md	陈洪绶（Chen Hongshou）
+04-knowledge/units/persons/chen-mansheng.md	陈曼生（Chen Mansheng）
+04-knowledge/units/persons/chen-mengjia.md	陈梦家（Chen Mengjia）
+04-knowledge/units/persons/chen-mingyuan.md	陈鸣远（Chen Mingyuan）
+04-knowledge/units/persons/chen-zhifo.md	陈之佛（Chen Zhifo）
+04-knowledge/units/persons/cheng-miao.md	程邈（Cheng Miao）
+04-knowledge/units/persons/chengjisihan.md	成吉思汗（Genghis Khan）
+04-knowledge/units/persons/confucius.md	孔子（Confucius）
+04-knowledge/units/persons/cui-laizhi.md	崔来志（Cui Laizhi）
+04-knowledge/units/persons/dai-kui.md	戴逵（Dai Kui）
+04-knowledge/units/persons/dai-zhen.md	戴震（Dai Zhen）
+04-knowledge/units/persons/dayu.md	大禹（Yu the Great）
+04-knowledge/units/persons/ding-huan.md	丁缓（Ding Huan）
+04-knowledge/units/persons/ding-pei.md	丁佩（Ding Pei）
+04-knowledge/units/persons/dong-zhong-shu.md	董仲舒（Dong Zhongshu）
+04-knowledge/units/persons/dou-shilun.md	窦师纶（Dou Shilun）
+04-knowledge/units/persons/du-jinsheng.md	都锦生（Du Jinsheng）
+04-knowledge/units/persons/duan-fang.md	端方（Duan Fang）
+04-knowledge/units/persons/fan-zhongyan.md	范仲淹（Fan Zhongyan）
+04-knowledge/units/persons/feng-guifen.md	冯桂芬（Feng Guifen）
+04-knowledge/units/persons/feng-ru.md	冯如（Feng Ru）
+04-knowledge/units/persons/feng-zikai.md	丰子恺（Feng Zikai）
+04-knowledge/units/persons/fraser.md	弗雷泽（Frazer）
+04-knowledge/units/persons/fu-bao-shi.md	傅抱石（Fu Baoshi）
+04-knowledge/units/persons/fu-hao.md	妇好（Fu Hao）
+04-knowledge/units/persons/fu-sinian.md	傅斯年（Fu Sinian）
+04-knowledge/units/persons/fuxi.md	伏羲（Fuxi）
+04-knowledge/units/persons/ganjiang.md	干将（Gan Jiang）
+04-knowledge/units/persons/gao-feng.md	高丰（Gao Feng）
+04-knowledge/units/persons/ge-hong.md	葛洪（Ge Hong）
+04-knowledge/units/persons/ge-yuliang.md	戈裕良（Ge Yuliang）
+04-knowledge/units/persons/gong-yuzhang.md	龚玉璋（Gong Yuzhang）
+04-knowledge/units/persons/gongchun.md	供春（Gongchun）
+04-knowledge/units/persons/gongshu-pan.md	公输盘（Gongshu Pan）
+04-knowledge/units/persons/gu-hongzhong.md	顾闳中（Gu Hongzhong）
+04-knowledge/units/persons/gu-jingzhou.md	顾景舟（Gu Jingzhou）
+04-knowledge/units/persons/gu-kai-zhi.md	顾恺之（Gu Kaizhi）
+04-knowledge/units/persons/gu-shanshi.md	顾山师（Gu Shanshi）
+04-knowledge/units/persons/guan-zhong.md	管仲（Guan Zhong）
+04-knowledge/units/persons/guo-moruo.md	郭沫若（Guo Moruo）
+04-knowledge/units/persons/guo-shoujing.md	郭守敬（Guo Shoujing）
+04-knowledge/units/persons/haitong-heshang.md	海通和尚（Monk Haitong）
+04-knowledge/units/persons/han-fei-zi.md	韩非子（Han Feizi）
+04-knowledge/units/persons/han-wu-di.md	汉武帝（Emperor Wu of Han）
+04-knowledge/units/persons/han-ximeng.md	韩希孟（Han Ximeng）
+04-knowledge/units/persons/han-zhihe.md	韩志和（Han Zhihe）
+04-knowledge/units/persons/hang-zhiying.md	杭穉英（Hang Zhiying）
+04-knowledge/units/persons/he-chaozong.md	何朝宗（He Chaozong）
+04-knowledge/units/persons/he-chou.md	何稠（He Chou）
+04-knowledge/units/persons/hebert-a-simon.md	赫伯特·阿·西蒙（Herbert A. Simon）
+04-knowledge/units/persons/houyi.md	后羿（Houyi）
+04-knowledge/units/persons/hu-lianxian.md	胡莲仙（Hu Lianxian）
+04-knowledge/units/persons/hu-qichang.md	胡其昌（Hu Qichang）
+04-knowledge/units/persons/hu-shi.md	胡适（Hu Shi）
+04-knowledge/units/persons/hu-zheng-yan.md	胡正言（Hu Zhengyan）
+04-knowledge/units/persons/hua-sui.md	华燧（Hua Sui）
+04-knowledge/units/persons/huang-dacheng.md	黄大成（Huang Dacheng）
+04-knowledge/units/persons/huang-daopo.md	黄道婆（Huang Daopo）
+04-knowledge/units/persons/huang-lin.md	黄鏻（Huang Lin）
+04-knowledge/units/persons/huang-longsheng.md	黄隆生（Huang Longsheng）
+04-knowledge/units/persons/huang-maijiu.md	黄卖九（Huang Maijiu）
+04-knowledge/units/persons/huang-tingjian.md	黄庭坚（Huang Tingjian）
+04-knowledge/units/persons/huangdi-legend.md	黄帝（传说）（Huangdi, the Yellow Emperor）
+04-knowledge/units/persons/hubilie.md	忽必烈（Kublai Khan）
+04-knowledge/units/persons/huo-qu-bing.md	霍去病（Huo Qubing）
+04-knowledge/units/persons/ji-cheng.md	计成（Ji Cheng）
+04-knowledge/units/persons/ji-ganchen.md	吉干臣（Ji Ganchen）
+04-knowledge/units/persons/ji-kang.md	嵇康（Ji Kang）
+04-knowledge/units/persons/jiang-huihui.md	蒋回回（Jiang Huihui）
+04-knowledge/units/persons/jiang-qianli.md	姜千里（Jiang Qianli）
+04-knowledge/units/persons/jianzhen.md	鉴真（Jianzhen）
+04-knowledge/units/persons/jin-meisheng.md	金梅生（Jin Meisheng）
+04-knowledge/units/persons/jin-zhijun.md	金之俊（Jin Zhijun）
+04-knowledge/units/persons/johannes-gutenberg.md	约翰·古腾堡（Johannes Gutenberg）
+04-knowledge/units/persons/kang-youwei.md	康有为（Kang Youwei）
+04-knowledge/units/persons/king-wen-of-zhou.md	周文王（King Wen of Zhou）
+04-knowledge/units/persons/king-wu-of-zhou.md	周武王（King Wu of Zhou）
+04-knowledge/units/persons/king-zhuang-of-chu.md	楚庄王（King Zhuang of Chu）
+04-knowledge/units/persons/kuaixiang.md	蒯祥（Kuai Xiang）
+04-knowledge/units/persons/lang-tingji.md	郎廷极（Lang Tingji）
+04-knowledge/units/persons/laozi.md	老子（Laozi）
+04-knowledge/units/persons/lei-fada.md	雷发达（Lei Fada）
+04-knowledge/units/persons/lei-guiyuan.md	雷圭元（Lei Guiyuan）
+04-knowledge/units/persons/leizu.md	嫘祖（Leizu）
+04-knowledge/units/persons/li-bing.md	李冰（Li Bing）
+04-knowledge/units/persons/li-cheng.md	李诚（Li Cheng）
+04-knowledge/units/persons/li-chun.md	李春（Li Chun）
+04-knowledge/units/persons/li-chunfeng.md	李淳风（Li Chunfeng）
+04-knowledge/units/persons/li-dao-yuan.md	郦道元（Li Daoyuan）
+04-knowledge/units/persons/li-gao.md	李皋（Li Gao）
+04-knowledge/units/persons/li-ge-er.md	里格尔（Riegl）
+04-knowledge/units/persons/li-hongzhang.md	李鸿章（Li Hongzhang）
+04-knowledge/units/persons/li-lixin.md	李立新（Li Lixin）
+04-knowledge/units/persons/li-madou.md	利玛窦（Matteo Ricci）
+04-knowledge/units/persons/li-mubai.md	李慕白（Li Mubai）
+04-knowledge/units/persons/li-rui-qing.md	李瑞清（Li Ruiqing）
+04-knowledge/units/persons/li-si.md	李斯（Li Si）
+04-knowledge/units/persons/li-song.md	李嵩（Li Song）
+04-knowledge/units/persons/li-xiannian.md	李先念（Li Xiannian）
+04-knowledge/units/persons/li-xueqin.md	李学勤（Li Xueqin）
+04-knowledge/units/persons/li-youxing.md	李有行（Li Youxing）
+04-knowledge/units/persons/li-yu.md	李渔（Li Yu）
+04-knowledge/units/persons/li-yuanhao.md	李元昊（Li Yuanhao）
+04-knowledge/units/persons/li-zhi.md	李贽（Li Zhi）
+04-knowledge/units/persons/li-zhiqing.md	李芝卿（Li Zhiqing）
+04-knowledge/units/persons/liang-sicheng.md	梁思成（Liang Sicheng）
+04-knowledge/units/persons/lin-zexu.md	林则徐（Lin Zexu）
+04-knowledge/units/persons/liu-bingzhong.md	刘秉忠（Liu Bingzhong）
+04-knowledge/units/persons/liu-e.md	刘鹗（Liu E）
+04-knowledge/units/persons/liu-gongquan.md	柳公权（Liu Gongquan）
+04-knowledge/units/persons/liu-ji.md	刘基（Liu Ji (Liu Bowen)）
+04-knowledge/units/persons/liu-mingchuan.md	刘铭传（Liu Mingchuan）
+04-knowledge/units/persons/liu-xie.md	刘勰（Liu Xie）
+04-knowledge/units/persons/liu-zhiji.md	刘知幾（Liu Zhiji）
+04-knowledge/units/persons/liu-zhou.md	刘昼（Liu Zhou）
+04-knowledge/units/persons/liu-zongyuan.md	柳宗元（Liu Zongyuan）
+04-knowledge/units/persons/lu-ji.md	陆机（Lu Ji）
+04-knowledge/units/persons/lu-kuisheng.md	卢葵生（Lu Kuisheng）
+04-knowledge/units/persons/lu-meiniang.md	卢眉娘（Lu Meiniang）
+04-knowledge/units/persons/lu-xun.md	鲁迅（Lu Xun）
+04-knowledge/units/persons/lu-yanzhi.md	吕彦直（Lu Yanzhi）
+04-knowledge/units/persons/lu-you.md	陆游（Lu You）
+04-knowledge/units/persons/lu-yu.md	陆羽（Lu Yu）
+04-knowledge/units/persons/lu-zigang.md	陆子冈（Lu Zigang）
+04-knowledge/units/persons/lv-buwei.md	吕不韦（Lv Buwei）
+04-knowledge/units/persons/ma-jun.md	马钧（Ma Jun）
+04-knowledge/units/persons/mao-jin.md	毛晋（Mao Jin）
+04-knowledge/units/persons/mao-yisheng.md	茅以升（Mao Yisheng）
+04-knowledge/units/persons/mao-zedong.md	毛泽东（Mao Zedong）
+04-knowledge/units/persons/meng-tian.md	蒙恬（Meng Tian）
+04-knowledge/units/persons/mengzi.md	孟子（Mencius）
+04-knowledge/units/persons/mi-fei.md	米芾（Mi Fu）
+04-knowledge/units/persons/mi-wanzhong.md	米万钟（Mi Wanzhong）
+04-knowledge/units/persons/mianren-tang.md	面人汤（Mianren Tang (Dough-Figurine Tang)）
+04-knowledge/units/persons/mozi.md	墨子（Mozi）
+04-knowledge/units/persons/nan-huairen.md	南怀仁（Ferdinand Verbiest）
+04-knowledge/units/persons/ni-yunlin.md	倪云林（Ni Yunlin）
+04-knowledge/units/persons/nie-chongyi.md	聂崇义（Nie Chongyi）
+04-knowledge/units/persons/nuwa.md	女娲（Nuwa）
+04-knowledge/units/persons/ou-yang-xiu.md	欧阳修（Ouyang Xiu）
+04-knowledge/units/persons/pan-geng.md	盘庚（Pan Geng）
+04-knowledge/units/persons/pang-xunqin.md	庞薰琹（Pang Xunqin）
+04-knowledge/units/persons/peng-junbao.md	彭君宝（Peng Junbao）
+04-knowledge/units/persons/pi-te-li-fu-si.md	皮特·里弗斯（Pi Te Li Fu Si (Evolutionary Anthropologist)）
+04-knowledge/units/persons/pu-yuan.md	蒲元（Pu Yuan）
+04-knowledge/units/persons/pu-zhongqian.md	濮仲谦（Pu Zhongqian）
+04-knowledge/units/persons/qian-junfou.md	钱君匋（Qian Junfou）
+04-knowledge/units/persons/qian-juntao.md	钱君陶（Qian Juntao）
+04-knowledge/units/persons/qin-shi-huang.md	秦始皇（Qin Shi Huang）
+04-knowledge/units/persons/rentang.md	任塘（Ren Tang）
+04-knowledge/units/persons/rong-hong.md	容闳（Rong Hong）
+04-knowledge/units/persons/ruan-bi.md	阮弼（Ruan Bi）
+04-knowledge/units/persons/ruan-ji.md	阮籍（Ruan Ji）
+04-knowledge/units/persons/sangzhihua.md	桑志华（Emile Licent (Sang Zhihua)）
+04-knowledge/units/persons/sen-po.md	森珀（Semper）
+04-knowledge/units/persons/seng-yixing.md	僧一行（Monk Yixing）
+04-knowledge/units/persons/shang-tang.md	商汤（Shang Tang）
+04-knowledge/units/persons/shen-fuwen.md	沈福文（Shen Fuwen）
+04-knowledge/units/persons/shen-jinshui.md	沈金水（Shen Jinshui）
+04-knowledge/units/persons/shen-kuo.md	沈括（Shen Kuo）
+04-knowledge/units/persons/shen-shou.md	沈寿（Shen Shou）
+04-knowledge/units/persons/shen-zhaoan.md	沈沼安（Shen Zhao'an）
+04-knowledge/units/persons/shen-zifan.md	沈子蕃（Shen Zifan）
+04-knowledge/units/persons/shennong-shi.md	神农氏（Shennong Shi）
+04-knowledge/units/persons/shi-dabin.md	时大彬（Shi Dabin）
+04-knowledge/units/persons/shi-lu.md	史禄（Shi Lu）
+04-knowledge/units/persons/shi-tao.md	石涛（Shi Tao）
+04-knowledge/units/persons/shi-xing-bang.md	石兴邦（Shi Xingbang）
+04-knowledge/units/persons/shi-you.md	史游（Shi You）
+04-knowledge/units/persons/shu-jiao.md	舒娇（Shu Jiao）
+04-knowledge/units/persons/shu-weng.md	舒翁（Shu Weng）
+04-knowledge/units/persons/shun-legend.md	舜（传说）（Shun, the Legendary Emperor）
+04-knowledge/units/persons/si-kong-tu.md	司空图（Sikong Tu）
+04-knowledge/units/persons/si-ma-guang.md	司马光（Sima Guang）
+04-knowledge/units/persons/si-ma-qian.md	司马迁（Sima Qian）
+04-knowledge/units/persons/si-tuqiao.md	司徒乔（Situ Qiao）
+04-knowledge/units/persons/song-yingxing.md	宋应星（Song Yingxing）
+04-knowledge/units/persons/song-zhenhao.md	宋镇豪（Song Zhenhao）
+04-knowledge/units/persons/su-shi-qianqin.md	苏氏（窦滔妻）（Su Shi (Wife of Dou Tao)）
+04-knowledge/units/persons/su-shi.md	苏轼（Su Shi）
+04-knowledge/units/persons/su-shun-qin.md	苏舜钦（Su Shunqin）
+04-knowledge/units/persons/subingqi.md	苏秉琦（Su Bingqi）
+04-knowledge/units/persons/suiren-shi.md	燧人氏（Suiren Shi）
+04-knowledge/units/persons/sun-fuxi.md	孙福熙（Sun Fuxi）
+04-knowledge/units/persons/sun-wei.md	孙威（Sun Wei）
+04-knowledge/units/persons/sun-wu.md	孙武（Sun Wu）
+04-knowledge/units/persons/sun-yat-sen.md	孙中山（Sun Yat-sen）
+04-knowledge/units/persons/tang-ruowang.md	汤若望（Johann Adam Schall von Bell）
+04-knowledge/units/persons/tang-tianchi.md	汤天池（Tang Tianchi）
+04-knowledge/units/persons/tang-zhongyou.md	唐仲友（Tang Zhongyou）
+04-knowledge/units/persons/tao-yuanqing.md	陶元庆（Tao Yuanqing）
+04-knowledge/units/persons/tian-zizhu.md	田自秉（Tian Zibing）
+04-knowledge/units/persons/tom-qipinte.md	汤姆·齐平特（Tom Qipinte）
+04-knowledge/units/persons/wan-chao-chen.md	万超尘（Wan Chaochen）
+04-knowledge/units/persons/wan-gu-chan.md	万古蟾（Wan Guchan）
+04-knowledge/units/persons/wan-lai-ming.md	万籁鸣（Wan Laiming）
+04-knowledge/units/persons/wang-anshi.md	王安石（Wang Anshi）
+04-knowledge/units/persons/wang-caiyun.md	王才运（Wang Caiyun）
+04-knowledge/units/persons/wang-chongyang.md	王重阳（Wang Chongyang）
+04-knowledge/units/persons/wang-mang.md	王莽（Wang Mang）
+04-knowledge/units/persons/wang-maoxian.md	王茂仙（Wang Maoxian）
+04-knowledge/units/persons/wang-mian.md	王冕（Wang Mian）
+04-knowledge/units/persons/wang-xi-zhi.md	王羲之（Wang Xizhi）
+04-knowledge/units/persons/wang-xian-zhi.md	王献之（Wang Xianzhi）
+04-knowledge/units/persons/wang-ximeng.md	王希孟（Wang Ximeng）
+04-knowledge/units/persons/wang-yirong.md	王懿荣（Wang Yirong）
+04-knowledge/units/persons/wang-zhen.md	王祯（Wang Zhen）
+04-knowledge/units/persons/wang-zheng.md	王征（Wang Zheng）
+04-knowledge/units/persons/wanhu.md	万户（Wanhu）
+04-knowledge/units/persons/wei-dan.md	韦诞（Wei Dan）
+04-knowledge/units/persons/wei-gai.md	卫改（Wei Gai）
+04-knowledge/units/persons/wei-yuan.md	魏源（Wei Yuan）
+04-knowledge/units/persons/wen-yiduo.md	闻一多（Wen Yiduo）
+04-knowledge/units/persons/wen-zhengming.md	文征明（Wen Zhengming）
+04-knowledge/units/persons/wen-zhenheng.md	文震亨（Wen Zhenheng）
+04-knowledge/units/persons/weng-wuzhang.md	翁五章（Weng Wuzhang）
+04-knowledge/units/persons/wu-dacheng.md	吴大澂（Wu Dacheng）
+04-knowledge/units/persons/wu-faxiang.md	吴发祥（Wu Faxiang）
+04-knowledge/units/persons/wu-xu.md	吴煦（Wu Xu）
+04-knowledge/units/persons/wu-zetian.md	武则天（Wu Zetian）
+04-knowledge/units/persons/wu-zhifan.md	吴之璠（Wu Zhifan）
+04-knowledge/units/persons/xi-zhong.md	奚仲（Xi Zhong）
+04-knowledge/units/persons/xia-qi.md	夏启（Qi of Xia）
+04-knowledge/units/persons/xiao-he.md	萧何（Xiao He）
+04-knowledge/units/persons/xiaowendi.md	孝文帝（Emperor Xiaowen of Northern Wei）
+04-knowledge/units/persons/xie-he.md	谢赫（Xie He）
+04-knowledge/units/persons/ximen-bao.md	西门豹（Ximen Bao）
+04-knowledge/units/persons/xu-guangqi.md	徐光启（Xu Guangqi）
+04-knowledge/units/persons/xu-shen.md	许慎（Xu Shen）
+04-knowledge/units/persons/xu-shou.md	徐寿（Xu Shou）
+04-knowledge/units/persons/xu-yanzhuo.md	许衍灼（Xu Yanzhuo）
+04-knowledge/units/persons/xu-zhuoyun.md	许倬云（Xu Zhuoyun）
+04-knowledge/units/persons/xuanzang.md	玄奘（Xuanzang）
+04-knowledge/units/persons/xunzi.md	荀子（Xunzi）
+04-knowledge/units/persons/yan-lide.md	阎立德（Yan Lide）
+04-knowledge/units/persons/yan-su.md	燕肃（Yan Su）
+04-knowledge/units/persons/yan-zhenqing.md	颜真卿（Yan Zhenqing）
+04-knowledge/units/persons/yang-hong.md	杨泓（Yang Hong）
+04-knowledge/units/persons/yang-mao.md	杨茂（Yang Mao）
+04-knowledge/units/persons/yang-ningshi.md	杨凝式（Yang Ningshi）
+04-knowledge/units/persons/yang-pengnian.md	杨彭年（Yang Pengnian）
+04-knowledge/units/persons/yang-shouyu.md	杨守玉（Yang Shouyu）
+04-knowledge/units/persons/yang-xun.md	杨埙（Yang Xun）
+04-knowledge/units/persons/yang-yao.md	杨耀（Yang Yao）
+04-knowledge/units/persons/yang-yixian.md	杨逸仙（Yang Yixian）
+04-knowledge/units/persons/yasibeisi.md	雅斯贝斯（Jaspers）
+04-knowledge/units/persons/ye-lingfeng.md	叶灵凤（Ye Lingfeng）
+04-knowledge/units/persons/yelv-abaoji.md	耶律阿保机（Yelü Abaoji）
+04-knowledge/units/persons/youchao-shi.md	有巢氏（Youchao Shi）
+04-knowledge/units/persons/yuhao.md	喻皓（Yu Hao）
+04-knowledge/units/persons/yuwen-kai.md	宇文恺（Yuwen Kai）
+04-knowledge/units/persons/zeng-guofan.md	曾国藩（Zeng Guofan）
+04-knowledge/units/persons/zeng-liansong.md	曾联松（Zeng Liansong）
+04-knowledge/units/persons/zhai-jinsheng.md	翟金生（Zhai Jinsheng）
+04-knowledge/units/persons/zhan-tianyou.md	詹天佑（Zhan Tianyou）
+04-knowledge/units/persons/zhang-anshi.md	张安世（Zhang Anshi）
+04-knowledge/units/persons/zhang-cheng.md	张成（Zhang Cheng）
+04-knowledge/units/persons/zhang-daoyi.md	张道一（Zhang Daoyi）
+04-knowledge/units/persons/zhang-degang.md	张德刚（Zhang Degang）
+04-knowledge/units/persons/zhang-ding.md	张仃（Zhang Ding）
+04-knowledge/units/persons/zhang-guang-yu.md	张光宇（Zhang Guangyu）
+04-knowledge/units/persons/zhang-guangzhi.md	张光直（Zhang Guangzhi）
+04-knowledge/units/persons/zhang-heng.md	张衡（Zhang Heng）
+04-knowledge/units/persons/zhang-jian.md	张謇（Zhang Jian）
+04-knowledge/units/persons/zhang-jinghu.md	张景祜（Zhang Jinghu）
+04-knowledge/units/persons/zhang-lian.md	张涟（Zhang Lian）
+04-knowledge/units/persons/zhang-mingshan.md	张明山（Zhang Mingshan）
+04-knowledge/units/persons/zhang-qian.md	张骞（Zhang Qian）
+04-knowledge/units/persons/zhang-shuiquan.md	章水泉（Zhang Shuiquan）
+04-knowledge/units/persons/zhang-xuan.md	张萱（Zhang Xuan）
+04-knowledge/units/persons/zhang-yanyuan.md	张彦远（Zhang Yanyuan）
+04-knowledge/units/persons/zhang-zeduan.md	张择端（Zhang Zeduan）
+04-knowledge/units/persons/zhang-zhidong.md	张之洞（Zhang Zhidong）
+04-knowledge/units/persons/zhangpengchuan.md	张朋川（Zhang Pengchuan）
+04-knowledge/units/persons/zhao-feng.md	赵丰（Zhao Feng）
+04-knowledge/units/persons/zhao-guo.md	赵过（Zhao Guo）
+04-knowledge/units/persons/zhao-ji.md	赵佶（Zhao Ji (Emperor Huizong)）
+04-knowledge/units/persons/zhao-mengfu.md	赵孟頫（Zhao Mengfu）
+04-knowledge/units/persons/zhao-nong.md	赵农（Zhao Nong）
+04-knowledge/units/persons/zhao-wulingwang.md	赵武灵王（King Wuling of Zhao）
+04-knowledge/units/persons/zheng-guanying.md	郑观应（Zheng Guanying）
+04-knowledge/units/persons/zheng-guo.md	郑国（Zheng Guo）
+04-knowledge/units/persons/zheng-he.md	郑和（Zheng He）
+04-knowledge/units/persons/zheng-ke.md	郑可（Zheng Ke）
+04-knowledge/units/persons/zheng-mantuo.md	郑曼陀（Zheng Mantu）
+04-knowledge/units/persons/zhong-yao.md	钟繇（Zhong Yao）
+04-knowledge/units/persons/zhou-enlai.md	周恩来（Zhou Enlai）
+04-knowledge/units/persons/zhou-fang.md	周昉（Zhou Fang）
+04-knowledge/units/persons/zhou-gong.md	周公（Zhou Gong）
+04-knowledge/units/persons/zhou-jiazhou.md	周嘉胄（Zhou Jiazhou）
+04-knowledge/units/persons/zhou-renzhai.md	周仁斋（Zhou Renzhai）
+04-knowledge/units/persons/zhou-wenju.md	周文矩（Zhou Wenju）
+04-knowledge/units/persons/zhou-zhu.md	周翥（Zhou Zhu）
+04-knowledge/units/persons/zhu-bishan.md	朱碧山（Zhu Bishan）
+04-knowledge/units/persons/zhu-he.md	朱鹤（Zhu He）
+04-knowledge/units/persons/zhu-kerou.md	朱克柔（Zhu Kerou）
+04-knowledge/units/persons/zhu-qijian.md	朱启钤（Zhu Qiqian）
+04-knowledge/units/persons/zhu-sansong.md	朱三松（Zhu Sansong）
+04-knowledge/units/persons/zhu-xi.md	朱熹（Zhu Xi）
+04-knowledge/units/persons/zhu-xiaosong.md	朱小松（Zhu Xiaosong）
+04-knowledge/units/persons/zhu-yan.md	朱琰（Zhu Yan）
+04-knowledge/units/persons/zhu-zaiyu.md	朱载堉（Zhu Zaiyu）
+04-knowledge/units/persons/zhuangzi.md	庄子（Zhuangzi）
+04-knowledge/units/persons/zhuge-liang.md	诸葛亮（Zhuge Liang）
+04-knowledge/units/persons/zongbaihua.md	宗白华（Zong Baihua）
+04-knowledge/units/persons/zuo-zongtang.md	左宗棠（Zuo Zongtang）
+04-knowledge/units/places/asitana-gumu.md	阿斯塔那古墓（Astana Cemetery）
+04-knowledge/units/places/badaling.md	八达岭长城（Badaling Great Wall）
+04-knowledge/units/places/banpo-site.md	半坡遗址（Banpo Site）
+04-knowledge/units/places/baoshan-chumu.md	包山楚墓（Baoshan Chu Tomb）
+04-knowledge/units/places/beijing.md	北京（Beijing）
+04-knowledge/units/places/beiyinyangying-site.md	北阴阳营遗址（Beiyinyangying Site）
+04-knowledge/units/places/biandun-xizhou-tomb.md	金坛鳖墩西周墓（Jintan Biandun Western Zhou Tomb）
+04-knowledge/units/places/changsha-chumuqun.md	长沙楚墓群（Changsha Chu Tombs）
+04-knowledge/units/places/changsha-wujialing.md	长沙伍家岭（Wujialing, Changsha）
+04-knowledge/units/places/chenliu.md	陈留（Chenliu）
+04-knowledge/units/places/chifeng-gangwayaotun-liaoyao.md	赤峰缸瓦窑屯辽窑（Chifeng Gangwayaotun Liao Kiln）
+04-knowledge/units/places/cizhou-kiln.md	磁州窑（Cizhou Kiln）
+04-knowledge/units/places/dadiwan-site.md	大地湾遗址（Dadiwan Site）
+04-knowledge/units/places/danyang.md	丹阳（Danyang Copper Region）
+04-knowledge/units/places/daxing-cheng.md	大兴城（Daxing City）
+04-knowledge/units/places/dehua-yao.md	德化窑（Dehua Kiln）
+04-knowledge/units/places/dengxian-xuezhuang-huaxiangzhuan-mu.md	邓县学庄画像砖墓（Dengxian Xuezhuang Pictorial Brick Tomb）
+04-knowledge/units/places/deqing-yao.md	德清窑（Deqing Kiln）
+04-knowledge/units/places/ding-kiln.md	定窑（Ding Kiln）
+04-knowledge/units/places/dong-yao.md	董窑（Dong Kiln）
+04-knowledge/units/places/dongyang.md	东阳（Dongyang）
+04-knowledge/units/places/duanzhou.md	端州（Duanzhou）
+04-knowledge/units/places/dunhuang-mogao-ku.md	敦煌莫高窟（Mogao Grottoes）
+04-knowledge/units/places/erlitou-site.md	二里头遗址（Erlitou Site）
+04-knowledge/units/places/famen-si-digong.md	法门寺塔基地宫（Crypt of the Famen Temple Pagoda）
+04-knowledge/units/places/fenghao.md	丰镐（Fenghao）
+04-knowledge/units/places/fuhao-tomb.md	妇好墓（Tomb of Fu Hao）
+04-knowledge/units/places/fushun-daguantun-yao.md	抚顺大官屯窑（Fushun Daguantun Kiln）
+04-knowledge/units/places/gansu-qingyang.md	甘肃庆阳（Qingyang, Gansu）
+04-knowledge/units/places/gaocheng-taixicun-site.md	藁城台西村商代遗址（Gaocheng Taixicun Site）
+04-knowledge/units/places/gaoyang.md	高阳（Gaoyang）
+04-knowledge/units/places/gongyi-shiku-si.md	巩义石窟寺（Gongyi Grottoes Temple）
+04-knowledge/units/places/guangzhou-qin-han-zaochuan-gongchang-yizhi.md	广州秦汉造船工场遗址（Guangzhou Qin-Han Shipyard Site）
+04-knowledge/units/places/guangzhou.md	广州（Guangzhou / Canton）
+04-knowledge/units/places/han-chang-an.md	汉长安城（Han Chang'an）
+04-knowledge/units/places/hejiacun-jiaocang.md	何家村窖藏（Hejiacun Hoard）
+04-knowledge/units/places/helin.md	和林（Karakorum）
+04-knowledge/units/places/hemudu-site.md	河姆渡遗址（Hemudu Site）
+04-knowledge/units/places/houma-zhutong-site.md	侯马周代铸铜遗址（Houma Bronze Foundry Site）
+04-knowledge/units/places/huating-mudi.md	花厅墓地（Huating Cemetery）
+04-knowledge/units/places/huixian-zhanguo-mudi.md	辉县战国墓地（Huixian Warring States Cemetery）
+04-knowledge/units/places/huoqubing-mu.md	霍去病墓（Tomb of Huo Qubing）
+04-knowledge/units/places/huoshaogou-site.md	火烧沟遗址（Huoshaogou Site）
+04-knowledge/units/places/jian-kiln.md	建窑（Jian Kiln）
+04-knowledge/units/places/jiangling-chumuqun.md	江陵楚墓群（Jiangling Chu Tombs）
+04-knowledge/units/places/jiangling-fenghuangshan-qinmu.md	江陵凤凰山秦墓（Jiangling Fenghuangshan Qin Tomb）
+04-knowledge/units/places/jiangling-mashan-yihao-chumu.md	江陵马山一号楚墓（Mashan Tomb No. 1 at Jiangling）
+04-knowledge/units/places/jiangzhai-site.md	姜寨遗址（Jiangzhai Site）
+04-knowledge/units/places/jiaxing-xitang-yanghui.md	嘉兴西塘扬汇（Xitang Yanghui, Jiaxing）
+04-knowledge/units/places/jiayuguan.md	嘉峪关（Jiayuguan Pass）
+04-knowledge/units/places/jingdezhen-kiln.md	景德镇窑（Jingdezhen Kiln）
+04-knowledge/units/places/jingdezhen.md	景德镇（Jingdezhen）
+04-knowledge/units/places/jingshan.md	景山（Jingshan）
+04-knowledge/units/places/jizhou-kiln.md	吉州窑（Jizhou Kiln）
+04-knowledge/units/places/jun-kiln.md	钧窑（Jun Kiln）
+04-knowledge/units/places/junshan-yao.md	均山窑（Junshan Kiln）
+04-knowledge/units/places/juyongguan.md	居庸关（Juyongguan Pass）
+04-knowledge/units/places/kaifeng.md	开封（Kaifeng）
+04-knowledge/units/places/kongwangshan-moya-zaoxiang.md	孔望山摩崖造像（Kongwangshan Cliff Carvings）
+04-knowledge/units/places/lelang.md	乐浪（Lelang）
+04-knowledge/units/places/liangchengzhen-site.md	两城镇遗址（Liangchengzhen Site）
+04-knowledge/units/places/liangzhu-gucheng.md	良渚古城（Liangzhu City Site）
+04-knowledge/units/places/liao-wujing.md	辽五京（Five Capitals of Liao）
+04-knowledge/units/places/liling.md	醴陵（Liling）
+04-knowledge/units/places/linan.md	临安（Lin'an / Hangzhou）
+04-knowledge/units/places/linzi.md	临淄（Linzi）
+04-knowledge/units/places/liuyang.md	浏阳（Liuyang）
+04-knowledge/units/places/longmen-grottoes.md	龙门石窟（Longmen Grottoes）
+04-knowledge/units/places/longquan-kiln.md	龙泉窑（Longquan Kiln）
+04-knowledge/units/places/luoyang-cheng.md	隋唐洛阳城（Sui-Tang Luoyang City）
+04-knowledge/units/places/luoyang.md	洛阳（Luoyang）
+04-knowledge/units/places/maijishan-shiku.md	麦积山石窟（Maijishan Grottoes）
+04-knowledge/units/places/mancheng-hanmu.md	满城汉墓（Mancheng Han Tombs）
+04-knowledge/units/places/mawangdui-hanmu.md	马王堆汉墓（Mawangdui Han Tombs）
+04-knowledge/units/places/miaodigou-site.md	庙底沟遗址（Miaodigou Site）
+04-knowledge/units/places/minfeng-hanmu.md	民丰汉墓（Minfeng Han Tombs）
+04-knowledge/units/places/nanjing.md	南京（Nanjing）
+04-knowledge/units/places/nanyang-huaxiangshi-qu.md	南阳画像石分布区（Nanyang Pictorial Stone Region）
+04-knowledge/units/places/niya-site.md	尼雅遗址（Niya Site）
+04-knowledge/units/places/olduvai-gorge.md	奥杜韦峡谷（Olduvai Gorge）
+04-knowledge/units/places/ou-kiln.md	瓯窑（Ou Kiln）
+04-knowledge/units/places/pingshan-zhongshanguo-wangmu.md	平山中山王墓（Pingshan Zhongshan Royal Tomb）
+04-knowledge/units/places/qianling.md	乾陵（Qianling Mausoleum）
+04-knowledge/units/places/qingtian.md	青田（Qingtian）
+04-knowledge/units/places/qishan-fengchucun-yizhi.md	岐山凤雏村西周建筑遗址（Western Zhou Building Site at Fengchu Village, Qishan）
+04-knowledge/units/places/qixiashan-qianfoya.md	南京栖霞山千佛崖（Qixiashan Thousand Buddha Cliff）
+04-knowledge/units/places/rongchang.md	荣昌（Rongchang）
+04-knowledge/units/places/rongcheng-songguojia-site.md	荣成松郭家村遗址（Songguojia Site at Rongcheng）
+04-knowledge/units/places/ru-kiln.md	汝窑（Ru Kiln）
+04-knowledge/units/places/sanmenxia-guoguo-tomb.md	三门峡虢国墓地（Sanmenxia Guoguo Cemetery）
+04-knowledge/units/places/sanshan-wuyuan.md	三山五园（Three Hills and Five Gardens）
+04-knowledge/units/places/sanxingdui-altar-pit.md	三星堆祭坛坑（Sanxingdui Altar Pit）
+04-knowledge/units/places/sanxingdui.md	三星堆（Sanxingdui）
+04-knowledge/units/places/shandingdong-site.md	山顶洞遗址（Shandingdong Site）
+04-knowledge/units/places/shandong-boshan.md	山东博山（Boshan, Shandong）
+04-knowledge/units/places/shanghai.md	上海（Shanghai）
+04-knowledge/units/places/shanglinyuan.md	上林苑（Shanglin Park）
+04-knowledge/units/places/shangyu-yaozhi.md	上虞窑址（Shangyu Kiln Sites）
+04-knowledge/units/places/shanhaiguan.md	山海关（Shanhaiguan Pass）
+04-knowledge/units/places/shaoxing-fusheng-yaozhi.md	绍兴富盛战国窑址（Shaoxing Fusheng Kiln Site）
+04-knowledge/units/places/shenzhen.md	深圳（Shenzhen）
+04-knowledge/units/places/shiwan-yao.md	石湾窑（Shiwan Kiln）
+04-knowledge/units/places/shuihudi-qinmu.md	睡虎地秦墓（Shuihudi Qin Tomb）
+04-knowledge/units/places/song-official-kiln.md	宋代官窑窑址（Song Official Kiln Sites）
+04-knowledge/units/places/songjiang-fu.md	松江府（Songjiang Prefecture）
+04-knowledge/units/places/suzhou-wangshiyuan.md	苏州网师园（Master of the Nets Garden）
+04-knowledge/units/places/suzhou.md	苏州（Suzhou）
+04-knowledge/units/places/tianjin.md	天津（Tianjin）
+04-knowledge/units/places/tianjing.md	天京（Tianjing）
+04-knowledge/units/places/tunxi-xizhou-tomb.md	屯溪西周墓（Tunxi Western Zhou Tombs）
+04-knowledge/units/places/wuguancun-tomb.md	安阳武官村大墓（Wuguancun Tomb, Anyang）
+04-knowledge/units/places/wuliangci.md	武梁祠（Wuliang Shrine）
+04-knowledge/units/places/wunijing.md	乌泥泾（Wunijing）
+04-knowledge/units/places/wushi-ci.md	武氏祠（Wushi Shrines）
+04-knowledge/units/places/wutaishan.md	五台山（Mount Wutai）
+04-knowledge/units/places/wuwei-leitai-hanmu.md	武威雷台汉墓（Wuwei Leitai Han Tomb）
+04-knowledge/units/places/wuzhou-kiln.md	婺州窑（Wuzhou Kiln）
+04-knowledge/units/places/xi-yuan.md	西苑（Western Gardens (Xiyuan)）
+04-knowledge/units/places/xian.md	西安（Xi'an）
+04-knowledge/units/places/xianggang.md	香港（Hong Kong）
+04-knowledge/units/places/xiangtangshan-shiku.md	响堂山石窟（Xiangtangshan Grottoes）
+04-knowledge/units/places/xiangyi-chenliu.md	襄邑（Xiangyi）
+04-knowledge/units/places/xianrendong-site.md	仙人洞遗址（Xianrendong Site）
+04-knowledge/units/places/xianyang.md	咸阳（Qin Xianyang）
+04-knowledge/units/places/xiaotangshan.md	孝堂山郭巨祠（Xiaotangshan Shrine）
+04-knowledge/units/places/xiaotun-beixinzhuang-site.md	小屯北辛庄商代遗址（Xiaotun Beixinzhuang Site）
+04-knowledge/units/places/xichuan-xiasi-chumu.md	淅川下寺楚墓（Xichuan Xiasi Chu Tombs）
+04-knowledge/units/places/xihoudu-site.md	西侯度遗址（Xihoudu Site）
+04-knowledge/units/places/xincun-xizhou-tomb.md	濬县辛村西周墓（Xincun Western Zhou Cemetery）
+04-knowledge/units/places/xing-kiln.md	邢窑（Xing Kiln）
+04-knowledge/units/places/xingan-dayangzhou-site.md	新干大洋洲遗址（Xingan Dayangzhou Site）
+04-knowledge/units/places/xinyang-chumu.md	信阳楚墓（Xinyang Chu Tomb）
+04-knowledge/units/places/xishan-chengzhi.md	郑州西山城址（Xishan City Site）
+04-knowledge/units/places/xishuipo-site.md	西水坡遗址（Xishuipo Site）
+04-knowledge/units/places/xuejiagang-site.md	薛家岗遗址（Xuejiagang Site）
+04-knowledge/units/places/yangzhou.md	扬州（Yangzhou）
+04-knowledge/units/places/yanshi-shangcheng.md	偃师商城（Yanshi Shang City）
+04-knowledge/units/places/yaozhou-kiln.md	耀州窑（Yaozhou Kiln）
+04-knowledge/units/places/yecheng.md	邺城（Yecheng）
+04-knowledge/units/places/yinan-huaxiangshi-mu.md	沂南画像石墓（Yinan Pictorial Stone Tomb）
+04-knowledge/units/places/yinxu.md	殷墟（Yinxu）
+04-knowledge/units/places/yixing.md	宜兴（Yixing）
+04-knowledge/units/places/yong-cheng.md	雍城（Yong City）
+04-knowledge/units/places/yuan-dadu.md	元大都（Yuan Dadu）
+04-knowledge/units/places/yue-kiln.md	越窑（Yue Kiln）
+04-knowledge/units/places/yuezhou-kiln.md	岳州窑（Yuezhou Kiln）
+04-knowledge/units/places/yungang-shiku.md	云冈石窟（Yungang Grottoes）
+04-knowledge/units/places/zenghouyi-tomb.md	曾侯乙墓（Tomb of Marquis Yi of Zeng）
+04-knowledge/units/places/zhangjiapo-site.md	张家坡遗址（Zhangjiapo Site）
+04-knowledge/units/places/zhangzhou-pinghe.md	漳州平和（Zhangzhou Pinghe）
+04-knowledge/units/places/zhaoling.md	昭陵（Zhaoling Mausoleum）
+04-knowledge/units/places/zhenghan-gucheng-taofang-yizhi.md	郑韩故城制陶作坊遗址（Pottery Workshop Site at the Zheng-Han Capital）
+04-knowledge/units/places/zhengzhou-shangcheng.md	郑州商城（Zhengzhou Shang City）
+04-knowledge/units/places/zhengzhou-zijingshan-site.md	郑州紫荆山商代遗址（Zhengzhou Zijingshan Site）
+04-knowledge/units/places/zhoukoudian-site.md	周口店遗址（Zhoukoudian Site）
+04-knowledge/units/places/zidanku-chumu.md	子弹库楚墓（Zidanku Chu Tomb）
+04-knowledge/units/procedures/bai-lian-gang.md	百炼钢（Repeated Forging Steel）
+04-knowledge/units/procedures/bangpao-xiangqian.md	蚌泡镶嵌（Shell Boss Inlay）
+04-knowledge/units/procedures/bian-xiu.md	辫绣（Braid Stitch）
+04-knowledge/units/procedures/bianzhi.md	编织（Basketry and Cordage）
+04-knowledge/units/procedures/bo-lou.md	拨镂（Dyed-and-Carved Ivory Decoration）
+04-knowledge/units/procedures/bo-rou-diao.md	薄肉雕（Low Relief Carving）
+04-knowledge/units/procedures/caihui-tao-zhizuo.md	彩陶制作工艺（Painted Pottery Production）
+04-knowledge/units/procedures/chao-gang.md	炒钢（Puddling Steel）
+04-knowledge/units/procedures/chelun-jiance-fa.md	"车轮检测法（Wheel Inspection Methods）"
+04-knowledge/units/procedures/chromate-oxidation-treatment.md	铬盐氧化防锈处理（Chromate Oxidation Anti-Rust Treatment）
+04-knowledge/units/procedures/chuai-ran.md	"踹染（Calendering）"
+04-knowledge/units/procedures/chuihui-fa.md	吹灰法（Cupellation）
+04-knowledge/units/procedures/chuiyou-fa.md	"吹釉法（Blown Glazing）"
+04-knowledge/units/procedures/ci-huazi.md	瓷活字（Porcelain Movable Type）
+04-knowledge/units/procedures/ci-xiu-hua.md	瓷绣花（Needle-pricked Porcelain Decoration）
+04-knowledge/units/procedures/cuanbian.md	攒边（Frame-and-panel Joinery）
+04-knowledge/units/procedures/cuo-jin-yin-cuo-tong.md	错金银与错铜（Gold, Silver and Copper Inlay）
+04-knowledge/units/procedures/daogeng-huozhong.md	刀耕火种（Slash-and-Burn Cultivation）
+04-knowledge/units/procedures/daolian-fa.md	捣练法（Silk Scouring by Pounding）
+04-knowledge/units/procedures/dianzi-zhaopai.md	电子照排（Electronic Phototypesetting）
+04-knowledge/units/procedures/diao-you.md	雕釉（Sgraffito Glaze Carving of Cizhou Ware）
+04-knowledge/units/procedures/diaoban-yinshua.md	雕版印刷（Woodblock Printing）
+04-knowledge/units/procedures/die-shao.md	叠烧（Stack Firing）
+04-knowledge/units/procedures/diezhu-jishu.md	"叠铸技术（Stack Casting）"
+04-knowledge/units/procedures/divination.md	占卜（Divination）
+04-knowledge/units/procedures/duanban-taoyin.md	"短版套印（Duoban Color Printing）"
+04-knowledge/units/procedures/dyeing.md	染色（Dyeing）
+04-knowledge/units/procedures/erci-shaocheng-fa.md	"二次烧成法（Twice-Fired Glazing）"
+04-knowledge/units/procedures/fenben-fuzhi.md	粉本复制（Pounce Transfer）
+04-knowledge/units/procedures/fengxiang-nisu.md	"凤翔泥塑（Fengxiang Clay Sculpture）"
+04-knowledge/units/procedures/fengyao-jishu.md	封窑技术（Kiln Sealing and Reduction Firing）
+04-knowledge/units/procedures/fenshi-fa.md	"焚失法（Burn-Out Casting）"
+04-knowledge/units/procedures/fenzhu-fa.md	分铸法（Sectional Casting）
+04-knowledge/units/procedures/fu-shao-fa.md	覆烧法（定窑与景德镇）（Inverted Firing）
+04-knowledge/units/procedures/gong-hua.md	拱花（Embossed Printing）
+04-knowledge/units/procedures/guan-gang-fa.md	灌钢法（Co-fusion Steel Making）
+04-knowledge/units/procedures/han-dai-qiqi-zhizuo-fengong.md	汉代漆器制作分工（Han Lacquerware Division of Labor）
+04-knowledge/units/procedures/han-dai-zhijin-cixiu.md	汉代织锦与刺绣工艺（Han Brocade and Embroidery）
+04-knowledge/units/procedures/hanjie.md	焊接（Bronze Soldering and Joining）
+04-knowledge/units/procedures/hefan-fa.md	合范法（Piece-Mold Casting）
+04-knowledge/units/procedures/hua-hua.md	画花（Painted Decoration of Cizhou Ware）
+04-knowledge/units/procedures/hualuo-zhiji.md	花罗织机与织造（Flower Luo Loom and Weaving）
+04-knowledge/units/procedures/hunzhu-fa.md	"浑铸法（Whole-Piece Casting）"
+04-knowledge/units/procedures/huo-pao-zhuzao.md	火炮铸造（Cannon Casting）
+04-knowledge/units/procedures/huodong-lianchuang-zhimo.md	活动帘床纸模抄纸法（Movable Mould Papermaking）
+04-knowledge/units/procedures/huozi-yinshua.md	活字印刷（Movable-Type Printing）
+04-knowledge/units/procedures/jian-yin.md	碱印（Alkali Resist Printing）
+04-knowledge/units/procedures/jiazhu-tai.md	夹纻胎（Jiazhu Lacquer Body）
+04-knowledge/units/procedures/jiezhi-yinhua.md	"介质印花（Medium Printing）"
+04-knowledge/units/procedures/jingtailan-zhizuo.md	景泰蓝制作七过程（Seven-stage Cloisonné Making）
+04-knowledge/units/procedures/jintong-fa.md	"浸铜法（Copper Cementation）"
+04-knowledge/units/procedures/jinyin-pingtuo.md	金银平脱（Gold and Silver Pingtuo Inlay）
+04-knowledge/units/procedures/juan-su-tai-gu-hei-guang.md	卷素胎骨与黑光（Juan-su Lacquer Body and Black Lacquer Finish）
+04-knowledge/units/procedures/kehua.md	刻划（Engraving Decoration）
+04-knowledge/units/procedures/la-ran.md	"蜡染（Wax Resist Dyeing）"
+04-knowledge/units/procedures/lan-yinhua-bu.md	"蓝印花布（Blue Calico）"
+04-knowledge/units/procedures/lian-gang-ji-shu.md	炼钢技术（Steelmaking）
+04-knowledge/units/procedures/liuchao-qingci-zhuangshi-liufa.md	六朝青瓷装饰六法（Six Decorative Methods of Six Dynasties Celadon）
+04-knowledge/units/procedures/liujin.md	鎏金（Amalgam Gilding）
+04-knowledge/units/procedures/liuli-shaozhao.md	琉璃烧造（Glazed Architectural Ceramics）
+04-knowledge/units/procedures/lost-wax-casting.md	失蜡法（Lost-wax Casting）
+04-knowledge/units/procedures/lunzhi-fa.md	轮制法（Wheel Throwing）
+04-knowledge/units/procedures/ming-changcheng-qiangti-gouzhu.md	明长城墙体构筑（Ming Great Wall Construction）
+04-knowledge/units/procedures/ming-qing-caici-zhuangshi.md	明清彩瓷装饰技法（Ming-Qing Polychrome Porcelain Decoration）
+04-knowledge/units/procedures/mosu-jiehe-zhi-taoyong.md	模塑结合制陶俑（Mold-and-Model Terracotta Figures）
+04-knowledge/units/procedures/mozhi-shiqi.md	磨制石器（Ground Stone Tools）
+04-knowledge/units/procedures/muye-jianzhi-tiehua.md	木叶与剪纸贴花（Leaf and Paper-cut Decoration）
+04-knowledge/units/procedures/ni-tiao-panzhu.md	泥条盘筑法（Coil Building）
+04-knowledge/units/procedures/nian-ya.md	碾轧（Calendering）
+04-knowledge/units/procedures/nianjin-pianjin.md	捻金与片金（Twisted Gold and Flat Gold）
+04-knowledge/units/procedures/paituo-gufeng.md	"排橐鼓风（Box-Bellows Air Blast）"
+04-knowledge/units/procedures/pearl-ground-sgraffito.md	珍珠地划花（Pearl-Ground Sgraffito）
+04-knowledge/units/procedures/pingmian-tidi-fa.md	平面剔地法（Flat Relief with Background Cut Away）
+04-knowledge/units/procedures/pinhe-liang.md	"拼合梁（Built-up Beam）"
+04-knowledge/units/procedures/qianzhu-maozhu.md	嵌铸法与铆铸法（Inlay and Riveted Casting）
+04-knowledge/units/procedures/qianzi-yinshua.md	铅字印刷（Letterpress Printing）
+04-knowledge/units/procedures/qingtong-xiangqian.md	青铜镶嵌（Bronze Inlay）
+04-knowledge/units/procedures/qiqi-mutai-san-zuofa.md	漆器木胎三作法（Three Methods of Wooden Lacquer Bodies）
+04-knowledge/units/procedures/quan-die-fa.md	圈叠法（Coiled-Layer Wood Core Technique）
+04-knowledge/units/procedures/rammed-earth-board-construction.md	夯土板筑（Rammed-Earth Board Construction）
+04-knowledge/units/procedures/ran-zhi.md	染纸（潢纸）（Paper Dyeing）
+04-knowledge/units/procedures/san-die-fa.md	三叠法（Three-Layer Ornament）
+04-knowledge/units/procedures/sao-si-piaobai.md	缫丝漂白与晾丝法（Silk Reeling, Bleaching and Drying）
+04-knowledge/units/procedures/sheng-tie-rou-hua-ji-shu.md	生铁柔化技术（Malleable Cast Iron）
+04-knowledge/units/procedures/sheng-tie-ye-zhu-ji-shu.md	生铁冶铸技术（Cast Iron Smelting）
+04-knowledge/units/procedures/shiqi-dazhi-sanfa.md	石器打制三法（Three Methods of Stone Flaking）
+04-knowledge/units/procedures/shiyin-ben.md	石印本（Lithographic Printing）
+04-knowledge/units/procedures/shua-yin-fa.md	刷印法（Colour Calico Brush Printing）
+04-knowledge/units/procedures/shuili-gufeng.md	"水力鼓风冶铁（Water-Powered Iron Smelting）"
+04-knowledge/units/procedures/siwang-yinshua.md	丝网印刷（Screen Printing）
+04-knowledge/units/procedures/song-dai-jianzhu-caihua.md	"宋代建筑彩画（Song Architectural Polychrome Painting）"
+04-knowledge/units/procedures/sunmao-jiegou.md	"榫卯结构（Mortise-and-Tenon Joint）"
+04-knowledge/units/procedures/ta-ben.md	拓本（Rubbing）
+04-knowledge/units/procedures/ta-yin-yinhua.md	拓印（印花）（Stamp Printing）
+04-knowledge/units/procedures/tao-se-yinshua.md	套色印刷（Color Printing）
+04-knowledge/units/procedures/taoliao.md	套料（Layered Glass Overlay）
+04-knowledge/units/procedures/tiaohua-jieben.md	"挑花结本（Pattern-Heddle Drafting）"
+04-knowledge/units/procedures/tiefan-zhuzao.md	铁范铸造（Iron Mold Casting）
+04-knowledge/units/procedures/tiehua-zhizuo.md	铁画制作（Iron Painting）
+04-knowledge/units/procedures/tihua-jishu.md	提花技术（Figured Weaving）
+04-knowledge/units/procedures/tongban-yinshua.md	铜版印刷（Copperplate Printing）
+04-knowledge/units/procedures/turquoise-inlay.md	错石工艺（Turquoise Inlay）
+04-knowledge/units/procedures/xian-zhuang.md	线装（Thread Binding）
+04-knowledge/units/procedures/xiandai-zaozhi-jishu.md	现代造纸技术（Modern Papermaking）
+04-knowledge/units/procedures/xiu-qi.md	髹漆（Lacquer Coating）
+04-knowledge/units/procedures/ye-tie-shu-qi-yuan.md	冶铁术在中国的出现（Emergence of Iron Smelting in China）
+04-knowledge/units/procedures/yin-jing.md	印经（Warp Printing）
+04-knowledge/units/procedures/yin-wen-mo-yin.md	印纹（模印）装饰（Stamp Impression Decoration）
+04-knowledge/units/procedures/yin-xunlu-zhizuo.md	银熏炉制作工序（Silver Censer Manufacturing）
+04-knowledge/units/procedures/yudiao-taocai-qiaose.md	玉雕套裁与巧色（Jade Interlocking Cutting and Colour Adaptation）
+04-knowledge/units/procedures/yun-jian-xiu.md	纭裥绣（Graded-Shading Embroidery）
+04-knowledge/units/procedures/zao-jia.md	造甲（Armor Making）
+04-knowledge/units/procedures/zao-jian.md	造剑（Sword Making）
+04-knowledge/units/procedures/zaozhishu.md	造纸术（Paper Making）
+04-knowledge/units/procedures/zhaoxiang-zhiban.md	照相制版（Photomechanical Plate Making）
+04-knowledge/units/procedures/zhi-quan-fu-shao.md	支圈覆烧（Ring-Supported Inverted Firing）
+04-knowledge/units/procedures/zhiding-zhishao.md	"支钉支烧法（Spurred Firing）"
+04-knowledge/units/procedures/zhitao.md	制陶（Pottery Making）
+04-knowledge/units/procedures/zhuanlun-paizifa.md	转轮排字法（Rotary Type Setting）
+04-knowledge/units/procedures/zhubian-yishu-jiagong.md	竹编艺术加工方法（Bamboo Weaving Techniques）
+04-knowledge/units/procedures/zhuo-yu.md	琢玉（Jade Working）
+04-knowledge/units/publications/baima-shejixue-congshu.md	《白马设计学丛书》（Baima Design Studies Series）
+04-knowledge/units/publications/baitong.md	白虎通（Baitong）
+04-knowledge/units/publications/bamboo-annals.md	竹书纪年（Bamboo Annals）
+04-knowledge/units/publications/bao-pu-zi.md	抱朴子（Baopuzi (Master Who Embraces Simplicity)）
+04-knowledge/units/publications/baozhuang-nianjian.md	《包装年鉴》（Baozhuang Nianjian (Packaging Yearbook)）
+04-knowledge/units/publications/beiping-jianpu.md	北平笺谱（Beiping Jianpu）
+04-knowledge/units/publications/bo-wu-zhi.md	博物志（Bowuzhi (Treatise on Curiosities)）
+04-knowledge/units/publications/bowu-yaolan.md	博物要览（Bowu Yaolan）
+04-knowledge/units/publications/cansang-cuibian.md	蚕桑萃编（Cansang Cuibian）
+04-knowledge/units/publications/chajing.md	茶经（The Classic of Tea）
+04-knowledge/units/publications/changwu-zhi.md	长物志（Zhang Wu Zhi）
+04-knowledge/units/publications/chaobao.md	《朝报》（Court Gazette）
+04-knowledge/units/publications/chen-yinke-wenji.md	《陈寅恪文集》（Chen Yinke Wenji (Collected Works of Chen Yinke)）
+04-knowledge/units/publications/chengshi-moyuan.md	程氏墨苑（Chengshi Moyuan）
+04-knowledge/units/publications/china-art-newspaper.md	中国美术报（China Art Newspaper）
+04-knowledge/units/publications/chuantong-gongyi-meishu-baohu-tiaoli.md	传统工艺美术保护条例（Regulations on the Protection of Traditional Arts and Crafts）
+04-knowledge/units/publications/chuci.md	楚辞（Chuci）
+04-knowledge/units/publications/chuxueji.md	初学记（Chuxueji）
+04-knowledge/units/publications/contemporary-china-crafts-book.md	当代中国的工艺美术（Contemporary China's Arts and Crafts）
+04-knowledge/units/publications/da-tang-xiyu-ji.md	大唐西域记（Da Tang Xiyu Ji (Great Tang Records on the Western Regions)）
+04-knowledge/units/publications/danqian-zonglu.md	丹铅总录（Danqian Zonglu）
+04-knowledge/units/publications/daodejing.md	道德经（Daodejing）
+04-knowledge/units/publications/daolianfu.md	捣练赋（Daolian Fu）
+04-knowledge/units/publications/dianshizhai-huabao.md	点石斋画报（Dianshizhai Pictorial）
+04-knowledge/units/publications/dizhonghai-he-feilipu-ershi.md	《地中海和菲力浦二世的地中海世界》（The Mediterranean and the Mediterranean World in the Age of Philip II）
+04-knowledge/units/publications/dongjing-menghua-lu.md	东京梦华录（Dongjing Menghua Lu）
+04-knowledge/units/publications/ducheng-jisheng.md	都城纪胜（Ducheng Jisheng）
+04-knowledge/units/publications/duoneng-bishi.md	《多能鄙事》（Duoneng Bishi (Treatise on Diverse Humble Skills)）
+04-knowledge/units/publications/dushu.md	《读书》（Dushu (Reading)）
+04-knowledge/units/publications/efang-palace-fu.md	阿房宫赋（Efang Gong Fu / Rhapsody on the Epang Palace）
+04-knowledge/units/publications/er-shi-si-shi-pin.md	《二十四诗品》（Twenty-Four Poetic Styles）
+04-knowledge/units/publications/erya.md	《尔雅》（Erya）
+04-knowledge/units/publications/feiyizhai-jigao.md	废艺斋集稿（Feiyizhai Jigao）
+04-knowledge/units/publications/fen.md	《坟》（Fen (The Grave)）
+04-knowledge/units/publications/feng-ge-wen-ti.md	《风格问题——装饰艺术史的基础》（Problems of Style — Foundations for a History of Ornament）
+04-knowledge/units/publications/feng-xiaoqing.md	《冯小青》（Feng Xiaoqing）
+04-knowledge/units/publications/fenshu.md	《焚书》（A Book to Burn (Fenshu)）
+04-knowledge/units/publications/fuliang-xianzhi.md	《浮梁县志》（Fuliang County Gazetteer）
+04-knowledge/units/publications/fuzhi-tiaoli.md	服制条例（Fuzhi Tiaoli）
+04-knowledge/units/publications/gansu-caitao.md	《甘肃彩陶》（Gansu Painted Pottery）
+04-knowledge/units/publications/gaodeng-yuanxiao-sheji-jiaocai.md	《高等院校设计艺术专业系列教材》（Design Art Textbook Series for Higher Education）
+04-knowledge/units/publications/gegu-yaolun.md	格古要论（Gegu Yaolun）
+04-knowledge/units/publications/gong-yi-mei-shu-yu-jian-zhu-de-feng-ge.md	《工艺美术与建筑的风格》（Style in the Applied Arts and Architecture）
+04-knowledge/units/publications/gongcheng-zuofa.md	工程做法（Gongcheng Zuofa）
+04-knowledge/units/publications/gongye-shejixue-gailun.md	《工业设计学概论》（Introduction to Industrial Design）
+04-knowledge/units/publications/gongyi-meishu-cankao.md	工艺美术参考（Gongyi Meishu Cankao）
+04-knowledge/units/publications/guanzi.md	管子（Guanzi）
+04-knowledge/units/publications/gujin-tushu-jicheng.md	古今图书集成（Gujin Tushu Jicheng）
+04-knowledge/units/publications/guo-shi-bu.md	《国史补》（Guoshi Bu (Supplement to the History of the Tang)）
+04-knowledge/units/publications/guoji-guanggao.md	《国际广告》（Guoji Guanggao (International Advertising)）
+04-knowledge/units/publications/gutong-ciqi-kao.md	古铜瓷器考（Gutong Ciqi Kao）
+04-knowledge/units/publications/haiguo-tuzhi.md	海国图志（Haiguo Tuzhi）
+04-knowledge/units/publications/han-shu.md	汉书（Han Shu / Book of Han）
+04-knowledge/units/publications/hanfeizi.md	韩非子（Han Feizi）
+04-knowledge/units/publications/hansheng.md	《汉声》（Hansheng (Echo Magazine)）
+04-knowledge/units/publications/hongloumeng.md	《红楼梦》（Dream of the Red Chamber）
+04-knowledge/units/publications/hongqi.md	红旗（Hongqi）
+04-knowledge/units/publications/huainanzi.md	淮南子（Huainanzi）
+04-knowledge/units/publications/jiaguwen-bian.md	甲骨文编（Jiaguwen Bian）
+04-knowledge/units/publications/jianbian-tongling.md	剪辫通令（Jianbian Tongling）
+04-knowledge/units/publications/jiangning-zhizao-yu-caojia.md	江宁织造与曹家（Jiangning Zhizao yu Caojia）
+04-knowledge/units/publications/jianguo-fanglue.md	《建国方略》（Jianguo Fanglue (The International Development of China)）
+04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md	《家庭、私有制和国家的起源》（The Origin of the Family, Private Property and the State）
+04-knowledge/units/publications/jiefang-ribao.md	《解放日报》（Jiefang Ribao (Liberation Daily)）
+04-knowledge/units/publications/jiefangjun-wenyi.md	解放军文艺（Jiefangjun Wenyi）
+04-knowledge/units/publications/jiegou-renleixue-de-lishi.md	《结构人类学的历史》（The History of Structural Anthropology）
+04-knowledge/units/publications/jieziyuan-huazhuan.md	芥子园画传（Jieziyuan Huazhuan）
+04-knowledge/units/publications/jifufu.md	机妇赋（Jifu Fu）
+04-knowledge/units/publications/jijiu-pian.md	《急就篇》（Jijiu Pian）
+04-knowledge/units/publications/jingangjing-868.md	《金刚经》（868年敦煌本）（Diamond Sutra, 868 Dunhuang Edition）
+04-knowledge/units/publications/jingangjing-zhu.md	《金刚经注》（Commentary on the Diamond Sutra）
+04-knowledge/units/publications/jingdezhen-taolu.md	景德镇陶录（Jingdezhen Taolu）
+04-knowledge/units/publications/jingshi-dadian.md	经世大典（Jingshi Dadian）
+04-knowledge/units/publications/jingxing-ji.md	《经行记》（Jingxing Ji）
+04-knowledge/units/publications/jinwen-bian.md	金文编（Jinwen Bian）
+04-knowledge/units/publications/jinzang.md	《金藏》（Jin Canon）
+04-knowledge/units/publications/jinzhi.md	《金枝》（The Golden Bough）
+04-knowledge/units/publications/jiujing.md	《九经》（Nine Classics）
+04-knowledge/units/publications/kaibao-zang.md	《开宝藏》（Kaibao Canon）
+04-knowledge/units/publications/kaiyuan-zabao.md	《开元杂报》（Kaiyuan Zabao）
+04-knowledge/units/publications/kaogongji-tu.md	考工记图（Kaogongji Tu）
+04-knowledge/units/publications/kaogongji.md	考工记（Kaogongji）
+04-knowledge/units/publications/lao-fangzi.md	《老房子》（Lao Fangzi (Old Houses)）
+04-knowledge/units/publications/lao-zhaopian.md	《老照片》（Lao Zhaopian (Old Photographs)）
+04-knowledge/units/publications/laocan-youji.md	《老残游记》（The Travels of Lao Can）
+04-knowledge/units/publications/leisi-jing.md	《耒耜经》（Leisi Jing (Classic of Plowing Tools)）
+04-knowledge/units/publications/liangyou.md	良友（Liangyou）
+04-knowledge/units/publications/liangzhou-jinwen-ci-daxi-tulu-kaoshi.md	《两周金文辞大系图录考释》（Liangzhou Jinwen Ci Daxi Tulu Kaoshi）
+04-knowledge/units/publications/liaozang.md	《辽藏》（Liao Canon）
+04-knowledge/units/publications/lidai-minghua-ji.md	历代名画记（Lidai Minghua Ji）
+04-knowledge/units/publications/lienv-zhuan.md	《列女传》（Biographies of Exemplary Women）
+04-knowledge/units/publications/liezi-tangwen.md	《列子·汤问》（Liezi: Tang Questions）
+04-knowledge/units/publications/liji.md	礼记（Liji）
+04-knowledge/units/publications/liuzi.md	刘子（Liuzi）
+04-knowledge/units/publications/long-zongxin-zhongguo-gongyi-meishu-shi.md	中国工艺美术史（龙宗鑫）（Chinese History of Arts and Crafts (Long Zongxin)）
+04-knowledge/units/publications/lubanjing.md	鲁班经（Luban Jing）
+04-knowledge/units/publications/lun-heng.md	论衡（Lun Heng）
+04-knowledge/units/publications/lunyu.md	论语（Lunyu）
+04-knowledge/units/publications/luo-yang-qie-lan-ji.md	洛阳伽蓝记（Luoyang Qielan Ji (Record of Buddhist Monasteries in Luoyang)）
+04-knowledge/units/publications/luoxuan-biangu-jianpu.md	萝轩变古笺谱（Luoxuan Biangu Jianpu）
+04-knowledge/units/publications/luoyang-mingyuan-ji.md	《洛阳名园记》（Record of Famous Gardens in Luoyang）
+04-knowledge/units/publications/lvshi-chunqiu.md	吕氏春秋（Lüshi Chunqiu）
+04-knowledge/units/publications/makeboluo-youji.md	马可·波罗游记（The Travels of Marco Polo）
+04-knowledge/units/publications/maozedong-xuanji.md	《毛泽东选集》（Mao Zedong Xuanji (Selected Works of Mao Zedong)）
+04-knowledge/units/publications/meishu-de-qiyuan.md	《美术的起源》（Meishu de Qiyuan (The Origin of Fine Arts)）
+04-knowledge/units/publications/menglianglu.md	梦粱录（Mengliang Lu）
+04-knowledge/units/publications/mengqiu.md	《蒙求》（Mengqiu (Primer)）
+04-knowledge/units/publications/mengxi-bitan.md	梦溪笔谈（Mengxi Bitan）
+04-knowledge/units/publications/mengzi.md	孟子（Mengzi）
+04-knowledge/units/publications/miaofa-lianhua-jing.md	《妙法莲花经》（Lotus Sutra, Turpan Print）
+04-knowledge/units/publications/mingshi-jiaju-yanjiu.md	明式家具研究（Mingshi Jiaju Yanjiu）
+04-knowledge/units/publications/mo-jing.md	墨经（Mo Jing）
+04-knowledge/units/publications/mozi-jieyong.md	墨子·节用（Mozi Jieyong）
+04-knowledge/units/publications/mujing.md	《木经》（Mujing (Woodwork Classic)）
+04-knowledge/units/publications/nahan.md	《呐喊》（Nahan (Call to Arms)）
+04-knowledge/units/publications/nancun-chuogenglu.md	南村辍耕录（Nancun Chuogenglu）
+04-knowledge/units/publications/nanjiang-yishi-kanben.md	《南疆绎史勘本》（Nanjiang Yishi Kanben）
+04-knowledge/units/publications/nanyao-biji.md	南窑笔记（Nanyao Biji）
+04-knowledge/units/publications/nongsang-jizao.md	农桑辑要（Nongsang Jizao）
+04-knowledge/units/publications/nongzheng-quanshu.md	《农政全书》（Nongzheng Quanshu (Complete Treatise on Agriculture)）
+04-knowledge/units/publications/nvze.md	《女则》（Nüze）
+04-knowledge/units/publications/on-ten-great-relationships.md	论十大关系（On the Ten Major Relationships）
+04-knowledge/units/publications/panghuang.md	《彷徨》（Panghuang (Wandering)）
+04-knowledge/units/publications/putong-gaoxiao-benke-zhuanye-mulu.md	普通高等学校本科专业目录（Putong Gaodeng Xuexiao Benke Zhuanye Mulu）
+04-knowledge/units/publications/qiminyaoshu.md	齐民要术（Qimin Yaoshu）
+04-knowledge/units/publications/qingbo-zazhi.md	《清波杂志》（Qingbo Zazhi (Clear Wave Miscellany)）
+04-knowledge/units/publications/qinggongbu-zaobanchchu-dangan.md	清宫内务府造办处档案总汇（Qinggongbu Zaobanchchu Dangan Zonghui）
+04-knowledge/units/publications/qingmi-cang.md	清秘藏（Qingmi Cang）
+04-knowledge/units/publications/qinlv-gonglv.md	《秦律·工律》（Qin Statutes: Artisan Statute）
+04-knowledge/units/publications/quan-tangshi.md	《全唐诗》（Quan Tangshi）
+04-knowledge/units/publications/sancai-tuhui.md	《三才图会》（Sancai Tuhui (Illustrated Compendium of the Three Powers)）
+04-knowledge/units/publications/sanli-tu.md	三礼图（Sanli Tu）
+04-knowledge/units/publications/shanghai-center-plan.md	上海市市中心区域规划（Shanghai Shi Shizhongxin Quyu Guihua）
+04-knowledge/units/publications/shanghai-xinbao.md	上海新报（Shanghai Xinbao）
+04-knowledge/units/publications/shangjunshu.md	商君书（Shangjun Shu）
+04-knowledge/units/publications/shangshu.md	尚书（Shangshu）
+04-knowledge/units/publications/shanhai-jing.md	山海经（Shan Hai Jing）
+04-knowledge/units/publications/sheji-gailun.md	《设计概论》（Introduction to Design）
+04-knowledge/units/publications/shenbao.md	申报（Shenbao）
+04-knowledge/units/publications/sheng-wu-ai-le-lun.md	声无哀乐论（Sheng Wu Aile Lun (Music Has No Sorrow or Joy)）
+04-knowledge/units/publications/shenghuo-weekly.md	生活周刊（Shenghuo Zhoukan）
+04-knowledge/units/publications/shengshi-weiyan.md	盛世危言（Shengshi Weiyan）
+04-knowledge/units/publications/shiji.md	史记（Shiji）
+04-knowledge/units/publications/shijie-xiandai-pingmian-shejishi.md	《世界现代平面设计史》（World History of Modern Graphic Design）
+04-knowledge/units/publications/shijie-xiandai-shejishi.md	《世界现代设计史》（World History of Modern Design）
+04-knowledge/units/publications/shijing.md	诗经（Classic of Poetry）
+04-knowledge/units/publications/shiming.md	释名（Shiming）
+04-knowledge/units/publications/shiwu-jiyuan.md	事物纪原（Shiwu Jiyuan）
+04-knowledge/units/publications/shiwu-yuanshi.md	事物原始（Shiwu Yuanshi）
+04-knowledge/units/publications/shizeng.md	释缯（Shizeng）
+04-knowledge/units/publications/shizhuzhai-huapu.md	十竹斋画谱（Shizhuzhai Huapu）
+04-knowledge/units/publications/shoushi-li.md	《授时历》（Shoushi Calendar）
+04-knowledge/units/publications/shui-jing-zhu.md	水经注（Shui Jing Zhu (Commentary on the Water Classic)）
+04-knowledge/units/publications/shujin-pu.md	蜀锦谱（Shujin Pu）
+04-knowledge/units/publications/shuowen-jiezi.md	说文解字（Shuowen Jiezi）
+04-knowledge/units/publications/simin-yueling.md	四民月令（Simin Yueling）
+04-knowledge/units/publications/sixiu-biji.md	丝绣笔记（Sixiu Biji）
+04-knowledge/units/publications/song-huiyao-jigao.md	宋会要辑稿（Song Huiyao Jigao）
+04-knowledge/units/publications/song-xinwen-bao.md	《“新闻”报》（Song Dynasty 'News' Gazette）
+04-knowledge/units/publications/songshi-yufuzhi.md	《宋史·舆服志》（Song Shi: Treatise on Carriages and Dress）
+04-knowledge/units/publications/suijin.md	碎金（Suijin）
+04-knowledge/units/publications/sun-zi-bing-fa.md	孙子兵法（Sunzi Bingfa / The Art of War）
+04-knowledge/units/publications/taiping-yulan.md	太平御览（Taiping Yulan）
+04-knowledge/units/publications/tang-liudian.md	唐六典（Tang Liudian）
+04-knowledge/units/publications/tao-shuo.md	陶说（Tao Shuo）
+04-knowledge/units/publications/taoya.md	《陶雅》（Tao Ya (Ceramic Elegance)）
+04-knowledge/units/publications/tian-zizhu-zhongguo-gongyi-meishu-shi.md	中国工艺美术史（田自秉）（Chinese History of Arts and Crafts (Tian Zizhu)）
+04-knowledge/units/publications/tiangong-kaiwu.md	天工开物（Tiangong Kaiwu）
+04-knowledge/units/publications/tiansheng-lvling.md	天盛律令（Tiansheng Lvling）
+04-knowledge/units/publications/tianshui-bingshanlu.md	《天水冰山录》（Tianshui Bingshan Lu (Confiscation Inventory)）
+04-knowledge/units/publications/tuoluoni-jingzhou.md	《陀罗尼经咒》（Dharani Charm Scroll）
+04-knowledge/units/publications/unesco-ich-convention.md	保护非物质文化遗产公约（Convention for the Safeguarding of the Intangible Cultural Heritage）
+04-knowledge/units/publications/wang-jiashu-zhongguo-gongyi-meishu-shi.md	中国工艺美术史（王家树）（Chinese History of Arts and Crafts (Wang Jiashu)）
+04-knowledge/units/publications/wang-renxu-qieyun.md	《王仁昫刊谬补缺切韵》（Wang Renxu's Corrected and Supplemented Qieyun）
+04-knowledge/units/publications/wang-zhen-nongshu.md	王祯农书（Wang Zhen Nongshu）
+04-knowledge/units/publications/wanxiang.md	《万象》（Wanxiang (All Phenomena)）
+04-knowledge/units/publications/weimojie-suoshuo-jing.md	《维摩诘所说经》（Vimalakirti Sutra）
+04-knowledge/units/publications/wen-hua-de-jin-hua.md	《文化的进化》（The Evolution of Culture）
+04-knowledge/units/publications/wen-xin-diao-long.md	《文心雕龙》（The Literary Mind and the Carving of Dragons）
+04-knowledge/units/publications/wugou-jingguang-daluoni-jing.md	《无垢净光大陀罗尼经》（Korean Bulguksa Edition）
+04-knowledge/units/publications/wujing-zongyao.md	武经总要（Wujing Zongyao）
+04-knowledge/units/publications/wulin-jiushi.md	武林旧事（Wulin Jiushi）
+04-knowledge/units/publications/wuyingdian-juzhenban-chengshi.md	《武英殿聚珍版程式》（Wuyingdian Juzhenban Chengshi）
+04-knowledge/units/publications/wuyue-chunqiu.md	《吴越春秋》（Wu Yue Chunqiu (Annals of Wu and Yue)）
+04-knowledge/units/publications/wuzhong-qiyuan.md	《物种起源》（On the Origin of Species）
+04-knowledge/units/publications/xi-zhou-shi.md	《西周史》（Western Zhou History）
+04-knowledge/units/publications/xiandai-sheji-daxi.md	《现代设计大系》（Modern Design Compendium）
+04-knowledge/units/publications/xianqing-ouji.md	闲情偶寄（Xianqing Ouji）
+04-knowledge/units/publications/xiaobinlu-kangyi.md	《校邠庐抗议》（Xiaobinlu Kangyi (Protest from the Xiaobin Hut)）
+04-knowledge/units/publications/xiechawei-suanjing.md	《谢察微算经》（Xie Chawei's Mathematical Classic）
+04-knowledge/units/publications/xijing-zaji.md	西京杂记（Xijing Zaji / Miscellanies of the Western Capital）
+04-knowledge/units/publications/xin-qingnian.md	新青年（New Youth）
+04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md	《新全相三国志平话》（New Fully Illustrated Romance of the Three Kingdoms）
+04-knowledge/units/publications/xiqing-yanpu.md	《西清砚谱》（Xiqing Yanpu）
+04-knowledge/units/publications/xiu-shi-lu.md	髹饰录（Xiu Shi Lu）
+04-knowledge/units/publications/xiupu.md	绣谱（Xiupu）
+04-knowledge/units/publications/xuanhe-huapu.md	《宣和画谱》（Xuanhe Huapu (Xuanhe Painting Catalogue)）
+04-knowledge/units/publications/xuehuan-xiupu.md	雪宦绣谱（Xuehuan Xiupu）
+04-knowledge/units/publications/xunzi.md	荀子（Xunzi）
+04-knowledge/units/publications/yangxian-mingtaolu.md	阳羡名陶录（Yangxian Mingtao Lu）
+04-knowledge/units/publications/yangzhou-huafanglu.md	扬州画舫录（Yangzhou Huafang Lu）
+04-knowledge/units/publications/yanji-tu.md	燕几图（Yanji Tu）
+04-knowledge/units/publications/yantielun.md	盐铁论（Yantielun）
+04-knowledge/units/publications/yanxian-qingshang-jian.md	燕闲清赏笺（Yanxian Qingshang Jian）
+04-knowledge/units/publications/yaoqi-shuo.md	窑器说（Yaoqi Shuo）
+04-knowledge/units/publications/yijia-yan.md	一家言·居室器玩部（Yijia Yan）
+04-knowledge/units/publications/yingzao-fashi.md	营造法式（Yingzao Fashi）
+04-knowledge/units/publications/yinliuzhai-shuoci.md	饮流斋说瓷（Yinliuzhai Shuoci）
+04-knowledge/units/publications/yishu-fazhanshi.md	《艺术发展史》（The Story of Art）
+04-knowledge/units/publications/yishu-shejixue.md	《艺术设计学》（Art Design Studies）
+04-knowledge/units/publications/yishu-yu-sheji.md	艺术与设计（Yishu yu Sheji）
+04-knowledge/units/publications/yiwen-leiju.md	艺文类聚（Yiwen Leiju）
+04-knowledge/units/publications/yongle-beizang.md	《永乐北藏》（Yongle Northern Canon）
+04-knowledge/units/publications/yongle-dadian.md	《永乐大典》（Yongle Dadian）
+04-knowledge/units/publications/youyang-zazu.md	《酉阳杂俎》（Youyang Zazu (Miscellaneous Morsels from Youyang)）
+04-knowledge/units/publications/yuan-ye.md	园冶（Yuan Ye）
+04-knowledge/units/publications/yuanxi-qiqitu-shuo.md	《远西奇器图说》（Illustrated Treatise on Western Machines (Yuanxi Qiqitu Shuo)）
+04-knowledge/units/publications/yue-ji.md	乐记（Yue Ji / Record of Music）
+04-knowledge/units/publications/yue-lun.md	乐论（Yue Lun (Discourse on Music)）
+04-knowledge/units/publications/yuelv-quanshu.md	《乐律全书》（Yuelü Quanshu）
+04-knowledge/units/publications/yugong.md	禹贡（Yugong）
+04-knowledge/units/publications/yuhai.md	《玉海》（Yuhai (Jade Sea)）
+04-knowledge/units/publications/zaowu-zhi-ji.md	《造物之迹——中国设计艺术史引论》（Zaowu Zhi Ji (An Introduction to the History of Chinese Design Art)）
+04-knowledge/units/publications/zhongguo-baozhuang.md	《中国包装》（Zhongguo Baozhuang (China Packaging)）
+04-knowledge/units/publications/zhongguo-dalishi.md	《中国大历史》（China: A Macro History）
+04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md	《中国工艺美术丛书》（Chinese Arts and Crafts Series）
+04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md	《中国工艺美术史（修订本）》（Chinese History of Arts and Crafts (Revised Edition)）
+04-knowledge/units/publications/zhongguo-gongyi-meishu-tongshi.md	《中国工艺美术通史》（General History of Chinese Arts and Crafts）
+04-knowledge/units/publications/zhongguo-gongyi-yange-shilue.md	中国工艺沿革史略（Zhongguo Gongyi Yange Shilue）
+04-knowledge/units/publications/zhongguo-guanggao.md	《中国广告》（Zhongguo Guanggao (China Advertising)）
+04-knowledge/units/publications/zhongguo-jianzhushi.md	《中国建筑史》（Zhongguo Jianzhushi (A History of Chinese Architecture)）
+04-knowledge/units/publications/zhongguo-lidai-huihua.md	《中国历代绘画》（Zhongguo Lidai Huihua (Chinese Painting Through the Ages)）
+04-knowledge/units/publications/zhongguo-lidai-huobi-daxi.md	《中国历代货币大系》（Zhongguo Lidai Huobi Daxi (Compendium of Chinese Currency Through the Ages)）
+04-knowledge/units/publications/zhongguo-sheji-yishu-shi.md	《中国设计艺术史》（Zhongguo Sheji Yishu Shi (History of Chinese Design Art)）
+04-knowledge/units/publications/zhongguo-shejishi-gaofeng.md	中国设计史（高丰）（The Design History of China (Gao Feng)）
+04-knowledge/units/publications/zhongguo-shejishi-xiayanjing.md	中国设计史（夏燕靖）（Zhongguo Shejishi (Xia Yanjing)）
+04-knowledge/units/publications/zhongguo-yishu-shejishi-upgraded.md	中国艺术设计史（升级版）（Chinese Design History (Upgraded Edition)）
+04-knowledge/units/publications/zhongguo-yishu-shejishi-zhaonong-2009.md	中国艺术设计史（赵农，2009）（Chinese Design History (Zhao Nong, 2009)）
+04-knowledge/units/publications/zhouli.md	周礼（Rites of Zhou）
+04-knowledge/units/publications/zhouyi.md	周易（Zhouyi）
+04-knowledge/units/publications/zhuanghuang-zhi.md	装潢志（Zhuanghuang Zhi）
+04-knowledge/units/publications/zhuangshi-zazhi.md	装饰杂志（Zhuangshi Magazine）
+04-knowledge/units/publications/zhuangzi.md	庄子（Zhuangzi）
+04-knowledge/units/publications/zhupu.md	《竹谱》（Bamboo Manual (Zhupu)）
+04-knowledge/units/publications/zhuyuan-taoshuo.md	竹园陶说（Zhuyuan Taoshuo）
+04-knowledge/units/publications/ziren-yizhi.md	梓人遗制（Ziren Yizhi）
+04-knowledge/units/publications/ziren-zhuan.md	梓人传（Ziren Zhuan）
+04-knowledge/units/publications/zizheng-xinpian.md	《资政新篇》（Zizheng Xinpian (A New Treatise on Statecraft)）
+04-knowledge/units/publications/zunsheng-bajian.md	遵生八笺（Zunsheng Bajian）
+04-knowledge/units/publications/zuozhuan.md	左传（Zuozhuan）
+04-knowledge/units/terms/an-furniture.md	案（An (Table)）
+04-knowledge/units/terms/anle-yi.md	安乐椅（Rocking Chair）
+04-knowledge/units/terms/ao-qin-tongqi.md	鏊（秦代铜器）（Ao (Qin Bronze Cauldron)）
+04-knowledge/units/terms/ao.md	袄（Ao (Lined Short Coat)）
+04-knowledge/units/terms/ba-cai.md	八材（Eight Materials）
+04-knowledge/units/terms/ba-ti-shuo.md	八体说（Eight-Style Theory (Ba Ti Shuo)）
+04-knowledge/units/terms/ba-yin.md	八音（Eight Tones）
+04-knowledge/units/terms/babu-chuang.md	拔步床（Babu Bed）
+04-knowledge/units/terms/badayun.md	八达晕（Badayun (Eight-Pointed Medallion Pattern)）
+04-knowledge/units/terms/bagua.md	八卦（Bagua (Eight Trigrams)）
+04-knowledge/units/terms/bai-tao.md	白陶（White Pottery）
+04-knowledge/units/terms/baibaoqian.md	百宝嵌（Baibaoqian (Hundred-Treasure Inlay)）
+04-knowledge/units/terms/baici.md	白瓷（White Porcelain）
+04-knowledge/units/terms/baidie-bu.md	白叠布（Baidie Cloth）
+04-knowledge/units/terms/baigong.md	百工（Baigong / Hundred Craftsmen）
+04-knowledge/units/terms/ban-qi.md	斑漆（Ban Lacquer (Mottled Lacquer)）
+04-knowledge/units/terms/bandixue-shi-jianzhu.md	半地穴式建筑（Semi-Subterranean Dwelling）
+04-knowledge/units/terms/bandu-wooden-tablet.md	版牍（Wooden Tablet (Bandu)）
+04-knowledge/units/terms/banpo-kehua-fuhao.md	半坡刻画符号（Banpo Incised Symbols）
+04-knowledge/units/terms/banpo-xing-caitao.md	半坡型彩陶（Banpo-Type Painted Pottery）
+04-knowledge/units/terms/banshan-xing-caitao.md	半山型彩陶（Banshan-Type Painted Pottery）
+04-knowledge/units/terms/banshi-jiegou.md	板式结构（Panel Construction）
+04-knowledge/units/terms/bantong.md	斑铜（Bantong (Mottled Copper)）
+04-knowledge/units/terms/bao-yi-bo-dai.md	褒衣博带（Baoyi Bodai (Loose Robe, Broad Sash)）
+04-knowledge/units/terms/baobei-zhuang.md	包背装（Wrapped-Back Binding）
+04-knowledge/units/terms/baomaizhu.md	包买主（Baomaizhu (Putting-Out Merchant)）
+04-knowledge/units/terms/baoxianghua-wen.md	宝相花纹（Baoxianghua Wen (Baoxiang Flower Motif)）
+04-knowledge/units/terms/basiba-zi.md	八思巴字（蒙古国字）（Phags-pa Script）
+04-knowledge/units/terms/bei-xue.md	碑学（Epigraphy (Beixue)）
+04-knowledge/units/terms/beibi.md	贝币（Cowrie Money）
+04-knowledge/units/terms/beijingren-moshi.md	北京人模式（Peking Man Model）
+04-knowledge/units/terms/beijingren.md	北京人（Peking Man）
+04-knowledge/units/terms/beilei-mao.md	贝雷帽（Beilei Mao (Beret)）
+04-knowledge/units/terms/beizi.md	背子（Beizi (Straight-Front Robe)）
+04-knowledge/units/terms/belt-hook.md	带钩（Belt Hook）
+04-knowledge/units/terms/benyuan-tezheng.md	本元特征（Benyuan Tezheng (Origin-Source Characteristic)）
+04-knowledge/units/terms/bi-li.md	筚篥（Bili (Reed Pipe)）
+04-knowledge/units/terms/bi.md	璧（Bi Disc）
+04-knowledge/units/terms/bian-yu-tong.md	变与统（Bian Yu Tong (Change and Continuity)）
+04-knowledge/units/terms/bianxian-ao.md	辫线袄（Bianxian Ao (Braid-Line Robe)）
+04-knowledge/units/terms/bianzhong.md	编钟（Bianzhong (Chime Bells)）
+04-knowledge/units/terms/bijia.md	比甲（Bijia (Sleeveless Front-Opening Jacket)）
+04-knowledge/units/terms/black-porcelain.md	黑瓷（Black Porcelain）
+04-knowledge/units/terms/blue-and-white-porcelain.md	青花瓷（Blue-and-white Porcelain）
+04-knowledge/units/terms/boshanlu.md	博山炉（Boshan Incense Burner）
+04-knowledge/units/terms/bu-bi.md	布币（Spade Money）
+04-knowledge/units/terms/buzi.md	补子（Rank Badge）
+04-knowledge/units/terms/caihui-tao.md	彩绘陶（Caihui Tao）
+04-knowledge/units/terms/cangli-yuqi.md	藏礼于器（Ritual Embedded in Vessels）
+04-knowledge/units/terms/central-axis.md	中轴线（Central Axis）
+04-knowledge/units/terms/chai-yao.md	柴窑（Chai Kiln）
+04-knowledge/units/terms/chang-deng.md	长灯（Chang Deng / Multi-branch Lamp）
+04-knowledge/units/terms/changjian-gong.md	敞肩拱（Changjian Gong (Open-Spandrel Arch)）
+04-knowledge/units/terms/changshiduan.md	长时段（Longue Durée）
+04-knowledge/units/terms/changshou-xiu.md	长寿绣（Changshou Embroidery）
+04-knowledge/units/terms/chanheliao.md	羼和料（Temper (Ceramic Additive)）
+04-knowledge/units/terms/chanyi.md	禅衣（Chan Yi (Unlined Robe)）
+04-knowledge/units/terms/chaoju.md	巢居（Chaoju (Nest Dwelling)）
+04-knowledge/units/terms/chatu.md	插图（Book Illustration）
+04-knowledge/units/terms/che-tong-gui.md	车同轨（Che Tong Gui (Standardized Track Width)）
+04-knowledge/units/terms/chelun.md	车轮（Wheel）
+04-knowledge/units/terms/cheng-chen.md	承尘（Chengchen (Dust Canopy)）
+04-knowledge/units/terms/chengni-yan.md	澄泥砚（Chengni Inkstone）
+04-knowledge/units/terms/chengshi-diaosu.md	城市雕塑（Chengshi Diaosu (Urban Sculpture)）
+04-knowledge/units/terms/chengshi-jianzhu-huanjing-sheji.md	城市建筑环境设计（Chengshi Jianzhu Huanjing Sheji (Urban Architectural Environment Design)）
+04-knowledge/units/terms/chengxin-tang-zhi.md	澄心堂纸（Chengxin Tang Paper）
+04-knowledge/units/terms/chengyun-xiu.md	乘云绣（Chengyun Embroidery）
+04-knowledge/units/terms/chihui.md	赤绘（Chihui (Export Red-Painted Porcelain)）
+04-knowledge/units/terms/chikou.md	侈口（Chikou (Flared Mouth)）
+04-knowledge/units/terms/chong-huan-wen.md	重环纹（Double-Ring Motif）
+04-knowledge/units/terms/chouti-zhuo.md	抽屉桌（Drawer Table）
+04-knowledge/units/terms/chu-ju.md	储具（Storage Furniture）
+04-knowledge/units/terms/chuanche.md	串车（Chuanche (Linked Wheelbarrow)）
+04-knowledge/units/terms/chuantong-sheji.md	传统设计（Traditional Design）
+04-knowledge/units/terms/chui-lin-wen.md	垂鳞纹（Hanging-Scale Motif）
+04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md	春秋战国青铜炊食器（Chunqiu Zhanguo Qingtong Chuishiqi (Bronze Cooking and Food Vessels)）
+04-knowledge/units/terms/chunqiu-zhanguo-zhanche-zhonglei.md	春秋战国战车种类（Chunqiu Zhanguo Zhanche Zhonglei (Types of War Chariots)）
+04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md	春秋战国战船种类（Chunqiu Zhanguo Zhanchuan Zhonglei (Types of Warships)）
+04-knowledge/units/terms/chunqiu-zhanguo.md	春秋战国（Spring and Autumn and Warring States Period）
+04-knowledge/units/terms/cishan-wenhua.md	磁山文化（Cishan Wenhua (Cishan Culture)）
+04-knowledge/units/terms/city-walls-and-moats.md	城池（City Walls and Moats）
+04-knowledge/units/terms/cloud-ladder.md	云梯（Cloud Ladder）
+04-knowledge/units/terms/cong.md	琮（Cong Tube）
+04-knowledge/units/terms/copper-stone-period.md	铜石并用时期（Tongshi Bingyong Shiqi (Copper-Stone Period)）
+04-knowledge/units/terms/da-a-fu.md	大阿福（Da Afu (Huishan Lucky Figure)）
+04-knowledge/units/terms/da-chang.md	大氅（Dachang (Cloak)）
+04-knowledge/units/terms/dafangche.md	大纺车（Large Spinning Frame）
+04-knowledge/units/terms/dai.md	黛（Dai (Eyebrow Pigment)）
+04-knowledge/units/terms/daibing-gongju.md	带柄工具（Hafted Tools）
+04-knowledge/units/terms/daming-tongxing-baochao.md	大明通行宝钞（Da Ming Tongxing Baochao）
+04-knowledge/units/terms/danding-fangche.md	单锭纺车（Danding Fangche (Single-Spindle Spinning Wheel)）
+04-knowledge/units/terms/danke-heitao.md	蛋壳黑陶（Eggshell Black Pottery）
+04-knowledge/units/terms/dao-bi.md	刀币（Knife Money）
+04-knowledge/units/terms/dao-knife.md	刀（Knife）
+04-knowledge/units/terms/daoliu-hu.md	倒流壶（Inverted-Flow Ewer）
+04-knowledge/units/terms/daoqi-tongyi.md	道器统一（Daoqi Tongyi (Unity of Dao and Qi)）
+04-knowledge/units/terms/daqi-miancheng.md	大器免成（Da Qi Mian Cheng (The Great Vessel Is Unfinished)）
+04-knowledge/units/terms/dark-pattern-pottery.md	暗纹陶（Dark-pattern Pottery）
+04-knowledge/units/terms/dashiguan.md	大历史观（Macro-History Perspective）
+04-knowledge/units/terms/dawenkou-culture.md	大汶口文化（Dawenkou Culture）
+04-knowledge/units/terms/dengdun.md	凳墩（Stools and Drum Stools）
+04-knowledge/units/terms/di.md	笛（Di (Transverse Flute)）
+04-knowledge/units/terms/dian-la-man.md	点蜡幔（Dianla Man (Wax-Printed Curtain)）
+04-knowledge/units/terms/dianben.md	殿本（Palace Edition）
+04-knowledge/units/terms/dianluo.md	点螺（Dianluo (Fine Mother-of-Pearl Inlay)）
+04-knowledge/units/terms/dianqi.md	电器（Electrical Appliances）
+04-knowledge/units/terms/dianquan.md	垫圈（Dianquan (Kiln Setter Ring)）
+04-knowledge/units/terms/diao-qi.md	雕漆（Diaoqi (Carved Lacquer)）
+04-knowledge/units/terms/diaolou.md	碉楼（Tibetan Watchtower Dwelling）
+04-knowledge/units/terms/dibao.md	邸报（Dibao (Court Gazette)）
+04-knowledge/units/terms/ding.md	鼎（Ding Cauldron）
+04-knowledge/units/terms/dingcun-wenhua.md	丁村文化（Dingcun Culture）
+04-knowledge/units/terms/ditan.md	地毯（Carpet）
+04-knowledge/units/terms/dongwuxing-dengju.md	动物形灯与树形灯（Animal-shaped and Tree-shaped Lamps）
+04-knowledge/units/terms/dou-vessel.md	豆（Dou）（Dou (Stemmed Serving Vessel)）
+04-knowledge/units/terms/doucai.md	斗彩（Doucai）
+04-knowledge/units/terms/dougong.md	斗拱（Dougong (Bracket Set)）
+04-knowledge/units/terms/duan-yan.md	端砚（Duan Inkstone）
+04-knowledge/units/terms/duanao-taoqun.md	短袄套裙（Duan'ao Taoqun (Short Jacket with Skirt)）
+04-knowledge/units/terms/dugout-canoe.md	独木舟（Dugout Canoe）
+04-knowledge/units/terms/dui-vessel.md	敦（Dui (Ritual Vessel)）
+04-knowledge/units/terms/duiqian.md	对钱（Duiqian (Paired Coins)）
+04-knowledge/units/terms/dulunche.md	独轮车（Wheelbarrow）
+04-knowledge/units/terms/dunhuangxue.md	敦煌学（Dunhuang Studies）
+04-knowledge/units/terms/duoxiao-zhuangshi-fa.md	多效装饰法（Multi-View Decoration Method）
+04-knowledge/units/terms/duozi-he.md	多子盒（Duozi Box (Compartmented Container)）
+04-knowledge/units/terms/ehuang.md	额黄（Ehuang (Forehead Yellow)）
+04-knowledge/units/terms/fahua-qi.md	法华器（Fahua Qi (Fahua Ware)）
+04-knowledge/units/terms/falangcai.md	珐琅彩（Falangcai）
+04-knowledge/units/terms/fang-vessel.md	钫（Fang (Square Hu)）
+04-knowledge/units/terms/fanglun.md	纺轮（Spindle Whorl）
+04-knowledge/units/terms/fangsongti.md	仿宋体（Fangsong Typeface）
+04-knowledge/units/terms/fanhuang.md	翻簧（Fanhuang (Bamboo-Skin Ware)）
+04-knowledge/units/terms/fanjia-zhuang.md	梵夹装（Palm-Leaf Binding）
+04-knowledge/units/terms/fanjiang.md	蕃匠（Fanjiang (Corvée Artisan)）
+04-knowledge/units/terms/feiqian.md	飞钱（Flying Money）
+04-knowledge/units/terms/feitian-ji.md	飞天髻（Feitian Ji (Flying-Heaven Bun)）
+04-knowledge/units/terms/feiyi.md	非物质文化遗产（Intangible Cultural Heritage）
+04-knowledge/units/terms/fencai.md	粉彩（Fencai）
+04-knowledge/units/terms/feng-ge-maniera.md	风格（Style (Maniera)）
+04-knowledge/units/terms/feng-sui.md	烽燧（Feng Sui (Beacon Tower)）
+04-knowledge/units/terms/feng-wen.md	凤纹（Phoenix Motif）
+04-knowledge/units/terms/fengli-guafan-dulunche.md	风力挂帆独轮车（Fengli Guafan Dulunche (Wind-Sail Wheelbarrow)）
+04-knowledge/units/terms/fengshou-hu.md	凤首壶（Phoenix-Head Ewer）
+04-knowledge/units/terms/fengzheng.md	风筝（Kite）
+04-knowledge/units/terms/folangji-pao.md	佛朗机炮（Folangji Pao (Frankish Cannon)）
+04-knowledge/units/terms/fota.md	佛塔（Fota (Pagoda)）
+04-knowledge/units/terms/fou-vessel.md	缶（Fou (Fou Jar)）
+04-knowledge/units/terms/fozhuang.md	佛妆（Buddha Makeup (Fozhuang)）
+04-knowledge/units/terms/fu-che.md	斧车（Fu Che (Ax Chariot)）
+04-knowledge/units/terms/fu-li-zeng.md	釜、鬲、甑（Fu, Li and Zeng）
+04-knowledge/units/terms/fu-vessel.md	簠（Fu (Ritual Food Vessel)）
+04-knowledge/units/terms/fubo-shi-ta.md	覆钵式塔（Fuboshi Ta (Stupa-Form Pagoda (Lama Pagoda))）
+04-knowledge/units/terms/fuchuan.md	福船（Fuchuan (Fujian Sea-Going Ship)）
+04-knowledge/units/terms/fudao.md	复道（Fudao (Elevated Corridor)）
+04-knowledge/units/terms/fudou-xing-fengtu-fangzhong.md	覆斗形封土（方中）（Fudou-shaped Burial Mound (Fangzhong)）
+04-knowledge/units/terms/fujin.md	幅巾（Fujin Headcloth）
+04-knowledge/units/terms/futou.md	幞头（Futou Headwrap）
+04-knowledge/units/terms/gaiji.md	改机（Gaiji）
+04-knowledge/units/terms/gaitou.md	盖头（Gaaitou (Head Covering)）
+04-knowledge/units/terms/ganlan-shi-jianzhu.md	干栏式建筑（Ganlan Building / Stilt House）
+04-knowledge/units/terms/gao-shuyao-deng.md	高束腰凳（Gao Shuyao Deng (High-Waisted Stool)）
+04-knowledge/units/terms/gaoxing-jiaju.md	高型家具（Gaoxing Jiaju (High-Form Furniture)）
+04-knowledge/units/terms/gaozu-bei.md	高足杯（Gaozu Bei (Stem Cup)）
+04-knowledge/units/terms/ge-dagger-axe.md	戈（Ge Dagger-Axe）
+04-knowledge/units/terms/ge-yao.md	哥窑（Ge Kiln）
+04-knowledge/units/terms/geometric-stamped-hard-pottery.md	几何印纹硬陶（Geometric Stamped Hard Pottery）
+04-knowledge/units/terms/geometric-stamped-pottery.md	几何印纹陶（Geometric Stamped Pottery）
+04-knowledge/units/terms/gewu-zhizhi.md	格物致知（Gewu Zhizhi (Investigating Things to Extend Knowledge)）
+04-knowledge/units/terms/glass.md	玻璃（Glass）
+04-knowledge/units/terms/gong-shang-shi-guan.md	工商食官（Gong Shang Shi Guan (Official Support of Artisans and Merchants)）
+04-knowledge/units/terms/gong-vessel.md	觥（Gong (Gong Wine Vessel)）
+04-knowledge/units/terms/gong-zu-tu.md	工、卒、徒（Craftsmen, Conscripts and Slaves）
+04-knowledge/units/terms/gongfu.md	公服（Official Court Dress）
+04-knowledge/units/terms/gonggong-qiju.md	公共器具（Public Facilities and Furniture）
+04-knowledge/units/terms/gongjian.md	弓箭（Bow and Arrow）
+04-knowledge/units/terms/gongquan.md	拱券（Arch）
+04-knowledge/units/terms/gongshan.md	龚扇（Gong Fan (Gong Family Bamboo-Silk Fan)）
+04-knowledge/units/terms/gongyi-meishu.md	工艺美术（Arts and Crafts）
+04-knowledge/units/terms/gongzixing-jiegou.md	工字形结构（I-Shaped Structure (Dumbbell Structure)）
+04-knowledge/units/terms/gou-xiang.md	钩镶（Gou Xiang (Hooked Shield)）
+04-knowledge/units/terms/goulan.md	勾栏（Goulan (Balustrade)）
+04-knowledge/units/terms/gu-cai.md	古彩（Gu Cai (Hard Polychrome)）
+04-knowledge/units/terms/gu-embroidery.md	顾绣（Gu Embroidery）
+04-knowledge/units/terms/gu-vessel.md	觚（Gu (Gu Wine Vessel)）
+04-knowledge/units/terms/guan-da-min-shao.md	官搭民烧（Official Quota Fired in Private Kilns）
+04-knowledge/units/terms/guan-yao.md	官窑（Guan Kiln (Official Kiln)）
+04-knowledge/units/terms/guangcai.md	广彩（Guangcai (Canton Painted Porcelain)）
+04-knowledge/units/terms/guanmao-yi.md	官帽椅（Official's Hat Chair）
+04-knowledge/units/terms/guanwu-bide.md	观物比德（Guanwu Bide (Observing Things to Compare Virtues)）
+04-knowledge/units/terms/guanying-shougongye.md	官营手工业（State-Run Handicraft Industry）
+04-knowledge/units/terms/guapi-mao.md	瓜皮帽（Guapi Mao (Melon-Cap)）
+04-knowledge/units/terms/gudi.md	骨笛（Bone Flute）
+04-knowledge/units/terms/gugu-guan.md	顾姑冠（Gugu Hat）
+04-knowledge/units/terms/gui-vessel.md	簋（Gui (Gui Grain Vessel)）
+04-knowledge/units/terms/gui.md	圭（Gui Tablet）
+04-knowledge/units/terms/guifanhua.md	规范化（Standardization）
+04-knowledge/units/terms/guiguan-bu.md	桂管布（Guiguan Cloth）
+04-knowledge/units/terms/guijujing.md	规矩镜（TLV Mirror）
+04-knowledge/units/terms/guiwu.md	贵无（Guiwu (Valuing Non-Being)）
+04-knowledge/units/terms/gusi.md	骨耜（Bone Si）
+04-knowledge/units/terms/gusuo.md	骨梭（Gusuo (Bone Shuttle)）
+04-knowledge/units/terms/haijin.md	海禁（Haijin (Maritime Trade Ban)）
+04-knowledge/units/terms/haishou-putao-wen.md	海兽葡萄纹（Sea-Beast and Grape Motif）
+04-knowledge/units/terms/han-armor.md	汉代铠甲（Han Dynasty Armor）
+04-knowledge/units/terms/han-badao.md	汉八刀（Han Badao (Eight-Cut Technique)）
+04-knowledge/units/terms/han-dai-jia-ju.md	汉代家具（Han Dynasty Furniture）
+04-knowledge/units/terms/han-dai-jin-bi.md	汉代金币（马蹄金、麟趾金、金五铢）（Han Gold Currency）
+04-knowledge/units/terms/han-dai-pao-fu.md	汉代袍服（Han Dynasty Robe）
+04-knowledge/units/terms/han-ta.md	榻（Ta (Low Couch)）
+04-knowledge/units/terms/han-wu-zhu.md	汉五铢（Han Wu Zhu）
+04-knowledge/units/terms/handai-guanzhi.md	汉代冠制（Han Dynasty Headgear System）
+04-knowledge/units/terms/hanhe.md	函盒（Book Box）
+04-knowledge/units/terms/hanjing.md	汉镜（Han Mirror）
+04-knowledge/units/terms/hantao.md	函套（Book Slipcase）
+04-knowledge/units/terms/he-cai.md	褐彩（Brown Splash Decoration）
+04-knowledge/units/terms/he-vessel.md	盉（He (He Wine Vessel)）
+04-knowledge/units/terms/he-wool.md	褐（He (Coarse Woolen Cloth)）
+04-knowledge/units/terms/hegu-zhi.md	和雇制（Hegu System (Hired Labor)）
+04-knowledge/units/terms/heiche-baizhang.md	黑车白帐（Black Carts and White Tents）
+04-knowledge/units/terms/heitao.md	黑陶（Black Pottery）
+04-knowledge/units/terms/hemudu-culture.md	河姆渡文化（Hemudu Culture）
+04-knowledge/units/terms/hengqi-balance.md	权衡秤器（Balance and Steelyard）
+04-knowledge/units/terms/hexi-caihua.md	和玺彩画（Hexi Caihua (Hexi Architectural Painting)）
+04-knowledge/units/terms/high-terrace-architecture.md	高台建筑（High-Terrace Architecture）
+04-knowledge/units/terms/hong-guan-deng.md	虹管灯（Hongguan Lamp (Siphonic Smoke Lamp)）
+04-knowledge/units/terms/hong-haiyang.md	红海洋（Hong Haiyang (Red Ocean)）
+04-knowledge/units/terms/hongmu.md	红木（Hongmu (Rosewood)）
+04-knowledge/units/terms/hongshan-culture.md	红山文化（Hongshan Culture）
+04-knowledge/units/terms/hongwei-fu.md	红卫服（Hongwei Fu (Red Guard Suit)）
+04-knowledge/units/terms/hongxian-tan.md	红线毯（Red-Thread Carpet）
+04-knowledge/units/terms/hongyi-pao.md	红夷炮（Hongyi Pao (Red-Barbarian Cannon)）
+04-knowledge/units/terms/hongyou.md	红釉（Red Glaze）
+04-knowledge/units/terms/hu-jia.md	胡笳（Hu Jia (Reed Horn)）
+04-knowledge/units/terms/hu-vessel.md	壶（Hu (Hu Wine Vessel)）
+04-knowledge/units/terms/hua-falang.md	画珐琅（Painted Enamel）
+04-knowledge/units/terms/hua-si-gong-yi.md	花丝工艺（Filigree）
+04-knowledge/units/terms/hua-tu.md	花土（Huatu (Imprint in Earth)）
+04-knowledge/units/terms/huadeng.md	花灯（Festive Lantern）
+04-knowledge/units/terms/huadian.md	花钿（Huadian (Forehead Ornament)）
+04-knowledge/units/terms/huan-dai-wen.md	环带纹（Wave-Band Motif）
+04-knowledge/units/terms/huan-qian.md	圜形钱（Round Coin）
+04-knowledge/units/terms/huan-shou-dao.md	环首刀（Ring-Pommel Saber）
+04-knowledge/units/terms/huangyou.md	黄釉（Yellow Glaze）
+04-knowledge/units/terms/huangzi.md	幌子（Huangzi / Shop Banner）
+04-knowledge/units/terms/huapendi-xie.md	花盆底鞋（Huapendi Xie (Flowerpot-Sole Shoes)）
+04-knowledge/units/terms/huasha.md	花纱（Figured Gauze）
+04-knowledge/units/terms/huashigang.md	花石纲（Huashigang (Flower and Rock Tribute)）
+04-knowledge/units/terms/huasi.md	花丝（Filigree）
+04-knowledge/units/terms/huaxiangshi.md	画像石（Pictorial Stone Relief）
+04-knowledge/units/terms/huaxiangzhuan.md	画象砖（Pictorial Brick）
+04-knowledge/units/terms/huaxue-xianwei.md	化学纤维（Chemical Fibre）
+04-knowledge/units/terms/huaya.md	花押（Huaya (Personal Cipher Signature)）
+04-knowledge/units/terms/huayou.md	花釉（Huayou (Splashed Glaze)）
+04-knowledge/units/terms/huazhuangtu.md	化妆土（Slip (Ceramic Coating)）
+04-knowledge/units/terms/hubi.md	湖笔（Hubi Writing Brush）
+04-knowledge/units/terms/hubu-guanpiao.md	户部官票（Hubu Guanpiao）
+04-knowledge/units/terms/huchuang.md	胡床（Folding Stool）
+04-knowledge/units/terms/hudie-zhuang.md	蝴蝶装（Butterfly Binding）
+04-knowledge/units/terms/hufu.md	胡服（Hu Dress (Nomadic Costume)）
+04-knowledge/units/terms/hui-tao.md	灰陶（Grey Pottery）
+04-knowledge/units/terms/hui-wen.md	回纹（Meander Motif）
+04-knowledge/units/terms/huihui-wenzi.md	回回文字（普速蛮字）（Huihui Script (Pusuman Script)）
+04-knowledge/units/terms/huimo.md	徽墨（Hui Ink Cake）
+04-knowledge/units/terms/huishan-niren.md	惠山泥人（Huishan Clay Figurines）
+04-knowledge/units/terms/huluyao.md	葫芦窑（Gourd Kiln）
+04-knowledge/units/terms/humen-an.md	壶门案（Humen An (Humen-Leg Table)）
+04-knowledge/units/terms/hundred-schools.md	百家争鸣（Baijia Zhengming (Hundred Schools of Thought)）
+04-knowledge/units/terms/hunping.md	魂瓶（Hunping (Soul Jar)）
+04-knowledge/units/terms/huntian-theory.md	浑天说（Huntian Theory）
+04-knowledge/units/terms/hunyi.md	浑仪（Armillary Sphere）
+04-knowledge/units/terms/huohua.md	火花（Matchbox Label）
+04-knowledge/units/terms/huoshidi.md	火石底（Huoshidi (Firestone Base)）
+04-knowledge/units/terms/huoyao.md	火药（Gunpowder）
+04-knowledge/units/terms/huzhong-tiandi.md	壶中天地（Gourd Heaven）
+04-knowledge/units/terms/huzhuang.md	胡装（Hu Costume）
+04-knowledge/units/terms/industrial-design.md	工业设计（Industrial Design）
+04-knowledge/units/terms/iron-farm-tools.md	铁制农具（Tiezhi Nongju (Iron Farm Tools)）
+04-knowledge/units/terms/iron-three-brothers.md	铁氏三兄弟（Tieshi Sanxiongdi (The Three Iron Brothers)）
+04-knowledge/units/terms/ji-furniture.md	几（Ji Table）
+04-knowledge/units/terms/ji-halberd.md	戟（Halberd）
+04-knowledge/units/terms/jia-ji.md	假髻（Jiaji (False Chignon)）
+04-knowledge/units/terms/jia-ting-shou-gong-ye.md	家庭手工业（Household Handicraft）
+04-knowledge/units/terms/jia-vessel.md	斝（Jia (Jia Wine Warmer)）
+04-knowledge/units/terms/jiaban.md	夹板（Book Pressing Boards）
+04-knowledge/units/terms/jiading-school.md	嘉定派（Jiading School）
+04-knowledge/units/terms/jiaer-guan.md	夹耳罐（Jia'er Jar）
+04-knowledge/units/terms/jian-basin.md	鉴（Jian (Jian Basin)）
+04-knowledge/units/terms/jian-qun.md	裥裙（Jian Qun (Pleated Panel Skirt)）
+04-knowledge/units/terms/jian-sword.md	青铜剑（Bronze Sword）
+04-knowledge/units/terms/jianben.md	监本（Jianben (Imperial College Edition)）
+04-knowledge/units/terms/jiance-bamboo-slip-books.md	简策（Bamboo Slip Books (Jiance)）
+04-knowledge/units/terms/jiang-jun-kui.md	将军盔（General's Helmet Crucible）
+04-knowledge/units/terms/jianghu.md	匠户（Jianghu (Artisan Household)）
+04-knowledge/units/terms/jiangnan-minju.md	江南民居（Jiangnan Dwelling）
+04-knowledge/units/terms/jiangnan-yuanlin.md	江南园林（Jiangnan Gardens）
+04-knowledge/units/terms/jiangren-yingguo.md	匠人营国（Jiangren Yingguo / Capital Planning Doctrine）
+04-knowledge/units/terms/jianqi.md	箭器（Arrow Equipment）
+04-knowledge/units/terms/jianxinghu.md	茧形壶（Cocoon-Shaped Jar）
+04-knowledge/units/terms/jianzhi.md	剪纸（Papercut）
+04-knowledge/units/terms/jiao-vessel.md	角（Jiao (Jiao Wine Vessel)）
+04-knowledge/units/terms/jiao-zhi.md	椒纸（Pepper-Treated Paper）
+04-knowledge/units/terms/jiaoche.md	搅车（Cotton Gin (Jiaoche)）
+04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md	脚踏提综斜织机（Jiaota Tizong Xiezhi Ji (Treadle Pattern-Lifting Slant Loom)）
+04-knowledge/units/terms/jiaotai.md	绞胎（Jiaotai (Marbled Clay)）
+04-knowledge/units/terms/jiaotong-biaozhi.md	交通标志（traffic sign）
+04-knowledge/units/terms/jiaoxie.md	绞缬（Jiaoxie (Tie-Resist Dyeing)）
+04-knowledge/units/terms/jiaoyi.md	交椅（Folding Chair）
+04-knowledge/units/terms/jiaozi-litter.md	轿子（Sedan Chair）
+04-knowledge/units/terms/jiaxie.md	夹缬（Jiaxie (Clamp-Resist Dyeing)）
+04-knowledge/units/terms/jiayong-xiao-gongju.md	家用小工具（Household Hand Tools）
+04-knowledge/units/terms/jiazi-chuang.md	架子床（Canopy Bed）
+04-knowledge/units/terms/jie-gu.md	羯鼓（Jiegu (Hourglass Drum)）
+04-knowledge/units/terms/jie-ke-xian-xiang.md	借壳现象（Skeuomorphism (Jie Ke Xian Xiang)）
+04-knowledge/units/terms/jieduanxing-tupo-tuijin.md	阶段性突破推进（Stage-by-Stage Breakthrough Advancement）
+04-knowledge/units/terms/jiegou-well-sweep.md	桔槔（Well Sweep）
+04-knowledge/units/terms/jifang.md	机房（Jifang (Weaving Workshop)）
+04-knowledge/units/terms/jiguang-hu.md	鸡冠壶（Chicken-Crest Ewer）
+04-knowledge/units/terms/jili-guche.md	记里鼓车（Odometer Chariot）
+04-knowledge/units/terms/jin-ban.md	金钣（Gold Plate）
+04-knowledge/units/terms/jin-cao.md	今草（Modern Cursive Script）
+04-knowledge/units/terms/jin-cuo-dao.md	金错刀（Jin Cuo Dao (Gold-Inlaid Knife Coin)）
+04-knowledge/units/terms/jin-dai-jiaochao.md	金代交钞（Jin Dynasty Jiaochao Paper Money）
+04-knowledge/units/terms/jin-dai-tongjin.md	金代铜禁（Jindai Tongjin (Jin Bronze Prohibition)）
+04-knowledge/units/terms/jin-qi.md	金漆（Jinqi (Gold Lacquer)）
+04-knowledge/units/terms/jindai-ranchou-ye.md	近代染绸业（Jindai Ranchou Ye (Modern Silk-Dyeing Industry)）
+04-knowledge/units/terms/jingbian.md	经变（Jingbian (Sutra Illustration)）
+04-knowledge/units/terms/jingjin.md	经锦（Warp-Faced Brocade）
+04-knowledge/units/terms/jingtai-lan.md	景泰蓝（Cloisonné）
+04-knowledge/units/terms/jingtian-zhi.md	井田制（Well-Field System）
+04-knowledge/units/terms/jingxiu.md	京绣（Jing Embroidery）
+04-knowledge/units/terms/jingzhe-zhuang.md	经折装（Sutra Fold Binding）
+04-knowledge/units/terms/jinling-school.md	金陵派（Jinling School）
+04-knowledge/units/terms/jinxi-gongyi.md	金细工艺（Jinxi Gongyi (Fine Goldwork)）
+04-knowledge/units/terms/jinyinse-yinhua-sha.md	金银色印花纱（Gold- and Silver-Colored Printed Gauze）
+04-knowledge/units/terms/jitui-tan.md	鸡腿坛（Chicken-Leg Jar）
+04-knowledge/units/terms/jiuliu-shijia.md	九流十家（Nine Schools and Ten Factions）
+04-knowledge/units/terms/jixiang-tu-an.md	吉祥图案（Auspicious Motifs）
+04-knowledge/units/terms/jizuo.md	跽坐（Jizuo (Kneeling Seated Posture)）
+04-knowledge/units/terms/juanzhou-zhuang.md	卷轴装（Scroll Binding）
+04-knowledge/units/terms/jue-vessel.md	爵（Jue (Jue Wine Vessel)）
+04-knowledge/units/terms/juhua-shi.md	菊花石（Chrysanthemum Stone）
+04-knowledge/units/terms/junbian-zhuang.md	军便装（Junbian Zhuang (Military-Style Civilian Suit)）
+04-knowledge/units/terms/junmao.md	军帽（Junmao (Military Cap)）
+04-knowledge/units/terms/juntian-zhi.md	均田制（Equal-Field System）
+04-knowledge/units/terms/juzhiji.md	踞织机（Juzhiji (Backstrap Loom)）
+04-knowledge/units/terms/kai-shu.md	楷书（Regular Script）
+04-knowledge/units/terms/kaiguang-fa.md	开光法（Cartouche Method）
+04-knowledge/units/terms/kaipian.md	开片（Crackle Glaze）
+04-knowledge/units/terms/kaiyuan-tongbao.md	开元通宝（Kaiyuan Tongbao）
+04-knowledge/units/terms/kesi.md	缂丝（Kesi）
+04-knowledge/units/terms/kong-hou.md	箜篌（Konghou (Harp)）
+04-knowledge/units/terms/kouqi.md	扣器（Kouqi Lacquerware）
+04-knowledge/units/terms/ku.md	裤（Ku (Trousers)）
+04-knowledge/units/terms/kuduan.md	库缎（Kuduan (Self-Colored Satin)）
+04-knowledge/units/terms/kui-wen.md	夔纹（Kui Motif）
+04-knowledge/units/terms/kuilei-xi.md	傀儡戏（Puppetry）
+04-knowledge/units/terms/kuluzhen.md	库路真（Kuluzhen (Lacquerware)）
+04-knowledge/units/terms/kunfa.md	髡发（Shaved-Forelock Hairstyle）
+04-knowledge/units/terms/langhong.md	郎红（Lang Hong (Lang Family Red Glaze)）
+04-knowledge/units/terms/lanran-gongyi.md	蓝染工艺（Lanran Gongyi (Indigo Resist Dyeing)）
+04-knowledge/units/terms/lantianren.md	蓝田人（Lantian Man）
+04-knowledge/units/terms/leather-armor.md	皮甲（Leather Armor）
+04-knowledge/units/terms/lei-vessel.md	罍（Lei (Lei Wine Vessel)）
+04-knowledge/units/terms/leisi.md	耒耜（Leisi (Digging Tool)）
+04-knowledge/units/terms/lever.md	杠杆（Lever）
+04-knowledge/units/terms/li-bi.md	犁壁（Moldboard）
+04-knowledge/units/terms/li-cauldron.md	鬲（Li Cauldron）
+04-knowledge/units/terms/li-shu.md	隶书（Clerical Script）
+04-knowledge/units/terms/li-yue-zhidu.md	礼乐制度（Ritual and Music System）
+04-knowledge/units/terms/lian-zi.md	帘子（Lianzi (Hanging Screen)）
+04-knowledge/units/terms/liangpiao.md	粮票（grain coupon）
+04-knowledge/units/terms/liangxiang-yanhua.md	两向演化（Two-Way Evolution）
+04-knowledge/units/terms/liangzhu-culture.md	良渚文化（Liangzhu Culture）
+04-knowledge/units/terms/liangzhu-shili.md	良渚石犁（Liangzhu Shili (Liangzhu Stone Plough)）
+04-knowledge/units/terms/lianhua-wen.md	莲花纹（Lotus Motif）
+04-knowledge/units/terms/lianpan-duandeng.md	连盘短灯（Lianpan Short Lamp）
+04-knowledge/units/terms/lianran-ye.md	练染业（Lianran Ye (Scouring and Dyeing Industry)）
+04-knowledge/units/terms/lianzhu-wen.md	联珠纹（Linked-Pearl Motif）
+04-knowledge/units/terms/liao-ci.md	辽瓷（Liao Ci (Liao Ceramics)）
+04-knowledge/units/terms/liao-sancai.md	辽三彩釉陶（Liao Sancai Youtao (Liao Sancai Glazed Earthenware)）
+04-knowledge/units/terms/liaoqi.md	料器（Liaoqi (Low-Melting Glass Ware)）
+04-knowledge/units/terms/lidao.md	犁刀（Plough Knife）
+04-knowledge/units/terms/lieding-system.md	列鼎制度（Graduated Ding System）
+04-knowledge/units/terms/liening-zhuang.md	列宁装（Liening Zhuang (Lenin Suit)）
+04-knowledge/units/terms/lifang-zhi.md	里坊制（Lifang Ward System）
+04-knowledge/units/terms/limao.md	礼帽（Limao (Fedora)）
+04-knowledge/units/terms/ling-silk.md	绫（Ling (Twill Silk)）
+04-knowledge/units/terms/lingyang-gong-pattern.md	陵阳公样（Lingyang Gong Pattern）
+04-knowledge/units/terms/lishi-wenhua.md	砾石文化（Pebble Culture）
+04-knowledge/units/terms/liu-shu.md	六书（Six Scripts）
+04-knowledge/units/terms/liuchao-gongjiang-zhidu.md	六朝工匠制度（Six Dynasties Artisan System）
+04-knowledge/units/terms/liuchao-tongjing.md	六朝铜镜（Six Dynasties Bronze Mirror）
+04-knowledge/units/terms/liuda-sheji-quyu.md	六大设计文化区域（Six Design Culture Regions）
+04-knowledge/units/terms/liuli.md	琉璃（Ancient Glass and Architectural Glaze）
+04-knowledge/units/terms/liuqi.md	六齐（Six Bronze Alloy Formulas）
+04-knowledge/units/terms/liuqing.md	留青（Liuqing (Retained-Green Bamboo Carving)）
+04-knowledge/units/terms/lixue.md	理学（Neo-Confucianism）
+04-knowledge/units/terms/long-wen.md	龙纹（Dragon Motif）
+04-knowledge/units/terms/longdun.md	龙墩（Dragon Throne）
+04-knowledge/units/terms/longfeng.md	龙凤（Dragon and Phoenix）
+04-knowledge/units/terms/longshan-culture.md	龙山文化（Longshan Culture）
+04-knowledge/units/terms/longyang.md	龙洋（Dragon Silver Dollar）
+04-knowledge/units/terms/longyao.md	龙窑（Dragon Kiln）
+04-knowledge/units/terms/louchuan.md	楼船（Tower Ship）
+04-knowledge/units/terms/louke.md	漏刻（Clepsydra (Water Clock)）
+04-knowledge/units/terms/lu-chou.md	潞绸（Lu Chou (Lu Silk)）
+04-knowledge/units/terms/lu-oar.md	橹（Yuloh (Sculling Oar)）
+04-knowledge/units/terms/luanbai-you-ci.md	卵白釉瓷（Egg-White Glazed Porcelain）
+04-knowledge/units/terms/luanzhenxiu.md	乱针绣（Luanzhen Embroidery (Random-Stitch)）
+04-knowledge/units/terms/lubu.md	卤薄（Lubu (Ritual Procession Paraphernalia)）
+04-knowledge/units/terms/lujiao-yi.md	鹿角椅（Antler Chair）
+04-knowledge/units/terms/lunban-jiang.md	轮班匠（Rotating Artisan）
+04-knowledge/units/terms/luodian.md	螺钿（Luodian (Mother-of-Pearl Inlay)）
+04-knowledge/units/terms/luohan-chuang.md	罗汉床（Luohan Bed）
+04-knowledge/units/terms/luopan.md	罗盘（Compass (Luopan)）
+04-knowledge/units/terms/luowo-yi.md	罗涡椅（Luowo Yi (Luowo Chair)）
+04-knowledge/units/terms/luzhipin.md	铝制品（Aluminium Ware）
+04-knowledge/units/terms/lv-de-zhonglei.md	履的种类（Types of Lu (Footwear)）
+04-knowledge/units/terms/lvchen-qi.md	绿沉漆（Lüchen Lacquer (Deep-Green Lacquer)）
+04-knowledge/units/terms/lvse-sheji.md	绿色设计（Green Design）
+04-knowledge/units/terms/ma-bu.md	麻布（Mabu (Hemp Cloth)）
+04-knowledge/units/terms/ma-zhi.md	麻纸（Hemp Paper）
+04-knowledge/units/terms/machang-xing-caitao.md	马厂型彩陶（Machang-Type Painted Pottery）
+04-knowledge/units/terms/magnetite.md	磁石（Magnetite (Lodestone)）
+04-knowledge/units/terms/maishan.md	麦钐（Wheat Scythe）
+04-knowledge/units/terms/majiayao-culture.md	马家窑文化（Majiayao Culture）
+04-knowledge/units/terms/majiayao-xing-caitao.md	马家窑型彩陶（Majiayao-Type Painted Pottery）
+04-knowledge/units/terms/man-sheng.md	缦（升）（Man (Sheng) Cloth Measure）
+04-knowledge/units/terms/man-tuo-luo.md	曼荼罗（Mandala）
+04-knowledge/units/terms/mansheng-hu.md	曼生壶（Mansheng Teapot）
+04-knowledge/units/terms/mantouyao.md	馒头窑（Mantou Kiln (Bun-Shaped Kiln)）
+04-knowledge/units/terms/mao.md	矛（Spear）
+04-knowledge/units/terms/maobi.md	毛笔（Brush）
+04-knowledge/units/terms/maobian-zhi.md	毛边纸（Maobian Paper）
+04-knowledge/units/terms/maohua-shanse-jin.md	茂花闪色锦（Maohua Flashing-Color Brocade）
+04-knowledge/units/terms/maoyi-ci.md	贸易瓷（Maoyi Ci (Trade Porcelain)）
+04-knowledge/units/terms/maozedong-xiangzhang.md	毛泽东像章（Mao Zedong Badge）
+04-knowledge/units/terms/maozhuang.md	毛装（Rough Binding）
+04-knowledge/units/terms/matou-qiang.md	马头墙（Horse-head Fire Wall）
+04-knowledge/units/terms/meigui-yi.md	玫瑰椅（Rose Chair）
+04-knowledge/units/terms/meijin-ejin.md	美金与恶金（Meijin and Ejin (Good and Bad Metal)）
+04-knowledge/units/terms/meiping.md	梅瓶（Meiping (Plum Vase)）
+04-knowledge/units/terms/men-que.md	门阙（Men Que (Gate Towers)）
+04-knowledge/units/terms/menggubao.md	蒙古包（Mongolian Yurt）
+04-knowledge/units/terms/menshen.md	门神（Door God）
+04-knowledge/units/terms/mian-guan-mian-liu.md	冕冠与冕旒（Mian Crown and Mianliu Beads）
+04-knowledge/units/terms/mianfangchang.md	棉纺厂（Cotton Textile Mill）
+04-knowledge/units/terms/mianfu-zhidu.md	冕服制度（Mianfu Ritual Dress System）
+04-knowledge/units/terms/miaodigou-xing-caitao.md	庙底沟型彩陶（Miaodigou-Type Painted Pottery）
+04-knowledge/units/terms/miaojin.md	描金（Miaojin (Gold Tracing)）
+04-knowledge/units/terms/ming-dai-nvzhuang.md	明代女装（附凤冠）（Ming Dynasty Women's Dress）
+04-knowledge/units/terms/ming-style-furniture.md	明式家具（Ming-style Furniture）
+04-knowledge/units/terms/mingdai-san-da-chuanxing.md	明代三大船型（Mingdai San Da Chuanxing (Three Major Ship Types of the Ming Dynasty)）
+04-knowledge/units/terms/mingdai-sizhi-sida-changu.md	明代丝织四大产区（Mingdai Sizhi Sida Changu (Four Major Silk-Weaving Regions of the Ming Dynasty)）
+04-knowledge/units/terms/mingguang-kai.md	明光铠（Mingguang Armor）
+04-knowledge/units/terms/mingqi.md	明器（Mingqi (Burial Goods)）
+04-knowledge/units/terms/mingzhuang.md	明装（Mingzhuang (Ming-Style Dress)）
+04-knowledge/units/terms/minnan-tulou.md	闽南土楼（Minnan Tulou）
+04-knowledge/units/terms/minsucun.md	民俗村（Minsucun (Folk Village Park)）
+04-knowledge/units/terms/minzu-wenhua-xinli-jiegou.md	民族文化—心理结构（National Cultural-Psychological Structure）
+04-knowledge/units/terms/mise-porcelain.md	秘色瓷（Mise Porcelain）
+04-knowledge/units/terms/mojie-deng.md	摩羯灯（Makara Lamp）
+04-knowledge/units/terms/mu-ji.md	木屐（Wooden Clogs）
+04-knowledge/units/terms/muban-nianhua.md	木版年画（Woodblock New Year Picture）
+04-knowledge/units/terms/mudan.md	牡丹（Peony）
+04-knowledge/units/terms/muhua.md	木画（Wood Inlay (Muhua)）
+04-knowledge/units/terms/na-dang.md	衲裆（Nadang (Two-Panel Vest)）
+04-knowledge/units/terms/nan-xiu-bei-xiong.md	南秀北雄（Southern Elegance and Northern Vigor）
+04-knowledge/units/terms/nangeng-nvzhi.md	男耕女织（Nangeng Nvzhi (Men Plow, Women Weave)）
+04-knowledge/units/terms/nanjing-yunjin.md	南京云锦（Nanjing Yunjin Brocade）
+04-knowledge/units/terms/nashishi.md	纳石失（Nasish）
+04-knowledge/units/terms/nazi-daiyi.md	纳资代役（Nazi Daiyi (Commutation of Corvée into Payment)）
+04-knowledge/units/terms/niao-wen.md	鸟纹（Bird Motif）
+04-knowledge/units/terms/nirenzhang.md	泥人张（Clay Figure Zhang）
+04-knowledge/units/terms/niu-che.md	牛车（Ox Cart）
+04-knowledge/units/terms/nu-crossbow.md	弩（Crossbow）
+04-knowledge/units/terms/nvzhen-wenzi.md	女真文字（Jurchen Script）
+04-knowledge/units/terms/oracle-bone-script.md	甲骨文（Oracle Bone Script）
+04-knowledge/units/terms/ou-li.md	耦犁（Ou Li (Two-Ox Plow)）
+04-knowledge/units/terms/pai-gan.md	拍竿（Pai Gan (Shipborne Stone-Throwing Device)）
+04-knowledge/units/terms/painted-pottery.md	彩陶（Painted Pottery）
+04-knowledge/units/terms/paleolithic-period.md	旧石器时代（Paleolithic Period）
+04-knowledge/units/terms/pan-basin.md	盘（Pan (Pan Basin)）
+04-knowledge/units/terms/pan-kou-hu.md	盘口壶（Dish-Mouth Ewer）
+04-knowledge/units/terms/panchi-wen.md	蟠螭纹（Coiled Chi-Dragon Pattern）
+04-knowledge/units/terms/pei-huang.md	佩璜（Peihuang (Ornamental Jade Pendant)）
+04-knowledge/units/terms/pei-zi.md	帔子（Peizi (Embroidered Shawl)）
+04-knowledge/units/terms/peiligang-wenhua.md	裴李岗文化（Peiligang Wenhua (Peiligang Culture)）
+04-knowledge/units/terms/pi-pa.md	琵琶（Pipa (Lute)）
+04-knowledge/units/terms/pi-sword-spear.md	铍（Pi Sword-Spear）
+04-knowledge/units/terms/pi-zhi.md	皮纸（Bark Paper）
+04-knowledge/units/terms/piao-ci.md	缥瓷（Piao Porcelain）
+04-knowledge/units/terms/pibo.md	披帛（Pibo (Silk Shawl)）
+04-knowledge/units/terms/pilumao.md	毗卢帽（Pilumao Crown Ornament）
+04-knowledge/units/terms/ping-feng.md	屏风（Folding Screen）
+04-knowledge/units/terms/ping-furniture.md	枰（Ping (Low Square Seat)）
+04-knowledge/units/terms/ping-ji.md	凭几（Pingji (Arm Rest)）
+04-knowledge/units/terms/pingshiti-goutu.md	平视体构图（Pingshiti Goutu (Parallel-Projection Composition)）
+04-knowledge/units/terms/pinse-yi.md	品色衣（Pinse Yi (Rank-Coloured Robe)）
+04-knowledge/units/terms/piying.md	皮影（Shadow Puppetry）
+04-knowledge/units/terms/plank-boat.md	木板船（Plank Boat）
+04-knowledge/units/terms/plastic.md	塑料（Plastic）
+04-knowledge/units/terms/pointed-bottom-jar.md	尖底瓶（Pointed-bottom Jar）
+04-knowledge/units/terms/proto-porcelain.md	原始青瓷（Proto-porcelain）
+04-knowledge/units/terms/pulley.md	滑轮（Pulley）
+04-knowledge/units/terms/pulu.md	氆氇（Pulu (Tibetan Woollen Cloth)）
+04-knowledge/units/terms/qi-erbei.md	漆耳杯（Lacquer Ear Cup / Feather Goblet）
+04-knowledge/units/terms/qi-jiuju-baozhuang-he.md	漆酒（食）具包装盒（Lacquer Wine and Food Vessel Packaging Box）
+04-knowledge/units/terms/qi-silk.md	绮（Qi (Patterned Silk)）
+04-knowledge/units/terms/qi-vessel.md	欹器（Qi Vessel (Tilted Vessel)）
+04-knowledge/units/terms/qian-you-tao.md	铅釉陶（Lead-Glazed Pottery）
+04-knowledge/units/terms/qianchao-houshi.md	前朝后室（Front Court and Rear Chambers）
+04-knowledge/units/terms/qiang-di.md	羌笛（Qiang Di (Qiang Flute)）
+04-knowledge/units/terms/qiangjin.md	戗金（Qiangjin (Engraved Gold Lacquer)）
+04-knowledge/units/terms/qianhai-ling.md	迁海令（Qianhai Ling (Coastal Evacuation Edict)）
+04-knowledge/units/terms/qidan-wenzi.md	契丹文字（Khitan Script）
+04-knowledge/units/terms/qiequ-wen.md	窃曲纹（Qiequ Motif）
+04-knowledge/units/terms/qijia-wenhua.md	齐家文化（Qijia Culture）
+04-knowledge/units/terms/qimu-jiaju.md	漆木家具（Lacquer-Wood Furniture）
+04-knowledge/units/terms/qin-ban-liang.md	秦半两（Qin Ban Liang）
+04-knowledge/units/terms/qin-dai-fu-shi.md	秦代服饰（Qin Dynasty Dress）
+04-knowledge/units/terms/qin-liang.md	秦量（Qin Measure）
+04-knowledge/units/terms/qin-quan.md	秦权（Qin Weight）
+04-knowledge/units/terms/qin-zhuan-han-wa.md	秦砖汉瓦（Qin Bricks and Han Tiles）
+04-knowledge/units/terms/qin.md	琴（Qin）
+04-knowledge/units/terms/qing-baochao.md	大清宝钞（Qing Baochao）
+04-knowledge/units/terms/qing-ci.md	青瓷（Celadon）
+04-knowledge/units/terms/qing-dai-shoushi-toushi.md	清代首饰与头饰（Qing Dynasty Jewelry and Head Ornaments）
+04-knowledge/units/terms/qing-dai-sizhi-pinzhong.md	清代丝织品种（苏州、松江与杭州）（Qing Dynasty Silk Varieties）
+04-knowledge/units/terms/qing-style-furniture.md	清式家具（Qing-style Furniture）
+04-knowledge/units/terms/qing.md	磬（Qing (Stone Chime)）
+04-knowledge/units/terms/qingdai-diaoban-chatu.md	清代雕版插图（Qing Woodblock Illustration）
+04-knowledge/units/terms/qingdai-jiaju-sanda-mingzuo.md	清代家具三大名作（Three Great Qing Furniture Styles）
+04-knowledge/units/terms/qingshi-ta.md	清式榻（Qing-style Couch）
+04-knowledge/units/terms/qingtian-shidiao.md	青田石雕（Qingtian Stone Carving）
+04-knowledge/units/terms/qingtong-chu.md	青铜锄（Bronze Hoe）
+04-knowledge/units/terms/qingtong-jiuqi.md	青铜酒器（Bronze Wine Vessels）
+04-knowledge/units/terms/qingtong-jue.md	青铜镢（Bronze Jue Hoe）
+04-knowledge/units/terms/qingtong-lian.md	青铜镰（Bronze Sickle）
+04-knowledge/units/terms/qingtong-lihua.md	青铜犁铧（Bronze Plowshare）
+04-knowledge/units/terms/qingtong-liqi.md	青铜礼器（Bronze Ritual Vessels）
+04-knowledge/units/terms/qingtong-qian-chan.md	青铜钱铲（Bronze Qian Spade）
+04-knowledge/units/terms/qingtong-shidai.md	青铜时代（Bronze Age）
+04-knowledge/units/terms/qingtong-shiqi.md	青铜食器（Bronze Food Vessels）
+04-knowledge/units/terms/qingtong-shuiqi.md	青铜水器（Bronze Water Vessels）
+04-knowledge/units/terms/qingtong-zhu.md	青铜箸（Bronze Chopsticks）
+04-knowledge/units/terms/qingtong.md	青铜（Bronze）
+04-knowledge/units/terms/qingtongqi.md	青铜器（Qingtongqi (Bronze Vessels)）
+04-knowledge/units/terms/qionglu-zhanzhang.md	穹庐式毡帐（Dome-shaped Felt Tent）
+04-knowledge/units/terms/qipao.md	旗袍（Qipao）
+04-knowledge/units/terms/qiu.md	裘（Qiu (Fur Garment)）
+04-knowledge/units/terms/qiwan-lugao.md	齐纨鲁缟（Qi Silk and Lu Fine Gauze）
+04-knowledge/units/terms/quan-tai.md	筌台（Quantai (Waist-Drum Stool)）
+04-knowledge/units/terms/qujialing-wenhua.md	屈家岭文化（Qujialing Culture）
+04-knowledge/units/terms/qun.md	裙（Qun (Skirt)）
+04-knowledge/units/terms/qushui-liushang.md	曲水流觞（Qushui Liushang (Floating Cups on Winding Water)）
+04-knowledge/units/terms/quxiang-bilei.md	取象比类（Analogical Thinking through Images）
+04-knowledge/units/terms/quyuan-li.md	曲辕犁（Curved-Shaft Plow）
+04-knowledge/units/terms/rendong-wen.md	忍冬纹（Honeysuckle Scroll Motif）
+04-knowledge/units/terms/renliche.md	人力车（rickshaw）
+04-knowledge/units/terms/renminbi.md	人民币（Renminbi）
+04-knowledge/units/terms/renzao-cailiao-jiaju.md	人造材料家具（Man-Made Material Furniture）
+04-knowledge/units/terms/riyongpin-meishuhua-gongyipin-shiyonghua.md	日用品美术化，工艺品实用化（Aesthetic Daily Goods, Practical Crafts）
+04-knowledge/units/terms/rongquan-jin.md	绒圈锦（Rongquan Jin (Loop-Pile Brocade)）
+04-knowledge/units/terms/ru.md	襦（Ru (Short Jacket)）
+04-knowledge/units/terms/ruan-xian.md	阮咸（Ruanxian (Moon Lute)）
+04-knowledge/units/terms/rui-yu-liuqi.md	瑞玉六器（Six Ritual Jades）
+04-knowledge/units/terms/rumo-zhizheng.md	儒墨之争（Rumo zhi Zheng (Confucian-Mohist Debate)）
+04-knowledge/units/terms/ruqun.md	襦裙（Ruqun (Jacket and Skirt)）
+04-knowledge/units/terms/sadalaqi.md	撒答剌欺（Sadalaqi (Central Asian Silk Brocade)）
+04-knowledge/units/terms/sancun-jinlian.md	三寸金莲（Sancun Jinlian (Three-Inch Golden Lotus Shoes)）
+04-knowledge/units/terms/sanleng-jianzhuang-shiqi.md	三棱尖状石器（Sanleng Jianzhuang Shiqi (Three-Edged Point)）
+04-knowledge/units/terms/sanzhong-zaowu-sheji.md	三种造物设计（Three Kinds of Artifact Design）
+04-knowledge/units/terms/sanzhuan-yixiang.md	三转一响（Sanzhuan Yixiang (Three Spinning Wheels and One Sound)）
+04-knowledge/units/terms/sanzu-zun.md	三足尊（Three-Legged Zun Vessel）
+04-knowledge/units/terms/saoche.md	缫车（Reeling Machine）
+04-knowledge/units/terms/shachuan.md	沙船（Shachuan (Sand Ship)）
+04-knowledge/units/terms/shan-liang-dang-shan.md	衫（两裆衫）（Shan and Liangdang Shan）
+04-knowledge/units/terms/shan-teng-zhi.md	剡藤纸（Shanteng Paper）
+04-knowledge/units/terms/shandingdong-ren-guzhen.md	山顶洞人骨针（Shandingdongren Guzhen (Shandingdong Bone Needle)）
+04-knowledge/units/terms/shandingdongren.md	山顶洞人（Shandingdongren (Shandingdong Man (Upper Cave Man))）
+04-knowledge/units/terms/shangbiao.md	商标（Shangbiao (Trademark)）
+04-knowledge/units/terms/shangdai-baitao.md	商代白陶（Shangdai Baitao (Shang Dynasty White Pottery)）
+04-knowledge/units/terms/shangdai-qingtongqi-balei.md	商代青铜器八类（Eight Categories of Shang Bronzes）
+04-knowledge/units/terms/shangdai-yuqi-fenlei.md	商代玉器分类（Classification of Shang Dynasty Jades）
+04-knowledge/units/terms/shangdai-zhouchuan.md	商代舟船（Shangdai Zhouchuan (Shang Dynasty Boats)）
+04-knowledge/units/terms/shangpin-biaozhi.md	商品标志（commodity mark）
+04-knowledge/units/terms/shangzhou-sizhiwu.md	商周丝织物（Shangzhou Sizhiwu (Shang and Zhou Silk Textiles)）
+04-knowledge/units/terms/shanrang-system.md	禅让制（Shanrangzhi (Abdication System)）
+04-knowledge/units/terms/shanxi-siheyuan.md	山西四合院（Shanxi Courtyard Compound）
+04-knowledge/units/terms/shanzi-wen.md	山字纹（Mountain-Character Pattern）
+04-knowledge/units/terms/she-yan.md	歙砚（She Inkstone）
+04-knowledge/units/terms/sheji.md	设计（Design）
+04-knowledge/units/terms/sheng.md	笙（Sheng）
+04-knowledge/units/terms/shenghuo-piaozheng.md	生活票证（ration coupons）
+04-knowledge/units/terms/shengyou-deng.md	省油灯（Fuel-Saving Lamp）
+04-knowledge/units/terms/shenqu-mianshi.md	审曲面势（Shenqu Mianshi (Observing Materials and Assessing Circumstances)）
+04-knowledge/units/terms/shenwei-dajiangjun-pao.md	神威大将军炮（Shenwei Dajiangjun Pao (Shenwei Great General Cannon)）
+04-knowledge/units/terms/shenyi.md	深衣（Shenyi）
+04-knowledge/units/terms/shese-zhigong.md	设色之工（Shese zhi Gong (Dyeing and Painting Trades)）
+04-knowledge/units/terms/shi-class.md	士（Shi (Scholar-Gentry)）
+04-knowledge/units/terms/shi-mo.md	石磨（Stone Quern）
+04-knowledge/units/terms/shi-yi-chang-ji.md	师夷长技以制夷（Learn the Advanced Techniques of the Foreigners in Order to Resist Them）
+04-knowledge/units/terms/shibaban-bingqi.md	十八般兵器（Eighteen Kinds of Weapons）
+04-knowledge/units/terms/shier-pingjun-lv.md	十二平均律（Twelve-tone Equal Temperament）
+04-knowledge/units/terms/shihua-shisui.md	蚀花石髓（Etched Carnelian）
+04-knowledge/units/terms/shijing.md	石经（Stone Classics）
+04-knowledge/units/terms/shikusi.md	石窟寺（Shikusi (Grotto Temple)）
+04-knowledge/units/terms/shilian.md	石镰（Shilian (Stone Sickle)）
+04-knowledge/units/terms/shiliu-qun.md	石榴裙（Pomegranate Skirt）
+04-knowledge/units/terms/shimopan-mobang.md	石磨盘和磨棒（Shimopan he Mobang (Stone Quern and Grinder)）
+04-knowledge/units/terms/shiren-gushen-bishou.md	石刃骨身匕首（Stone-Bladed Bone Dagger）
+04-knowledge/units/terms/shishizhuang.md	时世装（Modern Dress）
+04-knowledge/units/terms/shiyingxing-sheji.md	适应性设计（Adaptive Design）
+04-knowledge/units/terms/shiyong-jingji-meiguan.md	适用、经济、美观（Suitability, Economy, Beauty）
+04-knowledge/units/terms/shiyu-wenhua.md	峙峪文化（Shiyu Wenhua (Shiyu Culture)）
+04-knowledge/units/terms/shizhuang-fabuhui.md	时装发布会（Fashion Show）
+04-knowledge/units/terms/shizu-gongshe.md	氏族公社（Clan Commune）
+04-knowledge/units/terms/shou-jin-ti.md	瘦金体（Slender Gold Script）
+04-knowledge/units/terms/shoubiao.md	手表（Wristwatch）
+04-knowledge/units/terms/shougong-bianzhi.md	手工编织（Hand Weaving and Plaiting）
+04-knowledge/units/terms/shougong-gongchang.md	手工工场（Handicraft Workshop (Manual Manufactory)）
+04-knowledge/units/terms/shougongye-hanghui.md	手工业行会（Shougongye Hanghui (Craft Guild)）
+04-knowledge/units/terms/shoushan-shidiao.md	寿山石雕（Shoushan Stone Carving）
+04-knowledge/units/terms/shu-brocade.md	蜀锦（Shu Brocade）
+04-knowledge/units/terms/shu-staff.md	殳（Shu Staff Weapon）
+04-knowledge/units/terms/shuang-yuan-che.md	双辕车（Double-Shaft Cart）
+04-knowledge/units/terms/shuangguan-fa.md	双关法（Double-Reading Method）
+04-knowledge/units/terms/shuangling-wen.md	双菱纹（Double-Lozenge Pattern）
+04-knowledge/units/terms/shuangliu-ju.md	双六局（Sugoroku Board）
+04-knowledge/units/terms/shuangluan-xianshou-wen.md	双鸾衔绶纹（Double-Phoenix with Ribbon Motif）
+04-knowledge/units/terms/shuilu-gongzhan-tu.md	水陆攻战图（Shuilu Gongzhan Tu (Water-Land Battle Scene)）
+04-knowledge/units/terms/shuilun-sanshi.md	水轮三事（Waterwheel Three-in-One Mill）
+04-knowledge/units/terms/shuimi-cang.md	水密舱（Shuimi Cang (Watertight Bulkhead)）
+04-knowledge/units/terms/shuiniaoxing-taohu.md	水鸟形陶壶（Shuiniaoxing Taohu (Waterbird-Shaped Pottery Hu)）
+04-knowledge/units/terms/shutie.md	书帖（Deposit Slip）
+04-knowledge/units/terms/shutou-ben.md	书棚本（Shutouben (Book-Stall Edition)）
+04-knowledge/units/terms/shuxiang.md	书箱（Book Chest）
+04-knowledge/units/terms/shuxiu.md	蜀绣（Shu Embroidery）
+04-knowledge/units/terms/shuzi-meiti-sheji.md	数字媒体设计（Shuzi Meiti Sheji (Digital Media Design)）
+04-knowledge/units/terms/si-da-ming-yan.md	四大名砚（Four Famous Inkstones）
+04-knowledge/units/terms/si-shen.md	四神（Four Divine Creatures）
+04-knowledge/units/terms/sichou-zhilu.md	丝绸之路（Silk Road）
+04-knowledge/units/terms/sida-chuanxing.md	四大船型（Sida Chuanxing (Four Major Ship Types)）
+04-knowledge/units/terms/sida-mingxiu.md	四大名绣（Sida Mingxiu (Four Famous Embroideries)）
+04-knowledge/units/terms/siheyuan.md	四合院（Siheyuan Courtyard）
+04-knowledge/units/terms/sinan.md	司南（Si Nan (South-Pointing Ladle)）
+04-knowledge/units/terms/siye-wen.md	四叶纹（Four-Leaf Pattern）
+04-knowledge/units/terms/sizhua-mao.md	四爪锚（Sizhua Mao (Four-Claw Anchor)）
+04-knowledge/units/terms/song-ci-zhuangshi-shoufa.md	宋瓷装饰手法（Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques)）
+04-knowledge/units/terms/song-jin.md	宋锦（Song Jin (Song Brocade)）
+04-knowledge/units/terms/song-jing.md	宋镜（Song Bronze Mirror）
+04-knowledge/units/terms/song-luo.md	宋罗（罗）（Song Luo (Leno Silk)）
+04-knowledge/units/terms/song-sancai.md	宋三彩（宋加彩）（Song Sancai）
+04-knowledge/units/terms/songban-shu.md	宋版书（Song Dynasty Block-Printed Books）
+04-knowledge/units/terms/songdai-yaoxi.md	宋代窑系（Song Dynasty Kiln Systems）
+04-knowledge/units/terms/songdai-zhuanmu-fota.md	宋代砖木佛塔（Song Dynasty Brick-and-Wood Pagodas）
+04-knowledge/units/terms/songti-zi.md	宋体字（Songti Typeface）
+04-knowledge/units/terms/stone-age.md	石器时期（Stone Age）
+04-knowledge/units/terms/su-sancai.md	素三彩（Su Sancai (Plain Tricolor)）
+04-knowledge/units/terms/suanpan.md	算盘（Abacus）
+04-knowledge/units/terms/suantouping.md	蒜头瓶（Garlic-Head Bottle）
+04-knowledge/units/terms/sufu.md	速夫（Sufu (Western Region Wool Fabric)）
+04-knowledge/units/terms/sui-longbing-shuangshen-hu.md	隋代龙柄双身壶（Sui Double-Bodied Dragon-Handle Ewer）
+04-knowledge/units/terms/suniboqing.md	苏泥勃青（Sumali Blue (Cobalt Pigment)）
+04-knowledge/units/terms/sushi-caihua.md	苏式彩画（Suzhou-Style Architectural Painting）
+04-knowledge/units/terms/suxiu.md	苏绣（Suzhou Embroidery）
+04-knowledge/units/terms/taiping-che.md	太平车（Taiping Cart）
+04-knowledge/units/terms/taishi-yi.md	太师椅（Taishi Chair）
+04-knowledge/units/terms/tali.md	踏犁（Tread Plough）
+04-knowledge/units/terms/tang-dai-qingci-yao.md	唐代著名青瓷窑（Tangdai Zhuming Qingci Yao (Famous Tang Celadon Kilns)）
+04-knowledge/units/terms/tang-sancai.md	唐三彩（Tang Sancai）
+04-knowledge/units/terms/tangcao-wen.md	唐草纹（Tangcao Wen (Tang Scroll Motif)）
+04-knowledge/units/terms/tangci.md	搪瓷（Enamelware）
+04-knowledge/units/terms/tangjing-tuzhi-wushi.md	唐镜图案组织五式（Five Tang-Mirror Pattern Organizations）
+04-knowledge/units/terms/tangjing.md	唐镜（Tang Mirror）
+04-knowledge/units/terms/tangzhuang.md	唐装（Tangzhuang (Tang-Style Jacket)）
+04-knowledge/units/terms/tao-gui.md	陶鬶（Pottery Gui (Tripod Pourer)）
+04-knowledge/units/terms/tao-wa.md	陶瓦（Ceramic Roof Tile）
+04-knowledge/units/terms/tao-zeng.md	陶甑（Pottery Zeng (Steamer)）
+04-knowledge/units/terms/taolun.md	陶轮（Pottery Wheel）
+04-knowledge/units/terms/taoqi-qixing.md	陶器器形（Pottery Forms）
+04-knowledge/units/terms/taoqi.md	陶器（Taoqi (Pottery)）
+04-knowledge/units/terms/taotie-motif.md	饕餮纹（Taotie Motif）
+04-knowledge/units/terms/taoxun.md	陶埙（Pottery Xun）
+04-knowledge/units/terms/taoyan.md	洮砚（Tao Inkstone）
+04-knowledge/units/terms/taoyao.md	陶窑（Pottery Kiln）
+04-knowledge/units/terms/tezhong-gongyi.md	特种工艺（Special Crafts (Tezhong Gongyi)）
+04-knowledge/units/terms/tian-cai.md	填彩（Tiancai (Filling Colours)）
+04-knowledge/units/terms/tianbai.md	甜白（Sweet White Porcelain）
+04-knowledge/units/terms/tianji-hu.md	天鸡壶（Tianji Ewer (Chicken-Head Ewer)）
+04-knowledge/units/terms/tianqi-lacquer.md	填漆（Tianqi (Filled Lacquer)）
+04-knowledge/units/terms/tianren-xiangfen.md	天人相分（Tianren Xiangfen (Separation of Heaven and Humanity)）
+04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md	天时地气材美工巧（Tianshi Diqi Caimei Gongqiao (Timing, Terrain, Materials and Craftsmanship)）
+04-knowledge/units/terms/tianyuan-difang.md	天圆地方（Round Heaven and Square Earth）
+04-knowledge/units/terms/tianzu-yundong.md	天足运动（Tianzu Yundong (Anti-Footbinding Movement)）
+04-knowledge/units/terms/tieda.md	铁搭（Iron Rake）
+04-knowledge/units/terms/tieqi-shidai.md	铁器时代（Iron Age）
+04-knowledge/units/terms/tihuaji.md	提花机（Figured Loom）
+04-knowledge/units/terms/tixi.md	剔犀（Tixi (Carved Black-Red Lacquer)）
+04-knowledge/units/terms/tong-xiu-kai.md	筒袖铠（Tongxiu Kai (Tube-Sleeve Armor)）
+04-knowledge/units/terms/tongche.md	筒车（Waterwheel）
+04-knowledge/units/terms/tonggu.md	铜鼓（Bronze Drum）
+04-knowledge/units/terms/tonghua-bu.md	橦华布（Tonghua Cloth）
+04-knowledge/units/terms/tongjin.md	铜禁（Bronze Jin (Altar Table)）
+04-knowledge/units/terms/tongjing.md	铜镜（Bronze Mirror）
+04-knowledge/units/terms/tou-lou-shou.md	透、漏、瘦（Transparency, Perforation and Thinness）
+04-knowledge/units/terms/touguang-jing.md	透光镜（Light-Transmitting Mirror）
+04-knowledge/units/terms/tu-an.md	图案（Tu'an (Pattern/Design)）
+04-knowledge/units/terms/tuanhua-wen.md	团花纹（Tuanhua Wen (Medallion Flower Motif)）
+04-knowledge/units/terms/tuoche-xiche.md	驼车（奚车）（Camel Cart (Xiche)）
+04-knowledge/units/terms/tuotai-qiqi.md	脱胎漆器（Tuotai (Bodiless) Lacquerware）
+04-knowledge/units/terms/tuteng.md	图腾（Totem）
+04-knowledge/units/terms/twelve-symbols.md	纹饰十二章（Wenshi Shier Zhang (Twelve Ornamental Symbols)）
+04-knowledge/units/terms/underglaze-color.md	釉下彩（Underglaze Color）
+04-knowledge/units/terms/v-shaped-iron-ploughshare-cap.md	V形铁铧冠（V-Shaped Iron Ploughshare Cap）
+04-knowledge/units/terms/wa-wen.md	瓦纹（Tile Motif）
+04-knowledge/units/terms/wadang.md	瓦当（Tile End）
+04-knowledge/units/terms/wailaishi-jianzhu.md	外来式建筑（Wailaishi Jianzhu (Foreign-Style Architecture)）
+04-knowledge/units/terms/war-chariot.md	战车（War Chariot）
+04-knowledge/units/terms/washe.md	瓦舍（Washe (Urban Entertainment Quarter)）
+04-knowledge/units/terms/weft-brocade.md	纬锦（Weft-faced Brocade）
+04-knowledge/units/terms/wei-bei.md	魏碑（Wei Stele Style）
+04-knowledge/units/terms/weisuo-jingguan-gongyuan.md	微缩景观公园（Weisuo Jingguan Gongyuan (Miniature Landscape Park)）
+04-knowledge/units/terms/weizhang.md	帷帐（Curtain and Canopy）
+04-knowledge/units/terms/wenzhi-tongyi.md	文质统一（Wenzhi Tongyi (Unity of Ornament and Substance)）
+04-knowledge/units/terms/wenzhi.md	文质（Wen and Zhi (Ornament and Substance)）
+04-knowledge/units/terms/windlass.md	辘轳（Windlass）
+04-knowledge/units/terms/wooden-kite.md	木鸢（Wooden Kite）
+04-knowledge/units/terms/wu-deng.md	杌凳（Stool）
+04-knowledge/units/terms/wu-gong.md	五供（Five Offerings (Wu Gong)）
+04-knowledge/units/terms/wucai.md	五彩（Wucai (Polychrome Porcelain)）
+04-knowledge/units/terms/wuda-mingyao.md	五大名窑（Five Great Kilns）
+04-knowledge/units/terms/wudai-shiguo.md	五代十国（Five Dynasties and Ten Kingdoms）
+04-knowledge/units/terms/wugou-hook.md	吴钩（Wu Hook）
+04-knowledge/units/terms/wule-gongming.md	物勒工名（Wu Le Gong Ming (Inscribing the Artisan's Name)）
+04-knowledge/units/terms/xi-liang-yue.md	西凉乐（Xiliang Music）
+04-knowledge/units/terms/xi-mat.md	席（Mat (Seating Mat)）
+04-knowledge/units/terms/xia-bo.md	匣钵（Saggar）
+04-knowledge/units/terms/xia-li.md	夏历（Xia Calendar）
+04-knowledge/units/terms/xiaguo-jian.md	夏国剑（Xiaguo Jian (Xia State Sword)）
+04-knowledge/units/terms/xiandai-gongyi.md	现代工艺（Modern Craft）
+04-knowledge/units/terms/xiangjiao.md	橡胶（Rubber）
+04-knowledge/units/terms/xianglian.md	项链（Necklace）
+04-knowledge/units/terms/xiangqi.md	象棋（Chinese Chess (Xiangqi)）
+04-knowledge/units/terms/xiangsheng-xing.md	象生形（Xiangsheng Xing (Life-like Vessel Form)）
+04-knowledge/units/terms/xiangxie.md	相缬（Xiangxie (Xiangzhou Resist Dye)）
+04-knowledge/units/terms/xiangxiu.md	湘绣（Xiang Embroidery）
+04-knowledge/units/terms/xiangyazhu.md	象牙球（Ivory Ball (Nested Spheres)）
+04-knowledge/units/terms/xianqin-mache.md	先秦马车（Pre-Qin Horse-Drawn Chariot）
+04-knowledge/units/terms/xianqin-sandai.md	先秦三代（Xianqin Sandai (Pre-Qin Three Dynasties)）
+04-knowledge/units/terms/xiaopin-diaoke.md	小品雕刻（Minor Carving）
+04-knowledge/units/terms/xiaozhuan.md	小篆（Small Seal Script）
+04-knowledge/units/terms/xiapei.md	霞帔（Xiapei Stole）
+04-knowledge/units/terms/xie-gong-jian.md	谢公笺（Xie Gong Paper）
+04-knowledge/units/terms/xiehong.md	斜红（Xiehong (Slant Red)）
+04-knowledge/units/terms/xieshixing-sheji.md	写实性设计（Realistic Design）
+04-knowledge/units/terms/xifu.md	西服（Xifu (Western Suit)）
+04-knowledge/units/terms/xikesuosi-ren.md	喜克索斯人（Hyksos）
+04-knowledge/units/terms/xin-tongqi.md	新铜器（Xin Tongqi (Song Bronze Ware)）
+04-knowledge/units/terms/xindian-wenhua.md	辛店文化（Xindian Culture）
+04-knowledge/units/terms/xing-shu.md	行书（Running Script）
+04-knowledge/units/terms/xingsheng-zhidu.md	行省制度（Xingsheng Zhidu (Provincial Administration System)）
+04-knowledge/units/terms/xinqi-xiu.md	信期绣（Xinqi Embroidery）
+04-knowledge/units/terms/xinshiqi-shidai.md	新石器时代（Neolithic Period）
+04-knowledge/units/terms/xinshiqi-shiqi-leixing.md	新石器时期石器类型（Neolithic Stone Tool Types）
+04-knowledge/units/terms/xipi.md	犀皮（Xipi (Marbled Lacquer)）
+04-knowledge/units/terms/xiqin.md	奚琴（Xiqin (Two-String Fiddle)）
+04-knowledge/units/terms/xishiqi.md	细石器（Microlith）
+04-knowledge/units/terms/xixia-wenzi.md	西夏文字（Tangut Script）
+04-knowledge/units/terms/xu-vessel.md	盨（Xu (Xu Food Vessel)）
+04-knowledge/units/terms/xuan-zhi.md	宣纸（Xuan Paper）
+04-knowledge/units/terms/xuande-censer.md	宣德炉（Xuande Censer）
+04-knowledge/units/terms/xuanfeng-pao.md	旋风炮（Whirlwind Catapult）
+04-knowledge/units/terms/xuanfeng-zhuang.md	旋风装（Whirlwind Binding）
+04-knowledge/units/terms/xuanhe-zhuang.md	宣和装（Xuanhe Mounting Style）
+04-knowledge/units/terms/xuanhuahui.md	选花会（Xuanhuahui (Pattern Selection Fair)）
+04-knowledge/units/terms/xuanji.md	璇玑（Xuanji Disc）
+04-knowledge/units/terms/xuanxue.md	玄学（Xuanxue (Neo-Daoism)）
+04-knowledge/units/terms/xuanzi-caihua.md	旋子彩画（Xuanzi Caihua (Xuanzi Architectural Painting)）
+04-knowledge/units/terms/xuejiagang-wenhua.md	薛家岗文化（Xuejiagang Wenhua (Xuejiagang Culture)）
+04-knowledge/units/terms/xueju.md	穴居（Xueju (Cave Dwelling)）
+04-knowledge/units/terms/xuetao-jian.md	薛涛笺（Xuetao Paper）
+04-knowledge/units/terms/ya-xing.md	亚形（Yaxing (Ya-Shaped Frame)）
+04-knowledge/units/terms/yan-jin-liu-gu.md	颜筋柳骨（Yan's Sinew and Liu's Bone）
+04-knowledge/units/terms/yan-steamer.md	甗（Yan (Yan Steamer)）
+04-knowledge/units/terms/yang-chang-qun.md	羊肠裙（Yangchang Qun (Sheep-Intestine Pleated Skirt)）
+04-knowledge/units/terms/yang-sui-burning-mirror.md	阳燧（Yang Sui (Burning Mirror)）
+04-knowledge/units/terms/yangbu.md	洋布（Yangbu (Machine-Made Imported Cloth)）
+04-knowledge/units/terms/yanghuo.md	洋货（Foreign Goods）
+04-knowledge/units/terms/yangshao-culture.md	仰韶文化（Yangshao Culture）
+04-knowledge/units/terms/yangzhou-luodian.md	扬州螺钿（Yangzhou Mother-of-Pearl Inlay）
+04-knowledge/units/terms/yanju-fu.md	燕居服（Yanju Fu (Dwelling Robe)）
+04-knowledge/units/terms/yanmo-caihui.md	研磨彩绘（Ground-and-Polished Painted Lacquer）
+04-knowledge/units/terms/yaobian.md	窑变（Kiln Transmutation）
+04-knowledge/units/terms/yaodong.md	窑洞（Yaodong Cave Dwelling）
+04-knowledge/units/terms/yaoyuan-deng.md	腰圆凳（Yaoyuan Deng (Waist-Round Stool)）
+04-knowledge/units/terms/yaozhou.md	腰舟（Waist Float (Yaozhou)）
+04-knowledge/units/terms/yashed-mao.md	鸭舌帽（Yashed Mao (Flat Cap)）
+04-knowledge/units/terms/yeshi.md	夜市（Night Market）
+04-knowledge/units/terms/yi-bi-qian.md	蚁鼻钱（Ant Nose Money）
+04-knowledge/units/terms/yi-pourer.md	匜（Yi (Pouring Vessel)）
+04-knowledge/units/terms/yi-settlement.md	邑（Settlement (Yi)）
+04-knowledge/units/terms/yi-shu-yi-zhi.md	艺术意志（Artistic Will (Kunstwollen)）
+04-knowledge/units/terms/yi-vessel.md	彝（Yi (Yi Ritual Vessel)）
+04-knowledge/units/terms/yichi-sanshan.md	一池三山（Yichi Sanshan (One Pond, Three Mountains)）
+04-knowledge/units/terms/yijianghua-sheji.md	意匠化设计（Yijianghua Sheji (Intentional Design)）
+04-knowledge/units/terms/yikeyin.md	一颗印（Yikeyin Dwelling）
+04-knowledge/units/terms/yin-nang.md	隐囊（Yinnang (Cushion)）
+04-knowledge/units/terms/yindanshilin-sebu.md	阴丹士林色布（Indanthrene dyed cloth）
+04-knowledge/units/terms/yingbin-fu.md	迎宾服（Yingbin Fu (Reception Dress)）
+04-knowledge/units/terms/yinghuang-zhi.md	硬黄纸（Hard Yellow Paper）
+04-knowledge/units/terms/yingqing.md	影青（Yingqing (Qingbai Ware)）
+04-knowledge/units/terms/yinhua-fucai-sha.md	印花敷彩纱（Printed and Painted Gauze）
+04-knowledge/units/terms/yinyang-wuxing.md	阴阳五行（Yin-Yang and Five Phases）
+04-knowledge/units/terms/yiqi-er-gongju.md	一器而工聚（One Vessel Made by Assembled Crafts (Yi Qi Er Gong Ju)）
+04-knowledge/units/terms/yishu-sheji.md	艺术设计（Art Design）
+04-knowledge/units/terms/yishu-shejishi.md	艺术设计史（History of Art Design）
+04-knowledge/units/terms/yisilan-wenhua.md	伊斯兰文化（Yisilan Wenhua (Islamic Culture)）
+04-knowledge/units/terms/yiyi.md	祎衣（Yiyi (Empress's Ceremonial Robe)）
+04-knowledge/units/terms/yizi.md	椅子（Chair）
+04-knowledge/units/terms/you-vessel.md	卣（You (You Wine Vessel)）
+04-knowledge/units/terms/youlihong-ci.md	釉里红瓷（Underglaze Red Porcelain）
+04-knowledge/units/terms/youlihong.md	釉里红（Underglaze Red）
+04-knowledge/units/terms/youpiao.md	邮票（postage stamp）
+04-knowledge/units/terms/youshang-cai.md	釉上彩（Overglaze Decoration）
+04-knowledge/units/terms/yu-basin.md	盂（Yu (Yu Basin)）
+04-knowledge/units/terms/yu-dai.md	鱼袋（Fish Tally Bag）
+04-knowledge/units/terms/yu-instrument.md	竽（Yu）
+04-knowledge/units/terms/yu-yue-cong-bi.md	玉钺、玉琮、玉璧（Jade Yue, Cong and Bi）
+04-knowledge/units/terms/yuan-dai-ciqi-qixing.md	元代瓷器器形（壶、杯、匜、炉）（Yuan Dynasty Porcelain Vessel Forms）
+04-knowledge/units/terms/yuan-dai-cixiu-zhenfa.md	元代刺绣针法（Yuan Embroidery Stitch Types）
+04-knowledge/units/terms/yuan-dai-jianzhu-caihua.md	元代建筑彩画（Yuan Dai Jianzhu Caihua (Yuan Dynasty Architectural Painting)）
+04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md	元代漆器装饰技法（Yuan Dynasty Lacquer Decoration Techniques）
+04-knowledge/units/terms/yuan-dai-simiao-bihua.md	元代寺庙壁画（Yuan Dynasty Temple Murals）
+04-knowledge/units/terms/yuan-dai-zhibi.md	元代纸币（Yuan Dynasty Paper Money）
+04-knowledge/units/terms/yuan-ti-hua.md	院体画（Academy-Style Painting (Yuan Ti Hua)）
+04-knowledge/units/terms/yuanling-paoshan.md	圆领袍衫（Round-Collar Robe）
+04-knowledge/units/terms/yuanmouren.md	元谋人（Yuanmou Man）
+04-knowledge/units/terms/yuanshi-fuzhuang.md	原始服装（Yuanshi Fuzhuang (Prehistoric Clothing)）
+04-knowledge/units/terms/yuanshi-nongju.md	原始农具（Yuanshi Nongju (Prehistoric Farm Tools)）
+04-knowledge/units/terms/yuanzaoxing.md	元造型（Proto-Form）
+04-knowledge/units/terms/yuanzhuwen.md	圆朱文（Yuanzhuwen (Round Vermilion Seal Script)）
+04-knowledge/units/terms/yuban-xuan.md	玉版宣（Yuban Xuan Paper）
+04-knowledge/units/terms/yue-battle-axe.md	钺（Battle-Axe）
+04-knowledge/units/terms/yuefenpai.md	月份牌（Yuefenpai Calendar Poster）
+04-knowledge/units/terms/yuexiu.md	粤绣（Yue Embroidery）
+04-knowledge/units/terms/yuhuchun-ping.md	玉壶春瓶（Yuhuchun Vase）
+04-knowledge/units/terms/yunjian.md	晕絰（Yunjian Striped Brocade）
+04-knowledge/units/terms/yunqi-wen.md	云气纹（Cloud-Scroll Pattern）
+04-knowledge/units/terms/yunse.md	晕色（Yunse (Graduated Colour)）
+04-knowledge/units/terms/yuqixingzu-taoding.md	鱼鳍形足陶鼎（Yuqixingzu Taoding (Fish-Fin-Leg Pottery Ding)）
+04-knowledge/units/terms/yushi.md	玉石（Jade Stone）
+04-knowledge/units/terms/zaju-chuishao-fu.md	杂裾垂髾服（Zaju Chuishao Fu (Layered Skirt Robe)）
+04-knowledge/units/terms/zaoqi-gongyehua.md	早期工业化（Early Industrialization）
+04-knowledge/units/terms/zhadou.md	渣斗（Zhadou (Waste Bowl)）
+04-knowledge/units/terms/zhan-dao.md	栈道（Plank Road）
+04-knowledge/units/terms/zhang-cao.md	章草（Zhangcao Cursive）
+04-knowledge/units/terms/zhao-tie.md	招贴（Poster）
+04-knowledge/units/terms/zhaopai.md	招牌（Shop Signboard）
+04-knowledge/units/terms/zhedie-zhuo.md	折叠桌（Folding Table）
+04-knowledge/units/terms/zhenmushou.md	镇墓兽（Tomb Guardian Beast）
+04-knowledge/units/terms/zheshan.md	折扇（Folding Fan）
+04-knowledge/units/terms/zhi-book-wrapper.md	帙（Book Wrapper）
+04-knowledge/units/terms/zhi-hu.md	执壶（Zhi Hu (Ewer)）
+04-knowledge/units/terms/zhi-vessel.md	觯（Zhi (Zhi Wine Vessel)）
+04-knowledge/units/terms/zhijin-yin.md	织金银（Zhijin Yinyin (Brocade with Gold and Silver Threads)）
+04-knowledge/units/terms/zhijin.md	织锦（Zhijin (Brocade)）
+04-knowledge/units/terms/zhinan-che.md	指南车（South-pointing Chariot）
+04-knowledge/units/terms/zhinanzhen.md	指南针（Magnetic Compass）
+04-knowledge/units/terms/zhiqi-shangxiang.md	制器尚象（Zhiqi Shangxiang (Making Vessels by Observing Images)）
+04-knowledge/units/terms/zhisun-fu.md	质孙服（Zhisun Robe）
+04-knowledge/units/terms/zhiye-zhuang.md	职业装（Zhiye Zhuang (Occupational Uniform)）
+04-knowledge/units/terms/zhong-ti-xi-yong.md	中体西用（Chinese Learning as Substance, Western Learning for Application (Zhong Ti Xi Yong)）
+04-knowledge/units/terms/zhong-xin-ta-zhu-shi.md	中心塔柱式（Central-Pillar Cave Type）
+04-knowledge/units/terms/zhongguo-donghua-xuepai.md	中国动画学派（Zhongguo Donghua Xuepai (Chinese Animation School)）
+04-knowledge/units/terms/zhongguo-feng.md	中国风（Chinoiserie）
+04-knowledge/units/terms/zhongguo-gongyi-meishu-dashi.md	中国工艺美术大师（Zhongguo Gongyi Meishu Dashi (Master of Chinese Arts and Crafts)）
+04-knowledge/units/terms/zhongguo-gudai-leishu.md	类书（Leishu (Leishu (Encyclopedic Compendium))）
+04-knowledge/units/terms/zhongguo-guyou-shi-jianzhu.md	中国固有式建筑（Chinese Inherent-Style Architecture）
+04-knowledge/units/terms/zhongshanzhuang.md	中山装（Zhongshan Suit）
+04-knowledge/units/terms/zhongshiqi-shidai.md	中石器时代（Zhongshiqi Shidai (Mesolithic Period)）
+04-knowledge/units/terms/zhongxi-hunheshi-jianzhu.md	中西混合式建筑（Zhongxi Hunheshi Jianzhu (Sino-Western Hybrid Architecture)）
+04-knowledge/units/terms/zhou-yu-liqi.md	周代玉礼器（Zhou Ritual Jades）
+04-knowledge/units/terms/zhouxin-shidai.md	轴心时代（Axial Age）
+04-knowledge/units/terms/zhu-chang-she-ji-shi.md	驻厂设计师（In-House Designer (Zhu Chang She Ji Shi)）
+04-knowledge/units/terms/zhu-ding-xiang-wu.md	铸鼎象物（Casting Ding to Image Things）
+04-knowledge/units/terms/zhu-lin-qi-xian.md	竹林七贤（Seven Sages of the Bamboo Grove）
+04-knowledge/units/terms/zhu-zhi.md	竹纸（Bamboo Paper）
+04-knowledge/units/terms/zhuanghua.md	妆花（Zhuanghua (Polychrome Brocade Weave)）
+04-knowledge/units/terms/zhuangjin.md	壮锦（Zhuang Brocade）
+04-knowledge/units/terms/zhuangshi-tianjia.md	装饰的添加手法（Decorative Additive Method）
+04-knowledge/units/terms/zhuo-qi.md	桌器（Table Service）
+04-knowledge/units/terms/zhuyu-wen.md	茱萸纹（Dogwood Pattern）
+04-knowledge/units/terms/zikou-tiezu.md	紫口铁足（Purple Mouth, Iron Foot）
+04-knowledge/units/terms/zisha-tao.md	紫砂陶（Zisha Pottery）
+04-knowledge/units/terms/zixingche.md	自行车（bicycle）
+04-knowledge/units/terms/zouma-deng.md	走马灯（Pinwheel Lantern）
+04-knowledge/units/terms/zu-ritual-vessel.md	俎（Zu (Ritual Chopping Stand)）
+04-knowledge/units/terms/zuhui.md	族徽（Zuhui (Clan Emblem)）
+04-knowledge/units/terms/zun-vessel.md	尊（Zun (Zun Wine Vessel)）
+04-knowledge/units/terms/zuo-zu-you-she.md	左祖右社（Ancestral Temple on the Left, Altar of Soil and Grain on the Right）
+04-knowledge/units/terms/zuopu.md	作铺（Zuopu (Tang Urban Workshop)）
+04-knowledge/units/terms/zuosichou.md	柞丝绸（Zuosichou (Tussah Silk (Shandong Silk))）
+04-knowledge/units/terms/zuyongdiao.md	租庸调（Zu-Yong-Diao Tax System）
+04-knowledge/units/works/anle-gongzhu-yuqun.md	安乐公主羽裙（Princess Anle's Feather Skirt）
+04-knowledge/units/works/aoyun-2008-biaozhi.md	2008年北京奥运会标志（Beijing 2008 Olympic emblem）
+04-knowledge/units/works/ba-bridge.md	灞桥（Ba Bridge）
+04-knowledge/units/works/bai-ma-si.md	白马寺（Baima Temple (White Horse Temple)）
+04-knowledge/units/works/bai-you-lv-cai-si-xi-lian-ban-gang.md	白釉绿彩四系莲瓣缸（White-Glazed Four-Lug Lotus-Petal Jar with Green Splash）
+04-knowledge/units/works/baici-pankou-changjing-ping.md	白瓷盘口长颈瓶（White Porcelain Dish-Mouth Long-Neck Bottle）
+04-knowledge/units/works/baici-tiehua-dou.md	白瓷贴花豆（White Porcelain Dou with Applied Decoration）
+04-knowledge/units/works/baidum.md	《白度母》唐卡（Thangka of White Tara）
+04-knowledge/units/works/baiyou-lianhua-tuo-zhuhu.md	白釉莲花托注壶（White-Glazed Ewer with Lotus Stand）
+04-knowledge/units/works/baiyou-lianzuo-zhutai.md	白釉莲座烛台（White-Glazed Lotus-Pedestal Candlestick）
+04-knowledge/units/works/baiyu-qianjin-hongbaoshi-wan.md	白玉嵌金红宝石碗（White Jade Bowl with Gold Inlay and Rubies）
+04-knowledge/units/works/baiyu-shuangchi-guwen-bi.md	白玉双螭谷纹璧（White Jade Bi with Double Chi-Dragon and Grain Pattern）
+04-knowledge/units/works/baodai-qiao.md	宝带桥（Baodai Bridge）
+04-knowledge/units/works/baolian-zaojing.md	宝莲藻井（Lotus Caisson Ceiling at Binyang Cave）
+04-knowledge/units/works/baoxie-road.md	褒斜道（Baoxie Road）
+04-knowledge/units/works/beihai.md	北海（Beihai Park）
+04-knowledge/units/works/beijing-olympic-poster-2008.md	2008年北京奥运会海报（Poster for the 2008 Beijing Olympic Games）
+04-knowledge/units/works/beijing-zijincheng.md	北京紫禁城（The Forbidden City in Beijing）
+04-knowledge/units/works/beiwei-muban-qihua.md	北魏木板漆画（Northern Wei Painted Wooden Panel）
+04-knowledge/units/works/beiyang-jiqiju-biaozhi.md	北洋机器局标志（Beiyang Machinery Bureau Emblem）
+04-knowledge/units/works/beizhen-huanghe-daqiao.md	山东北镇黄河大桥（Beizhen Yellow River Bridge）
+04-knowledge/units/works/bishu-shanzhuang.md	避暑山庄（Chengde Mountain Resort）
+04-knowledge/units/works/bronze-ewer.md	宋代铜执壶（Song Bronze Ewer）
+04-knowledge/units/works/bronze-owl-zun.md	铜鸮尊（Bronze Owl-Shaped Zun）
+04-knowledge/units/works/budala-gong.md	布达拉宫（Potala Palace）
+04-knowledge/units/works/buniantu.md	《步辇图》（Emperor Taizong Receiving the Tibetan Envoy）
+04-knowledge/units/works/caihou-ding.md	蔡侯鼎（Cai Hou Ding）
+04-knowledge/units/works/caihui-fengniao-shuanglian-qi-jiubei.md	彩绘凤鸟双联漆酒杯（Painted Double-Linked Phoenix Lacquer Cup）
+04-knowledge/units/works/caihui-lugu.md	彩绘鹿鼓（Painted Deer Drum）
+04-knowledge/units/works/caihui-niaoshou-yuwen-qi-ge.md	彩绘鸟兽鱼纹漆槅（Painted Lacquer Tray with Birds, Beasts and Fish）
+04-knowledge/units/works/caihui-taocanglou.md	彩绘陶仓楼（Painted Pottery Granary Tower）
+04-knowledge/units/works/cailian-huaxiangzhuan.md	采莲画象砖（Pictorial Brick of Lotus Gathering）
+04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md	彩漆木雕动物座屏（Painted Lacquered Animal Screen）
+04-knowledge/units/works/caitao-tiaowen-hu.md	彩陶条纹壶（Striped Painted Pottery Jar）
+04-knowledge/units/works/caiwen-rentou-ping.md	彩陶人头形瓶（Painted Pottery Human-Head Bottle）
+04-knowledge/units/works/canglangting.md	沧浪亭（Canglang Pavilion）
+04-knowledge/units/works/chan-guo-shan-bei.md	禅国山碑（Changuo Shan Bei (Stele of Mount Changuo)）
+04-knowledge/units/works/changcheng-bigua.md	长城壁挂（Great Wall Tapestry）
+04-knowledge/units/works/changfangdeng.md	长方凳（Rectangular Stool）
+04-knowledge/units/works/changlegong-zhong.md	长乐宫钟（Changle Palace Zhong）
+04-knowledge/units/works/changling-lengendian.md	长陵棱恩殿（Leng'en Hall of Changling）
+04-knowledge/units/works/changxin-palace-lamp.md	长信宫灯（Changxin Palace Lamp）
+04-knowledge/units/works/chao-zhong-tong-fa.md	朝钟同法（Same Method for Court Bells (Chao Zhong Tong Fa)）
+04-knowledge/units/works/chaoyuan-tu.md	《朝元图》（Chaoyuan Tu (Mural of the Assembly of Immortals)）
+04-knowledge/units/works/chengde-waibamiao.md	承德外八庙（Eight Outer Temples of Chengde）
+04-knowledge/units/works/chenghua-jigang-cup.md	成化斗彩鸡缸杯（Chenghua Doucai Chicken Cup）
+04-knowledge/units/works/chengjisihan-ling.md	成吉思汗陵（Mausoleum of Genghis Khan）
+04-knowledge/units/works/chengkun-tielu.md	《成昆铁路》象牙雕刻（Ivory Carving 'Chengdu-Kunming Railway'）
+04-knowledge/units/works/chongning-tongbao.md	崇宁通宝（Chongning Tongbao Coin）
+04-knowledge/units/works/chongping-huiqi-tu.md	重屏会棋图（Playing Chess Behind Screens）
+04-knowledge/units/works/chongqing-renmin-dahuitang.md	重庆人民大会堂（Chongqing People's Great Hall）
+04-knowledge/units/works/chongsheng-si-qianxun-ta.md	崇圣寺千寻塔（Qianxun Pagoda of Chongsheng Temple）
+04-knowledge/units/works/chu-boshu.md	楚帛书（Chu Silk Manuscript）
+04-knowledge/units/works/chuanxing-caitao-hu.md	船形彩陶壶（Boat-Shaped Painted Pottery Jar）
+04-knowledge/units/works/chui-mao-tu.md	锤锚图（Illustration of Forging an Anchor）
+04-knowledge/units/works/chunhua-yuanbao.md	淳化元宝（Chunhua Yuanbao Coin）
+04-knowledge/units/works/cimu-touzhu-tu.md	慈母投杼图（Picture of a Mother Throwing the Shuttle）
+04-knowledge/units/works/cixi-zhuanyongche.md	慈禧太后专用车（Empress Dowager Cixi's automobile）
+04-knowledge/units/works/cuan-bao-zi-bei.md	爨宝子碑（Cuan Baozi Bei (Stele of Cuan Baozi)）
+04-knowledge/units/works/cuan-long-yan-bei.md	爨龙颜碑（Cuan Longyan Bei (Stele of Cuan Longyan)）
+04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md	错金银龙凤鹿方案（Gold- and Silver-Inlaid Dragon-Phoenix-Deer Stand）
+04-knowledge/units/works/cuojin-boshanlu.md	错金博山炉（Gold-Inlaid Boshan Censer）
+04-knowledge/units/works/cuojin-yin-niaozhuanwen-hu.md	错金银鸟篆文壶（Gold- and Silver-Inlaid Bird-Script Hu）
+04-knowledge/units/works/da-ke-ding.md	大克鼎（Da Ke Ding）
+04-knowledge/units/works/da-nao-hua-shi.md	《大闹画室》（Uproar in the Studio）
+04-knowledge/units/works/da-nao-tian-gong.md	《大闹天宫》（Uproar in Heaven）
+04-knowledge/units/works/da-yu-ding.md	大盂鼎（Da Yu Ding）
+04-knowledge/units/works/da-yulong.md	大玉龙（Large Jade Dragon）
+04-knowledge/units/works/dabaoensi-liuli-ta.md	大报恩寺琉璃塔（Porcelain Tower of Dabao'en Temple）
+04-knowledge/units/works/dafu-gao.md	素面青铜器大府镐（Plain Bronze Dafu Hao）
+04-knowledge/units/works/daiyuegui.md	《戴月归》彩锦绣（Colored Silk Embroidery 'Returning Under the Moon'）
+04-knowledge/units/works/dalong-youpiao.md	大龙邮票（Large Dragon Stamp）
+04-knowledge/units/works/daming-gong.md	大明宫（Daming Palace）
+04-knowledge/units/works/danba-zhitong-bei.md	单把直筒杯（Single-Handled Cylindrical Cup）
+04-knowledge/units/works/danke-heitao-gaojiaobei.md	蛋壳黑陶高脚杯（Eggshell Black Pottery Stem Cup）
+04-knowledge/units/works/daolian-tu.md	《捣练图》（Court Ladies Preparing Newly Woven Silk）
+04-knowledge/units/works/daqing-yinbi.md	大清银币（Daqing silver coin）
+04-knowledge/units/works/dawankou-chong.md	大碗口铳（Dawankou Chong (Large-Muzzle Bombard)）
+04-knowledge/units/works/dayan-ta-652.md	大雁塔（Giant Wild Goose Pagoda）
+04-knowledge/units/works/dayu-zhishui-yushan.md	大禹治水图玉山（Jade Mountain of Yu Taming the Waters）
+04-knowledge/units/works/dayunhe.md	大运河（Grand Canal）
+04-knowledge/units/works/dazhi-chanshi-bei.md	大智禅师碑（Stele of Chan Master Dazhi）
+04-knowledge/units/works/dazhongsi-bell.md	大钟寺大钟（Dazhongsi Bell）
+04-knowledge/units/works/dengfeng-guanxingtai.md	登封观星台（Dengfeng Observatory）
+04-knowledge/units/works/di-hou-li-fo-tu.md	帝后礼佛图（Dihou Lifo Tu (Emperors and Empresses Worshipping the Buddha)）
+04-knowledge/units/works/diaojin-xiangyu-yin-daigou.md	雕金镶玉银带钩（Gold-Carved Jade-Inlaid Silver Belt Hook）
+04-knowledge/units/works/diaoqi-shanbing.md	雕漆扇柄（Carved Lacquer Fan Handle）
+04-knowledge/units/works/diaoqi-small-box.md	雕漆小盒（Carved-Lacquer Small Box）
+04-knowledge/units/works/dingling.md	定陵（Dingling Mausoleum）
+04-knowledge/units/works/dingxian-kaiyuansi-liaodi-pagoda.md	定县开元寺瞭敌塔（Liaodi Pagoda, Kaiyuan Temple, Dingxian）
+04-knowledge/units/works/dingyao-haier-zhen.md	定窑孩儿枕（Ding Ware Boy Pillow）
+04-knowledge/units/works/dongfeng-sedan.md	东风牌小轿车（Dongfeng Sedan）
+04-knowledge/units/works/donghan-qingci-gaozu-wan.md	东汉青瓷高足碗（Eastern Han Celadon Bowl with High Foot）
+04-knowledge/units/works/doucai-bagua-censer.md	斗彩八卦炉（Doucai Bagua Censer）
+04-knowledge/units/works/doucai-cock-cup.md	斗彩斗鸡杯（Doucai Cockfighting Cup）
+04-knowledge/units/works/doucai-grape-cup.md	斗彩葡萄杯（Doucai Grape Cup）
+04-knowledge/units/works/du-ling-fang-ding.md	杜岭方鼎（Duling Square Ding）
+04-knowledge/units/works/duiniao-duiyang-baoshou.md	对鸟对羊刺绣包首（Embroidery with Paired Birds and Sheep）
+04-knowledge/units/works/dujiangyan.md	都江堰（Dujiangyan）
+04-knowledge/units/works/dule-si-guanyin-ge.md	独乐寺观音阁（Guanyin Pavilion of Dule Temple）
+04-knowledge/units/works/duleyuan.md	独乐园（Dule Garden）
+04-knowledge/units/works/dunhuang-125-126-ku-xiu.md	敦煌莫高窟125～126窟北魏刺绣（Northern Wei Embroidery from Mogao Caves 125-126）
+04-knowledge/units/works/dushan-dayuhai.md	渎山大玉海（Dushan Jade Sea）
+04-knowledge/units/works/epang-palace.md	阿房宫（Epang Palace）
+04-knowledge/units/works/erlitou-bronze-jue.md	二里头铜爵（Bronze Jue from Erlitou）
+04-knowledge/units/works/erlitou-long-spout-jue.md	二里头青铜长流爵（Long-Spouted Bronze Jue from Erlitou）
+04-knowledge/units/works/falangcai-zhuju-anchun-ping.md	景德镇窑珐琅彩竹菊鹌鹑瓶（Falangcai Vase with Bamboo, Chrysanthemum and Quail）
+04-knowledge/units/works/fanche-longgu-shuiche.md	翻车（龙骨水车）（Fanche (Dragon-Bone Water Lift)）
+04-knowledge/units/works/fanchuan-tujing-cipan.md	帆船图景瓷盘（Pair of Plates with Dutch East India Company Ship）
+04-knowledge/units/works/fangzhi-tu-huaxiangshi.md	纺织图（曾母投杼）画象石（Pictorial Stone of Weaving (Zeng Mu Throwing the Shuttle)）
+04-knowledge/units/works/feiniao-tuanhua-jin.md	飞鸟团花锦（Flying-Bird Medallion Brocade）
+04-knowledge/units/works/fengniaoxing-shao.md	凤鸟形勺（云梦睡虎地三十四号墓）（Phoenix-Shaped Lacquer Spoon）
+04-knowledge/units/works/fengshou-longbing-hu.md	凤首龙柄壶（Ewer with Phoenix Head and Dragon Handle）
+04-knowledge/units/works/flying-pigeon-bicycle.md	飞鸽牌自行车（Flying Pigeon Bicycle）
+04-knowledge/units/works/foguang-si-dadian.md	佛光寺大殿（Main Hall of Foguang Temple）
+04-knowledge/units/works/fu-geng-zisun-gu.md	父庚子孙觚（Gu Vessel Inscribed Fu Geng Zi Sun）
+04-knowledge/units/works/fuhao-changfang-bianzu-ding.md	妇好长方扁足鼎（Fuhao Rectangular Flat-Legged Ding）
+04-knowledge/units/works/fuhao-jade-figure.md	妇好墓玉雕人俑（Jade Figure from the Tomb of Fu Hao）
+04-knowledge/units/works/fuhao-mu-yuren.md	妇好墓玉人（Jade Figure from Fuhao Tomb）
+04-knowledge/units/works/fuhao-sanlian-yan.md	妇好三联甗（Fuhao Triple Yan Steamer）
+04-knowledge/units/works/fuzi-miaotang-bei.md	《夫子庙堂碑》（Confucius Temple Stele）
+04-knowledge/units/works/gao-yi-que.md	高颐阙（Gaoyi Que (Pillar Gate)）
+04-knowledge/units/works/gaoyi-tu.md	《高逸图》（Gao Yi Tu, Lofty Scholars）
+04-knowledge/units/works/gengzhi-tu.md	耕织图（Gengzhi Tu (Pictures of Tilling and Weaving)）
+04-knowledge/units/works/genyue.md	艮岳（Genyue Imperial Garden）
+04-knowledge/units/works/geyuan.md	个园（Ge Garden）
+04-knowledge/units/works/great-wall-tapestry.md	大型壁毯《长城》（Large Tapestry 'The Great Wall'）
+04-knowledge/units/works/guang-wu-jiang-jun-bei.md	广武将军碑（Guangwu Jiangjun Bei (Stele of General Guangwu)）
+04-knowledge/units/works/guanghan-palace-luodian-plate.md	广寒宫螺钿漆盘残片（Guanghan Palace Mother-of-Pearl Lacquer Plate Fragment）
+04-knowledge/units/works/guangxu-caiyou-diaoci-fangping.md	清光绪彩釉雕瓷四季花鸟纹方瓶（Carved Porcelain Square Vase with Four Seasons Flowers and Birds）
+04-knowledge/units/works/guiguxiashan-qinghua-guan.md	元代“鬼谷下山”青花瓷罐（Yuan "Guiguxiashan" Blue-and-White Jar）
+04-knowledge/units/works/guo-shoujing-jianyi.md	郭守敬简仪（Guo Shoujing's Abridged Armilla）
+04-knowledge/units/works/guohui-1950.md	中华人民共和国国徽（National Emblem of the People's Republic of China）
+04-knowledge/units/works/guoji-zibai-pan.md	虢季子白盘（Guoji Zibai Basin）
+04-knowledge/units/works/haigu-zhanchuan.md	海鹘战船（Haigu Warship）
+04-knowledge/units/works/han-xizai-yeyan-tu.md	韩熙载夜宴图（The Night Revels of Han Xizai）
+04-knowledge/units/works/hanjiang-niudeng.md	邗江甘泉二号汉墓牛灯（Ox-Form Lamp from Hanjiang Ganquan Tomb 2）
+04-knowledge/units/works/hao-da-wang-bei.md	好大王碑（Haodawang Bei (Stele of King Haodawang)）
+04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md	鹤衔鱼纹彩陶缸（Painted Pottery Jar with Crane-and-Fish Motif）
+04-knowledge/units/works/he-zun.md	何尊（He Zun）
+04-knowledge/units/works/hehua-wen-taohong-liaogang.md	荷花纹套红料缸（Red-Overlay Glass Vat with Lotus Motif）
+04-knowledge/units/works/hei-you-si-xi-pan-kou-hu.md	黑釉四系盘口壶（Black-Glazed Four-Lug Dish-Mouth Ewer）
+04-knowledge/units/works/heiqizhuhui-niaozu-qian.md	黑漆朱绘鸟足漆案（Black-Lacquered Table with Bird-Foot Legs and Red Painting）
+04-knowledge/units/works/hemudu-zhui-muwan.md	河姆渡朱漆木碗（Hemudu Red-Lacquered Wooden Bowl）
+04-knowledge/units/works/heye-changkou-yinbei.md	荷叶敞口银杯（Lotus-Leaf-Mouth Silver Cup）
+04-knowledge/units/works/hongqi-chashang-zhumulangmafeng.md	红旗插上珠穆朗玛峰玉雕（Jade Carving Red Flag on Mount Everest）
+04-knowledge/units/works/hongqiao.md	虹桥（Rainbow Bridge）
+04-knowledge/units/works/horse-treading-xiongnu.md	马踏匈奴（Horse Treading a Xiongnu Warrior）
+04-knowledge/units/works/houfeng-dizhenyi.md	候风地动仪（Houfeng Seismograph）
+04-knowledge/units/works/houma-mengshu.md	侯马盟书（Houma Covenant Texts）
+04-knowledge/units/works/houzhu-chuan.md	后渚船（Houzhu Shipwreck）
+04-knowledge/units/works/hua-falang-kuihua-pan.md	画珐琅葵花式盘（Painted-Enamel Sunflower-Form Dish）
+04-knowledge/units/works/hua-falang-xiaoping.md	画珐琅小瓶（Small Painted-Enamel Vase）
+04-knowledge/units/works/hua-ji-tu.md	花机图（Illustration of a Draw Loom）
+04-knowledge/units/works/huaguo-leilei.md	花果累累（Stone Carving Huaguo Leilei）
+04-knowledge/units/works/huang-di-zhi-jin-wu-long-man-cao-wen-zhong-jin-kao-bei.md	黄地织金五龙蔓草纹重锦靠背（Yellow-Ground Brocade Backrest with Five Dragons and Scrolling Grass）
+04-knowledge/units/works/huangdi-chuiyishang-sculpture.md	黄帝垂衣裳雕塑（Modern Sculpture of the Yellow Emperor）
+04-knowledge/units/works/huanghe-muqin.md	黄河母亲（Huanghe Muqin (Mother Yellow River)）
+04-knowledge/units/works/huanghu-hao.md	黄鹄号（Huanghu Hao (Huanghu Steamship)）
+04-knowledge/units/works/huangyou-ci-bianhu.md	黄釉瓷扁壶（Yellow-Glazed Porcelain Flat Flask）
+04-knowledge/units/works/huaniao-renwu-luodian-jing.md	花鸟人物螺钿镜（Mother-of-Pearl Mirror with Figures and Birds）
+04-knowledge/units/works/huanxiu-shanzhuang.md	环秀山庄（Huanxiu Villa）
+04-knowledge/units/works/huayan-si.md	华严寺（Huayan Temple）
+04-knowledge/units/works/huayou-yaogu.md	花釉腰鼓（Mottled-Glaze Waist Drum）
+04-knowledge/units/works/huitonghe.md	会通河（Huitong River Canal）
+04-knowledge/units/works/huizi.md	会子（Huizi (Southern Song Paper Money)）
+04-knowledge/units/works/human-face-bronze-yue.md	人面纹铜钺（Bronze Yue with Human-Face Motif）
+04-knowledge/units/works/humen-huopao.md	虎门火炮（Humen Huopao (Humen Battery Cannon)）
+04-knowledge/units/works/huntianyi.md	浑天仪（Armillary Sphere）
+04-knowledge/units/works/huolang-tu.md	货郎图（The Peddler）
+04-knowledge/units/works/huoshaogou-renxing-guan.md	火烧沟人形罐（Huoshaogou Human-Shaped Jar）
+04-knowledge/units/works/huwang-jin.md	胡王锦（Huwang Brocade）
+04-knowledge/units/works/huwen-da-shiqing.md	虎纹大石磬（Tiger-Engraved Stone Chime）
+04-knowledge/units/works/iron-blade-bronze-yue.md	铁刃铜钺（Bronze Yue with Iron Blade）
+04-knowledge/units/works/jade-handle-iron-sword.md	玉柄铁剑（Iron Sword with Jade Handle）
+04-knowledge/units/works/jiading-zhu-xiaosong-bamboo-censer.md	嘉定朱小松竹刻香薰（Jiading Zhu Xiaosong Bamboo Censer）
+04-knowledge/units/works/jiangyin-changjiang-daqiao.md	江阴长江大桥（Jiangyin Yangtze River Bridge）
+04-knowledge/units/works/jichangyuan.md	寄畅园（Jichang Garden）
+04-knowledge/units/works/jiefang-truck.md	解放牌载重卡车（Jiefang (Liberation) Truck）
+04-knowledge/units/works/jihexingwen-fengniaowen-jin.md	几何纹凤鸟纹锦（Brocade with Geometric and Phoenix Patterns）
+04-knowledge/units/works/jin-gu-yuan.md	金谷园（Jingu Yuan (Jingu Garden)）
+04-knowledge/units/works/jin-wudi-simayan-mianfu.md	晋武帝司马炎冕服（Ceremonial Robe of Emperor Wu of Jin）
+04-knowledge/units/works/jinan-huanghe-daqiao.md	济南黄河大桥（Jinan Yellow River Bridge）
+04-knowledge/units/works/jinan-liujia-zhenpu-tongban.md	济南刘家功夫针铺铜版（Jinan Liu Family Needle Shop Copper Printing Plate）
+04-knowledge/units/works/jinci-shengmu-dian.md	晋祠圣母殿（Hall of the Holy Mother at Jinci Temple）
+04-knowledge/units/works/jinci.md	晋祠（Jinci Temple）
+04-knowledge/units/works/jing-shi-jun-bei.md	敬史君碑（Jing Shijun Bei (Stele of Jing Shijun)）
+04-knowledge/units/works/jingyiyuan.md	静宜园（Jingyi Garden）
+04-knowledge/units/works/jingyun-er-nian-dazhong.md	景云二年大钟（Jingyun Second-Year Bronze Bell）
+04-knowledge/units/works/jingzhang-tielu.md	京张铁路（Jingzhang Railway）
+04-knowledge/units/works/jininglu-cixiu-jiashan.md	集宁路刺绣夹衫（Jininglu Embroidered Jacket）
+04-knowledge/units/works/jinqi-diaolong-baozuo.md	金漆雕龙宝座（Gilt-Lacquer Dragon Throne）
+04-knowledge/units/works/jinsheng-han.md	金胜（邗江甘泉山汉墓）（Gold Sheng Ornaments from Ganquan Mountain）
+04-knowledge/units/works/jinxing-pen.md	金星牌金笔（Jinxing Gold Pen）
+04-knowledge/units/works/jinyincuo-shouliewen-tongcheshi.md	金银错狩猎纹铜车饰（Gold- and Silver-Inlaid Bronze Chariot Fitting with Hunting Scene）
+04-knowledge/units/works/jinyu-qipan.md	金鱼漆盘（Goldfish Lacquer Dish）
+04-knowledge/units/works/jiu-hua-tie.md	韭花帖（Jiuhua Tie (Letter on Daylily)）
+04-knowledge/units/works/jiuchenggong-liquan-ming.md	《九成宫醴泉铭》（Jiucheng Palace Spring Inscription）
+04-knowledge/units/works/jiujiang-changjiang-daqiao.md	九江长江大桥（Jiujiang Yangtze River Bridge）
+04-knowledge/units/works/jiulongbi.md	九龙壁（Nine-Dragon Wall）
+04-knowledge/units/works/jiuxi-shibajian.md	都锦生丝织风景《九溪十八涧》（Du Jinsheng Silk Tapestry of Nine Creeks and Eighteen Gullies）
+04-knowledge/units/works/jixiao-shanzhuang.md	寄啸山庄（Jixiao Mountain Villa）
+04-knowledge/units/works/juyan-han-slips.md	居延汉简（Juyan Han Slips）
+04-knowledge/units/works/kaicheng-shijing.md	开成石经（Kaicheng Stone Classics）
+04-knowledge/units/works/kaifeng-xiangguosi-pagoda.md	开封相国寺塔（Pagoda of Xiangguo Temple, Kaifeng）
+04-knowledge/units/works/kehua-jinwan.md	刻花金碗（Engraved Gold Bowl）
+04-knowledge/units/works/kongzi-shengjitu.md	《孔子圣迹图》（Illustrated Life of Confucius）
+04-knowledge/units/works/lan-ting-ji-xu.md	兰亭集序（Lanting Ji Xu (Preface to the Orchid Pavilion Gathering)）
+04-knowledge/units/works/lanbai-yinhuabu.md	新疆民丰蓝白印花布（Blue-and-White Printed Cloth from Minfeng, Xinjiang）
+04-knowledge/units/works/lanyou-bailongwen-meiping.md	蓝釉白龙纹梅瓶（Blue-Glazed White-Dragon Meiping）
+04-knowledge/units/works/lanyou-miaojin-yi.md	蓝釉描金匜（Blue-Glazed Gilt-Decorated Yi Ewer）
+04-knowledge/units/works/lanzhou-tieqiao.md	兰州铁桥（Lanzhou Iron Bridge）
+04-knowledge/units/works/lenovo-et960.md	联想ET960智能手机（Lenovo ET960 Smartphone）
+04-knowledge/units/works/leshan-dafo.md	乐山大佛（Leshan Giant Buddha）
+04-knowledge/units/works/li-ning-banpo-basketball-shoe.md	李宁半坡专业篮球鞋（Li-Ning Banpo Professional Basketball Shoe）
+04-knowledge/units/works/liangtou-jian-chuan.md	两头尖船（Double-Ended Boat）
+04-knowledge/units/works/lianhe-fanghu.md	莲鹤方壶（Lotus and Crane Square Hu）
+04-knowledge/units/works/lianhua-lou.md	莲花漏（Lotus Clepsydra）
+04-knowledge/units/works/lianhua-qingci-tuowan.md	莲花青瓷托碗（Lotus-Shaped Celadon Bowl with Stand）
+04-knowledge/units/works/lianhua-zaoxing-wenjiuqi.md	莲花造型温酒器（Lotus-Shaped Wine Warmer）
+04-knowledge/units/works/lianhua-zun.md	莲花尊（Lotus Zun）
+04-knowledge/units/works/liantang-ruya-tu.md	莲塘乳鸭图（Ducks and Lotus Pond (Kesi)）
+04-knowledge/units/works/lianzhu-luwen-jin.md	联珠鹿纹锦（Brocade with Linked-Pearl Roundels and Deer）
+04-knowledge/units/works/lianzhu-yezhutou-wen-jin.md	联珠野猪头纹锦（Brocade with Linked-Pearl Roundels and Boar-Head Motif）
+04-knowledge/units/works/lienv-renzhi-tu.md	列女仁智图（Illustrations of Exemplary Women）
+04-knowledge/units/works/lindian.md	麟德殿（Lindian Hall）
+04-knowledge/units/works/ling-ding.md	另鼎（音勿）（Ling Ding）
+04-knowledge/units/works/ling-qu.md	灵渠（Ling Qu）
+04-knowledge/units/works/lingtai.md	灵台（Lingtai Terrace）
+04-knowledge/units/works/liu-guandao-xiaoxia-tujuan.md	刘贯道《消夏图卷》（Liu Guandao's Handscroll of Summer Leisure）
+04-knowledge/units/works/liujin-tong-jiuzun.md	鎏金铜酒樽（Gilt Bronze Wine Zun）
+04-knowledge/units/works/liujin-wuma-xianbei-yinhu.md	鎏金舞马衔杯银壶（Gilt Silver Ewer with Dancing Horse）
+04-knowledge/units/works/liujin-yin-huntianyi.md	鎏金银浑天仪（Gilt-Silver Armillary Sphere）
+04-knowledge/units/works/liujin-yinzhu-jie-xunlu.md	鎏金银竹节高柄铜薰炉（Gilt Silver Bamboo-Joint High-Stem Censer）
+04-knowledge/units/works/liuyuan.md	留园（Lingering Garden）
+04-knowledge/units/works/longfenghuwen-xiuyi.md	龙凤虎纹绣衣（Embroidery Garment with Dragon, Phoenix and Tiger）
+04-knowledge/units/works/longhao-jiche.md	龙号机车（Longhao Locomotive）
+04-knowledge/units/works/longhu-bangsu.md	龙虎蚌塑（Dragon and Tiger Shell Mosaic）
+04-knowledge/units/works/longhu-zun.md	龙虎尊（Dragon-Tiger Zun）
+04-knowledge/units/works/longwen-kuihua-jing.md	龙纹葵花镜（Mallow-Shaped Mirror with Dragon Design）
+04-knowledge/units/works/longzang-si-bei.md	《龙藏寺碑》（Longzang Temple Stele）
+04-knowledge/units/works/lu-zigang-tea-crystal-vase.md	陆子冈梅花茶晶花插（Lu Zigang Tea-Crystal Vase with Plum Blossom）
+04-knowledge/units/works/luanshu-fou.md	栾书缶（Luan Shu Fou）
+04-knowledge/units/works/lugou-qiao.md	卢沟桥（Lugou Bridge (Marco Polo Bridge)）
+04-knowledge/units/works/lujiao-lihe.md	鹿角立鹤（Antlered Crane）
+04-knowledge/units/works/lunyu-yuzhu.md	论语玉烛（Lunyu Yuzhu (Analects Wine-Game Vessel)）
+04-knowledge/units/works/luo-shen-fu-tu.md	洛神赋图（Luoshen Fu Tu (Nymph of the Luo River)）
+04-knowledge/units/works/luodian-huaniao-wen-jinghan.md	螺钿花鸟纹经函（Mother-of-Pearl Sutra Box with Bird-and-Flower Design）
+04-knowledge/units/works/luodian-wuxian-pipa.md	螺钿五弦琵琶（Mother-of-Pearl Five-String Pipa）
+04-knowledge/units/works/luodian-zhuiqi-zanhe.md	螺钿朱漆攒盒（Mother-of-Pearl-Inlaid Red Lacquer Tiered Box）
+04-knowledge/units/works/luoxuanwen-caitao-weng.md	螺旋纹彩陶瓮（Painted Pottery Jar with Spiral Pattern）
+04-knowledge/units/works/luoyang-huanghe-daqiao.md	洛阳黄河大桥（Luoyang Yellow River Bridge）
+04-knowledge/units/works/lushan-si-bei.md	《麓山寺碑》（Lushan Temple Stele）
+04-knowledge/units/works/lushan-yao-ci-paigu.md	鲁山窑瓷拍鼓（Lushan Kiln Porcelain Drum）
+04-knowledge/units/works/lv-you-tao-lou.md	绿釉陶楼（Green-Glazed Pottery Tower）
+04-knowledge/units/works/man-eating-you.md	食人卣（You Vessel with Human Figure）
+04-knowledge/units/works/mao-badge.md	毛主席像章（Mao Zedong Badges）
+04-knowledge/units/works/mao-gong-ding.md	毛公鼎（Mao Gong Ding）
+04-knowledge/units/works/mawangdui-boditu.md	马王堆帛地图（Mawangdui Silk Maps）
+04-knowledge/units/works/meique-tu.md	梅鹊图（Magpies and Plum Blossoms (Kesi)）
+04-knowledge/units/works/mengshu-gongjitu.md	孟蜀宫妓图（Court Ladies of Meng Shu）
+04-knowledge/units/works/mengtian-jiangjun-yuhuchun-ping.md	蒙恬将军玉壶春瓶（Yuhuchun Vase with the Story of General Meng Tian）
+04-knowledge/units/works/miaojin-duidiao-qihe.md	描金堆雕漆盒（Gold-Traced Carved Lacquer Box）
+04-knowledge/units/works/miaoying-si-baita.md	北京妙应寺白塔（Miaoying Temple White Stupa）
+04-knowledge/units/works/ming-changcheng.md	万里长城（Ming Great Wall）
+04-knowledge/units/works/ming-shisanling.md	明十三陵（Ming Thirteen Tombs）
+04-knowledge/units/works/ming-xiaoling.md	明孝陵（Ming Xiaoling Mausoleum）
+04-knowledge/units/works/minhang-fenghuang-biaozhi.md	中国民航“凤凰”标志（CAAC phoenix logo）
+04-knowledge/units/works/minzu-wenhua-gong.md	民族文化宫（Cultural Palace of Nationalities）
+04-knowledge/units/works/moxige-yingyang.md	墨西哥鹰洋（Mexican silver dollar）
+04-knowledge/units/works/mozi-jiu-song-tu.md	《墨子救宋图》（Mozi Saving Song）
+04-knowledge/units/works/muhua-qiju.md	唐代木画棋局（Tang Wood-Inlay Go Board）
+04-knowledge/units/works/muniu-liuma.md	木牛流马（Wooden Ox and Flowing Horse）
+04-knowledge/units/works/namo-shakyamuni-fo.md	《南无释迦牟尼佛》夹缬（Woodblock-Resist Print of Sakyamuni Buddha）
+04-knowledge/units/works/nanchan-si-dadian.md	南禅寺大殿（Main Hall of Nanchan Temple）
+04-knowledge/units/works/nanhai-one.md	南海一号（Nanhai One Shipwreck）
+04-knowledge/units/works/nanjing-changjiang-daqiao.md	南京长江大桥（Nanjing Yangtze River Bridge）
+04-knowledge/units/works/nanjing-chengqiang.md	南京城墙（Nanjing City Wall）
+04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md	鸟衔虫彩陶细颈壶（Painted Pottery Flask with Bird-and-Insect Motif）
+04-knowledge/units/works/niaoshou-wen-qi.md	鸟兽纹绮（Bird-and-Beast Pattern Qi Silk）
+04-knowledge/units/works/niutou-lujiao-jin-shijian.md	牛头鹿角金饰件（Gold Ornament with Ox Head and Deer Antlers）
+04-knowledge/units/works/olduvai-kanzhuoqi.md	奥杜韦砾石砍斫器（Olduvai Gravel Chopper）
+04-knowledge/units/works/ou-fangyi.md	偶方彝（Ou Fangyi (Paired Square Ritual Vessel)）
+04-knowledge/units/works/pantao-tu.md	蟠桃图（Peaches of Immortality (Kesi)）
+04-knowledge/units/works/peiligang-shimopan.md	裴李岗石磨盘石磨棒（Peiligang Stone Quern and Pestle）
+04-knowledge/units/works/penglai-yuan-zhanshu.md	蓬莱元代战船（Yuan War Ship from Penglai）
+04-knowledge/units/works/pianshi-shanfang.md	片石山房（Pianshi Shanfang）
+04-knowledge/units/works/ping-fu-tie.md	平复帖（Pingfu Tie (Letter of Recovery)）
+04-knowledge/units/works/pingjiang-tu.md	平江图（Pingjiang Map Stele）
+04-knowledge/units/works/prc-national-flag.md	中华人民共和国国旗（五星红旗）（National Flag of the People's Republic of China）
+04-knowledge/units/works/prince-ziwu-ding.md	王子午鼎（Ding of Prince Ziwu）
+04-knowledge/units/works/qi-shuangfeng-gu.md	漆双凤鼓（Lacquer Double-Phoenix Drum）
+04-knowledge/units/works/qian-li-chuan.md	千里船（Qianli Chuan (Thousand-Li Boat)）
+04-knowledge/units/works/qianjin-tao.md	千金绦（Qianjin Silk Ribbon）
+04-knowledge/units/works/qianli-jiangshan-tu.md	千里江山图（A Thousand Li of Rivers and Mountains）
+04-knowledge/units/works/qianlong-huayuan.md	乾隆花园（Qianlong Garden）
+04-knowledge/units/works/qiantangjiang-daqiao.md	钱塘江大桥（Qiantang River Bridge）
+04-knowledge/units/works/qidan-an.md	契丹鞍（Khitan Saddle）
+04-knowledge/units/works/qihui-mushu-mubi.md	漆绘木梳、木篦（Lacquer-Painted Wooden Comb and Fine-Tooth Comb）
+04-knowledge/units/works/qikong-shidao.md	七孔石刀（Seven-Holed Stone Knife）
+04-knowledge/units/works/qin-bing-ma-yong.md	秦兵马俑（Terracotta Army）
+04-knowledge/units/works/qin-chi-dao.md	秦驰道（Qin Chi Dao）
+04-knowledge/units/works/qin-gong-bo.md	秦公镈（Qin Gong Bo）
+04-knowledge/units/works/qin-han-changcheng.md	秦汉长城（Qin-Han Great Wall）
+04-knowledge/units/works/qin-shi-huang-ling.md	秦始皇陵（Mausoleum of the First Qin Emperor）
+04-knowledge/units/works/qing-ci-gu-cang-guan.md	青瓷谷仓罐（Celadon Granary Jar）
+04-knowledge/units/works/qing-dongling.md	清东陵（Eastern Qing Tombs）
+04-knowledge/units/works/qing-xiling.md	清西陵（Western Qing Tombs）
+04-knowledge/units/works/qingbaiyou-huzhen.md	青白釉虎枕（Qingbai Glazed Tiger Pillow）
+04-knowledge/units/works/qinghua-baleng-longwen-ping.md	青花八棱海水龙纹瓶（Blue-and-White Octagonal Dragon-and-Wave Vase）
+04-knowledge/units/works/qinghua-wugu-fengdeng-tu-pan.md	青花五谷丰登图盘（Blue-and-White Plate with Bumper Harvest Design）
+04-knowledge/units/works/qinghua-youlihong-guan.md	青花釉里红盖罐（Blue-and-Underglaze-Red Lidded Jar）
+04-knowledge/units/works/qingming-shanghe-tu.md	清明上河图（Along the River During the Qingming Festival）
+04-knowledge/units/works/qingtong-lianzhideng.md	青铜连枝灯（Bronze Multi-branch Lamp）
+04-knowledge/units/works/qingyou-ci-zun.md	青釉瓷尊（Celadon-Glazed Porcelain Zun）
+04-knowledge/units/works/qinling-tongchema.md	秦陵铜车马（Bronze Chariots and Horses from the Qin Mausoleum）
+04-knowledge/units/works/qixia-si-sheli-ta.md	栖霞寺舍利塔（Qixia Temple Sarira Pagoda）
+04-knowledge/units/works/qiyingshao.md	耆英号（Qiyingshao, Guangzhou-Type Ship）
+04-knowledge/units/works/qiyu-yunmeng-shuihudi-33.md	漆盂（云梦睡虎地三十三号墓）（Lacquer Yu from Shuihudi Tomb 33）
+04-knowledge/units/works/quanzhou-luoyang-qiao.md	泉州洛阳桥（Luoyang Bridge in Quanzhou）
+04-knowledge/units/works/quanzhou-qingjing-si.md	泉州清净寺（Quanzhou Qingjing Mosque）
+04-knowledge/units/works/renmian-yuwen-caitao-pen.md	人面鱼纹彩陶盆（Human-Face-and-Fish Painted Pottery Basin）
+04-knowledge/units/works/renmin-dahuitang-1959.md	人民大会堂（Great Hall of the People）
+04-knowledge/units/works/rhinoceros-horn-cup.md	花纹犀角杯（Rhinoceros-Horn Cup with Decoration）
+04-knowledge/units/works/ring-foot-gong.md	圈足觥（Ring-Footed Guang Vessel）
+04-knowledge/units/works/ruding-shishi-liujin-yinzhan.md	乳钉狮纹鎏金银盏（Gilt Silver Cup with Bosses and Lion Design）
+04-knowledge/units/works/ruihe-tu.md	瑞鹤图（Auspicious Cranes）
+04-knowledge/units/works/sajia-si.md	萨迦寺（Sakya Monastery）
+04-knowledge/units/works/san-jiao-lou.md	三脚耧（Three-Legged Seed Drill）
+04-knowledge/units/works/sancai-guan.md	三彩罐（Sancai Jar）
+04-knowledge/units/works/sancai-longfeng-liuliyou-xianglu.md	三彩龙凤琉璃釉香炉（Sancai Dragon-and-Phoenix Glazed Censer）
+04-knowledge/units/works/sancai-nv-yong.md	三彩女俑（Sancai Female Figurine）
+04-knowledge/units/works/sancai-shuangyu-hu.md	三彩双鱼壶（Sancai Double-Fish Ewer）
+04-knowledge/units/works/sandian-jiaota-fangmianche.md	三锭脚踏纺棉车（Three-Spindle Treadle Cotton Spinning Wheel）
+04-knowledge/units/works/sanxingdui-bronze-statue.md	三星堆青铜人雕像（Bronze Figure from Sanxingdui）
+04-knowledge/units/works/sanzu-jia.md	三足斝（Three-Legged Jia Vessel）
+04-knowledge/units/works/sassoon-house.md	沙逊大厦（Sassoon House）
+04-knowledge/units/works/shandingdong-zuankong.md	山顶洞人钻孔雕刻品（Upper Cave Drilled Ornaments）
+04-knowledge/units/works/shandong-juxian-taozun.md	山东莒县陶尊（Shandong Juxian Pottery Zun）
+04-knowledge/units/works/shang-elephant-zun.md	商代象尊（Shang Elephant Zun）
+04-knowledge/units/works/shang-yang-fang-sheng.md	商鞅方升（Shang Yang Fang Sheng）
+04-knowledge/units/works/shanghai-cifu.md	上海磁悬浮列车（Shanghai maglev train）
+04-knowledge/units/works/shanghai-expo-china-pavilion-2010.md	2010年上海世博会中国馆（China Pavilion, Expo 2010 Shanghai）
+04-knowledge/units/works/shanghai-huifeng-yinhang.md	上海汇丰银行（HSBC Building, Shanghai）
+04-knowledge/units/works/shanxi-shuoxian-shijiantou.md	山西朔县石箭头（Shanxi Shuoxian Stone Arrowhead）
+04-knowledge/units/works/shaoxing-bazi-qiao.md	绍兴八字桥（Bazi Bridge in Shaoxing）
+04-knowledge/units/works/shen-zifan-hua-niao-tu.md	沈子蕃缂丝《花鸟图》（Shen Zifan's Kesi Flower-and-Bird Painting）
+04-knowledge/units/works/shenbi-gong.md	神臂弓（Shenbi Bow）
+04-knowledge/units/works/shenren-shoumianwen-yucong.md	神人兽面纹玉琮（Jade Cong with Deity-and-Animal Mask）
+04-knowledge/units/works/shensi-xiu-bei.md	神丝绣被（Divine-Silk Embroidered Quilt）
+04-knowledge/units/works/shenyang-gugong.md	沈阳故宫（Shenyang Imperial Palace）
+04-knowledge/units/works/shenyuan.md	沈园（Shen Garden）
+04-knowledge/units/works/shenzhenren-de-yitian.md	深圳人的一天（Shenzhenren de Yitian (A Day of Shenzhen People)）
+04-knowledge/units/works/shenzhou-wuhao.md	神舟五号载人飞船（Shenzhou-5 spacecraft）
+04-knowledge/units/works/shi-gu-wen.md	石鼓文（Stone Drum Inscriptions）
+04-knowledge/units/works/shi-men-ming.md	石门铭（Shimen Ming (Inscription of the Stone Gate)）
+04-knowledge/units/works/shi-qiang-pan.md	史墙盘（Shi Qiang Pan）
+04-knowledge/units/works/shihu-yuan.md	十笏园（Shihu Garden）
+04-knowledge/units/works/shihuangling-kuifengwen-dawadang.md	始皇陵夔凤纹大瓦当（Large Kui-Phoenix Tile End from the Qin Mausoleum）
+04-knowledge/units/works/shiwu-lianzhan-tongdeng.md	十五连盏铜灯（Fifteen-Lamp Bronze Lamp）
+04-knowledge/units/works/shizhuzhai-jianpu.md	《十竹斋笺谱》（Shizhuzhai Jianpu (Ten Bamboo Studio Letter Paper Album)）
+04-knowledge/units/works/shizilin.md	狮子林（Lion Grove Garden）
+04-knowledge/units/works/shou-mian-tong-pai-shi.md	兽面铜牌饰（Bronze Plaque with Animal-Mask Design）
+04-knowledge/units/works/shouwen-heitao-yaxingzun.md	兽纹黑陶鸭形尊（Duck-Shaped Black Pottery Zun with Beast Motif）
+04-knowledge/units/works/shuanglu-wadang.md	双鹿瓦当（Roof-Tile End with Twin Deer）
+04-knowledge/units/works/shuangluan-ruishou-kuihua-jing.md	双鸾瑞兽葵花镜（Mallow-Shaped Mirror with Double Phoenixes and Auspicious Beasts）
+04-knowledge/units/works/shuangniao-wen-gubi.md	双鸟纹骨匕（Bone Ladle with Double-Bird Motif）
+04-knowledge/units/works/shui-dui.md	水碓（Water-Powered Trip Hammer）
+04-knowledge/units/works/shuihudi-qin-bamboo-slips.md	睡虎地秦简（Shuihudi Qin Bamboo Slips）
+04-knowledge/units/works/shuijinggong.md	水晶宫（Crystal Palace）
+04-knowledge/units/works/shuilu-gongzhan-jian.md	水陆攻战纹鉴（Water-Land Battle Scene Jian）
+04-knowledge/units/works/shuiyun-huntianyi.md	水运浑天仪（Water-Driven Armillary Sphere）
+04-knowledge/units/works/shuochangyong.md	说唱俑（Storytelling Figurine）
+04-knowledge/units/works/shuxia-duiniao-duiyang-wenjin.md	树下对鸟对羊纹锦（Brocade with Trees, Paired Birds and Paired Sheep）
+04-knowledge/units/works/shuxia-liyang-tu-jiaxie-pingfeng.md	树下立羊图夹缬屏风（Woodblock-Resist Screen with a Standing Ram under a Tree）
+04-knowledge/units/works/si-ma-sheng-mu-zhi-ming.md	司马升墓志铭（Sima Sheng Muzhiming (Epitaph of Sima Sheng)）
+04-knowledge/units/works/sichou-zhilu-xian-diaosu.md	丝绸之路（西安城市雕塑）（Sichou Zhilu (Silk Road, Xi'an Urban Sculpture)）
+04-knowledge/units/works/sihe-ruyi-jinpan.md	四合如意金盘（Four-Ruyi-Headed Gold Plate）
+04-knowledge/units/works/simajinlong-mu-qi-pingfeng.md	司马金龙墓漆屏风（Lacquer Screen from the Tomb of Sima Jinlong）
+04-knowledge/units/works/simei-tu.md	四美图（Four Beauties Print）
+04-knowledge/units/works/simen-ta.md	四门塔（Simen Pagoda）
+04-knowledge/units/works/simuwu-ding.md	司母戊大方鼎（Simuwu Ding）
+04-knowledge/units/works/sishui-laoding.md	泗水捞鼎画象石（Pictorial Stone of Retrieving the Tripod from the Si River）
+04-knowledge/units/works/siyang-fangzun.md	四羊方尊（Four-Ram Square Zun）
+04-knowledge/units/works/song-xiu-jingang-bore-boluomi-jing.md	宋绣《金刚般若波罗蜜经》（Song Embroidered Diamond Sutra）
+04-knowledge/units/works/songshan-three-que.md	嵩山三阙（Three Que of Mount Song）
+04-knowledge/units/works/songyue-si-ta-523.md	嵩岳寺塔（Songyue Temple Pagoda）
+04-knowledge/units/works/susha-chanyi.md	素纱禅衣（Plain Silk Gauze Robe）
+04-knowledge/units/works/tai-shan-jing-shi-yu-jin-gang-jing.md	泰山经石峪金刚经（Diamond Sutra at Sutra Stone Valley, Mount Tai）
+04-knowledge/units/works/taihedian.md	太和殿（Hall of Supreme Harmony）
+04-knowledge/units/works/taiyangxingqi.md	太阳形器（Sun-Shaped Bronze Object）
+04-knowledge/units/works/tan-yao-wu-ku.md	昙曜五窟（Five Caves of Tan Yao）
+04-knowledge/units/works/tang-dai-tong-zhenzhi.md	唐代铜镇纸（Tang Bronze Paperweight）
+04-knowledge/units/works/tang-dai-yin-xunlu.md	唐代银薰炉（Tang Silver Censer）
+04-knowledge/units/works/tang-yin-xiangnang.md	唐代银香囊（Tang Silver Perfume Pouch）
+04-knowledge/units/works/tangxu-tielu.md	唐胥铁路（Tangxu Railway）
+04-knowledge/units/works/taojing.md	陶井（Pottery Well Model）
+04-knowledge/units/works/ti-hua-ling-ji.md	提花绫机（马钧改进）（Improved Pattern Loom of Ma Jun）
+04-knowledge/units/works/tian-fa-shen-chen-bei.md	天发神谶碑（Tianfa Shenchen Bei (Stele of the Divine Prophecy)）
+04-knowledge/units/works/tian-gong-si-shi-jia-li-xiang.md	天宫寺释迦立像（Standing Sakyamuni Statue of Tiangong Temple）
+04-knowledge/units/works/tianjin-qiao.md	天津桥（Tianjin Bridge）
+04-knowledge/units/works/tiantan.md	天坛（Temple of Heaven）
+04-knowledge/units/works/tibi-chaju.md	提璧茶具（Tibi Tea Set）
+04-knowledge/units/works/tihei-diaoqi-flower-bird-plate.md	剔黑雕漆花鸟纹盘（Carved-Black Lacquer Bird-and-Flower Plate）
+04-knowledge/units/works/tixi-zhijinghe.md	剔犀执镜盒（Tixi Mirror-Handle Box）
+04-knowledge/units/works/tong-lianzuo-liren.md	铜连座立人（Bronze Standing Figure with Base）
+04-knowledge/units/works/tong-niu-deng.md	铜牛灯（Bronze Ox Lamp）
+04-knowledge/units/works/tongbenma.md	铜奔马（Galloping Horse in Bronze）
+04-knowledge/units/works/tongguan-yao-you-guan.md	铜官窑釉罐（Tongguan Kiln Glazed Jar）
+04-knowledge/units/works/tonghuihe.md	通惠河（Tonghui River Canal）
+04-knowledge/units/works/toudiao-xiangya-shu.md	透雕象牙梳（Openwork Ivory Comb）
+04-knowledge/units/works/tuhua-renwu-gushipan.md	凸花人物故事盘（Repoussé Figure-Story Silver Plate）
+04-knowledge/units/works/tuisiyuan.md	退思园（Retreat and Reflection Garden）
+04-knowledge/units/works/tuohuang-niu.md	拓荒牛（Tuohuang Niu (Pioneering Bull)）
+04-knowledge/units/works/waguan-si-jiazhu-foxiang.md	瓦棺寺夹纻佛像（Lacquer Buddha Statues of Waguan Temple）
+04-knowledge/units/works/wangchengtu-dai-zhen.md	王城图（戴震）（Plan of the Royal Capital by Dai Zhen）
+04-knowledge/units/works/wangchengtu-nie-chongyi.md	王城图（聂崇义）（Plan of the Royal Capital by Nie Chongyi）
+04-knowledge/units/works/wangdafan-fugui-shoukao-ciban.md	王大凡《富贵寿考瓷板》（Wang Dafan's Porcelain Plaque of Wealth and Longevity）
+04-knowledge/units/works/wangwen-boli-bei.md	网纹玻璃杯（Network-Patterned Glass Cup）
+04-knowledge/units/works/wanjian-wuyue-huaxiangzhuan.md	丸剑舞乐画象砖（Pictorial Brick of Juggling, Sword and Music）
+04-knowledge/units/works/wanshi-ruyi-jin.md	万世如意锦（Wanshi Ruyi Brocade）
+04-knowledge/units/works/wanxian-changjiang-daqiao.md	重庆万县长江大桥（Wanxian Yangtze River Bridge）
+04-knowledge/units/works/wanzhu-yuan.md	万竹园（Wanzhu Garden）
+04-knowledge/units/works/wei-ding.md	卫鼎（Wei Ding）
+04-knowledge/units/works/weishui-three-bridges.md	渭水三桥（Three Bridges over the Wei River）
+04-knowledge/units/works/weiyang-palace.md	未央宫（Weiyang Palace）
+04-knowledge/units/works/wenjiu-tongbeilu.md	温酒铜杯炉（Bronze Cup-and-Stove Wine Warmer）
+04-knowledge/units/works/wensiyuan-yin-xunlu.md	文思院造鎏金朵带银熏炉（Gilt Silver Censer Made by the Wensiyuan Workshop）
+04-knowledge/units/works/winnowing-machine.md	风车（Winnowing Machine）
+04-knowledge/units/works/wu-wang-fuchai-spear.md	吴王夫差矛（Wu Wang Fuchai Spear）
+04-knowledge/units/works/wu-zixu-huaxiang-jing.md	伍子胥画像镜（Wu Zixu Portrait Mirror）
+04-knowledge/units/works/wucai-figure-washer.md	五彩人物洗（Wucai Figure Washer）
+04-knowledge/units/works/wucai-flower-bird-vase.md	五彩花鸟纹瓷瓶（Wucai Vase with Flower-and-Bird Motif）
+04-knowledge/units/works/wudang-jinding-tongdian.md	武当山金顶铜殿（Gilded Bronze Hall on Wudang Golden Summit）
+04-knowledge/units/works/wudangshan-daoguan.md	武当山道观（Wudang Mountain Taoist Temples）
+04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md	舞蹈人物动物纹三色锦（Three-Color Brocade with Dancers and Animals）
+04-knowledge/units/works/wudaowen-caitao-pen.md	舞蹈纹彩陶盆（Painted Pottery Basin with Dancing Figures）
+04-knowledge/units/works/wugu-fengdeng-denglongwen-zhijin.md	五谷丰登灯笼纹织锦（Brocade with Lantern and Bumper Harvest Motifs）
+04-knowledge/units/works/wuhan-changjiang-daqiao.md	武汉长江大桥（Wuhan Yangtze River Bridge）
+04-knowledge/units/works/wuhu-changjiang-daqiao.md	芜湖长江大桥（Wuhu Yangtze River Bridge）
+04-knowledge/units/works/wunv-qilian.md	舞女漆奁（Lacquer Toilet Box with Dancers）
+04-knowledge/units/works/wusong-tielu.md	吴淞铁路（Wusong Railway）
+04-knowledge/units/works/wuya-dazhanjian.md	五牙大战舰（Five-Toothed Great Warship）
+04-knowledge/units/works/wuyang-diaosu.md	五羊（Wuyang (Five Rams)）
+04-knowledge/units/works/xi-yue-hua-shan-bei.md	西岳华山碑（Xiyue Huashan Bei (Stele of Mount Hua)）
+04-knowledge/units/works/xiangya-bei.md	象牙杯（Ivory Cup）
+04-knowledge/units/works/xiangyang-leigutai-qiren-wen-qilian.md	襄阳擂鼓台人物纹漆奁（Figure-Painted Lacquer Cosmetics Box from Leigutai, Xiangyang）
+04-knowledge/units/works/xiangyun-huoju.md	北京奥运会火炬“祥云”（Beijing 2008 "Xiangyun" Olympic Torch）
+04-knowledge/units/works/xiannongtan.md	先农坛（Altar of Agriculture (Xiannongtan)）
+04-knowledge/units/works/xianyang-palace.md	咸阳宫（Xianyang Palace）
+04-knowledge/units/works/xianyang-yuma.md	咸阳玉马（Xianyang Jade Horse）
+04-knowledge/units/works/xiao-jing-mu-shizhu.md	肖景墓石柱（Stone Pillar at Xiao Jing's Tomb）
+04-knowledge/units/works/xiao-jinzao.md	小金灶（Miniature Gold Stove）
+04-knowledge/units/works/xiao-ke-dou-zhao-ma-ma.md	《小蝌蚪找妈妈》（Where Is Mama (Little Tadpoles Searching for Mother)）
+04-knowledge/units/works/xiaomie-qingting.md	消灭清廷石雕（Stone Carving Xiaomie Qingting）
+04-knowledge/units/works/xiaoyan-ta.md	小雁塔（Small Wild Goose Pagoda）
+04-knowledge/units/works/xiaoyi-zhuan-lanting-tu.md	萧翼赚兰亭图（Xiao Yi Tricking Lan Ting (Painting)）
+04-knowledge/units/works/xiche-tu-kongxinzhuan.md	戏车图空心砖（Hollow Brick with Acrobatic Chariot Scene）
+04-knowledge/units/works/xie-ling-yun-mu-ji.md	谢灵运木屐（Xie Lingyun's Clogs）
+04-knowledge/units/works/xielou-shoushan.md	蟹篓寿山石雕（Shoushan Stone Carving Crab Basket）
+04-knowledge/units/works/ximen-canal.md	西门渠（Ximen Canal）
+04-knowledge/units/works/xinzhui-fushi.md	马王堆贵夫人辛追服饰（Garments of Lady Xinzhui of Mawangdui）
+04-knowledge/units/works/xiping-shijing.md	熹平石经（Xiping Stone Classics）
+04-knowledge/units/works/xique-dengmei.md	《喜鹊登梅》大挂屏（Large Hanging Screen 'Magpies on Plum Branches'）
+04-knowledge/units/works/xixia-movable-type-print.md	西夏活字印本（Tangut Movable-Type Printings）
+04-knowledge/units/works/xixia-wangling.md	西夏王陵（Western Xia Imperial Tombs）
+04-knowledge/units/works/xiyi-wen-caitao-ping.md	蜥蜴纹彩陶瓶（Painted Pottery Vase with Lizard Motif）
+04-knowledge/units/works/xuan-shi-biao.md	宣示表（Xuanshi Biao）
+04-knowledge/units/works/xuande-blue-white-pot.md	宣德青花缠枝花卉执壶（Xuande Blue-and-White Lotus-Scroll Ewer）
+04-knowledge/units/works/xuwen-jin.md	续纹锦（Xu-Pattern Brocade, Fragment）
+04-knowledge/units/works/yang-mao-ti-hong-guan-pu-tu-ba-fang-pan.md	杨茂剔红观瀑图八方盘（Yang Mao Carved-Red Eight-Lobed Dish with Waterfall View）
+04-knowledge/units/works/yangling-hufu.md	阳陵虎符（Yangling Tiger Tally）
+04-knowledge/units/works/yangxinjia-tonglu.md	阳信家铜炉（Yangxin Family Bronze Hand-Warmer）
+04-knowledge/units/works/yanle-shuilu-gongzhan-wen-hu.md	宴乐水陆攻战纹壶（Yanle Shuilu Gongzhan Wen Hu (Banquet and Water-Land Battle Hu)）
+04-knowledge/units/works/yannian-yishou-jin.md	“延年益寿大宜子孙”锦（Yannian Yishou Brocade）
+04-knowledge/units/works/yanta-shengjiao-xu.md	《雁塔圣教序》（Yanta Sacred Edict）
+04-knowledge/units/works/yanyu-tongdeng.md	雁鱼铜灯（Goose-and-Fish Bronze Lamp）
+04-knowledge/units/works/yi-he-ming.md	瘗鹤铭（Yihe Ming (Epitaph for a Buried Crane)）
+04-knowledge/units/works/yi-xian-wan-fo-tang.md	义县万佛堂（Wanfo Tang at Yi County）
+04-knowledge/units/works/yichiwen-jinzhan-loukong-jinshi.md	蟻螭纹金盏、镂空金匙（Gold Cup with Yi-Chi Motif and Openwork Gold Spoon）
+04-knowledge/units/works/yiheyuan.md	颐和园（Summer Palace (Yiheyuan)）
+04-knowledge/units/works/yin-xunlu.md	银熏炉（Silver Censer）
+04-knowledge/units/works/yingqing-zhihu.md	影青执壶（带温酒器）（Yingqing Ewer with Wine Warmer）
+04-knowledge/units/works/yingshou-hu.md	鹰首壶（Eagle-Head Hu）
+04-knowledge/units/works/yinguohe.md	银果盒（Silver Fruit Box）
+04-knowledge/units/works/yingxian-muta.md	应县木塔（Yingxian Timber Pagoda）
+04-knowledge/units/works/yinshou-renxing-deng.md	银首人形灯（Silver-Headed Human-Form Lamp）
+04-knowledge/units/works/yipu.md	艺圃（Garden of Cultivation）
+04-knowledge/units/works/yishe-shouhuo-huaxiangzhuan.md	弋射收获画像砖（Yi She Shou Huo Pictorial Brick）
+04-knowledge/units/works/yong-ning-si.md	永宁寺（Yongning Temple）
+04-knowledge/units/works/yongjiu-zixingche.md	“永久”牌自行车（Forever bicycle）
+04-knowledge/units/works/yongle-gong.md	永乐宫（Yongle Palace）
+04-knowledge/units/works/yongzheng-fencai-sangnv-pan.md	清雍正粉彩仕女采桑图盘（Famille Rose Plate with Ladies Gathering Mulberry Leaves）
+04-knowledge/units/works/yu-ben.md	玉锛（Jade Adze）
+04-knowledge/units/works/yu-lu.md	玉鹿（宝鸡西周墓）（Jade Deer）
+04-knowledge/units/works/yu-pingtuo-shuang-putao-jing.md	玉平脱双葡萄镜（Jade Pingtuo Double-Grape Mirror）
+04-knowledge/units/works/yu-ren-luoyang.md	玉人（洛阳东郊西周墓）（Jade Figure from Luoyang）
+04-knowledge/units/works/yuan-huoqiang.md	元代火铳（Yuan Dynasty Hand Cannon）
+04-knowledge/units/works/yuan-yinjingjia.md	元代银镜架（Yuan Silver Mirror Stand）
+04-knowledge/units/works/yuandatou.md	袁大头（Yuan Shikai silver dollar）
+04-knowledge/units/works/yuanmingyuan.md	圆明园（Old Summer Palace (Yuanmingyuan)）
+04-knowledge/units/works/yudiaolong.md	红山玉雕龙（Hongshan Jade Dragon）
+04-knowledge/units/works/yue-kiln-lianhua-wan-heye-tuo.md	越窑莲花碗荷叶形托（Yue Ware Lotus Bowl with Lotus-Leaf Stand）
+04-knowledge/units/works/yuehan-tielu-huizhang.md	粤汉铁路徽章（Yuehan Railway Badge）
+04-knowledge/units/works/yuewang-goujian-jian.md	越王勾践剑（Sword of Goujian, King of Yue）
+04-knowledge/units/works/yuezu-nu-tong-li.md	刖足奴铜鬲（Bronze Li with Amputated-Foot Slave）
+04-knowledge/units/works/yunjian-jin-qun.md	晕絰提花锦裙（Yunjian Jacquard Brocade Skirt）
+04-knowledge/units/works/yuntou-jin-xie.md	云头锦鞋（Cloud-Head Brocade Shoes）
+04-knowledge/units/works/yunwen-tongjin.md	云纹铜禁（Bronze Altar (Jin) with Cloud Patterns）
+04-knowledge/units/works/yuxing-gubi.md	鱼形骨匕（Fish-Shaped Bone Ladle）
+04-knowledge/units/works/yuyuan.md	豫园（Yu Garden）
+04-knowledge/units/works/yuzhao-feiliang.md	鱼沼飞梁（Yuzhao Flying Bridge）
+04-knowledge/units/works/zangzu-siyangyuan-huangyangmudiao.md	藏族饲养员黄杨木雕（Boxwood Carving Tibetan Herder）
+04-knowledge/units/works/zanhua-shinv-tu.md	《簪花仕女图》（Court Ladies Adorning Their Hair with Flowers）
+04-knowledge/units/works/zenghouyi-bianzhong.md	曾侯乙编钟（Bells of Marquis Yi of Zeng）
+04-knowledge/units/works/zenghouyi-bronze-jianfou.md	曾侯乙铜鉴缶（Bronze Jian-Fou from the Tomb of Marquis Yi of Zeng）
+04-knowledge/units/works/zenghouyi-lacquer-clothing-chests.md	曾侯乙墓漆木衣箱（Lacquer Clothing Chests from the Tomb of Marquis Yi of Zeng）
+04-knowledge/units/works/zenghouyi-tianxiang-tu.md	曾侯乙墓漆衣箱天象图（Astronomical Diagram on the Lacquer Chest from the Tomb of Marquis Yi of Zeng）
+04-knowledge/units/works/zenghouyi-zunpan.md	曾侯乙尊盘（Zenghouyi Zun and Pan）
+04-knowledge/units/works/zengzhongyoufu-fanghu.md	曾中游父方壶（Zeng Zhongyoufu Square Hu）
+04-knowledge/units/works/zhang-cheng-tihong-box.md	张成剔红山水人物圆盒（Zhang Cheng Carved-Red Landscape and Figure Round Box）
+04-knowledge/units/works/zhang-cheng-yun-wen-ti-xi-qi-he.md	张成云纹剔犀漆盒（Zhang Cheng Cloud-Pattern Tixi Lacquer Box）
+04-knowledge/units/works/zhang-hei-nv-mu-zhi.md	张黑女墓志（Zhang Heinv Muzhi (Epitaph of Zhang Heinv)）
+04-knowledge/units/works/zhang-meng-long-bei.md	张猛龙碑（Zhang Menglong Bei (Stele of Zhang Menglong)）
+04-knowledge/units/works/zhaozhou-qiao-595-605.md	赵州桥（Zhaozhou Bridge）
+04-knowledge/units/works/zhengding-longxingsi-tongfo.md	正定龙兴寺铜佛（Bronze Buddha of Zhengding Longxing Temple）
+04-knowledge/units/works/zhengguo-canal.md	郑国渠（Zhengguo Canal）
+04-knowledge/units/works/zhenghe-baochuan.md	郑和宝船（Zheng He's Treasure Ship）
+04-knowledge/units/works/zhengshi-shijing.md	正始石经（Zhengshi Stone Classics）
+04-knowledge/units/works/zhengxie-huihui.md	中国人民政治协商会议会徽（CPPCC emblem）
+04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md	郑州京汉铁路桥（Zhengzhou Jinghan Railway Bridge）
+04-knowledge/units/works/zhidao-qingting.md	直捣清廷石雕（Stone Carving Zhidao Qingting）
+04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md	至顺三年铜火铳（Bronze Bombard of the Third Year of Zhishun）
+04-knowledge/units/works/zhongguo-tielu-biaozhi.md	中国铁路标志（China Railway logo）
+04-knowledge/units/works/zhongguo-yinhang-biaozhi.md	中国银行标志（Bank of China logo）
+04-knowledge/units/works/zhongguo-yiri-guanggao.md	《中国一日》广告（Advertisement for China in One Day）
+04-knowledge/units/works/zhonghua-minzuyuan.md	中华民族园（Zhonghua Minzuyuan (China Ethnic Culture Park)）
+04-knowledge/units/works/zhongshan-ling-1929.md	中山陵（Sun Yat-sen Mausoleum）
+04-knowledge/units/works/zhu-bishan-yincha.md	朱碧山银槎（龙槎杯）（Silver Raft Cup by Zhu Bishan）
+04-knowledge/units/works/zhu-ding-tu.md	铸鼎图（Illustration of Casting a Ding）
+04-knowledge/units/works/zhu-kerou-mu-dan.md	朱克柔缂丝《牡丹》（Zhu Kerou's Kesi Peony）
+04-knowledge/units/works/zhu-ran-mu-hei-hong-qi-ji.md	朱然墓黑红漆几（Black-Red Lacquer Ji from Zhu Ran's Tomb）
+04-knowledge/units/works/zhuangbing-shican-fuyuan-tu.md	装柄石铲复原图（Reconstruction of a Hafted Stone Spade）
+04-knowledge/units/works/zhuhai-yunv.md	珠海鱼女（Zhuhai Yunv (Zhuhai Fisher Girl)）
+04-knowledge/units/works/zhuhui-shifu.md	朱绘有孔石斧（Red-Painted Perforated Stone Axe）
+04-knowledge/units/works/zhui-hanxin-tu-meiping.md	追韩信图梅瓶（Meiping Vase with the Story of Xiao He Pursuing Han Xin）
+04-knowledge/units/works/zhui-pian.md	追篇（Zhui Vessel (as Captioned)）
+04-knowledge/units/works/zhulin-qixian-huaxiang-zhuan.md	竹林七贤画像砖（Brick Relief of the Seven Sages of the Bamboo Grove）
+04-knowledge/units/works/zhulin-qixian-rongqiqi-zhuanhua.md	竹林七贤和荣启期砖画（Brick Relief of the Seven Sages of the Bamboo Grove and Rong Qiqi）
+04-knowledge/units/works/zhuo-qin-tu.md	斫琴图（Zhuoqin Tu (Making a Qin)）
+04-knowledge/units/works/zhuozhengyuan.md	拙政园（Humble Administrator's Garden）
+04-knowledge/units/works/zhuwen-heitao-bo.md	猪纹黑陶钵（Black Pottery Bowl with Pig Motif）
+04-knowledge/units/works/zi-sha-gua-xing-hu.md	紫砂瓜形壶（Zisha Melon-Form Teapot）
+04-knowledge/units/works/zisha-donglinggua.md	紫砂“东陵瓜”（Yixing Zisha 'Dongling Melon' Vessel）
+04-knowledge/units/works/zitan-tihong-baozuo.md	紫檀嵌剔红宝座（Zitan Throne Inlaid with Carved Red Lacquer）

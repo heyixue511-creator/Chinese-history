@@ -1,0 +1,8 @@
+yugong.md | srcs 3 | updated=2026-10-26 | source_count=3 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+shu-staff.md | srcs 1 | updated=2026-10-26 | source_count=1 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+chunqiu-zhanguo-zhanchuan-zhonglei.md | srcs 2 | updated=2026-10-26 | source_count=2 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+gongshu-pan.md | srcs 2 | updated=2026-10-26 | source_count=2 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+yanle-shuilu-gongzhan-wen-hu.md | srcs 2 | updated=2026-10-26 | source_count=2 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+shuilu-gongzhan-jian.md | srcs 3 | updated=2026-10-26 | source_count=3 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+ji-halberd.md | srcs 1 | updated=2026-10-26 | source_count=1 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed
+mao.md | srcs 1 | updated=2026-10-26 | source_count=1 | version=2 | review_due=2027-04-26 | confidence=medium | consensus=tentative | evidence_status=source_backed

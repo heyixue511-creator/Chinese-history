@@ -1,0 +1,512 @@
+===== terms/taoqi.md =====
+---
+title: 陶器（Taoqi (Pottery)）
+name_en: Pottery
+type: term
+sub_type: ceramic_type
+term_original: 陶器
+term_zh: 陶器
+academic_translation_status: provisional
+translation_note: 采用通行译名 Pottery；来源未提供英文名。
+tags:
+  - 新石器时代
+  - 黏土
+  - 羼和料
+  - 轮制
+  - 陶窑
+  - 封窑
+  - 原始手工艺
+aliases:
+  - 陶制器皿
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L306-L315."
+    location: "L306-L315"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+
+===== terms/qingtong-liqi.md =====
+---
+title: 青铜礼器（Bronze Ritual Vessels）
+name_en: Bronze Ritual Vessels
+type: term
+sub_type: vessel_category
+term_original: 青铜礼器
+term_zh: 青铜礼器
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Bronze Ritual Vessels；来源未提供英文名。
+tags:
+  - 商周
+  - 祭祀
+  - 典礼
+  - 等级
+  - 奴隶主
+aliases:
+  - 礼器
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L534-L545."
+    location: "L534-L545"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+
+===== terms/qingtongqi.md =====
+---
+title: 青铜器（Qingtongqi (Bronze Vessels)）
+name_en: Bronze Vessels
+type: term
+sub_type: vessel_category
+term_original: 青铜器
+term_zh: 青铜器
+academic_translation_status: provisional
+translation_note: 采用通行的 Bronze Vessels；来源未提供英文名，且该词在来源中兼指礼器、工具与兵器，英文以 Bronze Objects 亦通。
+tags:
+  - 青铜时代
+  - 合金
+  - 夏商周
+  - 礼器
+  - 马厂文化
+  - 铜石并用
+aliases:
+  - 青铜器物
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L471-L478, L495."
+    location: "L471-L478, L495"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+
+===== terms/tongjing.md =====
+---
+title: 铜镜（Bronze Mirror）
+name_en: Bronze Mirror
+type: term
+sub_type: device_type
+term_original: 铜镜
+term_zh: 铜镜
+academic_translation_status: provisional
+translation_note: 采用通行的 Bronze Mirror；来源未提供英文名。
+tags:
+  - 青铜器
+  - 梳妆用具
+  - 战国
+  - 唐代
+  - 鉴
+aliases:
+  - 鉴（铜镜未流行前的称法）
+term_note: 铜镜是通名；汉代一段另立 `terms/hanjing.md`，本条只作总述与战国、唐代两段。
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1136-L1139."
+    location: "L1136-L1139"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+
+===== terms/han-dai-jia-ju.md =====
+---
+title: 汉代家具（Han Dynasty Furniture）
+name_en: Han Dynasty Furniture
+type: term
+sub_type: furniture_type
+term_original: 汉代家具
+term_zh: 汉代家具
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Han Dynasty Furniture；来源未提供英文名。
+tags:
+  - 汉代
+  - 家具
+  - 席地而坐
+  - 胡床
+  - 竹木制品
+  - 明器
+sources:
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1596."
+    location: "L1596"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_夏燕靖_2009_上海人民美术出版社.md
+      chapter_id: null
+      chunk_id: null
+created: 2026-10-26
+
+===== terms/gaoxing-jiaju.md =====
+---
+title: 高型家具（Gaoxing Jiaju (High-Form Furniture)）
+name_en: Gaoxing Jiaju (High-Form Furniture)
+type: term
+sub_type: furniture_type
+term_original: 高型家具
+term_zh: 高型家具
+academic_translation_status: provisional
+translation_note: 来源未提供英文名；Gaoxing Jiaju (High-Form Furniture) 为音译加描述性译名，故标 provisional。
+tags:
+  - 宋代
+  - 家具
+  - 高型家具
+  - 梁柱式框架
+  - 束腰
+  - 牙条
+  - 罗锅根
+  - 拼合梁
+aliases:
+  - 高足家具
+term_note: 原文作罗锅根（chéng）、霜王根，通行作「罗锅枨」；本条照录标疑，自拟校字用「」。
+sources:
+  - citation: "夏燕靖, *中国艺术设计史（升级版）* (上海: 上海人民美术出版社, 2016), L3429-L3433."
+    location: "L3429-L3433"
+    evidence_ref:
+
+===== terms/qing-style-furniture.md =====
+---
+title: 清式家具（Qing-style Furniture）
+name_en: Qing-style Furniture
+type: term
+sub_type: furniture_style
+term_original: 清式家具
+term_zh: 清式家具
+academic_translation_status: provisional
+translation_note: 采用 Qing-style Furniture；来源未提供英文名。与 Ming-style Furniture 成对，不译作 Qing Furniture（后者易与"清代家具"全称混同）。
+tags:
+  - 家具
+  - 清代
+  - 广作
+  - 苏作
+  - 京作
+  - 太师椅
+aliases:
+  - 清代家具
+term_note: 清式家具是风格概念，不等于全部清代家具；清初至康熙前期仍属明式延续。
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L4959-L5000."
+    location: "L4959-L5000"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+
+===== terms/ming-style-furniture.md =====
+---
+title: 明式家具（Ming-style Furniture）
+name_en: Ming-style Furniture
+type: term
+sub_type: furniture_style
+term_original: 明式家具
+term_zh: 明式家具
+academic_translation_status: provisional
+translation_note: 采用 Ming-style Furniture 这一描述性译名；明式家具不等于“明代家具”，其年代下限延至清初，故以 style 而非 dynasty 限定。
+tags:
+  - 明代
+  - 家具
+  - 硬木
+  - 榫卯
+aliases:
+  - 明代家具（易混，见辨析）
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L4331."
+    location: "L4329-L4340"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L3714."
+
+===== terms/songti-zi.md =====
+---
+title: 宋体字（Songti Typeface）
+name_en: Songti Typeface
+type: term
+sub_type: typeface
+term_original: 宋体字
+term_zh: 宋体字
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Songti Typeface；来源未提供英文名。
+tags:
+  - 雕版印刷
+  - 宋版书
+  - 明体字
+  - 老宋字
+aliases:
+  - 宋体
+  - 明体字（日本称法）
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L3999-L4031."
+    location: "L3999-L4031"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+
+===== procedures/xian-zhuang.md =====
+---
+title: 线装（Thread Binding）
+name_en: Thread Binding
+type: procedure
+sub_type: bookbinding_technique
+action_name: 线装
+date: 唐五代出现；明代中期恢复并改革
+date_note: 赵农记线装在唐五代已经出现，因丝线磨损、书页混乱而被放弃；明代中期渐渐恢复，经改革成为明清重要装帧形式。来源未给具体起始与恢复年份
+location: 中国（来源未限定地域）
+participants: 装订工匠
+result: 封面封底裁齐、书页三边裁齐，以丝线四孔装订，上下角厚纸包角，封面贴书目标签
+source_basis: 赵农 2009 直接记载
+tags:
+  - 明代中期
+  - 线装
+  - 书籍装帧
+  - 四孔装订
+  - 包角
+  - 书目标签
+sources:
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L5123, L7263."
+    location: "L5123, L7263"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+
+===== terms/blue-and-white-porcelain.md =====
+---
+title: 青花瓷（Blue-and-white Porcelain）
+name_en: Blue-and-white Porcelain
+type: term
+sub_type: ceramic_type
+term_original: 青花瓷
+term_original_language: zh
+term_zh: 青花瓷
+academic_translation_status: provisional
+translation_note: 采用 "Blue-and-white Porcelain"（与 2009 赵农候选 slug 一致）；来源并称"青花"，未提供英文名。学界另有 underglaze blue 等译法，来源未用。
+tags:
+  - 唐代
+  - 宋代
+  - 元代
+  - 明代
+  - 清代
+  - 景德镇
+  - 钴料
+  - 釉下彩
+aliases:
+  - 青花
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L3476, L3482-L3486, L3492-L3500, L3508, L3514-L3525, L3544, L3558, L4152, L4166, L4275, L4279."
+    location: "L3476-L3558, L4152, L4166, L4275, L4279"
+    evidence_ref:
+
+===== terms/diao-qi.md =====
+---
+title: 雕漆（Diaoqi (Carved Lacquer)）
+name_en: Diaoqi (Carved Lacquer)
+type: term
+sub_type: lacquer_technique
+term_original: 雕漆
+term_zh: 雕漆
+academic_translation_status: provisional
+translation_note: 采用描述性/通行译名 Diaoqi (Carved Lacquer)；来源未提供英文名。
+tags:
+  - 剔红
+  - 剔犀
+  - 剔彩
+  - 张成
+  - 杨茂
+  - 嘉兴
+aliases:
+  - 漆雕
+  - 剔红
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L3698-L3755."
+    location: "L3698-L3755"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+
+===== works/changxin-palace-lamp.md =====
+---
+title: 长信宫灯（Changxin Palace Lamp）
+name_en: Changxin Palace Lamp
+type: work
+sub_type: bronze_lamp
+title_original: 长信宫灯
+title_original_language: zh
+title_zh: 长信宫灯
+tags:
+  - 西汉
+  - 青铜器
+  - 鎏金
+  - 环保设计
+  - 满城汉墓
+aliases:
+  - 长信宫铜灯
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L1924."
+    location: "L1922-L1990"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L3210."
+
+===== procedures/huozi-yinshua.md =====
+---
+title: 活字印刷（Movable-Type Printing）
+name_en: Movable-Type Printing
+type: procedure
+sub_type: printing_technique
+action_name: 活字印刷
+aliases:
+  - 活版
+date: 北宋庆历年间；元代王祯木活字
+date_note: 赵农引沈括《梦溪笔谈》记“庆历中，有布衣毕昇，又为活版”；又记元代王祯创造活木字印刷并印制《旌德县志》。夏燕靖 2016 记王祯试印《大德旌德县志》。两处均未给具体年份，亦未给毕昇生卒
+location: 中国（毕昇；浙江温州出土北宋崇宁二年佛经残页）；安徽旌德（王祯）；敦煌千佛洞（元代维吾尔族木活字出土地）
+participants: 毕昇（北宋平民）；王祯（元代农学家、旌德县尹）；制字木匠
+result: 以胶泥刻字、火烧成陶质单字，排字于铁版，用松脂蜡与纸灰固定；王祯以木制单字、转轮检字，印成《大德旌德县志》，全书 6 万余字、不到一个月印出百部
+source_basis: 赵农 2009 直接记载，并引沈括《梦溪笔谈·卷十八》；夏燕靖 2016 直接记载王祯与维吾尔族木活字
+tags:
+  - 北宋
+  - 元代
+  - 庆历
+  - 毕昇
+  - 王祯
+  - 活字印刷
+  - 活木字
+  - 胶泥
+  - 陶质字模
+  - 木活字
+
+===== procedures/tao-se-yinshua.md =====
+---
+title: 套色印刷（Color Printing）
+name_en: Color Printing
+type: procedure
+sub_type: printing_technique
+action_name: 套色印刷
+date: 元代（1341）
+date_note: 赵农记现存台湾最早套印本为 1341 年中兴路无闻和尚注释《金刚经注》；未给套色印刷的起始年代
+location: 中兴路（湖北江陵）
+participants: 无闻和尚（注释者）
+result: 《金刚经注》扉页有黑红套色图画，经文红色正文、黑色注文
+source_basis: 赵农 2009 直接记载
+tags:
+  - 元代
+  - 1341
+  - 套色印刷
+  - 金刚经注
+  - 中兴路
+  - 黑红套色
+sources:
+  - citation: "赵农, *中国艺术设计史* (北京: 高等教育出版社, 2009), L6014."
+    location: "L6014"
+    evidence_ref:
+      doc_id: 2009-zhaonong-zhongguo-yishu-shejishi
+      source_file: 03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md
+
+===== places/yue-kiln.md =====
+---
+title: 越窑（Yue Kiln）
+name_en: Yue Kiln
+type: place
+sub_type: archaeological_site
+tags:
+  - 青瓷
+  - 浙江
+  - 唐代
+  - 秘色瓷
+aliases:
+  - 会稽窑
+  - 越州窑
+  - 秘色窑
+translation_note: 采用通行英文名 Yue Kiln；历史别名见 aliases。
+modern_name: 浙江上虞、余姚、绍兴、萧山一带
+historical_names: 会稽窑（六朝）、越州窑（唐）、秘色窑（五代贡瓷别称）
+spatial_scope: 以曹娥江流域为中心，包括余姚上林湖、绍兴九岩、上虞百官镇坳前山、温州西山等窑址
+administrative_context: 唐代属越州，故名越窑；今分属宁波、绍兴、杭州等地
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L2550."
+    location: "L2532-L2567"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+
+===== places/xing-kiln.md =====
+---
+title: 邢窑（Xing Kiln）
+name_en: Xing Kiln
+type: place
+sub_type: kiln_site
+tags:
+  - 唐代
+  - 白瓷
+  - 河北
+  - 南青北白
+aliases:
+  - 邢州窑
+  - 内丘窑
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L2558."
+    location: "L2558, L2626-L2631, L2682"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+      chunk_id: null
+  - citation: "夏燕靖, *中国设计史* (上海: 上海人民美术出版社, 2009), L1930."
+    location: "L1928-L1940"
+    evidence_ref:
+      doc_id: 2009-xiayanjing-zhongguo-shejishi
+
+===== terms/wadang.md =====
+---
+title: 瓦当（Tile End）
+name_en: Tile End
+type: term
+sub_type: building_component
+term_original: 瓦当
+term_zh: 瓦当
+academic_translation_status: provisional
+translation_note: 采用描述性译名 Tile End；来源并记别称"瓦头"，未提供英文名。
+tags:
+  - 西周
+  - 战国
+  - 秦汉
+  - 建筑陶饰
+  - 文字瓦当
+aliases:
+  - 瓦头（高丰所记别称）
+  - 半规瓦（战国半圆瓦当，田自秉用语）
+sources:
+  - citation: "高丰, *中国设计史* (广西美术出版社, 2004), L2242, L2244, L2270-L2278, L2293."
+    location: "L2242, L2244, L2270-L2278, L2293"
+    evidence_ref:
+      doc_id: 2004-gaofeng-zhongguo-shejishi
+      source_file: 03基础书籍-md文档/中国设计史_高丰_2004_广西美术出版社.md
+      chapter_id: null
+
+===== terms/song-ci-zhuangshi-shoufa.md =====
+---
+title: 宋瓷装饰手法（Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques)）
+name_en: Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques)
+type: term
+sub_type: decoration_technique
+term_original: 宋瓷装饰手法
+term_zh: 宋瓷装饰手法
+academic_translation_status: provisional
+translation_note: 来源未提供英文名；Song Ci Zhuangshi Shoufa (Song Ceramic Decoration Techniques) 为音译加描述性译名，故标 provisional。
+tags:
+  - 宋代
+  - 瓷器
+  - 印花
+  - 刻花
+  - 划花
+  - 剔花
+  - 贴花
+  - 镂花
+  - 弦纹
+  - 春字纹
+  - 珍珠地划花
+aliases:
+  - 宋瓷装饰
+term_note: 本条是清单级条目：来源以“宋瓷的装饰手法”为小节，逐一记九种技法；本条合记，不拆为九个独立 KU。
+sources:

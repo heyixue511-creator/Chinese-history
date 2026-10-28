@@ -1,0 +1,103 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h23",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.6「瓷器工艺与窑业传统」下新建 B.6.3「窑系、名窑与窑业组织」，挂载名窑合称与窑系概念、宋元明清瓷窑窑址、瓷艺人与代表器物共 25 个 KU；补足 Theme 的第三层「命名系统」，并把 D 维度的窑业组织条目登记为跨维度接口而非跨维度挂载。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.13",
+    "baseline_themes": 20,
+    "baseline_topics": 49,
+    "baseline_topic_memberships": 289,
+    "baseline_complete_assignments": 285,
+    "baseline_incomplete_assignments": 2285,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6572,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 574,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1377
+  },
+  "result": {
+    "hierarchy_version": "v1.14",
+    "themes": 20,
+    "topics": 50,
+    "topic_memberships": 314,
+    "complete_assignments": 310,
+    "incomplete_assignments": 2260,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6622,
+    "relation_types": "3/67",
+    "member_of_relations": 624,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1367,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b6-ciqi-gongyi-yu-yaoye-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b6-yaoxi-mingyao-yaoye-zuzhi.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 25,
+    "changed_units": 25,
+    "total_mounted_units": 310,
+    "new_topic_memberships": 25,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "taxonomy_split": "瓷器品种与判据→B.6.1；窑炉、装烧与胎釉工艺→B.6.2；窑系、名窑与窑业组织→B.6.3；釉色彩绘与器形→B.6.4／B.6.5；陶器与低温釉陶→B.5",
+    "planned_topics_not_created": [
+      "B.6.4 釉色、彩绘与瓷器类型：青花、釉里红、斗彩、五彩、粉彩、珐琅彩、颜色釉与影青、甜白",
+      "B.6.5 瓷器器形与器类：梅瓶、玉壶春、执壶、高足杯、鸡冠壶、凤首壶与元代器形"
+    ],
+    "deferred_by_boundary": [
+      "御器厂、浮梁瓷局、瓷窑官、景德镇 → primary_dimension=D，与 B.6 维度不一致，本批不挂载；窑侧内容在景德镇窑、赤峰缸瓦窑屯辽窑与宋代官窑窑址三条内引用，制度本体留 D 维度前近代官手工业 Theme",
+      "石湾窑 → 明代两个精陶名窑之一（另一为宜兴），按陶／瓷材料分工不入 B.6，留 B.5.5",
+      "宜兴（以紫砂为主）→ B.5.5，未建立",
+      "醴陵（釉下彩，近代）→ B.4 或后续批次",
+      "定瓷恢复（1972—1976）→ 1949 年后的复烧，不入 B.6 前近代序列",
+      "唐三彩二次烧成法 → 唯一案例属低温釉陶，待 B.5.4 或 B.6.4 复核"
+    ]
+  },
+  "changed_files": 32,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2260",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1367",
+    "The wuda-mingyao listing differs across volumes (Zhao Nong: Guan, Ru, Jun, Ge, Ding; Xia Yanjing 2009: Ru, Guan, Jun, Ge, Ding; 2016: Ru, Guan, Ding, Jun, Ge) and Tian Zibing explicitly calls the list biased, citing Cizhou and Jizhou; this batch records the disagreement without adjudicating",
+    "Song-dynasty 'kiln system' (yaoxi) is never defined; the only quantitative statement is a geographic distribution (17 provinces, 130-plus counties), which is not a count of kiln systems",
+    "Ru kiln site: Baofeng Qingliangsi versus Linru; start date: early Northern Song versus Huizong reign; decoration: carved/incised versus plain — three disagreements left side by side",
+    "Jun kiln classification: Gao Feng treats it as 'kiln-transmutation flower ware', Tian Zibing and Zhao Nong place it in the celadon system; the official-versus-folk Jun distinction further complicates the label",
+    "Ding kiln inscription lists differ across four volumes (Guan/Xinguan; Fenghua/Juxiu/Cifu/Guan; Shangshiju/Shangyaoju/Wufuwang/Cifu; Guan only); the terminal date has three versions (to Northern Song, lost in Yuan, continuing through Jin)",
+    "Ge kiln has no excavated site; the Longquan attribution and the Xiuneisi attribution coexist; the Zhang Sheng-yi / Zhang Sheng-er legend is treated as fact by Zhao Nong and as legend by Tian Zibing and Xia Yanjing",
+    "Chai kiln may not exist; Dong kiln rests entirely on one Gegu Yaolun passage plus two glosses by Tian Zibing, with no site and no object",
+    "Northern Song official kiln has no located site; the 'Daguan-Zhenghe' and 'Zhenghe' reign-date phrasings coexist; the two Southern Song sites are not dated to specific years in the six volumes",
+    "Kiln organization evidence is kiln-side only: Yuqichang, Fuliang ciju, Ciyaoguan and Jingdezhen are D-dimension KUs, not mounted; the D-dimension premodern official-handicraft theme that should hold them does not exist yet",
+    "Scale data are nearly absent: only Chifeng (about two square li), Jingdezhen (egg-shaped wood kiln about 28 m, 200,000-plus workers) provide figures; output, workshop area, workforce and yield rate are missing for every other kiln",
+    "Artisan material is one or two sentences each (He Chaozong, Shu Weng, Shu Jiao, Huang Maijiu); Shu Weng and Shu Jiao come from consecutive sentences of the same passage and cannot corroborate each other",
+    "2260 KUs remain unmounted"
+  ],
+  "notes": "本批新建 1 个 Topic（B.6.3 窑系、名窑与窑业组织），挂载 25 个 KU，不新增 Theme。结构设计的四项判断：其一，B.6.3 承担 Theme 的第三层“命名系统”，与 B.6.1 的材料判据、B.6.2 的窑业条件并列；内部按“合称—窑系—单窑”三级名单的可靠性递减、“地望／制度／姓氏传说／文献品第”四种命名依据与“有址有物／有址有争议／无址有物／无址无物”四级证据强度组织，不按朝代罗列窑口。其二，角色分配沿用 B.5.2 与 B.6.1 的惯例：具体名目（五大名窑、宋代窑系、官窑、哥窑、柴窑）用 term_anchor，窑址统一用 geographical_context，瓷艺人用 key_person，定窑孩儿枕用 representative_work。其三，御器厂、浮梁瓷局、瓷窑官与景德镇四条 primary_dimension 为 D，apply_topic_memberships.py 强制 primary_dimension 与 primary_theme 首段一致，本批不为它们制造跨维度挂载，改在景德镇窑、赤峰缸瓦窑屯辽窑与宋代官窑窑址三条内引用其窑侧内容，并在 Topic 边界、topics README 与 dimension-candidates 中登记为跨维度接口。其四，石湾窑经复核为“明代两个生产精陶的名窑之一”，属陶器线，按 B.6 边界留 B.5.5，挂载数由 26 降为 25。v1.13 归档取 git HEAD 字节（20211 字节），哈希 sha256:4d23b12bd8ee1782a7d214a0e82861a6bcf67fcf418a0de139ced1dc696582e9 与 h22 apply-plan 记录逐字节一致。relation 总数由 6572 增至 6622（25 Theme + 25 Topic），member_of 由 574 增至 624；隔离单元由 1377 降至 1367（25 个 KU 中 10 个原本已通过 claim 关系入图）。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

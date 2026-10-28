@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度下元代瓷器器形的清单级条目，其造型来源与金银器交流另涉 B 维度内部的其他器类。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "元代瓷器器形是 B.6.5 追加与称名规则的交汇条目：壶以玉壶为基础加流与把手，并引《格古要论》元代以后才将有嘴的称壶、无嘴的称瓶"
+hierarchy_scope_note: "元代瓷器器形是 B.6.5 追加与称名规则的交汇条目：壶以玉壶为基础加流与把手，并引《格古要论》元代以后才将有嘴的称壶、无嘴的称瓶"
 ---
 
 ## 描述
@@ -54,15 +62,15 @@ hierarchy_scope_note: "本条是 B 维度下元代瓷器器形的清单级条目
 - **器形史意义**: 元代瓷器在承袭前代器形的基础上，对壶的流、柄与杯的高足作了明确化处理，并以匜、炉等器类扩展造型谱系
 - **证据边界**: 未给尺寸、窑口、釉色与实物编号；图 8-9、8-10 未视觉核验（2009）
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下元代瓷器器形的清单级条目，其造型来源与金银器交流另涉 B 维度内部的其他器类。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 元代瓷器器形是 B.6.5 追加与称名规则的交汇条目：壶以玉壶为基础加流与把手，并引《格古要论》元代以后才将有嘴的称壶、无嘴的称瓶
 ## 相关知识元
 
 `terms/gaozu-bei.md` 记高足杯的独立形制；`terms/yi-pourer.md` 记先秦青铜匜，与本条元代瓷匜时代与材质不同；`terms/hu-vessel.md` 记汉代铜壶，可与本条元代瓷壶对读称名与形制变化；`terms/blue-and-white-porcelain.md` 记元青花，属同代瓷种条目。relation 未审查。

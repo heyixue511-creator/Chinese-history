@@ -50,19 +50,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "景德镇制胎、造办处彩绘、二次烧成的瓷胎画珐琅；彩料、品种、宫廷御器三种定义取向"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "珐琅彩是 B 维度下清代宫廷釉上彩条目：景德镇制胎、内务府或北京二次彩绘烧成的分工属工艺与生产组织，华丽稠厚的彩绘效果属装饰。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "景德镇制胎、造办处彩绘、二次烧成的瓷胎画珐琅；彩料、品种、宫廷御器三种定义取向"
 ---
 
 ## 描述
@@ -100,14 +108,10 @@ hierarchy_scope_note: "珐琅彩是 B 维度下清代宫廷釉上彩条目：景
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions:
-  - C
-  - D
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是清代宫廷彩瓷的核心条目，跨工艺（二次烧成、彩料）与制度（内务府造办处、内廷秘玩）两条线。可支持未来"宫廷工艺与内府造作"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 景德镇制胎、造办处彩绘、二次烧成的瓷胎画珐琅；彩料、品种、宫廷御器三种定义取向
 ## 相关知识元
 
 同批写回的 `terms/fencai.md` 与本案在夏燕靖两版同一段内并列，田自秉称珐琅彩"为粉彩发展奠定了基础"（夏燕靖 2016 同旨）；`terms/doucai.md`（斗彩）、`terms/youlihong.md`（釉里红）同属彩瓷序列；`terms/underglaze-color.md` 是工序上的对照极。田自秉同册另有"画珐琅"候选（`2010-tianzibing-zhongguo-gongyi-meishushi:cand-12-52`，铜胎），与本条的瓷胎一路分属不同实体，本批未并。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

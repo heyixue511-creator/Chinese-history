@@ -55,19 +55,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "鸡冠壶是 B.6.5 取象与追加两条路径叠加的样本：仿皮囊壶而制、有孔式之上再加环梁；名称批评、两类与五式两套分类、器形随矮型家具增高均在本条"
 secondary_dimensions:
   - E
-hierarchy_scope_note: "鸡冠壶是 B 维度下辽代瓷器的代表性器形，其皮囊原型、马背功能与定居化改造属 E 维度的跨文化互动。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "鸡冠壶是 B.6.5 取象与追加两条路径叠加的样本：仿皮囊壶而制、有孔式之上再加环梁；名称批评、两类与五式两套分类、器形随矮型家具增高均在本条"
 ---
 
 ## 描述
@@ -102,16 +110,15 @@ hierarchy_scope_note: "鸡冠壶是 B 维度下辽代瓷器的代表性器形，
 - **图版（四册）**: 高丰“图 6-14 辽代有孔式鸡冠壶”“图 6-15 辽代提梁式鸡冠壶”；田自秉“插图 15 绿釉鸡冠壶(辽)”“插图 16 辽金陶瓷造型 ① 鸡冠壶”；赵农“图 8-3 辽 鸡冠壶”；夏燕靖两版均为“辽代 金银鸡冠壶”两幅（2009 图 7-40、7-41；2016 图 7-42、7-43）——**夏燕靖两版所举为金银器而非瓷器**，四册图版所取材质不同，本 KU 据图注著录，不据此扩写
 - **未见于来源的内容**: 鸡冠壶的具体窑口、纪年墓例、以及瓷、金银不同材质之间的关系，五册均未展开
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是辽代契丹族器物设计与定居化进程的交汇条目，与胡床（起居方式变化）直接相关，上接皮囊壶传统、下接元代扁壶。可支持未来的辽代器物与游牧—农耕互动类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 鸡冠壶是 B.6.5 取象与追加两条路径叠加的样本：仿皮囊壶而制、有孔式之上再加环梁；名称批评、两类与五式两套分类、器形随矮型家具增高均在本条
 ## 相关知识元
 
 同批写回的胡床 KU 在「辽中叶以后矮型家具流行→提梁式壶增高」这一因果链上直接相接；`terms/pointed-bottom-jar.md` 同属器形条目。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

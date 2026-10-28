@@ -1,0 +1,160 @@
+# -*- coding: utf-8 -*-
+"""Build chapter 10 batch N decisions JSON from generated KU files."""
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2009-zhaonong-zhongguo-yishu-shejishi"
+PREFIX = DOC + ":"
+
+# (candidate suffix, target, kind, analysis, apply_note)
+CREATES = [
+    ("cand-11-104", "04-knowledge/units/publications/meishu-de-qiyuan.md", "出版物",
+     "《美术的起源》是蔡元培 1920 年文中所见「建筑、造像（雕刻）、图画、工艺美术」四项并称的出处。既有 `terms/gongyi-meishu.md` 记工艺美术作为学科名称的形成，本条为该概念史提供 1920 年的文献节点，二者一为术语、一为文献，不合并；检索无同实体出版物。按出版物新建，证据行 L7703-L7705。来源只引一句并称，无刊物、卷期与全文论点，confidence 取 low。",
+     "写入 04-knowledge/units/publications/meishu-de-qiyuan.md（新建）；引用 L7703-L7705。"),
+    ("cand-11-114", "04-knowledge/units/publications/jianguo-fanglue.md", "出版物",
+     "《建国方略》是孙中山 1919 年完成的著作，赵农据以记上海「东方大港」与「创造市宅中心于浦东」两项计划及其 20 世纪末才初步完成。既有 `persons/sun-yat-sen.md` 记孙中山生平与建国方略，属人物条；本条为规划文本本体，不合并。按出版物新建，证据行 L7762-L7776。来源跨页且被图版与页眉分隔，只记计划内容，不逐字引残句。",
+     "写入 04-knowledge/units/publications/jianguo-fanglue.md（新建）；引用 L7762-L7776。"),
+    ("cand-11-133", "04-knowledge/units/publications/zhongguo-jianzhushi.md", "出版物",
+     "《中国建筑史》是梁思成在抗日战争时期西南后方撰写的著作，赵农称其为中国古代建筑研究奠定了基础。既有 `persons/liang-sicheng.md` 记梁思成、`institutions/zhongguo-yingzao-xueshe.md` 记中国营造学社，均非著作本体；检索无同实体出版物。按出版物新建，证据行 L7870。来源只一句记撰写与奠基作用，无成书年、卷数与版本，confidence 取 low。",
+     "写入 04-knowledge/units/publications/zhongguo-jianzhushi.md（新建）；引用 L7870。"),
+    ("cand-11-135", "04-knowledge/units/persons/mao-yisheng.md", "人物",
+     "茅以升是中国桥梁设计家，主持修建 1937 年建成的钱塘江大桥。检索无茅以升人物条目；`works/qiantangjiang-daqiao.md` 为桥梁本体，本条为人物，二者分属人物与作品。按人物新建，证据行 L7876。人物条只记身份、主持工程与该桥在中国自行设计史上的地位，桥长、分项与 1991 年新桥归桥梁条。",
+     "写入 04-knowledge/units/persons/mao-yisheng.md（新建）；引用 L7876。"),
+    ("cand-11-126", "04-knowledge/units/terms/chengshi-diaosu.md", "术语",
+     "城市雕塑是赵农所述公共空间艺术的重要组成部分，L7829 记 1950 年代依照前苏联城市建筑模式设置广场雕塑并举北京农展馆群雕、毛主席纪念堂前广场雕塑群，L7840 记改革开放后进入城市街头、构成现代城市文化景观。检索无同实体术语；同段六件作品另立 works 条，类型条不重复作品内容。按术语新建，证据行 L7829、L7840。",
+     "写入 04-knowledge/units/terms/chengshi-diaosu.md（新建）；引用 L7829、L7840。"),
+    ("cand-11-128", "04-knowledge/units/terms/weisuo-jingguan-gongyuan.md", "术语",
+     "微缩景观公园是赵农以深圳「世界之窗」、北京「世界公园」为例所述的新园林类型，称其采集世界各地建筑精华、浓缩人类文化现象，并称此类微缩景观在国外发达国家早已出现。检索无同实体术语；同段中华民族园、民俗村另立条目，本条专记世界建筑微缩景观。按术语新建，证据行 L7864。来源未给类型定义，按实例归纳。",
+     "写入 04-knowledge/units/terms/weisuo-jingguan-gongyuan.md（新建）；引用 L7864。"),
+    ("cand-11-187", "04-knowledge/units/terms/minsucun.md", "术语",
+     "民俗村是赵农在 L7864 与「中华民族园」并列所述的新园林类型，集南北不同民族风情于一园。检索无同实体术语；`works/zhonghua-minzuyuan.md` 为具名园林，本条为类型，不合并。按术语新建，证据行 L7864。来源只一句并列举例，未给独立界说、具体园名与分布，confidence 取 low。",
+     "写入 04-knowledge/units/terms/minsucun.md（新建）；引用 L7864。"),
+    ("cand-11-173", "04-knowledge/units/works/chongqing-renmin-dahuitang.md", "作品",
+     "重庆人民大会堂是赵农在第十章第二节末尾与内蒙古成吉思汗陵并列提及的建筑，称二者标志不同区域的建筑水平。与既有 `works/renmin-dahuitang-1959.md`（北京人民大会堂）为不同建筑，不合并；检索无同实体作品。按作品新建，证据行 L7813。来源只一句判断，未描述建筑本体，confidence 取 low。",
+     "写入 04-knowledge/units/works/chongqing-renmin-dahuitang.md（新建）；引用 L7813。"),
+    ("cand-11-174", "04-knowledge/units/works/chengjisihan-ling.md", "作品",
+     "内蒙古成吉思汗陵是赵农在 L7813 与重庆人民大会堂并列提及的纪念建筑，称二者标志不同区域的建筑水平。既有 `persons/chengjisihan.md` 记历史人物，非陵墓本体；检索无同实体作品。按作品新建，证据行 L7813。来源只一句判断，未给建成年代、形制与祭祀功能，confidence 取 low。",
+     "写入 04-knowledge/units/works/chengjisihan-ling.md（新建）；引用 L7813。"),
+    ("cand-11-186", "04-knowledge/units/works/zhonghua-minzuyuan.md", "作品",
+     "中华民族园是赵农在 L7864 所述现代化程度较高城市中修建的新园林，与「民俗村」并列，集南北民族风情于一园。检索无同实体作品；`terms/minsucun.md` 记民俗村类型，本条为具名园林，不合并。按作品新建，证据行 L7864。来源只一句并列举例，无园址、年代、面积与设计者，confidence 取 low。",
+     "写入 04-knowledge/units/works/zhonghua-minzuyuan.md（新建）；引用 L7864。"),
+    ("cand-11-134", "04-knowledge/units/works/qiantangjiang-daqiao.md", "作品",
+     "钱塘江大桥于 1937 年建成，由茅以升主持修建，是中国最早自行设计建造的双层铁路、公路两用桥，分引桥、正桥两部分，共长 1453 米；1991 年在原桥东侧建成新桥。检索无同实体作品；`persons/mao-yisheng.md` 为人物条。按作品新建，证据行 L7876。",
+     "写入 04-knowledge/units/works/qiantangjiang-daqiao.md（新建）；引用 L7876。"),
+    ("cand-11-136", "04-knowledge/units/works/wuhan-changjiang-daqiao.md", "作品",
+     "武汉长江大桥是 1957 年建成的公路、铁路两用桥，结束了长江自古无大桥的历史，包括引桥全长 1670.4 米，体现 20 世纪 50 年代中国高跨度钢桥技术的最高水平。检索无同实体作品。按作品新建，证据行 L7878。来源未给跨度、净空、造价与设计者。",
+     "写入 04-knowledge/units/works/wuhan-changjiang-daqiao.md（新建）；引用 L7878。"),
+    ("cand-11-137", "04-knowledge/units/works/nanjing-changjiang-daqiao.md", "作品",
+     "南京长江大桥于 1968 年修建通车，为双层钢梁铁路、公路两用桥，上层 4 车道公路桥，下层双线铁路桥，加引桥铁路 6772 米、公路 4589 米，正桥两侧有一对桥头堡。检索无同实体作品。按作品新建，证据行 L7880-L7885；来源跨页且中隔图 10-20，按文字著录，不据图补桥型。",
+     "写入 04-knowledge/units/works/nanjing-changjiang-daqiao.md（新建）；引用 L7880-L7885。"),
+    ("cand-11-138", "04-knowledge/units/works/lanzhou-tieqiao.md", "作品",
+     "兰州铁桥是清代晚期建设的黄河大桥，有「天下黄河第一桥」之称，结束了黄河上游千百年来没有永久性桥梁通行的历史；L7891 又列后续郑州京汉铁路桥、洛阳、北镇、济南四桥。检索无同实体作品。按作品新建，证据行 L7889、L7891。",
+     "写入 04-knowledge/units/works/lanzhou-tieqiao.md（新建）；引用 L7889、L7891。"),
+    ("cand-11-209", "04-knowledge/units/works/tuohuang-niu.md", "作品",
+     "《拓荒牛》是深圳城市雕塑的代表作品之一，赵农在改革开放后城市雕塑段将其列入能代表城市历史文化的作品。检索无同实体作品；`terms/chengshi-diaosu.md` 记类型，本条记单件作品。按作品新建，证据行 L7840。来源只给作品名与城市，confidence 取 low。",
+     "写入 04-knowledge/units/works/tuohuang-niu.md（新建）；引用 L7840。"),
+    ("cand-11-210", "04-knowledge/units/works/shenzhenren-de-yitian.md", "作品",
+     "《深圳人的一天》是深圳城市雕塑的代表作品之一，与《拓荒牛》同出 L7840 的深圳列举。检索无同实体作品。按作品新建，证据行 L7840。来源只给作品名与城市，confidence 取 low。",
+     "写入 04-knowledge/units/works/shenzhenren-de-yitian.md（新建）；引用 L7840。"),
+    ("cand-11-211", "04-knowledge/units/works/zhuhai-yunv.md", "作品",
+     "《珠海鱼女》是珠海城市雕塑的代表作品之一，赵农在 L7840 将其列入能代表城市历史文化的作品。检索无同实体作品。按作品新建，证据行 L7840。来源只给作品名与城市，confidence 取 low。",
+     "写入 04-knowledge/units/works/zhuhai-yunv.md（新建）；引用 L7840。"),
+    ("cand-11-212", "04-knowledge/units/works/wuyang-diaosu.md", "作品",
+     "《五羊》是广州城市雕塑的代表作品之一，赵农在 L7840 将其列入能代表城市历史文化的作品。检索无同实体作品。按作品新建，证据行 L7840。来源只给作品名与城市，confidence 取 low。",
+     "写入 04-knowledge/units/works/wuyang-diaosu.md（新建）；引用 L7840。"),
+    ("cand-11-213", "04-knowledge/units/works/sichou-zhilu-xian-diaosu.md", "作品",
+     "《丝绸之路》是西安城市雕塑的代表作品之一，赵农在 L7840 将其列入能代表城市历史文化的作品。既有 `terms/sichou-zhilu.md` 记丝绸之路贸易路线，与本条为同名异指，不合并；检索无同实体作品。按作品新建，证据行 L7840。",
+     "写入 04-knowledge/units/works/sichou-zhilu-xian-diaosu.md（新建）；引用 L7840。"),
+    ("cand-11-214", "04-knowledge/units/works/huanghe-muqin.md", "作品",
+     "《黄河母亲》是兰州城市雕塑的代表作品之一，赵农在 L7840 将其列入能代表城市历史文化的作品。检索无同实体作品。按作品新建，证据行 L7840。来源只给作品名与城市，confidence 取 low。",
+     "写入 04-knowledge/units/works/huanghe-muqin.md（新建）；引用 L7840。"),
+    ("cand-11-188", "04-knowledge/units/works/jiujiang-changjiang-daqiao.md", "作品",
+     "九江长江大桥是赵农在 L7887 所列长江上下游陆续架起的十几座钢铁、混凝土大桥之一，1993 年建成。检索无同实体作品。按作品新建，证据行 L7887。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/jiujiang-changjiang-daqiao.md（新建）；引用 L7887。"),
+    ("cand-11-189", "04-knowledge/units/works/wanxian-changjiang-daqiao.md", "作品",
+     "重庆万县长江大桥是赵农在 L7887 所列长江大桥之一，1997 年建成。检索无同实体作品；与 `works/chongqing-renmin-dahuitang.md` 同属重庆但为不同对象。按作品新建，证据行 L7887。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/wanxian-changjiang-daqiao.md（新建）；引用 L7887。"),
+    ("cand-11-190", "04-knowledge/units/works/jiangyin-changjiang-daqiao.md", "作品",
+     "江阴长江大桥是赵农在 L7887 所列长江大桥之一，1999 年建成。检索无同实体作品。按作品新建，证据行 L7887。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/jiangyin-changjiang-daqiao.md（新建）；引用 L7887。"),
+    ("cand-11-191", "04-knowledge/units/works/wuhu-changjiang-daqiao.md", "作品",
+     "芜湖长江大桥是赵农在 L7887 所列长江大桥之一，2000 年建成。检索无同实体作品。按作品新建，证据行 L7887。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/wuhu-changjiang-daqiao.md（新建）；引用 L7887。"),
+    ("cand-11-192", "04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md", "作品",
+     "郑州京汉铁路桥是赵农在 L7891 所列黄河诸桥之一，为早期铁路桥。检索无同实体作品。按作品新建，证据行 L7889-L7891。来源只给桥名与河流，未给建成年，confidence 取 low。",
+     "写入 04-knowledge/units/works/zhengzhou-jinghan-tieluqiao.md（新建）；引用 L7889-L7891。"),
+    ("cand-11-193", "04-knowledge/units/works/luoyang-huanghe-daqiao.md", "作品",
+     "洛阳黄河大桥是赵农在 L7891 所列黄河诸桥之一，1976 年建成。检索无同实体作品。按作品新建，证据行 L7889-L7891。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/luoyang-huanghe-daqiao.md（新建）；引用 L7889-L7891。"),
+    ("cand-11-194", "04-knowledge/units/works/beizhen-huanghe-daqiao.md", "作品",
+     "山东北镇黄河大桥是赵农在 L7891 所列黄河诸桥之一，1971 年建成。检索无同实体作品。按作品新建，证据行 L7889-L7891。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/beizhen-huanghe-daqiao.md（新建）；引用 L7889-L7891。"),
+    ("cand-11-195", "04-knowledge/units/works/jinan-huanghe-daqiao.md", "作品",
+     "济南黄河大桥是赵农在 L7891 所列黄河诸桥之一，1982 年建成。检索无同实体作品。按作品新建，证据行 L7889-L7891。来源只给桥名、年份与河流，confidence 取 low。",
+     "写入 04-knowledge/units/works/jinan-huanghe-daqiao.md（新建）；引用 L7889-L7891。"),
+]
+
+REJECTED = [
+    ("cand-11-127", "改革开放后城市雕塑", "04-knowledge/units/terms/chengshi-diaosu.md",
+     "不单独立目：改革开放后城市雕塑是赵农在 L7840 对城市雕塑分期的描述，与 L7829 的 1950 年代广场雕塑同属「城市雕塑」一个对象，不是独立实体。已并入 `terms/chengshi-diaosu.md`，该条同时著录两个时期；六件具名作品另立 works 条。",
+     "不写入知识元；材料并入 terms/chengshi-diaosu.md（见 cand-11-126）。"),
+]
+
+
+def title_of(path):
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if line.startswith("title:"):
+            return line.split(":", 1)[1].strip().split("（")[0].strip()
+    return Path(path).stem
+
+
+decisions = []
+for suffix, target, kind, analysis, apply_note in CREATES:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": title_of(target),
+        "action": "create",
+        "target": target,
+        "analysis": analysis,
+        "approve": f"批准新建 {target}：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+        "apply_note": apply_note,
+        "note": f"canonical: {target}。",
+    })
+
+for suffix, entity, target, analysis, apply_note in REJECTED:
+    decisions.append({
+        "cid": PREFIX + suffix,
+        "entity": entity,
+        "action": "rejected",
+        "target": target,
+        "analysis": analysis,
+        "approve": analysis,
+        "apply_note": apply_note,
+        "note": f"merged_into: {target}。",
+    })
+
+cfg = {
+    "doc": DOC,
+    "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+    "rules": [
+        "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+        "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+        "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号",
+        "列举型候选只著录来源所列名称、年份与所在河流，不据来源外材料补形制、尺度与设计者",
+        "同段类型与具名作品分别立条：类型条不重复作品清单，作品条以 related 回指类型条",
+        "同名异指不合并：城市雕塑《丝绸之路》与丝绸之路贸易路线分属作品与术语",
+        "跨页残句不逐字引：被图版、页眉或章节页分隔的文字只作内容转述",
+        "原文疑误与内部张力照录标注，不径改",
+        "图版一律据图注著录，未视觉核验，不据图扩写",
+    ],
+    "scope_spans": [[7682, 7895]],
+    "scope_note": "赵农 2009 册第十章第一节绪论至第二节城市与建筑 L7682–L7895 逐段复读，含工艺美术与艺术设计概念、城市建设、公共空间、园林与营造学会、桥梁五段；候选 source_span 为块级粗跨度，实际引用行均落在本批范围内。图版未视觉核验。",
+    "decisions": decisions,
+    "notes": "赵农 2009 册第十章第一至第二节 unit 候选 29 条：create 28、rejected 1、update 0。范围 L7682-L7895。新建覆盖《美术的起源》《建国方略》《中国建筑史》、茅以升、城市雕塑、微缩景观公园、民俗村、重庆人民大会堂、成吉思汗陵、中华民族园、钱塘江大桥、武汉长江大桥、南京长江大桥、兰州铁桥、六件城市雕塑与八座后续大桥；rejected 为「改革开放后城市雕塑」，并入城市雕塑条。已有 KU 的上海、北京、西安、深圳、香港、中国营造学社、朱启钤、孙中山、梁思成等不再重复立条；图 10-2 至图 10-20 未视觉核验。",
+}
+
+out = ROOT / "_zn_decisions_ch10n.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(Counter(d["action"] for d in decisions), len(decisions))

@@ -1,0 +1,262 @@
+[
+ {
+  "claim_id": "claim-0038",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-07",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 107,
+   "line_end": 107,
+   "span_kind": "line",
+   "key_lines": [
+    107
+   ],
+   "block_ids": [
+    "b0007"
+   ],
+   "chapter": "再版序言",
+   "section": "关于中国艺术设计史的脉络梳理",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-07"
+  }
+ },
+ {
+  "claim_id": "claim-0041",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-16",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 340,
+   "line_end": 340,
+   "span_kind": "line",
+   "key_lines": [
+    340
+   ],
+   "block_ids": [
+    "b0027"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "1. 设计起源与石器制作 / 1）设计起源",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-16"
+  }
+ },
+ {
+  "claim_id": "claim-0042",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-20",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 372,
+   "line_end": 372,
+   "span_kind": "line",
+   "key_lines": [
+    372
+   ],
+   "block_ids": [
+    "b0032"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "1. 设计起源与石器制作 / ② 石器的二次加工",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-20"
+  }
+ },
+ {
+  "claim_id": "claim-0043",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-30",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 416,
+   "line_end": 416,
+   "span_kind": "line",
+   "key_lines": [
+    416
+   ],
+   "block_ids": [
+    "b0038"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "1. 设计起源与石器制作 / ③ 石器的磨制技术",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-30"
+  }
+ },
+ {
+  "claim_id": "claim-0044",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-40",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 436,
+   "line_end": 436,
+   "span_kind": "line",
+   "key_lines": [
+    436
+   ],
+   "block_ids": [
+    "b0043"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "2. 陶器制作与器形设计 / 原始陶器的设计特点",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-40"
+  }
+ },
+ {
+  "claim_id": "claim-0045",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-45",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 453,
+   "line_end": 453,
+   "span_kind": "line",
+   "key_lines": [
+    453
+   ],
+   "block_ids": [
+    "b0047"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "2. 陶器制作与器形设计 / 2）重要的陶文化期 / ① 仰韶文化",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-45"
+  }
+ },
+ {
+  "claim_id": "claim-0046",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-48",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 468,
+   "line_end": 468,
+   "span_kind": "line",
+   "key_lines": [
+    468
+   ],
+   "block_ids": [
+    "b0050"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "知识链接：舞蹈纹盆的多种文化意义",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-48"
+  }
+ },
+ {
+  "claim_id": "claim-0047",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-64",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 521,
+   "line_end": 521,
+   "span_kind": "line",
+   "key_lines": [
+    521
+   ],
+   "block_ids": [
+    "b0057"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "2. 陶器制作与器形设计 / ④ 河姆渡文化",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-64"
+  }
+ },
+ {
+  "claim_id": "claim-0048",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-69",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 533,
+   "line_end": 533,
+   "span_kind": "line",
+   "key_lines": [
+    533
+   ],
+   "block_ids": [
+    "b0059"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "3. 纺编织物的产生与设计形式 / 1）纺编织物的产生",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-69"
+  }
+ },
+ {
+  "claim_id": "claim-0049",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-72",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 564,
+   "line_end": 564,
+   "span_kind": "line",
+   "key_lines": [
+    564
+   ],
+   "block_ids": [
+    "b0062"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "3. 纺编织物的产生与设计形式 / 2）纺编织物的设计形式",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-72"
+  }
+ },
+ {
+  "claim_id": "claim-0050",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-75",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 570,
+   "line_end": 570,
+   "span_kind": "line",
+   "key_lines": [
+    570
+   ],
+   "block_ids": [
+    "b0063"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "4. 原始居住设计的雏形",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-75"
+  }
+ },
+ {
+  "claim_id": "claim-0051",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-71",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 558,
+   "line_end": 558,
+   "span_kind": "line",
+   "key_lines": [
+    558
+   ],
+   "block_ids": [
+    "b0061"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "知识链接：干栏式建筑",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-71"
+  }
+ },
+ {
+  "claim_id": "claim-0091",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-21",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 324,
+   "line_end": 324,
+   "span_kind": "line",
+   "key_lines": [
+    324
+   ],
+   "block_ids": [
+    "b0023"
+   ],
+   "chapter": "原始社会的设计缘起",
+   "section": "知识链接：人类早期造物活动的发展线索",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-01-21"
+  }
+ }
+]

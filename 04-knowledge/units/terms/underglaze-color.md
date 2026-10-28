@@ -55,19 +55,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "素坯绘彩、罩透明釉一次高温烧成；釉下与釉上的工序分界，三国「点彩」与「已发明」两说"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "釉下彩是 B 维度下瓷器装饰分类条目：施彩与罩釉的工序、烧成温度属工艺，纹饰被釉膜覆盖的视觉效果属装饰。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "素坯绘彩、罩透明釉一次高温烧成；釉下与釉上的工序分界，三国「点彩」与「已发明」两说"
 ---
 
 ## 描述
@@ -102,12 +110,10 @@ hierarchy_scope_note: "釉下彩是 B 维度下瓷器装饰分类条目：施彩
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是彩瓷工序分类的两极之一（另一极为釉上彩），向下统摄青花、釉里红、釉下三彩、釉下五彩。可支持未来"彩瓷工序分类与命名"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 素坯绘彩、罩透明釉一次高温烧成；釉下与釉上的工序分界，三国「点彩」与「已发明」两说
 ## 相关知识元
 
 同批写回的 `terms/blue-and-white-porcelain.md` 是釉下彩的首要品种，夏燕靖两版称青花为"釉下彩发展的最高阶段"；`terms/youlihong.md`（釉里红）、`terms/doucai.md`（斗彩，釉下青花与釉上彩结合）、`terms/tang-sancai.md`（唐三彩，釉陶而非瓷器）同属陶瓷装饰线索。`terms/fencai.md`、`terms/falangcai.md` 属釉上彩一侧，与本案构成工序对照。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

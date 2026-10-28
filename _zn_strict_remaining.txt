@@ -1,0 +1,39 @@
+publications/yugong.md:59 | 青州贡盐緝海物
+publications/yugong.md:59 | 厥贡漆丝
+publications/yugong.md:65 | 青州贡盐緝海物
+publications/yugong.md:65 | 厥贡漆丝
+publications/yugong.md:90 | 并州
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:62 | 楼船，船上建楼三重，列女墙，战格、树幡帜，开驾窗矛穴，置抛车、垒石、铁斗，状如城垒
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:63 | 冒突露挠
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:64 | 赤马舟
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:64 | 轻疾者曰赤马舟，其体正赤，疾如马也
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:65 | 上下重版曰舰，四方施版以御矢石，其内如牢槛也
+terms/chunqiu-zhanguo-zhanchuan-zhonglei.md:73 | 长九丈有余
+persons/gongshu-pan.md:59 | 利于人谓之巧，不利于人谓之拙
+persons/gongshu-pan.md:65 | 当时公输子制作了会飞的木鹊，自以为巧，墨子则认为‘子之为鹊也，不如匠之为车辖。须臾刘三寸之木，而任五十石之重。故所为功，利于人谓之巧，不利于人谓之拙’。（《墨子·鲁问》）
+persons/gongshu-pan.md:67 | 墨子对‘利’的解说，为古代设计行业提出了一种评判标准
+persons/gongshu-pan.md:68 | 在《墨子·公输》曾记载了约公元前 444 年，公输盘为楚造云梯预备攻宋，而被墨子制止的事迹，‘子墨子解带为城，以堞为械，公输盘九设攻城之机变，子墨子九距之，公输盘之攻械尽，子墨子守围有余……臣之弟子禽滑厘等三百人，已持臣守围之器，在宋城上而待楚寇矣’。由此，留下了‘墨守成规’的成语故事
+persons/gongshu-pan.md:69 | 约公元前 444 年
+persons/gongshu-pan.md:70 | 墨守成规
+persons/gongshu-pan.md:77 | 公输盘
+persons/gongshu-pan.md:87 | 技艺高超但效益为零
+persons/gongshu-pan.md:98 | 约公元前 444 年
+persons/gongshu-pan.md:98 | 墨守成规
+persons/gongshu-pan.md:98 | 须臾刘三寸之木
+persons/gongshu-pan.md:100 | 公元前 444 年
+works/yanle-shuilu-gongzhan-wen-hu.md:56 | 反映时代风貌、表现时代精神的装饰题材
+works/yanle-shuilu-gongzhan-wen-hu.md:58 | 纹饰展开图
+works/yanle-shuilu-gongzhan-wen-hu.md:62 | 四川成都百花潭出土的《宴乐水陆攻战纹壶》
+works/yanle-shuilu-gongzhan-wen-hu.md:64 | 壶身上段有宴乐、采桑、射箭、弋射、狩猎等场面
+works/yanle-shuilu-gongzhan-wen-hu.md:65 | 下段为徒兵搏斗、攻城、水军攻战等场面(图3-10)。
+works/yanle-shuilu-gongzhan-wen-hu.md:66 | 分成上中下三层,中间以横带加以间隔
+works/yanle-shuilu-gongzhan-wen-hu.md:66 | 画面虽然繁杂,人物虽然众多,但组合得层层有致,前不遮后,近不挡远
+works/yanle-shuilu-gongzhan-wen-hu.md:67 | 它是用金银错来装饰的器物,它是比较贵重的器物
+works/yanle-shuilu-gongzhan-wen-hu.md:68 | 装饰设计的题材如此直接地表现现实生活，这在当时是前无古人的，体现了战国这一特定的历史时期的时代风格。
+works/yanle-shuilu-gongzhan-wen-hu.md:69 | 其表现的水陆攻战的场面更加庞大壮观
+works/yanle-shuilu-gongzhan-wen-hu.md:71 | 图3-10 战国宴乐水陆攻战纹壶纹饰展开图
+works/yanle-shuilu-gongzhan-wen-hu.md:73 | 水陆攻战图（模绘图）
+works/yanle-shuilu-gongzhan-wen-hu.md:94 | 前无古人
+works/shuilu-gongzhan-jian.md:68 | 水陆攻战纹鉴中腹图形
+works/shuilu-gongzhan-jian.md:72 | 场景记录
+works/shuilu-gongzhan-jian.md:92 | 河南汲县山彪镇

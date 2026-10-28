@@ -1,0 +1,274 @@
+# -*- coding: utf-8 -*-
+"""Build 田自秉 2010 claim rows, batch tz7a (Yuan lacquer tail + Ming + Qing opening, 24 claims)."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2010-tianzibing-zhongguo-gongyi-meishushi"
+SRC = "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md"
+DATE = "2026-10-27"
+CH = "元代漆器末、明清工艺概说与陶瓷（元末至清代工艺美术）"
+
+T = "04-knowledge/units/terms/"
+P = "04-knowledge/units/places/"
+R = "04-knowledge/units/persons/"
+W = "04-knowledge/units/works/"
+B = "04-knowledge/units/publications/"
+PR = "04-knowledge/units/procedures/"
+E = "04-knowledge/units/events/"
+I = "04-knowledge/units/institutions/"
+
+MAP = ROOT / "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi/source-map.jsonl"
+BLOCKS = []
+for line in MAP.read_text(encoding="utf-8").splitlines():
+    if not line.strip():
+        continue
+    d = json.loads(line)
+    BLOCKS.append((d["block_id"], d["line_start"], d["line_end"]))
+
+
+def blocks(start, end):
+    return [b for b, s, e in BLOCKS if s <= end and e >= start]
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(claim_id, cand, ctype, zh, en, supported, note, start, end, key_lines, section):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": claim_id,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": "line" if start == end else "bounded",
+                "key_lines": key_lines,
+                "block_ids": blocks(start, end),
+                "chapter": CH,
+                "section": section,
+            },
+            "candidate_id": DOC + ":" + cand,
+        },
+        "confidence": "medium",
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+rows = []
+
+rows.append(C(
+    "claim-0968", "cand-11-01", "factual_claim",
+    "元代漆器的著名品种有雕漆、戗金、螺钿等；同节并以《格古要论》所记嘉兴府西塘杨汇和杭州油局桥金家造经箱铭文，说明嘉兴、杭州都是元代漆器的重要产地。",
+    "Yuan lacquerware's notable types were carved lacquer, engraved-gold lacquer and mother-of-pearl inlay; the same section cites Gegu Yaolun on Xitang Yanghui in Jiaxing and a Hangzhou inscribed sutra box to show both cities were important production sites.",
+    [T + "diao-qi.md", T + "qiangjin.md", T + "luodian.md", P + "jiaxing-xitang-yanghui.md", B + "gegu-yaolun.md"],
+    "断言语义取 L4134，原文以雕漆、戗金、螺钿列举元代漆器名品；同节 L4132 以《格古要论》与经箱铭文补出嘉兴、杭州产地，故一并纳入而不扩及工艺细节。",
+    4134, 4134, [4134], "第九章 第五节 漆器工艺"))
+
+rows.append(C(
+    "claim-0969", "cand-11-08", "factual_claim",
+    "《格古要论》记元朝嘉兴府西塘杨汇有张成、杨茂，二人以剔红最得名；其作品不仅闻名国内，而且流传海外，日本各取二人名字一字称为“堆朱杨成”，沿用为漆艺专用姓氏。",
+    "Gegu Yaolun records that Zhang Cheng and Yang Mao of Xitang Yanghui, Jiaxing, were most famous for tihong carved lacquer; their works circulated abroad, and Japan combined one character from each name as Tsuishu Yosei, still used as a lacquer surname.",
+    [R + "zhang-cheng.md", R + "yang-mao.md", T + "diao-qi.md", B + "gegu-yaolun.md", W + "zhang-cheng-tihong-box.md"],
+    "断言语义取 L4140，原文转引《格古要论》并述张成、杨茂作品流播日本及“堆朱杨成”称名；L4145-L4147 以故宫、上海博物馆、安徽博物馆藏品补证，未把传世品全部系于二人。",
+    4140, 4140, [4140], "第九章 第五节 漆器工艺 一、雕漆"))
+
+rows.append(C(
+    "claim-0970", "cand-11-09", "evaluative_claim",
+    "明高濂《燕闲清赏笺》评张成、杨茂剔红“但用朱不厚，漆多敲裂”，明张应文《清秘藏》作“第用朱不厚，间多敲裂”；作者以张成剔红山水人物圆盒涂漆约八十层等遗物相印证，认为这些评论并不妥切。",
+    "Gao Lian's Yanxian Qingshang Jian criticized Zhang Cheng and Yang Mao's tihong for thin cinnabar and cracking, and Zhang Yingwen's Qingmi Cang repeated the point; the author, comparing a Zhang Cheng box with about eighty lacquer layers, judges these criticisms inaccurate.",
+    [B + "yanxian-qingshang-jian.md", B + "qingmi-cang.md", R + "zhang-cheng.md", R + "yang-mao.md", T + "diao-qi.md"],
+    "断言语义取 L4149，原文并列高濂、张应文两家评语并举张成遗物相校，末句“这些评论并不妥切”是作者判断，故归评价性修正；两家引文“漆多敲裂”与“间多敲裂”存在异文。",
+    4149, 4149, [4149], "第九章 第五节 漆器工艺 一、雕漆"))
+
+rows.append(C(
+    "claim-0971", "cand-11-13", "interpretive_claim",
+    "元代贵族因游牧生活习惯追求奢华享受，这种作风在工艺美术制作上得到表现，形成元代工艺美术粗犷、豪放、刚劲的艺术风格，如陶瓷器皿厚重粗大、丝织品流行加金而富丽辉煌。",
+    "Yuan nobles' nomadic habits and pursuit of luxury found expression in craft production, producing a rough, bold and forceful style, seen in thick heavy ceramics and gold-rich, splendid silk textiles.",
+    [T + "gongyi-meishu.md", T + "zhijin.md"],
+    "断言语义取 L4164，原文以“尚武”与游牧生活习惯解释元代工艺风格，并以陶瓷厚重、丝织加金为例，属风格成因解释而非单纯风格描述。",
+    4164, 4164, [4164], "第九章 第六节 结语"))
+
+rows.append(C(
+    "claim-0972", "cand-11-14", "interpretive_claim",
+    "元代佛教、道教、回教、基督教等都有传播，尤以西藏传来的喇嘛教最盛；这些反映在工艺美术上，宗教内容的装饰题材和为宗教所用的器皿常有所见，如佛教僧侣饮水或洗手的军持以及卍字装饰。",
+    "Buddhism, Daoism, Islam and Christianity all spread in the Yuan, with Tibetan Lamaism most prominent; religious motifs and ritual vessels accordingly appear in craft, such as the kundika used by monks and swastika decoration.",
+    [T + "gongyi-meishu.md", W + "doucai-bagua-censer.md", T + "huihui-wenzi.md"],
+    "断言语义取 L4166，原文以宗教传播解释宗教题材与器皿的出现，并举军持、卍字为例，属宗教—装饰因果解释；军持在现有 KU 中尚无专条。",
+    4166, 4166, [4166], "第九章 第六节 结语"))
+
+rows.append(C(
+    "claim-0973", "cand-11-19", "interpretive_claim",
+    "明代工匠比元代有较多自由：工匠服役有定时，非服役时期可以自由从事自己的手工艺职业，这为明代手工业的发展提供了有利条件。",
+    "Ming artisans had more freedom than their Yuan counterparts: service was time-limited, and outside service periods they could freely pursue their own craft, which favored the development of Ming handicraft.",
+    [T + "jianghu.md", T + "guanying-shougongye.md"],
+    "断言语义取 L4176，原文以服役定时与非服役期自由职业解释明代手工业发展的有利条件；同段 L4178 又述轮班、存留、住坐三类与嘉靖征银，制度细节未并入本断言。",
+    4176, 4176, [4176], "第十章 第一节 概说"))
+
+rows.append(C(
+    "claim-0974", "cand-11-20", "historiographic_claim",
+    "明代以前我国陶瓷釉色以青瓷为主，明代以后则主要是白瓷；白瓷的发展为陶瓷装饰开辟新天地，唐宋流行的刻花、划花、印花渐衰，青花、五彩等画花成为主要装饰方法。",
+    "Before the Ming, celadon dominated Chinese ceramic glazes; from the Ming, white porcelain became dominant. White ware opened new decorative possibilities: carved, incised and stamped decoration declined while painted blue-and-white and wucai became principal techniques.",
+    [T + "qing-ci.md", T + "baici.md", T + "blue-and-white-porcelain.md", T + "wucai.md"],
+    "断言语义取 L4188，原文以青瓷—白瓷的主次转换概括陶瓷史分期，并把画花兴起与白瓷发展相连，属陶瓷史分期判断。",
+    4188, 4188, [4188], "第十章 第二节 陶瓷工艺"))
+
+rows.append(C(
+    "claim-0975", "cand-11-21", "factual_claim",
+    "明代官窑器开始用年号作款，一直延续明清两代达五六百年。",
+    "Ming official wares began to carry reign-period marks, a practice that continued through the Ming and Qing for five or six centuries.",
+    [I + "yuqichang.md", T + "guan-yao.md"],
+    "断言语义取 L4192，原文陈述明代官窑以年号作款的制度起点与延续时间；同节 L4202 记洪武三十五年设御器厂，可作制度背景。",
+    4192, 4192, [4192], "第十章 第二节 陶瓷工艺"))
+
+rows.append(C(
+    "claim-0976", "cand-11-26", "evaluative_claim",
+    "宣德瓷器以青花最有名，宣德青花也是明瓷中最优秀的品种；其胎用景德镇东乡麻仓土，青料用南洋输入的苏泥勃青，色调深沉雅静，浓处与釉汁渗合形成斑点，产生深浅浓淡的自然美，历代评瓷家誉为瓷、色、画三绝。",
+    "Xuande ware is best known for blue-and-white, judged the finest Ming porcelain: its body used Macang clay from eastern Jingdezhen and its cobalt was imported Sumali blue, giving deep, quiet tones with natural speckling where thick pigment met the glaze; connoisseurs praised it as supreme in body, color and painting.",
+    [T + "blue-and-white-porcelain.md", T + "suniboqing.md", W + "xuande-blue-white-pot.md", P + "jingdezhen-kiln.md"],
+    "断言语义取 L4211，原文以“最有名”“最优秀”和历代评瓷家“三绝”之誉评价宣德青花，并给出胎土、青料与呈色依据，故归评价性断言。",
+    4211, 4211, [4211], "第十章 第二节 陶瓷工艺 一、景德镇窑 2. 宣德时期"))
+
+rows.append(C(
+    "claim-0977", "cand-11-27", "factual_claim",
+    "据明书《食货志》记载，仅嘉靖时官窑每年烧制的五色龙凤诸器就达443000余件；民窑每窑可烧小件瓷器千余件，而且分工很细，有“一杯功力，过手七十二，方克成器”之说。",
+    "According to the Ming Shi食货志, Jiajing official kilns fired more than 443,000 polychrome dragon-and-phoenix vessels annually; private kilns could fire over a thousand small pieces per kiln, with fine division of labor described as seventy-two handlings for a single cup.",
+    [I + "yuqichang.md", P + "jingdezhen-kiln.md", T + "guan-da-min-shao.md"],
+    "断言语义取 L4226，原文转引明书《食货志》的嘉靖官窑年烧造量与民窑每窑产量；数字未注卷次、统计口径与样本，故只作文献记载事实，不作独立核验。",
+    4226, 4226, [4226], "第十章 第二节 陶瓷工艺 一、景德镇窑 5. 嘉靖、万历时期"))
+
+rows.append(C(
+    "claim-0978", "cand-11-36", "synthetic_claim",
+    "明代青花各时期题材与风格不同：宣德浑厚、成化清雅、嘉靖逸趣、万历秀美，又可用宣德的浓、成化的淡、弘治正德的暗、嘉靖万历的紫分别概括；这些差异都是因青花原料的不同所致。",
+    "Ming blue-and-white varied by period: Xuande thick, Chenghua elegant, Jiajing full of interest, Wanli graceful, summarized respectively as dense, pale, dark and purple; the author attributes all these differences to different cobalt materials.",
+    [T + "blue-and-white-porcelain.md", T + "suniboqing.md", W + "xuande-blue-white-pot.md"],
+    "断言语义取 L4272，原文先列各期题材，再以四组风格与四个单字概括，末句归因于青花原料不同，属多期综合判断；单字概括的适用边界原文未作说明。",
+    4272, 4272, [4272], "第十章 第二节 陶瓷工艺 明青花装饰"))
+
+rows.append(C(
+    "claim-0979", "cand-11-37", "historiographic_claim",
+    "明代棉花的生产和织造已经取得代替丝、麻的地位，成为人们服饰的主要原料；明初强制推广桑、棉、麻种植，凡民有五亩至十亩者必须种桑麻木棉各半亩，十亩以上加倍，不种者以绢、麻布、棉布抵缴。",
+    "In the Ming, cotton growing and weaving replaced silk and hemp as the main clothing material; the early Ming forcibly promoted mulberry, cotton and hemp, requiring households with five to ten mu to plant half a mu of each, doubling above ten mu, with cloth levied for non-compliance.",
+    [T + "ma-bu.md", T + "zhijin.md", T + "nangeng-nvzhi.md"],
+    "断言语义取 L4278，原文把棉花替代丝麻的长期变化与明初强制种植政策并置，属染织史分期判断；政策数字与惩罚方式未注《明会典》卷次。",
+    4278, 4278, [4278], "第十章 第三节 染织工艺"))
+
+rows.append(C(
+    "claim-0980", "cand-11-41", "factual_claim",
+    "在古代，服饰常有显著的时代性和阶级性，是封建等级制度的标志；明代服饰的纹样、色彩均有定制，一品至九品按绯、青、绿等色与大小独科花、散答花、小杂花、无纹及仙鹤、狮子等文武官纹样区分，并禁止官吏用织绣龙凤服饰及玄、黄、紫等色。",
+    "Dress in premodern China marked status and period and served as a badge of feudal hierarchy; Ming patterns and colors were regulated, with ranks one to nine distinguished by colors and floral or animal motifs, and officials forbidden to use dragon-phoenix textiles or specified dark, yellow and purple colors.",
+    [T + "buzi.md", T + "gongfu.md", T + "mingzhuang.md", T + "ming-dai-nvzhuang.md"],
+    "断言语义取 L4304-L4324，原文先总述服饰的等级标志性质，再以“如”列一品至九品颜色与文武官纹样，末列禁例；所列并非完整服制，七品“潞鹓”、九品武官“海鸟”等字样待校。",
+    4304, 4324, [4304, 4306, 4310, 4314, 4318, 4322, 4324], "第十章 第三节 染织工艺 丝织服饰制度"))
+
+rows.append(C(
+    "claim-0981", "cand-11-45", "historiographic_claim",
+    "顾绣脱离生活实用，成为一种独立的欣赏工艺；由此可以看出，明代刺绣明显地向实用的和欣赏的两个方面发展。",
+    "Gu embroidery broke away from practical use to become an independent appreciative craft, showing that Ming embroidery clearly developed along both practical and appreciative lines.",
+    [T + "gu-embroidery.md", R + "han-ximeng.md", T + "shuxiu.md"],
+    "断言语义取 L4352，原文以顾绣脱离实用为据，提出明代刺绣实用与欣赏两方向的发展判断；顾绣世系与韩希孟资料见 L4350。",
+    4352, 4352, [4352], "第十章 第三节 染织工艺 四、顾绣"))
+
+rows.append(C(
+    "claim-0982", "cand-11-48", "evaluative_claim",
+    "宣德炉的造型多参照古代铜器和瓷器样式而加以变化创造，丰富多彩：耳有五十多种、边二十多种、口十多种、足四十多种，可谓集各式造型之大成。",
+    "Xuande censers drew on ancient bronze and ceramic forms and varied them richly: more than fifty ear types, over twenty rim types, over ten mouth types and over forty foot types, amounting to a compendium of forms.",
+    [T + "xuande-censer.md"],
+    "断言语义取 L4364，原文以耳、边、口、足的多种样式说明宣德炉造型来源与变化，并以“集各式造型之大成”作总评，属评价性判断；各类数量为原文所记，未注统计来源。",
+    4364, 4364, [4364], "第十章 第四节 金属工艺 一、宣德炉"))
+
+rows.append(C(
+    "claim-0983", "cand-11-51", "historiographic_claim",
+    "景泰蓝一词是在辛亥革命前后才被采用，蓝字并非专指蓝色，而是发蓝一词的简称；其正式学名应为铜胎掐丝珐琅。",
+    "The term jingtailan was adopted only around the 1911 Revolution; lan does not mean blue specifically but abbreviates fablue, and the formal name should be copper-body cloisonné enamel.",
+    [T + "jingtai-lan.md", PR + "jingtailan-zhizuo.md"],
+    "断言语义取 L4373，原文辨析景泰蓝名称的采用时代、蓝字含义与正式学名，属工艺名称与术语史判断；同段 L4377 另述七道制作过程。",
+    4373, 4373, [4373], "第十章 第四节 金属工艺 二、景泰蓝"))
+
+rows.append(C(
+    "claim-0984", "cand-11-52", "historiographic_claim",
+    "对景泰蓝的发展历史有不同看法，有人认为是明代从阿拉伯国家传入；但春秋越王勾践剑柄嵌珐琅釉料、满城出土汉代铜壶以珐琅装饰、日本正仓院藏唐代铜镜背涂各色珐琅，说明金属工艺运用珐琅的历史悠久，到明代才出现繁荣时期。",
+    "Views differ on cloisonné's history: some hold it entered China from Arabia in the Ming, but enamel on the Goujian sword hilt, a Mancheng Han bronze hu and a Shosoin Tang mirror shows a long history of enamel on metal, with prosperity only in the Ming.",
+    [T + "jingtai-lan.md", W + "yuewang-goujian-jian.md", W + "cuojin-yin-niaozhuanwen-hu.md", T + "tangjing.md"],
+    "断言语义取 L4375，原文并列传入说与三项早期珐琅实例，结论为运用历史悠久而明代繁荣，属源流史学辨析；越王剑嵌饰部位与材料在诸书中尚有异说。",
+    4375, 4375, [4375], "第十章 第四节 金属工艺 二、景泰蓝"))
+
+rows.append(C(
+    "claim-0985", "cand-11-58", "interpretive_claim",
+    "果园厂有张德刚、包亮掌理制漆技艺，嘉靖时又吸收云南优秀制漆艺人；有着这一批技术力量，明代雕漆能取得前所未有的卓越成就。",
+    "The Guoyuan workshop had Zhang Degang and Bao Liang directing lacquer technique and absorbed skilled Yunnan lacquerers under Jiajing; with this technical force, Ming carved lacquer reached unprecedented achievement.",
+    [I + "guoyuanchang.md", R + "zhang-degang.md", R + "bao-liang.md", T + "diao-qi.md"],
+    "断言语义取 L4391，原文以果园厂的张德刚、包亮与嘉靖云南漆工构成技术力量，解释明代雕漆成就，属技术—成就因果解释；L4385 另记果园厂永乐开设与厂制。",
+    4391, 4391, [4391], "第十章 第五节 漆器工艺 一、果园厂雕漆"))
+
+rows.append(C(
+    "claim-0986", "cand-11-67", "synthetic_claim",
+    "明代家具发展的原因可从三方面分析：园林建筑兴起，家具作为室内陈设随之发展；郑和下西洋后东南亚花梨、红木、紫檀等优质木材供应较充裕；锤锻技术提高，《天工开物》所记刨、锯等木工具种类增多。",
+    "Ming furniture development is explained by three factors: the rise of garden architecture and indoor furnishing; abundant Southeast Asian hardwood after Zheng He's voyages; and improved forging, with more plane and saw types recorded in Tiangong Kaiwu.",
+    [T + "ming-style-furniture.md", R + "ji-cheng.md", B + "yuan-ye.md", B + "tiangong-kaiwu.md", T + "hongmu.md"],
+    "断言语义取 L4443，原文以园林、木材、工具三项并列解释明代家具发展，属多因素综合；《园冶》作者计成与《天工开物》锤锻记载同段引及。",
+    4443, 4443, [4443], "第十章 第六节 家具工艺"))
+
+rows.append(C(
+    "claim-0987", "cand-11-68", "evaluative_claim",
+    "明代家具的艺术特色可用简、厚、精、雅四字概括：简指造型洗练、不繁琐堆砌，厚指形象浑厚、庄穆质朴，精指做工精巧、严谨准确，雅指风格典雅、不落俗套。",
+    "Ming furniture's artistic character is summed up in four words: simple, solid, refined and elegant—simple in form, solid in presence, refined in workmanship, and elegant in style.",
+    [T + "ming-style-furniture.md", T + "hongmu.md"],
+    "断言语义取 L4445，原文以简、厚、精、雅四字逐一释证明代家具风格，属审美评价；四字概括与 L4447 的意匠、材料、结构、工艺四美分析互相补充。",
+    4445, 4445, [4445], "第十章 第六节 家具工艺"))
+
+rows.append(C(
+    "claim-0988", "cand-11-75", "evaluative_claim",
+    "明代的工艺美术是我国工艺美术民族风格发展的成熟时期，基本上具备了近代特色的主要特征，因此值得重点学习。",
+    "Ming craft marks the mature stage of the national style in Chinese craft and broadly possesses the main features of the modern period, and therefore deserves focused study.",
+    [T + "gongyi-meishu.md"],
+    "断言语义取 L4499，原文对明代工艺美术的历史地位与学习价值作总体评价，属评价性断言；同段 L4501 以王守仁、王廷相、王艮、宋应星的思想作共同性说明。",
+    4499, 4499, [4499], "第十章 第八节 结语"))
+
+rows.append(C(
+    "claim-0989", "cand-11-76", "historiographic_claim",
+    "明代工艺美术领域明显地形成了宫廷工艺和民间工艺两大体系：宫廷工艺为少数封建贵族统治者服务，作法细巧严谨；民间工艺为人民自己创造、自己使用，具有浓厚的生活气息和质朴、豪放、自然、健康的特色；前者侧重技术，后者侧重艺术。",
+    "Ming craft clearly formed two systems, court and folk: court craft served a small feudal elite with fine, rigorous workmanship, while folk craft was created and used by the people, full of life and plain, bold, natural and healthy; the former stressed technique, the latter art.",
+    [T + "gongyi-meishu.md", T + "guanying-shougongye.md"],
+    "断言语义取 L4492，原文以服务对象、作法与风格区分宫廷工艺和民间工艺，并作技术与艺术的侧重判断，属工艺史结构判断。",
+    4492, 4492, [4492], "第十章 第八节 结语"))
+
+rows.append(C(
+    "claim-0990", "cand-11-77", "evaluative_claim",
+    "清代的工艺美术不能笼统地认为是衰落的、不足取的；从发展历史看大体可分两个阶段：中期以前继承明代传统，生产技术和艺术创造都有所发展；中期以后艺术创作走向繁琐堆饰、格调不高，但生产技术仍取得一定成就。",
+    "Qing craft cannot be dismissed wholesale as declining; it falls into two stages: before the mid-Qing it inherited Ming traditions and developed in both technique and art, while after the mid-Qing art turned to fussy ornament of low tone though production technique still achieved something.",
+    [T + "qing-ci.md", T + "gongyi-meishu.md"],
+    "断言语义取 L4511，原文反对笼统的衰落论，提出中期前后两阶段的双重评价，属评价性修正；“中期”未给具体年份。",
+    4511, 4511, [4511], "第十一章 第一节 概说"))
+
+rows.append(C(
+    "claim-0991", "cand-11-78", "evaluative_claim",
+    "对清瓷的两种极端评价都各有所偏；确切地说，在生产技术方面它是发展的，而在艺术创造方面，特别是雍正以后开始走向衰退，出现繁琐、堆砌等作风。",
+    "Both extreme appraisals of Qing porcelain are partial: technically it developed, but artistically, especially after Yongzheng, it declined into fussy and piled-up ornament.",
+    [T + "qing-ci.md", T + "fencai.md", T + "falangcai.md", T + "blue-and-white-porcelain.md"],
+    "断言语义取 L4521，原文先否定极端否定与极端颂扬两种倾向，再作技术发展与艺术衰退的双重判断，属评价性断言；同节 L4519 以古彩、粉彩、珐琅彩与青花为技术成就例证。",
+    4521, 4521, [4521], "第十一章 第二节 陶瓷工艺"))
+
+out = ROOT / "_tz_tz7a_rows.json"
+out.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+import collections
+types = collections.Counter(r["claim_type"] for r in rows)
+links = sum(len(r["supported_by"]) for r in rows)
+distinct = len({p for r in rows for p in r["supported_by"]})
+kinds = collections.Counter(r["source"]["source_span"]["span_kind"] for r in rows)
+print("rows", len(rows), "types", dict(types), "links", links, "distinct", distinct, "kinds", dict(kinds))

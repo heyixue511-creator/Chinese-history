@@ -1,0 +1,654 @@
+{
+ "doc": "2009-zhaonong-zhongguo-yishu-shejishi",
+ "file": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+ "rules": [
+  "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+  "同书多跨度更新：sources 单条 citation 内逗号分隔，source_count 不增，version 加 1",
+  "跨册更新：新增 source 条，source_count 加 1，version 加 1，review_due 延至 2027-04-26",
+  "逐字引文用“ ”，跨行或作者判断用「 」，作者自撰术语不用引号，正文禁 ASCII 双引号",
+  "原文疑误与内部张力照录标注，不径改",
+  "重复实体只保留一个 canonical，其余候选判 rejected",
+  "仅图注或单行并列提及不足以立条，判 rejected",
+  "图版一律据图注著录，未视觉核验，不据图扩写"
+ ],
+ "scope_spans": [
+  [
+   5825,
+   6598
+  ]
+ ],
+ "scope_note": "赵农 2009 册第八章（辽金西夏元）正文 L5825–L6598 全章逐段复读，含绪论、文字与印刷、兵器火器与造船、车具与大运河、城巿寺院陵墓桥梁、服饰纺织、制瓷杂器、农具货币与结论；候选 source_span 为块级粗跨度，实际引用行均落在本章范围内。图版未视觉核验。",
+ "decisions": [
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-183",
+   "entity": "耶律阿保机",
+   "action": "create",
+   "target": "04-knowledge/units/persons/yelv-abaoji.md",
+   "analysis": "耶律阿保机是辽国的建立者。赵农在第八章绪论记其生卒（872—926）、907 年被推为可汗、916 年自立皇帝、建立辽国，国号契丹后改辽，并记当时已形成自己的契丹文字。检索既有 KU 无同实体条目，按人物新建；证据行 L5834, L5836。",
+   "approve": "批准新建 04-knowledge/units/persons/yelv-abaoji.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/yelv-abaoji.md（新建）；引用 L5834, L5836。",
+   "note": "canonical: 04-knowledge/units/persons/yelv-abaoji.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-184",
+   "entity": "阿骨打",
+   "action": "create",
+   "target": "04-knowledge/units/persons/aguda.md",
+   "analysis": "阿骨打是金国的建立者。赵农记女真游牧于长白山与黑龙江之间，最初受契丹统治，后定居松花江流域阿什河，半耕半渔；1115 年阿骨打自称皇帝，领导女真人反抗辽国，十余年灭辽，1126 年灭北宋。检索既有 KU 无同实体条目，按人物新建；证据行 L5840, L5842。",
+   "approve": "批准新建 04-knowledge/units/persons/aguda.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/aguda.md（新建）；引用 L5840, L5842。",
+   "note": "canonical: 04-knowledge/units/persons/aguda.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-185",
+   "entity": "李元昊",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-yuanhao.md",
+   "analysis": "李元昊是西夏的建立者。赵农记 1038 年李元昊自称皇帝，国号大夏，废除唐宋赐姓，改从党项风俗而秃发，设汉官制与党项官制，创立西夏文字，发展畜牧业和农业；1227 年西夏为蒙古所灭，历 189 年。检索既有 KU 无同实体条目，按人物新建；证据行 L5846, L5945, L6255, L6257。",
+   "approve": "批准新建 04-knowledge/units/persons/li-yuanhao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/li-yuanhao.md（新建）；引用 L5846, L5945, L6255, L6257。",
+   "note": "canonical: 04-knowledge/units/persons/li-yuanhao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-186",
+   "entity": "成吉思汗",
+   "action": "create",
+   "target": "04-knowledge/units/persons/chengjisihan.md",
+   "analysis": "成吉思汗是蒙古国的建立者。赵农记蒙古族传说为苍狼白鹿之后，13 世纪兴盛；成吉思汗横扫蒙古高原，1206 年建立大蒙古国，设千户制，将行政与兵役合为一体，先后征服西夏、金，西征形成钦察汗国、察合台国、窝阔台国、伊儿汗国四个金汗帐国。检索既有 KU 无同实体条目，按人物新建；证据行 L5848, L5850, L6084, L6142。",
+   "approve": "批准新建 04-knowledge/units/persons/chengjisihan.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/chengjisihan.md（新建）；引用 L5848, L5850, L6084, L6142。",
+   "note": "canonical: 04-knowledge/units/persons/chengjisihan.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-187",
+   "entity": "忽必烈",
+   "action": "create",
+   "target": "04-knowledge/units/persons/hubilie.md",
+   "analysis": "忽必烈是元朝的建立者。赵农记 1260 年忽必烈继位，1271 年定国号“元”，1279 年南宋灭亡，元朝重新统一中国；同册又记忽必烈任命吐蕃僧人八思巴为国师、创制蒙古新字定为蒙古国字，至元八年（1271）建国大元、以燕京为大都，嘉奖孙威后代所制折叠盾，并于即位之初下诏以农桑为本，设司农司、选派劝农官。检索既有 KU 无同实体条目，按人物新建；证据行 L5852, L5949, L6084, L6146, L6502, L6504。",
+   "approve": "批准新建 04-knowledge/units/persons/hubilie.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/hubilie.md（新建）；引用 L5852, L5949, L6084, L6146, L6502, L6504。",
+   "note": "canonical: 04-knowledge/units/persons/hubilie.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-01",
+   "entity": "契丹文字",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qidan-wenzi.md",
+   "analysis": "契丹文字是辽代以汉字隶书为样式创制的文字。赵农引《新五代史》“汉人教之以隶书之半增损之，作文字数千，以代刻木之约”，说明其形成过程与替代刻木记事的用途；记契丹文字原有 3000 多个，相对汉字简单，使用仍不便，后有人参照回鹘文字改造为以记录语音为主的契丹小字；辽代契丹文字与汉文字通用并行，大量汉籍译为契丹文，契丹文字用于墓志、碑文、印章、货币、铜镜、鱼符。检索既有 KU 无同实体条目，按术语新建；证据行 L5915, L5917, L5919。",
+   "approve": "批准新建 04-knowledge/units/terms/qidan-wenzi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/qidan-wenzi.md（新建）；引用 L5915, L5917, L5919。",
+   "note": "canonical: 04-knowledge/units/terms/qidan-wenzi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-02",
+   "entity": "女真文字",
+   "action": "create",
+   "target": "04-knowledge/units/terms/nvzhen-wenzi.md",
+   "analysis": "女真文字是金代创制的文字。赵农引《金史·完颜希尹列传》记希尹依仿汉人楷字、因契丹字制度、合本国语而制女真字，熙宗另制女真字，希尹所撰为大字、熙宗所撰为小字；女真文字亦为方块字样式，目前只发现一种；女真早期用契丹文，女真文字创立后废除契丹文，但汉文与契丹文长期交替使用，汉文成为北方许多民族的共同语言。检索既有 KU 无同实体条目，按术语新建；证据行 L5921, L5923, L5925。",
+   "approve": "批准新建 04-knowledge/units/terms/nvzhen-wenzi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/nvzhen-wenzi.md（新建）；引用 L5921, L5923, L5925。",
+   "note": "canonical: 04-knowledge/units/terms/nvzhen-wenzi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-03",
+   "entity": "西夏文字",
+   "action": "create",
+   "target": "04-knowledge/units/terms/xixia-wenzi.md",
+   "analysis": "西夏文字是西夏仿汉字规格创制的文字。赵农记其相传为李元昊创制，分楷、行、草、隶、篆，字体方正、类八分书；沈括《梦溪笔谈》记西夏文字由元昊同党遇乞创造、元昊推广；作者并作一般判断，称任何文字的形成都是社会生活积累的结果，最后仅由某个人整理完成。检索既有 KU 无同实体条目，按术语新建；证据行 L5945, L5997。",
+   "approve": "批准新建 04-knowledge/units/terms/xixia-wenzi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/xixia-wenzi.md（新建）；引用 L5945, L5997。",
+   "note": "canonical: 04-knowledge/units/terms/xixia-wenzi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-04",
+   "entity": "八思巴字",
+   "action": "create",
+   "target": "04-knowledge/units/terms/basiba-zi.md",
+   "analysis": "八思巴字是忽必烈时期创制的蒙古国字。赵农记忽必烈任命吐蕃僧人八思巴为国师，依据藏文字母并参考畏兀儿文字和汉文字的结构创制蒙古新字，共 40 余个字母，拼写蒙古语和汉语，方体字形，从右向左、从上向下书写；元代八思巴文字、汉文字、回回文字成为通行文字样式。检索既有 KU 无同实体条目，按术语新建；证据行 L5949, L5956, L6028。",
+   "approve": "批准新建 04-knowledge/units/terms/basiba-zi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/basiba-zi.md（新建）；引用 L5949, L5956, L6028。",
+   "note": "canonical: 04-knowledge/units/terms/basiba-zi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-05",
+   "entity": "回回文字",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huihui-wenzi.md",
+   "analysis": "回回文字是元代通行的新波斯文字，称普速蛮字，即穆斯林文字。赵农记元代波斯与穆斯林官商人员交流使用回回文字，设回回国子学与回回国子监教授新波斯文字；回回人还流行亦思替非文字，有特殊书写与计算方法，属表意象形文字与符号缩写样式；回回文字在中原发展成书法艺术经字画，有花体、象形体、波斯体、行书体、宫廷体等样式，并采用汉文书法中堂、横幅、对联等形式。检索既有 KU 无同实体条目，按术语新建；证据行 L5956, L5960。",
+   "approve": "批准新建 04-knowledge/units/terms/huihui-wenzi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/huihui-wenzi.md（新建）；引用 L5956, L5960。",
+   "note": "canonical: 04-knowledge/units/terms/huihui-wenzi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-06",
+   "entity": "《辽藏》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/liaozang.md",
+   "analysis": "《辽藏》是辽代在南京（今北京）印经院雕印的佛藏。赵农记《辽藏》分大小字两种，大字本 5000 卷；1974 年应县木塔发现大字本残卷 12 卷，每卷数十张纸连接，卷首粘贴印好的书签，采卷轴装，以《千字文》字韵编号，并有很高的防蛀水平；雕版《辽藏》与北京房山云居寺石刻本《辽藏》文体相同、同出一源。检索既有 KU 无同实体条目，按出版物新建；证据行 L5964。",
+   "approve": "批准新建 04-knowledge/units/publications/liaozang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/liaozang.md（新建）；引用 L5964。",
+   "note": "canonical: 04-knowledge/units/publications/liaozang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-07",
+   "entity": "《蒙求》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/mengqiu.md",
+   "analysis": "《蒙求》是应县木塔出土的辽代雕版书籍。赵农记其为唐代李翰编写的四言韵语启蒙识字教材；同出佛教版画 6 幅，其中 3 幅为彩色绢画，以丝漏形式印制——在线描部分印成修改后将丝绢对折，一次印刷后颜色渗漏到下面的绢上，事半功倍、左右对称；据记载辽代印刷多在燕京一地印制。检索既有 KU 无同实体条目，按出版物新建；证据行 L5966, L5971。",
+   "approve": "批准新建 04-knowledge/units/publications/mengqiu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/mengqiu.md（新建）；引用 L5966, L5971。",
+   "note": "canonical: 04-knowledge/units/publications/mengqiu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-09",
+   "entity": "《金藏》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/jinzang.md",
+   "analysis": "《金藏》是金代民间募捐雕造的大藏经。赵农记《金藏》由解州（山西运城）天宁寺主持开雕，前后共用 30 年，资金来自民间募捐；传说发起人为一位崔姓妇女，曾断臂立志奉佛，后崔氏将《金藏》送于燕京，受金世宗护封；原书 1934 年发现时已残缺，剩 4900 卷，估计原有 7000 卷，为金代以前佛教典籍的总汇；《金藏》为卷轴装，是北宋《开宝藏》的翻刻本，保留了许多已散失的《开宝藏》经卷特点。检索既有 KU 无同实体条目，按出版物新建；证据行 L5982, L5991。",
+   "approve": "批准新建 04-knowledge/units/publications/jinzang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/jinzang.md（新建）；引用 L5982, L5991。",
+   "note": "canonical: 04-knowledge/units/publications/jinzang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-10",
+   "entity": "《维摩诘所说经》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/weimojie-suoshuo-jing.md",
+   "analysis": "《维摩诘所说经》是甘肃武威出土的西夏活字印刷佛经。赵农记西夏引进雕版印刷技术，在国都兴庆府设纸工院与刻印司管理书籍纸张，1085 年最早刊印佛经；1972 年武威出土的西夏佛经残本为梵夹本形式；西夏印刷除雕版外已使用活泥字，《维摩诘所说经》即西夏活字印刷。检索既有 KU 无同实体条目，按出版物新建；证据行 L5993, L5995, L5997。",
+   "approve": "批准新建 04-knowledge/units/publications/weimojie-suoshuo-jing.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/weimojie-suoshuo-jing.md（新建）；引用 L5993, L5995, L5997。",
+   "note": "canonical: 04-knowledge/units/publications/weimojie-suoshuo-jing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-12",
+   "entity": "《玉海》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/yuhai.md",
+   "analysis": "《玉海》是元代庆元路刻印的类书。赵农记 1340 年庆元路（浙江宁波）刻印宋代王应麟的大类书《玉海》，共 204 卷，称其为贯串奥博的古今奇书；同段记元代官方以兴文署最著名，地方多为儒学书院刻书，兴文署印胡三省《音注资治通鉴》、郑樵《通志》最有名，元代印制《大藏经》估计 6500 卷。检索既有 KU 无同实体条目，按出版物新建；证据行 L6001, L6005。",
+   "approve": "批准新建 04-knowledge/units/publications/yuhai.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/yuhai.md（新建）；引用 L6001, L6005。",
+   "note": "canonical: 04-knowledge/units/publications/yuhai.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-13",
+   "entity": "《竹谱》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/zhupu.md",
+   "analysis": "《竹谱》是元代画家李衍编绘的画竹图谱。赵农记《竹谱》分 7 卷，以画竹谱、墨竹谱、竹态谱、墨竹态谱、竹品谱等介绍墨竹画法；印制于元代延祐末年，原本已失传，仅传清代嘉庆年间刻本。检索既有 KU 无同实体条目，按出版物新建；证据行 L6012。",
+   "approve": "批准新建 04-knowledge/units/publications/zhupu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/zhupu.md（新建）；引用 L6012。",
+   "note": "canonical: 04-knowledge/units/publications/zhupu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-15",
+   "entity": "《金刚经注》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/jingangjing-zhu.md",
+   "analysis": "《金刚经注》是现存最早的套印本。赵农记元代印刷出现套色书籍，现存台湾的最早套印本为 1341 年中兴路（湖北江陵）无闻和尚注释的《金刚经注》，扉页有黑红套色图画，经文为红色正文、黑色注文。检索既有 KU 无同实体条目，按出版物新建；证据行 L6014。",
+   "approve": "批准新建 04-knowledge/units/publications/jingangjing-zhu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/jingangjing-zhu.md（新建）；引用 L6014。",
+   "note": "canonical: 04-knowledge/units/publications/jingangjing-zhu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-16",
+   "entity": "《新全相三国志平话》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md",
+   "analysis": "《新全相三国志平话》是元代出现书籍封面形式的代表。赵农记元英宗至治年间的《新全相三国志平话》封面有插图和文字，文字中出现出版时间（至治）、地点（建安）、出版者（虞氏）、特点（新全相）等版权内容，是元代图书的首创；书籍上图下文，通俗明晰、老少咸宜。检索既有 KU 无同实体条目，按出版物新建；证据行 L6016。",
+   "approve": "批准新建 04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md（新建）；引用 L6016。",
+   "note": "canonical: 04-knowledge/units/publications/xin-quanxiang-sanguozhi-pinghua.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-17",
+   "entity": "花押",
+   "action": "create",
+   "target": "04-knowledge/units/terms/huaya.md",
+   "analysis": "花押是元代私人印章的一种，为个人化的形象符号。赵农在印章节记此时印章以官印为主、多为铜质铸造，元代出现大量私人印章和花押；花押中大多数以楷书文字为主，字体呈现凝重古朴的风格。检索既有 KU 无同实体条目，按术语新建；证据行 L6024, L6028。",
+   "approve": "批准新建 04-knowledge/units/terms/huaya.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/huaya.md（新建）；引用 L6024, L6028。",
+   "note": "canonical: 04-knowledge/units/terms/huaya.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-18",
+   "entity": "圆朱文",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yuanzhuwen.md",
+   "analysis": "圆朱文是元代出现的印章样式。赵农记元代出现圆朱文印章，以汉文字篆书体入印，吸收唐宋官印特点，呈现阳文，光滑整洁、圆润雅致；由于书画家赵孟頫倡导并身体力行，圆朱文风行于世，成为印章流变中一种优雅妩媚的艺术样式。检索既有 KU 无同实体条目，按术语新建；证据行 L6030。",
+   "approve": "批准新建 04-knowledge/units/terms/yuanzhuwen.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/yuanzhuwen.md（新建）；引用 L6030。",
+   "note": "canonical: 04-knowledge/units/terms/yuanzhuwen.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-19",
+   "entity": "赵孟頫",
+   "action": "create",
+   "target": "04-knowledge/units/persons/zhao-mengfu.md",
+   "analysis": "赵孟頫是元代书法家，也是圆朱文印章的倡导者。赵农记元人书法以崇尚古意为主导，赵孟頫与耶律楚材等对宋代以前书法极为推崇；赵孟頫以楷书和行书闻名，楷书可与欧阳询、颜真卿、柳公权并称欧颜柳赵，为唐代之后的书法巨匠；在其影响下鲜于枢、方从义、柯九思、康里嘤嘤、倪瓒等力追古贤；作者并判断元人书法是对五代至宋尚意风格的修正。检索既有 KU 无同实体条目，按人物新建；证据行 L6030, L6036, L6038。",
+   "approve": "批准新建 04-knowledge/units/persons/zhao-mengfu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/zhao-mengfu.md（新建）；引用 L6030, L6036, L6038。",
+   "note": "canonical: 04-knowledge/units/persons/zhao-mengfu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-22",
+   "entity": "至顺三年铜火铳",
+   "action": "create",
+   "target": "04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md",
+   "analysis": "至顺三年铜火铳是元代铸造的大型铜火铳。赵农记元代出现火铳，成为火枪、火炮的基本结构；火铳从 13 世纪开始先以竹筒为枪身，后来改进为金属枪身，充填火药和碎铁成为喷射火枪，铳即筒的转音；火铳分大小两类，小的为手铳，大的为盏口铳即火炮。检索既有 KU 无同实体条目，按作品新建；证据行 L6061, L6065, L6072。",
+   "approve": "批准新建 04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md（新建）；引用 L6061, L6065, L6072。",
+   "note": "canonical: 04-knowledge/units/works/zhishun-sannian-tong-huoqiang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-23",
+   "entity": "旋风炮",
+   "action": "create",
+   "target": "04-knowledge/units/terms/xuanfeng-pao.md",
+   "analysis": "旋风炮是西夏的一种独特兵器。赵农记西夏最初是对北宋兵器的模仿，基本是冷兵器的箭、剑、刀、斧等，但在战争中形成了一些独特兵器，如安置在骆驼鞍上、发射石球的“旋风炮”。检索既有 KU 无同实体条目，按术语新建；证据行 L6082。",
+   "approve": "批准新建 04-knowledge/units/terms/xuanfeng-pao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/xuanfeng-pao.md（新建）；引用 L6082。",
+   "note": "canonical: 04-knowledge/units/terms/xuanfeng-pao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-24",
+   "entity": "蓬莱元代战船",
+   "action": "create",
+   "target": "04-knowledge/units/works/penglai-yuan-zhanshu.md",
+   "analysis": "蓬莱元代战船是 1984 年山东蓬莱水城出土的元代战船。赵农记其残长 28.6 米、残宽 5.6 米、残深 0.9 米，是目前发现最长的古船；船内有铁炮、铜炮、石弹、石灰瓶等兵器；属宋元时期“刀鱼战棹”的战舰样式；其龙骨、首柱、舱壁板、外板、桅座制形严谨、技术精湛，木构以麻丝、桐油、石灰捻合，细密坚实。检索既有 KU 无同实体条目，按作品新建；证据行 L6094, L6096, L6098, L6100。",
+   "approve": "批准新建 04-knowledge/units/works/penglai-yuan-zhanshu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/penglai-yuan-zhanshu.md（新建）；引用 L6094, L6096, L6098, L6100。",
+   "note": "canonical: 04-knowledge/units/works/penglai-yuan-zhanshu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-25",
+   "entity": "驼车",
+   "action": "create",
+   "target": "04-knowledge/units/terms/tuoche-xiche.md",
+   "analysis": "驼车是辽代车具的代表，也称奚车，为奚族人的发明。赵农记辽代在上京设车子院管理车具，由于游牧民族不断迁徙的生活方式，车成为重要交通工具，游牧迁徙时的大车、毡车和小车有不同的车制和用途；驼车在辽代的日常生活与军事战争中发挥重大作用；金代延续辽宋许多制车技艺，日常社会生活中多用牛车和驴车；元代因战争运输需要与地域广大，对车辆的重视超过前人，牛车也多作为生活出行的主要交通工具。检索既有 KU 无同实体条目，按术语新建；证据行 L6106, L6108, L6110。",
+   "approve": "批准新建 04-knowledge/units/terms/tuoche-xiche.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/tuoche-xiche.md（新建）；引用 L6106, L6108, L6110。",
+   "note": "canonical: 04-knowledge/units/terms/tuoche-xiche.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-28",
+   "entity": "通惠河",
+   "action": "create",
+   "target": "04-knowledge/units/works/tonghuihe.md",
+   "analysis": "通惠河是大都到通州的河道。赵农记大运河自隋代开通后形成南北交通纽带，但旧河道年久淤积常使运河堵塞，元代多次疏浚，并在至元年间开凿通惠河和会通河，使运河从大都到杭州全线贯通；通惠河全长 160 里，建有郭守敬设计的复式船闸 10 座，合理解决河流水位落差问题；大运河自元代全线开通，南北漕运畅通无阻，泽及明清。检索既有 KU 无同实体条目，按作品新建；证据行 L6118, L6120, L6122。",
+   "approve": "批准新建 04-knowledge/units/works/tonghuihe.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/tonghuihe.md（新建）；引用 L6118, L6120, L6122。",
+   "note": "canonical: 04-knowledge/units/works/tonghuihe.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-29",
+   "entity": "会通河",
+   "action": "create",
+   "target": "04-knowledge/units/works/huitonghe.md",
+   "analysis": "会通河是山东临清与东平之间的河道。赵农记元代多次疏浚运河，并在至元年间开凿通惠河和会通河，使运河从大都到杭州全线贯通；会通河全长 250 里，建有船闸 13 座，以保障船只顺利航行。检索既有 KU 无同实体条目，按作品新建；证据行 L6118, L6120。",
+   "approve": "批准新建 04-knowledge/units/works/huitonghe.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/huitonghe.md（新建）；引用 L6118, L6120。",
+   "note": "canonical: 04-knowledge/units/works/huitonghe.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-30",
+   "entity": "辽五京",
+   "action": "create",
+   "target": "04-knowledge/units/places/liao-wujing.md",
+   "analysis": "辽五京是辽代确立的五个京城。赵农记辽代确立上京（内蒙古赤峰）、中京（内蒙古宁城）、南京（北京）、东京（辽宁辽阳）、西京（山西大同），具备一定城市规模；但五京并非辽代中央政权所在，仅是管理百姓的地方行政机构；辽代皇帝在四时“纳钵”中度过，纳钵是行宫的意思。检索既有 KU 无同实体条目，按地点新建；证据行 L6131, L6133。",
+   "approve": "批准新建 04-knowledge/units/places/liao-wujing.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/places/liao-wujing.md（新建）；引用 L6131, L6133。",
+   "note": "canonical: 04-knowledge/units/places/liao-wujing.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-32",
+   "entity": "刘秉忠",
+   "action": "create",
+   "target": "04-knowledge/units/persons/liu-bingzhong.md",
+   "analysis": "刘秉忠是元大都的总体设计者。赵农记至元八年（1271）忽必烈建国“大元”，取《易经》“乾元”之意，以燕京为大都；元大都的总体设计者是刘秉忠，而郭守敬对元大都的水利工程提出了许多良好建议；刘秉忠为忽必烈的谋臣，来源引《元史·刘秉忠列传》“四年又命秉忠筑中都城，始建宗庙宫室。检索既有 KU 无同实体条目，按人物新建；证据行 L6146。",
+   "approve": "批准新建 04-knowledge/units/persons/liu-bingzhong.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/liu-bingzhong.md（新建）；引用 L6146。",
+   "note": "canonical: 04-knowledge/units/persons/liu-bingzhong.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-33",
+   "entity": "独乐寺观音阁",
+   "action": "create",
+   "target": "04-knowledge/units/works/dule-si-guanyin-ge.md",
+   "analysis": "独乐寺观音阁是辽代重修的木构楼阁。赵农记现存河北蓟县独乐寺观音阁、山西大同下华严寺、辽宁义县奉国寺、山西应县佛宫寺释迦塔等是辽代佛教文化的证明；独乐寺建于唐代，辽代统和二年（984）重修，现存观音阁和山门是辽代建筑，据记载独乐寺曾经历 28 次地震而观音阁巍然屹立；观音阁面阔 5 间、进深 4 间，外观两层、内为三层，中有高 16 米的辽代观音塑像；山门 3 间宽、进深 2 间，单檐四坡顶。检索既有 KU 无同实体条目，按作品新建；证据行 L6158, L6160, L6162。",
+   "approve": "批准新建 04-knowledge/units/works/dule-si-guanyin-ge.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/dule-si-guanyin-ge.md（新建）；引用 L6158, L6160, L6162。",
+   "note": "canonical: 04-knowledge/units/works/dule-si-guanyin-ge.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-34",
+   "entity": "华严寺",
+   "action": "create",
+   "target": "04-knowledge/units/works/huayan-si.md",
+   "analysis": "华严寺是大同的辽金寺院。赵农记大同华严寺分为上、下二寺，下寺是辽代建筑，上寺是金代建筑，上寺的大殿是现存古代最大单檐木结构的建筑；大同善化寺的大雄宝殿是辽代建筑，而山门、普贤阁、三圣殿为金代修建；大同是辽金时期的西京，建筑比邻相连，佛教建筑成为辽金城市的重要象征。检索既有 KU 无同实体条目，按作品新建；证据行 L6158, L6164, L6169。",
+   "approve": "批准新建 04-knowledge/units/works/huayan-si.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/huayan-si.md（新建）；引用 L6158, L6164, L6169。",
+   "note": "canonical: 04-knowledge/units/works/huayan-si.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-35",
+   "entity": "应县木塔",
+   "action": "create",
+   "target": "04-knowledge/units/works/yingxian-muta.md",
+   "analysis": "应县木塔即山西应县佛宫寺释迦塔，俗称“应县木塔”，建于辽清宁二年（1056）。赵农记其为高 9 层楼阁式结构，高 67.31 米，底层直径 30.27 米，塔身平面呈八角形，以木构架柱网组成内外槽制，外槽为行人活动空间，内槽为供奉佛像的地方；木塔利用木构榫卯技术、合理运用木料尺寸，历经近千年风雨与数次地震而挺立，证明中国木结构建筑的杰出成就。检索既有 KU 无同实体条目，按作品新建；证据行 L6171, L6176。",
+   "approve": "批准新建 04-knowledge/units/works/yingxian-muta.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/yingxian-muta.md（新建）；引用 L6171, L6176。",
+   "note": "canonical: 04-knowledge/units/works/yingxian-muta.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-36",
+   "entity": "王重阳",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wang-chongyang.md",
+   "analysis": "王重阳是金代全真教的创立者。赵农记女真民族最初信仰萨满教，后来受辽、宋文化影响，佛道思想进入金代社会各层，尤其是道教思想在金代的山东、河北十分流行；道教人物王重阳在山东牟平创立全真教，以道教为主，加入佛儒的思想，通融三教，从而使道教发扬光大。检索既有 KU 无同实体条目，按人物新建；证据行 L6178。",
+   "approve": "批准新建 04-knowledge/units/persons/wang-chongyang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/wang-chongyang.md（新建）；引用 L6178。",
+   "note": "canonical: 04-knowledge/units/persons/wang-chongyang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-38",
+   "entity": "《朝元图》",
+   "action": "create",
+   "target": "04-knowledge/units/works/chaoyuan-tu.md",
+   "analysis": "《朝元图》是元代永乐宫三清殿的道教壁画。赵农记永乐宫位于山西永济，是元代著名道观；三清殿是永乐宫的重要建筑，为七间阔单檐四坡顶结构，因供奉玉清元始天尊、上清灵宝天尊、太清道德天尊而名为“三清殿”；三清殿四壁绘有著名壁画《朝元图》，由当时的洛阳民间画工马君祥父子等人参与绘制，以道教题材的绘画粉本为样式，绘画面积达 400 多平方米；壁画为工笔重彩、铁线勾勒、青绿彩绘，表现道教人物高古大气、生动富丽的精神面貌；永乐宫因 20 世纪 50 年代修建黄河三门峡水库而迁移到山西芮城。检索既有 KU 无同实体条目，按作品新建；证据行 L6191, L6196。",
+   "approve": "批准新建 04-knowledge/units/works/chaoyuan-tu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/chaoyuan-tu.md（新建）；引用 L6191, L6196。",
+   "note": "canonical: 04-knowledge/units/works/chaoyuan-tu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-41",
+   "entity": "西夏王陵",
+   "action": "create",
+   "target": "04-knowledge/units/works/xixia-wangling.md",
+   "analysis": "西夏王陵是西夏的皇家陵园。赵农记其建于银川贺兰山东麓环山的平坦地面，以帝王先后顺序从南向北，形成南北 10 公里、东西 4 公里的巨大皇家陵园区域；每位帝王的陵园都以角台、阁台、碑亭、月城、内城构成独立完整的建筑群；陵园近年考古发现许多建筑遗物，如宫殿正脊的琉璃鸱吻高达 1.52 米，是目前发现的最大的建筑鸱吻，瓦当、琉璃瓦、琉璃滴水、琉璃花砖、条砖、柱础等物比比皆是，陵园附近有许多大型砖瓦石灰窑址；地表建筑历经近千年战乱已荡然无存，仅有夯土圆堆。检索既有 KU 无同实体条目，按作品新建；证据行 L6206, L6208。",
+   "approve": "批准新建 04-knowledge/units/works/xixia-wangling.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/xixia-wangling.md（新建）；引用 L6206, L6208。",
+   "note": "canonical: 04-knowledge/units/works/xixia-wangling.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-42",
+   "entity": "卢沟桥",
+   "action": "create",
+   "target": "04-knowledge/units/works/lugou-qiao.md",
+   "analysis": "卢沟桥是金代建成的石拱桥。赵农记其建成于金明昌三年（1192），《马可·波罗游记》称其为当时“世界上最好的独一无二的桥”，是金代建筑史上的杰作，历经 800 余年风雨侵蚀仍安然无恙；卢沟桥地处卢沟河（清代改名永定河），全长 266.5 米、桥宽 7.5 米、共 11 孔、桥高约 10 米，桥孔为圆拱形、中心桥孔跨度约 21.6 米，是北方最长的石拱桥；桥墩靠河流上游方向有尖嘴的石础，以分冰凌和洪流；桥面石板铺砌、扶手石栏，两边石栏石柱共 280 个，柱头石狮共 486 个；卢沟桥是华北军事商旅必经之路，1937 年 7 月 7 日卢沟桥事变使其又添悲壮历史篇章。检索既有 KU 无同实体条目，按作品新建；证据行 L6212, L6214, L6216。",
+   "approve": "批准新建 04-knowledge/units/works/lugou-qiao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/lugou-qiao.md（新建）；引用 L6212, L6214, L6216。",
+   "note": "canonical: 04-knowledge/units/works/lugou-qiao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-44",
+   "entity": "登封观星台",
+   "action": "create",
+   "target": "04-knowledge/units/works/dengfeng-guanxingtai.md",
+   "analysis": "登封观星台是元代天文观测台。赵农记郭守敬与尼泊尔的阿尼哥合作，设计修建了元大都的司天台（观象台），创制了许多天文仪器，改进了浑仪、制造了仰仪；郭守敬改进了圭表，除加长表竿外，还设计了“景符”和“窥几”，使圭表准确度提高，并能在月光下观测，其圭表样式在河南登封观星台被保留下来，郭守敬曾亲自在此测验晷影。检索既有 KU 无同实体条目，按作品新建；证据行 L6230, L6232, L6234, L6239。",
+   "approve": "批准新建 04-knowledge/units/works/dengfeng-guanxingtai.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/dengfeng-guanxingtai.md（新建）；引用 L6230, L6232, L6234, L6239。",
+   "note": "canonical: 04-knowledge/units/works/dengfeng-guanxingtai.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-45",
+   "entity": "《授时历》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/shoushi-li.md",
+   "analysis": "《授时历》是元代郭守敬制定的历法。赵农记郭守敬制定了《授时历》，采用了宋人研制的一年为 365.2425 日的计算方法，与现代年历的时间相同，使元代的天文水平居世界领先水平。检索既有 KU 无同实体条目，按出版物新建；证据行 L6230。",
+   "approve": "批准新建 04-knowledge/units/publications/shoushi-li.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/shoushi-li.md（新建）；引用 L6230。",
+   "note": "canonical: 04-knowledge/units/publications/shoushi-li.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-46",
+   "entity": "髡发",
+   "action": "create",
+   "target": "04-knowledge/units/terms/kunfa.md",
+   "analysis": "髡发是契丹民族剃剪部分头发的风俗。赵农记契丹民族以佩带耳环为主要头饰，并有髡发的风俗，引沈括语“其人剪发，妥其两髦”；作者判断这一习惯究其根本还是游牧民族因骑马射猎、为获得视线便利而剪去前额头发所形成的风俗。检索既有 KU 无同实体条目，按术语新建；证据行 L6249, L6251, L6263。",
+   "approve": "批准新建 04-knowledge/units/terms/kunfa.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/kunfa.md（新建）；引用 L6249, L6251, L6263。",
+   "note": "canonical: 04-knowledge/units/terms/kunfa.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-50",
+   "entity": "撒答剌欺",
+   "action": "create",
+   "target": "04-knowledge/units/terms/sadalaqi.md",
+   "analysis": "撒答剌欺是元代的一种织锦材料。赵农记元代还有一种“撒答剌欺”的织锦材料，缘起于当时生活在中亚（今乌兹别克）撒答剌村的粟特人；这种丝织品在公元 7 世纪出现，吸收丝绸之路东西方许多国家的丝织技术，不断发展而流行于元代。检索既有 KU 无同实体条目，按术语新建；证据行 L6282。",
+   "approve": "批准新建 04-knowledge/units/terms/sadalaqi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/sadalaqi.md（新建）；引用 L6282。",
+   "note": "canonical: 04-knowledge/units/terms/sadalaqi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-51",
+   "entity": "搅车",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jiaoche.md",
+   "analysis": "搅车是轧除棉籽的器具。赵农记宋末元初从西域引进的棉花种植进入中原、流播江南，但人们对棉花纺织机械技术的探索还处在初级阶段；黄道婆、王祯、薛景石等人对纺织机械和工具加以改进，研制运用搅车、弹弓、纺车、经架、水力大纺车、织机、布机等；搅车是黄道婆以海南岛黎族纺织的踏车为基础改进的一种轧棉籽器具，《王祯农书》有所记载，并引“凡木棉虽多，今用此法，即去籽得棉，不致积滞”。检索既有 KU 无同实体条目，按术语新建；证据行 L6294, L6296。",
+   "approve": "批准新建 04-knowledge/units/terms/jiaoche.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/jiaoche.md（新建）；引用 L6294, L6296。",
+   "note": "canonical: 04-knowledge/units/terms/jiaoche.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-59",
+   "entity": "卵白釉瓷",
+   "action": "create",
+   "target": "04-knowledge/units/terms/luanbai-you-ci.md",
+   "analysis": "卵白釉瓷是元代景德镇烧造的白瓷。赵农记经过宋代的发展，江西景德镇瓷器到元代已称誉天下；宋元之间的战乱使南北窑场遭到重创，而景德镇窑场因地理因素和烧制白瓷的缘故被元代政府高度重视；至元十五年（1278）元政府在景德镇设置“浮梁瓷局”制作御烧瓷器，并在各地征集陶瓷工匠，使制瓷技术分工细致规范化，出现青花、釉里红、卵白釉等瓷器；卵白釉瓷胎质硬、白、厚重，釉色泛出淡青的白瓷，犹如蛋青色泽，为元代官方的御烧瓷器，因此也称“枢府窑”瓷器。检索既有 KU 无同实体条目，按术语新建；证据行 L6358, L6369。",
+   "approve": "批准新建 04-knowledge/units/terms/luanbai-you-ci.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/luanbai-you-ci.md（新建）；引用 L6358, L6369。",
+   "note": "canonical: 04-knowledge/units/terms/luanbai-you-ci.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-62",
+   "entity": "元代漆器装饰技法",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md",
+   "analysis": "元代漆器装饰技法指元代江南漆器所用的剔红、剔犀、螺钿镶嵌、戗金、金漆等工艺。赵农记漆器生产并未得到元代的重视，但江南的漆器生产延续南宋漆器技术，产生了许多漆雕佳品；剔红是在胎具上髹漆几十遍后进行雕刻，形成寓装饰与使用于一体的漆具；剔犀是红黑相间的髹漆雕刻；螺钿镶嵌是将贝壳薄片镶嵌在漆胎上形成图案，并饰以髹漆，此外还运用戗金、金漆等技术。检索既有 KU 无同实体条目，按术语新建；证据行 L6454, L6476, L6478。",
+   "approve": "批准新建 04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md（新建）；引用 L6454, L6476, L6478。",
+   "note": "canonical: 04-knowledge/units/terms/yuan-dai-qiqi-zhuangshi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-63",
+   "entity": "渎山大玉海",
+   "action": "create",
+   "target": "04-knowledge/units/works/dushan-dayuhai.md",
+   "analysis": "渎山大玉海是元代的大型酒器，有“黑玉酒瓮”的称呼。赵农记元代玉器中最著名的是渎山大玉海，其他多以小物件的首饰、酒具为主；渎山大玉海先置于北京北海琼华岛广寒殿，明万历年间迁于紫禁城西华门外的真武庙，清乾隆年间又被安放在北海团城；经多次修磨，已非元代旧貌；现存高 70 公分、口径最宽处 182 公分、重达 3500 公斤，为中国古典玉器之最。检索既有 KU 无同实体条目，按作品新建；证据行 L6480, L6482。",
+   "approve": "批准新建 04-knowledge/units/works/dushan-dayuhai.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/dushan-dayuhai.md（新建）；引用 L6480, L6482。",
+   "note": "canonical: 04-knowledge/units/works/dushan-dayuhai.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-66",
+   "entity": "水轮三事",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shuilun-sanshi.md",
+   "analysis": "水轮三事是元代王祯发明改进的粮食加工机械。赵农记王祯不但整理古人的农具图形，自己还动手设计绘制不少农具机械，发明和改进了“水轮三事”，能够集砻稻、碾米、磨面于一体，解决粮食加工的根本问题；王祯自述“一机三事，始终具备，变而能通，兼而不乏，省而有要，诚便民之活法，选物之潜机”；他还设计“水转连磨”，既利用水力推动机械转动、提高灌溉能力，又可用以加工谷物粮食。检索既有 KU 无同实体条目，按术语新建；证据行 L6535。",
+   "approve": "批准新建 04-knowledge/units/terms/shuilun-sanshi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/shuilun-sanshi.md（新建）；引用 L6535。",
+   "note": "canonical: 04-knowledge/units/terms/shuilun-sanshi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-68",
+   "entity": "金代交钞",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jin-dai-jiaochao.md",
+   "analysis": "金代交钞是金代发行的纸币。赵农记金在南宋货币流通影响下设置交钞库、发行交钞，发行时间是贞元二年（1154），是最早在大范围正式流通的纸币；金代交钞仿制宋代交子和钱引的形状，《金史·食货志》记“交钞之制，外为阑，作花纹，其上衡书贯例，左曰‘某字料’，右曰‘某字号’。检索既有 KU 无同实体条目，按术语新建；证据行 L6557, L6559。",
+   "approve": "批准新建 04-knowledge/units/terms/jin-dai-jiaochao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/jin-dai-jiaochao.md（新建）；引用 L6557, L6559。",
+   "note": "canonical: 04-knowledge/units/terms/jin-dai-jiaochao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-69",
+   "entity": "元代纸币",
+   "action": "create",
+   "target": "04-knowledge/units/terms/yuan-dai-zhibi.md",
+   "analysis": "元代纸币是元代以交钞为主的纸币。赵农记元代初期的纸币以丝作为本位，《元史·食货志》记“世祖中统元年，始造交钞，以丝为本。检索既有 KU 无同实体条目，按术语新建；证据行 L6563, L6575。",
+   "approve": "批准新建 04-knowledge/units/terms/yuan-dai-zhibi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/yuan-dai-zhibi.md（新建）；引用 L6563, L6575。",
+   "note": "canonical: 04-knowledge/units/terms/yuan-dai-zhibi.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-86",
+   "entity": "王冕",
+   "action": "create",
+   "target": "04-knowledge/units/persons/wang-mian.md",
+   "analysis": "王冕是相传以石质材料代替铜质刻印的元代人物。赵农在篆刻段记相传元代王冕以石质材料代替铜质刻制印章，这使文人的私章广泛流行；同段记元代出现圆朱文并由赵孟頫倡导。检索既有 KU 无同实体条目，按人物新建；证据行 L6030。",
+   "approve": "批准新建 04-knowledge/units/persons/wang-mian.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/wang-mian.md（新建）；引用 L6030。",
+   "note": "canonical: 04-knowledge/units/persons/wang-mian.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-87",
+   "entity": "孙威",
+   "action": "create",
+   "target": "04-knowledge/units/persons/sun-wei.md",
+   "analysis": "孙威是相传善于制甲的浑源工匠。赵农记 1271 年元朝建立后设工匠都总管，制造铠甲、兵器，后改设武备寺，存放和制造兵器；元代鼓励兵器生产，对工匠待遇优厚，规定战争中不得杀伤工匠；相传有浑源工匠孙威，善于制造铠甲，曾将“蹄筋翎根铠”送于成吉思汗，成吉思汗力射而不能穿透；孙威的后代还制作出可折叠的盾，收敛开放自如，被忽必烈嘉奖。检索既有 KU 无同实体条目，按人物新建；证据行 L6084。",
+   "approve": "批准新建 04-knowledge/units/persons/sun-wei.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/sun-wei.md（新建）；引用 L6084。",
+   "note": "canonical: 04-knowledge/units/persons/sun-wei.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-89",
+   "entity": "佛妆",
+   "action": "create",
+   "target": "04-knowledge/units/terms/fozhuang.md",
+   "analysis": "佛妆是契丹贵族妇女的面妆。赵农记契丹民族头饰非常讲究，皇帝有金冠、硬帽，贵族官员有皮帽、毡帽、头巾；有钱人要交纳一定数量的马驼才能裹以头巾；贵族妇女戴瓜皮帽并喜欢“贴面花”，面部涂深黄色、红眉黑吻，称之为“佛妆”，作者判断其实际是一种因北地风寒而产生的用植物色保养皮肤的方法。检索既有 KU 无同实体条目，按术语新建；证据行 L6247。",
+   "approve": "批准新建 04-knowledge/units/terms/fozhuang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/fozhuang.md（新建）；引用 L6247。",
+   "note": "canonical: 04-knowledge/units/terms/fozhuang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-90",
+   "entity": "速夫",
+   "action": "create",
+   "target": "04-knowledge/units/terms/sufu.md",
+   "analysis": "速夫是元代的一种羊毛织品。赵农记在羊毛织品中有一种“速夫”，也是波斯语的译音，为西域回回毛皮制作技术的织品，也成为皇室的服饰面料。检索既有 KU 无同实体条目，按术语新建；证据行 L6284。",
+   "approve": "批准新建 04-knowledge/units/terms/sufu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/sufu.md（新建）；引用 L6284。",
+   "note": "canonical: 04-knowledge/units/terms/sufu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-91",
+   "entity": "蓝釉白龙纹梅瓶",
+   "action": "create",
+   "target": "04-knowledge/units/works/lanyou-bailongwen-meiping.md",
+   "analysis": "蓝釉白龙纹梅瓶是元代瓷器釉色装饰的例证。赵农记元代制瓷的一个显著特点是大量采取花卉蔬果、神话故事、山水动物来装饰瓷器，造型别致、色彩富丽，瓷枕有透雕，书法也成为装饰内容；装饰手法多利用胎质的釉色变化，蓝釉白龙纹梅瓶就是以贴纸敷遮在已绘制好的龙纹图案上，施以蓝釉，揭去纸张后再在龙纹上涂以白釉，烧制成型后蓝白相间、精彩纷呈。检索既有 KU 无同实体条目，按作品新建；证据行 L6392。",
+   "approve": "批准新建 04-knowledge/units/works/lanyou-bailongwen-meiping.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/lanyou-bailongwen-meiping.md（新建）；引用 L6392。",
+   "note": "canonical: 04-knowledge/units/works/lanyou-bailongwen-meiping.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-93",
+   "entity": "穹庐式毡帐",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qionglu-zhanzhang.md",
+   "analysis": "穹庐式毡帐是契丹早期的居住形式。赵农记契丹民族早期过着“春水秋山”式的迁徙生活，居住在穹庐式毡帐中；这种毡帐有半圆形的毛毡顶，四周用木棍支撑，用皮绳束绑，在东面开有券形小门。检索既有 KU 无同实体条目，按术语新建；证据行 L6427, L6429。",
+   "approve": "批准新建 04-knowledge/units/terms/qionglu-zhanzhang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/qionglu-zhanzhang.md（新建）；引用 L6427, L6429。",
+   "note": "canonical: 04-knowledge/units/terms/qionglu-zhanzhang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-95",
+   "entity": "黑车白帐",
+   "action": "create",
+   "target": "04-knowledge/units/terms/heiche-baizhang.md",
+   "analysis": "黑车白帐是蒙古族早年游牧生活的用车与居所。赵农记蒙古族早年的游牧生活中主要使用黑车白帐，黑车即牛车、俗称勒勒车，白帐即蒙古包；家具有柜、箱、矮桌等实用器具，小型器具以金、银、铜、铁金属制品居多。检索既有 KU 无同实体条目，按术语新建；证据行 L6435。",
+   "approve": "批准新建 04-knowledge/units/terms/heiche-baizhang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/heiche-baizhang.md（新建）；引用 L6435。",
+   "note": "canonical: 04-knowledge/units/terms/heiche-baizhang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-189",
+   "entity": "辽三彩",
+   "action": "update",
+   "target": "04-knowledge/units/terms/liao-sancai.md",
+   "analysis": "既有 KU 已据 2016 夏燕靖册立条，并保留「辽三彩是否低温铅釉」的存疑；赵农 2009 册 L5884 记辽瓷对唐三彩的继承、L6352 记辽三彩为低温釉陶，以单色黄、绿、白釉，质地松脆、釉面粗糙为基本样式。按跨册更新新增赵农来源块，source_count 加 1，version 加 1，日期顺延至 2027-04-26。",
+   "approve": "批准更新 04-knowledge/units/terms/liao-sancai.md：保留既有来源，新增赵农 2009 册引用块并顺延复核日期。",
+   "apply_note": "04-knowledge/units/terms/liao-sancai.md（更新）；新增引用 L5884、L6352。",
+   "note": "canonical: 04-knowledge/units/terms/liao-sancai.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-21",
+   "entity": "火铳",
+   "action": "update",
+   "target": "04-knowledge/units/works/yuan-huoqiang.md",
+   "analysis": "既有 KU 据 2016 夏燕靖册记元代火铳铸造与浸铜法；赵农册 L6061 记火铳成为火枪火炮的基本结构，L6065 记 13 世纪起源、铳即筒的转音、手铳与盏口铳两类及西安东关铳、至顺三年铳尺寸，L6072 记火铳部队编制与《元史》引文。按跨册更新新增来源块，source_count 加 1，version 加 1。",
+   "approve": "批准更新 04-knowledge/units/works/yuan-huoqiang.md：保留既有来源，新增赵农 2009 册引用块并顺延复核日期。",
+   "apply_note": "04-knowledge/units/works/yuan-huoqiang.md（更新）；新增引用 L6061、L6065、L6072。",
+   "note": "canonical: 04-knowledge/units/works/yuan-huoqiang.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-52",
+   "entity": "水力大纺车",
+   "action": "update",
+   "target": "04-knowledge/units/terms/dafangche.md",
+   "analysis": "既有 KU 记宋代大纺车并引《王祯农书》；赵农册 L5336 属宋代段、L6304 属元代纺织段，记大纺车的加捻卷绕、传动、原动三部分结构，增加纱锭、提高加捻卷绕速度并利用水力。按同书更新扩展赵农 citation，source_count 不增，version 加 1，并标注两跨度断代未明。",
+   "approve": "批准更新 04-knowledge/units/terms/dafangche.md：保留既有来源，新增赵农 2009 册引用块并顺延复核日期。",
+   "apply_note": "04-knowledge/units/terms/dafangche.md（更新）；赵农 citation 扩展至 L5336、L6304。",
+   "note": "canonical: 04-knowledge/units/terms/dafangche.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-54",
+   "entity": "皮囊壶（鸡冠壶）",
+   "action": "update",
+   "target": "04-knowledge/units/terms/jiguang-hu.md",
+   "analysis": "既有 KU 已据五册立条；赵农册 L5867、L5884、L6325 分别记皮囊形制瓷壶、绿釉划花鸡冠壶与 L6325 的扁圆造型、管状口、环形提梁及游牧适应。按跨册更新新增赵农来源块，source_count 加 1，version 加 1。",
+   "approve": "批准更新 04-knowledge/units/terms/jiguang-hu.md：保留既有来源，新增赵农 2009 册引用块并顺延复核日期。",
+   "apply_note": "04-knowledge/units/terms/jiguang-hu.md（更新）；新增引用 L5867、L5884、L6325。",
+   "note": "canonical: 04-knowledge/units/terms/jiguang-hu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-94",
+   "entity": "地穴式",
+   "action": "update",
+   "target": "04-knowledge/units/terms/bandixue-shi-jianzhu.md",
+   "analysis": "既有 KU 记半地穴式建筑；赵农册 L6431 记女真早期地穴式建筑结构（篱笆墙、木板树皮茅草顶、门东向、环形土床即土炕连通锅灶）及唐宋黄河以北土炕取暖的流传。按术语近缘并入并保留来源用词，新增赵农来源块，source_count 加 1，version 加 1。",
+   "approve": "批准更新 04-knowledge/units/terms/bandixue-shi-jianzhu.md：保留既有来源，新增赵农 2009 册引用块并顺延复核日期。",
+   "apply_note": "04-knowledge/units/terms/bandixue-shi-jianzhu.md（更新）；新增引用 L6431。",
+   "note": "canonical: 04-knowledge/units/terms/bandixue-shi-jianzhu.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-192",
+   "entity": "青花凤首扁壶",
+   "action": "rejected",
+   "target": null,
+   "analysis": "该候选仅对应图 8-2 图注（L5861）“元 青花凤首扁壶”，绪论正文未展开器形、年代、窑口、藏地与工艺；单条图注不足以支撑独立条目。",
+   "approve": "判 rejected：仅图注，本候选不另建条。",
+   "apply_note": "不写回。",
+   "note": "无 canonical；图 8-2 图注保留在来源层。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-08-193",
+   "entity": "青花双龙纹四系扁壶",
+   "action": "rejected",
+   "target": null,
+   "analysis": "该候选仅对应图 8-4 图注（L5872）“元 青花双龙纹四系扁壶”，正文未展开器形、年代、窑口与藏地；单条图注不足以支撑独立条目。",
+   "approve": "判 rejected：仅图注，本候选不另建条。",
+   "apply_note": "不写回。",
+   "note": "无 canonical；图 8-4 图注保留在来源层。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-48",
+   "entity": "元昊（李元昊）",
+   "action": "rejected",
+   "target": "04-knowledge/units/persons/li-yuanhao.md",
+   "analysis": "与 cand-08-185 同指李元昊；本批已按 08-185 新建 persons/li-yuanhao.md，并将 L6255–L6259 的服饰材料并入该条，重复立条会造成同一人物两目。",
+   "approve": "判 rejected：canonical 取 04-knowledge/units/persons/li-yuanhao.md，本候选内容已并入，不另建条。",
+   "apply_note": "不写回。",
+   "note": "canonical: 04-knowledge/units/persons/li-yuanhao.md。"
+  },
+  {
+   "cid": "2009-zhaonong-zhongguo-yishu-shejishi:cand-09-85",
+   "entity": "《道藏》",
+   "action": "rejected",
+   "target": null,
+   "analysis": "L5982 仅与《金藏》并列提及“道教《道藏》”，未给卷数、刊刻与装帧内容；赵农册对《道藏》的实质记载在明代段 L7144（《正统道藏》5302 卷、480 函），不属本章范围。",
+   "approve": "判 rejected：本章仅并列提及，本候选不立条；明代段材料留待后续批次。",
+   "apply_note": "不写回。",
+   "note": "无 canonical。"
+  }
+ ],
+ "notes": "赵农 2009 册第八章 unit 候选 63 条：create 54、update 5、rejected 4。范围 L5825-L6598。新建覆盖辽金西夏元人物（耶律阿保机、阿骨打、李元昊、成吉思汗、忽必烈、赵孟頫、刘秉忠、王重阳、王冕、孙威）、五种文字、八种出版物、花押与圆朱文、兵器火器、战船、车具、通惠河与会通河、辽五京、辽金寺院塔阁、永乐宫壁画、西夏王陵、卢沟桥、观星台与《授时历》、髡发与佛妆、撒答剌欺与速夫、搅车与卵白釉、漆器技法、渎山大玉海、水轮三事、金元纸币、蓝釉白龙纹梅瓶、穹庐毡帐、黑车白帐。5 条更新为辽三彩、火铳、水力大纺车、皮囊壶（鸡冠壶）、地穴式；4 条判 rejected（两件元青花扁壶仅图注、元昊与 08-185 重复、《道藏》仅并列提及）。本章 19 条 claim 候选仍保持 needs_evidence，未进入 claim-registry。"
+}

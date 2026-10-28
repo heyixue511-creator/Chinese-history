@@ -1,0 +1,72 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+  "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+  "L1513 为与正文无关的图片识别说明文字（英文，含“The Ground Truth image”“Rule 2”“OCR result”等字样），不据其改写正文，也不把它当作来源论述。",
+  "皮特·里弗斯与《文化的进化》同出一行，分建 person 与 publication 两条，互链但不复制同一段全部文字。",
+  "图5-1、图5-2、图5-4、图5-5 只有图注或无 unit 候选，不另建单图条；图5-3 建兽面铜牌饰条。",
+  "同实体先检索既有 KU 与同批目标；能归并者按 update 或 no_delta 处理，不重复建条。"
+ ],
+ "scope_spans": [
+  [
+   1472,
+   1601
+  ]
+ ],
+ "scope_note": "覆盖 L1472-L1601：第四章第三节“一般造物与经典造物之间的互动关系”（L1472-L1514），第五章“造物设计的更迭演化”开篇（L1515-L1523）、第一节“品类更迭中知识、文化的积累”（L1525-L1549）、第二节“技术与形式的延续”（L1551-L1601）；止于第三节“演化与突破”（L1603）之前。",
+ "deferred": [],
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-41",
+   "entity": "皮特·里弗斯",
+   "action": "create",
+   "target": "04-knowledge/units/persons/pi-te-li-fu-si.md",
+   "analysis": "cand-04-41 跨度为 L1527。L1527 记进化论派人类学家皮特·里弗斯在《文化的进化》中，根据工业时代之前的人造物品提出整合智力成就与技术成就的造物更迭理论：人们不经预先设计而选择最适合任务的物品、拒用适用性差者，使造物沿渐变轨迹展开，工匠的小改进在无意识中推动技术进步；并引李立新的界定——移用到中国古代造物设计史须有界定和修改。existing persons 下无此条。",
+   "approve": "身份、著作、理论要点与李立新的修正均可复查，按 person 建 A 维度条；生卒、国籍与任职机构未载，不补来源外信息。",
+   "apply_note": "新建 persons/pi-te-li-fu-si.md，记身份、著作、材料基础、无意识选择、渐变轨迹与李立新的界定。",
+   "note": "canonical: 04-knowledge/units/persons/pi-te-li-fu-si.md。cand-04-41 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-42",
+   "entity": "《文化的进化》",
+   "action": "create",
+   "target": "04-knowledge/units/publications/wen-hua-de-jin-hua.md",
+   "analysis": "cand-04-42 跨度为 L1527。同一行给出《文化的进化》的作者、材料基础、理论定位与被引原文，李立新把它作为讨论造物品类更迭的起点并加以修正。existing publications 下无该书条。",
+   "approve": "作者、书名、被引内容与修正意见均可复查，按 publication 建 A 维度条；原书名、出版社与初版年份未载。",
+   "apply_note": "新建 publications/wen-hua-de-jin-hua.md，记作者、书名、材料基础、理论定位与被引原文。",
+   "note": "canonical: 04-knowledge/units/publications/wen-hua-de-jin-hua.md。cand-04-42 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-43",
+   "entity": "赵丰",
+   "action": "create",
+   "target": "04-knowledge/units/persons/zhao-feng.md",
+   "analysis": "cand-04-43 跨度为 L1541。L1541 在丝绸起源论述中引赵丰说：万物有灵时代蚕的卵、幼虫、蛹、蛾四态变化引发天地生死联想，孵化如生命诞生、几眠几起如人生阶段、蛹为死、化蛾为灵魂去向，并以“蛹，一名魂”与河姆渡骨盅蚕纹、梅堰黑陶蚕纹、仰韶陶蚕蛹为证。existing persons 下无赵丰条。",
+   "approve": "身份、解释框架、类比与例证均可复查，按 person 建 B 维度条；任职机构与著作出处未载。",
+   "apply_note": "新建 persons/zhao-feng.md，记万物有灵框架、四态与生死类比、“蛹，一名魂”及三处例证。",
+   "note": "canonical: 04-knowledge/units/persons/zhao-feng.md。cand-04-43 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-46",
+   "entity": "兽面铜牌饰",
+   "action": "create",
+   "target": "04-knowledge/units/works/shou-mian-tong-pai-shi.md",
+   "analysis": "cand-04-46 跨度为 L1577-L1580。L1577 记二里头发现两件镶嵌青铜牌饰，造型形式与技术在同期的其他造物类型中未见相同者，饰精致兽面纹，与良渚玉器兽面纹在构成方法上相同；是新的设计还是模仿品难以断定，与良渚镶嵌漆器是否有关联尚待考古发现；L1580 图5-3 图注定名。existing works 下无该牌饰条。",
+   "approve": "图注与形制判断可独立检索，按 work 建条；尺寸、藏地、出土单位与年代未载，图版未视觉核验，置信度 low。",
+   "apply_note": "新建 works/shou-mian-tong-pai-shi.md，记两件之数、镶嵌工艺、兽面纹比较与两点存疑。",
+   "note": "canonical: 04-knowledge/units/works/shou-mian-tong-pai-shi.md。cand-04-46 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-45",
+   "entity": "借壳现象",
+   "action": "create",
+   "target": "04-knowledge/units/terms/jie-ke-xian-xiang.md",
+   "analysis": "cand-04-45 跨度为 L1582-L1589。该段给借壳现象的命名（模仿遗留赘物 skeuomorphism）、非替代性判断、传统造物与现代表现的例证，以及旧物继续发展、被模仿物非“赘物”的说明。existing terms 下无该概念条。",
+   "approve": "命名、定义与例证均可复查，按 term 建 B 维度条；概念提出者、提出年份与理论出处未载。",
+   "apply_note": "新建 terms/jie-ke-xian-xiang.md，记命名、非替代性、传统与现代例证及旧物并行。",
+   "note": "canonical: 04-knowledge/units/terms/jie-ke-xian-xiang.md。cand-04-45 并入该条。"
+  }
+ ]
+}

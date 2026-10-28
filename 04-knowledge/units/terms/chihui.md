@@ -27,20 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: boundary_case
+    primary: true
+    scope_note: "名由日本人据红彩给定的外销彩绘瓷；产地温州、漳州、石码三说未定"
 secondary_dimensions:
   - C
   - E
-hierarchy_scope_note: "本条是 B 维度明代外销彩瓷的类型条目，红色主调与锦地开光属 C 维度，日本与欧洲的外销流向属 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "名由日本人据红彩给定的外销彩绘瓷；产地温州、漳州、石码三说未定"
 ---
 
 ## 描述
@@ -63,12 +71,10 @@ hierarchy_scope_note: "本条是 B 维度明代外销彩瓷的类型条目，红
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代外销彩瓷的类型条目，红色主调与锦地开光属 C 维度，日本与欧洲的外销流向属 E 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 名由日本人据红彩给定的外销彩绘瓷；产地温州、漳州、石码三说未定
 ## 相关知识元
 
 `places/dehua-yao.md` 已说明赤绘产地未定、不系于德化；`terms/wucai.md` 记五彩，`terms/doucai.md` 记斗彩，赤绘与二者同为明代彩瓷但以外销与红彩立目。relation 未审查。

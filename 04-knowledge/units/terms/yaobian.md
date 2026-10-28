@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "窑变是 B 维度下钧窑呈色工艺的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "铜在还原焰下的偶然呈色及其人工控制；「失控—受控」一对概念的失控端"
+hierarchy_scope_note: "铜在还原焰下的偶然呈色及其人工控制；「失控—受控」一对概念的失控端"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "窑变是 B 维度下钧窑呈色工艺的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 窑变是 B 维度下钧窑呈色工艺的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 铜在还原焰下的偶然呈色及其人工控制；「失控—受控」一对概念的失控端
 ## 相关知识元
 
 与开片同属“缺陷／偶然转化为装饰”的谱系；钧窑为五大名窑之一。relation 未审查。

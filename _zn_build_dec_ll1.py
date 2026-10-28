@@ -1,0 +1,202 @@
+# -*- coding: utf-8 -*-
+"""Build the LL1 decisions JSON."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2011-lilixin-zhongguo-sheji-yishu-shilun"
+SRC = "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+U = "04-knowledge/units/"
+
+
+def C(cid, entity, target, analysis, approve, apply_note, note=None):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "create", "target": U + target,
+        "analysis": analysis, "approve": approve, "apply_note": apply_note,
+        "note": note or f"canonical: {U}{target}。{cid} 并入该条。",
+    }
+
+
+def UPD(cid, entity, target, analysis, approve, apply_note, note=None):
+    d = C(cid, entity, target, analysis, approve, apply_note, note)
+    d["action"] = "update"
+    return d
+
+
+def REJ(cid, entity, target, analysis, approve):
+    return {
+        "cid": f"{DOC}:{cid}", "entity": entity, "action": "rejected", "target": target,
+        "analysis": analysis, "approve": approve,
+        "apply_note": "不新建条目；内容已由现有 KU 覆盖。",
+        "note": f"{cid} 与 {target} 重复，标 rejected 并保留 target_ref。",
+    }
+
+
+D = [
+    C("cand-01-02", "阶段性突破推进", "terms/jieduanxing-tupo-tuijin.md",
+      "L90 代序明确给出理论名称与评价，属独立的设计史运行理论，与既有的设计史观条目不同；同书 L382、L384 有三段分期可作旁证。",
+      "名称与代序评价可直接引用；分期段落在同书可复查，且不与既有 KU 重复。",
+      "新建 terms/jieduanxing-tupo-tuijin.md，记名称、代序评价、三段分期，并声明来源未把两者明言为同一理论。"),
+    C("cand-01-04", "设计", "terms/sheji.md",
+      "L163-L173 给古汉语书证、本文界定与两重问题，是全书的概念起点；现有 terms/yishu-sheji.md 只记经艺术限定的名称，不覆盖总概念。",
+      "概念界定完整、书证可复查，且与艺术设计条分属总名与限定名，应分立。",
+      "新建 terms/sheji.md，记古义、Design 来源界定与内涵过广、单项因素两项问题。"),
+    REJ("cand-01-05", "石镞", "04-knowledge/units/terms/paleolithic-period.md",
+        "L167-L169 图注记峙峪文化石镞的年代、尺寸、材质与最早复合工具的判断，内容属旧石器时代工具谱系。",
+        "terms/paleolithic-period.md 已据同一图注收录峙峪文化石镞，单独立条只增加重复，不增加可检索信息。"),
+    UPD("cand-01-07", "艺术设计 / 设计艺术", "terms/yishu-sheji.md",
+        "L175-L181 给命名理据、对象领域、本科与研究生用名分工、互证关系与通用范围，是既有条目缺少的命名论证层。",
+        "既有 KU 已覆盖学科形成与制度节点，本候选补的是命名理据而非新对象，宜更新不宜新建。",
+        "更新 terms/yishu-sheji.md：增加李立新来源与六条要点，补别名设计艺术，版本升为 2。"),
+    C("cand-01-08", "三种造物设计", "terms/sanzhong-zaowu-sheji.md",
+      "L175 以电视机为例把商品社会的设计分为技术性、艺术性与营销性三种，并说明三者关系；该划分独立于艺术设计的名称条目。",
+      "三分名称、例证与关系均在同一条内可复查，且用于界定艺术设计的对象领域。",
+      "新建 terms/sanzhong-zaowu-sheji.md，记三分名称、电视机三例与三者关系。"),
+    REJ("cand-01-12", "石耘田器", "04-knowledge/units/terms/liangzhu-culture.md",
+        "L184-L186 图注记良渚文化石耘田器的年代、尺寸、圆孔装柄、刃部与地方特色判断。",
+        "terms/liangzhu-culture.md 已据同一图注收录石耘田器，单独立条与良渚文化条重复。"),
+    C("cand-01-13", "鱼形骨匕", "works/yuxing-gubi.md",
+      "L198-L200 图注给马家浜文化鱼形骨匕的年代、尺寸、材质、形制、工艺与收藏，属可独立检索的单器。",
+      "图注信息完整到可支撑单器条目；既有 works/shuangniao-wen-gubi.md 为另一件骨匕，不构成重复。",
+      "新建 works/yuxing-gubi.md，记年代文化、尺寸材质、形制工艺与收藏，未载项明列。"),
+    REJ("cand-01-16", "双人抬物纹彩陶盆", "04-knowledge/units/terms/majiayao-culture.md",
+        "L213-L215 图注记马家窑文化彩陶盆的盆内四组抬物图像与社会生活判断。",
+        "terms/majiayao-culture.md 已据同一图注收录该盆，单独立条不增加新事实。"),
+    C("cand-01-17", "图案", "terms/tu-an.md",
+      "L219-L221 给三次名称改动、图案与 Design 的一致处、图案侧重前阶段及 20、30 年代与 80 年代两次论争背景。",
+      "名称史信息可复查，且与工艺美术、艺术设计两条形成前后相继的谱系，应独立成条。",
+      "新建 terms/tu-an.md，记三次改名、与 Design 的一致、前阶段侧重与论争背景。"),
+    C("cand-01-21", "《中国工艺美术通史》", "publications/zhongguo-gongyi-meishu-tongshi.md",
+      "L225 记 1961 年文化部组织、参与者、书名、未出版结果与原因，属学科史与出版制度的具体事实。",
+      "版本状态与参与者可复查，既有 publications 下无该书条目。",
+      "新建 publications/zhongguo-gongyi-meishu-tongshi.md，记组织者、年份、参与者、未出版与原因。"),
+    C("cand-01-23", "兽纹黑陶鸭形尊", "works/shouwen-heitao-yaxingzun.md",
+      "L228-L230 图注给尺寸、材质、鸭形造型、源流判断、时代与收藏，是象生器谱系中的战国例证。",
+      "图注信息可支撑单器条目；象生形总条已在 terms，本器需独立检索入口。",
+      "新建 works/shouwen-heitao-yaxingzun.md，记尺寸材质、造型、源流判断、时代与收藏。"),
+    C("cand-01-30", "青白釉虎枕", "works/qingbaiyou-huzhen.md",
+      "L243-L244 图注给尺寸、虎形枕面、四瓣花形与凹形适用设计，属宋代瓷枕单器。",
+      "信息可支撑单器条目；与定窑孩儿枕为不同器物，不合并。",
+      "新建 works/qingbaiyou-huzhen.md，记尺寸、虎形与枕面、凹形设计与收藏。"),
+    C("cand-01-31", "白釉莲花托注壶", "works/baiyou-lianhua-tuo-zhuhu.md",
+      "L251-L252 图注给尺寸、把颈口、覆杯盖、莲花托、圈足与时代收藏，属辽代注壶单器。",
+      "信息可支撑单器条目；与辽三彩材质不同，不并入。",
+      "新建 works/baiyou-lianhua-tuo-zhuhu.md，记尺寸、盖托造型、圈足与收藏。"),
+    C("cand-01-34", "太阳形器", "works/taiyangxingqi.md",
+      "L258-L260 图注给文化归属、直径、材质、五芒晕圈、嵌铸铆铸二次铸成与太阳神含义，是 procedures/qianzhu-maozhu.md 的唯一器物例证。",
+      "图注信息完整，且既有的工序条缺器物本体条目，需新建以承接该例证。",
+      "新建 works/taiyangxingqi.md，记形制、两种铸法、二次铸成与含义；同步修正工序条的悬空指称。"),
+    C("cand-01-39", "陶井", "works/taojing.md",
+      "L269 图题与 L273 说明被正文隔开，说明句给汉代井架与滑轮的使用方法判断、时代与收藏。",
+      "两处引文可分别复查，属可独立检索的汉代陶制明器。",
+      "新建 works/taojing.md，分引图题与说明，声明两处不连读。"),
+    C("cand-01-42", "傅斯年", "persons/fu-sinian.md",
+      "L283 给主持中央历史语言研究所、史料口号、材料产出比例与史料学三句话，是既有机构条缺少的人物条目。",
+      "人物与主张可复查，既有的 institutions/zhongyang-lishi-yuyan-yanjiusuo.md 只记机构，需人物条承接。",
+      "新建 persons/fu-sinian.md，记主持机构、口号、材料观、三句话与影响；同步修正机构条的悬空指称。"),
+    C("cand-01-45", "《结构人类学的历史》", "publications/jiegou-renleixue-de-lishi.md",
+      "L293 给作者、书名与一句关于历史解释的引文，L295 交代其论证作用，属可独立检索的史学著作。",
+      "引文与论证作用可复查，publications 下无该书条目。",
+      "新建 publications/jiegou-renleixue-de-lishi.md，记作者、书名、引文与论证作用。"),
+    UPD("cand-01-46", "错银铜牛灯", "works/hanjiang-niudeng.md",
+      "L289-L291 图注给高 46.2cm、灯座灯盘、窗棂环耳调光、烟管水滤、拆洗、东汉与南京博物院，可与既有邗江牛灯条互证互补。",
+      "既有 KU 记同一形制的牛灯且已注出与长沙牛灯不同；本图注未记墓号但形制相符，宜更新补尺寸、藏地与结构，不另建重复条目。",
+      "更新 works/hanjiang-niudeng.md：补李立新来源与五组要点，记同一性待核与东汉/西汉年代歧异，版本升为 2。"),
+    C("cand-01-48", "孟蜀宫妓图", "works/mengshu-gongjitu.md",
+      "L298-L299 图注给作者、窄袖直襟背子等明代服饰形制、时代与出处，属服饰图像的单件作品。",
+      "图注信息可支撑条目，且以画证服饰形制的用法需保留原始语境。",
+      "新建 works/mengshu-gongjitu.md，记作者、服饰形制、时代出处与图注用法。"),
+    C("cand-01-49", "彩绘陶仓楼", "works/caihui-taocanglou.md",
+      "L307-L309 图注给尺寸、悬山二层楼、平台栏杆、枋与五朵斗拱、窗下人物与乐舞图，属东汉建筑明器单器。",
+      "建筑构件与装饰信息可复查，与陶井为不同器类，不合并。",
+      "新建 works/caihui-taocanglou.md，记楼体、斗拱、装饰与收藏。"),
+    C("cand-01-53", "民族文化—心理结构", "terms/minzu-wenhua-xinli-jiegou.md",
+      "L323-L330 给基本命题、研究任务、溯源要求、横纵两个方向、费正清语与对图腾套用的批评，是本书四条研究原则之一。",
+      "命题、任务与批评均可复查，属独立的设计史研究视角。",
+      "新建 terms/minzu-wenhua-xinli-jiegou.md，记命题、任务、横纵方向与对图腾套用的批评。"),
+    C("cand-01-55", "黑漆朱绘鸟足漆案", "works/heiqizhuhui-niaozu-qian.md",
+      "L333-L335 图注给鸟形案足、二足间立柱、案面兽面纹、通体黑漆、风格与收藏，属战国漆家具单器。",
+      "形制与髹漆信息可复查，与案类、漆木家具、雕漆三条分工不同。",
+      "新建 works/heiqizhuhui-niaozu-qian.md，记案足、案面、髹漆、风格与收藏。"),
+    C("cand-01-60", "长方凳", "works/changfangdeng.md",
+      "L346-L348 图注给黄花梨材质、束腰、腿端兜转、线型评价、民间使用与时代，属明式家具单器。",
+      "形制与评价可复查，与杌凳、凳墩、明式家具三条分工不同。",
+      "新建 works/changfangdeng.md，记材质、束腰腿端、线型评价与时代出处。"),
+    C("cand-01-64", "传统设计", "terms/chuantong-sheji.md",
+      "L362-L384 给概念提出、古代形态判断、方法与时代之辨、转变普遍性与明清近代的时段归属，是全书分期的基础概念。",
+      "概念与判断可复查，且与艺术设计、大历史观分属不同层次。",
+      "新建 terms/chuantong-sheji.md，记概念、古代形态、方法/时代之辨、转变普遍性与时段归属。"),
+    C("cand-01-67", "大历史观", "terms/dashiguan.md",
+      "L364-L382 给黄仁宇来源、原话、对设计史的意义、打通范围、运用要点与宜粗不宜细的方法，是本书的框架性概念。",
+      "来源、原话与方法均可复查，属独立的设计史观条目。",
+      "新建 terms/dashiguan.md，记来源、黄仁宇原话、打通范围、运用要点与分期方法。"),
+    C("cand-01-68", "《中国大历史》", "publications/zhongguo-dalishi.md",
+      "L364 给作者、书名与完整引文，并交代其对本书框架的作用，属可独立检索的史学著作。",
+      "引文可复查，publications 下无该书条目；与 terms/dashiguan.md 分工为书与概念。",
+      "新建 publications/zhongguo-dalishi.md，记作者、书名、引文与对本书的作用。"),
+    C("cand-01-73", "写实性设计", "terms/xieshixing-sheji.md",
+      "L384、L857、L1159、L1161、L1169 给分期命题、工笔入设计的成因、形似束缚、意匠衰退与元明清延续，构成完整的风格转折链。",
+      "各句均可复查，且与意匠化设计相对，需独立条目承接分期判断。",
+      "新建 terms/xieshixing-sheji.md，记分期命题、成因、消极面、转折与延续影响。"),
+    C("cand-01-75", "长时段", "terms/changshiduan.md",
+      "L378 给布罗代尔、书名与长时段说明历史深层结构一句，属国外分期理论的举例。",
+      "该句可复查；来源只举不展开，按 low 置信度建条并明示未采用。",
+      "新建 terms/changshiduan.md，记作者、书名、理论要点与列举语境，声明本书未展开。"),
+    C("cand-01-76", "《艺术发展史》", "publications/yishu-fazhanshi.md",
+      "L378 给贡布里奇、排除法两分、地域与纪元的分期方式及李立新不照搬的判断，属可独立检索的艺术史著作。",
+      "两句可复查，publications 下无该书条目。",
+      "新建 publications/yishu-fazhanshi.md，记排除法两分、分期方式与引用目的。"),
+    C("cand-01-77", "《地中海和菲力浦二世的地中海世界》", "publications/dizhonghai-he-feilipu-ershi.md",
+      "L378 给布罗代尔、年鉴学派身份、书名与长时段理论，属可独立检索的史学著作。",
+      "该句可复查，publications 下无该书条目；与 terms/changshiduan.md 分工为书与理论。",
+      "新建 publications/dizhonghai-he-feilipu-ershi.md，记作者、学派、书名与长时段理论。"),
+]
+
+for d in D:
+    t = ROOT / d["target"] if d["target"].startswith("04-") else ROOT / d["target"]
+    if d["action"] in ("create", "update") and not t.exists():
+        raise SystemExit("missing target " + d["target"])
+
+
+def nlines(rel):
+    return len((ROOT / rel).read_text(encoding="utf-8").replace("\r\n", "\n").splitlines())
+
+
+cfg = {
+    "doc": DOC,
+    "file": SRC,
+    "rules": [
+        "来源只读；正文只据李立新 2011 册 Markdown 文本，不以来源外知识补写。",
+        "引文照录：同行用“ ”，跨行拼接用「 」；正文禁用 ASCII 双引号。",
+        "图注单独成条时保留图题与说明的行位，不连读被正文隔开的两处。",
+        "relation 只记可为后续审查提供线索的既有条目，不写入正式 relations。",
+        "同一器物不重复建条：已有 KU 且形制相符者走 update，已覆盖者 rejected。",
+        "长跨度候选（李立新、象生器、张道一、意匠化设计）留 needs_evidence，转后续批次。",
+    ],
+    "scope_spans": [[1, 393]],
+    "scope_note": "覆盖 L1-L393：版权页、出版说明、代序、目录、绪言三节与上编导论，含全部图注；长跨度候选不在本批结案。",
+    "decisions": D,
+    "extras": [
+        {
+            "target": "04-knowledge/units/procedures/qianzhu-maozhu.md",
+            "entity": "嵌铸法与铆铸法",
+            "parent_cid": f"{DOC}:cand-01-34",
+            "note": "把“works/ 尚无太阳形器条目”改为指向新建的 works/taiyangxingqi.md，版本升为 2。",
+            "lines": nlines("04-knowledge/units/procedures/qianzhu-maozhu.md"),
+        },
+        {
+            "target": "04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md",
+            "entity": "中央历史语言研究所",
+            "parent_cid": f"{DOC}:cand-01-42",
+            "note": "把“尚未建立傅斯年…条目”改为指向新建的 persons/fu-sinian.md，版本升为 2。",
+            "lines": nlines("04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md"),
+        },
+    ],
+}
+
+out = ROOT / "_zn_decisions_ll1.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+print(json.dumps({"decisions": len(D), "create": sum(1 for d in D if d["action"] == "create"),
+                  "update": sum(1 for d in D if d["action"] == "update"),
+                  "rejected": sum(1 for d in D if d["action"] == "rejected"),
+                  "extras": len(cfg["extras"])}, ensure_ascii=False))

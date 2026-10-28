@@ -1,0 +1,48 @@
+[
+ {
+  "candidate_id": "2009-zhaonong-zhongguo-yishu-shejishi:cand-03-141",
+  "candidate_type": "unit",
+  "created_at": "2026-10-24T19:30:47+08:00",
+  "decision": {
+   "decided_at": null,
+   "decided_by": null,
+   "reason": null,
+   "status": "pending"
+  },
+  "evidence_refs": [
+   "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md#L2235-L2235"
+  ],
+  "lifecycle_class": "active",
+  "origin_ref": "03基础书籍-md文档/中国艺术设计史_赵农_2009_高等教育出版社.md",
+  "origin_type": "source",
+  "payload": {
+   "knowledge_match": {
+    "notes": "04-knowledge 当前无 KU；待人工复核。",
+    "status": "novel",
+    "target_refs": []
+   },
+   "proposed_fields": {
+    "category": "青铜鉴",
+    "location": "湖北随县曾侯乙墓",
+    "material": "青铜",
+    "period": "战国",
+    "title": "曾侯乙冰鉴"
+   },
+   "proposed_slug": "zenghouyi-ice-jian",
+   "source_span": {
+    "block_ids": [
+     "b0084"
+    ],
+    "chapter": "第三章 霸业的冲撞——春秋战国时期的设计",
+    "line_end": 2252,
+    "line_start": 2192,
+    "section": "第五节 服饰与货币"
+   },
+   "summary": "曾侯乙冰鉴出土于湖北随县曾侯乙墓，鉴中有一方壶，壶与鉴之间可以盛冰，以起到冰镇凉酒的作用。原文以此说明鉴的盛水鉴容、乘冰降温功能。",
+   "title": "曾侯乙冰鉴",
+   "unit_type": "work"
+  },
+  "state": "needs_evidence",
+  "updated_at": "2026-10-24T19:30:47+08:00"
+ }
+]

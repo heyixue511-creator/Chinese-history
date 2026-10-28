@@ -1,0 +1,163 @@
+[
+ {
+  "claim_id": "claim-0115",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-32",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2065,
+   "line_end": 2073,
+   "span_kind": "bounded",
+   "key_lines": [
+    2070,
+    2072
+   ],
+   "block_ids": [
+    "b0284"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "章首",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-32"
+  }
+ },
+ {
+  "claim_id": "claim-0116",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-34",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2074,
+   "line_end": 2079,
+   "span_kind": "bounded",
+   "key_lines": [
+    2078
+   ],
+   "block_ids": [
+    "b0285"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "1. 瓷器时代的出现与陶瓷器设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-34"
+  }
+ },
+ {
+  "claim_id": "claim-0117",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-36",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2080,
+   "line_end": 2085,
+   "span_kind": "bounded",
+   "key_lines": [
+    2084
+   ],
+   "block_ids": [
+    "b0286"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "1. 瓷器时代的出现与陶瓷器设计 / 1）青瓷",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-36"
+  }
+ },
+ {
+  "claim_id": "claim-0119",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-51",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2229,
+   "line_end": 2232,
+   "span_kind": "bounded",
+   "key_lines": [
+    2231
+   ],
+   "block_ids": [
+    "b0307"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "知识链接：旷世奇服",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-51"
+  }
+ },
+ {
+  "claim_id": "claim-0122",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-53",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2288,
+   "line_end": 2291,
+   "span_kind": "bounded",
+   "key_lines": [
+    2290
+   ],
+   "block_ids": [
+    "b0314"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "4. 金属工艺与纹饰设计 / 1）冶铜业的发展",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-04-53"
+  }
+ },
+ {
+  "claim_id": "claim-0129",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-86",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2413,
+   "line_end": 2424,
+   "span_kind": "bounded",
+   "key_lines": [
+    2415
+   ],
+   "block_ids": [
+    "b0330"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "6. 建筑与雕刻工艺设计 / 3）石刻与纹饰设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-86"
+  }
+ },
+ {
+  "claim_id": "claim-0130",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-136",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2429,
+   "line_end": 2429,
+   "span_kind": "line",
+   "key_lines": [
+    2429
+   ],
+   "block_ids": [
+    "b0331"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "7. 设计思想的多样性",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-136"
+  }
+ },
+ {
+  "claim_id": "claim-0131",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-137",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 2431,
+   "line_end": 2431,
+   "span_kind": "line",
+   "key_lines": [
+    2431
+   ],
+   "block_ids": [
+    "b0331"
+   ],
+   "chapter": "魏晋南北朝时期的设计变迁",
+   "section": "7. 设计思想的多样性",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-05-137"
+  }
+ }
+]

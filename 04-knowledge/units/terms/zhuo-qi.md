@@ -27,20 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-qixing-qilei-chengtao-zuhe.md
+    role: term_anchor
+    primary: true
+    scope_note: "桌器是 B.6.5 组合成类路径的唯一强材料：嘉靖起成套系列化的瓷器造型，一三四〇套、每套二十七件，隆庆增三十六件与六十一件两种；清单合计二十九件与二十七件不符"
 secondary_dimensions:
   - D
   - C
-hierarchy_scope_note: "桌器是 B 维度下明代成套瓷器的类型条目，其按筵席配置成套的做法涉及 D 维度的消费制度与 C 维度的统一装饰。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "桌器是 B.6.5 组合成类路径的唯一强材料：嘉靖起成套系列化的瓷器造型，一三四〇套、每套二十七件，隆庆增三十六件与六十一件两种；清单合计二十九件与二十七件不符"
 ---
 
 ## 描述
@@ -87,16 +95,15 @@ hierarchy_scope_note: "桌器是 B 维度下明代成套瓷器的类型条目，
 - 桌器与唐宋成套茶酒具之间的制度性差别，来源只以件数（2—3 件对 27 件以上）作对照。
 - 图7-3 等图版与本条无关；本条无对应图版。
 
+
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）、C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下明代瓷器系列化设计的类型条，可与中国古代单件瓷器传统、当代成套产品设计并置。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-qixing-qilei-chengtao-zuhe.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 桌器是 B.6.5 组合成类路径的唯一强材料：嘉靖起成套系列化的瓷器造型，一三四〇套、每套二十七件，隆庆增三十六件与六十一件两种；清单合计二十九件与二十七件不符
 ## 相关知识元
 
 `terms/blue-and-white-porcelain.md` 记青花瓷，`terms/doucai.md` 记斗彩，`terms/wucai.md` 记五彩，`terms/guan-yao.md` 记官窑，`institutions/yuqichang.md` 记明代御器厂；明代瓷器造型的“两极分化”与成套化同见 L4200-L4225。relation 未审查，不写入正式 `relations`。

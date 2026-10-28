@@ -1,0 +1,233 @@
+# -*- coding: utf-8 -*-
+"""Build the batch T6 decision file."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2010-tianzibing-zhongguo-gongyi-meishushi"
+
+D = []
+
+
+def add(cand, entity, action, target, analysis, approve, apply_note):
+    D.append({
+        "cid": f"{DOC}:cand-{cand}",
+        "entity": entity,
+        "action": action,
+        "target": target,
+        "analysis": analysis,
+        "approve": approve,
+        "apply_note": apply_note,
+        "note": f"canonical: {target}。cand-{cand} 并入该条。" if action != "create"
+        else f"canonical: {target}。",
+    })
+
+
+# ---- persons ----
+add("06-02", "张安世", "create",
+    "04-knowledge/units/persons/zhang-anshi.md",
+    "候选为《前汉书·张汤传》所记张安世（L2444）。检索发现 `institutions/qin-gongshi-gongguan.md` 已把“夫人自纺绩，家僮七百人，皆有手技作事”作汉代官手工业的比较背景引用，但那是制度条，不承担人物登记。新建人物条：只记来源所给的夫人自纺绩与家僮700人皆有手技，用来说明私营染织作坊规模，并明确不把同段承接陈宝光例的“精美”评价移作张安世的评价。来源未给官职、籍贯、生卒与作坊地点，confidence 取 low。",
+    "批准新建 04-knowledge/units/persons/zhang-anshi.md：单册单源，consensus=tentative；与官手工业制度条分工互指。",
+    "写入 persons/zhang-anshi.md（新建）；引用 L2444；不据《汉书》外部知识补官职与生平。")
+
+add("06-03", "陈宝光", "create",
+    "04-knowledge/units/persons/chen-baoguang.md",
+    "候选为汉代巨鹿织造者陈宝光（L2444）。检索 persons 下无陈宝光条；`terms/ling-silk.md` 记绫的类型，`terms/tihuaji.md` 记提花机，均不含此人与一百二十蹑的具体记载。新建人物条：记《西京杂记》霍光妻赠淳于衍散花绫二十五匹、绫出巨鹿陈宝光家、机用一百二十蹑、六十日成一匹、直万钱，并保留来源“反映了当时私营染织生产的精美”的评价归属。来源未给生卒、身份、作坊规模与织机结构，confidence 取 medium。",
+    "批准新建 04-knowledge/units/persons/chen-baoguang.md：单册单源，consensus=tentative；不把“蹑”直释为提花机。",
+    "写入 persons/chen-baoguang.md（新建）；引用 L2444；工时与价格照录，不换算购买力。")
+
+add("07-01", "史游", "create",
+    "04-knowledge/units/persons/shi-you.md",
+    "候选为汉代史游（L2509）。检索 persons 下无史游条；`terms/xiaozhuan.md` 记字体，`publications/` 下无《急就篇》。新建人物条：只登记“汉代史游《急就篇》”这一条文献线索与该书以韵文描写染织图案的性质。来源未给生卒、籍贯、官职、师承与其他著作，confidence 取 low。",
+    "批准新建 04-knowledge/units/persons/shi-you.md：单册单源，consensus=tentative；生平空白写入正文。",
+    "写入 persons/shi-you.md（新建）；引用 L2509；不据《汉书》外部知识补生平。")
+
+# ---- publications ----
+add("07-02", "《急就篇》", "create",
+    "04-knowledge/units/publications/jijiu-pian.md",
+    "候选为《急就篇》（L2509）。检索 publications 下无《急就篇》条；`terms/xiaozhuan.md` 只记字体，不覆盖启蒙读本。新建出版物条：记作者史游、启蒙读本性质、四句染织韵文，以及颜师古注对离云、爵、乘风县钟、豹首、落莫、春草句的逐条解释，并把来源“解释也未必正确”的自评保留为转述标记。来源未给成书年代、篇目、版本与注本，confidence 取 medium。",
+    "批准新建 04-knowledge/units/publications/jijiu-pian.md：单册单源，consensus=tentative；注文标为转述。",
+    "写入 publications/jijiu-pian.md（新建）；引用 L2509；引文断句与字形照录，不据他本校正。")
+
+# ---- terms: patterns ----
+add("07-04", "云气纹", "create",
+    "04-knowledge/units/terms/yunqi-wen.md",
+    "候选为云气纹（L2482、L2487）。检索发现 `terms/zhuangshi-tianjia.md` 明确记“云气纹尚无独立 KU”，`terms/si-shen.md` 只涉四神，均不承担纹样条。新建术语条：记流云纹别名、线条舒卷起伏的形式、漆器金银错石刻壁画的跨工艺分布、作纹样骨骼并在云气空间布置飞禽走兽、动感与分割联系双重构图功能，以及局部鸟头兽头的演变说与来源的保留。来源未给分期、地域类型与单元尺寸，插图19未视觉核验，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/yunqi-wen.md：单册单源，consensus=tentative；跨工艺分布照录不外推。",
+    "写入 terms/yunqi-wen.md（新建）；引用 L2482、L2487；不据插图19补云气形态。")
+
+add("07-05", "茱萸纹", "create",
+    "04-knowledge/units/terms/zhuyu-wen.md",
+    "候选为茱萸纹（L2494、L2541）。检索 terms 下无茱萸纹条；`works/yannian-yishou-jin.md` 只在锦名中出现茱萸，`terms/changshou-xiu.md` 为新批同建条目。新建术语条：记汉代丝织与刺绣大量采用、植物属性与辟邪习俗、椭圆心形叉刺状与叉刺纹异名、晋《风土记》与王维诗、流行至唐代，以及来源对长寿绣“实即茱萸纹”的判断。来源未给分期、单元尺寸与针法，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/zhuyu-wen.md：单册单源，consensus=tentative；长寿绣判断标为来源判断。",
+    "写入 terms/zhuyu-wen.md（新建）；引用 L2494、L2541；不把长寿绣全部纹样等同于茱萸纹。")
+
+add("07-06", "双菱纹（杯纹）", "create",
+    "04-knowledge/units/terms/shuangling-wen.md",
+    "候选为双菱纹（L2499，载体 L2472、L2474）。检索 terms 下无双菱纹条；`terms/jingjin.md` 记经锦类型，`terms/rongquan-jin.md` 记起绒锦，均不含此纹样定义。新建术语条：记大菱两角附小菱的构成、形似耳杯故称杯纹、战国以来的传统、斜纹组织对斜线菱形的工艺适配、汉代几何纹中最流行，以及绮上作骨骼、罗上用粗细线条分层、同墓几何单元18种。来源未给比例、配色与分期，插图21、22未视觉核验，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/shuangling-wen.md：单册单源，consensus=tentative；杯纹为别名不作实物等同。",
+    "写入 terms/shuangling-wen.md（新建）；引用 L2499、L2472、L2474；18种为来源计数。")
+
+# ---- works: textiles ----
+add("07-07", "万世如意锦", "create",
+    "04-knowledge/units/works/wanshi-ruyi-jin.md",
+    "候选为新疆出土万世如意锦（L2501、L2507）。检索发现 `works/yannian-yishou-jin.md` 记“延年益寿大宜子孙”锦，属同批不同铭文的另一件；`works/wudao-renwu-dongwu-wen-sanse-jin.md` 记纹样锦，均不覆盖本件。新建器物条：以插图23图注“万世如意锦(汉)”为名称依据，记同批吉祥语清单与内蒙古“新神灵广成寿万年”八字例，并保留“用文字作为丝织的装饰图案，是汉锦一个突出的特点”的总判断。来源未给尺寸、组织、墓号、藏地与铭文行款，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/wanshi-ruyi-jin.md：单册单源，consensus=tentative；器名依图注。",
+    "写入 works/wanshi-ruyi-jin.md（新建）；引用 L2501、L2507；不据四字铭文推整幅图案。")
+
+add("07-15", "千金绦", "create",
+    "04-knowledge/units/works/qianjin-tao.md",
+    "候选为马王堆所出千金绦（L2545）。检索 works 下无绦带条；`places/mawangdui-hanmu.md` 只记丝织品群，`terms/jingjin.md` 记经锦。新建器物条：记两组经线编出图案与“千金”二字、名称即由此而来，并录《尚书·禹贡》“荆州产玄纁玑组”与楚国荆州、长沙为丝带传统产地的说明。来源未给长宽、厚度、组织、墓号与藏地，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/qianjin-tao.md：单册单源，consensus=tentative；“千金”含义不代判。",
+    "写入 works/qianjin-tao.md（新建）；引用 L2545；尺寸与组织作未载。")
+
+# ---- terms: printed and embroidered textiles ----
+add("07-08", "印花敷彩纱", "create",
+    "04-knowledge/units/terms/yinhua-fucai-sha.md",
+    "候选为印花敷彩纱（L2517）。检索发现 `places/mawangdui-hanmu.md` 只列器名，未展开工艺。候选原标 unit_type 为 work，但来源所述为“印花和彩绘相结合的一种装饰方法”及其五件组合，属织物类型而非单件，写回改作 term，与 `terms/rongquan-jin.md` 的类型条先例一致。新建术语条：记先印菱形地纹再手绘添枝加叶、四方连续、朱红黑浅银灰白粉设色、五件构成与成幅者470×540毫米、多为茱萸纹而配色不同，并把凹版刷浆说标为未定之说。来源未给墓号、器物号与藏地，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/yinhua-fucai-sha.md：单册单源，consensus=tentative；unit_type 由 work 改 term。",
+    "写入 terms/yinhua-fucai-sha.md（新建）；引用 L2517；五件计数与尺寸照录，不推及残片。")
+
+add("07-09", "金银色印花纱", "create",
+    "04-knowledge/units/terms/jinyinse-yinhua-sha.md",
+    "候选为金银色印花纱（L2517）。检索 places 下只列名，无工艺条；原标 unit_type 为 work，来源所述为一种精细印染作品的类型与工艺，改作 term。新建术语条：记细线流畅花纹、金银色实为矿物染料效果、阳纹凸版刷浆如盖图章、线条弯长细密与双面印纹、三套版分印龟背骨架／银灰主纹／金或朱装饰点，以及“最早的多套版印花工艺”的判断。来源未给尺寸、件数与藏地，“最早”未给比较范围，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/jinyinse-yinhua-sha.md：单册单源，consensus=tentative；unit_type 由 work 改 term。",
+    "写入 terms/jinyinse-yinhua-sha.md（新建）；引用 L2517；“最早”标为来源判断。")
+
+add("07-14", "信期绣", "create",
+    "04-knowledge/units/terms/xinqi-xiu.md",
+    "候选为信期绣（L2541）。检索 terms 下无信期绣条；`procedures/bian-xiu.md` 记辫绣针法，`places/mawangdui-hanmu.md` 只记刺绣群。新建术语条：记最精巧、用线细、单元小、花纹精密、满布长尾小鸟与候鸟联想、出土最多19件，并把“可能是燕”保留为来源推测。来源未给19件的墓葬分配、尺寸、底料与针法，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/xinqi-xiu.md：单册单源，consensus=tentative；候鸟解释标为推测。",
+    "写入 terms/xinqi-xiu.md（新建）；引用 L2541；19件为来源计数。")
+
+add("07-85", "长寿绣", "create",
+    "04-knowledge/units/terms/changshou-xiu.md",
+    "候选为长寿绣（L2541，图注 L2490）。检索 terms 下无长寿绣条；`terms/zhuyu-wen.md` 为新批同建纹样条，二者分工：本条记绣种，纹样条记茱萸纹。新建术语条：记云纹、花蕾、叶瓣的构成，来源“实即茱萸纹”的判断，以及变形优美、线条流畅、富于装饰性的评价。来源未给件数、尺寸、底料与针法，插图20未视觉核验，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/changshou-xiu.md：单册单源，consensus=tentative；茱萸判断照录不代证。",
+    "写入 terms/changshou-xiu.md（新建）；引用 L2541、L2490；不据插图20补花蕾形态。")
+
+add("07-86", "乘云绣", "create",
+    "04-knowledge/units/terms/chengyun-xiu.md",
+    "候选为乘云绣（L2541）。检索 terms 下无乘云绣条；`terms/yunqi-wen.md` 为新批同建云气纹条。新建术语条：记卷曲缭绕云气纹中一只眼的神兽作乘云状，与信期绣、长寿绣并称；神兽名目来源未载，本条不补为龙虎。来源未给件数、尺寸、底料与针法，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/chengyun-xiu.md：单册单源，consensus=tentative；神兽名目不补。",
+    "写入 terms/chengyun-xiu.md（新建）；引用 L2541；不据外部图像补兽形。")
+
+# ---- terms: measure ----
+add("07-16", "缦（升）", "create",
+    "04-knowledge/units/terms/man-sheng.md",
+    "候选为缦（升）（L2549）。检索 terms 下无布幅计量条；`terms/ma-bu.md` 记麻布、`terms/ma-zhi.md` 记麻织，均不覆盖计量单位。新建术语条：记缦或谓升、一缦等于麻缕80根、布宽2尺2寸、十缦800根、七至十缦布名称，并举《居延汉简》《汉书·王莽传》《史记》三例。来源未给缦与升的异同、地域差异与实测布样，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/man-sheng.md：单册单源，consensus=tentative；今之纱支只作类比。",
+    "写入 terms/man-sheng.md（新建）；引用 L2549；80根不换算为现代纱支。")
+
+# ---- works: lacquer and stone ----
+add("07-24", "襄阳擂鼓台人物纹漆奁", "create",
+    "04-knowledge/units/works/xiangyang-leigutai-qiren-wen-qilian.md",
+    "候选为1978年襄阳擂鼓台西汉早期墓人物纹漆奁（L2599）。检索发现 `terms/duozi-he.md` 记汉代多子盒类型，`works/wunv-qilian.md` 记另一件人物纹漆奁，`places/xiangyang.md` 记襄阳，均不承担本器登记。新建器物条：记盖径25、高9.7、体径23.8、高8.8厘米，内底红漆上黑漆绘三组人物、树隔、男戴冠佩剑女披发袖手，盖内另三组人物与抱剑跟随，三只飞鸟穿插，并存“汉代人物画的杰作”的评价。来源未给胎质、墓号、藏地，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/xiangyang-leigutai-qiren-wen-qilian.md：单册单源，consensus=tentative。",
+    "写入 works/xiangyang-leigutai-qiren-wen-qilian.md（新建）；引用 L2599；尺寸四项照录。")
+
+add("07-29", "泗水捞鼎画象石", "create",
+    "04-knowledge/units/works/sishui-laoding.md",
+    "候选为武氏祠泗水捞鼎画象石（L2635）。检索发现 `places/wushi-ci.md` 已记武氏祠四祠、十类题材与平面剔地法，但不承担单石画面登记；`works/` 下无同石条，先例为单件画像石另立作品条（如 `works/horse-treading-xiongnu.md`）。新建器物条：记《史记》始皇二十八年过彭城求鼎、两堤与河岸分割构图、堤口二人监督、两岸拉绳、两船一竿抵鼎底、龙头咬断绳索致拉绳者倾倒、断绳一刹那的表现、动静对比与飞鸟游鱼填充。来源未指定四祠中的哪一祠，未给石块尺寸与拓本，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/sishui-laoding.md：单册单源，consensus=tentative；祠名留空。",
+    "写入 works/sishui-laoding.md（新建）；引用 L2635；与 places/wushi-ci.md 互指不重复祠史。")
+
+add("07-33", "纺织图（曾母投杼）画象石", "create",
+    "04-knowledge/units/works/fangzhi-tu-huaxiangshi.md",
+    "候选为纺织图（曾母投杼）画象石（L2648，青山泉 L2653-L2655）。检索 works 下无纺织图条；`terms/tihuaji.md` 记提花机类型，`procedures/tihua-jishu.md` 记提花技术，均不含画像石图像证据。新建器物条：记8块纺织画像石的分布（山东5、江苏3）、泗洪曹庄曾母投杼故事与画面、织机由立机向平机过渡、脚踏移综开口、双手投梭打纬、两头尖梭较杼先进，以及铜山青山泉图的织机、纺车、五个簞与转身抱婴。来源未给石块尺寸、藏地与图版，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/fangzhi-tu-huaxiangshi.md：单册单源，consensus=tentative；画面依文字转述。",
+    "写入 works/fangzhi-tu-huaxiangshi.md（新建）；引用 L2648、L2653-L2655；不据图推织机传动比。")
+
+# ---- works: jade ----
+add("07-39", "白玉双螭谷纹璧", "create",
+    "04-knowledge/units/works/baiyu-shuangchi-guwen-bi.md",
+    "候选为天津博物馆藏白玉双螭谷纹璧（L2679）。检索 works 下无此璧条；`terms/rui-yu-liuqi.md` 记瑞玉六器类型，`terms/zhou-yu-liqi.md` 记周代玉礼器。新建器物条：记璧身满布粟纹、上半镂雕动物卷草、精巧玲珑的评价，并把它放在汉代透雕、刻线、浮雕、粟纹四种加工方法的背景中；器名“谷纹”与描述“粟纹”并存，不代为统一。来源未给尺寸、玉质、出土信息与图版，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/baiyu-shuangchi-guwen-bi.md：单册单源，consensus=tentative。",
+    "写入 works/baiyu-shuangchi-guwen-bi.md（新建）；引用 L2679；谷纹与粟纹并列不统一。")
+
+add("07-40", "咸阳玉马", "create",
+    "04-knowledge/units/works/xianyang-yuma.md",
+    "候选为1966年陕西咸阳出土玉马（L2681）。检索 works 下无玉马条；`places/xianyang.md` 记咸阳地点，`terms/rui-yu-liuqi.md` 记瑞玉类型。新建器物条：记白玉质地坚细温润、昂首扬尾作奔跃状、骑者束巾短衣双手紧拉鬃毛、下有云状托板相连，并录“富有动感”与托板“增加安定感”的评价。来源未给尺寸、墓号、藏地与托板连接结构，confidence 取 medium。",
+    "批准新建 04-knowledge/units/works/xianyang-yuma.md：单册单源，consensus=tentative。",
+    "写入 works/xianyang-yuma.md（新建）；引用 L2681；不补托板是否一体雕成。")
+
+add("07-41", "汉八刀", "create",
+    "04-knowledge/units/terms/han-badao.md",
+    "候选为汉八刀（L2675）。检索 terms 下无汉八刀条；`terms/rui-yu-liuqi.md` 与 `terms/zhou-yu-liqi.md` 记礼玉类型，均不含玉琀刻法。新建术语条：记玉琀作蝉形置于死者口中、多用八刀刻成、俗称汉八刀、蝉蜕再生的吉祥意义，并把“八刀”标为俗称而非八道固定工序。来源未给刀法、尺寸、墓例与计数口径，confidence 取 medium。",
+    "批准新建 04-knowledge/units/terms/han-badao.md：单册单源，consensus=tentative；俗称不当作实数工序。",
+    "写入 terms/han-badao.md（新建）；引用 L2675；不据名称推定恰为八刀。")
+
+# ---- update ----
+add("06-42", "绒圈锦", "update",
+    "04-knowledge/units/terms/rongquan-jin.md",
+    "候选为绒圈锦（L2470）。检索发现 `terms/rongquan-jin.md` 已据夏燕靖 2009 与赵农 2009 立条，记起绒提花机、浮雕效果与马王堆背景，但未收田自秉的四根一组重经、双经轴装置、8800～112000根总经数、起绒假纬、作为边饰应用与“近代漳绒或天鹅绒的前身”的源流判断。按同实体更新：新增“田自秉的织造结构与源流”小节，追加 2010 册 citation。跨册更新，source_count 2→3，version 2→3。",
+    "批准更新 terms/rongquan-jin.md：补织造结构、总经数与源流判断，保留原两册叙述。",
+    "追加田自秉 L2470；source_count 2→3，version 2→3；总经数照录并存疑，不推算密度。")
+
+# ---- no delta ----
+add("07-23", "漆奁盒和梳妆用具", "no_delta",
+    "04-knowledge/units/terms/duozi-he.md",
+    "候选为插图图注“漆奁盒和梳妆用具”（L2605-L2606），只有图注品名，无墓号、尺寸与器物组合。检索发现 `terms/duozi-he.md` 已记汉代多子盒与多件套盒的类型与分层结构，覆盖本图注所指的器类；单凭图注另立作品条会得到无出土单位、无数据的空条，与本批“只有图注、无器物数据的候选记 no_delta”的规则一致。",
+    "不新建漆奁盒与梳妆用具条；器类已有 terms/duozi-he.md。",
+    "cand-07-23 记 no_delta，target 指向 terms/duozi-he.md；图注未视觉核验。")
+
+add("07-26", "霍去病墓石雕群", "no_delta",
+    "04-knowledge/units/places/huoqubing-mu.md",
+    "候选为霍去病墓石雕群（L2615）。检索发现 `places/huoqubing-mu.md` 已详记马踏匈奴、跃马、卧马、伏虎、卧牛、野猪、石蛙、石鱼、人与熊、怪兽吞羊等十余件，循石造型与圆雕、浮雕、线刻并用，并已并列赵农所记约16件与三种技法。田自秉本次只复述同一群的总体评价与伏虎、跃马等例，未增加可独立成条的器物数据；故 no_delta，不另建重复的群像条。",
+    "不新建霍去病墓石雕群条；已有 places/huoqubing-mu.md 记录完整。",
+    "cand-07-26 记 no_delta，target 指向 places/huoqubing-mu.md。")
+
+add("07-28", "武氏祠画象石", "no_delta",
+    "04-knowledge/units/places/wushi-ci.md",
+    "候选为武氏祠画象石（L2633-L2639）。检索发现 `places/wushi-ci.md` 已记武梁祠、武开明祠、武班祠、武荣祠四祠，十类题材，平面剔地法，以及孟孚、李弟卯、卫改、孙宗等石工。田自秉本段为题材与技法的总述，未增加新的祠名、石数或工匠；单石“泗水捞鼎”另立作品条（cand-07-29）。故本候选记 no_delta，不另建武氏祠总条。",
+    "不新建武氏祠画象石条；祠史与题材已有 places/wushi-ci.md。",
+    "cand-07-28 记 no_delta，target 指向 places/wushi-ci.md；单石另条。")
+
+add("07-32", "沂南画象石", "no_delta",
+    "04-knowledge/units/places/yinan-huaxiangshi-mu.md",
+    "候选为沂南画象石（L2641）。检索发现 `places/yinan-huaxiangshi-mu.md` 已记墓室八室、42块画像石、七类题材与平面剔地法，并已讨论其年代争议。田自秉本段只作题材举例与技法总述，未增加墓室结构、石数或新画面；故 no_delta，不另建重复条目。",
+    "不新建沂南画象石条；已有 places/yinan-huaxiangshi-mu.md 记录完整。",
+    "cand-07-32 记 no_delta，target 指向 places/yinan-huaxiangshi-mu.md。")
+
+add("07-35", "孟孚", "no_delta",
+    "04-knowledge/units/persons/wei-gai.md",
+    "候选为石工孟孚（L2639）。检索发现 `persons/wei-gai.md` 已在武氏祠石工一节列出孟孚、李弟卯、卫改、孙宗，并保留各自题记与李立新所记九名小石工。田自秉本次只重复“孟孚、李弟卯造”的题记，未增加生平、籍贯、作品分工或其他石刻；单独立条会得到只有姓名的空条，故 no_delta。",
+    "不新建孟孚条；已有 persons/wei-gai.md 石工名单覆盖。",
+    "cand-07-35 记 no_delta，target 指向 persons/wei-gai.md。")
+
+add("07-36", "李弟卯", "no_delta",
+    "04-knowledge/units/persons/wei-gai.md",
+    "候选为石工李弟卯（L2639）。检索发现 `persons/wei-gai.md` 已列李弟卯并保留题记，与孟孚、卫改、孙宗并列。田自秉本次未增加生平、分工与新作品，故 no_delta，不另建只有姓名的条目。",
+    "不新建李弟卯条；已有 persons/wei-gai.md 石工名单覆盖。",
+    "cand-07-36 记 no_delta，target 指向 persons/wei-gai.md。")
+
+add("07-38", "孙宗", "no_delta",
+    "04-knowledge/units/persons/wei-gai.md",
+    "候选为石工孙宗（L2639）。检索发现 `persons/wei-gai.md` 已列孙宗并保留题记。田自秉本次未增加生平、分工与新作品，故 no_delta，不另建只有姓名的条目。",
+    "不新建孙宗条；已有 persons/wei-gai.md 石工名单覆盖。",
+    "cand-07-38 记 no_delta，target 指向 persons/wei-gai.md。")
+
+cfg = {
+    "doc": DOC,
+    "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+    "rules": [
+        "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+        "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+        "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+        "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+        "同名异物或同词两义并列著录，不合并为单一定义",
+        "来源未给作者、正字或年代时照录原文并存疑，不据来源外材料补写",
+        "只有图注、无器物数据的候选记 no_delta，不新建只有图注的作品条",
+        "类型条与单器条分工：总类、制法与题材归术语条，单件器物的尺寸、出土与画面归作品条",
+        "候选 unit_type 与实体性质不符时按实体改写：织物类型记 term，单件器物记 work",
+    ],
+    "scope_spans": [[2438, 2712]],
+    "scope_note": "田自秉 2010 册第六章汉代的工艺美术后半（L2438-L2712）逐段复读，含染织的丝织品种、纹样、印染、刺绣与其他，以及漆器、石雕、玉雕、其他工艺与结语。彩版与插图 19、20、21、22、23 及漆奁图注只读图注，未视觉核验。",
+    "decisions": D,
+}
+
+out = ROOT / "_zn_decisions_t6.json"
+out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+print("decisions:", len(D))
+from collections import Counter
+print(Counter(x["action"] for x in D))

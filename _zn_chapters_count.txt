@@ -1,0 +1,43 @@
+2 (none)
+3 导论
+68 第一章 文明的曙光——石器时期的设计
+78 第二章 沉痛的狞厉——夏商西周时期的设计
+111 第三章 霸业的冲撞——春秋战国时期的设计
+112 第四章 统一的气量——秦汉时期的设计
+123 第五章 丧乱的文明——三国两晋南北朝时期的设计
+133 第六章 繁盛的浮华——隋唐时期的设计
+184 第七章 文弱的精湛——五代两宋时期的设计
+87 第八章 游牧的强悍——辽金西夏元时期的设计
+219 第九章 专制的文化——明清时期的设计
+173 第十章 艰难的变革——现代时期的设计
+25 总结
+2 后记
+--- ledger files ---
+20 2026-10-25-2009zhaonong-events-batch apply-plan.jsonl
+69 2026-10-25-2009zhaonong-events-batch candidate-decision-ledger.jsonl
+9 2026-10-25-2009zhaonong-institutions-batch-p apply-plan.jsonl
+30 2026-10-25-2009zhaonong-institutions-batch-p candidate-decision-ledger.jsonl
+9 2026-10-25-2009zhaonong-institutions-batch-q apply-plan.jsonl
+28 2026-10-25-2009zhaonong-institutions-batch-q candidate-decision-ledger.jsonl
+10 2026-10-25-2009zhaonong-institutions-batch-r apply-plan.jsonl
+30 2026-10-25-2009zhaonong-institutions-batch-r candidate-decision-ledger.jsonl
+11 2026-10-25-2009zhaonong-institutions-batch-s apply-plan.jsonl
+33 2026-10-25-2009zhaonong-institutions-batch-s candidate-decision-ledger.jsonl
+9 2026-10-25-2009zhaonong-procedures-batch-a apply-plan.jsonl
+27 2026-10-25-2009zhaonong-procedures-batch-a candidate-decision-ledger.jsonl
+8 2026-10-25-2009zhaonong-procedures-batch-b apply-plan.jsonl
+24 2026-10-25-2009zhaonong-procedures-batch-b candidate-decision-ledger.jsonl
+8 2026-10-25-2009zhaonong-procedures-batch-c apply-plan.jsonl
+24 2026-10-25-2009zhaonong-procedures-batch-c candidate-decision-ledger.jsonl
+14 2026-10-25-2009zhaonong-procedures-batch-d apply-plan.jsonl
+42 2026-10-25-2009zhaonong-procedures-batch-d candidate-decision-ledger.jsonl
+21 2026-10-25-zhaonong2009-places-batch-aa apply-plan.jsonl
+70 2026-10-25-zhaonong2009-places-batch-aa candidate-decision-ledger.jsonl
+20 2026-10-25-zhaonong2009-places-batch-ab apply-plan.jsonl
+69 2026-10-25-zhaonong2009-places-batch-ab candidate-decision-ledger.jsonl
+43 2026-10-26-2009zhaonong-units-batch-a apply-plan.jsonl
+135 2026-10-26-2009zhaonong-units-batch-a candidate-decision-ledger.jsonl
+33 2026-10-26-2009zhaonong-units-batch-b apply-plan.jsonl
+105 2026-10-26-2009zhaonong-units-batch-b candidate-decision-ledger.jsonl
+2 2026-10-26-2009zhaonong-units-metadata apply-plan.jsonl
+6 2026-10-26-2009zhaonong-units-metadata candidate-decision-ledger.jsonl

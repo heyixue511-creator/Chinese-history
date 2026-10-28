@@ -1,0 +1,164 @@
+[
+ {
+  "claim_id": "claim-0239",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-111",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4731,
+   "line_end": 4736,
+   "span_kind": "line",
+   "key_lines": [
+    4733,
+    4735
+   ],
+   "block_ids": [
+    "b0577"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "1. 伴随近代手工业和对外贸易发展起来的艺术设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-111"
+  }
+ },
+ {
+  "claim_id": "claim-0240",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-110",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4739,
+   "line_end": 4742,
+   "span_kind": "line",
+   "key_lines": [
+    4741
+   ],
+   "block_ids": [
+    "b0579"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "1. 伴随近代手工业和对外贸易发展起来的艺术设计 / 知识链接：我国资本主义产生的历史背景",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-110"
+  }
+ },
+ {
+  "claim_id": "claim-0241",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-98",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4877,
+   "line_end": 4885,
+   "span_kind": "line",
+   "key_lines": [
+    4881
+   ],
+   "block_ids": [
+    "b0598"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "3. 服饰设计水平的提高 / 1）男装新制",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-98"
+  }
+ },
+ {
+  "claim_id": "claim-0242",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-101",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4918,
+   "line_end": 4928,
+   "span_kind": "line",
+   "key_lines": [
+    4922
+   ],
+   "block_ids": [
+    "b0602"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "4. 新兴产业的出现与艺术设计的新发展",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-101"
+  }
+ },
+ {
+  "claim_id": "claim-0243",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-100",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4946,
+   "line_end": 4972,
+   "span_kind": "line",
+   "key_lines": [
+    4969,
+    4971
+   ],
+   "block_ids": [
+    "b0605"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "4. 新兴产业的出现与艺术设计的新发展 / 1）国外技术的引进与机器制造业的产生",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-100"
+  }
+ },
+ {
+  "claim_id": "claim-0244",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-104",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5013,
+   "line_end": 5054,
+   "span_kind": "line",
+   "key_lines": [
+    5015
+   ],
+   "block_ids": [
+    "b0609"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "4. 新兴产业的出现与艺术设计的新发展 / 3）书籍装帧艺术设计的发展与特色",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-104"
+  }
+ },
+ {
+  "claim_id": "claim-0245",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-102",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5063,
+   "line_end": 5090,
+   "span_kind": "line",
+   "key_lines": [
+    5067
+   ],
+   "block_ids": [
+    "b0612"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "5. 建筑艺术的变迁与建筑装饰的兴起 / 2）从中国固有式建筑到现代中国样建筑",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-102"
+  }
+ },
+ {
+  "claim_id": "claim-0246",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-103",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5063,
+   "line_end": 5090,
+   "span_kind": "line",
+   "key_lines": [
+    5081
+   ],
+   "block_ids": [
+    "b0612"
+   ],
+   "chapter": "近现代史上的设计更新",
+   "section": "5. 建筑艺术的变迁与建筑装饰的兴起 / 2）从中国固有式建筑到现代中国样建筑",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-103"
+  }
+ }
+]

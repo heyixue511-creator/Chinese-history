@@ -56,19 +56,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: term_anchor
+    primary: true
+    scope_note: "钴料釉下绘彩、透明釉一次高温烧成；起源四说、温度三套与八至十层装饰分区"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "青花瓷是 B 维度下以钴料呈色的釉下彩瓷种条目：钴料、施彩、罩釉与高温一次烧成属工艺，白地蓝花的色彩与纹饰体系属装饰。其外销与官民窑分工另涉 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "钴料釉下绘彩、透明釉一次高温烧成；起源四说、温度三套与八至十层装饰分区"
 ---
 
 ## 描述
@@ -132,14 +140,10 @@ hierarchy_scope_note: "青花瓷是 B 维度下以钴料呈色的釉下彩瓷种
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions:
-  - C
-  - D
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是中国瓷器史的主干品种条目，向上归 `terms/underglaze-color.md`，与釉里红、斗彩、五彩、粉彩、珐琅彩构成彩瓷序列，向下牵连景德镇、浮梁瓷局、御器厂等窑口与制度条目。可支持未来"钴料—白瓷—外销"三角的 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 钴料釉下绘彩、透明釉一次高温烧成；起源四说、温度三套与八至十层装饰分区
 ## 相关知识元
 
 `terms/underglaze-color.md` 把青花列为釉下彩首要品种，夏燕靖两版称青花为"釉下彩发展的最高阶段"；`terms/youlihong.md` 与本案同属元代景德镇新创，高丰以"青花与釉里红的命运差异"三点解释二者地位悬殊；`terms/doucai.md` 以青花为釉下骨架；`terms/fencai.md`、`terms/falangcai.md` 属釉上彩一侧。`places/jingdezhen-kiln.md`、`places/jingdezhen.md`、`institutions/fuliang-ciju.md`、`institutions/yuqichang.md` 分别承载窑口与制度面。夏燕靖两版所记"鬼谷下山"罐（`xdup-0479`）是 works 候选，本批未并入。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

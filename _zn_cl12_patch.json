@@ -1,0 +1,142 @@
+[
+ {
+  "claim_id": "claim-0247",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-122",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5124,
+   "line_end": 5127,
+   "span_kind": "line",
+   "key_lines": [
+    5126
+   ],
+   "block_ids": [
+    "b0617"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "章首导论",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-122"
+  }
+ },
+ {
+  "claim_id": "claim-0248",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-107",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5276,
+   "line_end": 5283,
+   "span_kind": "line",
+   "key_lines": [
+    5280
+   ],
+   "block_ids": [
+    "b0627"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "2. 全面建设社会主义时期的工艺美术",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-107"
+  }
+ },
+ {
+  "claim_id": "claim-0249",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-116",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5300,
+   "line_end": 5318,
+   "span_kind": "line",
+   "key_lines": [
+    5302
+   ],
+   "block_ids": [
+    "b0631"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "2. 全面建设社会主义时期的工艺美术 / 知识链接：人民大会堂室内设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-116"
+  }
+ },
+ {
+  "claim_id": "claim-0250",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-113",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5346,
+   "line_end": 5385,
+   "span_kind": "line",
+   "key_lines": [
+    5384
+   ],
+   "block_ids": [
+    "b0634"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "4. 文革时期的工艺美术 / 1）遭受摧残的工艺美术行业与扭转过程的艰难起步",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-113"
+  }
+ },
+ {
+  "claim_id": "claim-0251",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-105",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5386,
+   "line_end": 5400,
+   "span_kind": "line",
+   "key_lines": [
+    5399
+   ],
+   "block_ids": [
+    "b0635"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "4. 文革时期的工艺美术 / 2）文革时期的政治宣传设计和书籍设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-105"
+  }
+ },
+ {
+  "claim_id": "claim-0252",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-108",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5403,
+   "line_end": 5432,
+   "span_kind": "line",
+   "key_lines": [
+    5427
+   ],
+   "block_ids": [
+    "b0637"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 1）新时期的工艺美术与其产业调整",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-09-108"
+  }
+ },
+ {
+  "claim_id": "claim-0253",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-18",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 5480,
+   "line_end": 5501,
+   "span_kind": "line",
+   "key_lines": [
+    5495
+   ],
+   "block_ids": [
+    "b0644"
+   ],
+   "chapter": "新中国时期的设计进步",
+   "section": "5. 新时期的工艺美术及面向 21 世纪的艺术设计事业 / 2）面向21世纪的艺术设计事业",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-10-18"
+  }
+ }
+]

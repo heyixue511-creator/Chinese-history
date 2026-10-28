@@ -1,0 +1,142 @@
+[
+ {
+  "claim_id": "claim-0220",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-72",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4111,
+   "line_end": 4130,
+   "span_kind": "line",
+   "key_lines": [
+    4117
+   ],
+   "block_ids": [
+    "b0511"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "知识链接：明中晚的经济状况",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-07-72"
+  }
+ },
+ {
+  "claim_id": "claim-0227",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-97",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4274,
+   "line_end": 4301,
+   "span_kind": "line",
+   "key_lines": [
+    4288
+   ],
+   "block_ids": [
+    "b0532"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "2. 服装工艺与服装设计 / 知识链接：公服“补子”",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-97"
+  }
+ },
+ {
+  "claim_id": "claim-0231",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-101",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4341,
+   "line_end": 4367,
+   "span_kind": "line",
+   "key_lines": [
+    4353
+   ],
+   "block_ids": [
+    "b0539"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "3. 陶瓷业的繁荣与品种发展 / 1）瓷器工艺的改进与特色形成",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-101"
+  }
+ },
+ {
+  "claim_id": "claim-0229",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-99",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4341,
+   "line_end": 4367,
+   "span_kind": "line",
+   "key_lines": [
+    4343
+   ],
+   "block_ids": [
+    "b0539"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "3. 陶瓷业的繁荣与品种发展 / 1）瓷器工艺的改进与特色形成",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-99"
+  }
+ },
+ {
+  "claim_id": "claim-0234",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-106",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4483,
+   "line_end": 4496,
+   "span_kind": "line",
+   "key_lines": [
+    4487
+   ],
+   "block_ids": [
+    "b0551"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "5. 建筑设计与建筑彩画艺术 / 1）建筑设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-106"
+  }
+ },
+ {
+  "claim_id": "claim-0235",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-107",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4527,
+   "line_end": 4540,
+   "span_kind": "line",
+   "key_lines": [
+    4539
+   ],
+   "block_ids": [
+    "b0557"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "5. 建筑设计与建筑彩画艺术 / 3）园林设计",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-107"
+  }
+ },
+ {
+  "claim_id": "claim-0236",
+  "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-98",
+  "corroborating_span": {
+   "doc_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade",
+   "source_file": "03基础书籍-md文档/中国艺术设计史（升级版）_夏燕靖_2016_上海人民美术出版社.md",
+   "line_start": 4559,
+   "line_end": 4572,
+   "span_kind": "line",
+   "key_lines": [
+    4571
+   ],
+   "block_ids": [
+    "b0560"
+   ],
+   "chapter": "明清时期的设计渐变",
+   "section": "6. 家具种类与工艺设计 / 2）清代家具的设计特色",
+   "candidate_id": "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade:cand-08-98"
+  }
+ }
+]

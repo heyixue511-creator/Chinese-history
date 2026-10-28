@@ -1,0 +1,441 @@
+build_relation_index.py v2.1
+  关系总数: 1888
+  来源: explicit=1888 inferred_by_rule=0 migrated_from_related=0
+  双向补全: 0
+  类型覆盖: 2/67
+  written: D:\中国设计史研究\04-knowledge\quality\relation-index.yml
+plan_relation_candidates.py v2.3
+  已排除正式 relation pairs: 944
+  已排除 weak_associations pairs: 0
+  候选关系总数: 5
+  s7_name_overlap: 5
+  [DRY RUN]
+wrote=D:\中国设计史研究\06-runtime\automation\index.md
+  written: D:\中国设计史研究\04-knowledge\quality\translation-index.yml (2178 entries)
+Generated D:\中国设计史研究\05-outputs\knowledge-graph-data.json and D:\中国设计史研究\05-outputs\knowledge-graph-data.js: 2566 nodes, 0 links
+  event: 115
+  institution: 144
+  person: 323
+  place: 156
+  procedure: 121
+  publication: 246
+  term: 906
+  work: 555
+{"total": 5339, "by_origin_type": {"source": 5339}, "by_candidate_type": {"claim": 1363, "unit": 3976}, "by_state": {"applied": 3385, "needs_evidence": 849, "no_delta": 234, "rejected": 871}, "by_lifecycle_class": {"active": 849, "terminal": 4490}}
+Exported registry to D:\中国设计史研究\06-runtime\state\skill-registry.json
+content_quality_findings=20
+wrote=D:\中国设计史研究\06-runtime\state\current-health.json
+structural_health=104
+wrote=D:\中国设计史研究\06-runtime\governance\governance-backlog.md
+system_p0=1
+system_p1=10
+system_p2=2
+research_debt=5
+candidate_opportunities=2
+written=05-outputs/index/output-gallery.md outputs=2
+written=05-outputs/index/index.md health_snapshot=synchronized
+wrote=D:\中国设计史研究\06-runtime\state\generated-projections-manifest.json
+审查范围: 2570 个知识元
+
+总发现: 20
+
+============================================================
+ 内容质量全量审查报告
+ 审查范围: 2570 个知识元 | 总发现: 20
+============================================================
+
+边界: 仅检查可机械判定的结构、编码、占位、链接和状态一致性；不评估语义细节密度、事实充分性或知识价值。
+
+
+## frontmatter 空字段 (16 项)
+  - [04-knowledge/units/publications/liezi-tangwen.md] frontmatter 字段为空: title
+  - [04-knowledge/units/publications/liezi-tangwen.md] frontmatter 字段为空: name_en
+  - [04-knowledge/units/publications/liezi-tangwen.md] frontmatter 字段为空: sub_type
+  - [04-knowledge/units/publications/liezi-tangwen.md] frontmatter 字段为空: tags
+  - [04-knowledge/units/publications/qinlv-gonglv.md] frontmatter 字段为空: title
+  - [04-knowledge/units/publications/qinlv-gonglv.md] frontmatter 字段为空: name_en
+  - [04-knowledge/units/publications/qinlv-gonglv.md] frontmatter 字段为空: sub_type
+  - [04-knowledge/units/publications/qinlv-gonglv.md] frontmatter 字段为空: tags
+  - [04-knowledge/units/publications/songshi-yufuzhi.md] frontmatter 字段为空: title
+  - [04-knowledge/units/publications/songshi-yufuzhi.md] frontmatter 字段为空: name_en
+  - [04-knowledge/units/publications/songshi-yufuzhi.md] frontmatter 字段为空: sub_type
+  - [04-knowledge/units/publications/songshi-yufuzhi.md] frontmatter 字段为空: tags
+  - [04-knowledge/units/publications/zhongguo-dalishi.md] frontmatter 字段为空: title
+  - [04-knowledge/units/publications/zhongguo-dalishi.md] frontmatter 字段为空: name_en
+  - [04-knowledge/units/publications/zhongguo-dalishi.md] frontmatter 字段为空: sub_type
+  - [04-knowledge/units/publications/zhongguo-dalishi.md] frontmatter 字段为空: tags
+
+## 跨类型同名 (1 项)
+  - 名称: 'armillary sphere' → 2 个类型
+
+## 占位内容 (3 项)
+  - [04-knowledge/units/persons/zhao-nong.md] 占位内容: '## 在层级体系中的位置' 中含 '待补充'
+  - [04-knowledge/units/publications/zhongguo-yishu-shejishi-zhaonong-2009.md] 占位内容: '## 核心内容' 中含 '相关内容'
+  - [04-knowledge/units/works/he-zun.md] 占位内容: '## 在层级体系中的位置' 中含 '待补充'
+audit_relation_consistency.py
+  broken target: 0
+  invalid relation_type: 0
+  missing inverse: 0
+  weak evidence: 0
+  unbaselined generic evidence-backed: 0
+  isolated units (0 relations): 2028
+  isolated preview rows: 100
+  over-connected (>50): 0
+{
+  "structural_health": {
+    "score_kind": "structural_contract_health",
+    "max_score": 130,
+    "total": 104,
+    "rule_authority": 20,
+    "frontmatter": 0,
+    "verification_semantics": 14,
+    "traceability": 15,
+    "dataflow": 10,
+    "report_freshness": 10,
+    "engineering_safety": 5,
+    "recall_quality": 15,
+    "semantic_artifact_integrity": 15
+  },
+  "knowledge_maturity": {
+    "metric_kind": "unscored_semantic_maturity",
+    "total_units": 2570,
+    "source_count_distribution": {
+      "multi_source": 651,
+      "single_source": 1919
+    },
+    "confidence_distribution": {
+      "high": 3,
+      "low": 496,
+      "medium": 2071
+    },
+    "consensus_distribution": {
+      "tentative": 2570
+    },
+    "evidence_status_distribution": {
+      "source_backed": 2570
+    },
+    "isolated_units": {
+      "count": 2028,
+      "sample": [
+        "events/1851-wanguo-bolanhui.md",
+        "events/1998-national-furniture-exhibition.md",
+        "events/1999-book-design-exhibition.md",
+        "events/1999-china-italy-industrial-design-week.md",
+        "events/2000-beijing-intl-graphic-design-exhibition.md",
+        "events/2000-cad-industrial-design-conference.md",
+        "events/2000-china-craft-art-exhibition.md",
+        "events/2000-national-folk-craft-art-exhibition.md",
+        "events/anshi-zhiluan.md",
+        "events/banama-saihui.md",
+        "events/bauhaus-exhibition-hongkong-1989.md",
+        "events/boyan-collects-song-regalia.md",
+        "events/capital-ten-buildings-art-conference-1958.md",
+        "events/chenqiao-mutiny.md",
+        "events/china-art-expo-design-1997.md",
+        "events/computer-art-symposium-1995.md",
+        "events/crafts-artist-title-1979.md",
+        "events/crafts-college-entrance-exam-resumption-1977.md",
+        "events/da-shengchan-yundong.md",
+        "events/dayu-flood-control.md",
+        "events/donghulin-muzang.md",
+        "events/dongnan-daxue-yishuxuexi-1994.md",
+        "events/feishui-zhizhan.md",
+        "events/founding-ceremony-tiananmen-decoration-1949.md",
+        "events/huangjin-uprising.md"
+      ]
+    },
+    "candidate_debt": {
+      "total": 849,
+      "by_origin_type": {
+        "source": 849
+      },
+      "by_candidate_type": {
+        "claim": 849
+      },
+      "by_state": {
+        "needs_evidence": 849
+      }
+    },
+    "candidate_inventory": {
+      "total": 5339,
+      "by_origin_type": {
+        "source": 5339
+      },
+      "by_candidate_type": {
+        "claim": 1363,
+        "unit": 3976
+      },
+      "by_state": {
+        "applied": 3385,
+        "needs_evidence": 849,
+        "no_delta": 234,
+        "rejected": 871
+      },
+      "by_lifecycle_class": {
+        "active": 849,
+        "terminal": 4490
+      }
+    },
+    "research_debt": {
+      "single_source_units": 1919,
+      "tentative_units": 2570,
+      "low_confidence_units": 496,
+      "candidates_needing_evidence": 849,
+      "units_missing_hierarchy_assignment": 2570
+    }
+  },
+  "summary": {
+    "total_units": 2570,
+    "type_coverage": "8/8",
+    "base_type_coverage": "8/8",
+    "structure_node_coverage": "0/4",
+    "deprecated_type_drift": 0,
+    "hierarchy_version": "v0.1"
+  },
+  "rule_authority": {
+    "agents_dir_exists": true,
+    "agents_settings_exists": true,
+    "codex_hooks_exists": true,
+    "claude_entry_exists": true,
+    "claude_settings_exists": true,
+    "claude_skill_adapters_exist": true,
+    "agent_guard_exists": true,
+    "adapter_issues": [],
+    "legacy_references": 0
+  },
+  "verification_semantic_issues": {
+    "l7_high_confidence": [],
+    "source_count_1_high_confidence": [
+      "04-knowledge/units/works/baiyu-qianjin-hongbaoshi-wan.md",
+      "04-knowledge/units/works/dayu-zhishui-yushan.md",
+      "04-knowledge/units/terms/hua-falang.md"
+    ],
+    "confirmed_without_external_or_multisource": [],
+    "body_status_frontmatter_conflict": [],
+    "identity_only_external_overreach": []
+  }
+}
+规则漂移: 0 (所有规则文档与磁盘一致)
+OK: 18 个 Skill（18 leaf, 0 router）均由磁盘契约确定
+warning: in the working copy of '04-knowledge/quality/claim-registry.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/events/xiaomingdi-fushi-gaige.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/events/xiaowendi-jiangquan-nongsang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiangzuojian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/jiaoziwu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/wucaixia-xiufang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/institutions/zhongyang-lishi-yuyan-yanjiusuo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/gongshu-pan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/huangdi-legend.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/leizu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/nuwa.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/persons/yan-lide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/huoqubing-mu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/jun-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/liuyang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/longquan-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/qingtian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/ru-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/suzhou-wangshiyuan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/wushi-ci.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/xian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/xiangtangshan-shiku.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/places/yaozhou-kiln.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/duanban-taoyin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/qianzhu-maozhu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/sunmao-jiegou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/tiehua-zhizuo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/xian-zhuang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/procedures/yudiao-taocai-qiaose.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/gongcheng-zuofa.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/jieziyuan-huazhuan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/liangyou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/nancun-chuogenglu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/shiji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/shizhuzhai-huapu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/xiu-shi-lu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/yugong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/zhouyi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/publications/zhuangshi-zazhi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/an-furniture.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baici.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baigong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/bandixue-shi-jianzhu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/baoxianghua-wen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/chunqiu-zhanguo-qingtong-chuishiqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/chunqiu-zhanguo-zhanchuan-zhonglei.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/danke-heitao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/diao-qi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/dulunche.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/fota.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jianghu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jiaota-tizong-xiezhi-ji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/jiguang-hu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/kouqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/liao-sancai.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/ling-silk.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/mingqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/mise-porcelain.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/nanjing-yunjin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/ping-feng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qian-you-tao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qing-ci.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/qingtong-jiuqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shandingdong-ren-guzhen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shenyi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/shougongye-hanghui.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/song-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tangcao-wen.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tao-gui.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tianshi-diqi-caimei-gongqiao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tongjing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/tuotai-qiqi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/twelve-symbols.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/xi-mat.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/yishu-sheji.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/yuanling-paoshan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/terms/zisha-tao.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/anle-gongzhu-yuqun.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/beijing-zijincheng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/caiqi-mudiao-dongwu-zuoping.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/cuo-jinyi-longfenglu-fangan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/dabaoensi-liuli-ta.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/fengshou-longbing-hu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/jinci-shengmu-dian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/lianhua-zun.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/lianzhu-luwen-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/man-eating-you.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/qin-bing-ma-yong.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/shiwu-lianzhan-tongdeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/shuilu-gongzhan-jian.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/tang-yin-xiangnang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/tongbenma.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/wensiyuan-yin-xunlu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/wudao-renwu-dongwu-wen-sanse-jin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/yuan-huoqiang.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/zenghouyi-bronze-jianfou.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '04-knowledge/units/works/zenghouyi-zunpan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '晚清至民国设计史主题归并报告_2026-10-26.md', LF will be replaced by CRLF the next time Git touches it
+{
+  "summary": {
+    "total_checks": 18,
+    "pass": 18,
+    "fail": 0,
+    "behavioral_ready": true
+  },
+  "checks": [
+    {
+      "check": "required upgrade contracts",
+      "status": "pass",
+      "detail": "all current contracts exist"
+    },
+    {
+      "check": "event routing replaces fixed pipeline",
+      "status": "pass",
+      "detail": "router defines loops and event routes without fixed stage numbering"
+    },
+    {
+      "check": "new processing uses the compact profile",
+      "status": "pass",
+      "detail": "new sources use five compact artifacts; legacy packages are history only"
+    },
+    {
+      "check": "duplicate and conflict screening is signal-routed",
+      "status": "pass",
+      "detail": "every source candidate is screened; full reconcile runs only on conflict signals"
+    },
+    {
+      "check": "hierarchy roles and attachment debt are explicit",
+      "status": "pass",
+      "detail": "domain, dimension, theme, topic and KU roles are distinct; Cluster is discovery-only; missing attachment is measured"
+    },
+    {
+      "check": "skill names are unique",
+      "status": "pass",
+      "detail": "18 declared names are unique"
+    },
+    {
+      "check": "skill roles match the lean architecture",
+      "status": "pass",
+      "detail": "18 active skills are classified as independent leaf workflows"
+    },
+    {
+      "check": "Codex and Claude use thin project adapters",
+      "status": "pass",
+      "detail": "both clients share AGENTS and the executable guard without duplicating semantic rules"
+    },
+    {
+      "check": "repository has one active skill root",
+      "status": "pass",
+      "detail": ".agents/skills is the only repository Skill root"
+    },
+    {
+      "check": "navigation categories are not runnable skills",
+      "status": "pass",
+      "detail": "quality, growth and output are README navigation categories"
+    },
+    {
+      "check": "retired skill semantics stay absent",
+      "status": "pass",
+      "detail": "fixed loops, implicit enrich and count-based promotion are absent"
+    },
+    {
+      "check": "skill registry fails closed",
+      "status": "pass",
+      "detail": "registry returns non-zero when issues exist"
+    },
+    {
+      "check": "generated refresh is explicit",
+      "status": "pass",
+      "detail": "default closure is read-only; generated refresh is opt-in"
+    },
+    {
+      "check": "batch runner cannot perform git closeout",
+      "status": "pass",
+      "detail": "runner has no git add/commit/push executor"
+    },
+    {
+      "check": "verification state is batch-local",
+      "status": "pass",
+      "detail": "verify apply fingerprints batch input, commits atomically and uses only batch-local state"
+    },
+    {
+      "check": "candidate and file-back contract is traceable",
+      "status": "pass",
+      "detail": "unified candidate envelope and honest file-back state are present"
+    },
+    {
+      "check": "relation discovery excludes formal pairs",
+      "status": "pass",
+      "detail": "relation candidates use the unified envelope and exclude already-formal pairs"
+    },
+    {
+      "check": "entrypoint versions agree",
+      "status": "pass",
+      "detail": "version 5.3.0 is consistent"
+    }
+  ]
+}
+........................................................ [ 22%]
+........................................................................ [ 51%]
+........................................................................ [ 80%]
+..................................................                       [100%]
+250 passed, 16 subtests passed in 31.97s
+[1/18] build relation index
+[2/18] build relation candidates
+[3/18] build runtime index
+[4/18] build translation index
+[5/18] build knowledge graph data
+[6/18] build discovery index
+[7/18] export skill registry
+[8/18] write health and backlog
+[9/18] build output gallery and navigation
+[10/18] build generated projection manifest
+[11/18] audit content quality
+[12/18] audit relation consistency
+[13/18] audit repository
+[14/18] audit rule drift
+[15/18] validate skill registry
+[16/18] check whitespace
+[17/18] audit system upgrade chain
+[18/18] run tests
+sync closure passed

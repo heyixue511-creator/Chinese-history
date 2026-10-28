@@ -1,0 +1,350 @@
+{
+ "doc": "2010-tianzibing-zhongguo-gongyi-meishushi",
+ "file": "03基础书籍-md文档/中国工艺美术史（修订本）_田自秉_2010_东方出版中心.md",
+ "rules": [
+  "单册单源新建：consensus=tentative，evidence_status=source_backed，source_count=1，version=1",
+  "同实体更新：跨册追加 source block，source_count+1、version+1、日期续期；同册多跨段追加 citation，source_count 不变",
+  "逐字引文用“ ”，跨行拼接用「 」，作者自撰短语不用引号，正文禁 ASCII 双引号，嵌套引号用‘ ’",
+  "图版只著录图注原文并标未视觉核验，不据图像补写尺寸、藏地与出土地点",
+  "正文与图注称名不一致时照录并列，不径改",
+  "总结段与后记只著录来源自述，不据来源外材料补生平、版本与器物谱系"
+ ],
+ "scope_spans": [
+  [
+   1,
+   77
+  ],
+  [
+   391,
+   853
+  ],
+  [
+   5717,
+   5737
+  ]
+ ],
+ "scope_note": "田自秉 2010 册封面至彩版 4（L1-L77）、第一章原始社会（L391-L853）与后记（L5717-L5737）逐段复读。彩版 5 及以后（L78-L110）属商周至战国器物，留给对应章节批次，不在本包范围。图版均未视觉核验。",
+ "decisions": [
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-01",
+   "entity": "中国工艺美术史（修订本）",
+   "action": "create",
+   "target": "04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md",
+   "analysis": "《中国工艺美术史（修订本）》是田自秉著、东方出版中心 2010 年第 2 版的通史。检索 publications 下已有 `tian-zizhu-zhongguo-gongyi-meishushi.md`，为 1985 年知识出版社版；两本条目标题、出版社与年份不同，按不同版次分列不合并。新建证据为 L11 内容介绍、L23-L25 版权页、L49-L59 出版信息。来源未给修订说明、与 1985 年版的增删对照与各章执笔，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md（新建）；引用 L11、L23-L25、L49-L59；与 1985 年版分列。",
+   "note": "canonical: 04-knowledge/units/publications/zhongguo-gongyi-meishu-shi-xiudingben.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-38",
+   "entity": "田自秉",
+   "action": "create",
+   "target": "04-knowledge/units/persons/tian-zizhu.md",
+   "analysis": "田自秉是《中国工艺美术史》作者。检索 persons 下无田自秉条；既有 1985 版著作条只记作者名，未立人物。新建依据为 L5 署名与 L5721-L5737 后记自述，记其杭州国立艺术专科学校求学、中央工艺美术学院筹备期准备开课、1956 年正式任教、1957 年后中断、调图书馆、三中全会后复归。来源未给生卒年、籍贯、学历与完整著述目录，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/persons/tian-zizhu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/tian-zizhu.md（新建）；引用 L5、L5721-L5737。",
+   "note": "canonical: 04-knowledge/units/persons/tian-zizhu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-14-16",
+   "entity": "许衍灼",
+   "action": "create",
+   "target": "04-knowledge/units/persons/xu-yanzhuo.md",
+   "analysis": "许衍灼是 1917 年《中国工艺沿革史略》的作者。检索 persons 下无许衍灼条；publications 下已有 `zhongguo-gongyi-yange-shilue.md`，记其书而未立其人。新建依据仅 L5725 一句：田自秉称所见中国自己出版的工艺美术史仅此一本。来源未给生卒年、籍贯、学历、任职与其他著述，作者身份由书名句推知，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/persons/xu-yanzhuo.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/persons/xu-yanzhuo.md（新建）；引用 L5725；与既有《中国工艺沿革史略》条互指但不合并。",
+   "note": "canonical: 04-knowledge/units/persons/xu-yanzhuo.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-02",
+   "entity": "中国工艺美术丛书",
+   "action": "create",
+   "target": "04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md",
+   "analysis": "《中国工艺美术丛书》是庞薰栗主编的工艺美术丛书。检索 publications 下无同名丛书；既有 `baima-shejixue-congshu.md` 为另一丛书，不合并。新建依据仅 L11 一句：田自秉《中国工艺美术史》曾收入该丛书。来源未给出版社、出版年、书目种数与各册作者，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md（新建）；引用 L11。",
+   "note": "canonical: 04-knowledge/units/publications/zhongguo-gongyi-meishu-congshu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-05",
+   "entity": "大玉龙",
+   "action": "create",
+   "target": "04-knowledge/units/works/da-yulong.md",
+   "analysis": "大玉龙是红山文化玉器，图版彩版 1。检索 works 下无同实体条目。新建依据 L474：红山文化玉器多动物纹，大玉龙最为精彩，呈 C 型，长 42.2 cm，系绿玉佩饰品。来源未给出土地点、年代测定、藏地与同出器物，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/da-yulong.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/da-yulong.md（新建）；引用 L474。",
+   "note": "canonical: 04-knowledge/units/works/da-yulong.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-07",
+   "entity": "鹤衔鱼纹彩陶缸",
+   "action": "create",
+   "target": "04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md",
+   "analysis": "鹤衔鱼纹彩陶缸是庙底沟型彩陶缸，图版彩版 3。检索 works 下无同实体条目。新建依据 L72 图注与 L554 鸟纹泛述；正文只记庙底沟型鸟纹分布与停立、展翅姿态，未点名鹤衔鱼，也未给该缸尺寸、出土地点与藏地。证据只到图注层，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md（新建）；引用 L72、L554；图版未视觉核验。",
+   "note": "canonical: 04-knowledge/units/works/he-xian-yu-wen-caitao-gang.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-08",
+   "entity": "螺旋纹彩陶瓮",
+   "action": "create",
+   "target": "04-knowledge/units/works/luoxuanwen-caitao-weng.md",
+   "analysis": "螺旋纹彩陶瓮是马家窑型彩陶瓮，图版彩版 4。检索 works 下无同实体条目。新建依据 L75 图注、L570 器形、L572 同心圆装饰与 L585 螺旋纹风格判断。来源未给该瓮尺寸、出土地点与藏地，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/luoxuanwen-caitao-weng.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/luoxuanwen-caitao-weng.md（新建）；引用 L75、L570、L572、L585。",
+   "note": "canonical: 04-knowledge/units/works/luoxuanwen-caitao-weng.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-23",
+   "entity": "氏族公社",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shizu-gongshe.md",
+   "analysis": "氏族公社是原始社会按血缘关系结成的社会组织。检索 terms 下无同实体术语。新建依据 L403 形成与母系、父系两阶段，并以 L405、L409 的仰韶半坡与河姆渡为母系繁荣例证，L415、L417 的大汶口、青莲冈、屈家岭、大溪与龙山、良渚为父系例证。来源未给绝对年代、氏族规模与婚姻继承制度，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/shizu-gongshe.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/shizu-gongshe.md（新建）；引用 L403、L405、L409、L415、L417。",
+   "note": "canonical: 04-knowledge/units/terms/shizu-gongshe.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-04",
+   "entity": "图腾",
+   "action": "create",
+   "target": "04-knowledge/units/terms/tuteng.md",
+   "analysis": "图腾是原始装饰中标志性的表号图案。检索 terms 下无同实体术语。新建依据 L445 一段：词源印第安语、与氏族公社同时产生、以动物或植物为氏族标志、黥刺身体或绘刻器皿武器、最早的具有实用意义的装饰。来源未给具体氏族与图腾的对应谱系、图像类型与年代序列，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/tuteng.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/tuteng.md（新建）；引用 L445。",
+   "note": "canonical: 04-knowledge/units/terms/tuteng.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-40",
+   "entity": "玉锛",
+   "action": "create",
+   "target": "04-knowledge/units/works/yu-ben.md",
+   "analysis": "玉锛是龙山文化遗址出土的玉质工具。检索 works 下无同实体条目。新建依据 L463：山东日照两城镇和龙山文化遗址发现成坑半成品玉材，其中一个玉锛厚 0.2～0.5 厘米、顶端刻精细花纹。来源未给具体层位、年代、藏地与长宽尺寸，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/yu-ben.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/yu-ben.md（新建）；引用 L463。",
+   "note": "canonical: 04-knowledge/units/works/yu-ben.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-44",
+   "entity": "家庭、私有制和国家的起源",
+   "action": "create",
+   "target": "04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md",
+   "analysis": "《家庭、私有制和国家的起源》是恩格斯著作。检索 publications 下无同实体条目。新建依据仅 L478 一句引文：陶器的制造都是由于在编制的或木制的容器上涂上粘土使之能够耐火而产生的。来源未给译者、出版社、出版年与版本，本条只作理论引证锚点，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md（新建）；引用 L478。",
+   "note": "canonical: 04-knowledge/units/publications/jiating-siyouzhi-guojia-de-qiyuan.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-07",
+   "entity": "半坡型彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/banpo-xing-caitao.md",
+   "analysis": "半坡型彩陶是仰韶文化彩陶类型。检索 terms 下无同实体类型条；既有 `banpo-site.md` 记遗址，`painted-pottery.md` 记彩陶总论，均不覆盖类型学内容。新建依据 L500-L531 分布、陶质、器形、纹样与人面纹，L726 年代与风格（约 7000—6000 年前，朴质）。来源未给陶窑与颜料分析，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/banpo-xing-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/banpo-xing-caitao.md（新建）；引用 L500、L502、L504、L517、L519、L527、L531、L726；与半坡遗址条分工。",
+   "note": "canonical: 04-knowledge/units/terms/banpo-xing-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-35",
+   "entity": "船形彩陶壶",
+   "action": "create",
+   "target": "04-knowledge/units/works/chuanxing-caitao-hu.md",
+   "analysis": "船形彩陶壶是半坡型彩陶中的菱形壶。检索 works 下无同实体条目。新建依据 L504 器形描述与 L513 图注：壶体两头尖、形如菱角、正中有口、口两边各一耳。来源未给尺寸、出土地点、藏地与年代，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/chuanxing-caitao-hu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/chuanxing-caitao-hu.md（新建）；引用 L504、L513。",
+   "note": "canonical: 04-knowledge/units/works/chuanxing-caitao-hu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-41",
+   "entity": "鸟衔虫彩陶细颈壶",
+   "action": "create",
+   "target": "04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md",
+   "analysis": "鸟衔虫彩陶细颈壶是宝鸡北首岭出土的半坡型细颈壶。检索 works 下无同实体条目。新建依据 L529 一句与 L548 图注：壶上绘鸟衔虫图案。来源未给尺寸、藏地、年代与图像细部，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md（新建）；引用 L529、L548。",
+   "note": "canonical: 04-knowledge/units/works/niao-xian-chong-caitao-xijing-hu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-08",
+   "entity": "庙底沟型彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/miaodigou-xing-caitao.md",
+   "analysis": "庙底沟型彩陶是仰韶文化彩陶类型。检索 terms 下无同实体类型条。新建依据 L550-L558 分布、器形、彩陶比例、纹样、鸟纹与黑白双关，L726 年代与风格（约 6000—5000 年前，律）。来源未给陶窑与颜料分析，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/miaodigou-xing-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/miaodigou-xing-caitao.md（新建）；引用 L550、L552、L554、L558、L726。",
+   "note": "canonical: 04-knowledge/units/terms/miaodigou-xing-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-42",
+   "entity": "蜥蜴纹彩陶瓶",
+   "action": "create",
+   "target": "04-knowledge/units/works/xiyi-wen-caitao-ping.md",
+   "analysis": "蜥蜴纹彩陶瓶是庙底沟型彩陶瓶。检索 works 下无同实体条目。新建依据 L554 正文与 L563 图注；正文作陶壶、图注作瓶，称名不一致，照录并列不径改。来源未给尺寸、藏地与年代，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/works/xiyi-wen-caitao-ping.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/xiyi-wen-caitao-ping.md（新建）；引用 L554、L563；正文与图注称名差异并列。",
+   "note": "canonical: 04-knowledge/units/works/xiyi-wen-caitao-ping.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-09",
+   "entity": "马家窑型彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/majiayao-xing-caitao.md",
+   "analysis": "马家窑型彩陶是甘青地区彩陶类型。检索 terms 下无同实体类型条。新建依据 L568-L585 分布与源流、器形、装饰、满与内彩与点和螺旋纹三特点、1973 年上孙家寨舞蹈纹盆，L726 年代（约 5000 年前）。来源未给陶窑与颜料分析，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/majiayao-xing-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/majiayao-xing-caitao.md（新建）；引用 L568、L570、L572、L583、L585、L726。",
+   "note": "canonical: 04-knowledge/units/terms/majiayao-xing-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-10",
+   "entity": "半山型彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/banshan-xing-caitao.md",
+   "analysis": "半山型彩陶是首次发现于甘肃宁定县半山地区的彩陶类型。检索 terms 下无同实体类型条。新建依据 L587-L591 得名、器形、旋涡纹与葫芦纹两类装饰、红黑相间色彩与彩陶工艺中最精美的评价，L726 年代（约 4500 年前）。来源未给窑址与颜料分析，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/banshan-xing-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/banshan-xing-caitao.md（新建）；引用 L587、L589、L591、L726。",
+   "note": "canonical: 04-knowledge/units/terms/banshan-xing-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-11",
+   "entity": "马厂型彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/terms/machang-xing-caitao.md",
+   "analysis": "马厂型彩陶是发现于青海乐都县马厂沿的彩陶类型。检索 terms 下无同实体类型条。新建依据 L608-L641 发现与源流、早中晚三期、小口双耳罐与单把直筒杯、人形纹三阶段、陶衣与色衬、简练刚劲风格，L726 年代（约 4000 年前）。来源未给窑址与颜料分析，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/machang-xing-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/machang-xing-caitao.md（新建）；引用 L608、L612、L614、L622、L639、L641、L726。",
+   "note": "canonical: 04-knowledge/units/terms/machang-xing-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-43",
+   "entity": "单把直筒杯",
+   "action": "create",
+   "target": "04-knowledge/units/works/danba-zhitong-bei.md",
+   "analysis": "单把直筒杯是马厂型彩陶中流行于河西走廊的陶杯。检索 works 下无同实体条目。新建依据 L614 器形与 L620、L635 图注：下腹前方与把口相接处各有一个泥突。来源未给尺寸、出土地点、藏地与年代，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/danba-zhitong-bei.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/danba-zhitong-bei.md（新建）；引用 L614、L620、L635。",
+   "note": "canonical: 04-knowledge/units/works/danba-zhitong-bei.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-45",
+   "entity": "甘肃彩陶",
+   "action": "create",
+   "target": "04-knowledge/units/publications/gansu-caitao.md",
+   "analysis": "《甘肃彩陶》是田自秉论述马厂型人形纹时转引的著作。检索 publications 下无同实体条目。新建依据仅 L622 一句：有人以为人形纹是作播种状的“人格化的神灵”，见《甘肃彩陶》。来源未给作者、出版社、出版年与页码，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/publications/gansu-caitao.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/publications/gansu-caitao.md（新建）；引用 L622。",
+   "note": "canonical: 04-knowledge/units/publications/gansu-caitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-12",
+   "entity": "开光法",
+   "action": "create",
+   "target": "04-knowledge/units/terms/kaiguang-fa.md",
+   "analysis": "开光法是装饰艺术中以轮廓划分装饰面、突出主体的手法。检索 terms 下无同实体术语。新建依据 L671 定义、特点与最早实例（马家窑型陶罐肩部旋涡纹开光、中间蛙纹），L676 半山型旋涡纹到马厂型四大圈纹的演变。来源未给轮廓谱系、其他材质例证与年代序列，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/kaiguang-fa.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/kaiguang-fa.md（新建）；引用 L671、L676。",
+   "note": "canonical: 04-knowledge/units/terms/kaiguang-fa.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-13",
+   "entity": "双关法",
+   "action": "create",
+   "target": "04-knowledge/units/terms/shuangguan-fa.md",
+   "analysis": "双关法是彩陶装饰手法，分形体双关与色彩双关。检索 terms 下无同实体术语。新建依据 L678-L684：定义、两类、半山型葫芦纹与庙底沟型实例、与欧美欧普美术相似的比较。来源未给纹样谱系与年代序列，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/shuangguan-fa.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/shuangguan-fa.md（新建）；引用 L678、L680、L682、L684。",
+   "note": "canonical: 04-knowledge/units/terms/shuangguan-fa.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-14",
+   "entity": "多效装饰法",
+   "action": "create",
+   "target": "04-knowledge/units/terms/duoxiao-zhuangshi-fa.md",
+   "analysis": "多效装饰法是田自秉自创术语，指正视与俯视均为完整装饰体的多角度装饰方法。检索 terms 下无同实体术语。新建依据 L698 定义与作者自注“创新的名词，并不一定十分妥帖”，L707 半山型两件与马厂型人形纹壶实例。术语非通行，条目照录并标作者自陈，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/terms/duoxiao-zhuangshi-fa.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/duoxiao-zhuangshi-fa.md（新建）；引用 L698、L707；标注作者自创术语。",
+   "note": "canonical: 04-knowledge/units/terms/duoxiao-zhuangshi-fa.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-76",
+   "entity": "辛店文化",
+   "action": "create",
+   "target": "04-knowledge/units/terms/xindian-wenhua.md",
+   "analysis": "辛店文化是黄河上游继齐家文化之后的彩陶文化，约当商周。检索 terms 下无同实体条目。新建依据 L714 时间、双大耳罐双钩纹与人物、小狗、太阳纹饰、罐颈回纹，L719 图注。来源未给分布范围、年代测定、遗址清单与分期，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/terms/xindian-wenhua.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/xindian-wenhua.md（新建）；引用 L714、L719。",
+   "note": "canonical: 04-knowledge/units/terms/xindian-wenhua.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-77",
+   "entity": "屈家岭文化",
+   "action": "create",
+   "target": "04-knowledge/units/terms/qujialing-wenhua.md",
+   "analysis": "屈家岭文化是长江中游新石器时代文化。检索 terms 下无同实体条目。新建依据 L721 时间（仰韶晚期或龙山早期）与彩绘纺轮、蛋壳彩陶特色，L415 母系向父系转化期文化之一。来源未给分布范围、年代测定、遗址清单与分期，confidence 取 low。",
+   "approve": "批准新建 04-knowledge/units/terms/qujialing-wenhua.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/terms/qujialing-wenhua.md（新建）；引用 L415、L721。",
+   "note": "canonical: 04-knowledge/units/terms/qujialing-wenhua.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-37",
+   "entity": "双鸟纹骨匕",
+   "action": "create",
+   "target": "04-knowledge/units/works/shuangniao-wen-gubi.md",
+   "analysis": "双鸟纹骨匕是河姆渡出土骨器。检索 works 下无同实体条目。新建依据 L803 双鸟异首同身、两端平行线与点线几何纹，L806 图注，L801 骨器工艺背景。来源未给尺寸、年代、藏地与出土层位，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/shuangniao-wen-gubi.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/shuangniao-wen-gubi.md（新建）；引用 L801、L803、L806。",
+   "note": "canonical: 04-knowledge/units/works/shuangniao-wen-gubi.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-38",
+   "entity": "透雕象牙梳",
+   "action": "create",
+   "target": "04-knowledge/units/works/toudiao-xiangya-shu.md",
+   "analysis": "透雕象牙梳是大汶口墓葬出土的象牙梳。检索 works 下无同实体条目。新建依据 L814 一段：两件、象牙皮、长方形、长 16.7 厘米、十六齿、顶端四开口、三圆孔、8 字形镂空内填 T 字纹。来源未给第二件尺寸、藏地与年代，confidence 取 medium。",
+   "approve": "批准新建 04-knowledge/units/works/toudiao-xiangya-shu.md：单册单源，consensus=tentative，confidence 按证据厚度评定。",
+   "apply_note": "写入 04-knowledge/units/works/toudiao-xiangya-shu.md（新建）；引用 L814。",
+   "note": "canonical: 04-knowledge/units/works/toudiao-xiangya-shu.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-06",
+   "entity": "人面网纹盆（半坡型）",
+   "action": "update",
+   "target": "04-knowledge/units/works/renmian-yuwen-caitao-pen.md",
+   "analysis": "检索发现既有 `renmian-yuwen-caitao-pen.md`（人面鱼纹彩陶盆，别名 人面鱼纹盆）已覆盖半坡同一批人面鱼纹材料，高丰与赵农两源在册。本候选的“人面网纹盆”是田自秉对同一类器的称名，不另立作品条；按同实体更新既有条目：加别名“人面网纹盆”，补田自秉 L69 图版题名与 L527 七例、画法、束发发笄与“寓人于鱼”特殊一例。source_count 2→3，version 2→3。计数口径差异（高丰 5 件、田自秉七例）并存不合并。",
+   "approve": "批准更新 04-knowledge/units/works/renmian-yuwen-caitao-pen.md：同实体合并，加别名并补田自秉源；不新建重复作品条。",
+   "apply_note": "追加田自秉 L69、L527 源块；别名加 人面网纹盆；source_count 3，version 3；计数口径差异并列。",
+   "note": "canonical: 04-knowledge/units/works/renmian-yuwen-caitao-pen.md。cand-01-06 不新建。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-01-27",
+   "entity": "榫卯结构",
+   "action": "update",
+   "target": "04-knowledge/units/procedures/sunmao-jiegou.md",
+   "analysis": "既有 `sunmao-jiegou.md` 已收榫卯结构的定义、类型与建筑应用，原仅一源。本候选为田自秉 L411 河姆渡木构房屋证据：木建筑已采用榫卯结构，说明过着“筑土构木”的定居生活。按同实体更新，补河姆渡 1973 年、距今约 7000 年与木结构房屋语境。source_count 1→2，version 1→2，confidence low→medium。",
+   "approve": "批准更新 04-knowledge/units/procedures/sunmao-jiegou.md：追加田自秉河姆渡源，不新建重复条目。",
+   "apply_note": "追加田自秉 L411 源块与描述段、核心两条；source_count 2，version 2，confidence medium。",
+   "note": "canonical: 04-knowledge/units/procedures/sunmao-jiegou.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-02",
+   "entity": "黑陶",
+   "action": "update",
+   "target": "04-knowledge/units/terms/heitao.md",
+   "analysis": "既有 `heitao.md` 已收赵农的黑陶定义、渗炭、龙山壁厚与镂孔减法观念。本候选为田自秉 L728-L751 龙山黑陶材料：黑陶文化即龙山文化、四个类型、轮制与封窑、黑薄光纽四特点、以造型取胜。按同实体更新，source_count 1→2，version 1→2。两源均未给渗炭化学过程与烧成温度。",
+   "approve": "批准更新 04-knowledge/units/terms/heitao.md：追加田自秉龙山黑陶分型与四特点，不新建重复条目。",
+   "apply_note": "追加田自秉 L728-L751 源块、描述段与第五节；tags 增轮制、封窑；source_count 2，version 2。",
+   "note": "canonical: 04-knowledge/units/terms/heitao.md。"
+  },
+  {
+   "cid": "2010-tianzibing-zhongguo-gongyi-meishushi:cand-02-15",
+   "entity": "鬶",
+   "action": "update",
+   "target": "04-knowledge/units/terms/tao-gui.md",
+   "analysis": "既有 `tao-gui.md`（陶鬶）已收夏燕靖 2009、2016 两版的龙山炊器定义、款足与鸟喙流。本候选为田自秉 L755、L763-L768：鬶为黑陶中最出色而有代表性的器物，并有大汶口圆腹小颈三实足到龙山“冲天流”的完整演变链与实用美观结合的设计思想。按同实体更新，source_count 2→3，version 1→2。",
+   "approve": "批准更新 04-knowledge/units/terms/tao-gui.md：追加田自秉演变链，不新建重复条目。",
+   "apply_note": "追加田自秉 L755、L763-L768 源块、描述段与四条核心；source_count 3，version 2。",
+   "note": "canonical: 04-knowledge/units/terms/tao-gui.md。"
+  }
+ ],
+ "notes": "田自秉 2010 册 batch T1：unit 候选 32 条，create 28、update 4。新建含通史修订本、丛书、恩格斯著作、《甘肃彩陶》四种出版物，田自秉、许衍灼两位人物，大玉龙、鹤衔鱼纹缸、螺旋纹瓮、玉锛、船形壶、鸟衔虫壶、蜥蜴纹瓶、单把直筒杯、双鸟纹骨匕、透雕象牙梳十件作品，氏族公社、图腾、半坡型、庙底沟型、马家窑型、半山型、马厂型、开光法、双关法、多效装饰法、辛店文化、屈家岭文化十二个术语。更新为人面鱼纹盆（并入人面网纹盆）、榫卯结构、黑陶、陶鬶四条。彩版 5 以后与 404 条其余 unit 候选留给后续章节批次；claim 候选未在本包处理。"
+}

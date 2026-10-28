@@ -1,0 +1,37 @@
+{
+  "registry": 883,
+  "new_claims": 43,
+  "types": {
+    "interpretive_claim": 11,
+    "evaluative_claim": 5,
+    "synthetic_claim": 5,
+    "factual_claim": 20,
+    "historiographic_claim": 2
+  },
+  "links": 101,
+  "distinct": 68,
+  "patched": 0,
+  "candidate_states": {
+    "applied": 3875,
+    "rejected": 871,
+    "no_delta": 234,
+    "needs_evidence": 359
+  },
+  "lifecycle": {
+    "terminal": 4980,
+    "active": 359
+  },
+  "applied_doc": 726,
+  "needs_doc": 164,
+  "claim_debt": 359,
+  "package": {
+    "rows": 43,
+    "updates": 0,
+    "plan": 43,
+    "ledger": 43,
+    "mapping": 43
+  },
+  "registry_sha256": "sha256:914678f084d399decfcffa858eeccbca618060b7d92d34ae616c7587ab481941",
+  "registry_bytes": 1485646
+}
+VERIFY OK

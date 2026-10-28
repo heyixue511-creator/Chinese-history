@@ -27,20 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b6-ciqi-zhuangshi-sanceng-jishu.md
+    role: boundary_case
+    primary: true
+    scope_note: "景德镇制胎＋广州彩绘的外销彩瓷；证明彩绘工序可与制胎分离"
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "本条是 B 维度外销彩瓷的品种条目，外销与口岸分工归 D、E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "景德镇制胎＋广州彩绘的外销彩瓷；证明彩绘工序可与制胎分离"
 ---
 
 ## 描述
@@ -59,12 +67,10 @@ hierarchy_scope_note: "本条是 B 维度外销彩瓷的品种条目，外销与
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度外销彩瓷的品种条目，外销与口岸分工归 D、E 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-ciqi-zhuangshi-sanceng-jishu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 景德镇制胎＋广州彩绘的外销彩瓷；证明彩绘工序可与制胎分离
 ## 相关知识元
 
 `places/guangzhou.md` 记广州口岸与西式工艺影响的入口；`places/jingdezhen-kiln.md` 记景德镇瓷业；`terms/falangcai.md` 记宫廷珐琅彩。广彩的胎与彩分处两地，与上述各条并置而不合并。relation 未审查。

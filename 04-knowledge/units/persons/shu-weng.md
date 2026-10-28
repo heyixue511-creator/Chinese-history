@@ -24,18 +24,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
-hierarchy_scope_note: "本条是 B 维度宋代吉州窑工匠的人物锚点，紫白釉与瓷玩具属其工艺特征。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: key_person
+    primary: true
+    scope_note: "吉州窑五座著名民窑之一的窑主；紫白釉与大花瓶值金数两"
+hierarchy_scope_note: "吉州窑五座著名民窑之一的窑主；紫白釉与大花瓶值金数两"
 ---
 
 ## 描述
@@ -55,12 +63,10 @@ hierarchy_scope_note: "本条是 B 维度宋代吉州窑工匠的人物锚点，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度宋代吉州窑工匠的人物锚点，紫白釉与瓷玩具属其工艺特征。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 吉州窑五座著名民窑之一的窑主；紫白釉与大花瓶值金数两
 ## 相关知识元
 
 `places/jizhou-kiln.md` 记吉州窑，未提舒翁；`persons/shu-jiao.md` 同批记其女舒娇；`terms/jiguang-hu.md` 记辽代鸡冠壶，与本条无直接关系。relation 未审查。

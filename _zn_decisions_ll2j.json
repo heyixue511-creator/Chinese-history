@@ -1,0 +1,51 @@
+{
+ "doc": "2011-lilixin-zhongguo-sheji-yishu-shilun",
+ "file": "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md",
+ "rules": [
+  "来源只读；正文以李立新 2011 册 Markdown 文本为主，不以来源外知识补写。",
+  "引文照录：同行用“ ”，句内再含引号或跨行拼接用「 」；正文禁用 ASCII 双引号。",
+  "李瑞清条另引高丰 L5461 作交叉印证；该行已回读原文，其余条目不扩引来源外册次。",
+  "L1378 为与正文无关的图片识别说明文字（英文、含 Rule 2 等字样），不据其改写正文，也不把它当作来源论述。",
+  "同实体先检索既有 KU 与同批目标；能归并者按 no_delta 处理，不重复建条。"
+ ],
+ "scope_spans": [
+  [
+   1283,
+   1379
+  ]
+ ],
+ "scope_note": "覆盖 L1283-L1379：第三章第三节“近代以来造物艺术的艰辛历程”四个阶段（L1283-L1350），下编“设计艺术专题研究”导论两节（L1352-L1379）；止于第四章“造物历史中的原生状态”（L1380）之前。",
+ "deferred": [],
+ "decisions": [
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-12",
+   "entity": "中体西用",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zhong-ti-xi-yong.md",
+   "analysis": "cand-04-12 跨度为 L1291。L1291 把林则徐、魏源“师夷长技以制夷”、魏源《海国图志》的制器清单、曾国藩与李鸿章“觅制器之器”、知识界“采西学”“制洋器”串成一条思想链，收束为“中体西器”“中体西用”；同段称其为知识阶层与开明官僚在新旧抉择中的“折中”选择，并引郑观应《盛世危言》的“商战”与“实业救国论”先声。L1303 又把它放进“西学中源→中体西用”的思想史序列，并指出新式设计教育出现向西方式现代转化的趋势。现有 terms 下无同条；`terms/shi-yi-chang-ji.md` 记其前身，`persons/zhang-zhidong.md` 记“中学为体，西学为用”的三种表述，均非本命题专条。",
+   "approve": "命题有明确定义、思想史位置与设计教育张力，按 term 建 A 维度条；与师夷长技条、张之洞条分工，不重复其材料。",
+   "apply_note": "新建 terms/zhong-ti-xi-yong.md，记思想链条、折中评价、西学中源前身与设计教育的西化张力。",
+   "note": "canonical: 04-knowledge/units/terms/zhong-ti-xi-yong.md。cand-04-12 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-19",
+   "entity": "李瑞清",
+   "action": "create",
+   "target": "04-knowledge/units/persons/li-rui-qing.md",
+   "analysis": "cand-04-19 跨度为 L1301。L1301 记 1906 年督学李瑞清在两江师范学堂设立图画手工科，并称这是首次在中国设立美术与设计学科。高丰 L5461 记同一事，作“学堂监督李瑞清呈准学部”，并给主副科结构、两届招生与吕凤子、姜丹书等毕业生。existing `institutions/liangjiang-shifan-xuetang.md` 已收两册材料，但 persons 下无李瑞清条，`persons/zhang-zhidong.md` 亦把李瑞清列为研究债务。",
+   "approve": "人物有设科事实、两册交叉印证与职衔差异，按 person 建条；与两江师范学堂条分工，不复制学堂沿革。",
+   "apply_note": "新建 persons/li-rui-qing.md，记设科、呈准、科目与两届招生，并列“督学／学堂监督”职衔差异。",
+   "note": "canonical: 04-knowledge/units/persons/li-rui-qing.md。cand-04-19 并入该条。"
+  },
+  {
+   "cid": "2011-lilixin-zhongguo-sheji-yishu-shilun:cand-04-26",
+   "entity": "驻厂设计师",
+   "action": "create",
+   "target": "04-knowledge/units/terms/zhu-chang-she-ji-shi.md",
+   "analysis": "cand-04-26 跨度为 L1320。L1320 在 20 世纪 20、30 年代设计发展第三项下提出“自由设计师和一些驻厂设计师”，并举南洋、英美、华成三家烟草公司为例，记陈之佛短期驻厂、张光宇 1921—1925 年在南洋兄弟烟草公司后转英美烟草公司。L1322 又给“设计师从生产活动中独立出来是现代工业化的一个特点”与艺术家参与削弱设计特征的限制判断。existing `institutions/yingmei-yancao-gongsi.md` 与 `persons/chen-zhifo.md` 只把它作身份描述，terms 下无同条。",
+   "approve": "该身份有定义、企业例证与职业化判断，按 term 建 D 维度条；与英美烟草公司条、陈之佛条分工。",
+   "apply_note": "新建 terms/zhu-chang-she-ji-shi.md，记定义、三家烟草公司、陈之佛与张光宇例证及职业化判断。",
+   "note": "canonical: 04-knowledge/units/terms/zhu-chang-she-ji-shi.md。cand-04-26 并入该条。"
+  }
+ ]
+}

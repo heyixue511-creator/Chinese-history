@@ -1,0 +1,399 @@
+# -*- coding: utf-8 -*-
+"""Build 李立新 2011 claim rows, batch ll5a (第五章第三节至结论, 40 claims)."""
+import json
+from pathlib import Path
+
+ROOT = Path(r"D:/中国设计史研究")
+DOC = "2011-lilixin-zhongguo-sheji-yishu-shilun"
+SRC = "03基础书籍-md文档/中国设计艺术史论_李立新_2011_人民出版社.md"
+DATE = "2026-10-27"
+CH = "第五章第三节、第六章与结论（品类两向演化与沉浮衍生、设计史动力结构、传统设计艺术特质、设计现代化艰难性）"
+
+T = "04-knowledge/units/terms/"
+P = "04-knowledge/units/persons/"
+I = "04-knowledge/units/institutions/"
+E = "04-knowledge/units/events/"
+PR = "04-knowledge/units/procedures/"
+B = "04-knowledge/units/publications/"
+W = "04-knowledge/units/works/"
+
+MAP = ROOT / "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/source-map.jsonl"
+BLOCKS = []
+for line in MAP.read_text(encoding="utf-8").splitlines():
+    if not line.strip():
+        continue
+    d = json.loads(line)
+    BLOCKS.append((d["block_id"], d["line_start"], d["line_end"]))
+
+
+def blocks(start, end):
+    return [b for b, s, e in BLOCKS if s <= end and e >= start]
+
+
+def Q(s: str) -> str:
+    s = s.replace("‘", "“").replace("’", "”")
+    assert '"' not in s, s
+    return s
+
+
+def C(claim_id, cand, ctype, zh, en, supported, note, start, end, key_lines, section):
+    for p in supported:
+        assert (ROOT / p).is_file(), p
+    return {
+        "claim_id": claim_id,
+        "statement_zh": Q(zh),
+        "statement_en": en,
+        "claim_type": ctype,
+        "source": {
+            "doc_id": DOC,
+            "source_file": SRC,
+            "source_span": {
+                "line_start": start,
+                "line_end": end,
+                "span_kind": "line" if start == end else "bounded",
+                "key_lines": key_lines,
+                "block_ids": blocks(start, end),
+                "chapter": CH,
+                "section": section,
+            },
+            "candidate_id": DOC + ":" + cand,
+        },
+        "confidence": "medium",
+        "consensus": "tentative",
+        "review_status": "source_backed",
+        "supported_by": supported,
+        "discussion_notes": Q(note),
+        "created": DATE,
+        "updated": DATE,
+    }
+
+
+rows = []
+
+rows.append(C(
+    "claim-1201", "cand-05-02", "interpretive_claim",
+    "青铜器失去礼制作用后并未被漆器、瓷器完全替代，而是转向日用，在较长时期继续演变，并出现汉代铜灯与奔马、唐代铜镜、宋代双龙洗、明代宣德炉等珍品。",
+    "After losing its ritual function, bronze was not wholly replaced by lacquerware or porcelain; it shifted toward daily use, continued to evolve over a long period, and produced fine objects such as Han bronze lamps and galloping horses, Tang mirrors, Song double-dragon basins and Ming Xuande censers.",
+    [T + "qingtong-liqi.md", T + "qingtongqi.md", T + "tianqi-lacquer.md", T + "qing-ci.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1642-L1647。原文列举汉代铜灯奔马、唐代铜镜、宋代双龙洗、明代宣德炉为例，强调礼器功能消退后的日用延续，而非品类被完全取代。",
+    1642, 1647, [1642, 1647], "3. 同一造物两向演化的情况"))
+
+rows.append(C(
+    "claim-1202", "cand-05-05", "interpretive_claim",
+    "同一造物渗入社会规范、伦理或宗教思想后会分化：冕服、缂丝、刺绣与名窑陶瓷等走向新路径，普通实用品仍沿自我生成路径前行；两向发展体现一般与经典造物的关系及设计史的多方向延伸。",
+    "When social norms, ethics or religious ideas enter a kind of artifact, it diverges: ceremonial dress, kesi, embroidery and famous-kiln ceramics take new paths, while ordinary practical goods continue along their own generative path; this two-directional development embodies the relation between ordinary and classic artifacts and the multi-directional extension of design history.",
+    [T + "mianfu-zhidu.md", T + "kesi.md", T + "qing-ci.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1651。原文以冕服、缂丝、刺绣品和陶瓷名窑艺术品为分化路径的例证，以普通服饰、纺织品、刺绣品和陶瓷品为自我生成路径的例证。",
+    1651, 1651, [1651], "3. 同一造物两向演化的情况"))
+
+rows.append(C(
+    "claim-1203", "cand-05-10", "interpretive_claim",
+    "化学成分分析显示春秋、西汉玻璃为钠钡玻璃，与西方钠钙玻璃截然不同，说明此期玻璃器绝大部分由中国制造，且已具规模、造型多样。",
+    "Chemical composition analysis shows that Spring and Autumn and Western Han glass was sodium-barium glass, entirely different from Western soda-lime glass, indicating that most glassware of this period was made in China and had already reached scale with diverse forms.",
+    [T + "glass.md", W + "wangwen-boli-bei.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1669。原文以越王句践、吴王夫差剑格镶嵌玻璃块与固始侯古堆玻璃珠为考古依据，并以战国璧、印、剑饰、蜻蜓眼及西汉玻璃璧、耳珰、带钩等说明造型多样。",
+    1669, 1669, [1669], "4. 几度沉浮起落的情况"))
+
+rows.append(C(
+    "claim-1204", "cand-05-11", "synthetic_claim",
+    "玻璃器屡经沉浮：春秋战国西汉发展，东汉魏晋衰落，隋唐再兴，唐之后转入低潮，元末明初博山出现作坊，清代恢复，近代设立大型工厂。",
+    "Glassware rose and fell repeatedly: it developed in the Spring and Autumn, Warring States and Western Han, declined in the Eastern Han and Wei-Jin, revived in Sui-Tang, fell into another low after the Tang, saw workshops appear at Boshan in the late Yuan and early Ming, recovered in the Qing, and acquired large modern factories in the modern era.",
+    [T + "glass.md", W + "wangwen-boli-bei.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1667-L1683。各段起伏依据考古发现、技术失传与萨珊玻璃输入、博山作坊与清代宫廷玻璃厂等叙述综合而成；这是长时段分期概括。",
+    1667, 1683, [1667, 1683], "4. 几度沉浮起落的情况"))
+
+rows.append(C(
+    "claim-1205", "cand-05-12", "interpretive_claim",
+    "生产力落后时，人们解决实际问题很可能回到被废弃的造物设计中寻找办法；20世纪70年代江南锯齿镰刀与古代齿镰、青铜锯镰的呼应即为一例。",
+    "When productive forces are limited, people solving practical problems may well return to abandoned artifact designs for solutions; the resonance between the serrated sickles that appeared in Jiangnan in the 1970s and ancient toothed sickles and bronze saw sickles is one example.",
+    [T + "iron-farm-tools.md", T + "yuanshi-nongju.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1688-L1690。原文以作者少年时代使用锯齿镰刀的体验与裴李岗齿刃石镰、青铜镰刀相对照；这是可能性判断，不是普遍规律。",
+    1688, 1690, [1688, 1690], "4. 几度沉浮起落的情况"))
+
+rows.append(C(
+    "claim-1206", "cand-05-13", "interpretive_claim",
+    "造物设计中的繁殖衍生是普遍现象，发生于材料、技术、内容形式各方面；造物的延续性说明不同物品并非完全隔绝，而与过去物品多有联系。",
+    "Reproduction and derivation are pervasive in artifact design and occur in materials, techniques, content and form; the continuity of artifacts shows that different objects are not wholly separate but retain many connections with past objects.",
+    [T + "chuantong-sheji.md", T + "yishu-shejishi.md", T + "leisi.md"],
+    "断言语义取 L1700。原文以石器→玉器、陶器→瓷器及农具、日用器具的衍生为例，说明同类衍生多于跨类衍生；claim 只保留普遍性与联系性判断。",
+    1700, 1700, [1700], "5. 一物衍生另一物的情况"))
+
+rows.append(C(
+    "claim-1207", "cand-05-16", "evaluative_claim",
+    "画像石随东汉终结而销声匿迹，作为汉代特有的设计现象，其起落快于其他设计艺术，是造物与时俱变的典型。",
+    "Pictorial stone relief vanished with the end of the Eastern Han; as a design phenomenon peculiar to the Han, its rise and fall were faster than those of other design arts, making it a model case of artifacts changing with the times.",
+    [T + "huaxiangshi.md", "04-knowledge/units/places/yinan-huaxiangshi-mu.md", "04-knowledge/units/places/nanyang-huaxiangshi-qu.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1717-L1723。原文同时指出画像砖延续到六朝、宋明清砖雕有其影子但材料工艺形式已不同；claim 保留画像石自身的快速起落判断。",
+    1717, 1723, [1717, 1723], "6. 断裂的情况"))
+
+rows.append(C(
+    "claim-1208", "cand-05-17", "interpretive_claim",
+    "指南车、记里鼓车、霹雳车、发石车等未延续下来，原因不是出现替代物，也不是它们非绝对必需，而是战乱和技术失传。",
+    "The south-pointing chariot, odometer chariot, thunderbolt cart and stone-throwing cart did not continue, not because substitutes appeared or because they were not absolute necessities, but because of war and the loss of techniques.",
+    [T + "zhinan-che.md", T + "jili-guche.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语汇取 L1725-L1727。原文先记张衡复制指南车在汉末战乱中散失，并列记里鼓车、霹雳车、发石车等；因果判断为作者所加。",
+    1725, 1727, [1725, 1727], "6. 断裂的情况"))
+
+rows.append(C(
+    "claim-1209", "cand-05-18", "synthetic_claim",
+    "造物设计的整体性突破大体有四个时期：新石器时期晚期、春秋战国时期、魏晋南北朝时期、宋元之间。",
+    "Integral breakthroughs in artifact design occurred in roughly four periods: the late Neolithic, the Spring and Autumn and Warring States period, the Wei-Jin and Northern-Southern dynasties, and the interval between Song and Yuan.",
+    [T + "yishu-shejishi.md", T + "chuantong-sheji.md", T + "qingtong-shidai.md", T + "painted-pottery.md"],
+    "断言语义取 L1735。原文分别以技术文化财富积累、政治变革与百家争鸣、民族融合与外来文化、文人审美与世俗文化商品经济说明四次整体突破；这是宏观分期。",
+    1735, 1735, [1735], "7. 突破的情况"))
+
+rows.append(C(
+    "claim-1210", "cand-05-19", "synthetic_claim",
+    "造物演化复杂而有序，这种有序化由经济、组织、个人三部分构成的动力结构实现。",
+    "Artifact evolution is complex yet ordered, and this ordering is realized through a dynamic structure composed of economy, organization and the individual.",
+    [T + "yishu-shejishi.md", T + "jia-ting-shou-gong-ye.md", T + "shougongye-hanghui.md", T + "baigong.md"],
+    "断言语义取 L1741。这是第六章的总纲；原文随后分论经济内外环境、家庭作坊与行会组织、工艺匠人历史命运。",
+    1741, 1741, [1741], "第六章 设计史运行的动力结构（导论）"))
+
+rows.append(C(
+    "claim-1211", "cand-05-23", "interpretive_claim",
+    "《考工记》所载工艺流程、生产协调、加工技术管理与规范制度，体现造物设计合理的经济运行思想；其造物设计原则实际上也是经济原则。",
+    "The craft processes, production coordination, technical management and normative institutions recorded in the Kaogongji embody a rational economic thinking in artifact design; its design principles are in effect economic principles.",
+    [B + "kaogongji.md", T + "guifanhua.md", T + "baigong.md", T + "gong-shang-shi-guan.md"],
+    "断言语义取 L1759。原文以审曲面势、妇功治丝麻、选材规划技术生产质检一整套制度说明提高效率、达到经济与社会效应的思路。",
+    1759, 1759, [1759], "一、造物艺术经济的内外环境"))
+
+rows.append(C(
+    "claim-1212", "cand-05-24", "interpretive_claim",
+    "社会消费能力来自物质生产的创造能力，造物生产发展的动力又来自不断增长的物质与精神消费要求；发达商品经济是“看不见的手”，造物与消费互为因果。",
+    "A society's consuming capacity comes from its material productive capacity, while the motive force of artifact production comes in turn from growing material and spiritual consumption demands; a developed commodity economy is the invisible hand, and artifact production and consumption are mutually causal.",
+    [T + "chuantong-sheji.md", T + "yishu-shejishi.md", T + "gongyi-meishu.md", T + "jia-ting-shou-gong-ye.md"],
+    "断言语义取 L1771-L1773。原文引《史记·货殖列传》与唐宋商品市场记述，提出造物与消费互为因果；这是理论性经济判断，不是统计回归结论。",
+    1771, 1773, [1771, 1773], "一、造物艺术经济的内外环境"))
+
+rows.append(C(
+    "claim-1213", "cand-05-25", "interpretive_claim",
+    "宋代造物在技术、规模、数量上超过汉唐，得益于繁荣的商品市场与增长的消费能力；元代大规模官营手工业与严格匠籍制造成劳资关系倒退，束缚商品经济，导致造物设计发展缓慢。",
+    "Song artifact production surpassed Han and Tang in technique, scale and output, benefiting from a flourishing commodity market and growing consuming capacity; the unprecedented large-scale state handicrafts and strict artisan-registration system of the Yuan reversed labor relations, constrained the commodity economy and slowed artifact design.",
+    [T + "qing-ci.md", T + "kesi.md", T + "guanying-shougongye.md", T + "shougong-gongchang.md"],
+    "断言语义取 L1775。原文以染织、陶瓷为最发达部门，并称元代匠籍制使工匠处于被奴役性质，怠工低效出逃时有发生；claim 保留宋元对比的因果解释。",
+    1775, 1775, [1775], "一、造物艺术经济的内外环境"))
+
+rows.append(C(
+    "claim-1214", "cand-05-26", "interpretive_claim",
+    "经典造物的更迭发展依靠政治力量与奢侈消费支撑，这种追求豪侈的高消费延续到明清，使经典造物绵绵不绝、经久不衰。",
+    "The replacement and development of classic artifacts were sustained by political power and luxury consumption; this pursuit of extravagant high consumption continued into the Ming and Qing and kept classic artifacts in continuous, enduring production.",
+    [T + "guanying-shougongye.md", T + "gongyi-meishu.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1779。原文引布罗代尔对明清中国宫廷奢侈与市井生活的观察，推断青铜、漆器、丝绸、金银器、画像石等进退演化与上层奢侈生活方式有关。",
+    1779, 1779, [1779], "一、造物艺术经济的内外环境"))
+
+rows.append(C(
+    "claim-1215", "cand-05-27", "interpretive_claim",
+    "造物的真正消费主体是普通民众；以生产日用品为主的家庭手工业剧增期，正是商品经济与造物艺术的繁荣期，而专为宫廷生产奢侈品的官营手工业垄断期，也是商品经济与造物艺术的衰落期。",
+    "The true consuming subject of artifacts is the ordinary people; periods when household handicraft producing daily goods expanded rapidly were periods of flourishing commodity economy and artifact art, while periods when state handicraft monopolized luxury production for the court were periods of decline.",
+    [T + "jia-ting-shou-gong-ye.md", T + "guanying-shougongye.md", T + "chuantong-sheji.md", T + "gongyi-meishu.md"],
+    "断言语义取 L1781。原文以民众生活需求扩大推动消费品日用化、为造物全面生产提供刺激为论据；这是相关性概括，不是逐期统计验证。",
+    1781, 1781, [1781], "一、造物艺术经济的内外环境"))
+
+rows.append(C(
+    "claim-1216", "cand-05-30", "interpretive_claim",
+    "家庭作坊并非“闭门而作”；其一家一户的封闭系统在横向合作与人口流动中扩展，促成造物活动面的扩展和多中心、多元化造物局面。",
+    "Household workshops were not simply closed-door operations; their household-scale closed systems expanded horizontally through cooperation and population movement, broadening the scope of artifact activity and producing a multi-centered, plural artifact landscape.",
+    [T + "jia-ting-shou-gong-ye.md", T + "shougong-gongchang.md", T + "shougongye-hanghui.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1799-L1806。原文以邻里亲属合作、浏阳夏布技艺传授、人口迁徙与坊刻书业扩散为例，说明横向扩展；claim 保留对“闭门而作”的修正。",
+    1799, 1806, [1799, 1806], "二、家庭作坊的历史合理性"))
+
+rows.append(C(
+    "claim-1217", "cand-05-32", "evaluative_claim",
+    "家庭作坊受造物规范约束较小、自由程度较大，技术功能上的突破与发挥更为突出，应是中国传统社会较佳的造物生产结构。",
+    "Household workshops were less constrained by artifact norms and enjoyed greater freedom, so technical and functional breakthroughs were more pronounced; they should be regarded as the better artifact-production structure in traditional Chinese society.",
+    [T + "jia-ting-shou-gong-ye.md", T + "guifanhua.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1808-L1815。原文以临淄、囊邑织花机、林洪改机、川船与吴越淮黄河船的地域适应为例，论证家庭作坊并非墨守成规；这是评价性判断。",
+    1808, 1815, [1808, 1815], "二、家庭作坊的历史合理性"))
+
+rows.append(C(
+    "claim-1218", "cand-05-33", "interpretive_claim",
+    "21世纪高科技与信息化为托夫勒“产销合一”思想提供条件，手工艺造物进入现代家庭；家庭手工业在遭受百余年否定后重新受到重视。",
+    "In the twenty-first century, high technology and informatization provide conditions for Toffler's idea of producer-consumer convergence, and craft artifact-making has entered modern households; after more than a century of negation, household handicraft is being valued again.",
+    [T + "jia-ting-shou-gong-ye.md", T + "xiandai-gongyi.md", T + "industrial-design.md", T + "sheji.md"],
+    "断言语义取 L1819。原文同时强调当代家庭造物与过去在本质意义上不同；claim 保留这一限定，不把复兴等同于传统家庭作坊的原样回归。",
+    1819, 1819, [1819], "二、家庭作坊的历史合理性"))
+
+rows.append(C(
+    "claim-1219", "cand-05-42", "interpretive_claim",
+    "历史上工艺匠人长期处于被奴役、被强制地位，这与封建制度及重本抑末国策有关；手工业受歧视造成设计史作者群读解的断裂。",
+    "Historically, craftsmen were long subjected to servitude and coercion, a condition tied to the feudal system and the policy of prioritizing agriculture and suppressing commerce; the discrimination against handicraft caused a rupture in the reading of design history's authorial group.",
+    [T + "baigong.md", T + "wule-gongming.md", T + "guanying-shougongye.md", T + "gong-shang-shi-guan.md"],
+    "断言语义取 L1837。原文前文详述周代食官、唐代不得别人诸色、明代匠户不得改籍、清代踹匠编甲连保等制度；claim 保留制度性歧视与史学读解断裂的判断。",
+    1837, 1837, [1837], "三、工艺匠人的历史命运"))
+
+rows.append(C(
+    "claim-1220", "cand-05-52", "historiographic_claim",
+    "设计史描述若远离当时造物的主体工匠，容易使历史过于单调；但资料散佚过甚或原本无记录，多数工艺匠人的光辉只能渐次消减以至湮没。",
+    "If design-history description departs from the craftsmen who were the main agents of artifact-making, history easily becomes oversimplified; yet when sources are badly scattered or no records were made at the time, most craftsmen's radiance can only fade and finally sink into oblivion.",
+    [T + "yishu-shejishi.md", T + "baigong.md", T + "wule-gongming.md", T + "huaxiangshi.md"],
+    "断言语义取 L1855-L1857。原文以印刷设计家集群、画像石工匠集群及卫改、操义等题记为例，说明少量工匠可复现，但大多数因资料阙失无法做到。",
+    1855, 1857, [1855, 1857], "三、工艺匠人的历史命运"))
+
+rows.append(C(
+    "claim-1221", "cand-05-53", "synthetic_claim",
+    "中国传统造物设计是波浪推进式发展史，形成三个阶段、四次突破；若延伸至现代则为第四阶段，当前正经历设计艺术史上的第五次突破。",
+    "The history of traditional Chinese artifact design is a wave-like advance forming three stages and four breakthroughs; extended into the modern era it becomes a fourth stage, and we are now experiencing the fifth breakthrough in design history.",
+    [T + "yishu-shejishi.md", T + "chuantong-sheji.md", T + "zaoqi-gongyehua.md", T + "industrial-design.md"],
+    "断言语义取 L1867。原文以原始至汉、魏晋至唐宋、元至明清为三阶段，以新石器晚期、春秋战国、魏晋、宋元之间为四次突破，并把现代延伸为第四阶段、当前为第五次突破。",
+    1867, 1867, [1867], "一、对设计史运行规律的认识"))
+
+rows.append(C(
+    "claim-1222", "cand-05-54", "historiographic_claim",
+    "造物设计是一个实体，其实现过程构成设计、生产、消费与价值取向的循环体系，各种造物实体按一定方式运动以达成自身存在目的。",
+    "Artifact design is an entity whose realization forms a circulatory system of design, production, consumption and value orientation; artifact entities move in determinate ways to achieve their own purposes of existence.",
+    [T + "yishu-shejishi.md", T + "chuantong-sheji.md", T + "jia-ting-shou-gong-ye.md", T + "gongyi-meishu.md"],
+    "断言语义取 L1888。原文以图表七展现这一循环过程，并把实用与礼乐功能置于核心、文化知识积累与技术形式延续置于外层；claim 是方法论模型概括。",
+    1888, 1888, [1888], "一、对设计史运行规律的认识"))
+
+rows.append(C(
+    "claim-1223", "cand-05-55", "evaluative_claim",
+    "经典之物的科技成就常被称道，但其脱离实用与生活、为少数人独占、无市场经济效应，不能促进造物设计正常发展；一般造物依百姓日常所需发展，经典中的天工意匠来自一般造物的智慧创造。",
+    "The technological achievements of classic objects are often praised, but they are detached from practical life, monopolized by a few and have no market-economic effect, so they cannot promote the normal development of artifact design; ordinary artifacts develop according to everyday needs, and the wondrous craftsmanship in classic objects derives from ordinary artifact wisdom.",
+    [T + "chuantong-sheji.md", T + "gongyi-meishu.md", T + "yishu-shejishi.md", T + "jia-ting-shou-gong-ye.md"],
+    "断言语义取 L1906-L1908。原文承认经典之物有科技成就，但从实用、消费与市场效应三方面否定其促进作用；这是评价性判断。",
+    1906, 1908, [1906, 1908], "一、对设计史运行规律的认识"))
+
+rows.append(C(
+    "claim-1224", "cand-05-56", "historiographic_claim",
+    "中国传统造物艺术的总体特征可归纳为八点：整合性、延续性、适应性、礼乐性、规范化、地域性、本元特征、变与统。",
+    "The overall characteristics of traditional Chinese artifact art can be summarized in eight points: integration, continuity, adaptability, ritual-musicality, standardization, regionality, origin-source character, and change-with-unity.",
+    [T + "benyuan-tezheng.md", T + "bian-yu-tong.md", T + "shiyingxing-sheji.md", T + "li-yue-zhidu.md", T + "guifanhua.md"],
+    "断言语义取 L1916-L1985。八点各有专节展开；claim 只保留总体特征的清单式概括，不把八点写成相互独立的因果机制。",
+    1916, 1985, [1916, 1985], "二、对中国传统设计艺术特质的认识"))
+
+rows.append(C(
+    "claim-1225", "cand-05-57", "evaluative_claim",
+    "就世界传统造物设计这一历史时段而言，中国传统造物设计属于整合特征最强的少数类型。",
+    "For the historical period of traditional artifact design worldwide, traditional Chinese artifact design is one of the few types with the strongest integrative character.",
+    [T + "yishu-shejishi.md", T + "chuantong-sheji.md", T + "gongyi-meishu.md"],
+    "断言语义取 L1920。原文以农耕文明早熟、六大区域造物组合重组、魏晋南北朝至隋唐对外来与民族造物形式的吸收融会为据；这是比较性评价。",
+    1920, 1920, [1920], "1. 整合性"))
+
+rows.append(C(
+    "claim-1226", "cand-05-59", "evaluative_claim",
+    "世界最初文明多未能延续，其造物设计也随之中断，唯中国造物艺术虽起伏不定而未出现那种断裂；可称中国传统设计艺术是工业革命前世界造物设计史上的成功典范。",
+    "Most of the world's earliest civilizations failed to continue, and their design arts were interrupted with them; only Chinese artifact art, though fluctuating, did not suffer that kind of rupture, so traditional Chinese design art may be called a successful model in world design history before the Industrial Revolution.",
+    [T + "chuantong-sheji.md", T + "yishu-shejishi.md", T + "qingtong-liqi.md", T + "qing-ci.md"],
+    "断言语义取 L1924-L1930。原文以西亚、埃及、印度、玛雅及古希腊罗马的断层作对比，并承认中国造物有起伏；claim 保留“未有过那种断裂”的限定。",
+    1924, 1930, [1924, 1930], "2. 延续性"))
+
+rows.append(C(
+    "claim-1227", "cand-05-60", "interpretive_claim",
+    "适应性造物从深层看，是人类构建人与自然、人与社会相互谐和的生存空间所做的努力。",
+    "At a deeper level, adaptive artifact-making is humanity's effort to build a living space in which humans, nature and society are mutually harmonious.",
+    [T + "shiyingxing-sheji.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1940。原文把适应分为适应现有知识技术经验与适应时势变化两种，并强调制用有节、社会协调；claim 保留其深层目的论表述。",
+    1940, 1940, [1940], "3. 适应性"))
+
+rows.append(C(
+    "claim-1228", "cand-05-61", "evaluative_claim",
+    "礼乐之道使造物纳入“礼”的规范，一方面促进造物设计迅速发展，另一方面又使造物受礼制约，造成尊道轻器、因循守成，影响后世造物设计。",
+    "The way of ritual and music brought artifacts under the norms of ritual: on one hand it promoted rapid design development, on the other it subjected artifacts to ritual constraint, producing a reverence for the Way and neglect of instruments and a conservative adherence to precedent that affected later design.",
+    [T + "li-yue-zhidu.md", T + "mianfu-zhidu.md", T + "gong-shang-shi-guan.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1944。原文从“藏礼于器”、周代礼乐之制、汉代衣冠之制凡器百用说明礼对造物的整合；claim 保留促进与制约并存的辩证评价。",
+    1944, 1944, [1944], "4. 礼乐性"))
+
+rows.append(C(
+    "claim-1229", "cand-05-63", "interpretive_claim",
+    "规范化、标准化并非现代工业化的产物；中国自新石器时代晚期已有规范雏形，秦汉至隋唐逐步制度化。发掘总结中国造物规范化经验，对现代转型与国际交往具有现实意义。",
+    "Standardization and normalization were not products of modern industrialization; China already had embryonic norms in the late Neolithic and gradually institutionalized them from Qin-Han through Sui-Tang. Recovering and summarizing this experience has practical significance for modern transformation and international exchange.",
+    [T + "guifanhua.md", B + "kaogongji.md", B + "yingzao-fashi.md", T + "wule-gongming.md"],
+    "断言语义取 L1956-L1964。原文以纺织、制陶、车船、建筑的准绳规矩、秦《工律》、汉代规范化完善、隋唐依样打制为据；claim 保留规范化非现代产物的判断。",
+    1956, 1964, [1956, 1964], "5. 规范化"))
+
+rows.append(C(
+    "claim-1230", "cand-05-66", "interpretive_claim",
+    "近代中国造物在外力逼迫下开始转型，但若无外部冲击，中国造物现代化转型的可能性也存在；李伯重研究认为清代后期江南轻工业发展的有利条件比近代早期英国更多。",
+    "Modern Chinese artifact-making began its transformation under external pressure, yet even without external shock the possibility of a modern transformation existed; Li Bozhong's research finds that late Qing Jiangnan offered more favorable conditions for light industry than early modern England.",
+    [T + "zaoqi-gongyehua.md", T + "industrial-design.md", T + "zhong-ti-xi-yong.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1988。原文以李伯重研究和中国传统造物生产水平及潜在能力为据，提出反事实可能性；claim 保留“可能性存在”，不写成必然自动转型。",
+    1988, 1988, [1988], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1231", "cand-05-67", "interpretive_claim",
+    "把不能变革归罪于家庭作坊的封闭、保守并不准确；20世纪50年代后家庭作坊手工生产几乎绝迹，现代化转型速度未见加快。",
+    "It is inaccurate to blame the failure to transform on the closed and conservative character of household workshops; after the 1950s household handicraft production nearly disappeared, yet the pace of modern transformation did not accelerate.",
+    [T + "jia-ting-shou-gong-ye.md", T + "zaoqi-gongyehua.md", T + "industrial-design.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1990。原文以此反例把讨论转向文化根源与外部工业生产环境，并明确说这是一个大题目、作者无力清晰揭示全部原因；claim 保留其反驳对象。",
+    1990, 1990, [1990], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1232", "cand-05-68", "factual_claim",
+    "中国造物设计现代化转型始于19世纪50、60年代，在洋务运动兴办近代新式工业中正式开始；到甲午时新式企业已达300多个，但洋务运动由政府控制，缺少商业资本活力，且很少涉及普通民用器物制造。",
+    "China's modern artifact-design transformation began in the 1850s and 1860s and formally started with the Self-Strengthening Movement's modern industry; by the Jiawu year new-style enterprises numbered over 300, but the movement was government-controlled, lacked the vitality of commercial capital and rarely touched ordinary civilian artifact manufacture.",
+    [E + "yangwu-yundong.md", T + "zaoqi-gongyehua.md", T + "industrial-design.md", E + "jiawu-haizhan.md"],
+    "断言语义取 L1999-L2001。原文给出时间、企业数量与政府控制、军工矿冶交通偏向等具体判断；数字按来源记录，未作独立统计复核。",
+    1999, 2001, [1999, 2001], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1233", "cand-05-69", "factual_claim",
+    "据统计，1912年全国20749家工厂中使用机器生产者仅363家，占1.75%；1936年有31.1%的工厂实现了机器生产。",
+    "According to statistics, of 20,749 factories nationwide in 1912 only 363 used machine production, 1.75 percent of the total; by 1936, 31.1 percent of factories had adopted machine production.",
+    [T + "zaoqi-gongyehua.md", T + "industrial-design.md", I + "shanghai-jiqi-zhibuju.md", I + "jinling-jiqiju.md"],
+    "断言语义取 L2007。数字与比例按来源引述记录；claim 不推断未列出的行业分布或地区差异。",
+    2007, 2007, [2007], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1234", "cand-05-70", "historiographic_claim",
+    "张道一认为，当代设计艺术的发展被生产上的四个矛盾所掩盖：原材料质量与供应、工艺技术加工水平、经济与生产信息灵通性、生产管理体制先进性。",
+    "Zhang Daoyi holds that the development of contemporary design art is obscured by four contradictions in production: the quality and supply of raw materials, the level of craft and technical processing, the availability of economic and production information, and the advanced character of production management.",
+    [P + "zhang-daoyi.md", T + "industrial-design.md", T + "zaoqi-gongyehua.md", T + "xiandai-gongyi.md"],
+    "候选原记为 source_claim，但 source_claim 不是合法 claim 类型；本行按“转述具名学者的史学诊断”映射为 historiographic_claim。断言语义取 L2009，内容明确归属于张道一，不作为作者本人已验证的结论。",
+    2009, 2009, [2009], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1235", "cand-05-71", "interpretive_claim",
+    "中国造物艺术的发展不只取决于内部因素，还受外部生产环境是否有利的制约；对传统设计的转型而言，后者更是关键因素。",
+    "The development of Chinese artifact art depends not only on internal factors but also on whether the external production environment is favorable; for the transformation of traditional design, the latter is the more critical factor.",
+    [T + "zaoqi-gongyehua.md", T + "industrial-design.md", T + "chuantong-sheji.md", T + "xiandai-gongyi.md"],
+    "断言语义取 L2011。原文前文以原材料、技术、信息、管理体制四类矛盾说明外部生产环境，claim 保留作者对内外因权重的判断。",
+    2011, 2011, [2011], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1236", "cand-05-72", "interpretive_claim",
+    "传统社会官营手工业的独占格局既扼杀民间手工业，又抑制商品市场；重本抑末政策与重道轻器思想中，与其说是轻器，不如说是重器，重奢侈无用之器。",
+    "The monopolistic pattern of state handicraft in traditional society both stifled folk handicraft and suppressed the commodity market; within the policy of prioritizing agriculture and suppressing commerce and the ideology of valuing the Way over instruments, it was less a neglect of instruments than a valuing of instruments, specifically luxury and useless ones.",
+    [T + "guanying-shougongye.md", T + "gong-shang-shi-guan.md", T + "gongyi-meishu.md", T + "chuantong-sheji.md"],
+    "断言语义取 L2013。原文以宫廷官僚缙绅贮藏珍宝金银、营建豪华别墅园林、资金被不实用器物消耗说明“重奢侈无用之器”；这是对“重道轻器”的反讽性重释。",
+    2013, 2013, [2013], "三、对设计现代化艰难性的历史思考"))
+
+rows.append(C(
+    "claim-1237", "cand-05-76", "interpretive_claim",
+    "以元代王祯为节点上下推展，可呈现一个印刷设计家集群；中国印刷设计史的框架由此成型。",
+    "Taking the Yuan-dynasty Wang Zhen as a nodal point and extending upward and downward reveals a cluster of printing designers; the framework of Chinese printing-design history took shape in this way.",
+    [P + "wang-zhen.md", P + "bi-sheng.md", P + "hu-zheng-yan.md", B + "shizhuzhai-huapu.md", B + "luoxuan-biangu-jianpu.md"],
+    "断言语义取 L1841-L1846。原文上推毕昇、王永从与蒋辉李十娘等刻工，下推黄鏻、胡正言、吴发祥及明清书坊；claim 保留以人物集群构建印刷设计史框架的史学主张。",
+    1841, 1846, [1841, 1846], "三、工艺匠人的历史命运"))
+
+rows.append(C(
+    "claim-1238", "cand-05-77", "interpretive_claim",
+    "官营手工业居高临下支配民间手工业，为专制体制与官僚集团服务，使造物设计向奢侈倾斜、消耗社会资源，本质上排斥积极变革，最终成为造物发展的阻力。",
+    "State handicraft dominated folk handicraft from above and served the autocratic system and bureaucratic groups, tilting artifact design toward luxury and consuming social resources; in essence it resisted positive change and ultimately became a drag on artifact development.",
+    [T + "guanying-shougongye.md", T + "gong-shang-shi-guan.md", T + "gongyi-meishu.md", T + "chuantong-sheji.md"],
+    "断言语义取 L1900。原文同时指出官营衰落会扩大民营空间，但对造物发展起重大作用的仍是大量家庭作坊；claim 保留官营作为阻力的总体判断。",
+    1900, 1900, [1900], "一、对设计史运行规律的认识"))
+
+rows.append(C(
+    "claim-1239", "cand-05-78", "interpretive_claim",
+    "地域风格的形成除地理自然条件外，还与中国社会特殊结构有关；血缘、地缘、业缘相连，通过地缘整合血缘与业缘形成地域性造物特征，但血缘纽带未破，家族势力仍起决定作用。",
+    "The formation of regional styles depends not only on natural geography but also on China's distinctive social structure; blood, locality and occupation were linked, and locality integrated blood and occupational ties into regional artifact characteristics, yet blood ties were not broken and clan power remained decisive.",
+    [T + "shougongye-hanghui.md", T + "jia-ting-shou-gong-ye.md", T + "chuantong-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L1968。原文以彩陶半坡马家窑、玉器良渚红山、《考工记》郑刀宋斤鲁削吴越之剑及陶瓷漆器刺绣家具的地域性为例；claim 保留社会结构解释。",
+    1968, 1968, [1968], "6. 地域性"))
+
+rows.append(C(
+    "claim-1240", "cand-05-79", "synthetic_claim",
+    "中国设计艺术的现代转型在外力作用下进行，百余年突起、中断、几经沉浮，既有延误也取得经验；现代型设计结合高科技与高信息化，但并非与过去完全隔断，传统在现代的地位仍需追问。",
+    "The modern transformation of Chinese design art proceeded under external pressure; over more than a century it surged, broke off and fluctuated repeatedly, suffering delays while also gaining experience. Modern design combines high technology and high informatization but is not wholly cut off from the past, and the place of tradition in modernity still demands inquiry.",
+    [T + "industrial-design.md", T + "xiandai-gongyi.md", T + "chuantong-sheji.md", T + "yishu-sheji.md", T + "yishu-shejishi.md"],
+    "断言语义取 L2017-L2027。原文以三条编号判断收束全书：外力作用下的转型、对实现现代化的认识与信心、传统在现代的地位；claim 保留结论的开放性问题，不写成已完成转型。",
+    2017, 2027, [2017, 2027], "三、对设计现代化艰难性的历史思考"))
+
+out = ROOT / "_ll_ll5a_rows.json"
+out.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+print("rows", len(rows))
+print("links", sum(len(r["supported_by"]) for r in rows))
+print("distinct", len({x for r in rows for x in r["supported_by"]}))
+from collections import Counter
+print("types", dict(Counter(r["claim_type"] for r in rows)))

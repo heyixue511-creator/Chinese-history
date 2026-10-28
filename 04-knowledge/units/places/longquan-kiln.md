@@ -67,20 +67,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "龙泉窑是 B 维度下石灰碱釉与粉青、梅子青的技术代表，也是宋元外销瓷数量最大的青瓷产区（D 维度的市场与港口条件、E 维度的海外流通）。其与哥窑的关系又牵动“五大名窑”的构成。Theme/Topic 均未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md
+    role: geographical_context
+    primary: true
+    scope_note: "宋元南方青瓷主干产区；哥窑与弟窑关系的争议入口"
+hierarchy_scope_note: "宋元南方青瓷主干产区；哥窑与弟窑关系的争议入口"
 ---
 
 ## 描述
@@ -118,12 +126,10 @@ hierarchy_scope_note: "龙泉窑是 B 维度下石灰碱釉与粉青、梅子青
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 同时是“釉技术样本”与“外销样本”：粉青、梅子青是石灰碱釉的工艺成果，温州、泉州与木浦沉船是其流通证据。它还是“哥窑问题”的入口——名窑分类与传说考辨的边界在此最清楚。可支持未来的青瓷谱系与海外贸易类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaoxi-mingyao-yaoye-zuzhi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 宋元南方青瓷主干产区；哥窑与弟窑关系的争议入口
 ## 相关知识元
 
 `places/yue-kiln.md` 是被龙泉窑接替的前身（田自秉、高丰、赵农三册均以越窑衰落为起点），`terms/mise-porcelain.md` 为越窑的产品条目；`places/jingdezhen-kiln.md` 与 `places/ding-kiln.md`、`places/ru-kiln.md`、`places/jun-kiln.md` 同属宋代窑系序列；哥窑尚无独立 KU，其“是否官窑”的分歧暂记于本条“验证状态”，属研究债务。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

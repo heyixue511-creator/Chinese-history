@@ -1,0 +1,12 @@
+cand-03-70 create 04-knowledge/units/persons/zhao-wulingwang.md
+cand-03-84 create 04-knowledge/units/persons/ganjiang.md
+cand-03-113 create 04-knowledge/units/persons/li-bing.md
+cand-03-115 create 04-knowledge/units/persons/zheng-guo.md
+cand-03-117 create 04-knowledge/units/persons/ximen-bao.md
+cand-04-135 create 04-knowledge/units/persons/sun-wu.md
+cand-04-139 create 04-knowledge/units/persons/lv-buwei.md
+cand-04-03 create 04-knowledge/units/terms/yi-bi-qian.md
+cand-04-130 create 04-knowledge/units/terms/huan-qian.md
+cand-04-149 create 04-knowledge/units/terms/jin-ban.md
+cand-03-86 create 04-knowledge/units/terms/dugout-canoe.md
+cand-03-87 create 04-knowledge/units/terms/plank-boat.md
