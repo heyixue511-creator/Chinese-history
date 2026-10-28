@@ -46,19 +46,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "旗袍是 E 维度下近代女装改良的代表条目，其礼装规定与满汉服制属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e6-nvzhuang-jiancai-yu-mingming.md
+    role: term_anchor
+    primary: true
+    scope_note: "旗袍是 E.6.1 的核心形制锚点，承担族属与命名两说、清代满汉互动与近代紧腰身形制；其礼装规定与满汉服制归 D.2，面料纹样归 B.2，本条不重复。"
+hierarchy_scope_note: "旗袍是 E.6.1 的核心形制锚点，承担族属与命名两说、清代满汉互动与近代紧腰身形制；其礼装规定与满汉服制归 D.2，面料纹样归 B.2，本条不重复。"
 ---
 
 ## 描述
@@ -93,10 +101,10 @@ hierarchy_scope_note: "旗袍是 E 维度下近代女装改良的代表条目，
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近代女装改良的集中条目，上接清代满汉服制，下接近代商业广告与月份牌图像。可支持未来的近代服装改良与商业图像类 Topic。当前只到 Dimension。
+- primary_theme: E.6（近代女装与身体改装）
+- topic_memberships: topics/e6-nvzhuang-jiancai-yu-mingming.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: E.6.1 的核心形制锚点，承担族属与命名两说、清代满汉互动与近代紧腰身形制；其礼装规定与满汉服制归 D.2，面料纹样归 B.2，本条不重复。
 
 ## 相关知识元
 

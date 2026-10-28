@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - D
-hierarchy_scope_note: "《中国工艺美术史》编写完成是 A 维度下中国工艺美术史学科自主著述的节点，其学院教学背景归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/a1-gongyi-meishushi-tongshi-shuxie.md
+    role: evidence_event
+    primary: true
+    scope_note: "A.1.1 主挂载：以 1982 年冬田自秉在北京作后记、书稿编写完成为锚点，连接 1950 年代准备课程、1957 年中止、三中全会后复归的学科史过程；学院教学背景归 D 次维度。"
+hierarchy_scope_note: "本条是 A.1.1 的事件锚点，承担《中国工艺美术史》从准备、中断到完成的学科史节点；其学院教学背景归 D 次维度。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "《中国工艺美术史》编写完成是 A 维度下中
 - primary_domain: chinese-design-history
 - primary_dimension: A
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《中国工艺美术史》编写完成是 A 维度下中国工艺美术史学科自主著述的节点，其学院教学背景归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.1（工艺美术史通史书写），role 为 evidence_event，primary 为 true
+- role_in_theme: evidence_event
+- scope_note: 本条是 A.1.1 的事件锚点，承担《中国工艺美术史》从准备、中断到完成的学科史节点；其学院教学背景归 D 次维度。
 
 ## 相关知识元
 

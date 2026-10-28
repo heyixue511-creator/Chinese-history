@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "尼雅遗址为 E 维度下东西造物交流与佛教艺术线索条目。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/e2-fojiao-dongchuan-yu-zaoxiang.md
+    role: geographical_context
+    primary: true
+    scope_note: "E.2.1 主挂载：以 1959 年新疆民丰尼雅遗址出土东汉腊缬棉布（蓝色印花、半身裸体人物像）为锚点；人物身份只有‘有学者认为’一说，织物尺寸与染料检测未载。"
+hierarchy_scope_note: "本条是 E.2.1 的早期织物图像样本，承担‘东西外来文化因素如何在同一织物上并置’的线索；其蜡染与印花工艺归 B 次维度。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "尼雅遗址为 E 维度下东西造物交流与佛教艺
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 尼雅遗址为 E 维度下东西造物交流与佛教艺术线索条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-fojiao-dongchuan-yu-zaoxiang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 本条是 E.2.1 的早期织物图像样本，承担“东西外来文化因素如何在同一织物上并置”的线索；其蜡染与印花工艺归 B 次维度。
 
 ## 相关知识元
 

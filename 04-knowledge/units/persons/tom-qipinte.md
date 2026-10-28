@@ -26,20 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
   - D
-hierarchy_scope_note: "本条是 E 维度清代漆艺跨文化影响的条目，漆家具的材料与纹饰属 B 维度，风格流行与市场属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: boundary_case
+    primary: true
+    scope_note: "E.2.2 边界样本：以 18 世纪英国以中国漆家具为蓝本、得名‘齐平特时代’与福建漆、龙花草佛像塔纹饰为锚点；这是中国工艺在域外的接受，不是外来技术传入中国。"
+hierarchy_scope_note: "本条是 E.2.2 的反向接受样本，承担‘中国漆艺如何进入欧洲家具风格’的线索；其材料与纹饰归 B、风格流行与市场归 D 次维度。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "本条是 E 维度清代漆艺跨文化影响的条目，
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 E 维度清代漆艺跨文化影响的条目，漆家具的材料与纹饰属 B 维度，风格流行与市场属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 本条是 E.2.2 的反向接受样本，承担“中国漆艺如何进入欧洲家具风格”的线索；其材料与纹饰归 B、风格流行与市场归 D 次维度。
 
 ## 相关知识元
 

@@ -32,19 +32,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "孝明帝服饰改革是 E 维度下北朝服饰汉化与南北文化互动的节点，其服制形制归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.5
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e5-beiwei-hanhua-fushi-gaizhi.md
+    role: evidence_event
+    primary: true
+    scope_note: "孝明帝服饰改革是 E.5.2 的第二次改制，承担“帽上著笼冠，裤上著朱衣”的杂糅样式与“羽仪服式，悉如魏法”；其服制形制归 B，本条不重复。"
+hierarchy_scope_note: "孝明帝服饰改革是 E.5.2 的第二次改制，承担“帽上著笼冠，裤上著朱衣”的杂糅样式与“羽仪服式，悉如魏法”；其服制形制归 B，本条不重复。"
 ---
 
 ## 描述
@@ -70,10 +78,10 @@ hierarchy_scope_note: "孝明帝服饰改革是 E 维度下北朝服饰汉化与
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 孝明帝服饰改革是 E 维度下北朝服饰汉化与南北文化互动的节点，其服制形制归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.5（服饰改制与族群身份）
+- topic_memberships: topics/e5-beiwei-hanhua-fushi-gaizhi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.5.2 的第二次改制，承担“帽上著笼冠，裤上著朱衣”的杂糅样式与“羽仪服式，悉如魏法”；其服制形制归 B，本条不重复。
 
 ## 相关知识元
 

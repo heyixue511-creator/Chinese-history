@@ -22,19 +22,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "香港是 E 维度下西方文化与技术参照条目；城市现代化与制度层面接到 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.3
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md
+    role: geographical_context
+    primary: true
+    scope_note: "E.3.2 的城市尺度样本：以“为中国城市的现代化建设提供了一种西方文化和技术的参照”为唯一功能定位，图 10-14 中银大厦为唯一建筑实例；不作租界城市或城市史叙述。"
+hierarchy_scope_note: "香港是 E.3 下“中国对西方形式的命名”的城市尺度条目，承担把城市整体命名为参照系的操作；城市现代化与制度层面接到 D 维度，本条目不作城市史展开。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "香港是 E 维度下西方文化与技术参照条目；
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是跨文化参照型城市的唯一样本，也是本批城市条中唯一以 E 维度为主的条目。与上海、天津的租界型、深圳的新兴型、西安与北京的古都型并列。因来源仅一句，当前只到 Dimension，且不宜据此展开任何城市史叙述。
+- primary_theme: E.3（跨文化形式的命名与类型化）
+- topic_memberships: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 本 KU 是 E.3.2 的城市尺度样本，以“西方文化和技术的参照”为唯一功能定位，与上海、天津的租界型、深圳的新兴型、西安与北京的古都型并列。来源仅一句加一条图题，不宜据此展开城市史叙述。
 
 ## 相关知识元
 

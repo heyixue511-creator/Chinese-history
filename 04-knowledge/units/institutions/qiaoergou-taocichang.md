@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "桥儿沟陶瓷厂是 B 维度下延安解放区陶瓷生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+primary_theme: B.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b4-jiefangqu-riyong-gongyi-shengchan.md
+    role: key_institution
+    primary: true
+    scope_note: "B.4.2 主挂载：以 1944 年《解放日报》报道的石膏模型、窑炉改造、近 200 种产品、白瓷杯碟与本地瓷土为锚点；工厂组织与边区工业政策归 D 次维度，本批不另设 D 挂载。"
+hierarchy_scope_note: "桥儿沟陶瓷厂是 B.4.2 的解放区陶瓷生产样本，观察石膏模型与窑炉改造如何增加花样、提高温度并转向白瓷；工厂组织与边区工业政策归 D 次维度，不改变 B 主维度。"
 ---
 
 ## 描述
@@ -68,10 +76,10 @@ hierarchy_scope_note: "桥儿沟陶瓷厂是 B 维度下延安解放区陶瓷生
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下延安解放区陶瓷生产的条目，可与子长瓷窑、建华瓷厂、磁州陶瓷研究所并置，观察战时边区陶瓷从日用器到白瓷的技术改进。当前只到 Dimension。
+- primary_theme: B.4（传统工艺的近代生产与转型）
+- topic_memberships: B.4.2（解放区日用工艺生产），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 B.4.2 的延安解放区陶瓷生产样本，与延安玻璃厂并置，观察战时边区陶瓷从日用器到白瓷的技术改进；子长瓷窑、建华瓷厂、磁州陶瓷研究所只在相关知识元中并置，不并入本挂载。
 
 ## 相关知识元
 

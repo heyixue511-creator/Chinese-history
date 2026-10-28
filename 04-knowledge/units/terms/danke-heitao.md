@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "蛋壳黑陶是 B 维度下龙山文化陶器类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: term_anchor
+    primary: true
+    scope_note: "蛋壳黑陶是 B.5.2 的龙山陶系代表，承担 0.3 毫米胎壁、精细淘洗与轮制盛行的特征。"
+hierarchy_scope_note: "蛋壳黑陶是 B.5.2 的龙山陶系代表，承担 0.3 毫米胎壁、精细淘洗与轮制盛行的特征。"
 ---
 
 ## 描述
@@ -79,11 +87,10 @@ hierarchy_scope_note: "蛋壳黑陶是 B 维度下龙山文化陶器类型的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 蛋壳黑陶是 B 维度下龙山文化陶器类型的条目。轮制工艺的一般流程与快轮的机械原理只在核心内容作背景引用，不另立工艺条目。高足镂孔黑陶杯尚未成条，其尺寸与出土信息只作本条图版记录。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 蛋壳黑陶是 B.5.2 的龙山陶系代表，承担 0.3 毫米胎壁、精细淘洗与轮制盛行的特征。
 ## 相关知识元
 
 与羼和料、新石器时代同属制陶技术谱系；蛋壳黑陶的薄胎与快轮成型直接相关。陶土淘洗与羼和料是两道不同的坯料处理，`terms/` 下的羼和料条目记后者，本条只引高丰“精细淘洗”一语。高足镂孔黑陶杯（日照东海峪，图 1-20）尚未成条。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

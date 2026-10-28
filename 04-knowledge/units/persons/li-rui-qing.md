@@ -31,7 +31,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -43,7 +43,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 D 维度清末设计教育的人物锚点，其图画手工课程属 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d4-xuetang-tuhua-shougong-jiaoyu.md
+    role: key_person
+    primary: true
+    scope_note: "D.4.1 首批：以 1906 年呈准学部、在两江师范学堂设立图画手工科为锚点；督学与学堂监督两说并列，图画手工课程归 C 次维度。"
+hierarchy_scope_note: "李瑞清是 D.4.1 的清末设计教育人物锚点；其图画手工课程归 C 次维度，师范制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "本条是 D 维度清末设计教育的人物锚点，其
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度清末设计教育的人物锚点，其图画手工课程属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.1 学堂图画手工与工艺教育（key_person，主挂载）
+- role_in_theme: key_person
+- scope_note: 本条是 D.4.1 的清末设计教育人物锚点；以 1906 年呈准学部、在两江师范学堂设立图画手工科为锚点。职衔“督学”与“学堂监督”两说并列；生卒、籍贯与任职起止未载。
 
 ## 相关知识元
 

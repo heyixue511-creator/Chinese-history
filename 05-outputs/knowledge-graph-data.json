@@ -24,11 +24,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "1851 年英国万国博览会是 E 维度下现代设计诞生的跨文化节点，其钢铁玻璃建筑技术归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.1 的博览会展示史起点，承担‘现代设计如何以世界博览会为展示场合’的线索；其钢铁玻璃建筑技术归 B 次维度。"
     },
     {
       "id": "events:1972-1976-dingci-huifu",
@@ -173,11 +178,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国—意大利工业设计周是 E 维度下跨国工业设计交流的节点，其工业设计学科归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的双边设计交流样本，承担‘中意工业设计周如何以城市活动形式落地’的线索；其工业设计学科归 D 次维度。"
     },
     {
       "id": "events:1999-design-education-forum",
@@ -263,11 +273,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "第三届 CAD 国际会议是 E 维度下计算机技术与工业设计结合的节点，其工业设计方法归 B/D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的计算机辅助设计国际会议样本，承担‘CAD 如何以国际会议议题进入工业设计方法’的线索；其工业设计方法归 B/D 次维度。"
     },
     {
       "id": "events:2000-china-craft-art-exhibition",
@@ -383,11 +398,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "纺织印染技术外传是 E 维度下中国技术跨文化传播的节点，其工具与工艺形制归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的技术外传样本，承担‘中国纺织印染技术如何随丝绸外销向外扩散’的线索；其工具与工艺形制归 B 次维度。"
     },
     {
       "id": "events:anshi-zhiluan",
@@ -412,12 +432,17 @@
       "path": "events/anshi-zhiluan.md",
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
-      "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_dimension": "A",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "安史之乱是 E 维度下唐代由盛转衰的分期事件，主要用于解释中晚唐工艺与地方窑业格局的变化。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "安史之乱在 A.1.3 中作 `historical_context`：它不是独立叙述对象，而是田自秉与夏燕靖 2016 切分唐后期至五代十国的断代锚点；中晚唐工艺与地方窑业格局的具体内容归 B，本条不重复。"
     },
     {
       "id": "events:banama-saihui",
@@ -443,11 +468,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "巴拿马赛会是 E 维度下中国工艺参加国际博览会、进入跨文化展示体系的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.1 的中国参展与获奖样本，承担‘中国工艺如何进入国际博览会评价体系’的线索；其雕漆工艺本体归 B 次维度。"
     },
     {
       "id": "events:bauhaus-exhibition-hongkong-1989",
@@ -473,11 +503,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "包豪斯展览是 E 维度下现代设计观念跨境传播的节点，其设计教育思想归 A/D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的观念展览样本，承担‘包豪斯现代主义如何经香港展进入中文设计界视野’的线索；其设计教育思想归 A/D 次维度。"
     },
     {
       "id": "events:beijing-ten-great-buildings",
@@ -622,11 +657,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "“'97 中国艺术大展·中国当代艺术设计展”是 E 维度下中国当代设计整体展示与理论讨论的节点，其设计门类归 C/B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的全国展示与理论讨论样本，承担‘中国当代设计如何以国家展与报告会整体亮相’的线索；其设计门类归 C/B 次维度。"
     },
     {
       "id": "events:computer-art-symposium-1995",
@@ -652,11 +692,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "首届中国计算机艺术研讨会是 E 维度下数字技术与艺术设计结合的节点，其设计教育组织归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的数字技术会议样本，承担‘计算机艺术如何以全国会议形式进入设计界’的线索；其设计教育组织归 D 次维度。"
     },
     {
       "id": "events:craft-recovery-transformation-1950s",
@@ -802,11 +847,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "大生产运动是 D 维度下解放区经济自给与生产组织动员的节点，其染织、陶瓷等工艺兴起归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-jiefangqu-gongyi-shengchan-zhengce.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.5.4 解放区工艺生产政策的运动本体，负责“方针—动员—工艺门类兴起”的政策层；具体工厂与产品归 B.4.2，报道渠道由同一 Topic 的《解放日报》条承担。"
     },
     {
       "id": "events:dayu-flood-control",
@@ -982,11 +1032,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "佛教传入是 E 维度下外来宗教艺术进入中国造物体系的节点，其造像与织物工艺归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-fojiao-dongchuan-yu-zaoxiang.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.1 的传入通道证据，承担‘佛教如何以造像与织物进入中国造物体系’的线索；其造像与织物工艺归 B 次维度。"
     },
     {
       "id": "events:founding-ceremony-tiananmen-decoration-1949",
@@ -1162,11 +1217,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "胡服骑射是 E 维度下战国时期赵国引进北方游牧民族服饰的制度改革，用于说明服饰功能与跨文化采纳。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e5-hufu-qishe-gongneng-yu-liyi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "胡服骑射是 E.5.1 的主事件，承担“以便用为由改制”的过程与《史记·赵世家》引文；其战役史与赵国军事史不在本条范围内。"
     },
     {
       "id": "events:icsid-1989-nagoya",
@@ -1317,11 +1377,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "甲午海战是 E 维度下晚清对外战争与近代化受挫的节点，其洋务制度后果归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-yangwu-yundong-yu-ziqiang-shibai.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "甲午海战是 E.4.3 的失败判定节点，承担“自强路径被判定失败”的军事标志；其洋务制度后果归 D 维度。"
     },
     {
       "id": "events:jin-casting-legal-cauldron",
@@ -1376,12 +1441,17 @@
       "path": "events/jingkang-zhibian.md",
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
-      "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_dimension": "A",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "靖康之难是 E 维度下宋代政权南迁与设计地理格局变化的分期事件，其官窑与织造制度属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "靖康之难在 A.1.3 中作 `historical_context`：它是夏燕靖 2016 切分北宋／南宋的断代锚点，并带来南宋亡年 1276 与田自秉 1279 的异文；官窑与织造制度归 D，本条不重复。"
     },
     {
       "id": "events:kangxi-abolish-loom-quota-1712",
@@ -1557,11 +1627,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "马葛尔尼使华是 E 维度下清中叶中西通商冲突与外交礼仪争议的节点，其闭关锁国政策归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.1 的博览会前史对照，承担‘工业产品进入宫廷但未形成展示制度’的线索；其通商与外交政策归 D 次维度。"
     },
     {
       "id": "events:mashan-yihao-mu-sichupin",
@@ -1677,11 +1752,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "南洋劝业会是 D 维度下清末实业展览与产品评奖制度的条目，也是 `places/nanjing.md` 清末会场的制度背景。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-gongyiju-quanyehui-gongyi-pingjia.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "南洋劝业会是 D.5.2 的清末全国工艺展评样本，观察分类、评奖与实业展示制度；原 KU 未列次维度，本批不新增；会场空间不并入。"
     },
     {
       "id": "events:national-advertising-design-exhibition-1982",
@@ -1917,11 +1997,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "鸦片战争是 E 维度下中国设计现代化的分界事件，同时通过通商口岸、海关与官办企业构成 D 维度的制度起点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "鸦片战争是 E.4 下“冲击与分期”的起点事件，承担六册共用的断代锚点；其通商口岸、海关与官办企业面向归 D 维度，本条不重复制度史。"
     },
     {
       "id": "events:pangeng-move-to-yin",
@@ -1946,12 +2031,17 @@
       "path": "events/pangeng-move-to-yin.md",
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
-      "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_dimension": "A",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "盘庚迁殷是 E 维度下商代都邑迁移与商后期分期的锚点事件。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "盘庚迁殷在 A.1.3 中作 `historical_context`：它是田自秉切分商代前期与后期的断代锚点，三册给出三个不同年代；殷墟遗存与手工业作坊的具体内容归 B，本条不重复。"
     },
     {
       "id": "events:party-third-plenum",
@@ -2367,11 +2457,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "2010 年上海世界博览会是 E 维度下以国际博览会为尺度的现代设计进程节点，其设计教育学科线索归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.1 的当代主办样本，承担‘中国从参展者转为主办者’的预期线索；其设计教育与学科线索归 D 次维度。"
     },
     {
       "id": "events:shanghai-shougongye-shouxian-dahui",
@@ -2547,11 +2642,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "太平天国是 D 维度下农民政权改革工艺组织与工艺政策的节点，其工艺生产与品种归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-taiping-gongyi-zuzhi-zhengce.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "太平天国是 D.5.1 的政权与政策背景条目，承载“益民”工艺观、奖励发明与恢复生产；其工艺生产与品种归 B 次维度，具体组织由诸匠营、百工衙两个机构条承担。"
     },
     {
       "id": "events:tang-ban-jinyin-pingtuo",
@@ -2757,11 +2857,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "仙人洞陶器出土是 B 维度下中国陶器起源的时间锚点，用于说明新石器时代早期制陶的出现。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "仙人洞陶器出土是 B.5.1 的起源证据事件，承担“最早陶器资料”的表述与年代；遗址细节另见地理条目。"
     },
     {
       "id": "events:xiao-wen-gai-zhi",
@@ -2787,11 +2892,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "孝文改制是 E 维度下北方政权主动采纳汉制服饰的跨文化事件，其官制与姓氏改革属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e5-beiwei-hanhua-fushi-gaizhi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "孝文改制是 E.5.2 的第一次改制，承担改姓与“群臣皆服汉魏衣冠”；其官制与姓氏制度史归 D，本条只取服饰措施。"
     },
     {
       "id": "events:xiaomingdi-fushi-gaige",
@@ -2817,11 +2927,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "孝明帝服饰改革是 E 维度下北朝服饰汉化与南北文化互动的节点，其服制形制归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e5-beiwei-hanhua-fushi-gaizhi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "孝明帝服饰改革是 E.5.2 的第二次改制，承担“帽上著笼冠，裤上著朱衣”的杂糅样式与“羽仪服式，悉如魏法”；其服制形制归 B，本条不重复。"
     },
     {
       "id": "events:xiaowendi-jiangquan-nongsang",
@@ -2877,11 +2992,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "孝文帝迁都洛阳是 E 维度下北方游牧政权进入中原、转向农业文明的跨文化节点，其官制与都城制度归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/e5-beiwei-hanhua-fushi-gaizhi.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "孝文帝迁都洛阳在 E.5.2 中作 `historical_context`，只为服饰改制提供政治地理背景；其都城制度与规划归 D，本条不构成改制证据链的一环。"
     },
     {
       "id": "events:xinhai-geming",
@@ -2907,11 +3027,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "辛亥革命是 E 维度下清末民初政治转折与近代工商业发展的分界事件。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "辛亥革命是 E.4.4 的体制转换事件，承担“晚清之后政体改变”的一端；其民国设计教育与机构归 D.4、D.5，本条不重复。"
     },
     {
       "id": "events:xinwenhua-yundong",
@@ -3087,11 +3212,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "洋务运动是 E 维度下晚清引进西方技术、开启近代工业与设计转型的枢纽事件。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-yangwu-yundong-yu-ziqiang-shibai.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "洋务运动是 E.4.3 的主事件，承担“自强路径”的实施与评价分歧；其船政局、制造局、招商局等机构史归 D.1，本条不重复。"
     },
     {
       "id": "events:yanyou-fuse",
@@ -3147,11 +3277,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "伊夫·圣·洛朗回顾展是 E 维度下西方时装设计与中国设计界互动的节点，其服装设计本体归 B/C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的时装设计展览样本，承担‘西方时装设计如何进入中国美术馆展示体系’的线索；其服装设计本体归 B/C 次维度。"
     },
     {
       "id": "events:yu-casts-nine-cauldrons",
@@ -3297,11 +3432,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "张骞出使西域是 E 维度下陆上丝绸之路开辟的节点，其贸易与市场组织属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的陆路通道样本，承担‘丝路开通如何为器物与技术流动提供通道’的线索；其贸易与市场组织归 D 次维度。"
     },
     {
       "id": "events:zhenghe-voyages",
@@ -3327,11 +3467,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "郑和下西洋是 E 维度下中国瓷器跨文化流通与“中国风”形成的节点，其船队与官营船厂属 D、B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的海路通道样本，承担‘中国瓷器如何进入亚非跨文化流通与展示体系’的线索；其船队与官营船厂归 B/D 次维度。"
     },
     {
       "id": "events:zhongguo-gongyi-meishupin-baihuajiang",
@@ -3387,11 +3532,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "《中国工艺美术史》编写完成是 A 维度下中国工艺美术史学科自主著述的节点，其学院教学背景归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的事件锚点，承担《中国工艺美术史》从准备、中断到完成的学科史节点；其学院教学背景归 D 次维度。"
     },
     {
       "id": "events:zhou-enlai-handicraft-1972",
@@ -3514,11 +3664,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "百工衙是 D 维度下太平天国工艺生产组织的条目，其各衙所辖工艺归 B 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-taiping-gongyi-zuzhi-zhengce.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "百工衙是 D.5.1 的太平天国工艺生产组织样本，观察按工业门类细分官署的分工方式；各衙所辖工艺归 B 次维度，不改变 D 主维度。"
     },
     {
       "id": "institutions:baoshi",
@@ -3633,11 +3788,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "北平国立艺专是 D 维度下近代美术教育机构的条目，其图案系与实用美术教学归 C；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "北平国立艺专是 D.4.2 的图案教育机构样本；图案系与实用美术教学归 C 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:bintieju",
@@ -3787,11 +3947,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 D 维度下商业美术设计社团的锚点，其商业美术与广告设计内容归 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-tuananguan-shetuan-zhiyehua.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "中国商业美术作家协会是 D.4.3 的商业美术社团样本；以会员规模、展览与出版观察职业组织化，商业美术内容归 C 次维度。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:chuangong",
@@ -3944,11 +4109,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "德昌花边庄是 E 维度下近代中西工艺技术传入的作坊条目，其经营与生产组织归 D、花边工艺归 B；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的技艺传入样本，承担‘传教士如何把意大利花边技艺带入山东并本地化’的线索；其经营与生产组织归 D、花边工艺归 B 次维度。"
     },
     {
       "id": "institutions:dian-shizhai",
@@ -4129,11 +4299,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "荷兰东印度公司是 E 维度下中西贸易与设计互动的机构条目，其贸易制度归 D、外销瓷装饰归 C；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的贸易机构样本，承担‘贸易公司如何改变中国瓷器外销规模与命名’的线索；其贸易制度归 D、外销瓷装饰归 C 次维度。"
     },
     {
       "id": "institutions:fujian-chuanzhengju",
@@ -4223,11 +4398,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "福州马尾船政学堂绘事院是 D 维度下近代设计教育起点的机构条目，其造船与制图技术背景归 B；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "福州马尾船政学堂绘事院是 D.4.1 的洋务绘图教育样本；其造船与制图技术背景归 B 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:getz-bros",
@@ -4318,11 +4498,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "广东工艺局是 D 维度下清末地方工艺生产主管机构的条目，其外销网络归 E、刺绣工艺归 B；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-gongyiju-quanyehui-gongyi-pingjia.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "广东工艺局是 D.5.2 的清末地方工艺行政样本，观察地方官府如何组织工艺品生产与外销；外销网络归 E、刺绣工艺归 B，均不改变 D 主维度。"
     },
     {
       "id": "institutions:guangdong-nanhai-tengchang",
@@ -4558,11 +4743,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "国立杭州艺术专科学校是 D 维度下近代美术教育机构的条目，其图案系与实用美术教学归 C；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "杭州国立艺专是 D.4.2 的图案教育机构样本；图案系与实用美术教学归 C 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:hannuowei-gongye-sheji-luntan",
@@ -4588,11 +4778,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "汉诺威工业设计论坛是 E 维度下国际设计评奖机构的条目，其产品设计对象归 C、企业参赛与市场推广归 D；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.1.2 的国际评奖制度样本，承担‘国际设计评奖如何介入中国产品设计合法性’的线索；其产品设计对象归 C、企业参赛与市场推广归 D 次维度。"
     },
     {
       "id": "institutions:hengyuan-zhahuachang",
@@ -4752,11 +4947,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "湖南瓷业公司是 B 维度下近代瓷业生产的机构条目，其官商合办与学校制度归 D、新法仿制与博览会获奖归 E；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b4-jindai-ciye-gongsi-ciye-gailiang.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "湖南瓷业公司是 B.4.1 的“学校—公司—产品”一体化样本，观察传统产瓷区以新式公司、机械室与化学室生产釉下花瓷；学校与官商合办归 D、博览会获奖归 E，均不改变 B 主维度。"
     },
     {
       "id": "institutions:hunan-sixian-shuju",
@@ -4817,11 +5017,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "江南船政局工艺学堂是 D 维度下近代工艺教育机构的条目，其造船与工艺技术背景归 B；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "江南船政局工艺学堂是 D.4.1 的洋务工艺教育样本；其造船与工艺技术背景归 B 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:jiangnan-zhizao-zongju",
@@ -4941,11 +5146,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "建华瓷厂是 B 维度下解放区陶瓷生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b4-jiefangqu-riyong-gongyi-shengchan.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 B.4.2 的解放区陶瓷厂样本，负责“细瓷与色釉品种”这一技术层；同时来源把它与延安玻璃厂、桥儿沟陶瓷厂、子长瓷窑、磁州研究所并置，组织与政策线索归 D 次维度，本批不另设 D 挂载。"
     },
     {
       "id": "institutions:jiankanglu-zhiranju",
@@ -5127,11 +5337,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 D 维度下解放区陶瓷研究机构的条目，其陶瓷工艺生产归 B 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-jiefangqu-gongyi-yanjiu-jigou.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.5.3 的解放区陶瓷研究机构样本，只有一句来源，用于登记“生产恢复—研究机构”的制度位置；陶瓷工艺归 B 次维度，不改变 D 主维度。"
     },
     {
       "id": "institutions:jiguge",
@@ -5217,11 +5432,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "景德镇瓷业公司是 B 维度下近代瓷业改良的机构条目，其公司制度与陶业学堂归 D、机器制瓷与煤窑试验归 E；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b4-jindai-ciye-gongsi-ciye-gailiang.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "景德镇瓷业公司是 B.4.1 的近代瓷业公司样本，以“本厂守旧、分厂试验”的双轨制度观察机器制瓷与煤窑试验；公司制度与陶业学堂归 D、技术来源归 E，均不改变 B 主维度。"
     },
     {
       "id": "institutions:jinling-jiqiju",
@@ -5439,11 +5659,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 D 维度下清末设计教育机构的锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "两江师范学堂是 D.4.1 的师范教育机构样本；其图画手工科把绘图、图案与手工纳入师范课程。原 KU 未列次维度，本批不新增；secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:lingjinyuan",
@@ -5811,11 +6036,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "桥儿沟陶瓷厂是 B 维度下延安解放区陶瓷生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b4-jiefangqu-riyong-gongyi-shengchan.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "桥儿沟陶瓷厂是 B.4.2 的解放区陶瓷生产样本，观察石膏模型与窑炉改造如何增加花样、提高温度并转向白瓷；工厂组织与边区工业政策归 D 次维度，不改变 B 主维度。"
     },
     {
       "id": "institutions:qin-gongshi-gongguan",
@@ -6243,11 +6473,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 D 维度下近代设计事务所的锚点，其染织纹样业务属于 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-tuananguan-shetuan-zhiyehua.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "尚美图案馆是 D.4.3 的图案事务所样本；以事务所承接图案设计并训练人员，体现设计教育与职业化的合并。原 KU 未列次维度，本批不新增；secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "institutions:shangwu-yinshuguan",
@@ -7065,11 +7300,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "延安玻璃厂是 B 维度下解放区玻璃生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/b4-jiefangqu-riyong-gongyi-shengchan.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "延安玻璃厂是 B.4.2 的解放区玻璃生产样本，观察原料本地化与坩埚制作如何支撑日用器生产；工厂组织与边区工业政策归 D 次维度，不改变 B 主维度。"
     },
     {
       "id": "institutions:yandao-muguan",
@@ -7410,11 +7650,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国蚕丝公司是 D 维度下抗战胜利后国民党控制蚕丝业的条目；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d1-jindai-fangzhi-qiye.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.1.2 的官僚资本蚕丝企业样本，与纺织建设公司并列为抗战胜利后垄断的两个例子；来源只有一句，不写成公司史，也不推断其与中支蚕丝组织的继承关系。"
     },
     {
       "id": "institutions:zhongguo-fangzhi-jianshe-gongsi",
@@ -7440,11 +7685,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国纺织建设公司是 D 维度下抗战胜利后官僚资本垄断纺织业的条目；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d1-jindai-fangzhi-qiye.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.1.2 的官僚资本纺织企业样本，用于对照民族资本企业；来源只有一句，只承载“四大家族垄断江南较大棉纺织业”这一判断，不写成公司史。"
     },
     {
       "id": "institutions:zhongguo-gongyi-meishu-xuehui",
@@ -7875,11 +8125,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "诸匠营是 D 维度下太平天国工艺生产组织的条目，其各营所辖工艺归 B 维度；当前只到 Dimension。"
+      "role_in_theme": "key_institution",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-taiping-gongyi-zuzhi-zhengce.md",
+          "role": "key_institution"
+        }
+      ],
+      "hierarchy_scope_note": "诸匠营是 D.5.1 的太平天国工艺生产组织样本，观察军制编组与专业分工；各营所辖工艺归 B 次维度，不改变 D 主维度。"
     },
     {
       "id": "institutions:zhujingju",
@@ -8559,15 +8814,21 @@
       "secondary_domains": [],
       "primary_dimension": "C",
       "primary_theme": "C.2",
-      "secondary_themes": [],
+      "secondary_themes": [
+        "D.4"
+      ],
       "role_in_theme": "key_person",
       "topic_memberships": [
         {
           "topic": "topics/c2-shuzhuangjia-qunti-fengmian-sheji.md",
           "role": "key_person"
+        },
+        {
+          "topic": "topics/d4-tuananguan-shetuan-zhiyehua.md",
+          "role": "key_person"
         }
       ],
-      "hierarchy_scope_note": "陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计是本 Topic 的风格路径样本，染织图案与设计教育归 B、D。现有 B.1/B.2/D.1/D.2 均不承接书籍装帧，故 secondary_themes 为空。本次为首批 Topic 挂载。"
+      "hierarchy_scope_note": "陈之佛是 C.2 下以图案装饰入书装的设计家，同时以尚美图案馆创办人身份次挂载 D.4.3；书籍装帧主挂载仍为 C.2.2，染织图案归 B，1950 年代云锦研究与 1961 年通史编写只作边界。"
     },
     {
       "id": "persons:cheng-miao",
@@ -9013,11 +9274,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "冯桂芬是 E 维度下晚清自强思想的人物条目；其制度改革主张属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-shiyi-changji-wenben-yu-renwu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "冯桂芬是 E.4.2 的人物锚点，承担“自强”从学习到超越的三段论；其制度改革主张属 D 维度。"
     },
     {
       "id": "persons:feng-ru",
@@ -9284,11 +9550,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "高丰是 A 维度下中国设计史学科转换期研究者的条目：本条记其学历、任教机构、著作与 2004 年时的学术兼职，实质内容是设计史学的学科脉络与研究者养成；其设计教育任职同时属 D 维度旁证。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的人物锚点，承担“从工艺美术到设计艺术”学科转换期研究者养成的线索；其设计教育任职属 D 次维度。"
     },
     {
       "id": "persons:ge-hong",
@@ -10543,11 +10814,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "鉴真是 E 维度下唐代工艺技术跨海传播的枢纽人物。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的工匠流动样本，承担‘唐代工艺技术如何随僧人东渡传入日本’的线索；唐代工匠制度背景归 D 次维度。"
     },
     {
       "id": "persons:jin-meisheng",
@@ -10636,11 +10912,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "约翰·古腾堡是 E 维度下西方活字印刷人物的条目；其印刷技术归 C 维度观察。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "boundary_case",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "boundary_case"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的西方对照样本，承担‘中国活字与西方金属活字的时代对照’的线索；其印刷技术归 C 次维度，不写入传入中国的事实。"
     },
     {
       "id": "persons:kang-youwei",
@@ -10665,11 +10946,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "康有为是 E 维度下中西画学融合主张的人物条目；其画学观念属 A 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "康有为是 E.4.4 的知识取向样本，承担“西学取用的方向”这一端；其画学观念属 A 维度，本条不作设计主张。"
     },
     {
       "id": "persons:king-wen-of-zhou",
@@ -11202,11 +11488,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史学者与本书著者的人物锚点，其学位教育背景归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的人物锚点，承担“造物艺术史”研究路径与学位论文→著作的学科史线索；其学位教育背景归 D 次维度。"
     },
     {
       "id": "persons:li-madou",
@@ -11232,11 +11523,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "利玛窦是 E 维度下明清中西器物与技术交流的早期节点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的器物传入样本，承担‘传教士如何以自鸣钟等欧洲新式器物进入宫廷’的线索；其技术知识归 B、知识网络归 D 次维度。"
     },
     {
       "id": "persons:li-mubai",
@@ -11296,11 +11592,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 D 维度清末设计教育的人物锚点，其图画手工课程属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "李瑞清是 D.4.1 的清末设计教育人物锚点；其图画手工课程归 C 次维度，师范制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
     },
     {
       "id": "persons:li-si",
@@ -11628,11 +11929,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "林则徐是 E 维度下晚清中西冲突的人物条目；其官员身份与禁烟政策属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-shiyi-changji-wenben-yu-renwu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "林则徐是 E.4.2 的人物锚点，承担“冲击起因中的中方角色”；其官员身份与禁烟政策属 D 维度，本条目不作传记展开。"
     },
     {
       "id": "persons:liu-bingzhong",
@@ -12496,11 +12802,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "南怀仁是 E 维度下清初西学东渐传教士的条目；其可能涉及的技术知识归 B 维度观察。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的最低证据层样本，承担‘传教士作为西学传入载体被提及’的线索；其可能涉及的技术知识归 B 次维度。"
     },
     {
       "id": "persons:ni-yunlin",
@@ -12642,12 +12953,17 @@
       "path": "persons/pan-geng.md",
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
-      "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_dimension": "A",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "盘庚是 E 维度下商代都邑迁移与王朝分期的关键人物，其迁都决策同时属 A 维度历史叙事。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "盘庚在 A.1.3 中作 `historical_context`：其设计史功能是作为迁殷这一断代锚点的行为者，并承担《竹书纪年》《史记》《尚书》三处引文的年代参照；迁都的军政过程归 D，本条不重复。"
     },
     {
       "id": "persons:pang-xunqin",
@@ -12673,11 +12989,20 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "庞薰琹是 D 维度下中国近代设计教育制度化的枢纽人物：从 1930 年代的工商美术事务所与课程，到 1950 年代中央工艺美术学院的筹建，再到 1957 年被定为“反党集团”首脑，制度线索完整。同时以 C 维度（装饰艺术与书籍装帧）与 B 维度（工艺美术研究组织）为副。Theme/Topic 均未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md",
+          "role": "key_person"
+        },
+        {
+          "topic": "topics/d4-tuananguan-shetuan-zhiyehua.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "庞薰琹是 D.4 设计教育制度化的枢纽人物：D.4.2 主挂载其艺专工商美术课程，D.4.3 次挂载其上海事务所与社团活动；C/B 次维度保留。1950 年代中央工艺美术学院与 1957 年遭遇只作边界，不纳入本批。"
     },
     {
       "id": "persons:peng-junbao",
@@ -12945,11 +13270,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "容闳在本册以两项具体事务出现：1863 年赴美采买“制造机器”的机器（我国直接向西方购进的第一批工业机器）、建议选派幼童出国留学。二者都是洋务的**制度与人才通道**，归 D 维度（制度）。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d1-yangwu-jungong-chuanbo.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.1.1 洋务军工企业的机器采购与人才通道样本；采买与留美两项均以曾国藩为主语，容闳为执行人与建议者，不能写成洋务全局的组织者。"
     },
     {
       "id": "persons:ruan-bi",
@@ -14066,11 +14396,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "汤若望是 E 维度下清初西学东渐传教士的条目；其可能涉及的技术知识归 B 维度观察。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的最低证据层样本，承担‘传教士作为西学传入载体被提及’的线索；其可能涉及的技术知识归 B 次维度。"
     },
     {
       "id": "persons:tang-tianchi",
@@ -14190,11 +14525,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "田自秉是 A 维度下中国工艺美术史写作的人物条目；其任教机构与课程建设属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的人物锚点，承担工艺美术通史写作者的学科史线索；其任教机构与课程建设属 D 次维度，不改变 A 主维度。"
     },
     {
       "id": "persons:tom-qipinte",
@@ -14220,11 +14560,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 E 维度清代漆艺跨文化影响的条目，漆家具的材料与纹饰属 B 维度，风格流行与市场属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "boundary_case",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "boundary_case"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的反向接受样本，承担‘中国漆艺如何进入欧洲家具风格’的线索；其材料与纹饰归 B、风格流行与市场归 D 次维度。"
     },
     {
       "id": "persons:wan-chao-chen",
@@ -14800,11 +15145,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "魏源是 E 维度下晚清学习西方思想的人物条目；其变法主张与制度改革指向属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-shiyi-changji-wenben-yu-renwu.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "魏源是 E.4.2 的核心人物，承担“师夷长技”口号的提出；其变法主张与制度改革指向属 D 维度。"
     },
     {
       "id": "persons:wen-yiduo",
@@ -15823,11 +16173,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度史学理论提出者的人物条目，其理论用于解释造物设计转型的部分属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的理论提出者锚点，承担‘轴心时代概念由谁提出’的线索；其理论用于解释造物设计转型的部分归 B 次维度。"
     },
     {
       "id": "persons:ye-lingfeng",
@@ -16006,11 +16361,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "曾国藩是 D 维度下洋务运动与近代工业制度建立的核心人物。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d1-yangwu-jungong-chuanbo.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.1.1 洋务军工与造船企业的组织者样本，与李鸿章、左宗棠同属“官员办局厂”序列；其幼童留美建议触及 D.4 教育，本批不另设次挂载。"
     },
     {
       "id": "persons:zeng-liansong",
@@ -16649,11 +17009,22 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
-      "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "张之洞是 D 维度下中国近代设计教育制度化的关键推手：癸卯学制把工艺与设计纳入国家学制，三江师范图画手工科培养出第一批师资。同时也是“中体西用”这一设计思想框架的命名者，属 A 维度边界。Theme/Topic 均未 materialize。"
+      "primary_theme": "D.4",
+      "secondary_themes": [
+        "D.1"
+      ],
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md",
+          "role": "key_person"
+        },
+        {
+          "topic": "topics/d1-jindai-fangzhi-qiye.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "张之洞以“设计教育进入国家学制”为主挂载 D.4.1：癸卯学制图稿绘画科、湖北工艺学堂、三江师范学堂与《劝学篇》工艺教育主张；同时以 1892 年湖北织布纺纱官局组织者身份次挂载 D.1.2，形成“学制—学堂—企业”的制度链条。"
     },
     {
       "id": "persons:zhangpengchuan",
@@ -16827,11 +17198,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "赵农是 A 维度下中国设计史教材编写者的条目；来源只提供作者自述与研究年限，学科脉络材料薄。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "key_person",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "key_person"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的人物锚点，承担艺术设计史教材编写者的自述线索；来源只给作者自述与研究年限，confidence 维持 low。"
     },
     {
       "id": "persons:zhao-wulingwang",
@@ -17861,11 +18237,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "金坛鳖墩西周墓是 B 维度下西周原始瓷器器形细节最完整的一处墓葬落点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "1975 年 29 件原始瓷与满釉、青黄釉特征"
     },
     {
       "id": "places:changsha-chumuqun",
@@ -18190,11 +18571,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "德清窑是 B 维度下六朝青瓷与黑瓷兼烧的窑口条目；黑釉含铁量与呈色的对应关系归 terms/black-porcelain.md。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "六朝四大瓷窑系统之一；青瓷兼烧黑瓷的技术意义"
     },
     {
       "id": "places:ding-kiln",
@@ -18400,11 +18786,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "法门寺塔基地宫是 B 维度下唐代佛教造物、金银器与玻璃器条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "只取 1987 年地宫出土秘色瓷确认实物一环"
     },
     {
       "id": "places:fenghao",
@@ -18579,11 +18970,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "高阳是 D 维度下近现代棉纺织产地的兴衰条目，其织造工艺归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-jiefangqu-gongyi-shengchan-zhengce.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.5.4 的地方纺织产地样本，承担“停产—复兴”的地方实践层；同一来源也用于官僚资本垄断的叙述，但本条不据此改挂 D.1.2。"
     },
     {
       "id": "places:gongyi-shiku-si",
@@ -19331,11 +19727,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "均山窑是 B 维度下六朝青瓷窑址群条目；窑炉属 terms/longyao.md。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "宜兴均山六朝青瓷窑群与 1200℃ 还原焰产品"
     },
     {
       "id": "places:juyongguan",
@@ -19420,11 +19821,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "孔望山摩崖造像为 E 维度下佛教传入与造像艺术条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-fojiao-dongchuan-yu-zaoxiang.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.1 的早期造像地点样本，承担‘东汉佛教艺术品如何被识别为佛教传入标志’的线索；其造像工艺归 B 次维度。"
     },
     {
       "id": "places:lelang",
@@ -20024,11 +20430,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "尼雅遗址为 E 维度下东西造物交流与佛教艺术线索条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-fojiao-dongchuan-yu-zaoxiang.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.1 的早期织物图像样本，承担‘东西外来文化因素如何在同一织物上并置’的线索；其蜡染与印花工艺归 B 次维度。"
     },
     {
       "id": "places:olduvai-gorge",
@@ -20083,11 +20494,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "瓯窑是 B 维度下六朝至唐青瓷窑系条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "瓯江流域青瓷与缥瓷的窑口对应"
     },
     {
       "id": "places:pingshan-zhongshanguo-wangmu",
@@ -20596,11 +21012,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "上虞窑址是 B 维度下东汉专门瓷窑与黑瓷起源的窑业落点。三国两晋的窑址数量归 places/yue-kiln.md，窑炉形制归 terms/longyao.md，本条只记东汉一段与帐子山黑瓷。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "东汉窑址群、龙窑 1300℃ 与帐子山黑瓷的断代意义"
     },
     {
       "id": "places:shanhaiguan",
@@ -20656,11 +21077,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "绍兴富盛战国窑址是 B 维度下战国原始青瓷与印纹硬陶同窑共烧、托珠叠烧的窑业落点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "五窑叠压、原始青瓷与印纹硬陶同烧、托珠叠烧痕迹"
     },
     {
       "id": "places:shenzhen",
@@ -20956,11 +21382,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "屯溪西周墓是 B 维度下西周原始瓷器最重要的一处墓葬落点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "evidence_event",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "evidence_event"
+        }
+      ],
+      "hierarchy_scope_note": "西周原始瓷 70 余件的墓葬材料与瓷豆为主的器类"
     },
     {
       "id": "places:wuguancun-tomb",
@@ -21166,11 +21597,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "婺州窑是 B 维度下六朝至唐青瓷窑口条目；化妆土的工艺定义归 terms/huazhuangtu.md。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "金衢地区青瓷；以化妆土应对胎色泛红"
     },
     {
       "id": "places:xi-yuan",
@@ -21256,11 +21692,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "香港是 E 维度下西方文化与技术参照条目；城市现代化与制度层面接到 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/e3-wailai-jianzhu-leixing-yu-xianggang.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "香港是 E.3 下“中国对西方形式的命名”的城市尺度条目，承担把城市整体命名为参照系的操作；城市现代化与制度层面接到 D 维度，本条目不作城市史展开。"
     },
     {
       "id": "places:xiangtangshan-shiku",
@@ -21345,11 +21786,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "仙人洞遗址是 B 维度下陶器起源与史前造物遗址条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "仙人洞遗址是 B.5.1 的地理背景条目，承担遗址位置、年代与两册地名不一致的记录。"
     },
     {
       "id": "places:xianyang",
@@ -21552,11 +21998,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "邢窑是 B 维度下唐代白瓷体系与“南青北白”格局的窑口锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "唐代北方白瓷代表与南青北白；窑址是否确认的异说"
     },
     {
       "id": "places:xingan-dayangzhou-site",
@@ -22001,11 +22452,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "越窑作为陶瓷生产地点进入 B 维度；其唐代贡瓷与宫廷制度内容也可支持 D 维度，但当前只选定 B 为暂定主导航。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "曹娥江流域青瓷窑系与会稽窑、越州窑、秘色窑三名"
     },
     {
       "id": "places:yuezhou-kiln",
@@ -22031,11 +22487,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "岳州窑是 B 维度下唐代青瓷窑口与匣钵装烧工艺条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "geographical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "geographical_context"
+        }
+      ],
+      "hierarchy_scope_note": "唐代青瓷；最早用匣钵与胎轻釉白的特征（单源 low）"
     },
     {
       "id": "places:yungang-shiku",
@@ -22540,11 +23001,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "彩陶制作工艺是 B 维度下新石器时代彩陶成形、打磨、绘彩与烧成工序的条目，其纹样与器形归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "彩陶制作工艺是 B.5.1 的绘彩与烧成工序条目，承担手捏、打磨、绘纹、入窑；彩陶的类型与分布归 B.5.2。"
     },
     {
       "id": "procedures:chao-gang",
@@ -22719,11 +23185,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "吹釉法是 B 维度下明代景德镇瓷器施釉工序的条目，其白釉品种与彩瓷装饰归陶瓷品种相关条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "明代吹釉工具与操作，兼及淘炼、利刀修坯与 1310℃"
     },
     {
       "id": "procedures:ci-huazi",
@@ -23018,11 +23489,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "叠烧是 B 维度下陶瓷装烧工序的条目，与覆烧同属定窑窑具与装烧技术谱系。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "金代定窑砂圈叠烧与内底刮釉一圈的做法"
     },
     {
       "id": "procedures:diezhu-jishu",
@@ -23258,11 +23734,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "封窑技术是 B 维度下新石器时代晚期陶器还原烧成工序的条目，其陶色与器类归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "封窑技术是 B.5.1 的烧成工艺条目，承担还原焰成灰陶、控温成黑陶与窑炉火口火膛的改进。"
     },
     {
       "id": "procedures:fenshi-fa",
@@ -23348,11 +23829,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "覆烧法是 B 维度下北宋定窑及景德镇装烧工序的条目，其窑具与瓷器口沿特征归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "北宋中期定窑覆烧、芒口缺陷与景德镇仿定"
     },
     {
       "id": "procedures:gong-hua",
@@ -24067,11 +24553,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "六朝青瓷装饰六法是 B 维度下六朝青瓷表面装饰工序的条目，其器形与纹样题材归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "六朝青瓷压印、刻花、堆贴、塑饰、雕镂、釉彩六法"
     },
     {
       "id": "procedures:liujin",
@@ -24184,11 +24675,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "轮制法是 B 维度下新石器时代陶器成形工序的条目，其器形与纹饰归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "轮制法是 B.5.1 的成形工艺条目，承担慢轮修整至快轮制陶的分期、提拉成形与器形规整的效果。"
     },
     {
       "id": "procedures:ming-changcheng-qiangti-gouzhu",
@@ -24363,11 +24859,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "泥条盘筑法是 B 维度下史前至先秦陶器成形工艺条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "泥条盘筑法是 B.5.1 的成形工艺条目，承担大型器物易变形的限制；几何印纹硬陶的成形争议在此登记。"
     },
     {
       "id": "procedures:nian-ya",
@@ -25827,11 +26328,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "支圈覆烧是 B 维度下北宋定窑始创、南宋传至景德镇等窑的装烧工序条目，其窑具与瓷器质量归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "南宋中期支圈覆烧、瓷土支圈与最多叠 32 个"
     },
     {
       "id": "procedures:zhiding-zhishao",
@@ -25857,11 +26363,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "支钉支烧法是 B 维度下晚唐至宋瓷器装烧工序的条目，与覆烧、叠烧同属窑具与装烧技术谱系。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "秘色瓷与汝窑的满釉支烧及支钉痕"
     },
     {
       "id": "procedures:zhitao",
@@ -25887,11 +26398,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "制陶是 B 维度下新石器时代陶器成器工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "制陶是 B.5.1 的材料生成与工序链条目，承担“黏土—水—火”与拌泥至制器的流程；陶器起源的推测亦在此。"
     },
     {
       "id": "procedures:zhuanlun-paizifa",
@@ -27547,11 +28063,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 E 维度下晚清西器东传文献的锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-shiyi-changji-wenben-yu-renwu.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "《海国图志》是 E.4.2 的文献锚点，承担“师夷”从口号转为仿造清单的文本环节；其器物技术原理归 B.1。"
     },
     {
       "id": "publications:han-shu",
@@ -27906,11 +28427,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "D",
-      "primary_theme": "",
+      "primary_theme": "D.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 D 维度解放区报刊的文献条目，社论所涉纺织与陶瓷生产属 A、B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/d5-jiefangqu-gongyi-shengchan-zhengce.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 D.5.4 的宣传报道渠道样本，负责“报刊社论与工厂报道”这一层；社论所涉纺织技术归 B，史学文本属性归 A，均不改变 D 主维度。"
     },
     {
       "id": "publications:jiefangjun-wenyi",
@@ -28203,11 +28729,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "《经行记》是 E 维度下唐代中外工艺交流的文献条目，其工匠身份与官方出使背景属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的文献样本，承担‘唐代工艺工匠曾到国外传艺’的转引证据；其工匠身份与官方出使背景归 D 次维度。"
     },
     {
       "id": "publications:jinwen-bian",
@@ -28831,11 +29362,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下中国工艺美术通史写作的文献锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的书目记录，承担 1985 年两部工艺美术通史并置样本的作用；因只有参考书目一行，role 取 supporting_source，confidence 维持 low。"
     },
     {
       "id": "publications:lubanjing",
@@ -30992,11 +31528,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下中国工艺美术通史写作的文献锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的书目记录，承担田自秉本 1985 年首版的时间锚点；因只有参考书目一行，role 取 supporting_source，confidence 维持 low。"
     },
     {
       "id": "publications:tiangong-kaiwu",
@@ -31169,11 +31710,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下中国工艺美术通史写作的文献锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的书目记录，承担 1990 年代工艺美术通史并置样本的作用；因只有参考书目一行，role 取 supporting_source，confidence 维持 low。"
     },
     {
       "id": "publications:wang-renxu-qieyun",
@@ -32488,11 +33034,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 E 维度下明末西学机械著作的条目，其机械技术面向归 B 维度，传教士知识网络归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.3 的文献传入样本，承担‘西方机械知识如何以图说形式进入中国’的线索；其机械技术面向归 B、传教士知识网络归 D 次维度。"
     },
     {
       "id": "publications:yue-ji",
@@ -32668,11 +33219,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史学术史与学位论文的文献锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的学位论文锚点，承担“造物艺术史”路径与博士论文→著作的学科史线索；只有后记一段，confidence 维持 medium、role 取 supporting_source。"
     },
     {
       "id": "publications:zhongguo-baozhuang",
@@ -32726,11 +33282,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度史学著作的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "supporting_source",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "supporting_source"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的框架来源著作，承担‘大历史观出自何种史学著作’的线索；其具体设计史应用见 terms/dashiguan.md，不在此重复。"
     },
     {
       "id": "publications:zhongguo-gongyi-meishu-congshu",
@@ -32785,11 +33346,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度下中国工艺美术通史写作的文献锚点；其出版与版次信息属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.1 的核心文献锚点，承担田自秉工艺美术通史的修订本体；其出版与版次信息属 D 次维度。"
     },
     {
       "id": "publications:zhongguo-gongyi-meishu-tongshi",
@@ -33028,11 +33594,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下现代设计通史的文献锚点，同时是本语料第 1 册的来源书目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的核心文献锚点，承担以“设计”统摄中国通史的教材样本；其出版信息属 D 次维度背景。"
     },
     {
       "id": "publications:zhongguo-shejishi-xiayanjing",
@@ -33058,11 +33629,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下现代设计史教材的文献锚点，同时是本语料第 2 册的来源书目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的核心文献锚点，承担 2000 年代设计史教材化的样本；其出版与教材制度信息属 D 次维度背景。"
     },
     {
       "id": "publications:zhongguo-yishu-shejishi-upgraded",
@@ -33088,11 +33664,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下古代设计文献的锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的核心文献锚点，承担 2010 年代设计史教材修订与增补的样本；其出版与教材制度信息属 D 次维度背景。"
     },
     {
       "id": "publications:zhongguo-yishu-shejishi-zhaonong-2009",
@@ -33118,11 +33699,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 A 维度下设计史教材与文献的锚点，记录赵农 2009 年教材的版本信息、章节结构与编写意图。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的核心文献锚点，承担“艺术设计史”教材体例与学科命名的样本；其出版信息属 D 次维度背景。"
     },
     {
       "id": "publications:zhouli",
@@ -33863,11 +34449,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "白瓷是 B 维度下瓷器类型与胎釉技术的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "北齐白瓷的胎釉条件、隋代烧成与邢窑的南青北白格局"
     },
     {
       "id": "terms:baidie-bu",
@@ -34072,11 +34663,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "半坡型彩陶是 B 维度下仰韶文化彩陶类型的术语条目；其鱼纹与人面纹母题属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "半坡型彩陶是 B.5.2 五型之一，承担渭河流域分布、卷唇圜底盆、鱼纹与人面纹及年代。"
     },
     {
       "id": "terms:banshan-xing-caitao",
@@ -34102,11 +34698,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "半山型彩陶是 B 维度下甘青地区彩陶类型的术语条目；其旋涡纹与葫芦纹属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "半山型彩陶是 B.5.2 五型之一，承担短颈广肩鼓腹罐、旋涡纹与葫芦形纹、红黑相间。"
     },
     {
       "id": "terms:banshi-jiegou",
@@ -34192,11 +34793,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "褒衣博带是 E 维度下服饰风尚与佛教造像中国化的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-fojiao-dongchuan-yu-zaoxiang.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.1 的佛像服饰中国化术语，承担‘外来造像如何被改写为中原衣冠’的线索；其服饰形制归 B 次维度。"
     },
     {
       "id": "terms:baobei-zhuang",
@@ -34549,11 +35155,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史特质的理论条目，其论据取自 B 维度的造物实例。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的解释性特质锚点，承担‘造物设计如何被解释为艺术史母体’的线索；其论据取自 B 次维度的造物实例。"
     },
     {
       "id": "terms:bi-li",
@@ -34639,11 +35250,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史运行机制的理论条目，其近代转型部分牵涉 E 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的运行机制锚点，承担‘变与统如何解释设计史连续与转折’的线索；其近代转型判断牵涉 E 维度。"
     },
     {
       "id": "terms:bianxian-ao",
@@ -34759,11 +35375,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "黑瓷是 B 维度下以高铁釉呈色的瓷种条目：氧化亚铁的配比与还原焰烧成属工艺，乌黑、兔毫、油滴、玳瑁等釉面肌理属装饰。斗茶风尚牵涉生活习俗，本 KU 只作动因记录。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "黑瓷的化学层、窑口层与风俗层三层记载"
     },
     {
       "id": "terms:blue-and-white-porcelain",
@@ -35088,11 +35709,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度史学理论的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的对照性框架锚点，用于说明设计史分期可援引的国外理论；其定义、采用与否及与设计史的结合方式未载。"
     },
     {
       "id": "terms:changshou-xiu",
@@ -36222,11 +36848,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "蛋壳黑陶是 B 维度下龙山文化陶器类型的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "蛋壳黑陶是 B.5.2 的龙山陶系代表，承担 0.3 毫米胎壁、精细淘洗与轮制盛行的特征。"
     },
     {
       "id": "terms:dao-bi",
@@ -36431,11 +37062,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史观的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的史学框架锚点，承担‘大历史观如何进入设计史分期’的线索；其具体设计史例证归 B/C/D 次维度。"
     },
     {
       "id": "terms:dawenkou-culture",
@@ -36461,11 +37097,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "大汶口文化是 B 维度下黄河下游新石器时代中晚期、由母系向父系过渡的考古学文化条目；陶文符号牵涉 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "大汶口文化是 B.5.2 的分区框架，承担黄河下游文化与母系向父系转化的陶器材料。"
     },
     {
       "id": "terms:dengdun",
@@ -36671,11 +37312,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 B 维度下陶瓷窑具的条目，其装烧工序见 `procedures/fu-shao-fa.md`、`procedures/zhiding-zhishao.md`。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "东汉晚期出现的环形垫圈与垫饼的优劣比较"
     },
     {
       "id": "terms:diao-qi",
@@ -37030,11 +37676,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "短袄套裙是 E 维度下民国女子服饰变革的条目，其形制属 B 维度服饰工艺。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e6-nvzhuang-jiancai-yu-mingming.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "短袄套裙是 E.6.1 的“文明新装”命名锚点，承担民国初年起点、日本女学生校服影响与女学生女教师群体；其剪裁工艺归 B.2，本条不重复。"
     },
     {
       "id": "terms:dugout-canoe",
@@ -40084,11 +40735,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "黑陶是 B 维度下新石器时期陶器类型的条目，其乌黑质感与镂孔装饰属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "黑陶是 B.5.2 的陶系锚点，承担渗炭技术、龙山黑陶的壁厚与镂孔、“寓减于增”的减法观念。"
     },
     {
       "id": "terms:hemudu-culture",
@@ -41073,11 +41729,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "花釉是 B 维度下唐代瓷釉类型的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "唐代底釉加色釉的斑纹品种与河南诸窑口"
     },
     {
       "id": "terms:huazhuangtu",
@@ -41102,11 +41763,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "化妆土是 B 维度下陶瓷胎釉工艺的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "只取婺州窑以化妆土改善呈色；史前陶器用法归 B.5.1"
     },
     {
       "id": "terms:hubi",
@@ -41251,11 +41917,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "胡服是 E 维度下跨文化服饰传播的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e5-hufu-qishe-gongneng-yu-liyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "胡服是 E.5.1 的形制锚点，承担“短衣长裤靴”的界定与带钩（钩络带）附件创新；其裁剪、面料与织造归 B.2，本条不重复。"
     },
     {
       "id": "terms:hui-tao",
@@ -41431,11 +42102,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "葫芦窑是 B 维度下宋代福建窑炉的条目；其家庭作坊组织归 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "宋代福建葫芦窑：馒头窑与龙窑的折中"
     },
     {
       "id": "terms:humen-an",
@@ -41639,11 +42315,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度元代陶瓷胎体处理的术语，护胎釉与烧成的关系属工艺技术。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "元代护胎釉俗称，作为胎体处理的可识别特征"
     },
     {
       "id": "terms:huoyao",
@@ -42598,11 +43279,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "绞胎是 B 维度下唐代陶瓷胎装饰技法的条目，只记来源所给的定义、器类与寿州窑判断。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "两色胎土或釉绞合的胎装饰技法与寿州窑两说"
     },
     {
       "id": "terms:jiaotong-biaozhi",
@@ -42896,11 +43582,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史运行理论的条目，分期涉及 D 维度的学科史背景。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的分期理论锚点，承担‘理论名称与三时段分期如何对应’的线索；其分期涉及的学科史背景归 D 次维度。"
     },
     {
       "id": "terms:jiegou-well-sweep",
@@ -44664,11 +45355,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "良渚文化是 B 维度下长江下游太湖地区的新石器时代晚期考古学文化条目；玉琮、神人兽面纹与古城同时牵涉 B/C 两个维度。分类归属（独立文化／龙山文化四类型之一）存在册级分歧。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。"
     },
     {
       "id": "terms:liangzhu-shili",
@@ -45259,11 +45955,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度设计史分区框架的条目，各区造物属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的区域解释框架锚点，承担‘考古区系类型如何转为设计文化分区’的线索；各区具体造物归 B 次维度。"
     },
     {
       "id": "terms:liuli",
@@ -45498,11 +46199,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "龙山文化是 B 维度下新石器时代晚期黑陶工艺与早期城址的类型学锚点，兼涉快轮制陶这一关键工艺转折。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "龙山文化是 B.5.2 的分区框架，承担黑陶标志、快轮制陶与蛋壳黑陶，以及序列位置两说。"
     },
     {
       "id": "terms:longyang",
@@ -45558,11 +46264,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "依山而上的窑形、分段烧成与投柴孔；汉代青瓷 1300℃"
     },
     {
       "id": "terms:louchuan",
@@ -46161,11 +46872,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "马厂型彩陶是 B 维度下甘青地区彩陶类型的术语条目；其四大圈纹与人形纹属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "马厂型彩陶是 B.5.2 五型之一，承担由半山型发展、四大圆圈纹与人形纹、陶衣与色衬。"
     },
     {
       "id": "terms:magnetite",
@@ -46251,11 +46967,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "马家窑文化是 B 维度下黄河上游新石器时代晚期的彩陶文化条目；陶器纹饰与舞蹈纹盆的仪式含义牵涉 C 维度。文化分期与彩陶类型两套分类口径并存。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "马家窑文化是 B.5.2 的分区框架，承担黄河上游文化与马家窑、半山、马厂三型的划分口径。"
     },
     {
       "id": "terms:majiayao-xing-caitao",
@@ -46281,11 +47002,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "马家窑型彩陶是 B 维度下甘青地区彩陶类型的术语条目；其内彩与螺旋纹属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "马家窑型彩陶是 B.5.2 五型之一，承担同心圆、螺旋纹、内彩与旋动流畅的风格。"
     },
     {
       "id": "terms:man-sheng",
@@ -46401,11 +47127,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "馒头窑是 B 维度下北方窑炉形制的条目，材料限于源流、外形、倒焰结构与温度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "北方馒头窑与宋代全倒焰技术"
     },
     {
       "id": "terms:mao",
@@ -46941,11 +47672,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "庙底沟型彩陶是 B 维度下仰韶文化彩陶类型的术语条目；其鸟纹与黑白双关属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "庙底沟型彩陶是 B.5.2 五型之一，承担由半坡型发展、曲边三角形与黑白双关的特征。"
     },
     {
       "id": "terms:miaojin",
@@ -47297,11 +48033,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "秘色瓷是 B 维度下唐五代越窑贡瓷的品种条目，其官府督造、贡奉与外交用途属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "唐五代越窑高等级青瓷；法门寺确认与件数、朝代分歧"
     },
     {
       "id": "terms:mojie-deng",
@@ -47506,11 +48247,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "A 维度下的审美概念条目，记录作者对南北朝文化风格的概括；Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的区域审美解释框架锚点，承担‘教材概括如何充当解释框架’的边界样本；其书法与写经例证归 B/C/D 具体史实。"
     },
     {
       "id": "terms:nangeng-nvzhi",
@@ -47894,11 +48640,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "彩陶是 B 维度下新石器时代陶器装饰工艺的术语锚点，其纹样母题也涉及 C 维度的视觉符号问题。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "彩陶是 B.5.2 的陶系锚点，承担烧前绘彩的界定、五册分布与类型划分；其绘彩烧成工序归 B.5.1。"
     },
     {
       "id": "terms:paleolithic-period",
@@ -48222,11 +48973,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "缥瓷是 B 维度下魏晋南北朝青瓷类型的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "缥瓷的釉色定义与瓯窑对应；南北两大青瓷体系说"
     },
     {
       "id": "terms:pibo",
@@ -48577,11 +49333,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "原始青瓷是 B 维度下陶—瓷过渡阶段的技术类型条目，五册来源用以确定中国瓷器发明的上限年代。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "商周至战国的青釉器判据与起始时间诸说；陶器面归 B.5"
     },
     {
       "id": "terms:pulley",
@@ -48995,11 +49756,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "齐家文化是 B 维度下黄河上游新石器时代文化的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "齐家文化是 B.5.2 的分区框架，承担黄河上游彩陶衰落与双耳罐、马鞍口罐的器形。"
     },
     {
       "id": "terms:qimu-jiaju",
@@ -49263,11 +50029,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "青瓷是 B 维度下瓷器类型的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "东汉以来青瓷的定义与浙江四窑系的地域分工"
     },
     {
       "id": "terms:qing-dai-shoushi-toushi",
@@ -49950,11 +50721,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "旗袍是 E 维度下近代女装改良的代表条目，其礼装规定与满汉服制属 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e6-nvzhuang-jiancai-yu-mingming.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "旗袍是 E.6.1 的核心形制锚点，承担族属与命名两说、清代满汉互动与近代紧腰身形制；其礼装规定与满汉服制归 D.2，面料纹样归 B.2，本条不重复。"
     },
     {
       "id": "terms:qiu",
@@ -50070,11 +50846,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "屈家岭文化是 B 维度下长江中游彩陶文化的术语条目；其彩绘纺轮与蛋壳彩陶属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "屈家岭文化是 B.5.2 的分区框架，承担长江中游彩绘纺轮与蛋壳彩陶；单源低置信。"
     },
     {
       "id": "terms:qun",
@@ -51831,11 +52612,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "时世装是 E 维度下民国女子服饰变革的条目，其上衣下裤形制属 B 维度服饰工艺。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e6-nvzhuang-jiancai-yu-mingming.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "时世装是 E.6.1 的“Modern Dress”命名锚点，承担 1912 年起点与上衣下裤形制；其剪裁工艺归 B.2，本条不重复。"
     },
     {
       "id": "terms:shiyingxing-sheji",
@@ -53567,11 +54353,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 B 维度下唐代青瓷窑场的清单级条目，其官窑性质与贡御关系牵涉 D 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "唐代七窑总述与青瓷主流；越窑官府督造为御器厂前身"
     },
     {
       "id": "terms:tang-sancai",
@@ -53864,11 +54655,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "陶轮是 B 维度下新石器时期制陶工具的条目，其转动成形原理与慢轮/快轮技术分期是设计史重点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "procedure",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "procedure"
+        }
+      ],
+      "hierarchy_scope_note": "陶轮是 B.5.1 的工具条目，承担陶钧形制与转动拉坯原理；其 C 维度视觉属性不在本条展开。"
     },
     {
       "id": "terms:taoqi-qixing",
@@ -53894,11 +54690,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "陶器器形是 B 维度下新石器时期陶器造型的清单级聚合条，其造型比例与装饰属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "陶器器形是 B.5.2 的总类划分条目，承担瓶盆壶罐瓮钵杯豆等器类与平口、提梁、双耳、尖底等样式。"
     },
     {
       "id": "terms:taoqi",
@@ -53924,11 +54725,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "陶器是 B 维度下新石器时代制陶与器形设计的总类条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "陶器是 B.5 的总类锚点、B.5.1 的技术总述条目，承担定义、原料与羼和料、三类成形；具体陶系与器物归 B.5.2。"
     },
     {
       "id": "terms:taotie-motif",
@@ -54044,11 +54850,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "陶窑是 B 维度下新石器时期烧陶设施的条目，其结构改进直接影响陶器质量与颜色。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "仰韶半坡竖穴窑、横穴窑；只作窑炉序列起点"
     },
     {
       "id": "terms:tezhong-gongyi",
@@ -54312,11 +55123,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "天足运动是 E 维度下近代妇女解放与社会变革的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e6-shenti-gaizhuang-tianzu-yundong.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "天足运动是 E.6.2 的唯一支撑，承担身体改装一轴的时间范围、思想条件与三类推动者；confidence 为 low，无组织与章程，本条只证明该运动被记入设计史叙述。"
     },
     {
       "id": "terms:tieda",
@@ -55000,11 +55816,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "外来式建筑是 E 维度下近代跨文化建筑输入的条目，其材料与结构属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e3-wailai-jianzhu-leixing-yu-xianggang.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "外来式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担类型名的提出与判别；其材料、结构与立面属 B.3，汇丰银行与沙逊大厦的本体分析不在此重复。"
     },
     {
       "id": "terms:war-chariot",
@@ -55597,11 +56418,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "B 维度下的窑具条目，记录匣钵在瓷器成型与烧制中的作用；Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-yaolu-yaoju-zhici-gongyi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "南北朝窑址出土的匣钵及其防变形、隔烟、控温作用"
     },
     {
       "id": "terms:xia-li",
@@ -56197,11 +57023,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "喜克索斯人是 E 维度下古代跨文化技术传播的条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "boundary_case",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "boundary_case"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的世界史参照样本，承担‘造物技术如何随战争组织同步扩散’的类比线索；它是来源的比较材料，不属于中国设计史内部证据。"
     },
     {
       "id": "terms:xin-tongqi",
@@ -56257,11 +57088,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "辛店文化是 B 维度下黄河上游彩陶文化的术语条目；其双钩纹装饰属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "辛店文化是 B.5.2 的分区框架，承担黄河上游彩陶再度兴盛与双钩纹、人物小狗纹；单源低置信。"
     },
     {
       "id": "terms:xing-shu",
@@ -56376,11 +57212,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "新石器时代是 B 维度下的考古分期框架，用于安放农业、聚落与制陶材料。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "新石器时代是 B.5.1 的分期框架，只提供制陶出现的时间范围与磨制石器的时代定义。"
     },
     {
       "id": "terms:xinshiqi-shiqi-leixing",
@@ -57161,11 +58002,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.5",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "仰韶文化是 B 维度下黄河中游新石器时代彩陶工艺与聚落形态的类型学锚点，同时是'彩陶文化'这一旧称的所指。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "historical_context",
+      "topic_memberships": [
+        {
+          "topic": "topics/b5-shiqian-taoxi-caitao-leixing.md",
+          "role": "historical_context"
+        }
+      ],
+      "hierarchy_scope_note": "仰韶文化是 B.5.2 的分区框架，承担黄河中游文化、1921 年命名与“彩陶文化”等同问题，不承担具体器物。"
     },
     {
       "id": "terms:yangzhou-luodian",
@@ -57974,11 +58820,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度下设计史学科对象与方法的界定，向下关联具体器具史条目。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.2 的学科对象术语锚点，承担‘艺术设计史如何界定自身对象’的线索；具体器具史条目归 B 次维度，不在此重复。"
     },
     {
       "id": "terms:yisilan-wenhua",
@@ -58004,11 +58855,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.2",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 E 维度下跨文化工艺影响的条目，其釉彩、钴料与纹样机制归 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e2-silu-hailu-yu-qiwu-liutong.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.2.2 的工艺影响样本，承担‘外来钴料与釉彩如何改变中国瓷器呈色与装饰’的线索；其釉料、钴料与纹样机制归 B 次维度。"
     },
     {
       "id": "terms:yiyi",
@@ -59086,11 +59942,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.4",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 E 维度下传统设计向近代转型的时期概念，其生产组织面向归 D 维度，史学分期面向归 A 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "counterexample",
+      "topic_memberships": [
+        {
+          "topic": "topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md",
+          "role": "counterexample"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 E.4 下“冲击论修正”的术语条目，承担对“造物基础空白”假设的反证；其生产组织面向归 D 维度、史学分期面向归 A 维度。"
     },
     {
       "id": "terms:zhadou",
@@ -59754,11 +60615,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中国风是 E 维度下欧洲对中国工艺文化的接受风尚的术语条目；其工艺品类与材料基础属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e3-zhongguo-feng-xifang-mingming.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "中国风是 E.3 下欧洲对中国工艺文化的命名条目，承担“西方对中国形式的命名”这一方向；其工艺品类与材料基础属 B 维度，不并入 B.3。"
     },
     {
       "id": "terms:zhongguo-gongyi-meishu-dashi",
@@ -59942,11 +60808,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "E",
-      "primary_theme": "",
+      "primary_theme": "E.3",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "中西混合式建筑是 E 维度下近代跨文化建筑类型的条目，其建造技术属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/e3-wailai-jianzhu-leixing-yu-xianggang.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "中西混合式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担三分法中第三类的命名；其建造技术属 B.3，本条目不展开形制分析。"
     },
     {
       "id": "terms:zhou-yu-liqi",
@@ -60001,11 +60872,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "A",
-      "primary_theme": "",
+      "primary_theme": "A.1",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 A 维度历史分期概念的条目，其用于解释造物设计转型的部分属 B 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "本条是 A.1.3 的历史分期概念锚点，承担‘轴心时代如何被援引并受限’的线索；其造物设计转型例证归 B 次维度。"
     },
     {
       "id": "terms:zhu-chang-she-ji-shi",
@@ -60746,11 +61622,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度北齐白瓷的器物锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "北齐白瓷的莲瓣堆塑与白釉加绿彩"
     },
     {
       "id": "works:baici-pankou-changjing-ping",
@@ -63382,11 +64263,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度瓷器起源的器物锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "上虞小仙坛东汉晚期成熟瓷的判据标本"
     },
     {
       "id": "works:doucai-bagua-censer",
@@ -64848,11 +65734,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度下晋代德清窑黑瓷的器物锚点。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "德清窑晋代黑瓷典型器与釉中变色"
     },
     {
       "id": "works:heiqizhuhui-niaozu-qian",
@@ -65510,11 +66401,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度唐代花釉陶瓷的器物锚点，材料为正文一段加图注一行。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "唐代花釉代表作；黑釉地月白斑与鼓形"
     },
     {
       "id": "works:huitonghe",
@@ -67216,11 +68112,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本 KU 是 B 维度下南北朝青瓷的器物锚点，也涉及 E 维度的佛教艺术传播。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "南北朝仰覆莲花尊的印贴、刻划、堆塑综合"
     },
     {
       "id": "works:liantang-ruya-tu",
@@ -69765,11 +70666,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "本条是 B 维度三国吴青瓷明器的器物条目，来源给造型构成、装饰题材与一处纪年实例，Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "三国两晋随葬青瓷的堆塑与两罐粘接工艺"
     },
     {
       "id": "works:qing-dongling",
@@ -70035,11 +70941,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "青釉瓷尊是 B 维度下商代原始瓷器的作品条目；其釉色与刻划装饰属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "郑州铭功路商墓原始瓷尊；釉陶又称原始瓷器的器物例证"
     },
     {
       "id": "works:qinling-tongchema",
@@ -75678,11 +76589,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.6",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "越窑莲花碗荷叶形托是 B 维度下唐代越窑器物的图版锚点，其莲花与荷叶造型属 C 维度。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "唐代越窑碗托；只有图注，正文无描述（low）"
     },
     {
       "id": "works:yuehan-tielu-huizhang",
@@ -77257,6 +78173,19 @@
     "dimensions": [],
     "themes": [
       {
+        "id": "a1-zhongguo-shejishi-shuxie-xueke-jiangou",
+        "code": "A.1",
+        "title": "中国设计史书写与学科建构",
+        "name_en": "Design Historiography and Discipline Construction in China",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "A",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/a1-zhongguo-shejishi-shuxie-xueke-jiangou.md"
+      },
+      {
         "id": "b1-jindai-zaowu-jishu-zhuanxing",
         "code": "B.1",
         "title": "近代造物技术转型",
@@ -77294,6 +78223,45 @@
         "secondary_themes": [],
         "summary": "",
         "path": "themes/b3-jindai-jianzhu-shinei-jianzao-jishu.md"
+      },
+      {
+        "id": "b4-chuantong-gongyi-jindai-shengchan-zhuanxing",
+        "code": "B.4",
+        "title": "传统工艺的近代生产与转型",
+        "name_en": "Modern Production and Transformation of Traditional Crafts",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/b4-chuantong-gongyi-jindai-shengchan-zhuanxing.md"
+      },
+      {
+        "id": "b5-taoqi-gongyi-yu-taoxi-chuantong",
+        "code": "B.5",
+        "title": "陶器工艺与陶系传统",
+        "name_en": "Pottery Craft and Regional Earthenware Traditions",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+      },
+      {
+        "id": "b6-ciqi-gongyi-yu-yaoye-chuantong",
+        "code": "B.6",
+        "title": "瓷器工艺与窑业传统",
+        "name_en": "Porcelain Craft and Kiln Industry Traditions",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/b6-ciqi-gongyi-yu-yaoye-chuantong.md"
       },
       {
         "id": "c1-shangye-meishu-yu-guanggao",
@@ -77359,9 +78327,152 @@
         "secondary_themes": [],
         "summary": "",
         "path": "themes/d3-jindai-chengshi-jianzhu-zhidu-zhiye.md"
+      },
+      {
+        "id": "d4-jindai-sheji-jiaoyu-zhiye-jigou",
+        "code": "D.4",
+        "title": "近代设计教育、职业与机构",
+        "name_en": "Modern Design Education, Professions and Institutions",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/d4-jindai-sheji-jiaoyu-zhiye-jigou.md"
+      },
+      {
+        "id": "d5-chuantong-gongyi-zuzhi-zhansai-zhengce",
+        "code": "D.5",
+        "title": "传统工艺的近代组织、展赛与政策",
+        "name_en": "Modern Organization, Exhibitions and Policies of Traditional Crafts",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/d5-chuantong-gongyi-zuzhi-zhansai-zhengce.md"
+      },
+      {
+        "id": "e1-kuawenhua-sheji-jiaoliu-zhanshi",
+        "code": "E.1",
+        "title": "跨文化设计交流与展示",
+        "name_en": "Cross-Cultural Design Exchange and Display",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e1-kuawenhua-sheji-jiaoliu-zhanshi.md"
+      },
+      {
+        "id": "e2-wailai-wenming-yu-zaowu-jishu-chuanru",
+        "code": "E.2",
+        "title": "外来文明与造物技术的跨文化传入",
+        "name_en": "Cross-Cultural Transmission of Foreign Civilizations and Craft Techniques",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e2-wailai-wenming-yu-zaowu-jishu-chuanru.md"
+      },
+      {
+        "id": "e3-kuawenhua-xingshi-de-mingming-yu-leixinghua",
+        "code": "E.3",
+        "title": "跨文化形式的命名与类型化",
+        "name_en": "Naming and Typology of Cross-Cultural Forms",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e3-kuawenhua-xingshi-de-mingming-yu-leixinghua.md"
+      },
+      {
+        "id": "e4-wanqing-chongji-yu-ziqiang-lujing",
+        "code": "E.4",
+        "title": "晚清冲击与自强路径",
+        "name_en": "Late Qing Shock and the Self-Strengthening Path",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e4-wanqing-chongji-yu-ziqiang-lujing.md"
+      },
+      {
+        "id": "e5-fushi-gaizhi-yu-zuqun-shenfen",
+        "code": "E.5",
+        "title": "服饰改制与族群身份",
+        "name_en": "Dress Reform and Ethnic Identity",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e5-fushi-gaizhi-yu-zuqun-shenfen.md"
+      },
+      {
+        "id": "e6-jindai-nvzhuang-yu-shenti-gaizhuang",
+        "code": "E.6",
+        "title": "近代女装与身体改装",
+        "name_en": "Modern Women's Dress and Body Reform",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "themes/e6-jindai-nvzhuang-yu-shenti-gaizhuang.md"
       }
     ],
     "topics": [
+      {
+        "id": "a1-cong-gongyi-meishushi-dao-shejishi",
+        "code": "a1-cong-gongyi-meishushi-dao-shejishi",
+        "title": "从工艺美术史到设计史：命名与教材建构",
+        "name_en": "From Arts and Crafts History to Design History: Naming and Textbook Construction",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "A",
+        "parent_theme": "A.1",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/a1-cong-gongyi-meishushi-dao-shejishi.md"
+      },
+      {
+        "id": "a1-gongyi-meishushi-tongshi-shuxie",
+        "code": "a1-gongyi-meishushi-tongshi-shuxie",
+        "title": "工艺美术史通史书写",
+        "name_en": "Writing the General History of Arts and Crafts",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "A",
+        "parent_theme": "A.1",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/a1-gongyi-meishushi-tongshi-shuxie.md"
+      },
+      {
+        "id": "a1-shejishi-fenqi-jieshi-kuangjia",
+        "code": "a1-shejishi-fenqi-jieshi-kuangjia",
+        "title": "设计史分期与解释框架",
+        "name_en": "Periodization and Explanatory Frameworks in Design History",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "A",
+        "parent_theme": "A.1",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/a1-shejishi-fenqi-jieshi-kuangjia.md"
+      },
       {
         "id": "b1-jiqi-fangzhi-zaozhi",
         "code": "b1-jiqi-fangzhi-zaozhi",
@@ -77447,6 +78558,84 @@
         "secondary_themes": [],
         "summary": "",
         "path": "topics/b3-tongshang-kouan-jianzhu-shinei.md"
+      },
+      {
+        "id": "b4-jiefangqu-riyong-gongyi-shengchan",
+        "code": "b4-jiefangqu-riyong-gongyi-shengchan",
+        "title": "解放区日用工艺生产",
+        "name_en": "Daily-Use Craft Production in the Liberated Areas",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b4-jiefangqu-riyong-gongyi-shengchan.md"
+      },
+      {
+        "id": "b4-jindai-ciye-gongsi-ciye-gailiang",
+        "code": "b4-jindai-ciye-gongsi-ciye-gailiang",
+        "title": "近代瓷业公司与瓷业改良",
+        "name_en": "Modern Porcelain Companies and Porcelain Reform",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b4-jindai-ciye-gongsi-ciye-gailiang.md"
+      },
+      {
+        "id": "b5-shiqian-taoxi-caitao-leixing",
+        "code": "b5-shiqian-taoxi-caitao-leixing",
+        "title": "史前陶系、彩陶类型与文化分区",
+        "name_en": "Prehistoric Pottery Series, Painted-Pottery Types and Cultural Regionalization",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b5-shiqian-taoxi-caitao-leixing.md"
+      },
+      {
+        "id": "b5-taoci-qiyuan-chengxing-shaocheng",
+        "code": "b5-taoci-qiyuan-chengxing-shaocheng",
+        "title": "陶器的起源与成形、烧成技术",
+        "name_en": "Origins of Pottery: Forming and Firing Techniques",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b5-taoci-qiyuan-chengxing-shaocheng.md"
+      },
+      {
+        "id": "b6-yaolu-yaoju-zhici-gongyi",
+        "code": "b6-yaolu-yaoju-zhici-gongyi",
+        "title": "窑炉、窑具与制瓷工艺",
+        "name_en": "Kiln Structures, Kiln Furniture and Porcelain-Making Techniques",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.6",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b6-yaolu-yaoju-zhici-gongyi.md"
+      },
+      {
+        "id": "b6-youtao-dao-ci-zaoqi-ciqi",
+        "code": "b6-youtao-dao-ci-zaoqi-ciqi",
+        "title": "由陶到瓷：原始瓷、青瓷与白瓷",
+        "name_en": "From Pottery to Porcelain: Proto-Porcelain, Celadon and White Ware",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.6",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/b6-youtao-dao-ci-zaoqi-ciqi.md"
       },
       {
         "id": "c1-baokan-guanggao-jigou-biaozhi",
@@ -77609,14 +78798,302 @@
         "secondary_themes": [],
         "summary": "",
         "path": "topics/d3-jindai-chengshi-guihua-zhidu.md"
+      },
+      {
+        "id": "d4-tuananguan-shetuan-zhiyehua",
+        "code": "d4-tuananguan-shetuan-zhiyehua",
+        "title": "图案馆、商业美术社团与职业化",
+        "name_en": "Pattern Studios, Commercial Art Societies and Professionalization",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d4-tuananguan-shetuan-zhiyehua.md"
+      },
+      {
+        "id": "d4-xuetang-tuhua-shougong-jiaoyu",
+        "code": "d4-xuetang-tuhua-shougong-jiaoyu",
+        "title": "学堂图画手工与工艺教育",
+        "name_en": "School Drawing, Handicraft and Technical Education",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d4-xuetang-tuhua-shougong-jiaoyu.md"
+      },
+      {
+        "id": "d4-yizhuan-tuan-jiaoyu-gongshang-meishu",
+        "code": "d4-yizhuan-tuan-jiaoyu-gongshang-meishu",
+        "title": "艺专图案教育与工商美术课程",
+        "name_en": "Art College Pattern Education and Commercial Art Courses",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md"
+      },
+      {
+        "id": "d5-gongyiju-quanyehui-gongyi-pingjia",
+        "code": "d5-gongyiju-quanyehui-gongyi-pingjia",
+        "title": "清末民初工艺局、劝业会与工艺评价",
+        "name_en": "Late Qing Craft Bureaus, Industrial Expositions and Craft Evaluation",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d5-gongyiju-quanyehui-gongyi-pingjia.md"
+      },
+      {
+        "id": "d5-jiefangqu-gongyi-shengchan-zhengce",
+        "code": "d5-jiefangqu-gongyi-shengchan-zhengce",
+        "title": "解放区工艺生产政策与报道",
+        "name_en": "Liberated-Area Craft Production Policy and Press Coverage",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.5",
+        "secondary_themes": [
+          "B"
+        ],
+        "summary": "",
+        "path": "topics/d5-jiefangqu-gongyi-shengchan-zhengce.md"
+      },
+      {
+        "id": "d5-jiefangqu-gongyi-yanjiu-jigou",
+        "code": "d5-jiefangqu-gongyi-yanjiu-jigou",
+        "title": "解放区工艺研究机构",
+        "name_en": "Craft Research Institutes in the Liberated Areas",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d5-jiefangqu-gongyi-yanjiu-jigou.md"
+      },
+      {
+        "id": "d5-taiping-gongyi-zuzhi-zhengce",
+        "code": "d5-taiping-gongyi-zuzhi-zhengce",
+        "title": "太平天国工艺组织与工艺政策",
+        "name_en": "Taiping Craft Organization and Craft Policy",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "D",
+        "parent_theme": "D.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/d5-taiping-gongyi-zuzhi-zhengce.md"
+      },
+      {
+        "id": "e1-ershi-shiji-houqi-sheji-guannian-yinru",
+        "code": "e1-ershi-shiji-houqi-sheji-guannian-yinru",
+        "title": "20 世纪后期设计观念的国际引入",
+        "name_en": "International Introduction of Design Ideas in the Late Twentieth Century",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.1",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md"
+      },
+      {
+        "id": "e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi",
+        "code": "e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi",
+        "title": "世界博览会与中国设计展示",
+        "name_en": "World Expositions and the Display of Chinese Design",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.1",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md"
+      },
+      {
+        "id": "e2-chuanjiaoshi-yu-xixue-jishu",
+        "code": "e2-chuanjiaoshi-yu-xixue-jishu",
+        "title": "传教士与西学、技术的传入",
+        "name_en": "Missionaries and the Introduction of Western Learning and Technology",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.2",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e2-chuanjiaoshi-yu-xixue-jishu.md"
+      },
+      {
+        "id": "e2-fojiao-dongchuan-yu-zaoxiang",
+        "code": "e2-fojiao-dongchuan-yu-zaoxiang",
+        "title": "佛教东传与造像艺术的中国化",
+        "name_en": "The Eastward Transmission of Buddhism and the Sinicization of Buddhist Imagery",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.2",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e2-fojiao-dongchuan-yu-zaoxiang.md"
+      },
+      {
+        "id": "e2-silu-hailu-yu-qiwu-liutong",
+        "code": "e2-silu-hailu-yu-qiwu-liutong",
+        "title": "丝路、海路与器物的双向流通",
+        "name_en": "Bidirectional Flows of Goods along the Silk Road and Maritime Routes",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.2",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e2-silu-hailu-yu-qiwu-liutong.md"
+      },
+      {
+        "id": "e3-wailai-jianzhu-leixing-yu-xianggang",
+        "code": "e3-wailai-jianzhu-leixing-yu-xianggang",
+        "title": "中国对西方形式的命名：外来式建筑、中西混合式建筑与香港参照",
+        "name_en": "Chinese Naming of Western Forms: Foreign-Style Architecture, Sino-Western Hybrid Architecture and the Hong Kong Reference",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e3-wailai-jianzhu-leixing-yu-xianggang.md"
+      },
+      {
+        "id": "e3-zhongguo-feng-xifang-mingming",
+        "code": "e3-zhongguo-feng-xifang-mingming",
+        "title": "西方对中国形式的命名：中国风",
+        "name_en": "Western Naming of Chinese Forms: Chinoiserie",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.3",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e3-zhongguo-feng-xifang-mingming.md"
+      },
+      {
+        "id": "e4-chongji-yu-fenqi-yapian-zhanzheng",
+        "code": "e4-chongji-yu-fenqi-yapian-zhanzheng",
+        "title": "冲击与分期：鸦片战争作为近代设计起点",
+        "name_en": "Shock and Periodization: The Opium War as the Starting Point of Modern Design History",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md"
+      },
+      {
+        "id": "e4-shiyi-changji-wenben-yu-renwu",
+        "code": "e4-shiyi-changji-wenben-yu-renwu",
+        "title": "师夷长技：林则徐、魏源、冯桂芬与《海国图志》",
+        "name_en": "Learning the Superior Techniques: Lin Zexu, Wei Yuan, Feng Guifen and the Haiguo Tuzhi",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e4-shiyi-changji-wenben-yu-renwu.md"
+      },
+      {
+        "id": "e4-tizhi-zhuanhuan-yu-zhishi-quxiang",
+        "code": "e4-tizhi-zhuanhuan-yu-zhishi-quxiang",
+        "title": "体制转换与知识取向：辛亥革命与康有为",
+        "name_en": "Regime Change and Knowledge Orientation: The Xinhai Revolution and Kang Youwei",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md"
+      },
+      {
+        "id": "e4-yangwu-yundong-yu-ziqiang-shibai",
+        "code": "e4-yangwu-yundong-yu-ziqiang-shibai",
+        "title": "洋务运动与自强路径的失败",
+        "name_en": "The Self-Strengthening Movement and the Failure of the Self-Strengthening Path",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.4",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e4-yangwu-yundong-yu-ziqiang-shibai.md"
+      },
+      {
+        "id": "e5-beiwei-hanhua-fushi-gaizhi",
+        "code": "e5-beiwei-hanhua-fushi-gaizhi",
+        "title": "北魏汉化中的服饰改制",
+        "name_en": "Dress Reform within Northern Wei Sinicization",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e5-beiwei-hanhua-fushi-gaizhi.md"
+      },
+      {
+        "id": "e5-hufu-qishe-gongneng-yu-liyi",
+        "code": "e5-hufu-qishe-gongneng-yu-liyi",
+        "title": "胡服骑射：功能对礼仪的冲击",
+        "name_en": "Hu Dress and Mounted Archery: Function against Ritual",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.5",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e5-hufu-qishe-gongneng-yu-liyi.md"
+      },
+      {
+        "id": "e6-nvzhuang-jiancai-yu-mingming",
+        "code": "e6-nvzhuang-jiancai-yu-mingming",
+        "title": "女装的重新剪裁与命名：旗袍、短袄套裙、时世装",
+        "name_en": "Recutting and Renaming Women's Dress: Qipao, Short Jacket with Skirt, Shishi Zhuang",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.6",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e6-nvzhuang-jiancai-yu-mingming.md"
+      },
+      {
+        "id": "e6-shenti-gaizhuang-tianzu-yundong",
+        "code": "e6-shenti-gaizhuang-tianzu-yundong",
+        "title": "身体改装：天足运动",
+        "name_en": "Body Reform: The Natural-Foot Movement",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "E",
+        "parent_theme": "E.6",
+        "secondary_themes": [],
+        "summary": "",
+        "path": "topics/e6-shenti-gaizhuang-tianzu-yundong.md"
       }
     ]
   },
   "stats": {
     "total_nodes": 2570,
     "total_links": 0,
-    "relation_index_total": 6209,
-    "skipped_non_unit_relations": 6209,
+    "relation_index_total": 6572,
+    "skipped_non_unit_relations": 6572,
     "by_type": {
       "person": 323,
       "institution": 144,
@@ -77630,14 +79107,14 @@
     "hierarchy": {
       "domain_assigned": 2570,
       "dimension_assigned": 2570,
-      "theme_assigned": 105,
-      "topic_assigned": 105
+      "theme_assigned": 285,
+      "topic_assigned": 285
     },
     "structure_nodes": {
       "domains": 0,
       "dimensions": 0,
-      "themes": 8,
-      "topics": 18
+      "themes": 20,
+      "topics": 49
     }
   }
 }

@@ -24,20 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
   - D
-hierarchy_scope_note: "本条是 E 维度下明末西学机械著作的条目，其机械技术面向归 B 维度，传教士知识网络归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/e2-chuanjiaoshi-yu-xixue-jishu.md
+    role: supporting_source
+    primary: true
+    scope_note: "E.2.3 主挂载：以王征引‘民生日用饮食宫室……无一不为诸器所致’与邓玉函 1627 年写《奇器图说》《诸图说》为锚点；作者两说来源未解释，卷数、版本与成书经过未载。"
+hierarchy_scope_note: "本条是 E.2.3 的文献传入样本，承担‘西方机械知识如何以图说形式进入中国’的线索；其机械技术面向归 B、传教士知识网络归 D 次维度。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "本条是 E 维度下明末西学机械著作的条目，
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 E 维度下明末西学机械著作的条目，其机械技术面向归 B 维度，传教士知识网络归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-chuanjiaoshi-yu-xixue-jishu.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: 本条是 E.2.3 的文献传入样本，承担“西方机械知识如何以图说形式进入中国”的线索；其机械技术面向归 B、传教士知识网络归 D 次维度。
 
 ## 相关知识元
 

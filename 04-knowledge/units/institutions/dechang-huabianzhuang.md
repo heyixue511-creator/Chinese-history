@@ -29,20 +29,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
   - B
-hierarchy_scope_note: "德昌花边庄是 E 维度下近代中西工艺技术传入的作坊条目，其经营与生产组织归 D、花边工艺归 B；当前只到 Dimension。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/e2-chuanjiaoshi-yu-xixue-jishu.md
+    role: key_institution
+    primary: true
+    scope_note: "E.2.3 主挂载：以 1900 年青州创设、意大利带形花边经英籍传教士库尔德引入、库师娘传授技艺为锚点；资本额、作坊规模与存续时间未载，来源‘青州（蓬莱）’地理记载有误。"
+hierarchy_scope_note: "本条是 E.2.3 的技艺传入样本，承担‘传教士如何把意大利花边技艺带入山东并本地化’的线索；其经营与生产组织归 D、花边工艺归 B 次维度。"
 ---
 
 ## 描述
@@ -67,10 +75,10 @@ hierarchy_scope_note: "德昌花边庄是 E 维度下近代中西工艺技术传
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代意大利花边技术经传教士传入山东的作坊样本，可与广东工艺局、恒沅轧花厂等近代手工业条目并置。当前只到 Dimension。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-chuanjiaoshi-yu-xixue-jishu.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 本条是 E.2.3 的技艺传入样本，承担“传教士如何把意大利花边技艺带入山东并本地化”的线索；其经营与生产组织归 D、花边工艺归 B 次维度。
 
 ## 相关知识元
 

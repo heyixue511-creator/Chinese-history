@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "洋务运动是 E 维度下晚清引进西方技术、开启近代工业与设计转型的枢纽事件。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e4-yangwu-yundong-yu-ziqiang-shibai.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.4.3 的主事件：2016 版定位为“工业设计和现代设计孕育的土壤”，赵农批评为“中体西用”“强政府”，两册立场相反；本条并列两种评价，不判定何者成立。"
+hierarchy_scope_note: "洋务运动是 E.4.3 的主事件，承担“自强路径”的实施与评价分歧；其船政局、制造局、招商局等机构史归 D.1，本条不重复。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "洋务运动是 E 维度下晚清引进西方技术、开
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 洋务运动是 E 维度下晚清引进西方技术、开启近代工业与设计转型的枢纽事件。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-yangwu-yundong-yu-ziqiang-shibai.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.4.3 的主事件：2016 版定位为“工业设计和现代设计孕育的土壤”，赵农批评为“中体西用”“强政府”，两册立场相反；本条并列两种评价，不判定何者成立。
 
 ## 相关知识元
 

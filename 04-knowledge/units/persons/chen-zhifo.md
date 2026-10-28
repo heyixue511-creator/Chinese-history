@@ -60,7 +60,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
@@ -74,14 +74,19 @@ secondary_dimensions:
   - B
   - D
 primary_theme: C.2
-secondary_themes: []
+secondary_themes:
+  - D.4
 role_in_theme: key_person
 topic_memberships:
   - topic: topics/c2-shuzhuangjia-qunti-fengmian-sheji.md
     role: key_person
     primary: true
     scope_note: "C.2.2 首批：以陈之佛为图案装饰一路的书装家样本，复读其 1930 年代为天马书店、开明书店与《东方杂志》《小说月报》《文学》所作封面。"
-hierarchy_scope_note: "陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计是本 Topic 的风格路径样本，染织图案与设计教育归 B、D。现有 B.1/B.2/D.1/D.2 均不承接书籍装帧，故 secondary_themes 为空。本次为首批 Topic 挂载。"
+  - topic: topics/d4-tuananguan-shetuan-zhiyehua.md
+    role: key_person
+    primary: false
+    scope_note: "D.4.3 次挂载：以 1923/1924 年创办尚美图案馆、以事务所训练设计人员为锚点；书籍装帧主挂载仍在 C.2.2，染织图案归 B。"
+hierarchy_scope_note: "陈之佛是 C.2 下以图案装饰入书装的设计家，同时以尚美图案馆创办人身份次挂载 D.4.3；书籍装帧主挂载仍为 C.2.2，染织图案归 B，1950 年代云锦研究与 1961 年通史编写只作边界。"
 ---
 
 ## 描述
@@ -130,9 +135,10 @@ hierarchy_scope_note: "陈之佛是 C.2 下以图案装饰入书装的设计家�
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: B（造物、工艺与生产技术）、D（商业、制度与设计教育）
 - primary_theme: C.2（书籍装帧、印刷与出版）
-- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）
+- secondary_themes: D.4（近代设计教育、职业与机构）
+- topic_memberships: C.2.2 书装家群体与封面设计（key_person，主挂载）；D.4.3 图案馆、商业美术社团与职业化（key_person，次挂载）
 - role_in_theme: key_person
-- scope_note: 陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计是本 Topic 的风格路径样本，染织图案与设计教育归 B、D。现有 B.1/B.2/D.1/D.2 均不承接书籍装帧，故 secondary_themes 为空。本次为首批 Topic 挂载。
+- scope_note: 陈之佛是 C.2 下以图案装饰入书装的设计家；其 1930 年代封面设计仍是本 Topic 的风格路径样本。D.4.3 只取尚美图案馆创办人身份，不重复计入书籍装帧与染织图案材料；1950 年代云锦研究与 1961 年通史编写只作边界。
 
 ## 相关知识元
 

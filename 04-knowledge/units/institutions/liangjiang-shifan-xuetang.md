@@ -39,7 +39,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
@@ -49,7 +49,16 @@ version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下清末设计教育机构的锚点。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-xuetang-tuhua-shougong-jiaoyu.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.1 首批：以 1902 年三江师范、1905 年更名与 1906 年图画手工科为锚点；1905 年开课与 1906 年设科两说并列。"
+hierarchy_scope_note: "两江师范学堂是 D.4.1 的师范教育机构样本；其图画手工科把绘图、图案与手工纳入师范课程。原 KU 未列次维度，本批不新增；secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -75,10 +84,11 @@ hierarchy_scope_note: "本 KU 是 D 维度下清末设计教育机构的锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下清末设计教育机构的锚点。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无（原 KU 未列，本批不新增）
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.1 学堂图画手工与工艺教育（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本 KU 是 D.4.1 的师范教育机构样本；以 1902 年三江师范、1905 年更名与 1906 年图画手工科为锚点。1905 年开课与 1906 年设科两说并列；1949 年后院系调整不作延伸。
 
 ## 相关知识元
 

@@ -56,19 +56,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "黑瓷是 B 维度下以高铁釉呈色的瓷种条目：氧化亚铁的配比与还原焰烧成属工艺，乌黑、兔毫、油滴、玳瑁等釉面肌理属装饰。斗茶风尚牵涉生活习俗，本 KU 只作动因记录。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "黑瓷的化学层、窑口层与风俗层三层记载"
+hierarchy_scope_note: "黑瓷的化学层、窑口层与风俗层三层记载"
 ---
 
 ## 描述
@@ -116,12 +124,10 @@ hierarchy_scope_note: "黑瓷是 B 维度下以高铁釉呈色的瓷种条目：
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是青瓷之外的单色釉瓷种条目，向上与青瓷共享铁呈色机理，向下牵德清、建窑、吉州窑三处窑口与斗茶风俗。可支持未来"铁呈色釉系与茶器"类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 黑瓷的化学层、窑口层与风俗层三层记载
 ## 相关知识元
 
 `terms/mise-porcelain.md`（秘色瓷）、`terms/proto-porcelain.md`（原始瓷）与本案同属青釉—黑釉的铁呈色线索，2016 明称黑瓷"由原始瓷发展而来"；`terms/blue-and-white-porcelain.md`（青花瓷）与 `terms/youlihong.md`（釉里红）是元代景德镇彩瓷一侧，与本案的宋以前单色釉序列不同。`places/jingdezhen-kiln.md`、`places/longquan-kiln.md`、`places/ding-kiln.md` 是窑口条目，建窑、吉州窑、德清窑尚未单独成 KU。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

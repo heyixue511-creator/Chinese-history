@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "高阳是 D 维度下近现代棉纺织产地的兴衰条目，其织造工艺归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/d5-jiefangqu-gongyi-shengchan-zhengce.md
+    role: geographical_context
+    primary: true
+    scope_note: "D.5.4 主挂载：以抗战后“完全停产”到解放区“冀中的高阳成了纺织中心，几乎家家纺纱，村村织布”的转折为锚点，观察地方纺织传统在大生产运动中如何被重新组织；织造工艺归 B 次维度。"
+hierarchy_scope_note: "本条是 D.5.4 的地方纺织产地样本，承担“停产—复兴”的地方实践层；同一来源也用于官僚资本垄断的叙述，但本条不据此改挂 D.1.2。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "高阳是 D 维度下近现代棉纺织产地的兴衰条
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近现代纺织产地中**唯一跨抗战与解放区两个时段**的条目：同一地点先“完全停产”再“纺织中心”，是产地兴衰的极端样本。当前只到 Dimension。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.4（解放区工艺生产政策与报道），role 为 geographical_context，primary 为 true
+- role_in_theme: geographical_context
+- scope_note: 本条是 D.5.4 的地方纺织产地样本，承担“停产—复兴”的地方实践层；同一来源也用于官僚资本垄断的叙述，但本条不据此改挂 D.1.2。
 
 ## 相关知识元
 

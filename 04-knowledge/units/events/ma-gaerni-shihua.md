@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "马葛尔尼使华是 E 维度下清中叶中西通商冲突与外交礼仪争议的节点，其闭关锁国政策归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md
+    role: historical_context
+    primary: true
+    scope_note: "E.1.1 主挂载：作为博览会前史，以 1793 年马葛尔尼使华带来的 600 箱英国工业科技产品与清廷拒绝通商为锚点；产品清单、去向与清廷内部反应未载，不写成已发生的设计交流。"
+hierarchy_scope_note: "本条是 E.1.1 的博览会前史对照，承担‘工业产品进入宫廷但未形成展示制度’的线索；其通商与外交政策归 D 次维度。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "马葛尔尼使华是 E 维度下清中叶中西通商冲
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 马葛尔尼使华是 E 维度下清中叶中西通商冲突与外交礼仪争议的节点，其闭关锁国政策归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 本条是 E.1.1 的博览会前史对照，承担“工业产品进入宫廷但未形成展示制度”的线索；其通商与外交政策归 D 次维度。
 
 ## 相关知识元
 

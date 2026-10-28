@@ -28,20 +28,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "湖南瓷业公司是 B 维度下近代瓷业生产的机构条目，其官商合办与学校制度归 D、新法仿制与博览会获奖归 E；当前只到 Dimension。"
+primary_theme: B.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b4-jindai-ciye-gongsi-ciye-gailiang.md
+    role: key_institution
+    primary: true
+    scope_note: "B.4.1 主挂载：以 1906 年湖南瓷业学校、官商合办、圆器厂／琢器厂／机械室／电灯室／化学室与釉下花瓷为锚点；学校与官商合办制度归 D 次维度，南洋劝业会与巴拿马、意大利博览会获奖归 E 次维度。"
+hierarchy_scope_note: "湖南瓷业公司是 B.4.1 的“学校—公司—产品”一体化样本，观察传统产瓷区以新式公司、机械室与化学室生产釉下花瓷；学校与官商合办归 D、博览会获奖归 E，均不改变 B 主维度。"
 ---
 
 ## 描述
@@ -69,10 +77,10 @@ hierarchy_scope_note: "湖南瓷业公司是 B 维度下近代瓷业生产的机
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代瓷业“学校—公司—产品”一体的机构样本，可与景德镇瓷业公司、御器厂、湖南瓷业学校等条目并置，观察传统瓷业向新式公司转型的路径。当前只到 Dimension。
+- primary_theme: B.4（传统工艺的近代生产与转型）
+- topic_memberships: B.4.1（近代瓷业公司与瓷业改良），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是近代瓷业“学校—公司—产品”一体的机构样本，与景德镇瓷业公司并置，观察传统瓷业向新式公司转型的路径；御器厂、湖南瓷业学校只在相关知识元中并置，不并入本挂载。
 
 ## 相关知识元
 

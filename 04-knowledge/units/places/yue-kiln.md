@@ -61,17 +61,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "越窑作为陶瓷生产地点进入 B 维度；其唐代贡瓷与宫廷制度内容也可支持 D 维度，但当前只选定 B 为暂定主导航。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "曹娥江流域青瓷窑系与会稽窑、越州窑、秘色窑三名"
+hierarchy_scope_note: "曹娥江流域青瓷窑系与会稽窑、越州窑、秘色窑三名"
 ---
 
 ## 描述
@@ -96,11 +104,10 @@ hierarchy_scope_note: "越窑作为陶瓷生产地点进入 B 维度；其唐代
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是陶瓷产地与窑系，不是单一器物；其贡瓷制度内容未来可与 D 维度交叉，但当前只保留 B 为暂定主导航。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 曹娥江流域青瓷窑系与会稽窑、越州窑、秘色窑三名
 ## 相关知识元
 
 本批写回的考工记、孔子、黄道婆、天工开物、营造法式、莲鹤方壶与越窑在来源叙述中分属不同章节，尚未完成 relation 语义审查，故不写入正式 `relations`；本段不构成关系断言。

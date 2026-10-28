@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "中国纺织建设公司是 D 维度下抗战胜利后官僚资本垄断纺织业的条目；当前只到 Dimension。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-jindai-fangzhi-qiye.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1.2 主挂载：以抗战胜利后四大家族官僚资本垄断江南较大棉纺织业为锚点，作为与申新等民族资本企业的对照组；成立年份、资本、工厂、设备与产量均缺，confidence 维持 low。"
+hierarchy_scope_note: "本条是 D.1.2 的官僚资本纺织企业样本，用于对照民族资本企业；来源只有一句，只承载“四大家族垄断江南较大棉纺织业”这一判断，不写成公司史。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "中国纺织建设公司是 D 维度下抗战胜利后官
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度下抗战胜利后官僚资本垄断纺织业的条目，可与申新纺织公司等民营纺织企业、中国蚕丝公司并置，观察近代纺织工业的资本结构。当前只到 Dimension。
+- primary_theme: D.1（洋务企业与近代工业组织）
+- topic_memberships: D.1.2（近代纺织企业与实业家），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 D.1.2 的官僚资本纺织企业样本，用于对照民族资本企业；来源只有一句，只承载“四大家族垄断江南较大棉纺织业”这一判断，不写成公司史。
 
 ## 相关知识元
 

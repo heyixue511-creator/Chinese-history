@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "制陶是 B 维度下新石器时代陶器成器工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: procedure
+    primary: true
+    scope_note: "制陶是 B.5.1 的材料生成与工序链条目，承担“黏土—水—火”与拌泥至制器的流程；陶器起源的推测亦在此。"
+hierarchy_scope_note: "制陶是 B.5.1 的材料生成与工序链条目，承担“黏土—水—火”与拌泥至制器的流程；陶器起源的推测亦在此。"
 ---
 
 ## 描述
@@ -58,11 +66,10 @@ hierarchy_scope_note: "制陶是 B 维度下新石器时代陶器成器工序的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 制陶是 B 维度下新石器时代陶器成器工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 制陶是 B.5.1 的材料生成与工序链条目，承担“黏土—水—火”与拌泥至制器的流程；陶器起源的推测亦在此。
 ## 相关知识元
 
 `procedures/ni-tiao-panzhu.md` 记泥条盘筑，对应本条“盘泥”环节；`procedures/lunzhi-fa.md` 记轮制法，对应“拉坯”环节的后续发展；`terms/caihui-tao.md` 记彩陶，`terms/xinshiqi-shidai.md` 记新石器时代分期。relation 未审查。

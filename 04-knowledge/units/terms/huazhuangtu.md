@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "化妆土是 B 维度下陶瓷胎釉工艺的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "只取婺州窑以化妆土改善呈色；史前陶器用法归 B.5.1"
+hierarchy_scope_note: "只取婺州窑以化妆土改善呈色；史前陶器用法归 B.5.1"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "化妆土是 B 维度下陶瓷胎釉工艺的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 化妆土是 B 维度下陶瓷胎釉工艺的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取婺州窑以化妆土改善呈色；史前陶器用法归 B.5.1
 ## 相关知识元
 
 `terms.he-cai.md`、`terms.you-shang-cai.md` 同属陶瓷装饰工艺。relation 未审查。

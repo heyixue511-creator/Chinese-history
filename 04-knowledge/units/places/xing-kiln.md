@@ -48,17 +48,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "邢窑是 B 维度下唐代白瓷体系与“南青北白”格局的窑口锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "唐代北方白瓷代表与南青北白；窑址是否确认的异说"
+hierarchy_scope_note: "唐代北方白瓷代表与南青北白；窑址是否确认的异说"
 ---
 
 ## 描述
@@ -87,11 +95,10 @@ hierarchy_scope_note: "邢窑是 B 维度下唐代白瓷体系与“南青北白
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是唐代白瓷与“南青北白”格局的窑口锚点，可与唐三彩 KU 在唐代陶瓷体系内并置；两者关系尚未完成 relation 语义审查。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 唐代北方白瓷代表与南青北白；窑址是否确认的异说
 ## 相关知识元
 
 本批写回的唐三彩、磁州窑 KU 同属陶瓷类知识元，在来源中与邢窑处于唐代或唐宋陶瓷叙述序列；但 relation 类型、方向与强度尚未审查，故不写入正式 `relations`。

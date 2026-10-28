@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "本条是 D 维度下解放区陶瓷研究机构的条目，其陶瓷工艺生产归 B 维度；当前只到 Dimension。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d5-jiefangqu-gongyi-yanjiu-jigou.md
+    role: key_institution
+    primary: true
+    scope_note: "D.5.3 主挂载：以磁州解放后恢复陶瓷生产并成立“解放区第一个陶瓷研究所”一句为锚点；陶瓷工艺归 B 次维度，研究所的组织、人员与成果均缺，confidence 维持 low。"
+hierarchy_scope_note: "本条是 D.5.3 的解放区陶瓷研究机构样本，只有一句来源，用于登记“生产恢复—研究机构”的制度位置；陶瓷工艺归 B 次维度，不改变 D 主维度。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "本条是 D 维度下解放区陶瓷研究机构的条目
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度下解放区陶瓷研究机构的条目，其研究指向 B 维度的陶瓷工艺生产。与宋元磁州窑窑口分属不同时期与对象，不能互相替代。当前只到 Dimension。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.3（解放区工艺研究机构），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 D.5.3 的解放区陶瓷研究机构样本，只有一句来源，用于登记“生产恢复—研究机构”的制度位置；陶瓷工艺归 B 次维度，不改变 D 主维度。
 
 ## 相关知识元
 

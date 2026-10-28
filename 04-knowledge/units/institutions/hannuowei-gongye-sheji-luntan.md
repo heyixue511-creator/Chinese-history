@@ -28,20 +28,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - C
   - D
-hierarchy_scope_note: "汉诺威工业设计论坛是 E 维度下国际设计评奖机构的条目，其产品设计对象归 C、企业参赛与市场推广归 D；当前只到 Dimension。"
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md
+    role: key_institution
+    primary: true
+    scope_note: "E.1.2 主挂载：以汉诺威工业设计论坛作为‘if design award china 2007’评奖主办方、李宁半坡篮球鞋 2007 年获奖为锚点；成立年份、评审制度与机构沿革未载。"
+hierarchy_scope_note: "本条是 E.1.2 的国际评奖制度样本，承担‘国际设计评奖如何介入中国产品设计合法性’的线索；其产品设计对象归 C、企业参赛与市场推广归 D 次维度。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "汉诺威工业设计论坛是 E 维度下国际设计评
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: C（视觉传达与文字设计）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是国际工业设计评奖机构进入中国设计叙事的接口，可与李宁半坡篮球鞋、中国设计师国际获奖、工业设计等条目并置，观察“国际评奖—本土产品—设计合法性”的互动。当前只到 Dimension。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 本条是 E.1.2 的国际评奖制度样本，承担“国际设计评奖如何介入中国产品设计合法性”的线索；其产品设计对象归 C、企业参赛与市场推广归 D 次维度。
 
 ## 相关知识元
 

@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "陶器是 B 维度下新石器时代制陶与器形设计的总类条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: term_anchor
+    primary: true
+    scope_note: "陶器是 B.5 的总类锚点、B.5.1 的技术总述条目，承担定义、原料与羼和料、三类成形；具体陶系与器物归 B.5.2。"
+hierarchy_scope_note: "陶器是 B.5 的总类锚点、B.5.1 的技术总述条目，承担定义、原料与羼和料、三类成形；具体陶系与器物归 B.5.2。"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "陶器是 B 维度下新石器时代制陶与器形设计
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 陶器是 B 维度下新石器时代制陶与器形设计的总类条目，向下关联陶鬲、陶甑、彩陶、黑陶等具体器类。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 陶器是 B.5 的总类锚点、B.5.1 的技术总述条目，承担定义、原料与羼和料、三类成形；具体陶系与器物归 B.5.2。
 ## 相关知识元
 
 与 `terms/li-cauldron.md`（陶鬲）、`terms/tao-zeng.md`（陶甑）、`terms/painted-pottery.md`（彩陶）、`terms/dark-pattern-pottery.md`（黑陶）、`procedures/ni-tiao-panzhu.md`（泥条盘筑法）同属新石器时代制陶谱系。relation 未审查。

@@ -60,17 +60,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "龙山文化是 B 维度下新石器时代晚期黑陶工艺与早期城址的类型学锚点，兼涉快轮制陶这一关键工艺转折。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "龙山文化是 B.5.2 的分区框架，承担黑陶标志、快轮制陶与蛋壳黑陶，以及序列位置两说。"
+hierarchy_scope_note: "龙山文化是 B.5.2 的分区框架，承担黑陶标志、快轮制陶与蛋壳黑陶，以及序列位置两说。"
 ---
 
 ## 描述
@@ -111,11 +119,10 @@ hierarchy_scope_note: "龙山文化是 B 维度下新石器时代晚期黑陶工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中快轮制陶与早期城址的关键节点，与仰韶文化、河姆渡文化构成新石器三文化比较组，向上接原始青瓷。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 龙山文化是 B.5.2 的分区框架，承担黑陶标志、快轮制陶与蛋壳黑陶，以及序列位置两说。
 ## 相关知识元
 
 同批写回的仰韶文化、河姆渡文化、原始青瓷、蛋壳陶相关条目与本条直接相关。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

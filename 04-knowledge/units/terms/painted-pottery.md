@@ -51,17 +51,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "彩陶是 B 维度下新石器时代陶器装饰工艺的术语锚点，其纹样母题也涉及 C 维度的视觉符号问题。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: term_anchor
+    primary: true
+    scope_note: "彩陶是 B.5.2 的陶系锚点，承担烧前绘彩的界定、五册分布与类型划分；其绘彩烧成工序归 B.5.1。"
+hierarchy_scope_note: "彩陶是 B.5.2 的陶系锚点，承担烧前绘彩的界定、五册分布与类型划分；其绘彩烧成工序归 B.5.1。"
 ---
 
 ## 描述
@@ -86,11 +94,10 @@ hierarchy_scope_note: "彩陶是 B 维度下新石器时代陶器装饰工艺的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是史前陶器装饰的术语锚点，其纹样分析可支持未来的装饰母题、视觉符号类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 彩陶是 B.5.2 的陶系锚点，承担烧前绘彩的界定、五册分布与类型划分；其绘彩烧成工序归 B.5.1。
 ## 相关知识元
 
 本批写回的唐三彩 KU 同属陶瓷类术语，但分属史前与唐代两个时段，来源中无直接的工艺传承叙述；relation 未经审查，不写入正式 `relations`。

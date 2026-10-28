@@ -33,17 +33,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "利玛窦是 E 维度下明清中西器物与技术交流的早期节点。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/e2-chuanjiaoshi-yu-xixue-jishu.md
+    role: key_person
+    primary: true
+    scope_note: "E.2.3 主挂载：以 1601 年向万历皇帝进献自鸣钟、传入望远镜与世界地图为锚点；生卒、在华活动年表与自鸣钟形制未载。"
+hierarchy_scope_note: "本条是 E.2.3 的器物传入样本，承担‘传教士如何以自鸣钟等欧洲新式器物进入宫廷’的线索；其技术知识归 B、知识网络归 D 次维度。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "利玛窦是 E 维度下明清中西器物与技术交流
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 利玛窦是 E 维度下明清中西器物与技术交流的早期节点。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-chuanjiaoshi-yu-xixue-jishu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 本条是 E.2.3 的器物传入样本，承担“传教士如何以自鸣钟等欧洲新式器物进入宫廷”的线索；其技术知识归 B、知识网络归 D 次维度。
 
 ## 相关知识元
 

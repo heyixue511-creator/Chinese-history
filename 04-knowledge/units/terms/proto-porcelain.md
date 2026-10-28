@@ -60,17 +60,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "原始青瓷是 B 维度下陶—瓷过渡阶段的技术类型条目，五册来源用以确定中国瓷器发明的上限年代。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "商周至战国的青釉器判据与起始时间诸说；陶器面归 B.5"
+hierarchy_scope_note: "商周至战国的青釉器判据与起始时间诸说；陶器面归 B.5"
 ---
 
 ## 描述
@@ -102,11 +110,10 @@ hierarchy_scope_note: "原始青瓷是 B 维度下陶—瓷过渡阶段的技术
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是陶—瓷过渡的技术锚点，向上接青瓷、秘色瓷，向下接印纹硬陶与釉陶。可支持未来的瓷器起源与高温釉技术类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 商周至战国的青釉器判据与起始时间诸说；陶器面归 B.5
 ## 相关知识元
 
 同批写回的秘色瓷、釉里红与本条同属陶瓷技术序列；越窑、汝窑、钧窑等 KU 为后续阶段。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

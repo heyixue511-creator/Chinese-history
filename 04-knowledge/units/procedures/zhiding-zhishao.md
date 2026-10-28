@@ -43,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "支钉支烧法是 B 维度下晚唐至宋瓷器装烧工序的条目，与覆烧、叠烧同属窑具与装烧技术谱系。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "秘色瓷与汝窑的满釉支烧及支钉痕"
+hierarchy_scope_note: "秘色瓷与汝窑的满釉支烧及支钉痕"
 ---
 
 ## 描述
@@ -84,11 +92,10 @@ hierarchy_scope_note: "支钉支烧法是 B 维度下晚唐至宋瓷器装烧工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（以支钉与垫饼承托器物的装烧方法），上接越窑秘色瓷与宋代汝、官、哥窑，下接匣钵、垫圈、垫饼等窑具；当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 秘色瓷与汝窑的满釉支烧及支钉痕
 ## 相关知识元
 
 `terms/mise-porcelain.md` 记秘色瓷的定名与法门寺地宫实例；`places/ru-kiln.md` 记汝窑窑口；`terms/guan-yao.md`、`terms/ge-yao.md` 分记官窑与哥窑；`procedures/fu-shao-fa.md` 记覆烧，`procedures/die-shao.md` 记叠烧，均属装烧技术谱系而支垫方式不同。relation 未经审查，不写入正式 `relations`。

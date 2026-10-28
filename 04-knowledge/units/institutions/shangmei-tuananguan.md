@@ -32,7 +32,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -42,7 +42,16 @@ version: 1
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下近代设计事务所的锚点，其染织纹样业务属于 B 维度。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-tuananguan-shetuan-zhiyehua.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.3 首批：以 1923/1924 年创办、图案设计业务与 4 年存续为锚点；染织纹样业务涉及 B，但原 KU 未列次维度，本批不新增。"
+hierarchy_scope_note: "尚美图案馆是 D.4.3 的图案事务所样本；以事务所承接图案设计并训练人员，体现设计教育与职业化的合并。原 KU 未列次维度，本批不新增；secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -62,10 +71,11 @@ hierarchy_scope_note: "本 KU 是 D 维度下近代设计事务所的锚点，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下近代设计事务所的锚点，其染织纹样业务属于 B 维度。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无（原 KU 未列，本批不新增）
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.3 图案馆、商业美术社团与职业化（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本 KU 是 D.4.3 的图案事务所样本；以 1923/1924 年创办、工业产品图案／染织纹样业务与 4 年存续为锚点。染织纹样业务涉及 B，但原 KU 未列次维度，本批不新增。
 
 ## 相关知识元
 

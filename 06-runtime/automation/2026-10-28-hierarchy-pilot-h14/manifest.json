@@ -1,0 +1,88 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h14",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 E 维度新建首个 Theme E.1「跨文化设计交流与展示」与 E.1.1／E.1.2 两个 Topic，把 1851 年万国博览会、1915 年巴拿马赛会、1793 年马葛尔尼使华、2010 年上海世博会，以及 1985–2007 年间的国际展览、评奖与专业会议共 11 个 KU 集中挂载。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.4",
+    "baseline_themes": 12,
+    "baseline_topics": 30,
+    "baseline_topic_memberships": 162,
+    "baseline_complete_assignments": 158,
+    "baseline_incomplete_assignments": 2412,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6318,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 320,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1442
+  },
+  "result": {
+    "hierarchy_version": "v1.5",
+    "themes": 13,
+    "topics": 32,
+    "topic_memberships": 173,
+    "complete_assignments": 169,
+    "incomplete_assignments": 2401,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6340,
+    "relation_types": "3/67",
+    "member_of_relations": 342,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1432,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/e1-kuawenhua-sheji-jiaoliu-zhanshi.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md",
+      "04-knowledge/structure/topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 11,
+    "changed_units": 11,
+    "total_mounted_units": 169,
+    "new_topic_memberships": 11,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 19,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2401",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1432",
+    "1851 Great Exhibition: Zhao Nong gives only two summary passages; host city, hall dimensions, exhibitor count, exhibit list and visitor numbers are missing, and Chinese participation is not recorded",
+    "Panama-Pacific Exposition: name, opening date, duration, twelve halls and 300-plus participants are verifiable, but Chinese exhibit classification, judging criteria and award list are absent; Tian Zibing records only the Beijing lacquer award",
+    "Shanghai Expo 2010 KU holds only Zhao Nong's 2008 expectation; actual opening, theme, participants, pavilions and visitor data are not recorded, so it cannot stand as a record of what happened",
+    "Macartney embassy rests on one Zhao Nong passage; the 600 cases of industrial and scientific instruments, their whereabouts and the Qing court response are missing, and whether it constitutes a prehistory of expositions is not argued by the source",
+    "YSL 1985, Bauhaus 1989, computer art 1995, China-Italy 1999 and CAD 2000 records give only name, date and place; organizers, exhibits or agendas, audiences and later effects are missing",
+    "1997 China Art Exhibition has organizer and symposium information, but exhibition scale, work list and report contents are missing",
+    "Hannover Industrial Design Forum is bound only to the phrase 'Germany's oldest industrial design institution' and the 2007 iF design award china; founding year, organizational nature, judging system and historical data are absent, and the source does not equate it with iF International Forum Design GmbH",
+    "No mediating evidence links 'entering an international exhibition or winning an award' to 'a change in design ideas'; the Theme does not treat participation or awards as proof of a modernity shift",
+    "Chinoiserie, foreign-style architecture, qipao and other cross-cultural entries remain unmounted; dimension E does not close because E.1 exists",
+    "2401 KUs remain unmounted; E.1 covers only 11 KUs"
+  ],
+  "notes": "本批新建 1 个 Theme（E.1）与 2 个 Topic（E.1.1、E.1.2），挂载 11 个 KU：1851 年万国博览会、1915 年巴拿马赛会、2010 年上海世博会以 evidence_event 挂入 E.1.1，1793 年马葛尔尼使华以 historical_context 挂入 E.1.1；包豪斯 1989 年香港展、伊夫·圣·洛朗 1985 年回顾展、1995 年计算机艺术研讨会、1997 年中国当代艺术设计展、1999 年中国—意大利工业设计周、2000 年 CAD 国际会议以 evidence_event 挂入 E.1.2，汉诺威工业设计论坛以 key_institution 挂入 E.1.2。E.1 按“博览会展示—国际评奖—专业会议”三渠道分层，区分“被展示”“被评价”与“主动引入”三种位置；马葛尔尼使华只作展示体系前史，2010 年上海世博会保留 2008 年预期表述的证据边界，包豪斯与伊夫·圣·洛朗等条目只具事件性证据强度。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

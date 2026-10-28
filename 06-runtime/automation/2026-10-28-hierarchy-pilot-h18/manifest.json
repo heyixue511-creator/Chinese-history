@@ -1,0 +1,92 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h18",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 E 维度新建第五个 Theme E.5「服饰改制与族群身份」与 E.5.1–E.5.2 两个 Topic，把胡服、胡服骑射、孝文改制、孝明帝服饰改革、孝文帝迁都洛阳 5 个 KU 按“改制方向 × 正当性依据”集中挂载。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.8",
+    "baseline_themes": 16,
+    "baseline_topics": 41,
+    "baseline_topic_memberships": 206,
+    "baseline_complete_assignments": 202,
+    "baseline_incomplete_assignments": 2368,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6406,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 408,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1414
+  },
+  "result": {
+    "hierarchy_version": "v1.9",
+    "themes": 17,
+    "topics": 43,
+    "topic_memberships": 211,
+    "complete_assignments": 207,
+    "incomplete_assignments": 2363,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6416,
+    "relation_types": "3/67",
+    "member_of_relations": 418,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1411,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/e5-fushi-gaizhi-yu-zuqun-shenfen.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/e5-hufu-qishe-gongneng-yu-liyi.md",
+      "04-knowledge/structure/topics/e5-beiwei-hanhua-fushi-gaizhi.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 5,
+    "changed_units": 5,
+    "total_mounted_units": 207,
+    "new_topic_memberships": 5,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 13,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2363",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1411",
+    "Hu dress and the Hufu Qishe reform: no year, no edict, no scope of implementation; the Hu garment is described only as short jacket, trousers and boots, with no cut, fabric, pattern or excavated object",
+    "Belt hook (gouluodai): no object, date, dimension or archaeological evidence; no source states whether it entered with the Hu garment or was a Central-Plains innovation",
+    "The objections of the Zhao nobility are not recorded; the source only summarizes that the king 'overcame all objections' and 'persuaded the nobles'",
+    "The Shiji Zhao Shijia quotation survives as three sentences with no chapter, section, edition or context; the library does not infer beyond it",
+    "Xiaowen reform: no edict, no dress-code detail, no implementation scope; 'the whole court wore Han-Wei garments' is a single summarizing sentence",
+    "Xiaomingdi dress reform: no year, no edict text, no scope; what 'Wei law' refers to in 'ritual and ceremonial dress all follow Wei law' is unspecified",
+    "Luoyang Qielan Ji (Chengdong) and Nan Qi Shu (Wei Lu Zhuan) are quoted from different sources; no source reads them against each other, so whether 'wide sleeves and broad belts reaching Moling' and 'cage cap over trousers with red robe' are complementary or contradictory is unresolved",
+    "Xiaowen's move to Luoyang: no year, edict, opposition or capital layout; the relation between the move and the dress reform is not discussed by any source",
+    "No source text links the two Northern Wei reforms causally; whether Xiaomingdi's reform answered the hybrid style that followed Xiaowen's is not established",
+    "'Sino-barbarian hybridity' is one description of one style, not a statement about Northern Wei dress as a whole",
+    "The 'progressive significance of Northern Wei sinicization' is the source's evaluation, not this Theme's judgment; neither sinicization nor barbarization is treated as a direction of progress",
+    "Modern women's dress (qipao, short jacket with skirt, shishi zhuang) and the natural-foot movement remain unmounted and require a separate Theme on gender and the body",
+    "Periodization events (An Lushan Rebellion, Jingkang Incident, Pangeng's move to Yin, Pangeng) remain unmounted; whether they belong to dimension E at all is still undecided",
+    "2363 KUs remain unmounted; E.5 covers only 5 KUs and E dimension still has 8 unmounted candidates"
+  ],
+  "notes": "本批新建 1 个 Theme（E.5）与 2 个 Topic（E.5.1–E.5.2），挂载 5 个 KU：胡服以 term_anchor、胡服骑射以 evidence_event 入 E.5.1；孝文改制与孝明帝服饰改革以 evidence_event、孝文帝迁都洛阳以 historical_context 入 E.5.2。E.5 按“改制方向 × 正当性依据”分层：胡服骑射为中原向游牧方向改制、依据“便用”，北魏两次改制为鲜卑向中原方向改制、依据“华典”与“魏法”，方向相反而同属“服饰可被政治裁定”的动作。孝文帝迁都以 historical_context 挂载，只为改制提供政治地理背景，不构成改制证据链的一环。E.5 不把“汉化”预设为进步方向，也不把“胡汉杂糅”当作北魏服饰整体状况。近代女装与天足运动因涉及性别与身体，另立 Theme 而不并入 E.5。v1.8 归档哈希 bd363b9a0172e894eccc3a1ecdfc091bfc2d54cb28dc183d1c2612774e85c406 与 h17 apply-plan 记录的 v1.8 索引哈希一致，确认归档无损。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "金坛鳖墩西周墓是 B 维度下西周原始瓷器器形细节最完整的一处墓葬落点。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: evidence_event
+    primary: true
+    scope_note: "1975 年 29 件原始瓷与满釉、青黄釉特征"
+hierarchy_scope_note: "1975 年 29 件原始瓷与满釉、青黄釉特征"
 ---
 
 ## 描述
@@ -56,11 +64,10 @@ hierarchy_scope_note: "金坛鳖墩西周墓是 B 维度下西周原始瓷器器
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与屯溪西周墓构成西周原始瓷器的两处墓葬材料：屯溪以数量与“最为重要”的排序见长，鳖墩以罐、盂、盖碗的器形细节见长。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 1975 年 29 件原始瓷与满釉、青黄釉特征
 ## 相关知识元
 
 `terms/proto-porcelain.md` 记原始瓷器的界定；`places/tunxi-xizhou-tomb.md` 是同批的西周原始瓷器墓葬材料，数量与排序见该条。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

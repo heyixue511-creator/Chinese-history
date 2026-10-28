@@ -34,17 +34,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "南洋劝业会是 D 维度下清末实业展览与产品评奖制度的条目，也是 `places/nanjing.md` 清末会场的制度背景。Theme/Topic 尚未 materialize。"
+secondary_dimensions: []
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/d5-gongyiju-quanyehui-gongyi-pingjia.md
+    role: evidence_event
+    primary: true
+    scope_note: "D.5.2 主挂载：以 1910 年南洋通商大臣倡办、南京丁家桥、24 部 420 类、100 多万件展品与 5269 件获奖为锚点；会场建筑与城市空间不并入，具体工艺门类归 B。"
+hierarchy_scope_note: "南洋劝业会是 D.5.2 的清末全国工艺展评样本，观察分类、评奖与实业展示制度；原 KU 未列次维度，本批不新增；会场空间不并入。"
 ---
 
 ## 描述
@@ -65,10 +74,11 @@ hierarchy_scope_note: "南洋劝业会是 D 维度下清末实业展览与产品
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 南洋劝业会是 D 维度下清末实业展览与产品评奖制度的条目，也是 `places/nanjing.md` 清末会场的制度背景。Theme/Topic 尚未 materialize。
+- secondary_dimensions: 无；原 KU 未列次维度，本批不新增
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.2（清末民初工艺局、劝业会与工艺评价），role 为 evidence_event，primary 为 true
+- role_in_theme: evidence_event
+- scope_note: 南洋劝业会是 D.5.2 的清末全国工艺展评样本，观察分类、评奖与实业展示制度；会场建筑与城市空间不并入，具体工艺门类归 B。
 
 ## 相关知识元
 

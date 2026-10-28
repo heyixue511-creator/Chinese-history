@@ -26,19 +26,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
-primary_dimension: E
-secondary_dimensions:
-  - A
-hierarchy_scope_note: 盘庚是 E 维度下商代都邑迁移与王朝分期的关键人物，其迁都决策同时属 A 维度历史叙事。Theme/Topic 尚未 materialize。
+primary_dimension: A
+secondary_dimensions: []
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: historical_context
+    primary: true
+    scope_note: "盘庚在 A.1.3 中作 `historical_context`：其设计史功能是作为迁殷这一断代锚点的行为者，并承担《竹书纪年》《史记》《尚书》三处引文的年代参照；迁都的军政过程归 D，本条不重复。"
+hierarchy_scope_note: "盘庚在 A.1.3 中作 `historical_context`：其设计史功能是作为迁殷这一断代锚点的行为者，并承担《竹书纪年》《史记》《尚书》三处引文的年代参照；迁都的军政过程归 D，本条不重复。"
 ---
 
 ## 描述
@@ -59,12 +66,11 @@ hierarchy_scope_note: 盘庚是 E 维度下商代都邑迁移与王朝分期的�
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: E（现代性与跨文化互动）
-- secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 盘庚是 E 维度下商代都邑迁移与王朝分期的关键人物，其迁都决策同时属 A 维度历史叙事。Theme/Topic 尚未 materialize。
+- primary_dimension: A（设计史观与史学方法）
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 在 A.1.3 中作 `historical_context`：设计史功能是作为迁殷这一断代锚点的行为者，并承担《竹书纪年》《史记》《尚书》三处引文的年代参照；迁都的军政过程归 D，本条不重复。
 
 ## 相关知识元
 

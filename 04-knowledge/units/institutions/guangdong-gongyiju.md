@@ -30,20 +30,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - E
   - B
-hierarchy_scope_note: "广东工艺局是 D 维度下清末地方工艺生产主管机构的条目，其外销网络归 E、刺绣工艺归 B；当前只到 Dimension。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d5-gongyiju-quanyehui-gongyi-pingjia.md
+    role: key_institution
+    primary: true
+    scope_note: "D.5.2 主挂载：以光绪年间设立、主管工艺品生产、洋庄外销、潮绣经汕头口岸出口与 1900 年广东海关绣品出口值为锚点；外销网络归 E、刺绣工艺归 B，均不改变 D 主维度。"
+hierarchy_scope_note: "广东工艺局是 D.5.2 的清末地方工艺行政样本，观察地方官府如何组织工艺品生产与外销；外销网络归 E、刺绣工艺归 B，均不改变 D 主维度。"
 ---
 
 ## 描述
@@ -69,10 +77,10 @@ hierarchy_scope_note: "广东工艺局是 D 维度下清末地方工艺生产主
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: E（现代性与跨文化互动）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是清末地方官府介入工艺品生产与外销的机构样本，可与粤绣、广货、洋庄、汕头口岸等条目并置。当前只到 Dimension。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.2（清末民初工艺局、劝业会与工艺评价），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 D.5.2 的清末地方工艺行政样本，观察地方官府如何组织工艺品生产与外销；外销网络归 E、刺绣工艺归 B，均不改变 D 主维度。
 
 ## 相关知识元
 

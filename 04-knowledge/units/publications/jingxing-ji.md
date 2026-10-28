@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "《经行记》是 E 维度下唐代中外工艺交流的文献条目，其工匠身份与官方出使背景属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: supporting_source
+    primary: true
+    scope_note: "E.2.2 主挂载：以田自秉转引杜环在大食首都见京兆樊淑、刘泚作画与河东乐环、吕礼织络为锚点；原书卷数、版本与完整佚文未载。"
+hierarchy_scope_note: "本条是 E.2.2 的文献样本，承担‘唐代工艺工匠曾到国外传艺’的转引证据；其工匠身份与官方出使背景归 D 次维度。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "《经行记》是 E 维度下唐代中外工艺交流的
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《经行记》是 E 维度下唐代中外工艺交流的文献条目，其工匠身份与官方出使背景属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: 本条是 E.2.2 的文献样本，承担“唐代工艺工匠曾到国外传艺”的转引证据；其工匠身份与官方出使背景归 D 次维度。
 
 ## 相关知识元
 

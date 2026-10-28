@@ -75,7 +75,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
@@ -88,7 +88,19 @@ primary_dimension: D
 secondary_dimensions:
   - C
   - B
-hierarchy_scope_note: "庞薰琹是 D 维度下中国近代设计教育制度化的枢纽人物：从 1930 年代的工商美术事务所与课程，到 1950 年代中央工艺美术学院的筹建，再到 1957 年被定为“反党集团”首脑，制度线索完整。同时以 C 维度（装饰艺术与书籍装帧）与 B 维度（工艺美术研究组织）为副。Theme/Topic 均未 materialize。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md
+    role: key_person
+    primary: true
+    scope_note: "D.4.2 主挂载：以 1936 年北平艺专图案系工商美术课、1940–1945 年四川省立艺专实用美术系主任与《工艺美术设计集》为锚点；1950 年代中央工艺美术学院筹建只作边界。"
+  - topic: topics/d4-tuananguan-shetuan-zhiyehua.md
+    role: key_person
+    primary: false
+    scope_note: "D.4.3 次挂载：以 1930 年上海昌明艺专／上海美专任教、1932 年大熊工商美术社筹建与工商美术展览为锚点；机构名与结局两说并列。"
+hierarchy_scope_note: "庞薰琹是 D.4 设计教育制度化的枢纽人物：D.4.2 主挂载其艺专工商美术课程，D.4.3 次挂载其上海事务所与社团活动；C/B 次维度保留。1950 年代中央工艺美术学院与 1957 年遭遇只作边界，不纳入本批。"
 ---
 
 ## 描述
@@ -141,10 +153,11 @@ hierarchy_scope_note: "庞薰琹是 D 维度下中国近代设计教育制度化
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: C（视觉传达与文字设计）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近代设计教育制度线索的关键节点，与 `institutions/central-academy-arts-design.md` 构成“人物—机构”配对；其工商美术事务所的失败（1932）与 1957 年的政治遭遇，构成“设计制度脆弱性”的两个样本。可支持未来的近代设计教育、工商美术、装饰艺术研究史类 Topic。当前只到 Dimension。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- secondary_themes: 无（D.4.3 为同一 Theme 内的次挂载）
+- topic_memberships: D.4.2 艺专图案教育与工商美术课程（key_person，主挂载）；D.4.3 图案馆、商业美术社团与职业化（key_person，次挂载）
+- role_in_theme: key_person
+- scope_note: 本 KU 是 D.4 设计教育制度化的关键节点：D.4.2 取 1936 年北平艺专工商美术课与 1940–1945 年四川省立艺专实用美术系主任，D.4.3 取 1932 年大熊工商美术社与上海任教。1950 年代中央工艺美术学院筹建与 1957 年遭遇只作边界，不纳入本批。
 
 ## 相关知识元
 

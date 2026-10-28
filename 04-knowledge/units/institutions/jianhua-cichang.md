@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "建华瓷厂是 B 维度下解放区陶瓷生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+primary_theme: B.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b4-jiefangqu-riyong-gongyi-shengchan.md
+    role: key_institution
+    primary: true
+    scope_note: "B.4.2 主挂载：以关中衣食村建华瓷厂的细瓷、古铜／淡红／白／黑色釉与陇东运销为锚点，观察解放区陶瓷的品种与釉色层次；工厂组织与边区政策归 D 次维度。"
+hierarchy_scope_note: "本条是 B.4.2 的解放区陶瓷厂样本，负责“细瓷与色釉品种”这一技术层；同时来源把它与延安玻璃厂、桥儿沟陶瓷厂、子长瓷窑、磁州研究所并置，组织与政策线索归 D 次维度，本批不另设 D 挂载。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "建华瓷厂是 B 维度下解放区陶瓷生产的条目
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下解放区陶瓷生产的条目，可与桥儿沟陶瓷厂、子长瓷窑、磁州陶瓷研究所并置，观察战时边区陶瓷从日用粗瓷到细瓷与色釉的技术层次。当前只到 Dimension。
+- primary_theme: B.4（传统工艺的近代生产与转型）
+- topic_memberships: B.4.2（解放区日用工艺生产），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 B.4.2 的解放区陶瓷厂样本，负责“细瓷与色釉品种”这一技术层；工厂组织与边区政策归 D 次维度，本批不另设 D 挂载。
 
 ## 相关知识元
 

@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: 本 KU 是 E 维度下跨文化工艺影响的条目，其釉彩、钴料与纹样机制归 B 维度。Theme/Topic 尚未 materialize。
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: term_anchor
+    primary: true
+    scope_note: "E.2.2 主挂载：以唐代起影响釉彩、金银、纺织与建筑，钴毒砂、苏麻离青与回青产自伊斯兰地区，元明清青花归功于伊斯兰钴料进口为锚点；核心判断以‘可能’‘看来’出之。"
+hierarchy_scope_note: "本条是 E.2.2 的工艺影响样本，承担‘外来钴料与釉彩如何改变中国瓷器呈色与装饰’的线索；其釉料、钴料与纹样机制归 B 次维度。"
 ---
 
 ## 描述
@@ -66,10 +74,10 @@ hierarchy_scope_note: 本 KU 是 E 维度下跨文化工艺影响的条目，其
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 E 维度下跨文化工艺影响的条目，其釉彩、钴料与纹样机制归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 E.2.2 的工艺影响样本，承担“外来钴料与釉彩如何改变中国瓷器呈色与装饰”的线索；其釉料、钴料与纹样机制归 B 次维度。
 
 ## 相关知识元
 

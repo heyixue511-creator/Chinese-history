@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "马家窑型彩陶是 B 维度下甘青地区彩陶类型的术语条目；其内彩与螺旋纹属 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: term_anchor
+    primary: true
+    scope_note: "马家窑型彩陶是 B.5.2 五型之一，承担同心圆、螺旋纹、内彩与旋动流畅的风格。"
+hierarchy_scope_note: "马家窑型彩陶是 B.5.2 五型之一，承担同心圆、螺旋纹、内彩与旋动流畅的风格。"
 ---
 
 ## 描述
@@ -58,12 +66,10 @@ hierarchy_scope_note: "马家窑型彩陶是 B 维度下甘青地区彩陶类型
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 马家窑型彩陶是 B 维度下甘青地区彩陶类型的术语条目；其内彩与螺旋纹属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 马家窑型彩陶是 B.5.2 五型之一，承担同心圆、螺旋纹、内彩与旋动流畅的风格。
 ## 相关知识元
 
 见同册著录的史前陶器、装饰方法与文化类型条目。relation 未审查。

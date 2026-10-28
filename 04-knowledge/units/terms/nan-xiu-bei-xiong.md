@@ -22,17 +22,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
-hierarchy_scope_note: A 维度下的审美概念条目，记录作者对南北朝文化风格的概括；Theme/Topic 尚未 materialize。
+secondary_dimensions:
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: term_anchor
+    primary: true
+    scope_note: "A.1.3 主挂载：以赵农对南北朝‘南秀北雄’审美趣味的概括为锚点；来源未给定义、提出者与系统论证，本条只作教材解释框架的边界样本，不作风格史定论。"
+hierarchy_scope_note: "本条是 A.1.3 的区域审美解释框架锚点，承担‘教材概括如何充当解释框架’的边界样本；其书法与写经例证归 B/C/D 具体史实。"
 ---
 
 ## 描述
@@ -53,10 +62,10 @@ hierarchy_scope_note: A 维度下的审美概念条目，记录作者对南北�
 
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: A 维度下的审美概念条目，记录作者对南北朝文化风格的概括；Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 A.1.3 的区域审美解释框架锚点，承担“教材概括如何充当解释框架”的边界样本；其书法与写经例证归 B/C/D 具体史实。
 
 ## 相关知识元
 

@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "1851 年英国万国博览会是 E 维度下现代设计诞生的跨文化节点，其钢铁玻璃建筑技术归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.1.1 主挂载：以赵农把 1851 年英国万国博览会写成‘现代艺术设计的序幕’为锚点；来源缺举办城市、展馆尺寸、参展国数量、展品清单与中国参展情况，只作展示史节点。"
+hierarchy_scope_note: "本条是 E.1.1 的博览会展示史起点，承担‘现代设计如何以世界博览会为展示场合’的线索；其钢铁玻璃建筑技术归 B 次维度。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "1851 年英国万国博览会是 E 维度下现代设计�
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 1851 年英国万国博览会是 E 维度下现代设计诞生的跨文化节点，其钢铁玻璃建筑技术归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.1.1 的博览会展示史起点，承担“现代设计如何以世界博览会为展示场合”的线索；其钢铁玻璃建筑技术归 B 次维度。
 
 ## 相关知识元
 

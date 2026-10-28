@@ -61,17 +61,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下南北朝青瓷的器物锚点，也涉及 E 维度的佛教艺术传播。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: representative_work
+    primary: true
+    scope_note: "南北朝仰覆莲花尊的印贴、刻划、堆塑综合"
+hierarchy_scope_note: "南北朝仰覆莲花尊的印贴、刻划、堆塑综合"
 ---
 
 ## 描述
@@ -98,11 +106,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下南北朝青瓷的器物锚点，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下南北朝青瓷的器物锚点，也涉及 E 维度的佛教艺术传播。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 南北朝仰覆莲花尊的印贴、刻划、堆塑综合
 ## 相关知识元
 
 与青瓷、白瓷同属南北朝瓷系谱系；莲花尊是青瓷中的佛教题材特型器。`terms/lianhua-wen.md` 记莲花纹的源流与流行；`terms/rendong-wen.md` 记同段忍冬纹。relation 未审查。

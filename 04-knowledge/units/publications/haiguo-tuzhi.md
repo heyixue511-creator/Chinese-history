@@ -33,17 +33,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "本 KU 是 E 维度下晚清西器东传文献的锚点。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/e4-shiyi-changji-wenben-yu-renwu.md
+    role: supporting_source
+    primary: true
+    scope_note: "E.4.2 的文献载体：赵农提供民主政治制度面、李立新提供十项“有益民用者”仿造清单；两册未交叉印证，本条只证明该书同时承载制度与器物两层内容。"
+hierarchy_scope_note: "《海国图志》是 E.4.2 的文献锚点，承担“师夷”从口号转为仿造清单的文本环节；其器物技术原理归 B.1。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "本 KU 是 E 维度下晚清西器东传文献的锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 E 维度下晚清西器东传文献的锚点。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-shiyi-changji-wenben-yu-renwu.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: E.4.2 的文献载体：赵农提供民主政治制度面、李立新提供十项“有益民用者”仿造清单；两册未交叉印证，本条只证明该书同时承载制度与器物两层内容。
 
 ## 相关知识元
 

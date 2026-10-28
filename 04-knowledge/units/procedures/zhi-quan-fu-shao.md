@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "支圈覆烧是 B 维度下北宋定窑始创、南宋传至景德镇等窑的装烧工序条目，其窑具与瓷器质量归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "南宋中期支圈覆烧、瓷土支圈与最多叠 32 个"
+hierarchy_scope_note: "南宋中期支圈覆烧、瓷土支圈与最多叠 32 个"
 ---
 
 ## 描述
@@ -69,11 +77,10 @@ hierarchy_scope_note: "支圈覆烧是 B 维度下北宋定窑始创、南宋传
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 支圈覆烧是 B 维度下北宋定窑始创、南宋传至景德镇等窑的装烧工序条目，其窑具与瓷器质量归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 南宋中期支圈覆烧、瓷土支圈与最多叠 32 个
 ## 相关知识元
 
 `places/jingdezhen-kiln.md` 与 `places/jingdezhen.md` 记景德镇窑与景德镇，`places/ding-kiln.md` 记定窑；`terms/dianquan.md` 记同段所列的垫圈，`procedures/fu-shao-fa.md` 记覆烧法，`procedures/zhiding-zhishao.md` 记支钉支烧；`terms/qing-ci.md` 记青瓷，`terms/baici.md` 记白瓷，覆烧工艺与瓷器质量相关。relation 未审查。

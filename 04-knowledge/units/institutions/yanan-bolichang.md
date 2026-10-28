@@ -28,19 +28,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "延安玻璃厂是 B 维度下解放区玻璃生产的条目，其工厂组织与边区工业政策归 D 维度；当前只到 Dimension。"
+primary_theme: B.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b4-jiefangqu-riyong-gongyi-shengchan.md
+    role: key_institution
+    primary: true
+    scope_note: "B.4.2 主挂载：以 1941 年延安建厂、石英／白土／石碱本地原料、坩埚制作与杯瓶灯罩等日用器为锚点；工厂组织与边区工业政策归 D 次维度，本批不另设 D 挂载。"
+hierarchy_scope_note: "延安玻璃厂是 B.4.2 的解放区玻璃生产样本，观察原料本地化与坩埚制作如何支撑日用器生产；工厂组织与边区工业政策归 D 次维度，不改变 B 主维度。"
+
 ---
 
 ## 描述
@@ -63,10 +72,10 @@ hierarchy_scope_note: "延安玻璃厂是 B 维度下解放区玻璃生产的条
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下陕甘宁边区玻璃生产的条目，可与同节的桥儿沟陶瓷厂并置，观察边区日用器生产的原料本地化与技术攻关。当前只到 Dimension。
+- primary_theme: B.4（传统工艺的近代生产与转型）
+- topic_memberships: B.4.2（解放区日用工艺生产），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 B.4.2 的陕甘宁边区玻璃生产样本，与桥儿沟陶瓷厂并置，观察边区日用器生产的原料本地化与技术攻关；工厂组织与边区工业政策归 D 次维度，本批不另设 D 挂载。
 
 ## 相关知识元
 

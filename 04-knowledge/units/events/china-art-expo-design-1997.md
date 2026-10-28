@@ -25,17 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "“'97 中国艺术大展·中国当代艺术设计展”是 E 维度下中国当代设计整体展示与理论讨论的节点，其设计门类归 C/B 维度。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.1.2 主挂载：以 1997 年文化部主办的中国当代艺术设计展与北京学术报告会为锚点；展览规模、作品清单与报告内容未载，只作全国性展示与理论讨论渠道。"
+hierarchy_scope_note: "本条是 E.1.2 的全国展示与理论讨论样本，承担‘中国当代设计如何以国家展与报告会整体亮相’的线索；其设计门类归 C/B 次维度。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "“'97 中国艺术大展·中国当代艺术设计展”
 
 - primary_domain: chinese-design-history
 - primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: “'97 中国艺术大展·中国当代艺术设计展”是 E 维度下中国当代设计整体展示与理论讨论的节点，其设计门类归 C/B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.1.2 的全国展示与理论讨论样本，承担“中国当代设计如何以国家展与报告会整体亮相”的线索；其设计门类归 C/B 次维度。
 
 ## 相关知识元
 

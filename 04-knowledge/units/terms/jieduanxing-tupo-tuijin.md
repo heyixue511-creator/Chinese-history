@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 A 维度设计史运行理论的条目，分期涉及 D 维度的学科史背景。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: term_anchor
+    primary: true
+    scope_note: "A.1.3 主挂载：以张道一代序提出的‘阶段性突破推进’与李立新三时段分期（原始至汉代、魏晋至两宋、元代至近代）并置为锚点；来源未明言二者即同一理论，本条不代作者断言。"
+hierarchy_scope_note: "本条是 A.1.3 的分期理论锚点，承担‘理论名称与三时段分期如何对应’的线索；其分期涉及的学科史背景归 D 次维度。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "本条是 A 维度设计史运行理论的条目，分期
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度设计史运行理论的条目，分期涉及 D 维度的学科史背景。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 A.1.3 的分期理论锚点，承担“理论名称与三时段分期如何对应”的线索；其分期涉及的学科史背景归 D 次维度。
 
 ## 相关知识元
 

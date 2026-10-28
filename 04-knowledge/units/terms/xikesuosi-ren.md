@@ -31,17 +31,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "喜克索斯人是 E 维度下古代跨文化技术传播的条目。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: boundary_case
+    primary: true
+    scope_note: "E.2.2 边界样本：以喜克索斯人前 17 世纪进入埃及、引入复合弓与马拉战车等技术为锚点；这是非中国的技术扩散参照，不是中国造物实例，不据此推论中国技术来源。"
+hierarchy_scope_note: "本条是 E.2.2 的世界史参照样本，承担‘造物技术如何随战争组织同步扩散’的类比线索；它是来源的比较材料，不属于中国设计史内部证据。"
 ---
 
 ## 描述
@@ -60,10 +69,10 @@ hierarchy_scope_note: "喜克索斯人是 E 维度下古代跨文化技术传播
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 喜克索斯人是 E 维度下古代跨文化技术传播的条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 本条是 E.2.2 的世界史参照样本，承担“造物技术如何随战争组织同步扩散”的类比线索；它是来源的比较材料，不属于中国设计史内部证据。
 
 ## 相关知识元
 

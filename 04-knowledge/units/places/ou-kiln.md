@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "瓯窑是 B 维度下六朝至唐青瓷窑系条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "瓯江流域青瓷与缥瓷的窑口对应"
+hierarchy_scope_note: "瓯江流域青瓷与缥瓷的窑口对应"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "瓯窑是 B 维度下六朝至唐青瓷窑系条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 瓯窑是 B 维度下六朝至唐青瓷窑系条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 瓯江流域青瓷与缥瓷的窑口对应
 ## 相关知识元
 
 `places/yue-kiln.md`、`places/longquan-kiln.md` 同属浙江青瓷窑系条目；relation 未审查。

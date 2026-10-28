@@ -1,0 +1,104 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h22",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B 维度新建第二条前近代 Theme B.6「瓷器工艺与窑业传统」与 B.6.1–B.6.2 两个 Topic，挂载原始瓷至唐五代瓷器品种、早期窑址、出土材料、代表器物与窑炉装烧工艺共 43 个 KU；陶与瓷按材料分工，陶器仍归 B.5。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.12",
+    "baseline_themes": 19,
+    "baseline_topics": 47,
+    "baseline_topic_memberships": 246,
+    "baseline_complete_assignments": 242,
+    "baseline_incomplete_assignments": 2328,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6486,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 488,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "55/65",
+    "baseline_isolated_units": 1400
+  },
+  "result": {
+    "hierarchy_version": "v1.13",
+    "themes": 20,
+    "topics": 49,
+    "topic_memberships": 289,
+    "complete_assignments": 285,
+    "incomplete_assignments": 2285,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6572,
+    "relation_types": "3/67",
+    "member_of_relations": 574,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1377,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b6-ciqi-gongyi-yu-yaoye-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b6-youtao-dao-ci-zaoqi-ciqi.md",
+      "04-knowledge/structure/topics/b6-yaolu-yaoju-zhici-gongyi.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 43,
+    "changed_units": 43,
+    "total_mounted_units": 285,
+    "new_topic_memberships": 43,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "taxonomy_split": "陶器与低温釉陶→B.5；瓷器、原始瓷的瓷器面→B.6",
+    "planned_topics_not_created": [
+      "B.6.3 窑系、名窑与窑业组织：五大名窑、宋代窑系、官窑与御器厂、辽金窑址、瓷艺人",
+      "B.6.4 釉色、彩绘与瓷器类型：青花、釉里红、斗彩、五彩、粉彩、珐琅彩、颜色釉与影青、甜白",
+      "B.6.5 瓷器器形与器类：梅瓶、玉壶春、执壶、高足杯、鸡冠壶、凤首壶与元代器形"
+    ],
+    "deferred_by_boundary": [
+      "宜兴（以紫砂为主）→ B.5.5，未建立",
+      "醴陵（釉下彩，近代）→ B.4 或后续批次",
+      "定瓷恢复（1972—1976）→ 1949 年后的复烧，不入 B.6 前近代序列",
+      "唐三彩二次烧成法 → 唯一案例属低温釉陶，待 B.5.4 或 B.6.4 复核"
+    ]
+  },
+  "changed_files": 51,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2285",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1377",
+    "Porcelain origin has three different upper bounds across the six volumes (Shang, Shang-Zhou transition, Warring States) with no dating method or laboratory code",
+    "The 'proto-porcelain' / 'mature porcelain' boundary rests on one specimen analysis (Shangyu Xiaoxiantan, no residual quartz under glaze) and one other criterion (weak water absorption at Zhangjiapo); the two are not interchangeable",
+    "White porcelain origin: the Northern Qi claim is supported by dated tombs, but Tian Zibing himself says the exact date awaits more excavation",
+    "Mise porcelain: 13 vs 16 pieces from the Famen Temple crypt; Tang vs Five Dynasties-Wuyue attribution; the term 'mise' itself is never explained",
+    "Piao porcelain is tied to Ou kiln by one volume only; Li Lixin's two-celadon-system thesis does not reconcile with the four-kiln-system division",
+    "Yuezhou kiln is single-source and low confidence; its claim to have used saggars first conflicts with the Northern and Southern Dynasties saggar find",
+    "Huayou (splashed glaze) kiln attribution is open (Jiaxian, Lushan, Neixiang, Yu xian); the Lushan kiln drum and the huayou waist drum may be two records of one object, so the former was left unmounted as a duplicate candidate",
+    "Yue kiln lotus bowl with leaf stand exists only as a plate caption; the six decorative methods of Six Dynasties celadon come from Tian Zibing alone",
+    "Kiln and firing evidence lacks temperature curves, stacking counts, yields and cost comparisons; mantou kiln and gourd kiln each rest on a single sentence",
+    "Secondary firing (biscuit firing plus glaze firing) is documented only for Tang sancai, a low-fired earthenware; not mounted in B.6",
+    "B.6.3-B.6.5 were not created although material is abundant (roughly 140 porcelain-related unmounted B-dimension KUs); candidates recorded in this manifest and in dimension-candidates.md",
+    "Pottery/porcelain boundary is inconsistent across the volumes; double mounting between B.5 and B.6 may be needed for proto-porcelain",
+    "2285 KUs remain unmounted"
+  ],
+  "notes": "本批新建 1 个 Theme（B.6 瓷器工艺与窑业传统）与 2 个 Topic（B.6.1–B.6.2），挂载 43 个 KU。结构设计的三项判断：其一，沿用 h21 已确立的“材料组为主题边界、问题为研究问题”路线，陶与瓷按材料分工，B.6 只收瓷器与原始瓷的瓷器面，陶器、低温釉陶、琉璃与紫砂仍归 B.5；其二，B.6 内部按“材料判据—窑业条件—命名系统”三层组织，B.6.1 取判据与命名（原始瓷、青瓷、白瓷、黑瓷、缥瓷、秘色瓷、花釉 + 汉至五代窑址 + 出土材料 + 代表器物），B.6.2 取窑业条件（窑炉、窑具、装烧、胎釉工艺），不按朝代罗列；其三，B.6.3–B.6.5 材料充足但本批不建立，理由是单批挂载量已到 43 个，继续扩大将失去逐条语义复读，而非 h21 那种“无材料不建空壳”的理由。唐三彩二次烧成法经复核后主动不挂：其唯一案例是低温釉陶，挂入瓷器 Theme 会造成材料层级混淆。原始瓷在来源中同时被称“釉陶”与“瓷器”，本批只开交叉引用、不做双挂载。本批把 dim-candidates 中 v1.12 记录的“按材料组还是按生产技术问题”的待决问题改写为已按材料组执行，并保留跨材料技术问题（铸造、榫卯、织造、营造）再评估的入口。执行过程中一次关系生成失败：43 个 KU 的 `topic_memberships[].topic` 初写为裸文件名，`build_relation_index.py` 的 `_materialized_structure_target` 只接受 `topics/*.md` 形式，导致 Topic `member_of` 关系为 0；改为全路径后重建，`member_of` 由 488 增至 574（43 Theme + 43 Topic）。v1.12 归档哈希 fd727ba6e18318873f8ba25802507c89709fd70540a6be16c4f4b867e8cf42dc 与 h21 apply-plan 记录逐字节一致。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

@@ -1,0 +1,89 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h13",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 A.1 下新建 A.1.3「设计史分期与解释框架」，把大历史观、长时段、轴心时代、阶段性突破推进、变与统、本元特征、六大设计文化区域、南秀北雄、《中国大历史》与雅斯贝斯集中挂载；同批把「艺术设计史」术语补入既有 A.1.2。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.3",
+    "baseline_themes": 12,
+    "baseline_topics": 29,
+    "baseline_topic_memberships": 151,
+    "baseline_complete_assignments": 147,
+    "baseline_incomplete_assignments": 2423,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6296,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 298,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1448
+  },
+  "result": {
+    "hierarchy_version": "v1.4",
+    "themes": 12,
+    "topics": 30,
+    "topic_memberships": 162,
+    "complete_assignments": 158,
+    "incomplete_assignments": 2412,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6318,
+    "relation_types": "3/67",
+    "member_of_relations": 320,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1442,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/a1-zhongguo-shejishi-shuxie-xueke-jiangou.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/a1-cong-gongyi-meishushi-dao-shejishi.md",
+      "04-knowledge/structure/topics/a1-shejishi-fenqi-jieshi-kuangjia.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 11,
+    "changed_units": 11,
+    "total_mounted_units": 158,
+    "new_topic_memberships": 11,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 19,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2412",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1442",
+    "The methodological boundary and falsifiability conditions of the macro-history perspective are not recorded; the criteria for 'coarse rather than fine' periodization are absent",
+    "Longue duree is only one item in a list of foreign periodization models; Li Lixin does not state whether the book adopts it, and gives no definition or design-history application",
+    "The Axial Age is cited and then limited as insufficient to grasp Chinese history; the scope of that limitation and any alternative framework are not developed",
+    "Stage-by-stage breakthrough advancement exists only as a theory name and evaluation in Zhang Daoyi's preface; its reference relation to Li Lixin's three-period division is not stated by the source",
+    "Bian-yu-tong has no school origin, no relation to dynastic-unification historiography, and no quantified indicators for each period",
+    "Footnote 1 attached to Benyuan Tezheng is unread; the definitional boundary between 'benyuan' and 'shiyuanxing' is not recorded",
+    "The six design culture regions are given only by name with a 'fully corresponding' judgment; dates, geographic boundaries, artifact traits and the basis of partition are missing",
+    "Nan Xiu Bei Xiong is Zhao Nong's classroom generalization about Southern and Northern Dynasties taste, with no definition, proposer or systematic argument; it is not treated as a stylistic law",
+    "Whether these frameworks are mutually compatible or can form a unified periodization system is not discussed by the sources; A.1.3 does not synthesize them",
+    "Themes for dimension E remain unmaterialized; Panama-Pacific Exposition, 1851 Great Exhibition, foreign-style architecture terms and qipao stay as cross-theme debts",
+    "2412 KUs remain unmounted; A.1 does not close dimension A"
+  ],
+  "notes": "本批新建 1 个 Topic（A.1.3），挂载 11 个 KU：8 个术语（大历史观、长时段、轴心时代、阶段性突破推进、变与统、本元特征、六大设计文化区域、南秀北雄）以 term_anchor 挂入 A.1.3，《中国大历史》以 supporting_source 挂入 A.1.3，雅斯贝斯以 key_person 挂入 A.1.3；「艺术设计史」术语以 term_anchor 补入既有 A.1.2。A.1.3 按“借用的史学理论—自创的分期理论—区域／审美概括”分层，保留长时段的列举状态、轴心时代的适用限定、阶段性突破推进与三时段分期的未明指称关系，不把不同层次的框架合成统一分期体系。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

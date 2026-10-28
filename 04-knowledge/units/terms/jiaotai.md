@@ -28,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
-hierarchy_scope_note: "绞胎是 B 维度下唐代陶瓷胎装饰技法的条目，只记来源所给的定义、器类与寿州窑判断。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "两色胎土或釉绞合的胎装饰技法与寿州窑两说"
+hierarchy_scope_note: "两色胎土或釉绞合的胎装饰技法与寿州窑两说"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "绞胎是 B 维度下唐代陶瓷胎装饰技法的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 绞胎是 B 维度下唐代陶瓷胎装饰技法的条目，只记来源所给的定义、器类与寿州窑判断。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 两色胎土或釉绞合的胎装饰技法与寿州窑两说
 ## 相关知识元
 
 `terms/jiaoxie.md` 记绞缬，属染织防染技法，与绞胎同名而异类；`terms/qing-ci.md` 记青瓷；`terms/tang-dai-qingci-yao.md` 记唐代青瓷窑口。relation 未审查。

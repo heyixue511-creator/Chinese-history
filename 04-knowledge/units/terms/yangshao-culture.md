@@ -59,17 +59,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "仰韶文化是 B 维度下黄河中游新石器时代彩陶工艺与聚落形态的类型学锚点，同时是'彩陶文化'这一旧称的所指。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "仰韶文化是 B.5.2 的分区框架，承担黄河中游文化、1921 年命名与“彩陶文化”等同问题，不承担具体器物。"
+hierarchy_scope_note: "仰韶文化是 B.5.2 的分区框架，承担黄河中游文化、1921 年命名与“彩陶文化”等同问题，不承担具体器物。"
 ---
 
 ## 描述
@@ -108,11 +116,10 @@ hierarchy_scope_note: "仰韶文化是 B 维度下黄河中游新石器时代彩
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与彩陶、半坡遗址、庙底沟类型、马家窑文化构成一组类型学条目；仰韶、龙山、河姆渡三文化 KU 可支持未来的新石器区域文化比较类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 仰韶文化是 B.5.2 的分区框架，承担黄河中游文化、1921 年命名与“彩陶文化”等同问题，不承担具体器物。
 ## 相关知识元
 
 `terms/painted-pottery.md`、`places/banpo-site.md` 与本条直接相关；龙山文化、河姆渡文化两条同批写回。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

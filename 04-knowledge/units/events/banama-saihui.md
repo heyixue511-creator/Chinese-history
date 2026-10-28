@@ -41,17 +41,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "巴拿马赛会是 E 维度下中国工艺参加国际博览会、进入跨文化展示体系的条目。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.1.1 主挂载：以 1915 年巴拿马赛会的中国参展规模（约 1500 吨展品、300 多名匠师与工场代表）与北京雕漆获奖为锚点；展品分类、评审标准与获奖清单未载。"
+hierarchy_scope_note: "本条是 E.1.1 的中国参展与获奖样本，承担‘中国工艺如何进入国际博览会评价体系’的线索；其雕漆工艺本体归 B 次维度。"
 ---
 
 ## 描述
@@ -75,10 +84,10 @@ hierarchy_scope_note: "巴拿马赛会是 E 维度下中国工艺参加国际博
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 巴拿马赛会是 E 维度下中国工艺参加国际博览会、进入跨文化展示体系的条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.1.1 的中国参展与获奖样本，承担“中国工艺如何进入国际博览会评价体系”的线索；其雕漆工艺本体归 B 次维度。
 
 ## 相关知识元
 

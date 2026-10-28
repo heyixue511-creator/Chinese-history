@@ -1,0 +1,97 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h21",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B 维度新建第一条前近代 Theme B.5「陶器工艺与陶系传统」与 B.5.1–B.5.2 两个 Topic，挂载史前制陶技术、陶系类型与考古学文化共 27 个 KU；陶与瓷按材料分工，瓷器留待 B.6。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.11",
+    "baseline_themes": 18,
+    "baseline_topics": 45,
+    "baseline_topic_memberships": 219,
+    "baseline_complete_assignments": 215,
+    "baseline_incomplete_assignments": 2355,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6432,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 434,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1407
+  },
+  "result": {
+    "hierarchy_version": "v1.12",
+    "themes": 19,
+    "topics": 47,
+    "topic_memberships": 246,
+    "complete_assignments": 242,
+    "incomplete_assignments": 2328,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6486,
+    "relation_types": "3/67",
+    "member_of_relations": 488,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1400,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b5-taoci-qiyuan-chengxing-shaocheng.md",
+      "04-knowledge/structure/topics/b5-shiqian-taoxi-caitao-leixing.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 27,
+    "changed_units": 27,
+    "total_mounted_units": 242,
+    "new_topic_memberships": 27,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "taxonomy_split": "陶器→B.5；瓷器→B.6（未建立）",
+    "planned_topics_not_created": [
+      "B.5.3 商周至秦汉的陶器、明器与建筑用陶",
+      "B.5.4 低温釉陶：铅釉、唐三彩与辽宋三彩",
+      "B.5.5 紫砂与明清陶器"
+    ]
+  },
+  "changed_files": 35,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2328",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1400",
+    "Pottery origins: all six volumes offer only the 'clay adhering to a fired basket' conjecture; no experimental archaeology, no dated sequence, no complete description of the earliest pots",
+    "Xianrendong pottery is uniformly dated to '8000+ years ago' across the six volumes, with no dating method or laboratory code; later re-dating lies outside this corpus and was not used",
+    "Whether 'painted-pottery culture' equals 'Yangshao culture' is self-contradictory across the volumes: one equates them, another separates them and adds a note in the 2016 edition that the equation is inverted; not adjudicated",
+    "The five painted-pottery types (Banpo, Miaodigou, Majiayao, Banshan, Machang) have no stated criterion (vessel form, motif, distribution or date); their succession rests on single sentences and one volume only",
+    "All five type dates (c. 7000-6000, 6000-5000, 5000, 4500, 4000 BP) come from Tian Zibing alone, with no dating method or specimens",
+    "Liangzhu culture has three incompatible placements: one of four Longshan types, an independent archaeological culture, or one of six native design regions",
+    "Pottery vs. porcelain boundary (proto-porcelain, geometric stamped hard pottery, glazed earthenware) is inconsistent across the volumes; the B.5/B.6 division must be re-examined when B.6 is created",
+    "Painted pottery (painted before firing) and painted earthenware (painted after firing) have opposite process definitions across four volumes (Tian Zibing and Gao Feng vs. both Xia Yanjing editions); the batch records both without adjudication",
+    "Qujialing and Xindian cultures are single-source, low-confidence, one-line entries; distribution, dating and pottery periodization are all missing",
+    "No volume gives kiln temperatures, clay recipes, labour hours or firing yields; the 'forming-firing-material as a set' framework is this library's interpretation, not the sources'",
+    "B.5.3-B.5.5 were not created; creating empty Topic nodes was rejected as filling structure without material. Their candidate pools are recorded in this manifest and in dimension-candidates.md",
+    "Roughly 1500 B-dimension KUs remain unmounted outside pottery: bronze and metalwork, lacquer, furniture and woodwork, textiles and premodern dress, architecture and bridges, jade and glass. Whether to continue with material-based B.6/B.7... or switch to problem-based cross-material themes must be decided before B.6",
+    "2328 KUs remain unmounted"
+  ],
+  "notes": "本批新建 1 个 Theme（B.5 陶器工艺与陶系传统）与 2 个 Topic（B.5.1–B.5.2），挂载 27 个 KU。结构设计的两项判断：其一，陶与瓷按材料分工，B.5 只收陶器、低温釉陶、建筑用陶与紫砂，瓷器与原始瓷留待 B.6，避免把八千年制陶史与制瓷史压进同一 Theme；其二，B.5 内部按“成形—烧成—原料”三项技术变量与“日用—明器—建筑—茶器”四种用途两轴组织，不按朝代罗列。B.5.1 收 10 个技术、分期、起源与遗址条目；B.5.2 收 3 个陶系、5 个彩陶类型、1 个器形总类与 8 个考古学文化，共 17 个。B.5.3–B.5.5 未建立：本批拒绝为尚无挂载材料的材料组预先物化空 Topic，其候选池记入本 manifest 与 dimension-candidates.md。史前部分的分歧一律并列保留不裁：彩陶文化与仰韶文化是否等同、五型彩陶的划分依据、良渚文化的三种归属、彩陶与彩绘陶相反的工序定义、屈家岭与辛店的低置信单源。本批同时把 v1.11 记录的“前近代无 Theme 可挂”改为“已部分缓解而非闭合”，并指出约 1500 个 B 维度未挂载 KU 仍无 Theme，B.6 动工前需在“按材料组”与“按生产技术问题”两条路线间作出决定。v1.11 归档哈希 ee74e57e471c326a6a004be42e8610a6e56c81b542819dce5668ed657695d80d 与 h20 apply-plan 记录逐字节一致。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

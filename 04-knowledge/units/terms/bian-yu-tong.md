@@ -27,18 +27,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
-hierarchy_scope_note: "本条是 A 维度设计史运行机制的理论条目，其近代转型部分牵涉 E 维度。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: term_anchor
+    primary: true
+    scope_note: "A.1.3 主挂载：以‘变与统是构成设计史发展的阴阳两极’及其阶段性突破、近代转型困境为锚点；学派出处与各期量化指标未载，近代转型部分牵涉 E 维度。"
+hierarchy_scope_note: "本条是 A.1.3 的运行机制锚点，承担‘变与统如何解释设计史连续与转折’的线索；其近代转型判断牵涉 E 维度。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "本条是 A 维度设计史运行机制的理论条目，
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度设计史运行机制的理论条目，其近代转型部分牵涉 E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 A.1.3 的运行机制锚点，承担“变与统如何解释设计史连续与转折”的线索；其近代转型判断牵涉 E 维度。
 
 ## 相关知识元
 

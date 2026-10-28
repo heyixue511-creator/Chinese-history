@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "孝文改制是 E 维度下北方政权主动采纳汉制服饰的跨文化事件，其官制与姓氏改革属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.5
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e5-beiwei-hanhua-fushi-gaizhi.md
+    role: evidence_event
+    primary: true
+    scope_note: "孝文改制是 E.5.2 的第一次改制，承担改姓与“群臣皆服汉魏衣冠”；其官制与姓氏制度史归 D，本条只取服饰措施。"
+hierarchy_scope_note: "孝文改制是 E.5.2 的第一次改制，承担改姓与“群臣皆服汉魏衣冠”；其官制与姓氏制度史归 D，本条只取服饰措施。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "孝文改制是 E 维度下北方政权主动采纳汉制
 
 - primary_domain: chinese-design-history
 - primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 孝文改制是 E 维度下北方政权主动采纳汉制服饰的跨文化事件，其官制与姓氏改革属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.5（服饰改制与族群身份）
+- topic_memberships: topics/e5-beiwei-hanhua-fushi-gaizhi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.5.2 的第一次改制，承担改姓与“群臣皆服汉魏衣冠”；其官制与姓氏制度史归 D，本条只取服饰措施。
 
 ## 相关知识元
 

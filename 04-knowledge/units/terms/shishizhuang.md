@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: 时世装是 E 维度下民国女子服饰变革的条目，其上衣下裤形制属 B 维度服饰工艺。Theme/Topic 尚未 materialize。
+primary_theme: E.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e6-nvzhuang-jiancai-yu-mingming.md
+    role: term_anchor
+    primary: true
+    scope_note: "时世装是 E.6.1 的“Modern Dress”命名锚点，承担 1912 年起点与上衣下裤形制；其剪裁工艺归 B.2，本条不重复。"
+hierarchy_scope_note: "时世装是 E.6.1 的“Modern Dress”命名锚点，承担 1912 年起点与上衣下裤形制；其剪裁工艺归 B.2，本条不重复。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: 时世装是 E 维度下民国女子服饰变革的条目�
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 时世装是 E 维度下民国女子服饰变革的条目，其上衣下裤形制属 B 维度服饰工艺。Theme/Topic 尚未 materialize。
+- primary_theme: E.6（近代女装与身体改装）
+- topic_memberships: topics/e6-nvzhuang-jiancai-yu-mingming.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: E.6.1 的“Modern Dress”命名锚点，承担 1912 年起点与上衣下裤形制；其剪裁工艺归 B.2，本条不重复。
 
 ## 相关知识元
 

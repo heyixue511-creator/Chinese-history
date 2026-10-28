@@ -20,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度瓷器起源的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: representative_work
+    primary: true
+    scope_note: "上虞小仙坛东汉晚期成熟瓷的判据标本"
+hierarchy_scope_note: "上虞小仙坛东汉晚期成熟瓷的判据标本"
 ---
 
 ## 描述
@@ -52,11 +60,10 @@ hierarchy_scope_note: "本条是 B 维度瓷器起源的器物锚点。Theme/Top
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度瓷器起源的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 上虞小仙坛东汉晚期成熟瓷的判据标本
 ## 相关知识元
 
 同章所述浙江上虞小仙坛东汉晚期窑址是本条的工艺背景。本条不构成关系断言。

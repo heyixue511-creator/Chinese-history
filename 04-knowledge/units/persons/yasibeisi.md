@@ -22,19 +22,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - B
-hierarchy_scope_note: "本条是 A 维度史学理论提出者的人物条目，其理论用于解释造物设计转型的部分属 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: key_person
+    primary: true
+    scope_note: "A.1.3 主挂载：作为轴心时代理论的提出者，为李立新的分期讨论提供概念来源；非中国设计史学者，生卒、国籍与著作出处未载，只保留理论提出者身份。"
+hierarchy_scope_note: "本条是 A.1.3 的理论提出者锚点，承担‘轴心时代概念由谁提出’的线索；其理论用于解释造物设计转型的部分归 B 次维度。"
 ---
 
 ## 描述
@@ -54,10 +62,10 @@ hierarchy_scope_note: "本条是 A 维度史学理论提出者的人物条目，
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度史学理论提出者的人物条目，其理论用于解释造物设计转型的部分属 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 本条是 A.1.3 的理论提出者锚点，承担“轴心时代概念由谁提出”的线索；其理论用于解释造物设计转型的部分归 B 次维度。
 
 ## 相关知识元
 

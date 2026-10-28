@@ -33,19 +33,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "庙底沟型彩陶是 B 维度下仰韶文化彩陶类型的术语条目；其鸟纹与黑白双关属 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: term_anchor
+    primary: true
+    scope_note: "庙底沟型彩陶是 B.5.2 五型之一，承担由半坡型发展、曲边三角形与黑白双关的特征。"
+hierarchy_scope_note: "庙底沟型彩陶是 B.5.2 五型之一，承担由半坡型发展、曲边三角形与黑白双关的特征。"
 ---
 
 ## 描述
@@ -75,12 +83,10 @@ hierarchy_scope_note: "庙底沟型彩陶是 B 维度下仰韶文化彩陶类型
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 庙底沟型彩陶是 B 维度下仰韶文化彩陶类型的术语条目；其鸟纹与黑白双关属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 庙底沟型彩陶是 B.5.2 五型之一，承担由半坡型发展、曲边三角形与黑白双关的特征。
 ## 相关知识元
 
 `terms/yangshao-culture.md` 记仰韶文化的分期与分布；`persons/zhangpengchuan.md` 记张朋川关于彩陶鸟鱼纹分解与统一形态的说法，李立新即在同段引用；`works/caiwen-rentou-ping.md` 记同章所举大地湾象生彩陶，与本条的几何纹样分属两类。relation 未审查。

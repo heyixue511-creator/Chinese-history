@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T00:24:28",
+  "timestamp": "2026-10-28T16:03:36",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -17,25 +17,25 @@
     "base_type_coverage": "8/8",
     "structure_node_coverage": "2/4",
     "deprecated_type_drift": 0,
-    "hierarchy_version": "v0.7"
+    "hierarchy_version": "v1.13"
   },
   "structure_node_counts": {
     "domains": 0,
     "dimensions": 0,
-    "themes": 8,
-    "topics": 18
+    "themes": 20,
+    "topics": 49
   },
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
     "total_units": 2570,
-    "complete_assignments": 105,
-    "units_missing_any_assignment": 2465,
+    "complete_assignments": 285,
+    "units_missing_any_assignment": 2285,
     "field_coverage": {
       "primary_domain": "2570/2570",
       "primary_dimension": "2570/2570",
-      "primary_theme": "105/2570",
-      "topic_memberships": "105/2570"
+      "primary_theme": "285/2570",
+      "topic_memberships": "285/2570"
     }
   },
   "counts_by_type": {
@@ -296,7 +296,7 @@
   "architecture_drift": {
     "deprecated_type_drift": 0,
     "deprecated_details": {},
-    "hierarchy_version": "v0.7",
+    "hierarchy_version": "v1.13",
     "hierarchy_has_old_type_refs": false,
     "hierarchy_has_old_statistics": false
   },
@@ -356,9 +356,9 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 6209,
+    "relation_index_total": 6572,
     "explicit_relation_count": 5998,
-    "inferred_relation_count": 211,
+    "inferred_relation_count": 574,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
     "weak_evidence_count": 0,
@@ -373,8 +373,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 1105,
-    "r1_provenance": 1105,
+    "files": 1153,
+    "r1_provenance": 1153,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -398,13 +398,13 @@
   "knowledge_structure_quality": {
     "score_kind": "knowledge_schema_and_state_integrity",
     "max_score": 65,
-    "total": 55,
+    "total": 56,
     "disambiguation": 15,
     "type_correctness": 10,
     "enum_validity": 10,
     "verification_coverage": 10,
     "recommended_fields": 10,
-    "hierarchy_assignment": 0
+    "hierarchy_assignment": 1
   },
   "evidence_quality": {
     "score_kind": "evidence_chain_integrity",
@@ -433,21 +433,14 @@
       "source_backed": 2570
     },
     "isolated_units": {
-      "count": 1470,
+      "count": 1377,
       "sample": [
-        "events/1851-wanguo-bolanhui.md",
         "events/1998-national-furniture-exhibition.md",
-        "events/1999-china-italy-industrial-design-week.md",
         "events/2000-beijing-intl-graphic-design-exhibition.md",
-        "events/2000-cad-industrial-design-conference.md",
         "events/2000-china-craft-art-exhibition.md",
         "events/2000-national-folk-craft-art-exhibition.md",
-        "events/banama-saihui.md",
-        "events/bauhaus-exhibition-hongkong-1989.md",
         "events/boyan-collects-song-regalia.md",
         "events/capital-ten-buildings-art-conference-1958.md",
-        "events/china-art-expo-design-1997.md",
-        "events/computer-art-symposium-1995.md",
         "events/crafts-artist-title-1979.md",
         "events/crafts-college-entrance-exam-resumption-1977.md",
         "events/dayu-flood-control.md",
@@ -455,11 +448,18 @@
         "events/dongnan-daxue-yishuxuexi-1994.md",
         "events/feishui-zhizhan.md",
         "events/huangjin-uprising.md",
-        "events/hufu-qishe.md",
         "events/icsid-1989-nagoya.md",
         "events/industrial-design-society-1985.md",
         "events/ji-zha-gift-sword.md",
-        "events/jin-casting-legal-cauldron.md"
+        "events/jin-casting-legal-cauldron.md",
+        "events/king-wu-conquers-zhou.md",
+        "events/mawangdui-yihao-mu-fajue.md",
+        "events/mozi-zhi-chu-gong-song.md",
+        "events/national-craft-exhibition-1978.md",
+        "events/national-crafts-education-symposium-1982.md",
+        "events/national-lacquer-conference-1959.md",
+        "events/ping-wang-dong-qian.md",
+        "events/qianqiu-festival.md"
       ]
     },
     "candidate_debt": {
@@ -491,7 +491,7 @@
       "tentative_units": 2570,
       "low_confidence_units": 496,
       "candidates_needing_evidence": 0,
-      "units_missing_hierarchy_assignment": 2465
+      "units_missing_hierarchy_assignment": 2285
     }
   },
   "content_quality": {

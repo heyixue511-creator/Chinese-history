@@ -27,18 +27,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
-hierarchy_scope_note: "本条是 A 维度设计史学术史与学位论文的文献锚点。Theme/Topic 尚未 materialize。"
+secondary_themes: []
+primary_theme: A.1
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: supporting_source
+    primary: true
+    scope_note: "A.1.2 主挂载：以李立新 2002 年在东南大学艺术学系答辩的博士论文《造物之迹——中国设计艺术史引论》为锚点，观察“造物艺术史”选题与从经典、宫廷转向一般造物的研究取向；论文原文未载。"
+hierarchy_scope_note: "本条是 A.1.2 的学位论文锚点，承担“造物艺术史”路径与博士论文→著作的学科史线索；只有后记一段，confidence 维持 medium、role 取 supporting_source。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "本条是 A 维度设计史学术史与学位论文的文
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度设计史学术史与学位论文的文献锚点。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.2（从工艺美术史到设计史），role 为 supporting_source，primary 为 true
+- role_in_theme: supporting_source
+- scope_note: 本条是 A.1.2 的学位论文锚点，承担“造物艺术史”路径与博士论文→著作的学科史线索；只有后记一段，confidence 维持 medium、role 取 supporting_source。
 
 ## 相关知识元
 

@@ -25,18 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
-hierarchy_scope_note: "本条是 A 维度史学理论的条目。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: term_anchor
+    primary: true
+    scope_note: "A.1.3 主挂载：本条只是李立新在分期讨论中列举的国外理论之一，来源未说明本书是否采用；保留列举状态，不写成实际采用的框架。"
+hierarchy_scope_note: "本条是 A.1.3 的对照性框架锚点，用于说明设计史分期可援引的国外理论；其定义、采用与否及与设计史的结合方式未载。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "本条是 A 维度史学理论的条目。Theme/Topic 尚
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度史学理论的条目。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 A.1.3 的对照性框架锚点，用于说明设计史分期可援引的国外理论；其定义、采用与否及与设计史的结合方式未载。
 
 ## 相关知识元
 

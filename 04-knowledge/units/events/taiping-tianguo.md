@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "太平天国是 D 维度下农民政权改革工艺组织与工艺政策的节点，其工艺生产与品种归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/d5-taiping-gongyi-zuzhi-zhengce.md
+    role: historical_context
+    primary: true
+    scope_note: "D.5.1 主挂载：以太平天国政权、恢复工艺生产、《招贤榜》、“益民”工艺观与奖励发明政策为锚点；诸匠营与百工衙另由机构条目承担，事件条只作政权与政策背景。"
+hierarchy_scope_note: "太平天国是 D.5.1 的政权与政策背景条目，承载“益民”工艺观、奖励发明与恢复生产；其工艺生产与品种归 B 次维度，具体组织由诸匠营、百工衙两个机构条承担。"
 ---
 
 ## 描述
@@ -62,12 +70,12 @@ hierarchy_scope_note: "太平天国是 D 维度下农民政权改革工艺组织
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: D
+- primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 太平天国是 D 维度下农民政权改革工艺组织与工艺政策的节点，其工艺生产与品种归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.1（太平天国工艺组织与工艺政策），role 为 historical_context，primary 为 true
+- role_in_theme: historical_context
+- scope_note: 太平天国是 D.5.1 的政权与政策背景条目，承载“益民”工艺观、奖励发明与恢复生产；其工艺生产与品种归 B 次维度，具体组织由诸匠营、百工衙两个机构条承担。
 
 ## 相关知识元
 

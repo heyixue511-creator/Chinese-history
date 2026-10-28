@@ -31,17 +31,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "褒衣博带是 E 维度下服饰风尚与佛教造像中国化的条目。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e2-fojiao-dongchuan-yu-zaoxiang.md
+    role: term_anchor
+    primary: true
+    scope_note: "E.2.1 主挂载：以褒衣博带从魏晋世俗宽衫大袖移用于云冈石窟佛像服饰、取代‘偏袒右肩式’与‘通肩式’为锚点；云冈窟号与纪年未载。"
+hierarchy_scope_note: "本条是 E.2.1 的佛像服饰中国化术语，承担‘外来造像如何被改写为中原衣冠’的线索；其服饰形制归 B 次维度。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: "褒衣博带是 E 维度下服饰风尚与佛教造像中
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 褒衣博带是 E 维度下服饰风尚与佛教造像中国化的条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-fojiao-dongchuan-yu-zaoxiang.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 E.2.1 的佛像服饰中国化术语，承担“外来造像如何被改写为中原衣冠”的线索；其服饰形制归 B 次维度。
 
 ## 相关知识元
 

@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "陶窑是 B 维度下新石器时期烧陶设施的条目，其结构改进直接影响陶器质量与颜色。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: historical_context
+    primary: true
+    scope_note: "仰韶半坡竖穴窑、横穴窑；只作窑炉序列起点"
+hierarchy_scope_note: "仰韶半坡竖穴窑、横穴窑；只作窑炉序列起点"
 ---
 
 ## 描述
@@ -78,13 +86,11 @@ hierarchy_scope_note: "陶窑是 B 维度下新石器时期烧陶设施的条目
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下新石器时期烧陶设施的条目，与陶轮、陶器器形、彩陶、黑陶等条目共同构成制陶技术链。Theme/Topic 尚未 materialize。
-
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 仰韶半坡竖穴窑、横穴窑；只作窑炉序列起点
 ## 相关知识元
 
 `terms/taoqi.md` 记陶器总论；`terms/taolun.md` 记陶轮；`terms/taoqi-qixing.md` 记陶器器形；`terms/caihui-tao.md` 记彩陶；`terms/heitao.md` 记黑陶；`places/banpo-site.md` 记半坡遗址。relation 未审查，不写入正式 `relations`。

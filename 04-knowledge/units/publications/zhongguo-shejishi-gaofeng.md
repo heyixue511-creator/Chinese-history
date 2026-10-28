@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
-hierarchy_scope_note: "本 KU 是 A 维度下现代设计通史的文献锚点，同时是本语料第 1 册的来源书目。Theme/Topic 尚未 materialize。"
+secondary_themes: []
+primary_theme: A.1
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: representative_work
+    primary: true
+    scope_note: "A.1.2 主挂载：以 2004 年《中国设计史》绪论＋九章、从原始时代述至清末民国的结构，以及“以设计而非工艺美术统摄通史”的框架选择为锚点。"
+hierarchy_scope_note: "本条是 A.1.2 的核心文献锚点，承担以“设计”统摄中国通史的教材样本；其出版信息属 D 次维度背景。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "本 KU 是 A 维度下现代设计通史的文献锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 A 维度下现代设计通史的文献锚点，同时是本语料第 1 册的来源书目。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.2（从工艺美术史到设计史），role 为 representative_work，primary 为 true
+- role_in_theme: representative_work
+- scope_note: 本条是 A.1.2 的核心文献锚点，承担以“设计”统摄中国通史的教材样本；其出版信息属 D 次维度背景。
 
 ## 相关知识元
 

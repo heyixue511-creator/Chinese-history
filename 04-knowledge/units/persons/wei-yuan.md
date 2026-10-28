@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "魏源是 E 维度下晚清学习西方思想的人物条目；其变法主张与制度改革指向属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/e4-shiyi-changji-wenben-yu-renwu.md
+    role: key_person
+    primary: true
+    scope_note: "E.4.2 的核心人物：以“师夷长技以制夷”、蒸汽机与火轮船介绍、《海国图志》民主制度介绍为锚点；仕途、著述书目与思想分期未载。"
+hierarchy_scope_note: "魏源是 E.4.2 的核心人物，承担“师夷长技”口号的提出；其变法主张与制度改革指向属 D 维度。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "魏源是 E 维度下晚清学习西方思想的人物条
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 魏源是 E 维度下晚清学习西方思想的人物条目；其变法主张与制度改革指向属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-shiyi-changji-wenben-yu-renwu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: E.4.2 的核心人物：以“师夷长技以制夷”、蒸汽机与火轮船介绍、《海国图志》民主制度介绍为锚点；仕途、著述书目与思想分期未载。
 
 ## 相关知识元
 

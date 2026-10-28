@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "曾国藩是 D 维度下洋务运动与近代工业制度建立的核心人物。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_person
+    primary: true
+    scope_note: "D.1.1 主挂载：以 1862 年安庆军械所、1863 年派容闳赴美采买机器、1865 年与李鸿章筹建江南制造总局、1868 年设翻译馆为锚点，观察洋务军工的组织者如何集中机器、翻译与人员；幼童留美归 D.4 教育线索，本 Topic 只作人才通道旁证。"
+hierarchy_scope_note: "本条是 D.1.1 洋务军工与造船企业的组织者样本，与李鸿章、左宗棠同属“官员办局厂”序列；其幼童留美建议触及 D.4 教育，本批不另设次挂载。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "曾国藩是 D 维度下洋务运动与近代工业制度
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 曾国藩是 D 维度下洋务运动与近代工业制度建立的核心人物。Theme/Topic 尚未 materialize。
+- primary_theme: D.1（洋务企业与近代工业组织）
+- topic_memberships: D.1.1（洋务军工与造船企业），role 为 key_person，primary 为 true
+- role_in_theme: key_person
+- scope_note: 本条是 D.1.1 洋务军工与造船企业的组织者样本，与李鸿章、左宗棠同属“官员办局厂”序列；幼童留美归 D.4 教育线索，本批不另设次挂载。
 
 ## 相关知识元
 

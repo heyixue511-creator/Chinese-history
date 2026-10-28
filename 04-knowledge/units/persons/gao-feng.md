@@ -41,19 +41,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - D
-hierarchy_scope_note: "高丰是 A 维度下中国设计史学科转换期研究者的条目：本条记其学历、任教机构、著作与 2004 年时的学术兼职，实质内容是设计史学的学科脉络与研究者养成；其设计教育任职同时属 D 维度旁证。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: key_person
+    primary: true
+    scope_note: "A.1.2 主挂载：以高丰从工业设计本科、工艺美术史硕士到设计艺术学博士的学历路径，以及 2004 年《中国设计史》的写作与任教背景为锚点；其设计教育任职归 D 次维度。"
+hierarchy_scope_note: "本条是 A.1.2 的人物锚点，承担“从工艺美术到设计艺术”学科转换期研究者养成的线索；其设计教育任职属 D 次维度。"
 ---
 
 ## 描述
@@ -82,10 +90,10 @@ hierarchy_scope_note: "高丰是 A 维度下中国设计史学科转换期研究
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是来源作者条目，记录中国设计史学科从工艺美术史分化出来的研究者养成路径；高丰本人的设计史分期、研究对象界定等史学主张属其著作内容，留在 `publications/zhongguo-shejishi-gaofeng.md`，不在本条展开。当前只到 Dimension。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.2（从工艺美术史到设计史），role 为 key_person，primary 为 true
+- role_in_theme: key_person
+- scope_note: 本条是 A.1.2 的人物锚点，承担“从工艺美术到设计艺术”学科转换期研究者养成的线索；其设计教育任职属 D 次维度。
 
 ## 相关知识元
 

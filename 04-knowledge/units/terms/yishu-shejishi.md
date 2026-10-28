@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - B
-hierarchy_scope_note: "本条是 A 维度下设计史学科对象与方法的界定，向下关联具体器具史条目。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: term_anchor
+    primary: true
+    scope_note: "A.1.2 主挂载：以赵农《中国艺术设计史》导论对‘艺术设计史’的学科对象界定（器具史、与科技史／美术史／专门史的分界）为锚点；其具体器具史例证归 B 次维度。"
+hierarchy_scope_note: "本条是 A.1.2 的学科对象术语锚点，承担‘艺术设计史如何界定自身对象’的线索；具体器具史条目归 B 次维度，不在此重复。"
 ---
 
 ## 描述
@@ -76,10 +84,10 @@ hierarchy_scope_note: "本条是 A 维度下设计史学科对象与方法的界
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 A 维度下设计史学科对象与方法的界定，统摄全书各时期的器具史叙述；具体器类仍归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-cong-gongyi-meishushi-dao-shejishi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 本条是 A.1.2 的学科对象术语锚点，承担“艺术设计史如何界定自身对象”的线索；具体器具史条目归 B 次维度，不在此重复。
 
 ## 相关知识元
 

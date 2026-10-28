@@ -1,0 +1,89 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h16",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 E 维度新建第三个 Theme E.3「跨文化形式的命名与类型化」与 E.3.1／E.3.2 两个 Topic，把中国风、外来式建筑、中西混合式建筑与香港 4 个 KU 按“命名方向”集中挂载。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.6",
+    "baseline_themes": 14,
+    "baseline_topics": 35,
+    "baseline_topic_memberships": 192,
+    "baseline_complete_assignments": 188,
+    "baseline_incomplete_assignments": 2382,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6378,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 380,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1421
+  },
+  "result": {
+    "hierarchy_version": "v1.7",
+    "themes": 15,
+    "topics": 37,
+    "topic_memberships": 196,
+    "complete_assignments": 192,
+    "incomplete_assignments": 2378,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6386,
+    "relation_types": "3/67",
+    "member_of_relations": 388,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1419,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/e3-kuawenhua-xingshi-de-mingming-yu-leixinghua.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/e3-zhongguo-feng-xifang-mingming.md",
+      "04-knowledge/structure/topics/e3-wailai-jianzhu-leixing-yu-xianggang.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 4,
+    "changed_units": 4,
+    "total_mounted_units": 192,
+    "new_topic_memberships": 4,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 12,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2378",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1419",
+    "Chinoiserie: only one Zhao Nong passage; countries, period segmentation, representative figures, object genealogy and design-impact cases are all absent, and the origin of the name is not given",
+    "Chinoiserie topic rests on a single KU: theory and documentary support sit inside the same paragraph, so E.3.1 should be merged into a neighbouring Topic if later sources cannot supplement it",
+    "Foreign-style architecture: seven instance names are listed, but designers, construction years, drawings and present condition are not checked building by building",
+    "Sino-Western hybrid architecture: only the type name, the alias 'modern Chinese style' and one frequency judgment; no form, instance, designer or construction year, confidence low",
+    "Three-way classification (foreign-style / Chinese-national-style / Sino-Western hybrid): no discrimination criteria are given, and the claim that the first two were more common before the early Republic has no statistics behind it",
+    "Chinese-national-style architecture is already mounted in B.3.2 and only referenced here; this batch does not re-mount it, and the three-way classification therefore spans two Themes by design",
+    "Hong Kong: only 'nearly a hundred years of development', 'Pearl of the Orient' and 'a reference for Western culture and technology'; the content of that reference is not recorded, and the Bank of China Tower appears only in a figure caption",
+    "The agent of naming is missing for all four entries: who coined 'Chinoiserie', 'foreign-style architecture' or 'Sino-Western hybrid architecture' is not stated, and the Theme does not assign one",
+    "No source text places Chinoiserie and Hong Kong side by side; the 'naming direction' framework is the batch's interpretation, not the sources' argument",
+    "Qipao, hufu, foot-binding reform, late-Qing war shocks, the Self-Strengthening Movement, the Xinhai Revolution and other E-dimension entries remain unmounted; dimension E does not close because E.3 exists",
+    "2378 KUs remain unmounted; E.3 covers only 4 KUs"
+  ],
+  "notes": "本批新建 1 个 Theme（E.3）与 2 个 Topic（E.3.1、E.3.2），挂载 4 个 KU：中国风以 term_anchor 挂入 E.3.1；外来式建筑、中西混合式建筑以 term_anchor、香港以 geographical_context 挂入 E.3.2。E.3 按“命名方向”分层，区分西方对中国形式的命名与中国对西方形式的命名；中国固有式建筑已在 B.3.2 挂载，本批只作三分法对照、不重复挂载。E.3.1 只有单一 KU 支撑，已在 Theme、Topic 与 README 三处显式记为研究债务。挂载过程中修正了两个新建 Topic 的 `name_en` YAML 冒号错误（未加引号导致 frontmatter 解析为空），修正前 stress test 报 themes_without_topics=1、topics=35，修正后为 15/37/196/192/2378。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

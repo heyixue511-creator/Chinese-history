@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
-hierarchy_scope_note: "本 KU 是 A 维度下古代设计文献的锚点。Theme/Topic 尚未 materialize。"
+secondary_themes: []
+primary_theme: A.1
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: representative_work
+    primary: true
+    scope_note: "A.1.2 主挂载：以 2016 年“历时十年修订五次”的升级版、新增原始农业生产器具设计、漆工艺、唐代设计理论、明清贸易瓷与社会主义建设时期工业产品设计五节为锚点，观察 2010 年代教材修订体例。"
+hierarchy_scope_note: "本条是 A.1.2 的核心文献锚点，承担 2010 年代设计史教材修订与增补的样本；其出版与教材制度信息属 D 次维度背景。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "本 KU 是 A 维度下古代设计文献的锚点。Theme
 
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 A 维度下古代设计文献的锚点。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.2（从工艺美术史到设计史），role 为 representative_work，primary 为 true
+- role_in_theme: representative_work
+- scope_note: 本条是 A.1.2 的核心文献锚点，承担 2010 年代设计史教材修订与增补的样本；其出版与教材制度信息属 D 次维度背景。
 
 ## 相关知识元
 

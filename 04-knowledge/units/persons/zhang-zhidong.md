@@ -53,19 +53,32 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "张之洞是 D 维度下中国近代设计教育制度化的关键推手：癸卯学制把工艺与设计纳入国家学制，三江师范图画手工科培养出第一批师资。同时也是“中体西用”这一设计思想框架的命名者，属 A 维度边界。Theme/Topic 均未 materialize。"
+primary_theme: D.4
+secondary_themes:
+  - D.1
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d4-xuetang-tuhua-shougong-jiaoyu.md
+    role: key_person
+    primary: true
+    scope_note: "D.4.1 主挂载：以 1898 年湖北工艺学堂、1902 年三江师范学堂、1903 年癸卯学制“图稿绘画科”与《劝学篇》工艺教育主张为锚点，观察学制与学堂如何把工艺、图画、手工纳入国家教育；其洋务企业与货币设计归 D.1.2 次挂载。"
+  - topic: topics/d1-jindai-fangzhi-qiye.md
+    role: key_person
+    primary: false
+    scope_note: "D.1.2 次挂载：以 1892 年湖北织布纺纱官局开机织布、1000 台英国织机与英籍技师为锚点；设计教育制度主挂载仍在 D.4.1，本项只登记其纺织企业组织者身份。"
+hierarchy_scope_note: "张之洞以“设计教育进入国家学制”为主挂载 D.4.1：癸卯学制图稿绘画科、湖北工艺学堂、三江师范学堂与《劝学篇》工艺教育主张；同时以 1892 年湖北织布纺纱官局组织者身份次挂载 D.1.2，形成“学制—学堂—企业”的制度链条。"
 ---
 
 ## 描述
@@ -105,10 +118,11 @@ hierarchy_scope_note: "张之洞是 D 维度下中国近代设计教育制度化
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“设计教育进入国家学制”这一制度转折的人物承载点，与 `persons/zuo-zongtang.md` 同属洋务官员序列但职能不同：左宗棠办局厂（生产），张之洞办学制与学堂（教育）。可支持未来的近代设计教育制度、癸卯学制、师范图画手工科类 Topic。当前只到 Dimension。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- secondary_themes: D.1（洋务企业与近代工业组织）
+- topic_memberships: D.4.1（学堂图画手工与工艺教育）主挂载，role 为 key_person，primary 为 true；D.1.2（近代纺织企业与实业家）次挂载，role 为 key_person，primary 为 false
+- role_in_theme: key_person
+- scope_note: 张之洞以“设计教育进入国家学制”为主挂载 D.4.1：癸卯学制图稿绘画科、湖北工艺学堂、三江师范学堂与《劝学篇》工艺教育主张；同时以 1892 年湖北织布纺纱官局组织者身份次挂载 D.1.2，形成“学制—学堂—企业”的制度链条。
 
 ## 相关知识元
 

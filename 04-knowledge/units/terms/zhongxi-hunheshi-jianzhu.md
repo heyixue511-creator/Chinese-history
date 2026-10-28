@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: 中西混合式建筑是 E 维度下近代跨文化建筑类型的条目，其建造技术属 B 维度。Theme/Topic 尚未 materialize。
+primary_theme: E.3
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md
+    role: term_anchor
+    primary: true
+    scope_note: "E.3.2 支撑条目：只有类型名、别称“现代中国式”与“民初以前两种为多见”三句；无形制、实例与设计师，只证明三分法中的第三类被命名，不证明其可判别。"
+hierarchy_scope_note: "中西混合式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担三分法中第三类的命名；其建造技术属 B.3，本条目不展开形制分析。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: 中西混合式建筑是 E 维度下近代跨文化建筑�
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 中西混合式建筑是 E 维度下近代跨文化建筑类型的条目，其建造技术属 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.3（跨文化形式的命名与类型化）
+- topic_memberships: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 中西混合式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担三分法中第三类的命名；其建造技术属 B.3，本条目不展开形制分析。
 
 ## 相关知识元
 

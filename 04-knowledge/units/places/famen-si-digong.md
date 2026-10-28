@@ -42,19 +42,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - E
-hierarchy_scope_note: "法门寺塔基地宫是 B 维度下唐代佛教造物、金银器与玻璃器条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: evidence_event
+    primary: true
+    scope_note: "只取 1987 年地宫出土秘色瓷确认实物一环"
+hierarchy_scope_note: "只取 1987 年地宫出土秘色瓷确认实物一环"
 ---
 
 ## 描述
@@ -95,12 +103,10 @@ hierarchy_scope_note: "法门寺塔基地宫是 B 维度下唐代佛教造物、
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 法门寺塔基地宫是 B 维度下唐代佛教造物、金银器与玻璃器条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 只取 1987 年地宫出土秘色瓷确认实物一环
 ## 相关知识元
 
 `terms/mise-porcelain.md` 记秘色瓷；`works/tang-yin-xiangnang.md` 为唐代金银器条目；`procedures/yin-xunlu-zhizuo.md` 与 `publications/chajing.md` 涉及唐代茶具与金银器工艺。来源把地宫器物作为佛教中国化与中外交流的双重证据；relation 未审查。

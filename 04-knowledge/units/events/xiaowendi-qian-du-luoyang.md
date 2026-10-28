@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "孝文帝迁都洛阳是 E 维度下北方游牧政权进入中原、转向农业文明的跨文化节点，其官制与都城制度归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/e5-beiwei-hanhua-fushi-gaizhi.md
+    role: historical_context
+    primary: true
+    scope_note: "孝文帝迁都洛阳在 E.5.2 中作 `historical_context`，只为服饰改制提供政治地理背景；其都城制度与规划归 D，本条不构成改制证据链的一环。"
+hierarchy_scope_note: "孝文帝迁都洛阳在 E.5.2 中作 `historical_context`，只为服饰改制提供政治地理背景；其都城制度与规划归 D，本条不构成改制证据链的一环。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "孝文帝迁都洛阳是 E 维度下北方游牧政权进
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 孝文帝迁都洛阳是 E 维度下北方游牧政权进入中原、转向农业文明的跨文化节点，其官制与都城制度归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.5（服饰改制与族群身份）
+- topic_memberships: topics/e5-beiwei-hanhua-fushi-gaizhi.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 在 E.5.2 中作 `historical_context`，只为服饰改制提供政治地理背景；其都城制度与规划归 D，本条不构成改制证据链的一环。
 
 ## 相关知识元
 

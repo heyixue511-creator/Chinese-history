@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - D
-hierarchy_scope_note: "赵农是 A 维度下中国设计史教材编写者的条目；来源只提供作者自述与研究年限，学科脉络材料薄。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/a1-cong-gongyi-meishushi-dao-shejishi.md
+    role: key_person
+    primary: true
+    scope_note: "A.1.2 主挂载：以赵农自述从事艺术设计史研究 20 多年、1999 年开始写作《中国艺术设计史》与 2009 年教材出版为锚点；其任职与教学背景来源未载，不另设 D 挂载。"
+hierarchy_scope_note: "本条是 A.1.2 的人物锚点，承担艺术设计史教材编写者的自述线索；来源只给作者自述与研究年限，confidence 维持 low。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "赵农是 A 维度下中国设计史教材编写者的条
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: D（商业制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条只记来源可证的作者自述与教材编写关系；来源未载其学术谱系、任职与教育实践。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.2（从工艺美术史到设计史），role 为 key_person，primary 为 true
+- role_in_theme: key_person
+- scope_note: 本条是 A.1.2 的人物锚点，承担艺术设计史教材编写者的自述线索；来源只给作者自述与研究年限，confidence 维持 low。
 
 ## 相关知识元
 

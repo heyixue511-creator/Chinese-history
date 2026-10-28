@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "彩陶制作工艺是 B 维度下新石器时代彩陶成形、打磨、绘彩与烧成工序的条目，其纹样与器形归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: procedure
+    primary: true
+    scope_note: "彩陶制作工艺是 B.5.1 的绘彩与烧成工序条目，承担手捏、打磨、绘纹、入窑；彩陶的类型与分布归 B.5.2。"
+hierarchy_scope_note: "彩陶制作工艺是 B.5.1 的绘彩与烧成工序条目，承担手捏、打磨、绘纹、入窑；彩陶的类型与分布归 B.5.2。"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "彩陶制作工艺是 B 维度下新石器时代彩陶成
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 彩陶制作工艺是 B 维度下新石器时代彩陶成形、打磨、绘彩与烧成工序的条目，其纹样与器形归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 彩陶制作工艺是 B.5.1 的绘彩与烧成工序条目，承担手捏、打磨、绘纹、入窑；彩陶的类型与分布归 B.5.2。
 ## 相关知识元
 
 `terms/caihui-tao.md` 与 `terms/painted-pottery.md` 记彩陶的文化与类型；`procedures/zhitao.md` 记制陶的一般工序，`procedures/lunzhi-fa.md` 记轮制成形，`procedures/fengyao-jishu.md` 记还原烧成；`places/banpo-site.md` 记半坡遗址。relation 未审查。

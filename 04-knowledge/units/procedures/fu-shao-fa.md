@@ -43,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "覆烧法是 B 维度下北宋定窑及景德镇装烧工序的条目，其窑具与瓷器口沿特征归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "北宋中期定窑覆烧、芒口缺陷与景德镇仿定"
+hierarchy_scope_note: "北宋中期定窑覆烧、芒口缺陷与景德镇仿定"
 ---
 
 ## 描述
@@ -81,11 +89,10 @@ hierarchy_scope_note: "覆烧法是 B 维度下北宋定窑及景德镇装烧工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 覆烧法是 B 维度下北宋定窑及景德镇装烧工序的条目，其窑具与瓷器口沿特征归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 北宋中期定窑覆烧、芒口缺陷与景德镇仿定
 ## 相关知识元
 
 `procedures/zhi-quan-fu-shao.md` 记南宋中期景德镇等窑的支圈覆烧，与本条同为覆烧但时段与窑具不同：本条记北宋定窑的垫圈与大型匣钵覆烧及景德镇仿定窑，支圈覆烧记南宋中期的一次性支圈；两条分列，不互相替代。`places/ding-kiln.md` 记定窑，`places/jingdezhen-kiln.md` 与 `places/jingdezhen.md` 记景德镇窑与景德镇，`places/ru-kiln.md` 记汝窑，为本条“定器有芒”后另建之窑，`terms/baici.md` 记白瓷。relation 未审查。

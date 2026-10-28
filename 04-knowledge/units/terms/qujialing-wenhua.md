@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "屈家岭文化是 B 维度下长江中游彩陶文化的术语条目；其彩绘纺轮与蛋壳彩陶属 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "屈家岭文化是 B.5.2 的分区框架，承担长江中游彩绘纺轮与蛋壳彩陶；单源低置信。"
+hierarchy_scope_note: "屈家岭文化是 B.5.2 的分区框架，承担长江中游彩绘纺轮与蛋壳彩陶；单源低置信。"
 ---
 
 ## 描述
@@ -56,12 +64,10 @@ hierarchy_scope_note: "屈家岭文化是 B 维度下长江中游彩陶文化的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 屈家岭文化是 B 维度下长江中游彩陶文化的术语条目；其彩绘纺轮与蛋壳彩陶属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 屈家岭文化是 B.5.2 的分区框架，承担长江中游彩绘纺轮与蛋壳彩陶；单源低置信。
 ## 相关知识元
 
 见同册著录的史前陶器、装饰方法与文化类型条目。relation 未审查。

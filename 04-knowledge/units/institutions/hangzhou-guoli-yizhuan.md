@@ -37,7 +37,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
@@ -49,7 +49,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - C
-hierarchy_scope_note: "国立杭州艺术专科学校是 D 维度下近代美术教育机构的条目，其图案系与实用美术教学归 C；当前只到 Dimension。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.2 首批：以 1949 年以前图案系与实用美术教学为锚点；1950 年改名中央美术学院华东分院与 1956 年中央工艺美术学院成立只作边界。"
+hierarchy_scope_note: "杭州国立艺专是 D.4.2 的图案教育机构样本；图案系与实用美术教学归 C 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -74,10 +82,10 @@ hierarchy_scope_note: "国立杭州艺术专科学校是 D 维度下近代美术
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是民国图案教育与其 1950 年代改组的机构样本，与北平国立艺专、中央美术学院、中央工艺美术学院构成一条“图案系—实用美术系—专门学院”的机构链。当前只到 Dimension。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.2 艺专图案教育与工商美术课程（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本条是 D.4.2 的图案教育机构样本；以 1949 年以前图案系与实用美术教学为锚点。田自秉的求学记忆只作学生经验旁证；1950 年改名与 1956 年中央工艺美术学院成立只作机构沿革边界。
 
 ## 相关知识元
 

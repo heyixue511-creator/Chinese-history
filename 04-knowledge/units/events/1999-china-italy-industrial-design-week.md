@@ -25,17 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "中国—意大利工业设计周是 E 维度下跨国工业设计交流的节点，其工业设计学科归 D 维度。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.1.2 主挂载：以 1999 年 10 月在上海举行的中国—意大利工业设计周为锚点；主办机构、参展企业与活动单元未载，只作双边交流渠道。"
+hierarchy_scope_note: "本条是 E.1.2 的双边设计交流样本，承担‘中意工业设计周如何以城市活动形式落地’的线索；其工业设计学科归 D 次维度。"
 ---
 
 ## 描述
@@ -55,10 +64,10 @@ hierarchy_scope_note: "中国—意大利工业设计周是 E 维度下跨国工
 
 - primary_domain: chinese-design-history
 - primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 中国—意大利工业设计周是 E 维度下跨国工业设计交流的节点，其工业设计学科归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-ershi-shiji-houqi-sheji-guannian-yinru.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.1.2 的双边设计交流样本，承担“中意工业设计周如何以城市活动形式落地”的线索；其工业设计学科归 D 次维度。
 
 ## 相关知识元
 

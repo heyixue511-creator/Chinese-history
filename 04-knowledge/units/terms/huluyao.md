@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "葫芦窑是 B 维度下宋代福建窑炉的条目；其家庭作坊组织归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "宋代福建葫芦窑：馒头窑与龙窑的折中"
+hierarchy_scope_note: "宋代福建葫芦窑：馒头窑与龙窑的折中"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "葫芦窑是 B 维度下宋代福建窑炉的条目；其
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 葫芦窑是 B 维度下宋代福建窑炉的条目；其家庭作坊组织归 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 宋代福建葫芦窑：馒头窑与龙窑的折中
 ## 相关知识元
 
 `terms/mantouyao.md` 记馒头窑，`terms/longyao.md` 若已建记龙窑；本条为二者结合的窑型。relation 未审查。

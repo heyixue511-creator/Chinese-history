@@ -22,19 +22,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "孔望山摩崖造像为 E 维度下佛教传入与造像艺术条目。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/e2-fojiao-dongchuan-yu-zaoxiang.md
+    role: geographical_context
+    primary: true
+    scope_note: "E.2.1 主挂载：以江苏连云港孔望山摩崖造像作为东汉佛教造像地点、与沂南画像石墓佛像和彭山崖墓一佛二菩萨像并列；年代、数量、题材与研究史未载。"
+hierarchy_scope_note: "本条是 E.2.1 的早期造像地点样本，承担‘东汉佛教艺术品如何被识别为佛教传入标志’的线索；其造像工艺归 B 次维度。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "孔望山摩崖造像为 E 维度下佛教传入与造像
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 孔望山摩崖造像为 E 维度下佛教传入与造像艺术条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-fojiao-dongchuan-yu-zaoxiang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 本条是 E.2.1 的早期造像地点样本，承担“东汉佛教艺术品如何被识别为佛教传入标志”的线索；其造像工艺归 B 次维度。
 
 ## 相关知识元
 

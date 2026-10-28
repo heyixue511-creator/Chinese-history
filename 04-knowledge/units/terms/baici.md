@@ -37,17 +37,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "白瓷是 B 维度下瓷器类型与胎釉技术的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "北齐白瓷的胎釉条件、隋代烧成与邢窑的南青北白格局"
+hierarchy_scope_note: "北齐白瓷的胎釉条件、隋代烧成与邢窑的南青北白格局"
 ---
 
 ## 描述
@@ -71,11 +79,10 @@ hierarchy_scope_note: "白瓷是 B 维度下瓷器类型与胎釉技术的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 白瓷是 B 维度下瓷器类型与胎釉技术的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 北齐白瓷的胎釉条件、隋代烧成与邢窑的南青北白格局
 ## 相关知识元
 
 与青瓷、影青同属瓷系谱系；白瓷的降低含铁量技术与化妆土、釉料配方相关。relation 未审查。

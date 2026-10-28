@@ -1,0 +1,85 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h12",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "为 A 维度建立首个 Level 3 Theme A.1「中国设计史书写与学科建构」，下设 A.1.1「工艺美术史通史书写」与 A.1.2「从工艺美术史到设计史：命名与教材建构」，把 1982–2016 年的工艺美术史／设计史通史与教材书写材料集中挂载，切开“写史”与“史实内容”的边界。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.2",
+    "baseline_themes": 11,
+    "baseline_topics": 27,
+    "baseline_topic_memberships": 137,
+    "baseline_complete_assignments": 133,
+    "baseline_incomplete_assignments": 2437,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6268,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 270,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1456
+  },
+  "result": {
+    "hierarchy_version": "v1.3",
+    "themes": 12,
+    "topics": 29,
+    "topic_memberships": 151,
+    "complete_assignments": 147,
+    "incomplete_assignments": 2423,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6296,
+    "relation_types": "3/67",
+    "member_of_relations": 298,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1448,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/a1-zhongguo-shejishi-shuxie-xueke-jiangou.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/a1-gongyi-meishushi-tongshi-shuxie.md",
+      "04-knowledge/structure/topics/a1-cong-gongyi-meishushi-dao-shejishi.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 14,
+    "changed_units": 14,
+    "total_mounted_units": 147,
+    "new_topic_memberships": 14,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2423",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1448",
+    "The 1985 and 2010 editions of Tian Zibing's Zhongguo Gongyi Meishu Shi are registered as separate works but their textual relation (revision scope, added chapters, plates) is not yet verified",
+    "Wang Jiashu and Long Zongxin are registered from single bibliographic lines; publication house, year, scope and edition cannot be cross-checked in the current corpus",
+    "The 1917 Xu Yanzhuo Zhongguo Gongyi Yan'ge Shi Lue is not mounted; it predates the 1980s general histories and would test whether A.1.1 should extend to the Republican period",
+    "Li Lixin's planned co-authored Zhongguo Sheji Yishu Shi is recorded as unpublished; it is not a KU and must not be counted as a completed work",
+    "A.1.3 (periodization and explanatory frameworks: grand-historical view, long duration, axial age, staged breakthroughs, bian-yu-tong, six design culture regions, nan-xiu-bei-xiong, benyuan features) remains a candidate; it is not materialized",
+    "Themes for dimension E remain unmaterialized; Panama-Pacific Exposition, 1851 Great Exhibition, foreign-style architecture terms and qipao stay as cross-theme debts",
+    "2423 KUs remain unmounted; A.1 does not close dimension A"
+  ],
+  "notes": "本批新建 1 个 Theme（A.1）与 2 个 Topic（A.1.1、A.1.2），挂载 14 个 KU：田自秉、高丰、赵农、李立新 4 位人物以 key_person 挂入；田自秉 1985 年版与 2010 年修订本、王家树、龙宗鑫、高丰、夏燕靖 2009 与 2016、赵农 2009、李立新《造物之迹》9 部著作／学位论文，其中核心教材取 representative_work，仅有书目一行或后记一段者取 supporting_source；1982 年《中国工艺美术史》编写完成事件以 evidence_event 挂入 A.1.1。A.1.1 取工艺美术通史书写，A.1.2 取从工艺美术史到设计史的命名与教材建构；具体设计史内容仍归 B/C/D，设计教育制度归 D.4，A.1 不搬移既有史实。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

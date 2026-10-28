@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "中国蚕丝公司是 D 维度下抗战胜利后国民党控制蚕丝业的条目；当前只到 Dimension。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d1-jindai-fangzhi-qiye.md
+    role: key_institution
+    primary: true
+    scope_note: "D.1.2 主挂载：以抗战胜利后国民党中国蚕丝公司垄断江浙丝绸、盛泽产丝区没落为锚点，与中支蚕丝组织并列但关系未详；成立年份、资本与工厂均缺，confidence 维持 low。"
+hierarchy_scope_note: "本条是 D.1.2 的官僚资本蚕丝企业样本，与纺织建设公司并列为抗战胜利后垄断的两个例子；来源只有一句，不写成公司史，也不推断其与中支蚕丝组织的继承关系。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "中国蚕丝公司是 D 维度下抗战胜利后国民党
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度下抗战胜利后国民党控制蚕丝业的条目，可与江浙丝织、盛泽产丝区、中国纺织建设公司并置，观察近代蚕丝业的资本与政权关系。当前只到 Dimension。
+- primary_theme: D.1（洋务企业与近代工业组织）
+- topic_memberships: D.1.2（近代纺织企业与实业家），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 D.1.2 的官僚资本蚕丝企业样本，与纺织建设公司并列为抗战胜利后垄断的两个例子；来源只有一句，不写成公司史，也不推断其与中支蚕丝组织的继承关系。
 
 ## 相关知识元
 

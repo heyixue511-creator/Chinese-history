@@ -37,19 +37,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "黑陶是 B 维度下新石器时期陶器类型的条目，其乌黑质感与镂孔装饰属 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: term_anchor
+    primary: true
+    scope_note: "黑陶是 B.5.2 的陶系锚点，承担渗炭技术、龙山黑陶的壁厚与镂孔、“寓减于增”的减法观念。"
+hierarchy_scope_note: "黑陶是 B.5.2 的陶系锚点，承担渗炭技术、龙山黑陶的壁厚与镂孔、“寓减于增”的减法观念。"
 ---
 
 ## 描述
@@ -102,13 +110,11 @@ hierarchy_scope_note: "黑陶是 B 维度下新石器时期陶器类型的条目
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下新石器时期陶器类型的条目，向下关联蛋壳黑陶、龙山文化、大汶口文化；镂孔与“减法”观念属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 黑陶是 B.5.2 的陶系锚点，承担渗炭技术、龙山黑陶的壁厚与镂孔、“寓减于增”的减法观念。
 ## 相关知识元
 
 `terms/danke-heitao.md` 记蛋壳黑陶；`terms/longshan-culture.md` 记龙山文化；`terms/dawenkou-culture.md` 记大汶口文化；`terms/taoqi.md` 记陶器总论；`terms/dark-pattern-pottery.md` 记暗纹陶，与黑陶不是同一类型，勿混；`terms/taoyao.md` 记陶窑。relation 未审查，不写入正式 `relations`。

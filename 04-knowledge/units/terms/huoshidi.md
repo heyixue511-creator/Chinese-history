@@ -26,18 +26,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
-hierarchy_scope_note: "本条是 B 维度元代陶瓷胎体处理的术语，护胎釉与烧成的关系属工艺技术。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "元代护胎釉俗称，作为胎体处理的可识别特征"
+hierarchy_scope_note: "元代护胎釉俗称，作为胎体处理的可识别特征"
 ---
 
 ## 描述
@@ -55,12 +63,10 @@ hierarchy_scope_note: "本条是 B 维度元代陶瓷胎体处理的术语，护
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代陶瓷胎体处理的术语，护胎釉与烧成的关系属工艺技术。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 元代护胎釉俗称，作为胎体处理的可识别特征
 ## 相关知识元
 
 `places/jingdezhen-kiln.md` 记景德镇窑胎釉与品种；`terms/blue-and-white-porcelain.md` 与 `terms/youlihong.md` 记元代景德镇彩瓷；本条为胎体处理术语，不与釉色条合并。relation 未审查。

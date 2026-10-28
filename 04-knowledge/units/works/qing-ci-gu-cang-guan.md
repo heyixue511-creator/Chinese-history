@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本条是 B 维度三国吴青瓷明器的器物条目，来源给造型构成、装饰题材与一处纪年实例，Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: representative_work
+    primary: true
+    scope_note: "三国两晋随葬青瓷的堆塑与两罐粘接工艺"
+hierarchy_scope_note: "三国两晋随葬青瓷的堆塑与两罐粘接工艺"
 ---
 
 ## 描述
@@ -58,11 +66,10 @@ hierarchy_scope_note: 本条是 B 维度三国吴青瓷明器的器物条目，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度三国吴青瓷明器的器物条目，来源给造型构成、装饰题材与一处纪年实例，Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 三国两晋随葬青瓷的堆塑与两罐粘接工艺
 ## 相关知识元
 
 `terms/qing-ci.md` 记青瓷；`places/yue-kiln.md` 记越窑。来源在瓷器一节先说越窑青瓷成就最高，再举谷仓罐造型，但没有把所举例证直接系于越窑。relation 未审查，不写入正式 `relations`。

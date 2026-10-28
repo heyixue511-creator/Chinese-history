@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "2010 年上海世界博览会是 E 维度下以国际博览会为尺度的现代设计进程节点，其设计教育学科线索归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.1
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.1.1 主挂载：以赵农 2008 年把 2010 年上海世博会写成‘159 年现代化进程证明’的预期表述为锚点；只记预期，不把实际开幕、主题、参展方与场馆数据写入。"
+hierarchy_scope_note: "本条是 E.1.1 的当代主办样本，承担‘中国从参展者转为主办者’的预期线索；其设计教育与学科线索归 D 次维度。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "2010 年上海世界博览会是 E 维度下以国际博�
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 2010 年上海世界博览会是 E 维度下以国际博览会为尺度的现代设计进程节点，其设计教育学科线索归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.1（跨文化设计交流与展示）
+- topic_memberships: topics/e1-shijie-bolanhui-yu-zhongguo-sheji-zhanshi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.1.1 的当代主办样本，承担“中国从参展者转为主办者”的预期线索；其设计教育与学科线索归 D 次维度。
 
 ## 相关知识元
 

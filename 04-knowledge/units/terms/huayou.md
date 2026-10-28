@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "花釉是 B 维度下唐代瓷釉类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "唐代底釉加色釉的斑纹品种与河南诸窑口"
+hierarchy_scope_note: "唐代底釉加色釉的斑纹品种与河南诸窑口"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "花釉是 B 维度下唐代瓷釉类型的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 花釉是 B 维度下唐代瓷釉类型的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 唐代底釉加色釉的斑纹品种与河南诸窑口
 ## 相关知识元
 
 与窑变同属釉面斑纹工艺；花釉腰鼓可与唐代乐器、西域乐舞对读。relation 未审查。

@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - A
-hierarchy_scope_note: "康有为是 E 维度下中西画学融合主张的人物条目；其画学观念属 A 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md
+    role: key_person
+    primary: true
+    scope_note: "E.4.4 的知识取向样本：只有“取欧画写形之精”“合中西而为画学新纪元”两句画学主张，用于说明嫁接古典主义而非对接现代主义；与设计实践的关系未载。"
+hierarchy_scope_note: "康有为是 E.4.4 的知识取向样本，承担“西学取用的方向”这一端；其画学观念属 A 维度，本条不作设计主张。"
 ---
 
 ## 描述
@@ -54,10 +62,10 @@ hierarchy_scope_note: "康有为是 E 维度下中西画学融合主张的人物
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 康有为是 E 维度下中西画学融合主张的人物条目；其画学观念属 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: E.4.4 的知识取向样本：只有“取欧画写形之精”“合中西而为画学新纪元”两句画学主张，用于说明嫁接古典主义而非对接现代主义；与设计实践的关系未载。
 
 ## 相关知识元
 

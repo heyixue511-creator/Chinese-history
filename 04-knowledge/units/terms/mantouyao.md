@@ -28,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
-hierarchy_scope_note: "馒头窑是 B 维度下北方窑炉形制的条目，材料限于源流、外形、倒焰结构与温度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "北方馒头窑与宋代全倒焰技术"
+hierarchy_scope_note: "北方馒头窑与宋代全倒焰技术"
 ---
 
 ## 描述
@@ -58,12 +66,10 @@ hierarchy_scope_note: "馒头窑是 B 维度下北方窑炉形制的条目，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 馒头窑是 B 维度下北方窑炉形制的条目，材料限于源流、外形、倒焰结构与温度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 北方馒头窑与宋代全倒焰技术
 ## 相关知识元
 
 `terms/huluyao.md` 记葫芦窑，`terms/songdai-yaoxi.md` 记宋代窑系；本条与二者构成窑炉序列。relation 未审查。

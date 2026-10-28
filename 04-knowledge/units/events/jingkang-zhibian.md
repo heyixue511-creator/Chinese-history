@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
-primary_dimension: E
-hierarchy_scope_note: "靖康之难是 E 维度下宋代政权南迁与设计地理格局变化的分期事件，其官窑与织造制度属 D 维度。Theme/Topic 尚未 materialize。"
+primary_dimension: A
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: historical_context
+    primary: true
+    scope_note: "靖康之难在 A.1.3 中作 `historical_context`：它是夏燕靖 2016 切分北宋／南宋的断代锚点，并带来南宋亡年 1276 与田自秉 1279 的异文；官窑与织造制度归 D，本条不重复。"
+hierarchy_scope_note: "靖康之难在 A.1.3 中作 `historical_context`：它是夏燕靖 2016 切分北宋／南宋的断代锚点，并带来南宋亡年 1276 与田自秉 1279 的异文；官窑与织造制度归 D，本条不重复。"
 ---
 
 ## 描述
@@ -65,11 +73,11 @@ hierarchy_scope_note: "靖康之难是 E 维度下宋代政权南迁与设计地
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 靖康之难是 E 维度下宋代政权南迁与设计地理格局变化的分期事件，其官窑与织造制度属 D 维度。Theme/Topic 尚未 materialize。
+- primary_dimension: A（设计史观与史学方法）
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 在 A.1.3 中作 `historical_context`：是夏燕靖 2016 切分北宋／南宋的断代锚点，并带来南宋亡年 1276 与田自秉 1279 的异文；官窑与织造制度归 D，本条不重复。
 
 ## 相关知识元
 

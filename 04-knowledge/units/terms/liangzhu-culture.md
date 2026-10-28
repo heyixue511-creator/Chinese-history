@@ -62,17 +62,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "良渚文化是 B 维度下长江下游太湖地区的新石器时代晚期考古学文化条目；玉琮、神人兽面纹与古城同时牵涉 B/C 两个维度。分类归属（独立文化／龙山文化四类型之一）存在册级分歧。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。"
+hierarchy_scope_note: "良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。"
 ---
 
 ## 描述
@@ -136,11 +144,10 @@ hierarchy_scope_note: "良渚文化是 B 维度下长江下游太湖地区的新
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与仰韶文化、龙山文化、大汶口文化、红山文化、马家窑文化、河姆渡文化同属新石器时代考古学文化序列。良渚的特殊性在于：它同时是"龙山文化四类型之一"（田自秉、夏燕靖两版）与"六大设计区"中的东南区（李立新），分类层级不统一。可支持未来的史前玉器谱系、龙山文化类型学与长江下游文明化进程类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。
 ## 相关知识元
 
 `terms/longshan-culture.md` 已记录良渚被列为龙山文化四类型之一所造成的同型冲突，本条与之互相印证；`terms/hemudu-culture.md` 是良渚建筑与木工传统的上游；`terms/dawenkou-culture.md` 与本条有花厅墓地的器物交换关系；`terms/hongshan-culture.md` 与本条并列为史前玉器两个地域传统；`terms/painted-pottery.md` 与本条"彩陶消亡"的判断相关。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

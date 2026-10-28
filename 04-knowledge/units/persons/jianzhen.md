@@ -32,17 +32,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "鉴真是 E 维度下唐代工艺技术跨海传播的枢纽人物。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: key_person
+    primary: true
+    scope_note: "E.2.2 主挂载：以 743 年首次东渡随行玉作人、雕檀、刻镂等工手 85 人、六次东渡终抵日本为锚点；工匠姓名、技艺门类与在日本的作品未载。"
+hierarchy_scope_note: "本条是 E.2.2 的工匠流动样本，承担‘唐代工艺技术如何随僧人东渡传入日本’的线索；唐代工匠制度背景归 D 次维度。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: "鉴真是 E 维度下唐代工艺技术跨海传播的枢
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 鉴真是 E 维度下唐代工艺技术跨海传播的枢纽人物。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 本条是 E.2.2 的工匠流动样本，承担“唐代工艺技术如何随僧人东渡传入日本”的线索；唐代工匠制度背景归 D 次维度。
 
 ## 相关知识元
 

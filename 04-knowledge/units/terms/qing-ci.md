@@ -44,17 +44,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "青瓷是 B 维度下瓷器类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "东汉以来青瓷的定义与浙江四窑系的地域分工"
+hierarchy_scope_note: "东汉以来青瓷的定义与浙江四窑系的地域分工"
 ---
 
 ## 描述
@@ -95,11 +103,10 @@ hierarchy_scope_note: "青瓷是 B 维度下瓷器类型的条目。Theme/Topic 
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 青瓷是 B 维度下瓷器类型的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 东汉以来青瓷的定义与浙江四窑系的地域分工
 ## 相关知识元
 
 与 `terms/black-porcelain.md`（黑瓷）、`terms/piao-ci.md`（缥瓷）、`terms/white-porcelain.md`（白瓷）同属瓷系谱系；青瓷与白瓷构成南北朝以后的南北分流；`procedures/liuchao-qingci-zhuangshi-liufa.md` 记同期青瓷装饰六法。relation 未审查。

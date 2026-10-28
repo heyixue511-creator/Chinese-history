@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "中国风是 E 维度下欧洲对中国工艺文化的接受风尚的术语条目；其工艺品类与材料基础属 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.3
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e3-zhongguo-feng-xifang-mingming.md
+    role: term_anchor
+    primary: true
+    scope_note: "E.3.1 唯一支撑条目：以“17、18 世纪欧洲社会形成了中国风”与陶瓷、丝织、漆器、壁纸、印刷术、火药、典籍七类影响范围为锚点；只证明命名存在，不证明风格的器物谱系与分期。"
+hierarchy_scope_note: "中国风是 E.3 下欧洲对中国工艺文化的命名条目，承担“西方对中国形式的命名”这一方向；其工艺品类与材料基础属 B 维度，不并入 B.3。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "中国风是 E 维度下欧洲对中国工艺文化的接
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 中国风是 E 维度下欧洲对中国工艺文化的接受风尚的术语条目；其工艺品类与材料基础属 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.3（跨文化形式的命名与类型化）
+- topic_memberships: topics/e3-zhongguo-feng-xifang-mingming.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 中国风是 E.3 下欧洲对中国工艺文化的命名条目，承担“西方对中国形式的命名”这一方向；其工艺品类与材料基础属 B 维度，不并入 B.3。
 
 ## 相关知识元
 

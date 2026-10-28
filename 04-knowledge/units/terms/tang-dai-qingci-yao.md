@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下唐代青瓷窑场的清单级条目，其官窑性质与贡御关系牵涉 D 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "唐代七窑总述与青瓷主流；越窑官府督造为御器厂前身"
+hierarchy_scope_note: "唐代七窑总述与青瓷主流；越窑官府督造为御器厂前身"
 ---
 
 ## 描述
@@ -67,11 +75,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下唐代青瓷窑场的清单级条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下唐代青瓷窑场的清单级条目，其官窑性质与贡御关系牵涉 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 唐代七窑总述与青瓷主流；越窑官府督造为御器厂前身
 ## 相关知识元
 
 `terms/qing-ci.md` 记青瓷通名与四窑系总体特征；`places/` 下越窑、婺州窑、长沙窑等窑址条目（如有）各记窑口；`terms/mise-porcelain.md` 记秘色瓷。relation 未审查。

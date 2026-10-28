@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
-primary_dimension: E
-hierarchy_scope_note: "安史之乱是 E 维度下唐代由盛转衰的分期事件，主要用于解释中晚唐工艺与地方窑业格局的变化。Theme/Topic 尚未 materialize。"
+primary_dimension: A
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/a1-shejishi-fenqi-jieshi-kuangjia.md
+    role: historical_context
+    primary: true
+    scope_note: "安史之乱在 A.1.3 中作 `historical_context`：它不是独立叙述对象，而是田自秉与夏燕靖 2016 切分唐后期至五代十国的断代锚点；中晚唐工艺与地方窑业格局的具体内容归 B，本条不重复。"
+hierarchy_scope_note: "安史之乱在 A.1.3 中作 `historical_context`：它不是独立叙述对象，而是田自秉与夏燕靖 2016 切分唐后期至五代十国的断代锚点；中晚唐工艺与地方窑业格局的具体内容归 B，本条不重复。"
 ---
 
 ## 描述
@@ -60,11 +68,11 @@ hierarchy_scope_note: "安史之乱是 E 维度下唐代由盛转衰的分期事
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 安史之乱是 E 维度下唐代由盛转衰的分期事件，主要用于解释中晚唐工艺与地方窑业格局的变化。Theme/Topic 尚未 materialize。
+- primary_dimension: A（设计史观与史学方法）
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: topics/a1-shejishi-fenqi-jieshi-kuangjia.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 在 A.1.3 中作 `historical_context`：不是独立叙述对象，而是田自秉与夏燕靖 2016 切分唐后期至五代十国的断代锚点；中晚唐工艺与地方窑业格局的具体内容归 B，本条不重复。
 
 ## 相关知识元
 

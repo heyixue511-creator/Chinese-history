@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度唐代花釉陶瓷的器物锚点，材料为正文一段加图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: representative_work
+    primary: true
+    scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形"
+hierarchy_scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形"
 ---
 
 ## 描述
@@ -54,11 +62,10 @@ hierarchy_scope_note: "本条是 B 维度唐代花釉陶瓷的器物锚点，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐代花釉陶瓷的器物锚点，材料为正文一段加图注一行。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 唐代花釉代表作；黑釉地月白斑与鼓形
 ## 相关知识元
 
 同期陶瓷器条目可参见 `works/donghan-qingci-gaozu-wan.md`（东汉青瓷高足碗）与 `works/lianhua-zun.md`（莲花尊），三者同属单件陶瓷器的形制锚点，窑口与时代各异。本条不构成关系断言。

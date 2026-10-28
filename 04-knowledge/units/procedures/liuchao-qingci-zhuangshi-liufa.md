@@ -36,17 +36,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "六朝青瓷装饰六法是 B 维度下六朝青瓷表面装饰工序的条目，其器形与纹样题材归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: procedure
+    primary: true
+    scope_note: "六朝青瓷压印、刻花、堆贴、塑饰、雕镂、釉彩六法"
+hierarchy_scope_note: "六朝青瓷压印、刻花、堆贴、塑饰、雕镂、釉彩六法"
 ---
 
 ## 描述
@@ -72,11 +80,10 @@ hierarchy_scope_note: "六朝青瓷装饰六法是 B 维度下六朝青瓷表面
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 六朝青瓷装饰六法是 B 维度下六朝青瓷表面装饰工序的条目，其器形与纹样题材归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 六朝青瓷压印、刻花、堆贴、塑饰、雕镂、釉彩六法
 ## 相关知识元
 
 `terms/qing-ci.md` 记青瓷；`procedures/lunzhi-fa.md` 记轮制成形，为本条装饰前的成形工序；`procedures/diao-you.md` 记宋代磁州窑系雕釉，为剔刻类装饰的后世发展；`procedures/hua-hua.md` 记宋代磁州窑系画花。relation 未审查。

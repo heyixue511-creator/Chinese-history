@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "容闳在本册以两项具体事务出现：1863 年赴美采买“制造机器”的机器（我国直接向西方购进的第一批工业机器）、建议选派幼童出国留学。二者都是洋务的**制度与人才通道**，归 D 维度（制度）。Theme/Topic 尚未 materialize。"
+primary_theme: D.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/d1-yangwu-jungong-chuanbo.md
+    role: key_person
+    primary: true
+    scope_note: "D.1.1 主挂载：以 1863 年赴美采买“制造机器”的机器为锚点，观察局厂机器来源与采购通道；原文主语是曾国藩，容闳为执行人，幼童留美建议归 D.4 教育线索，本批不另设次挂载。"
+hierarchy_scope_note: "本条是 D.1.1 洋务军工企业的机器采购与人才通道样本；采买与留美两项均以曾国藩为主语，容闳为执行人与建议者，不能写成洋务全局的组织者。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "容闳在本册以两项具体事务出现：1863 年赴�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条锚定近代技术与人才输入的两条通道：**买设备**（1863 机器采买）与**派人**（幼童留美）。二者都属“引进—学习—模仿—自创”这一原文所称的必由之路的制度环节，故取 D。当前只到 Dimension。
+- primary_theme: D.1（洋务企业与近代工业组织）
+- topic_memberships: D.1.1（洋务军工与造船企业），role 为 key_person，primary 为 true
+- role_in_theme: key_person
+- scope_note: 本条是 D.1.1 洋务军工企业的机器采购与人才通道样本；采买与留美两项均以曾国藩为主语，容闳为执行人与建议者，不能写成洋务全局的组织者。
 
 ## 相关知识元
 

@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "岳州窑是 B 维度下唐代青瓷窑口与匣钵装烧工艺条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "唐代青瓷；最早用匣钵与胎轻釉白的特征（单源 low）"
+hierarchy_scope_note: "唐代青瓷；最早用匣钵与胎轻釉白的特征（单源 low）"
 ---
 
 ## 描述
@@ -54,11 +62,10 @@ hierarchy_scope_note: "岳州窑是 B 维度下唐代青瓷窑口与匣钵装烧
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 记唐代青瓷窑口中的一支，核心是匣钵装烧与胎釉特征两项。匣钵是装烧窑具，属工艺；胎釉对比属产品特征。两者都可进入未来“唐代窑具与装烧效率”类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 唐代青瓷；最早用匣钵与胎轻釉白的特征（单源 low）
 ## 相关知识元
 
 `places/yue-kiln.md` 为越窑条目（本条以越窑为对照系）；`places/ou-kiln.md`、`places/wuzhou-kiln.md` 为同组瓯窑与婺州窑条目；`publications/chajing.md` 记陆羽《茶经》茶碗品第中“岳州次”的位置，与本条的工艺描述不是同一类材料。`procedures/` 下尚无匣钵制作或装烧工序条目，属研究债务。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

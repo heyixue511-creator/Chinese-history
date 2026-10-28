@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "齐家文化是 B 维度下黄河上游新石器时代文化的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "齐家文化是 B.5.2 的分区框架，承担黄河上游彩陶衰落与双耳罐、马鞍口罐的器形。"
+hierarchy_scope_note: "齐家文化是 B.5.2 的分区框架，承担黄河上游彩陶衰落与双耳罐、马鞍口罐的器形。"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "齐家文化是 B 维度下黄河上游新石器时代文
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 齐家文化是 B 维度下黄河上游新石器时代文化的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 齐家文化是 B.5.2 的分区框架，承担黄河上游彩陶衰落与双耳罐、马鞍口罐的器形。
 ## 相关知识元
 
 与马家窑文化、新石器时代同属史前文化谱系。relation 未审查。

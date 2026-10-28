@@ -29,7 +29,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -41,7 +41,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本 KU 是 D 维度下商业美术设计社团的锚点，其商业美术与广告设计内容归 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-tuananguan-shetuan-zhiyehua.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.3 首批：以 1934 年上海成立、500 余名会员、同年展览与两辑工商业美术作品选集为锚点；商业美术内容归 C 次维度。"
+hierarchy_scope_note: "中国商业美术作家协会是 D.4.3 的商业美术社团样本；以会员规模、展览与出版观察职业组织化，商业美术内容归 C 次维度。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -66,10 +74,10 @@ hierarchy_scope_note: "本 KU 是 D 维度下商业美术设计社团的锚点�
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下商业美术设计社团的锚点，其商业美术与广告设计内容归 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.3 图案馆、商业美术社团与职业化（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本条是 D.4.3 的商业美术社团样本；以 1934 年上海成立、500 余名会员、同年展览与两辑工商业美术作品选集为锚点。商业美术与广告设计内容归 C 次维度；发起人、章程与终止时间缺失。
 
 ## 相关知识元
 

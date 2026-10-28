@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "绍兴富盛战国窑址是 B 维度下战国原始青瓷与印纹硬陶同窑共烧、托珠叠烧的窑业落点。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: evidence_event
+    primary: true
+    scope_note: "五窑叠压、原始青瓷与印纹硬陶同烧、托珠叠烧痕迹"
+hierarchy_scope_note: "五窑叠压、原始青瓷与印纹硬陶同烧、托珠叠烧痕迹"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "绍兴富盛战国窑址是 B 维度下战国原始青瓷
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国原始青瓷的**窑址端**证据，与屯溪、鳖墩等**墓葬端**材料构成生产与消费的两端。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 五窑叠压、原始青瓷与印纹硬陶同烧、托珠叠烧痕迹
 ## 相关知识元
 
 `terms/proto-porcelain.md` 记原始瓷器界定；`places/tunxi-xizhou-tomb.md`、`places/biandun-xizhou-tomb.md` 为西周原始瓷器的墓葬端材料；`terms/longyao.md` 记龙窑形制与烧成温度，本条不重复窑炉类型；`places/yue-kiln.md`、`places/shangyu-yaozhi.md` 为东汉以后浙江窑业的后续。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

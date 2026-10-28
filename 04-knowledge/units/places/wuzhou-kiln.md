@@ -35,17 +35,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "婺州窑是 B 维度下六朝至唐青瓷窑口条目；化妆土的工艺定义归 terms/huazhuangtu.md。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "金衢地区青瓷；以化妆土应对胎色泛红"
+hierarchy_scope_note: "金衢地区青瓷；以化妆土应对胎色泛红"
 ---
 
 ## 描述
@@ -68,11 +76,10 @@ hierarchy_scope_note: "婺州窑是 B 维度下六朝至唐青瓷窑口条目；
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六朝至唐青瓷窑系中的一支：六朝段给地域分工与化妆土工艺，唐代段给胎釉对比与品第线索。它与越窑、瓯窑、德清窑构成六朝四系统，与越窑、瓯窑、岳州窑构成唐代并列，可供未来“青瓷窑系的地域分工”类 Topic 使用。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 金衢地区青瓷；以化妆土应对胎色泛红
 ## 相关知识元
 
 `places/yue-kiln.md` 记越窑的贡瓷与秘色制度，并引李立新的南方青瓷四系统；`places/ou-kiln.md` 为同组瓯窑条目；`places/deqing-yao.md` 为六朝四系统中的德清窑；`places/yuezhou-kiln.md` 为唐代并列中的岳州窑条目；`terms/huazhuangtu.md` 记化妆土的工艺定义与婺窑施用的另一处记载；`publications/chajing.md` 记陆羽《茶经》对婺州窑茶碗的品第（越州上、婺州次、岳州次），与本条的胎釉描述不是同一类材料。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

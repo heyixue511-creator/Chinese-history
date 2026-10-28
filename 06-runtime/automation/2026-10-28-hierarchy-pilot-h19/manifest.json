@@ -1,0 +1,90 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h19",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 E 维度新建第六个 Theme E.6「近代女装与身体改装」与 E.6.1–E.6.2 两个 Topic，把旗袍、短袄套裙、时世装、天足运动 4 个 KU 按“衣—身”两分集中挂载。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.9",
+    "baseline_themes": 17,
+    "baseline_topics": 43,
+    "baseline_topic_memberships": 211,
+    "baseline_complete_assignments": 207,
+    "baseline_incomplete_assignments": 2363,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6416,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 418,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1411
+  },
+  "result": {
+    "hierarchy_version": "v1.10",
+    "themes": 18,
+    "topics": 45,
+    "topic_memberships": 215,
+    "complete_assignments": 211,
+    "incomplete_assignments": 2359,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6424,
+    "relation_types": "3/67",
+    "member_of_relations": 426,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1408,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/e6-jindai-nvzhuang-yu-shenti-gaizhuang.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/e6-nvzhuang-jiancai-yu-mingming.md",
+      "04-knowledge/structure/topics/e6-shenti-gaizhuang-tianzu-yundong.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 4,
+    "changed_units": 4,
+    "total_mounted_units": 211,
+    "new_topic_memberships": 4,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 12,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2359",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1408",
+    "Qipao's ethnic origin and starting point remain two coexisting accounts (Manchu robe lineage vs. modern-era定型); the Qing Manchu-Han interaction has two accounts (mutual imitation vs. loose robe absorbing Han dress); the batch adjudicates neither",
+    "Qipao's 'modern fitted form' has no pattern, dimensions, slit height, fabric or year; the 1929 blue six-button qipao as women's ceremonial dress appears in one volume only, with no regulation source",
+    "Zhao Nong records film-star influence plus high heels and permed hair, with no star names, films or years, and no statement of causation",
+    "Short jacket with skirt: one line only (early Republic, influenced by Japanese schoolgirl uniforms, called 'civilized new dress', worn by female students and teachers); no cut details, no diffusion",
+    "Shishi zhuang: one line only (popular from 1912, jacket and trousers, called 'Modern Dress'); no pattern, fabric, namer or distribution",
+    "Natural-foot movement: one line only, confidence low; no organization, charter, timetable, leadership, regional variation or participation figures",
+    "Whether 'civilized new dress' and 'Modern Dress' were contemporary self-designations or the author's summary is not distinguished; neither namer nor naming occasion is recorded",
+    "Short jacket, shishi zhuang and the natural-foot movement all come from three consecutive lines of Xia Yanjing 2016; they are one continuous passage and cannot corroborate each other",
+    "No source text connects garment reform (E.6.1) with body reform (E.6.2); the juxtaposition is the batch's structural decision",
+    "E.6.2 stands on a single low-confidence line; if later material cannot supplement it, the Topic should be merged into E.6.1",
+    "Periodization events (An Lushan Rebellion, Jingkang Incident, Pangeng's move to Yin, Pangeng) remain unmounted; whether they belong to dimension E at all is still undecided",
+    "2359 KUs remain unmounted; E.6 covers only 4 KUs and E dimension has only the 4 periodization events left as candidates"
+  ],
+  "notes": "本批新建 1 个 Theme（E.6）与 2 个 Topic（E.6.1–E.6.2），挂载 4 个 KU：旗袍、短袄套裙、时世装以 term_anchor 入 E.6.1「女装的重新剪裁与命名」，天足运动以 term_anchor 入 E.6.2「身体改装」。E.6 按“衣—身”两分处理本组材料，两轴并列而不合并为“妇女解放”的单一叙事。短袄套裙、时世装与天足运动三条材料同出夏燕靖 2016 相邻三行，属同一段落的连续叙述，不能互证；天足运动 confidence 为 low 且无组织与章程，E.6.2 并显式写入“若后续材料仍只有一行应并入 E.6.1”的并入条件。旗袍的族属与起点两说、清代满汉互动两说并存，本批不裁。v1.9 归档哈希 2ef26d4ab7a572bd5aba82df4af94a319a3571a036259f5d37fca3107694c2fc 与 h18 完成态索引逐字节一致，确认归档无损。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

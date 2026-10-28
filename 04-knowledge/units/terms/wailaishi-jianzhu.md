@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: 外来式建筑是 E 维度下近代跨文化建筑输入的条目，其材料与结构属 B 维度。Theme/Topic 尚未 materialize。
+primary_theme: E.3
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md
+    role: term_anchor
+    primary: true
+    scope_note: "E.3.2 主支撑：以定义、风格来源、材料与外观、设计者、租界分布与 7 个实例名为锚点；与中西混合式建筑、中国固有式建筑构成三分法，本条目只取类型名的提出与判别，不做建筑本体分析。"
+hierarchy_scope_note: "外来式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担类型名的提出与判别；其材料、结构与立面属 B.3，汇丰银行与沙逊大厦的本体分析不在此重复。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: 外来式建筑是 E 维度下近代跨文化建筑输入�
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 外来式建筑是 E 维度下近代跨文化建筑输入的条目，其材料与结构属 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.3（跨文化形式的命名与类型化）
+- topic_memberships: topics/e3-wailai-jianzhu-leixing-yu-xianggang.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 外来式建筑是 E.3 下“中国对西方形式的命名”条目之一，承担类型名的提出与判别；其材料、结构与立面属 B.3，汇丰银行与沙逊大厦的本体分析不在此重复。
 
 ## 相关知识元
 

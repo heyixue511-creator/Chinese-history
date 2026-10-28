@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "封窑技术是 B 维度下新石器时代晚期陶器还原烧成工序的条目，其陶色与器类归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: procedure
+    primary: true
+    scope_note: "封窑技术是 B.5.1 的烧成工艺条目，承担还原焰成灰陶、控温成黑陶与窑炉火口火膛的改进。"
+hierarchy_scope_note: "封窑技术是 B.5.1 的烧成工艺条目，承担还原焰成灰陶、控温成黑陶与窑炉火口火膛的改进。"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "封窑技术是 B 维度下新石器时代晚期陶器还
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 封窑技术是 B 维度下新石器时代晚期陶器还原烧成工序的条目，其陶色与器类归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 封窑技术是 B.5.1 的烧成工艺条目，承担还原焰成灰陶、控温成黑陶与窑炉火口火膛的改进。
 ## 相关知识元
 
 `procedures/lunzhi-fa.md` 记同一段落中的轮制成形与黑陶器形效果；`procedures/zhitao.md` 记制陶的一般工序；`procedures/ni-tiao-panzhu.md` 记泥条盘筑；`terms/danke-heitao.md` 记蛋壳黑陶，`terms/longshan-culture.md` 记龙山文化。relation 未审查。

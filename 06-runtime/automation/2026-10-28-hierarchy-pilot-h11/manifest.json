@@ -1,0 +1,86 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h11",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 D.5 下新建 D.5.4「解放区工艺生产政策与报道」，把大生产运动、《解放日报》与高阳 3 个知识元挂入政策动员、报刊报道与地方实践三层；同批把建华瓷厂补入既有 B.4.2，补足细瓷与色釉品种。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.1",
+    "baseline_themes": 11,
+    "baseline_topics": 26,
+    "baseline_topic_memberships": 133,
+    "baseline_complete_assignments": 129,
+    "baseline_incomplete_assignments": 2441,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6260,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 262,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_isolated_units": 1459
+  },
+  "result": {
+    "hierarchy_version": "v1.2",
+    "themes": 11,
+    "topics": 27,
+    "topic_memberships": 137,
+    "complete_assignments": 133,
+    "incomplete_assignments": 2437,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6268,
+    "relation_types": "3/67",
+    "member_of_relations": 270,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "55/65",
+    "isolated_units": 1456,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b4-chuantong-gongyi-jindai-shengchan-zhuanxing.md",
+      "04-knowledge/structure/themes/d5-chuantong-gongyi-zuzhi-zhansai-zhengce.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/d5-jiefangqu-gongyi-shengchan-zhengce.md",
+      "04-knowledge/structure/topics/b4-jiefangqu-riyong-gongyi-shengchan.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 4,
+    "changed_units": 4,
+    "total_mounted_units": 133,
+    "new_topic_memberships": 4,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0
+  },
+  "changed_files": 13,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2437",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1456",
+    "The Great Production Movement KU lacks a formal start/end year, policy texts and craft output targets; the slogans are not linked to specific factories or output",
+    "The three Jiefang Ribao textile editorials are registered only by title and date; the originals, authors, page placement and readership response are not checked",
+    "Gaoyang rests on the folk-style phrase 'every household spins, every village weaves'; weaver count, loom count, cloth output and marketing channels are missing",
+    "Jianhua Porcelain Factory rests on one passage in Tian Zibing 2010; founding year, affiliation, founder, capital, workers, kilns, output and end date are missing, as are paste/glaze recipes and firing temperatures",
+    "Cui Laizhi (flower-cloth design, loom conversion) remains unmounted; neither B.2.1 nor B.4.2 fits fully",
+    "Themes for dimension E remain unmaterialized; Panama-Pacific Exposition, 1851 Great Exhibition, foreign-style architecture terms and qipao stay as cross-theme debts",
+    "Dimension A still has no Theme; 2437 KUs remain unmounted"
+  ],
+  "notes": "本批新建 1 个 Topic（D.5.4），挂载 4 个 KU：大生产运动、解放日报与高阳以 D.5 为主 Theme 挂入 D.5.4，建华瓷厂以 B.4 为主 Theme 挂入既有 B.4.2。D.5.4 与 B.4.2 按“政策／报道／地方实践”与“原料／工具／窑炉／釉色”分工，桥儿沟陶瓷厂技术面不重复挂载，其 1944 年《解放日报》报道作为 D.5.4 宣传材料交叉引用。未新增 KU、claim、candidate 或来源字节，未改写 03基础书籍-md文档/ 与 02-sources/，未执行 commit 或 push。"
+}

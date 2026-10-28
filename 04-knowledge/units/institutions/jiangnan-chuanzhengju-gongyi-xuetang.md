@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "江南船政局工艺学堂是 D 维度下近代工艺教育机构的条目，其造船与工艺技术背景归 B；当前只到 Dimension。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-xuetang-tuhua-shougong-jiaoyu.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.1 首批：以 1888 年开办与江南船政局工艺学堂为锚点；造船与工艺技术背景归 B，教育制度归 D；江南船政局所指待核。"
+hierarchy_scope_note: "江南船政局工艺学堂是 D.4.1 的洋务工艺教育样本；其造船与工艺技术背景归 B 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "江南船政局工艺学堂是 D 维度下近代工艺教
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是“设计教育起点”的机构条目，可与福州马尾船政学堂绘事院、两江师范学堂、湖北工艺学堂并置，观察洋务时期工艺教育的出现序列；同时是“江南系”机构名称歧义的样本。当前只到 Dimension。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.1 学堂图画手工与工艺教育（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本条是 D.4.1 的洋务工艺教育样本；以 1888 年开办为锚点。造船与工艺技术归 B 次维度；“江南船政局”所指机构待核，不与江南制造总局等同。
 
 ## 相关知识元
 

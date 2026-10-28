@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - C
-hierarchy_scope_note: "德清窑是 B 维度下六朝青瓷与黑瓷兼烧的窑口条目；黑釉含铁量与呈色的对应关系归 terms/black-porcelain.md。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "六朝四大瓷窑系统之一；青瓷兼烧黑瓷的技术意义"
+hierarchy_scope_note: "六朝四大瓷窑系统之一；青瓷兼烧黑瓷的技术意义"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "德清窑是 B 维度下六朝青瓷与黑瓷兼烧的窑
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六朝浙江四窑系中唯一以黑瓷见称的一支，与越窑、瓯窑、婺州窑三条并置可构成“六朝浙江青瓷的地域分工”序列。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 六朝四大瓷窑系统之一；青瓷兼烧黑瓷的技术意义
 ## 相关知识元
 
 `terms/black-porcelain.md` 记黑釉的铁呈色机理、德清黑釉是否纯黑的两说与德清器形的另一套清单；`terms/huazhuangtu.md` 记婺窑用化妆土；`places/yue-kiln.md`、`places/ou-kiln.md`、`places/wuzhou-kiln.md` 为同组三窑；`places/shangyu-yaozhi.md` 记上虞汉代后期烧制黑瓷的资料与帐子山黑瓷；`terms/longyao.md` 记龙窑窑炉。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

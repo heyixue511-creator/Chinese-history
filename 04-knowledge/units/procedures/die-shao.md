@@ -35,17 +35,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "叠烧是 B 维度下陶瓷装烧工序的条目，与覆烧同属定窑窑具与装烧技术谱系。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "金代定窑砂圈叠烧与内底刮釉一圈的做法"
+hierarchy_scope_note: "金代定窑砂圈叠烧与内底刮釉一圈的做法"
 ---
 
 ## 描述
@@ -74,11 +82,10 @@ hierarchy_scope_note: "叠烧是 B 维度下陶瓷装烧工序的条目，与覆
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（装烧方法），与定窑覆烧、支圈覆烧构成装烧技术谱系；当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 金代定窑砂圈叠烧与内底刮釉一圈的做法
 ## 相关知识元
 
 `procedures/fu-shao-fa.md` 记定窑与景德镇覆烧，`procedures/zhi-quan-fu-shao.md` 记支圈覆烧，`procedures/zhiding-zhishao.md` 记支钉支烧，三者与本条同属定窑及宋金装烧技术谱系；`places/ding-kiln.md` 记定窑窑口。relation 未经审查，不写入正式 `relations`。

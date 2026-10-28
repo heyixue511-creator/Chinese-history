@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的窑具条目，记录匣钵在瓷器成型与烧制中的作用；Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "南北朝窑址出土的匣钵及其防变形、隔烟、控温作用"
+hierarchy_scope_note: "南北朝窑址出土的匣钵及其防变形、隔烟、控温作用"
 ---
 
 ## 描述
@@ -55,11 +63,10 @@ hierarchy_scope_note: B 维度下的窑具条目，记录匣钵在瓷器成型�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的窑具条目，记录匣钵在瓷器成型与烧制中的作用；Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 南北朝窑址出土的匣钵及其防变形、隔烟、控温作用
 ## 相关知识元
 
 - `terms/longyao.md` 记龙窑，匣钵使用于南北朝窑炉之中。

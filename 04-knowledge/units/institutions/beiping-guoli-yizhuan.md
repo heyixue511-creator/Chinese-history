@@ -27,7 +27,7 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
@@ -39,7 +39,15 @@ primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - C
-hierarchy_scope_note: "北平国立艺专是 D 维度下近代美术教育机构的条目，其图案系与实用美术教学归 C；当前只到 Dimension。"
+primary_theme: D.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d4-yizhuan-tuan-jiaoyu-gongshang-meishu.md
+    role: key_institution
+    primary: true
+    scope_note: "D.4.2 首批：以 1949 年以前图案系与实用美术专业为锚点；与杭州国立艺专并列“最具实力”，1950 年后改组不并入。"
+hierarchy_scope_note: "北平国立艺专是 D.4.2 的图案教育机构样本；图案系与实用美术教学归 C 次维度，教育制度归 D。secondary_themes 为空。本次为首批 Topic 挂载。"
 ---
 
 ## 描述
@@ -62,10 +70,10 @@ hierarchy_scope_note: "北平国立艺专是 D 维度下近代美术教育机构
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是民国图案教育的机构条目，与杭州国立艺专构成来源明确并列的一对，可支持“图案系—工艺美术教育”类 Topic。当前只到 Dimension。
+- primary_theme: D.4（近代设计教育、职业与机构）
+- topic_memberships: D.4.2 艺专图案教育与工商美术课程（key_institution，主挂载）
+- role_in_theme: key_institution
+- scope_note: 本条是 D.4.2 的图案教育机构样本；以 1949 年以前图案系与实用美术专业为锚点。与杭州国立艺专并列“最具实力”；创办年、课程、师资与学生数缺失，1950 年后改组不并入。
 
 ## 相关知识元
 

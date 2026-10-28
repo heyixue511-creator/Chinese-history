@@ -23,20 +23,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - A
   - B
-hierarchy_scope_note: "本条是 D 维度解放区报刊的文献条目，社论所涉纺织与陶瓷生产属 A、B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/d5-jiefangqu-gongyi-shengchan-zhengce.md
+    role: supporting_source
+    primary: true
+    scope_note: "D.5.4 主挂载：以三篇纺织社论（1945-02-14、1945-05-13、1946-10-19）与 1944-05-13 桥儿沟陶瓷厂报道为锚点，观察报刊如何参与工艺生产动员；社论与报道原文未复读，本批只登记转述层。"
+hierarchy_scope_note: "本条是 D.5.4 的宣传报道渠道样本，负责“报刊社论与工厂报道”这一层；社论所涉纺织技术归 B，史学文本属性归 A，均不改变 D 主维度。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "本条是 D 维度解放区报刊的文献条目，社论
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: A（设计史观与史学方法）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度解放区报刊的文献条目，社论所涉纺织与陶瓷生产属 A、B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.4（解放区工艺生产政策与报道），role 为 supporting_source，primary 为 true
+- role_in_theme: supporting_source
+- scope_note: 本条是 D.5.4 的宣传报道渠道样本，负责“报刊社论与工厂报道”这一层；社论所涉纺织技术归 B，史学文本属性归 A，均不改变 D 主维度。
 
 ## 相关知识元
 

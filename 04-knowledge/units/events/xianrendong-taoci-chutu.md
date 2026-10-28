@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "仙人洞陶器出土是 B 维度下中国陶器起源的时间锚点，用于说明新石器时代早期制陶的出现。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: evidence_event
+    primary: true
+    scope_note: "仙人洞陶器出土是 B.5.1 的起源证据事件，承担“最早陶器资料”的表述与年代；遗址细节另见地理条目。"
+hierarchy_scope_note: "仙人洞陶器出土是 B.5.1 的起源证据事件，承担“最早陶器资料”的表述与年代；遗址细节另见地理条目。"
 ---
 
 ## 描述
@@ -57,11 +65,10 @@ hierarchy_scope_note: "仙人洞陶器出土是 B 维度下中国陶器起源的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 仙人洞陶器出土是 B 维度下中国陶器起源的时间锚点，用于说明新石器时代早期制陶的出现。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 仙人洞陶器出土是 B.5.1 的起源证据事件，承担“最早陶器资料”的表述与年代；遗址细节另见地理条目。
 ## 相关知识元
 
 与 `works/wudaowen-caitao-pen.md` 同属新石器时代陶器证据链，但一为起源期素陶、一为马家窑型彩陶；`terms/` 下陶器工艺尚未立条。relation 未审查。

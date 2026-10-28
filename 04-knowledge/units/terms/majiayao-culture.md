@@ -61,17 +61,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "马家窑文化是 B 维度下黄河上游新石器时代晚期的彩陶文化条目；陶器纹饰与舞蹈纹盆的仪式含义牵涉 C 维度。文化分期与彩陶类型两套分类口径并存。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "马家窑文化是 B.5.2 的分区框架，承担黄河上游文化与马家窑、半山、马厂三型的划分口径。"
+hierarchy_scope_note: "马家窑文化是 B.5.2 的分区框架，承担黄河上游文化与马家窑、半山、马厂三型的划分口径。"
 ---
 
 ## 描述
@@ -125,11 +133,10 @@ hierarchy_scope_note: "马家窑文化是 B 维度下黄河上游新石器时代
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与仰韶文化、龙山文化、大汶口文化、红山文化、良渚文化同属新石器时代考古学文化序列。马家窑处在黄河上游、仰韶晚期向西发展的位置，是彩陶谱系中与半坡、庙底沟并列的地域传统。可支持未来的彩陶谱系、史前陶器装饰与原始宗教类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 马家窑文化是 B.5.2 的分区框架，承担黄河上游文化与马家窑、半山、马厂三型的划分口径。
 ## 相关知识元
 
 `terms/painted-pottery.md` 是本条最直接的上级概念条目；`terms/yangshao-culture.md` 记录"甘肃仰韶文化"的上承关系；`terms/longshan-culture.md` 在年代序列上接续齐家文化；`terms/dawenkou-culture.md` 与本条同批，均涉及彩陶类型比较。赵农所记大地湾套房与仰韶文化条目中的建筑材料可对读。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

@@ -38,17 +38,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "依山而上的窑形、分段烧成与投柴孔；汉代青瓷 1300℃"
+hierarchy_scope_note: "依山而上的窑形、分段烧成与投柴孔；汉代青瓷 1300℃"
 ---
 
 ## 描述
@@ -71,11 +79,10 @@ hierarchy_scope_note: "龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 龙窑是 B 维度下陶瓷窑炉类型的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 依山而上的窑形、分段烧成与投柴孔；汉代青瓷 1300℃
 ## 相关知识元
 
 与青瓷、柴窑同属陶瓷窑业谱系；龙窑提供高温条件，青瓷是其结果。relation 未审查。

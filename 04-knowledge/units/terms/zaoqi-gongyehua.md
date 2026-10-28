@@ -26,20 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
   - A
-hierarchy_scope_note: "本条是 E 维度下传统设计向近代转型的时期概念，其生产组织面向归 D 维度，史学分期面向归 A 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: counterexample
+topic_memberships:
+  - topic: topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md
+    role: counterexample
+    primary: true
+    scope_note: "E.4.1 的反证条目：李立新主张明代中后期已有工场手工业基础、与近代工业化无必然因果，直接反驳“西方现代设计传入前中国造物基础空白”的看法；本条不推翻 1840 年起点，只质疑其前提。"
+hierarchy_scope_note: "本条是 E.4 下“冲击论修正”的术语条目，承担对“造物基础空白”假设的反证；其生产组织面向归 D 维度、史学分期面向归 A 维度。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "本条是 E 维度下传统设计向近代转型的时期
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）、A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 E 维度下传统设计向近代转型的时期概念，其生产组织面向归 D 维度，史学分期面向归 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md（counterexample，primary）
+- role_in_theme: counterexample
+- scope_note: E.4.1 的反证条目：李立新主张明代中后期已有工场手工业基础、与近代工业化无必然因果，直接反驳“西方现代设计传入前中国造物基础空白”的看法；本条不推翻 1840 年起点，只质疑其前提。
 
 ## 相关知识元
 

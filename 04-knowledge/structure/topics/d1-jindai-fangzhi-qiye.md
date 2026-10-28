@@ -9,7 +9,7 @@ secondary_themes:
   - B.1
 status: pilot
 date: 2026-10-27
-research_question: 近代纺织企业如何以民族资本、工厂制度与实业家网络组织生产，并把机器纺织技术转化为可持续的工业经营？
+research_question: 近代纺织企业如何以民族资本、官僚资本等不同资本形态、工厂制度与实业家网络组织生产，并把机器纺织技术转化为可持续的工业经营？
 tags:
   - 近代纺织
   - 民族资本
@@ -29,20 +29,24 @@ tags:
 
 ## 范围与边界
 
-- 纳入：大生纱厂、申新纺织公司等近代纺织企业，以及张謇等实业家。
+- 纳入：大生纱厂、申新纺织公司等民族资本纺织企业；中国纺织建设公司、中国蚕丝公司等抗战胜利后官僚资本纺织企业，作为资本形态对照；张謇、张之洞等实业家与官员组织者。
 - 排除：纺织机器的具体技术构造；归 B.1.1。
 - 排除：洋务军工与造船企业；归 D.1.1。
+- 边界说明：民族资本与官僚资本只作对照项，不把两者写成同一资本形态，也不据此排“进步／落后”序列；张之洞的设计教育主挂载在 D.4.1，本 Topic 只取其 1892 年湖北织布纺纱官局组织者身份。
 
 ## 支撑材料
 
 - [大生纱厂](../../units/institutions/dasheng-shachang.md) — key_institution
 - [申新纺织公司](../../units/institutions/shenxin-fangzhi-gongsi.md) — key_institution
+- [中国纺织建设公司](../../units/institutions/zhongguo-fangzhi-jianshe-gongsi.md) — key_institution（官僚资本对照）
+- [中国蚕丝公司](../../units/institutions/zhongguo-cansi-gongsi.md) — key_institution（官僚资本对照）
 - [张謇](../../units/persons/zhang-jian.md) — key_person
+- [张之洞](../../units/persons/zhang-zhidong.md) — key_person（次挂载，主挂载 D.4.1）
 
 ## 支撑结构
 
 - 理论支撑：以“资本—工厂制度—地方网络”三层分析民族资本纺织企业，避免只用“实业救国”单线解释。
-- 实证/材料支撑：两所纺织企业 KU 覆盖不同创办阶段与不同资本形态；一位实业家 KU 提供组织者与地方建设视角。
+- 实证/材料支撑：四所纺织企业 KU 覆盖民族资本（大生、申新）与官僚资本（中国纺织建设公司、中国蚕丝公司）两种形态；两位人物 KU 提供实业家与官员组织者视角（张謇主挂载、张之洞次挂载）。
 - 文献支撑：夏燕靖 2009/2016 的民国工业章节、高丰 2004 的近代设计章、李立新 2011 的近代困境章；具体行号见各 KU 的 `sources`。
 
 ## 未解决问题

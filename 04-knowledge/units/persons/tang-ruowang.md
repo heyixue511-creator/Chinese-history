@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "汤若望是 E 维度下清初西学东渐传教士的条目；其可能涉及的技术知识归 B 维度观察。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/e2-chuanjiaoshi-yu-xixue-jishu.md
+    role: key_person
+    primary: true
+    scope_note: "E.2.3 主挂载：仅以赵农绪论一句并列提名、说明康熙时期欧洲文明经传教士进入中国为锚点；国籍、生卒、在华活动与著作均未载，只保留最低证据层。"
+hierarchy_scope_note: "本条是 E.2.3 的最低证据层样本，承担‘传教士作为西学传入载体被提及’的线索；其可能涉及的技术知识归 B 次维度。"
 ---
 
 ## 描述
@@ -53,10 +61,10 @@ hierarchy_scope_note: "汤若望是 E 维度下清初西学东渐传教士的条
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 汤若望是 E 维度下清初西学东渐传教士的条目；其可能涉及的技术知识归 B 维度观察。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-chuanjiaoshi-yu-xixue-jishu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 本条是 E.2.3 的最低证据层样本，承担“传教士作为西学传入载体被提及”的线索；其可能涉及的技术知识归 B 次维度。
 
 ## 相关知识元
 

@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "佛教传入是 E 维度下外来宗教艺术进入中国造物体系的节点，其造像与织物工艺归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e2-fojiao-dongchuan-yu-zaoxiang.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.2.1 主挂载：以东汉源头、魏晋六朝大盛、丝路／西南／海路三路传入说与三处东汉佛教艺术品为锚点；传入年份、传法僧人与寺院数量未载。"
+hierarchy_scope_note: "本条是 E.2.1 的传入通道证据，承担‘佛教如何以造像与织物进入中国造物体系’的线索；其造像与织物工艺归 B 次维度。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "佛教传入是 E 维度下外来宗教艺术进入中国
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 佛教传入是 E 维度下外来宗教艺术进入中国造物体系的节点，其造像与织物工艺归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-fojiao-dongchuan-yu-zaoxiang.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.2.1 的传入通道证据，承担“佛教如何以造像与织物进入中国造物体系”的线索；其造像与织物工艺归 B 次维度。
 
 ## 相关知识元
 

@@ -25,17 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "张骞出使西域是 E 维度下陆上丝绸之路开辟的节点，其贸易与市场组织属 D 维度。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.2.2 主挂载：以前 138 年与前 119 年两次出使、从长安直达中亚西亚直至地中海东岸并开辟陆上丝绸之路为锚点；随行人员、路线分段与贸易品清单未载。"
+hierarchy_scope_note: "本条是 E.2.2 的陆路通道样本，承担‘丝路开通如何为器物与技术流动提供通道’的线索；其贸易与市场组织归 D 次维度。"
 ---
 
 ## 描述
@@ -56,10 +65,10 @@ hierarchy_scope_note: "张骞出使西域是 E 维度下陆上丝绸之路开辟
 
 - primary_domain: chinese-design-history
 - primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 张骞出使西域是 E 维度下陆上丝绸之路开辟的节点，其贸易与市场组织属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.2.2 的陆路通道样本，承担“丝路开通如何为器物与技术流动提供通道”的线索；其贸易与市场组织归 D 次维度。
 
 ## 相关知识元
 

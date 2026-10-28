@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "甲午海战是 E 维度下晚清对外战争与近代化受挫的节点，其洋务制度后果归 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e4-yangwu-yundong-yu-ziqiang-shibai.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.4.3 的失败判定锚点：来源只有“军事意义的甲午海战”为洋务运动失败标志一句，缺交战方、战场、舰船、兵力与公历年份；本条只证明该判定存在，不补战史。"
+hierarchy_scope_note: "甲午海战是 E.4.3 的失败判定节点，承担“自强路径被判定失败”的军事标志；其洋务制度后果归 D 维度。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "甲午海战是 E 维度下晚清对外战争与近代化
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 甲午海战是 E 维度下晚清对外战争与近代化受挫的节点，其洋务制度后果归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-yangwu-yundong-yu-ziqiang-shibai.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.4.3 的失败判定锚点：来源只有“军事意义的甲午海战”为洋务运动失败标志一句，缺交战方、战场、舰船、兵力与公历年份；本条只证明该判定存在，不补战史。
 
 ## 相关知识元
 

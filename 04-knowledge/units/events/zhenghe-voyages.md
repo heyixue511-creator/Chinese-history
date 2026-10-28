@@ -32,17 +32,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "郑和下西洋是 E 维度下中国瓷器跨文化流通与“中国风”形成的节点，其船队与官营船厂属 D、B 维度。Theme/Topic 尚未 materialize。"
+secondary_dimensions:
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.2.2 主挂载：以 1405 年左右起七下西洋、亚非沿海诸国的瓷器热捧与明清贸易瓷第一次高峰为锚点；七次年表、船队规模与贸易数量未载。"
+hierarchy_scope_note: "本条是 E.2.2 的海路通道样本，承担‘中国瓷器如何进入亚非跨文化流通与展示体系’的线索；其船队与官营船厂归 B/D 次维度。"
 ---
 
 ## 描述
@@ -68,10 +77,10 @@ hierarchy_scope_note: "郑和下西洋是 E 维度下中国瓷器跨文化流通
 
 - primary_domain: chinese-design-history
 - primary_dimension: E
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 郑和下西洋是 E 维度下中国瓷器跨文化流通与“中国风”形成的节点，其船队与官营船厂属 D、B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.2.2 的海路通道样本，承担“中国瓷器如何进入亚非跨文化流通与展示体系”的线索；其船队与官营船厂归 B/D 次维度。
 
 ## 相关知识元
 

@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
 secondary_dimensions:
   - D
-hierarchy_scope_note: "田自秉是 A 维度下中国工艺美术史写作的人物条目；其任教机构与课程建设属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: A.1
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/a1-gongyi-meishushi-tongshi-shuxie.md
+    role: key_person
+    primary: true
+    scope_note: "A.1.1 主挂载：以田自秉的工艺美术史写作缘起、1956 年任课、1957 年后中止、三中全会后复归与 1982 年完成《中国工艺美术史》为锚点；其学院课程建设归 D 次维度。"
+hierarchy_scope_note: "本条是 A.1.1 的人物锚点，承担工艺美术通史写作者的学科史线索；其任教机构与课程建设属 D 次维度，不改变 A 主维度。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "田自秉是 A 维度下中国工艺美术史写作的人
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 田自秉是 A 维度下中国工艺美术史写作的人物条目；其任教机构与课程建设属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.1（工艺美术史通史书写），role 为 key_person，primary 为 true
+- role_in_theme: key_person
+- scope_note: 本条是 A.1.1 的人物锚点，承担工艺美术通史写作者的学科史线索；其任教机构与课程建设属 D 次维度。
 
 ## 相关知识元
 

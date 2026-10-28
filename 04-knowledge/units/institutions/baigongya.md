@@ -41,19 +41,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "百工衙是 D 维度下太平天国工艺生产组织的条目，其各衙所辖工艺归 B 维度；当前只到 Dimension。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d5-taiping-gongyi-zuzhi-zhengce.md
+    role: key_institution
+    primary: true
+    scope_note: "D.5.1 主挂载：以服用、建筑、日用品、印刷、美术五类门类及典织衙、缝衣衙、绣锦衙、结彩衙等分工为锚点；各衙所辖工艺归 B 次维度，本批不另设 B 挂载。"
+hierarchy_scope_note: "百工衙是 D.5.1 的太平天国工艺生产组织样本，观察按工业门类细分官署的分工方式；各衙所辖工艺归 B 次维度，不改变 D 主维度。"
 ---
 
 ## 描述
@@ -82,10 +90,10 @@ hierarchy_scope_note: "百工衙是 D 维度下太平天国工艺生产组织的
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度下太平天国工艺生产组织的条目，可与诸匠营、太平天国事件条并置，观察以官署门类组织手工业的分工方式。当前只到 Dimension。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.1（太平天国工艺组织与工艺政策），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是 D.5.1 的太平天国工艺生产组织样本，观察按工业门类细分官署的分工方式；各衙所辖工艺归 B 次维度，本批不另设 B 挂载。
 
 ## 相关知识元
 

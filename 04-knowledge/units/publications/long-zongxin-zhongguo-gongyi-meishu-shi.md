@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: A
-hierarchy_scope_note: "本 KU 是 A 维度下中国工艺美术通史写作的文献锚点。Theme/Topic 尚未 materialize。"
+secondary_themes: []
+primary_theme: A.1
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/a1-gongyi-meishushi-tongshi-shuxie.md
+    role: supporting_source
+    primary: true
+    scope_note: "A.1.1 主挂载：以 1985 年陕西人民出版社版的书目记录为锚点，作为田自秉本之外的另一部同期工艺美术通史；只登记书目行，不比较体例。"
+hierarchy_scope_note: "本条是 A.1.1 的书目记录，承担 1985 年两部工艺美术通史并置样本的作用；因只有参考书目一行，role 取 supporting_source，confidence 维持 low。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "本 KU 是 A 维度下中国工艺美术通史写作的�
 
 - primary_domain: chinese-design-history
 - primary_dimension: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 A 维度下中国工艺美术通史写作的文献锚点。Theme/Topic 尚未 materialize。
+- primary_theme: A.1（中国设计史书写与学科建构）
+- topic_memberships: A.1.1（工艺美术史通史书写），role 为 supporting_source，primary 为 true
+- role_in_theme: supporting_source
+- scope_note: 本条是 A.1.1 的书目记录，承担 1985 年两部工艺美术通史并置样本的作用；因只有参考书目一行，role 取 supporting_source，confidence 维持 low。
 
 ## 相关知识元
 

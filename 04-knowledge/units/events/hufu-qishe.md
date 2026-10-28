@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "胡服骑射是 E 维度下战国时期赵国引进北方游牧民族服饰的制度改革，用于说明服饰功能与跨文化采纳。Theme/Topic 尚未 materialize。"
+primary_theme: E.5
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e5-hufu-qishe-gongneng-yu-liyi.md
+    role: evidence_event
+    primary: true
+    scope_note: "胡服骑射是 E.5.1 的主事件，承担“以便用为由改制”的过程与《史记·赵世家》引文；其战役史与赵国军事史不在本条范围内。"
+hierarchy_scope_note: "胡服骑射是 E.5.1 的主事件，承担“以便用为由改制”的过程与《史记·赵世家》引文；其战役史与赵国军事史不在本条范围内。"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "胡服骑射是 E 维度下战国时期赵国引进北方
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 胡服骑射是 E 维度下战国时期赵国引进北方游牧民族服饰的制度改革，用于说明服饰功能与跨文化采纳。Theme/Topic 尚未 materialize。
+- primary_theme: E.5（服饰改制与族群身份）
+- topic_memberships: topics/e5-hufu-qishe-gongneng-yu-liyi.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.5.1 的主事件，承担“以便用为由改制”的过程与《史记·赵世家》引文；其战役史与赵国军事史不在本条范围内。
 
 ## 相关知识元
 

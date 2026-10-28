@@ -34,17 +34,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "上虞窑址是 B 维度下东汉专门瓷窑与黑瓷起源的窑业落点。三国两晋的窑址数量归 places/yue-kiln.md，窑炉形制归 terms/longyao.md，本条只记东汉一段与帐子山黑瓷。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "东汉窑址群、龙窑 1300℃ 与帐子山黑瓷的断代意义"
+hierarchy_scope_note: "东汉窑址群、龙窑 1300℃ 与帐子山黑瓷的断代意义"
 ---
 
 ## 描述
@@ -77,11 +85,10 @@ hierarchy_scope_note: "上虞窑址是 B 维度下东汉专门瓷窑与黑瓷起
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是浙江瓷业的**东汉起点**：陶瓷共烧转向专烧、黑瓷首见、五联罐等地方器形成型。它与越窑条目的三国两晋段、德清窑条目共同构成汉六朝浙江瓷业序列。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 东汉窑址群、龙窑 1300℃ 与帐子山黑瓷的断代意义
 ## 相关知识元
 
 `places/yue-kiln.md` 记越窑三国两晋窑址数量与分布；`terms/black-porcelain.md` 记黑瓷总述与德清窑；`terms/longyao.md` 记龙窑形制与烧成温度；`places/deqing-yao.md` 为德清窑条目；`places/shaoxing-fusheng-yaozhi.md` 为战国原始青瓷窑址，是本条的前段。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

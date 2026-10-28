@@ -30,20 +30,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "景德镇瓷业公司是 B 维度下近代瓷业改良的机构条目，其公司制度与陶业学堂归 D、机器制瓷与煤窑试验归 E；当前只到 Dimension。"
+primary_theme: B.4
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b4-jindai-ciye-gongsi-ciye-gailiang.md
+    role: key_institution
+    primary: true
+    scope_note: "B.4.1 主挂载：以 1910 年成立、景德镇本厂与鄱阳分厂、陶业学堂“拟用机器制瓷、试验煤窑烧炼”为锚点；公司制度与学堂归 D 次维度，机器与煤窑的跨文化技术来源归 E 次维度。"
+hierarchy_scope_note: "景德镇瓷业公司是 B.4.1 的近代瓷业公司样本，以“本厂守旧、分厂试验”的双轨制度观察机器制瓷与煤窑试验；公司制度与陶业学堂归 D、技术来源归 E，均不改变 B 主维度。"
 ---
 
 ## 描述
@@ -67,10 +75,10 @@ hierarchy_scope_note: "景德镇瓷业公司是 B 维度下近代瓷业改良的
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是近代瓷业“本厂守旧、分厂试验”的双轨机构样本，可与湖南瓷业公司、御器厂、湖南瓷业学校等条目并置，观察传统产瓷区引入机器与煤窑的制度尝试。当前只到 Dimension。
+- primary_theme: B.4（传统工艺的近代生产与转型）
+- topic_memberships: B.4.1（近代瓷业公司与瓷业改良），role 为 key_institution，primary 为 true
+- role_in_theme: key_institution
+- scope_note: 本条是近代瓷业“本厂守旧、分厂试验”的双轨机构样本，与湖南瓷业公司并置，观察传统产瓷区引入机器与煤窑的制度尝试；御器厂、湖南瓷业学校等条目只在相关知识元中并置，不并入本挂载。
 
 ## 相关知识元
 

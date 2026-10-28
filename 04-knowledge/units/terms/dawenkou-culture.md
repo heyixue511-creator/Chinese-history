@@ -60,17 +60,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "大汶口文化是 B 维度下黄河下游新石器时代中晚期、由母系向父系过渡的考古学文化条目；陶文符号牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-shiqian-taoxi-caitao-leixing.md
+    role: historical_context
+    primary: true
+    scope_note: "大汶口文化是 B.5.2 的分区框架，承担黄河下游文化与母系向父系转化的陶器材料。"
+hierarchy_scope_note: "大汶口文化是 B.5.2 的分区框架，承担黄河下游文化与母系向父系转化的陶器材料。"
 ---
 
 ## 描述
@@ -108,11 +116,10 @@ hierarchy_scope_note: "大汶口文化是 B 维度下黄河下游新石器时代
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与仰韶文化、龙山文化、良渚文化、马家窑文化、河姆渡文化构成新石器时代考古学文化的类型学序列；大汶口处在黄河下游、母系向父系转化的位置。可支持未来的史前区域文化与陶器谱系类 Topic。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 大汶口文化是 B.5.2 的分区框架，承担黄河下游文化与母系向父系转化的陶器材料。
 ## 相关知识元
 
 `terms/yangshao-culture.md`、`terms/longshan-culture.md`、`terms/hemudu-culture.md` 是同批之前的文化条目；`terms/painted-pottery.md` 与田自秉所记"大汶口文化的彩陶"直接相关；`places/banpo-site.md` 是仰韶一侧的遗址条目。良渚文化与本条有花厅墓地的器物输入关系，红山文化、马家窑文化与本条同属本批相邻条目。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

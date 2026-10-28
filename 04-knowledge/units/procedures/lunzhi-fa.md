@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "轮制法是 B 维度下新石器时代陶器成形工序的条目，其器形与纹饰归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: procedure
+    primary: true
+    scope_note: "轮制法是 B.5.1 的成形工艺条目，承担慢轮修整至快轮制陶的分期、提拉成形与器形规整的效果。"
+hierarchy_scope_note: "轮制法是 B.5.1 的成形工艺条目，承担慢轮修整至快轮制陶的分期、提拉成形与器形规整的效果。"
 ---
 
 ## 描述
@@ -68,11 +76,10 @@ hierarchy_scope_note: "轮制法是 B 维度下新石器时代陶器成形工序
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 轮制法是 B 维度下新石器时代陶器成形工序的条目，其器形与纹饰归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 轮制法是 B.5.1 的成形工艺条目，承担慢轮修整至快轮制陶的分期、提拉成形与器形规整的效果。
 ## 相关知识元
 
 `procedures/ni-tiao-panzhu.md` 记泥条盘筑法，与本条同属陶器成形工序，一为手制盘筑、一为轮制提拉；`procedures/fengyao-jishu.md` 记封窑与还原烧成，与本条所记黑陶烧成条件相接；`terms/painted-pottery.md` 与 `terms/caihui-tao.md` 记彩陶，其纹饰施加于轮制或手制陶坯之上。relation 未审查。

@@ -29,20 +29,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
   - C
-hierarchy_scope_note: "荷兰东印度公司是 E 维度下中西贸易与设计互动的机构条目，其贸易制度归 D、外销瓷装饰归 C；当前只到 Dimension。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: key_institution
+    primary: true
+    scope_note: "E.2.2 主挂载：以 1602—1682 年贩运中国青花瓷 1,600 万件以上、17 世纪每年至少 300 万件运欧与克拉克瓷得名为锚点；公司制度史与统计口径未载。"
+hierarchy_scope_note: "本条是 E.2.2 的贸易机构样本，承担‘贸易公司如何改变中国瓷器外销规模与命名’的线索；其贸易制度归 D、外销瓷装饰归 C 次维度。"
 ---
 
 ## 描述
@@ -68,10 +76,10 @@ hierarchy_scope_note: "荷兰东印度公司是 E 维度下中西贸易与设计
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）、C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 17 世纪中西贸易瓷流通的关键机构，可与克拉克瓷、外销瓷、广州十三行等条目并置，观察贸易机构如何改变器物形制与装饰。当前只到 Dimension。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 本条是 E.2.2 的贸易机构样本，承担“贸易公司如何改变中国瓷器外销规模与命名”的线索；其贸易制度归 D、外销瓷装饰归 C 次维度。
 
 ## 相关知识元
 

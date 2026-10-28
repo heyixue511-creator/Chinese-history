@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "辛亥革命是 E 维度下清末民初政治转折与近代工商业发展的分界事件。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.4.4 的体制转换事件：2016 版记政治结果与经济后果，赵农以之为《建国方略》起点的用法；与设计制度之间的中介未载。"
+hierarchy_scope_note: "辛亥革命是 E.4.4 的体制转换事件，承担“晚清之后政体改变”的一端；其民国设计教育与机构归 D.4、D.5，本条不重复。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "辛亥革命是 E 维度下清末民初政治转折与近
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 辛亥革命是 E 维度下清末民初政治转折与近代工商业发展的分界事件。Theme/Topic 尚未 materialize。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-tizhi-zhuanhuan-yu-zhishi-quxiang.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: E.4.4 的体制转换事件：2016 版记政治结果与经济后果，赵农以之为《建国方略》起点的用法；与设计制度之间的中介未载。
 
 ## 相关知识元
 

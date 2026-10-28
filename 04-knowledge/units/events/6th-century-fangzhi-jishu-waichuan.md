@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - B
-hierarchy_scope_note: "纺织印染技术外传是 E 维度下中国技术跨文化传播的节点，其工具与工艺形制归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e2-silu-hailu-yu-qiwu-liutong.md
+    role: evidence_event
+    primary: true
+    scope_note: "E.2.2 主挂载：以公元 6 世纪脚踏纺车与提花机经阿富汗、伊朗西传，工匠到中亚西亚传艺，蚕种入波斯与拜占庭，‘吴服’与‘杀红花法’‘造靛法’为锚点；工匠姓名与外传年份细目未载。"
+hierarchy_scope_note: "本条是 E.2.2 的技术外传样本，承担‘中国纺织印染技术如何随丝绸外销向外扩散’的线索；其工具与工艺形制归 B 次维度。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "纺织印染技术外传是 E 维度下中国技术跨文
 - primary_domain: chinese-design-history
 - primary_dimension: E
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 纺织印染技术外传是 E 维度下中国技术跨文化传播的节点，其工具与工艺形制归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-silu-hailu-yu-qiwu-liutong.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 本条是 E.2.2 的技术外传样本，承担“中国纺织印染技术如何随丝绸外销向外扩散”的线索；其工具与工艺形制归 B 次维度。
 
 ## 相关知识元
 

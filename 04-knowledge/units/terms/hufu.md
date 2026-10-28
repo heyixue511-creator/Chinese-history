@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: "胡服是 E 维度下跨文化服饰传播的条目。Theme/Topic 尚未 materialize。"
+primary_theme: E.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e5-hufu-qishe-gongneng-yu-liyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "胡服是 E.5.1 的形制锚点，承担“短衣长裤靴”的界定与带钩（钩络带）附件创新；其裁剪、面料与织造归 B.2，本条不重复。"
+hierarchy_scope_note: "胡服是 E.5.1 的形制锚点，承担“短衣长裤靴”的界定与带钩（钩络带）附件创新；其裁剪、面料与织造归 B.2，本条不重复。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "胡服是 E 维度下跨文化服饰传播的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 胡服是 E 维度下跨文化服饰传播的条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.5（服饰改制与族群身份）
+- topic_memberships: topics/e5-hufu-qishe-gongneng-yu-liyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: E.5.1 的形制锚点，承担“短衣长裤靴”的界定与带钩（钩络带）附件创新；其裁剪、面料与织造归 B.2，本条不重复。
 
 ## 相关知识元
 

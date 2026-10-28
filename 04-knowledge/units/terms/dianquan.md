@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下陶瓷窑具的条目，其装烧工序见 `procedures/fu-shao-fa.md`、`procedures/zhiding-zhishao.md`。Theme/Topic 尚未 materialize。
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-yaolu-yaoju-zhici-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "东汉晚期出现的环形垫圈与垫饼的优劣比较"
+hierarchy_scope_note: "东汉晚期出现的环形垫圈与垫饼的优劣比较"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下陶瓷窑具的条目，其装烧工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下陶瓷窑具的条目，其装烧工序见 `procedures/fu-shao-fa.md`、`procedures/zhiding-zhishao.md`。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-yaolu-yaoju-zhici-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 东汉晚期出现的环形垫圈与垫饼的优劣比较
 ## 相关知识元
 
 `procedures/fu-shao-fa.md` 记覆烧法中以垫圈承坯，`procedures/zhiding-zhishao.md` 记支钉支烧，`procedures/zhi-quan-fu-shao.md` 记支圈覆烧；`terms/wuda-mingyao.md` 记汝窑等五大名窑。relation 未审查。

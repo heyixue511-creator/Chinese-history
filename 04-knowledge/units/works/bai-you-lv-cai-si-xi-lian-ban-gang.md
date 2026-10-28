@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度北齐白瓷的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: representative_work
+    primary: true
+    scope_note: "北齐白瓷的莲瓣堆塑与白釉加绿彩"
+hierarchy_scope_note: "北齐白瓷的莲瓣堆塑与白釉加绿彩"
 ---
 
 ## 描述
@@ -53,12 +61,11 @@ hierarchy_scope_note: "本条是 B 维度北齐白瓷的器物锚点。Theme/Top
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度北齐白瓷的器物锚点，瓷种层面见 `terms/baici.md`。当前只到 Dimension。
-
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 北齐白瓷的莲瓣堆塑与白釉加绿彩
 ## 相关知识元
 
 `terms/baici.md` 记白瓷的胎釉技术、北齐起源与青白两大体系；`terms/qing-ci.md` 记青瓷谱系；`works/donghan-qingci-gaozu-wan.md` 为东汉青瓷高足碗，是本条所引的比较对象。relation 未审查。

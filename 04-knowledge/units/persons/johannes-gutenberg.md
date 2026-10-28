@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - C
-hierarchy_scope_note: "约翰·古腾堡是 E 维度下西方活字印刷人物的条目；其印刷技术归 C 维度观察。Theme/Topic 尚未 materialize。"
+primary_theme: E.2
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/e2-chuanjiaoshi-yu-xixue-jishu.md
+    role: boundary_case
+    primary: true
+    scope_note: "E.2.3 边界样本：以 1452—1455 年印制拉丁文《圣经》与‘西方金属活字印刷第一人’为锚点；来源只在明代活字段末尾一句提及，作为中西对照，不是传入中国的技术。"
+hierarchy_scope_note: "本条是 E.2.3 的西方对照样本，承担‘中国活字与西方金属活字的时代对照’的线索；其印刷技术归 C 次维度，不写入传入中国的事实。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "约翰·古腾堡是 E 维度下西方活字印刷人物�
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 约翰·古腾堡是 E 维度下西方活字印刷人物的条目；其印刷技术归 C 维度观察。Theme/Topic 尚未 materialize。
+- primary_theme: E.2（外来文明与造物技术的跨文化传入）
+- topic_memberships: topics/e2-chuanjiaoshi-yu-xixue-jishu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 本条是 E.2.3 的西方对照样本，承担“中国活字与西方金属活字的时代对照”的线索；其印刷技术归 C 次维度，不写入传入中国的事实。
 
 ## 相关知识元
 

@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `209`
-- Files: `1105`
-- Size: `15674412` bytes
+- Batch directories: `225`
+- Files: `1153`
+- Size: `16071991` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `1105` files
+- R1 provenance: `1153` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -31,28 +31,28 @@
 | `verify` | 0 | - |
 | `relation` | 0 | - |
 | `claim` | 51 | [summary](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md) |
-| `hierarchy` | 6 | [summary](2026-10-28-hierarchy-pilot-h6/summary.md) |
+| `hierarchy` | 22 | [summary](2026-10-28-hierarchy-pilot-h9/summary.md) |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
 | `other` | 152 | [summary](2026-10-27-quality-backlog-batch-qb1/summary.md) |
 
 ## Recent Batches (15)
 
+- [2026-10-28-hierarchy-pilot-h9](2026-10-28-hierarchy-pilot-h9/summary.md)
+- [2026-10-28-hierarchy-pilot-h8](2026-10-28-hierarchy-pilot-h8/summary.md)
+- [2026-10-28-hierarchy-pilot-h7](2026-10-28-hierarchy-pilot-h7/summary.md)
 - [2026-10-28-hierarchy-pilot-h6](2026-10-28-hierarchy-pilot-h6/summary.md)
-- [2026-10-27-quality-backlog-batch-qb1](2026-10-27-quality-backlog-batch-qb1/summary.md)
-- [2026-10-27-hierarchy-pilot-h5](2026-10-27-hierarchy-pilot-h5/summary.md)
-- [2026-10-27-hierarchy-pilot-h4](2026-10-27-hierarchy-pilot-h4/summary.md)
-- [2026-10-27-hierarchy-pilot-h3](2026-10-27-hierarchy-pilot-h3/summary.md)
-- [2026-10-27-hierarchy-pilot-h2](2026-10-27-hierarchy-pilot-h2/summary.md)
-- [2026-10-27-hierarchy-pilot-h1](2026-10-27-hierarchy-pilot-h1/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl9a](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl8a](2026-10-27-2016xiayanjing-claims-batch-cl8a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl7a](2026-10-27-2016xiayanjing-claims-batch-cl7a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl6a](2026-10-27-2016xiayanjing-claims-batch-cl6a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl5a](2026-10-27-2016xiayanjing-claims-batch-cl5a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl4a](2026-10-27-2016xiayanjing-claims-batch-cl4a/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl3e](2026-10-27-2016xiayanjing-claims-batch-cl3e/summary.md)
-- [2026-10-27-2016xiayanjing-claims-batch-cl3d](2026-10-27-2016xiayanjing-claims-batch-cl3d/summary.md)
+- [2026-10-28-hierarchy-pilot-h22](2026-10-28-hierarchy-pilot-h22/summary.md)
+- [2026-10-28-hierarchy-pilot-h21](2026-10-28-hierarchy-pilot-h21/summary.md)
+- [2026-10-28-hierarchy-pilot-h20](2026-10-28-hierarchy-pilot-h20/summary.md)
+- [2026-10-28-hierarchy-pilot-h19](2026-10-28-hierarchy-pilot-h19/summary.md)
+- [2026-10-28-hierarchy-pilot-h18](2026-10-28-hierarchy-pilot-h18/summary.md)
+- [2026-10-28-hierarchy-pilot-h17](2026-10-28-hierarchy-pilot-h17/summary.md)
+- [2026-10-28-hierarchy-pilot-h16](2026-10-28-hierarchy-pilot-h16/summary.md)
+- [2026-10-28-hierarchy-pilot-h15](2026-10-28-hierarchy-pilot-h15/summary.md)
+- [2026-10-28-hierarchy-pilot-h14](2026-10-28-hierarchy-pilot-h14/summary.md)
+- [2026-10-28-hierarchy-pilot-h13](2026-10-28-hierarchy-pilot-h13/summary.md)
+- [2026-10-28-hierarchy-pilot-h12](2026-10-28-hierarchy-pilot-h12/summary.md)
 
 ## Current State
 

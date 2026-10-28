@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "新石器时代是 B 维度下的考古分期框架，用于安放农业、聚落与制陶材料。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b5-taoci-qiyuan-chengxing-shaocheng.md
+    role: historical_context
+    primary: true
+    scope_note: "新石器时代是 B.5.1 的分期框架，只提供制陶出现的时间范围与磨制石器的时代定义。"
+hierarchy_scope_note: "新石器时代是 B.5.1 的分期框架，只提供制陶出现的时间范围与磨制石器的时代定义。"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "新石器时代是 B 维度下的考古分期框架，用
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 新石器时代是 B 维度下的考古分期框架，用于安放农业、聚落与制陶材料。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-taoci-qiyuan-chengxing-shaocheng.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 新石器时代是 B.5.1 的分期框架，只提供制陶出现的时间范围与磨制石器的时代定义。
 ## 相关知识元
 
 与旧石器时代、半地穴式建筑、带柄工具相接；磨制石器可与打制石器技术条目对读。relation 未审查。

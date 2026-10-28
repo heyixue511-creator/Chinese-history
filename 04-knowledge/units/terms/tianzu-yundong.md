@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
-hierarchy_scope_note: 天足运动是 E 维度下近代妇女解放与社会变革的条目。Theme/Topic 尚未 materialize。
+primary_theme: E.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/e6-shenti-gaizhuang-tianzu-yundong.md
+    role: term_anchor
+    primary: true
+    scope_note: "天足运动是 E.6.2 的唯一支撑，承担身体改装一轴的时间范围、思想条件与三类推动者；confidence 为 low，无组织与章程，本条只证明该运动被记入设计史叙述。"
+hierarchy_scope_note: "天足运动是 E.6.2 的唯一支撑，承担身体改装一轴的时间范围、思想条件与三类推动者；confidence 为 low，无组织与章程，本条只证明该运动被记入设计史叙述。"
 ---
 
 ## 描述
@@ -52,10 +60,10 @@ hierarchy_scope_note: 天足运动是 E 维度下近代妇女解放与社会变�
 
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 天足运动是 E 维度下近代妇女解放与社会变革的条目。Theme/Topic 尚未 materialize。
+- primary_theme: E.6（近代女装与身体改装）
+- topic_memberships: topics/e6-shenti-gaizhuang-tianzu-yundong.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: E.6.2 的唯一支撑，承担身体改装一轴的时间范围、思想条件与三类推动者；confidence 为 low，无组织与章程，本条只证明该运动被记入设计史叙述。
 
 ## 相关知识元
 

@@ -55,19 +55,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
 secondary_dimensions:
   - D
-hierarchy_scope_note: "秘色瓷是 B 维度下唐五代越窑贡瓷的品种条目，其官府督造、贡奉与外交用途属 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.6
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b6-youtao-dao-ci-zaoqi-ciqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "唐五代越窑高等级青瓷；法门寺确认与件数、朝代分歧"
+hierarchy_scope_note: "唐五代越窑高等级青瓷；法门寺确认与件数、朝代分歧"
 ---
 
 ## 描述
@@ -101,12 +109,10 @@ hierarchy_scope_note: "秘色瓷是 B 维度下唐五代越窑贡瓷的品种条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是唐五代越窑贡瓷的核心条目，既涉工艺（支钉撑烧、釉色），也涉制度（官府督造、贡奉、外交贸易）。可支持未来的贡瓷制度与越窑系青瓷类 Topic。当前只到 Dimension。
-
+- primary_theme: B.6（瓷器工艺与窑业传统）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 唐五代越窑高等级青瓷；法门寺确认与件数、朝代分歧
 ## 相关知识元
 
 同批写回的斗彩、釉里红两条同属瓷器线索；`places/yue-kiln.md`（越窑）与 `places/ru-kiln.md`（汝窑）在来源比较中直接出现；`terms/proto-porcelain.md` 属青瓷前史。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

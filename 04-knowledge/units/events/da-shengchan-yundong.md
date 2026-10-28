@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
 secondary_dimensions:
   - B
-hierarchy_scope_note: "大生产运动是 D 维度下解放区经济自给与生产组织动员的节点，其染织、陶瓷等工艺兴起归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: D.5
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/d5-jiefangqu-gongyi-shengchan-zhengce.md
+    role: historical_context
+    primary: true
+    scope_note: "D.5.4 主挂载：以 1941–1942 年“发展生产，保障供给”“自己动手、丰衣足食”与染织、陶瓷、玻璃、木工、编织、装潢工艺兴起为锚点；具体工厂技术归 B.4.2，本条只作政策与动员背景。"
+hierarchy_scope_note: "本条是 D.5.4 解放区工艺生产政策的运动本体，负责“方针—动员—工艺门类兴起”的政策层；具体工厂与产品归 B.4.2，报道渠道由同一 Topic 的《解放日报》条承担。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "大生产运动是 D 维度下解放区经济自给与生
 - primary_domain: chinese-design-history
 - primary_dimension: D
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 大生产运动是 D 维度下解放区经济自给与生产组织动员的节点，其染织、陶瓷等工艺兴起归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: D.5（传统工艺的近代组织、展赛与政策）
+- topic_memberships: D.5.4（解放区工艺生产政策与报道），role 为 historical_context，primary 为 true
+- role_in_theme: historical_context
+- scope_note: 本条是 D.5.4 解放区工艺生产政策的运动本体，负责“方针—动员—工艺门类兴起”的政策层；具体工厂与产品归 B.4.2，报道渠道由同一 Topic 的《解放日报》条承担。
 
 ## 相关知识元
 

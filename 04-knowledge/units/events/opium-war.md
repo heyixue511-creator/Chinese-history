@@ -56,19 +56,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: E
 secondary_dimensions:
   - D
-hierarchy_scope_note: "鸦片战争是 E 维度下中国设计现代化的分界事件，同时通过通商口岸、海关与官办企业构成 D 维度的制度起点。Theme/Topic 尚未 materialize。"
+primary_theme: E.4
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md
+    role: evidence_event
+    primary: true
+    scope_note: "鸦片战争是 E.4.1 的主支撑：五册均以 1840 年为近代史／近代设计史开端；与早期工业化构成“起点设定／冲击论修正”的对照，不裁 1840 与 1842 的年份异文。"
+hierarchy_scope_note: "鸦片战争是 E.4 下“冲击与分期”的起点事件，承担六册共用的断代锚点；其通商口岸、海关与官办企业面向归 D 维度，本条不重复制度史。"
 ---
 
 ## 描述
@@ -109,10 +117,10 @@ hierarchy_scope_note: "鸦片战争是 E 维度下中国设计现代化的分界
 - primary_domain: chinese-design-history
 - primary_dimension: E（现代性与跨文化互动）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中“传统设计—近代设计”断代的总锚点，向上连接清代工艺的总结，向下分出洋务企业（福建船政局等）、近代纺织与瓷业转型、南洋劝业会等条目。可支持未来的“近代设计与外来冲击”类 Topic。当前只到 Dimension。
+- primary_theme: E.4（晚清冲击与自强路径）
+- topic_memberships: topics/e4-chongji-yu-fenqi-yapian-zhanzheng.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 鸦片战争是 E.4.1 的主支撑：五册均以 1840 年为近代史／近代设计史开端；与早期工业化构成“起点设定／冲击论修正”的对照，不裁 1840 与 1842 的年份异文。
 
 ## 相关知识元
 
