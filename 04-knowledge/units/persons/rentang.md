@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: key_person
+    primary: true
+    scope_note: "任塘是 B.5.4 唯一的具名琉璃工匠：元至大元年汾阳琉璃待诏，故宫藏其刻铭琉璃香炉，炉身浮雕牡丹、莲花、龙纹；琉璃待诏为官府琉璃工匠职名，所属机构与品秩未载"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 B 维度元代琉璃工匠的人物锚点，琉璃待诏的官府身份属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "任塘是 B.5.4 唯一的具名琉璃工匠：元至大元年汾阳琉璃待诏，故宫藏其刻铭琉璃香炉，炉身浮雕牡丹、莲花、龙纹；琉璃待诏为官府琉璃工匠职名，所属机构与品秩未载"
 ---
 
 ## 描述
@@ -57,12 +65,10 @@ hierarchy_scope_note: "本条是 B 维度元代琉璃工匠的人物锚点，琉
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代琉璃工匠的人物锚点，琉璃待诏的官府身份属 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 任塘是 B.5.4 唯一的具名琉璃工匠：元至大元年汾阳琉璃待诏，故宫藏其刻铭琉璃香炉，炉身浮雕牡丹、莲花、龙纹；琉璃待诏为官府琉璃工匠职名，所属机构与品秩未载
 ## 相关知识元
 
 `terms/liuli.md` 记元代琉璃与山西产地；`works/sancai-longfeng-liuliyou-xianglu.md` 同批记同段元大都出土香炉，来源未说与任塘作品的关系；`places/yuan-dadu.md` 记元大都。relation 未审查。

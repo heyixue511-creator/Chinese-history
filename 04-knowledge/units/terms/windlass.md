@@ -1,4 +1,5 @@
 ---
+
 title: 辘轳（Windlass）
 name_en: Windlass
 type: term
@@ -24,17 +25,29 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 辘轳是 B 维度下井上提水与升降装置的条目，其滑轮原理与商代矿冶实物见来源同段。Theme/Topic 尚未 materialize。
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取井口轮轴缠绕的省力原理与饮水、灌溉、吊筐三用；大冶铜绿山两件战国至西汉辘轳的形制无载。"
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: term_anchor
+    primary: false
+    scope_note: "次要挂载，主归属仍在 B.12.2：辘轳以轮轴缠绕省力，与桔槔同属井上装置而原理不同；大冶铜绿山两件战国至西汉实物只给件数，形制未载。"
+hierarchy_scope_note: "辘轳是 B 维度下井上提水与升降装置的条目，其滑轮原理与商代矿冶实物见来源同段。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。另次挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -67,10 +80,10 @@ hierarchy_scope_note: 辘轳是 B 维度下井上提水与升降装置的条目�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 辘轳是 B 维度下井上提水与升降装置的条目，向上可归入生产工具与机械装置，向下关联矿井、灌溉与饮水作业；来源未把它列入独立分类，本条依其功能立目。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（term_anchor，primary）、topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（term_anchor，secondary）
+- role_in_theme: term_anchor
+- scope_note: 只取井口轮轴缠绕的省力原理与饮水、灌溉、吊筐三用；大冶铜绿山两件战国至西汉辘轳的形制无载。
 
 ## 相关知识元
 

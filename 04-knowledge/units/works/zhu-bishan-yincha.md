@@ -22,17 +22,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度元代金银器的器物锚点，材料为正文一段实测记录加图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取朱碧山银槎的槎形、老者、15.2×19.8 厘米、至正乙酉年款与七言诗；工匠谱系与铸造錾刻工序无载，文学典故归 C。"
+hierarchy_scope_note: "本条是 B 维度元代金银器的器物锚点，材料为正文一段实测记录加图注一行。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -54,11 +62,10 @@ hierarchy_scope_note: "本条是 B 维度元代金银器的器物锚点，材料
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代金银器的器物锚点，材料为正文一段实测记录加图注一行。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取朱碧山银槎的槎形、老者、15.2×19.8 厘米、至正乙酉年款与七言诗；工匠谱系与铸造錾刻工序无载，文学典故归 C。
 ## 相关知识元
 
 同册所记元代金属工艺另有银镜架（L3877，图8-29，1964 年苏州盘门外元末张士诚父母合葬墓出土，现藏苏州博物馆），本批未立条；本条不构成关系断言。

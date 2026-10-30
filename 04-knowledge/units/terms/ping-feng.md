@@ -38,17 +38,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "屏风是 B 维度下家具形制的条目：隔档、挡风与室内空间分割的形制演变在此汇合。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取扆与黼扆、屏其风也、床后置屏、六种形态与马王堆两件漆屏风的形制；彩绘与铜构件镶嵌只作器物描述，漆器髹饰归 B.11、织物屏风归 B.2，尺寸无载。"
+hierarchy_scope_note: "屏风是 B 维度下家具形制的条目：隔档、挡风与室内空间分割的形制演变在此汇合。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -108,10 +116,10 @@ hierarchy_scope_note: "屏风是 B 维度下家具形制的条目：隔档、挡
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 屏风是 B 维度下家具形制的条目：隔档、挡风与室内空间分割的形制演变在此汇合。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取扆与黼扆、屏其风也、床后置屏、六种形态与马王堆两件漆屏风的形制；彩绘与铜构件镶嵌只作器物描述，漆器髹饰归 B.11、织物屏风归 B.2，尺寸无载。
 
 ## 相关知识元
 

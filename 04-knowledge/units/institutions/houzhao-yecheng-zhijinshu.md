@@ -32,19 +32,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "后赵邺城织锦署是《邺中记》所记的十六国官营织锦机构，留十六种锦名与六色绨；本 Topic 取其锦名清单与「工巧百数」，与东晋锦署同名异实，不合并。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "后赵邺城织锦署是 D 维度下十六国官营织锦机构的条目，其织锦品种、纹样与色彩归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "后赵邺城织锦署是《邺中记》所记的十六国官营织锦机构，留十六种锦名与六色绨；本 Topic 取其锦名清单与「工巧百数」，与东晋锦署同名异实，不合并。"
 ---
 
 ## 描述
@@ -68,12 +76,10 @@ hierarchy_scope_note: "后赵邺城织锦署是 D 维度下十六国官营织锦
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是十六国后赵官营织锦机构的条目，可与东晋锦署、北朝司染署、隋唐织染署并置，观察政权更迭中的官营织造与品种谱系。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 后赵邺城织锦署是《邺中记》所记的十六国官营织锦机构，留十六种锦名与六色绨；本 Topic 取其锦名清单与「工巧百数」，与东晋锦署同名异实，不合并。
 ## 相关知识元
 
 `institutions/jinshu.md` 记东晋锦署，并已把本条所据的后赵织锦署作为同名异实对照；`institutions/lingjinyuan.md` 记宋辽金元绫锦院；`institutions/zhiranshu.md` 记隋唐织染署。来源未在后赵织锦署与上述机构之间建立沿革关系，本条不作合并。relation 未审查，不写入正式 `relations`。

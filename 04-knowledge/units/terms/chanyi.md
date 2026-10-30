@@ -23,19 +23,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取禅衣的定义一句与「普通人多是短衣长裤」的背景；不据素纱禅衣的实测数据回填本条。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 禅衣是 B 维度下汉代衣制的条目，其服用身份与礼制场合属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "禅衣是 B 维度下汉代衣制的条目，其服用身份与礼制场合属 D 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -53,10 +62,10 @@ hierarchy_scope_note: 禅衣是 B 维度下汉代衣制的条目，其服用身�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 禅衣是 B 维度下汉代衣制的条目，其服用身份与礼制场合属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取禅衣的定义一句与「普通人多是短衣长裤」的背景；不据素纱禅衣的实测数据回填本条。
 
 ## 相关知识元
 

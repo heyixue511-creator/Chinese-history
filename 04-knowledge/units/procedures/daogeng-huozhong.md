@@ -1,4 +1,5 @@
 ---
+
 title: 刀耕火种（Slash-and-Burn Cultivation）
 name_en: Slash-and-Burn Cultivation
 type: procedure
@@ -26,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "刀耕火种是 B 维度下新石器时代耕作工序的条目，其农具类型与器形归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: procedure
+    primary: true
+    scope_note: "只取砍伐烧荒与木棒点孔种植的工序及前后两期耕作方式；火候、休耕年限与作物种类无载。"
+hierarchy_scope_note: "刀耕火种是 B 维度下新石器时代耕作工序的条目，其农具类型与器形归 B 维度。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "刀耕火种是 B 维度下新石器时代耕作工序的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 刀耕火种是 B 维度下新石器时代耕作工序的条目，其农具类型与器形归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取砍伐烧荒与木棒点孔种植的工序及前后两期耕作方式；火候、休耕年限与作物种类无载。
 
 ## 相关知识元
 

@@ -49,19 +49,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "锦署是晋室南渡后在江南所设的织锦官署，技术力量来自刘裕灭后秦后迁至关中的织锦工匠；本 Topic 取其为六册唯一说明官营织造工匠由来的记载，地点不据后世沿革补入建康。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "锦署是 D 维度下东晋官营织造的机构起点，其设置以工匠迁徙为手段，直接改变 B 维度江南织锦的技术构成。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "锦署是晋室南渡后在江南所设的织锦官署，技术力量来自刘裕灭后秦后迁至关中的织锦工匠；本 Topic 取其为六册唯一说明官营织造工匠由来的记载，地点不据后世沿革补入建康。"
 ---
 
 ## 描述
@@ -86,12 +94,10 @@ hierarchy_scope_note: "锦署是 D 维度下东晋官营织造的机构起点，
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“以政权手段迁移工匠、重建官营生产”的最早样本之一，与唐织染署、清江宁织造局构成官营纺织机构序列的三个时段。可支持未来的官营织造与工匠流动类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 锦署是晋室南渡后在江南所设的织锦官署，技术力量来自刘裕灭后秦后迁至关中的织锦工匠；本 Topic 取其为六册唯一说明官营织造工匠由来的记载，地点不据后世沿革补入建康。
 ## 相关知识元
 
 `institutions/zhiran-shu.md`、`institutions/jiangning-zhizaoju.md` 为同一官营纺织序列的后世形态；`persons/ma-jun.md` 所记提花绫机改进是本条的技术前提，来源中紧随其后。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

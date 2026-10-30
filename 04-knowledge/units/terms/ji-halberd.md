@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 戟是 B 维度下商周至战国戈矛复合兵器的条目，其贵族使用与仪仗用途见来源论述。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取戈矛复合、蒿城最早青铜戟、西周合铸、燕下都 12 件铁戟与卜形戟；车戟长度与酋矛对照另见 terms/mao，铁戟锻造归后续铁器 Topic。"
+hierarchy_scope_note: 戟是 B 维度下商周至战国戈矛复合兵器的条目，其贵族使用与仪仗用途见来源论述。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -67,11 +75,10 @@ hierarchy_scope_note: 戟是 B 维度下商周至战国戈矛复合兵器的条�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 戟是 B 维度下商周至战国戈矛复合兵器的条目，其贵族使用与仪仗用途见来源论述；车戟长度与酋矛对照另见 `terms/mao.md`。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取戈矛复合、蒿城最早青铜戟、西周合铸、燕下都 12 件铁戟与卜形戟；车戟长度与酋矛对照另见 terms/mao，铁戟锻造归后续铁器 Topic。
 ## 相关知识元
 
 `terms/ge-dagger-axe.md` 记戈；`terms/mao.md` 记矛与酋矛／夷矛；`terms/shu-staff.md` 记殳；`terms/yue-battle-axe.md` 记钺；`terms/lubu.md` 记卤薄中的戟；`terms/liuqi.md` 记戈戟之齐；`terms/war-chariot.md` 记车战编制与战车形制。relation 未审查，不写入正式 `relations`。

@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 八音是 B 维度下西周乐器材料分类的条目，其官制背景见来源同段。Theme/Topic 尚未 materialize。
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取八音八类材料名、周代约 70 种与《诗经》29 种两个总数、编磬编钟与琴的重心判断；大乐司一句只作背景，官制归 D。"
+hierarchy_scope_note: "八音是 B 维度下西周乐器材料分类的条目，其官制背景见来源同段。已挂载 B.10.1（八音与乐律：材质分类、律制与乐学文献）。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: 八音是 B 维度下西周乐器材料分类的条目，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 八音是 B 维度下西周乐器材料分类的条目，其官制背景见来源同段。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取八音八类材料名、周代约 70 种与《诗经》29 种两个总数、编磬编钟与琴的重心判断；大乐司一句只作背景，官制归 D。
 
 ## 相关知识元
 

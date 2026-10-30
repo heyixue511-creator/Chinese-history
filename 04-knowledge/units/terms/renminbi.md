@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b13-huobi-jiaochao-dao-renminbi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取 1948 年 12 月首发、五套、元角分十进位、铸币与纸币两种形式与防伪措施；各套年份、设计者与印钞单位无载。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "人民币是 B 维度下现代货币体系的术语条目；其发行制度与国家经济标志属性属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "人民币是 B 维度下现代货币体系的术语条目；其发行制度与国家经济标志属性属 D 维度。已挂载 B.13.1（货币与度量衡：交换媒介与计量标准）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "人民币是 B 维度下现代货币体系的术语条目
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 人民币是 B 维度下现代货币体系的术语条目；其发行制度与国家经济标志属性属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-huobi-jiaochao-dao-renminbi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取 1948 年 12 月首发、五套、元角分十进位、铸币与纸币两种形式与防伪措施；各套年份、设计者与印钞单位无载。
 
 ## 相关知识元
 

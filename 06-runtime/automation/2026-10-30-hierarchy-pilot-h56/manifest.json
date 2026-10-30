@@ -1,0 +1,169 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h56",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.18「前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄」，下建 B.18.1「冕服与冠服等级：冕服制度、冕冠与冕旒、祎衣、霞帔与燕居服」、B.18.2「上衣下裳与深衣形制：原始服装、深衣、袍服与汉代成衣」、B.18.3「袍衫袄襦与两裆：隋唐圆领袍、北朝短衣与元代辫线袄」，把六册中二十三条散落的前近代服饰条目按「等级如何被写成可数的符号」「衣—裳如何被写成形制名与裁法」「上身短衣与袍衫如何被写成一组各自命名的名目」三条线落位，闭合 B.9.6 边界「甲胄与服饰等级的关系归服饰 Topic」及 h53–h55 连续三批登记的「前近代服饰无落点」债务。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.46",
+    "baseline_themes": 32,
+    "baseline_topics": 101,
+    "baseline_topic_memberships": 842,
+    "baseline_complete_assignments": 828,
+    "baseline_incomplete_assignments": 1742,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7668,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1670,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1084,
+    "baseline_b_dimension_unmounted": 1027
+  },
+  "result": {
+    "hierarchy_version": "v1.47",
+    "themes": 33,
+    "topics": 104,
+    "topic_memberships": 865,
+    "complete_assignments": 851,
+    "incomplete_assignments": 1719,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7714,
+    "relation_types": "3/67",
+    "member_of_relations": 1716,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1071,
+    "b_dimension_unmounted": 1004,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "theme_updated": 0,
+    "topics_touched": 3,
+    "new_topic_nodes": 3,
+    "mounted_units": 23,
+    "secondary_mounts": 0,
+    "changed_units": 23,
+    "total_mounted_units": 851,
+    "new_topic_memberships": 23,
+    "theme_organization": "B.18 按「等级符号—形制名目—成衣实测—护具关联」四层分组，下分三个 Topic，切分轴不是朝代而是「这件衣物在六册里回答什么」：B.18.1 取等级侧（冕服制度、冕冠与冕旒、祎衣、晋武帝冕服、霞帔、燕居服），B.18.2 取衣制与成衣侧（原始服装、秦代服饰、汉代袍服、深衣、禅衣与四件成衣实物），B.18.3 取上身短衣与袍衫侧（圆领袍衫、杂裾垂髾服、比甲、袄、辫线袄、襦、衫与两裆衫、衲裆）。",
+    "topic_split": "B.18.1 六条（冕服制度、冕冠与冕旒、祎衣、晋武帝司马炎冕服、霞帔、燕居服），B.18.2 九条（原始服装、秦代服饰、汉代袍服、深衣、禅衣、素纱禅衣、马王堆贵夫人辛追服饰、龙凤虎纹绣衣、集宁路刺绣夹衫），B.18.3 八条（圆领袍衫、杂裾垂髾服、比甲、袄、辫线袄、襦、衫与两裆衫、衲裆），全部为主挂载。不按朝代切分：B.18.2 跨原始至元、B.18.3 跨汉至明，同一朝代（汉、宋、明）的条目分属不同 Topic，因三线各回答不同问题；等级侧与形制侧在来源中几乎从不共处一段，是本 Theme 分 Topic 的第一依据。",
+    "role_distribution": {
+      "term_anchor": 18,
+      "representative_work": 5
+    },
+    "type_distribution": {
+      "term": 18,
+      "work": 5
+    },
+    "source_distribution": {
+      "2009-zhaonong-zhongguo-yishu-shejishi": 10,
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 10,
+      "2009-xiayanjing-zhongguo-shejishi": 6,
+      "2010-tianzibing-zhongguo-gongyi-meishushi": 3,
+      "2004-gaofeng-zhongguo-shejishi": 2,
+      "2011-lilixin-zhongguo-sheji-yishu-shilun": 2
+    },
+    "source_overlap_distribution": {
+      "single_book": 19,
+      "three_books": 3,
+      "five_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 18,
+      "low": 5
+    },
+    "consensus_distribution": {
+      "tentative": 23
+    },
+    "primary_vs_secondary": {
+      "primary": 23,
+      "secondary": 0
+    },
+    "secondary_hosts": {},
+    "theme_cumulative": {
+      "topics": 3,
+      "mounted_units": 23,
+      "type_distribution": {
+        "term": 18,
+        "work": 5
+      },
+      "role_distribution": {
+        "term_anchor": 18,
+        "representative_work": 5
+      },
+      "source_distribution": {
+        "2009-zhaonong-zhongguo-yishu-shejishi": 10,
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 10,
+        "2009-xiayanjing-zhongguo-shejishi": 6,
+        "2010-tianzibing-zhongguo-gongyi-meishushi": 3,
+        "2004-gaofeng-zhongguo-shejishi": 2,
+        "2011-lilixin-zhongguo-sheji-yishu-shilun": 2
+      },
+      "books_covered": 6,
+      "source_count": 6,
+      "confidence_distribution": {
+        "medium": 18,
+        "low": 5
+      },
+      "coverage_note": "六册全覆盖，是本库继 B.14 之后第二个六册全覆盖的 Theme，但覆盖方式相反：B.14 靠器物层分散覆盖，B.18 靠深衣（五册）与素纱禅衣（三册）两条多册互证带动，其余二十一条中十九条为单册来源。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：23 条主挂载 primary_dimension 全部为 B。三个 Topic 的 secondary_themes 均为裸维度码（B.18.1 为 D，B.18.2 为 C 与 D，B.18.3 为 D），各 KU 的 secondary_themes 镜像其原 secondary_dimensions，故 hierarchy_stress_test 的 cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "近代服制改革与服制条例：剪辫易服、《剪辫通令》、《服制条例》、中山装、国家礼服归 D.2；本 Theme 只取前近代",
+      "服饰改制的动因与族群身份：胡服、胡服骑射、孝文改制、孝明帝服饰改革归 E.5；本 Theme 只取服物形制与等级本身",
+      "近代织绣与服装工艺：洋布、阴丹士林、近代染绸、缂丝、乱针绣归 B.2；本 Theme 不处理 1840 年以后的制作技术",
+      "织造与染织图案的技术侧：妆花、织锦组织、刺绣针法体系归 B.2 与相关工艺 Theme，只作条目内证据引用",
+      "以服饰为纹样的器物与图像：竹林七贤画像砖、竹林七贤和荣启期砖画、敦煌壁画、洛阳陶俑只作条目内证据，不另立 KU、不据图补写形制",
+      "甲胄本体：汉代铠甲、明光铠、筒袖铠、皮甲归 B.9.6 与待建鞋履甲胄 Topic；B.18.3 只用两裆衫「形制缘起于铠甲」一句作服饰与护具的唯一连接",
+      "毗卢帽：实为清代架子床顶沿雕饰式样（赵农），属家具装饰归 B.14，不因名称含「帽」字收作首服",
+      "双鸾衔绶纹：纹样条目归 C 维度，不因名称含「绶」字收作服物",
+      "现代与近代服饰条目：西服、红卫服、迎宾服、礼帽、贝雷帽、军帽、鸭舌帽、瓜皮帽、现代运动鞋暂不挂载，待 D.2 或 E 类 Theme 复审",
+      "裙制七条（裙、襦裙、裥裙、石榴裙、羊肠裙、安乐公主羽裙、晕絰提花锦裙）：已摄入且无 primary_theme，本批按分批原则未挂载，待建 Topic",
+      "首服与妆饰六条（幅巾、幞头、顾姑冠、假髻、佛妆、帔子）：同上，待建 Topic",
+      "鞋履与甲胄四条（履的种类、云头锦鞋、花盆底鞋、皮甲）：同上，待建 Topic"
+    ],
+    "handoff_note": "本批闭合 h55 summary 第九节与 manifest 登记的下一跳「前近代服饰与甲胄等级 Theme」，并回改两条跨批债务登记：B.9.6 边界「甲胄与服饰等级的关系归服饰 Topic」自此有具体落点（B.18.3），Theme B.18 边界与未解决问题中明写皮甲条仍待鞋履甲胄 Topic，不以两裆衫一句代替甲胄结构。下一跳按 h55 登记的次序：跨批文本回改批次（B.14.7 指向 B.17.1、B.12.2／B.13.2／B.5.3 指向 B.16.1、B.12 指向 B.15、B.9「货币归后续 Topic」指向 B.13、B.14.3 边界材料侧指向 B.14.7、B.9.6 指向 B.18）→ 重复候选 reconcile 9 组与图注待核 12 条。"
+  },
+  "changed_files": 39,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/structure/themes/b18-qianjindai-fushi-yu-guanfu-dengji-mianfu-shenyi-paoshan-qunzhi-yu-jiazhou.md",
+    "04-knowledge/structure/topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md",
+    "04-knowledge/structure/topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md",
+    "04-knowledge/structure/topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/dimension-candidates.md",
+    "04-knowledge/structure/hierarchy/archive/v1.46.md"
+  ],
+  "unresolved": [
+    "等级与形制不共段：二十三条中无一条同时给出等级规则与衣物尺寸；冕服制度条连等级序列、形制组成与服物名目都未载，冕冠条虽给旒数却只给冕板宽长，两册从不互引。",
+    "成衣实测只有一件：素纱禅衣衣长 128 厘米、重 49 克、镶缘 5.6 厘米，袖长两册相差 10 厘米（190 对 180 厘米）且均未注明测量方式；其余二十二条无衣长、袖宽、用料与用工。",
+    "裁法只有深衣一条可读：上下分裁缝合与「将上下衣裳连在一起」两说并存，续衽钩边有命名而无图示；秦代服饰只称「与战国无大差别」，汉代袍服只给部件名与下摆处理，均无裁片与缝制工序。",
+    "服饰与护具只在一处相接：两裆衫「形制缘起于铠甲」为唯一记载，无甲片形制、连缀方式与年代对应；皮甲条有构造（合甲、七札、皮条串联）而无尺寸，两册从未互引。",
+    "两裆衫与衲裆是否同物未裁：赵农作「两裆衫，前后为两片布衣，在肩部用布带连缀」，夏燕靖 2009 作「衲裆用两片组成，前片挡胸、后片挡背，肩上以搭襻联结」，描述近同而名称不同，本库并列不裁。",
+    "霞帔两说形态不同：夏燕靖两版作深青缎地绣禽纹的恩赐贵妇饰品、有一至七品禽纹等级；赵农作宋代女服组成「大袖、长裙、霞帔」，又在明清段称其为彩带连缀金玉坠子；时代与形态均不一，并列不合并。",
+    "袄与襦、衫与袍的界线在来源中未划：袄「与襦并述」且源文在「襦与袄相」处被图注隔断（赵农 L3586-L3591）；衫为「汉制便服」，襦为「短衣」，袍服为「以袍为贵」的礼服，四者的服用场合与裁法差别只在名目上。",
+    "深衣三处分歧并列不裁：起始时代三说（春秋战国／周代／商代）、直裾归属两说、服用者等级两说；本 Topic 只记录分歧，不据《礼记》原文校订（原书未核）。",
+    "图版未核：晋武帝司马炎冕服（图版 5-14）、辛追服饰（图版 4-17）、龙凤虎纹绣衣（彩版 12）、素纱禅衣四条的核心证据部分来自图注或图版，均未视觉核验，本库不据图补写形制。",
+    "断代有两处悬空：冕服制度条只称「西周形成」而无年份与服制条文；燕居服条的年代由「宋代男子常服」推定，条目本身无 date 字段。全 Theme 无一条给出精确到年号的服饰改制时间。",
+    "断代留白：东汉至隋之间的成衣实测为空；B.18.1 中唐、元、清三代零覆盖；B.18.2 中魏晋至宋、明、清零覆盖；B.18.3 中隋与五代十国、宋、清零覆盖。",
+    "三个 Topic 尚未建立：裙制七条、首服与妆饰六条、鞋履与甲胄四条共十七条已在库中且全部无 primary_theme，本批按分批原则未挂载；本 Theme 因此尚不能回答「下身与首服如何被写成等级」。"
+  ],
+  "notes": "推导与实测口径：relation 增量 46 = 23 条主挂载 ×（topic member_of + theme member_of），与 build_relation_index.py 实测 7668 → 7714、explicit 5998 不变、inferred 1670 → 1716 一致。第一次重建只增 40 条，原因是 B.18.1 的 topic 文件名带「yu」，而 6 条主挂载误写为不含「yu」的路径，_materialized_structure_target 因目标文件不存在而跳过 topic 边；改正 6 条 KU 的 topic 路径后重建得 46，与本推导一致——这是一处按实测纠错的记录，不是理论上应有的结果。隔离单元 1084 → 1071，减 13，取自 audit_relation_consistency.py 前后两次实测，不按条数推算（23 条中有 10 条原本已有显式关系，不属隔离）。B 维度未挂载 1027 → 1004，减 23；全库未挂载 1742 → 1719。membership 842 → 865（+23），complete 828 → 851（+23），本版无次挂载，membership 与已挂载 KU 之差仍为 14，double-mount 清单不变。changed_files 39 = 本批 apply-plan 31 行（1 个 Theme 新建 + 3 个 Topic 新建 + 23 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照先归档为 hierarchy/archive/v1.46.md（100130 字节），按 h44–h46 口径不计入 changed_files。生成态次序按 h51 实测处理：manifest 与 summary 先落盘，再连续跑两次全量闭包（第 8 步 write health and backlog 早于第 9 步重建 05-outputs/index/index.md，单跑一次会残留 output_navigation_snapshot_stale），第二次后 rule_drift.findings 归 0；随后 --check-generated 第 17 步预计 exit=1，属未 commit 的预期。hierarchy_stress_test 报 themes 33、topics 104、membership 865、complete 851、incomplete 1719、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 58/65（hierarchy_assignment 3/10 未变）、content_findings 0。工作区累计改动属 h13–h56 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

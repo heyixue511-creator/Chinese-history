@@ -51,17 +51,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "明式家具是 B 维度下木作工艺与器物风格命名的术语锚点，其“以时代命名式样”的命名史也涉及 A 维度的史学概念问题。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取五册共识的年代、硬木与柴木两类用材、木构架榫卯与少钉少胶的结构、简厚精雅等审美概括、器类六大类与杨耀的概念史；攒边工序归 B.14.3，具体器物形制归 B.14.1／B.14.2，本 Topic 只取风格侧。"
+hierarchy_scope_note: "明式家具是 B 维度下木作工艺与器物风格命名的术语锚点，其“以时代命名式样”的命名史也涉及 A 维度的史学概念问题。已挂载 B.14.5（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -88,10 +96,10 @@ hierarchy_scope_note: "明式家具是 B 维度下木作工艺与器物风格命
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 兼具器物风格与史学概念的双重性质：作为风格，它指向实体家具系统；作为术语，它的提出过程本身反映 20 世纪中国设计史学的概念建构。当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取五册共识的年代、硬木与柴木两类用材、木构架榫卯与少钉少胶的结构、简厚精雅等审美概括、器类六大类与杨耀的概念史；攒边工序归 B.14.3，具体器物形制归 B.14.1／B.14.2，本 Topic 只取风格侧。
 
 ## 相关知识元
 

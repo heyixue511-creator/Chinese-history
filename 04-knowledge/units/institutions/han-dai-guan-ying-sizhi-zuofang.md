@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: historical_context
+    primary: true
+    scope_note: "汉代官营丝织作坊是聚合条，承载官营作坊网络、提花织机与织物品种的整体描述；本 Topic 只用它提供背景范围，不重复东、西织室与三服官的分条制度细节。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "汉代官营丝织作坊是 D 维度下秦汉官营丝织生产网络的合并条目，其提花织机与织物品种归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "汉代官营丝织作坊是聚合条，承载官营作坊网络、提花织机与织物品种的整体描述；本 Topic 只用它提供背景范围，不重复东、西织室与三服官的分条制度细节。"
 ---
 
 ## 描述
@@ -70,12 +78,10 @@ hierarchy_scope_note: "汉代官营丝织作坊是 D 维度下秦汉官营丝织
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是秦汉官营丝织生产网络的合并条目，可与长安东、西织室、三服官、提花机、丝绸之路等既有条目并置，观察中央与地方作坊的空间分布。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 汉代官营丝织作坊是聚合条，承载官营作坊网络、提花织机与织物品种的整体描述；本 Topic 只用它提供背景范围，不重复东、西织室与三服官的分条制度细节。
 ## 相关知识元
 
 `institutions/dongxi-zhishi.md` 记长安东、西织室；`institutions/sanfuguan.md` 记临淄、襄邑三服官；`terms/tihuaji.md` 记提花机；`terms/sichou-zhilu.md` 记丝绸之路。relation 未审查，不写入正式 `relations`。

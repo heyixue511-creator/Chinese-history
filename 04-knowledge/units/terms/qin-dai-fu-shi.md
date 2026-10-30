@@ -25,19 +25,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「与战国无大差别」的形制连续判断与兵马俑形象资料（交领右衽、窄袖、齐膝燕尾）；服制统一与袍色等级不在本条范围。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "秦代服饰是 B 维度下的衣装形制条目，其“兼收六国车旗服御”的服制统一属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "秦代服饰是 B 维度下的衣装形制条目，其“兼收六国车旗服御”的服制统一属 D 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -57,12 +66,12 @@ hierarchy_scope_note: "秦代服饰是 B 维度下的衣装形制条目，其“
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
+- primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是秦代衣装形制的时代条目，向上接深衣形制，向下与汉代袍服、汉代妇女深衣构成秦汉服饰序列。当前只到 Dimension。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「与战国无大差别」的形制连续判断与兵马俑形象资料（交领右衽、窄袖、齐膝燕尾）；服制统一与袍色等级不在本条范围。
 
 ## 相关知识元
 

@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "编钟是 B 维度下先秦青铜乐器的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取编钟与特钟之别、铙到钟的甬与旋、商三件一组与西周八件一套；铸造工序归 B.9.2，用钟等级归 D。"
+hierarchy_scope_note: "编钟是 B 维度下先秦青铜乐器的条目。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "编钟是 B 维度下先秦青铜乐器的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 编钟是 B 维度下先秦青铜乐器的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取编钟与特钟之别、铙到钟的甬与旋、商三件一组与西周八件一套；铸造工序归 B.9.2，用钟等级归 D。
 
 ## 相关知识元
 

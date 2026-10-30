@@ -68,17 +68,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 7
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "少府监是 D 维度（制度）下官营手工业管理机构的锚点，其工匠数量与技术训练内容同时属于 B 维度的生产组织问题。Theme/Topic 尚未 materialize。"
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md
+    role: key_institution
+    primary: true
+    scope_note: "少府监是唐代中央掌「百工技巧之政」的机构锚点，辖中尚、左尚、右尚、织染、掌冶五署，长官从三品；本 Topic 取其职掌、五署分工与九个月至四年训练、季度测试年终考课，汉代少府属官与宋代所辖四院只作沿革，工匠数四说并存不裁。"
+hierarchy_scope_note: "少府监是唐代中央掌「百工技巧之政」的机构锚点，辖中尚、左尚、右尚、织染、掌冶五署，长官从三品；本 Topic 取其职掌、五署分工与九个月至四年训练、季度测试年终考课，汉代少府属官与宋代所辖四院只作沿革，工匠数四说并存不裁。"
 ---
 
 ## 描述
@@ -111,11 +119,10 @@ hierarchy_scope_note: "少府监是 D 维度（制度）下官营手工业管理
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是官营手工业制度的机构锚点，可同时支持 B 维度的生产组织与分工问题，以及 D 维度的官手工业制度问题。当前只选定 D 为暂定主导航。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 少府监是唐代中央掌「百工技巧之政」的机构锚点，辖中尚、左尚、右尚、织染、掌冶五署，长官从三品；本 Topic 取其职掌、五署分工与九个月至四年训练、季度测试年终考课，汉代少府属官与宋代所辖四院只作沿革，工匠数四说并存不裁。
 ## 相关知识元
 
 本批写回的中央工艺美术学院同为机构类知识元，但分属现代设计教育制度，与少府监无来源内的直接叙述关联；失蜡法等工艺知识元与官营作坊的关系亦未经 relation 语义审查。故均不写入正式 `relations`。

@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "二次烧成法是 B 维度下唐代低温铅釉陶的胎体与釉层分两次烧成的工序条目，其品种与器类归唐三彩 term。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: procedure
+    primary: true
+    scope_note: "二次烧成法是 B.5.4 的核心工序：素烧 1000—1100℃、施釉、釉烧 850—950℃（2009 作 900℃），含原料前工序与开脸；质量条件是釉汁与胎体膨胀系数均衡、冷却收缩一致"
+hierarchy_scope_note: "二次烧成法是 B.5.4 的核心工序：素烧 1000—1100℃、施釉、釉烧 850—950℃（2009 作 900℃），含原料前工序与开脸；质量条件是釉汁与胎体膨胀系数均衡、冷却收缩一致"
 ---
 
 ## 描述
@@ -78,11 +86,10 @@ hierarchy_scope_note: "二次烧成法是 B 维度下唐代低温铅釉陶的胎
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（胎体素烧与施釉釉烧的两段烧成），上接唐三彩品种与唐代陶瓷谱系，下接装烧与窑具；当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 二次烧成法是 B.5.4 的核心工序：素烧 1000—1100℃、施釉、釉烧 850—950℃（2009 作 900℃），含原料前工序与开脸；质量条件是釉汁与胎体膨胀系数均衡、冷却收缩一致
 ## 相关知识元
 
 `terms/tang-sancai.md` 记唐三彩的品种、胎釉与器类，为本条所依附的器物类型；`procedures/die-shao.md` 记叠烧装烧，与本条同属窑业工序但对象与目的不同；`terms/mise-porcelain.md` 记唐代秘色瓷，属同代高温青瓷的另一烧造传统。relation 未经审查，不写入正式 `relations`。

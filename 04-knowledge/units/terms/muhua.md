@@ -28,19 +28,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - C
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md
+    role: procedure
+    primary: true
+    scope_note: "只取「用染色的象牙、鹿角、黄杨木等制成装饰花纹，镶嵌在木器上」的定义、在唐代家具装饰法中的位置与正仓院挟轼、棋局两件实例；工序、胶料、嵌片厚度与产地全无。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度唐代木器镶嵌工艺的条目，嵌片构成的纹样属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度唐代木器镶嵌工艺的条目，嵌片构成的纹样属 C 维度。已挂载 B.14.4（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: "本条是 B 维度唐代木器镶嵌工艺的条目，嵌
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐代木器镶嵌工艺的条目，嵌片构成的纹样属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取「用染色的象牙、鹿角、黄杨木等制成装饰花纹，镶嵌在木器上」的定义、在唐代家具装饰法中的位置与正仓院挟轼、棋局两件实例；工序、胶料、嵌片厚度与产地全无。
 
 ## 相关知识元
 

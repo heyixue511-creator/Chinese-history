@@ -32,19 +32,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/d6-ranlian-guanshu-cong-baoshi-dao-zhiranshu.md
+    role: boundary_case
+    primary: true
+    scope_note: "周代染人与掌染草是《周礼》所列职名，员额、隶属与职掌细目全无；本 Topic 以 boundary_case 挂载，标其为职名而非可考机构，不升格为官署。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "周代染人与掌染草是 D 维度下周代印染职官与职业的条目，其染色工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "周代染人与掌染草是《周礼》所列职名，员额、隶属与职掌细目全无；本 Topic 以 boundary_case 挂载，标其为职名而非可考机构，不升格为官署。"
 ---
 
 ## 描述
@@ -65,12 +73,10 @@ hierarchy_scope_note: "周代染人与掌染草是 D 维度下周代印染职官
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是周代印染职官与职业的合并条目，可与《考工记》设色之工、后世织染署构成印染制度序列。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-ranlian-guanshu-cong-baoshi-dao-zhiranshu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 周代染人与掌染草是《周礼》所列职名，员额、隶属与职掌细目全无；本 Topic 以 boundary_case 挂载，标其为职名而非可考机构，不升格为官署。
 ## 相关知识元
 
 `institutions/zhiranshu.md` 记隋唐织染署及其练染六作；`procedures/jiezhi-yinhua.md` 记介质印花；`procedures/dyeing.md` 记染色工艺。relation 未审查，不写入正式 `relations`。

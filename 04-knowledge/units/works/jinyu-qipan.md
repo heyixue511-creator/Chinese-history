@@ -1,4 +1,5 @@
 ---
+
 title: 金鱼漆盘（Goldfish Lacquer Dish）
 name_en: Goldfish Lacquer Dish
 type: work
@@ -23,20 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取研磨彩绘效果与两次获奖；1949 年后产业属 E，不作近代工艺史。"
 secondary_dimensions:
   - C
   - E
-hierarchy_scope_note: "本条是 B 维度漆器单件的条目，画面层次属 C 维度，国际获奖属 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度漆器单件的条目，画面层次属 C 维度，国际获奖属 E 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -56,10 +65,10 @@ hierarchy_scope_note: "本条是 B 维度漆器单件的条目，画面层次属
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度漆器单件的条目，画面层次属 C 维度，国际获奖属 E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取研磨彩绘效果与两次获奖；1949 年后产业属 E，不作近代工艺史。
 
 ## 相关知识元
 

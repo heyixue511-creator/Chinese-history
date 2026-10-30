@@ -34,17 +34,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "本 KU 是 D 维度下汉代官营染织机构的锚点，其生产规模同时属于 B 维度的织造组织问题。Theme/Topic 尚未 materialize。"
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "三服官是汉代齐郡临淄、陈留襄邑两处服官，按春、夏、秋三季服色生产；本 Topic 取其「作工各数千人，一岁数费巨万」的编制与用费记载，设置年代与产品规格来源未记。"
+hierarchy_scope_note: "三服官是汉代齐郡临淄、陈留襄邑两处服官，按春、夏、秋三季服色生产；本 Topic 取其「作工各数千人，一岁数费巨万」的编制与用费记载，设置年代与产品规格来源未记。"
 ---
 
 ## 描述
@@ -64,11 +72,10 @@ hierarchy_scope_note: "本 KU 是 D 维度下汉代官营染织机构的锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 D 维度下汉代官营染织机构的锚点，其生产规模同时属于 B 维度的织造组织问题。Theme/Topic 尚未 materialize。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 三服官是汉代齐郡临淄、陈留襄邑两处服官，按春、夏、秋三季服色生产；本 Topic 取其「作工各数千人，一岁数费巨万」的编制与用费记载，设置年代与产品规格来源未记。
 ## 相关知识元
 
 与 少府监同属官营手工业管理制度谱系，层级不同：三服官为地方性专设机构。relation 未审查。

@@ -27,20 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取花丝通名与编、堆、穿、镶、錾五类技法、盘盆瓶炉与首饰等产品、北京上海成都三产地；金银错与平脱只作前身引用，工序归 B.9.4；不展开近现代机械化。"
 secondary_dimensions:
   - C
   - D
-hierarchy_scope_note: "本条是 B 维度金银细工技法的条目，首饰与摆件的造型属 C 维度，产地与外销属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度金银细工技法的条目，首饰与摆件的造型属 C 维度，产地与外销属 D 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "本条是 B 维度金银细工技法的条目，首饰与
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度金银细工技法的条目，首饰与摆件的造型属 C 维度，产地与外销属 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取花丝通名与编、堆、穿、镶、錾五类技法、盘盆瓶炉与首饰等产品、北京上海成都三产地；金银错与平脱只作前身引用，工序归 B.9.4；不展开近现代机械化。
 ## 相关知识元
 
 `terms/jingtai-lan.md` 记铜胎掐丝珐琅；`terms/hua-falang.md` 记铜胎画珐琅。花丝为金银细丝工艺，与两种珐琅工艺分属不同材质路径。relation 未审查。

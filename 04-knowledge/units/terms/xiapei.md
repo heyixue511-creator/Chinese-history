@@ -38,17 +38,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "霞帔是 B 维度下宋明女性服饰附件的条目；织物、绣纹与佩挂结构属 B，命妇品级与恩赐制度牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取霞帔两种记载并列（夏燕靖两版：深青缎地云霞禽纹、一至七品禽纹；赵农：宋代女服组成与明清彩带金玉坠子）；时代与形态两说并列不裁。"
+hierarchy_scope_note: "霞帔是 B 维度下宋明女性服饰附件的条目；织物、绣纹与佩挂结构属 B，命妇品级与恩赐制度牵涉 C 维度。已挂载 B.18.1（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -92,10 +99,10 @@ hierarchy_scope_note: "霞帔是 B 维度下宋明女性服饰附件的条目；
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是服饰附件条目，与 `terms/futou.md`（幞头）同属服饰类但部位不同：霞帔在身，幞头在头。与 `terms/qipao.md`（旗袍）、`terms/shenyi.md`（深衣）等衣装形制不同层：霞帔是附加于衣装之上的饰件。可与明代命妇制度、禽纹补子、宋代女服合成 Topic。当前只到 Dimension。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取霞帔两种记载并列（夏燕靖两版：深青缎地云霞禽纹、一至七品禽纹；赵农：宋代女服组成与明清彩带金玉坠子）；时代与形态两说并列不裁。
 
 ## 相关知识元
 

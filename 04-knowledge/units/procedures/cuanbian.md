@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "攒边是 B 维度下明式家具框架与芯板结合的工序条目，其家具风格与品类归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md
+    role: procedure
+    primary: true
+    scope_note: "只取四边 45 度格角榫、中心板四周出榫入通槽与结构加固、伸缩余量、不露截板纹三项作用；榫头尺寸、通槽宽深、芯板树种与含水率、拼板穿带做法与工具次序全无。"
+hierarchy_scope_note: "攒边是 B 维度下明式家具框架与芯板结合的工序条目，其家具风格与品类归 B 维度。已挂载 B.14.3（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "攒边是 B 维度下明式家具框架与芯板结合的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（家具榫卯结构），与明式家具的名物、风格条目构成“工艺—风格”的可追溯链；当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取四边 45 度格角榫、中心板四周出榫入通槽与结构加固、伸缩余量、不露截板纹三项作用；榫头尺寸、通槽宽深、芯板树种与含水率、拼板穿带做法与工具次序全无。
 
 ## 相关知识元
 

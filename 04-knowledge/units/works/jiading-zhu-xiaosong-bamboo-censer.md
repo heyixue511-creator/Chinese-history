@@ -24,19 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.17
+secondary_themes:
+  - C
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b17-kezhu-jiadingpai-jinlingpai-yu-jiading-sanzhu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取插图 11 图注「嘉定朱小松竹刻香薰（明）」与正文朱小松刻古佛、嘉定派深刻透雕两层背景；尺寸、形制、纹样、款识、藏地与图版核验全缺，confidence 为 low。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度明代嘉定竹刻单器的图注锚点，香薰形制与竹刻装饰属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度明代嘉定竹刻单器的图注锚点，香薰形制与竹刻装饰属 C 维度。已挂载 B.17.2（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "本条是 B 维度明代嘉定竹刻单器的图注锚点
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代嘉定竹刻单器的图注锚点，香薰形制与竹刻装饰属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-kezhu-jiadingpai-jinlingpai-yu-jiading-sanzhu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取插图 11 图注「嘉定朱小松竹刻香薰（明）」与正文朱小松刻古佛、嘉定派深刻透雕两层背景；尺寸、形制、纹样、款识、藏地与图版核验全缺，confidence 为 low。
 
 ## 相关知识元
 

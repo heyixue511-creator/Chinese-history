@@ -25,19 +25,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - C
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md
+    role: representative_work
+    primary: true
+    scope_note: "只取全 Topic 唯一实物：阿斯塔那出土、黄白绿粉红茶褐五色经线、彩条上细纬织金黄色蒂形小团花、称「锦上添花」；未给裙长、腰围、幅宽、裙幅数、组织图、墓号与藏地，不据文字复原裙式。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "晕絰提花锦裙是 B 维度下唐代织锦服饰的器物条目，其五色条纹与团花属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "晕絰提花锦裙是 B 维度下唐代织锦服饰的器物条目，其五色条纹与团花属 C 维度。已挂载 B.18.4（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "晕絰提花锦裙是 B 维度下唐代织锦服饰的器
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 晕絰提花锦裙是 B 维度下唐代织锦服饰的器物条目，其五色条纹与团花属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取全 Topic 唯一实物：阿斯塔那出土、黄白绿粉红茶褐五色经线、彩条上细纬织金黄色蒂形小团花、称「锦上添花」；未给裙长、腰围、幅宽、裙幅数、组织图、墓号与藏地，不据文字复原裙式。
 
 ## 相关知识元
 

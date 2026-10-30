@@ -1,4 +1,5 @@
 ---
+
 title: 赵过（Zhao Guo）
 name_en: Zhao Guo
 type: person
@@ -48,19 +49,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: key_person
+    primary: true
+    scope_note: "只取三册的分工差别（夏燕靖两版作三脚耧设计者、赵农作耧车与耦犁推行者）；「代田法」六册未出现，不补。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "赵过在三册中只出现于汉代农具一条线（B）；其搜粟都尉身份与“主持农业生产”“负责推行”的叙述属官职与推广制度（D）。本批按三册共同的农具设计主体归主维度 B。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "赵过在三册中只出现于汉代农具一条线（B）；其搜粟都尉身份与“主持农业生产”“负责推行”的叙述属官职与推广制度（D）。本批按三册共同的农具设计主体归主维度 B。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -94,10 +103,10 @@ hierarchy_scope_note: "赵过在三册中只出现于汉代农具一条线（B�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是汉代播种农具的条目，材料量在 person 类中偏少，仅一段叙事的三册复读。可支持未来的耧车形制演进、汉代农具推广制度等 Topic。当前只到 Dimension；不足以单独支撑人物传记层面的 Topic。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取三册的分工差别（夏燕靖两版作三脚耧设计者、赵农作耧车与耦犁推行者）；「代田法」六册未出现，不补。
 
 ## 相关知识元
 

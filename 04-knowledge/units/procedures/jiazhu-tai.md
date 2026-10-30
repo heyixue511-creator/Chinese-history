@@ -1,4 +1,5 @@
 ---
+
 title: 夹纻胎（Jiazhu Lacquer Body）
 name_en: Jiazhu Lacquer Body
 type: procedure
@@ -42,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "夹纻胎是 B 维度下战国漆器胎骨成形工艺条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: procedure
+    primary: true
+    scope_note: "只取生漆贴纻麻、去内胎、髹漆的工序与脱胎前身判断；行像与佛教造像评价只作应用一句。"
+hierarchy_scope_note: "夹纻胎是 B 维度下战国漆器胎骨成形工艺条目。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -75,10 +84,10 @@ hierarchy_scope_note: "夹纻胎是 B 维度下战国漆器胎骨成形工艺条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 夹纻胎是 B 维度下战国漆器胎骨成形工艺条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取生漆贴纻麻、去内胎、髹漆的工序与脱胎前身判断；行像与佛教造像评价只作应用一句。
 
 ## 相关知识元
 

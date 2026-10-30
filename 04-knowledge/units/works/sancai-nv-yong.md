@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: representative_work
+    primary: true
+    scope_note: "三彩女俑在 B.5.4 承担明器线的人物类：唐三彩人物有妇女、文官、武士、牵马俑、胡俑、天王；面部与脚部不挂釉素烧后以墨彩勾画，称开相"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "三彩女俑是 B 维度下唐代三彩人物俑的图版锚点，其发髻与服饰形象属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "三彩女俑在 B.5.4 承担明器线的人物类：唐三彩人物有妇女、文官、武士、牵马俑、胡俑、天王；面部与脚部不挂釉素烧后以墨彩勾画，称开相"
 ---
 
 ## 描述
@@ -57,12 +65,10 @@ hierarchy_scope_note: "三彩女俑是 B 维度下唐代三彩人物俑的图版
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 三彩女俑是 B 维度下唐代三彩人物俑的图版锚点，其发髻与服饰形象属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 三彩女俑在 B.5.4 承担明器线的人物类：唐三彩人物有妇女、文官、武士、牵马俑、胡俑、天王；面部与脚部不挂釉素烧后以墨彩勾画，称开相
 ## 相关知识元
 
 `terms/tang-sancai.md` 记唐三彩；`terms/mingqi.md` 记明器；`works/sancai-guan.md` 为同批三彩器皿条；`terms/caihui-tao.md` 记彩绘陶。relation 未审查。

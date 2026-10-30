@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 秦公镈是 B 维度下春秋早期青铜镈的条目，来源只有一句正文与一条图注，形制细节未展开。Theme/Topic 尚未 materialize。
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取「西周后期出现正挂之镈」的形制节点与春秋早期秦公镈一例；正文一句与图 3-46 图注未核，不据图补器形。"
+hierarchy_scope_note: "秦公镈是 B 维度下春秋早期青铜镈的条目，来源只有一句正文与一条图注，形制细节未展开。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: 秦公镈是 B 维度下春秋早期青铜镈的条目，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 秦公镈是 B 维度下春秋早期青铜镈的条目，来源只有一句正文与一条图注，形制细节未展开。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取「西周后期出现正挂之镈」的形制节点与春秋早期秦公镈一例；正文一句与图 3-46 图注未核，不据图补器形。
 
 ## 相关知识元
 

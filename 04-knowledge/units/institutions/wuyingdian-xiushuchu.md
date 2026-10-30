@@ -40,20 +40,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md
+    role: key_institution
+    primary: true
+    scope_note: "清内府出版机构；本批按生产组织作 C→D 跨维度挂载"
 secondary_dimensions:
   - D
   - B
-hierarchy_scope_note: "武英殿修书处是 C 维度下清代内府出版与书籍设计的机构条目，其内府与官刻制度归 D、活字刻制与雕版工艺归 B；当前只到 Dimension。"
+hierarchy_scope_note: "清内府出版机构；本批按生产组织作 C→D 跨维度挂载"
 ---
 
 ## 描述
@@ -84,11 +92,10 @@ hierarchy_scope_note: "武英殿修书处是 C 维度下清代内府出版与书
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: D（商业、制度与设计教育）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是清代内府出版与书籍设计的核心机构，可与汲古阁、商务印书馆、点石斋石印局等条目并置，观察“官刻—私刻—石印”的出版技术谱系。当前只到 Dimension。
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 清内府出版机构；本批按生产组织作 C→D 跨维度挂载
 
 ## 相关知识元
 

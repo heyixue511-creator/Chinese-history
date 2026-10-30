@@ -37,19 +37,31 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.5.4 主挂载第二义（建筑铅釉陶）：汉已普遍制造、六朝用于建筑、唐称剪边琉璃、宋《营造法式》记黄丹与洛河石与铜末配方、元山西最著；第一义另由 B.7.1 次挂载，两义不合并。"
+  - topic: topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md
+    role: term_anchor
+    primary: false
+    scope_note: "B.7.1 次挂载：只取第一义（原始玻璃、铅钡玻璃、战国琉璃璧的尺寸与仿玉），建筑铅釉陶义仍由 B.5.4 主挂载；两义不合并。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "琉璃是 B 维度下古代玻璃器与建筑铅釉陶的两义条目；其仿玉与装饰属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "琉璃在 B.5.4 主挂载第二义（建筑铅釉陶）：汉已普遍制造、六朝用于建筑、唐称剪边琉璃、宋《营造法式》记黄丹与洛河石与铜末配方、元山西最著；同时以第一义（原始玻璃、铅钡玻璃与战国琉璃璧的仿玉传统）次挂载 B.7.1，两义并列不合并。"
 ---
 
 ## 描述
@@ -93,12 +105,10 @@ hierarchy_scope_note: "琉璃是 B 维度下古代玻璃器与建筑铅釉陶的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 琉璃是 B 维度下古代玻璃器与建筑铅釉陶的两义条目；其仿玉与装饰属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（term_anchor，primary）；topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md（term_anchor，secondary）
+- role_in_theme: term_anchor
+- scope_note: 琉璃在 B.5.4 主挂载第二义（建筑铅釉陶）：汉已普遍制造、六朝用于建筑、唐称剪边琉璃、宋《营造法式》记黄丹与洛河石与铜末配方、元山西最著；同时以第一义（原始玻璃、铅钡玻璃与战国琉璃璧的仿玉传统）次挂载 B.7.1，两义并列不合并。
 ## 相关知识元
 
 `procedures/liuli-shaozhao.md` 记明清建筑琉璃烧造；`terms/bi.md` 记玉璧，琉璃璧是其仿玉代用品；`places/changsha-chumuqun.md` 记长沙楚墓出琉璃器；`places/shandong-boshan.md` 记山东博山，`places/famen-si-digong.md` 记法门寺地宫，`institutions/neiwufu-zaobanchu.md` 记内务府造办处，分别是李立新所记博山作坊、法门寺伊斯兰玻璃器与宫廷玻璃厂的落点。relation 未审查。

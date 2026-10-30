@@ -35,17 +35,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "榫卯结构是 B 维度下新石器时代木构连接工序的条目，其建筑形态与居住方式归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md
+    role: procedure
+    primary: true
+    scope_note: "只取「干栏式建筑采用了榫卯结构」一句与建筑史判断，以及田自秉补的河姆渡遗址（距今约 7000 年）与「筑土构木」；干栏式建筑的形制、抬梁穿斗井干三式归 B.3，榫卯类型、构件部位、工具与工序全无，挂入家具线属本库取舍。"
+hierarchy_scope_note: "榫卯结构是 B 维度下新石器时代木构连接工序的条目，其建筑形态与居住方式归 B 维度。已挂载 B.14.3（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -70,10 +78,10 @@ hierarchy_scope_note: "榫卯结构是 B 维度下新石器时代木构连接工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（木构件连接方法），证据只及一句概述，不能据此推出榫卯的具体类型与工序。当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取「干栏式建筑采用了榫卯结构」一句与建筑史判断，以及田自秉补的河姆渡遗址（距今约 7000 年）与「筑土构木」；干栏式建筑的形制、抬梁穿斗井干三式归 B.3，榫卯类型、构件部位、工具与工序全无，挂入家具线属本库取舍。
 
 ## 相关知识元
 

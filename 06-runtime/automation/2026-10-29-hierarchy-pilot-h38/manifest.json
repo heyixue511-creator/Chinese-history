@@ -1,0 +1,113 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h38",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 Topic B.9.3「铜镜：型式、纹样与铸镜」，并主挂载 13 个铜镜 KU",
+  "scope": {
+    "baseline_hierarchy_version": "v1.28",
+    "baseline_themes": 24,
+    "baseline_topics": 73,
+    "baseline_topic_memberships": 534,
+    "baseline_complete_assignments": 527,
+    "baseline_incomplete_assignments": 2043,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7059,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1061,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1263
+  },
+  "result": {
+    "hierarchy_version": "v1.29",
+    "themes": 24,
+    "topics": 74,
+    "topic_memberships": 547,
+    "complete_assignments": 540,
+    "incomplete_assignments": 2030,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7085,
+    "relation_types": "3/67",
+    "member_of_relations": 1087,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1258,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md"
+    ],
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 1,
+    "mounted_units": 13,
+    "secondary_mounted_units": 0,
+    "changed_units": 13,
+    "total_mounted_units": 540,
+    "new_topic_memberships": 13,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 7,
+      "boundary_case": 1,
+      "representative_work": 5
+    },
+    "type_distribution": {
+      "term": 8,
+      "work": 5
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。13 个 KU 的 primary_dimension 均为 B；B.9 的 secondary_dimensions 为 C、D，但本批不制造跨维度挂载。",
+    "taxonomy_split": "铜镜型式、纹样与铸镜→B.9.3；青铜容器器形与礼器组合→B.9.1；青铜铸造工艺与六齐→B.9.2；铜镜纹样与铭文→C；铸镜局与铜禁→D.6；宋代以后玻璃镜→B.7；陶器→B.5；玉器→B.8；兵器、乐器、货币、农具与铁器→后续 B.9 Topic。",
+    "planned_topics_not_created": [
+      "B.9 装饰工艺 Topic（编号待定）：错金银、镶嵌、刻划、金银平脱、三叠法，仍未物化",
+      "B.9 兵器 Topic（编号待定）：戈、矛、钺、剑、戟、弩，仍未物化",
+      "B.9 乐器 Topic（编号待定）：编钟、八音、十二平均律，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "阳燧（terms/yang-sui-burning-mirror）：凹面取火镜不是照容镜，本批以 boundary_case 主挂载，不并入铜镜型式序列",
+      "玻璃镜（B.7）：宋代以后玻璃镜传入只作铜镜衰落背景，不入 B.9.3",
+      "铜镜纹样与铭文的图像母题、书法与文例→C：本批只取型式与谱系著录",
+      "铸镜局、铜禁与携带管制作为制度史→D.6：本批只取产地、机构名与一句制度记载",
+      "铜镜合金检测、曲率半径与光学实验：六册无数据，本批不据「微凸」「轻薄」推算数值",
+      "汉代铜灯、博山炉、铜洗等其他日用铜器→B.9.1 或后续 B.9 Topic"
+    ]
+  },
+  "changed_files": 19,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "铜镜起点三说不可裁：夏燕靖两版「战国开始出现并流行」、赵农「新石器晚期齐家文化」并称商周已有 20 余面、田自秉以 1976 年妇好墓早期镜「推前几百年」；三种口径的「铜镜」是否同一器物定义，来源未说明",
+    "田自秉四期说（战国镜、汉镜、唐镜、宋镜）是「几次较兴盛的时期」而非连续分期；六朝与五代两条不在四期内，四期说无法覆盖本 Topic 全部时段",
+    "汉镜厚薄两说相反：夏燕靖「体薄、平边、圆钮」与赵农「镜体比战国铜镜加大增厚」；夏燕靖同册战国段又称战国镜「不如汉唐铜镜的厚重」，同册内两处参照不同",
+    "13 个 KU 无一件给出直径、厚度、重量或曲率半径；「薄胎」「体薄」「厚重」「轻薄」不能换算为毫米",
+    "唐镜 70:25:5 是六册中唯一的铜镜合金比例，但无检测来源、无器号、无其他朝代对照；汉镜、宋镜、六朝镜的合金成分全无",
+    "镜面曲率三处（东汉微凸「更符合科学原理」、唐镜微凸「类似现代汽车的反光镜」、沈括「鉴大则平，鉴小则凸」）都是功能推断，无曲率半径、焦距或照容实验",
+    "透光镜原理两说并存：田自秉「铸造应力＋研磨压应力造成镜面曲率」与赵农「冷却加工研磨产生内质变化、分子不匀」；两说是否同一机制，来源未说明，也无实验复原",
+    "战国八类纹样与汉、六朝、唐、宋各段纹样谱系之间无类型学编号与交叉表；同一镜可同时按镜式与纹样命名，来源未给二维分类",
+    "「鉴」的称名未与铜镜型式序列打通：铜鉴盛水照面、阳燧凹面取火、铜镜照容，三器同用「鉴」字，来源未说明称名演变与功能分化",
+    "六朝「六朝」与「魏晋南北朝」两种断代覆盖范围不同，伍子胥画像镜的时代归属因此不唯一",
+    "汉镜铭文「见日之光，天下大明」等辞句的释读、字数与书体无统计；「田氏作竟真大好」的商标性质只有赵农一句判断",
+    "南宋铸镜局的设置年代、官员配置、产量与铜禁细则全无；「有刻款的才可携带」只有一句，无律令原文",
+    "唐镜七种装饰工艺只有名称，无工序、材料配比与逐件归属；花鸟人物螺钿镜的松石屑填饰「多脱落」，无成分分析",
+    "玉平脱双葡萄镜的「漆平脱双玉葡萄」无工序、玉片数量与镜径；五代只有这一件器物，无法构成序列",
+    "龙纹葵花镜只有图注一行（图 6-4），位于「隋唐文化」章首图组而非铜镜专节，confidence 为 low；图版未视觉核验",
+    "高丰 2004 册无铜镜专条，本 Topic 的六册来源实际为五册；唐、宋两段各只有一册支撑，来源分布不均"
+  ],
+  "notes": "本批在既有 Theme B.9 内新建第三个 Topic B.9.3「铜镜：型式、纹样与铸镜」，不新建 Theme，也不扩 B.9.1／B.9.2。B.9 至此按「容器器形—容器铸造—铜镜」三个 Topic 分工：B.9.1 只做容器器形与礼器组合，B.9.2 只做容器铸造工序，B.9.3 只做铜镜的型式、纹样与铸镜；三者来源不同，不能互相补足。B.9.3 按「型式—纹样—铸镜」三层组织 13 个 KU：型式层有圆、方、葵花、菱花、亚字、钟、带柄七类镜式与川字钮、圆钮、半球钮、兽钮、龟钮五种钮制，却无一件直径、厚度、重量或曲率半径；纹样层有战国八类、汉规矩四神与铭文、六朝四类、唐五类、宋缠枝与联珠五套谱系，却无类型学编号与交叉表；铸镜层有楚、绍兴、扬州、湖州饶州铸镜局与七种装饰工艺，却无作坊规模、产量与工序参数。三处并列不裁：铜镜起点三说、汉镜厚薄两说、透光镜原理两说。四处边界处置：阳燧是凹面取火镜，以 boundary_case 主挂载、不并入照容镜型式序列；铜镜纹样与铭文归 C；铸镜局与铜禁归 D.6；宋代以后玻璃镜归 B.7。高丰 2004 册无铜镜专条，本 Topic 实际由田自秉、夏燕靖两版、赵农与李立新五册支撑；唐、宋两段各只有一册。13 个 KU 全部主挂载，各生成 topic 与 theme 两条 member_of，relation index 因此新增 26 条，由 7059 增至 7085；隔离单元由 1263 减至 1258，5 个新挂载 KU 原无显式关系。knowledge_structure_quality 保持 57/65，structural_health 保持 130。本批不 commit、不 push。"
+}

@@ -1,4 +1,5 @@
 ---
+
 title: 青铜锄（Bronze Hoe）
 name_en: Bronze Hoe
 type: term
@@ -26,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 青铜锄是 B 维度下西周青铜农具的条目，其材料演变属生产技术。Theme/Topic 尚未 materialize。
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取湖北蕲春凹字形青铜锄与横装木柄、石锄到青铜锄到铁锄的材料演变；铁锄出处照录。"
+hierarchy_scope_note: "青铜锄是 B 维度下西周青铜农具的条目，其材料演变属生产技术。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -56,10 +65,10 @@ hierarchy_scope_note: 青铜锄是 B 维度下西周青铜农具的条目，其�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 青铜锄是 B 维度下西周青铜农具的条目，其材料演变属生产技术。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取湖北蕲春凹字形青铜锄与横装木柄、石锄到青铜锄到铁锄的材料演变；铁锄出处照录。
 
 ## 相关知识元
 

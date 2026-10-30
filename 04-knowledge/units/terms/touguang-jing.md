@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "透光镜是 B 维度下汉代铜镜铸造与光学效应结合的专门条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取西汉透光镜的镜背影像效应、铸造应力与研磨压应力解释、上海博物馆「内清质以昭明」实物与隋唐流传；原理两说并列。"
+hierarchy_scope_note: "透光镜是 B 维度下汉代铜镜铸造与光学效应结合的专门条目。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "透光镜是 B 维度下汉代铜镜铸造与光学效应
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 透光镜是 B 维度下汉代铜镜铸造与光学效应结合的专门条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取西汉透光镜的镜背影像效应、铸造应力与研磨压应力解释、上海博物馆「内清质以昭明」实物与隋唐流传；原理两说并列。
 
 ## 相关知识元
 

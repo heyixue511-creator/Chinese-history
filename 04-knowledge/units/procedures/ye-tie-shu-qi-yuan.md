@@ -1,4 +1,5 @@
 ---
+
 title: 冶铁术在中国的出现（Emergence of Iron Smelting in China）
 name_en: Emergence of Iron Smelting in China
 type: procedure
@@ -19,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "冶铁术在中国的出现是 B 维度下铁器技术起源的条目，其年代与器具归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: procedure
+    primary: true
+    scope_note: "只取两说并存与商代考古证据；三处铁刃器原文缺字、未给镍含量检测，铁刃铜钺与玉柄铁剑的器物条归 B.9.6。"
+hierarchy_scope_note: "冶铁术在中国的出现是 B 维度下铁器技术起源的条目，其年代与器具归 B 维度。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -50,10 +59,10 @@ hierarchy_scope_note: "冶铁术在中国的出现是 B 维度下铁器技术起
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 冶铁术在中国的出现是 B 维度下铁器技术起源的条目，其年代与器具归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取两说并存与商代考古证据；三处铁刃器原文缺字、未给镍含量检测，铁刃铜钺与玉柄铁剑的器物条归 B.9.6。
 
 ## 相关知识元
 

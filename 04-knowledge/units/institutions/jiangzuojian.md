@@ -62,17 +62,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "将作监是 D 维度下隋唐官营手工业体系中的土木营建主管机构，与少府监构成“大型工程／日常器具”的分工；其前身为汉至南北朝的将作大匠。Theme/Topic 尚未 materialize。"
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md
+    role: key_institution
+    primary: true
+    scope_note: "将作监是唐代中央掌「土木工匠之政」的机构锚点，辖左校、右校、中校、甄官四署，长官从三品；本 Topic 取其与少府监「工程／产品」的分工、工匠数四说中的三说与短番匠；《营造法式》只取成书经过，营造技术归 B.3。"
+hierarchy_scope_note: "将作监是唐代中央掌「土木工匠之政」的机构锚点，辖左校、右校、中校、甄官四署，长官从三品；本 Topic 取其与少府监「工程／产品」的分工、工匠数四说中的三说与短番匠；《营造法式》只取成书经过，营造技术归 B.3。"
 ---
 
 ## 描述
@@ -101,11 +109,10 @@ hierarchy_scope_note: "将作监是 D 维度下隋唐官营手工业体系中的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与少府监 KU 构成唐代官营手工业的机构分工对，可支持未来的官营生产组织、技术训练制度类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 将作监是唐代中央掌「土木工匠之政」的机构锚点，辖左校、右校、中校、甄官四署，长官从三品；本 Topic 取其与少府监「工程／产品」的分工、工匠数四说中的三说与短番匠；《营造法式》只取成书经过，营造技术归 B.3。
 ## 相关知识元
 
 本批未写回少府监以外的相关机构；少府监 KU 已存在，与本 KU 在来源中被反复并置讨论，但 relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

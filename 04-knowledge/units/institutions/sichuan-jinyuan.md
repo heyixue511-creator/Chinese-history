@@ -34,19 +34,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "四川锦院是北宋元丰六年（1083）在成都所建官营织锦机构，募军匠五百，织机一百五十四张，产品分上贡、官诰、臣僚袄子、广西锦四类；本 Topic 取其编制、设备与产品逐类开列。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "四川锦院是 D 维度下宋代官营织锦机构的条目，其蜀锦品种、织机与用工分工归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "四川锦院是北宋元丰六年（1083）在成都所建官营织锦机构，募军匠五百，织机一百五十四张，产品分上贡、官诰、臣僚袄子、广西锦四类；本 Topic 取其编制、设备与产品逐类开列。"
 ---
 
 ## 描述
@@ -76,12 +84,10 @@ hierarchy_scope_note: "四川锦院是 D 维度下宋代官营织锦机构的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是宋代四川官营织锦机构的条目，可与汴梁绫锦院、宋代染织管理机构、元代建康路织染局并置，观察官营织造的用工、原料与产品分类。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 四川锦院是北宋元丰六年（1083）在成都所建官营织锦机构，募军匠五百，织机一百五十四张，产品分上贡、官诰、臣僚袄子、广西锦四类；本 Topic 取其编制、设备与产品逐类开列。
 ## 相关知识元
 
 `institutions/lingjinyuan.md` 记宋代绫锦院，并已收汴梁绫锦院的规模数据；`institutions/song-dai-ranzhi-guanli-jigou.md` 记宋代染织管理机构；`terms/shu-brocade.md` 记蜀锦；`institutions/jiankanglu-zhiranju.md` 记元代建康路织染局。来源未说明四川锦院与上述机构的隶属或沿革关系，本条不作合并。relation 未审查，不写入正式 `relations`。

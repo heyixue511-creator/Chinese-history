@@ -1,4 +1,5 @@
 ---
+
 title: 铁制农具（Tiezhi Nongju (Iron Farm Tools)）
 name_en: Iron Farm Tools
 type: term
@@ -25,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下春秋战国铁农具的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取春秋战国铁制农具的种类名单与推广一句；无分布与数量，冶铁工序归 B.9.7。"
+hierarchy_scope_note: "本 KU 是 B 维度下春秋战国铁农具的条目。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下春秋战国铁农具的条目。Th
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下春秋战国铁农具的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取春秋战国铁制农具的种类名单与推广一句；无分布与数量，冶铁工序归 B.9.7。
 
 ## 相关知识元
 

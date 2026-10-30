@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取打击乐器转为权力象征的演变、滇粤两系与四类纹样名；纹样母题与解释归 C，年代概括句不作编年。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "铜鼓是 B 维度下西南少数民族青铜乐器的术语条目；鼓面纹样与图像解释归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "铜鼓是 B 维度下西南少数民族青铜乐器的术语条目；鼓面纹样与图像解释归 C 维度。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -66,10 +74,10 @@ hierarchy_scope_note: "铜鼓是 B 维度下西南少数民族青铜乐器的术
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铜鼓是 B 维度下西南少数民族青铜乐器的术语条目；鼓面纹样与图像解释归 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取打击乐器转为权力象征的演变、滇粤两系与四类纹样名；纹样母题与解释归 C，年代概括句不作编年。
 
 ## 相关知识元
 

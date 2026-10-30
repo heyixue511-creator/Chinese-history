@@ -25,20 +25,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取正仓院所藏唐代螺钿五弦琵琶的背板工艺：鸟蝶花卉云形、宝相华文、红碧粉彩、金线与琥珀玳瑁覆面；通长弦制与入藏经过无载。"
 secondary_dimensions:
   - C
   - E
-hierarchy_scope_note: "本条是 B 维度唐代螺钿乐器的单器锚点，镶嵌画面与彩绘属 C 维度，藏于日本正仓院属 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度唐代螺钿乐器的单器锚点，镶嵌画面与彩绘属 C 维度，藏于日本正仓院属 E 维度。已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "本条是 B 维度唐代螺钿乐器的单器锚点，镶
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐代螺钿乐器的单器锚点，镶嵌画面与彩绘属 C 维度，藏于日本正仓院属 E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取正仓院所藏唐代螺钿五弦琵琶的背板工艺：鸟蝶花卉云形、宝相华文、红碧粉彩、金线与琥珀玳瑁覆面；通长弦制与入藏经过无载。
 
 ## 相关知识元
 

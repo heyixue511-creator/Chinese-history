@@ -20,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度冶铁技术史的断代锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: boundary_case
+    primary: true
+    scope_note: "只作人工冶铁上限的器物边界：三门峡虢国墓、西周晚期；正文玉柄与知识链接铜柄两说并列，铁料与锻制工序归后续铁器 Topic。"
+hierarchy_scope_note: "本条是 B 维度冶铁技术史的断代锚点。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -53,11 +61,10 @@ hierarchy_scope_note: "本条是 B 维度冶铁技术史的断代锚点。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度冶铁技术史的断代锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只作人工冶铁上限的器物边界：三门峡虢国墓、西周晚期；正文玉柄与知识链接铜柄两说并列，铁料与锻制工序归后续铁器 Topic。
 ## 相关知识元
 
 同批 `works/iron-blade-bronze-yue.md` 是陨铁阶段的对照材料。本条不构成关系断言。

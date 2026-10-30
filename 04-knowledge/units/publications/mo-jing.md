@@ -40,19 +40,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.16
+secondary_themes:
+  - A
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: supporting_source
+    primary: true
+    scope_note: "只取作为力学文本的一面：赵农 L1996、L2011、L2017 引衡木、本、标、权与车梯、滑轮诸条，夏燕靖两版 L1255/L1257、L1581/L1583/L6149 把几何与力学条目列为「造物的科学知识」并给「可与《考工记》相媲美」的史学定位；篇名未给、原本未见。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "《墨经》在三册中都是“造物的科学知识”条目：几何概念、力学条目、杠杆与滑轮、车梯原理构成主体，故归主维度 B；其“可与《考工记》相媲美”的定位属史学评价，归 A 为次。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "《墨经》在三册中都是“造物的科学知识”条目：几何概念、力学条目、杠杆与滑轮、车梯原理构成主体，故归主维度 B；其“可与《考工记》相媲美”的定位属史学评价，归 A 为次。已挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -94,10 +103,10 @@ hierarchy_scope_note: "《墨经》在三册中都是“造物的科学知识”
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: A（设计史观与方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是先秦造物科学知识的文献锚点，也是“正文与书末条目对同一书名给出不同外延”的样本。可支持未来的《考工记》—《墨经》对举、先秦力学知识、墨家节用思想等 Topic。当前只到 Dimension。
+- primary_theme: B.16（简单机械与力学原理：杠杆、滑轮与省力器具）
+- topic_memberships: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: 只取作为力学文本的一面：赵农 L1996、L2011、L2017 引衡木、本、标、权与车梯、滑轮诸条，夏燕靖两版 L1255/L1257、L1581/L1583/L6149 把几何与力学条目列为「造物的科学知识」并给「可与《考工记》相媲美」的史学定位；篇名未给、原本未见。
 
 ## 相关知识元
 

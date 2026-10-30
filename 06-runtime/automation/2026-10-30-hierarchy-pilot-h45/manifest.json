@@ -1,0 +1,153 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h45",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "在 Theme B.11「漆器与髹饰：胎骨、髹涂与装饰」下新建并物化 B.11.3「漆器实物与墓葬标本：从包山双联杯到新中国漆盘」，把前六册中 27 件漆器与墓葬标本 work KU 主挂载进该 Topic，补齐 B.11 在 h44 中只登记为候选池的器物层。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.35",
+    "baseline_themes": 26,
+    "baseline_topics": 82,
+    "baseline_topic_memberships": 664,
+    "baseline_complete_assignments": 654,
+    "baseline_incomplete_assignments": 1916,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7316,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1318,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1184,
+    "baseline_b_dimension_unmounted": 1201
+  },
+  "result": {
+    "hierarchy_version": "v1.36",
+    "themes": 26,
+    "topics": 83,
+    "topic_memberships": 691,
+    "complete_assignments": 681,
+    "incomplete_assignments": 1889,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7370,
+    "relation_types": "3/67",
+    "member_of_relations": 1372,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1166,
+    "b_dimension_unmounted": 1174,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 0,
+    "new_theme_nodes": 0,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 27,
+    "secondary_mounts": 0,
+    "changed_units": 27,
+    "total_mounted_units": 681,
+    "new_topic_memberships": 27,
+    "theme_organization": "B.11 维持「胎骨—漆层—装饰—实物」四层，本批只补器物层：B.11.1 回答胎怎么成形、漆层怎么上、生产怎么分工，B.11.2 回答同一层漆被处理成什么效果、技法名按什么方式成立，B.11.3 回答六册究竟著录了哪些实物、每件被记到器用、胎骨与工序、纹饰与绘画、名工与款识哪一层。三层不是前后阶段，而是同一批漆器的工序面、装饰面与器物面。",
+    "topic_split": "B.11.3 不按年代而按「记载深度」分四层：有器物尺寸的一层（包山双联杯、望山座屏、朱然墓漆几、擂鼓台漆奁）、有器名与名工款识的一层（张成剔红盒、杨茂剔红八方盘）、只有图注一行的一层（剔犀执镜盒、螺钿朱漆攒盒、螺钿花鸟纹经函、明代雕漆小盒）、以推测或后世作品登记的一层（描金堆雕漆盒的舍利盒用途、金鱼漆盘的 1949 年后归属）。四层之间不互相推导：有尺寸不等于有断代，有款识不等于有工序，有图注不等于有藏地。",
+    "role_distribution": {
+      "representative_work": 24,
+      "boundary_case": 3
+    },
+    "type_distribution": {
+      "work": 27
+    },
+    "theme_cumulative": {
+      "topics": 3,
+      "mounted_units": 52,
+      "type_distribution": {
+        "term": 18,
+        "procedure": 6,
+        "work": 28
+      },
+      "role_distribution": {
+        "term_anchor": 16,
+        "procedure": 6,
+        "representative_work": 25,
+        "historical_context": 1,
+        "boundary_case": 4
+      },
+      "source_overlap_distribution": {
+        "single_book": 43,
+        "two_books": 6,
+        "three_books": 2,
+        "four_books": 1
+      },
+      "confidence_distribution": {
+        "medium": 45,
+        "low": 7
+      }
+    },
+    "source_distribution": {
+      "2004-gaofeng": 4,
+      "2009-xiayanjing": 1,
+      "2009-zhaonong": 2,
+      "2010-tianzibing": 15,
+      "2011-lilixin": 4,
+      "2016-xiayanjing": 3
+    },
+    "source_overlap_distribution": {
+      "single_book": 26,
+      "three_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 20,
+      "low": 7
+    },
+    "consensus_distribution": {
+      "tentative": 27
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：27 条 primary_dimension 全部为 B；B.11.3 的 secondary_themes 为裸维度码 C、D，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，故 cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "works/beiwei-muban-qihua → primary_dimension 为 C（绘画线），维度字段而非题材决定边界，不入 B.11.3",
+      "works/huaniao-renwu-luodian-jing → B.9.3（铜镜）",
+      "works/luodian-wuxian-pipa、works/qi-shuangfeng-gu → B.10.3（弦管与鼓）",
+      "works/he-mudu-zhuqi-muwan → 已由 h44 挂 B.11.1，不重复挂载",
+      "两件宝座与 1949 年后金鱼漆盘以 boundary_case 登记，只取髹饰一面，形制与产业归属不入本 Topic"
+    ],
+    "remaining_candidate_pools": {
+      "B.11.4": "髹饰文献与名工（约十七项：髹饰录、黄大成／黄成、杨茂、张成、张德刚、包亮、周翥、蒋回回、杨埙、姜千里、彭君宝、沈沼安、卢葵生、李芝卿、格古要论、燕闲清赏笺、废艺斋集稿、南村辍耕录）",
+      "policy": "本批只物化器物层，文献名工层继续只登记候选池，不建空 Topic。"
+    }
+  },
+  "changed_files": 40,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/knowledge-graph-data.json"
+  ],
+  "unresolved": [
+    "27 件器物中 20 条 medium、7 条 low，consensus 全部 tentative，无一条达到 high。",
+    "只有四件给出器物尺寸（包山双联杯 9.2／17.6／7 厘米、望山座屏高 15 长 51.8 厘米、朱然墓漆几 26／69.5／13 厘米、擂鼓台漆奁 25／9.7／23.8／8.8 厘米），其余二十三件无尺寸。",
+    "只有两件带名工款识（张成剔红盒针刻「张成造」、雕漆扇柄「君玉」），杨茂八方盘只记传世品而无款识。",
+    "五件只有图注一行（剔犀执镜盒、螺钿朱漆攒盒、明代雕漆小盒等），无尺寸、无藏地、无出土信息。",
+    "三处图注与正文互不一致并列不裁：朱然墓漆槅图注作「槁」、剔黑雕漆花鸟纹盘图注作「剔黑」而正文作「剔彩」、螺钿花鸟纹经函图版 6-49／6-50 交错。",
+    "跨册分记不合并：张成 80 层（田自秉）与张成云纹剔犀盒刀口深 1 厘米（李立新）分属两器；曾侯乙衣箱（赵农）与天象图衣箱（李立新）分属两条；朱然墓漆槅（高丰）与朱然墓漆几（赵农）分属两器。",
+    "北魏木板漆画因 primary_dimension 为 C 留在绘画线，漆器线与绘画线在司马金龙墓这一处材料上不闭合。",
+    "描金堆雕漆盒的舍利盒用途为来源推测；张成剔红盒器名「圆盒／圆盘」并列不裁；望山座屏「50 余」与「51 只」并列不裁。",
+    "来源覆盖不均：田自秉 2010 覆盖 15 件（14 件为唯一来源）、高丰 4 件、李立新 4 件、夏燕靖 2016 3 件、赵农 2 件、夏燕靖 2009 1 件；单册 26 件、三册 1 件。",
+    "夏燕靖 2009 与赵农 2009 同年，本批来源统计按完整 doc_id 区分，后续批次不得沿用年份口径。",
+    "B.11.4「髹饰文献与名工」仍为候选池（约十七项），未物化。",
+    "家具与木作 Theme 仍未建立：朱然墓漆几、鸟足漆凭几、两件宝座的形制谱系与明式清式家具同属无 Theme 可挂。",
+    "重复候选 reconcile 9 组未处理；图注单条待核 12 条与图 7-29 两指问题仍挂账，本批新增未核图版 5-32。",
+    "A 维度遗留：A.1.2 命名逐条对照、1917 年许衍灼《中国工艺史沿革史》未挂载。",
+    "存量债务：未挂载 1889、隔离 1166、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 缺口仍在 hierarchy_assignment（2/10）。"
+  ],
+  "notes": "推导口径：relation 增量 54 = 27 条主挂载 ×（topic member_of + theme member_of），关系总数 7316 → 7370，explicit 5998 不变、member_of 1318 → 1372。隔离单元 1184 → 1166，减 18 而非 27，因为实测 27 条中有 9 条原已有显式关系（其余 18 条此前完全孤立）。B 维度未挂载自算 1201 → 1174，减 27，因为 27 条主挂载的 primary_dimension 全部为 B；B 维度 KU 现存 1629 条。membership 664 → 691（+27），complete 654 → 681（+27），incomplete 1916 → 1889（−27），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.11 三 Topic 合计 52 个 KU（term 18、procedure 6、work 28；term_anchor 16、procedure 6、representative_work 25、historical_context 1、boundary_case 4），单册 43／两册 6／三册 2／四册 1，田自秉 2010 覆盖 36 条（28 条为唯一来源）。changed_files 40 = 本批 apply-plan 32 行（1 个结构节点新建 + 27 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.35.md（68043 字节），与 h44 口径一致不计入 changed_files；README.md 与其余 04-knowledge 改动属此前的 h13–h44 未提交批次，不计入本包。生成态陷阱复现：relation 数变化后首次 audit_rule_drift 报 runtime_index_snapshot_stale 与 output_navigation_snapshot_stale 两项，全量闭包刷新后归 0。hierarchy_stress_test 报 v1.36、themes 26、topics 83、membership 691、complete 681、incomplete 1889、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 57/65、content_findings 0；全量闭包 250 tests + 16 subtests 通过，--check-generated 在第 17 步以 exit=1 报未提交的生成态漂移（git diff HEAD），属未 commit 的预期而非失败。工作区累计 390 项改动属 h13–h45 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

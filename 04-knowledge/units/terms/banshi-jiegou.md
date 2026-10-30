@@ -26,19 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - C
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「由传统的框式向板式结构发展」的结果判断、人造板钢管塑料替代天然木材的材料前提与「更省工、轻便、简洁明快」的效果；节点做法、连接件与板材厚度全无，其 C 维度视觉取向留在 secondary_themes。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度家具结构的条目，简洁明快的视觉取向属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度家具结构的条目，简洁明快的视觉取向属 C 维度。已挂载 B.14.3（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "本条是 B 维度家具结构的条目，简洁明快的
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度家具结构的条目，简洁明快的视觉取向属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「由传统的框式向板式结构发展」的结果判断、人造板钢管塑料替代天然木材的材料前提与「更省工、轻便、简洁明快」的效果；节点做法、连接件与板材厚度全无，其 C 维度视觉取向留在 secondary_themes。
 
 ## 相关知识元
 

@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "红木是 B 维度下家具用材与材料名的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取明清以来稀有硬木统称、「从一开始就不是某一特定树种」、性脆味酸与南方称酸枝，以及赵农记的 20 世纪末重新出现的传统家具时尚；树种清单、物理性能与产地全无，两义并列不裁。"
+hierarchy_scope_note: "红木是 B 维度下家具用材与材料名的条目。已挂载 B.14.4（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "红木是 B 维度下家具用材与材料名的条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 红木是 B 维度下家具用材与材料名的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取明清以来稀有硬木统称、「从一开始就不是某一特定树种」、性脆味酸与南方称酸枝，以及赵农记的 20 世纪末重新出现的传统家具时尚；树种清单、物理性能与产地全无，两义并列不裁。
 
 ## 相关知识元
 

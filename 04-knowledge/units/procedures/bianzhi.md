@@ -43,17 +43,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "编织是 B 维度下新石器时代编结工序的条目，其纹样与器物类型归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.17
+secondary_themes:
+  - D
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md
+    role: procedure
+    primary: true
+    scope_note: "只取河姆渡苇席残片最大 1 平方米、绳索粗 1.2 厘米细 2—3 毫米、良渚竹编席子箩筐簸箕篮子与十字纹人字纹梅花眼辫子口、仰韶苇席四种编法、钱山漾 200 多件竹编遗物与篾条刮光扁篾辫子口；无编结工具、经纬密度与工时。"
+hierarchy_scope_note: "编织是 B 维度下新石器时代编结工序的条目，其纹样与器物类型归 B 维度。已挂载 B.17.1（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -87,10 +96,10 @@ hierarchy_scope_note: "编织是 B 维度下新石器时代编结工序的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 编织是 B 维度下新石器时代编结工序的条目，其纹样与器物类型归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取河姆渡苇席残片最大 1 平方米、绳索粗 1.2 厘米细 2—3 毫米、良渚竹编席子箩筐簸箕篮子与十字纹人字纹梅花眼辫子口、仰韶苇席四种编法、钱山漾 200 多件竹编遗物与篾条刮光扁篾辫子口；无编结工具、经纬密度与工时。
 
 ## 相关知识元
 

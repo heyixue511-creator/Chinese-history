@@ -27,19 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取办公家具与公共场所器具的两分、两类清单、「家具社会化的热闹景象」一句判断与按场合区分木材塑料压缩板材的材料条款；无设计者、无尺度标准、无采购与配置制度，机构配置与家具社会化归 D 维度。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "公共器具是 B 维度下办公与公共场所家具器用的条目；其机构配置与家具社会化属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "公共器具是 B 维度下办公与公共场所家具器用的条目；其机构配置与家具社会化属 D 维度。已挂载 B.14.7（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "公共器具是 B 维度下办公与公共场所家具器
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 公共器具是 B 维度下办公与公共场所家具器用的条目；其机构配置与家具社会化属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取办公家具与公共场所器具的两分、两类清单、「家具社会化的热闹景象」一句判断与按场合区分木材塑料压缩板材的材料条款；无设计者、无尺度标准、无采购与配置制度，机构配置与家具社会化归 D 维度。
 
 ## 相关知识元
 

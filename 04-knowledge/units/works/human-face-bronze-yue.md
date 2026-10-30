@@ -20,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度殷商青铜兵器的评述性锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: boundary_case
+    primary: true
+    scope_note: "只作殷商兵器装饰的评述锚点：与食人卣同属造型怪诞、令人神秘甚至恐怖的一类；形制、尺寸、出土与收藏无载，不作钺的形制样本。"
+hierarchy_scope_note: "本条是 B 维度殷商青铜兵器的评述性锚点。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -52,11 +60,10 @@ hierarchy_scope_note: "本条是 B 维度殷商青铜兵器的评述性锚点。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度殷商青铜兵器的评述性锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只作殷商兵器装饰的评述锚点：与食人卣同属造型怪诞、令人神秘甚至恐怖的一类；形制、尺寸、出土与收藏无载，不作钺的形制样本。
 ## 相关知识元
 
 同批 `works/man-eating-you.md` 与之并列。本条不构成关系断言。

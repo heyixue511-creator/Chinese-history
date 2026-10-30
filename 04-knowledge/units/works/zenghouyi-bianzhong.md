@@ -52,20 +52,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取层数、五个八度、中部十二个半音、64 件与 65 枚两说与浑铸法；钟鸣鼎食的礼乐组合归 D，钟体铭文归 C。"
 secondary_dimensions:
   - D
   - C
-hierarchy_scope_note: "曾侯乙编钟是 B 维度下战国青铜铸造与乐器设计的规模锚点：件数、层次、音域与铸造工艺在此汇合。其“钟鸣鼎食”的礼乐组合、用钟的等级规定归 D 维度；钟体铭文作为乐律与文字资料归 C 维度。田自秉一册只给编钟作为器类的形制术语，全册未提曾侯乙。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "曾侯乙编钟是 B 维度下战国青铜铸造与乐器设计的规模锚点：件数、层次、音域与铸造工艺在此汇合。其“钟鸣鼎食”的礼乐组合、用钟的等级规定归 D 维度；钟体铭文作为乐律与文字资料归 C 维度。田自秉一册只给编钟作为器类的形制术语，全册未提曾侯乙。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -100,10 +108,10 @@ hierarchy_scope_note: "曾侯乙编钟是 B 维度下战国青铜铸造与乐器
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）、C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国青铜铸造规模、分范合铸工艺与乐器音律设计的三重锚点，也是“礼乐组合”从制度落到器物的节点。可支持未来的曾侯乙墓乐器群、编钟铸造与调音、用钟等级制度等 Topic。当前只到 Dimension。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取层数、五个八度、中部十二个半音、64 件与 65 枚两说与浑铸法；钟鸣鼎食的礼乐组合归 D，钟体铭文归 C。
 
 ## 相关知识元
 

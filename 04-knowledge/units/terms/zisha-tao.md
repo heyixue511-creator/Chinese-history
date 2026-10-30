@@ -53,17 +53,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 4
+version: 5
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "紫砂陶是 B 维度下宜兴陶器类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: term_anchor
+    primary: true
+    scope_note: "紫砂陶是 B.5.5 的类别起点：紫砂泥色泽紫红，另有白泥、绿泥、大红泥，深藏岩层下、风化研磨制器，经 1000 多度烧成，不挂釉，以造型取胜「方非一式，圆不一样」，多施浅刻；多做茶具，有泡茶色纯、隔夜不馊、用久味永、泥色生辉之说，而田自秉另给「隔夜不馊」的物理辨析——不是泥有特异性能，而是壶盖细孔吸水汽、不致水珠回落加速发酵"
+hierarchy_scope_note: "紫砂陶是 B.5.5 的类别起点：紫砂泥色泽紫红，另有白泥、绿泥、大红泥，深藏岩层下、风化研磨制器，经 1000 多度烧成，不挂釉，以造型取胜「方非一式，圆不一样」，多施浅刻；多做茶具，有泡茶色纯、隔夜不馊、用久味永、泥色生辉之说，而田自秉另给「隔夜不馊」的物理辨析——不是泥有特异性能，而是壶盖细孔吸水汽、不致水珠回落加速发酵"
 ---
 
 ## 描述
@@ -100,10 +108,10 @@ hierarchy_scope_note: "紫砂陶是 B 维度下宜兴陶器类型的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 紫砂陶是 B 维度下宜兴陶器类型的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 紫砂陶是 B.5.5 的类别起点：紫砂泥色泽紫红，另有白泥、绿泥、大红泥，深藏岩层下、风化研磨制器，经 1000 多度烧成，不挂釉，以造型取胜「方非一式，圆不一样」，多施浅刻；多做茶具，有泡茶色纯、隔夜不馊、用久味永、泥色生辉之说，而田自秉另给「隔夜不馊」的物理辨析——不是泥有特异性能，而是壶盖细孔吸水汽、不致水珠回落加速发酵
 
 ## 相关知识元
 

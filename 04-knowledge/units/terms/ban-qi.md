@@ -1,4 +1,5 @@
 ---
+
 title: 斑漆（Ban Lacquer (Mottled Lacquer)）
 name_en: Ban Lacquer (Mottled Lacquer)
 type: term
@@ -28,18 +29,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取六朝新创造、多色交混与单色显深浅两法、仅见文献无遗物三项；不替来源裁决与犀皮的传承。"
 secondary_dimensions:
-hierarchy_scope_note: "斑漆是 B 维度下六朝漆器类型的条目，其变涂源流涉及髹漆工艺技术谱系。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "斑漆是 B 维度下六朝漆器类型的条目，其变涂源流涉及髹漆工艺技术谱系。已挂载 B.11.2（髹饰技法：金饰、刻填、磨显与镶嵌）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "斑漆是 B 维度下六朝漆器类型的条目，其变
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 斑漆是 B 维度下六朝漆器类型的条目，其变涂源流涉及髹漆工艺技术谱系。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取六朝新创造、多色交混与单色显深浅两法、仅见文献无遗物三项；不替来源裁决与犀皮的传承。
 
 ## 相关知识元
 

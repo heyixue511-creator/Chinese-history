@@ -43,17 +43,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "幞头是 B 维度下隋唐至宋代首服的形制条目；巾帛裁剪、软硬脚构造属 B，服色等级与帝王专用制度牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取构造工序（四角成带、两中角系髻、余端下垂、软脚、加铜铁丝成硬脚、翘脚与展脚、盛唐加衬木藤皮革）与等级方向自相矛盾的两说（唐代帝王专用／宋代不分贵贱）；幅巾源流两说与《旧唐书》《新唐书》《宋史》引文并列照录，不替作者改字。"
+hierarchy_scope_note: "幞头是 B 维度下隋唐至宋代首服的形制条目；巾帛裁剪、软硬脚构造属 B，服色等级与帝王专用制度牵涉 C 维度。已挂载 B.18.5（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -103,10 +110,10 @@ hierarchy_scope_note: "幞头是 B 维度下隋唐至宋代首服的形制条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是首服条目，与 `terms/xiapei.md`（霞帔）同属服饰类但部位不同：幞头在头，霞帔在身。与 `terms/shenyi.md`（深衣）、`terms/qipao.md`（旗袍）等衣装条目不在同一部件层级。可与唐代服色制度、宋代公服、首服形制演变合成 Topic。当前只到 Dimension。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取构造工序（四角成带、两中角系髻、余端下垂、软脚、加铜铁丝成硬脚、翘脚与展脚、盛唐加衬木藤皮革）与等级方向自相矛盾的两说（唐代帝王专用／宋代不分贵贱）；幅巾源流两说与《旧唐书》《新唐书》《宋史》引文并列照录，不替作者改字。
 
 ## 相关知识元
 

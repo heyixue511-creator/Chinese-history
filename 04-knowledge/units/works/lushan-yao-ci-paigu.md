@@ -25,18 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: boundary_case
+    primary: true
+    scope_note: "以边界登记：全部记载为图注「鲁山窑瓷拍鼓(唐)」与鲁山为主要产地一句；鼓形鼓钉皮膜尺寸全无，与花釉腰鼓的重复未裁。"
 secondary_dimensions:
-hierarchy_scope_note: "鲁山窑瓷拍鼓是 B 维度下唐代鲁山窑花瓷乐器的图版锚点，只记器名与鲁山窑的产地背景。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "鲁山窑瓷拍鼓是 B 维度下唐代鲁山窑花瓷乐器的图版锚点，只记器名与鲁山窑的产地背景。已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: "鲁山窑瓷拍鼓是 B 维度下唐代鲁山窑花瓷乐
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 鲁山窑瓷拍鼓是 B 维度下唐代鲁山窑花瓷乐器的图版锚点，只记器名与鲁山窑的产地背景。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 以边界登记：全部记载为图注「鲁山窑瓷拍鼓(唐)」与鲁山为主要产地一句；鼓形鼓钉皮膜尺寸全无，与花釉腰鼓的重复未裁。
 
 ## 相关知识元
 

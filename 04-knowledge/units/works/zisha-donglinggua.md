@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度清代宜兴紫砂的器物锚点，材料为图注一行加同段紫砂通说。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: representative_work
+    primary: true
+    scope_note: "紫砂「东陵瓜」是 B.5.5 清代端的器物锚点，材料只有 2016 册图 9-27 图注一行「清代 紫砂东陵瓜」加同段紫砂通说；器形所指、尺寸、作者、款识与藏地均未载，图版未核——只登记为清代紫砂器的存在证据，不据以描述任何器形"
+hierarchy_scope_note: "紫砂「东陵瓜」是 B.5.5 清代端的器物锚点，材料只有 2016 册图 9-27 图注一行「清代 紫砂东陵瓜」加同段紫砂通说；器形所指、尺寸、作者、款识与藏地均未载，图版未核——只登记为清代紫砂器的存在证据，不据以描述任何器形"
 ---
 
 ## 描述
@@ -52,10 +60,10 @@ hierarchy_scope_note: "本条是 B 维度清代宜兴紫砂的器物锚点，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代宜兴紫砂的器物锚点，材料为图注一行加同段紫砂通说。Theme/Topic 尚未 materialize。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 紫砂「东陵瓜」是 B.5.5 清代端的器物锚点，材料只有 2016 册图 9-27 图注一行「清代 紫砂东陵瓜」加同段紫砂通说；器形所指、尺寸、作者、款识与藏地均未载，图版未核——只登记为清代紫砂器的存在证据，不据以描述任何器形
 
 ## 相关知识元
 

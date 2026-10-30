@@ -35,19 +35,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取榻为「小床」的定性、汉榻尺度推测（长 75－100、宽 60－100、高 12－28 厘米）与魏晋分化（独榻、连榻）及两件实例；尺度为按人榻比例推测而非实测，不向魏晋榻外推。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "榻是 B 维度下汉至魏晋南北朝起居家具的形制条目，其尺度、坐姿与礼俗相关，旁及 A 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "榻是 B 维度下汉至魏晋南北朝起居家具的形制条目，其尺度、坐姿与礼俗相关，旁及 A 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -99,10 +107,10 @@ hierarchy_scope_note: "榻是 B 维度下汉至魏晋南北朝起居家具的形
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是汉至魏晋南北朝榻的形制条目；汉代家具总条见 `terms/han-dai-jia-ju.md`，漆木家具见 `terms/qimu-jiaju.md`，枰见 `terms/ping-furniture.md`。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取榻为「小床」的定性、汉榻尺度推测（长 75－100、宽 60－100、高 12－28 厘米）与魏晋分化（独榻、连榻）及两件实例；尺度为按人榻比例推测而非实测，不向魏晋榻外推。
 
 ## 相关知识元
 

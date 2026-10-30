@@ -37,19 +37,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: representative_work
+    primary: true
+    scope_note: "只取绍兴画像镜的浮雕立体感、吴王／伍子胥／越王／范蠡／越女五人物、上海博物馆藏与「历史题材首见」判断；三册互补。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "伍子胥画像镜是 B 维度下六朝铜镜的工艺样本（绍兴铸镜、浮雕手法、立体感），其以历史故事为镜背图像、人物多达五名，归 C 维度的图像叙事。四册均不描述其纹样布局与铭文。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "伍子胥画像镜是 B 维度下六朝铜镜的工艺样本（绍兴铸镜、浮雕手法、立体感），其以历史故事为镜背图像、人物多达五名，归 C 维度的图像叙事。四册均不描述其纹样布局与铭文。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -77,11 +85,10 @@ hierarchy_scope_note: "伍子胥画像镜是 B 维度下六朝铜镜的工艺样
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六朝绍兴铸镜业的单件样本，也是“铜镜作为历史故事载体”的最早案例（依夏燕靖“尚属首见”之说）。可支持未来的六朝铜镜产地与工艺、画像镜的图像叙事、纪年铭文与私家铸镜等 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取绍兴画像镜的浮雕立体感、吴王／伍子胥／越王／范蠡／越女五人物、上海博物馆藏与「历史题材首见」判断；三册互补。
 
 ## 相关知识元
 

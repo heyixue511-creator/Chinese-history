@@ -1,4 +1,5 @@
 ---
+
 title: 耦犁（Ou Li (Two-Ox Plow)）
 name_en: Ou Li (Two-Ox Plow)
 type: term
@@ -22,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的农具术语条目，关注二牛三人耕作法的操作组织；Theme/Topic 尚未 materialize。
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取二牛三人的分工描述；犁体结构与铁犁铧形制无载，赵过的官职与推广组织归 D 维度。"
+hierarchy_scope_note: "B 维度下的农具术语条目，关注二牛三人耕作法的操作组织。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -53,10 +62,10 @@ hierarchy_scope_note: B 维度下的农具术语条目，关注二牛三人耕�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的农具术语条目，关注二牛三人耕作法的操作组织；Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取二牛三人的分工描述；犁体结构与铁犁铧形制无载，赵过的官职与推广组织归 D 维度。
 
 ## 相关知识元
 

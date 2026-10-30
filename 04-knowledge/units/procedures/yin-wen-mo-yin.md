@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "印纹（模印）装饰是 B 维度下春秋战国青铜器纹饰复制工序的条目，其纹样格式与器物装饰归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: procedure
+    primary: true
+    scope_note: "只取商周器模雕纹到春秋印纹阶段的转折、一模多用与四周衔接要求、商代单独纹样—周代二方连续—春秋战国四方连续的格式变化；不展开具体纹样母题。"
+hierarchy_scope_note: "印纹（模印）装饰是 B 维度下春秋战国青铜器纹饰复制工序的条目，其纹样格式与器物装饰归 B 维度。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -65,11 +73,10 @@ hierarchy_scope_note: "印纹（模印）装饰是 B 维度下春秋战国青铜
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 印纹（模印）装饰是 B 维度下春秋战国青铜器纹饰复制工序的条目，其纹样格式与器物装饰归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取商周器模雕纹到春秋印纹阶段的转折、一模多用与四周衔接要求、商代单独纹样—周代二方连续—春秋战国四方连续的格式变化；不展开具体纹样母题。
 ## 相关知识元
 
 `procedures/hefan-fa.md` 记青铜器制范与纹饰反印，与本条的模印装饰同属“以模复制纹样”的技术谱系；`terms/geometric-stamped-pottery.md` 与 `terms/geometric-stamped-hard-pottery.md` 记陶器上的几何印纹，材质与工序不同，不应与本条混为一条；`terms/qingtong.md` 记青铜材质。relation 未审查。

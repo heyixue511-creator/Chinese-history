@@ -41,19 +41,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md
+    role: key_institution
+    primary: true
+    scope_note: "明代内廷漆作；张德刚、包亮掌理技艺与「厂制」"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "果园厂是 D 维度下明代宫廷漆器生产机构的条目，其雕漆、填漆工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "明代内廷漆作；张德刚、包亮掌理技艺与「厂制」"
 ---
 
 ## 描述
@@ -84,11 +92,10 @@ hierarchy_scope_note: "果园厂是 D 维度下明代宫廷漆器生产机构的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 D 维度下明代宫廷漆器生产机构的锚点，可与清代造办处漆作、黄大成《髹饰录》和明代宫廷造物序列并置。当前只到 Dimension。
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 明代内廷漆作；张德刚、包亮掌理技艺与「厂制」
 
 ## 相关知识元
 

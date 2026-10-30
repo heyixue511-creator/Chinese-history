@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "清代家具三大名作是 B 维度下清代家具地域风格的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取苏作广作京作的合称、「三者造型与装饰设计各具地方特色」与「一直保持到现在」两句；两版几乎逐字相同，均未展开三作差异，具体特征只在清式条内。"
+hierarchy_scope_note: "清代家具三大名作是 B 维度下清代家具地域风格的条目。已挂载 B.14.5（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "清代家具三大名作是 B 维度下清代家具地域
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 清代家具三大名作是 B 维度下清代家具地域风格的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取苏作广作京作的合称、「三者造型与装饰设计各具地方特色」与「一直保持到现在」两句；两版几乎逐字相同，均未展开三作差异，具体特征只在清式条内。
 
 ## 相关知识元
 

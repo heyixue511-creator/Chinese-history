@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取元代金细工艺的掐、累、镶嵌尖端定义与五品以上用金玉茶酒器的制度限制；无实例与工序，制度史归 D.6。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 金细工艺是 B 维度下元代金器细工的条目，其五品以上用金玉茶酒器的限制属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: 金细工艺是 B 维度下元代金器细工的条目，其五品以上用金玉茶酒器的限制属 D 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: 金细工艺是 B 维度下元代金器细工的条目，�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 金细工艺是 B 维度下元代金器细工的条目，其五品以上用金玉茶酒器的限制属 D 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取元代金细工艺的掐、累、镶嵌尖端定义与五品以上用金玉茶酒器的制度限制；无实例与工序，制度史归 D.6。
 ## 相关知识元
 
 `procedures/nianjin-pianjin.md` 记织金线的片金与捻金，与本条同属加金工艺但材质不同；`terms/nashishi.md` 记织金锦。relation 未审查。

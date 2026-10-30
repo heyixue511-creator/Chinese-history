@@ -39,17 +39,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "石湾窑是 B 维度下明代精陶与近现代陶塑产地条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: geographical_context
+    primary: true
+    scope_note: "石湾窑是 B.5.5 中间一条：与宜兴并称「明代两个生产精陶的名窑」，多仿钧窑、釉色浓厚称泥钧（广钧、佛山钧三名并存）；近现代以陶塑最有名，部分上釉、局部露胎，使胎与釉形成色泽对比——三条路线中唯一「露一半」的一条，也是唯一保留厚釉的一条"
+hierarchy_scope_note: "石湾窑是 B.5.5 中间一条：与宜兴并称「明代两个生产精陶的名窑」，多仿钧窑、釉色浓厚称泥钧（广钧、佛山钧三名并存）；近现代以陶塑最有名，部分上釉、局部露胎，使胎与釉形成色泽对比——三条路线中唯一「露一半」的一条，也是唯一保留厚釉的一条"
 ---
 
 ## 描述
@@ -82,10 +90,10 @@ hierarchy_scope_note: "石湾窑是 B 维度下明代精陶与近现代陶塑产
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明代“精陶”一线的南方端点：与宜兴窑并称，一在太湖、一在珠江，均以陶而非瓷立目；近现代段则显示同地由仿钧转向陶塑与花釉。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 石湾窑是 B.5.5 中间一条：与宜兴并称「明代两个生产精陶的名窑」，多仿钧窑、釉色浓厚称泥钧（广钧、佛山钧三名并存）；近现代以陶塑最有名，部分上釉、局部露胎，使胎与釉形成色泽对比——三条路线中唯一「露一半」的一条，也是唯一保留厚釉的一条
 
 ## 相关知识元
 

@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "花丝工艺是 B 维度下魏晋南北朝金银细工的技艺条目，其首饰形制与纹样同属 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取西晋花丝断代条：细丝盘绕花形、洛阳金村／宜兴／南京栖霞山三批出土与「错采镂金」总评；不给丝径、成色与焊接方法，不与 terms/huasi 合并。"
+hierarchy_scope_note: "花丝工艺是 B 维度下魏晋南北朝金银细工的技艺条目，其首饰形制与纹样同属 B 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "花丝工艺是 B 维度下魏晋南北朝金银细工的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 花丝工艺是 B 维度下魏晋南北朝金银细工的技艺条目，其首饰形制与纹样同属 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取西晋花丝断代条：细丝盘绕花形、洛阳金村／宜兴／南京栖霞山三批出土与「错采镂金」总评；不给丝径、成色与焊接方法，不与 terms/huasi 合并。
 ## 相关知识元
 
 `works/niutou-lujiao-jin-shijian.md` 记同段图 5-18 的三国牛头鹿角金饰件，属金银细工实物，但来源未把它系于西晋花丝；`works/zhu-bishan-yincha.md` 记元代银槎，属后世金银细工的另一类器物。relation 未审查。

@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「利用胡床的原理、可任意折叠、便于携带」与《清明上河图》虹桥摊贩一句；尺寸、材料、折叠构件与制作工序全无，图像未核。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "折叠桌是 B 维度下宋代家具的条目；其《清明上河图》图像证据归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "折叠桌是 B 维度下宋代家具的条目；其《清明上河图》图像证据归 C 维度。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "折叠桌是 B 维度下宋代家具的条目；其《清
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 折叠桌是 B 维度下宋代家具的条目；其《清明上河图》图像证据归 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「利用胡床的原理、可任意折叠、便于携带」与《清明上河图》虹桥摊贩一句；尺寸、材料、折叠构件与制作工序全无，图像未核。
 
 ## 相关知识元
 

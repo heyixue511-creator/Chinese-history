@@ -1,4 +1,5 @@
 ---
+
 title: 翻车（龙骨水车）（Fanche (Dragon-Bone Water Lift)）
 name_en: Fanche (Dragon-Bone Water Lift)
 type: work
@@ -29,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本条是 B 维度三国曹魏提水农具的条目，关联马钧的造物设计，Theme/Topic 尚未 materialize。
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取马钧翻车的运转方式与灌溉效果；标题「龙骨水车」与正文「翻车」两称并存，尺寸、部件与传动结构无载。"
+hierarchy_scope_note: "本条是 B 维度三国曹魏提水农具的条目，关联马钧的造物设计，。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: 本条是 B 维度三国曹魏提水农具的条目，关�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度三国曹魏提水农具的条目，关联马钧的造物设计，Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取马钧翻车的运转方式与灌溉效果；标题「龙骨水车」与正文「翻车」两称并存，尺寸、部件与传动结构无载。
 
 ## 相关知识元
 

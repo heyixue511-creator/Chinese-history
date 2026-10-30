@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: geographical_context
+    primary: true
+    scope_note: "邓县学庄画像砖墓是 B.5.6 的北方唯一发现地与施彩时序的唯一证据：1957 年河南邓县学庄发现，六朝画像砖在北方只此一处、南方以江苏最集中；题材分车骑出行、神话传说与孝子故事、飞天供养与珍禽瑞兽三类；浅浮雕、线条飘舞，「烧成后在部分画面上填染颜色，有的多达七种」是六册中唯一交代施彩在烧后的记载，七色色名未记"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "邓县学庄画像砖墓是 B 维度下六朝画像砖的北方标尺条目；题材的图像志分析属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "邓县学庄画像砖墓是 B.5.6 的北方唯一发现地与施彩时序的唯一证据：1957 年河南邓县学庄发现，六朝画像砖在北方只此一处、南方以江苏最集中；题材分车骑出行、神话传说与孝子故事、飞天供养与珍禽瑞兽三类；浅浮雕、线条飘舞，「烧成后在部分画面上填染颜色，有的多达七种」是六册中唯一交代施彩在烧后的记载，七色色名未记"
 ---
 
 ## 描述
@@ -65,11 +73,10 @@ hierarchy_scope_note: "邓县学庄画像砖墓是 B 维度下六朝画像砖的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六朝画像砖的北方标尺：与南方南京、丹阳的砖印壁画构成南北对照，与汉代画像砖构成早晚对照。当前只到 Dimension。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 邓县学庄画像砖墓是 B.5.6 的北方唯一发现地与施彩时序的唯一证据：1957 年河南邓县学庄发现，六朝画像砖在北方只此一处、南方以江苏最集中；题材分车骑出行、神话传说与孝子故事、飞天供养与珍禽瑞兽三类；浅浮雕、线条飘舞，「烧成后在部分画面上填染颜色，有的多达七种」是六册中唯一交代施彩在烧后的记载，七色色名未记
 
 ## 相关知识元
 

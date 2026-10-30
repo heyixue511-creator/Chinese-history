@@ -1,4 +1,5 @@
 ---
+
 title: 踏犁（Tread Plough）
 name_en: Tread Plough
 type: term
@@ -27,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取长柄加横木、以脚踏镵入土与「原为石器时期耒耜样式的流传」一句；操作人数与翻土效率无载。"
 secondary_dimensions:
-hierarchy_scope_note: "踏犁是 B 维度下宋代南方农具的条目，材料限于结构、源流与使用。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "踏犁是 B 维度下宋代南方农具的条目，材料限于结构、源流与使用。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -59,10 +68,10 @@ hierarchy_scope_note: "踏犁是 B 维度下宋代南方农具的条目，材料
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 踏犁是 B 维度下宋代南方农具的条目，材料限于结构、源流与使用。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取长柄加横木、以脚踏镵入土与「原为石器时期耒耜样式的流传」一句；操作人数与翻土效率无载。
 
 ## 相关知识元
 

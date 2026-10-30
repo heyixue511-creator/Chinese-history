@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: term_anchor
+    primary: true
+    scope_note: "画象砖是 B.5.6 的类别起点：艺术性较高、有空心砖与方砖两种；空心砖又称圹砖，中空故「易烧，体轻，并可防潮」，制法是模印上下两面与前后两侧四片泥坯花纹再粘合、两头加封泥片各开一孔；方砖多为四川成都所产，已发现 70 余种、用阴刻花模套印、花纹呈浅浮雕——本 Topic 只取模印成形与墓室位置，题材与构图分析归 C"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "画象砖是 C 维度下汉代图像砖的术语条目；空心砖与方砖的模印、粘合、烧制工艺归 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "画象砖是 B.5.6 的类别起点：艺术性较高、有空心砖与方砖两种；空心砖又称圹砖，中空故「易烧，体轻，并可防潮」，制法是模印上下两面与前后两侧四片泥坯花纹再粘合、两头加封泥片各开一孔；方砖多为四川成都所产，已发现 70 余种、用阴刻花模套印、花纹呈浅浮雕——本 Topic 只取模印成形与墓室位置，题材与构图分析归 C"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "画象砖是 C 维度下汉代图像砖的术语条目；
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 画象砖是 C 维度下汉代图像砖的术语条目；空心砖与方砖的模印、粘合、烧制工艺归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 画象砖是 B.5.6 的类别起点：艺术性较高、有空心砖与方砖两种；空心砖又称圹砖，中空故「易烧，体轻，并可防潮」，制法是模印上下两面与前后两侧四片泥坯花纹再粘合、两头加封泥片各开一孔；方砖多为四川成都所产，已发现 70 余种、用阴刻花模套印、花纹呈浅浮雕——本 Topic 只取模印成形与墓室位置，题材与构图分析归 C
 
 ## 相关知识元
 

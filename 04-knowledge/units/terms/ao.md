@@ -24,17 +24,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的服饰形制条目，记录袄的早期形制与南传；Theme/Topic 尚未 materialize。
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取北朝皮制短袄（袖口窄紧、北方游牧打扮）与南传一句；源文在「襦与袄相」处被图注隔断，照录标疑。"
+hierarchy_scope_note: "B 维度下的服饰形制条目，记录袄的早期形制与南传。已挂载 B.18.3（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -53,10 +60,10 @@ hierarchy_scope_note: B 维度下的服饰形制条目，记录袄的早期形�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的服饰形制条目，记录袄的早期形制与南传；Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取北朝皮制短袄（袖口窄紧、北方游牧打扮）与南传一句；源文在「襦与袄相」处被图注隔断，照录标疑。
 
 ## 相关知识元
 

@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "木棉提举司是元至元二十六年（1289）在浙东、江东、江西、湖广、福建所设的棉布征收官署，岁输棉布十万匹；本 Topic 取其为六册唯一以实物定额记载新兴棉织业的机构。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "木棉提举司是 D 维度下元代棉织管理机构的条目，其棉布生产与纺织工具归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "木棉提举司是元至元二十六年（1289）在浙东、江东、江西、湖广、福建所设的棉布征收官署，岁输棉布十万匹；本 Topic 取其为六册唯一以实物定额记载新兴棉织业的机构。"
 ---
 
 ## 描述
@@ -67,12 +75,10 @@ hierarchy_scope_note: "木棉提举司是 D 维度下元代棉织管理机构的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是元代棉织管理机构的条目，可与元代纳失失局、建康路织染局、黄道婆技术传播并置，观察元政府对新兴棉织业的征缴与区域布局。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 木棉提举司是元至元二十六年（1289）在浙东、江东、江西、湖广、福建所设的棉布征收官署，岁输棉布十万匹；本 Topic 取其为六册唯一以实物定额记载新兴棉织业的机构。
 ## 相关知识元
 
 `persons/huang-daopo.md` 记黄道婆；`institutions/nashishiju.md` 记元代纳失失局；`institutions/jiankanglu-zhiranju.md` 记元代建康路织染局；`institutions/lingjinyuan.md` 记元代绫锦院。来源未说明木棉提举司与上述机构的隶属或沿革关系，本条不作合并；黄道婆条与本条分属人物与技术传播层面。relation 未审查，不写入正式 `relations`。

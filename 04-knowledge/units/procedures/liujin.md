@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "鎏金是 B 维度下战国金属镀饰工艺条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: procedure
+    primary: true
+    scope_note: "只取金汞齐、涂器、炭火烤汞的鎏金工序与田自秉一比七金泥配比、赵农战国中期已应用；鎏银、汞毒防护与金层厚度无载。"
+hierarchy_scope_note: "鎏金是 B 维度下战国金属镀饰工艺条目。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -58,11 +66,10 @@ hierarchy_scope_note: "鎏金是 B 维度下战国金属镀饰工艺条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 鎏金是 B 维度下战国金属镀饰工艺条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取金汞齐、涂器、炭火烤汞的鎏金工序与田自秉一比七金泥配比、赵农战国中期已应用；鎏银、汞毒防护与金层厚度无载。
 ## 相关知识元
 
 与本批 `procedures/chuihui-fa.md` 同属金属与汞、灰介质的处理工艺，但目标一为提银、一为镀金；relation 未审查。

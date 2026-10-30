@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取枰的器形（方形枰面、四周不起沿、矩尺形足、足间壶门形）、望都 1 号东汉墓壁画独坐人像与「汉代漆木家具品种」的归类；正文「秤」与品种名「枰」的异写照录不裁。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "枰是 B 维度下汉代起居家具的形制条目，其席地而坐的生活方式相关背景旁及 A 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "枰是 B 维度下汉代起居家具的形制条目，其席地而坐的生活方式相关背景旁及 A 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -80,10 +88,10 @@ hierarchy_scope_note: "枰是 B 维度下汉代起居家具的形制条目，其
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是汉代枰的形制条；汉代家具总条见 `terms/han-dai-jia-ju.md`，榻见 `terms/han-ta.md`，屏风见 `terms/ping-feng.md`。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取枰的器形（方形枰面、四周不起沿、矩尺形足、足间壶门形）、望都 1 号东汉墓壁画独坐人像与「汉代漆木家具品种」的归类；正文「秤」与品种名「枰」的异写照录不裁。
 
 ## 相关知识元
 

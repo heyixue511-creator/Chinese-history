@@ -23,17 +23,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 假髻是 B 维度下魏晋南北朝妇女头饰与发式造型的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取普遍使用、《北齐书》「危邪之状如飞鸟」引文与「发饰变化带来化妆技术兴盛」一句（白粉、红粉、黛）作为发与面的唯一接口；材质、制法、尺寸与出土实物全缺，图 5-25 未核。"
+hierarchy_scope_note: "假髻是 B 维度下魏晋南北朝妇女头饰与发式造型的条目。已挂载 B.18.5（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -52,10 +59,10 @@ hierarchy_scope_note: 假髻是 B 维度下魏晋南北朝妇女头饰与发式�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 假髻是 B 维度下魏晋南北朝妇女头饰与发式造型的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取普遍使用、《北齐书》「危邪之状如飞鸟」引文与「发饰变化带来化妆技术兴盛」一句（白粉、红粉、黛）作为发与面的唯一接口；材质、制法、尺寸与出土实物全缺，图 5-25 未核。
 
 ## 相关知识元
 

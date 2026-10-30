@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "采莲画象砖是 B.5.6 方砖以主题内容立身的样本：四川德阳黄浒镇出土，画面为莲塘、水鸭、采莲船与远山飞鸟，来源称其既是劳动图也是风景画并分析其均衡节奏；本 Topic 只登记它为一件模印方砖，尺寸、墓属、藏地与模印方法均未载，构图分析归 C"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "采莲画象砖是 C 维度下汉代画象砖的器物条目；砖的模印与烧制归 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "采莲画象砖是 B.5.6 方砖以主题内容立身的样本：四川德阳黄浒镇出土，画面为莲塘、水鸭、采莲船与远山飞鸟，来源称其既是劳动图也是风景画并分析其均衡节奏；本 Topic 只登记它为一件模印方砖，尺寸、墓属、藏地与模印方法均未载，构图分析归 C"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "采莲画象砖是 C 维度下汉代画象砖的器物条
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 采莲画象砖是 C 维度下汉代画象砖的器物条目；砖的模印与烧制归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 采莲画象砖是 B.5.6 方砖以主题内容立身的样本：四川德阳黄浒镇出土，画面为莲塘、水鸭、采莲船与远山飞鸟，来源称其既是劳动图也是风景画并分析其均衡节奏；本 Topic 只登记它为一件模印方砖，尺寸、墓属、藏地与模印方法均未载，构图分析归 C
 
 ## 相关知识元
 

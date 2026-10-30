@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b7-shuru-yu-bentu-weijin-suitang-boliqi.md
+    role: representative_work
+    primary: true
+    scope_note: "B.7.2 主挂载：以 1948 年景县封氏墓群北魏祖氏墓网纹玻璃杯的尺寸、色彩、纹饰与收藏地为锚点，观察北魏本土玻璃器的器形与证据形态；其外来与本土制造之辨同时牵涉 E，本项只取器物本体。"
 secondary_dimensions:
   - E
-hierarchy_scope_note: "网纹玻璃杯是 B 维度下北魏玻璃器的器物条目，其外来与本土制造之辨归 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "B.7.2 主挂载：以 1948 年景县封氏墓群北魏祖氏墓网纹玻璃杯的尺寸、色彩、纹饰与收藏地为锚点，观察北魏本土玻璃器的器形与证据形态；其外来与本土制造之辨同时牵涉 E，本项只取器物本体。"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "网纹玻璃杯是 B 维度下北魏玻璃器的器物条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 网纹玻璃杯是 B 维度下北魏玻璃器的器物条目，其外来与本土制造之辨归 E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-shuru-yu-bentu-weijin-suitang-boliqi.md.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: B.7.2 主挂载：以 1948 年景县封氏墓群北魏祖氏墓网纹玻璃杯的尺寸、色彩、纹饰与收藏地为锚点，观察北魏本土玻璃器的器形与证据形态；其外来与本土制造之辨同时牵涉 E，本项只取器物本体。
 
 ## 相关知识元
 

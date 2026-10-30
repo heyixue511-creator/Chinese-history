@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "错金银与错铜是 B 维度下春秋战国青铜器表面镶嵌工序的条目，其纹饰与器物装饰归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: procedure
+    primary: true
+    scope_note: "只取错金银与错铜的定名、春秋中期发展、栾书缶错金铭文、燕赵蔡错铜、赵农的刻槽嵌入磨错工序与田自秉的厝石释名；错石另见 turquoise-inlay。"
+hierarchy_scope_note: "错金银与错铜是 B 维度下春秋战国青铜器表面镶嵌工序的条目，其纹饰与器物装饰归 B 维度。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -82,11 +90,10 @@ hierarchy_scope_note: "错金银与错铜是 B 维度下春秋战国青铜器表
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 错金银与错铜是 B 维度下春秋战国青铜器表面镶嵌工序的条目，其纹饰与器物装饰归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取错金银与错铜的定名、春秋中期发展、栾书缶错金铭文、燕赵蔡错铜、赵农的刻槽嵌入磨错工序与田自秉的厝石释名；错石另见 turquoise-inlay。
 ## 相关知识元
 
 `works/luanshu-fou.md` 是错金铭文的实例容器；`procedures/liujin.md` 记鎏金，为金属表面镀金而非刻槽镶嵌，工序不同；`procedures/jinyin-pingtuo.md` 记金银平脱，为漆器表面的金银片镶嵌，材质与载体不同；`terms/qingtong.md` 记青铜材质。relation 未审查。

@@ -24,17 +24,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的服饰形制条目，记录裙与襦的搭配及其被裤替代；Theme/Topic 尚未 materialize。
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取下身服的定义与消长（裙亦名裳、多与襦配置、魏晋后被裤替代而仍为正式场合服饰）与女裙的身份差（贵族复裙双裙摇曳拖地／劳动妇女裙摆紧短）；不取《洛神赋图》以外的图版材料。"
+hierarchy_scope_note: "B 维度下的服饰形制条目，记录裙与襦的搭配及其被裤替代。已挂载 B.18.4（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -56,10 +63,10 @@ hierarchy_scope_note: B 维度下的服饰形制条目，记录裙与襦的搭�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的服饰形制条目，记录裙与襦的搭配及其被裤替代；Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取下身服的定义与消长（裙亦名裳、多与襦配置、魏晋后被裤替代而仍为正式场合服饰）与女裙的身份差（贵族复裙双裙摇曳拖地／劳动妇女裙摆紧短）；不取《洛神赋图》以外的图版材料。
 
 ## 相关知识元
 

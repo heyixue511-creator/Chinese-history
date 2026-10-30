@@ -23,17 +23,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "衲裆是 B 维度下北朝短衣的形制条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取衲裆的两片结构（前挡胸、后挡背、肩上搭襻、腰间革带）与北朝短衣、贯头衫的背景；与两裆衫名实并列不裁。"
+hierarchy_scope_note: "衲裆是 B 维度下北朝短衣的形制条目。已挂载 B.18.3（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -52,11 +59,11 @@ hierarchy_scope_note: "衲裆是 B 维度下北朝短衣的形制条目。Theme/
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是北朝短衣的形制条目，与幅巾、杂裾垂髾服同属魏晋南北朝服饰序列。当前只到 Dimension。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取衲裆的两片结构（前挡胸、后挡背、肩上搭襻、腰间革带）与北朝短衣、贯头衫的背景；与两裆衫名实并列不裁。
 
 ## 相关知识元
 

@@ -60,17 +60,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "带钩是 B 维度下春秋战国服饰配件与青铜装饰工艺的交汇条目，其来源问题同时牵涉服饰史（胡服）与工艺史（错金银、嵌玉）。Theme/Topic 尚未 materialize。"
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md
+    role: boundary_case
+    primary: true
+    scope_note: "B.7.1 主挂载（boundary_case）：只取高丰所记两汉玻璃器 6500 余件中的玻璃带钩、玻璃璧与铸造成型法一环；带钩的胡服配套、系结方式与等级含义归服饰线，本项不把带钩整体并入玻璃器类。"
+hierarchy_scope_note: "B.7.1 主挂载（boundary_case）：只取高丰所记两汉玻璃器 6500 余件中的玻璃带钩、玻璃璧与铸造成型法一环；带钩的胡服配套、系结方式与等级含义归服饰线，本项不把带钩整体并入玻璃器类。"
 ---
 
 ## 描述
@@ -103,10 +111,10 @@ hierarchy_scope_note: "带钩是 B 维度下春秋战国服饰配件与青铜装
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是服饰—工艺双属条目，可与深衣、胡服、错金银工艺、侯马铸铜遗址等方向建立联系。当前只到 Dimension。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: B.7.1 主挂载（boundary_case）：只取高丰所记两汉玻璃器 6500 余件中的玻璃带钩、玻璃璧与铸造成型法一环；带钩的胡服配套、系结方式与等级含义归服饰线，本项不把带钩整体并入玻璃器类。
 
 ## 相关知识元
 

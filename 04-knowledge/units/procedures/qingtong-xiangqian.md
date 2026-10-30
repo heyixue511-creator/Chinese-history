@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "青铜镶嵌是 B 维度下春秋战国青铜器表面嵌饰工序的条目，其纹样与器物归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: procedure
+    primary: true
+    scope_note: "只取青铜镶嵌的总类定义与松石、红铜、金银丝三类嵌料，春秋红铜镶嵌与战国金银错的时段差异；错金银、错石另有专条，不重复其工序。"
+hierarchy_scope_note: "青铜镶嵌是 B 维度下春秋战国青铜器表面嵌饰工序的条目，其纹样与器物归 B 维度。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "青铜镶嵌是 B 维度下春秋战国青铜器表面嵌
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 青铜镶嵌是 B 维度下春秋战国青铜器表面嵌饰工序的条目，其纹样与器物归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取青铜镶嵌的总类定义与松石、红铜、金银丝三类嵌料，春秋红铜镶嵌与战国金银错的时段差异；错金银、错石另有专条，不重复其工序。
 ## 相关知识元
 
 `procedures/cuo-jin-yin-cuo-tong.md` 记金银错与错铜，为本条所举金银丝与红铜镶嵌的专条；`procedures/turquoise-inlay.md` 记错石工艺，为本条所举松石镶嵌的专条；`procedures/liujin.md` 记鎏金，为表面镀金而非嵌饰，工序不同；`terms/qingtong.md` 记青铜材质。relation 未审查。

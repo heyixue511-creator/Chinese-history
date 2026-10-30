@@ -23,16 +23,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md
+    role: representative_work
+    primary: true
+    scope_note: "只取两件大型铜方鼎的斗形鼎身、立耳、圆柱形空足、饕餮纹与乳丁文；郑州冶铜遗址只作背景。"
 secondary_dimensions:
   - C
 hierarchy_scope_note: "杜岭方鼎是 B 维度下商代早期青铜礼器的作品条目；其饕餮纹与乳丁文装饰属 C 维度。Theme/Topic 尚未 materialize。"
@@ -55,11 +63,10 @@ hierarchy_scope_note: "杜岭方鼎是 B 维度下商代早期青铜礼器的作
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 杜岭方鼎是 B 维度下商代早期青铜礼器的作品条目；其饕餮纹与乳丁文装饰属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取两件大型铜方鼎的斗形鼎身、立耳、圆柱形空足、饕餮纹与乳丁文；郑州冶铜遗址只作背景。
 
 ## 相关知识元
 

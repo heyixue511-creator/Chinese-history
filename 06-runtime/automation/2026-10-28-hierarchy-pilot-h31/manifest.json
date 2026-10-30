@@ -1,0 +1,121 @@
+{
+ "package_id": "2026-10-28-hierarchy-pilot-h31",
+ "profile": "hierarchy-pilot-v1",
+ "date": "2026-10-28",
+ "goal": "在既有 D.6「前近代官府手工业：职官、匠役与设计控制」下续建 D.6.3「官营织造：从织室到织造局」与 D.6.4「染练官署：从暴室到织染署」两个 Topic，把 D 维度未挂载的 19 条官营染织机构与染练官署挂载到五级结构，形成「中央工官／官窑窑政／官营织造／染练官署」四点骨架。",
+ "scope": {
+  "baseline_hierarchy_version": "v1.21",
+  "baseline_themes": 21,
+  "baseline_topics": 58,
+  "baseline_topic_memberships": 441,
+  "baseline_complete_assignments": 437,
+  "baseline_incomplete_assignments": 2133,
+  "baseline_structure_node_coverage": "2/4",
+  "baseline_relation_index": 6876,
+  "baseline_relation_types": "3/67",
+  "baseline_member_of_relations": 878,
+  "baseline_units": 2570,
+  "baseline_translation_index": 2178,
+  "baseline_candidate_index": 5339,
+  "baseline_claim_registry": 1242,
+  "baseline_structural_health": 130,
+  "baseline_knowledge_structure_quality": "56/65",
+  "baseline_isolated_units": 1297
+ },
+ "result": {
+  "hierarchy_version": "v1.22",
+  "themes": 21,
+  "topics": 60,
+  "topic_memberships": 460,
+  "complete_assignments": 456,
+  "incomplete_assignments": 2114,
+  "structure_node_coverage": "2/4",
+  "relation_index": 6914,
+  "relation_types": "3/67",
+  "member_of_relations": 916,
+  "units": 2570,
+  "translation_index": 2178,
+  "candidate_index": 5339,
+  "claim_registry": 1242,
+  "structural_health": 130,
+  "knowledge_structure_quality": "56/65",
+  "isolated_units": 1287,
+  "content_findings": 0,
+  "same_name_disambiguation": "10/10"
+ },
+ "structure": {
+  "themes": [
+   "04-knowledge/structure/themes/d6-guanfu-shougongye-zhiguan-jiangyi-sheji-kongzhi.md"
+  ],
+  "topics_touched": [
+   "04-knowledge/structure/topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md",
+   "04-knowledge/structure/topics/d6-ranlian-guanshu-cong-baoshi-dao-zhiranshu.md"
+  ],
+  "new_topic_nodes": 2,
+  "mounted_units": 19,
+  "changed_units": 19,
+  "total_mounted_units": 456,
+  "new_topic_memberships": 19,
+  "secondary_mounted_units": 0,
+  "secondary_memberships": 0,
+  "role_distribution": {
+   "key_institution": 15,
+   "historical_context": 2,
+   "boundary_case": 2
+  },
+  "type_distribution": {
+   "institution": 19
+  },
+  "cross_dimension_mounts": "本批 19 条 KU 的 primary_dimension 均为 D，无跨维度挂载；D.6 的 secondary_dimensions 为 [B]，D.6.3 与 D.6.4 的 primary_dimension 均为 D，因此不进 `cross_dimension_topics` 统计。v1.21 已挂载的秦汉官营陶窑（primary_dimension=B）不在本批变更范围。",
+  "taxonomy_split": "官营织造机构、产品指定与织造工匠征调→D.6.3；染练官署、染练职名与织染分合→D.6.4；织造与染色工艺（织机、提花、缂丝、刺绣针法、染料、染缬）→B.2 与 `procedures/`；服饰形制与服制→B.2／D.2／E.5；民间织造（机户、机房、包买主）与清代染坊、踹布业→D 的其他 Topic（尚未物化）；近代丝织棉纺企业与 1949 年后研究机构→B.1／D.1 与当代段。",
+  "planned_topics_not_created": [
+   "D.6 地方工官与特种作坊 Topic：蜀郡成都广汉郡工官、秦工室工官、汉代漆器作坊工官、镔铁局（3 源）、兴文署、西夏官营手工业机构群、西夏文思院",
+   "D.6 内廷造办 Topic：内务府造办处（5 源）、果园厂、石渠阁、武英殿修书处、宋代画院",
+   "D.6 民间织造与染业 Topic：机户、机房、包买主、江南染坊与踹布业；元代绣局、纹锦总院、涿州罗局等局院",
+   "B.5 史前功能陶器 Topic：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊（6 条候选）",
+   "玻璃材料 Theme：琉璃第一义、铅钡与钠钡玻璃、战国琉璃璧、长沙楚墓群、李立新玻璃器沉浮"
+  ],
+  "deferred_by_boundary": [
+   "织染署 → 归 D.6.4：其「织衽之作有十」只在 D.6.3 的织造沿革对照中引用，不重复挂载；D.6.3 的边界已明文说明",
+   "北朝中尚方所领泾州丝局、雍州丝局、定州绸绫局 → 归 D.6.4 与司染署三局并列处理，D.6.3 不另立挂载；依据是二者同出田自秉一段记载",
+   "周代染人与掌染草、典丝 → 以 `boundary_case` 挂载，不升格为官署：三者均为职名，员额、隶属与职掌细目全无",
+   "宋代染织管理机构、汉代官营丝织作坊 → 以 `historical_context` 挂载：两条为聚合条，承载网络范围而不重复分条制度细节",
+   "后赵织锦署与东晋锦署 → 同名异实，不合并、不排跨朝沿革线；绫锦院宋辽金元四朝异制同样不排沿革",
+   "东、西织室的时代 → 东汉（夏燕靖）与西汉末（田自秉引《汉书》）两说并存，不裁；建康路「三千六百户」与「三千六户」两写并录",
+   "工匠数字 → 人、户、军匠、移入户四种单位不换算、不合计；3,600 户、3,300 多户、42 万被掠工匠、数百绣工、200 锦工各自保留原口径",
+   "织染工艺、染料与染缬 → 归 B.2 与 `procedures/`；出土织物与染色实物 → 归 `works/` 与 `places/`，本批只作技术前提引用",
+   "民间机户、机房、包买主与清代江南染坊、踹布业 → 不并入本批；「千室夜机鸣」只作官营之外的背景引用",
+   "近代丝织棉纺企业（继昌隆、上海机器织布局、大生、申新、中国纺织建设公司、中国蚕丝公司）与 1949 年后云锦研究所、苏州刺绣研究所 → 归 B.1／D.1 与当代段"
+  ]
+ },
+ "changed_files": 27,
+ "apply_plan": "apply-plan.jsonl",
+ "result_evidence": [
+  "04-knowledge/structure/hierarchy/index.md",
+  "06-runtime/state/current-health.json",
+  "06-runtime/governance/governance-backlog.md",
+  "04-knowledge/quality/relation-index.yml",
+  "06-runtime/state/generated-projections-manifest.json"
+ ],
+ "unresolved": [
+  "官营织造机构的跨朝沿革线无法证成：汉、东晋、十六国、宋辽金元、明清各段名称、隶属与职掌互不衔接，六册从未并列提出（RD）",
+  "「绫锦院」四朝是否同制、「锦署」与「织锦署」是否同实、东、西织室属东汉还是西汉末，均无来源内的一句沿革说明（RD）",
+  "汉、北朝、隋唐三段「染」字官名能否构成一条线：暴室属掖庭、平准令属少府、司染署属太府、织染署属少府，隶属两次改换而无承袭记载（RD）",
+  "北朝司染署三局与中尚方三局的设置年代、员额、作坊数、产品与分工全无，「京坊」是否即洛阳未说明（RD）",
+  "「练染之作有六」的六作名称六册全部未列；六作是合并后新设还是沿袭旧制，两册均未说明（RD）",
+  "四川锦院的隶属、设官、工匠身份与待遇、作坊址、产品分配、产量与存续时间全无（RD）",
+  "建康路织染局三项数字仅覆盖东织染局；西局、全局总量与「段」的规格全无（RD）",
+  "纳失失局与木棉提举司的设置年份、员额、织机数、产量与产品分配全无；3,300 多户回族工匠未说明如何分配于各局（RD）",
+  "江宁织造局曹氏任职年数同册并存「58 年」与「60 余年」；「曹颙、曹頡」与「孙颙、頫」为同段异写（RD）",
+  "长安全部织造与染练机构的产品去向均无记载：四类锦、额造段匹、岁输棉布与御用云锦之外，产品如何分配、剩余是否入市，六册未载（RD）",
+  "染练官署的记载为何停在局名与作数一层，来源未给解释；本批不归因于「染不重要」或「染由民间承担」（OPP）",
+  "官营织造与官窑两条线的记载形态差异（陶窑线累积、染织线重置）是本库的解释框架，六册未作此比较（OPP）",
+  "「产品指定是官府索取的主要形式」只由四处定额支撑，且四处分属宋、元、清三代，不足以构成通则（OPP）",
+  "工匠征调的数字六组全部缺统计口径（在册／在役／临时），无法换算为产能或工资（RD）",
+  "本批未处理：地方工官与特种作坊（蜀郡成都广汉郡工官、秦工室工官、汉代漆器作坊工官、镔铁局、兴文署、西夏机构群）、内廷造办（内务府造办处、果园厂、石渠阁、武英殿修书处、宋代画院）（next）",
+  "本批未处理：民间机户与机房、江南染坊与踹布业、元代绣局与纹锦总院、涿州罗局（next）",
+  "存量债务：2114 个 KU 未完成五级字段挂载；单源 1919、tentative 2570、低置信 496、隔离 1287（debt）",
+  "重复候选 4 组待 reconcile：`terms/youlihong-ci` vs `terms/youlihong`；`terms/bai-tao` vs `terms/shangdai-baitao`；鲁山窑瓷拍鼓 vs 花釉腰鼓；`works/zhulin-qixian-huaxiang-zhuan` vs `works/zhulin-qixian-rongqiqi-zhuanhua`（debt）"
+ ],
+ "notes": "本批不新建 Theme，在 v1.21 所建 D.6 下续建 2 个 Topic 并挂载 19 个 KU（institution 19）。D.6.3 的核心判断是命名依据四分（工序／产品／服务对象／技术来源），据此拒绝把同名机构排成跨朝沿革线；D.6.4 在复读田自秉北朝条后改写原假设，由「染练是否独立设署」改问「为何独立期三局只有地名、唯一分工细目反在隋唐合并之后」。两 Topic 的跨段判断上提到 Theme 层，记作染织四段「分—分—合—分」、染练独立设署与记载密度成反比、织造机构名字比编制可靠。未提交、未推送：commit 与 push 须由用户当次明确授权。"
+}

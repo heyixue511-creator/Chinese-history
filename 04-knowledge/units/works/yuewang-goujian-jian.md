@@ -52,19 +52,31 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取剑格错石（绿松石漆汁嵌錾槽）作为错石工艺的唯一实例；剑格蓝色琉璃、剑柄珐琅釉两说并列，兵器形制、防锈与成分归后续兵器 Topic。"
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: representative_work
+    primary: false
+    scope_note: "只追加兵器形制、防锈三因与吴越冶剑谱系一面；剑格错石仍归 B.9.4，剑柄珐琅釉仍归 B.9.5，三说的部位与材料并列不裁。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "越王勾践剑在五册中承担三重论证：兵器形制与冶铸水平（B）、剑格镶嵌与错金鸟篆铭文的装饰与文字（C）、珐琅釉料用于金属器的早期例证（B 之材料工艺，并被高丰、田自秉两册用于景泰蓝源流之争）。五册均不描述剑身尺寸与整体造型。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "越王勾践剑在五册中承担三重论证：兵器形制与冶铸水平（B）、剑格镶嵌与错金鸟篆铭文的装饰与文字（C）、珐琅釉料用于金属器的早期例证（B 之材料工艺，并被高丰、田自秉两册用于景泰蓝源流之争）。五册均不描述剑身尺寸与整体造型。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -98,10 +110,12 @@ hierarchy_scope_note: "越王勾践剑在五册中承担三重论证：兵器形
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是春秋吴越青铜剑的工艺样本，同时是“珐琅用于金属器的早期例证”这一跨时代论证的支点（由春秋越剑连到明清景泰蓝与瓷胎画珐琅）。可支持未来的吴越兵器工艺、错石与镶嵌、珐琅工艺源流等 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（representative_work，secondary）
+- role_in_theme: representative_work
+- scope_note: 只取剑格错石（绿松石漆汁嵌錾槽）作为错石工艺的唯一实例；剑格蓝色琉璃、剑柄珐琅釉两说并列，兵器形制、防锈与成分归后续兵器 Topic。
+- scope_note（次挂载）: 只追加兵器形制、防锈三因与吴越冶剑谱系一面；剑格错石仍归 B.9.4，剑柄珐琅釉仍归 B.9.5，三说的部位与材料并列不裁。
 
 ## 相关知识元
 

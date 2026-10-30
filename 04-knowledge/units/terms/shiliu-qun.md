@@ -30,17 +30,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "石榴裙是 B 维度下唐代女装裙式的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取石榴裙的色与纹（色如石榴之红、绘石榴大花）与「百姓穿不起百鸟毛裙遂以颜色和式样取胜」的替代逻辑；俗语与唐明皇杨贵妃传说照录并标为传说，不作史实。"
+hierarchy_scope_note: "石榴裙是 B 维度下唐代女装裙式的条目。已挂载 B.18.4（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -59,10 +66,10 @@ hierarchy_scope_note: "石榴裙是 B 维度下唐代女装裙式的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 石榴裙是 B 维度下唐代女装裙式的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取石榴裙的色与纹（色如石榴之红、绘石榴大花）与「百姓穿不起百鸟毛裙遂以颜色和式样取胜」的替代逻辑；俗语与唐明皇杨贵妃传说照录并标为传说，不作史实。
 
 ## 相关知识元
 

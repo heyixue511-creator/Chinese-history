@@ -1,4 +1,5 @@
 ---
+
 title: 圈叠法（Coiled-Layer Wood Core Technique）
 name_en: Coiled-Layer Wood Core Technique
 type: procedure
@@ -39,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "圈叠法是 B 维度下宋代漆器木胎成型的工序条目，其器形与装饰归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: procedure
+    primary: true
+    scope_note: "只取唐宋阶段木条圈卷、外裱麻布后涂漆的工序与两件墓葬实例；圈叠层数、粘接材料与规格无载。"
+hierarchy_scope_note: "圈叠法是 B 维度下宋代漆器木胎成型的工序条目，其器形与装饰归 B 维度。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -74,10 +83,10 @@ hierarchy_scope_note: "圈叠法是 B 维度下宋代漆器木胎成型的工序
 
 - primary_domain: chinese-design-history
 - primary_dimension: B
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 圈叠法是 B 维度下唐宋漆器卷制木胎成型的工序条目，其器形与装饰归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取唐宋阶段木条圈卷、外裱麻布后涂漆的工序与两件墓葬实例；圈叠层数、粘接材料与规格无载。
 
 ## 相关知识元
 

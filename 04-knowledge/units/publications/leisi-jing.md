@@ -1,4 +1,5 @@
 ---
+
 title: 《耒耜经》（Leisi Jing (Classic of Plowing Tools)）
 name_en: Leisi Jing (Classic of Plowing Tools)
 type: publication
@@ -26,18 +27,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md
+    role: source_publication
+    primary: true
+    scope_note: "只取「中国最早记载和研究农具的书」一句判断、作者与爬砺夯三类所载农具；成书年代、卷数与版本无载，不补农书史脉络。"
 secondary_dimensions:
-hierarchy_scope_note: 《耒耜经》是 B 维度唐代农具文献的条目；来源对其性质的判断属农书内容，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "《耒耜经》是 B 维度唐代农具文献的条目；来源对其性质的判断属农书内容，不涉及设计史书写或史学方法，故不指派 A 维度。已挂载 B.12.3（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -59,10 +68,10 @@ hierarchy_scope_note: 《耒耜经》是 B 维度唐代农具文献的条目；�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《耒耜经》是 B 维度唐代农具文献的条目；来源对其性质的判断属农书内容，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md（source_publication，primary）
+- role_in_theme: source_publication
+- scope_note: 只取「中国最早记载和研究农具的书」一句判断、作者与爬砺夯三类所载农具；成书年代、卷数与版本无载，不补农书史脉络。
 
 ## 相关知识元
 

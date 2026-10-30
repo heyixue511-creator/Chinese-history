@@ -34,17 +34,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下明代民间匠作文献的锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b14-jiaju-wenxian-yu-sheji-sixiang-yanji-tu-lubanjing.md
+    role: source_publication
+    primary: true
+    scope_note: "只取明万历年间刊、全称《鲁班经匠家镜》、图 1 卷文 3 卷、以营造房屋与日常用具为实用指南通书、含家具形制与常用类型尺寸；「年荣」疑为「午荣」之讹、「雕新」疑 OCR 有误，照录标疑，无一条具体尺寸被引用。"
+hierarchy_scope_note: "本 KU 是 B 维度下明代民间匠作文献的锚点。已挂载 B.14.6（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -65,10 +73,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下明代民间匠作文献的锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下明代民间匠作文献的锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jiaju-wenxian-yu-sheji-sixiang-yanji-tu-lubanjing.md（source_publication，primary）
+- role_in_theme: source_publication
+- scope_note: 只取明万历年间刊、全称《鲁班经匠家镜》、图 1 卷文 3 卷、以营造房屋与日常用具为实用指南通书、含家具形制与常用类型尺寸；「年荣」疑为「午荣」之讹、「雕新」疑 OCR 有误，照录标疑，无一条具体尺寸被引用。
 
 ## 相关知识元
 

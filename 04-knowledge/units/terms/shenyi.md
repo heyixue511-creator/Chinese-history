@@ -52,19 +52,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取深衣的命名两说、裁法两说与续衽钩边的形制描述；直裾归属与服用者等级两处分歧并列照录，不裁。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "深衣是 B 维度下的服装形制条目，其制度面（礼记规范、等级服用）属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "深衣是 B 维度下的服装形制条目，其制度面（礼记规范、等级服用）属 D 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -107,10 +116,10 @@ hierarchy_scope_note: "深衣是 B 维度下的服装形制条目，其制度面
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是先秦服饰形制的基准条目，其制度面（礼记规范、等级服用）与同批写回的带钩、旗袍构成服饰系列。可支持未来的服饰制度与形制演化类 Topic。当前只到 Dimension。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取深衣的命名两说、裁法两说与续衽钩边的形制描述；直裾归属与服用者等级两处分歧并列照录，不裁。
 
 ## 相关知识元
 

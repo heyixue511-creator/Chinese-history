@@ -39,17 +39,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "几是 B 维度下低型坐卧家具的条目；三册集中在春秋战国楚地漆木家具，形制与榫卯属造物层，凭几的礼制用法牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取几面、腿、足座三部分以榫卯结合的构成与三册互不相同的定性；榫卯本身不展开（归木作工艺层），尺寸无载。"
+hierarchy_scope_note: "几是 B 维度下低型坐卧家具的条目；三册集中在春秋战国楚地漆木家具，形制与榫卯属造物层，凭几的礼制用法牵涉 C 维度。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -85,10 +93,10 @@ hierarchy_scope_note: "几是 B 维度下低型坐卧家具的条目；三册集
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与 `terms/huchuang.md`（胡床）、`terms/ming-style-furniture.md`（明式家具）、`terms/qing-style-furniture.md`（清式家具）同属家具条目：几是先秦低型凭倚家具，胡床是汉末传入的折叠坐具，明式与清式是明清高型家具的两套风格。可与案、桌、俎的界限问题合成家具名实类 Topic。当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取几面、腿、足座三部分以榫卯结合的构成与三册互不相同的定性；榫卯本身不展开（归木作工艺层），尺寸无载。
 
 ## 相关知识元
 

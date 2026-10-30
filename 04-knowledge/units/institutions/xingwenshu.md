@@ -41,19 +41,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-difang-gongguan-tezhong-zuofang.md
+    role: key_institution
+    primary: true
+    scope_note: "元代官府刻书机构；上级两说与六册唯一完整人员编制"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "兴文署是 D 维度下元代官方出版管理制度的具体机构，其刊刻活动直接决定 C 维度书籍版面与字体的生产条件。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "元代官府刻书机构；上级两说与六册唯一完整人员编制"
 ---
 
 ## 描述
@@ -76,11 +84,10 @@ hierarchy_scope_note: "兴文署是 D 维度下元代官方出版管理制度的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是元代“官方出版组织—书籍生产”链条上的机构锚点，与浮梁瓷局、江宁织造局同属“官府设署管理生产”的制度类型，但管理对象是书籍而非器物。可支持未来的官营生产机构类 Topic。当前只到 Dimension。
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-difang-gongguan-tezhong-zuofang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 元代官府刻书机构；上级两说与六册唯一完整人员编制
 
 ## 相关知识元
 

@@ -34,19 +34,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "纳失失局是元代在弘州、荨麻林等地所设织造纳失失的官局，属织染杂造人匠都总管府，移入回族工匠三千三百多户；本 Topic 取其局名、隶属与工匠移入规模，产量与产品分配未记。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "纳失失局是 D 维度下元代官营织金锦机构的条目，其加金织造与金线工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "纳失失局是元代在弘州、荨麻林等地所设织造纳失失的官局，属织染杂造人匠都总管府，移入回族工匠三千三百多户；本 Topic 取其局名、隶属与工匠移入规模，产量与产品分配未记。"
 ---
 
 ## 描述
@@ -75,12 +83,10 @@ hierarchy_scope_note: "纳失失局是 D 维度下元代官营织金锦机构的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是元代官营织金锦机构的合并条目，可与绫锦院、建康路织染局、捻金与片金工艺并置，观察元代官匠局系统中的织金生产与跨地域工匠流动。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 纳失失局是元代在弘州、荨麻林等地所设织造纳失失的官局，属织染杂造人匠都总管府，移入回族工匠三千三百多户；本 Topic 取其局名、隶属与工匠移入规模，产量与产品分配未记。
 ## 相关知识元
 
 `terms/nashishi.md` 记纳石失织物名目；`procedures/nianjin-pianjin.md` 记捻金与片金；`institutions/lingjinyuan.md` 记元代绫锦院，并已列弘州纳失失局、荨麻林纳失失局；`institutions/jiankanglu-zhiranju.md` 记元代建康路织染局。来源未说明纳失失局与上述机构的隶属或沿革关系，本条不作合并。relation 未审查，不写入正式 `relations`。

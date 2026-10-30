@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md
+    role: geographical_context
+    primary: true
+    scope_note: "B.7.3 主挂载：取元末明初博山玻璃作坊、清代百余家与近代设厂的时间序列；原料、炉窑、产品谱系、工匠与产量来源未给，宫廷玻璃厂的隶属另见 institutions/neiwufu-zaobanchu.md。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "山东博山是 B 维度下元明清玻璃生产与工艺复兴条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "B.7.3 主挂载：取元末明初博山玻璃作坊、清代百余家与近代设厂的时间序列；原料、炉窑、产品谱系、工匠与产量来源未给，宫廷玻璃厂的隶属另见 institutions/neiwufu-zaobanchu.md。"
 ---
 
 ## 描述
@@ -58,11 +66,10 @@ hierarchy_scope_note: "山东博山是 B 维度下元明清玻璃生产与工艺
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 山东博山是 B 维度下元明清玻璃生产与工艺复兴条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: B.7.3 主挂载：取元末明初博山玻璃作坊、清代百余家与近代设厂的时间序列；原料、炉窑、产品谱系、工匠与产量来源未给，宫廷玻璃厂的隶属另见 institutions/neiwufu-zaobanchu.md。
 
 ## 相关知识元
 

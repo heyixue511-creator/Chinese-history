@@ -1,0 +1,122 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h27",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.5「陶器工艺与陶系传统」下新建 B.5.4「低温釉陶：铅釉、二次烧成与三条用途线」，挂载铅釉陶、三彩谱系、法华器、琉璃（建筑铅釉陶义）、二次烧成法、琉璃烧造、六件代表器物、任塘与黄釉瓷扁壶共 16 个 KU；不按朝代或品种罗列，而按「低熔点釉这一个物性条件如何生成随葬明器、建筑构件与陈设供器三条用途线」组织，并检验「低温釉陶是否等同于铅釉陶」。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.17",
+    "baseline_themes": 20,
+    "baseline_topics": 53,
+    "baseline_topic_memberships": 387,
+    "baseline_complete_assignments": 383,
+    "baseline_incomplete_assignments": 2187,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6768,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 770,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1326
+  },
+  "result": {
+    "hierarchy_version": "v1.18",
+    "themes": 20,
+    "topics": 54,
+    "topic_memberships": 403,
+    "complete_assignments": 399,
+    "incomplete_assignments": 2171,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6800,
+    "relation_types": "3/67",
+    "member_of_relations": 802,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1319,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b5-diwen-you-tao-sanci-liuli.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 16,
+    "changed_units": 16,
+    "total_mounted_units": 399,
+    "new_topic_memberships": 16,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 6,
+      "representative_work": 6,
+      "procedure": 2,
+      "key_person": 1,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 6,
+      "work": 6,
+      "procedure": 2,
+      "person": 1
+    },
+    "taxonomy_split": "低温釉的釉料、呈色与二次烧成→B.5.4；建筑明器角色（绿釉陶楼）→B.5.3；宋三彩之后的明清釉上五彩、素三彩等瓷器釉上彩品种→B.6.4；紫砂、宜兴、石湾窑、荣昌与紫砂东陵瓜→B.5.5；琉璃第一义（原始玻璃、铅钡玻璃、战国琉璃璧）→待玻璃材料 Theme；三彩器纹样母题与图像解释→C",
+    "planned_topics_not_created": [
+      "B.5.5 紫砂与明清陶器：宜兴、紫砂陶、紫砂东陵瓜、石湾窑、荣昌",
+      "建筑用陶 Topic：秦砖汉瓦、陶瓦、瓦当、双鹿瓦当、始皇陵夔凤纹大瓦当、瓦纹、画像砖、采莲画象砖、丸剑舞乐画象砖、弋射收获画像砖、戏车图空心砖、竹林七贤画像砖×2、邓县学庄画像砖墓",
+      "制陶生产组织 Topic：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址",
+      "史前功能陶器：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊",
+      "D 维度前近代官手工业 Theme：御器厂、浮梁瓷局、瓷窑官、景德镇",
+      "玻璃材料 Theme：琉璃第一义、铅钡玻璃、钠钡玻璃、战国琉璃璧、李立新玻璃器沉浮"
+    ],
+    "deferred_by_boundary": [
+      "terms/su-sancai（素三彩）→ 瓷器釉上彩品种，已在 B.6.4，不因名含「三彩」并入 B.5.4",
+      "宋三彩之后的明清釉上五彩 → B.6.4；B.5.4 只登记宋三彩为源头",
+      "紫砂陶、places/yixing、places/shiwan-yao、places/rongchang、works/zisha-donglinggua → 紫砂无釉炻器与精陶，釉非其工艺核心，归 B.5.5",
+      "works/sancai-guan（三彩罐）→ 只有图注一行，正文未单述，登记图注单条待核（仿 h24 五彩人物洗先例）",
+      "places/changsha-chumuqun → 琉璃璧出土，属玻璃线第一义，待玻璃材料 Theme",
+      "琉璃第一义（原始玻璃、铅钡玻璃、战国琉璃璧、李立新玻璃器沉浮）→ 本批只取第二义（建筑铅釉陶）；一名两义的分界待玻璃材料 Theme 建立时复审",
+      "works/huangyou-ci-bianhu（黄釉瓷扁壶）→ 以 boundary_case 挂载：器名作「瓷」而胎质、釉料与烧成温度均未载，不作材质判定，只取北朝过渡节点",
+      "绿釉陶楼 → 其铅釉工艺面不并入 B.5.4，建筑明器角色仍在 B.5.3（反向边界）"
+    ]
+  },
+  "changed_files": 23,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2171",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1319",
+    "Low-temperature glazed earthenware is not the same category as lead-glazed earthenware: fahua-qi uses saltpetre (yaxiao) as flux and Song sancai adds red-green pigment over a white glaze before a second low-temperature firing; both colour at low temperature but neither is a single lead-glaze application. The batch keeps 'low-temperature glazed earthenware' as the category and lead glaze as its dominant route",
+    "Glaze composition and batch recipes are almost entirely missing: lead-glazed pottery has only 'lead as the salt base'; Tang sancai records copper, iron, cobalt and manganese as colorants; Liao sancai, Song sancai and architectural liuli record no lead content at all. The Song Yingzao Fashi huangdan-luoheshi-tongmo recipe is the only quantitative entry in the six books, and it gives no proportions",
+    "Double firing has one temperature band only (biscuit 1000-1100 C, glaze firing 850-950 C, given as 900 C in the 2009 edition); kiln type, heating rate, glaze thickness and yield are not recorded. 'Glaze and body expansion coefficients must match' is stated as a quality condition with no data",
+    "Song sancai 'opened the development of Ming-Qing overglaze polychrome' rests on one sentence from Tian Zibing, with production sites limited to Yuxian Bacun and Lushan; the transmission chain to Ming-Qing overglaze polychrome (pigments, firing temperature, application sequence) is not connected in any book, and the mature form belongs to B.6.4",
+    "Liuli has two meanings that share one name: architectural lead-glazed earthenware and early glass. This batch takes only the second sense (architecture); the first sense (Warring States liuli bi, lead-barium and sodium-barium glass, Li Lixin's 'rise and fall of glassware') awaits a glass-material Theme, and the boundary between the two senses must be re-examined there",
+    "Liao sancai's relation to Tang sancai rests on contrast description only (single yellow-green-white palette, brittle body, rough glaze); none of the three books records its lead content or firing temperature, and no book states whether it directly inherits the Tang double-firing structure",
+    "Fahua-qi: the flux is recorded as saltpetre, but body material, firing temperature, glaze recipe and the method of raising the outline ridges are all missing; its craft genealogy relative to liuli and to Jingdezhen porcelain-bodied imitation is not connected",
+    "Huangyou-ci-bianhu (yellow-glazed flattened flask): the name says 'porcelain' but body, glaze and firing temperature are unrecorded; this library makes no material determination and uses it only as a Northern Qi transition node with its dance-and-music reliefs",
+    "Liuli kiln organisation is recorded for the Ming only (72 Nanjing kilns later moved to Liuliqu village at Mentougou, kaolin bodies, ten standard sizes); kilns, craftsmen and guild organisation before the Yuan are not recorded, and Ren Tang's title 'liuli daizhao' has no office or rank attached",
+    "Ren Tang is the only named liuli craftsman in the six books, known from a single passage in Tian Zibing (Yuan Zhida 1, Fenyang liuli daizhao, a signed incense burner in the Palace Museum); the burner and the Yuan sancai-longfeng liuli-glaze censer are listed together as 'outstanding Yuan liuli works', but neither has dimensions or an excavation record",
+    "Sancai shuangyu hu (double-fish flask): the only evidence that sancai was regulated is one sentence that it was listed in official funeral rules and allocated by rank; the vessel's shape and dimensions are not recorded, so the regulation cannot be tied to a specific object",
+    "Sancai guan (three-colour jar) is deferred as a caption-only entry: one caption line, no body-text treatment, marked for caption verification together with the existing queue (wucai figure washer, enamel chrysanthemum-quail bottle, Tongguan kiln glazed jar, etc.)"
+  ],
+  "notes": "本批新建 1 个 Topic（B.5.4 低温釉陶），挂载 16 个 KU，不新增 Theme。结构设计的三项判断：其一，Topic 不按朝代或品种罗列，而按「低熔点釉这一个物性条件如何生成三条用途线」组织——熔点（铅釉 700—800℃，可薄挂，金属氧化物定色）、二次烧成（素烧 1000—1100℃、釉烧 850—950℃，辽三彩与宋三彩沿用同一结构而第二次烧的对象从釉变成彩）、用途（随葬明器／建筑构件／陈设供器）。其二，「低温釉陶」不等同于「铅釉陶」：法华器以牙硝助熔、宋三彩在白釉上加红绿彩再烧，两者都在低温呈色而都不属铅釉一次挂彩，故以「低温釉陶」作类别名、铅釉陶作其中最主流的一条路线。其三，琉璃一名两义，本批只取第二义（建筑铅釉陶），第一义（原始玻璃与铅钡玻璃）待玻璃材料 Theme 另处挂载。四处边界处置：素三彩归 B.6.4 不因名目相似并入；宋三彩只登记源头、明清釉上五彩归 B.6.4；紫砂陶、宜兴、石湾窑、荣昌与紫砂东陵瓜归 B.5.5；三彩罐只有图注一行、登记图注单条待核；黄釉瓷扁壶器名作瓷而胎釉烧成温度未载，不作材质判定。运行中发现并修复一处与本批知识判断无关的门禁故障：05-outputs/output-registry.yml 登记的「清末设计文献整理报告_1840-1911_2026-10-28」被移出 05-outputs/drafts/ 到仓库根目录，导致 [9/18] build output gallery 报 output_artifact_pattern_empty；核对该文件与 HEAD 中的 drafts 版本逐字节相同后移回原目录（registry 未改），沿用 h25 同一处置。本批不 commit、不 push。"
+}

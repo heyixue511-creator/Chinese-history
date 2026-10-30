@@ -23,13 +23,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-28
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -41,9 +41,13 @@ topic_memberships:
     role: representative_work
     primary: true
     scope_note: "陶井是 B.5.3 的技术模型：东汉井模型，图注称表现井架与滑轮的安装与使用方法；尺寸、出土地点与结构全缺，是 confidence 为 low 的图注单条"
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: representative_work
+    primary: false
+    scope_note: "次要挂载，主归属仍在 B.5.3：东汉井模型图注称表现井架的设计与滑轮的安装与使用方法，是滑轮唯一的器物侧证据；图版未核、尺寸与出土地点未载。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "陶井是 B.5.3 的技术模型：东汉井模型，图注称表现井架与滑轮的安装与使用方法；尺寸、出土地点与结构全缺，是 confidence 为 low 的图注单条"
+hierarchy_scope_note: "陶井是 B.5.3 的技术模型：东汉井模型，图注称表现井架与滑轮的安装与使用方法；尺寸、出土地点与结构全缺，是 confidence 为 low 的图注单条。另次挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -63,7 +67,7 @@ hierarchy_scope_note: "陶井是 B.5.3 的技术模型：东汉井模型，图�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - primary_theme: B.5（陶器工艺与陶系传统）
-- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（representative_work，primary）
+- topic_memberships: topics/b5-taoci-sanzhong-fenhua.md（representative_work，primary）、topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（representative_work，secondary）
 - role_in_theme: representative_work
 - scope_note: 陶井是 B.5.3 的技术模型：东汉井模型，图注称表现井架与滑轮的安装与使用方法；尺寸、出土地点与结构全缺，是 confidence 为 low 的图注单条
 ## 相关知识元

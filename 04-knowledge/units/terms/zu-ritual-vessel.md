@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "俎是 B 维度下礼器—家具过渡形态的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取辽宁义县青铜俎、安阳大司空村石俎两件实物与「已具有后世几、案、桌类家具的雏形」这一判断；以 boundary_case 挂载，「雏形」与家具之间的界线来源未划。"
+hierarchy_scope_note: "俎是 B 维度下礼器—家具过渡形态的条目。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "俎是 B 维度下礼器—家具过渡形态的条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 俎是 B 维度下礼器—家具过渡形态的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取辽宁义县青铜俎、安阳大司空村石俎两件实物与「已具有后世几、案、桌类家具的雏形」这一判断；以 boundary_case 挂载，「雏形」与家具之间的界线来源未划。
 
 ## 相关知识元
 

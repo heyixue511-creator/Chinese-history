@@ -61,16 +61,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取鬲的袋足定义与煮粥功能、起源三说、陶鬲与青铜鬲形制演变；龙泉窑仿古鬲只作后代线索。"
 hierarchy_scope_note: "鬲是 B 维度下陶器与青铜器共有的三足袋足炊煮器形条目；从新石器晚期到战国、再到龙泉窑仿古器的形制延续牵涉 B/C 两个维度。"
 ---
 
@@ -136,10 +144,10 @@ hierarchy_scope_note: "鬲是 B 维度下陶器与青铜器共有的三足袋足
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与 `terms/ding.md` 构成三足炊器的一组对照条目：鼎以实足为主、鬲以袋足（款足）为标志，二者在起源上被多册描述为前后演变关系，但方向存在分歧。鬲的器形从新石器晚期陶器、商周青铜器一直延续到宋元龙泉窑仿古器，是器形生命史较长的条目。可支持未来的炊器谱系、袋足工艺与青铜礼器组合类 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取鬲的袋足定义与煮粥功能、起源三说、陶鬲与青铜鬲形制演变；龙泉窑仿古鬲只作后代线索。
 
 ## 相关知识元
 

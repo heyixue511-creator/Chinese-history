@@ -1,4 +1,5 @@
 ---
+
 title: 扣器（Kouqi Lacquerware）
 name_en: Kouqi Lacquerware
 type: term
@@ -39,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "扣器是 B 维度下战国至汉代漆器的加固与装饰类型条目；金属附件的功能与工艺属 B，铺首等附件的图像含义牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取金属附件加固胎体的两义定义与金银扣器十倍之说；器物与出土地不并入本 Topic。"
+hierarchy_scope_note: "扣器是 B 维度下战国至汉代漆器的加固与装饰类型条目；金属附件的功能与工艺属 B，铺首等附件的图像含义牵涉 C 维度。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -94,10 +103,10 @@ hierarchy_scope_note: "扣器是 B 维度下战国至汉代漆器的加固与装
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国漆器条目中的器类，与 `procedures/` 下的髹漆工序不同层：扣器记的是成品类型与附件组合，不是操作步骤。可与战国胎骨技术、金属附件工艺、漆器装饰合成 Topic。当前只到 Dimension。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取金属附件加固胎体的两义定义与金银扣器十倍之说；器物与出土地不并入本 Topic。
 
 ## 相关知识元
 

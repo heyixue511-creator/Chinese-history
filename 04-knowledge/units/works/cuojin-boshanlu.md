@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下西汉铜薰炉的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取西汉满城汉墓错金博山炉的炉体错金云气纹与「汉代博山炉典型」评价；博山炉造型与焚香观念归 C，不展开薰炉谱系。"
+hierarchy_scope_note: "本 KU 是 B 维度下西汉铜薰炉的器物锚点。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下西汉铜薰炉的器物锚点。Th
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下西汉铜薰炉的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取西汉满城汉墓错金博山炉的炉体错金云气纹与「汉代博山炉典型」评价；博山炉造型与焚香观念归 C，不展开薰炉谱系。
 ## 相关知识元
 
 与银熏炉同属薰炉谱系；博山炉重仙山造型，银熏炉重镂空与铭文。relation 未审查。

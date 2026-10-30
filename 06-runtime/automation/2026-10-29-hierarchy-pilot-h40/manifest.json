@@ -1,0 +1,123 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h40",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 Topic B.9.5「金银器与金属胎珐琅：细工、器类与珐琅工艺」，并主挂载 20 个金银器、细工与珐琅 KU",
+  "scope": {
+    "baseline_hierarchy_version": "v1.30",
+    "baseline_themes": 24,
+    "baseline_topics": 75,
+    "baseline_topic_memberships": 565,
+    "baseline_complete_assignments": 558,
+    "baseline_incomplete_assignments": 2012,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7121,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1123,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1247
+  },
+  "result": {
+    "hierarchy_version": "v1.31",
+    "themes": 24,
+    "topics": 76,
+    "topic_memberships": 585,
+    "complete_assignments": 578,
+    "incomplete_assignments": 1992,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7161,
+    "relation_types": "3/67",
+    "member_of_relations": 1163,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1233,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md"
+    ],
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 1,
+    "mounted_units": 20,
+    "secondary_mounted_units": 0,
+    "changed_units": 20,
+    "total_mounted_units": 578,
+    "new_topic_memberships": 20,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 5,
+      "procedure": 2,
+      "representative_work": 12,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 5,
+      "procedure": 2,
+      "work": 13
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。20 个 KU 的 primary_dimension 均为 B；部分 KU 保留既有 secondary_dimensions（C、D 或 E），但本批不制造跨维度挂载。",
+    "taxonomy_split": "花丝、花丝工艺、金细工艺、景泰蓝、画珐琅→B.9.5 名物层；景泰蓝制作七过程、银熏炉制作工序→B.9.5 工序层；战国至清十三件金银器与画珐琅器→B.9.5 器物层；鎏金、错金银、错石、金银平脱→B.9.4；青铜容器器形与礼器组合→B.9.1；铜镜型式、纹样与铸镜→B.9.3；珐琅彩（瓷胎画珐琅）→B.6；纹样母题与图像叙事→C；文思院、造办处与用金制度→D.6；金银货币与区域类型学不纳入。",
+    "planned_topics_not_created": [
+      "B.9 兵器 Topic（编号待定）：戈、矛、钺、剑、戟、弩，仍未物化",
+      "B.9 乐器 Topic（编号待定）：编钟、八音、十二平均律，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸，仍未物化",
+      "漆器 Theme（编号待定）：髹漆、描金、戗金、螺钿、雕漆、剔犀、百宝嵌，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "鎏金、错金银与错铜、错石、刻划、金银平脱（B.9.4）：金银器上的鎏金工序只作器物描述引用，不重复工序内容",
+      "青铜容器器形与礼器组合（B.9.1）：金银器不是青铜礼器，不并入鼎簋鬲甗序列",
+      "铜镜型式、纹样与铸镜（B.9.3）：银镜架只取折叠支架与雕镂银皮，不并入铜镜谱系",
+      "珐琅彩（瓷胎画珐琅，B.6）：金属胎与瓷胎分属不同材料层，本批只处理金属胎珐琅",
+      "纹样母题、器形审美与图像叙事（C）：只取纹饰的工艺归属与器物著录",
+      "文思院、造办处珐琅作、金银铺与五品以上用金玉茶酒器制度（D.6／D.1）：只作器物制作背景",
+      "金银货币与财富宝藏（经济史）：金饼、银锭与「货币替代品」材料不纳入",
+      "辽、宋、元金银器区域类型学与窖藏逐件清单：每代只取一至四件单器锚点",
+      "花丝与花丝工艺的合并裁决：两条同名条目分列，登记 reconcile 候选",
+      "银熏炉同名异器的类型学：西汉竹节炉、唐文思院炉、唐银香囊与宋德阳圆球炉不合并",
+      "唐代金银器窖藏地点（何家村、法门寺、丹徒丁卯桥）：地点 KU 不并入本 Topic"
+    ]
+  },
+  "changed_files": 26,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "三层不能排成技术序列：细工名、器物、胎珐琅之间没有一件共同器物，六册也没有「胎体—细工—表面」的工序次序；本 Topic 的三层划分是整理框架，不是来源结论。",
+    "花丝与花丝工艺两条同名条目未合并：一条是通名与近现代技法，一条是西晋断代与出土物；来源未说明两条是否同一工艺的不同层次，本 Topic 分列后仍存在语义重叠，登记为 reconcile 候选。",
+    "花丝只有编、堆、穿、镶、錾五类技法名，没有拉丝、退火、掐丝、焊接、清洗的步骤，也没有丝径、成色、克重、作坊与产量；西晋条目的金饰 60 多种、130 件只是出土数量，不是工艺参数。",
+    "金细工艺只有掐、累、镶嵌三个字与「五品以上用金玉茶酒器」的制度句，没有工具、胎体、实例与工序；它与花丝的「编、堆、穿、镶、錾」是否同一组技法，来源未说明。",
+    "景泰蓝七步是唯一完整工序链，但铜板厚度、白芨糊配比、焊药成分、釉料矿物组成、烧成温度与时间、镀金液配方与厚度全无；「精品点蓝烧蓝反复三次以上」是唯一量化描述。",
+    "景泰蓝的命名史只有「辛亥革命前后才采用」一句，未给出文献依据；「以景泰年间最精」没有器物清单与款识统计，明代各朝「除万历外几乎都有生产」也没有逐朝实例。",
+    "画珐琅的来源判断未被技术比较支持：田自秉说它是掐丝珐琅的演进、并非外来，同段又记乾隆出现西洋装饰风格的作品；「演进」与「西洋风格」是否矛盾，来源未调和。",
+    "画珐琅只有 1 个名物条目与 1 件图注器物，葵花式盘无尺寸、釉色、款识、收藏地与制作年份；「器表白珐琅、器里蓝珐琅、器底白珐琅」的通例没有逐件核验。",
+    "金属胎珐琅与瓷胎珐琅的边界在来源中未明确：珐琅彩归 B.6 是本库的层级处置，六册未用「金属胎／瓷胎」这对术语把两者分开，景泰蓝、画珐琅、珐琅彩的谱系关系仍需逐条对账。",
+    "银熏炉是同名异器的器型名：西汉竹节炉、唐文思院炉、唐银香囊（熏球）、宋德阳圆球炉四类器物的形制、尺寸与用途不同，六册没有统一类型学；本 Topic 只取前三类中有独立 KU 的器物。",
+    "文思院炉的尺寸两说不可裁：夏燕靖记通高 29.5 厘米、腹深 7 厘米，李立新记 295 厘米、70 厘米；两册重量一致（5363 克＝5.363 千克），长度相差十倍，本库判李立新小数点或单位有讹，但照录不径改。",
+    "唐银香囊的名称与数量未闭合：高丰称「银熏球」，夏燕靖称「银香囊」，李立新图注称「鎏金忍冬纹镂孔银香球」；法门寺 2 件、沙坡村 4 件、何家村 1 件，直径 12.8、5.4、4.5 厘米三种记录，未给完整器物清单。",
+    "唐代金银器的作坊归属只有文思院炉一例：何家村、法门寺、丹徒丁卯桥三处窖藏的器物没有逐件作坊、工匠与工序记录；「唐代金银器谱系」在本批只能以四件单器锚点出现。",
+    "宋乳钉狮纹鎏金银盏只剩一条图注，且图 7-29 同时被指为德阳圆球镂空银熏炉；图号两指未解决，`confidence` 为 low，不能作为宋代金银器的独立类型样本。",
+    "元代四件器物只有朱碧山槎留下工匠与年款：四合如意金盘、银果盒、银镜架均无 maker、作坊与工序；银镜架的「仿木构折叠」是结构描述，不是木作工艺的移植证据。",
+    "辽荷叶敞口银杯只有一句「注水酒后如涟漪荡漾」，没有尺寸、容量、器式与光学实验；「利用光学原理」是来源评价，不能反推杯壁曲线或折射参数。",
+    "清代画珐琅只有一件图注器物，珐琅料成分、烧成温度、造办处与广东的产量、工匠与款识全无；本 Topic 的胎珐琅层因此只有名物与工序，没有清代器物序列。",
+    "来源分布不均：田自秉覆盖 11 条，夏燕靖两版合计 10 条，李立新 3 条，高丰 3 条，赵农 2009 册不在本批来源中；16 个 KU 为单源，只有唐银香囊（4 册）、银镜架（3 册）、景泰蓝（2 册）、文思院炉（2 册）四条有多册互证。",
+    "本 Topic 的 13 件器物止于清，且东汉、六朝、明代三段为空；花丝、金细、景泰蓝的断代材料与器物层不能互相补足，无法构成从战国至清的连续金银器史。"
+  ],
+  "notes": "本批在既有 Theme B.9 内新建第五个 Topic B.9.5「金银器与金属胎珐琅：细工、器类与珐琅工艺」，不新建 Theme，也不扩 B.9.1／B.9.2／B.9.3／B.9.4。B.9 至此按「容器器形—容器铸造—铜镜—表面装饰—金银器与珐琅」五个 Topic 分工。B.9.5 按「细工名—器物—胎珐琅」三层组织 20 个 KU：细工层有花丝、西晋花丝工艺与元代金细工艺，器物层有战国至清十三件金银器，胎珐琅层有景泰蓝、画珐琅与景泰蓝七步工序；银熏炉制作工序单列为器型工序。三层不是技术序列：细工名只有技法名而无工序，唐元金银器多为一句器描述，景泰蓝七步是六册唯一完整工序链，三层没有一件共同器物。20 个 KU 中 16 条单源；田自秉覆盖 11 条，夏燕靖两版合计 10 条，李立新 3 条，高丰 3 条，赵农 2009 册不在本批来源中。四处不裁：花丝与花丝工艺两条同名条目分属通名与西晋断代，登记 reconcile 候选；银熏炉同名异器（西汉竹节炉、唐文思院炉、唐银香囊、宋德阳圆球炉）；文思院炉尺寸 295／29.5 厘米异文；唐银香囊香囊／熏球／香球三名与 12.8／5.4／4.5 厘米三种直径。20 个 KU 全部主挂载，各生成 topic 与 theme 两条 member_of，relation index 因此新增 40 条，由 7121 增至 7161；隔离单元由 1247 减至 1233，20 个新挂载 KU 中 6 个原已有显式关系。knowledge_structure_quality 保持 57/65，structural_health 保持 130。本批不 commit、不 push。"
+}

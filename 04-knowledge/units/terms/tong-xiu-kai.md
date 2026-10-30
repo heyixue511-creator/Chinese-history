@@ -22,17 +22,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "筒袖铠是 B 维度下晋代铠甲形制的条目，其防护结构与编缀工艺同属 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取晋代筒袖铠的鱼鳞龟背甲片连缀成筒与护肩筒袖、兜鍪头盔；甲片尺寸、编缀材料与筒袖长度无载，衲裆铠本批不挂载。"
+hierarchy_scope_note: "筒袖铠是 B 维度下晋代铠甲形制的条目，其防护结构与编缀工艺同属 B 维度。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -52,11 +60,10 @@ hierarchy_scope_note: "筒袖铠是 B 维度下晋代铠甲形制的条目，其
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 筒袖铠是 B 维度下晋代铠甲形制的条目，其防护结构与编缀工艺同属 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取晋代筒袖铠的鱼鳞龟背甲片连缀成筒与护肩筒袖、兜鍪头盔；甲片尺寸、编缀材料与筒袖长度无载，衲裆铠本批不挂载。
 ## 相关知识元
 
 `terms/mingguang-kai.md` 记北周明光铠，并与本条同列三种基本铠甲形制；`terms/na-dang.md` 记衲裆服，与本条所列南北朝“衲裆铠”名称相近而非同一物，来源未说明二者的形制关系。relation 未审查。

@@ -61,16 +61,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取鼎的腹足耳定义、商周形制分期、三足三解、大鼎／正鼎／羞鼎三类、列鼎等级三说与「列鼎即最早系列化设计」；陶鼎起源与九鼎传说只作边界。"
 secondary_dimensions:
   - D
   - C
@@ -140,11 +148,10 @@ hierarchy_scope_note: "鼎是 B 维度下由陶鼎到青铜鼎、由炊煮器到
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）、C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是商周青铜礼器的器形总条目，同时承担"列鼎＝最早系列化设计"这一设计史判断，上接陶鼎与三足器起源，下接镬鼎／升鼎／羞鼎的功能分化与春秋战国的礼制下移。可支持未来的商周礼器制度、青铜铸造工艺与系列化设计类 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取鼎的腹足耳定义、商周形制分期、三足三解、大鼎／正鼎／羞鼎三类、列鼎等级三说与「列鼎即最早系列化设计」；陶鼎起源与九鼎传说只作边界。
 
 ## 相关知识元
 

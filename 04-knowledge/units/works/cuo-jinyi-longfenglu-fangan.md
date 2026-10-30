@@ -44,20 +44,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取战国中山王墓错金银龙凤鹿方案的四鹿四龙四凤结构与错金银装饰；斗拱—家具关系归 D，尺寸两套与 1977／1997 两说并列不裁。"
 secondary_dimensions:
   - C
   - D
-hierarchy_scope_note: "错金银龙凤鹿方案是 B 维度下战国青铜家具的结构锚点：以鹿为足、龙凤盘绕成镂空球、龙头承斗拱托案框，四册对结构的描述高度一致。其错金银工艺与造型装饰归 C；以斗拱承案框所反映的建筑与家具关系归 D（制度与技术传承）为次。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "错金银龙凤鹿方案是 B 维度下战国青铜家具的结构锚点：以鹿为足、龙凤盘绕成镂空球、龙头承斗拱托案框，四册对结构的描述高度一致。其错金银工艺与造型装饰归 C；以斗拱承案框所反映的建筑与家具关系归 D（制度与技术传承）为次。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -96,11 +104,10 @@ hierarchy_scope_note: "错金银龙凤鹿方案是 B 维度下战国青铜家具
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国青铜家具的结构样本，也是“器物结构反映建筑构造”这一论证的少数实物依据（高丰的斗拱说）。可支持未来的战国中山国器物群、青铜家具与木构建筑的关系、错金银工艺等 Topic。当前只到 Dimension。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取战国中山王墓错金银龙凤鹿方案的四鹿四龙四凤结构与错金银装饰；斗拱—家具关系归 D，尺寸两套与 1977／1997 两说并列不裁。
 ## 相关知识元
 
 `works/zenghouyi-bianzhong.md` 同属战国墓葬出土的青铜重器，但一为乐器、一为家具；`works/simuwu-ding.md` 与本条在铸造工艺评价上有相通语汇（范铸、焊接），来源未把二者并置。高丰同段所记“同一个墓地”出土的**错金银铜兽座屏风**（屏座 3 只错金银铜兽，屏扇长 224 厘米、高 90 厘米，铜合页张度限 86°）是四册中唯一与本条同墓共出的家具，尚无独立 KU；曾侯乙漆案、信阳长台关漆案亦无条目。中山王、错金银工艺、斗拱在 `terms/`／`persons/` 下均未立条；平山县无 `places/` 条目。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

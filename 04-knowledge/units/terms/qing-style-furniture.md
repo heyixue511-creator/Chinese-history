@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "清式家具是 B 维度下明清高型家具的风格条目；造型、榫卯、雕刻与镶嵌工艺属 B，宫廷威权与满族政治象征牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取三期说、造办处与广木作背景、广式苏式京式三产地、三条整体风格与太师椅座高 50-52 厘米的风格分析，以及田自秉的三作工艺差别与赵农的定性；三说评价落点不同，并列不裁。"
+hierarchy_scope_note: "清式家具是 B 维度下明清高型家具的风格条目；造型、榫卯、雕刻与镶嵌工艺属 B，宫廷威权与满族政治象征牵涉 C 维度。已挂载 B.14.5（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -96,10 +104,10 @@ hierarchy_scope_note: "清式家具是 B 维度下明清高型家具的风格条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与 `terms/ming-style-furniture.md` 构成明清高型家具的两套风格对照，与 `terms/ji-furniture.md`（先秦低型几）、`terms/huchuang.md`（汉末折叠坐具）不在同一阶段。可与三作产地、造办处制度、巴洛克东传合成 Topic。当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取三期说、造办处与广木作背景、广式苏式京式三产地、三条整体风格与太师椅座高 50-52 厘米的风格分析，以及田自秉的三作工艺差别与赵农的定性；三说评价落点不同，并列不裁。
 
 ## 相关知识元
 

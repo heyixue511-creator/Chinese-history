@@ -26,19 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取冕板与冕旒的构造（宽 7 寸、长 1 尺 2 寸、前圆后方、通天冠）与南朝 12／9／8／6 旒的四级数；不据阎立本《历代帝王图》补写章纹与配色。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: B 维度下的头饰条目，其旒数等级的制度面向列为 D 维度辅助；Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "B 维度下的头饰条目，其旒数等级的制度面向列为 D 维度辅助。已挂载 B.18.1（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -60,10 +69,10 @@ hierarchy_scope_note: B 维度下的头饰条目，其旒数等级的制度面�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的头饰条目，其旒数等级的制度面向列为 D 维度辅助；Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取冕板与冕旒的构造（宽 7 寸、长 1 尺 2 寸、前圆后方、通天冠）与南朝 12／9／8／6 旒的四级数；不据阎立本《历代帝王图》补写章纹与配色。
 
 ## 相关知识元
 

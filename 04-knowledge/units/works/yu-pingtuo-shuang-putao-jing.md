@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下五代铜镜的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: representative_work
+    primary: true
+    scope_note: "只取五代前蜀王建墓镜匣、铜镜背面漆平脱双玉葡萄与「铜器髹漆平嵌宝石」判断；无镜径与玉片数。"
+hierarchy_scope_note: "本 KU 是 B 维度下五代铜镜的器物锚点。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下五代铜镜的器物锚点。Theme
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下五代铜镜的器物锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取五代前蜀王建墓镜匣、铜镜背面漆平脱双玉葡萄与「铜器髹漆平嵌宝石」判断；无镜径与玉片数。
 
 ## 相关知识元
 

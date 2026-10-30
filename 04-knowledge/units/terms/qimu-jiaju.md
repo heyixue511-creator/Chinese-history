@@ -26,19 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - A
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取以木为胎、髹漆为饰的类别定义、几案床箱屏风五品种、「造型低矮、方便实用、完全采用漆器装饰手法」与三组尺寸；髹饰技法归 B.11，胎体做法与榫卯类型只作器物描述引用。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "漆木家具是 B 维度下春秋战国低型家具的类别条目，席地而坐的起居方式与用几等级另涉 A 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "漆木家具是 B 维度下春秋战国低型家具的类别条目，席地而坐的起居方式与用几等级另涉 A 维度。已挂载 B.14.4（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -107,10 +116,10 @@ hierarchy_scope_note: "漆木家具是 B 维度下春秋战国低型家具的类
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是春秋战国漆木家具的类别条目；几的形制通条见 `terms/ji-furniture.md`、`terms/ping-ji.md`，汉代家具见 `terms/han-dai-jia-ju.md`，青铜禁见 `terms/tongjin.md`。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jiaju-yongcai-yu-zhuangshi-hongmu-qimu-muhua.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取以木为胎、髹漆为饰的类别定义、几案床箱屏风五品种、「造型低矮、方便实用、完全采用漆器装饰手法」与三组尺寸；髹饰技法归 B.11，胎体做法与榫卯类型只作器物描述引用。
 
 ## 相关知识元
 

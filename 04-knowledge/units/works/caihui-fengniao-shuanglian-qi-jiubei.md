@@ -1,4 +1,5 @@
 ---
+
 title: 彩绘凤鸟双联漆酒杯（Painted Double-Linked Phoenix Lacquer Cup）
 name_en: Painted Double-Linked Phoenix Lacquer Cup
 type: work
@@ -28,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只取包山二号墓出土地、三处尺寸、竹木结构与彩绘堆漆；合卺杯为来源推测，器物评价归 C。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "彩绘凤鸟双联漆酒杯是 B 维度下战国漆器器物的条目，其合卺功能的推断另涉 A 维度（婚俗与礼制）。包山楚墓的墓葬材料留在 places/ 下相应条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "彩绘凤鸟双联漆酒杯是 B 维度下战国漆器器物的条目，其合卺功能的推断另涉 A 维度（婚俗与礼制）。包山楚墓的墓葬材料留在 places/ 下相应条目。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -89,10 +98,10 @@ hierarchy_scope_note: "彩绘凤鸟双联漆酒杯是 B 维度下战国漆器器
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条只记单件器物；耳杯器形见 `terms/qi-erbei.md`，战国漆器的一般工艺见 `terms/qimu-jiaju.md` 与相关漆器条。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取包山二号墓出土地、三处尺寸、竹木结构与彩绘堆漆；合卺杯为来源推测，器物评价归 C。
 
 ## 相关知识元
 

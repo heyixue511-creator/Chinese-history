@@ -27,18 +27,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取凳三类（方凳、长凳、圆凳）与墩按材质分木石瓷竹藤漆；方凳「吸收木构建筑特点」一句作形制描述引用，不展开木作工艺；尺寸、用材比例与产地无载。"
 secondary_dimensions:
-hierarchy_scope_note: "凳墩是 B 维度下明式坐具类型的条目；当前只到 Dimension。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "凳墩是 B 维度下明式坐具类型的条目；当前只到 Dimension。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -61,10 +69,10 @@ hierarchy_scope_note: "凳墩是 B 维度下明式坐具类型的条目；当前
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 凳墩是 B 维度下明式坐具类型的条目；当前只到 Dimension。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取凳三类（方凳、长凳、圆凳）与墩按材质分木石瓷竹藤漆；方凳「吸收木构建筑特点」一句作形制描述引用，不展开木作工艺；尺寸、用材比例与产地无载。
 
 ## 相关知识元
 

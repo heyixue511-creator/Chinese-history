@@ -1,4 +1,5 @@
 ---
+
 title: 朱然墓黑红漆几（Black-Red Lacquer Ji from Zhu Ran's Tomb）
 name_en: Black-Red Lacquer Ji from Zhu Ran's Tomb
 type: work
@@ -28,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本条是 B 维度三国吴漆木家具的器物条目，来源给凭几的定义、三足形制、一件纪年墓例与三处尺寸，Theme/Topic 尚未 materialize。
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只取三足凭几形制与三处尺寸；家具谱系归尚未物化的家具线。"
+hierarchy_scope_note: "本条是 B 维度三国吴漆木家具的器物条目，来源给凭几的定义、三足形制、一件纪年墓例与三处尺寸，。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -59,10 +68,10 @@ hierarchy_scope_note: 本条是 B 维度三国吴漆木家具的器物条目，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度三国吴漆木家具的器物条目，来源给凭几的定义、三足形制、一件纪年墓例与三处尺寸，Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取三足凭几形制与三处尺寸；家具谱系归尚未物化的家具线。
 
 ## 相关知识元
 

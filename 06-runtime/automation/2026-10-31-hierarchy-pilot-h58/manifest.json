@@ -1,0 +1,160 @@
+{
+  "package_id": "2026-10-31-hierarchy-pilot-h58",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-31",
+  "goal": "在 Theme B.18「前近代服饰与冠服等级」下建立 Topic B.18.5「首服与妆饰：幅巾、幞头、顾姑冠、假髻、佛妆与帔子」，把六册中六条头部与上半身装饰条目全部主挂载，回答「首服与妆饰在六册里是一条『等级可视化』的线，还是一条『等级消解』的线」，并闭合 h56 边界与 h57 未解决问题中登记的「首服与妆饰六条待建」债务。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.48",
+    "baseline_themes": 33,
+    "baseline_topics": 105,
+    "baseline_topic_memberships": 872,
+    "baseline_complete_assignments": 858,
+    "baseline_incomplete_assignments": 1712,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7728,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1730,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1066,
+    "baseline_b_dimension_unmounted": 997
+  },
+  "result": {
+    "hierarchy_version": "v1.49",
+    "themes": 33,
+    "topics": 106,
+    "topic_memberships": 878,
+    "complete_assignments": 864,
+    "incomplete_assignments": 1706,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7740,
+    "relation_types": "3/67",
+    "member_of_relations": 1742,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1061,
+    "b_dimension_unmounted": 991,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 0,
+    "theme_updated": 1,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 6,
+    "secondary_mounts": 0,
+    "changed_units": 6,
+    "total_mounted_units": 864,
+    "new_topic_memberships": 6,
+    "theme_organization": "B.18.5 是 B.18 的第五个 Topic。切分轴仍是「这件装饰在六册里回答什么」，不是部位：六条覆盖头二（幅巾、幞头）、冠一（顾姑冠）、发一（假髻）、面一（佛妆）、肩一（帔子）五个部位，而等级走向把六条分成三组——可读二条、消解三条、未及等级一条。B.18 由此五个 Topic、三十六条：B.18.1 问等级如何被写成可数符号，B.18.2 问衣—裳如何被写成形制名与裁法，B.18.3 问上身短衣如何被写成一组各自命名的名目，B.18.4 问下身裙制是「形」的谱系还是「色料」的谱系，B.18.5 问头部与面部装饰的等级是「可读」还是「消解」。",
+    "topic_split": "B.18.5 六条（幅巾、幞头、顾姑冠、假髻、佛妆、帔子），全部为 B.18.5 主挂载，无次挂载，无跨 Topic 双挂。B.18 累计 5 个 Topic、36 条主挂载：B.18.1 六条、B.18.2 九条、B.18.3 八条、B.18.4 七条、B.18.5 六条。待建只剩鞋履与甲胄四条（履的种类、云头锦鞋、花盆底鞋、皮甲）。",
+    "role_distribution": {
+      "term_anchor": 6
+    },
+    "type_distribution": {
+      "term": 6
+    },
+    "source_distribution": {
+      "2009-xiayanjing-zhongguo-shejishi": 4,
+      "2009-zhaonong-zhongguo-yishu-shejishi": 3,
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 2
+    },
+    "source_overlap_distribution": {
+      "single_book": 4,
+      "two_books": 1,
+      "three_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 6
+    },
+    "consensus_distribution": {
+      "tentative": 6
+    },
+    "primary_vs_secondary": {
+      "primary": 6,
+      "secondary": 0
+    },
+    "theme_cumulative": {
+      "topics": 5,
+      "mounted_units": 36,
+      "type_distribution": {
+        "term": 29,
+        "work": 7
+      },
+      "role_distribution": {
+        "term_anchor": 29,
+        "representative_work": 7
+      },
+      "source_distribution": {
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 15,
+        "2009-zhaonong-zhongguo-yishu-shejishi": 14,
+        "2009-xiayanjing-zhongguo-shejishi": 13,
+        "2010-tianzibing-zhongguo-gongyi-meishushi": 5,
+        "2004-gaofeng-zhongguo-shejishi": 2,
+        "2011-lilixin-zhongguo-sheji-yishu-shilun": 2
+      },
+      "books_covered": 6,
+      "source_count": 6,
+      "confidence_distribution": {
+        "medium": 30,
+        "low": 6
+      },
+      "coverage_note": "六册全覆盖维持，但 B.18.5 本身只出自三册（夏燕靖 2009 四、赵农 2009 三、夏燕靖 2016 二），高丰 2004、田自秉 2010、李立新 2011 零覆盖，是 B.18 五个 Topic 中覆盖册数最少的一个（B.18.1 四册、B.18.2 六册、B.18.3 三册、B.18.4 四册、B.18.5 三册）；它同时是唯一全为 term、不含 work 的 Topic。B.18 的六册全覆盖仍由 B.18.1 的霞帔与 B.18.2 的深衣、素纱禅衣带动。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：6 条 primary_dimension 全部为 B。只有 terms/fujin.md 原已有 secondary_dimensions: [D]（名士身份与九品官位制度背景），按其原值镜像为 secondary_themes: [D]，本批不新设维度归属。B.18.5 的 secondary_themes 为 [D]，依据是六条中有三条把等级写成制度或社会身份（幅巾的九品服色与从俭规定、佛妆的头巾纳马驼、帔子的尊卑都用），D 是六条的共同旁支；该判断只作用于 Topic 层，不回写到其余五条 KU。",
+    "excluded_by_boundary": [
+      "衣装本体：深衣、袍服、圆领袍衫、襦、袄、比甲归 B.18.2 与 B.18.3；本条只取各条自身的形制与装饰。",
+      "下身裙制：裙、襦裙、裥裙、石榴裙、羊肠裙、安乐公主羽裙、晕絰提花锦裙归 B.18.4；帔子条同段所列条纹间色裙、围裳只作并记背景。",
+      "带品级的整套冠服：冕服、冕冠、祎衣、霞帔、燕居服归 B.18.1；本条只记录首服与妆饰自身的等级表达，不处理品级序列。",
+      "鞋履与甲胄：履的种类、云头锦鞋、花盆底鞋、皮甲仍无 primary_theme，属 B.18 待建 Topic；甲胄本体与 B.9.6 划界。",
+      "近代与当代首服、发式与妆法：礼帽、贝雷帽、军帽、鸭舌帽、瓜皮帽（近代）与现代妆品归 D.2 或 E 类 Theme。",
+      "族群身份与服饰交流的展开：幅巾与九品服色、幞头与唐宋公服制度、佛妆与契丹南北双轨服制只作背景照录，制度与族群问题归 D、E 维度。",
+      "披帛（隋唐女子披饰）：与帔子在同段对举而分属不同时代与不同条目，本条不把披帛列为帔子别名，也不据帔子条回填披帛；披帛的落位不在本批范围。",
+      "图版本体：《步辇图》、图 6-19／6-20／6-21、图 5-25《洛神赋图》局部、敦煌莫高窟壁画、洛阳陶俑、图 5-14「彩绘乐女俑」与图 5-15「杂裾垂髯服」均未视觉核验，后两图图注未题本条所收条目，不据图补写形制与妆法。",
+      "妆料制法本体：白粉、红粉与黛的工艺，以及佛妆植物色的配方，归 B.2 或相关工艺 Theme；本条只记录其被提及，不展开制法。"
+    ],
+    "handoff_note": "本批闭合 h56 Theme B.18 边界「待建：首服与妆饰六条」与 h57 未解决问题「首服与妆饰六条、鞋履与甲胄四条共十条仍在库中无 primary_theme」，B.18 待建数由 10 条改为 4 条。h57 summary 第九节「下一跳优先级」第一位「首服与妆饰 Topic」至此完成。"
+  },
+  "changed_files": 20,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/dimension-candidates.md",
+    "04-knowledge/structure/hierarchy/archive/v1.48.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/automation/index.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/index/index.md",
+    "knowledge-graph-data.js"
+  ],
+  "unresolved": [
+    "等级方向在幞头上自相矛盾：赵农同章既称「硬角幞头为唐代帝王专用」，又称宋代「士人、庶民普遍以布巾裹头，并成为一种不分贵贱都能佩带的『幞头』」，两个方向并存而未调和；夏燕靖两版讲形制与软硬脚做法，全不提专用。是同名异制、唐代专用而宋代放开，还是「硬角」与「软脚改硬脚」并非同一物，来源无交代。",
+    "构造工序只有幞头一条且无尺寸：四角成带与两中角系法是结构描述，软脚加铜铁丝是材料替换，均未给巾幅尺寸、系结长度与硬脚角度；「翘成不同的角度」只有「不同」二字。",
+    "顾姑冠的「四五尺」不是冠高：它是顶部柳条或银枝的长度，冠高、冠围、木骨层数与红绢金帛的用幅全缺；两册均未给冠高实测或图像出处。",
+    "假髻形制全缺：无材质（真发、马尾、丝帛或其他）、无编缀与固定方法、无尺寸重量、无使用者身份差异；《北齐书》「危邪之状如飞鸟」是文学描述而非结构描述，「髻心正西」来源如此，未校改。",
+    "佛妆的判断与记载合一：「面部涂深黄色，红眉黑吻」是妆法记载，「因北地风寒而产生的用植物色保养皮肤的方法」是赵农判断，两者写在同一句内；植物色配方、流行阶层、妆法工序与图像实例全缺，本库不代人补配方。",
+    "帔子的部位归属存疑：它是「披之肩背」的长巾而非首服，收入 B.18.5 的依据是等级表达问题相同而非部位相同；若单立披饰 Topic 应迁出，本 Topic 的五条首服与妆饰是否足以独立成题需重估。",
+    "帔子、披帛与霞帔三者关系未裁：来源明言帔子比披帛颜色更艳丽并加绣纹，二者不宜合并；霞帔是后世披饰，与帔子是否同源，六册无交代。三者在库中分属 B.18.5、隋唐披帛条目与 B.18.1，跨 Topic 无互引。",
+    "幅巾与幞头的源流三说未合：夏燕靖作「由汉代的幞头、幅巾等演变而来」（以幞头自身为源，文义不通，原文如此），赵农作「从汉代的幅巾演变过来」，赵农同段又引「太宗尝以幞头起于后周，便武事者也」（《新唐书·车服志》），与汉代幅巾说相隔数百年。本库并列不裁。",
+    "首服与妆饰之间的接口只有一句：假髻引出的「白粉和红粉的使用以及黛的技术使用」是全 Theme 唯一的发—面因果句，且未给三者的制法、产地与使用阶层；佛妆之外的妆饰条目在库中尚有未挂载项，本条不收。",
+    "断代留白：秦、西汉、东汉、明、清五代零覆盖；宋代只有幞头一条续记且与唐代同条，未独立成段；辽只有佛妆一条且妆法与其护肤解释合写一句。",
+    "图版未核：《步辇图》、图 6-19／6-20／6-21、图 5-25《洛神赋图》局部、敦煌壁画、洛阳陶俑、图 5-14、图 5-15 均未视觉核验，且后四条图注未题本条所收条目，不能作形制证据。",
+    "覆盖最薄且无器物：三条来源（夏燕靖两版、赵农），高丰、田自秉、李立新零覆盖，本库只记「本批未见」不记「原书未载」；六条全部为 term，无一件器物或成衣实物，本 Topic 的形制判断因此全靠文字，无一可与实物对照。",
+    "鞋履与甲胄四条（履的种类、云头锦鞋、花盆底鞋、皮甲）仍在库中无 primary_theme；B.18 因此尚不能回答「足服与护具如何与衣裳等级相连」，该 Topic 留待后续批次。"
+  ],
+  "notes": "推导与实测口径：relation 增量 12 = 6 条主挂载 ×（topic member_of + theme member_of），与 build_relation_index.py 前后实测差一致（7728→7740），member_of 同增 12（1730→1742）。隔离单元减 5 而非 6：6 条中有 1 条原本已有显式关系、不属隔离，取自 audit_relation_consistency.py 前后两次实测（1066→1061）。changed_files 20 = apply-plan 12 行 + 8 个生成态文件；archive 快照 hierarchy/archive/v1.48.md 不计入。与 h56／h57 的差别：h56 新建 Theme（structure_node_create），h57 与 h58 均为 Theme 更新（structure_node_update）＋Topic 新建；本批 6 条挂载中有 5 条原为隔离单元，较 h57 的 5/7 更集中于无关系条目，说明首服与妆饰组在库中长期无出边。一处须注意：terms/fozhuang.md 的 secondary_dimensions 为空（null），镜像时跳过而不写空列表；若写成空列表会使 frontmatter 出现无意义键。生成态：manifest 与 summary 先落盘，再连跑两次 run_sync_closure.py --refresh-generated --full；--check-generated 17 步第 17 步未 commit 时 exit=1 属预期。不 commit、不 push。"
+}

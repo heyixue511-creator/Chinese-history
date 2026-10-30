@@ -1,4 +1,5 @@
 ---
+
 title: 生铁柔化技术（Malleable Cast Iron）
 name_en: Malleable Cast Iron
 type: procedure
@@ -28,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "生铁柔化技术是 B 维度下战国铸铁后处理工序的条目，其农具与工具归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: procedure
+    primary: true
+    scope_note: "只取战国早期柔化（锻化）与白心、黑心可锻铸铁；易县农具「铁鏤／铁鐏」两版异文照录，农具器形归待建农具 Topic。"
+hierarchy_scope_note: "生铁柔化技术是 B 维度下战国铸铁后处理工序的条目，其农具与工具归 B 维度。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -64,10 +73,10 @@ hierarchy_scope_note: "生铁柔化技术是 B 维度下战国铸铁后处理工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 生铁柔化技术是 B 维度下战国铸铁后处理工序的条目，其农具与工具归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取战国早期柔化（锻化）与白心、黑心可锻铸铁；易县农具「铁鏤／铁鐏」两版异文照录，农具器形归待建农具 Topic。
 
 ## 相关知识元
 

@@ -1,4 +1,5 @@
 ---
+
 title: "排橐鼓风（Box-Bellows Air Blast）"
 name_en: "Box-Bellows Air Blast"
 type: procedure
@@ -29,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "排橐鼓风是 B 维度下春秋末年冶铁炉鼓风工序的条目，其生铁冶铸效率归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: procedure
+    primary: true
+    scope_note: "只取排橐的皮囊、柄、竹管三要素与「300 人」一句；尺寸、囊数、口径与鼓风量无载。"
+hierarchy_scope_note: "排橐鼓风是 B 维度下春秋末年冶铁炉鼓风工序的条目，其生铁冶铸效率归 B 维度。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "排橐鼓风是 B 维度下春秋末年冶铁炉鼓风工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 排橐鼓风是 B 维度下冶铁炉鼓风工序的条目，与生铁冶铸、水力鼓风同属冶铁动力技术谱系。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取排橐的皮囊、柄、竹管三要素与「300 人」一句；尺寸、囊数、口径与鼓风量无载。
 
 ## 相关知识元
 

@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "玉雕套裁与巧色是 B 维度下玉器加工的两种设计性工序，跨商代、宋代与新中国三段记载，其产地与作品归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md
+    role: procedure
+    primary: true
+    scope_note: "玉雕套裁与巧色只取套裁、巧色的定义与商代、宋代、新中国三段用例；玉料与艺人分工未载，不补。"
+hierarchy_scope_note: "玉雕套裁与巧色只取套裁、巧色的定义与商代、宋代、新中国三段用例；玉料与艺人分工未载，不补。"
 ---
 
 ## 描述
@@ -72,10 +80,10 @@ hierarchy_scope_note: "玉雕套裁与巧色是 B 维度下玉器加工的两种
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（玉器设计与加工），记商代已用巧色、宋代巧色定义与三件实例、新中国套裁与巧色及产地；与商周琢玉构成前后两段，当前只到 Dimension。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 玉雕套裁与巧色只取套裁、巧色的定义与商代、宋代、新中国三段用例；玉料与艺人分工未载，不补。
 
 ## 相关知识元
 

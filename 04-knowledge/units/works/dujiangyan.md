@@ -35,17 +35,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 都江堰是 B 维度下战国秦国无坝引水工程的条目，来源给主持者、年代、工程结构与治水经验。Theme/Topic 尚未 materialize。
+primary_theme: B.15
+secondary_themes:
+  - D
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取李冰主持、公元前 256 年起六年烧山凿石、鱼嘴分流与飞沙堰宝瓶口内外江、世界上历史最长的无坝引水工程、两句治水口诀与天府之国；渠道长度、灌溉面积、工程尺寸与历代维修全无。"
+hierarchy_scope_note: 都江堰是 B 维度下战国秦国无坝引水工程的条目，来源给主持者、年代、工程结构与治水经验。已挂载 B.15.1（水利工程：灌溉、航运与治水经验）。
 ---
 
 ## 描述
@@ -69,10 +78,10 @@ hierarchy_scope_note: 都江堰是 B 维度下战国秦国无坝引水工程的�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 都江堰是 B 维度下战国秦国无坝引水工程的条目，来源给主持者、年代、工程结构与治水经验。Theme/Topic 尚未 materialize。
+- primary_theme: B.15（水利工程：灌溉、航运与治水经验）
+- topic_memberships: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取李冰主持、公元前 256 年起六年烧山凿石、鱼嘴分流与飞沙堰宝瓶口内外江、世界上历史最长的无坝引水工程、两句治水口诀与天府之国；渠道长度、灌溉面积、工程尺寸与历代维修全无。
 
 ## 相关知识元
 

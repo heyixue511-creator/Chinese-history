@@ -24,17 +24,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "帔子是 B 维度下晋朝至南北朝女装披饰的条目，其服用等级与胡服交流另涉 D 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「披之肩背」长巾的定义、比披帛更艳丽并加绣纹、晋朝贵族间兴起而后各朝尊卑都用（等级消解）与北方衲裆服用；**部位在肩不在头**，收入本 Topic 依据是等级表达问题相同而非部位相同，若单立披饰 Topic 应迁出；尺寸、织物与绣纹母题全缺。"
+hierarchy_scope_note: "帔子是 B 维度下晋朝至南北朝女装披饰的条目，其服用等级与胡服交流另涉 D 维度。已挂载 B.18.5（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -57,10 +64,10 @@ hierarchy_scope_note: "帔子是 B 维度下晋朝至南北朝女装披饰的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 帔子是 B 维度下晋朝至南北朝女装披饰的条目，其服用等级与胡服交流另涉 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「披之肩背」长巾的定义、比披帛更艳丽并加绣纹、晋朝贵族间兴起而后各朝尊卑都用（等级消解）与北方衲裆服用；**部位在肩不在头**，收入本 Topic 依据是等级表达问题相同而非部位相同，若单立披饰 Topic 应迁出；尺寸、织物与绣纹母题全缺。
 
 ## 相关知识元
 

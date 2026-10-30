@@ -1,4 +1,5 @@
 ---
+
 title: 裴李岗石磨盘石磨棒（Peiligang Stone Quern and Pestle）
 name_en: Peiligang Stone Quern and Pestle
 type: work
@@ -23,18 +24,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: representative_work
+    primary: true
+    scope_note: "只作裴李岗图版的图题证据；无尺寸、用法与出土地，图版未核。"
 secondary_dimensions:
-hierarchy_scope_note: "本条是 B 维度新石器时代农具的条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度新石器时代农具的条目。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -52,10 +61,10 @@ hierarchy_scope_note: "本条是 B 维度新石器时代农具的条目。Theme/
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度新石器时代农具的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只作裴李岗图版的图题证据；无尺寸、用法与出土地，图版未核。
 
 ## 相关知识元
 

@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "银熏炉制作工序是 B 维度下唐代金银器成形与装饰的工序条目，其器形与佛教供具含义归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "只取文思院炉的钣金成型、附件浇铸、纹饰涂金三道工序与盖身扣合、莲瓣镂空、五兽足、朵带装配；鎏金配比与工序归 B.9.4，295／29.5 厘米异文并列。"
+hierarchy_scope_note: "银熏炉制作工序是 B 维度下唐代金银器成形与装饰的工序条目，其器形与佛教供具含义归 B 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -65,11 +73,10 @@ hierarchy_scope_note: "银熏炉制作工序是 B 维度下唐代金银器成形
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（金银器成形与装饰），证据系于单件器物，不能据此推出唐代金银器的一般工序。当前只到 Dimension。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取文思院炉的钣金成型、附件浇铸、纹饰涂金三道工序与盖身扣合、莲瓣镂空、五兽足、朵带装配；鎏金配比与工序归 B.9.4，295／29.5 厘米异文并列。
 ## 相关知识元
 
 `works/yin-xunlu.md` 记同器（夏燕靖两版），并给出另一件宋代银熏炉，本条据其校正长度疑误；`institutions/wensiyuan.md` 记文思院，为该器铭文所署制作机构（据夏燕靖）；`terms/boshanlu.md` 与 `works/cuojin-boshanlu.md` 记博山炉，为熏炉的另一形制；`works/tang-yin-xiangnang.md` 记唐代银香囊，同属唐代金银器谱系。relation 未经审查，不写入正式 `relations`。

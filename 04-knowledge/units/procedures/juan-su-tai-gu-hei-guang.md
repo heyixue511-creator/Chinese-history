@@ -1,4 +1,5 @@
 ---
+
 title: 卷素胎骨与黑光（Juan-su Lacquer Body and Black Lacquer Finish）
 name_en: Juan-su Lacquer Body and Black Lacquer Finish
 type: procedure
@@ -31,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "卷素胎骨与黑光是 B 维度下元代漆器制胎与髹饰工序的条目，其上灰、糙漆、揩光程序归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: procedure
+    primary: true
+    scope_note: "只取《辍耕录》从卷素到揩光的全部工序与红漆配方，是六册唯一的漆层配方；配方不可回推汉唐。"
+hierarchy_scope_note: "卷素胎骨与黑光是 B 维度下元代漆器制胎与髹饰工序的条目，其上灰、糙漆、揩光程序归 B 维度。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -67,10 +76,10 @@ hierarchy_scope_note: "卷素胎骨与黑光是 B 维度下元代漆器制胎与
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（漆器制胎与髹饰），与夹纻胎、圈叠法同属漆器胎骨谱系，但材料与工序不同；当前只到 Dimension。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取《辍耕录》从卷素到揩光的全部工序与红漆配方，是六册唯一的漆层配方；配方不可回推汉唐。
 
 ## 相关知识元
 

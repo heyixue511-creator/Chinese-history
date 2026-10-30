@@ -42,19 +42,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "东、西织室是汉代长安少府属下掌织作的官署锚点，产品为缯帛与文绣之服；本 Topic 取其官名、省废年份与《贡禹传》用费一语，东汉与西汉末两说并存不裁。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "长安东、西织室是 D 维度下汉代少府属官营丝织机构的条目，其织造品种与工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "东、西织室是汉代长安少府属下掌织作的官署锚点，产品为缯帛与文绣之服；本 Topic 取其官名、省废年份与《贡禹传》用费一语，东汉与西汉末两说并存不裁。"
 ---
 
 ## 描述
@@ -84,12 +92,10 @@ hierarchy_scope_note: "长安东、西织室是 D 维度下汉代少府属官营
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是汉代少府属下官营丝织机构的条目，可与临淄、襄邑三服官、南朝染署及后世织造局构成官营纺织序列。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 东、西织室是汉代长安少府属下掌织作的官署锚点，产品为缯帛与文绣之服；本 Topic 取其官名、省废年份与《贡禹传》用费一语，东汉与西汉末两说并存不裁。
 ## 相关知识元
 
 `institutions/sanfuguan.md` 记三服官；`institutions/zhiranshu.md` 记隋唐织染署；`institutions/pingzhunling.md` 与 `institutions/baoshi.md` 记汉代染练官署；`procedures/tiaohua-jieben.md` 记挑花结本。relation 未审查，不写入正式 `relations`。

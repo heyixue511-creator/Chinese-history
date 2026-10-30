@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 陶瓦是 B 维度下西周屋顶建筑材料的条目，其铺挂与连接构造属生产技术。Theme/Topic 尚未 materialize。
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: term_anchor
+    primary: true
+    scope_note: "陶瓦是 B.5.6 的屋面起点：西周已使用普遍、此前一直是「茅茨」式草顶房；陕西扶风西周中期宫室屋顶全部用瓦覆盖；西周板瓦长 40、宽 20、厚 1.3 厘米，板瓦上下有瓦钉和瓦环、可以套连和粘接；同段另记实心砖背面四角有乳钉、贴墙面使墙面光洁——砖在此时是贴面而非砌体"
+hierarchy_scope_note: "陶瓦是 B.5.6 的屋面起点：西周已使用普遍、此前一直是「茅茨」式草顶房；陕西扶风西周中期宫室屋顶全部用瓦覆盖；西周板瓦长 40、宽 20、厚 1.3 厘米，板瓦上下有瓦钉和瓦环、可以套连和粘接；同段另记实心砖背面四角有乳钉、贴墙面使墙面光洁——砖在此时是贴面而非砌体"
 ---
 
 ## 描述
@@ -59,11 +67,11 @@ hierarchy_scope_note: 陶瓦是 B 维度下西周屋顶建筑材料的条目，�
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 陶瓦是 B 维度下西周屋顶建筑材料的条目，其铺挂与连接构造属生产技术。Theme/Topic 尚未 materialize。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 陶瓦是 B.5.6 的屋面起点：西周已使用普遍、此前一直是「茅茨」式草顶房；陕西扶风西周中期宫室屋顶全部用瓦覆盖；西周板瓦长 40、宽 20、厚 1.3 厘米，板瓦上下有瓦钉和瓦环、可以套连和粘接；同段另记实心砖背面四角有乳钉、贴墙面使墙面光洁——砖在此时是贴面而非砌体
 
 ## 相关知识元
 

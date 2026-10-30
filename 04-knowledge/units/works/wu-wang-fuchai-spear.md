@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 吴王夫差矛是 B 维度下春秋青铜矛的器物条目，来源一段给形制、尺寸、铭文与评价。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取江陵楚墓出土、长 29.5 厘米、宛如短剑、矛脊血槽与错金铭文；错金工序归 B.9.4，铭文末字「口」照录不补。"
+hierarchy_scope_note: 吴王夫差矛是 B 维度下春秋青铜矛的器物条目，来源一段给形制、尺寸、铭文与评价。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -64,11 +72,10 @@ hierarchy_scope_note: 吴王夫差矛是 B 维度下春秋青铜矛的器物条�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 吴王夫差矛是 B 维度下春秋青铜矛的器物条目，来源一段给形制、尺寸、铭文与评价。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取江陵楚墓出土、长 29.5 厘米、宛如短剑、矛脊血槽与错金铭文；错金工序归 B.9.4，铭文末字「口」照录不补。
 ## 相关知识元
 
 `terms/mao.md` 记矛的源流与青铜矛结构；`works/yuewang-goujian-jian.md` 记同属春秋吴越青铜兵器的越王勾践剑，两器可对读，但来源未把二者并置。relation 未审查，不写入正式 `relations`。

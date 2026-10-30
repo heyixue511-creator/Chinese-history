@@ -1,4 +1,5 @@
 ---
+
 title: 彭君宝（Peng Junbao）
 name_en: Peng Junbao
 type: person
@@ -25,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b11-xiushi-wenxian-yu-minggong.md
+    role: key_person
+    primary: true
+    scope_note: "只取元代嘉兴戗金名手与题材评语；戗金技法归 B.11.2，村名异写照录。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度元代戗金漆工的人物锚点，山水花竹等题材属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度元代戗金漆工的人物锚点，山水花竹等题材属 C 维度。已挂载 B.11.4（髹饰文献与名工：从《髹饰录》到李芝卿）。"
 ---
 
 ## 描述
@@ -58,10 +67,10 @@ hierarchy_scope_note: "本条是 B 维度元代戗金漆工的人物锚点，山
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代戗金漆工的人物锚点，山水花竹等题材属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-wenxian-yu-minggong.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取元代嘉兴戗金名手与题材评语；戗金技法归 B.11.2，村名异写照录。
 
 ## 相关知识元
 

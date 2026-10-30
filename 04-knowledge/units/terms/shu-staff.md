@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 殳是 B 维度下商周至春秋战国无刃长兵器的条目，其仪仗与刑具用途见来源论述。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取无刃长兵与五兵、殳头形制、仪仗与杖杀、曾侯乙墓三棱矛形铜殳头通长 3.30 米；卤薄仪仗归 D 维度，殳头直径与重量无载。"
+hierarchy_scope_note: 殳是 B 维度下商周至春秋战国无刃长兵器的条目，其仪仗与刑具用途见来源论述。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -66,11 +74,10 @@ hierarchy_scope_note: 殳是 B 维度下商周至春秋战国无刃长兵器的�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 殳是 B 维度下商周至春秋战国无刃长兵器的条目，其仪仗与刑具用途见来源论述。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取无刃长兵与五兵、殳头形制、仪仗与杖杀、曾侯乙墓三棱矛形铜殳头通长 3.30 米；卤薄仪仗归 D 维度，殳头直径与重量无载。
 ## 相关知识元
 
 `terms/ge-dagger-axe.md` 记戈；`terms/ji-halberd.md` 记戟；`terms/mao.md` 记矛；`terms/lubu.md` 记卤薄中的殳；`publications/shijing.md` 提及殳。relation 未审查，不写入正式 `relations`。

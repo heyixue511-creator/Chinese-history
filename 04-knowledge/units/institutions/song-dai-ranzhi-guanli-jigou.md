@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: historical_context
+    primary: true
+    scope_note: "宋代染织管理机构是聚合条，承载中央文思院、绫锦院、裁造院、文绣院与九处地方派出机构的网络范围及上供比例；本 Topic 只用它界定网络，不重复各分条的制度细节。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "宋代染织管理机构是 D 维度下宋代官营染织管理网络的合并条目，其丝织、染缬生产归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "宋代染织管理机构是聚合条，承载中央文思院、绫锦院、裁造院、文绣院与九处地方派出机构的网络范围及上供比例；本 Topic 只用它界定网络，不重复各分条的制度细节。"
 ---
 
 ## 描述
@@ -67,12 +75,10 @@ hierarchy_scope_note: "宋代染织管理机构是 D 维度下宋代官营染织
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是宋代官营染织管理网络的合并条目，可与文思院、绫锦院、少府监等既有条目并置，观察中央四院与地方九处的空间分布。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 宋代染织管理机构是聚合条，承载中央文思院、绫锦院、裁造院、文绣院与九处地方派出机构的网络范围及上供比例；本 Topic 只用它界定网络，不重复各分条的制度细节。
 ## 相关知识元
 
 `institutions/wensiyuan.md` 记文思院；`institutions/lingjinyuan.md` 记绫锦院；`institutions/shaofujian.md` 记少府监；`institutions/jiangnan-zhizao-zongju.md` 记清代江南织造。relation 未审查，不写入正式 `relations`。

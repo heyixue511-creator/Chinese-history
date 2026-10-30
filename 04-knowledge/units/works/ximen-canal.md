@@ -31,17 +31,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 西门渠是 B 维度下战国魏国水利工程的条目，来源给主持者、任职、水患与兴修漳水十二渠的效果。Theme/Topic 尚未 materialize。
+primary_theme: B.15
+secondary_themes:
+  - D
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取魏文侯派西门豹做邺令、漳水泛滥、治邺破除迷信兴建漳水十二渠与邺地物产丰富土地肥沃；「西门渠」与「漳水十二渠」名实并列不裁，渠线、长度、灌溉面积与年代全无。"
+hierarchy_scope_note: 西门渠是 B 维度下战国魏国水利工程的条目，来源给主持者、任职、水患与兴修漳水十二渠的效果。已挂载 B.15.1（水利工程：灌溉、航运与治水经验）。
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: 西门渠是 B 维度下战国魏国水利工程的条目�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 西门渠是 B 维度下战国魏国水利工程的条目，来源给主持者、任职、水患与兴修漳水十二渠的效果。Theme/Topic 尚未 materialize。
+- primary_theme: B.15（水利工程：灌溉、航运与治水经验）
+- topic_memberships: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取魏文侯派西门豹做邺令、漳水泛滥、治邺破除迷信兴建漳水十二渠与邺地物产丰富土地肥沃；「西门渠」与「漳水十二渠」名实并列不裁，渠线、长度、灌溉面积与年代全无。
 
 ## 相关知识元
 

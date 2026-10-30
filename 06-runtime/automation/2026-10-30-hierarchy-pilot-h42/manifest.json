@@ -1,0 +1,130 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h42",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.10「乐器与八音：材质分类、乐律与钟磬」，新建 B.10.1／B.10.2 两个 Topic，主挂载 13 个乐器、钟磬与乐学文献 KU，并以次挂载承接陶埙的八音土类一面；同步改判 B.9 原「乐器归后续 B.9 Topic」的边界并回填其存量陈旧处",
+  "scope": {
+    "baseline_hierarchy_version": "v1.32",
+    "baseline_themes": 24,
+    "baseline_topics": 77,
+    "baseline_topic_memberships": 606,
+    "baseline_complete_assignments": 598,
+    "baseline_incomplete_assignments": 1972,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7202,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1204,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1220
+  },
+  "result": {
+    "hierarchy_version": "v1.33",
+    "themes": 25,
+    "topics": 79,
+    "topic_memberships": 620,
+    "complete_assignments": 611,
+    "incomplete_assignments": 1959,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7229,
+    "relation_types": "3/67",
+    "member_of_relations": 1231,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1210,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b10-yueqi-yu-bayin-caizhi-fenlei-lelv-yu-zhongqing.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md",
+      "04-knowledge/structure/topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md"
+    ],
+    "new_theme_nodes": 1,
+    "new_topic_nodes": 2,
+    "mounted_units": 13,
+    "secondary_mounted_units": 1,
+    "changed_units": 14,
+    "total_mounted_units": 611,
+    "new_topic_memberships": 13,
+    "secondary_memberships": 1,
+    "role_distribution": {
+      "term_anchor": 6,
+      "representative_work": 4,
+      "boundary_case": 2,
+      "key_person": 1,
+      "supporting_source": 1
+    },
+    "type_distribution": {
+      "term": 4,
+      "work": 6,
+      "person": 1,
+      "publication": 1
+    },
+    "cross_dimension_mounts": "1 条新跨维度挂载：《乐律全书》（publications/yuelv-quanshu，primary_dimension=C，明代藩王刻本）作跨维度主挂载入 B.10.1，role 为 supporting_source，其印刷史身份仍记在 C。该写法沿用库内既有先例：terms/huaxiangzhuan（C 立条、主挂载 B.5.4）、institutions/qin-han-guan-ying-tao-yao（B 立条、主挂载 D.6.2）、persons/chen-zhifo（C 立条、次挂载 D.4.3）。其余 12 条主挂载的 primary_dimension 均为 B；陶埙为同维度次挂载（B，primary: false）。库内不存在「有 membership 而无 primary_theme」的 KU，故次挂载不创设无主挂载的悬挂条目。",
+    "taxonomy_split": "八音、十二平均律、陶埙→B.10.1 分类与器物层（term_anchor 3）；朱载堉→B.10.1 人物层（key_person 1）；《乐律全书》→B.10.1 文献载体层（supporting_source 1）；编钟、磬、铜鼓→B.10.2 器类层（term_anchor 3）；曾侯乙编钟、虎纹大石磬、景云二年大钟、大钟寺大钟→B.10.2 单器层（representative_work 4）；秦公镈、朝钟同法→B.10.2 边界层（boundary_case 2）；陶埙另以次挂载入 B.10.1（primary: false），主挂载仍为 B.5.7。青铜容器器形与礼器组合→B.9.1；合范浑铸分铸失蜡与六齐→B.9.2；铜镜→B.9.3；金属表面装饰→B.9.4；金银器与金属胎珐琅→B.9.5；兵器与甲胄→B.9.6；陶埙的史前成形、烧成与仿声诱捕→B.5.7；礼乐制度与大乐司→D；钟磬铜鼓纹样、编钟铭文、《乐律全书》版式与藩王刻书制度→C；《乐记》《乐论》《声无哀乐论》与嵇康、阮籍→A；弦管与革类鼓→后续 B.10.3；缶不挂载。",
+    "planned_topics_not_created": [
+      "B.10.3 弦管与革类鼓（编号已留）：琴、瑟、笙、竽、笛、箫、篪、筚篥、胡笳、羌笛、琵琶、阮咸、箜篌、奚琴、羯鼓、拍鼓、腰鼓、漆双凤鼓、彩绘鹿鼓、螺钿五弦琵琶等，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸、百炼钢与炒钢，仍未物化",
+      "B.9 货币与农具 Topic（编号待定）：货币形制、农具与铁农具，仍未物化",
+      "漆器 Theme（编号待定）：髹漆、描金、戗金、螺钿、雕漆、剔犀、百宝嵌，仍未物化",
+      "前近代服饰与甲胄等级 Theme（编号待定）：舆服制度、甲胄与服饰等级，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "弦管乐器与革类鼓：本批只取金石两目与土类样本，琴瑟笙竽笛箫与羯鼓拍鼓腰鼓留 B.10.3",
+      "缶（terms/fou-vessel）：以陶质盛酒器立条，形制归陶系；「击缶」的乐器用法只作边界，不挂载",
+      "《乐记》《乐论》《声无哀乐论》与嵇康、阮籍（persons/ji-kang、persons/ruan-ji）：属 A 维度音乐思想，不入本 Theme",
+      "礼乐制度（terms/li-yue-zhidu）与大乐司（institutions/da-yuesi）：官制与制度史解释归 D，本批只留「西周有专门的音乐机构，属大乐司」一句背景",
+      "works/changlegong-zhong：名含「钟」而 sub_type 为青铜酒器（西汉鎏金嵌琉璃方格纹铜壶），非乐器，不挂载",
+      "铜鼓与钟磬的纹样母题（太阳纹、蛙纹、鹭鸟纹、竞渡纹、舞狮、翔鹤、宝相花）：构图与意义解释归 C",
+      "编钟铭文的语词、书法与拓本：归 C，本批只记「编钟上面的铭文是乐器史上的珍贵资料」一句",
+      "曾侯乙墓的漆衣箱、尊盘、鉴缶等非乐器器物：归 B.9，本批只取同墓 124 件乐器清单中的编磬一项",
+      "五件钟磬单器的后世收藏、陈列与市场：归 D，本批只取来源所记尺寸、重量、藏地与装饰"
+    ]
+  },
+  "changed_files": 23,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "「八音是材料分类而非音阶」是本批的整理判断，来源未作此辨析；若按音阶理解，八音与五声、七声、十二律的关系在六册中亦无交代。",
+    "八音只有八个材料名，六册未逐项列出各目对应哪些乐器；「材料的性质不同，而制成的乐器音质也不同」是原理句，无声学依据与测音对照。",
+    "周代乐器约有 70 种、《诗经》提及 29 种，两个总数都没有器物清单、统计口径与出处，是否同一统计范围来源未说明。",
+    "「西周有专门的音乐机构，属大乐司」只有一句，机构编制、职官、乐工数量与所属王官系统全无；「大乐司」与通行《周礼》官名「大司乐」不一致，已标疑照录未改。",
+    "十二平均律只有两句（发明者、对近代乐器制造的积极作用、键盘乐器依此定音），律制计算、音分数据、生律法、八十四调与十二律的关系全无，也没有任何一件乐器或一段音列被指为其实例。",
+    "「几乎所有的键盘乐器都需要依照十二平均律定音」是概括判断，未给乐器清单、年代与中国实例；中国键盘乐器何时传入、如何按此定音，来源未及。",
+    "《乐律全书》在六册中以藩王刻本立条，卷数、成书年代、刊刻时间、版式与律学篇目全无；本批借它为律制载体，其律学内容实际不在来源叙述内，属载体层与内容层的错位。",
+    "朱载堉只有郑藩宗室、著书、发明十二平均律三项，生卒、爵号、师承与其他著作全无。",
+    "八音中的丝、竹、匏、革、木五目在 B.10.1 与 B.10.2 均无对应器物条目，弦管与鼓类留待 B.10.3；因此八音在 KU 层实际只有金、石（B.10.2）、土（陶埙）三目有实例。",
+    "钟磬「器类定义—成组与等级—单器体量—工序图像」四层不成谱系：器类只有部件名与形状描述而无一件甬长、枚数与壁厚；商三件一组、西周八件一套与天子四组至士一组只有数字而无墓葬清点。",
+    "曾侯乙编钟件数两说（高丰 64 件、夏燕靖两版与赵农 65 枚），四册均未说明计数是否含楚惠王所赠镈；无单钟尺寸与重量、全套总重、钟架形制、铭文字数与测音报告。",
+    "磬的材料最薄：正文只有孔子击磬于卫的故事，「有心哉」被解为「音从心出」，磬的形状、尺寸、石质、悬孔位置、编组方式与音高全无；图 3-45 只有图注且未视觉核验。",
+    "「挂钟的架称为簴」在田自秉册作「虞」，为 OCR 之误；照录并已在 KU 内标注，未径改。",
+    "秦公镈只有一句正文与一条图注，通高、重量、舞部与篆部纹饰、铭文、件数、出土与收藏地全无；景云二年大钟的通高、口径、钟纽、铭文与铸地全无，「约 12000 多斤」为约数。",
+    "大钟寺大钟的铸造工场、铜料配比、合金成分、钟钮与钟身纹饰、铸造方法全无；《天工开物》图 3-3「朝钟同法」只有图注，正文未解释所指，钟制、尺寸与工序全无。",
+    "单器量纲不统一：钟记重量与高度，磬记长宽厚，编磬只有合计数，铜鼓只有型式名；五件单器之间没有共同测量项，不能排成体量序列。",
+    "时段存在空档：先秦编钟与磬之后直接跳到唐代景云二年大钟与明代大钟寺大钟，汉魏六朝与宋元的钟磬记载在六册中为空；铸钟工序只有一幅图注，无法连成技法的代际传递。",
+    "铜鼓的年代「自春秋战国、汉六朝，直到明清」是概括句，无逐型编年；尺寸、合金配比、铸造法与类型编号全无，纹样解释诸说并列未裁。",
+    "来源分布高度集中：B.10.1 五条全部出自赵农 2009 一册，B.10.2 九条中单册来源六条、田自秉 2010 覆盖五条；高丰 2004 只提供曾侯乙编钟 64 件之说，李立新 2011 只提供一条图注，六册的共同框架并不存在。",
+    "陶埙的高度、腹径、孔径、孔位、陶质与制作工艺、测音数据与可演奏音域全无；「模仿鸟鸣」「诱捕禽兽」是功能解释，无民族志或实验证据，图 1-49 未视觉核验。",
+    "存量债务未变：全库未挂载 1959 个 KU、隔离单元 1210 个、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 仍为 57/65，缺口在 hierarchy_assignment（2/10）。",
+    "重复候选 reconcile 未处理，仍有 8 组：works/fuhao-jade-figure 与 works/fuhao-mu-yuren；works/yudiaolong 与 works/da-yulong；terms/youlihong-ci 与 terms/youlihong；terms/bai-tao 与 terms/shangdai-baitao；鲁山窑瓷拍鼓与花釉腰鼓；works/zhulin-qixian-huaxiang-zhuan 与 works/zhulin-qixian-rongqiqi-zhuanhua；terms/chunqiu-zhanguo-qingtong-chuishiqi 与单器条；terms/huasi 与 terms/hua-si-gong-yi。"
+  ],
+  "notes": "本批的核心判断是一次结构改判：h42 原计划在 B.9「青铜与金属」下增设「乐器 Topic」，但八音本身是跨材料分类——磬属石、埙属土、琴瑟属丝、笙竽属匏、笛箫属竹，编钟与铜鼓只占金类一支；若把整条乐器线挂在 B.9 之下，非金属乐器将无处安放，B.9 的边界也会被撑破。故本批另立 Theme B.10「乐器与八音：材质分类、乐律与钟磬」，并在 Theme 边界、index v1.33 版本边界段、themes/README、topics/README、dimension-candidates 五处显式登记改判理由与对 B.9 原边界的推翻。B.10 按「分类与律制—钟磬与青铜乐器」两个 Topic 分工：B.10.1 收八音、十二平均律、陶埙（次挂载）、朱载堉与《乐律全书》5 条，B.10.2 收编钟、磬、铜鼓、曾侯乙编钟、虎纹大石磬、秦公镈、景云二年大钟、大钟寺大钟与朝钟同法 9 条；B.10.3 弦管与革类鼓留待后续。三层记载并列不推导：分类层只有八个材料名与两个总数而无器物清单，律制层只有两句而无音分数据，载体层的《乐律全书》反以藩王刻本立条，故本 Topic 的可回答范围是「六册如何分类、记载到哪一层」，不是「上古音律如何」。钟磬四层（器类定义、成组与等级、单器体量、铸钟图像）同样不成谱系：器类只有部件名、成组只有数字、单器量纲互不统一、工序只有一幅图注，曾侯乙编钟件数本身还有 64 与 65 两说。本批同时按磁盘实测回填了 B.9 的三处存量陈旧：下属 Topic 由 2 条补足为 6 条、分工段改写为六 Topic 分工、支撑结构由「两个 Topic 合计 20 个 KU」改为「六个 Topic 合计主挂载 91 个 KU（term 39、work 36、procedure 16）＋1 条次挂载」，并把边界中兵器、铜镜改标为已由 B.9.6／B.9.3 承接。relation 增量 27 = 13 条主挂载 ×（topic member_of + theme member_of）+ 1 条次挂载 × topic member_of，由 7202 增至 7229（explicit 5998 不变，member_of 1204→1231）；隔离单元由 1220 减至 1210，只减 10，因为 13 个新挂载 KU 中 3 个原已有显式关系。hierarchy_stress_test 报 themes 25、topics 79、membership 620、complete 611、incomplete 1959、cross_dimension_topics 为空（secondary_themes 用裸维度码 D、C，按 hierarchy_stress_test.py:828 的规则不计入维度集合）。knowledge_structure_quality 保持 57/65，structural_health 保持 130/130，rule_drift 0，content_findings 0。闭包首次运行出现 output_navigation_snapshot_stale（health 早于 output 导航重建写入），重写 health 后第二次全量闭包通过。本批不 commit、不 push。"
+}

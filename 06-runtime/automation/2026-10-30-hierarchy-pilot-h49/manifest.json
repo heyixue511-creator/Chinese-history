@@ -1,0 +1,157 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h49",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.13「货币与度量衡：交换媒介与计量标准」，下建 B.13.1「货币：从交钞到人民币」与 B.13.2「度量衡：方升、秦量与权衡秤器」两个 Topic，把前六册中货币六条与度量衡四条的 10 个 KU 主挂载进去，闭合 B.9 自 v1.28 起把货币列为「B.9 后续 Topic」的承诺。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.39",
+    "baseline_themes": 27,
+    "baseline_topics": 88,
+    "baseline_topic_memberships": 752,
+    "baseline_complete_assignments": 742,
+    "baseline_incomplete_assignments": 1828,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7492,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1494,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1135,
+    "baseline_b_dimension_unmounted": 1113
+  },
+  "result": {
+    "hierarchy_version": "v1.40",
+    "themes": 28,
+    "topics": 90,
+    "topic_memberships": 762,
+    "complete_assignments": 752,
+    "incomplete_assignments": 1818,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7512,
+    "relation_types": "3/67",
+    "member_of_relations": 1514,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1131,
+    "b_dimension_unmounted": 1103,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "topics_touched": 2,
+    "new_topic_nodes": 2,
+    "mounted_units": 10,
+    "secondary_mounts": 0,
+    "changed_units": 10,
+    "total_mounted_units": 752,
+    "new_topic_memberships": 10,
+    "theme_organization": "B.13 不按朝代也不按币材分组，而按来源中本已分开的两条线分组：B.13.1 回答什么被当作可信的交换物（票面／币面—重量与成色—可信度装置—流通结果四层），B.13.2 回答什么被当作可信的计量（诏书文本—器名序列—实物—杠杆原理四层）。两者并置的理由是本库的问题选择——同答「标准物靠什么取得可信度」——不是来源的关联：货币集中在赵农册第八章与第十章，度量衡集中在第三章「工具」与第四章「农具与工具」，六册从未并列讨论二者。",
+    "topic_split": "B.13.1 六个（term 3、work 3），B.13.2 四个（term 3、work 1）。十条不重复计入主挂载；光绪龙洋不单独立条，其正面满汉文「光绪元宝」、背面蟠龙、重 7 钱 2 分只作为 `works/daqing-yinbi` 的前承出现，本批不据钱币学通识补建该 KU；墨西哥鹰洋以 `boundary_case` 挂载（唯一的非中国制作品，却承担给龙洋提供重量锚点的功能）；《墨子》《史记》《战国策》无 publication 条目，只引赵农转录的引文而不建条。",
+    "role_distribution": {
+      "term_anchor": 6,
+      "representative_work": 3,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 6,
+      "work": 4
+    },
+    "source_distribution": {
+      "2004-gaofeng": 0,
+      "2009-xiayanjing": 0,
+      "2009-zhaonong": 10,
+      "2010-tianzibing": 0,
+      "2011-lilixin": 0,
+      "2016-xiayanjing": 0
+    },
+    "source_overlap_distribution": {
+      "single_book": 10
+    },
+    "confidence_distribution": {
+      "medium": 8,
+      "low": 2
+    },
+    "consensus_distribution": {
+      "tentative": 10
+    },
+    "theme_cumulative": {
+      "topics": 2,
+      "mounted_units": 10,
+      "type_distribution": {
+        "term": 6,
+        "work": 4
+      },
+      "role_distribution": {
+        "term_anchor": 6,
+        "representative_work": 3,
+        "boundary_case": 1
+      },
+      "source_distribution": {
+        "2004-gaofeng": 0,
+        "2009-xiayanjing": 0,
+        "2009-zhaonong": 10,
+        "2010-tianzibing": 0,
+        "2011-lilixin": 0,
+        "2016-xiayanjing": 0
+      },
+      "coverage_note": "B.13 是本库第一条覆盖不对称到极限的 Theme：10 条全部来自赵农 2009，高丰 2004、夏燕靖两版、田自秉 2010 与李立新 2011 五册零覆盖；此前最偏的 B.12 为 21/30。货币与度量衡在六册中不是共同对象，而是赵农一册的叙述对象；本批只登记该结构事实，不据此判定其余五册漏收。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：10 条 primary_dimension 全部为 B；两个 Topic 的 secondary_themes 为裸维度码 D，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "terms/lever（杠杆）与 terms/pulley（滑轮）→ 力学原理与起重器具，不是计量标准；概念雏形只作参照引用，主归属留待待建简单机械线",
+      "水利工程：都江堰、灵渠、郑国渠、西门渠 → 灌溉工程与土木营造，归待建水利 Topic 或 B.3",
+      "货币制度与金融史：交钞库、印造机构、通货膨胀成因、币制改革、铸造局 → D 维度；本 Theme 只取票面、币面、重量、诏书与器物",
+      "铸币与印钞工序：合范、浑铸、分铸、失蜡、叠铸、铁范与六齐 → 已在 B.9.2、B.9.7；本 Theme 不重复工序",
+      "票证、证券与邮票等非货币印刷品 → C 维度",
+      "农具与提水器具：犁、耧、翻车、辘轳、桔槔 → B.12；桔槔同用杠杆配重但对象是提水",
+      "同章交通工具与近代机器：自行车、人力车、汽车、磁悬浮、神舟五号 → 虽同在赵农册第十章，与本 Theme 无共同问题",
+      "works/daqing-yinbi 的前承光绪龙洋 → 不单独立条；库内无龙洋 KU，本批不据来源外材料补建",
+      "《墨子》《史记》《战国策》→ 库内无 publication 条目，只引赵农转录的引文，不为文献补建 KU"
+    ],
+    "handoff_note": "本批是 h47 manifest unresolved 中「货币 Topic、农具 Topic 未物化」的货币一项的落点：h48 完成农具线后仍在 summary 与 manifest 中两处写明「货币线仍空」，并记「B.9 的边界自 v1.28 起就把货币列为『B.9 后续 Topic』」。本批建立 B.13 承接该承诺；但 B.9 主题文件内的边界文字与未解决问题两行仍写着货币归后续 Topic，本批未回改既有节点文字（避免与已归档的 apply-plan 哈希冲突），该项转为下一跳债务。"
+  },
+  "changed_files": 25,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/knowledge-graph-data.json"
+  ],
+  "unresolved": [
+    "10 条全部单册来源（赵农 2009），其余五册零覆盖；货币与度量衡在六册中是赵农的叙述对象而非共同对象，本 Theme 的任何结论都无法由第二册交叉确认。",
+    "两条纸币的形制描述全部来自《金史·食货志》《元史·食货志》摘引而无实物与钞版：交钞的阑、花纹、贯例、料号版式无从复原，元代纸币的长宽比例、印押位置与蒙汉两文排布亦无；来源明言不据引文复原票面。",
+    "元代纸币本位两说并存（初以丝为本、后改银本位），转换时点未载；同段「禁止金属货币交易」与「以铜币面值为交换单位」如何相容未说明。",
+    "交钞「七年为期、到期以旧换新」转为「无限期」只有制度叙述，票面期限标记是否存在、格式如何未载；「最早在大范围正式流通的纸币」的判据（范围、发行量）未给。",
+    "大清银币无重量、成色、版别、铸造局与设计者，来源未单独描述其图样；袁大头无重量、成色、版别、铸造局、设计者与发行量，「质量稳定」「币型统一」均为定性判断；鹰洋无成色、版别、年代与流入数量。",
+    "龙洋无独立 KU：其正面满汉文「光绪元宝」、背面蟠龙、重 7 钱 2 分只作为大清银币条目的前承存在；是否补建须先有来源依据。",
+    "人民币只有「五套、元角分十进位、铸币与纸币、防伪」四项，各套发行年份、面额谱系、设计者、印钞单位与图样全无，「防伪措施」具体内容亦无。",
+    "秦量与秦权均无单件实测：铜量与陶量的对应关系未说明（铜量 1/2、1/3、1/4 斗，陶量半斗、一斗、一斛 100 升），秦权的石、钧与斤的进位关系、各权使用场合、单件尺寸与铭文亦无。",
+    "廿六年诏书的器物载体只有「近年山东出土的秦陶量」一处，无出土地点、无容量实测、无铭文行款；诏书文本出自《秦铜量》注，转引层级不明。",
+    "秦制换算「一升相当于今 200 毫克」单位可疑（升应对应毫升），照录标疑不径改；三项换算的实测依据未给。",
+    "权衡秤器的等臂称量法（提钮在衡标中心、衡标平稳则物重相等）与《墨子·墨经》的不等臂关系（本短标长、标得权）并存，二者是同一器制的不同表述还是两种器具，来源未说明。",
+    "长沙楚墓等臂秤具无墓号、尺寸、材质、秤盘与提纽结构；「铢秤」只有「发展成为后来的铢秤」一句，形制、年代与用法全无。",
+    "商鞅方升无尺寸、容积、铭文字数、出土时间地点与现藏，铭文全文未展开；「铭文与石鼓文并列为小篆依据」只有结论句而无字形对照材料。",
+    "统一度量衡的两次（商鞅平权衡正度量、秦始皇颁行全国）之间无制度衔接，只有「沿用秦国旧时的度量衡标准」一句；中间二百余年的执行情况全无。",
+    "三处图版未核：图 8-57「元 钱币」、图 8-58「元 铁铸古阿拉伯数字六阶幻方」、图 10-48「壹佰圆人民币」；另有 terms/qin-quan 行段内的图 4-32「铁犁」图注与本条无直接对应，归属待核。",
+    "B.9 主题文件的边界与未解决问题仍写着「货币归后续 Topic」，本批未回改，需后续批次同步改写指向 B.13。",
+    "存量结构缺口：简单机械线（杠杆、滑轮）、水利工程线、家具与木作 Theme、前近代服饰与甲胄等级 Theme 未物化；D 维度前近代线仍只有 D.6 官府手工业六点，货币与计量制度不在其中。",
+    "重复候选 reconcile 9 组未处理（鲁山窑瓷拍鼓与花釉腰鼓、琵琶与阮咸、白陶与商代白陶、花丝与花丝工艺、富好玉人与妇好墓玉人、玉雕龙与大玉龙、釉里红两写、竹里棋仙砖两写、青铜锤饰与单器条）；图注单条待核 12 条与图 7-29 两指问题仍挂账；未核图版 5-32 未处理。",
+    "A 维度遗留：A.1.2 命名逐条对照、1917 年许衍灼《中国工艺史沿革史》未挂载。",
+    "存量债务：未挂载 1818、隔离 1131、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 缺口仍在 hierarchy_assignment（2/10）。",
+    "小债务：works/caihui-niaoshou-yuwen-qi-ge.md 的「相关知识元」把 simajinlong-mu-qi-pingfeng 说成「马王堆漆屏风」；h48 的 Theme 与 Topic 文献支撑把赵农书名写作《中国艺术史》，本批统一按 KU sources.citation 与 doc_id 作《中国艺术设计史》，h48 文件未回改。"
+  ],
+  "notes": "推导口径：relation 增量 20 = 10 条主挂载 ×（topic member_of + theme member_of），关系总数 7492 → 7512，explicit 5998 不变、inferred／member_of 1494 → 1514。隔离单元 1135 → 1131，减 4 而非 10，取自 audit_relation_consistency.py 前后两次实测（10 条中有 6 条原已有显式关系）。B 维度未挂载 1113 → 1103，减 10；B 维度 KU 现存 1629 条不变。membership 752 → 762（+10），complete 742 → 752（+10），incomplete 1828 → 1818（−10），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.13 两个 Topic 合计 10 个 KU（term 6、work 4；term_anchor 6、representative_work 3、boundary_case 1），单册 10，medium 8／low 2，tentative 10；来源分布为赵农 2009 10，其余五册 0。changed_files 25 = 本批 apply-plan 17 行（1 个 Theme 新建 + 2 个 Topic 新建 + 10 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.39.md（76289 字节），按 h44–h46 口径不计入 changed_files。生成态陷阱复现：relation 数变化后首次 audit_rule_drift 报 runtime_index_snapshot_stale 与 output_navigation_snapshot_stale 两项，全量闭包刷新后归 0；run_sync_closure.py --check-generated 第 17 步以 exit=1 报生成态与 HEAD 不一致，属未 commit 的预期。hierarchy_stress_test 报 v1.40、themes 28、topics 90、membership 762、complete 752、incomplete 1818、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 57/65（hierarchy_assignment 2/10）、content_findings 0；全量闭包 250 tests + 16 subtests 通过。工作区累计改动属 h13–h49 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

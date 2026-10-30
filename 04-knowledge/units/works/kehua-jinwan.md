@@ -22,19 +22,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取唐早期何家村刻花金碗的莲瓣分区、鸳鸯鹦鹉鹿狐与珍珠地；纹样母题与审美评价归 C，尺寸与工序无载。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "刻花金碗是 B 维度下唐代金银器装饰设计的器物条目，其莲瓣分区与纹样构成属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "刻花金碗是 B 维度下唐代金银器装饰设计的器物条目，其莲瓣分区与纹样构成属 C 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -75,11 +83,10 @@ hierarchy_scope_note: "刻花金碗是 B 维度下唐代金银器装饰设计的
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下唐代金银器装饰设计的器物条；同出何家村的银熏球见 `works/tang-yin-xiangnang.md`，窖藏整体见 `places/hejiacun-jiaocang.md`。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取唐早期何家村刻花金碗的莲瓣分区、鸳鸯鹦鹉鹿狐与珍珠地；纹样母题与审美评价归 C，尺寸与工序无载。
 ## 相关知识元
 
 `places/hejiacun-jiaocang.md` 记何家村窖藏的出土概况与金银器群；`works/tang-yin-xiangnang.md` 记同出的唐代银香囊（银熏球）；`terms/tuanhua-wen.md` 记同段通论中的团花构成；`terms/baoxianghua-wen.md`、`terms/lianzhu-wen.md` 记邻近纹样。唐代金银器装饰的通论另见 `works/tang-yin-xiangnang.md` 的结构描述。relation 未审查，不写入正式 `relations`。

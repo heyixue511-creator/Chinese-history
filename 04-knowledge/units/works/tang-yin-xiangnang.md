@@ -54,17 +54,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下唐代金银器的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取唐代银香囊的同心圆机环、活轴与金盂平衡结构、法门寺与何家村尺寸；香囊／熏球／香球三名并列，熏炉工序归 procedures/yin-xunlu-zhizuo。"
+hierarchy_scope_note: "本 KU 是 B 维度下唐代金银器的器物锚点。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -103,11 +111,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下唐代金银器的器物锚点。Th
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下唐代金银器的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取唐代银香囊的同心圆机环、活轴与金盂平衡结构、法门寺与何家村尺寸；香囊／熏球／香球三名并列，熏炉工序归 procedures/yin-xunlu-zhizuo。
 ## 相关知识元
 
 与元代银镜架同属金银器谱系；香囊的核心是平衡环机构。`places/hejiacun-jiaocang.md` 记何家村窖藏，`works/kehua-jinwan.md` 记同出刻花金碗，`terms/tang-dai-qingci-yao.md` 等唐代器物条可并置；`terms/jiguang-hu.md` 只顺带提及相关器物，不构成关系断言。汉代“被中香炉”尚无独立 KU，属研究债务。relation 未审查。

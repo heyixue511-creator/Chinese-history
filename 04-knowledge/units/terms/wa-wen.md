@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: boundary_case
+    primary: true
+    scope_note: "瓦纹在 B.5.6 只取命名事实：它是周代青铜器的一种简朴装饰纹样，又称横线纹、陶瓷上称弦纹，「组成一条条平行的横条，如同屋上的覆瓦」，多用于铜簋腹部——本 Topic 只用它证明瓦面排列在周代已是可见的形式参照，不讨论青铜纹样本身，也不推定纹样名与屋瓦的命名先后"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "瓦纹是 C 维度下周代青铜装饰纹样的术语条目；其青铜器载体与铜簋施用属 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "瓦纹在 B.5.6 只取命名事实：它是周代青铜器的一种简朴装饰纹样，又称横线纹、陶瓷上称弦纹，「组成一条条平行的横条，如同屋上的覆瓦」，多用于铜簋腹部——本 Topic 只用它证明瓦面排列在周代已是可见的形式参照，不讨论青铜纹样本身，也不推定纹样名与屋瓦的命名先后"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "瓦纹是 C 维度下周代青铜装饰纹样的术语条
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 瓦纹是 C 维度下周代青铜装饰纹样的术语条目；其青铜器载体与铜簋施用属 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 瓦纹在 B.5.6 只取命名事实：它是周代青铜器的一种简朴装饰纹样，又称横线纹、陶瓷上称弦纹，「组成一条条平行的横条，如同屋上的覆瓦」，多用于铜簋腹部——本 Topic 只用它证明瓦面排列在周代已是可见的形式参照，不讨论青铜纹样本身，也不推定纹样名与屋瓦的命名先后
 
 ## 相关知识元
 

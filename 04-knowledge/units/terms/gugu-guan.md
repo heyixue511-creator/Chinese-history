@@ -33,17 +33,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "顾姑冠是 B 维度下元代蒙古族首服的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取可读的等级符号（冠高与顶部装饰标示身份、翠花五彩帛对野鸡毛、限有爵命者与已婚女子）与结构材料（木骨、红绢金帛、柳条或银枝、青毡）；「四五尺」是柳条或银枝长度而非冠高，冠高与冠围全缺。"
+hierarchy_scope_note: "顾姑冠是 B 维度下元代蒙古族首服的条目。已挂载 B.18.5（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -63,10 +70,10 @@ hierarchy_scope_note: "顾姑冠是 B 维度下元代蒙古族首服的条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 顾姑冠是 B 维度下元代蒙古族首服的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取可读的等级符号（冠高与顶部装饰标示身份、翠花五彩帛对野鸡毛、限有爵命者与已婚女子）与结构材料（木骨、红绢金帛、柳条或银枝、青毡）；「四五尺」是柳条或银枝长度而非冠高，冠高与冠围全缺。
 
 ## 相关知识元
 

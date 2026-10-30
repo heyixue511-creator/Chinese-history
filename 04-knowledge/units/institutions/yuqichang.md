@@ -59,19 +59,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: key_institution
+    primary: true
+    scope_note: "御器厂是明清官窑的主条目，也是六册唯一说清官民分工的位置：钦限归民窑、部限归御器厂；本 Topic 取钦限部限、官搭民烧、清代生产取向与清末废圮，设置年代「洪武三十五年」照录不校。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "御器厂是 D 维度下官窑制度的实体机构，其原料、工匠与官搭民烧的调拨方式直接塑造 B 维度明清瓷器的工艺路线。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "御器厂是明清官窑的主条目，也是六册唯一说清官民分工的位置：钦限归民窑、部限归御器厂；本 Topic 取钦限部限、官搭民烧、清代生产取向与清末废圮，设置年代「洪武三十五年」照录不校。"
 ---
 
 ## 描述
@@ -105,12 +113,10 @@ hierarchy_scope_note: "御器厂是 D 维度下官窑制度的实体机构，其
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与浮梁瓷局构成“元代瓷局—明代御器厂—清代官搭民烧”的制度序列，是“官方需求如何改变器物风格”的第二个锚点（第一个为浮梁瓷局）。可支持未来的官窑制度与瓷器风格类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 御器厂是明清官窑的主条目，也是六册唯一说清官民分工的位置：钦限归民窑、部限归御器厂；本 Topic 取钦限部限、官搭民烧、清代生产取向与清末废圮，设置年代「洪武三十五年」照录不校。
 ## 相关知识元
 
 `institutions/fuliang-ciju.md` 为同址的前一制度，`terms/doucai.md`、`terms/youlihong.md`、`terms/mise-porcelain.md` 所记品种均在御器厂或其前身的叙述范围内；`events/opium-war.md` 记其清末废圮。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

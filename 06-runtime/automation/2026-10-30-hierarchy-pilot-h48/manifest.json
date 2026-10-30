@@ -1,0 +1,171 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h48",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.12「农具与农业技术：耕作、收割与提水」，下建 B.12.1「耕作与播种：从耒耜到曲辕犁」、B.12.2「收割、加工与提水：镰、磨、翻车与辘轳」、B.12.3「农书：从《耒耜经》到《农政全书》」三个 Topic，把前六册中农具、农业作业与农书的 30 个 KU 主挂载进去，兑现 h47 manifest 登记的「货币 Topic、农具 Topic 未物化」中的农具一项。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.38",
+    "baseline_themes": 26,
+    "baseline_topics": 85,
+    "baseline_topic_memberships": 722,
+    "baseline_complete_assignments": 712,
+    "baseline_incomplete_assignments": 1858,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7432,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1434,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1149,
+    "baseline_b_dimension_unmounted": 1143
+  },
+  "result": {
+    "hierarchy_version": "v1.39",
+    "themes": 27,
+    "topics": 88,
+    "topic_memberships": 752,
+    "complete_assignments": 742,
+    "incomplete_assignments": 1828,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7492,
+    "relation_types": "3/67",
+    "member_of_relations": 1494,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1135,
+    "b_dimension_unmounted": 1113,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "topics_touched": 3,
+    "new_topic_nodes": 3,
+    "mounted_units": 30,
+    "secondary_mounts": 0,
+    "changed_units": 30,
+    "total_mounted_units": 742,
+    "new_topic_memberships": 30,
+    "theme_organization": "B.12 不以朝代也不以材料分组，而以「耕作与播种—收割·加工·提水—农书」三个作业环节加一个记载面分组：B.12.1 回答土地怎样被翻开、种子怎样被播下，B.12.2 回答庄稼怎样被收下、粮食怎样被加工、水怎样被提上来，B.12.3 回答六册引了哪几部农书、农书写了什么而器物条没有对读。三者不是三个阶段，而是同一条农业技术线的三个作业环节与一个记载面。",
+    "topic_split": "B.12.1 十八个（term 13、person 2、procedure 1、work 2），B.12.2 八个（term 6、work 2），B.12.3 四个（publication 4）。三十条不重复计入主挂载；石磨与石磨盘、磨棒分立不合并（旋转石磨与研磨式石器不是一物）；《农政全书》因全条只有一句总评而以 `supporting_source` 挂载，以 `source_publication` 挂载的只有《耒耜经》《王祯农书》《农桑辑要》三条。",
+    "role_distribution": {
+      "term_anchor": 19,
+      "representative_work": 4,
+      "source_publication": 3,
+      "key_person": 2,
+      "procedure": 1,
+      "supporting_source": 1
+    },
+    "type_distribution": {
+      "term": 19,
+      "work": 4,
+      "publication": 4,
+      "person": 2,
+      "procedure": 1
+    },
+    "source_distribution": {
+      "2004-gaofeng": 1,
+      "2009-xiayanjing": 4,
+      "2009-zhaonong": 21,
+      "2010-tianzibing": 0,
+      "2011-lilixin": 2,
+      "2016-xiayanjing": 10
+    },
+    "source_overlap_distribution": {
+      "single_book": 26,
+      "two_books": 1,
+      "three_books": 2,
+      "four_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 21,
+      "low": 9
+    },
+    "consensus_distribution": {
+      "tentative": 30
+    },
+    "theme_cumulative": {
+      "topics": 3,
+      "mounted_units": 30,
+      "type_distribution": {
+        "term": 19,
+        "work": 4,
+        "publication": 4,
+        "person": 2,
+        "procedure": 1
+      },
+      "role_distribution": {
+        "term_anchor": 19,
+        "representative_work": 4,
+        "source_publication": 3,
+        "key_person": 2,
+        "procedure": 1,
+        "supporting_source": 1
+      },
+      "source_distribution": {
+        "2004-gaofeng": 1,
+        "2009-xiayanjing": 4,
+        "2009-zhaonong": 21,
+        "2010-tianzibing": 0,
+        "2011-lilixin": 2,
+        "2016-xiayanjing": 10
+      },
+      "coverage_note": "B.12 是本库第一条覆盖极不对称的 Theme：赵农 2009 一册覆盖 21 条（70%），田自秉 2010 一条也没有。田自秉把工艺美术的对象限定在器物与装饰，农具被排除在外；六册均未明说该取舍，本批只记覆盖数字而不代为判断。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：30 条 primary_dimension 全部为 B；三个 Topic 的 secondary_themes 为裸维度码 D 与 A，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "procedures/mozhi-shiqi（磨制石器）→ 一般石器工艺而非农具，只作石铲、石犁的技术前提引用，不入 B.12",
+      "水利工程：都江堰、郑国渠、灵渠、西门渠 → 灌溉工程与土木营造，归待建水利 Topic 或 B.3；本 Theme 只取提水器具",
+      "农政制度与礼俗：institutions/sinongsi、terms/jingtian-zhi、terms/nangeng-nvzhi、works/xiannongtan、events/xiaowendi-jiangquan-nongsang → primary_dimension 为 D，归 D 维度",
+      "图像材料：works/gengzhi-tu → primary_dimension 为 C，归绘画线；本 Theme 不取农事图像",
+      "publications/nancun-chuogenglu → primary_dimension 为 A，不入",
+      "冶铁工序：生铁冶铸、柔化、炒钢、百炼钢、灌钢、叠铸、铁范、排橐与水力鼓风 → 已在 B.9.7；本 Theme 只取铁制农具与铁搭的器形与使用效果",
+      "陶器、瓷器、玻璃、玉石、青铜器、乐器、漆器 → 各归 B.5–B.11",
+      "works/baolian-zaojing（藻井）→ 建筑构件，与农具无关，按名称相近排除"
+    ],
+    "handoff_note": "本批是 h47 manifest unresolved 中「货币 Topic、农具 Topic 未物化」的农具一项的落点：h47 在 B.9.7 的 summary 与 manifest 两处写下「农具类（犁壁、犁刀、曲辕犁、耦犁、踏犁、铁搭、V 形铁铧冠、铁制农具等）→ 待建农具 Topic；农具在六册中与冶铁分开叙述」，并把这批条目逐条列名。本批按该清单核对了 18 条耕作播种条目与 8 条收割加工提水条目，全部落在原清单内；铁器工序侧仍归 B.9.7，器形侧归 B.12，分工自此闭合。货币线仍未物化。"
+  },
+  "changed_files": 46,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/knowledge-graph-data.json"
+  ],
+  "unresolved": [
+    "三十条中赵农 2009 一册覆盖 21 条、田自秉 2010 一条也没有；材料结构由一册的选择决定，六册的差异是「农具算不算工艺美术对象」的对象差异，六册均未明说，本批只有覆盖数字支持该判断。",
+    "材料递进线（石—骨—青铜—铁）全部是断语：良渚石犁是否用于犁耕「学界尚有争议」、商代青铜犁铧只有一句且无器形与出土地、西周青铜锄与青铜镰各只有一件（湖北蕲春、江苏仪征）、铁制农具的推广只有种类名单而无分布与数量。",
+    "全部农具条目都没有尺寸、重量、装柄方式、拉力与作业效率；唯一的结构事实是三脚耧「开沟、下种、覆盖三工序合并于一机」，唯一的效率判断是「现代播种机的雏形」，二者都是定性句。",
+    "二维图版五处未核：图 1-6 石镰、图 1-8 石磨盘和磨棒、图 5-5 龙骨水车模型、图 5-6 翻车、装柄石铲复原图，均只有图题。",
+    "曲辕犁的辕、箭、梢、底只有组合方式与效果，无尺寸、重量与材料配比；耦犁无犁体结构与铁犁铧形制；犁壁的「形式多样」未列举形式。来源明言不据图补写。",
+    "犁刀（宋代）与曲辕犁（唐代）两处都提到江东犁结构改进，是同一次改进的两个方面还是两次，来源未交代。",
+    "赵过的两说分工未裁：夏燕靖两版作三脚耧设计者、赵农作耧车与耦犁推行者；「代田法」在六册中一次也未出现，而通行农史叙述通常把它与赵过并称。",
+    "石磨与石磨盘、磨棒的关系未澄清：`terms/shi-mo`（战国出现、汉代流行、砂岩石直径约 55 厘米）与 `terms/shimopan-mobang`（新石器磨盘与磨棒）是两类器物，六册未把它们连成一条加工技术线。",
+    "石磨的两处记载分属赵农第三章「铁器」与第四章「农具」，是否指同一批实物未说明；只给下扇磨身，上扇与磨眼结构无载。",
+    "提水三器的部件与传动结构全无：翻车只有「运转方式」与「灌溉效果」，链条、刮板、齿轮、踏板与出水量无载；标题「龙骨水车」与正文「翻车」两称并存；辘轳的「省力」无力学说明；桔槔的配重比例与支点位置无载，《墨子》守城之用与农用桔槔的关系不明。",
+    "镰与铚的分工只有用途描述，二者的装柄方式、刃部角度与效率差异无载。",
+    "农书四部与器物条无一例对读：《王祯农书》「有农器图谱」、《耒耜经》「载耙、砺、夯」，而 B.12.1、B.12.2 的器物条没有一条引用农书原文。",
+    "《王祯农书》的卷数、部分名与字数四册写法互不相同，来源未给版本信息，无法判定差异来自版本还是转述；高丰把书名误作《农布》，是笔误还是排印错误未说明。",
+    "《耒耜经》的成书年代、卷数、篇目、版本与流传全无，作者生卒写作问号起首、约终于 881 年；《农桑辑要》除卷 2 棉花诏谕外其余内容无载；《农政全书》只有一句总评（`confidence` 为 low）。",
+    "农具与农政制度的分界未明：赵过以搜粟都尉推行耦犁耧车的官职与推广组织、司农司官署沿革、井田制与男耕女织归 D 维度，D 维度该线仍未物化。",
+    "农具与水利工程的分界未明：翻车、辘轳、桔槔是器具，都江堰、郑国渠、灵渠、西门渠是工程；六册分散在三处叙述，工程线仍未物化。",
+    "B.12.2 八条全部为单册来源、四条为 low，整条 `confidence` 记为 low；提水三器仅赵农一册记载，其可靠性未由第二册确认。",
+    "存量结构缺口：货币 Topic（元代纸币、金代交钞、人民币、大清银币）、水利 Topic、前近代服饰与甲胄等级 Theme、家具与木作 Theme 未物化。",
+    "重复候选 reconcile 9 组未处理（鲁山窑瓷拍鼓与花釉腰鼓、琵琶与阮咸、白陶与商代白陶、花丝与花丝工艺、富好玉人与妇好墓玉人、玉雕龙与大玉龙、釉里红两写、竹里棋仙砖两写、青铜锤饰与单器条）；图注单条待核 12 条与图 7-29 两指问题仍挂账；未核图版 5-32 未处理。",
+    "A 维度遗留：A.1.2 命名逐条对照、1917 年许衍灼《中国工艺史沿革史》未挂载。",
+    "存量债务：未挂载 1828、隔离 1135、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 缺口仍在 hierarchy_assignment（2/10）。"
+  ],
+  "notes": "推导口径：relation 增量 60 = 30 条主挂载 ×（topic member_of + theme member_of），关系总数 7432 → 7492，explicit 5998 不变、inferred／member_of 1434 → 1494。隔离单元 1149 → 1135，减 14 而非 30，因为实测 30 条中有 16 条原已有显式关系。B 维度未挂载自算 1143 → 1113，减 30；B 维度 KU 现存 1629 条不变。membership 722 → 752（+30），complete 712 → 742（+30），incomplete 1858 → 1828（−30），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.12 三个 Topic 合计 30 个 KU（term 19、work 4、publication 4、person 2、procedure 1；term_anchor 19、representative_work 4、source_publication 3、key_person 2、procedure 1、supporting_source 1），单册 26／两册 1／三册 2／四册 1，medium 21／low 9，tentative 30；来源分布为赵农 2009 21、夏燕靖 2016 10、夏燕靖 2009 4、李立新 2、高丰 1、田自秉 0。changed_files 46 = 本批 apply-plan 38 行（1 个 Theme 新建 + 3 个 Topic 新建 + 30 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.38.md（73001 字节），按 h44–h46 口径不计入 changed_files。生成态陷阱复现：relation 数变化后首次 audit_rule_drift 报 runtime_index_snapshot_stale 与 output_navigation_snapshot_stale 两项，全量闭包刷新后归 0；run_sync_closure.py --check-generated 第 17 步以 exit=1 报生成态与 HEAD 不一致，属未 commit 的预期。hierarchy_stress_test 报 v1.39、themes 27、topics 88、membership 752、complete 742、incomplete 1828、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 57/65、content_findings 0；全量闭包 250 tests + 16 subtests 通过。工作区累计 463 项改动属 h13–h48 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

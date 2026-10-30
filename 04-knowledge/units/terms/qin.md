@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 琴是 B 维度下春秋战国弦乐器的条目，来源给演奏形式、琴师名录与琴歌故事。Theme/Topic 尚未 materialize。
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取春秋战国的乐器地位、合奏伴奏独奏三用法、师旷师文师冕伯牙与杞梁殖妻援琴作歌；琴的形制、弦数与琴曲乐律无载，琴人思想归 A。"
+hierarchy_scope_note: "琴是 B 维度下春秋战国弦乐器的条目，来源给演奏形式、琴师名录与琴歌故事。已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: 琴是 B 维度下春秋战国弦乐器的条目，来源�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 琴是 B 维度下春秋战国弦乐器的条目，来源给演奏形式、琴师名录与琴歌故事。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取春秋战国的乐器地位、合奏伴奏独奏三用法、师旷师文师冕伯牙与杞梁殖妻援琴作歌；琴的形制、弦数与琴曲乐律无载，琴人思想归 A。
 
 ## 相关知识元
 

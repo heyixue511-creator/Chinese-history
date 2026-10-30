@@ -1,4 +1,5 @@
 ---
+
 title: 农桑辑要（Nongsang Jizao）
 name_en: Nongsang Jizao
 type: publication
@@ -23,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下工艺技术文献的锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md
+    role: source_publication
+    primary: true
+    scope_note: "只取元初司农司官修、至元十年颁行与卷 2 劝种棉花诏谕；其余内容与编纂过程无载，司农司官署沿革归 D 维度。"
+hierarchy_scope_note: "本 KU 是 B 维度下工艺技术文献的锚点。已挂载 B.12.3（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -51,10 +60,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下工艺技术文献的锚点。Theme
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下工艺技术文献的锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md（source_publication，primary）
+- role_in_theme: source_publication
+- scope_note: 只取元初司农司官修、至元十年颁行与卷 2 劝种棉花诏谕；其余内容与编纂过程无载，司农司官署沿革归 D 维度。
 
 ## 相关知识元
 

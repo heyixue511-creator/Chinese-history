@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b13-huobi-jiaochao-dao-renminbi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取 1914 年铸造、袁世凯头像、「质量稳定、币型统一」与打戳成「烂板」；重量、成色、版别与设计者全无。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "袁大头是 B 维度下民国机制银币的作品条目；其币制与金融属性属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "袁大头是 B 维度下民国机制银币的作品条目；其币制与金融属性属 D 维度。已挂载 B.13.1（货币与度量衡：交换媒介与计量标准）。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "袁大头是 B 维度下民国机制银币的作品条目
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 袁大头是 B 维度下民国机制银币的作品条目；其币制与金融属性属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-huobi-jiaochao-dao-renminbi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取 1914 年铸造、袁世凯头像、「质量稳定、币型统一」与打戳成「烂板」；重量、成色、版别与设计者全无。
 
 ## 相关知识元
 

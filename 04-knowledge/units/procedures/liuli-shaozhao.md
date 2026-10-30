@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "琉璃烧造是 B 维度下明清建筑琉璃工艺条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: procedure
+    primary: true
+    scope_note: "琉璃烧造是 B.5.4 建筑线的生产组织：明采用高岭土制胎、琉璃砖瓦十样规格、南京设琉璃窑 72 座后移至门头沟琉璃渠村，用九龙山下黑格土，故名黑窑与御窑"
+hierarchy_scope_note: "琉璃烧造是 B.5.4 建筑线的生产组织：明采用高岭土制胎、琉璃砖瓦十样规格、南京设琉璃窑 72 座后移至门头沟琉璃渠村，用九龙山下黑格土，故名黑窑与御窑"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "琉璃烧造是 B 维度下明清建筑琉璃工艺条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 琉璃烧造是 B 维度下明清建筑琉璃工艺条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 琉璃烧造是 B.5.4 建筑线的生产组织：明采用高岭土制胎、琉璃砖瓦十样规格、南京设琉璃窑 72 座后移至门头沟琉璃渠村，用九龙山下黑格土，故名黑窑与御窑
 ## 相关知识元
 
 `places/nanjing.md` 记明初南京琉璃窑72座，为同一窑场网络的地点条目；relation 未审查。

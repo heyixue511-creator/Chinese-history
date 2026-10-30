@@ -25,20 +25,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: evidence_event
+topic_memberships:
+  - topic: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md
+    role: evidence_event
+    primary: true
+    scope_note: "画院设立的过程性记载；只承担设立与制度来源"
 secondary_dimensions:
   - C
   - B
-hierarchy_scope_note: "宋代宫廷画院是 D 维度下宫廷艺术机构影响工艺生产的节点，其绘画与装饰风格归 C、B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "画院设立的过程性记载；只承担设立与制度来源"
 ---
 
 ## 描述
@@ -59,12 +67,11 @@ hierarchy_scope_note: "宋代宫廷画院是 D 维度下宫廷艺术机构影响
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: D
-- secondary_dimensions: C（视觉传达与文字设计）、B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 宋代宫廷画院是 D 维度下宫廷艺术机构影响工艺生产的节点，其绘画与装饰风格归 C、B 维度。Theme/Topic 尚未 materialize。
+- primary_dimension: D（商业、制度与设计教育）
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md（evidence_event，primary）
+- role_in_theme: evidence_event
+- scope_note: 画院设立的过程性记载；只承担设立与制度来源
 
 ## 相关知识元
 

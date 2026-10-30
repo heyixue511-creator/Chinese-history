@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取元吴县墓四合如意金盘的如意头四瓣、柿蒂纹与西番莲缠枝；尺寸、藏地与同墓清单无载，纹样母题归 C。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度元代金银器单器锚点，如意头与西番莲缠枝的纹样组织属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度元代金银器单器锚点，如意头与西番莲缠枝的纹样组织属 C 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -56,11 +64,10 @@ hierarchy_scope_note: "本条是 B 维度元代金银器单器锚点，如意头
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代金银器单器锚点，如意头与西番莲缠枝的纹样组织属 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取元吴县墓四合如意金盘的如意头四瓣、柿蒂纹与西番莲缠枝；尺寸、藏地与同墓清单无载，纹样母题归 C。
 ## 相关知识元
 
 `works/yinguohe.md` 同批记合肥银果盒；`works/tuhua-renwu-gushipan.md` 记金坛银盘；三者同属元代金银器窖藏。relation 未审查。

@@ -1,4 +1,5 @@
 ---
+
 title: 石镰（Shilian (Stone Sickle)）
 name_en: Stone Sickle
 type: term
@@ -24,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下原始收割农具的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取新石器收割农具与龙山、良渚农具组合中的石镰；图 1-6 未核，不据图补写形制。"
+hierarchy_scope_note: "本 KU 是 B 维度下原始收割农具的条目。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -54,10 +63,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下原始收割农具的条目。Theme
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下原始收割农具的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取新石器收割农具与龙山、良渚农具组合中的石镰；图 1-6 未核，不据图补写形制。
 
 ## 相关知识元
 

@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "丸剑舞乐画象砖是 B.5.6 方砖叙事布置的样本：成都扬子山出土，画面以大小两个奁为中心分上下两组，左方四人用线、右方四人用面，形成线与面、动与静的对比；本 Topic 只登记其存在与产地，尺寸、墓属、藏地与模印方法均未载，「奁」的材质来源未说明"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "丸剑舞乐画象砖是 C 维度下汉代画象砖的器物条目；砖的模印与烧制归 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "丸剑舞乐画象砖是 B.5.6 方砖叙事布置的样本：成都扬子山出土，画面以大小两个奁为中心分上下两组，左方四人用线、右方四人用面，形成线与面、动与静的对比；本 Topic 只登记其存在与产地，尺寸、墓属、藏地与模印方法均未载，「奁」的材质来源未说明"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "丸剑舞乐画象砖是 C 维度下汉代画象砖的器
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 丸剑舞乐画象砖是 C 维度下汉代画象砖的器物条目；砖的模印与烧制归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 丸剑舞乐画象砖是 B.5.6 方砖叙事布置的样本：成都扬子山出土，画面以大小两个奁为中心分上下两组，左方四人用线、右方四人用面，形成线与面、动与静的对比；本 Topic 只登记其存在与产地，尺寸、墓属、藏地与模印方法均未载，「奁」的材质来源未说明
 
 ## 相关知识元
 

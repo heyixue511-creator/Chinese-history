@@ -42,19 +42,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-difang-gongguan-tezhong-zuofang.md
+    role: key_institution
+    primary: true
+    scope_note: "元代工部总管府下镔铁局；冶铸与装饰加工两说并存"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "镔铁局是 D 维度下元代官府管理特种金属材料的机构节点，镔铁作为材料的稀缺性同时构成 B 维度刀具与饰件工艺的约束条件。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "元代工部总管府下镔铁局；冶铸与装饰加工两说并存"
 ---
 
 ## 描述
@@ -80,11 +88,10 @@ hierarchy_scope_note: "镔铁局是 D 维度下元代官府管理特种金属材
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是元代“官府设局管理特种材料”的机构样本，与浮梁瓷局（瓷）、兴文署（书）同属元代官营生产的管理层，但材料与产品均不同。可支持未来的元代官营手工业机构类 Topic。当前只到 Dimension。
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-difang-gongguan-tezhong-zuofang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 元代工部总管府下镔铁局；冶铸与装饰加工两说并存
 
 ## 相关知识元
 

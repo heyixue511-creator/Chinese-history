@@ -29,20 +29,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "竹林七贤和荣启期砖画是 B.5.6 的尺度跃迁样本：南京西善桥、丹阳胡桥、丹阳建山三处，以西善桥为代表，画面为七贤加荣启期共八人，「用 200 多块砖拼合而成」，来源径称其为「制陶工艺的一种杰作，反映陶瓷的制作已进入到一个新的阶段」；每砖画面单元、拼合顺序、砖缝处理与整壁尺度均未载"
 secondary_dimensions:
   - C
   - A
-hierarchy_scope_note: "竹林七贤和荣启期砖画是 B 维度下六朝大型砖印壁画的器物条目，其名士题材与玄学背景归 C、A 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "竹林七贤和荣启期砖画是 B.5.6 的尺度跃迁样本：南京西善桥、丹阳胡桥、丹阳建山三处，以西善桥为代表，画面为七贤加荣启期共八人，「用 200 多块砖拼合而成」，来源径称其为「制陶工艺的一种杰作，反映陶瓷的制作已进入到一个新的阶段」；每砖画面单元、拼合顺序、砖缝处理与整壁尺度均未载"
 ---
 
 ## 描述
@@ -65,11 +73,10 @@ hierarchy_scope_note: "竹林七贤和荣启期砖画是 B 维度下六朝大型
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）、A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 竹林七贤和荣启期砖画是 B 维度下六朝大型砖印壁画的器物条目，其名士题材与玄学背景归 C、A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 竹林七贤和荣启期砖画是 B.5.6 的尺度跃迁样本：南京西善桥、丹阳胡桥、丹阳建山三处，以西善桥为代表，画面为七贤加荣启期共八人，「用 200 多块砖拼合而成」，来源径称其为「制陶工艺的一种杰作，反映陶瓷的制作已进入到一个新的阶段」；每砖画面单元、拼合顺序、砖缝处理与整壁尺度均未载
 
 ## 相关知识元
 

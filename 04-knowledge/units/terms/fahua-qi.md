@@ -37,17 +37,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 法华器是 B 维度下明代山西釉陶品种的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: term_anchor
+    primary: true
+    scope_note: "法华器是 B.5.4 助熔剂的另一条路：陶胎勾勒凸线轮廓，用助溶剂为牙硝的彩色釉料填底与施彩后烧造，证明「低温釉陶」不能等同于「铅釉陶」；山西晋南，明早期，万历最佳，景德镇以瓷胎仿烧"
+hierarchy_scope_note: "法华器是 B.5.4 助熔剂的另一条路：陶胎勾勒凸线轮廓，用助溶剂为牙硝的彩色釉料填底与施彩后烧造，证明「低温釉陶」不能等同于「铅釉陶」；山西晋南，明早期，万历最佳，景德镇以瓷胎仿烧"
 ---
 
 ## 描述
@@ -71,11 +79,10 @@ hierarchy_scope_note: 法华器是 B 维度下明代山西釉陶品种的条目�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 法华器是 B 维度下明代山西釉陶品种的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 法华器是 B.5.4 助熔剂的另一条路：陶胎勾勒凸线轮廓，用助溶剂为牙硝的彩色釉料填底与施彩后烧造，证明「低温釉陶」不能等同于「铅釉陶」；山西晋南，明早期，万历最佳，景德镇以瓷胎仿烧
 ## 相关知识元
 
 `procedures/liuli-shaozhao.md` 记琉璃烧造，`works/jiulongbi.md` 记琉璃建筑构件；法华器与琉璃同属低温釉陶而作法不同。relation 未审查。

@@ -26,18 +26,30 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-gongneng-taoqi-chuizhu-zhengshi-fangsheng.md
+    role: term_anchor
+    primary: true
+    scope_note: "半坡与河姆渡的陶制吹奏器；仿声诱捕，与陶号角的形声双仿对照"
+  - topic: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md
+    role: term_anchor
+    primary: false
+    scope_note: "只取八音土类器物的一面：一音孔、二音孔与椭圆橄榄球形三种造型；史前成形、烧成与仿声诱捕功能仍归 B.5.7。"
 secondary_dimensions: []
-hierarchy_scope_note: "陶埙是 B 维度下新石器时期陶制乐器与仿声设计的条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "半坡与河姆渡的陶制吹奏器；仿声诱捕，与陶号角的形声双仿对照。已次挂载 B.10.1（八音与乐律：材质分类、律制与乐学文献），主挂载仍为 B.5.7。"
 ---
 
 ## 描述
@@ -77,12 +89,13 @@ hierarchy_scope_note: "陶埙是 B 维度下新石器时期陶制乐器与仿声
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下新石器时期陶制乐器与仿声设计的条目，向上关联原始乐器总论，向下关联半坡、河姆渡、骨笛、笙与号角等材料。Theme/Topic 尚未 materialize。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-gongneng-taoqi-chuizhu-zhengshi-fangsheng.md（term_anchor，primary）
+- topic_memberships: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md（term_anchor，secondary）
+- role_in_theme: term_anchor
+- scope_note: 半坡与河姆渡的陶制吹奏器；仿声诱捕，与陶号角的形声双仿对照
+- scope_note（次挂载）: 只取八音土类器物的一面：一音孔、二音孔与椭圆橄榄球形三种造型；史前成形、烧成与仿声诱捕功能仍归 B.5.7。
 
 ## 相关知识元
 

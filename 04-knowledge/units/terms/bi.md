@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b8-liqi-yu-qixing-ruiyu-liuqi-bi-cong-gui.md
+    role: term_anchor
+    primary: true
+    scope_note: "璧只取形制（肉倍好、好三寸）与天子苍璧、子穀璧、男蒲璧、系璧四类等级用途；礼制含义归 D。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "璧是 B 维度下周代玉礼器的术语条目；其礼天与执玉等级属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "璧只取形制（肉倍好、好三寸）与天子苍璧、子穀璧、男蒲璧、系璧四类等级用途；礼制含义归 D。"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "璧是 B 维度下周代玉礼器的术语条目；其礼
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 璧是 B 维度下周代玉礼器的术语条目；其礼天与执玉等级属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-liqi-yu-qixing-ruiyu-liuqi-bi-cong-gui.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 璧只取形制（肉倍好、好三寸）与天子苍璧、子穀璧、男蒲璧、系璧四类等级用途；礼制含义归 D。
 
 ## 相关知识元
 

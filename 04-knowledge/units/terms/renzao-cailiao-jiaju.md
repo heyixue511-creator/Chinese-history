@@ -27,19 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取解放后材料由天然木材被各类人造板、钢管与塑料逐步替代的材料判断、「由传统的框式向板式结构发展」的结构判断与「更省工、轻便、简洁明快」的效果，以及钢管型材与电镀深冲冷弯静电喷涂红外烘烤的综合生产过程；板材性能、钢管规格、品种清单与产量全无，板式结构的结构侧归 B.14.3。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 B 维度家具材料与结构的条目，工业化生产体制属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度家具材料与结构的条目，工业化生产体制属 D 维度。已挂载 B.14.7（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "本条是 B 维度家具材料与结构的条目，工业
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度家具材料与结构的条目，工业化生产体制属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取解放后材料由天然木材被各类人造板、钢管与塑料逐步替代的材料判断、「由传统的框式向板式结构发展」的结构判断与「更省工、轻便、简洁明快」的效果，以及钢管型材与电镀深冲冷弯静电喷涂红外烘烤的综合生产过程；板材性能、钢管规格、品种清单与产量全无，板式结构的结构侧归 B.14.3。
 
 ## 相关知识元
 

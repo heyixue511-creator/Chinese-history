@@ -42,16 +42,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-zhuzao-gongyi-hefan-hunzhu-fenzhu-shila-jiuqi.md
+    role: procedure
+    primary: true
+    scope_note: "只取部件先铸再合铸定义、田自秉三段递进与李立新次序说、司母戊鼎鼎耳例证；焊接作为独立工序归后续。"
 hierarchy_scope_note: "分铸法是 B 维度下商周青铜铸造工序分化的关键环节，其成立与否直接决定器物附件能否脱离主体范型单独成形。Theme/Topic 尚未 materialize。"
 ---
 
@@ -78,10 +86,10 @@ hierarchy_scope_note: "分铸法是 B 维度下商周青铜铸造工序分化的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与失蜡法构成“复杂件成形”的两条不同路线：分铸法是范的拆分，失蜡法是模的一次性消失。可支持未来的商周青铜铸造工艺类 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-zhuzao-gongyi-hefan-hunzhu-fenzhu-shila-jiuqi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取部件先铸再合铸定义、田自秉三段递进与李立新次序说、司母戊鼎鼎耳例证；焊接作为独立工序归后续。
 
 ## 相关知识元
 

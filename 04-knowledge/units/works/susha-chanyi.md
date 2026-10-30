@@ -39,19 +39,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - C
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取全库唯一的成衣实测（衣长 128 厘米、重 49 克、镶缘 5.6 厘米、袖长 190／180 厘米两说）与「与袍略同」的形制关系；平纹组织与感官评语只作引用。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "素纱禅衣是 B 维度下汉代丝织与服饰工艺的器物锚点：纱的平纹组织、单衣形制与不足一两的重量都在此可量。其“轻薄如空”“举之若无”的感官评价与后世纱罗的形态关联归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "素纱禅衣是 B 维度下汉代丝织与服饰工艺的器物锚点：纱的平纹组织、单衣形制与不足一两的重量都在此可量。其“轻薄如空”“举之若无”的感官评价与后世纱罗的形态关联归 C 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -95,11 +104,11 @@ hierarchy_scope_note: "素纱禅衣是 B 维度下汉代丝织与服饰工艺的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（形态、视觉与风格表现）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“以极轻极薄为设计目标”的早期样本：它同时承载织造组织（平纹方孔）、服饰形制（单衣无里）与感官评价（举之若无）三层信息。三层在来源中分属不同册，正好可作为“技术指标—形制—感受”三者如何互证的 Topic 材料。当前只到 Dimension。
+- secondary_dimensions: C（视觉传达与文字设计）
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取全库唯一的成衣实测（衣长 128 厘米、重 49 克、镶缘 5.6 厘米、袖长 190／180 厘米两说）与「与袍略同」的形制关系；平纹组织与感官评语只作引用。
 
 ## 相关知识元
 

@@ -27,19 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.17
+secondary_themes:
+  - D
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md
+    role: key_institution
+    primary: true
+    scope_note: "只取「解放后建立了许多大型藤编工艺厂，广东南海藤厂就是其中的一个」与同段藤丝三类（合丝、沙丝、梨皮）、产品范围、旧时家庭副业状态；成立年份、厂址、产量与存续全缺。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "广东南海藤厂是 B 维度下藤编生产的条目，其工厂建制与生产组织归 D 维度；当前只到 Dimension。"
+hierarchy_scope_note: "广东南海藤厂是 B 维度下藤编生产的条目，其工厂建制与生产组织归 D 维度；当前只到 Dimension。已挂载 B.17.1（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: "广东南海藤厂是 B 维度下藤编生产的条目，
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下中华人民共和国成立后藤编工厂的条目，可与编织工艺及旧时家庭副业的生产形态对照，观察藤编从家庭副业到大型工厂的组织变化。当前只到 Dimension。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 只取「解放后建立了许多大型藤编工艺厂，广东南海藤厂就是其中的一个」与同段藤丝三类（合丝、沙丝、梨皮）、产品范围、旧时家庭副业状态；成立年份、厂址、产量与存续全缺。
 
 ## 相关知识元
 

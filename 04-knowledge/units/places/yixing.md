@@ -36,17 +36,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "宜兴是 B 维度下紫砂陶产地与窑业条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: geographical_context
+    primary: true
+    scope_note: "宜兴是 B.5.5 第一条路线的产地：太湖南岸「陶都」，丁山与蜀山两镇并列，蜀山约 10 多条龙窑专烧紫砂器；北宋起源只有梅尧臣「紫泥新品泛春华」的诗句推论；明代供春以下名手辈出、清代陈鸣远与杨彭年与邵大亨；解放后紫砂、钧陶、精陶、青瓷、陶塑合称「五朵金花」，五类中只有紫砂不挂釉"
+hierarchy_scope_note: "宜兴是 B.5.5 第一条路线的产地：太湖南岸「陶都」，丁山与蜀山两镇并列，蜀山约 10 多条龙窑专烧紫砂器；北宋起源只有梅尧臣「紫泥新品泛春华」的诗句推论；明代供春以下名手辈出、清代陈鸣远与杨彭年与邵大亨；解放后紫砂、钧陶、精陶、青瓷、陶塑合称「五朵金花」，五类中只有紫砂不挂釉"
 ---
 
 ## 描述
@@ -79,10 +87,10 @@ hierarchy_scope_note: "宜兴是 B 维度下紫砂陶产地与窑业条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 宜兴是 B 维度下紫砂陶产地与窑业条目。它在本批中是材料最厚的一处产地：有北宋起源的文献推论、原料性状与制备、器表处理原则（不挂釉、浅刻、以造型取胜）、明代与清代两套艺人谱系、外销与仿制，以及解放后“五朵金花”的产品结构。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 宜兴是 B.5.5 第一条路线的产地：太湖南岸「陶都」，丁山与蜀山两镇并列，蜀山约 10 多条龙窑专烧紫砂器；北宋起源只有梅尧臣「紫泥新品泛春华」的诗句推论；明代供春以下名手辈出、清代陈鸣远与杨彭年与邵大亨；解放后紫砂、钧陶、精陶、青瓷、陶塑合称「五朵金花」，五类中只有紫砂不挂釉
 
 ## 相关知识元
 

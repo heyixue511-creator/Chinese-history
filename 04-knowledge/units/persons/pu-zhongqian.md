@@ -24,19 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.17
+secondary_themes:
+  - C
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b17-kezhu-jiadingpai-jinlingpai-yu-jiading-sanzhu.md
+    role: key_person
+    primary: true
+    scope_note: "只取金陵派代表艺人、用竹盘根错节不事刀斧、勾勒数刀便与凡异、用刀较浅刀法简洁、竹雕松枝小壶藏故宫；生卒字号籍贯与师承全缺。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度明代金陵派竹雕工匠的人物锚点，浅刻与盘根错节的造型属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度明代金陵派竹雕工匠的人物锚点，浅刻与盘根错节的造型属 C 维度。已挂载 B.17.2（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -58,10 +67,10 @@ hierarchy_scope_note: "本条是 B 维度明代金陵派竹雕工匠的人物锚
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代金陵派竹雕工匠的人物锚点，浅刻与盘根错节的造型属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-kezhu-jiadingpai-jinlingpai-yu-jiading-sanzhu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取金陵派代表艺人、用竹盘根错节不事刀斧、勾勒数刀便与凡异、用刀较浅刀法简洁、竹雕松枝小壶藏故宫；生卒字号籍贯与师承全缺。
 
 ## 相关知识元
 

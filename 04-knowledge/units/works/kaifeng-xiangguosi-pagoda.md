@@ -38,17 +38,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下宋代琉璃砖塔的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: representative_work
+    primary: true
+    scope_note: "开封相国寺塔在 B.5.4 承担建筑线的宋代样本：塔身用 28 种琉璃砖砌造、雕刻 50 多种纹样，褐色琉璃瓦如锈铁故名铁塔，是构件标准化与表面多样化并行的砖塔方案"
+hierarchy_scope_note: "开封相国寺塔在 B.5.4 承担建筑线的宋代样本：塔身用 28 种琉璃砖砌造、雕刻 50 多种纹样，褐色琉璃瓦如锈铁故名铁塔，是构件标准化与表面多样化并行的砖塔方案"
 ---
 
 ## 描述
@@ -70,11 +78,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下宋代琉璃砖塔的器物锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下宋代琉璃砖塔的器物锚点。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 开封相国寺塔在 B.5.4 承担建筑线的宋代样本：塔身用 28 种琉璃砖砌造、雕刻 50 多种纹样，褐色琉璃瓦如锈铁故名铁塔，是构件标准化与表面多样化并行的砖塔方案
 ## 相关知识元
 
 与定县开元寺瞭敌塔同属宋代佛塔谱系。relation 未审查。

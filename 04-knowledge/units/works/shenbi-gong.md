@@ -30,18 +30,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取《梦溪笔谈》两条：射三百步能洞重札、郓州铜弩机、望山与小矩、勾股法计算；尺寸、拉力、材料与产量无载，不作实物复原。"
 secondary_dimensions:
-hierarchy_scope_note: "神臂弓是 B 维度下宋代强弩的条目，材料限于性能、弩机结构与瞄准原理。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "神臂弓是 B 维度下宋代强弩的条目，材料限于性能、弩机结构与瞄准原理。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "神臂弓是 B 维度下宋代强弩的条目，材料限
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 神臂弓是 B 维度下宋代强弩的条目，材料限于性能、弩机结构与瞄准原理。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取《梦溪笔谈》两条：射三百步能洞重札、郓州铜弩机、望山与小矩、勾股法计算；尺寸、拉力、材料与产量无载，不作实物复原。
 ## 相关知识元
 
 `publications/mengxi-bitan.md` 若已建记《梦溪笔谈》，`terms/shibaban-bingqi.md` 记冷兵器名目。relation 未审查。

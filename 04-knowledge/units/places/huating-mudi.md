@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取 500 余件良渚风格玉器与交换判断；陶器输入与墓葬考古不展开。"
 secondary_dimensions:
   - E
-hierarchy_scope_note: "花厅墓地是 B 维度下新石器文化交流与器物输入条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "只取 500 余件良渚风格玉器与交换判断；陶器输入与墓葬考古不展开。"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "花厅墓地是 B 维度下新石器文化交流与器物
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 花厅墓地是 B 维度下新石器文化交流与器物输入条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取 500 余件良渚风格玉器与交换判断；陶器输入与墓葬考古不展开。
 
 ## 相关知识元
 

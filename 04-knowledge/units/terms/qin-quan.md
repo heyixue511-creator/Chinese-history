@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取石至半两的重量序列、提钮居中的称量法与秦制三项换算（「200 毫克」照录标疑）；单件尺寸、铭文与出土地全无。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 秦权是 B 维度下秦代衡器与称量器具的条目，其统一度量衡的制度面属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: 秦权是 B 维度下秦代衡器与称量器具的条目，其统一度量衡的制度面属 D 维度。已挂载 B.13.2（货币与度量衡：交换媒介与计量标准）。
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: 秦权是 B 维度下秦代衡器与称量器具的条目�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 秦权是 B 维度下秦代衡器与称量器具的条目，其统一度量衡的制度面属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取石至半两的重量序列、提钮居中的称量法与秦制三项换算（「200 毫克」照录标疑）；单件尺寸、铭文与出土地全无。
 
 ## 相关知识元
 

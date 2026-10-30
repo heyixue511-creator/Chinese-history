@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度秦代建筑材料的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "始皇陵夔凤纹大瓦当是 B.5.6 秦代构件的尺寸极值，材料只有夏燕靖 2009 一句「直径约 40 厘米，形体之大是建筑瓦当中少有的」加同段官营陶窑与秦砖「铅砖」之美称；夔凤纹构图、边轮与当心形制、出土位置与收藏地均未载——只登记尺寸与同期生产背景，不据以描述形制"
+hierarchy_scope_note: "始皇陵夔凤纹大瓦当是 B.5.6 秦代构件的尺寸极值，材料只有夏燕靖 2009 一句「直径约 40 厘米，形体之大是建筑瓦当中少有的」加同段官营陶窑与秦砖「铅砖」之美称；夔凤纹构图、边轮与当心形制、出土位置与收藏地均未载——只登记尺寸与同期生产背景，不据以描述形制"
 ---
 
 ## 描述
@@ -55,11 +63,11 @@ hierarchy_scope_note: "本条是 B 维度秦代建筑材料的器物锚点。The
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度秦代建筑瓦当的器物锚点，术语层面的瓦当类型见 `terms/wadang.md`。当前只到 Dimension。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 始皇陵夔凤纹大瓦当是 B.5.6 秦代构件的尺寸极值，材料只有夏燕靖 2009 一句「直径约 40 厘米，形体之大是建筑瓦当中少有的」加同段官营陶窑与秦砖「铅砖」之美称；夔凤纹构图、边轮与当心形制、出土位置与收藏地均未载——只登记尺寸与同期生产背景，不据以描述形制
 
 ## 相关知识元
 

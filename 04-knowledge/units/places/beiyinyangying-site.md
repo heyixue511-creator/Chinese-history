@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "北阴阳营遗址是 B 维度下新石器时代多孔石刀与玉石装饰品的实物落点，七孔石刀的穿孔功能与形式美讨论也触及 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md
+    role: geographical_context
+    primary: true
+    scope_note: "只取玉和玛瑙制品 280 多件与璜、玦的出土位置判断；七孔石刀归石器线。"
+hierarchy_scope_note: "只取玉和玛瑙制品 280 多件与璜、玦的出土位置判断；七孔石刀归石器线。"
 ---
 
 ## 描述
@@ -73,12 +81,10 @@ hierarchy_scope_note: "北阴阳营遗址是 B 维度下新石器时代多孔石
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions:
-  - C
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“功能—穿孔—形式”三件事在同一件石器上可考的样本，同时提供该遗址玉石装饰品的数量锚点。当前只到 Dimension。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 只取玉和玛瑙制品 280 多件与璜、玦的出土位置判断；七孔石刀归石器线。
 
 ## 相关知识元
 

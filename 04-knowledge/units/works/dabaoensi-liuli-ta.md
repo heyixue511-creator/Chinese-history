@@ -36,17 +36,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度明代琉璃建筑的器物锚点，材料为正文一段、知识链接一段、另一节一句与图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: representative_work
+    primary: true
+    scope_note: "大报恩寺琉璃塔在 B.5.4 承担建筑线的明代顶点：永乐十年重建、历时 19 年、九层八面、高 78.2 米（2009 主文作 80 余米）、五色琉璃砖与白瓷贴面，被誉为「中国之大古董，永乐之大窑器」"
+hierarchy_scope_note: "大报恩寺琉璃塔在 B.5.4 承担建筑线的明代顶点：永乐十年重建、历时 19 年、九层八面、高 78.2 米（2009 主文作 80 余米）、五色琉璃砖与白瓷贴面，被誉为「中国之大古董，永乐之大窑器」"
 ---
 
 ## 描述
@@ -72,11 +80,10 @@ hierarchy_scope_note: "本条是 B 维度明代琉璃建筑的器物锚点，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代琉璃建筑的器物锚点，材料为正文一段、知识链接一段、另一节一句与图注一行。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 大报恩寺琉璃塔在 B.5.4 承担建筑线的明代顶点：永乐十年重建、历时 19 年、九层八面、高 78.2 米（2009 主文作 80 余米）、五色琉璃砖与白瓷贴面，被誉为「中国之大古董，永乐之大窑器」
 ## 相关知识元
 
 明代琉璃工艺的产地与琉璃砖瓦“十样”规格见同章 L4388；山西琉璃建筑另见 `works/jiulongbi.md`；`places/nanjing.md` 记南京城史，`procedures/liuli-shaozhao.md` 记琉璃烧造，`terms/fota.md` 记佛塔类型，均与本条相关但非同一对象。本条不构成关系断言。

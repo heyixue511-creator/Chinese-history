@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下宋代家具形态与结构的条目，其室内布置格局牵涉 C 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取宋代家具品种清单、「属高型家具」并民间普及两句与「梁柱式框架结构代替箱形壶门结构」这一结构判断；线脚、束腰、牙条、罗锅根、托泥加龟脚等装饰做法与拼合梁、拼合柱、「缴背」作法留待木作工艺层。"
+hierarchy_scope_note: 本 KU 是 B 维度下宋代家具形态与结构的条目，其室内布置格局牵涉 C 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下宋代家具形态与结构的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下宋代家具形态与结构的条目，其室内布置格局牵涉 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取宋代家具品种清单、「属高型家具」并民间普及两句与「梁柱式框架结构代替箱形壶门结构」这一结构判断；线脚、束腰、牙条、罗锅根、托泥加龟脚等装饰做法与拼合梁、拼合柱、「缴背」作法留待木作工艺层。
 
 ## 相关知识元
 

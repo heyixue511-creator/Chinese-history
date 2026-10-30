@@ -1,0 +1,147 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h44",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "新建 Theme B.11「漆器与髹饰：胎骨、髹涂与装饰」，并按「胎骨与漆层—装饰」两路物化 B.11.1「胎骨、髹涂与制作分工：从木胎到脱胎」与 B.11.2「髹饰技法：金饰、刻填、磨显与镶嵌」，把前六册中 25 个漆器与髹饰 KU 主挂载进 B.11，补上 B 维度长期缺失的漆器线。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.34",
+    "baseline_themes": 25,
+    "baseline_topics": 80,
+    "baseline_topic_memberships": 639,
+    "baseline_complete_assignments": 629,
+    "baseline_incomplete_assignments": 1941,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7266,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1268,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1198
+  },
+  "result": {
+    "hierarchy_version": "v1.35",
+    "themes": 26,
+    "topics": 82,
+    "topic_memberships": 664,
+    "complete_assignments": 654,
+    "incomplete_assignments": 1916,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7316,
+    "relation_types": "3/67",
+    "member_of_relations": 1318,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1184,
+    "b_dimension_unmounted": 1201,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "topics_touched": 3,
+    "new_theme_nodes": 1,
+    "new_topic_nodes": 2,
+    "mounted_units": 25,
+    "secondary_mounts": 0,
+    "changed_units": 25,
+    "total_mounted_units": 654,
+    "new_topic_memberships": 25,
+    "theme_organization": "按「胎骨—灰与糙漆—装饰—名产与断代」四层组织，其中胎骨、灰与糙漆、制作分工三层归 B.11.1，装饰层归 B.11.2，名产与断代层由两 Topic 分列（库路真作边界、元代技法合述作断代背景）；四层互不推导。",
+    "topic_split": "B.11.1 回答漆器的胎怎么成形、漆层怎么上、生产怎么分工；B.11.2 回答同一层漆被处理成什么效果、这些技法名各按什么方式成立。二者不是前后阶段，而是同一批漆器的胎骨面与装饰面。",
+    "role_distribution": {
+      "term_anchor": 16,
+      "procedure": 6,
+      "representative_work": 1,
+      "historical_context": 1,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 18,
+      "procedure": 6,
+      "work": 1
+    },
+    "topic_role_distribution": {
+      "B.11.1": {
+        "procedure": 6,
+        "term_anchor": 2,
+        "representative_work": 1
+      },
+      "B.11.2": {
+        "term_anchor": 14,
+        "historical_context": 1,
+        "boundary_case": 1
+      }
+    },
+    "source_distribution": {
+      "2004-gaofeng": 6,
+      "2009-xiayanjing": 4,
+      "2009-zhaonong": 2,
+      "2010-tianzibing": 21,
+      "2011-lilixin": 0,
+      "2016-xiayanjing": 3
+    },
+    "source_overlap_distribution": {
+      "single_book": 17,
+      "two_books": 6,
+      "three_books": 1,
+      "four_books": 1
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：25 条 primary_dimension 全部为 B；两大 Topic 的 secondary_themes 均为裸维度码 D、C，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，故 cross_dimension_topics 为空。",
+    "planned_topics_not_created": {
+      "B.11.3": "漆器器物与墓葬标本（约二十件候选：彩绘凤鸟双联漆酒杯、舞女漆奁、彩绘鸟兽鱼纹漆槅、彩漆木雕动物座屏、曾侯乙墓漆木衣箱与天象图、司马金龙墓漆屏风、北魏木板漆画、朱然墓黑红漆几、张成剔红山水人物圆盒、杨茂剔红观瀑图八方盘、张成云纹剔犀漆盒、剔犀执镜盒、剔黑雕漆花鸟纹盘、螺钿花鸟纹经函、螺钿朱漆攒盒、广寒宫螺钿漆盘残片、描金堆雕漆盒、雕漆扇柄、雕漆小盒、金漆雕龙宝座、紫檀嵌剔红宝座、喜鹊登梅大挂屏、金鱼漆盘、瓦棺寺夹纻佛像）",
+      "B.11.4": "髹饰文献与名工（约十七项：髹饰录、黄大成／黄成、杨茂、张成、张德刚、包亮、周翥、蒋回回、杨埙、姜千里、彭君宝、沈沼安、卢葵生、李芝卿、格古要论、燕闲清赏笺、废艺斋集稿、南村辍耕录）",
+      "policy": "本版只登记候选池，不建空 Topic。"
+    },
+    "deferred_by_boundary": [
+      "金银平脱 → B.9.4",
+      "螺钿镜 → B.9.3",
+      "螺钿乐器（五弦琵琶、漆双凤鼓）→ B.10.3",
+      "果园厂 → D.6.6",
+      "汉代漆器作坊官员与工官隶属 → D.6.5",
+      "北京雕漆厂、继古斋、1914 年巴拿马赛会 → B.4 与 E.1",
+      "木画 → 木器镶嵌（家具木作线）",
+      "家具形制术语与明式清式家具 → 家具线",
+      "纹样母题与铭文 → C"
+    ]
+  },
+  "changed_files": 40,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/knowledge-graph-data.json"
+  ],
+  "unresolved": [
+    "25 条漆器与髹饰 KU 的 confidence 全部为 medium、consensus 全部为 tentative，无一条达到 high。",
+    "漆层与胎骨量化数据全缺：25 条中只有雕漆一处「漆层约 80 道」数字；所有胎体的胎厚、重量、圈叠层数、髹涂遍数、工时时长均无载。",
+    "三处断代冲突并列不裁：戗金（田自秉记宋代新创造／夏燕靖 2009 归秦汉代表）、犀皮（田自秉记宋代新创造／高丰记朱然墓东吴最早实物）、雕漆（田自秉记唐代新创而同处称唐实物尚未发现）。",
+    "斑漆只有文献而无遗物，来源自述「应是变涂技法前身」属推测。",
+    "库路真「不知具体内容」，技法归属不明，只能作名产边界登记。",
+    "金漆与绿沉漆均无工艺定义，只能作名称与产地／文献条目。",
+    "脱胎创始人沈沼安无生卒年与作坊信息，福州三宝叙述不可回推到夹纻源流。",
+    "扣器有两义（金属附件加固胎体／金银扣器十倍之说），两义未在来源内调和。",
+    "螺钿三层记载（宋、明、清）互不衔接，硬软之分与嵌片厚度均无载。",
+    "百宝嵌只有嵌料种类、题材与周制之名，切割、开槽、粘接与打磨工序全无。",
+    "研磨彩绘四步工序为 1949 年后整理，不能上推沈绍安与夹纻。",
+    "赵农 2009 对元代漆器同时给出「并未得到元代重视」与「产生许多漆雕佳品」，同一册内张力未裁。",
+    "夏燕靖 2009 与赵农 2009 同年，本批来源统计按完整 doc_id 区分；若按年份正则会折叠为一个「2009」，后续批次不得沿用年份口径。",
+    "李立新 2011 对 25 条无一关联来源，B.11 在六册中的覆盖实际由田自秉 2010 支撑（21 条，其中 14 条为唯一来源）。",
+    "B.11.3「漆器器物与墓葬标本」与 B.11.4「髹饰文献与名工」仍为候选池，未物化。",
+    "木画、家具形制术语、明式清式家具仍无 Theme 可挂；铁器与叠铸、货币与农具、前近代服饰与甲胄等级仍为存量结构缺口。",
+    "重复候选 reconcile 9 组未处理（含本批新增的鲁山窑瓷拍鼓与花釉腰鼓、琵琶与阮咸等）；图注单条待核 12 条与图 7-29 两指问题仍挂账。",
+    "A 维度遗留：A.1.2 命名逐条对照、1917 年许衍灼《中国工艺史沿革史》未挂载。",
+    "存量债务：未挂载 1916、隔离 1184、单源与 tentative 条目；knowledge_structure_quality 缺口仍在 hierarchy_assignment（2/10）。"
+  ],
+  "notes": "推导口径：relation 增量 50 = 25 条主挂载 ×（topic member_of + theme member_of），关系总数 7266 → 7316，explicit 5998 不变、member_of 1268 → 1318。隔离单元 1198 → 1184，减 14 而非 25，因为 25 条新挂载 KU 中有 11 条原已有显式关系。B 维度未挂载自算 1226 → 1201，减 25，因为 25 条主挂载的 primary_dimension 全部为 B。membership 639 → 664（+25），complete 629 → 654（+25），incomplete 1941 → 1916（−25），membership 仍比 KU 多 10，双挂载与次挂载清单不变。changed_files 40 = 本批 apply-plan 32 行（3 个结构节点新建 + 25 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；README.md 与其余 04-knowledge 改动属此前的 h13–h43 未提交批次，不计入本包。生成态陷阱复现：relation 数变化后首次全量闭包必报 output_navigation_snapshot_stale（rule_drift 1，relation 7266 对 7316），重跑 write_current_health.py 后再全量闭包归 0。hierarchy_stress_test 报 v1.35、themes 26、topics 82、membership 664、complete 654、incomplete 1916、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 57/65、content_findings 0。旧版快照归档为 hierarchy/archive/v1.34.md（65725 字节）。工作区累计 360 项改动属 h13–h44 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

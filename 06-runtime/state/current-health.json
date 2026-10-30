@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T19:16:48",
+  "timestamp": "2026-10-31T00:38:22",
   "rule_authority": {
     "agents_dir_exists": true,
     "agents_settings_exists": true,
@@ -17,25 +17,25 @@
     "base_type_coverage": "8/8",
     "structure_node_coverage": "2/4",
     "deprecated_type_drift": 0,
-    "hierarchy_version": "v1.17"
+    "hierarchy_version": "v1.49"
   },
   "structure_node_counts": {
     "domains": 0,
     "dimensions": 0,
-    "themes": 20,
-    "topics": 53
+    "themes": 33,
+    "topics": 106
   },
   "structure_node_type_issues": [],
   "hierarchy_structure_issues": [],
   "hierarchy_assignment": {
     "total_units": 2570,
-    "complete_assignments": 383,
-    "units_missing_any_assignment": 2187,
+    "complete_assignments": 864,
+    "units_missing_any_assignment": 1706,
     "field_coverage": {
       "primary_domain": "2570/2570",
       "primary_dimension": "2570/2570",
-      "primary_theme": "383/2570",
-      "topic_memberships": "383/2570"
+      "primary_theme": "864/2570",
+      "topic_memberships": "864/2570"
     }
   },
   "counts_by_type": {
@@ -296,7 +296,7 @@
   "architecture_drift": {
     "deprecated_type_drift": 0,
     "deprecated_details": {},
-    "hierarchy_version": "v1.17",
+    "hierarchy_version": "v1.49",
     "hierarchy_has_old_type_refs": false,
     "hierarchy_has_old_statistics": false
   },
@@ -356,9 +356,9 @@
   },
   "relation_health": {
     "relation_index_exists": true,
-    "relation_index_total": 6768,
+    "relation_index_total": 7740,
     "explicit_relation_count": 5998,
-    "inferred_relation_count": 770,
+    "inferred_relation_count": 1742,
     "migrated_from_related_count": 0,
     "weak_inference_count": 0,
     "weak_evidence_count": 0,
@@ -374,8 +374,8 @@
     "deferred": 0
   },
   "runtime_artifact_retention": {
-    "files": 1165,
-    "r1_provenance": 1165,
+    "files": 1261,
+    "r1_provenance": 1261,
     "r2_validated": 0,
     "review_required": 0,
     "ephemeral_residue": 0,
@@ -399,13 +399,13 @@
   "knowledge_structure_quality": {
     "score_kind": "knowledge_schema_and_state_integrity",
     "max_score": 65,
-    "total": 56,
+    "total": 58,
     "disambiguation": 15,
     "type_correctness": 10,
     "enum_validity": 10,
     "verification_coverage": 10,
     "recommended_fields": 10,
-    "hierarchy_assignment": 1
+    "hierarchy_assignment": 3
   },
   "evidence_quality": {
     "score_kind": "evidence_chain_integrity",
@@ -434,7 +434,7 @@
       "source_backed": 2570
     },
     "isolated_units": {
-      "count": 1326,
+      "count": 1061,
       "sample": [
         "events/1998-national-furniture-exhibition.md",
         "events/2000-beijing-intl-graphic-design-exhibition.md",
@@ -492,7 +492,7 @@
       "tentative_units": 2570,
       "low_confidence_units": 496,
       "candidates_needing_evidence": 0,
-      "units_missing_hierarchy_assignment": 2187
+      "units_missing_hierarchy_assignment": 1706
     }
   },
   "content_quality": {

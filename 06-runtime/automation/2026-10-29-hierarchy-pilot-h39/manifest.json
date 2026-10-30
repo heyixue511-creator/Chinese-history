@@ -1,0 +1,123 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h39",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 Topic B.9.4「金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划」，并主挂载 18 个金属装饰工序与器物 KU",
+  "scope": {
+    "baseline_hierarchy_version": "v1.29",
+    "baseline_themes": 24,
+    "baseline_topics": 74,
+    "baseline_topic_memberships": 547,
+    "baseline_complete_assignments": 540,
+    "baseline_incomplete_assignments": 2030,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7085,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1087,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1258
+  },
+  "result": {
+    "hierarchy_version": "v1.30",
+    "themes": 24,
+    "topics": 75,
+    "topic_memberships": 565,
+    "complete_assignments": 558,
+    "incomplete_assignments": 2012,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7121,
+    "relation_types": "3/67",
+    "member_of_relations": 1123,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1247,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md"
+    ],
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 1,
+    "mounted_units": 18,
+    "secondary_mounted_units": 0,
+    "changed_units": 18,
+    "total_mounted_units": 558,
+    "new_topic_memberships": 18,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "procedure": 7,
+      "boundary_case": 1,
+      "representative_work": 10
+    },
+    "type_distribution": {
+      "procedure": 7,
+      "work": 11
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。18 个 KU 的 primary_dimension 均为 B；其中 6 个 KU 保留既有 secondary_dimensions（C 或 C、D），但本批不制造跨维度挂载。",
+    "taxonomy_split": "印纹、三叠法、青铜镶嵌、错金银与错铜、错石、鎏金、刻划→B.9.4；金银平脱→B.9.4 boundary_case（漆胎与金属箔跨材质边界）；青铜容器器形与礼器组合→B.9.1；合范、浑铸、分铸、失蜡、六齐与焊接→B.9.2；铜镜型式、纹样与铸镜→B.9.3；纹样母题与铭文→C；官营作坊与匠役→D.6；铁器冶铸、叠铸与铁范→后续铁器 Topic；花丝、金细、景泰蓝与银熏炉→后续 B.9.5；兵器形制与防锈→后续兵器 Topic。",
+    "planned_topics_not_created": [
+      "B.9.5 金银器与珐琅 Topic（编号待定）：花丝、金细工艺、景泰蓝、银熏炉与唐代金银器谱系，仍未物化",
+      "B.9 兵器 Topic（编号待定）：戈、矛、钺、剑、戟、弩，仍未物化",
+      "B.9 乐器 Topic（编号待定）：编钟、八音、十二平均律，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸，仍未物化",
+      "漆器 Theme（编号待定）：髹漆、描金、戗金、螺钿、雕漆、剔犀、百宝嵌，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "金银平脱（procedures/jinyin-pingtuo）：漆胎与金银箔结合，以 boundary_case 主挂载；铜镜器物归 B.9.3，漆器主体工艺归后续漆器 Theme",
+      "越王勾践剑（works/yuewang-goujian-jian）：只取剑格错石；剑格蓝色琉璃、剑柄珐琅釉两说并列，兵器形制、防锈与成分归后续兵器 Topic",
+      "鎏金铜酒樽（works/liujin-tong-jiuzun）：只取鎏金表面；酒樽／铜奁两名并存不裁，温酒组合与器形归 B.9.1",
+      "金银错狩猎纹铜车饰（works/jinyincuo-shouliewen-tongcheshi）：只取金银错与绿松石镶嵌；四段狩猎图像归 C",
+      "错金银龙凤鹿方案（works/cuo-jinyi-longfenglu-fangan）：只取错金银装饰；斗拱—家具关系归 D，尺寸与出土年份两说并列不裁",
+      "鎏金舞马衔杯银壶（works/liujin-wuma-xianbei-yinhu）：只取舞马局部鎏金与锤揲皮囊形；舞马诗与千秋节表演归 C／D，金银器谱系归后续 B.9.5",
+      "雕金镶玉银带钩（works/diaojin-xiangyu-yin-daigou）：只取包金镶嵌与蟠龙鹦鹉浮雕；带钩类型与胡服制度归 B.9.1／D",
+      "唐镜七种装饰（金银平脱、鎏金、错金银、镶嵌、螺钿、著彩、涂珐琅）：铜镜器物归属归 B.9.3，本 Topic 只取工序名",
+      "刻划（procedures/kehua）：只在「铁工具提高」处引用铁器，不展开冶铁史，不与铸造纹饰比较工效",
+      "三叠法（procedures/san-die-fa）：只有定义、无器物实例，不并入印纹的模印序列",
+      "印纹（procedures/yin-wen-mo-yin）：只取模印装饰工序，不展开具体纹样母题"
+    ]
+  },
+  "changed_files": 24,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "四条路线不能排成工序序列：六册从未在同一件器物上比较两种装饰工序，也无「铸前—铸后—镀饰—刻饰」的先后记载；本 Topic 的四路划分是整理框架，不是来源结论。",
+    "错金银起始时段三说并存：夏燕靖「春秋中期有所发展」、赵农「春秋时期创立」、田自秉「春秋战国时期的新创造」；三说的时间跨度不同，来源未说明「发展」「创立」「新创造」是否同一判据。",
+    "青铜镶嵌的起点两说：夏燕靖「商周青铜器上开始出现镶嵌绿松石」、田自秉「春秋战国时期流行的装饰手法」；两说是否指同一类嵌饰，来源未说明。",
+    "鎏金起始两说：赵农「战国中期已应用于制器」、田自秉字段作「春秋战国」；田自秉正文只给工序与配比，未给起始年代。",
+    "印纹盖印时机两说：夏燕靖「模胎尚未冷却」、田自秉「模胎尚未全干」；「冷却」与「全干」是否同一状态、印模是陶是木，来源均未说明。",
+    "三叠法只有定义，没有器物实例；它发生在铸前刻模还是铸后刻铜，来源只说「商代铜器装饰后期运用刻花的方法」，未与合范法的制模工序对账。",
+    "青铜镶嵌、错金银、错铜、错石四名的关系未定义：田自秉把松石、红铜、金银丝并列为镶嵌三类，赵农把错石与错金银、错铜并置，夏燕靖从商周绿松石讲到春秋错金银；「镶嵌」是总类还是与「错」并列，来源未声明。",
+    "「错石」一名两指：田自秉的「错石（厝石）」是磨错用的细砂岩，赵农的「错石工艺」是绿松石嵌饰；两条 KU 已分列，但六册未说明两名是否同源。",
+    "错金银、错铜、错石的材料差异只有嵌料名称，没有刻槽工具、槽形、槽深、丝片断面、嵌料固定方式与磨错工时；赵农只给「磨石错平、磨光」一句。",
+    "鎏金的一比七是六册唯一工艺配比，但未说明金与水银是重量比还是体积比，也未给金层厚度、烤温、烤时与汞回收；鎏金与鎏银的工序差异全无。",
+    "刻划依赖「铁工具的提高」，但铁工具何时普及、刻刀形制、刻线宽度与深度、刻划与铸造纹饰的工效比较均无；四件实例只有器名与出土地，没有年代、尺寸与图版。",
+    "金银平脱与贴金银／包金银是否同一工序，三册三种处理：夏燕靖作同义，高丰并列为三种特种工艺，田自秉单列并以「平文」区别；「平脱」的花纹与漆底齐平、「平文」高于漆面，这一区别仅田自秉一册。",
+    "金银平脱的工序步骤以高丰、田自秉最全，但两册对技术渊源各执一端：高丰强调汉代「镶银」，田自秉强调「贴金片」；唐以前是否已有推光，只有田自秉一句判断。",
+    "越王勾践剑同一处嵌饰三说：夏燕靖「剑格两面镶嵌蓝色琉璃和绿松石」、赵农「剑格兽面纹错石」、高丰与田自秉「剑柄嵌有珐琅釉料」；部位、材料与工艺三不相同，来源未互相校核，本 Topic 不合并。",
+    "鎏金铜酒樽器名两存：高丰称「酒樽」并记口径 23.4 厘米与鎏金，田自秉称「铜奁」并记盖、活环、铺首耳与三兽足；两册高度 24.5 厘米与动物组合相合，但无铭文互证。",
+    "错金银龙凤鹿方案的三处分歧不可裁：出土年份 1977／1997、尺寸「长 47.5×高 36.2」／「高 37.4×长宽 48」、案面「青铜为主加漆木板面」／「可能是漆木制品」；「铆口光滑，焊缝无痕」是焊接评价，不是错金银工序。",
+    "雕金镶玉银带钩的「雕金」与「包金镶嵌」是否同一工序，来源未说明；尺寸、重量、藏地、墓号与钩体全形均无。",
+    "唐镜七种装饰（金银平脱、鎏金、错金银、镶嵌、螺钿、著彩、涂珐琅）只有名称，无工序、材料配比与逐件归属；B.9.3 已保留铜镜自身的工艺名称，本 Topic 不重复挂载铜镜器物，两条 Topic 的工艺条目存在名称交叉。",
+    "本 Topic 的 10 件器物止于盛唐，宋、元、明、清的金属装饰（景泰蓝、花丝、金细工艺、银熏炉）未进入；器物层无法构成从商周至清的连续序列。",
+    "来源分布不均：田自秉覆盖 15 条，三叠法、青铜镶嵌、错石、刻划、错金银鸟篆文壶、金银错狩猎纹铜车饰、雕金镶玉银带钩 7 条为单源；高丰 2004 册无工序专条，李立新只覆盖 2 条。"
+  ],
+  "notes": "本批在既有 Theme B.9 内新建第四个 Topic B.9.4「金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划」，不新建 Theme，也不扩 B.9.1／B.9.2／B.9.3。B.9 至此按「容器器形—容器铸造—铜镜—表面装饰」四个 Topic 分工。B.9.4 按「铸前制模—铸后嵌饰—表面镀饰—铸后刻饰」四路加金银平脱跨材质边界组织 18 个 KU：铸前制模有印纹与三叠法，铸后嵌饰有青铜镶嵌、错金银与错铜、错石，表面镀饰有鎏金，铸后刻饰有刻划；金银平脱是漆胎与金银箔结合，只能作 boundary_case。四路是整理框架，不是来源结论：六册从未在同一件器物上比较两种装饰工序，也没有「先铸后错」或「先错后镀」的工序次序。七条工序为单源：三叠法、青铜镶嵌、错石、刻划、错金银鸟篆文壶、金银错狩猎纹铜车饰、雕金镶玉银带钩；田自秉覆盖 15 条，高丰 2004 册无工序专条，李立新只覆盖 2 条。三组同名异说并列不裁：越王勾践剑同一处嵌饰有蓝色琉璃／绿松石错石／剑柄珐琅釉三说，鎏金铜酒樽有酒樽／铜奁两名，金银平脱与贴金银／包金银有同义、并列、另立「平文」三说。四处边界：青铜容器器形与礼器组合归 B.9.1，合范浑铸分铸失蜡六齐与焊接归 B.9.2，铜镜型式纹样与铸镜归 B.9.3，花丝金细景泰蓝与银熏炉归后续 B.9.5。18 个 KU 全部主挂载，各生成 topic 与 theme 两条 member_of，relation index 因此新增 36 条，由 7085 增至 7121；隔离单元由 1258 减至 1247，18 个新挂载 KU 中 7 个原已有显式关系。knowledge_structure_quality 保持 57/65，structural_health 保持 130。本批不 commit、不 push。"
+}

@@ -32,19 +32,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取汉代右玉鎏金铜酒樽的鎏金表面与腹部两带动物纹、高 24.5／口径 23.4 厘米；酒樽／铜奁两名并存不裁，温酒组合与器形归 B.9.1。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "鎏金铜酒樽是 B 维度下汉代青铜酒器的器物条目，其动物纹装饰属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "鎏金铜酒樽是 B 维度下汉代青铜酒器的器物条目，其动物纹装饰属 C 维度。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -97,11 +105,10 @@ hierarchy_scope_note: "鎏金铜酒樽是 B 维度下汉代青铜酒器的器物
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是单件酒樽器物条；汉代青铜器的总论见同册第四章第二节，温酒组合见 `works/wenjiu-tongbeilu.md`。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取汉代右玉鎏金铜酒樽的鎏金表面与腹部两带动物纹、高 24.5／口径 23.4 厘米；酒樽／铜奁两名并存不裁，温酒组合与器形归 B.9.1。
 ## 相关知识元
 
 `works/wenjiu-tongbeilu.md` 记山西浑源、太原出土的温酒铜杯炉；`terms/boshanlu.md` 记汉代博山炉，同属汉代青铜实用器；`terms/hanjing.md` 记汉镜，同属汉代铜器装饰谱系。酒樽器类尚无独立 term 条。relation 未审查。

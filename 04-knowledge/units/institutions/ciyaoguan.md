@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: key_institution
+    primary: true
+    scope_note: "瓷窑官是辽代专管窑务的官职，唯一证据为《宋会要辑稿》太平兴国四年一条受降记载（称「伪瓷窑官」）；本 Topic 取它作为「设官监窑」的中间节点，并以其官名、品级、员额、隶属全缺作为该节点证据不足的例证。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "瓷窑官是 D 维度下辽代窑务管理官职的条目，其瓷器烧造与窑场产品归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "瓷窑官是辽代专管窑务的官职，唯一证据为《宋会要辑稿》太平兴国四年一条受降记载（称「伪瓷窑官」）；本 Topic 取它作为「设官监窑」的中间节点，并以其官名、品级、员额、隶属全缺作为该节点证据不足的例证。"
 ---
 
 ## 描述
@@ -66,12 +74,10 @@ hierarchy_scope_note: "瓷窑官是 D 维度下辽代窑务管理官职的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是辽代窑务管理官职的条目，可与宋代染织管理机构、少府监及辽代绫锦院并置，观察辽代官手工业的部门分工。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 瓷窑官是辽代专管窑务的官职，唯一证据为《宋会要辑稿》太平兴国四年一条受降记载（称「伪瓷窑官」）；本 Topic 取它作为「设官监窑」的中间节点，并以其官名、品级、员额、隶属全缺作为该节点证据不足的例证。
 ## 相关知识元
 
 `institutions/lingjinyuan.md` 记辽代绫锦院；`institutions/song-dai-ranzhi-guanli-jigou.md` 记宋代染织管理机构；`institutions/shaofujian.md` 记唐代少府监；`institutions/neiwufu-zaobanchu.md` 记清代造办处。来源未在瓷窑官与上述机构之间建立沿革或隶属关系，本条不作合并。relation 未审查，不写入正式 `relations`。

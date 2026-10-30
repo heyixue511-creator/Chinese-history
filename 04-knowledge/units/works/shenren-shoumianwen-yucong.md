@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度良渚玉器的图版锚点，正文只提供同类器群的统计与工艺判断。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md
+    role: representative_work
+    primary: true
+    scope_note: "只取图版 1-14 的器名锚点与反山 1100 余件组、3200 余件、线割锯切管钻抛光；纹样分层归 C。"
+hierarchy_scope_note: "只取图版 1-14 的器名锚点与反山 1100 余件组、3200 余件、线割锯切管钻抛光；纹样分层归 C。"
 ---
 
 ## 描述
@@ -54,10 +62,10 @@ hierarchy_scope_note: "本条是 B 维度良渚玉器的图版锚点，正文只
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度良渚玉器的图版锚点，正文只提供同类器群的统计与工艺判断。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取图版 1-14 的器名锚点与反山 1100 余件组、3200 余件、线割锯切管钻抛光；纹样分层归 C。
 
 ## 相关知识元
 

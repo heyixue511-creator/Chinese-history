@@ -1,0 +1,122 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h28",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.5「陶器工艺与陶系传统」下新建 B.5.5「泥胎装饰：紫砂、石湾与荣昌的三条路线」，挂载紫砂陶、宜兴、石湾窑、荣昌、供春、时大彬、陈鸣远、杨彭年、顾景舟与两件图注级紫砂器物共 11 个 KU；不按产地罗列，而按「瓷器占据主流之后陶器如何把装饰从釉面转回胎面」组织，检验胎面的三种状态与紫砂具名师承同石湾、荣昌匿名匠作之间的不对称。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.18",
+    "baseline_themes": 20,
+    "baseline_topics": 54,
+    "baseline_topic_memberships": 403,
+    "baseline_complete_assignments": 399,
+    "baseline_incomplete_assignments": 2171,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6800,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 802,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1319
+  },
+  "result": {
+    "hierarchy_version": "v1.19",
+    "themes": 20,
+    "topics": 55,
+    "topic_memberships": 414,
+    "complete_assignments": 410,
+    "incomplete_assignments": 2160,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6822,
+    "relation_types": "3/67",
+    "member_of_relations": 824,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1311,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 11,
+    "changed_units": 11,
+    "total_mounted_units": 410,
+    "new_topic_memberships": 11,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 1,
+      "geographical_context": 3,
+      "key_person": 5,
+      "representative_work": 2
+    },
+    "type_distribution": {
+      "term": 1,
+      "place": 3,
+      "person": 5,
+      "work": 2
+    },
+    "taxonomy_split": "紫砂、宜兴、石湾、荣昌的胎面装饰与紫砂师承→B.5.5；石湾「泥钧」的釉料与烧成→B.5.4；瓷器釉上彩与瓷器器形→B.6；建筑用陶与琉璃瓦→B.5.4 与后续建筑用陶 Topic；紫砂当代产业组织与政策→D；陶瓷文献的文本与版本问题→A／C；建水、钦县、界首、铜官、麻城、绥棱、洛阳七处产陶区（六册各只有一句）→不立条",
+    "planned_topics_not_created": [
+      "建筑用陶 Topic：秦砖汉瓦、陶瓦、瓦当、双鹿瓦当、始皇陵夔凤纹大瓦当、瓦纹、画像砖、采莲画象砖、丸剑舞乐画象砖、弋射收获画像砖、戏车图空心砖、竹林七贤画像砖×2、邓县学庄画像砖墓",
+      "制陶生产组织 Topic：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址",
+      "史前功能陶器：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊",
+      "D 维度前近代官手工业 Theme：御器厂、浮梁瓷局、瓷窑官、景德镇、琉璃渠御窑",
+      "玻璃材料 Theme：琉璃第一义、铅钡玻璃、钠钡玻璃、战国琉璃璧、李立新玻璃器沉浮"
+    ],
+    "deferred_by_boundary": [
+      "石湾「泥钧／广钧／佛山钧」的釉料、呈色与烧成 → 归 B.5.4；本 Topic 只取部分上釉、局部露胎的胎釉关系",
+      "石湾「花釉瓷」→ 来源一名兼跨陶瓷且未给胎料与烧成温度，本 Topic 不作材质判定，只作产品线一句登记",
+      "建水、钦县无釉磨光陶，界首彩釉陶，铜官绿釉陶，麻城褐釉陶，绥棱镂空黑陶，洛阳仿唐三彩 → 六册各只有并列一句、未立条，不据一句扩张产地清单",
+      "紫砂当代产业组织与政策（1950 年恢复生产、1954 年组织流散艺人、1955 年紫砂生产合作社）→ 归 D；本 Topic 只作战后师承端点",
+      "《阳羡名陶录》《陶说》《景德镇陶录》等陶瓷文献的文本、版本与著录 → 归 A／C；本 Topic 只在文献被引作评语时引用，不立文献条",
+      "两件图注级器物（明代紫砂瓜形壶、清代紫砂「东陵瓜」）→ 只有图注一行、图版未核，只登记为明、清两代各一件器物的存在证据，不据以描述器形",
+      "建筑用陶与琉璃瓦 → B.5.4 与后续建筑用陶 Topic（反向边界：本 Topic 只取器用陶）"
+    ]
+  },
+  "changed_files": 18,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2160",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1311",
+    "Zisha's Northern Song origin rests on one line of Mei Yaochen poetry ('紫泥新品泛春华') and Tian Zibing's own inference ('this reflects that Yixing was already producing zisha in the Northern Song'); no kiln site, dated vessel or stratigraphy is given, and the three-phase periodisation (Song start / Ming fame / Qing peak) has no intermediate material",
+    "Two parallel lists of zisha clays coexist (white-green-red by Tian Zibing; purple-red-yellow-white-black-flower by Xia Yanjing 2009) with no statement of their relation; proportions, shrinkage, firing curves and measured kiln temperatures are all absent, and 'over 1000 degrees' is the only temperature expression",
+    "Zisha master lists are mutually inconsistent: Tian Zibing gives both the Four Masters (Dong Han, Zhao Liang, Yuan Chang, Shi Peng) and Gongchun's three disciples (Shi Dabin, Zhao Liangbi, Chen Mingyuan), Li Lixin gives only the Four Masters, and Xia Yanjing 2009 lists Shi Dabin, Chen Mingyuan and 'Gongshou' together as Ming masters; no book explains the scope or basis of its list",
+    "Chen Mingyuan has three incompatible dates: Tian Zibing L4260 lists him as one of Gongchun's three disciples, L4595 places him in the Kangxi period, and Xia Yanjing 2016 lists him among Ming masters - the three are a century or more apart and no birth/death year or dated vessel settles it",
+    "Gongchun / Gongshou / Gongchun (龚春) coexist as three names: Xia Yanjing 2009 and 2016 write '供寿', Tian Zibing writes '供春' and records the original name '龚春'; whether these are variant writings of one person or two people is not stated",
+    "Zisha production organisation is entirely absent: no workshop, guild, imperial supply, export firm or apprenticeship system appears in the six books; 'about a dozen dragon kilns on Shushan firing zisha' is the only settlement-level description, with no kiln owners, workers or sales network. The modern three steps (resume production 1950, organise scattered craftsmen 1954, production cooperative 1955) give only years and institution names, no property or distribution arrangements",
+    "Gu Jingzhou and Gao Zhuang's 'Tibi tea set' collaboration is recorded in one sentence: Gao Zhuang's institutional identity, the division of design work, attribution and evaluation are all missing, so the only 'craftsman plus academy' case cannot serve as evidence for design-education history",
+    "Shiwan's Jun-imitative product carries three names (nijun by Tian Zibing, guangjun and foshajun by Xia Yanjing 2016) with no statement of whether they are synonyms or different periods/grades; glaze recipe, colouring mechanism and firing temperature are absent",
+    "Shiwan's origin and periodisation have no intermediate process: Xia Yanjing 2016 gives only 'Neolithic shell-mound sites already fired pottery' and 'large kilns appeared in the Tang', with no site names, dates or excavation data; Tian Zibing dates the distinctive character to 'modern times' while 2016 dates it to 'after entering the Qing', and the two periodisations are incompatible",
+    "Shiwan pottery sculpture has no named craftsman: the four famous pieces (Shouxian, Maitreya, golden toad, lucky lion) have only names, with no maker, date, dimension or collection; 'partly glazed, partly exposed body' is the only craft description, and the basis for choosing which parts to glaze is not recorded",
+    "The claim that Shiwan pottery art depended on bulk domestic pottery is the only economic-dependency judgement in the six books, but it has no output, value, employment or product-mix data behind it; the batch can only record it, not verify it",
+    "Rongchang is single-source (two passages in Tian Zibing): kiln count, output, firing temperature, clay composition, and the tools and sequence of iron-wire incising are all missing; 'two clays mixed into golden yellow' is a colour-mixing rather than a glaze statement and the proportion is unrecorded; 'pickle jars famous at home and abroad' is an evaluation, not sales data; Rongchang is now part of Chongqing while the source writes Sichuan",
+    "The four other 'five golden flowers' of Yixing (jun pottery, fine pottery, celadon, pottery sculpture) rest on a single passage (Tian Zibing L5083): Yixing jun pottery and Shiwan 'nijun' share a name but differ in substance and their relation is not discussed; whether Yixing 'fine pottery' and Shiwan 'fine pottery' are the same category is also unstated",
+    "Both caption-level objects (Ming melon-form teapot, Qing Dongling melon) have one caption line only, no visual verification of the plate, and no maker, dimension, collection or provenance; the referent of 'Dongling melon' (melon-form teapot or an ornamental vessel) is not explained in the source",
+    "The choice of three routes is an artefact of the record: the six books list seven other pottery regions (Jianshui, Qinxian, Jieshou, Tongguan, Macheng, Suiling, Luoyang) in one parallel sentence each with no KU entries; the batch does not expand from a single sentence, so 'three routes' is a sourcing boundary, not a material conclusion that modern pottery had only three routes"
+  ],
+  "notes": "本批新建 1 个 Topic（B.5.5 泥胎装饰），挂载 11 个 KU，不新增 Theme。结构设计的三项判断：其一，原定 Topic 名「紫砂与明清陶器」是按材料加朝代命名，读完 11 条候选后改判为「泥胎装饰：紫砂、石湾与荣昌的三条路线」——材料回答的是瓷器占据主流之后陶器靠什么立身。其二，胎面三态：三条路线共同的不是「不用釉」，而是把装饰面从釉转回胎——宜兴全部露出（不挂釉，以泥色、造型与浅刻立身）、石湾露出一部分（部分上釉、局部露胎，以胎釉色差立身）、荣昌加工胎面（红白双色泥贴花嵌花、两色混合成金黄、铁线划花）。其三，师承承担制度史缺位时的位置：紫砂可追踪的关系只有师徒（供春—时大彬）、文人延揽（陈鸣远）、文人设计艺人制作（陈曼生—杨彭年的曼生壶）、艺人加学院（顾景舟与高庄）四种；紫砂有具名师承而石湾、荣昌无一位匠人姓名，这一不对称可能来自工艺水平也可能只来自文献选择，六册无法区分，故登记为记录问题而非工艺高低的证据。四处边界处置：石湾「泥钧」只取露胎的胎釉关系、釉料与烧成归 B.5.4；石湾「花釉瓷」不作材质判定；七处产陶区不据一句立条；紫砂当代产业组织与政策归 D。本批不 commit、不 push。"
+}

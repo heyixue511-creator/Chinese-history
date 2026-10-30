@@ -25,17 +25,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下汉代女服组合的条目，其裁剪与穿着制度归 B/D 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取上襦短至腰、长裙下垂至地的组合比例与「由深衣演变而来」一句源流；同段汉代四类服装与曲裾深衣的时代风格只作背景，不据以回填襦裙裁法。"
+hierarchy_scope_note: "本 KU 是 B 维度下汉代女服组合的条目，其裁剪与穿着制度归 B/D 维度。已挂载 B.18.4（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -55,11 +62,11 @@ hierarchy_scope_note: 本 KU 是 B 维度下汉代女服组合的条目，其裁
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下汉代女服组合的条目，其裁剪与穿着制度归 B/D 维度。Theme/Topic 尚未 materialize。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取上襦短至腰、长裙下垂至地的组合比例与「由深衣演变而来」一句源流；同段汉代四类服装与曲裾深衣的时代风格只作背景，不据以回填襦裙裁法。
 
 ## 相关知识元
 

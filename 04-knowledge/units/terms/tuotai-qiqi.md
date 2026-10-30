@@ -1,4 +1,5 @@
 ---
+
 title: 脱胎漆器（Tuotai (Bodiless) Lacquerware）
 name_en: Tuotai (Bodiless) Lacquerware
 type: term
@@ -32,17 +33,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "脱胎漆器是 B 维度下夹纻漆器类型的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取清代脱胎漆器的夹纻技法、沈沼安创始与福州三宝；产业组织归 B.4 与 D。"
+hierarchy_scope_note: "脱胎漆器是 B 维度下夹纻漆器类型的条目。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -66,10 +75,10 @@ hierarchy_scope_note: "脱胎漆器是 B 维度下夹纻漆器类型的条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 脱胎漆器是 B 维度下夹纻漆器类型的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取清代脱胎漆器的夹纻技法、沈沼安创始与福州三宝；产业组织归 B.4 与 D。
 
 ## 相关知识元
 

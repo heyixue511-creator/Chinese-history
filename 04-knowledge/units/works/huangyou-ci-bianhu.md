@@ -27,19 +27,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: boundary_case
+    primary: true
+    scope_note: "黄釉瓷扁壶是 B.5.4 的材质边界样本：北齐安阳墓出土，黄色釉、两面舞乐浮雕（莲花舞与琵琶钹笛拍板）；器名作瓷而胎质、釉料与烧成温度未载，不作材质判定，只取北朝过渡节点"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "黄釉瓷扁壶是 B 维度下北齐黄釉瓷器的器物条目，其舞乐浮雕与莲花舞的图像内容归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "黄釉瓷扁壶是 B.5.4 的材质边界样本：北齐安阳墓出土，黄色釉、两面舞乐浮雕（莲花舞与琵琶钹笛拍板）；器名作瓷而胎质、釉料与烧成温度未载，不作材质判定，只取北朝过渡节点"
 ---
 
 ## 描述
@@ -60,12 +68,10 @@ hierarchy_scope_note: "黄釉瓷扁壶是 B 维度下北齐黄釉瓷器的器物
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 黄釉瓷扁壶是 B 维度下北齐黄釉瓷器的器物条目，其舞乐浮雕与莲花舞的图像内容归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 黄釉瓷扁壶是 B.5.4 的材质边界样本：北齐安阳墓出土，黄色釉、两面舞乐浮雕（莲花舞与琵琶钹笛拍板）；器名作瓷而胎质、釉料与烧成温度未载，不作材质判定，只取北朝过渡节点
 ## 相关知识元
 
 `terms/huangyou.md` 记黄釉；`terms/hunping.md` 记六朝明器；`terms/lianhua-wen.md` 记莲花纹。relation 未审查。

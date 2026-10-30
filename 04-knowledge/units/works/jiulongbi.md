@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度清代琉璃照壁的器物锚点，材料为同段列名加图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: representative_work
+    primary: true
+    scope_note: "九龙壁在 B.5.4 承担建筑线的清代样本，只取「完全用琉璃砖瓦建造的大型照壁」这一类型证据；图注未指城市（原文将太原晋祠、大同与北京九龙壁并列），尺寸、年代与龙数均未载"
+hierarchy_scope_note: "九龙壁在 B.5.4 承担建筑线的清代样本，只取「完全用琉璃砖瓦建造的大型照壁」这一类型证据；图注未指城市（原文将太原晋祠、大同与北京九龙壁并列），尺寸、年代与龙数均未载"
 ---
 
 ## 描述
@@ -50,11 +58,10 @@ hierarchy_scope_note: "本条是 B 维度清代琉璃照壁的器物锚点，材
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代琉璃照壁的器物锚点，材料为同段列名加图注一行。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 九龙壁在 B.5.4 承担建筑线的清代样本，只取「完全用琉璃砖瓦建造的大型照壁」这一类型证据；图注未指城市（原文将太原晋祠、大同与北京九龙壁并列），尺寸、年代与龙数均未载
 ## 相关知识元
 
 同段另记太和殿顶两端鸱吻高达3.36米（图9-30）与山西晋南三彩法华器；晋祠建筑另见 `works/jinci-shengmu-dian.md`（圣母殿，非琉璃照壁）。本条不构成关系断言。

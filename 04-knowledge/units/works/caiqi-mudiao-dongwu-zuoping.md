@@ -1,4 +1,5 @@
 ---
+
 title: 彩漆木雕动物座屏（Painted Lacquered Animal Screen）
 name_en: Painted Lacquered Animal Screen
 type: work
@@ -39,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下战国楚国漆器的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只取望山座屏的尺寸、透雕彩绘与天星观近似器；「50 余」与「51 只」并列不裁。"
+hierarchy_scope_note: "本 KU 是 B 维度下战国楚国漆器的器物锚点。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -78,10 +87,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下战国楚国漆器的器物锚点�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下战国楚国漆器的器物锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取望山座屏的尺寸、透雕彩绘与天星观近似器；「50 余」与「51 只」并列不裁。
 
 ## 相关知识元
 

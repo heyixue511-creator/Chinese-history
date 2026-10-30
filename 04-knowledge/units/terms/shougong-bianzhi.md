@@ -29,19 +29,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.17
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取八类材料（竹草藤棕柳荆麦秆玉米皮）与四区分布、产品清单、手工地毯，以及赵农「传统手工艺在近现代工业化影响下扮演了悲壮的角色」的评价；无技法、工具与谱系。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "手工编织是 B 维度下传统编织工艺的条目；其作为民生经济手段与地域产业属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "手工编织是 B 维度下传统编织工艺的条目；其作为民生经济手段与地域产业属 D 维度。已挂载 B.17.1（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -64,10 +73,10 @@ hierarchy_scope_note: "手工编织是 B 维度下传统编织工艺的条目；
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 手工编织是 B 维度下传统编织工艺的条目；其作为民生经济手段与地域产业属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取八类材料（竹草藤棕柳荆麦秆玉米皮）与四区分布、产品清单、手工地毯，以及赵农「传统手工艺在近现代工业化影响下扮演了悲壮的角色」的评价；无技法、工具与谱系。
 
 ## 相关知识元
 

@@ -1,4 +1,5 @@
 ---
+
 title: 曲辕犁（Curved-Shaft Plow）
 name_en: Curved-Shaft Plow
 type: term
@@ -24,18 +25,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取直长辕改短曲辕与辕箭梢底重组、二牛抬杠转一牛耕犁；无尺寸、重量与材料配比，图版未核，不据图补写。"
 secondary_dimensions:
-hierarchy_scope_note: 曲辕犁是 B 维度唐代农具形制的条目；来源在绪论与农具节的提及均属技术叙述，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "曲辕犁是 B 维度唐代农具形制的条目；来源在绪论与农具节的提及均属技术叙述，不涉及设计史书写或史学方法，故不指派 A 维度。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: 曲辕犁是 B 维度唐代农具形制的条目；来源�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 曲辕犁是 B 维度唐代农具形制的条目；来源在绪论与农具节的提及均属技术叙述，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取直长辕改短曲辕与辕箭梢底重组、二牛抬杠转一牛耕犁；无尺寸、重量与材料配比，图版未核，不据图补写。
 
 ## 相关知识元
 

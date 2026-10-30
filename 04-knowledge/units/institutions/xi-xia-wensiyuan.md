@@ -31,19 +31,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-difang-gongguan-tezhong-zuofang.md
+    role: key_institution
+    primary: true
+    scope_note: "西夏文思院职掌与出土器类；与唐宋文思院同名异实，不合并"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "西夏文思院是 D 维度下西夏官营金银玉器作坊管理机构的条目，其金属与玉器工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "西夏文思院职掌与出土器类；与唐宋文思院同名异实，不合并"
 ---
 
 ## 描述
@@ -65,11 +73,10 @@ hierarchy_scope_note: "西夏文思院是 D 维度下西夏官营金银玉器作
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是西夏官营金银玉器作坊管理机构的条目，可与西夏官营手工业机构群、唐宋文思院及辽金金银器条目并置，观察同名机构在不同政权中的职掌差异。当前只到 Dimension。
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-difang-gongguan-tezhong-zuofang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 西夏文思院职掌与出土器类；与唐宋文思院同名异实，不合并
 
 ## 相关知识元
 

@@ -26,19 +26,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取西周冕服制度的形成标志与形成因素（尊祖敬天、周礼诞生）及「冠，贯也」训释；不取条目未载的等级序列与服物名目。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 B 维度西周服饰制度的条目，其礼制与等级内涵属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度西周服饰制度的条目，其礼制与等级内涵属 D 维度。已挂载 B.18.1（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -60,10 +69,10 @@ hierarchy_scope_note: "本条是 B 维度西周服饰制度的条目，其礼制
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度西周服饰制度的条目，其礼制与等级内涵属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取西周冕服制度的形成标志与形成因素（尊祖敬天、周礼诞生）及「冠，贯也」训释；不取条目未载的等级序列与服物名目。
 
 ## 相关知识元
 

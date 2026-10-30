@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "玻璃是 B 维度下硅酸盐材料与成型工艺的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md
+    role: term_anchor
+    primary: true
+    scope_note: "B.7.3 主挂载：取玻璃的原料、五道工序、吹塑与模压成型、四类用途与 1949 年后建厂布局；古代玻璃器归 B.7.1／B.7.2，建筑琉璃归 B.5.4。"
+hierarchy_scope_note: "B.7.3 主挂载：取玻璃的原料、五道工序、吹塑与模压成型、四类用途与 1949 年后建厂布局；古代玻璃器归 B.7.1／B.7.2，建筑琉璃归 B.5.4。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "玻璃是 B 维度下硅酸盐材料与成型工艺的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 玻璃是 B 维度下硅酸盐材料与成型工艺的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: B.7.3 主挂载：取玻璃的原料、五道工序、吹塑与模压成型、四类用途与 1949 年后建厂布局；古代玻璃器归 B.7.1／B.7.2，建筑琉璃归 B.5.4。
 
 ## 相关知识元
 

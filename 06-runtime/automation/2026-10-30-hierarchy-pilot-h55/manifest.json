@@ -1,0 +1,162 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h55",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.17「竹材与编织工艺：席、竹编、竹刻与藤器」，下建 B.17.1「编织：苇席、绳索、竹编五法与地方品类」与 B.17.2「刻竹：嘉定派、金陵派与嘉定三朱」，把六册中十二条散落的竹材条目按「竹被劈成丝之后的编织」与「竹被整段保留之后的雕刻」两分挂载，闭合 h54 summary 与 manifest 连续登记的「竹编工艺方法（procedures/zhubian-yishu-jiagong）仍无 primary_theme 与 topic_memberships」这一债务，并承接 B.14.7 边界「不收竹编工艺体系（`procedures/zhubian-yishu-jiagong` 仍未挂载）」一句。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.45",
+    "baseline_themes": 31,
+    "baseline_topics": 99,
+    "baseline_topic_memberships": 830,
+    "baseline_complete_assignments": 816,
+    "baseline_incomplete_assignments": 1754,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7644,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1646,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1093,
+    "baseline_b_dimension_unmounted": 1039
+  },
+  "result": {
+    "hierarchy_version": "v1.46",
+    "themes": 32,
+    "topics": 101,
+    "topic_memberships": 842,
+    "complete_assignments": 828,
+    "incomplete_assignments": 1742,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7668,
+    "relation_types": "3/67",
+    "member_of_relations": 1670,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1084,
+    "b_dimension_unmounted": 1027,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "theme_updated": 0,
+    "topics_touched": 2,
+    "new_topic_nodes": 2,
+    "mounted_units": 12,
+    "secondary_mounts": 0,
+    "changed_units": 12,
+    "total_mounted_units": 828,
+    "new_topic_memberships": 12,
+    "theme_organization": "B.17 按「材料—方法—组织单位—证据形态」四层分组，下分两个 Topic，切分轴是「竹材被怎样加工」：B.17.1 取竹被劈成竹丝与篾片之后的编织（苇席、绳索遗物、竹编五法、龚扇、藤编组织锚点），B.17.2 取竹被整段保留之后的雕刻（嘉定派、金陵派、四位艺人、一件器物）。这一刀不是来源的分组——田自秉把竹编放在「编织工艺」节、把竹刻放在「雕塑工艺」节，两者相隔数百行且互不引用——而是本库为读清「同一材料两种加工」所划，已在 Theme 与两个 Topic 正文中明写。草编、柳编、棕编等其余编织材料随 B.17.1 一并处理，因为六册对它们只有分类与产地，无技法条目，不为凑结构造条。",
+    "topic_split": "B.17.1 五条（编织、手工编织、竹编艺术加工方法、龚玉璋、广东南海藤厂），B.17.2 七条（嘉定派、金陵派、朱鹤、朱小松、朱三松、濮仲谦、嘉定朱小松竹刻香薰），全部为主挂载。不按朝代切分：编织线跨新石器至解放后、刻竹线集中在明万历前后，按朝代切会使每条线各只剩一个时期；也不按材料切分：藤与竹同属编织线与竹材同属一 Theme，切开会重复 Theme 已有的边界说明。",
+    "role_distribution": {
+      "procedure": 2,
+      "term_anchor": 3,
+      "key_person": 5,
+      "key_institution": 1,
+      "representative_work": 1
+    },
+    "type_distribution": {
+      "procedure": 2,
+      "term": 3,
+      "person": 5,
+      "institution": 1,
+      "work": 1
+    },
+    "source_distribution": {
+      "2010-tianzibing-zhongguo-gongyi-meishushi": 11,
+      "2009-zhaonong-zhongguo-yishu-shejishi": 2,
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 1
+    },
+    "source_overlap_distribution": {
+      "single_book": 11,
+      "three_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 10,
+      "low": 2
+    },
+    "consensus_distribution": {
+      "tentative": 12
+    },
+    "primary_vs_secondary": {
+      "primary": 12,
+      "secondary": 0
+    },
+    "secondary_hosts": {},
+    "theme_cumulative": {
+      "topics": 2,
+      "mounted_units": 12,
+      "type_distribution": {
+        "procedure": 2,
+        "term": 3,
+        "person": 5,
+        "institution": 1,
+        "work": 1
+      },
+      "role_distribution": {
+        "procedure": 2,
+        "term_anchor": 3,
+        "key_person": 5,
+        "key_institution": 1,
+        "representative_work": 1
+      },
+      "source_distribution": {
+        "2010-tianzibing-zhongguo-gongyi-meishushi": 11,
+        "2009-zhaonong-zhongguo-yishu-shejishi": 2,
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 1
+      },
+      "coverage_note": "B.17 是本库第二偏的 Theme 之一（田自秉 2010 覆盖 11/12），也是首个「一册一段同时供给整条刻竹线」的 Theme：B.17.2 七条全部出自田自秉 L4472-L4477（正文一段加插图 11 图注），六条互为子集。十条为单册来源，只有 `procedures/bianzhi` 跨三册（赵农、田自秉、夏燕靖 2016）。高丰 2004、夏燕靖 2009、李立新 2011 对十二条零覆盖。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：12 条主挂载 primary_dimension 全部为 B。两个 Topic 的 secondary_themes 与各 KU 的 secondary_themes 均为裸维度码（B.17.1 为 D、B.17.2 为 C），按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "竹纸与造纸：`terms/zhu-zhi` 归造纸线；本 Theme 只取器物编织与雕刻，不取纤维加工",
+      "竹木文献：`publications/zhupu`《竹谱》、`publications/bamboo-annals` 竹书纪年、`works/shizhuzhai-jianpu` 与 `publications/shizhuzhai-huapu` 十竹斋笺谱与画谱归文献与印刷线",
+      "竹材家具：章水泉竹器已主挂 B.14.7，竹材家具属家具线的问题，不重挂",
+      "以竹为纹样的器物与图像：竹林七贤画像砖、竹林七贤和荣启期砖画、珐琅彩竹菊鹌鹑瓶、鎏金银竹节高柄铜薰炉分别归 B.5、B.6、B.9",
+      "园林与建筑中的竹：万竹园归 B.3",
+      "竹简与书写材料：简牍归 C.2 书籍形态线",
+      "草编、柳编、棕编等其余编织材料的独立条目：六册只有手工编织条中的一句分类，无单独条目，不为凑结构造条",
+      "藤编的机械化生产与工厂制度：只取广东南海藤厂一条作组织锚点，生产技术转型与产业组织归 B.4 与 D 维度",
+      "金陵派的「竹雕松枝小壶」：来源只有故宫收藏一句，未立独立 KU，只作流派条内记载"
+    ],
+    "handoff_note": "本批闭合 h54 summary 第九节与 manifest 登记的下一跳「竹编工艺方法（`procedures/zhubian-yishu-jiagong`，仍无 `primary_theme` 与 `topic_memberships`）」，以及 v1.43 段与 B.14.7 边界中「不收竹编工艺体系（`procedures/zhubian-yishu-jiagong` 仍未挂载）」一句。反向未处置：B.14.7 主题文件的「不收竹编工艺体系」仍未改指向 B.17.1，h54 登记的 B.12.2、B.13.2、B.5.3「简单机械线尚未物化」与 B.12「归待建水利 Topic 或 B.3」亦仍未回改，三者一并留作跨批文本回改批次。"
+  },
+  "changed_files": 27,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "04-knowledge/structure/themes/b17-zhucai-yu-bianzhi-gongyi-xi-zhubian-zhuke-yu-tengqi.md",
+    "04-knowledge/structure/topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md",
+    "04-knowledge/structure/topics/b17-kezhu-jiadingpai-jinlingpai-yu-jiading-sanzhu.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/dimension-candidates.md"
+  ],
+  "unresolved": [
+    "两条线从不并读：六册没有一段把竹编与竹刻放在一起，也没有说明同一竹材为何一边被劈成丝、一边被整段保留；田自秉把二者分置于「编织工艺」与「雕塑工艺」两节，相隔数百行互不引用，B.17 并置二者是结构判断而非来源判断。",
+    "材料处理全缺：无竹种、采伐季节、防蛀防霉、竹龄与部位的选择，也无篾丝宽度与均匀度；「细匀竹丝」是评价词而非规格。",
+    "技法只有名目而无参数：五法各一句定义（编织、车花、拼花、穿珠、翻簧），无编织密度、经纬配比、车花与翻簧的刀具形制、烫花温度与彩漆料；刻竹只有「深刻」「透雕」「用刀较浅」「勾勒数刀」「刀不苟下」五个形容，无刀形、进刀角与取竹部位。",
+    "量化只落在遗物与用工：苇席残片 1 平方米、绳索直径 1.2 厘米与 2—3 毫米、钱山漾 200 多件竹编遗物、龚扇「几百以至上千根细匀竹丝」与「每穿一根纬丝至少穿几百次到 1 000 次以上」，分别属遗物尺度与劳动投入，都不能换算为器形规格、编织密度或工时定额；刻竹线零量化。",
+    "刻竹线只有一件器物：朱小松竹刻香薰以 `confidence: low` 立条，尺寸、形制、纹样、款识与藏地全缺，图版未视觉核验；嘉定三朱与金陵派的作品清单全缺；金陵派的「竹雕松枝小壶」只有故宫收藏一句，未立独立 KU。",
+    "流派与人名高度同构：嘉定派与朱鹤、朱小松、朱三松四条，金陵派与濮仲谦两条，均共用同一段来源且内容互为子集，人物条各只有一到两句；是否保留四条人物条需在后续来源复核时重估。",
+    "B.17.2 全部七条出自田自秉 2010 的 L4472-L4477 一段（正文一段加一条图注），无第二册交叉，该 Topic 的任何判断都无法由另一册确认；《竹人录》只有朱鹤条中一句被引，卷次、成书年代、作者与所记艺人范围全缺。",
+    "分期有两大空白：宋元与清中期无竹材工艺条目，从明万历直接跳到清末龚扇、再到解放后藤厂；B.17 的时间线因此是四段而非连续序列。",
+    "藤编只有一条组织锚点：广东南海藤厂只有「解放后建立许多大型的藤编工艺厂，广东南海藤厂就是其中的一个」一句，成立年份、厂址、隶属、所有制、职工人数、产品品种、产量与存续全缺，「大型」无量化标准；藤丝三类（合丝、沙丝、梨皮）是同段工艺背景，不专属该厂。",
+    "竹编的地方品类全部停在名称：崇庆竹篼、开县凉席、酆都包鸾细篾席、梁平竹帘、成都瓷胎竹编、江安翻簧、长宁竹扇、自贡竹丝扇八项中，只有自贡竹丝扇（龚扇）有人物与用工记载，其余七项无尺寸、技法、传承人与产量。",
+    "编织的近代处境只有一句评价：赵农称传统手工艺在近现代工业化影响下「扮演了悲壮的角色」，B.17 不据这一句展开生产形态与社会条件，相关制度与产业组织归 B.4 与 D 维度。",
+    "B.14.7 主题文件边界「不收竹编工艺体系（`procedures/zhubian-yishu-jiagong` 仍未挂载）」未回改指向 B.17.1；连同 h54 登记的 B.12.2、B.13.2、B.5.3 与 B.12 三处，留作跨批文本回改批次。"
+  ],
+  "notes": "推导与实测口径：relation 增量 24 = 12 条主挂载 ×（topic member_of + theme member_of），与 build_relation_index.py 实测 7644 → 7668、explicit 5998 不变、inferred 1646 → 1670 一致。隔离单元 1093 → 1084，减 9，取自 audit_relation_consistency.py 前后两次实测，不按条数推算（12 条中有 3 条原本已有显式关系，不属隔离）。B 维度未挂载 1039 → 1027，减 12（12 条主挂载 primary_dimension 全为 B）；全库未挂载 1754 → 1742。membership 830 → 842（+12），complete 816 → 828（+12），本版无次挂载，membership 与已挂载 KU 之差仍为 14，double-mount 清单不变。changed_files 27 = 本批 apply-plan 19 行（1 个 Theme 新建 + 2 个 Topic 新建 + 12 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照先归档为 hierarchy/archive/v1.45.md（95917 字节），按 h44–h46 口径不计入 changed_files。本批吸取 h54 的归档次序教训：升版前先复制旧版为存档，再编辑 index.md。生成态次序按 h51 实测处理：manifest 与 summary 先落盘，再连续跑两次全量闭包（第 8 步 write health and backlog 早于第 9 步重建 05-outputs/index/index.md，单跑一次会残留 output_navigation_snapshot_stale），第二次后 rule_drift.findings 归 0；随后 --check-generated 第 17 步预计 exit=1，属未 commit 的预期。hierarchy_stress_test 报 themes 32、topics 101、membership 842、complete 828、incomplete 1742、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 58/65（hierarchy_assignment 3/10 未变）、content_findings 0。工作区累计改动属 h13–h55 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

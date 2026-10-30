@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: key_person
+    primary: true
+    scope_note: "杨彭年是 B.5.5 紫砂谱系中「文人设计—艺人制作」的一环：嘉庆年间人，与妹杨凤年并称；陈曼生设计、杨彭年制作的紫砂壶称曼生壶；史论家评「杨彭年精巧，邵大亨浑朴」；生卒、籍贯、师承与作品目录均未载"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度清代紫砂艺人的条目，精巧一路的器形与工艺风格属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "杨彭年是 B.5.5 紫砂谱系中「文人设计—艺人制作」的一环：嘉庆年间人，与妹杨凤年并称；陈曼生设计、杨彭年制作的紫砂壶称曼生壶；史论家评「杨彭年精巧，邵大亨浑朴」；生卒、籍贯、师承与作品目录均未载"
 ---
 
 ## 描述
@@ -55,11 +63,10 @@ hierarchy_scope_note: "本条是 B 维度清代紫砂艺人的条目，精巧一
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代紫砂艺人的条目，精巧一路的器形与工艺风格属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 杨彭年是 B.5.5 紫砂谱系中「文人设计—艺人制作」的一环：嘉庆年间人，与妹杨凤年并称；陈曼生设计、杨彭年制作的紫砂壶称曼生壶；史论家评「杨彭年精巧，邵大亨浑朴」；生卒、籍贯、师承与作品目录均未载
 
 ## 相关知识元
 

@@ -1,4 +1,5 @@
 ---
+
 title: 《农政全书》（Nongzheng Quanshu (Complete Treatise on Agriculture)）
 name_en: Nongzheng Quanshu (Complete Treatise on Agriculture)
 type: publication
@@ -22,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md
+    role: supporting_source
+    primary: true
+    scope_note: "只作「保留了许多农具和其他生产器具的资料」一句总评的支持性条目；卷数、年代、版本与器目全无，confidence 为 low。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "《农政全书》是 B 维度下明代农学文献的条目；其农政制度面向归 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "《农政全书》是 B 维度下明代农学文献的条目；其农政制度面向归 D 维度。已挂载 B.12.3（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -52,10 +61,10 @@ hierarchy_scope_note: "《农政全书》是 B 维度下明代农学文献的条
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《农政全书》是 B 维度下明代农学文献的条目；其农政制度面向归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: 只作「保留了许多农具和其他生产器具的资料」一句总评的支持性条目；卷数、年代、版本与器目全无，confidence 为 low。
 
 ## 相关知识元
 

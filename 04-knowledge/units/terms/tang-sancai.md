@@ -52,17 +52,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "唐三彩是 B 维度下低温铅釉陶工艺与唐代明器体系的术语锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: term_anchor
+    primary: true
+    scope_note: "唐三彩是 B.5.4 明器线的顶点：白（黄）色黏土或高岭土胎、铜铁钴锰着色、约 900℃ 低温烧成，四类器类并存，开相与涂蜡仿染缬两道装饰工序，主要作随葬明器"
+hierarchy_scope_note: "唐三彩是 B.5.4 明器线的顶点：白（黄）色黏土或高岭土胎、铜铁钴锰着色、约 900℃ 低温烧成，四类器类并存，开相与涂蜡仿染缬两道装饰工序，主要作随葬明器"
 ---
 
 ## 描述
@@ -89,11 +97,10 @@ hierarchy_scope_note: "唐三彩是 B 维度下低温铅釉陶工艺与唐代明
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是唐代陶瓷工艺的术语锚点，可与邢窑 KU 在同一时代陶瓷体系内并置；两者关系（不同工艺系统／不同用途体系）尚未完成 relation 语义审查。当前只到 Dimension。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 唐三彩是 B.5.4 明器线的顶点：白（黄）色黏土或高岭土胎、铜铁钴锰着色、约 900℃ 低温烧成，四类器类并存，开相与涂蜡仿染缬两道装饰工序，主要作随葬明器
 ## 相关知识元
 
 本批写回的邢窑、磁州窑 KU 同属陶瓷类知识元，在来源中与唐三彩处于唐代或唐宋陶瓷叙述序列；但 relation_type、方向与强度尚未审查，故不写入正式 `relations`。

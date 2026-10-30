@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取高 6.75 米、口径 3.3 米、44.6 吨与「现存最大铜钟」的地位判断；永乐官铸与冶铜组织归 D，铸造方法无载。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 B 维度明代大型铜钟的单器锚点，永乐官铸与冶铜规模属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度明代大型铜钟的单器锚点，永乐官铸与冶铜规模属 D 维度。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "本条是 B 维度明代大型铜钟的单器锚点，永
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代大型铜钟的单器锚点，永乐官铸与冶铜规模属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取高 6.75 米、口径 3.3 米、44.6 吨与「现存最大铜钟」的地位判断；永乐官铸与冶铜组织归 D，铸造方法无载。
 
 ## 相关知识元
 

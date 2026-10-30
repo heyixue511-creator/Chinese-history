@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的铠甲术语条目，兼及将士服饰的等级与防护设计；Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取铁甲为主、鱼鳞甲与札甲、兜鍪盆领膝甲三型与将士服饰的等级原则；两段主题分别取自兵器段与服饰段，不合并为统一分类。"
+hierarchy_scope_note: B 维度下的铠甲术语条目，兼及将士服饰的等级与防护设计；已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -53,11 +61,10 @@ hierarchy_scope_note: B 维度下的铠甲术语条目，兼及将士服饰的�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的铠甲术语条目，兼及将士服饰的等级与防护设计；Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取铁甲为主、鱼鳞甲与札甲、兜鍪盆领膝甲三型与将士服饰的等级原则；两段主题分别取自兵器段与服饰段，不合并为统一分类。
 ## 相关知识元
 
 - `terms/leather-armor.md` 记皮甲。

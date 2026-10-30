@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度唐代金银器的器物锚点，材料为正文一段实测记录加图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取法门寺文思院炉的器形、朵带装配与咸通十年铭文；鎏金工序归 B.9.4，制作工序归 procedures/yin-xunlu-zhizuo，295／29.5 厘米异文并列。"
+hierarchy_scope_note: "本条是 B 维度唐代金银器的器物锚点，材料为正文一段实测记录加图注一行。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -70,11 +78,10 @@ hierarchy_scope_note: "本条是 B 维度唐代金银器的器物锚点，材料
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐代金银器的器物锚点，材料为正文一段实测记录加图注一行。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取法门寺文思院炉的器形、朵带装配与咸通十年铭文；鎏金工序归 B.9.4，制作工序归 procedures/yin-xunlu-zhizuo，295／29.5 厘米异文并列。
 ## 相关知识元
 
 同一地宫的器物与陈设见 `places/famen-si-digong.md`；唐代金银器的另一件代表见 `works/liujin-wuma-xianbei-yinhu.md`（鎏金舞马衔杯银壶，何家村窖藏）；`terms/rendong-wen.md` 记炉沿所用的忍冬纹；`terms/wu-gong.md` 记同段所举佛教供具组合。本条不构成关系断言。

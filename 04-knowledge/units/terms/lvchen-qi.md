@@ -1,4 +1,5 @@
 ---
+
 title: 绿沉漆（Lüchen Lacquer (Deep-Green Lacquer)）
 name_en: Lüchen Lacquer (Deep-Green Lacquer)
 type: term
@@ -29,20 +30,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取深绿一色与三条文献；色料、调色比例与施涂方法无载。"
 secondary_dimensions:
   - C
   - D
-hierarchy_scope_note: "绿沉漆是 B 维度下六朝色漆类型的条目，其书案铭、屏风与笔管的文人与上层消费面向归 C、D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "绿沉漆是 B 维度下六朝色漆类型的条目，其书案铭、屏风与笔管的文人与上层消费面向归 C、D 维度。已挂载 B.11.2（髹饰技法：金饰、刻填、磨显与镶嵌）。"
 ---
 
 ## 描述
@@ -66,10 +75,10 @@ hierarchy_scope_note: "绿沉漆是 B 维度下六朝色漆类型的条目，其
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）、D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 绿沉漆是 B 维度下六朝色漆类型的条目，其书案铭、屏风与笔管的文人与上层消费面向归 C、D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取深绿一色与三条文献；色料、调色比例与施涂方法无载。
 
 ## 相关知识元
 

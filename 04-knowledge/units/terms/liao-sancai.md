@@ -43,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下辽代低温铅釉陶的条目。Theme/Topic 尚未 materialize。
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: term_anchor
+    primary: true
+    scope_note: "辽三彩是 B.5.4 三彩谱系的北方延续：单色黄绿白、质地松脆、釉面粗糙；三彩盘方形与海棠形，先素烧再挂釉烧成，多用印花；三册均未记铅含量"
+hierarchy_scope_note: "辽三彩是 B.5.4 三彩谱系的北方延续：单色黄绿白、质地松脆、釉面粗糙；三彩盘方形与海棠形，先素烧再挂釉烧成，多用印花；三册均未记铅含量"
 ---
 
 ## 描述
@@ -77,11 +85,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下辽代低温铅釉陶的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下辽代低温铅釉陶的条目。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 辽三彩是 B.5.4 三彩谱系的北方延续：单色黄绿白、质地松脆、釉面粗糙；三彩盘方形与海棠形，先素烧再挂釉烧成，多用印花；三册均未记铅含量
 ## 相关知识元
 
 `terms/tang-sancai.md` 记唐三彩，`terms/liao-ci.md` 记辽瓷，`works/sancai-shuangyu-hu.md` 记三彩双鱼壶，`terms/fengshou-hu.md` 记凤首壶；`places/chifeng-gangwayaotun-liaoyao.md` 记辽窑。relation 未审查。

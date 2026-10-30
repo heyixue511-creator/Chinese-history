@@ -30,19 +30,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md
+    role: representative_work
+    primary: true
+    scope_note: "只取商鞅变法量器、铭文与石鼓文并列为小篆依据、以及《战国策·秦策》「平权衡，正度量」；尺寸、容积与铭文字数全无。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 商鞅方升是 B 维度下秦国度量衡器物的条目，兼及 D 维度的制度统一。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: 商鞅方升是 B 维度下秦国度量衡器物的条目，兼及 D 维度的制度统一。已挂载 B.13.2（货币与度量衡：交换媒介与计量标准）。
 ---
 
 ## 描述
@@ -67,10 +75,10 @@ hierarchy_scope_note: 商鞅方升是 B 维度下秦国度量衡器物的条目�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 商鞅方升是 B 维度下秦国度量衡器物的条目，兼及 D 维度的制度统一。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取商鞅变法量器、铭文与石鼓文并列为小篆依据、以及《战国策·秦策》「平权衡，正度量」；尺寸、容积与铭文字数全无。
 
 ## 相关知识元
 

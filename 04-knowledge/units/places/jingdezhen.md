@@ -63,20 +63,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: geographical_context
+    primary: true
+    scope_note: "景德镇提供官监民烧至国营瓷厂的长时段产地与建制背景；本 Topic 只取官监民烧、浮梁瓷局、御器厂三段，近代瓷业公司与手工工场归 B.4／D.5，窑场工艺归 places/jingdezhen-kiln，得名三说与窑数四说保留不裁。"
 secondary_dimensions:
   - B
   - E
-hierarchy_scope_note: "景德镇是 D 维度下“官监民烧—御器厂—手工工场—近代瓷业公司—国营瓷厂”这条生产组织链条的完整样本，其瓷土与窑炉条件落在 B 维度，外销与外来钴料落在 E 维度。Theme/Topic 均未 materialize。"
+hierarchy_scope_note: "景德镇提供官监民烧至国营瓷厂的长时段产地与建制背景；本 Topic 只取官监民烧、浮梁瓷局、御器厂三段，近代瓷业公司与手工工场归 B.4／D.5，窑场工艺归 places/jingdezhen-kiln，得名三说与窑数四说保留不裁。"
 ---
 
 ## 描述
@@ -116,12 +124,10 @@ hierarchy_scope_note: "景德镇是 D 维度下“官监民烧—御器厂—手
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“生产组织形态演变”的长时段样本：官监民烧 → 浮梁瓷局 → 御器厂 → 手工工场 → 瓷业公司 → 国营瓷厂，六册在每一步上都有可引的原文。窑场与工艺本体归 `places/jingdezhen-kiln.md`，本 KU 只承担地名、建制、人口、产量与产业形态。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 景德镇提供官监民烧至国营瓷厂的长时段产地与建制背景；本 Topic 只取官监民烧、浮梁瓷局、御器厂三段，近代瓷业公司与手工工场归 B.4／D.5，窑场工艺归 places/jingdezhen-kiln，得名三说与窑数四说保留不裁。
 ## 相关知识元
 
 `places/jingdezhen-kiln.md` 是同地窑场的工艺条目，与本条互为表里（赵农“3. 景德镇”一节实际兼述二者）；`institutions/yuqichang.md` 为明代御器厂的建制条目，`institutions/fuliang-ciju.md` 为元代浮梁瓷局的建制条目；`places/ding-kiln.md` 的“粉定／南定”是景德镇仿定产品；`places/longquan-kiln.md` 同为宋元外销青瓷中心，二者在元代沉船货物中并列。`persons/` 下尚无唐英等督陶官条目，属研究债务。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

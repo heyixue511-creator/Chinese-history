@@ -1,4 +1,5 @@
 ---
+
 title: 铁器时代（Iron Age）
 name_en: Iron Age
 type: term
@@ -30,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "铁器时代是 B 维度下技术史分期的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: historical_context
+    primary: true
+    scope_note: "只作技术史分期与「世界最早赫梯约前 1400 年、中国最早《左传》铸刑鼎」的年代锚点；不做中国铁器起始的裁定。"
+hierarchy_scope_note: "铁器时代是 B 维度下技术史分期的条目。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -60,10 +69,10 @@ hierarchy_scope_note: "铁器时代是 B 维度下技术史分期的条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铁器时代是 B 维度下技术史分期的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 只作技术史分期与「世界最早赫梯约前 1400 年、中国最早《左传》铸刑鼎」的年代锚点；不做中国铁器起始的裁定。
 
 ## 相关知识元
 

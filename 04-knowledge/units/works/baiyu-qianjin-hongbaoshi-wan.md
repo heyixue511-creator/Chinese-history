@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b8-juxing-yuqi-yu-gongting-yongyu.md
+    role: representative_work
+    primary: true
+    scope_note: "白玉嵌金红宝石碗只取和田白玉、桃形耳、错金花草与 180 颗红宝石的装饰组合；错金与宝石镶嵌工艺未载，不展开。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度清代玉雕单器的条目，错金花草与红宝石镶嵌属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "白玉嵌金红宝石碗只取和田白玉、桃形耳、错金花草与 180 颗红宝石的装饰组合；错金与宝石镶嵌工艺未载，不展开。"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "本条是 B 维度清代玉雕单器的条目，错金花
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度清代玉雕单器的条目，错金花草与红宝石镶嵌属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-juxing-yuqi-yu-gongting-yongyu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 白玉嵌金红宝石碗只取和田白玉、桃形耳、错金花草与 180 颗红宝石的装饰组合；错金与宝石镶嵌工艺未载，不展开。
 
 ## 相关知识元
 

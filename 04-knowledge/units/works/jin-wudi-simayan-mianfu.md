@@ -20,17 +20,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度冠服制度的图版锚点，只有图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md
+    role: representative_work
+    primary: true
+    scope_note: "只取图版 5-14 图注一行作等级序列顶端的图像锚点；冕的形制、旒数、章纹与配色全缺，图版未核，不据图补写。"
+hierarchy_scope_note: "本条是 B 维度冠服制度的图版锚点，只有图注一行。已挂载 B.18.1（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -52,10 +59,10 @@ hierarchy_scope_note: "本条是 B 维度冠服制度的图版锚点，只有图
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度冠服制度的图版锚点，只有图注一行。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取图版 5-14 图注一行作等级序列顶端的图像锚点；冕的形制、旒数、章纹与配色全缺，图版未核，不据图补写。
 
 ## 相关知识元
 

@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取「功能相当于后世的箱、橱、柜」与「造型已可见箱柜类家具的原始形态」两句；以 boundary_case 挂载，形制、尺寸与出土实例全无，云纹铜禁归 B.9.2。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "铜禁是 B 维度下早期青铜家具的器类条目，其祭祀礼制用法另涉 A 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "铜禁是 B 维度下早期青铜家具的器类条目，其祭祀礼制用法另涉 A 维度。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -70,10 +78,10 @@ hierarchy_scope_note: "铜禁是 B 维度下早期青铜家具的器类条目，
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是器类条目，具体器物见 `works/yunwen-tongjin.md`；漆木家具见 `terms/qimu-jiaju.md`。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取「功能相当于后世的箱、橱、柜」与「造型已可见箱柜类家具的原始形态」两句；以 boundary_case 挂载，形制、尺寸与出土实例全无，云纹铜禁归 B.9.2。
 
 ## 相关知识元
 

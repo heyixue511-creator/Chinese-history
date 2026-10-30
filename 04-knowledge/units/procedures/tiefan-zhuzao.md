@@ -1,4 +1,5 @@
 ---
+
 title: 铁范铸造（Iron Mold Casting）
 name_en: Iron Mold Casting
 type: procedure
@@ -26,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "铁范铸造是 B 维度下战国金属范铸造工艺条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: procedure
+    primary: true
+    scope_note: "只取战国兴隆、磁县铁范的器类与金属范相对泥范的改进；配范关系与件数无载。"
+hierarchy_scope_note: "铁范铸造是 B 维度下战国金属范铸造工艺条目。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -58,10 +67,10 @@ hierarchy_scope_note: "铁范铸造是 B 维度下战国金属范铸造工艺条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铁范铸造是 B 维度下战国金属范铸造工艺条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取战国兴隆、磁县铁范的器类与金属范相对泥范的改进；配范关系与件数无载。
 
 ## 相关知识元
 

@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md
+    role: term_anchor
+    primary: true
+    scope_note: "玉石只取「美石」定义、硬玉／软玉与透闪石／阳起石的材料判断；史前玉器归 B.8 后续 Topic，审美评价归 C。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "玉石是 B 维度下史前玉器材料的条目，其质感与色泽的审美评价属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "玉石只取「美石」定义、硬玉／软玉与透闪石／阳起石的材料判断；史前玉器归 B.8 后续 Topic，审美评价归 C。"
 ---
 
 ## 描述
@@ -78,12 +86,11 @@ hierarchy_scope_note: "玉石是 B 维度下史前玉器材料的条目，其质
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下史前玉器材料的条目，向下关联玉钺、玉琮、玉璧等器类与红山、良渚玉器文化。Theme/Topic 尚未 materialize。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 玉石只取「美石」定义、硬玉／软玉与透闪石／阳起石的材料判断；史前玉器归 B.8 后续 Topic，审美评价归 C。
 
 ## 相关知识元
 

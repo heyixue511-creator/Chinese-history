@@ -62,13 +62,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-28
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -80,7 +80,11 @@ topic_memberships:
     role: historical_context
     primary: true
     scope_note: "良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。"
-hierarchy_scope_note: "良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。"
+  - topic: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md
+    role: historical_context
+    primary: false
+    scope_note: "B.8.4 次挂载：只取良渚玉器门类、反山数量与砣具判断；黑陶、石器与文化归属仍由 B.5.2 主挂载。"
+hierarchy_scope_note: "良渚文化在 B.5.2 主挂载分区框架、黑陶与龙山四类型／独立文化／设计区三说，在 B.8.4 次挂载玉器门类、反山数量与砣具判断；两处不合并。"
 ---
 
 ## 描述
@@ -145,9 +149,10 @@ hierarchy_scope_note: "良渚文化是 B.5.2 的分区框架，承担黑陶与�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - primary_theme: B.5（陶器工艺与陶系传统）
-- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）
+- topic_memberships: topics/b5-shiqian-taoxi-caitao-leixing.md（historical_context，primary）; topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md（historical_context，secondary）
 - role_in_theme: historical_context
-- scope_note: 良渚文化是 B.5.2 的分区框架，承担黑陶与玉器，以及龙山四类型／独立文化／设计区三说。
+- scope_note: 良渚文化在 B.5.2 主挂载分区框架、黑陶与龙山四类型／独立文化／设计区三说，在 B.8.4 次挂载玉器门类、反山数量与砣具判断；两处不合并。
+
 ## 相关知识元
 
 `terms/longshan-culture.md` 已记录良渚被列为龙山文化四类型之一所造成的同型冲突，本条与之互相印证；`terms/hemudu-culture.md` 是良渚建筑与木工传统的上游；`terms/dawenkou-culture.md` 与本条有花厅墓地的器物交换关系；`terms/hongshan-culture.md` 与本条并列为史前玉器两个地域传统；`terms/painted-pottery.md` 与本条"彩陶消亡"的判断相关。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b8-liqi-yu-qixing-ruiyu-liuqi-bi-cong-gui.md
+    role: term_anchor
+    primary: true
+    scope_note: "瑞玉六器只取《周礼·大宗伯》六器成套规范与五色四方对应；六器的祭祀等级含义归 D，良渚玉琮另见既有条目。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 瑞玉六器是 B 维度下《周礼》玉礼器成套规范的条目，其祭祀等级含义属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "瑞玉六器只取《周礼·大宗伯》六器成套规范与五色四方对应；六器的祭祀等级含义归 D，良渚玉琮另见既有条目。"
 ---
 
 ## 描述
@@ -65,12 +73,11 @@ hierarchy_scope_note: 瑞玉六器是 B 维度下《周礼》玉礼器成套规�
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
-- secondary_dimensions: D（商业制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 瑞玉六器是 B 维度下《周礼》玉礼器成套规范的条目，其祭祀等级含义属 D 维度。Theme/Topic 尚未 materialize。
+- primary_dimension: B（造物、工艺与生产技术）
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-liqi-yu-qixing-ruiyu-liuqi-bi-cong-gui.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 瑞玉六器只取《周礼·大宗伯》六器成套规范与五色四方对应；六器的祭祀等级含义归 D，良渚玉琮另见既有条目。
 
 ## 相关知识元
 

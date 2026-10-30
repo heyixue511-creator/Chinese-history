@@ -27,17 +27,29 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "权衡秤器是 B 维度下春秋称量器具的条目，属于杠杆原理在称重上的应用。Theme/Topic 尚未 materialize。"
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取长沙楚墓等臂秤具实物、《墨子》衡木本标权引文与术语解释；等臂与不等臂两套原理并存不裁，铢秤仅有名称。"
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: term_anchor
+    primary: false
+    scope_note: "次要挂载，主归属仍在 B.13.2：权衡秤器是全库唯一「实物—文本—术语」三层齐备的力学条目，长沙楚墓等臂秤具与《墨经》衡木、本、标、权引文在此承担「原理落到构件上」的唯一实例；因其目的在计量而主归计量线。"
+hierarchy_scope_note: "权衡秤器是 B 维度下春秋称量器具的条目，属于杠杆原理在称重上的应用。已挂载 B.13.2（货币与度量衡：交换媒介与计量标准）。另次挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -74,10 +86,10 @@ hierarchy_scope_note: "权衡秤器是 B 维度下春秋称量器具的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 权衡秤器是杠杆原理在称重上的器具化，向上关联杠杆与衡器概念，向下关联铢秤与后世杆秤。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md（term_anchor，primary）、topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（term_anchor，secondary）
+- role_in_theme: term_anchor
+- scope_note: 只取长沙楚墓等臂秤具实物、《墨子》衡木本标权引文与术语解释；等臂与不等臂两套原理并存不裁，铢秤仅有名称。
 
 ## 相关知识元
 

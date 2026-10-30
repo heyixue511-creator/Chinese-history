@@ -40,17 +40,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "汉镜是 B 维度下汉代铜镜的断代器物条目；铭文的吉祥语与楚辞风格、四神方位观念牵涉 C 维度。铸造、纹样与分期属 B。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「体薄、平边、圆钮」与三期演变、赵农「加大增厚」与半球钮柿蒂纹钮座、铭文镜、规矩四神镜、制镜人商标与透光镜；规矩镜单独立条。"
+hierarchy_scope_note: "汉镜是 B 维度下汉代铜镜的断代器物条目；铭文的吉祥语与楚辞风格、四神方位观念牵涉 C 维度。铸造、纹样与分期属 B。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -99,10 +107,10 @@ hierarchy_scope_note: "汉镜是 B 维度下汉代铜镜的断代器物条目；
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 `terms/tongjing.md` 的汉代分段，二者构成总类与断代的关系。与 `terms/wadang.md`（瓦当）、`terms/boshanlu.md`（博山炉）同属汉代器物条目，但汉镜独有铭文、商标与透光三项。可与汉代铭文、四神图像、商品化生产合成 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「体薄、平边、圆钮」与三期演变、赵农「加大增厚」与半球钮柿蒂纹钮座、铭文镜、规矩四神镜、制镜人商标与透光镜；规矩镜单独立条。
 
 ## 相关知识元
 

@@ -24,19 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes:
+  - C
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md
+    role: key_person
+    primary: true
+    scope_note: "只取湖北广济竹家具名手这一身份、「用小竹片拼成椅面，用竹枝牙拼成图案」的拼竹做法与端庄雅致的评价，以及蕲州产地沿革与韩愈诗、《群芳谱》两处引证；生卒、师承、作品目录、竹片规格与制作年代全无。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度竹家具艺人的人物条目，拼竹图案与造型比例属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度竹家具艺人的人物条目，拼竹图案与造型比例属 C 维度。已挂载 B.14.7（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: "本条是 B 维度竹家具艺人的人物条目，拼竹
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度竹家具艺人的人物条目，拼竹图案与造型比例属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取湖北广济竹家具名手这一身份、「用小竹片拼成椅面，用竹枝牙拼成图案」的拼竹做法与端庄雅致的评价，以及蕲州产地沿革与韩愈诗、《群芳谱》两处引证；生卒、师承、作品目录、竹片规格与制作年代全无。
 
 ## 相关知识元
 

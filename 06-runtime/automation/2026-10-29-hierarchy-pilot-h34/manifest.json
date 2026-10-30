@@ -1,0 +1,120 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h34",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 B.7「玻璃与料器：仿玉、输入与本土生产」及其 3 个 Topic，并挂载 10 个 KU（8 个主挂载、2 个次挂载）",
+  "scope": {
+    "baseline_hierarchy_version": "v1.24",
+    "baseline_themes": 21,
+    "baseline_topics": 63,
+    "baseline_topic_memberships": 477,
+    "baseline_complete_assignments": 473,
+    "baseline_incomplete_assignments": 2097,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6948,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 950,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1283
+  },
+  "result": {
+    "hierarchy_version": "v1.25",
+    "themes": 22,
+    "topics": 66,
+    "topic_memberships": 487,
+    "complete_assignments": 481,
+    "incomplete_assignments": 2089,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6966,
+    "relation_types": "3/67",
+    "member_of_relations": 968,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1280,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b7-boli-yu-liaoqi-fangyu-shuru-yu-bendi-shengchan.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md",
+      "04-knowledge/structure/topics/b7-shuru-yu-bentu-weijin-suitang-boliqi.md",
+      "04-knowledge/structure/topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md"
+    ],
+    "new_topic_nodes": 3,
+    "mounted_units": 8,
+    "secondary_mounted_units": 2,
+    "changed_units": 10,
+    "total_mounted_units": 481,
+    "new_topic_memberships": 10,
+    "secondary_memberships": 2,
+    "role_distribution": {
+      "term_anchor": 3,
+      "geographical_context": 2,
+      "boundary_case": 1,
+      "representative_work": 2,
+      "evidence_event": 1,
+      "procedure": 1
+    },
+    "type_distribution": {
+      "term": 4,
+      "place": 3,
+      "work": 2,
+      "procedure": 1
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。8 个新挂载 KU 的 primary_dimension 均为 B；琉璃的 secondary_dimensions 为 C、法门寺塔基地宫的 secondary_dimensions 为 E，但两者主维度不变，均按次挂载处理，不构成主维度改判。",
+    "taxonomy_split": "玻璃与料器（代用、输入、工业三种进入方式）→B.7；建筑琉璃与琉璃烧造→B.5.4；秘色瓷确认→B.6.1；玉器本体→尚未建立的玉石线；伊斯兰与萨珊玻璃的流通→E.2；造办处机构→D.6.6；近代玻璃工厂的资本与产业制度→D.1／B.4；延安玻璃厂→B.4.2；玻璃器纹样母题与造型风格→C；长城、桥梁等建筑构件→B.3／B.5.6；琉璃瓦的胎体与构件→B.5.6、釉面与烧成→B.5.4。",
+    "planned_topics_not_created": [
+      "玉石线 Theme（编号待定）：玉璧、玉具剑、玉印、玉衣等玉器本体，均未挂载，B.7 只取玻璃仿玉的代用关系",
+      "青铜器形序列 Topic（编号待定）：鼎、壶、豆、簋、斝、甗、鬲等青铜器形条目，承接自 h33 候选池，仍未物化",
+      "制陶生产组织 Topic（编号待定）：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "建筑琉璃与琉璃烧造 → B.5.4：琉璃的第二义（铅釉陶、琉璃瓦、琉璃塔）与 `procedures/liuli-shaozhao.md` 仍归 B.5.4，B.7 只取第一义（原始玻璃）",
+      "玉器本体（玉璧、玉具剑、玉印、玉衣） → 尚未建立的玉石线：B.7 只取玻璃仿玉的代用关系，不把玉器挂入",
+      "伊斯兰玻璃、萨珊玻璃的贸易路线、产地与跨文化流通 → E.2：B.7.2 只取「中国境内出土的输入品」这一面",
+      "造办处的机构沿革、编制、匠役与其他作坊 → D.6.6：B.7.3 只取玻璃厂作为玻璃生产组织的一环",
+      "近代玻璃工厂的资本、市场、产业制度与工人组织 → D.1／B.4：B.7.3 只取材料与成型工艺的转变",
+      "延安玻璃厂的解放区日用玻璃生产 → B.4.2：只在 B.7.3 的近代玻璃工业处交叉引用，不重复挂载",
+      "料器的纹样母题、配色与花球造型解释 → C：B.7.3 只把套红、搅料等作为工序",
+      "隋李静训墓玻璃器 → 只有一句「与当时瓷器造型相似的不少玻璃器皿」，无独立 KU，只作 B.7.2 旁证",
+      "山东莒县陶尊等图注单条 → 不挂载：无功能或工艺结构可指认，保留在图注待核队列"
+    ]
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "成分命名冲突不可裁：田自秉「铅钡玻璃」、李立新「钠钡玻璃」、高丰「铅钡玻璃」，三处均无检测数据、样本量与检测机构；「铅钡」「钠钡」是否指同一配方体系，六册未说明",
+    "玻璃的起源与最早制造：李立新记「最迟春秋末期已有制造」，引越王句践与吴王夫差剑格嵌玻璃块、河南固始侯古堆 1 号春秋墓玻璃珠；器物的具体年代、成分与制作地点全无",
+    "琉璃璧的尺寸只有「最大直径 16 厘米」一个上限，无最小直径、厚度、重量与穿孔数据；楚墓「100 多座中 80 多座」是单源比例，未给墓葬清单与统计口径",
+    "战国琉璃的窑址未发现；琉璃璧、剑饰、印章是铸造还是模压，来源只说「铸造成型法」，无工艺痕迹描述",
+    "两汉玻璃「6500 余件」是单源统计，未给件数构成（碗、带钩、璧、耳珰、珠各多少）、出土地点分布与收藏单位",
+    "玻璃衣片只见于李立新一句「模仿『金缕玉衣』的玻璃『玉衣』片」，无出土墓葬、件数与复原研究",
+    "本土制造与输入的分界无成分依据：北魏四批出土被用来证明本土制造，但来源未给成分对比；法门寺 20 件伊斯兰玻璃器如何与本土器区分，来源未说明",
+    "田自秉用法门寺「琉璃」、李立新用「玻璃」，两册指同一批器物而用词不同；本 Theme 照录，不统一",
+    "料器的铅含量、烧成温度、套料与磨花工序细节全无；「料器即玻璃器」与「料器是含铅量较高的玻璃」两种表述的边界未说明",
+    "博山玻璃的原料、炉窑结构、产品谱系、工匠姓名与产量数据全无；「百余家」是清代某一时点还是整个清代，来源未说明",
+    "宫廷玻璃厂的设立年份、隶属关系（是否属造办处）、工匠来源与产品清单未定；李立新只称「宫廷玻璃厂」，未说隶属",
+    "近代玻璃工厂只有城市名单，无厂名、设立年份、设备、产量与产品；1949 年后「北京、上海、大连、山东、四川北碚」的布局也只有名单",
+    "玻璃与瓷器、漆器、铜器的替代关系只有田自秉一句「铜器、漆器、瓷器大量生产」与「质地没有过关」，无产量、价格或使用场景的比较"
+  ],
+  "notes": "本批新建 B 维度第三条前近代 Theme B.7，下建 3 个 Topic 并挂载 10 个 KU（8 主挂载、2 次挂载）。B.7 的组织轴是「代用—输入—工业」三种进入方式，不是「中国玻璃发展史」：B.7.1 取战国至两汉仿玉玻璃器（琉璃第一义、长沙楚墓群、带钩），B.7.2 取魏晋至隋唐本土制造与输入（网纹玻璃杯、法门寺塔基地宫），B.7.3 取料器与玻璃工业（料器、套料、荷花纹套红料缸、山东博山、玻璃）。三条判断：其一，代用不只决定器形，也决定成型法（铸造成型由仿玉要求决定）；其二，本土制造与输入是并行关系，四批出土能证「境内能造」而证不到「本土吹制」；其三，三种生产组织互不衔接，不能排成「宫廷—作坊—工厂」演进线。三处不裁：铅钡／钠钡成分名、琉璃与玻璃在法门寺同批器物上的并用、「料器即玻璃器」与「含铅较高玻璃」的表述边界。琉璃与法门寺塔基地宫各以次挂载进入 B.7，原主挂载（B.5.4、B.6.1）不变；relation index 因此新增 18 条 member_of（10 条 topic 边 + 8 条 theme 边），次挂载不生成第二条 theme 边。本批不 commit、不 push。"
+}

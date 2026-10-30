@@ -53,17 +53,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "红山文化是 B 维度下北方燕山南北长城地带的新石器时代考古学文化条目；玉龙与祭祀遗迹同时牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: historical_context
+topic_memberships:
+  - topic: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md
+    role: historical_context
+    primary: true
+    scope_note: "只取红山玉器动物纹群、大玉龙与玉龙图版名称差异；祭坛与设计区定位不展开。"
+hierarchy_scope_note: "只取红山玉器动物纹群、大玉龙与玉龙图版名称差异；祭坛与设计区定位不展开。"
 ---
 
 ## 描述
@@ -92,10 +100,10 @@ hierarchy_scope_note: "红山文化是 B 维度下北方燕山南北长城地带
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 与仰韶文化、龙山文化、大汶口文化、良渚文化、马家窑文化同属新石器时代考古学文化序列，红山代表北方燕山南北长城地带一支，以玉龙、女神庙、祭坛和彩绘壁饰为识别特征。可支持未来的史前区域文化、玉器谱系与龙纹起源类 Topic。当前只到 Dimension。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-shiqian-yuqi-yu-yuliqi-qiyuan-liangzhu-hongshan-longshan.md（historical_context，primary）
+- role_in_theme: historical_context
+- scope_note: 只取红山玉器动物纹群、大玉龙与玉龙图版名称差异；祭坛与设计区定位不展开。
 
 ## 相关知识元
 

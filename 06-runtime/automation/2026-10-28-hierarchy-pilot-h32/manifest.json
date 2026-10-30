@@ -1,0 +1,121 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h32",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在既有 D.6「前近代官府手工业：职官、匠役与设计控制」下续建 D.6.5「地方工官与特种作坊：从秦工室到西夏局院」与 D.6.6「内廷御用制作：画院、果园厂与造办处」两个 Topic",
+  "scope": {
+    "baseline_hierarchy_version": "v1.22",
+    "baseline_themes": 21,
+    "baseline_topics": 60,
+    "baseline_topic_memberships": 460,
+    "baseline_complete_assignments": 456,
+    "baseline_incomplete_assignments": 2114,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6914,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 916,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1287
+  },
+  "result": {
+    "hierarchy_version": "v1.23",
+    "themes": 21,
+    "topics": 62,
+    "topic_memberships": 472,
+    "complete_assignments": 468,
+    "incomplete_assignments": 2102,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6938,
+    "relation_types": "3/67",
+    "member_of_relations": 940,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1283,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/d6-guanfu-shougongye-zhiguan-jiangyi-sheji-kongzhi.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/d6-difang-gongguan-tezhong-zuofang.md",
+      "04-knowledge/structure/topics/d6-neiting-yuyong-zhizuo-huayuan-guoyuanchang-zaobanchu.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 12,
+    "changed_units": 12,
+    "total_mounted_units": 468,
+    "new_topic_memberships": 12,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "key_institution": 11,
+      "evidence_event": 1
+    },
+    "type_distribution": {
+      "institution": 11,
+      "event": 1
+    },
+    "cross_dimension_mounts": "本批 11 个 institution 中 10 个 primary_dimension 为 D，武英殿修书处为 C（取生产组织侧作 C→D 跨维度挂载，沿用秦汉官营陶窑 B→D 先例）；1 个 event（宋代宫廷画院设立）为 D。D.6.6 的 primary_dimension 为 D，因此不进 `cross_dimension_topics` 统计；v1.21 已挂载的秦汉官营陶窑（primary_dimension=B）不在本批变更范围。",
+    "taxonomy_split": "地方工官、郡国工官、特种行业作坊（镔铁、刻书、西夏局院）→D.6.5；内廷御用制作（画院、果园厂、武英殿修书处、造办处）→D.6.6；中央工官、官窑窑政、官营织造、染练官署分别留在 D.6.1–D.6.4；镔铁成分与锻打、漆器工序分工、活字与雕版技术→B 维度与 `procedures/`；书籍装帧与印刷技术→C.2；西夏王陵、西夏活字印本与西夏文字→`works/` 与 `terms/`；石渠阁不挂载。",
+    "planned_topics_not_created": [
+      "B.5 史前功能陶器 Topic：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊（6 条候选）",
+      "玻璃材料 Theme：琉璃第一义、铅钡与钠钡玻璃、战国琉璃璧、长沙楚墓群、李立新玻璃器沉浮",
+      "D.6 民间织造与染业 Topic：机户、机房、包买主、江南染坊与踹布业；元代绣局、纹锦总院、涿州罗局等局院",
+      "图注单条待核队列（12 条）：五彩人物洗、珐琅彩竹菊鹌鹑瓶、铜官窑釉罐、追韩信图梅瓶、蒙恬将军玉壶春瓶、山东莒县陶尊、陶井、三彩罐、紫砂瓜形壶、紫砂「东陵瓜」、双鹿瓦当、始皇陵夔凤纹大瓦当"
+    ],
+    "deferred_by_boundary": [
+      "石渠阁 → 不挂载：汉代皇家藏书与档案机构，来源只有「珍藏秦王朝留下的大量地图和书籍」一句，无生产或设计活动记载，挂入会超出 Theme 边界",
+      "武英殿修书处 → 按生产组织侧作 C→D 跨维度挂载，其书籍装帧与活字技术归 C.2，不并入本 Theme",
+      "西夏文思院 → 与唐宋文思院（归 D.6.1）同名而异时、异政权，不合并、不排沿革",
+      "「造车院」与「出车（造车）院」 → 两种写法并录，不据一册改写另一册，不另立第八个机构",
+      "镔铁局的冶铸（夏燕靖）与装饰加工（赵农）两说 → 并存不裁，不据一说改写另一说",
+      "兴文署上级归属（集贤院／秘书监） → 两说并存不裁",
+      "蜀郡、成都、广汉三处工官 → 照录三处地名，不擅自合并为二；铜、漆两门是否同一批机构不裁",
+      "秦代工室与工官 → 合并立目，工室作背景，只取县工官作地方侧证据",
+      "宋代画院影响下游四机构 → 只引用「影响」一词，不虚构行文或验收关系；甲库不单独立目",
+      "内廷四机构 → 不假定同属一个「内廷造办系统」；来源从未并列，果园厂到造办处漆作只有一句工艺传承",
+      "画院设立事件 → 与 `institutions/song-dai-huayuan.md` 同出一源（李立新 2011），只承担设立与制度来源，不构成独立互证",
+      "「乾隆逐件指示式样尺寸」 → 只有一句概括，无一件器物的指示原文、尺寸单或验收记录，不补写"
+    ]
+  },
+  "changed_files": 20,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "地方工官的层级无法证成：秦条只有「县有工官」一句，汉条郡国工官与少府尚方令、考工令只并列不统属，元条只有「工部总管府下」与「属集贤院／秘书监」两说；无辖区、品秩与考核关系",
+    "秦简出处、工室员额与治所、「工师」身份与质量处罚标准全无",
+    "蜀郡、成都、广汉三处是三个官署还是两处（成都为蜀郡治所）；三处工官兼营铜、漆与否；「每年各用费五百万」的币值、年份、经费来源与用费口径全无",
+    "汉代漆器作坊官员的具体官名、员额、隶属与治所全无；作坊分布六省是「有作坊」还是「有设官」，来源未分；乐浪漆器铭文所记工官姓名与《汉书》所记工官是否对应，来源未说明",
+    "镔铁局两说无法调和：冶铸与装饰加工指向不同生产环节；「工部总管府」原文如此，与「集宁路总管府」是否同类机构未说明",
+    "兴文署上级两说并存；「设官三员」与「令一员、丞三员」的层级关系未说明；匠户十九与镌字匠四十名是编制还是实有人数未说明；编制年份只有至元十年一个锚点",
+    "西夏七机构的隶属、设官、员额、职掌分工、产品与规模全无；《天盛律令》条款编号未给；七机构是官署、作坊还是征收机构未说明",
+    "西夏文思院的隶属、员额、内部作坊分工、产品清单与原料来源全无；出土金银器中哪些确由文思院制作未说明；与唐宋文思院是否有制度借用关系未提",
+    "宋代画院的正式名称、设立年份、编制、画家名录、院址与作品目录全无；「格法」的具体内容（粉本、程式、考核标准）未说明；画院与文思院等四机构之间是否有正式行文或验收关系，来源只给「影响」一词",
+    "甲库的职掌、隶属与产品全无，本库不为它单独立目",
+    "果园厂的设置具体年份、厂址、隶属官署、工匠员额、产品数量与分配、存续时间全无；御用作、油漆作与果园厂的分工未说明；张德刚「管理工艺事务」与「掌理制漆技艺」的职权差别未说明",
+    "造办处成立年份（夏燕靖作康熙年间，高丰只作「清代」）、隶属内务府的具体层级、60 多个作坊的名目与分合、各作匠师人数与待遇全无；「养心殿造办处」与「内务府造办处」是否同一机构未说明",
+    "武英殿修书处的设立年份、内部机构、员额、刻工与印工数量、活字排印工序、纸张与装帧材料、书籍目录与流通范围全无；《武英殿聚珍版程式》的成书年份、内容结构与实际执行程度未说明；赵农「英武殿本」为原文用字",
+    "内廷控制的四种形态之间是否存在替代或叠加，六册无一处记载两层同时在场；「规范—技艺—程式—指示」四层是本库分析框架，不是来源分类",
+    "内廷与地方制作的产品去向与成本全无：造办处六十余作坊的年产量、经费、工匠口粮与产品分配，果园厂「厂制」器物流向，殿本颁行范围，岁费五百万所出器物的归属，六册均未记载",
+    "「地方工官」与「内廷造办」两组之间无任何来源并列；本库不写「官府手工业体系」，只并列保留六条线",
+    "存量债务：未挂载 2102、单源 1919、tentative 2570、低置信 496、隔离 1283（v1.23 health）"
+  ],
+  "notes": "本批不新建 Theme，在 v1.22 所建 D.6 下续建 2 个 Topic 并挂载 12 个 KU（institution 11、event 1）。D.6.5 的核心判断是「名目—经费—编制」三层即三种证据形态：西夏七机构、汉代八郡、秦代县工官三组只有名单，「岁费五百万」是唯一可量化的地方经费但口径全无，兴文署的完整编制是六册唯一一份，故「专」只能判为名称层面的分类。D.6.6 的核心判断是「规范—技艺—程式—指示」四种控制形态，控制强度与作坊规模不成正比，成文「程式」只出现在印刷。两批合起来上提一条跨 Topic 判断：官府手工业的证据密度按「产品可否分解计数」分布，印刷因有可分解工序与可计数字数而同时留下唯一完整编制与唯一成文程式。D.6 的六 Topic 骨架至此暂告完整。本批不 commit、不 push；commit 与 push 须用户当次明确授权。"
+}

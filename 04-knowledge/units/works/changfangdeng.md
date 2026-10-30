@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取黄花梨、长方形束腰、腿端向内兜转与「线型富有弹性」的评价；来源为图注，尺寸、出土地点、年代与图版均无，不作实物描述。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度明代家具的单器条目，束腰与腿端线型属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度明代家具的单器条目，束腰与腿端线型属 C 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "本条是 B 维度明代家具的单器条目，束腰与
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代家具的单器条目，束腰与腿端线型属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取黄花梨、长方形束腰、腿端向内兜转与「线型富有弹性」的评价；来源为图注，尺寸、出土地点、年代与图版均无，不作实物描述。
 
 ## 相关知识元
 

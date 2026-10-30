@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取西汉竹节高柄炉的器形、五节竹节柄、蟠龙座与盖口字铭；鎏金工序归 B.9.4，铭文「四年」「五年」不代为系年。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "鎏金银竹节高柄铜薰炉是 B 维度下西汉鎏金银铜器的器物条目；竹节、蟠龙与山峦盖的图像面向兼涉 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "鎏金银竹节高柄铜薰炉是 B 维度下西汉鎏金银铜器的器物条目；竹节、蟠龙与山峦盖的图像面向兼涉 C 维度。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "鎏金银竹节高柄铜薰炉是 B 维度下西汉鎏金
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 鎏金银竹节高柄铜薰炉是 B 维度下西汉鎏金银铜器的器物条目；竹节、蟠龙与山峦盖的图像面向兼涉 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取西汉竹节高柄炉的器形、五节竹节柄、蟠龙座与盖口字铭；鎏金工序归 B.9.4，铭文「四年」「五年」不代为系年。
 ## 相关知识元
 
 `terms/boshanlu.md` 记博山炉器类与茂陵竹节熏炉的高丰数据；`works/cuojin-boshanlu.md` 记满城错金博山炉；`places/mancheng-hanmu.md` 记满城汉墓。relation 未审查。

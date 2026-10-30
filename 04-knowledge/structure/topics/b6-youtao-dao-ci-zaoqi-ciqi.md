@@ -62,7 +62,7 @@ tags:
 | [屯溪西周墓](../../units/places/tunxi-xizhou-tomb.md) | place | `evidence_event` | 出土原始瓷器 70 余件、瓷豆最多；西周原始瓷发展水平的主要墓葬材料 |
 | [金坛鳖墩西周墓](../../units/places/biandun-xizhou-tomb.md) | place | `evidence_event` | 1975 年出土 29 件原始瓷；内外满釉、釉呈青黄；与屯溪并列为周代原始瓷出土地 |
 | [绍兴富盛战国窑址](../../units/places/shaoxing-fusheng-yaozhi.md) | place | `evidence_event` | 六册唯一“五窑叠压”的战国窑址；原始青瓷与几何印纹硬釉陶同烧、火度 1200℃ 以上；托珠叠烧与辘轳拉坯痕迹 |
-| [法门寺塔基地宫](../../units/places/famen-si-digong.md) | place | `evidence_event` | 1987 年出土秘色瓷实物，解开“秘色越器”之谜；本 Topic 只取秘色瓷确认一环 |
+| [法门寺塔基地宫](../../units/places/famen-si-digong.md) | place | `evidence_event` | 1987 年出土秘色瓷实物，解开“秘色越器”之谜；本 Topic 只取秘色瓷确认一环，伊斯兰玻璃器一环另由 B.7.2 次挂载 |
 | [青釉瓷尊](../../units/works/qingyou-ci-zun.md) | work | `representative_work` | 郑州铭功路商墓出土；釉质青黄而细润；“釉陶又称原始瓷器”的器物例证 |
 | [东汉青瓷高足碗](../../units/works/donghan-qingci-gaozu-wan.md) | work | `representative_work` | 上虞小仙坛东汉晚期窑址的成熟瓷判据：胎釉结合牢固、釉下已无残留石英 |
 | [青瓷谷仓罐](../../units/works/qing-ci-gu-cang-guan.md) | work | `representative_work` | 三国两晋随葬青瓷；人物飞禽口沿、动物浮雕、两罐粘接；孙吴永安三年纪年罐 |

@@ -1,0 +1,165 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h47",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "在 Theme B.9 下新建并物化 B.9.7「冶铁、炼钢与叠铸：从生铁到灌钢」，把前六册中冶铁、炼钢、铁器成形与供风设备的 14 个 KU 主挂载进该 Topic，兑现 B.9.6 两条边界器物 `scope_note` 写下的「块炼法与冶铁起源归后续铁器 Topic」「铁料与锻制工序归后续铁器 Topic」承诺。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.37",
+    "baseline_themes": 26,
+    "baseline_topics": 84,
+    "baseline_topic_memberships": 708,
+    "baseline_complete_assignments": 698,
+    "baseline_incomplete_assignments": 1872,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7404,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1406,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1156,
+    "baseline_b_dimension_unmounted": 1157
+  },
+  "result": {
+    "hierarchy_version": "v1.38",
+    "themes": 26,
+    "topics": 85,
+    "topic_memberships": 722,
+    "complete_assignments": 712,
+    "incomplete_assignments": 1858,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7432,
+    "relation_types": "3/67",
+    "member_of_relations": 1434,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1149,
+    "b_dimension_unmounted": 1143,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 0,
+    "new_theme_nodes": 0,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 14,
+    "secondary_mounts": 0,
+    "changed_units": 14,
+    "total_mounted_units": 712,
+    "new_topic_memberships": 14,
+    "theme_organization": "B.9 维持「器形—工艺—器物门类—表面装饰—金银与珐琅—兵器与甲胄」六线，本批补第七线 B.9.7：前六线都停在单点器类、工序名或遗址名，B.9.7 第一次把「铁从矿石到钢的成分调整」与「供风、成形两条前置条件」分开排列，并显式拒绝把它们排成一条演化线。",
+    "topic_split": "B.9.7 按四层组织十四条：成分调整（冶铁术的出现、生铁冶铸、生铁柔化、炼钢、炒钢、百炼钢、灌钢）、供风（排橐鼓风、水力鼓风）、成形（叠铸技术、铁范铸造）、名实（铁器时代、铁氏三兄弟、美金与恶金）。四层不是四个阶段：供风与成形不涉及铁的成分，名实两条一为春秋语词化石、一为 2016 册的现代含碳量分类，不得互相解释。",
+    "role_distribution": {
+      "procedure": 11,
+      "term_anchor": 2,
+      "historical_context": 1
+    },
+    "type_distribution": {
+      "procedure": 11,
+      "term": 3
+    },
+    "theme_cumulative": {
+      "topics": 7,
+      "mounted_units": 105,
+      "type_distribution": {
+        "procedure": 27,
+        "term": 42,
+        "work": 36
+      },
+      "role_distribution": {
+        "procedure": 26,
+        "term_anchor": 40,
+        "representative_work": 32,
+        "boundary_case": 6,
+        "historical_context": 1
+      },
+      "source_distribution": {
+        "2004-gaofeng": 13,
+        "2009-xiayanjing": 32,
+        "2009-zhaonong": 35,
+        "2010-tianzibing": 43,
+        "2011-lilixin": 13,
+        "2016-xiayanjing": 46
+      },
+      "source_overlap_distribution": {
+        "single_book": 69,
+        "two_books": 17,
+        "three_books": 8,
+        "four_books": 4,
+        "five_books": 3,
+        "six_books": 4
+      },
+      "confidence_distribution": {
+        "medium": 98,
+        "low": 7
+      }
+    },
+    "source_distribution": {
+      "2009-xiayanjing": 7,
+      "2016-xiayanjing": 8,
+      "2009-zhaonong": 3
+    },
+    "source_overlap_distribution": {
+      "single_book": 10,
+      "two_books": 4
+    },
+    "confidence_distribution": {
+      "medium": 13,
+      "low": 1
+    },
+    "consensus_distribution": {
+      "tentative": 14
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：14 条 primary_dimension 全部为 B；B.9.7 的 secondary_themes 为裸维度码 D、A，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "procedures/jintong-fa（浸铜法／湿法炼铜）→ 有色金属的化学提取，与铁技术不同线，不入本 Topic",
+      "procedures/tiehua-zhizuo（铁画）→ 清代芜湖铁画的装饰工艺，材料为低碳钢但对象是书画仿制，不入冶金技术 Topic",
+      "农具类（犁壁、犁刀、曲辕犁、耦犁、踏犁、铁搭、V 形铁铧冠、铁制农具等）→ 待建农具 Topic；农具在六册中与冶铁分开叙述",
+      "货币类（元代纸币、金代交钞、人民币、大清银币）→ 待建货币线",
+      "兵器（戈、矛、剑、戟、弩）与甲胄 → 已由 B.9.6 承接",
+      "铁桥、铁路与近代钢铁工业 → 已在 B.1 与 B.3",
+      "works/iron-blade-bronze-yue 与 works/jade-handle-iron-sword → 已在 B.9.6 以 boundary_case 主挂载，只作年代锚点引用，不重复挂载"
+    ],
+    "handoff_note": "本批是 B.9.6 留下的显式承诺的落点：B.9.6 两条边界器物的 scope_note 分别写作「只作陨铁锻刃嵌青铜身的材料边界…陨铁与人工冶铁之别、块炼法与冶铁起源归后续铁器 Topic」与「只作人工冶铁上限的器物边界…铁料与锻制工序归后续铁器 Topic」。器物归 B.9.6、材料与工序归 B.9.7 的这一分工自此闭合，两处 scope_note 不再指向未建 Topic。"
+  },
+  "changed_files": 28,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/knowledge-graph-data.json"
+  ],
+  "unresolved": [
+    "14 条中 13 条 medium、1 条 low（灌钢法），consensus 全部 tentative，无一条 high。",
+    "冶铁术出现时间两说并列：商代已有铁器说（据《尚书》《诗经》《左传》推断西周开始使用）与春秋战国之交发明说；来源采后说，本 Topic 不裁。",
+    "人工冶铁的上限只有一件器物支撑（三门峡虢国玉柄铁剑，西周晚期）；正文作「玉柄」而知识链接作「铜柄」，两说并列；其器物面归 B.9.6。",
+    "生铁柔化的技术细节全无：柔化温度、时间、脱碳层厚度与白心／黑心的判定标准均无载；易县农具在两版中作「铁鏤」与「铁鐏」两种用字。",
+    "炼钢的两柄钢剑只给含碳量与长度（长沙杨家山 0.5%～0.6%、易县钢剑长 104 厘米），锻打次数、渗碳方式与炉型无载。",
+    "炒钢只有工序描述：加热温度、加入矿石的比例、搅拌工具、炉型与产量全无；来源称其提高「百炼钢制器的速度和质量」，但未给比较数据。",
+    "百炼钢的「百炼」是概数还是实数无载；锻打次数、每次加热温度与成品含碳量均无。",
+    "灌钢法只有一句推广记载（confidence 为 low）：原料配比、生铁与熟铁的合炼方式、操作步骤、产品性能与产地全无。",
+    "排橐的尺寸、皮囊数量、竹管口径、推动方式与「300 人」的炉型规模无载；鼓风量、炉温与产量无量化数据。",
+    "水力鼓风段先说「铁制鼓风炉」后说「水力鼓风炉」，两个名称是同一设备的不同称法还是两种设备，来源未说明；传动结构、水头与流量亦无载。",
+    "叠铸泥范的单片尺寸、叠合层数、套接定位方式、涂料与焙烧温度、浇口与流道布置无载；「双孔浇铸」与「单孔浇铸」的孔位、孔径与金属液流向差异未说明。",
+    "铁范的材质（白口铁或灰口铁）、范腔加工方式、铁范与泥范的寿命比较无载；兴隆、磁县铁范的具体件数与配对关系未记。",
+    "铁器时代的世界部分（赫梯人约前 1400 年）与中国部分（春秋《左传》铸刑鼎）之间没有过渡叙述；中国铁器起始的考古证据与文献证据未在同一段对读。",
+    "六册未把「块炼法—生铁冶铸—柔化—炼钢—炒钢—百炼钢—灌钢」排成一条线：夏燕靖两版在战国钢剑处结束，赵农从秦汉百炼钢接起，两端无一处连写；本 Topic 的路线表述是依据各条 KU 时代标签重建的，重建本身不是来源的判断。",
+    "来源覆盖不均：夏燕靖 2016 覆盖 8 条、夏燕靖 2009 覆盖 7 条、赵农 2009 覆盖 3 条；单册 10 条、两册 4 条；田自秉 2010、高丰 2004 与李立新 2011 对本 Topic 十四条均无关联条目。",
+    "存量结构缺口：货币 Topic、农具 Topic、前近代服饰与甲胄等级 Theme、家具与木作 Theme 未物化；B.9 内货币与农具两条仍无落点。",
+    "重复候选 reconcile 9 组未处理（详见 summary 第九节）；图注单条待核 12 条与图 7-29 两指问题仍挂账；未核图版 5-32 未处理。",
+    "A 维度遗留：A.1.2 命名逐条对照、1917 年许衍灼《中国工艺史沿革史》未挂载。",
+    "存量债务：未挂载 1858、隔离 1149、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 缺口仍在 hierarchy_assignment（2/10）。"
+  ],
+  "notes": "推导口径：relation 增量 28 = 14 条主挂载 ×（topic member_of + theme member_of），关系总数 7404 → 7432，explicit 5998 不变、member_of 1406 → 1434。隔离单元 1156 → 1149，减 7 而非 14，因为实测 14 条中有 7 条原已有显式关系。B 维度未挂载自算 1157 → 1143，减 14；B 维度 KU 现存 1629 条不变。membership 708 → 722（+14），complete 698 → 712（+14），incomplete 1872 → 1858（−14），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.9 七 Topic 合计 105 个 KU（procedure 27、term 42、work 36；procedure 26、term_anchor 40、representative_work 32、boundary_case 6、historical_context 1），单册 69／两册 17／三册 8／四册 4／五册 3／六册 4，medium 98／low 7；来源分布为夏燕靖 2016 46、田自秉 43、赵农 35、夏燕靖 2009 32、李立新 13、高丰 13。changed_files 28 = 本批 apply-plan 20 行（1 个结构节点新建 + 14 条主挂载 + 1 个 Theme 节点更新 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.37.md（70630 字节），按 h44–h46 口径不计入 changed_files。口径差异说明：本批起把被改写的 Theme 节点登记为 structure_node_update 一行（h45、h46 改写了 B.11 节点但未登记），未回改历史批次的 apply-plan。生成态陷阱复现：relation 数变化后首次 audit_rule_drift 报 runtime_index_snapshot_stale 与 output_navigation_snapshot_stale 两项，全量闭包刷新后归 0；run_sync_closure.py --check-generated 第 17 步以 exit=1 报生成态与 HEAD 不一致，属未 commit 的预期。hierarchy_stress_test 报 v1.38、themes 26、topics 85、membership 722、complete 712、incomplete 1858、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 57/65、content_findings 0；全量闭包 250 tests + 16 subtests 通过。工作区累计 427 项改动属 h13–h47 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

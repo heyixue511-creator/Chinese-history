@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 磬是 B 维度下先秦打击乐器的条目，来源只有孔子故事、图注与曾侯乙墓乐器清单，未给形制。Theme/Topic 尚未 materialize。
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取孔子击磬于卫的故事、图 3-45 图注与曾侯乙墓 124 件乐器清单三项；磬的形制无载，图版未核，不据图注补器形。"
+hierarchy_scope_note: "磬是 B 维度下先秦打击乐器的条目，来源只有孔子故事、图注与曾侯乙墓乐器清单，未给形制。已挂载 B.10.2（钟磬与青铜乐器：编钟、编磬、镈与铜鼓）。"
 ---
 
 ## 描述
@@ -68,10 +76,10 @@ hierarchy_scope_note: 磬是 B 维度下先秦打击乐器的条目，来源只�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 磬是 B 维度下先秦打击乐器的条目，向上关联乐器与礼乐，向下关联石编磬与曾侯乙墓乐器组合；来源材料单薄，只有故事、图注与清单三类。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取孔子击磬于卫的故事、图 3-45 图注与曾侯乙墓 124 件乐器清单三项；磬的形制无载，图版未核，不据图注补器形。
 
 ## 相关知识元
 

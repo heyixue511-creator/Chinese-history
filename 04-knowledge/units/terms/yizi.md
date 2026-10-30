@@ -23,18 +23,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取「隋唐家具最重要现象」、改变生活习惯、自西域随佛教传入（先为高僧宝座后入民间）、本意为倚与提升身体重心四层；尺寸、木材、榫卯、制作地点与实物全无，壁画未核。"
 secondary_dimensions:
-hierarchy_scope_note: 椅子是 B 维度隋唐高足坐具形制的条目；来源所述坐姿与生活习惯变化属器物使用层面，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: 椅子是 B 维度隋唐高足坐具形制的条目；来源所述坐姿与生活习惯变化属器物使用层面，不涉及设计史书写或史学方法，故不指派 A 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: 椅子是 B 维度隋唐高足坐具形制的条目；来�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 椅子是 B 维度隋唐高足坐具形制的条目；来源所述坐姿与生活习惯变化属器物使用层面，不涉及设计史书写或史学方法，故不指派 A 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取「隋唐家具最重要现象」、改变生活习惯、自西域随佛教传入（先为高僧宝座后入民间）、本意为倚与提升身体重心四层；尺寸、木材、榫卯、制作地点与实物全无，壁画未核。
 
 ## 相关知识元
 

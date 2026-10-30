@@ -21,17 +21,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度汉代服饰的器物锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取图版 4-17 图注与《后汉书》「皆深衣制」的互证；证据是墓主帛画形象而非成衣，件数、衣长与面料全缺。"
+hierarchy_scope_note: "本条是 B 维度汉代服饰的器物锚点。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -54,10 +61,10 @@ hierarchy_scope_note: "本条是 B 维度汉代服饰的器物锚点。Theme/Top
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度汉代服饰的器物锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取图版 4-17 图注与《后汉书》「皆深衣制」的互证；证据是墓主帛画形象而非成衣，件数、衣长与面料全缺。
 
 ## 相关知识元
 

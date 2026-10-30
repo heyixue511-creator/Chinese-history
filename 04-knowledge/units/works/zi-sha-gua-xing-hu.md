@@ -23,18 +23,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: representative_work
+    primary: true
+    scope_note: "紫砂瓜形壶是 B.5.5 明代端的器物锚点，材料只有李立新图 4-6 图注「紫砂瓜形壶（明代）」加「方非一式，圆不一样」的论述语境；制作者、尺寸、藏地与递藏未载，图版未核——与东陵瓜并置，构成明、清两代各一件图注级器物锚点，二者都不构成器形证据"
 secondary_dimensions:
-hierarchy_scope_note: "本条是 B 维度明代宜兴紫砂器的器物锚点。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "紫砂瓜形壶是 B.5.5 明代端的器物锚点，材料只有李立新图 4-6 图注「紫砂瓜形壶（明代）」加「方非一式，圆不一样」的论述语境；制作者、尺寸、藏地与递藏未载，图版未核——与东陵瓜并置，构成明、清两代各一件图注级器物锚点，二者都不构成器形证据"
 ---
 
 ## 描述
@@ -52,11 +60,10 @@ hierarchy_scope_note: "本条是 B 维度明代宜兴紫砂器的器物锚点。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代宜兴紫砂器的器物锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 紫砂瓜形壶是 B.5.5 明代端的器物锚点，材料只有李立新图 4-6 图注「紫砂瓜形壶（明代）」加「方非一式，圆不一样」的论述语境；制作者、尺寸、藏地与递藏未载，图版未核——与东陵瓜并置，构成明、清两代各一件图注级器物锚点，二者都不构成器形证据
 
 ## 相关知识元
 

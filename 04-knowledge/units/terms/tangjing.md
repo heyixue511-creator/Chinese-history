@@ -28,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下唐代铜镜的断代条目，其纹样与外来工艺因素牵涉 C、E 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取扬州贡镜、七种装饰加工、70:25:5 合金比例与镜面微凸、沈括「鉴大则平，鉴小则凸」；具体唐镜器物归 works。"
+hierarchy_scope_note: "本 KU 是 B 维度下唐代铜镜的断代条目，其纹样与外来工艺因素牵涉 C、E 维度。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下唐代铜镜的断代条目，其纹
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下唐代铜镜的断代条目，其纹样与外来工艺因素牵涉 C、E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取扬州贡镜、七种装饰加工、70:25:5 合金比例与镜面微凸、沈括「鉴大则平，鉴小则凸」；具体唐镜器物归 works。
 
 ## 相关知识元
 

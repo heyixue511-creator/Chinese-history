@@ -1,4 +1,5 @@
 ---
+
 title: 张成云纹剔犀漆盒（Zhang Cheng Cloud-Pattern Tixi Lacquer Box）
 name_en: Zhang Cheng Cloud-Pattern Tixi Lacquer Box
 type: work
@@ -24,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只取云纹三组与刀口深 1 厘米；与 80 层分属两器，不合并推为张成通例。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度元代剔犀漆器的器物锚点，其云纹雕刻属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度元代剔犀漆器的器物锚点，其云纹雕刻属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -55,10 +64,10 @@ hierarchy_scope_note: "本条是 B 维度元代剔犀漆器的器物锚点，其
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代剔犀漆器的器物锚点，其云纹雕刻属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取云纹三组与刀口深 1 厘米；与 80 层分属两器，不合并推为张成通例。
 
 ## 相关知识元
 

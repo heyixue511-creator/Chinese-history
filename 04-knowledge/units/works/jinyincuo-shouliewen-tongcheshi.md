@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取 1965 年定县汉墓金银错狩猎纹铜车饰的竹管轮节四段、金银错与圆形菱形绿松石镶嵌、26.5×3.6 厘米；四段狩猎图像归 C。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "金银错狩猎纹铜车饰是 B 维度下西汉金银错车器的器物条目；四段狩猎图像与动物组合的视觉设计归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "金银错狩猎纹铜车饰是 B 维度下西汉金银错车器的器物条目；四段狩猎图像与动物组合的视觉设计归 C 维度。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -62,11 +70,10 @@ hierarchy_scope_note: "金银错狩猎纹铜车饰是 B 维度下西汉金银错
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 金银错狩猎纹铜车饰是 B 维度下西汉金银错车器的器物条目；四段狩猎图像与动物组合的视觉设计归 C 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取 1965 年定县汉墓金银错狩猎纹铜车饰的竹管轮节四段、金银错与圆形菱形绿松石镶嵌、26.5×3.6 厘米；四段狩猎图像归 C。
 ## 相关知识元
 
 `terms/jinxi-gongyi.md` 记金银错工艺；`procedures/cuo-jin-yin-cuo-tong.md` 记铜器错金银做法；`terms/tongche.md` 记铜车；`places/han-chang-an.md` 记汉长安。relation 未审查。

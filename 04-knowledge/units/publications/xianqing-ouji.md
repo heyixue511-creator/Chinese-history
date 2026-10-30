@@ -34,17 +34,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下清代居室与器玩文献的锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b14-jiaju-wenxian-yu-sheji-sixiang-yanji-tu-lubanjing.md
+    role: source_publication
+    primary: true
+    scope_note: "只取 1671 年成书、六卷卷目、居室部与器玩部的论述范围、功能实用第一与「宜简不宜繁，宜自然不宜雕斫」的判准及自创暖椅凉机；书名「寄／记」异写照录，暖椅凉机形制全无。"
+hierarchy_scope_note: "本 KU 是 B 维度下清代居室与器玩文献的锚点。已挂载 B.14.6（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -68,10 +76,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下清代居室与器玩文献的锚�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下清代居室与器玩文献的锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-jiaju-wenxian-yu-sheji-sixiang-yanji-tu-lubanjing.md（source_publication，primary）
+- role_in_theme: source_publication
+- scope_note: 只取 1671 年成书、六卷卷目、居室部与器玩部的论述范围、功能实用第一与「宜简不宜繁，宜自然不宜雕斫」的判准及自创暖椅凉机；书名「寄／记」异写照录，暖椅凉机形制全无。
 
 ## 相关知识元
 

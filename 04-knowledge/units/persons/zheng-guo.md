@@ -31,17 +31,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 郑国是 B 维度下战国秦国郑国渠工程的主持者，其入秦本为韩国疲秦之计，工程结果属水利设计史。Theme/Topic 尚未 materialize。
+primary_theme: B.15
+secondary_themes:
+  - D
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md
+    role: key_person
+    primary: true
+    scope_note: "只取战国韩国水利专家以间谍身份入秦建议穿渠、事泄后「为韩延数岁之命，而为秦建万世之功」自辩、秦王仍任其主持完工与「间谍身份的工匠」这一定性；生卒、籍贯、在秦官职与工程细节全无。"
+hierarchy_scope_note: 郑国是 B 维度下战国秦国郑国渠工程的主持者，其入秦本为韩国疲秦之计，工程结果属水利设计史。已挂载 B.15.1（水利工程：灌溉、航运与治水经验）。
 ---
 
 ## 描述
@@ -65,10 +74,10 @@ hierarchy_scope_note: 郑国是 B 维度下战国秦国郑国渠工程的主持�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 郑国是 B 维度下战国秦国郑国渠工程的主持者，其入秦本为韩国疲秦之计，工程结果属水利设计史。Theme/Topic 尚未 materialize。
+- primary_theme: B.15（水利工程：灌溉、航运与治水经验）
+- topic_memberships: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取战国韩国水利专家以间谍身份入秦建议穿渠、事泄后「为韩延数岁之命，而为秦建万世之功」自辩、秦王仍任其主持完工与「间谍身份的工匠」这一定性；生卒、籍贯、在秦官职与工程细节全无。
 
 ## 相关知识元
 

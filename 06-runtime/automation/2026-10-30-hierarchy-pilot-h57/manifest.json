@@ -1,0 +1,162 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h57",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "在 Theme B.18「前近代服饰与冠服等级」下建立 Topic B.18.4「裙制：裙、襦裙、裥裙、石榴裙、羊肠裙与两条唐裙」，把六册中七条下身裙制条目（裙、襦裙、裥裙、石榴裙、羊肠裙、安乐公主羽裙、晕絰提花锦裙）全部主挂载，回答「裙制在六册里是一条「形」的谱系，还是一条「色与料」的谱系」，并闭合 h56 边界与未解决问题中登记的「裙制七条待建」债务。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.47",
+    "baseline_themes": 33,
+    "baseline_topics": 104,
+    "baseline_topic_memberships": 865,
+    "baseline_complete_assignments": 851,
+    "baseline_incomplete_assignments": 1719,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7714,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1716,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1071,
+    "baseline_b_dimension_unmounted": 1004
+  },
+  "result": {
+    "hierarchy_version": "v1.48",
+    "themes": 33,
+    "topics": 105,
+    "topic_memberships": 872,
+    "complete_assignments": 858,
+    "incomplete_assignments": 1712,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7728,
+    "relation_types": "3/67",
+    "member_of_relations": 1730,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1066,
+    "b_dimension_unmounted": 997,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 0,
+    "theme_updated": 1,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 7,
+    "secondary_mounts": 0,
+    "changed_units": 7,
+    "total_mounted_units": 858,
+    "new_topic_memberships": 7,
+    "theme_organization": "B.18.4 是 B.18 的第四个 Topic，与 B.18.1（等级符号）、B.18.2（衣制与成衣实测）、B.18.3（上身短衣与袍衫）并列，取的是下身裙制一侧：七条中五条为 term（裙、襦裙、裥裙、石榴裙、羊肠裙）、两条为 work（安乐公主羽裙、晕絰提花锦裙），恰好覆盖「术语陈述」与「实物／文献样本」两种证据形态。四刀同轴：B.18.1 问等级如何被写成可数符号，B.18.2 问衣—裳如何被写成形制名与裁法，B.18.3 问上身短衣如何被写成一组各自命名的名目，B.18.4 问下身裙制如何被写成「形」与「色料」两条互不接合的谱系。",
+    "topic_split": "B.18.4 七条（裙、襦裙、裥裙、石榴裙、羊肠裙、安乐公主羽裙、晕絰提花锦裙），全部为 B.18.4 主挂载，无次挂载，无跨 Topic 双挂。B.18 累计 4 个 Topic、30 条主挂载：B.18.1 六条、B.18.2 九条、B.18.3 八条、B.18.4 七条。",
+    "role_distribution": {
+      "term_anchor": 5,
+      "representative_work": 2
+    },
+    "type_distribution": {
+      "term": 5,
+      "work": 2
+    },
+    "source_distribution": {
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 3,
+      "2009-xiayanjing-zhongguo-shejishi": 3,
+      "2010-tianzibing-zhongguo-gongyi-meishushi": 2,
+      "2009-zhaonong-zhongguo-yishu-shejishi": 1
+    },
+    "source_overlap_distribution": {
+      "single_book": 5,
+      "two_books": 2
+    },
+    "confidence_distribution": {
+      "medium": 6,
+      "low": 1
+    },
+    "consensus_distribution": {
+      "tentative": 7
+    },
+    "primary_vs_secondary": {
+      "primary": 7,
+      "secondary": 0
+    },
+    "theme_cumulative": {
+      "topics": 4,
+      "mounted_units": 30,
+      "type_distribution": {
+        "term": 23,
+        "work": 7
+      },
+      "role_distribution": {
+        "term_anchor": 23,
+        "representative_work": 7
+      },
+      "source_distribution": {
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 13,
+        "2009-zhaonong-zhongguo-yishu-shejishi": 11,
+        "2009-xiayanjing-zhongguo-shejishi": 9,
+        "2010-tianzibing-zhongguo-gongyi-meishushi": 5,
+        "2004-gaofeng-zhongguo-shejishi": 2,
+        "2011-lilixin-zhongguo-sheji-yishu-shilun": 2
+      },
+      "books_covered": 6,
+      "source_count": 6,
+      "confidence_distribution": {
+        "medium": 24,
+        "low": 6
+      },
+      "coverage_note": "六册全覆盖维持。裙制七条只覆盖四册（夏燕靖 2016 三、夏燕靖 2009 三、田自秉 2010 二、赵农 2009 一），高丰 2004 与李立新 2011 零覆盖；五条单册来源、两条两册来源，无一条达三册以上。B.18 的六册全覆盖仍由 B.18.1 的霞帔与 B.18.2 的深衣、素纱禅衣带动，B.18.4 未增加多册互证条目。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：7 条 primary_dimension 全部为 B。仅 works/yunjian-jin-qun.md 原已有 secondary_dimensions: [C]（提花织法属视觉传达侧），按其原值镜像为 secondary_themes: [C]，本批不新设维度归属。B.18.4 的 secondary_themes 为 [C]，依据是该 Topic 唯一一条形制可读的证据来自织法与配色（五色经线、蒂形小团花），属纹样与视觉侧；该判断只作用于 Topic 层，不回写到其余六条 KU。",
+    "excluded_by_boundary": [
+      "首服与妆饰六条（幅巾、幞头、顾姑冠、假髻、佛妆、帔子）：仍在库中且无 primary_theme，属 B.18 待建 Topic，本批不挂载。",
+      "鞋履与甲胄四条（履的种类、云头锦鞋、花盆底鞋、皮甲）：同上，属 B.18 待建 Topic，本批不挂载。甲胄本体（汉代铠甲、明光铠、筒袖铠）归 B.9.6，不入 B.18。",
+      "裤（绔、裈一类）：六册中与裙并述而本批未单独立 KU；裙与裤的消长只作为 terms/qun.md 的 scope_note 背景，不据以新建条目。",
+      "复裙、双裙、绛纱复裙、丹碧纱纹双裙：仅在 terms/yang-chang-qun.md 与 terms/qun.md 段内出现，未成独立 KU，本批不据段内描述建条。",
+      "百鸟毛裙作为独立名目：仅在 works/anle-gongzhu-yuqun.md 与 terms/shiliu-qun.md 内出现，与安乐公主羽裙是否同物未裁，本批并列照录、不合并、不另立 KU。",
+      "唐代女服的整体形制（大袖、长裙、披帛组合）：归 B.18 后续 Topic 与 B.18.1、B.18.3，本批只取裙这一件。",
+      "织造组织与提花技术本体（锦上添花的组织原理、经线显花的织法体系）：归 B.2 与相关工艺 Theme；yunjian-jin-qun 只以「五色经线＋细纬织团花」记录证据形态，不展开织法。",
+      "近代与当代裙装（旗袍、连衣裙、西式裙）：不属前近代，归 D.2 或 E 类 Theme。",
+      "以裙为纹样或图像的器物（壁画、陶俑、图版中的裙式）：只作条目内证据，不另立 KU，不据图补写裙式；yunjian-jin-qun 的裙式部分即因此留空。"
+    ],
+    "handoff_note": "本批闭合 h56 Theme B.18 边界「待建：裙制七条已由 B.18.4 落地」与未解决问题「裙制只有两级写法」的登记项，并把 B.18 待建数由 17 条改为 10 条（首服与妆饰六条、鞋履与甲胄四条）。h56 summary 第九节「下一跳优先级」中的「裙制 Topic（7 条，本 Theme 后续最大单批）」至此完成。"
+  },
+  "changed_files": 21,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/dimension-candidates.md",
+    "04-knowledge/structure/hierarchy/archive/v1.47.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/automation/index.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/index/index.md",
+    "knowledge-graph-data.js"
+  ],
+  "unresolved": [
+    "形侧只有三个工序词且全部无数量：多幅（裥裙）、长裾高腰（裥裙）、百褶（羊肠裙）；七条中无一给出裙长、腰围、幅宽、裙幅数或褶数，连「拖地」「下垂至地」「紧短」都是相对描述而非尺寸。",
+    "色料侧与形侧不接合：五色经线（晕絰提花锦裙）、石榴之红（石榴裙）、合百鸟毛（安乐公主羽裙）三组色料证据与三个工序词分处不同条目、不同册，六册中无一段同时谈裙的形与色料。",
+    "等级不靠品级数字：裙制的等级只由长度（曳地／紧短）与材料（毛羽／染色）两极表达，与 B.18.1 的数、色、配伍三符号系统不共用任何符号；「百姓穿不起百鸟毛裙遂以颜色和式样取胜」是六册中唯一把材料成本与替代选择写在一起的句子。",
+    "唯一实物给的是织法不是裙式：晕絰提花锦裙给出五色经线与蒂形小团花，却未给裙长、腰围、幅宽、裙幅数与组织图，也未给墓号与藏地；据此无法复原任何裙式，本库不据文字复原。",
+    "安乐公主羽裙的形制全缺：只有「正看为一色，侧看为一色，目中为一色，影中为一色，百鸟之状尽在裙中」的视觉效果描述，裙长、裁片、羽毛缀合方式与用工均无；它作为条目成立靠的是奢侈规模（奇禽异鸟毛羽采之殆尽）而非形制信息。",
+    "两处异文并列不裁：「目中／日中」「羽裙／毛裙」两册写法不同，本库并列照录，不取其一；二说所指是否同一件裙、同一段记载，来源无交代。",
+    "源文段前标题误作「铜镜」：夏燕靖 2009 裥裙一条所在段落前的标题为「铜镜」，与正文内容不符；本批照录标疑，不据标题改归类，也不据正文回改标题。",
+    "裙与裤的消长只有一句：「魏晋以后被裤替代，但正式场合仍作礼服」；裤在库中无独立 KU，本库不据一句补建条目，也不推断裤的形制。",
+    "复裙、双裙与裙制的层级关系未裁：贵族复裙双裙「长度不一，摇曳拖地」与劳动妇女「裙摆紧短明快」是同一形制的两极端，还是两种不同结构，来源未区分；本库只把两者并列记入 terms/qun.md，不判定为同制异用。",
+    "百鸟毛裙与安乐公主羽裙同物与否未裁：两条在不同册中以不同名称出现，描述部分重合；本批并列，不合并、不互指。",
+    "高丰 2004 与李立新 2011 在裙制上零覆盖：七条全部来自夏燕靖两版、田自秉与赵农；两册是否有裙制论述未被检索证明，本库只记「本批未见」，不记「原书未载」。",
+    "首服与妆饰六条、鞋履与甲胄四条共十条仍在库中无 primary_theme；B.18 因此尚不能回答「首服如何被写成等级」与「足服与护具如何与衣裳等级相连」，两个 Topic 留待后续批次。"
+  ],
+  "notes": "推导与实测口径：relation 增量 14 = 7 条主挂载 ×（topic member_of + theme member_of），与 build_relation_index.py 前后实测差一致（7714→7728），member_of 同增 14（1716→1730）。隔离单元减 5 而非 7：7 条中有 2 条原本已有显式关系、不属隔离，取自 audit_relation_consistency.py 前后两次实测（1071→1066）。changed_files 21 = apply-plan 13 行 + 8 个生成态文件；archive 快照 hierarchy/archive/v1.47.md 不计入。本批与 h56 的差别：Theme B.18 是更新而非新建，apply-plan 以 structure_node_update 记 1 行，与 h56 的 structure_node_create 区分。另有一处须注意：works/yunjian-jin-qun.md 的 secondary_dimensions 原已有 [C]，本批按原值镜像 secondary_themes，不新增维度；若按新设处理会虚增跨维度挂载。生成态：manifest 与 summary 先落盘，再连跑两次 run_sync_closure.py --refresh-generated --full（第 8 步早于第 9 步，relation 变化后单跑会残留 output_navigation_snapshot_stale）；--check-generated 17 步第 17 步未 commit 时 exit=1 属预期。不 commit、不 push。"
+}

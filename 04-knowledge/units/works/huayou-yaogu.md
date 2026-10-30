@@ -21,13 +21,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-28
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -39,7 +39,11 @@ topic_memberships:
     role: representative_work
     primary: true
     scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形"
-hierarchy_scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形"
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: representative_work
+    primary: false
+    scope_note: "只取唐代花釉瓷中的鼓形器一面：两头大中间纤细、黑釉施月白斑纹；釉色分类与窑口判定仍归 B.5.4 与 B.6。"
+hierarchy_scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形。已次挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器），主挂载仍为 B.6.1。"
 ---
 
 ## 描述
@@ -64,8 +68,10 @@ hierarchy_scope_note: "唐代花釉代表作；黑釉地月白斑与鼓形"
 - primary_dimension: B（造物、工艺与生产技术）
 - primary_theme: B.6（瓷器工艺与窑业传统）
 - topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（representative_work，primary）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（representative_work，secondary）
 - role_in_theme: representative_work
 - scope_note: 唐代花釉代表作；黑釉地月白斑与鼓形
+- scope_note（次挂载）: 只取唐代花釉瓷中的鼓形器一面：两头大中间纤细、黑釉施月白斑纹；釉色分类与窑口判定仍归 B.5.4 与 B.6。
 ## 相关知识元
 
 同期陶瓷器条目可参见 `works/donghan-qingci-gaozu-wan.md`（东汉青瓷高足碗）与 `works/lianhua-zun.md`（莲花尊），三者同属单件陶瓷器的形制锚点，窑口与时代各异。本条不构成关系断言。

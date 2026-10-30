@@ -58,19 +58,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-ranlian-guanshu-cong-baoshi-dao-zhiranshu.md
+    role: key_institution
+    primary: true
+    scope_note: "织染署是隋炀帝时司染署与司织署合并而成的唐代少府监五署之一，《唐六典》二十五作含织衽十、组绶五、绸线四、练染六；本 Topic 取其练染六作与合署事件，织衽十作只在对照时引用。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "织染署是 D 维度下唐代官营手工业分工体系的机构样本，其二十五作的划分直接对应 B 维度织造与练染的工序分化。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "织染署是隋炀帝时司染署与司织署合并而成的唐代少府监五署之一，《唐六典》二十五作含织衽十、组绶五、绸线四、练染六；本 Topic 取其练染六作与合署事件，织衽十作只在对照时引用。"
 ---
 
 ## 描述
@@ -99,12 +107,10 @@ hierarchy_scope_note: "织染署是 D 维度下唐代官营手工业分工体系
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是唐代官营手工业“监—署—作”三级分工的样本，与将作监的甄官署、少府监的掌冶署同构。可支持未来的唐代官营手工业分工类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-ranlian-guanshu-cong-baoshi-dao-zhiranshu.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 织染署是隋炀帝时司染署与司织署合并而成的唐代少府监五署之一，《唐六典》二十五作含织衽十、组绶五、绸线四、练染六；本 Topic 取其练染六作与合署事件，织衽十作只在对照时引用。
 ## 相关知识元
 
 `institutions/shaofujian.md` 为本条的上级机构，`institutions/jiangzuojian.md` 为并列的另一监；`publications/kaogongji.md` 属工艺规范文献但与唐代官制无直接叙述联系。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

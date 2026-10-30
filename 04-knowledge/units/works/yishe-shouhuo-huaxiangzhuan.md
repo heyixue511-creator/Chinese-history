@@ -32,19 +32,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "弋射收获画像砖是 B.5.6 唯一带方砖通例尺寸的样本：成都凤凰山出土，方砖高约 42、宽约 48 厘米是类型通例而非本砖实测；高丰记画像砖「均为模制」、做法是先把画面阴刻于木板、趁砖坯未干时印上，表现方法有浅浮雕施彩与阳刻线条两种；两册在上层射者是否隐蔽于池树下有异文"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "弋射收获画像砖是 C 维度下汉代画像砖的图像条目，其模制工艺属 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "弋射收获画像砖是 B.5.6 唯一带方砖通例尺寸的样本：成都凤凰山出土，方砖高约 42、宽约 48 厘米是类型通例而非本砖实测；高丰记画像砖「均为模制」、做法是先把画面阴刻于木板、趁砖坯未干时印上，表现方法有浅浮雕施彩与阳刻线条两种；两册在上层射者是否隐蔽于池树下有异文"
 ---
 
 ## 描述
@@ -95,11 +103,10 @@ hierarchy_scope_note: "弋射收获画像砖是 C 维度下汉代画像砖的图
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是单件画像砖的图像条目；画像砖类型与砖瓦材料见 `terms/qin-zhuan-han-wa.md`，瓦当见 `terms/wadang.md`。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 弋射收获画像砖是 B.5.6 唯一带方砖通例尺寸的样本：成都凤凰山出土，方砖高约 42、宽约 48 厘米是类型通例而非本砖实测；高丰记画像砖「均为模制」、做法是先把画面阴刻于木板、趁砖坯未干时印上，表现方法有浅浮雕施彩与阳刻线条两种；两册在上层射者是否隐蔽于池树下有异文
 
 ## 相关知识元
 

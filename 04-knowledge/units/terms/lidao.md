@@ -1,4 +1,5 @@
 ---
+
 title: 犁刀（Plough Knife）
 name_en: Plough Knife
 type: term
@@ -27,18 +28,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取宋代犁刀的锻造起因与开荒功能；形制、尺寸与使用工序无载，与曲辕犁的江东犁改进之关系不裁。"
 secondary_dimensions:
-hierarchy_scope_note: "犁刀是 B 维度下宋代农具的条目，材料限于技术条件、用途与江东犁改进。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "犁刀是 B 维度下宋代农具的条目，材料限于技术条件、用途与江东犁改进。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -58,10 +67,10 @@ hierarchy_scope_note: "犁刀是 B 维度下宋代农具的条目，材料限于
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 犁刀是 B 维度下宋代农具的条目，材料限于技术条件、用途与江东犁改进。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取宋代犁刀的锻造起因与开荒功能；形制、尺寸与使用工序无载，与曲辕犁的江东犁改进之关系不裁。
 
 ## 相关知识元
 

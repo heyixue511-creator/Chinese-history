@@ -22,17 +22,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: B 维度下的兵器术语条目，关注刀柄环形构造与对铁剑的替代；Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取刀柄环形构造、100 厘米刀长、骑步兵手持与汉代代替铁剑；刀身锻造与装具无载，冶铁工艺归后续铁器 Topic。"
+hierarchy_scope_note: B 维度下的兵器术语条目，关注刀柄环形构造与对铁剑的替代；已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -51,11 +59,10 @@ hierarchy_scope_note: B 维度下的兵器术语条目，关注刀柄环形构�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: B 维度下的兵器术语条目，关注刀柄环形构造与对铁剑的替代；Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取刀柄环形构造、100 厘米刀长、骑步兵手持与汉代代替铁剑；刀身锻造与装具无载，冶铁工艺归后续铁器 Topic。
 ## 相关知识元
 
 - `terms/jian-sword.md` 记剑，环首刀逐渐取代其士兵主武器地位。

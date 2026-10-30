@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "滑轮是 B 维度下战国起重器具的条目，属于杠杆与平衡原理在牵引上的应用。Theme/Topic 尚未 materialize。"
+primary_theme: B.16
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取滑车亦称滑轮、固定滑轮改变力的运动方向节省人力、移动笨重物体作用显著、战国生产与战争中常见、《墨子·墨经》「绳制挈之也」与「挈，长重者下，短轻者上」长引文、汉画像石「泗水捞鼎」的滑轮应用；无直径、轮槽、绳索材质与起重能力，定滑轮与动滑轮未区分。"
+hierarchy_scope_note: "滑轮是 B 维度下战国起重器具的条目，属于杠杆与平衡原理在牵引上的应用。已挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -71,10 +79,10 @@ hierarchy_scope_note: "滑轮是 B 维度下战国起重器具的条目，属于
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 滑轮是杠杆与平衡原理在牵引起重上的器具化，向上关联杠杆和衡器，向下关联后世辘轳等提水与起重装置。Theme/Topic 尚未 materialize。
+- primary_theme: B.16（简单机械与力学原理：杠杆、滑轮与省力器具）
+- topic_memberships: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取滑车亦称滑轮、固定滑轮改变力的运动方向节省人力、移动笨重物体作用显著、战国生产与战争中常见、《墨子·墨经》「绳制挈之也」与「挈，长重者下，短轻者上」长引文、汉画像石「泗水捞鼎」的滑轮应用；无直径、轮槽、绳索材质与起重能力，定滑轮与动滑轮未区分。
 
 ## 相关知识元
 

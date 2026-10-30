@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md
+    role: key_institution
+    primary: true
+    scope_note: "元代画局是六册中唯一「只设计、不制作」的机构：「掌描造诸色样制」，有「光画不造」的工匠百余户，包揽将作院属下各局院的产品设计；本 Topic 用它检验「设计是否曾从制造中分离」，但证据只有单一来源且同段含作者类比，结论须保留。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "元代画局是 D 维度下官方设计机构的条目，其瓷器造型与装饰设计归 B；当前只到 Dimension。"
+hierarchy_scope_note: "元代画局是六册中唯一「只设计、不制作」的机构：「掌描造诸色样制」，有「光画不造」的工匠百余户，包揽将作院属下各局院的产品设计；本 Topic 用它检验「设计是否曾从制造中分离」，但证据只有单一来源且同段含作者类比，结论须保留。"
 ---
 
 ## 描述
@@ -64,12 +72,10 @@ hierarchy_scope_note: "元代画局是 D 维度下官方设计机构的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是元代官方设计机构的样本，可与浮梁瓷局、御器厂、将作监等条目并置，观察“设计—生产”分工在官营手工业中的制度形态。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 元代画局是六册中唯一「只设计、不制作」的机构：「掌描造诸色样制」，有「光画不造」的工匠百余户，包揽将作院属下各局院的产品设计；本 Topic 用它检验「设计是否曾从制造中分离」，但证据只有单一来源且同段含作者类比，结论须保留。
 ## 相关知识元
 
 `institutions/fuliang-ciju.md` 记浮梁瓷局；`institutions/yuqichang.md` 记御器厂；`institutions/jiangzuojian.md` 记将作监。relation 未审查，不写入正式 `relations`。

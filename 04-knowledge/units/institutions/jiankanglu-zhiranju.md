@@ -38,19 +38,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "建康路织染局是元代建康路的官营织染机构，东织染局管人匠三千六百户、织机一百五十四张、额造段匹四千五百二十七段；本 Topic 取其三项数字，并标注仅覆盖东局且有「三千六户」异文。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "建康路织染局是 D 维度下元代官营染织司局的条目，其织造规模与品种归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "建康路织染局是元代建康路的官营织染机构，东织染局管人匠三千六百户、织机一百五十四张、额造段匹四千五百二十七段；本 Topic 取其三项数字，并标注仅覆盖东局且有「三千六户」异文。"
 ---
 
 ## 描述
@@ -79,12 +87,10 @@ hierarchy_scope_note: "建康路织染局是 D 维度下元代官营染织司局
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是元代官营染织司局的规模样本，可与宋代染织管理机构、明代织造局、清代三织造局构成官营织造序列。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 建康路织染局是元代建康路的官营织染机构，东织染局管人匠三千六百户、织机一百五十四张、额造段匹四千五百二十七段；本 Topic 取其三项数字，并标注仅覆盖东局且有「三千六户」异文。
 ## 相关知识元
 
 `institutions/song-dai-ranzhi-guanli-jigou.md` 记宋代染织管理机构；`institutions/zhiranshu.md` 记隋唐织染署；`institutions/jiangnan-zhizao-zongju.md` 记清代江南织造。relation 未审查，不写入正式 `relations`。

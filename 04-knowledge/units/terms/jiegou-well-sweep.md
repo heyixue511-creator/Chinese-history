@@ -1,4 +1,5 @@
 ---
+
 title: 桔槔（Well Sweep）
 name_en: Well Sweep
 type: term
@@ -24,17 +25,29 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "桔槔是 B 维度下春秋战国汲水器具的条目，属于杠杆原理在提水与灌溉上的应用。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取杠杆配重的一升一落与「引之则俯，舍之则仰」；配重比例与支点位置无载，《墨子》守城之用的关系不裁。"
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: term_anchor
+    primary: false
+    scope_note: "次要挂载，主归属仍在 B.12.2：桔槔以杠杆配重实现一升一落，是本 Topic 唯一有构造描述（井旁木架、架上横木、一端水桶一端重物）的器具条；《墨子》守城之用照录。"
+hierarchy_scope_note: "桔槔是 B 维度下春秋战国汲水器具的条目，属于杠杆原理在提水与灌溉上的应用。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。另次挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -71,10 +84,10 @@ hierarchy_scope_note: "桔槔是 B 维度下春秋战国汲水器具的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 桔槔是杠杆原理在深井提水与灌溉上的器具化，向上关联杠杆与衡器，向下关联后世提水机械。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（term_anchor，primary）、topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（term_anchor，secondary）
+- role_in_theme: term_anchor
+- scope_note: 只取杠杆配重的一升一落与「引之则俯，舍之则仰」；配重比例与支点位置无载，《墨子》守城之用的关系不裁。
 
 ## 相关知识元
 

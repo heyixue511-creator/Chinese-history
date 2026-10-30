@@ -26,18 +26,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取康熙朝起变化、背屏五七九与山字形、榻面加大至几乎与大床相似、紫檀花梨红木与螺钿镶嵌；螺钿属漆工技法归 B.11，尺寸、背屏做法与实例全无。"
 secondary_dimensions:
-hierarchy_scope_note: "清式榻是 B 维度下清代卧具类型的条目；当前只到 Dimension。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "清式榻是 B 维度下清代卧具类型的条目；当前只到 Dimension。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -59,10 +67,10 @@ hierarchy_scope_note: "清式榻是 B 维度下清代卧具类型的条目；当
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 清式榻是 B 维度下清代卧具类型的条目；当前只到 Dimension。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取康熙朝起变化、背屏五七九与山字形、榻面加大至几乎与大床相似、紫檀花梨红木与螺钿镶嵌；螺钿属漆工技法归 B.11，尺寸、背屏做法与实例全无。
 
 ## 相关知识元
 

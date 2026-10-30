@@ -1,4 +1,5 @@
 ---
+
 title: 王祯农书（Wang Zhen Nongshu）
 name_en: Wang Zhen Nongshu
 type: publication
@@ -46,19 +47,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: source_publication
+topic_memberships:
+  - topic: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md
+    role: source_publication
+    primary: true
+    scope_note: "只取四册并记的结构、农器图谱与王祯本人的农具设计；卷数、部分名与字数四册写法互不相同，并列四说不选正。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "《王祯农书》在四册中都是农具与农业技术条目：农器图谱、搅车、经架、水力大纺车、耧锄、秧马构成主体（B），王祯的县尹身份、劝农措施、刊刻与版本属制度与流传面（D）。田自秉与李立新无本书条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "《王祯农书》在四册中都是农具与农业技术条目：农器图谱、搅车、经架、水力大纺车、耧锄、秧马构成主体（B），王祯的县尹身份、劝农措施、刊刻与版本属制度与流传面（D）。田自秉与李立新无本书条目。已挂载 B.12.3（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -115,10 +124,10 @@ hierarchy_scope_note: "《王祯农书》在四册中都是农具与农业技术
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是元代农具设计的总汇性著作锚点，也是“同一书在四册中卷数、部分名、字数全不相同”的样本。可支持未来的农器图谱谱系、秧马名实之争、元代劝农制度、木活字实践等 Topic。当前只到 Dimension。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-nongshu-leisijing-dao-nongzhengquanshu.md（source_publication，primary）
+- role_in_theme: source_publication
+- scope_note: 只取四册并记的结构、农器图谱与王祯本人的农具设计；卷数、部分名与字数四册写法互不相同，并列四说不选正。
 
 ## 相关知识元
 

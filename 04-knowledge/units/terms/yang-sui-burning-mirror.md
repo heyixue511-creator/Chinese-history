@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 阳燧是 B 维度下凹面镜取火器的条目，其光学认识见来源同段所引《庄子》。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: boundary_case
+    primary: true
+    scope_note: "只作光学边界样本：凹面镜取火、西周凹面镜普遍使用、《庄子》两鉴相照；不并入照容镜型式序列。"
+hierarchy_scope_note: "阳燧是 B 维度下凹面镜取火器的条目，其光学认识见来源同段所引《庄子》。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -67,10 +75,10 @@ hierarchy_scope_note: 阳燧是 B 维度下凹面镜取火器的条目，其光�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 阳燧是 B 维度下凹面镜取火器的条目，向上关联光学器具，向下关联西周凹面镜使用与《庄子》重影说；来源把它放在工具类中，未单列光学门类。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只作光学边界样本：凹面镜取火、西周凹面镜普遍使用、《庄子》两鉴相照；不并入照容镜型式序列。
 
 ## 相关知识元
 

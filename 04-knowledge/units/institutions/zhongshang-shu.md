@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md
+    role: key_institution
+    primary: true
+    scope_note: "中尚署是唐代官作金银器的上级官署，下辖金银作坊院，与民间行作并列；本 Topic 只用它证明官营作坊在中央有层级归属，上级官署与设官品级来源未明，故不补写隶属。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "中尚署是 D 维度下唐代官营金银器生产官署的条目，其金银器制作工艺归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "中尚署是唐代官作金银器的上级官署，下辖金银作坊院，与民间行作并列；本 Topic 只用它证明官营作坊在中央有层级归属，上级官署与设官品级来源未明，故不补写隶属。"
 ---
 
 ## 描述
@@ -61,12 +69,10 @@ hierarchy_scope_note: "中尚署是 D 维度下唐代官营金银器生产官署
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是唐代官营金银器生产官署的条目，下接金银作坊院，旁接工部、太府寺、少府监等中央官手工业机构。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 中尚署是唐代官作金银器的上级官署，下辖金银作坊院，与民间行作并列；本 Topic 只用它证明官营作坊在中央有层级归属，上级官署与设官品级来源未明，故不补写隶属。
 ## 相关知识元
 
 `institutions/jinyin-zuofangyuan.md` 记唐代金银作坊院；`institutions/gongbu.md` 记隋唐工部；`institutions/taifu-si.md` 记隋代太府寺；`institutions/shaofujian.md` 记少府监。relation 未审查，不写入正式 `relations`。

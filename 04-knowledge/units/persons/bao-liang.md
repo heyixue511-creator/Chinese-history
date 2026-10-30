@@ -1,4 +1,5 @@
 ---
+
 title: 包亮（Bao Liang）
 name_en: Bao Liang
 type: person
@@ -24,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b11-xiushi-wenxian-yu-minggong.md
+    role: key_person
+    primary: true
+    scope_note: "只取与张德刚同掌果园厂制漆一句；果园厂制度归 D.6.6，余无载。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "本条是 B 维度明代果园厂制漆工匠的人物锚点，官营机构属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度明代果园厂制漆工匠的人物锚点，官营机构属 D 维度。已挂载 B.11.4（髹饰文献与名工：从《髹饰录》到李芝卿）。"
 ---
 
 ## 描述
@@ -56,10 +65,10 @@ hierarchy_scope_note: "本条是 B 维度明代果园厂制漆工匠的人物锚
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代果园厂制漆工匠的人物锚点，官营机构属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-wenxian-yu-minggong.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取与张德刚同掌果园厂制漆一句；果园厂制度归 D.6.6，余无载。
 
 ## 相关知识元
 

@@ -1,4 +1,5 @@
 ---
+
 title: 美金与恶金（Meijin and Ejin (Good and Bad Metal)）
 name_en: Meijin and Ejin (Good and Bad Metal)
 type: term
@@ -32,17 +33,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "美金与恶金是 B 维度下先秦材料观念与冶铁技术的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-yetie-liangang-yu-diezhu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取春秋战国铜为美金、铁为恶金与名称随技术提高而淘汰；是材料价值观的语词记录，不是成分配比。"
+hierarchy_scope_note: "美金与恶金是 B 维度下先秦材料观念与冶铁技术的条目。已挂载 B.9.7（冶铁、炼钢与叠铸：从生铁到灌钢）。"
 ---
 
 ## 描述
@@ -60,10 +69,10 @@ hierarchy_scope_note: "美金与恶金是 B 维度下先秦材料观念与冶铁
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 美金与恶金是 B 维度下先秦材料观念与冶铁技术的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-yetie-liangang-yu-diezhu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取春秋战国铜为美金、铁为恶金与名称随技术提高而淘汰；是材料价值观的语词记录，不是成分配比。
 
 ## 相关知识元
 

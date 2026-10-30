@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "造剑是 B 维度下宋代剑器材料与锻制工序的条目，其剑身形制归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: procedure
+    primary: true
+    scope_note: "只取宋代造剑的材料选择原则：不用太钢劲的钢材、剑身以柔铁为主、百炼成钢与弹力韧性取向；复合结构、含碳量与热处理无载，confidence 为 low。"
+hierarchy_scope_note: "造剑是 B 维度下宋代剑器材料与锻制工序的条目，其剑身形制归 B 维度。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -57,11 +65,10 @@ hierarchy_scope_note: "造剑是 B 维度下宋代剑器材料与锻制工序的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 造剑是 B 维度下宋代剑器材料与锻制工序的条目，其剑身形制归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取宋代造剑的材料选择原则：不用太钢劲的钢材、剑身以柔铁为主、百炼成钢与弹力韧性取向；复合结构、含碳量与热处理无载，confidence 为 low。
 ## 相关知识元
 
 `procedures/bai-lian-gang.md` 记百炼钢的反复加热锻打，本条“百炼成钢化为绕指柔”与之同源；`procedures/chao-gang.md` 记炒钢；`works/yuewang-goujian-jian.md` 为春秋青铜剑条目，可对照不同材料与时代；`procedures/zao-jia.md` 记同段所载造甲。relation 未审查。

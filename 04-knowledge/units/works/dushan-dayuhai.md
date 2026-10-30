@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b8-juxing-yuqi-yu-gongting-yongyu.md
+    role: representative_work
+    primary: true
+    scope_note: "渎山大玉海只取元代大型酒器的定位、现存尺寸重量与修磨状态；元明清三代宫廷流转归 D。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "渎山大玉海是 B 维度下元代玉雕器物的条目；其元明清三代的宫廷流转归 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "渎山大玉海只取元代大型酒器的定位、现存尺寸重量与修磨状态；元明清三代宫廷流转归 D。"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "渎山大玉海是 B 维度下元代玉雕器物的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 渎山大玉海是 B 维度下元代玉雕器物的条目；其元明清三代的宫廷流转归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-juxing-yuqi-yu-gongting-yongyu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 渎山大玉海只取元代大型酒器的定位、现存尺寸重量与修磨状态；元明清三代宫廷流转归 D。
 
 ## 相关知识元
 

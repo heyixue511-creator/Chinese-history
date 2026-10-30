@@ -64,20 +64,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取可折叠坐具的形制、六册均有记载这一覆盖事实与「跽坐转垂足、导向高型家具与椅子」的过渡判断；传入方向、改称绳床的时点、绳床与胡床是否同物、社会评价四处不一致全部并列不裁。"
 secondary_dimensions:
   - D
   - E
-hierarchy_scope_note: "胡床是 B 维度下的坐具形制条目，其坐礼与礼制变动属 D 维度，其自域外传入并本土化属 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "胡床是 B 维度下的坐具形制条目，其坐礼与礼制变动属 D 维度，其自域外传入并本土化属 E 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -135,10 +143,10 @@ hierarchy_scope_note: "胡床是 B 维度下的坐具形制条目，其坐礼与
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中"外来坐具—坐姿—坐礼—高型家具"这条线索的起点，向上接椅子与交椅、向下接明式家具。可支持未来的起居方式与家具形制演化类 Topic。当前只到 Dimension。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取可折叠坐具的形制、六册均有记载这一覆盖事实与「跽坐转垂足、导向高型家具与椅子」的过渡判断；传入方向、改称绳床的时点、绳床与胡床是否同物、社会评价四处不一致全部并列不裁。
 
 ## 相关知识元
 

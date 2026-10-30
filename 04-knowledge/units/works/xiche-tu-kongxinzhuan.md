@@ -25,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "戏车图空心砖是 B.5.6 空心砖与图像结合的样本：河南新野县出土一件，以二戏车为中心、橦木横木悬伎立伎蹲伎与履绳，来源称其「反映了汉代百戏之精华」；砖的尺寸、墓属、藏地与图版号均未载——与「四片泥坯模印再粘合、两头封泥片各开一孔」的制法互为表里，本 Topic 只取后者为工艺、前者为图像样本"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "戏车图空心砖是 C 维度下汉代画象砖的器物条目；其空心砖制法与模印工艺归 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "戏车图空心砖是 B.5.6 空心砖与图像结合的样本：河南新野县出土一件，以二戏车为中心、橦木横木悬伎立伎蹲伎与履绳，来源称其「反映了汉代百戏之精华」；砖的尺寸、墓属、藏地与图版号均未载——与「四片泥坯模印再粘合、两头封泥片各开一孔」的制法互为表里，本 Topic 只取后者为工艺、前者为图像样本"
 ---
 
 ## 描述
@@ -60,11 +68,10 @@ hierarchy_scope_note: "戏车图空心砖是 C 维度下汉代画象砖的器物
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 戏车图空心砖是 C 维度下汉代画象砖的器物条目；其空心砖制法与模印工艺归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 戏车图空心砖是 B.5.6 空心砖与图像结合的样本：河南新野县出土一件，以二戏车为中心、橦木横木悬伎立伎蹲伎与履绳，来源称其「反映了汉代百戏之精华」；砖的尺寸、墓属、藏地与图版号均未载——与「四片泥坯模印再粘合、两头封泥片各开一孔」的制法互为表里，本 Topic 只取后者为工艺、前者为图像样本
 
 ## 相关知识元
 

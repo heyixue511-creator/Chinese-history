@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 青铜剑是 B 维度下商周短兵器的条目，其形制与使用场景见来源论述。Theme/Topic 尚未 materialize。
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取剑身剑柄八部位、商晚期北方短剑、沣镐柳叶形剑与 30 厘米以内的短兵定位；造剑工序另见 procedures/zao-jian，剑的防锈与成分归器物条目。"
+hierarchy_scope_note: 青铜剑是 B 维度下商周短兵器的条目，其形制与使用场景见来源论述。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: 青铜剑是 B 维度下商周短兵器的条目，其形�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 青铜剑是 B 维度下商周短兵器的条目，其形制与使用场景见来源论述。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取剑身剑柄八部位、商晚期北方短剑、沣镐柳叶形剑与 30 厘米以内的短兵定位；造剑工序另见 procedures/zao-jian，剑的防锈与成分归器物条目。
 ## 相关知识元
 
 `procedures/zao-jian.md` 记造剑工艺；`works/yuewang-goujian-jian.md` 记越王勾践剑；`works/shuilu-gongzhan-jian.md` 记水陆攻战纹剑；`works/jade-handle-iron-sword.md` 记玉柄铁剑；`terms/ge-dagger-axe.md` 记戈；`terms/mao.md` 记矛；`terms/gongjian.md` 记弓箭；`places/fenghao.md` 记沣镐。relation 未审查，不写入正式 `relations`。

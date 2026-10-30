@@ -1,4 +1,5 @@
 ---
+
 title: 犁壁（Moldboard）
 name_en: Moldboard
 type: term
@@ -22,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "犁壁是 B 维度下汉代铁农具的部件条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取汉代犁壁的翻土碎土功能与「比欧洲早近千年」一句；犁壁形式未有列举，尺寸无载。"
+hierarchy_scope_note: "犁壁是 B 维度下汉代铁农具的部件条目。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -54,10 +63,10 @@ hierarchy_scope_note: "犁壁是 B 维度下汉代铁农具的部件条目。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下汉代铁农具的部件条目，可与铁农具总类、耕犁谱系合成未来的农具技术 Topic。当前只到 Dimension。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取汉代犁壁的翻土碎土功能与「比欧洲早近千年」一句；犁壁形式未有列举，尺寸无载。
 
 ## 相关知识元
 

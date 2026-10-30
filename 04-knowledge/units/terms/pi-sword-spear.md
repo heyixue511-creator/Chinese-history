@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "铍是 B 维度下春秋战国剑形兵器条目，与剑、矛、戈、戟同列短兵与长兵之间。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取剑形长兵的定位、禁卫用途、与矛剑的比较与秦俑坑实证；通长、装柄与出土数量无载，秦兵马俑器形归 B.5。"
+hierarchy_scope_note: "铍是 B 维度下春秋战国剑形兵器条目，与剑、矛、戈、戟同列短兵与长兵之间。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -72,11 +80,10 @@ hierarchy_scope_note: "铍是 B 维度下春秋战国剑形兵器条目，与剑
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 铍是春秋战国禁卫部队的剑形兵器，向上关联剑器与矛，向下关联秦兵马俑坑的青铜铍实物。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取剑形长兵的定位、禁卫用途、与矛剑的比较与秦俑坑实证；通长、装柄与出土数量无载，秦兵马俑器形归 B.5。
 ## 相关知识元
 
 `terms/jian-sword.md` 记青铜剑；`terms/mao.md` 记矛；`terms/ge-dagger-axe.md` 记戈；`terms/wugou-hook.md` 记吴钩；`publications/shiji.md` 记《史记》。relation 未审查，不写入正式 `relations`。

@@ -60,19 +60,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: term_anchor
+    primary: true
+    scope_note: "瓦当在 B.5.6 只取构件端头的一面：它是筒瓦的瓦头，赵农记其「一方面挡住木椽，保护其不受雨水的侵蚀；另一方面，在瓦当上进行必要的图案装饰」；形制由战国半圆变为秦汉圆形，高丰把「远视醒目」、陶质与模印法三项制约形式；纹样与文字的分类研究归 C，三分与四分两套分类只作边界登记"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "瓦当是 C 维度下汉代图案与文字装饰的代表载体，同时是 B 维度建筑陶构件。本批按六册讨论的重心（装饰纹样与文字设计）归主维度 C。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "瓦当在 B.5.6 只取构件端头的一面：它是筒瓦的瓦头，赵农记其「一方面挡住木椽，保护其不受雨水的侵蚀；另一方面，在瓦当上进行必要的图案装饰」；形制由战国半圆变为秦汉圆形，高丰把「远视醒目」、陶质与模印法三项制约形式；纹样与文字的分类研究归 C，三分与四分两套分类只作边界登记"
 ---
 
 ## 描述
@@ -105,11 +113,10 @@ hierarchy_scope_note: "瓦当是 C 维度下汉代图案与文字装饰的代表
 
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是汉代纹样与文字装饰的集中载体，与汉字设计、汉代画像砖、四神图像等方向相邻。可支持未来的汉代装饰体系类 Topic。当前只到 Dimension。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 瓦当在 B.5.6 只取构件端头的一面：它是筒瓦的瓦头，赵农记其「一方面挡住木椽，保护其不受雨水的侵蚀；另一方面，在瓦当上进行必要的图案装饰」；形制由战国半圆变为秦汉圆形，高丰把「远视醒目」、陶质与模印法三项制约形式；纹样与文字的分类研究归 C，三分与四分两套分类只作边界登记
 
 ## 相关知识元
 

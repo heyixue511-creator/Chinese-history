@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 杌凳是 B 维度隋唐坐具形制的条目，来源所述渊源、联称与高足坐具用途均属造物与生活器用，Theme/Topic 尚未 materialize。
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取杌凳由踏具与杌演变联称、无背无扶手故别于椅子、隋唐高足坐具流行后的使用状况；《捣练图》《簪花仕女图》只作条目内引用的图像证据，图版未核，不据图补形制，原文疑似讹字照录标疑。"
+hierarchy_scope_note: 杌凳是 B 维度隋唐坐具形制的条目，来源所述渊源、联称与高足坐具用途均属造物与生活器用。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。
 ---
 
 ## 描述
@@ -56,10 +64,10 @@ hierarchy_scope_note: 杌凳是 B 维度隋唐坐具形制的条目，来源所�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 杌凳是 B 维度隋唐坐具形制的条目，来源所述渊源、联称与高足坐具用途均属造物与生活器用，Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取杌凳由踏具与杌演变联称、无背无扶手故别于椅子、隋唐高足坐具流行后的使用状况；《捣练图》《簪花仕女图》只作条目内引用的图像证据，图版未核，不据图补形制，原文疑似讹字照录标疑。
 
 ## 相关知识元
 

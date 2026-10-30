@@ -37,19 +37,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md
+    role: geographical_context
+    primary: true
+    scope_note: "B.7.1 主挂载：只取田自秉所记「长沙 100 多座楚墓中 80 多座出琉璃璧」这一条量化证据，用以观察玻璃仿玉器的随葬普及度；丝织、刺绣、漆器、彩绘木俑与麻布归 B.2 与服饰线，不随本条挂入。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "长沙楚墓群是 B 维度下战国丝织、刺绣、漆器与琉璃璧的区域性墓葬集合。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "B.7.1 主挂载：只取田自秉所记「长沙 100 多座楚墓中 80 多座出琉璃璧」这一条量化证据，用以观察玻璃仿玉器的随葬普及度；丝织、刺绣、漆器、彩绘木俑与麻布归 B.2 与服饰线，不随本条挂入。"
 ---
 
 ## 描述
@@ -78,11 +86,10 @@ hierarchy_scope_note: "长沙楚墓群是 B 维度下战国丝织、刺绣、漆
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是战国楚国纺织与漆器的区域集合样本，价值在于同城多点、多品类并出，可与江陵楚墓群构成楚国内部的东／西对照。当前只到 Dimension。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-fangyu-yu-daiyong-zhanguo-lianghan-boliqi.md.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: B.7.1 主挂载：只取田自秉所记「长沙 100 多座楚墓中 80 多座出琉璃璧」这一条量化证据，用以观察玻璃仿玉器的随葬普及度；丝织、刺绣、漆器、彩绘木俑与麻布归 B.2 与服饰线，不随本条挂入。
 
 ## 相关知识元
 

@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本条是 B 维度东晋乐器制作记载中的绘画条目，来源只有一句，兼含相传的作者归属与工序严格的推论，Theme/Topic 尚未 materialize。
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: boundary_case
+    primary: true
+    scope_note: "以边界登记：「相传东晋顾恺之作有《斫琴图》，可见南方制作乐器工序的严格」一句；画面内容与收藏地无载，「可见」是来源推论。"
+hierarchy_scope_note: "本条是 B 维度东晋乐器制作记载中的绘画条目，来源只有一句，兼含相传的作者归属与工序严格的推论，已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: 本条是 B 维度东晋乐器制作记载中的绘画条�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度东晋乐器制作记载中的绘画条目，来源只有一句，兼含相传的作者归属与工序严格的推论，Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 以边界登记：「相传东晋顾恺之作有《斫琴图》，可见南方制作乐器工序的严格」一句；画面内容与收藏地无载，「可见」是来源推论。
 
 ## 相关知识元
 

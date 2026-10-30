@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "凭几是 B 维度下汉魏席坐家具的类型条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取扶倚分散压力的功用、马王堆三号墓龙纹漆几的高矮两对足、魏晋三足圆弧面前与朱然墓黑红漆几；尺寸无载。"
+hierarchy_scope_note: "凭几是 B 维度下汉魏席坐家具的类型条目。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "凭几是 B 维度下汉魏席坐家具的类型条目。
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 凭几是 B 维度下汉魏席坐家具的类型条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取扶倚分散压力的功用、马王堆三号墓龙纹漆几的高矮两对足、魏晋三足圆弧面前与朱然墓黑红漆几；尺寸无载。
 
 ## 相关知识元
 

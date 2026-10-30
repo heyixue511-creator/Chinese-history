@@ -44,19 +44,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md
+    role: key_institution
+    primary: true
+    scope_note: "尚方是汉代皇家工场，尚方令监制器械；汉武帝分左、中、右三尚方并各有产品分工（弩机／装饰具／镜槃釜），是六册中最早把产品分工落到器物类型的一组记载；两册引文与篇名不同，并存不校。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "尚方是 D 维度下汉代少府属皇家工场的条目，其秘剑、器械、鼎壶与铜镜等制作归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "尚方是汉代皇家工场，尚方令监制器械；汉武帝分左、中、右三尚方并各有产品分工（弩机／装饰具／镜槃釜），是六册中最早把产品分工落到器物类型的一组记载；两册引文与篇名不同，并存不校。"
 ---
 
 ## 描述
@@ -88,12 +96,10 @@ hierarchy_scope_note: "尚方是 D 维度下汉代少府属皇家工场的条目
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是汉代少府属下皇家工场的条目，可与蔡伦造纸、汉代器物监制、郡国工官及后世尚方署条目并置，观察宫廷工场中的器械设计与监制。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 尚方是汉代皇家工场，尚方令监制器械；汉武帝分左、中、右三尚方并各有产品分工（弩机／装饰具／镜槃釜），是六册中最早把产品分工落到器物类型的一组记载；两册引文与篇名不同，并存不校。
 ## 相关知识元
 
 `institutions/shujun-chengdu-guanghanjun-gongguan.md` 记与尚方令并列的蜀郡、成都、广汉郡工官；`institutions/qin-gongshi-gongguan.md` 记秦代工室与工官；`institutions/dongxi-zhishi.md` 记汉代少府属下的东、西织室；`institutions/shaofujian.md` 记唐代少府监，与汉代少府不同时。上述条目分条并存。relation 未审查，不写入正式 `relations`。

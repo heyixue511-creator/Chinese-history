@@ -50,17 +50,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 5
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "金银平脱是 B 维度下唐代漆器装饰技法的代表工序，同时牵涉铜镜装饰与金银器工艺的交叉。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: boundary_case
+    primary: true
+    scope_note: "只作漆胎与金银箔结合的跨材质边界：剪刻、胶漆粘贴、髹漆研磨推光与「平脱／平文」之别；铜镜器物与唐镜七种装饰的器物归属归 B.9.3，漆器主体工艺归后续漆器 Theme。"
+hierarchy_scope_note: "金银平脱是 B 维度下唐代漆器装饰技法的代表工序，同时牵涉铜镜装饰与金银器工艺的交叉。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -94,11 +102,10 @@ hierarchy_scope_note: "金银平脱是 B 维度下唐代漆器装饰技法的代
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是唐代漆艺工序的代表条目，可与铜镜装饰、金银器工艺、唐代奢侈工艺禁令等方向建立联系。当前只到 Dimension。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只作漆胎与金银箔结合的跨材质边界：剪刻、胶漆粘贴、髹漆研磨推光与「平脱／平文」之别；铜镜器物与唐镜七种装饰的器物归属归 B.9.3，漆器主体工艺归后续漆器 Theme。
 ## 相关知识元
 
 本批已写回的髹饰录、唐代相关 KU 与本条目存在直接关系；relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

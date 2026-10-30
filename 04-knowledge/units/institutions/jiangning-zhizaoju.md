@@ -53,19 +53,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "江宁织造局是明清南京的官营织造机构，清康熙二年（1663）改内务府派员久任，曹氏三世继任至雍正五年（1727），特织御用云锦妆花、库缎、库锦三类；本 Topic 取其任职序列与产品指定。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "江宁织造局是 D 维度下清代内务府系统官营织造的机构锚点，其产品云锦同时是 B 维度织造技术与 C 维度宫廷纹样的载体。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "江宁织造局是明清南京的官营织造机构，清康熙二年（1663）改内务府派员久任，曹氏三世继任至雍正五年（1727），特织御用云锦妆花、库缎、库锦三类；本 Topic 取其任职序列与产品指定。"
 ---
 
 ## 描述
@@ -93,12 +101,10 @@ hierarchy_scope_note: "江宁织造局是 D 维度下清代内务府系统官营
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“官营织造—宫廷纹样—身份等级”链条上的实体制，与织染署、锦署同属官营纺织机构序列，但时代与产品均不同。可支持未来的官营织造与织物等级类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 江宁织造局是明清南京的官营织造机构，清康熙二年（1663）改内务府派员久任，曹氏三世继任至雍正五年（1727），特织御用云锦妆花、库缎、库锦三类；本 Topic 取其任职序列与产品指定。
 ## 相关知识元
 
 `institutions/zhiran-shu.md`、`institutions/jin-shu.md` 为同一官营纺织序列中的唐制与东晋制；`publications/tiangong-kaiwu.md` 记有云锦所引的棉织民谣（“买不尽松江布”），与本条无直接叙述联系。relation_type 与方向未经语义审查，不写入正式 `relations`。本段不构成关系断言。

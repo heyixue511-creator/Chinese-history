@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "造甲是 B 维度下宋代甲胄制造工序的条目，其甲片形制归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: procedure
+    primary: true
+    scope_note: "只取宋代造甲的坚固程度与「五十步强弩射之不能入」的缀孔穿箭现象；甲片形制、材料、层数与工序无载，confidence 为 low。"
+hierarchy_scope_note: "造甲是 B 维度下宋代甲胄制造工序的条目，其甲片形制归 B 维度。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -55,11 +63,10 @@ hierarchy_scope_note: "造甲是 B 维度下宋代甲胄制造工序的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 造甲是 B 维度下宋代甲胄制造工序的条目，其甲片形制归 B 维度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取宋代造甲的坚固程度与「五十步强弩射之不能入」的缀孔穿箭现象；甲片形制、材料、层数与工序无载，confidence 为 low。
 ## 相关知识元
 
 `procedures/zao-jian.md` 记宋代造剑，与本条同属赵农在同一兵器制造段落所记；`procedures/bai-lian-gang.md` 与 `procedures/guan-gang-fa.md` 记钢铁材料工序，可与本条铠甲硬度对读。relation 未审查。

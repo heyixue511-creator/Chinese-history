@@ -24,20 +24,29 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - C
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只作元代刺绣服饰一例（两肩前胸刺绣、江南制作推测）；尺寸、形制与底色全缺，产地判断照录不改。"
 secondary_dimensions:
   - C
   - E
-hierarchy_scope_note: "本条是 B 维度元代刺绣服饰的单器锚点，纹样题材属 C 维度，江南与北方官府工场的制作推测属 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度元代刺绣服饰的单器锚点，纹样题材属 C 维度，江南与北方官府工场的制作推测属 E 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -59,11 +68,11 @@ hierarchy_scope_note: "本条是 B 维度元代刺绣服饰的单器锚点，纹
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）、E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度元代刺绣服饰的单器锚点，纹样题材属 C 维度，江南与北方官府工场的制作推测属 E 维度。Theme/Topic 尚未 materialize。
+- secondary_dimensions: C（视觉传达与文字设计）
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只作元代刺绣服饰一例（两肩前胸刺绣、江南制作推测）；尺寸、形制与底色全缺，产地判断照录不改。
 
 ## 相关知识元
 

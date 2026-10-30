@@ -1,0 +1,119 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h29",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 B.5「陶器工艺与陶系传统」下新建 B.5.6「建筑用陶：屋面、砖砌与模印图像」，挂载秦砖汉瓦、陶瓦、瓦当、画象砖、瓦纹、双鹿瓦当、始皇陵夔凤纹大瓦当、弋射收获画像砖、采莲画象砖、丸剑舞乐画象砖、戏车图空心砖、竹林七贤和荣启期砖画与邓县学庄画像砖墓共 13 个 KU；不按建筑部位罗列，而按「同一次成形如何同时满足结构、连接与图像」组织，检验构件端头、连接件独立化与模印四个尺度这三层判断。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.19",
+    "baseline_themes": 20,
+    "baseline_topics": 55,
+    "baseline_topic_memberships": 414,
+    "baseline_complete_assignments": 410,
+    "baseline_incomplete_assignments": 2160,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6822,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 824,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1311
+  },
+  "result": {
+    "hierarchy_version": "v1.20",
+    "themes": 20,
+    "topics": 56,
+    "topic_memberships": 427,
+    "complete_assignments": 423,
+    "incomplete_assignments": 2147,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6848,
+    "relation_types": "3/67",
+    "member_of_relations": 850,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1304,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b5-taoqi-gongyi-yu-taoxi-chuantong.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md"
+    ],
+    "new_topic_nodes": 1,
+    "mounted_units": 13,
+    "changed_units": 13,
+    "total_mounted_units": 423,
+    "new_topic_memberships": 13,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 4,
+      "representative_work": 7,
+      "geographical_context": 1,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 5,
+      "work": 7,
+      "place": 1
+    },
+    "cross_dimension_mounts": "7 条 KU 的 primary_dimension 为 C（瓦当、画象砖、弋射收获画像砖、采莲画象砖、丸剑舞乐画象砖、戏车图空心砖、瓦纹），其主题为 B；沿用 D.2.2（B 主维度 KU 入 D Topic）与 D.4.3（C 主维度 KU 入 D Topic）的既有先例，不为本批另造例外。B.5.6 的 primary_dimension 仍为 B，secondary_themes 为空，因此不进 `cross_dimension_topics` 统计。",
+    "taxonomy_split": "屋面瓦作、砖砌与模印图像砖→B.5.6；琉璃瓦的釉面、釉料与烧成→B.5.4；瓷器与原始瓷→B.6；画像砖的题材、构图与图像意义→C；画像石的石作与石雕→不在 B.5；瓦纹作为青铜器纹样的形式与年代→C；墓葬制度与厚葬的社会史解释→D；砖瓦窑址与生产组织→尚无 Theme",
+    "planned_topics_not_created": [
+      "制陶生产组织 Topic：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址（4 条候选，归 B 或 D 待判）",
+      "史前功能陶器 Topic：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊（6 条候选，与 B.5.1／B.5.2 的边界待判）",
+      "玻璃材料 Theme：琉璃第一义、铅钡玻璃、钠钡玻璃、战国琉璃璧、长沙楚墓群、李立新玻璃器沉浮",
+      "D 维度前近代官手工业 Theme：御器厂、浮梁瓷局、瓷窑官、景德镇、琉璃渠御窑"
+    ],
+    "deferred_by_boundary": [
+      "琉璃瓦、琉璃砖塔与琉璃照壁的釉面、釉料与烧成 → 归 B.5.4；本 Topic 只取胎体与构件形制，同一件琉璃瓦被两处分别取用，该分工是本库取舍而非来源区分",
+      "画像砖的题材内容、构图分析与图像意义 → 归 C；本 Topic 只把画像砖当作模印成形产品，取其次数与工艺",
+      "画像石 → 不在 B.5；李立新记画像砖与画像石同承汉代早期木椁墓的帛画与漆棺画，该判断属图像传承史，归 C",
+      "瓦纹作为周代青铜器纹样 → 形式、施用与年代归 C；本 Topic 只取「如同屋上的覆瓦」这一命名所依赖的瓦面排列事实",
+      "墓葬制度、厚葬风气与画像砖的社会史解释 → 归 D",
+      "砖瓦窑址、工匠、产量与销售 → 六册几乎全无，「杜陵南山下成瓦窑数千处」是《三国志》转引、「渭河一带官营陶窑成片」只有一句，本 Topic 不据两句写生产组织史",
+      "竹林七贤画像砖（夏燕靖 2016 服饰论证引用，作「晋代」图注且无出土地）→ 与赵农所记六朝三处发现疑为同一对象的不同著录，本 Topic 只挂后者，前者登记为重复候选待 reconcile"
+    ]
+  },
+  "changed_files": 20,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2147",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1304",
+    "Architectural pottery kiln sites and production organisation are almost entirely absent: 'thousands of tile kilns south of Duling' is a Sanguozhi quotation written after the Han emperor it describes, and 'state pottery kilns along the Wei River' is one sentence; beyond these there are no kiln names, owners, craftsmen, output, cost or sales records",
+    "Tile and brick dimensions survive as three isolated examples and do not form a specification series: Western Zhou flat tile 40 x 20 x 1.3 cm, Qin mausoleum tile end about 40 cm diameter, square brick 'about 42 high and 48 wide' as a type norm. The glazed-tile 'ten grades' (B.5.4) is the only sequenced specification in the library; brick and tile have none, so standardisation cannot be judged",
+    "The separation of tile nail from tile body is a single sentence with no before/after forms, connection method, strength data or date. The same book writes 'nails and rings' in one place and 'nails or rings' in another; whether both existed and how they divided work is unstated",
+    "Tile-end mold-pressing is described only as 'mold-impression method' (Gao Feng): no mold material, single-piece or multi-piece forming, trimming or luting, and no data on mold reuse or wear against motif consistency. The Warring States 'more than 30 kinds' is a type count, not output or distribution",
+    "Two incompatible classifications of Han tile-end motifs coexist and are not merged: Gao Feng's pictorial / text / text-with-pictorial three-way split and Tian Zibing's cloud, animal, four-divinity and text four-way split are not refinements of one standard. Tian's four-way split is the only one, and the claim that 'most are auspicious phrases' is an evaluation, not a count; Li Lixin's ideological explanation is never attached to a single tile end",
+    "The directional quality of tile ends rests on one sentence from Zhao Nong with no instances or direction-to-motif table; the four-divinity/direction correspondence comes from a general passage in the same book, not from tile-end evidence. Whether the Yanxiadu fu-fu patterned large tiles and the 'one-metre' giant impressed tile ends are the same batch is unstated",
+    "Image bricks have only the type norm for square bricks as a dimension; the counts 'more than 70 kinds' (Tian Zibing) and 'more than 80' (Gao Feng) coexist without a stated basis, and all seven concrete objects lack size, thickness, tomb attribution and collection. The hollow brick's three functional claims (easy to fire, light, moisture-proof) have no wall thickness, cavity size or firing temperature data; 'sealing clay slabs at both ends with one hole each' is the only venting description, with no hole position, diameter or thickness",
+    "The sequence of colouring on image bricks appears only for Dengxian ('after firing, colour was applied to part of the picture, on some up to seven colours'); the seven colour names are unrecorded and the other six bricks' colouring and its timing are unstated. Gao Feng's 'low relief with colour and incised line' versus Dengxian's 'colouring after firing' may or may not be the same process; Gao says the picture was incised into a wooden board in advance while Tian says an incised mould was over-printed, and Gao also lists an 'incised line' method, so the relation between incised mould and incised line is unexplained",
+    "The brick painting is described in one sentence as assembled from 'more than 200 bricks'; there is no information on each brick's picture unit, assembly order, numbering, joint treatment or overall wall size, and 'more than 200' cannot establish one picture per brick. The source's evaluation ('a masterpiece of pottery craft ... a new stage') is a stage judgement, not process data",
+    "The Seven Sages of the Bamboo Grove has two records: one as a Jin-dynasty caption with no find site (cited by Xia Yanjing 2016 for dress history), one as three Six Dynasties find sites (Zhao Nong). They are probably the same object recorded twice with incompatible dates; the batch mounts only the latter and logs the former as a duplicate candidate for reconcile",
+    "The shift of brick from facing to arch construction is a library interpretation, not a source conclusion: Zhao Nong separately records Western Zhou solid bricks used as wall facing and Han wedge/tenon bricks for arch tops, several centuries apart with no intermediate material, and no book connects them into a change of structural role",
+    "The division of labour between B.5.4 and B.5.6 over glazed tiles has not been tested against the sources: B.5.4 takes the glaze surface, B.5.6 takes the body and component form, so the same tile is drawn on twice. This is the library's own partition, not a distinction the sources make, and must be re-examined when B.5 is reviewed as a whole",
+    "The naming direction of the tile motif (wa-wen) is unrecorded: Tian Zibing only says it consists of parallel bands 'like roof tiles', without saying whether the motif took its name from the tile or giving the chronological order of tile and motif. B.5.6 uses it only to show that tile coursing was a visible formal reference in the Zhou, and does not infer the direction of naming"
+  ],
+  "notes": "本批新建 1 个 Topic（B.5.6 建筑用陶），挂载 13 个 KU，不新增 Theme。结构设计的三项判断：其一，原定 Topic 名「建筑用陶与画像砖」把构件与图像两类并列，读完 13 条候选后改判为「建筑用陶：屋面、砖砌与模印图像」——材料真正回答的是陶器转为构件后同一次成形如何同时满足结构、连接与图像。其二，三层组织：构件端头（瓦当挡椽与装饰是同一构件的两个功能，尺寸由椽径定）、连接件独立化（瓦钉与瓦身分离，六册唯一一条「把一体成形拆成两件」的工艺选择）、模印四尺度（瓦当／方砖／空心砖／砖画，把图像从一次性绘制变成可复制产品）。其三，两条判断：砖的结构角色发生过从贴面到砌拱的转变（标为本库解释框架）；画像砖同时是墙与画，空心砖把结构与图像写在同一段。五处边界处置：琉璃瓦釉面归 B.5.4、胎体归本 Topic；画像砖题材与构图归 C；画像石不在 B.5；瓦纹只取命名事实；竹林七贤两条著录只挂六朝一条。跨维度挂载 7 条（C 主维度 KU 入 B 主题），沿用 D.2.2／D.4.3 既有先例。本批不 commit、不 push。"
+}

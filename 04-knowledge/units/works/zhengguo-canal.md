@@ -33,17 +33,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 郑国渠是 B 维度下战国秦国灌溉水渠的条目，来源给工程起因、年代、主持者与改土效果。Theme/Topic 尚未 materialize。
+primary_theme: B.15
+secondary_themes:
+  - D
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md
+    role: representative_work
+    primary: true
+    scope_note: "只取战国秦国泾水洛水之间开渠、公元前 246 年韩国疲秦计、郑国自辩一句、秦王仍用其完工与盐碱地变良田；长度、灌溉面积、渠首渠线与工期全无，结构一句话也没有。"
+hierarchy_scope_note: 郑国渠是 B 维度下战国秦国灌溉水渠的条目，来源给工程起因、年代、主持者与改土效果。已挂载 B.15.1（水利工程：灌溉、航运与治水经验）。
 ---
 
 ## 描述
@@ -67,10 +76,10 @@ hierarchy_scope_note: 郑国渠是 B 维度下战国秦国灌溉水渠的条目�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 郑国渠是 B 维度下战国秦国灌溉水渠的条目，来源给工程起因、年代、主持者与改土效果。Theme/Topic 尚未 materialize。
+- primary_theme: B.15（水利工程：灌溉、航运与治水经验）
+- topic_memberships: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取战国秦国泾水洛水之间开渠、公元前 246 年韩国疲秦计、郑国自辩一句、秦王仍用其完工与盐碱地变良田；长度、灌溉面积、渠首渠线与工期全无，结构一句话也没有。
 
 ## 相关知识元
 

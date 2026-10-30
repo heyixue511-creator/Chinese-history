@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取发明者、对近代乐器制造的积极作用与键盘乐器定音两句；律制计算、音分数据与传播路径无载，近代应用面归 E。"
 secondary_dimensions:
   - E
-hierarchy_scope_note: "十二平均律是 B 维度下明代乐律技术的条目；其近代乐器应用与跨文化影响归 E 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "十二平均律是 B 维度下明代乐律技术的条目；其近代乐器应用与跨文化影响归 E 维度。已挂载 B.10.1（八音与乐律：材质分类、律制与乐学文献）。"
 ---
 
 ## 描述
@@ -57,10 +65,10 @@ hierarchy_scope_note: "十二平均律是 B 维度下明代乐律技术的条目
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 十二平均律是 B 维度下明代乐律技术的条目；其近代乐器应用与跨文化影响归 E 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取发明者、对近代乐器制造的积极作用与键盘乐器定音两句；律制计算、音分数据与传播路径无载，近代应用面归 E。
 
 ## 相关知识元
 

@@ -46,17 +46,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "铜镜是 B 维度下青铜生活用具的器类条目；从鉴水到鉴镜的观念转变、镜背纹样的信仰含义牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取铜镜通名、起源三说、战国四大特点与「鉴水到鉴镜」、田自秉四期说与南北两系、八类战国纹样与唐镜形制纹饰；汉镜另见 terms/hanjing。"
+hierarchy_scope_note: "铜镜是 B 维度下青铜生活用具的器类条目；从鉴水到鉴镜的观念转变、镜背纹样的信仰含义牵涉 C 维度。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -119,10 +127,10 @@ hierarchy_scope_note: "铜镜是 B 维度下青铜生活用具的器类条目；
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是铜镜的通名条目，向下与 `terms/hanjing.md` 构成总类与汉代分段的关系。它与 `terms/wadang.md`（瓦当）、`terms/boshanlu.md`（博山炉）同属汉代器物群，但只有铜镜同时具备照容功能、铭文与商品属性。可与镜鉴观念、汉唐纹样、铸镜工艺合成 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取铜镜通名、起源三说、战国四大特点与「鉴水到鉴镜」、田自秉四期说与南北两系、八类战国纹样与唐镜形制纹饰；汉镜另见 terms/hanjing。
 
 ## 相关知识元
 

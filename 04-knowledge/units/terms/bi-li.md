@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取木管九孔、管上芦哨、龟兹源与南北朝传入与五种形式；段首「算篥」照录标疑未改，尺寸孔位与哨材无载。"
 secondary_dimensions:
   - E
-hierarchy_scope_note: 筚篥是 B 维度下魏晋南北朝吹奏乐器形制的条目，其龟兹来源与南北朝传入属 E 维度跨文化互动。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "筚篥是 B 维度下魏晋南北朝吹奏乐器形制的条目，其龟兹来源与南北朝传入属 E 维度跨文化互动。已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: 筚篥是 B 维度下魏晋南北朝吹奏乐器形制的�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: E（现代性与跨文化互动）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 筚篥是 B 维度下魏晋南北朝吹奏乐器形制的条目，其龟兹来源与南北朝传入属 E 维度跨文化互动。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取木管九孔、管上芦哨、龟兹源与南北朝传入与五种形式；段首「算篥」照录标疑未改，尺寸孔位与哨材无载。
 
 ## 相关知识元
 

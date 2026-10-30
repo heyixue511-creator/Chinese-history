@@ -27,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下起居姿势与家具形制关系的条目，其礼法含义另涉 D 维度。Theme/Topic 尚未 materialize。
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取跽坐的姿势定义、「跪坐姿势决定我国早期家具的低矮形制」一句与四组实物（妇好墓跽坐玉人、上村岭漆绘铜灯、汉跽坐俑、跽坐古玉乐俑）；正坐规范与箕踞禁忌只作背景，礼法含义归 D 维度。"
+hierarchy_scope_note: 本 KU 是 B 维度下起居姿势与家具形制关系的条目，其礼法含义另涉 D 维度。已挂载 B.14.1（家具与起居方式：坐卧具、屏风与承具）。
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下起居姿势与家具形制关系的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下起居姿势与家具形制关系的条目，其礼法含义另涉 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取跽坐的姿势定义、「跪坐姿势决定我国早期家具的低矮形制」一句与四组实物（妇好墓跽坐玉人、上村岭漆绘铜灯、汉跽坐俑、跽坐古玉乐俑）；正坐规范与箕踞禁忌只作背景，礼法含义归 D 维度。
 
 ## 相关知识元
 

@@ -39,17 +39,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "秦砖汉瓦是 B 维度下秦汉建筑材料的合称条目；制坯、烧造、砌拱与瓦当方位属 B，画像砖的社会图像与四神方位观念牵涉 C 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: term_anchor
+    primary: true
+    scope_note: "秦砖汉瓦是 B.5.6 的合称起点：砖四类（长方形砌墙砖、正方形铺地砖、空心砖、小条砖）与瓦两类（筒瓦、板瓦）加圆瓦当并列，得名「烧成后吸水有声」只归夏燕靖两版；赵农另给陶制砖瓦为土木建筑提供屋顶材料、「砖瓦的统一轻便，也为中原土木建筑样式的成型提供了必要条件」，并记楔形与榫头形异形砖用于砌垒拱顶——合称不按秦、汉分述构件类型，本 Topic 不据此把「秦砖」「汉瓦」读成两个时代"
+hierarchy_scope_note: "秦砖汉瓦是 B.5.6 的合称起点：砖四类（长方形砌墙砖、正方形铺地砖、空心砖、小条砖）与瓦两类（筒瓦、板瓦）加圆瓦当并列，得名「烧成后吸水有声」只归夏燕靖两版；赵农另给陶制砖瓦为土木建筑提供屋顶材料、「砖瓦的统一轻便，也为中原土木建筑样式的成型提供了必要条件」，并记楔形与榫头形异形砖用于砌垒拱顶——合称不按秦、汉分述构件类型，本 Topic 不据此把「秦砖」「汉瓦」读成两个时代"
 ---
 
 ## 描述
@@ -98,10 +106,10 @@ hierarchy_scope_note: "秦砖汉瓦是 B 维度下秦汉建筑材料的合称条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是建筑材料的合称条目，与 `terms/wadang.md`（瓦当）构成总类与单一构件的关系：瓦当条只记瓦当，本条兼记砖、瓦、瓦当与砌拱。与 `terms/hanjing.md`、`terms/boshanlu.md` 同属汉代器物群，但只有本条属于建筑构件。可与秦汉建筑技术、画像砖图像、四神方位合成 Topic。当前只到 Dimension。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 秦砖汉瓦是 B.5.6 的合称起点：砖四类（长方形砌墙砖、正方形铺地砖、空心砖、小条砖）与瓦两类（筒瓦、板瓦）加圆瓦当并列，得名「烧成后吸水有声」只归夏燕靖两版；赵农另给陶制砖瓦为土木建筑提供屋顶材料、「砖瓦的统一轻便，也为中原土木建筑样式的成型提供了必要条件」，并记楔形与榫头形异形砖用于砌垒拱顶——合称不按秦、汉分述构件类型，本 Topic 不据此把「秦砖」「汉瓦」读成两个时代
 
 ## 相关知识元
 

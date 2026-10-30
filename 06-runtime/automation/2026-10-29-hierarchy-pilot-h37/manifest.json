@@ -1,0 +1,118 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h37",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 Theme B.9「青铜与金属：器形、铸造与装饰」与其下 B.9.1、B.9.2 两个 Topic，并主挂载 20 个 KU",
+  "scope": {
+    "baseline_hierarchy_version": "v1.27",
+    "baseline_themes": 23,
+    "baseline_topics": 71,
+    "baseline_topic_memberships": 514,
+    "baseline_complete_assignments": 507,
+    "baseline_incomplete_assignments": 2063,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7019,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1021,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1268
+  },
+  "result": {
+    "hierarchy_version": "v1.28",
+    "themes": 24,
+    "topics": 73,
+    "topic_memberships": 534,
+    "complete_assignments": 527,
+    "incomplete_assignments": 2043,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7059,
+    "relation_types": "3/67",
+    "member_of_relations": 1061,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1263,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b9-qingtong-yu-jinshu-qixing-zhuzao-yu-zhuangshi.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md",
+      "04-knowledge/structure/topics/b9-zhuzao-gongyi-hefan-hunzhu-fenzhu-shila-jiuqi.md"
+    ],
+    "new_theme_nodes": 1,
+    "new_topic_nodes": 2,
+    "mounted_units": 20,
+    "secondary_mounted_units": 0,
+    "changed_units": 20,
+    "total_mounted_units": 527,
+    "new_topic_memberships": 20,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 13,
+      "representative_work": 3,
+      "procedure": 4
+    },
+    "type_distribution": {
+      "term": 13,
+      "work": 3,
+      "procedure": 4
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。20 个 KU 的 primary_dimension 均为 B，B.9 的 secondary_dimensions 为 C、D，但本批不制造跨维度挂载。",
+    "taxonomy_split": "青铜容器器形与礼器组合→B.9.1；青铜铸造工艺与六齐→B.9.2；陶器器形→B.5；玉礼器→B.8；青铜器纹样与铭文→C；礼制制度史与官营作坊→D.6；兵器、乐器、铜镜、货币、农具与铁器（含叠铸）→后续 B.9 Topic。",
+    "planned_topics_not_created": [
+      "B.9 装饰工艺 Topic（编号待定）：错金银、镶嵌、刻划、金银平脱、三叠法，仍未物化",
+      "B.9 铜镜 Topic（编号待定）：汉镜、规矩镜、唐镜、宋镜、透光镜，仍未物化",
+      "B.9 兵器 Topic（编号待定）：戈、矛、钺、剑、戟、弩，仍未物化",
+      "B.9 乐器 Topic（编号待定）：编钟、八音、十二平均律，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "春秋战国青铜炊食器（terms/chunqiu-zhanguo-qingtong-chuishiqi）：十类器形合条与单器条目重叠，本批不挂载，登记为后续合并候选",
+      "叠铸技术（procedures/diezhu-jishu）：实物为东汉温县烘范窑车马器泥范，不属青铜容器工艺，不入 B.9.2",
+      "陶鼎、陶鬲、陶甗、陶豆等陶器器形→B.5：本批只在来源明说「由陶器演变」处引用",
+      "玉礼器→B.8：不把玉礼器与青铜礼器连成一条组合线",
+      "青铜器纹样（饕餮、蟠龙、云雷）与铭文→C：本批只取来源对纹样的著录事实",
+      "列鼎制度的政治功能与官营作坊组织→D.6：本批只取礼书所记数字与器类名称",
+      "兵器、乐器、铜镜、货币、农具→后续 B.9 Topic：本批只取容器"
+    ]
+  },
+  "changed_files": 28,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "青铜成分无实测：高丰（铜锡铅合金）与田自秉（红铜加锡）定义口径不同，六册无一件器物的合金比例检测；六齐换算基准（合金总量／纯铜）在五册中未声明",
+    "中国青铜时代起点只有「公元前 2000 年左右」一句，马厂文化铜刀无年代测定与成分数据",
+    "九类器形中只有爵与壶有尺寸；鼎、簋、鬲、甗、觚、尊、豆的容量、壁厚、重量与使用痕迹全无",
+    "列鼎等级数字三说并存（高丰「卿大夫七鼎」并另有「一说用十二鼎」、田自秉引《何休解诂》「诸侯七、卿大夫五、元士三」、夏燕靖 2016「元上三鼎一簋」），六册未给任何一座墓葬的完整组合与实测尺寸序列",
+    "礼器分类两套名称（大鼎／正鼎／羞鼎、镬鼎／升鼎／羞鼎）不能直接对应；「升鼎即列鼎」只有高丰一句",
+    "鼎的三足三解（稳定支撑、虚实对比、装足简便）是功能推断，无使用实验或力学分析；四点式／五点式无实物俯视图核验",
+    "鬲的起源三说不可裁；甗的穿孔铜片孔数与孔径未给；觚「可能是觥的借用品」一句未展开",
+    "杜岭方鼎是两件器物的合称，尺寸、重量、铭文与藏地全无；何尊器形与出土信息全无",
+    "莲鹤方壶年代（春秋／春秋中期）与高度（118／122 厘米）在来源间不一致",
+    "浑铸、分铸、焊接的先后两说不可裁：田自秉「浑铸→分铸→焊接」与李立新「分铸法最初是浑铸、后改为焊接」给出相反排列",
+    "同一件司母戊鼎的工艺定性在四册中不同（分铸法／一次性整体铸造／接铸），六册未给范块数与浇铸方位图",
+    "失蜡法出现上限有春秋早中期（高丰）与春秋晚期至战国（夏燕靖两版）两说；蜡料与铜料 1:10 比例无实验验证",
+    "合范法的泥料配比、朱笔颜料、阴干时间、焙烧温度、浇注温度与成品率全无；「一模翻数范」无范的实物计数",
+    "六齐六条中「金锡半」的读法、「鉴燧之齐」的用途与实测成分的对应均未说明；铅在配比中的地位只有李立新一句",
+    "春秋战国青铜炊食器十类合条与单器条重叠，未合并"
+  ],
+  "notes": "本批新建 B 维度第五条前近代 Theme B.9，不扩建既有 Theme。B.9 按「材料—器形—组合—工序」四层组织：材料层有两种合金定义而无成分检测，器形层有九类容器定义与分期而九类中只有爵与壶有尺寸，组合层有九鼎八簋与列鼎三说而全部出自礼书引文、无一座墓葬的完整组合，工序层有合范五步、范铸八阶段、浑铸／分铸／焊接、失蜡与六齐而泥料配比、焙烧温度与成品率全无。两个 Topic 按「器形—工艺」分工：B.9.1 取九类器形与三件器物，B.9.2 取青铜、六齐与四道工序；两者来源不同（器形多出夏燕靖 2016 器类表，工序多出夏燕靖 2009、田自秉与李立新），不能互相补足。五处并列不裁：列鼎等级三说、礼器分类两套名称、浑铸与分铸的先后两说、失蜡法出现上限两说、六齐换算基准未声明；另并列莲鹤方壶高度与年代、司母戊鼎三种工艺定性。边界：陶器器形归 B.5，玉礼器归 B.8，纹样与铭文归 C，礼制制度史与官营作坊归 D.6；兵器、乐器、铜镜、货币、农具与铁器（含叠铸）留后续 B.9 Topic；春秋战国青铜炊食器十类合条不挂载、登记为后续合并候选；叠铸技术（东汉温县烘范窑车马器泥范）不属青铜容器工艺，不入 B.9.2。20 个 KU 全部主挂载，各生成 topic 与 theme 两条 member_of，relation index 因此新增 40 条（20 topic + 20 theme），由 7019 增至 7059；隔离单元由 1268 减至 1263，5 个新挂载 KU 原无显式关系。knowledge_structure_quality 由 56/65 升至 57/65（hierarchy_assignment 覆盖提升），structural_health 保持 130。本批不 commit、不 push。"
+}

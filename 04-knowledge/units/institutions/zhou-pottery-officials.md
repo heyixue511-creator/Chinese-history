@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: boundary_case
+    primary: true
+    scope_note: "周代制陶职官是「官」字的第一处可疑边界：来源把「土工」「搏埴之工」称为制陶者，又列陶人、旅（瓿）人为工种，却不说明是职官、工匠类别还是二者兼有；本 Topic 以 boundary_case 挂载，只用它证明分工名目早在西周已出现，不用它证明官署存在。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "周代制陶职官是 D 维度下官府手工业分工的条目，其陶人、旅人的成形方法归 B 维度；当前只到 Dimension。"
+hierarchy_scope_note: "周代制陶职官是「官」字的第一处可疑边界：来源把「土工」「搏埴之工」称为制陶者，又列陶人、旅（瓿）人为工种，却不说明是职官、工匠类别还是二者兼有；本 Topic 以 boundary_case 挂载，只用它证明分工名目早在西周已出现，不用它证明官署存在。"
 ---
 
 ## 描述
@@ -66,12 +74,10 @@ hierarchy_scope_note: "周代制陶职官是 D 维度下官府手工业分工的
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是西周官府制陶分工的条目，上接商代王室制陶作坊，下接秦汉官营陶窑。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 周代制陶职官是「官」字的第一处可疑边界：来源把「土工」「搏埴之工」称为制陶者，又列陶人、旅（瓿）人为工种，却不说明是职官、工匠类别还是二者兼有；本 Topic 以 boundary_case 挂载，只用它证明分工名目早在西周已出现，不用它证明官署存在。
 ## 相关知识元
 
 `institutions/shang-royal-pottery-workshop.md` 记商代王室制陶作坊；`institutions/qin-han-guan-ying-tao-yao.md` 记秦汉官营陶窑；`publications/kaogongji.md` 记《考工记》其书与工种体系。relation 未审查，不写入正式 `relations`。

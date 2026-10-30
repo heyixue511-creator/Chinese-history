@@ -26,17 +26,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "弩是 B 维度下春秋战国至秦汉的远射兵器条目，与弓箭、戈、矛、戟、殳同列车战常规兵器，秦汉段落在弩机上加刻度。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取臂弓机三部分、竹弓硬木臂、扳机钩心、秦汉弩机与汉代刻度；刻度的位置与单位无载，不得写成现代瞄准具。"
+hierarchy_scope_note: "弩是 B 维度下春秋战国至秦汉的远射兵器条目，与弓箭、戈、矛、戟、殳同列车战常规兵器，秦汉段落在弩机上加刻度。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -83,11 +91,10 @@ hierarchy_scope_note: "弩是 B 维度下春秋战国至秦汉的远射兵器条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 弩是春秋战国至秦汉的远射兵器，向上关联弓箭技术，向下关联弩机、青铜铸造与汉代刻度。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取臂弓机三部分、竹弓硬木臂、扳机钩心、秦汉弩机与汉代刻度；刻度的位置与单位无载，不得写成现代瞄准具。
 ## 相关知识元
 
 `terms/gongjian.md` 记弓箭；`terms/jianqi.md` 记箭器；`terms/mao.md` 记矛；`terms/chunqiu-zhanguo-qingtong-chuishiqi.md` 记春秋战国青铜兵器；`works/qin-bing-ma-yong.md` 记秦始皇兵马俑；`terms/pi-sword-spear.md` 记秦陵青铜铍。relation 未审查，不写入正式 `relations`。

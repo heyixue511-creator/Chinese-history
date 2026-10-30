@@ -1,4 +1,5 @@
 ---
+
 title: 青铜镰（Bronze Sickle）
 name_en: Bronze Sickle
 type: term
@@ -26,17 +27,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 青铜镰是 B 维度下商周青铜收割农具的条目，其与铚的分工属器用设计。Theme/Topic 尚未 materialize。
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取西周青铜镰由石刀演变、江苏仪征一件与镰铚套用；刃部角度与效率差异无载。"
+hierarchy_scope_note: "青铜镰是 B 维度下商周青铜收割农具的条目，其与铚的分工属器用设计。已挂载 B.12.2（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -57,10 +66,10 @@ hierarchy_scope_note: 青铜镰是 B 维度下商周青铜收割农具的条目�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 青铜镰是 B 维度下商周青铜收割农具的条目，其与铚的分工属器用设计。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取西周青铜镰由石刀演变、江苏仪征一件与镰铚套用；刃部角度与效率差异无载。
 
 ## 相关知识元
 

@@ -37,17 +37,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "陶鬶是 B 维度下龙山文化炊器的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b5-shiqian-gongneng-taoqi-chuizhu-zhengshi-fangsheng.md
+    role: term_anchor
+    primary: true
+    scope_note: "龙山文化炊煮器；空足受热与鸟喙流合一，大汶口至龙山有完整演变链"
+hierarchy_scope_note: "龙山文化炊煮器；空足受热与鸟喙流合一，大汶口至龙山有完整演变链"
 ---
 
 ## 描述
@@ -74,10 +82,10 @@ hierarchy_scope_note: "陶鬶是 B 维度下龙山文化炊器的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 陶鬶是 B 维度下龙山文化炊器的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-shiqian-gongneng-taoqi-chuizhu-zhengshi-fangsheng.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 龙山文化炊煮器；空足受热与鸟喙流合一，大汶口至龙山有完整演变链
 
 ## 相关知识元
 

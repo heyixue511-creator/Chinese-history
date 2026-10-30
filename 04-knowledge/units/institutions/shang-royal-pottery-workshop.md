@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: key_institution
+    primary: true
+    scope_note: "商代王室制陶作坊是陶业官府组织链的最早节点，以郑州商代窑场遗址 1400 平方米、14 座陶窑、几十万件残片与陶杵陶拍陶印模为规模证据；来源未说窑场与王室的隶属，本 Topic 只取规模、产品分级与明器分工，不补隶属。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "商代王室制陶作坊是 D 维度下王室手工业组织与 B 维度陶器生产的交叠条目；当前只到 Dimension，Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "商代王室制陶作坊是陶业官府组织链的最早节点，以郑州商代窑场遗址 1400 平方米、14 座陶窑、几十万件残片与陶杵陶拍陶印模为规模证据；来源未说窑场与王室的隶属，本 Topic 只取规模、产品分级与明器分工，不补隶属。"
 ---
 
 ## 描述
@@ -66,12 +74,10 @@ hierarchy_scope_note: "商代王室制陶作坊是 D 维度下王室手工业组
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是商代王室手工业组织与陶器生产的交叠样本，可与周代制陶职官、秦汉官营陶窑构成官营陶业序列。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 商代王室制陶作坊是陶业官府组织链的最早节点，以郑州商代窑场遗址 1400 平方米、14 座陶窑、几十万件残片与陶杵陶拍陶印模为规模证据；来源未说窑场与王室的隶属，本 Topic 只取规模、产品分级与明器分工，不补隶属。
 ## 相关知识元
 
 `institutions/zhou-pottery-officials.md` 记西周制陶职官与陶人、旅人分工；`institutions/qin-han-guan-ying-tao-yao.md` 记秦汉官营陶窑；`procedures/tao-qi-zhi-zuo.md` 一类工序条目记陶器成形与烧造。relation 未审查，不写入正式 `relations`。

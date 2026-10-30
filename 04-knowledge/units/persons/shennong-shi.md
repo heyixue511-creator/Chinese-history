@@ -1,4 +1,5 @@
 ---
+
 title: 神农氏（Shennong Shi）
 name_en: Shennong Shi
 type: person
@@ -33,19 +34,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.12
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md
+    role: key_person
+    primary: true
+    scope_note: "只作传说时代农具发明者的 key_person 挂载；生平不可考，confidence 为 low，不补来源外事迹。"
 secondary_dimensions:
   - A
-hierarchy_scope_note: "神农氏是 B 维度下农业与农具起源的传说人物，其“尝百草”亦关联医药知识。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "神农氏是 B 维度下农业与农具起源的传说人物，其“尝百草”亦关联医药知识。已挂载 B.12.1（农具与农业技术：耕作、收割与提水）。"
 ---
 
 ## 描述
@@ -84,10 +93,10 @@ hierarchy_scope_note: "神农氏是 B 维度下农业与农具起源的传说人
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: A（设计史观与史学方法）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下农业与农具起源的传说人物，向下关联耒耜、骨耜、原始农具等条目；尝百草关联医药知识。Theme/Topic 尚未 materialize。
+- primary_theme: B.12（农具与农业技术：耕作、收割与提水）
+- topic_memberships: topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只作传说时代农具发明者的 key_person 挂载；生平不可考，confidence 为 low，不补来源外事迹。
 
 ## 相关知识元
 

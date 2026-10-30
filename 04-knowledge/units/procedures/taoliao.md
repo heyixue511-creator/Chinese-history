@@ -29,17 +29,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "套料是 B 维度下清代料器装饰工序的条目，其器形、色彩与产地归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.7
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md
+    role: procedure
+    primary: true
+    scope_note: "B.7.3 主挂载：取套料的套烧—磨花工序（外套花纹色、内层地色）与同列搅料、刻纹、金星料；料器的定义与品种归 terms/liaoqi.md，纹样与配色解释归 C。"
+hierarchy_scope_note: "B.7.3 主挂载：取套料的套烧—磨花工序（外套花纹色、内层地色）与同列搅料、刻纹、金星料；料器的定义与品种归 terms/liaoqi.md，纹样与配色解释归 C。"
 ---
 
 ## 描述
@@ -60,10 +68,10 @@ hierarchy_scope_note: "套料是 B 维度下清代料器装饰工序的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（玻璃装饰工艺），与琉璃烧造同属玻璃质材料谱系但产品与工序不同；当前只到 Dimension。
+- primary_theme: B.7（玻璃与料器：仿玉、输入与本土生产）
+- topic_memberships: topics/topics/b7-liaoqi-yu-boli-gongye-boshan-zaobanchu-jindai.md.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: B.7.3 主挂载：取套料的套烧—磨花工序（外套花纹色、内层地色）与同列搅料、刻纹、金星料；料器的定义与品种归 terms/liaoqi.md，纹样与配色解释归 C。
 
 ## 相关知识元
 

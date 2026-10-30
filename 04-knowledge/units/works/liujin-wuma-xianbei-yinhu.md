@@ -37,17 +37,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本 KU 是 B 维度下盛唐金银器的器物锚点，也涉及 E 维度的游牧文化影响。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md
+    role: representative_work
+    primary: true
+    scope_note: "只取盛唐何家村鎏金舞马衔杯银壶的舞马局部鎏金、锤揲皮囊形与「十三两半」墨书；舞马诗与千秋节表演归 C／D，金银器谱系归后续 B.9.5。"
+hierarchy_scope_note: "本 KU 是 B 维度下盛唐金银器的器物锚点，也涉及 E 维度的游牧文化影响。已挂载 B.9.4（金属表面装饰：印纹、镶嵌、错金银、鎏金与刻划）。"
 ---
 
 ## 描述
@@ -71,11 +79,10 @@ hierarchy_scope_note: "本 KU 是 B 维度下盛唐金银器的器物锚点，�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下盛唐金银器的器物锚点，也涉及 E 维度的游牧文化影响。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinshu-biaomian-zhuangshi-yinwen-xiangqian-cuojin-liujin-kehua.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取盛唐何家村鎏金舞马衔杯银壶的舞马局部鎏金、锤揲皮囊形与「十三两半」墨书；舞马诗与千秋节表演归 C／D，金银器谱系归后续 B.9.5。
 ## 相关知识元
 
 与唐代银香囊同属何家村金银器谱系。relation 未审查。

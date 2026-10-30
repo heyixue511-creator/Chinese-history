@@ -24,17 +24,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "杠杆是 B 维度下工具原理的条目，来源只作概念性叙述，未给实物。Theme/Topic 尚未 materialize。"
+primary_theme: B.16
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取 L1994 一段：杠杆作为平衡的原理有省力作用、石器时期原始先民以木棒猎食与撬石中体验发现、有意利用杠杆制成平衡器具成为「权衡」或「衡器」概念雏形；来源未给实物，无支点、力臂与器物。"
+hierarchy_scope_note: "杠杆是 B 维度下工具原理的条目，来源只作概念性叙述，未给实物。已挂载 B.16.1（简单机械与力学原理：杠杆、滑轮与省力器具）。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "杠杆是 B 维度下工具原理的条目，来源只作
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 杠杆是工具一节的总原理条目，向上关联石器时期木棒的使用经验，向下关联权衡秤器、桔槔与滑轮等具体器具。Theme/Topic 尚未 materialize。
+- primary_theme: B.16（简单机械与力学原理：杠杆、滑轮与省力器具）
+- topic_memberships: topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取 L1994 一段：杠杆作为平衡的原理有省力作用、石器时期原始先民以木棒猎食与撬石中体验发现、有意利用杠杆制成平衡器具成为「权衡」或「衡器」概念雏形；来源未给实物，无支点、力臂与器物。
 
 ## 相关知识元
 

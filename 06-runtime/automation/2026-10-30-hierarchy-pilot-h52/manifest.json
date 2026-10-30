@@ -1,0 +1,148 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h52",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "在 Theme B.14 下补建 B.14.7「近现代家具：人造材料、公共器具与竹作」，把人造材料家具、公共器具与章水泉竹家具 3 个 KU 主挂载进去，闭合 h50 summary、h51 summary 与两份 manifest 连续三批登记为下一跳的「近代家具线 3 条与板式结构的材料侧仍空」。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.42",
+    "baseline_themes": 29,
+    "baseline_topics": 96,
+    "baseline_topic_memberships": 812,
+    "baseline_complete_assignments": 802,
+    "baseline_incomplete_assignments": 1768,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7612,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1614,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1102,
+    "baseline_b_dimension_unmounted": 1053
+  },
+  "result": {
+    "hierarchy_version": "v1.43",
+    "themes": 29,
+    "topics": 97,
+    "topic_memberships": 815,
+    "complete_assignments": 805,
+    "incomplete_assignments": 1765,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7618,
+    "relation_types": "3/67",
+    "member_of_relations": 1620,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1100,
+    "b_dimension_unmounted": 1050,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 0,
+    "new_theme_nodes": 0,
+    "theme_updated": 1,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 3,
+    "secondary_mounts": 0,
+    "changed_units": 3,
+    "total_mounted_units": 805,
+    "new_topic_memberships": 3,
+    "theme_organization": "B.14.7 是 B.14 的第七条线、也是唯一一条跨 1949 年分界的线。它把三条分属不同册、不同章、不同叙述目的的条目并置：田自秉 2010 的「解放后」材料替代（人造板、钢管、塑料）与结构转型（框式向板式），赵农 2009 的「现代」公共器具（办公家具与公共场所器具两分、家具社会化），田自秉 2010 的广济（古称蕲州）竹家具名手章水泉（小竹片拼椅面、竹枝牙拼图案）。三者在来源中没有一处互引，本库按「材料—场合—竹作」三条路径并置，是因为三条各自回答了家具变化的一个必要条件，但没有任何两册把它们连成一条线——这一刀与前六刀一样是本库取舍。",
+    "topic_split": "B.14.7 三条（term 2、person 1；term_anchor 2、key_person 1）。三条不重复计入主挂载。章水泉是本 Theme 唯一的人物条目，也是唯一的近代手工竹作条；人造材料家具与公共器具两条均为类别条，不指向具体器物。",
+    "role_distribution": {
+      "term_anchor": 2,
+      "key_person": 1
+    },
+    "type_distribution": {
+      "term": 2,
+      "person": 1
+    },
+    "source_distribution": {
+      "2010-tianzibing": 2,
+      "2009-zhaonong": 1
+    },
+    "source_overlap_distribution": {
+      "single_book": 3
+    },
+    "confidence_distribution": {
+      "medium": 3
+    },
+    "consensus_distribution": {
+      "tentative": 3
+    },
+    "theme_cumulative": {
+      "topics": 7,
+      "mounted_units": 53,
+      "type_distribution": {
+        "term": 44,
+        "work": 2,
+        "procedure": 2,
+        "publication": 4,
+        "person": 1
+      },
+      "role_distribution": {
+        "term_anchor": 39,
+        "source_publication": 4,
+        "procedure": 3,
+        "boundary_case": 2,
+        "historical_context": 2,
+        "representative_work": 2,
+        "key_person": 1
+      },
+      "source_distribution": {
+        "2009-zhaonong": 30,
+        "2016-xiayanjing": 17,
+        "2004-gaofeng": 13,
+        "2010-tianzibing": 10,
+        "2009-xiayanjing": 5,
+        "2011-lilixin": 2
+      },
+      "coverage_note": "B.14 至此七个 Topic 五十三条：器物层两个 Topic 36 条、解释层四个 Topic 14 条、近代线一个 Topic 3 条。B.14.7 是七个 Topic 中来源最薄的一处：3 条全为单册，田自秉 2 条、赵农 1 条，夏燕靖 2016 记板式结构与钢管塑料却不记章水泉与公共器具，夏燕靖 2009、高丰 2004、李立新 2011 三条零覆盖。全 Theme 单册来源由此由 36 升至 39（双册 11、三册 1、五册 1），六册全覆盖仍只有胡床一条。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：3 条 primary_dimension 全部为 B；Topic 的 secondary_themes 为裸维度码 C／D，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "竹编工艺体系：procedures/zhubian-yishu-jiagong 仍未挂载；本 Topic 只取章水泉个人的拼竹做法，竹编方法与工具留待传统工艺线",
+      "办公文具本体：铅笔、钢笔、圆珠笔、橡皮、尺子、削刀、墨水只作赵农「办公用品范围」的列举，不另立 KU",
+      "器物形制：办公桌椅、文件柜、沙发、折叠椅、电脑桌、影剧院座椅、屏风等只作类别列举，不据列补形制、尺寸或图式",
+      "工业组织与生产体制：工厂、产量、采购与配置制度归 D 维度（D.1、D.5）",
+      "板式结构本体：terms/banshi-jiegou 已以结构侧挂入 B.14.3，材料侧出自同一段来源、随本条挂入 B.14.7，不重复挂载",
+      "明清器物与风格：明式、清式、三大名作归 B.14.5；红木、漆木家具、木画归 B.14.4"
+    ],
+    "handoff_note": "本批是 h50 summary 第九节、h51 summary 第九节与两份 manifest unresolved 中「近代家具线 3 条（人造材料家具、公共器具、章水泉竹家具）与板式结构的材料侧仍空」这一项的落点，并在 Theme 未解决问题、summary 第九节与 manifest unresolved 三处同时改写该债务：B.14 至此七个 Topic 五十三条，h49 以来的家具线缺口全部闭合。被改写的既有节点为 Theme B.14 本体、themes/README.md 与 topics/README.md 的 B.14 条目计数；B.14.3 的「材料侧与该线三条仍空」一句未回改，由本 Topic 与 Theme 边界说明其已落地。"
+  },
+  "changed_files": 17,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "04-knowledge/structure/themes/b14-jiaju-yu-qiju-fangshi-zuowoju-pingfeng-yu-chengju.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/dimension-candidates.md"
+  ],
+  "unresolved": [
+    "三条都无第二册复核：人造材料与章水泉出自田自秉 2010，公共器具出自赵农 2009，无一条被两册以上同时记载；夏燕靖 2016 记板式结构与钢管塑料，却不记章水泉与公共器具，两册对「新材料」的取径互不重叠。",
+    "三条无一年代可定：人造材料条以「解放后」为界，公共器具条只称「现代」，章水泉条只有广济／蕲州的产地沿革与韩愈诗、《群芳谱》两处古证；三条无法排成时间序列，「近代家具」在本库内只是三个片段的合称，不是一个时期。",
+    "板式结构的材料侧与结构侧出自同一段来源（田自秉 L5367），本库按材料／结构拆挂 B.14.7 与 B.14.3，读者若分别查证会重复读到同一段；这是 B.14 七个 Topic 中唯一在证据侧不彻底的一刀。",
+    "人造材料条的材料判断无任何支撑数据：人造板五类（胶合板、纤维板、刨花板、蜂窝板、细木板）的性能与规格、钢管型材尺寸、塑料种类、构件连接方式与板材厚度全无；「更省工、轻便、简洁明快」是断语，无比较对象与实测。",
+    "人造材料条写到钢管圆型、方型、异型与电镀、深冲、冷弯、静电喷涂、红外烘烤，称家具工艺「成为现代技艺的综合生产过程」，但工序只到名称，无工艺参数、无设备、无产地与工厂，D 维度的生产体制亦未挂。",
+    "公共器具条无设计者、无尺度标准、无采购与配置制度：列举十余场所与二十余种器具，没有一件的形制、尺寸或使用方式；「家具社会化的热闹景象」只有这一句，无对象、无年代、无规模。",
+    "办公文具（铅笔、钢笔、圆珠笔、橡皮、尺子、削刀、墨水）被列入「办公用品的范围」，但文具是否属家具、为何与文件柜同列，来源未界定；本 Topic 照录不裁。",
+    "章水泉无生卒、无师承、无作品目录、无家具尺寸与制作年代；「野五里竹」的植物学归属、竹片规格、拼合方式与图案母题全无，唯一的具体做法是「用小竹片拼成椅面，用竹枝牙拼成图案」一句。",
+    "竹作与工业化两条线在六册中从未被对照：既无一处判断手工竹作在 1949 年后的处境，也无一处说明人造材料家具是否取代了竹家具；章水泉的「小竹片拼椅面」与板式结构的人造板同属「拼」，但一为做法、一为材料，来源未作区别。",
+    "竹编工艺体系仍无落点：procedures/zhubian-yishu-jiagong 无 primary_theme、无 topic_memberships，本批只取章水泉的个人做法，竹编的选料、劈丝、编织与工具全无归属，需在传统工艺线（B.4）另立 Topic 或并入既有 Topic。",
+    "全库未挂载 KU 仍有 1765 个、隔离单元 1100 个、B 维度未挂载 1050 个；本批只减 3 条，家具线闭合不改变全库挂载率的主体缺口。",
+    "B.14.3 Topic 边界中「材料侧与该线三条仍空」一句未回改，与 B.14 本体及本批两处说明并存；该句属 h51 落盘文本，需在后续维护中回改指向 B.14.7。"
+  ],
+  "notes": "推导口径：relation 增量 6 = 3 条主挂载 ×（topic member_of + theme member_of），关系总数 7612 → 7618，explicit 5998 不变、inferred／member_of 1614 → 1620，与 build_relation_index.py 实测一致。隔离单元 1102 → 1100，减 2 而非 3，取自 audit_relation_consistency.py 前后两次实测（3 条中有 1 条原已有显式关系），该差值不是按条数推算。B 维度未挂载 1053 → 1050，减 3（3 条 primary_dimension 全部为 B）；全库未挂载 1768 → 1765。membership 812 → 815（+3），complete 802 → 805（+3），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.14.7 三条全为单册（田自秉 2010 2、赵农 2009 1），medium 3、tentative 3，无尺寸、无产量、无人数。B.14 累计七 Topic 五十三（term 44、work 2、procedure 2、publication 4、person 1；term_anchor 39、source_publication 4、procedure 3、boundary_case 2、historical_context 2、representative_work 2、key_person 1），来源赵农 30、夏燕靖 2016 17、高丰 13、田自秉 10、夏燕靖 2009 5、李立新 2，medium 44／low 9，单册 39、双册 11、三册 1、五册 1、六册 1。changed_files 17 = 本批 apply-plan 9 行（1 个 Topic 新建 + 1 个 Theme 更新 + 3 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、06-runtime/state/generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.42.md（87828 字节），按 h44–h46 口径不计入 changed_files。生成态次序按 h51 实测处理：manifest 与 summary 先落盘，再连续跑两次全量闭包（第 8 步 write health and backlog 在第 9 步重建 05-outputs/index/index.md 之前，单跑一次会残留 output_navigation_snapshot_stale），第二次后 rule_drift.findings 归 0、backlog 显示 No active items；随后 run_sync_closure.py --check-generated 第 17 步预计以 exit=1 报生成态与 HEAD 不一致，属未 commit 的预期。hierarchy_stress_test 报 v1.43、themes 29、topics 97、membership 815、complete 805、incomplete 1765、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 58/65（hierarchy_assignment 3/10 未变）、content_findings 0。工作区累计改动属 h13–h52 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

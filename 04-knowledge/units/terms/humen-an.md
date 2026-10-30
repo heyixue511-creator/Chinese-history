@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: 本 KU 是 B 维度下唐代家具器形的条目，证据仅及图注。Theme/Topic 尚未 materialize。
+primary_theme: B.14
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取图 6-36 图注这一证据事实；正文未单列，形制、尺寸、壶门轮廓与使用场景全无，图版未核，不据图补写。"
+hierarchy_scope_note: 本 KU 是 B 维度下唐代家具器形的条目，证据仅及图注。已挂载 B.14.2（家具与起居方式：坐卧具、屏风与承具）。
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: 本 KU 是 B 维度下唐代家具器形的条目，证据
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是 B 维度下唐代家具器形的条目，证据仅及图注。Theme/Topic 尚未 materialize。
+- primary_theme: B.14（家具与起居方式：坐卧具、屏风与承具）
+- topic_memberships: topics/b14-woju-pingfeng-yu-chengju-chuangta-jian-zhuoyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取图 6-36 图注这一证据事实；正文未单列，形制、尺寸、壶门轮廓与使用场景全无，图版未核，不据图补写。
 
 ## 相关知识元
 

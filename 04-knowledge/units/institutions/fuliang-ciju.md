@@ -43,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "浮梁瓷局是 D 维度下元代官方介入景德镇瓷业生产的制度节点，也是 C 维度青花瓷视觉体系得以成立的制度前提。Theme/Topic 尚未 materialize。"
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: key_institution
+    primary: true
+    scope_note: "浮梁瓷局是元代景德镇官方瓷业机构，也是本 Topic 分歧最大的一条：「全国惟一的官营瓷器作坊」（高丰）与「监督税收机构」（夏燕靖两版）两说相斥；本 Topic 并存不裁，并以其两说之差检验「设局生产」叙述的可靠度。"
+hierarchy_scope_note: "浮梁瓷局是元代景德镇官方瓷业机构，也是本 Topic 分歧最大的一条：「全国惟一的官营瓷器作坊」（高丰）与「监督税收机构」（夏燕靖两版）两说相斥；本 Topic 并存不裁，并以其两说之差检验「设局生产」叙述的可靠度。"
 ---
 
 ## 描述
@@ -76,11 +84,10 @@ hierarchy_scope_note: "浮梁瓷局是 D 维度下元代官方介入景德镇瓷
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是“官方制度如何塑造器物风格”的典型案例：浮梁瓷局的设置直接关联元青花的成立。可支持未来的官窑制度与风格生产类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 浮梁瓷局是元代景德镇官方瓷业机构，也是本 Topic 分歧最大的一条：「全国惟一的官营瓷器作坊」（高丰）与「监督税收机构」（夏燕靖两版）两说相斥；本 Topic 并存不裁，并以其两说之差检验「设局生产」叙述的可靠度。
 ## 相关知识元
 
 本批写回的釉里红、斗彩 KU 均为景德镇窑系品种，来源中与浮梁瓷局处于同一叙述链条，但 relation 未经审查，不写入正式 `relations`。本段不构成关系断言。

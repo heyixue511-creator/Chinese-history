@@ -23,17 +23,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "顾景舟在本册是宜兴紫砂与学院合作设计的个案：20 世纪 50 年代与中央工艺美术学院高庄教授合作“提璧茶具”，开创玉文化与紫砂造型融合的理念。对象是器物造型，归 B 维度（造物、工艺与生产技术）。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: key_person
+    primary: true
+    scope_note: "顾景舟是 B.5.5 紫砂谱系的现当代端点：1950 年代宜兴紫砂恢复生产后与高庄合作「提璧茶具」；2016 册把他记在任淦庭、吴云根两位老艺人之后，一句话带出其与学院教授的合作——六册中少见的「艺人＋学院」协作个案，也是紫砂谱系从师徒转入院校协作的唯一证据"
+hierarchy_scope_note: "顾景舟是 B.5.5 紫砂谱系的现当代端点：1950 年代宜兴紫砂恢复生产后与高庄合作「提璧茶具」；2016 册把他记在任淦庭、吴云根两位老艺人之后，一句话带出其与学院教授的合作——六册中少见的「艺人＋学院」协作个案，也是紫砂谱系从师徒转入院校协作的唯一证据"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "顾景舟在本册是宜兴紫砂与学院合作设计的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条锚定两点：一是紫砂造型对玉器语汇的移植（“玉文化与紫砂造型艺术融于一体”），二是 1950 年代“艺人—学院教授”的合作设计机制。原文对茶具形制本身无描述，理念表述只有一句。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 顾景舟是 B.5.5 紫砂谱系的现当代端点：1950 年代宜兴紫砂恢复生产后与高庄合作「提璧茶具」；2016 册把他记在任淦庭、吴云根两位老艺人之后，一句话带出其与学院教授的合作——六册中少见的「艺人＋学院」协作个案，也是紫砂谱系从师徒转入院校协作的唯一证据
 
 ## 相关知识元
 

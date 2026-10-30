@@ -30,17 +30,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "竹编艺术加工方法是 B 维度下竹材编织与装饰工序的条目，其地方品类与名匠归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.17
+secondary_themes:
+  - D
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md
+    role: procedure
+    primary: true
+    scope_note: "只取竹编五法各一句定义（编织、车花、拼花、穿珠、翻簧）与刻花烫花彩漆、四川八项地方品类、自贡龚扇；无竹材处理、篾丝宽度、编织密度与刀具形制。"
+hierarchy_scope_note: "竹编艺术加工方法是 B 维度下竹材编织与装饰工序的条目，其地方品类与名匠归 B 维度。已挂载 B.17.1（竹材与编织工艺：席、竹编、竹刻与藤器）。"
 ---
 
 ## 描述
@@ -65,10 +74,10 @@ hierarchy_scope_note: "竹编艺术加工方法是 B 维度下竹材编织与装
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（竹材加工与编织），与新石器编织条目构成古今两段，但材料处理与工艺复杂度不同；当前只到 Dimension。
+- primary_theme: B.17（竹材与编织工艺：席、竹编、竹刻与藤器）
+- topic_memberships: topics/b17-bianzhi-xi-shengsuo-zhubian-wufa-yu-difang-pinlei.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取竹编五法各一句定义（编织、车花、拼花、穿珠、翻簧）与刻花烫花彩漆、四川八项地方品类、自贡龚扇；无竹材处理、篾丝宽度、编织密度与刀具形制。
 
 ## 相关知识元
 

@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: representative_work
+    primary: true
+    scope_note: "只取战国随县「单纯用金银制作器皿」的例证与图注器名；「蟻螭纹」照录存疑，尺寸、墓葬与工序无载，纹样母题归 C。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度战国金银饮食器的器物锚点，纹饰与镂空装饰效果归 C 维度为次。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度战国金银饮食器的器物锚点，纹饰与镂空装饰效果归 C 维度为次。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -61,11 +69,10 @@ hierarchy_scope_note: "本条是 B 维度战国金银饮食器的器物锚点，
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度战国金银饮食器的器物锚点，纹饰与镂空装饰效果归 C 维度为次。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取战国随县「单纯用金银制作器皿」的例证与图注器名；「蟻螭纹」照录存疑，尺寸、墓葬与工序无载，纹样母题归 C。
 ## 相关知识元
 
 `places/zenghouyi-tomb.md` 已把随县所出金匙、金盏记作该墓区金器材料，并给彩版15；本条只记两器本身，不重复墓葬叙述。`terms/panchi-wen.md` 记蟠螭纹，疑与本条图注的蟻螭纹相关；`terms/jin-qi.md` 记金器工艺。relation 未审查。

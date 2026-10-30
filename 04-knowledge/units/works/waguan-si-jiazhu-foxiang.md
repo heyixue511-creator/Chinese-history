@@ -1,4 +1,5 @@
 ---
+
 title: 瓦棺寺夹纻佛像（Lacquer Buddha Statues of Waguan Temple）
 name_en: Lacquer Buddha Statues of Waguan Temple
 type: work
@@ -27,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只取戴逵五躯、三绝并称与行像；夹纻工序归 B.11.1，佛像图像归 C。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "瓦棺寺夹纻佛像 是 B 维度下晋代夹纻佛教造像的器物条目，其三绝并称与维摩诘像的图像关系归 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "瓦棺寺夹纻佛像 是 B 维度下晋代夹纻佛教造像的器物条目，其三绝并称与维摩诘像的图像关系归 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "瓦棺寺夹纻佛像 是 B 维度下晋代夹纻佛教�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 瓦棺寺夹纻佛像 是 B 维度下晋代夹纻佛教造像的器物条目，其三绝并称与维摩诘像的图像关系归 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取戴逵五躯、三绝并称与行像；夹纻工序归 B.11.1，佛像图像归 C。
 
 ## 相关知识元
 

@@ -1,0 +1,159 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h54",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.16「简单机械与力学原理：杠杆、滑轮与省力器具」，下建 B.16.1「省力原理与器具的分置：杠杆、滑轮、桔槔、辘轳与权衡秤器」，把两条无器物的原理条与一部力学文本作主挂载（杠杆、滑轮、《墨经》），把分散在三个 Theme 的四条器具作次挂载（桔槔、辘轳、权衡秤器、陶井），闭合 B.13、B.13.2 与 B.15 边界中连续登记为「留待简单机械线」的债务。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.44",
+    "baseline_themes": 30,
+    "baseline_topics": 98,
+    "baseline_topic_memberships": 823,
+    "baseline_complete_assignments": 813,
+    "baseline_incomplete_assignments": 1757,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7634,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1636,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1094,
+    "baseline_b_dimension_unmounted": 1042
+  },
+  "result": {
+    "hierarchy_version": "v1.45",
+    "themes": 31,
+    "topics": 99,
+    "topic_memberships": 830,
+    "complete_assignments": 816,
+    "incomplete_assignments": 1754,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7644,
+    "relation_types": "3/67",
+    "member_of_relations": 1646,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1093,
+    "b_dimension_unmounted": 1039,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "theme_updated": 0,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 3,
+    "secondary_mounts": 4,
+    "changed_units": 7,
+    "total_mounted_units": 816,
+    "new_topic_memberships": 7,
+    "theme_organization": "B.16 不按材料也不按朝代分组，而按「原理—文本—器具—证据」四层分组，且只有一个 Topic。理由是本库首次遇到「主挂载对象少于次挂载对象」的情形：六册中「简单机械」从未作为一个类别出现，可作为主挂载的只有两条声明无实物的原理条（杠杆、滑轮）与一部力学文本（《墨经》），而真正有构造描述的器具（桔槔、辘轳、权衡秤器、陶井）分属提水、计量、明器三条既有线，其主归属不应因本 Theme 的建立而迁移。因此本 Theme 采用「原理归本 Theme、器具作次挂载」的结构，并在 Theme 与 Topic 正文中明写这一刀是本库安排而非来源安排。",
+    "topic_split": "B.16.1 七条：主挂载 3（杠杆、滑轮、《墨经》），次挂载 4（桔槔、辘轳、权衡秤器、陶井）。不按原理类型（杠杆系／轮轴系／滑轮系）切分，因为每类在本库只有一条至两条，切开会使每个 Topic 只剩一条，且六册从未按原理类型组织这些条目。",
+    "role_distribution": {
+      "term_anchor": 5,
+      "supporting_source": 1,
+      "representative_work": 1
+    },
+    "type_distribution": {
+      "term": 5,
+      "publication": 1,
+      "work": 1
+    },
+    "source_distribution": {
+      "2009-zhaonong": 6,
+      "2009-xiayanjing": 1,
+      "2016-xiayanjing": 1,
+      "2011-lilixin": 1
+    },
+    "source_overlap_distribution": {
+      "single_book": 6,
+      "three_books": 1
+    },
+    "confidence_distribution": {
+      "medium": 5,
+      "low": 2
+    },
+    "consensus_distribution": {
+      "tentative": 7
+    },
+    "primary_vs_secondary": {
+      "primary": 3,
+      "secondary": 4
+    },
+    "secondary_hosts": {
+      "terms/jiegou-well-sweep.md": "B.12.2",
+      "terms/windlass.md": "B.12.2",
+      "terms/hengqi-balance.md": "B.13.2",
+      "works/taojing.md": "B.5.3"
+    },
+    "theme_cumulative": {
+      "topics": 1,
+      "mounted_units": 7,
+      "type_distribution": {
+        "term": 5,
+        "publication": 1,
+        "work": 1
+      },
+      "role_distribution": {
+        "term_anchor": 5,
+        "supporting_source": 1,
+        "representative_work": 1
+      },
+      "source_distribution": {
+        "2009-zhaonong": 6,
+        "2009-xiayanjing": 1,
+        "2016-xiayanjing": 1,
+        "2011-lilixin": 1
+      },
+      "coverage_note": "B.16 是本库首个主挂载少于次挂载的 Theme（3 对 4），也是首个主挂载对象全部无实物的 Theme：杠杆条自陈「来源未给实物」，滑轮条只有《墨经》引文与一条汉画像石，《墨经》是文本而非器物。七条中 medium 5、low 2（杠杆、陶井）；六条为单册来源，《墨经》跨三册。高丰 2004 与田自秉 2010 对七条零覆盖。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：3 条主挂载 primary_dimension 全部为 B；Topic 与 Theme 的 secondary_themes 为裸维度码 A（源自《墨经》条已有的 secondary_dimensions: [A]），按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "农具与耕作：耒耜、骨耜、犁、耧归 B.12.1",
+      "收割与加工器具的主归属：石镰、青铜镰、石磨盘和磨棒、石磨、翻车主挂载仍在 B.12.2；翻车为链式提水，与杠杆、轮轴、滑轮无直接原理关联，不取次挂载",
+      "计量标准与货币：秦量、秦权、商鞅方升归 B.13.2，交钞、银元、人民币归 B.13.1；只取权衡秤器一条次挂载",
+      "水利工程：都江堰、郑国渠、西门渠、灵渠归 B.15.1",
+      "兵器与甲胄：归 B.9.4",
+      "其他陶质明器：陶仓楼、绿釉陶楼、说唱俑归 B.5.3；陶井只因图注记滑轮而入",
+      "车轮、指南车、水碓等轮轴或机械装置：六册未与杠杆、滑轮并读，不据原理相似性扩收",
+      "近代机械与动力：蒸汽机、纺织机械、机床、抽水机归 B.1、B.4"
+    ],
+    "handoff_note": "本批闭合 B.13 主题文件边界「杠杆（`terms/lever`）与滑轮（`terms/pulley`）是力学原理与起重器具，不是计量标准；二者的概念雏形只在本 Theme 作参照引用，主归属留待简单机械线」、B.13.2 Topic 边界「不收杠杆与滑轮：两者是有原理而无器物的力学条目，属待建简单机械线」、B.13 未解决问题「杠杆与滑轮两条落在本 Theme 之外……简单机械线尚未物化」、B.15 与 B.15.1 边界「杠杆、滑轮归待建简单机械线」，以及 h50/h51/h52/h53 四份 summary 连续登记的「简单机械线仍无落点」。反向未处置：B.12.2、B.13.2、B.5.3 三个主归属 Theme/Topic 的正文与边界仍写「简单机械线尚未物化」，需在后续维护中改指向 B.16.1。"
+  },
+  "changed_files": 21,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "04-knowledge/structure/themes/b16-jiandan-jixie-lixue-yuanli-yu-shengli-qiju.md",
+    "04-knowledge/structure/topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/dimension-candidates.md"
+  ],
+  "unresolved": [
+    "「简单机械」不是六册的类别，而是本库为安置两条无实物的原理条而设的结构：杠杆条与滑轮条在来源中各占一段、前后相距十行，彼此不引；本 Theme 把它们与器具条并置，是结构性判断而非来源判断。",
+    "原理条无实物、器具条无原理：杠杆条自陈来源未给实物，滑轮条只有《墨经》引文与一条画像石，二者都不给支点位置、力臂长度、轮径或绳径；器具条只写动作。",
+    "无一处量化：「省力」没有比值，「平衡」没有配重比与力臂比，「起重」没有能力上限；唯一的数量级信息是大冶铜绿山「两件」辘轳的件数与「泗水捞鼎」的图名。",
+    "三条器具分属三个 Theme 的次挂载是本库安排：桔槔与辘轳在提水线、权衡秤器在计量线、陶井在明器线；六册从未把这四条并读，也未出现「杠杆系器具」的说法。",
+    "权衡秤器是全库唯一「实物—文本—术语」三层齐备的力学条目，却因目的在计量而归 B.13.2；其省力含义只能经本 Theme 的次挂载读出，主挂载侧不写这一层。",
+    "陶井的图注是滑轮唯一的器物证据，但图版未核、尺寸与出土地点未载、明器是否反映实物井架形制亦无说明；本库只用它作「滑轮在东汉已被画进井架」的最低证据。",
+    "《墨子·墨经》引文未给篇名，《经上》《经下》《经说》层次未分；「绳制挈之也」「挈，长重者下，短轻者上」只作平衡原理的解释而未逐句训释，本库照录不训。",
+    "名实不统一照录：「滑车亦称滑轮」为同物两名；杠杆条把「权衡」与「衡器」并列为概念雏形而未区分所指；桔槔与辘轳同为井上装置而原理不同，来源未作对比。",
+    "「杠杆原理在石器时期被体验和发现」是推测性回溯，无考古器物或图像支持；本库照录并标 low confidence，不把石器时期的木棒当作杠杆实物。",
+    "六册没有斜面、楔、螺旋、齿轮的条目，也没有把「简单机械」提升为分类或计算方法的文本：本 Theme 能回答「六册怎样写省力」，不能回答「中国古代简单机械如何发展」。",
+    "次挂载四条的主归属 Theme（B.12.2、B.13.2、B.5.3）正文与边界仍写「简单机械线尚未物化」，未回改指向 B.16。",
+    "B.16 采用「主挂载少于次挂载」的结构属本库首次，尚无同型先例可比；若后续维护认定器具主归属应迁移，本 Theme 的 3+4 结构需重估。"
+  ],
+  "notes": "推导口径：relation 增量 10（而非 14）= 3 条主挂载 ×（topic member_of + theme member_of）− 2 + 4 条次挂载 × 1；具体为 3×2 = 6 加 4×1 = 4，次挂载侧因原主归属已生成 theme member_of，只新增 topic member_of 一条，与 build_relation_index.py 实测 7634 → 7644、explicit 5998 不变、inferred 1636 → 1646 一致。隔离单元 1094 → 1093，减 1 而非 2：杠杆原有 2 条显式关系（非隔离），只有滑轮由隔离转为有边，取自 audit_relation_consistency.py 前后两次实测。B 维度未挂载 1042 → 1039，减 3（3 条主挂载 primary_dimension 全为 B）；全库未挂载 1757 → 1754。membership 823 → 830（+7），complete 813 → 816（+3），membership 与已挂载 KU 之差由 10 增至 14，double-mount 清单新增桔槔、辘轳（B.12.2→B.16.1）、权衡秤器（B.13.2→B.16.1）、陶井（B.5.3→B.16.1）。changed_files 21 = 本批 apply-plan 13 行（1 个 Theme 新建 + 1 个 Topic 新建 + 7 条挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.44.md（92404 字节，由编辑前的替换式逆推重建后归档，按 h44–h46 口径不计入 changed_files）。生成态次序按 h51 实测处理：manifest 与 summary 先落盘，再连续跑两次全量闭包（第 8 步 write health and backlog 早于第 9 步重建 05-outputs/index/index.md，单跑一次会残留 output_navigation_snapshot_stale），第二次后 rule_drift.findings 归 0；随后 --check-generated 第 17 步预计 exit=1，属未 commit 的预期。hierarchy_stress_test 报 themes 31、topics 99、membership 830、complete 816、incomplete 1754、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 58/65（hierarchy_assignment 3/10 未变）、content_findings 0。工作区累计改动属 h13–h54 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

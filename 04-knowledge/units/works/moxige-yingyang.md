@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b13-huobi-jiaochao-dao-renminbi.md
+    role: boundary_case
+    primary: true
+    scope_note: "只作龙洋重量的比较锚点与流通评价；非中国制作品，以 boundary_case 挂载，成色、版别、年代与流入量全无。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "墨西哥鹰洋是 B 维度下晚清流通外国银元的作品条目；其中外贸易与币制属性属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "墨西哥鹰洋是 B 维度下晚清流通外国银元的作品条目；其中外贸易与币制属性属 D 维度。已挂载 B.13.1（货币与度量衡：交换媒介与计量标准）。"
 ---
 
 ## 描述
@@ -54,10 +62,10 @@ hierarchy_scope_note: "墨西哥鹰洋是 B 维度下晚清流通外国银元的
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 墨西哥鹰洋是 B 维度下晚清流通外国银元的作品条目；其中外贸易与币制属性属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-huobi-jiaochao-dao-renminbi.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只作龙洋重量的比较锚点与流通评价；非中国制作品，以 boundary_case 挂载，成色、版别、年代与流入量全无。
 
 ## 相关知识元
 

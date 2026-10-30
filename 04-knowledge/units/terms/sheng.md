@@ -26,18 +26,26 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取簧管配合的多管乐器定义与女娲造笙传说；《吕氏春秋》伶伦十二筒是制律传说，不当作笙的起源实证，管数簧数与定音全无。"
 secondary_dimensions: []
-hierarchy_scope_note: "笙是 B 维度下簧管多管乐器的条目，其起源叙述属传说层，声学结构属工艺层。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "笙是 B 维度下簧管多管乐器的条目，其起源叙述属传说层，声学结构属工艺层。已挂载 B.10.3（弦管与鼓：丝竹匏革四目的乐器与鼓器）。"
 ---
 
 ## 描述
@@ -80,10 +88,10 @@ hierarchy_scope_note: "笙是 B 维度下簧管多管乐器的条目，其起源
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下簧管多管乐器的条目，其起源叙述属传说层，结构与声学属工艺层；向上关联原始乐器总论，向下关联骨笛、陶埙等材料。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取簧管配合的多管乐器定义与女娲造笙传说；《吕氏春秋》伶伦十二筒是制律传说，不当作笙的起源实证，管数簧数与定音全无。
 
 ## 相关知识元
 

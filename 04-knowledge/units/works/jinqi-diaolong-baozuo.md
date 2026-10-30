@@ -1,4 +1,5 @@
 ---
+
 title: 金漆雕龙宝座（Gilt-Lacquer Dragon Throne）
 name_en: Gilt-Lacquer Dragon Throne
 type: work
@@ -24,19 +25,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取金漆雕龙髹饰一面；宝座形制与清式家具谱系归家具线。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，其龙纹雕刻与屏风配置属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，其龙纹雕刻与屏风配置属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -81,10 +90,10 @@ hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下清式宫廷家具的器物条，是「家具装饰达到极致」的样本，可与明式家具的材料本色取向对照。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取金漆雕龙髹饰一面；宝座形制与清式家具谱系归家具线。
 
 ## 相关知识元
 

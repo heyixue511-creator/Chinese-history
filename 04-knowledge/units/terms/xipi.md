@@ -1,4 +1,5 @@
 ---
+
 title: 犀皮（Xipi (Marbled Lacquer)）
 name_en: Xipi (Marbled Lacquer)
 type: term
@@ -33,17 +34,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "犀皮是 B 维度下斑纹漆器工艺的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取稠漆起凸、分层刷色、磨炭打磨的工序与朱然墓最早实物；宋代与东吴两说并置不裁。"
+hierarchy_scope_note: "犀皮是 B 维度下斑纹漆器工艺的条目。已挂载 B.11.2（髹饰技法：金饰、刻填、磨显与镶嵌）。"
 ---
 
 ## 描述
@@ -62,10 +71,10 @@ hierarchy_scope_note: "犀皮是 B 维度下斑纹漆器工艺的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 犀皮是 B 维度下斑纹漆器工艺的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-jifa-jinqi-ketian-moxian-yu-xiangqian.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取稠漆起凸、分层刷色、磨炭打磨的工序与朱然墓最早实物；宋代与东吴两说并置不裁。
 
 ## 相关知识元
 

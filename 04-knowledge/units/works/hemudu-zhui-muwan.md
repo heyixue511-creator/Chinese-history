@@ -1,4 +1,5 @@
 ---
+
 title: 河姆渡朱漆木碗（Hemudu Red-Lacquered Wooden Bowl）
 name_en: Hemudu Red-Lacquered Wooden Bowl
 type: work
@@ -27,17 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "河姆渡朱漆木碗是 B 维度下中国漆器起源的器物锚点。河姆渡遗址的聚落、稻作与陶器留在 places/hemudu-site.md，漆器工艺的一般流程不在本条展开。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: representative_work
+    primary: true
+    scope_note: "只取距今约 7000 年的年代、生漆光谱鉴定与掺朱砂，作漆器起源的器物锚点；无尺寸与胎厚。"
+hierarchy_scope_note: "河姆渡朱漆木碗是 B 维度下中国漆器起源的器物锚点。河姆渡遗址的聚落、稻作与陶器留在 places/hemudu-site.md，漆器工艺的一般流程不在本条展开。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -63,10 +72,10 @@ hierarchy_scope_note: "河姆渡朱漆木碗是 B 维度下中国漆器起源的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是漆器起源链条上的器物锚点，上接史前木器与磨制石器带来的光泽、圆滑经验，下接商周漆器的镶嵌与彩绘。河姆渡遗址的年代、稻作与陶器留在 `places/hemudu-site.md`；良渚嵌玉高柄朱漆杯是另一件器物，本条只在相关知识元提及。当前只到 Dimension。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取距今约 7000 年的年代、生漆光谱鉴定与掺朱砂，作漆器起源的器物锚点；无尺寸与胎厚。
 
 ## 相关知识元
 

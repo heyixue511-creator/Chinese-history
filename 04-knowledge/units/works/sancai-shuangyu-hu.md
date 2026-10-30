@@ -21,17 +21,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度唐三彩的图版锚点，材料只有图注一行加三彩通说。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-diwen-you-tao-sanci-liuli.md
+    role: representative_work
+    primary: true
+    scope_note: "三彩双鱼壶在 B.5.4 承担明器线的制度证据：三彩曾列入官府丧葬的明文规定，按品级不同配不同随葬器具，厚葬之风是其迅速兴起的主因；器形与尺寸未载"
+hierarchy_scope_note: "三彩双鱼壶在 B.5.4 承担明器线的制度证据：三彩曾列入官府丧葬的明文规定，按品级不同配不同随葬器具，厚葬之风是其迅速兴起的主因；器形与尺寸未载"
 ---
 
 ## 描述
@@ -53,11 +61,10 @@ hierarchy_scope_note: "本条是 B 维度唐三彩的图版锚点，材料只有
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐三彩的图版锚点，材料只有图注一行加三彩通说。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-diwen-you-tao-sanci-liuli.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 三彩双鱼壶在 B.5.4 承担明器线的制度证据：三彩曾列入官府丧葬的明文规定，按品级不同配不同随葬器具，厚葬之风是其迅速兴起的主因；器形与尺寸未载
 ## 相关知识元
 
 同册唐代陶瓷器图版可参见 `works/fengshou-longbing-hu.md`（凤首龙柄壶）与 `works/baici-tiehua-dou.md`（白瓷贴花豆）；唐三彩的釉色与技术叙述未见独立 KU。本条不构成关系断言。

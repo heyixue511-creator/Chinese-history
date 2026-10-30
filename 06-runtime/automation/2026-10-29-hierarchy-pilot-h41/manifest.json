@@ -1,0 +1,122 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h41",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 Topic B.9.6「兵器与甲胄：长兵、短兵、远射与防护」，主挂载 20 个兵器、甲胄与造作 KU，并以次挂载承接越王勾践剑的兵器一面",
+  "scope": {
+    "baseline_hierarchy_version": "v1.31",
+    "baseline_themes": 24,
+    "baseline_topics": 76,
+    "baseline_topic_memberships": 585,
+    "baseline_complete_assignments": 578,
+    "baseline_incomplete_assignments": 1992,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7161,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1163,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1233
+  },
+  "result": {
+    "hierarchy_version": "v1.32",
+    "themes": 24,
+    "topics": 77,
+    "topic_memberships": 606,
+    "complete_assignments": 598,
+    "incomplete_assignments": 1972,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7202,
+    "relation_types": "3/67",
+    "member_of_relations": 1204,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1220,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md"
+    ],
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 1,
+    "mounted_units": 20,
+    "secondary_mounted_units": 1,
+    "changed_units": 21,
+    "total_mounted_units": 598,
+    "new_topic_memberships": 20,
+    "secondary_memberships": 1,
+    "role_distribution": {
+      "term_anchor": 13,
+      "procedure": 2,
+      "representative_work": 2,
+      "boundary_case": 3
+    },
+    "type_distribution": {
+      "term": 13,
+      "procedure": 2,
+      "work": 5
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。20 个主挂载 KU 的 primary_dimension 均为 B；越王勾践剑的 primary_dimension 亦为 B，本批只追加一条同维度次挂载（primary: false），不制造跨维度挂载。",
+    "taxonomy_split": "戈、矛、钺、戟、铍、剑、殳、钩镶、环首刀、弩、汉代铠甲、明光铠、筒袖铠→B.9.6 器名与形制层（term_anchor 13）；造剑、造甲→B.9.6 工序层（procedure 2）；吴王夫差矛、神臂弓→B.9.6 器物层（representative_work 2）；人面纹铜钺、铁刃铜钺、玉柄铁剑→B.9.6 边界层（boundary_case 3）；越王勾践剑→B.9.4 主挂载、B.9.6 次挂载（representative_work，primary: false）；青铜容器器形与礼器组合→B.9.1；合范浑铸分铸失蜡与六齐→B.9.2；铜镜型式、纹样与铸镜→B.9.3；印纹、镶嵌、错金银、鎏金与刻划→B.9.4；花丝、景泰蓝、画珐琅与金银器→B.9.5；玉钺的礼制义→B.8.4；冶铁技术史、铁范、叠铸、百炼钢与炒钢→后续铁器与叠铸 Topic；弓箭、箭器、火药、火铳与旋风炮不纳入；车战编制、战车、斧车与战船不纳入；甲胄与服饰的等级关联→服饰 Theme。",
+    "planned_topics_not_created": [
+      "B.9 乐器 Topic（编号待定）：编钟、八音、十二平均律，仍未物化",
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸、百炼钢与炒钢，仍未物化",
+      "B.9 货币与农具 Topic（编号待定）：货币形制、农具与铁农具，仍未物化",
+      "漆器 Theme（编号待定）：髹漆、描金、戗金、螺钿、雕漆、剔犀、百宝嵌，仍未物化",
+      "前近代服饰与甲胄等级 Theme（编号待定）：舆服制度、甲胄与服饰等级，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "冶铁技术史（陨铁、块炼铁、铁范、叠铸、百炼钢、炒钢）：铁刃铜钺与玉柄铁剑只作战器边界，材料判定与工序归后续铁器 Topic",
+      "燕下都 12 件铁制长戟与南阳铁矛：只作形制对照引用，铁戟锻造不另挂载",
+      "弓箭、箭器、火药、火铳与旋风炮：六册相关内容不成器名序列，本批不纳入",
+      "车战编制、战车、斧车与战船：属编制与交通工具，不属兵器器名，不纳入",
+      "甲胄与服饰的等级关联：汉代铠甲的服饰段材料只作并列陈述，等级制度归服饰 Theme",
+      "玉钺的礼制义：归 B.8.4，本批只取钺的石斧渊源、穿绳与銎孔之别与妇好墓实例",
+      "季札赠剑（events/ji-zha-gift-sword）：primary_dimension 为 A，属叙事事件，不挂载",
+      "春秋战国青铜炊食器十类合条：与单器条重叠，登记为后续合并候选，本批不挂载",
+      "兵器纹样母题与人面纹构图解释：归 C，本批只取器名、形制与工序"
+    ]
+  },
+  "changed_files": 27,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "三层不能排成装备序列：长兵、短兵与远射、防护之间没有一件共同的攻防对应，六册也没有「攻—防—工序」的对应记载；本 Topic 的三层划分是整理框架，不是来源结论。",
+    "戈的「戈后来发展为钺、戟、矛、殳」与同书钺「从石斧中发展起来」方向不同：一处把钺列为戈的后继，一处把钺归石斧，来源未调和，本 Topic 两存。",
+    "酋矛的兵种归属两说：L1327 称酋矛为步兵所用、长 2 丈，L1836 把酋矛列为车兵常规利器（身高 1.5 倍）；同一册前后不一致，本 Topic 两存待考。",
+    "戈、矛、戟、殳的原文用字未统一：「秘」疑为「柲」、戈条作「镈」而通行作「鐏」、殳条首句「反」为「殳」之误、戟条「蒿城」通行作「藁城」；已标疑照录，未径改。",
+    "铜钺的「钱」为「钺」之误，照录标疑；妇好墓 9 公斤双虎食人钺是唯一重量数据，钺的通长、刃宽与銎口全无。",
+    "铍的形制只有比较句：与矛比多砍、与剑比加重；通长、刃部尺寸、装柄方式与秦俑坑出土数量均未载，「失传」的判断也无年代。",
+    "青铜剑的 30 厘米上限与「剑的出现成为兵器发展历史中的一个特例」都是概括句，未给样本量与测量口径；蚩尤造剑为传说，无考古实证。",
+    "环首刀的 100 厘米长度没有材质、装具、刀鞘与出土实物；「汉代刀具逐渐代替铁剑」是趋势判断，未给出土比例或年代序列。",
+    "弩与神臂弓的记载分属两册两处：一册给臂弓机结构与汉代刻度，同册另引《梦溪笔谈》给神臂弓性能与望山小矩；刻度加在弩机哪个部件、单位为何未说明，不得写成现代瞄准具。",
+    "甲胄三条只有形制名与结构句：筒袖铠的甲片尺寸、编缀材料与筒袖长度无载；明光铠的两块圆护直径、铜铁之别与抛光工艺无载；汉代铠甲的鱼鳞甲与札甲只有名称，没有甲片规格与编缀方式。",
+    "汉代铠甲的两段主题未合并：L2784 的兵器段讲材质与类型，L3069-L3073 的服饰段讲秦俑、汉俑的甲衣、等级与防护，来源自己标明主题不同，本 Topic 并列呈现，不合成统一分类。",
+    "造剑与造甲都只有一段宋代材料且 confidence 为 low：造剑没有剑身与刃部的复合结构、含碳量、锻打次数与淬火制度；造甲没有甲片形制、材料、层数与编缀方式，「五十步强弩射之不能入」是唯一量化指标。",
+    "铁刃铜钺与玉柄铁剑的冶铁史角色超出兵器范围：前者为陨铁锻刃、尚非人工冶铁，后者为人工冶铁的上限证据；两者的材料判定与工序应在铁器 Topic 中展开，本 Topic 只作战器边界。",
+    "玉柄铁剑的柄部材质两说：正文作「玉柄铁剑」，同章知识链接作「铜柄铁剑」，来源未交代是否同一件；照录并列，不代为判定。",
+    "人面纹铜钺只有一句评述，形制、尺寸、人面纹构图与出土全无，confidence 为 low；不能作为殷商钺的形制样本，只作装饰与权力关系的一句锚点。",
+    "钩镶只有构造与功能句，无尺寸、重量、材质配比与出土实物；「既可进攻亦可防御」是来源评价，不能据此复原使用方式。",
+    "车战、战车编制与兵器配置的关系未在本批建立：戈戟矛的车战用途、酋矛夷矛的长度与车戟「身高的一倍」只在条目内部出现，来源没有给出车兵装备组合。",
+    "来源分布高度集中于赵农 2009 册（15 条），夏燕靖两版只提供甲胄形制与三件商周铁器；高丰、田自秉、李立新三册无直接来源，本 Topic 的分类框架因此主要建立在单一作者的叙述结构上。",
+    "本 Topic 的时段止于北宋，且东汉至隋唐之间的兵器条目为空；甲胄形制止于北周，宋以后的甲胄、火器与冷热兵器交替不在六册范围内。"
+  ],
+  "notes": "本批在既有 Theme B.9 内新建第六个 Topic B.9.6「兵器与甲胄：长兵、短兵、远射与防护」，不新建 Theme，也不扩 B.9.1–B.9.5。B.9 至此按「容器器形—容器铸造—铜镜—表面装饰—金银器与珐琅—兵器与甲胄」六个 Topic 分工。B.9.6 按「长兵—短兵与远射—防护与工序」三层组织 20 个 KU：长兵层有戈、矛、钺、戟、铍、殳，短兵与远射层有青铜剑、环首刀、弩与钩镶，防护与工序层有汉代铠甲、筒袖铠、明光铠、造剑与造甲；吴王夫差矛与神臂弓作器物锚点，人面纹铜钺、铁刃铜钺与玉柄铁剑作边界登记。三层不是装备序列：兵器按器名分条、甲胄按形制分条、工序按朝代分条，三套条目之间没有一件共同的攻防对应；甲胄三条只有兜鍪、盆领、膝甲与三种形制名而无甲片尺寸与编缀，造剑造甲只有材料取向而无复合结构与热处理，confidence 均为 low。20 个 KU 中 19 条单册来源、15 条出自赵农 2009 册，夏燕靖 2016 独覆盖三条、明光铠由两版合覆盖、筒袖铠由 2009 册独覆盖，高丰 2004、田自秉 2010、李立新 2011 无直接来源。越王勾践剑以 B.9.6 次挂载（B.9.4 仍为主挂载），只取兵器形制、防锈三因与吴越冶剑谱系一面，剑格错石仍归 B.9.4、剑柄珐琅釉仍归 B.9.5，三说的部位与材料并列不裁。20 条主挂载各生成 topic 与 theme 两条 member_of，越王勾践剑的次挂载只生成一条 topic member_of，relation index 因此新增 41 条，由 7161 增至 7202（explicit 5998 不变，member_of 1163→1204）；隔离单元由 1233 减至 1220。knowledge_structure_quality 保持 57/65，structural_health 保持 130/130，rule_drift 0。本批不 commit、不 push。"
+}

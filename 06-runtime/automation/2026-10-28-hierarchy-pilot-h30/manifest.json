@@ -1,0 +1,125 @@
+{
+  "package_id": "2026-10-28-hierarchy-pilot-h30",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-28",
+  "goal": "在 D 维度新建 D.6「前近代官府手工业：职官、匠役与设计控制」及其 2 个 Topic（D.6.1 中央工官、D.6.2 官窑与窑政），挂载少府监、将作监、工部、中尚署、尚方、文思院、元代画局、商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、瓷窑官、浮梁瓷局、御器厂与景德镇共 14 个 KU；承接 D.5 明文排除的「古代工官、匠籍、御器厂、官府作坊」与 B.6.3 明文指认的「归未来 D 维度的前近代官手工业 Theme」，把官府介入拆成设官分职、征调匠役、指定样式三种可分离手段，并分离「官」字的作坊、职官、机构与产品等级四义。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.20",
+    "baseline_themes": 20,
+    "baseline_topics": 56,
+    "baseline_topic_memberships": 427,
+    "baseline_complete_assignments": 423,
+    "baseline_incomplete_assignments": 2147,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6848,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 850,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1304
+  },
+  "result": {
+    "hierarchy_version": "v1.21",
+    "themes": 21,
+    "topics": 58,
+    "topic_memberships": 441,
+    "complete_assignments": 437,
+    "incomplete_assignments": 2133,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6876,
+    "relation_types": "3/67",
+    "member_of_relations": 878,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1297,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/d6-guanfu-shougongye-zhiguan-jiangyi-sheji-kongzhi.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/d6-zhongyang-gongguan-jigou-gongjiang-guanli.md",
+      "04-knowledge/structure/topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md"
+    ],
+    "new_topic_nodes": 2,
+    "mounted_units": 14,
+    "changed_units": 14,
+    "total_mounted_units": 437,
+    "new_topic_memberships": 14,
+    "secondary_mounted_units": 0,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "key_institution": 12,
+      "boundary_case": 1,
+      "geographical_context": 1
+    },
+    "type_distribution": {
+      "institution": 13,
+      "place": 1
+    },
+    "cross_dimension_mounts": "1 条 KU 的 primary_dimension 为 B（秦汉官营陶窑），其主题为 D；沿用 D.2.2（B 主维度 KU 入 D Topic）与 D.4.3（C 主维度 KU 入 D Topic）的既有先例，不为本批另造例外。D.6 的 primary_dimension 为 D、secondary_dimensions 为 [B]，D.6.1 与 D.6.2 的 primary_dimension 均为 D，因此不进 `cross_dimension_topics` 统计。",
+    "taxonomy_split": "中央工官与设计机构→D.6.1；陶业与瓷业的窑政、官窑与产品分配→D.6.2；窑炉形制、胎釉与装饰工艺→B.5／B.6；窑址、款识、贡瓷与课税等窑侧证据→B.6.3；琉璃渠窑场机构事实→留 B.5.4 的 `procedures/liuli-shaozhao.md`；1840 年后的近代企业与工艺行政→D.1／D.5；1949 年后的国营工厂→不并入",
+    "planned_topics_not_created": [
+      "D.6 官营染织机构 Topic：绫锦院（6 源）、织染署（5 源）、东西织室、三服官、江宁织造局（4 源）、四川锦院、绣院、纳失失局、建康路织染局、木棉提举司、后赵邺城织锦署、南朝染署、宋代染织管理机构群、周代染人",
+      "D.6 地方工官与特种作坊 Topic：蜀郡成都广汉郡工官、秦工室工官、汉代漆器作坊工官、镔铁局（3 源）、兴文署、西夏官营手工业机构群、西夏文思院",
+      "D.6 内廷造办 Topic：内务府造办处（5 源）、果园厂、石渠阁、武英殿修书处、宋代画院",
+      "B.5 史前功能陶器 Topic：陶鬶、陶甑、陶埙、鱼鳍形足陶鼎、水鸟形陶壶、山东莒县陶尊（6 条候选）",
+      "玻璃材料 Theme：琉璃第一义、铅钡与钠钡玻璃、战国琉璃璧、长沙楚墓群、李立新玻璃器沉浮"
+    ],
+    "deferred_by_boundary": [
+      "琉璃渠窑场「黑窑、御窑」的机构事实 → 留在 `procedures/liuli-shaozhao.md`（已挂 B.5.4）；本批不重挂、不另造部分挂载，若后续需以御窑为机构专题，须另立 KU",
+      "`places/jingdezhen-kiln.md` 与 `places/chifeng-gangwayaotun-liaoyao.md` → 已挂 B.6.3，本批不重挂；后者是瓷窑官唯一的窑场旁证，只在瓷窑官一条中引用其结论",
+      "`places/zhenghan-gucheng-taofang-yizhi.md` → 不挂载：来源只记窑址群、作坊建筑群、陶制排水管道与陶洗池，从未说其官营性质，据「制陶作坊」一词推断官府作坊会超出证据",
+      "元代画局 → 归 D.6.1 而非 D.6.2：将作院属设计机构，不属窑政；D.6.2 的边界明文排除",
+      "窑炉形制、窑具、装烧、胎釉与装饰工艺 → 归 B.6.2 与 B.6.4；陶器工艺归 B.5；本 Theme 只在产品种类与流向需要时引用工艺",
+      "官手工业产品的器形、纹样与审美评价 → 归 B／C；墓葬制度与厚葬风气 → 归 D 的其他 Topic 与 C；对外交流用礼品瓷 → 归 E",
+      "唐代工匠数四说（八百多人／各万余人／19850 人与 15000 人／一万九千八百余人与一万五千余人） → 并列保留，不作取舍，不据任一数字推算产能、工资或人均产出",
+      "中尚署的上级官署与设官品级 → 来源未明，`parent_institution` 记「未详」，不据来源外制度史补写"
+    ]
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "RD-UNITS-MISSING-HIERARCHY-ASSIGNMENT: 2133",
+    "RD-SINGLE-SOURCE-UNITS: 1919",
+    "RD-TENTATIVE-UNITS: 2570",
+    "RD-LOW-CONFIDENCE-UNITS: 496",
+    "OPP-ISOLATED: 1297",
+    "Tang artisan numbers are given four incompatible ways spanning two orders of magnitude: 'more than eight hundred' for the Shaofu and Jiangzuo together (Tian Zibing), 'ten thousand or more' each (Xia Yanjing, both editions, quoting the Tang Liudian), 19,850 technical officials and artisans under Wu Zetian and 15,000 for the Jiangzuo (Zhao Nong), and 19,800-odd with 15,000-odd (Li Lixin). No source states the denominator (registered / on duty / including temporary hire); the library keeps all four and computes no output or wage",
+    "The division among Shaofu Jian, Jiangzuo Jian and the Ministry of Works is clear only at the level of product / engineering / ordinance, and no source juxtaposes the three; the junction is empty: the Ministry's director 'has charge of the artisan's regulations (工匠之程式)' while artisan training and assessment are recorded under the Shaofu and Jiangzuo, and whether the two 'regulations' are the same text is unstated in all six books",
+    "Zhongshang Shu's parent office, establishment, rank, staff, remit, products and destinations are absent; conventional institutional histories place it under the Shaofu Jian but the sources here do not say so, and the library does not backfill. Parent institution is recorded as unknown",
+    "Wen Si Yuan is recorded as belonging both to the Ministry of Works and to the Shaofu Jian in the Song, and as having '42 workshops' or 'more than 40 workshops'; whether the Tang gold-and-silver workshop and the Song bureau of gold, silver, horn, jade, weaving and embroidery descend from one another is unstated",
+    "Shangfang's internal hierarchy is undetermined: whether the Shangfang Ling and the three Shangfang (left, centre, right) are a whole-and-parts relation or each had its own director is unstated, and the two books cite different chapters and different wording of the Hou Hanshu",
+    "The Yuan Painting Bureau is the library's weakest evidence for design separation: one source, one paragraph, no office, no list of directors, no artisan provenance, no surviving drawings, no stated pipeline to the Fuliang Porcelain Bureau; 'paints but does not make' sits in the same paragraph as 'equivalent to a modern national art design institute', and the source does not separate record from analogy",
+    "The Shang royal pottery workshop's subordination is unstated: the source says 'viewed from the royal pottery workshop, its internal division of labour was already fixed', which presupposes a royal workshop while the Zhengzhou kiln site itself is never said to belong to the royal house; area (1,400 sq m), 14 kilns and hundreds of thousands of sherds are the only quantitative evidence in the whole theme",
+    "Zhou pottery officials (陶人 / 旅 or 瓿人) remain undetermined between office, craft category and both; staff, supervisory office, assessment, product destination and the forms of the potter's wheel and moulds are all absent, and the library does not adjudicate between the two homophone spellings 旅人 and 瓿人",
+    "The Liao porcelain kiln officer rests on a single line from the Song Huiyao Jigao (three 'pseudo kiln officers' surrendering in 979), with no full title, rank, establishment, subordination, seat or term of office; the epithet 'pseudo' is the Song court's standpoint and is not explained. The 'official' mark wares and the 50-80 per cent Ding sherds at Liao sites remain circumstantial",
+    "The Fuliang Porcelain Bureau's nature cannot be reconciled: 'the only state-run porcelain workshop in the country' (Gao Feng, a production entity) versus 'a tax-supervision office' (Xia Yanjing, both editions). If the latter holds, the usual account of Yuan 'bureau production' must be rewritten. Whether the Yuan bureau was replaced by the Ming imperial factory is unstated ('the two adjoin')",
+    "The imperial porcelain factory's founding year is recorded verbatim as 'the thirty-fifth year of Hongwu' in two books, though the Hongwu reign ended in its thirty-first year; the two are not independent (both derive from a quotation). Whether the '58 official kilns' of the Ming are the Zhushan factory alone is unstated, and the craftsmen's origins, service forms, resident officials and supervisory relations are absent",
+    "The qin-xian (imperial quota) and bu-xian (bestowal quota) division is recorded once, by Tian Zibing: the imperial factory mainly fired the bestowal quota and the imperial quota was often undertaken by private kilns. This is the only passage in the six books that states how official and private production divided work, yet the criteria, annual quotas, quantities and disposal of rejects are all absent",
+    "The mechanics of 'official consignment to private kilns' (官搭民烧) are absent: no shares, prices, assigned proportions or dispute settlement. Gao Feng uses it only to explain the spread of imperial-factory design to private kilns in the Qing",
+    "Artisan recruitment, the disposition of assessment results and any change of artisan registration or status are unrecorded; 'artisans discarded by the government as old and weak' is one sentence from Zhao Nong and sits in a private-workshop context, not in the official system",
+    "Short-shift artisans (短番匠) work at home for the government and deliver finished goods on schedule, but term, pay and acceptance standards are absent; the only colour comes from a Wang Jian poem ('a bolt worth a thousand in gold is not for sale; the palace complains when the deadline passes'), which is not an institutional rule",
+    "Jingdezhen's naming (three accounts), first firing (three accounts) and kiln counts (four accounts: 300-odd in the Song, 300-odd in the Yuan, 900 to 3,000 in the Ming, 270-290 down to 60 by 1869) are mutually incompatible, and the same Taoji Lue numbers are assigned to different dynasties by two books — the library's clearest case of conflicting citation attribution",
+    "'From royal workshop to imperial factory' is a library interpretation, not a source conclusion: the six nodes are four different kinds of object (workshop, office, agency, product grade) strung together in dynastic order by the library, and the sources never juxtapose them. If later sources supply cross-node records, the judgement must be withdrawn",
+    "The B-to-D cross-dimension mount of the Qin-Han state kilns is the library's own partition: the sources present them as kiln sites and craft objects (dimension B), while this theme draws on them for the institutional side. The same objects will be drawn on again by B.5 when pottery is reviewed as a whole"
+  ],
+  "notes": "本批新建 1 个 Theme（D.6 前近代官府手工业）与 2 个 Topic（D.6.1 中央工官、D.6.2 官窑与窑政），挂载 14 个 KU，是层级试点首次把前近代主题落到 B 以外的维度。结构设计的四项判断：其一，落点不是新开维度而是还债——B.6.3 在 v1.14 已明文宣告御器厂、浮梁瓷局、瓷窑官、景德镇四条「制度本体留待 D 维度前近代官手工业 Theme」，D.5 又明文排除「古代工官、匠籍、御器厂、官府作坊」，清点后发现 D 维度未挂载的前近代官手工业机构三十余条，故建多批次 Theme 而非并入 D.5。其二，组织方式是三种可分离手段（设官分职／征调匠役／指定样式），不按朝代罗列机构；三者不总同时在场即可检验（西周只有工种名、元代画局只有设计权、明代御器厂只保留产品分配权）。其三，「官」字四义分离（作坊／职官／机构／产品等级），每条 KU 的 `scope_note` 写明所占之义。其四，两层判断标为解释框架而非来源结论——「从王室作坊到御器厂」的推移（六个节点分属四类对象，六册从未并列提出）与「设计从制造中分离」（元代画局单一来源、同段含作者类比）。五处边界处置：琉璃渠留 B.5.4、jingdezhen-kiln 与 chifeng 留 B.6.3、郑韩故城排除、画局归 D.6.1。跨维度挂载 1 条（秦汉官营陶窑 B→D），沿用 D.2.2／D.4.3 先例。D.6 为多批次 Theme：官营染织、地方工官与内廷造办三块候选池登记于本 manifest，不预先物化。本批不 commit、不 push。"
+}

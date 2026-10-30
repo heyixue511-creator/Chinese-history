@@ -1,0 +1,125 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h43",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "在 Theme B.10「乐器与八音」下续建 B.10.3「弦管与鼓：丝竹匏革四目的乐器与鼓器」，主挂载 18 个弦管与鼓类 KU、次挂载花釉腰鼓 1 个，并把 B.10／B.10.1／B.10.2 中「留待 B.10.3」的边界表述回填为已承接",
+  "scope": {
+    "baseline_hierarchy_version": "v1.33",
+    "baseline_themes": 25,
+    "baseline_topics": 79,
+    "baseline_topic_memberships": 620,
+    "baseline_complete_assignments": 611,
+    "baseline_incomplete_assignments": 1959,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7229,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1231,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "57/65",
+    "baseline_isolated_units": 1210
+  },
+  "result": {
+    "hierarchy_version": "v1.34",
+    "themes": 25,
+    "topics": 80,
+    "topic_memberships": 639,
+    "complete_assignments": 629,
+    "incomplete_assignments": 1941,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7266,
+    "relation_types": "3/67",
+    "member_of_relations": 1268,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "57/65",
+    "isolated_units": 1198,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b10-yueqi-yu-bayin-caizhi-fenlei-lelv-yu-zhongqing.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md",
+      "04-knowledge/structure/topics/b10-zhongqing-yu-qingtong-yueqi-bianzhong-bianqing-bo-yu-tonggu.md",
+      "04-knowledge/structure/topics/b10-xianguan-yu-gu-sizhu-paoge-simu-de-yueqi-yu-guqi.md"
+    ],
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 1,
+    "mounted_units": 18,
+    "secondary_mounted_units": 1,
+    "changed_units": 19,
+    "total_mounted_units": 629,
+    "new_topic_memberships": 18,
+    "secondary_memberships": 1,
+    "role_distribution": {
+      "term_anchor": 12,
+      "representative_work": 4,
+      "boundary_case": 3
+    },
+    "type_distribution": {
+      "term": 13,
+      "work": 6
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。18 条主挂载的 primary_dimension 全部为 B，花釉腰鼓为同维度次挂载（primary_dimension=B，primary: false），secondary_themes 只写裸维度码 [D,C]（D 取礼乐与用乐制度、C 取纹样与图像解释），按 hierarchy_stress_test.py:828 的规则不计入维度集合，故 cross_dimension_topics 为空。",
+    "taxonomy_split": "琴、笙、竽、笛、羌笛、胡笳、筚篥、琵琶、阮咸、箜篌、奚琴、羯鼓→B.10.3 名称与族属层（term_anchor 12）；骨笛→B.10.3 边界层（boundary_case，骨质不属八音八类）；彩绘鹿鼓、漆双凤鼓、螺钿五弦琵琶→B.10.3 出土器物层（representative_work 3）；鲁山窑瓷拍鼓、斫琴图→B.10.3 图注与画名边界层（boundary_case 2）；花釉腰鼓以次挂载入 B.10.3（representative_work，primary: false），主挂载仍为 B.6.1。八音分类与律制→B.10.1；钟磬与青铜乐器→B.10.2；青铜容器器形与铸造工序→B.9.1／B.9.2；花釉的釉色分类与窑口判定→B.5.4／B.6；陶埙的史前成形与烧成→B.5.7；礼乐制度与大乐司→D；纹样母题、钟磬铭文、乐器图像与《斫琴图》的画史解释→C；乐论思想与琴人思想→A；瑟、箫、篪因全库无 KU 不设条目。",
+    "planned_topics_not_created": [
+      "铁器与叠铸 Topic（编号待定）：生铁冶铸、铁范、叠铸、百炼钢与炒钢，仍未物化",
+      "B.9 货币与农具 Topic（编号待定）：货币形制、农具与铁农具，仍未物化",
+      "漆器 Theme（编号待定）：髹漆、描金、戗金、螺钿、雕漆、剔犀、百宝嵌，仍未物化",
+      "前近代服饰与甲胄等级 Theme（编号待定）：舆服制度、甲胄与服饰等级，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "瑟、箫、篪：六册无独立 KU，不据名称补条，只在本 Topic 与 B.10.1 的边界中登记为缺口",
+      "排箫、方响、锣、钹、星、达卜、齐鼓、担鼓：在来源叙述中出现但无独立条目，记为缺口不挂载",
+      "works/changlegong-zhong：名含「钟」而 sub_type 为青铜酒器（西汉鎏金嵌琉璃方格纹铜壶），非乐器，不挂载",
+      "places/zenghouyi-tomb：编钟出土单位，归 B.10.2 的地域挂载，本批不重复计入",
+      "institutions/shosoin（正仓院）：螺钿五弦琵琶的收藏机构，制度侧归 D，本批只取器物形制与工艺",
+      "persons/gu-kai-zhi：《斫琴图》相传作者，画史与人物评价归 C，本批只取「相传……可见南方制作乐器工序的严格」一句",
+      "花釉腰鼓的釉色分类与窑口判定：仍归 B.5.4 与 B.6，本批只取鼓形器一面",
+      "陶埙的八音土类位置：仍由 B.10.1 次挂载承接，本批不重复计入",
+      "鲁山窑窑址与鲁山主要产地一句：产地与窑口系统归 B.6，本批只取图注「鲁山窑瓷拍鼓(唐)」"
+    ]
+  },
+  "changed_files": 28,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "名称层与器物层没有任何一件乐器共指：彩绘鹿鼓、漆双凤鼓、螺钿五弦琵琶三件都不是十二条名称条目所指的器类，羯鼓、箜篌、琵琶的名与物在六册中从未并置。",
+    "工序层只有《斫琴图》一句，且出于「相传东晋顾恺之作有」，画面内容、收藏地与制作工序全无，「可见南方制作乐器工序的严格」是来源推论；图版未视觉核验。",
+    "全层形制数据仅四组（竽 36 簧、筚篥九孔、阮咸四弦十二柱、彩绘鹿鼓鹿高 28／身长 33 厘米），分属匏、竹、丝三目与一件漆木鼓，既非同器演进也无测量口径，不能据以推算音域与音阶。",
+    "彩绘鹿鼓的鼓径记作 1.4 厘米，与鹿高 28 厘米的比例异常；`places/jiangling-chumuqun` 已标，本批照录不解释也不改数。",
+    "笙的材料最薄：簧的材质（竹、苇、金属）、管数、定音方式全无；同段所引《吕氏春秋》伶伦「十二筒」是制律传说，来源未把它等同于笙，本 Topic 不作等同。",
+    "竽与笙的关系只有「竽是笙的一种变体，有 36 簧」一句；「竽是合奏定调主器」出自《韩非子》引文，无合奏实例与定调方法。",
+    "笛的记载把汉代横吹、张骞带回吹笛经验与荀勖 274 年制 12 支高音笛三段并列，横竖吹之别与羌笛只作对照；孔数、管长与指法全无，笛的起源叙述在三段之间不衔接。",
+    "羌笛的证据最弱：只有族属、地域、竖吹与「箫的雏形」四项判断，无器物、图像与用例，confidence 为 low；「箫的雏形」一句在六册中无箫的独立条目可对。",
+    "胡笳与角在同一段并记（角由天然动物角改为竹、木、皮、铜加工），二者分列不同条目；「芦笳」与「胡笳」两个名称的对应关系来源未说明。",
+    "筚篥段首作「算篥」，照录标疑未改；九孔与「管上装芦哨」之外，尺寸、孔位与哨材无载，五种形式只有名目。",
+    "琵琶在秦汉是弹拨乐器总称，与阮咸（汉琵琶）在名称层部分重叠；乌孙公主命工造器为传说，曲项琵琶「4 世纪经印度传入」与五弦琵琶的来源未给文献。",
+    "阮咸与竹林七贤之一同名，得名缘由无载；图 5-32 所指为人物而非乐器，不能据以补形制。",
+    "竖箜篌「约公元 2 世纪从朝鲜传到中原」照录未改，与西域传入的通行说法不同；弦数与音箱形制全无，《箜篌引》只作曲名。",
+    "奚琴「相传为嵇康所制」为传说，与嵇康的时代相隔数百年；形制、弦数与弓制全无，「二胡演变趋势」是来源判断。",
+    "羯鼓只有「如桶置于架上，以两杖击之」与南北朝自西域传入两句，鼓腔是否中空、鼓面材质、两杖形制与演奏场合均无，不得据「桶」复原腔体，confidence 为 low。",
+    "骨笛（舞阳 18 支七孔约 8000 年、河姆渡数十支二至三孔）骨质不属八音八类，只能作边界登记；测音数据与测年方法无载。",
+    "鲁山窑瓷拍鼓的全部记载是一条图注与鲁山「主要产地」一句，鼓形、鼓钉、皮膜与尺寸全无；与花釉腰鼓（唐代河南窑口瓷鼓，主挂载 B.5.4）重复未裁，登记为合并候选。",
+    "八音中的「木」一目在六册中无任何对应器物条目；丝、竹、匏、革四目虽有实例，但每目多为单条名称条目，材料厚度不均，不能据「七目有实例」判断八音在实际器物中的分布。",
+    "19 条全部为单册来源：赵农 2009 覆盖 14（名称层 13 条与斫琴图）、田自秉 2010 覆盖 4、夏燕靖 2016 覆盖 1（次挂载），高丰 2004、夏燕靖 2009 与李立新 2011 无对应条目；confidence 为 medium 14、low 5（笙、羌笛、羯鼓、鲁山窑瓷拍鼓、斫琴图），consensus 全部为 tentative。",
+    "存量债务未变：全库未挂载 1941 个 KU、隔离单元 1198 个、单源与 tentative 条目按既有 backlog 处理；knowledge_structure_quality 仍为 57/65，缺口在 hierarchy_assignment（2/10）。",
+    "重复候选 reconcile 未处理，仍有 8 组：works/fuhao-jade-figure 与 works/fuhao-mu-yuren；works/yudiaolong 与 works/da-yulong；terms/youlihong-ci 与 terms/youlihong；terms/bai-tao 与 terms/shangdai-baitao；鲁山窑瓷拍鼓与花釉腰鼓；works/zhulin-qixian-huaxiang-zhuan 与 works/zhulin-qixian-rongqiqi-zhuanhua；terms/chunqiu-zhanguo-qingtong-chuishiqi 与单器条；terms/huasi 与 terms/hua-si-gong-yi。另新增候选：terms/pi-pa 与 terms/ruan-xian 的名称层重叠。"
+  ],
+  "notes": "本批是 B.10 的收口批次：h42 留待的 B.10.3「弦管与鼓」由本次物化，B.10 由此形成「分类与律制—钟磬与青铜乐器—弦管与鼓」三个 Topic，八音八目中金、石（B.10.2）、土（陶埙）、丝、竹、匏、革（B.10.3）七目有实例，唯「木」一目无任何对应条目。B.10.3 的组织方式与 B.10.2 不同：B.10.2 按「器类定义—成组与等级—单器体量—工序图像」四层排器物序列，B.10.3 则按「名称与族属—出土器物—图注与画名」三种证据形态分层，三层互不换算——名称层 13 条全部出自赵农 2009「乐器」各节，器物层 3 件全部出自田自秉 2010 的漆器与螺钿章节，图注画名层只有一条图注与一句画名，名称层与器物层没有一件共指乐器，工序层只有斫琴图一句，因此不能写成从史前骨笛到宋代奚琴的演化线。本批同时把 B.10、B.10.1、B.10.2 三处「弦管与革类鼓留待 B.10.3」的表述回填为已承接，避免结构内自相矛盾。骨笛的处理是边界判定而非归类：骨质不属金、石、土、革、丝、木、匏、竹八类，故以 boundary_case 登记，既是竹以外的管类实例，也标记八音分类的边界。重复候选诚实保留两处：鲁山窑瓷拍鼓（仅图注）与花釉腰鼓（主挂载 B.5.4）同为唐代河南窑口瓷鼓，本批分列并登记合并候选；琵琶与阮咸（汉琵琶）在名称层部分重叠，本批分列不合并。relation 增量 37 = 18 条主挂载 ×（topic member_of + theme member_of）+ 1 条次挂载 × topic member_of，由 7229 增至 7266（explicit 5998 不变，member_of 1231→1268）；隔离单元由 1210 减至 1198，减 12，因为 18 个新挂载 KU 中 6 个原已有显式关系。hierarchy_stress_test 报 themes 25、topics 80、membership 639、complete 629、incomplete 1941、cross_dimension_topics 为空（secondary_themes 用裸维度码 D、C，按 hierarchy_stress_test.py:828 的规则不计入维度集合）。knowledge_structure_quality 保持 57/65，structural_health 保持 130/130，rule_drift 0，content_findings 0。本批不 commit、不 push。"
+}

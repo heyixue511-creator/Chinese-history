@@ -42,13 +42,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-28
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 4
+version: 5
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -62,7 +62,11 @@ topic_memberships:
     role: evidence_event
     primary: true
     scope_note: "只取 1987 年地宫出土秘色瓷确认实物一环"
-hierarchy_scope_note: "只取 1987 年地宫出土秘色瓷确认实物一环"
+  - topic: topics/b7-shuru-yu-bentu-weijin-suitang-boliqi.md
+    role: evidence_event
+    primary: false
+    scope_note: "B.7.2 次挂载：只取地宫出土 20 件伊斯兰玻璃器与描金刻花蓝玻璃盘的萨珊风格一环；秘色瓷确认仍由 B.6.1 主挂载。"
+hierarchy_scope_note: "法门寺塔基地宫以 B.6.1 秘色瓷确认为主挂载；同时以地宫出土 20 件伊斯兰玻璃器与描金刻花蓝玻璃盘的萨珊风格次挂载 B.7.2，两线不互相替代。"
 ---
 
 ## 描述
@@ -104,9 +108,9 @@ hierarchy_scope_note: "只取 1987 年地宫出土秘色瓷确认实物一环"
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - primary_theme: B.6（瓷器工艺与窑业传统）
-- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（evidence_event，primary）
+- topic_memberships: topics/b6-youtao-dao-ci-zaoqi-ciqi.md（evidence_event，primary）；topics/b7-shuru-yu-bentu-weijin-suitang-boliqi.md（evidence_event，secondary）
 - role_in_theme: evidence_event
-- scope_note: 只取 1987 年地宫出土秘色瓷确认实物一环
+- scope_note: 法门寺塔基地宫以 B.6.1 秘色瓷确认为主挂载；同时以地宫出土 20 件伊斯兰玻璃器与描金刻花蓝玻璃盘的萨珊风格次挂载 B.7.2，两线不互相替代。
 ## 相关知识元
 
 `terms/mise-porcelain.md` 记秘色瓷；`works/tang-yin-xiangnang.md` 为唐代金银器条目；`procedures/yin-xunlu-zhizuo.md` 与 `publications/chajing.md` 涉及唐代茶具与金银器工艺。来源把地宫器物作为佛教中国化与中外交流的双重证据；relation 未审查。

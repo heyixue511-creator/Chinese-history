@@ -64,16 +64,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md
+    role: representative_work
+    primary: true
+    scope_note: "只取新郑出土一对春秋方壶的莲瓣立鹤、龙耳兽足与高度两说；风格判断只作来源记录。"
 hierarchy_scope_note: "莲鹤方壶是 B 维度下春秋青铜器设计转变的代表作；年代、尺寸与收藏信息在来源间不完全一致。Theme/Topic 尚未 materialize。"
 ---
 
@@ -100,10 +108,10 @@ hierarchy_scope_note: "莲鹤方壶是 B 维度下春秋青铜器设计转变的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是青铜器风格转变的代表作，可支持未来的青铜工艺、礼制与风格转型类 Topic；当前层级只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-qingtong-qixing-yu-liqi-zuhe-ding-gui-li-yan.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取新郑出土一对春秋方壶的莲瓣立鹤、龙耳兽足与高度两说；风格判断只作来源记录。
 
 ## 相关知识元
 

@@ -23,19 +23,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: C
+primary_theme: B.10
+secondary_themes: []
+role_in_theme: supporting_source
+topic_memberships:
+  - topic: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md
+    role: supporting_source
+    primary: true
+    scope_note: "只取其作为十二平均律载体的一面；版式、字体、刊刻工艺与藩王刻书制度仍归 C.2，律学内容不在来源叙述内。"
 secondary_dimensions:
   - B
-hierarchy_scope_note: "《乐律全书》是 C 维度下明代藩王刻本的条目；其乐律内容归 B 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "《乐律全书》是 C 维度下明代藩王刻本的条目；其乐律内容归 B 维度。已挂载 B.10.1（八音与乐律：材质分类、律制与乐学文献）。"
 ---
 
 ## 描述
@@ -55,10 +63,10 @@ hierarchy_scope_note: "《乐律全书》是 C 维度下明代藩王刻本的条
 - primary_domain: chinese-design-history
 - primary_dimension: C（视觉传达与文字设计）
 - secondary_dimensions: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 《乐律全书》是 C 维度下明代藩王刻本的条目；其乐律内容归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.10（乐器与八音：材质分类、乐律与钟磬）
+- topic_memberships: topics/b10-bayin-yu-lelv-caizhi-fenlei-lvzhi-yu-yuexue-wenxian.md（supporting_source，primary）
+- role_in_theme: supporting_source
+- scope_note: 只取其作为十二平均律载体的一面；版式、字体、刊刻工艺与藩王刻书制度仍归 C.2，律学内容不在来源叙述内。
 
 ## 相关知识元
 

@@ -25,17 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "荣昌是 B 维度下西南产陶区与双色泥装饰的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: geographical_context
+    primary: true
+    scope_note: "荣昌是 B.5.5 第三条：四川（今重庆）产陶区，安富镇鸦屿村出品最精；陶土有红白两色，红泥胎用白泥贴花或嵌花、两色泥混合成金黄色，铁线划花以单线卷草为题材最有特色；泡菜坛闻名中外——三条路线中唯一以泥料配色与刻划立身、来源未提釉的一条"
+hierarchy_scope_note: "荣昌是 B.5.5 第三条：四川（今重庆）产陶区，安富镇鸦屿村出品最精；陶土有红白两色，红泥胎用白泥贴花或嵌花、两色泥混合成金黄色，铁线划花以单线卷草为题材最有特色；泡菜坛闻名中外——三条路线中唯一以泥料配色与刻划立身、来源未提釉的一条"
 ---
 
 ## 描述
@@ -58,10 +66,10 @@ hierarchy_scope_note: "荣昌是 B 维度下西南产陶区与双色泥装饰的
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是近现代民窑中**以双色泥装饰立目**的一支：与宜兴的泥料本色、石湾的露胎对比并置，可见“不靠釉而靠泥”的三条路线。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 荣昌是 B.5.5 第三条：四川（今重庆）产陶区，安富镇鸦屿村出品最精；陶土有红白两色，红泥胎用白泥贴花或嵌花、两色泥混合成金黄色，铁线划花以单线卷草为题材最有特色；泡菜坛闻名中外——三条路线中唯一以泥料配色与刻划立身、来源未提釉的一条
 
 ## 相关知识元
 

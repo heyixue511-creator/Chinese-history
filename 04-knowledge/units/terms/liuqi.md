@@ -58,16 +58,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-zhuzao-gongyi-hefan-hunzhu-fenzhu-shila-jiuqi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取《考工记》六条配比原文、17% 换算、司母戊鼎实测对照与换算基准未声明；铸造工序归 procedures。"
 hierarchy_scope_note: "六齐是 B 维度下先秦青铜合金配比规范，其文献出处属 `publications/kaogongji.md`，本条只登记配比本身及其解释分歧。Theme/Topic 尚未 materialize。"
 ---
 
@@ -91,10 +99,10 @@ hierarchy_scope_note: "六齐是 B 维度下先秦青铜合金配比规范，其
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是六册中唯一以定量配比为核心的工艺规范条目，可与失蜡法、青铜范铸工序、司母戊大方鼎 KU 组合成先秦青铜技术类 Topic。当前只到 Dimension。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-zhuzao-gongyi-hefan-hunzhu-fenzhu-shila-jiuqi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取《考工记》六条配比原文、17% 换算、司母戊鼎实测对照与换算基准未声明；铸造工序归 procedures。
 
 ## 相关知识元
 

@@ -1,0 +1,118 @@
+{
+  "package_id": "2026-10-29-hierarchy-pilot-h35",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-29",
+  "goal": "新建 B.8「玉石与治玉：礼制、工艺与巨型玉器」及其 3 个 Topic，并主挂载 12 个 KU",
+  "scope": {
+    "baseline_hierarchy_version": "v1.25",
+    "baseline_themes": 22,
+    "baseline_topics": 66,
+    "baseline_topic_memberships": 487,
+    "baseline_complete_assignments": 481,
+    "baseline_incomplete_assignments": 2089,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 6966,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 968,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "56/65",
+    "baseline_isolated_units": 1280
+  },
+  "result": {
+    "hierarchy_version": "v1.26",
+    "themes": 23,
+    "topics": 69,
+    "topic_memberships": 499,
+    "complete_assignments": 493,
+    "incomplete_assignments": 2077,
+    "structure_node_coverage": "2/4",
+    "relation_index": 6990,
+    "relation_types": "3/67",
+    "member_of_relations": 992,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "56/65",
+    "isolated_units": 1275,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": [
+      "04-knowledge/structure/themes/b8-yushi-yu-zhiyu-liqi-gongyi-yu-juxing-yuqi.md"
+    ],
+    "topics_touched": [
+      "04-knowledge/structure/topics/b8-liqi-yu-qixing-ruiyu-liuqi-bi-cong-gui.md",
+      "04-knowledge/structure/topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md",
+      "04-knowledge/structure/topics/b8-juxing-yuqi-yu-gongting-yongyu.md"
+    ],
+    "new_topic_nodes": 3,
+    "mounted_units": 12,
+    "secondary_mounted_units": 0,
+    "changed_units": 12,
+    "total_mounted_units": 493,
+    "new_topic_memberships": 12,
+    "secondary_memberships": 0,
+    "role_distribution": {
+      "term_anchor": 6,
+      "procedure": 2,
+      "key_person": 1,
+      "representative_work": 3
+    },
+    "type_distribution": {
+      "term": 6,
+      "procedure": 2,
+      "person": 1,
+      "work": 3
+    },
+    "cross_dimension_mounts": "无新增跨维度挂载。12 个挂载 KU 的 primary_dimension 均为 B；玉石、陆子冈、大禹治水图玉山、白玉嵌金红宝石碗的 secondary_dimensions 分别含 C 或 C/D，但主维度不变，不构成主维度改判。",
+    "taxonomy_split": "玉石与治玉（礼制、工艺、巨型器物三条线）→B.8；史前玉器（良渚、红山、妇好墓玉器群）→B.8 后续 Topic；玻璃仿玉的代用关系→B.7；玉器纹样母题→C；玉料贸易与玉石之路→E.2；玉器在服饰中的佩戴方式→B.2／E.5；造办处机构沿革→D.6.6；玉器鉴定与市场→D.1。",
+    "planned_topics_not_created": [
+      "史前玉器 Topic（编号待定）：玉钺、玉琮、玉璧、神人兽面纹玉琮、大玉龙、玉雕龙、妇好墓玉器群、汉八刀、佩璜、璇玑、天圆地方等，均未挂载，B.8 只取周代礼制、商周治玉与元清巨型玉器",
+      "青铜器形序列 Topic（编号待定）：鼎、壶、豆、簋、斝、甗、鬲等青铜器形条目，仍未物化",
+      "制陶生产组织 Topic（编号待定）：商代王室制陶作坊、周代制陶职官、秦汉官营陶窑、郑韩故城制陶作坊遗址，仍未物化"
+    ],
+    "deferred_by_boundary": [
+      "史前玉器（良渚玉钺、玉琮、玉璧，红山玉龙，神人兽面纹玉琮，大玉龙，玉雕龙） → B.8 后续 Topic：不把史前玉器与周礼六器连成一条演化线",
+      "玉器纹样母题（神人兽面、龙凤、穀纹、蒲纹）的意义解释 → C：B.8 只取器形、工序与制度",
+      "玉料贸易、玉石之路与和田玉运输路线 → E.2：B.8 只取来源所记「和田玉」「南阳玉」的材料判断",
+      "玉器在服饰中的佩戴方式（组玉佩、玉步摇、佩璜） → B.2／E.5：B.8 只取佩玉作为器类",
+      "造办处的机构沿革、编制与匠役 → D.6.6：B.8.3 只取其在巨型玉器制作中的角色",
+      "玉器鉴定、拍卖与当代市场 → D.1：B.8 只取来源所记工艺与器物",
+      "玻璃仿玉的代用关系 → B.7：B.8 只取玉器本体，两线不合并",
+      "渎山大玉海的元明清宫廷流转 → D：B.8.3 只记流转事实，不解释制度",
+      "玉山画面、题诗与错金花草纹的视觉分析 → C：B.8.3 只记装饰构成，不解释风格"
+    ]
+  },
+  "changed_files": 23,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "玉石的矿物学判据未给：赵农只称「美石」、硬玉／软玉、透闪石／阳起石，无成分、硬度、比重与检测数据；玉与石、玉与玉髓、玉与玻璃的边界无法由六册判定",
+    "玉器起源只有「原始先民在石器制作中发现美石」一句，无遗址、年代与最早器物",
+    "瑞玉六器全部出自《周礼·大宗伯》，无成套实物、组合数量、使用场合与年代序列；六器与良渚玉琮、玉璧是否同一系统，六册未说明",
+    "璧、琮、圭只有文献定义，无一件实测尺寸、玉料、出土单位与年代；命圭四等与玉石配比无实物验证",
+    "周代玉礼器的陪葬位置（圭左、璋首、琥右、璜足、璧背、琮腹）只有《周礼》一句，无墓葬实例与摆放图",
+    "商周治玉五工序只有名称，无工序顺序、工具材质、转速、磨料、工时与工序间等待时间；「金属工具已广泛使用」无出土工具佐证",
+    "铊子／砣机的形制、尺寸与转速全无；赵农的脚踏车床说与李立新的席地跪坐手拨说并存，无法判定是时代、地域还是描述差异",
+    "商代玉料的「大多是新疆和田玉石以及河南南阳玉」是单源判断，无玉料检测、产地溯源与比例数据；西周玉料来源未给",
+    "套裁的掏膛方法、链条环数、接口强度与余料利用率全无；巧色的选料标准、色泽分层与去瑕方法亦无",
+    "陆子冈只有徐文长诗、茶晶花插、青玉明月松泉图方盒与琴式小盒数条，无生卒、字号、师承、作品清单、款识与纪年",
+    "渎山大玉海的制作年代、玉料产地、雕刻工匠与纹饰内容未给；现存尺寸经多次修磨，不代表元代原状；「为中国古典玉器之最」无比较范围与统计口径",
+    "大禹治水图玉山的 13 年是否含运输时间未说明；参与工匠名录、各段工期、分工图、运输路线与费用全无",
+    "白玉嵌金红宝石碗的尺寸、重量、制作年份、错金工艺与宝石镶嵌方法全无；「御殿赐奶茶之器」出自诗注，无使用场景旁证"
+  ],
+  "notes": "本批新建 B 维度第四条前近代 Theme B.8，下建 3 个 Topic 并主挂载 12 个 KU。B.8 的组织轴是「材料—制度—工艺—巨型器物」四层，不是「中国玉器发展史」：B.8.1 取周代玉礼器与六器（瑞玉六器、璧、琮、圭、周代玉礼器），B.8.2 取治玉工艺与玉工（玉石、琢玉、玉雕套裁与巧色、陆子冈），B.8.3 取巨型与宫廷玉器（渎山大玉海、大禹治水图玉山、白玉嵌金红宝石碗）。三条判断：其一，四层的证据强度依次为定义—文献规定—工序名—单器记录，没有一层能单独证明另一层；其二，铊子的脚踏车床说（赵农）与三代砣具的席地跪坐手拨说（李立新）并列不裁；其三，「整个制作过程也就是设计过程」是田自秉的判断，唯一可指认实例只有陆子冈茶晶花插，不足以支撑普遍结论。三处不裁：六器的「六」在赵农书内不一致（L1684 五器缺琥、L1692 六器含琥）、命圭尺寸与玉石配比无实物、渎山大玉海现存尺寸经多次修磨不代表元代原貌。12 个 KU 全部为主挂载，无次挂载；relation index 因此新增 24 条 member_of（12 条 topic 边 + 12 条 theme 边）。隔离单元由 1280 减至 1275，5 个新挂载 KU 原无显式关系，其余 7 个已有关系。本批不 commit、不 push。"
+}

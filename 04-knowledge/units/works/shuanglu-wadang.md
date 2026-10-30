@@ -20,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度战国建筑材料的图版锚点。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md
+    role: representative_work
+    primary: true
+    scope_note: "双鹿瓦当是 B.5.6 战国瓦当的图版锚点，材料只有夏燕靖 2016 图版 3-27 图注「战国 双鹿瓦当」一行加同段通说（半圆形、模印装饰花纹、纹样 30 余种、「瓦钉与瓦身分离」）；直径、双鹿构图、出土地与收藏地均未载，图版未核——只登记为战国瓦当的存在证据"
+hierarchy_scope_note: "双鹿瓦当是 B.5.6 战国瓦当的图版锚点，材料只有夏燕靖 2016 图版 3-27 图注「战国 双鹿瓦当」一行加同段通说（半圆形、模印装饰花纹、纹样 30 余种、「瓦钉与瓦身分离」）；直径、双鹿构图、出土地与收藏地均未载，图版未核——只登记为战国瓦当的存在证据"
 ---
 
 ## 描述
@@ -53,10 +61,10 @@ hierarchy_scope_note: "本条是 B 维度战国建筑材料的图版锚点。The
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度战国建筑材料的图版锚点。Theme/Topic 尚未 materialize。
+- primary_theme: B.5.6（建筑用陶：屋面、砖砌与模印图像）
+- topic_memberships: topics/b5-jianzhu-yong-tao-wamian-zhuqi-moyin.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 双鹿瓦当是 B.5.6 战国瓦当的图版锚点，材料只有夏燕靖 2016 图版 3-27 图注「战国 双鹿瓦当」一行加同段通说（半圆形、模印装饰花纹、纹样 30 余种、「瓦钉与瓦身分离」）；直径、双鹿构图、出土地与收藏地均未载，图版未核——只登记为战国瓦当的存在证据
 
 ## 相关知识元
 

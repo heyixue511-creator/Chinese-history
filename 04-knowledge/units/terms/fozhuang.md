@@ -28,18 +28,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取契丹头饰等级（金冠、硬帽、皮帽、毡帽、头巾与纳马驼才能裹巾）与佛妆妆法（面部涂深黄色、红眉黑吻、贴面花）；赵农「因北地风寒用植物色保养皮肤」的判断与记载合一，照录不拆，不代人补配方。"
 secondary_dimensions:
-hierarchy_scope_note: "佛妆是 B 维度下辽代妇女面妆的条目。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "佛妆是 B 维度下辽代妇女面妆的条目。已挂载 B.18.5（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -59,11 +66,10 @@ hierarchy_scope_note: "佛妆是 B 维度下辽代妇女面妆的条目。Theme/
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 佛妆是 B 维度下辽代妇女面妆的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取契丹头饰等级（金冠、硬帽、皮帽、毡帽、头巾与纳马驼才能裹巾）与佛妆妆法（面部涂深黄色、红眉黑吻、贴面花）；赵农「因北地风寒用植物色保养皮肤」的判断与记载合一，照录不拆，不代人补配方。
 
 ## 相关知识元
 

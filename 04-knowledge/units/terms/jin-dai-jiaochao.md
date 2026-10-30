@@ -28,19 +28,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.13
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b13-huobi-jiaochao-dao-renminbi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取交钞的票面形制、七年期限与贬值；形制全部来自《金史·食货志》摘引，无实物与钞版，不据引文复原版式。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "金代交钞是 B 维度下金代纸币形制的条目；其发行制度、通胀与信用危机归 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "金代交钞是 B 维度下金代纸币形制的条目；其发行制度、通胀与信用危机归 D 维度。已挂载 B.13.1（货币与度量衡：交换媒介与计量标准）。"
 ---
 
 ## 描述
@@ -64,10 +72,10 @@ hierarchy_scope_note: "金代交钞是 B 维度下金代纸币形制的条目；
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 金代交钞是 B 维度下金代纸币形制的条目；其发行制度、通胀与信用危机归 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.13（货币与度量衡：交换媒介与计量标准）
+- topic_memberships: topics/b13-huobi-jiaochao-dao-renminbi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取交钞的票面形制、七年期限与贬值；形制全部来自《金史·食货志》摘引，无实物与钞版，不据引文复原版式。
 
 ## 相关知识元
 

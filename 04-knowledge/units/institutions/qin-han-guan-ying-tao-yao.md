@@ -29,19 +29,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md
+    role: key_institution
+    primary: true
+    scope_note: "秦汉官营陶窑是砖瓦官营生产的主要材料，渭河一带成片、以烧砖瓦为主，始皇陵夔凤纹大瓦当直径约 40 厘米；来源未给隶属、工匠与产品分配，本 Topic 只取官营性质、产品种类与「成瓦窑数千处」一条转引，不据两句写生产组织史。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "秦汉官营陶窑是 B 维度下官营建材生产的条目，其官府隶属与产品分配归 D 维度；当前只到 Dimension。"
+hierarchy_scope_note: "秦汉官营陶窑是砖瓦官营生产的主要材料，渭河一带成片、以烧砖瓦为主，始皇陵夔凤纹大瓦当直径约 40 厘米；来源未给隶属、工匠与产品分配，本 Topic 只取官营性质、产品种类与「成瓦窑数千处」一条转引，不据两句写生产组织史。"
 ---
 
 ## 描述
@@ -68,12 +76,10 @@ hierarchy_scope_note: "秦汉官营陶窑是 B 维度下官营建材生产的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是秦汉官营建材陶窑的条目，可与商代王室制陶作坊、周代制陶职官构成官营陶业序列，也可与秦砖汉瓦、瓦当等产品条目相连。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanyao-yaozheng-wangshi-zuofang-yuqichang.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 秦汉官营陶窑是砖瓦官营生产的主要材料，渭河一带成片、以烧砖瓦为主，始皇陵夔凤纹大瓦当直径约 40 厘米；来源未给隶属、工匠与产品分配，本 Topic 只取官营性质、产品种类与「成瓦窑数千处」一条转引，不据两句写生产组织史。
 ## 相关知识元
 
 `institutions/shang-royal-pottery-workshop.md` 记商代王室制陶作坊；`institutions/zhou-pottery-officials.md` 记周代制陶职官；`procedures/tao-qi-zhi-zuo.md` 一类工序条目记陶器成形与烧造。relation 未审查，不写入正式 `relations`。

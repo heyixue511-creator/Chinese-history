@@ -43,17 +43,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 4
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 4
+version: 5
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "妇好墓是 B 维度下商代青铜、玉器与纺织造物条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: geographical_context
+topic_memberships:
+  - topic: topics/b8-shangdai-yuqi-yu-fuhaomu-fenlei-peiyu-yuren.md
+    role: geographical_context
+    primary: true
+    scope_note: "只取 426／755／近 600 三种玉器数目、1976 年发掘与玉器证明治玉成熟；铜器与纺织不展开。"
+hierarchy_scope_note: "只取 426／755／近 600 三种玉器数目、1976 年发掘与玉器证明治玉成熟；铜器与纺织不展开。"
 ---
 
 ## 描述
@@ -86,10 +94,10 @@ hierarchy_scope_note: "妇好墓是 B 维度下商代青铜、玉器与纺织造
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 妇好墓是 B 维度下商代青铜、玉器与纺织造物条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-shangdai-yuqi-yu-fuhaomu-fenlei-peiyu-yuren.md（geographical_context，primary）
+- role_in_theme: geographical_context
+- scope_note: 只取 426／755／近 600 三种玉器数目、1976 年发掘与玉器证明治玉成熟；铜器与纺织不展开。
 
 ## 相关知识元
 

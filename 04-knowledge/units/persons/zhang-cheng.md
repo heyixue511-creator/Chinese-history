@@ -1,4 +1,5 @@
 ---
+
 title: 张成（Zhang Cheng）
 name_en: Zhang Cheng
 type: person
@@ -31,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "张成是 B 维度下元代嘉兴雕漆（剔红、剔犀）的代表匠师，其作品、铭文与东传日本“堆朱杨成”的记载构成漆艺史的具体链条。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b11-xiushi-wenxian-yu-minggong.md
+    role: key_person
+    primary: true
+    scope_note: "只取元代嘉兴剔红名家、谱系与东传；80 层与刀口 1 厘米分属两器，作品条目归 B.11.3。"
+hierarchy_scope_note: "张成是 B 维度下元代嘉兴雕漆（剔红、剔犀）的代表匠师，其作品、铭文与东传日本“堆朱杨成”的记载构成漆艺史的具体链条。已挂载 B.11.4（髹饰文献与名工：从《髹饰录》到李芝卿）。"
 ---
 
 ## 描述
@@ -68,10 +77,10 @@ hierarchy_scope_note: "张成是 B 维度下元代嘉兴雕漆（剔红、剔犀
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是元代嘉兴雕漆的匠人锚点，可与杨茂、彭君宝、张德刚及“堆朱杨成”的跨海传播建立联系。当前只到 Dimension。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-xiushi-wenxian-yu-minggong.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取元代嘉兴剔红名家、谱系与东传；80 层与刀口 1 厘米分属两器，作品条目归 B.11.3。
 
 ## 相关知识元
 

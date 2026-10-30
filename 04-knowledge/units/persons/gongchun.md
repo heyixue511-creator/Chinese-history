@@ -32,17 +32,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "供春是 B 维度下明代宜兴紫砂壶工艺的早期名家锚点，其身份由书童而匠师的记载兼有工艺史与文人笔记色彩。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: key_person
+    primary: true
+    scope_note: "供春是 B.5.5 紫砂谱系的起点：明正德年间人，原名龚春，在吴颐山家为书童，于宜兴湖沱金沙寺见僧智静炼土制壶而习其术，后专以制壶为业；「供春之壶，胜于金玉」，遗品极少，一件树瘿壶藏中国历史博物馆；2009 与 2016 册作「供寿」，与「龚春」同指，字面差异照录"
+hierarchy_scope_note: "供春是 B.5.5 紫砂谱系的起点：明正德年间人，原名龚春，在吴颐山家为书童，于宜兴湖沱金沙寺见僧智静炼土制壶而习其术，后专以制壶为业；「供春之壶，胜于金玉」，遗品极少，一件树瘿壶藏中国历史博物馆；2009 与 2016 册作「供寿」，与「龚春」同指，字面差异照录"
 ---
 
 ## 描述
@@ -66,10 +74,10 @@ hierarchy_scope_note: "供春是 B 维度下明代宜兴紫砂壶工艺的早期
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明代紫砂工艺早期谱系的起点人物，可与时大彬、陈鸣远等紫砂匠人及“供春壶”器形传统建立联系。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 供春是 B.5.5 紫砂谱系的起点：明正德年间人，原名龚春，在吴颐山家为书童，于宜兴湖沱金沙寺见僧智静炼土制壶而习其术，后专以制壶为业；「供春之壶，胜于金玉」，遗品极少，一件树瘿壶藏中国历史博物馆；2009 与 2016 册作「供寿」，与「龚春」同指，字面差异照录
 
 ## 相关知识元
 

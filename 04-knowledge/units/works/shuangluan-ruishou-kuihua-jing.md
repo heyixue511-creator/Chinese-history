@@ -22,17 +22,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度唐代铜镜的器物锚点，材料为图注一行加唐镜工艺总结一段。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md
+    role: representative_work
+    primary: true
+    scope_note: "只取图 6-32 双鸾瑞兽葵花镜与同页唐镜工艺总结；70:25:5 与镜面微凸是唐镜通说，不是本件检测数据。"
+hierarchy_scope_note: "本条是 B 维度唐代铜镜的器物锚点，材料为图注一行加唐镜工艺总结一段。已挂载 B.9.3（铜镜：型式、纹样与铸镜）。"
 ---
 
 ## 描述
@@ -54,10 +62,10 @@ hierarchy_scope_note: "本条是 B 维度唐代铜镜的器物锚点，材料为
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度唐代铜镜的器物锚点，材料为图注一行加唐镜工艺总结一段。Theme/Topic 尚未 materialize。
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-tongjing-xingzhi-wenyang-yu-zhuzao.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取图 6-32 双鸾瑞兽葵花镜与同页唐镜工艺总结；70:25:5 与镜面微凸是唐镜通说，不是本件检测数据。
 
 ## 相关知识元
 

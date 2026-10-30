@@ -1,0 +1,139 @@
+{
+  "package_id": "2026-10-30-hierarchy-pilot-h53",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-30",
+  "goal": "另立 Theme B.15「水利工程：灌溉、航运与治水经验」，下建 B.15.1「先秦至秦的灌溉与航运工程：都江堰、郑国渠、西门渠与灵渠」，把四条工程与四位主持者共 8 个 KU 主挂载进去，闭合 B.12 主题文件明确排除并登记为「归待建水利 Topic 或 B.3」的水利工程缺口。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.43",
+    "baseline_themes": 29,
+    "baseline_topics": 97,
+    "baseline_topic_memberships": 815,
+    "baseline_complete_assignments": 805,
+    "baseline_incomplete_assignments": 1765,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7618,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1620,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1100,
+    "baseline_b_dimension_unmounted": 1050
+  },
+  "result": {
+    "hierarchy_version": "v1.44",
+    "themes": 30,
+    "topics": 98,
+    "topic_memberships": 823,
+    "complete_assignments": 813,
+    "incomplete_assignments": 1757,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7634,
+    "relation_types": "3/67",
+    "member_of_relations": 1636,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1094,
+    "b_dimension_unmounted": 1042,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 1,
+    "theme_updated": 0,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 8,
+    "secondary_mounts": 0,
+    "changed_units": 8,
+    "total_mounted_units": 813,
+    "new_topic_memberships": 8,
+    "theme_organization": "B.15 不按朝代也不按工程类型分组，而按本库为读清水利史所划的一个问题单元分组：B.15.1 同时收灌溉（都江堰、郑国渠、西门渠）与航运（灵渠）两类工程，并收四位主持者。这一刀的理由不是来源的分组——赵农把三条灌溉渠写在 L2060-L2072 一段、灵渠写在 L2723-L2725 另一段，前后相隔约六百行，两处从未互相引用——而是四条工程与四位主持者严格一一对应、共享同一套叙述结构（主持者＋年代＋一句效果＋至多一句结构）。汉代以后的水利条目（白渠、龙首渠、大运河、圩田、海塘）在六册中未立条，故不按朝代切分第二个 Topic，也不为凑结构制造占位 Topic。",
+    "topic_split": "B.15.1 八条：work 4（都江堰、郑国渠、西门渠、灵渠）、person 4（李冰、郑国、西门豹、史禄）；role 为 `representative_work` 4、`key_person` 4。八条不重复计入主挂载。四条工程与四位主持者不拆成两个 Topic，因为来源的叙述单位就是「某人主持某项工程」，拆开会使两条边的任一侧失去所指。",
+    "role_distribution": {
+      "representative_work": 4,
+      "key_person": 4
+    },
+    "type_distribution": {
+      "work": 4,
+      "person": 4
+    },
+    "source_distribution": {
+      "2009-zhaonong": 8
+    },
+    "source_overlap_distribution": {
+      "single_book": 8
+    },
+    "confidence_distribution": {
+      "medium": 7,
+      "low": 1
+    },
+    "consensus_distribution": {
+      "tentative": 8
+    },
+    "theme_cumulative": {
+      "topics": 1,
+      "mounted_units": 8,
+      "type_distribution": {
+        "work": 4,
+        "person": 4
+      },
+      "role_distribution": {
+        "representative_work": 4,
+        "key_person": 4
+      },
+      "source_distribution": {
+        "2009-zhaonong": 8
+      },
+      "coverage_note": "B.15 是继 B.13 之后第二条完全单册来源的 Theme，且比 B.13 更窄：B.13 的十条分布在赵农册第三章、第四章、第八章与第十章，B.15 的八条只占两处连续文本（L2060-L2072 六条、L2723-L2725 两条）。高丰 2004、夏燕靖 2009、田自秉 2010、李立新 2011、夏燕靖 2016 五册对八条全部零覆盖。confidence 为 medium 7、low 1（史禄，来源只有一句派遣与工程结果）。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：8 条 primary_dimension 全部为 B；Topic 的 secondary_themes 为裸维度码 D，按 scripts/hierarchy_stress_test.py:828 的 \".\" in code 规则不计入维度集合，cross_dimension_topics 仍为空。",
+    "excluded_by_boundary": [
+      "提水机具：翻车、辘轳、桔槔归 B.12.2；本 Theme 以「是否改变水系」为界，工程改变水系、机具提取水",
+      "农具与耕作技术：耒耜、犁、耧、镰、磨归 B.12；水利工程所用锸、夯、测量工具在六册中无条目，不据工程描述补写",
+      "其他土木营造：城墙、宫殿、陵墓、道路不入",
+      "制度与治理：蜀郡太守、邺令、秦设桂林广州雷州行政机构归 D 维度",
+      "水利图像与水利图籍：六册无水利图、无《水经注》类文献条目，不建图版证据",
+      "治水神话与礼俗：西门豹「破除迷信」只有一句概括，未展开具体事件，不另立 KU",
+      "简单机械：杠杆、滑轮（terms/lever、terms/pulley）归待建简单机械线",
+      "近代水利与水电：六册无相关条目，不存在可挂对象"
+    ],
+    "handoff_note": "本批闭合的是 B.12 主题文件边界中「排除：水利工程——都江堰、郑国渠、灵渠、西门渠属灌溉工程与土木营造，归待建水利 Topic 或 B.3，本 Theme 只取器具而不取工程」这一项，以及 h50 summary 第九节、h51 summary 第九节与 h52 summary 第九节连续登记为「水利 Topic（都江堰、灵渠、郑国渠、西门渠）」的下一跳。B.12 的文件本身未回改，其排除句仍写「归待建水利 Topic」，需在后续维护中改指向 B.15。Also 未处置的是简单机械线（杠杆、滑轮）：二者与 B.13 的权衡、B.12 的提水都有原理关联，但仍无 Topic 承接。"
+  },
+  "changed_files": 22,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "04-knowledge/structure/themes/b15-shuili-gongcheng-guangai-hangyun-yu-zhishui-jingyan.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/dimension-candidates.md"
+  ],
+  "unresolved": [
+    "八条全部出自赵农 2009 的两处文本，其余五册零覆盖；水利工程在六册中是赵农的叙述对象而非共同对象，本 Theme 的任何判断都无法由第二册确认。",
+    "郑国渠与西门渠零结构：前者只有「在泾水和洛水之间穿凿一条灌溉水渠」，后者只有「兴建了漳水十二渠」；渠首、渠线、断面、比降、闸堰形制全部未载，「工程怎样做」在这两条上不可回答。",
+    "四条工程中无一条给灌溉面积：天府之国、盐碱地变良田、物产丰富土地肥沃都是效果断语，无亩数、无受益人口、无持续年限；灵渠的 33 公里是全 Theme 唯一的工程尺度，且只给总长不给分段。",
+    "无一条给渠道长度（灵渠除外）、土方量、工役人数、断面与比降；都江堰的「六年」是唯一工期，其余三条工程连工期都没有。",
+    "治水口诀无出处、无解释、无适用条件：「深掏滩，低作堰」「水竭不见足，盛不没肩」只作经验总结出现，未与鱼嘴、飞沙堰、宝瓶口的任何尺寸或高程对应；本库不据口诀反推工程参数。",
+    "四位主持者的身份差异未被讨论：行政长官两人（蜀郡太守、邺令）、技术人员一人（水利专家）、无官职记载一人（史禄）；来源未说明为何工程的成败总被归到个人，也未记载任何组织形态。",
+    "「西门渠／漳水十二渠」名实未定：同一工程的总名与分名、或主持者名与渠系名的并称，来源未说明；「十二渠」是否确为十二条渠亦无说明，本库并列照录。",
+    "三处文本异常照录不裁：都江堰条「都江水利」与「都江堰」并存、L2062 与 L2066 之间被页眉隔断（「被后人加以继」／「承」）；郑国渠条「气奄息息」疑为「气息奄奄」、「进入秦国内向秦王嬴政建议」疑脱句读；西门渠条名实并列。八条中三条带文本问题。",
+    "都江堰的「无坝引水」与灵渠的「船闸」是本 Theme 仅有的两项技术判断，但二者无任何结构细节支撑：无坝如何维持分流、船闸如何提高水位、分水工程如何保持水源，来源均只有一句。",
+    "效果语言的「地／路」两分是本库读法，来源未作此分类；灵渠的行政配套（桂林、广州、雷州半岛设治）被写在同一段，灌溉与航运的功能边界在来源中是模糊的。",
+    "制度与治理面全部未物化：蜀郡太守、邺令、秦设岭南行政机构均指向 D 维度，水利行政与漕运不在 D.6 官府手工业六点之内。",
+    "汉代以后的水利条目在六册中零覆盖（白渠、龙首渠、大运河、圩田、海塘均未立条），B.15 只覆盖战国至秦约四十年，不能代表整部水利史；一个 Topic 是库存限制而非取舍。",
+    "B.12 主题文件边界仍写「归待建水利 Topic 或 B.3」，未回改指向 B.15；该句属 v?（B.12 建立时）落盘文本，需后续维护同步。",
+    "简单机械线仍无落点：terms/lever 与 terms/pulley 无 primary_theme、无 topic_memberships，二者与 B.13 的权衡原理、B.12 的提水器具都有关联，但既未另立 Theme 也未并入既有 Topic。"
+  ],
+  "notes": "推导口径：relation 增量 16 = 8 条主挂载 ×（topic member_of + theme member_of），关系总数 7618 → 7634，explicit 5998 不变、inferred／member_of 1620 → 1636，与 build_relation_index.py 实测一致。隔离单元 1100 → 1094，减 6 而非 8，取自 audit_relation_consistency.py 前后两次实测（8 条中有 2 条原已有显式关系），该差值不是按条数推算。B 维度未挂载 1050 → 1042，减 8（8 条 primary_dimension 全部为 B）；全库未挂载 1765 → 1757。membership 815 → 823（+8），complete 805 → 813（+8），membership 仍比 KU 多 10，双挂载与次挂载清单不变。B.15 八条全为单册（赵农 2009 8），medium 7、low 1，无灌溉面积、无土方量与工役人数；量化只有三个年代（前 256、前 246、前 219）、一处长度（灵渠 33 公里）与一处工期（都江堰六年）。changed_files 22 = 本批 apply-plan 14 行（1 个 Theme 新建 + 1 个 Topic 新建 + 8 条主挂载 + 4 个索引更新）+ 8 个由闭包重建的生成态／导航文件（relation-index.yml、current-health.json、governance-backlog.md、06-runtime/automation/index.md、06-runtime/state/generated-projections-manifest.json、05-outputs/index/index.md、knowledge-graph-data.js、knowledge-graph-data.json）；旧版快照归档为 hierarchy/archive/v1.43.md（89763 字节），按 h44–h46 口径不计入 changed_files。生成态次序按 h51 实测处理：manifest 与 summary 先落盘，再连续跑两次全量闭包（第 8 步 write health and backlog 在第 9 步重建 05-outputs/index/index.md 之前，单跑一次会残留 output_navigation_snapshot_stale），第二次后 rule_drift.findings 归 0；随后 run_sync_closure.py --check-generated 第 17 步预计以 exit=1 报生成态与 HEAD 不一致，属未 commit 的预期。hierarchy_stress_test 报 v1.44、themes 30、topics 98、membership 823、complete 813、incomplete 1757、cross_dimension_topics 为空、apply_permitted false；structural_health 130/130、knowledge_structure_quality 58/65（hierarchy_assignment 3/10 未变）、content_findings 0。工作区累计改动属 h13–h53 未提交批次，HEAD 仍为 c249c6fe，分支 main、单一 worktree；本包不 commit、不 push。"
+}

@@ -36,17 +36,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "琢玉是 B 维度下商周玉器加工工序的条目，其器形与礼制用途归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md
+    role: procedure
+    primary: true
+    scope_note: "琢玉只取商周选料、切割、磨制、钻孔、雕刻五工序与铊子／砣机两册记载；器形与礼制用途不在此展开。"
+hierarchy_scope_note: "琢玉只取商周选料、切割、磨制、钻孔、雕刻五工序与铊子／砣机两册记载；器形与礼制用途不在此展开。"
 ---
 
 ## 描述
@@ -78,10 +86,10 @@ hierarchy_scope_note: "琢玉是 B 维度下商周玉器加工工序的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 琢玉是 B 维度下商周玉器加工工序的条目，其器形与礼制用途归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 琢玉只取商周选料、切割、磨制、钻孔、雕刻五工序与铊子／砣机两册记载；器形与礼制用途不在此展开。
 
 ## 相关知识元
 

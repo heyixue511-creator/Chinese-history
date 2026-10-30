@@ -1,4 +1,5 @@
 ---
+
 title: 螺钿花鸟纹经函（Mother-of-Pearl Sutra Box with Bird-and-Flower Design）
 name_en: Mother-of-Pearl Sutra Box with Bird-and-Flower Design
 type: work
@@ -21,17 +22,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "本条是 B 维度五代漆器的图版锚点，材料只有图注一行。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+    role: representative_work
+    primary: true
+    scope_note: "只有五代十国图注且图版归属不确；螺钿技法归 B.11.2，函形不补。"
+hierarchy_scope_note: "本条是 B 维度五代漆器的图版锚点，材料只有图注一行。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
 ---
 
 ## 描述
@@ -51,10 +60,10 @@ hierarchy_scope_note: "本条是 B 维度五代漆器的图版锚点，材料只
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度五代漆器的图版锚点，材料只有图注一行。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只有五代十国图注且图版归属不确；螺钿技法归 B.11.2，函形不补。
 
 ## 相关知识元
 

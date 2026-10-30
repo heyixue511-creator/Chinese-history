@@ -31,18 +31,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.15
+secondary_themes:
+  - D
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md
+    role: key_person
+    primary: true
+    scope_note: "只取受秦始皇派遣于公元前 219 年到广西兴安开凿灵渠、沟通湘江漓江这一句；生卒、籍贯、官职与主持经过全无，confidence 为 low。"
 secondary_dimensions: []
-hierarchy_scope_note: 史禄在本条落在 B 维度，是秦代灵渠水利工程的执行者，连接湘江、漓江与长江、珠江水系；Theme/Topic 尚未 materialize。
+hierarchy_scope_note: 史禄在本条落在 B 维度，是秦代灵渠水利工程的执行者，连接湘江、漓江与长江、珠江水系。已挂载 B.15.1（水利工程：灌溉、航运与治水经验）。
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: 史禄在本条落在 B 维度，是秦代灵渠水利工�
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 史禄在本条落在 B 维度，是秦代灵渠水利工程的执行者，连接湘江、漓江与长江、珠江水系；Theme/Topic 尚未 materialize。
+- primary_theme: B.15（水利工程：灌溉、航运与治水经验）
+- topic_memberships: topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 只取受秦始皇派遣于公元前 219 年到广西兴安开凿灵渠、沟通湘江漓江这一句；生卒、籍贯、官职与主持经过全无，confidence 为 low。
 
 ## 相关知识元
 

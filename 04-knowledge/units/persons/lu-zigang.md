@@ -24,19 +24,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-27
 review_due: 2027-04-27
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.8
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md
+    role: key_person
+    primary: true
+    scope_note: "陆子冈只取明代苏州琢玉身份、吴中绝技与茶晶花插等三件代表作；生卒、师承与款识未载。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度明代苏州玉雕工匠的人物锚点，巧色与白梅枝干的处理属 C 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "陆子冈只取明代苏州琢玉身份、吴中绝技与茶晶花插等三件代表作；生卒、师承与款识未载。"
 ---
 
 ## 描述
@@ -59,11 +67,10 @@ hierarchy_scope_note: "本条是 B 维度明代苏州玉雕工匠的人物锚点
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度明代苏州玉雕工匠的人物锚点，巧色与白梅枝干的处理属 C 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.8（玉石与治玉：礼制、工艺与巨型玉器）
+- topic_memberships: topics/b8-zhiyu-gongyi-yu-yugong-zhuoyu-taocai-qiaose.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 陆子冈只取明代苏州琢玉身份、吴中绝技与茶晶花插等三件代表作；生卒、师承与款识未载。
 
 ## 相关知识元
 

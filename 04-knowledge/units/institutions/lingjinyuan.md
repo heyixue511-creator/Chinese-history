@@ -58,17 +58,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 6
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 3
+version: 4
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: D
-hierarchy_scope_note: "绫锦院是 D 维度下宋辽金元四朝官营丝织机构的同名制度，其跨朝代同名异制是制度史比较的样本。Theme/Topic 尚未 materialize。"
+primary_theme: D.6
+secondary_themes: []
+role_in_theme: key_institution
+topic_memberships:
+  - topic: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md
+    role: key_institution
+    primary: true
+    scope_note: "绫锦院是宋辽金元四朝同名的官营织造机构，宋属少府监、辽在上京与祖州、金在真定等五处、元属织染杂造人匠总管府；本 Topic 取其四朝异制与「掌织造常课匹段之事」，不假定跨朝沿革。"
+hierarchy_scope_note: "绫锦院是宋辽金元四朝同名的官营织造机构，宋属少府监、辽在上京与祖州、金在真定等五处、元属织染杂造人匠总管府；本 Topic 取其四朝异制与「掌织造常课匹段之事」，不假定跨朝沿革。"
 ---
 
 ## 描述
@@ -94,11 +102,10 @@ hierarchy_scope_note: "绫锦院是 D 维度下宋辽金元四朝官营丝织机
 
 - primary_domain: chinese-design-history
 - primary_dimension: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 的价值在“同名异制”：同一机构名在四个朝代分属不同管理系统、承担不同职能。可支持未来的官营纺织机构比较、制度与纹样风格关系类 Topic。当前只到 Dimension。
-
+- primary_theme: D.6（前近代官府手工业：职官、匠役与设计控制）
+- topic_memberships: topics/d6-guanying-zhizao-cong-zhishi-dao-zhizaoju.md（key_institution，primary）
+- role_in_theme: key_institution
+- scope_note: 绫锦院是宋辽金元四朝同名的官营织造机构，宋属少府监、辽在上京与祖州、金在真定等五处、元属织染杂造人匠总管府；本 Topic 取其四朝异制与「掌织造常课匹段之事」，不假定跨朝沿革。
 ## 相关知识元
 
 本批写回的缂丝、纳石失、改机等 KU 均为织造工艺或织物名目，与本 KU 的制度层面不同层；relation 未经审查，不写入正式 `relations`。本段不构成关系断言。

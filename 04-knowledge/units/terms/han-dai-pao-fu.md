@@ -24,19 +24,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取袍服的部件名（祛、袂）与下摆处理（花饰边缘、密裥、月牙弯曲、曲裾与直裾）；袍色等级不在本条主题范围。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: "汉代袍服是 B 维度下的男子礼服形制条目，其官员服色等级属 D 维度。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "汉代袍服是 B 维度下的男子礼服形制条目，其官员服色等级属 D 维度。已挂载 B.18.2（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -57,12 +66,12 @@ hierarchy_scope_note: "汉代袍服是 B 维度下的男子礼服形制条目，
 ## 在层级体系中的位置
 
 - primary_domain: chinese-design-history
-- primary_dimension: B（造物工艺与生产技术）
+- primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是汉代男子袍服的形制条目，与秦代服饰、深衣、幞头构成秦汉至隋唐服饰序列。当前只到 Dimension。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取袍服的部件名（祛、袂）与下摆处理（花饰边缘、密裥、月牙弯曲、曲裾与直裾）；袍色等级不在本条主题范围。
 
 ## 相关知识元
 

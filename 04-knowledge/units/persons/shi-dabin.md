@@ -31,17 +31,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-28
 confidence: medium
 consensus: tentative
 source_count: 2
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "时大彬是 B 维度下明代宜兴紫砂工艺成熟期的代表匠师，其泥料处理与形制风格可作为紫砂工艺史的具体标本。Theme/Topic 尚未 materialize。"
+primary_theme: B.5
+secondary_themes: []
+role_in_theme: key_person
+topic_memberships:
+  - topic: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md
+    role: key_person
+    primary: true
+    scope_note: "时大彬是 B.5.5 紫砂谱系的第二环：时朋之子、供春弟子，田自秉称其为明代名手中「成就最高」者；制壶富巧思，常杂砂纲土使紫红胎上现星星白点，形制工整简洁浑厚；有「千奇万状信手出」「宫中艳说大彬壶」之誉——六册中唯一记到紫砂泥料配入异质颗粒的工艺细节"
+hierarchy_scope_note: "时大彬是 B.5.5 紫砂谱系的第二环：时朋之子、供春弟子，田自秉称其为明代名手中「成就最高」者；制壶富巧思，常杂砂纲土使紫红胎上现星星白点，形制工整简洁浑厚；有「千奇万状信手出」「宫中艳说大彬壶」之誉——六册中唯一记到紫砂泥料配入异质颗粒的工艺细节"
 ---
 
 ## 描述
@@ -63,10 +71,10 @@ hierarchy_scope_note: "时大彬是 B 维度下明代宜兴紫砂工艺成熟期
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是明代紫砂工艺成熟期的匠人锚点，可与供春、陈鸣远及“四大家”谱系建立联系。当前只到 Dimension。
+- primary_theme: B.5（陶器工艺与陶系传统）
+- topic_memberships: topics/b5-nitai-zhuangshi-zisha-shiwan-rongchang.md（key_person，primary）
+- role_in_theme: key_person
+- scope_note: 时大彬是 B.5.5 紫砂谱系的第二环：时朋之子、供春弟子，田自秉称其为明代名手中「成就最高」者；制壶富巧思，常杂砂纲土使紫红胎上现星星白点，形制工整简洁浑厚；有「千奇万状信手出」「宫中艳说大彬壶」之誉——六册中唯一记到紫砂泥料配入异质颗粒的工艺细节
 
 ## 相关知识元
 

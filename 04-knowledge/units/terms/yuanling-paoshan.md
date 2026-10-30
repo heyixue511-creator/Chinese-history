@@ -38,17 +38,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 3
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "圆领袍衫是 B 维度下隋唐男子服饰形制的条目。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取隋唐男子主服的形制名与「同形不同料」的等级表述（小圆领、横襕、红鞓带、乌皮六合靴）；袍长与袖宽无实测，不补。"
+hierarchy_scope_note: "圆领袍衫是 B 维度下隋唐男子服饰形制的条目。已挂载 B.18.3（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -68,10 +75,10 @@ hierarchy_scope_note: "圆领袍衫是 B 维度下隋唐男子服饰形制的条
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 圆领袍衫是 B 维度下隋唐男子服饰形制的条目。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取隋唐男子主服的形制名与「同形不同料」的等级表述（小圆领、横襕、红鞓带、乌皮六合靴）；袍长与袖宽无实测，不补。
 
 ## 相关知识元
 

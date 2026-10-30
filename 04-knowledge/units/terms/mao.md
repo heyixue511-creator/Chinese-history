@@ -26,19 +26,27 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取石木角矛到青铜矛的形制、矛头七部位、殷墟 700 余支、酋矛夷矛长度与春秋血槽；铁矛与南阳冶铁归后续铁器 Topic，车战编制不展开。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "矛是 B 维度下从石器时期到春秋战国的兵器条目，其形制演进与车战、步战制度相关。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "矛是 B 维度下从石器时期到春秋战国的兵器条目，其形制演进与车战、步战制度相关。已挂载 B.9.6（兵器与甲胄：长兵、短兵、远射与防护）。"
 ---
 
 ## 描述
@@ -93,11 +101,10 @@ hierarchy_scope_note: "矛是 B 维度下从石器时期到春秋战国的兵器
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本条是 B 维度下从石器时期到春秋战国的长柄兵器条目，向上关联兵器总论，向下关联青铜礼器、车战制度与铁器化等材料。Theme/Topic 尚未 materialize。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取石木角矛到青铜矛的形制、矛头七部位、殷墟 700 余支、酋矛夷矛长度与春秋血槽；铁矛与南阳冶铁归后续铁器 Topic，车战编制不展开。
 ## 相关知识元
 
 `terms/gongjian.md` 记弓箭；`terms/jianqi.md` 记箭器；`terms/dao-knife.md` 记刀；`terms/qingtong-liqi.md` 记商周青铜礼器；`terms/qingtong-shiqi.md` 记青铜时期；`terms/xianqin-sandai.md` 记先秦三代；`terms/chunqiu-zhanguo-qingtong-chuishiqi.md` 记春秋战国青铜兵器；`terms/ji-halberd.md` 记戟与车戟长度；`terms/shu-staff.md` 记殳；`works/wu-wang-fuchai-spear.md` 记吴王夫差矛。relation 未审查，不写入正式 `relations`。

@@ -30,17 +30,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-29
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "景泰蓝制作七过程是 B 维度下铜胎掐丝珐琅的工序条目；其名物、历史与品种归 terms/jingtai-lan.md。Theme/Topic 尚未 materialize。"
+primary_theme: B.9
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md
+    role: procedure
+    primary: true
+    scope_note: "只取制胎、掐丝、烧焊、点蓝、烧蓝、磨光、镀金七步与白芨糊、焊药、点烧三次以上等操作要点；名称、明清史与品种归 terms/jingtai-lan，不重复 B.9.4 的鎏金工序。"
+hierarchy_scope_note: "景泰蓝制作七过程是 B 维度下铜胎掐丝珐琅的工序条目；其名物、历史与品种归 terms/jingtai-lan.md。已挂载 B.9.5（金银器与金属胎珐琅：细工、器类与珐琅工艺）。"
 ---
 
 ## 描述
@@ -63,11 +71,10 @@ hierarchy_scope_note: "景泰蓝制作七过程是 B 维度下铜胎掐丝珐琅
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 本 KU 是程序性知识元（金属胎珐琅工序），与 `terms/jingtai-lan.md` 构成“工序—名物”的分工条目；当前只到 Dimension。
-
+- primary_theme: B.9（青铜与金属：器形、铸造与装饰）
+- topic_memberships: topics/b9-jinyinqi-yu-jinshutai-falang-xigong-qilei-yu-falang-gongyi.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取制胎、掐丝、烧焊、点蓝、烧蓝、磨光、镀金七步与白芨糊、焊药、点烧三次以上等操作要点；名称、明清史与品种归 terms/jingtai-lan，不重复 B.9.4 的鎏金工序。
 ## 相关知识元
 
 `terms/jingtai-lan.md` 记景泰蓝的名物定义、明清生产与品种；`terms/falangcai.md` 记瓷胎画珐琅，与本条同属珐琅工艺但胎体不同；`institutions/neiwufu-zaobanchu.md` 记清宫内务府造办处。relation 未经审查，不写入正式 `relations`。

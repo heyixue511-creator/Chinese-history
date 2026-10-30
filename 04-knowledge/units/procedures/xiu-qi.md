@@ -1,4 +1,5 @@
 ---
+
 title: 髹漆（Lacquer Coating）
 name_en: Lacquer Coating
 type: procedure
@@ -19,17 +20,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-30
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-25
 review_due: 2027-04-25
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "髹漆是 B 维度下战国漆器表面涂饰与装饰工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。"
+primary_theme: B.11
+secondary_themes: []
+role_in_theme: procedure
+topic_memberships:
+  - topic: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md
+    role: procedure
+    primary: true
+    scope_note: "只取战国髹漆的三类工艺名（描彩漆、镶嵌、针刻）、三类纹样与风格评语；工具、材料与漆层遍数无载。"
+hierarchy_scope_note: "髹漆是 B 维度下战国漆器表面涂饰与装饰工序的条目，其器形与纹样归 B 维度。已挂载 B.11.1（胎骨、髹涂与制作分工：从木胎到脱胎）。"
 ---
 
 ## 描述
@@ -48,10 +57,10 @@ hierarchy_scope_note: "髹漆是 B 维度下战国漆器表面涂饰与装饰工
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 髹漆是 B 维度下战国漆器表面涂饰与装饰工序的条目，其器形与纹样归 B 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
+- topic_memberships: topics/b11-taigu-xiutu-yu-zhizuo-fengong-cong-mutai-dao-tuotai.md（procedure，primary）
+- role_in_theme: procedure
+- scope_note: 只取战国髹漆的三类工艺名（描彩漆、镶嵌、针刻）、三类纹样与风格评语；工具、材料与漆层遍数无载。
 
 ## 相关知识元
 
