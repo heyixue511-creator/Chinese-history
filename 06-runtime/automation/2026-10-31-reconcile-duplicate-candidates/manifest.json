@@ -1,0 +1,58 @@
+{
+  "package_id": "2026-10-31-reconcile-duplicate-candidates",
+  "profile": "reconcile-duplicate-candidates-v1",
+  "batch_kind": "reconcile-decision-checkpoint",
+  "date": "2026-10-31",
+  "goal": "对全库 2570 个 KU 做字面同名／同义扫描并逐组裁决，清算 h44–h61 各批 unresolved 中反复登记的「重复候选待 reconcile」一项。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.51",
+    "baseline_units": 2570,
+    "baseline_topics": 107,
+    "baseline_topic_memberships": 884,
+    "baseline_relation_index": 7750,
+    "method": "按 frontmatter 的 title 与 aliases 建索引，完全相等匹配，不做模糊匹配",
+    "groups_found": 11
+  },
+  "result": {
+    "hierarchy_version": "v1.51",
+    "units": 2570,
+    "topics": 107,
+    "topic_memberships": 884,
+    "relation_index": 7750,
+    "decisions": {
+      "rejected": 6,
+      "resolved": 2,
+      "parallel_interpretations": 2,
+      "deferred": 1
+    },
+    "merged_units": 0,
+    "alias_rewrites": 0,
+    "relation_writes": 0,
+    "apply_plan": null,
+    "candidate_index": 5350,
+    "candidate_index_active": 1,
+    "candidate_index_terminal": 5349,
+    "governance_backlog_candidate_opportunities": 2
+  },
+  "changed_files": 4,
+  "apply_plan": null,
+  "result_evidence": [
+    "06-runtime/automation/index.md"
+  ],
+  "unresolved": [
+    "别名交叉 5 组未改写（rc-01 卷草纹、rc-02 玻璃器、rc-03 洋瓷、rc-04 剔红、rc-05 御窑）：别名治理属 merge/alias 门槛，需明确授权。",
+    "rc-05 琉璃烧造条的「御窑」别名疑为误置，需回到其两处来源逐句核对，本批未取得可定位原句，故 deferred。",
+    "rc-02 琉璃条与玻璃条之间缺互引关系（李立新册的「玻璃器」序列只被琉璃条引用），建立 related 需授权与 dry-run。",
+    "扫描只覆盖字面同名，未做近似名（如「白陶／商代白陶」类已在 h26 登记的历史候选）以外的模糊召回；本批不声称「全库无近似重复」。",
+    "h24 登记的 youlihong-ci、h26 登记的 shangdai-baitao 两组历史 potential_duplicate 不在本次字面同名命中内，仍待单独处理。"
+  ],
+  "notes": [
+    "本批不写回任何 KU、claim 或 relation：reconcile 契约第 5 条要求 merge／alias／same_as／对象迁移须有明确授权，本批无当次授权。",
+    "11 组中 6 组为「同名不同类」（5 组人物—著作、1 组遗址—文化），属命名常态，判 rejected 而非冲突。",
+    "裁决记录只存在于本包 candidate-ledger.jsonl，不创建 type: conflict，也不建 04-knowledge/quality/conflicts/ 下的条目。",
+    "候选账本必须使用标准 envelope：06-runtime/automation/**/candidate-ledger.jsonl 会被 build_discovery_index.py 当作发现来源扫描，缺 candidate_id / candidate_type / origin_type / origin_ref / payload / evidence_refs / state / decision / created_at / updated_at 任一字段即以 exit=1 拦下闭包（本批首次运行即此故障）。11 条记录已改为 envelope 形式，冲突字段全部移入 payload；deferred 一条按系统规则落为 lifecycle_class=active，故 backlog 新增 OPP-CANDIDATES（active discovery candidates 1）。",
+    "changed_files 4 = candidate-ledger.jsonl + summary.md + manifest.json + 生成态 06-runtime/automation/index.md。",
+    "生成态次序：三件手写工件先落盘，再连跑两次全量闭包，使 automation/index.md 登记本包。",
+    "本包不 commit、不 push——commit/push 需用户当次明确授权。"
+  ]
+}

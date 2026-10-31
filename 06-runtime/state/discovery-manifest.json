@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "generator": "scripts/build_discovery_index.py",
   "parameters": [],
-  "baseline_input_fingerprint": "sha256:79b27aad16d085de765a7c625ede76f143b109a8d35fa486c5fb59239cb9d781",
+  "baseline_input_fingerprint": "sha256:c53bd044f53c18839fceeae286cd47fe27005e1802ebb0e2f0c9db5f1f46eaff",
   "input_state": {
     "03-processing/2004-gaofeng-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:8c1a5f6ce8f124a7d0fafc51612945061283097eab60dac59dd29349d5f62f5f",
     "03-processing/2009-xiayanjing-zhongguo-shejishi/candidate-ledger.jsonl": "sha256:008d5408d3eefe7a0dd8c1ec4745f44901ab3bf345b3453d914929a1e55b168e",
@@ -11,6 +11,7 @@
     "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/candidate-ledger.jsonl": "sha256:570a9f97940e9b65c36b00d1e9184b3630454fd6b2d918a81d02e16de919d34b",
     "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade/candidate-ledger.jsonl": "sha256:d92e5a13be4024ac622f79cc9a888f46b469059565ef4e8ea8c03db961ab957b",
     "04-knowledge/quality/relation-candidates.yml": "sha256:93be1a912da35beb4315ec8340913e64e384c20e2205c3de34254d02e0d71e88",
+    "06-runtime/automation/2026-10-31-reconcile-duplicate-candidates/candidate-ledger.jsonl": "sha256:ea8b5e972c1906ada54055ff83a29eb1d04cd792aa0578c82992e69ba2c3dcd2",
     "06-runtime/automation/2026-10-25-2004gaofeng-institutions-batch-n/candidate-decision-ledger.jsonl": "sha256:c3797891ab065cf679993af94d99bf39b6920e16f1096ba01110bab7872b81cf",
     "06-runtime/automation/2026-10-25-2004gaofeng-procedures-batch/candidate-decision-ledger.jsonl": "sha256:77dbdeb1e42cce061dba64904ecc0817c30dbfdb5acc7f7c113fd529f44475dc",
     "06-runtime/automation/2026-10-25-2009xiayanjing-events-batch/candidate-decision-ledger.jsonl": "sha256:ccacded420b3ddeccf7af2650ff1e15a87cc18cdc879b12ad0379c22dc4b36d8",
@@ -219,7 +220,8 @@
     "03-processing/2010-tianzibing-zhongguo-gongyi-meishushi/candidate-ledger.jsonl": 1068,
     "03-processing/2011-lilixin-zhongguo-sheji-yishu-shilun/candidate-ledger.jsonl": 534,
     "03-processing/2016-xiayanjing-zhongguo-yishu-shejishi-upgrade/candidate-ledger.jsonl": 1211,
-    "04-knowledge/quality/relation-candidates.yml": 0
+    "04-knowledge/quality/relation-candidates.yml": 0,
+    "06-runtime/automation/2026-10-31-reconcile-duplicate-candidates/candidate-ledger.jsonl": 11
   },
   "candidate_transition_source_counts": {
     "06-runtime/automation/2026-10-25-2004gaofeng-institutions-batch-n/candidate-decision-ledger.jsonl": 27,
@@ -436,32 +438,41 @@
     "rejected->rejected": 5
   },
   "candidate_counts": {
-    "total": 5339,
+    "total": 5350,
     "by_origin_type": {
+      "knowledge": 11,
       "source": 5339
     },
     "by_candidate_type": {
       "claim": 1363,
-      "unit": 3976
+      "unit": 3987
     },
     "by_state": {
       "applied": 4234,
-      "no_delta": 234,
-      "rejected": 871
+      "deferred": 1,
+      "no_delta": 238,
+      "rejected": 877
     },
     "by_lifecycle_class": {
-      "terminal": 5339
+      "active": 1,
+      "terminal": 5349
     }
   },
   "actionable_candidate_counts": {
-    "total": 0,
-    "by_origin_type": {},
-    "by_candidate_type": {},
-    "by_state": {}
+    "total": 1,
+    "by_origin_type": {
+      "knowledge": 1
+    },
+    "by_candidate_type": {
+      "unit": 1
+    },
+    "by_state": {
+      "deferred": 1
+    }
   },
   "legacy_projection_normalizations": {},
   "issues": [],
   "output_hashes": {
-    "06-runtime/state/candidate-index.jsonl": "sha256:f503a42a37371d440864f4e6c90ec285b73a18040529325d69299e785f19c0a1"
+    "06-runtime/state/candidate-index.jsonl": "sha256:5f42a42c09511b6aa45976510f8f0cd702cf1374da5b1a671a1b940bfb996182"
   }
 }

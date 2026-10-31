@@ -1,0 +1,158 @@
+{
+  "package_id": "2026-10-31-hierarchy-pilot-h59",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-31",
+  "goal": "在 Theme B.18「前近代服饰与冠服等级」下建立 Topic B.18.6「鞋履与甲胄：履的种类、云头锦鞋、花盆底鞋与皮甲」，把六册中四条足服与护具条目全部主挂载，回答「足服与护具在六册里是按用途分的一条线，还是按材料与工艺分的一条线」，并闭合 h56 边界与 h58 交接中登记的「鞋履与甲胄四条待建」债务，B.18 自此六个 Topic、四十条落地。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.49",
+    "baseline_themes": 33,
+    "baseline_topics": 106,
+    "baseline_topic_memberships": 878,
+    "baseline_complete_assignments": 864,
+    "baseline_incomplete_assignments": 1706,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7740,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1742,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1061,
+    "baseline_b_dimension_unmounted": 991
+  },
+  "result": {
+    "hierarchy_version": "v1.50",
+    "themes": 33,
+    "topics": 107,
+    "topic_memberships": 882,
+    "complete_assignments": 868,
+    "incomplete_assignments": 1702,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7748,
+    "relation_types": "3/67",
+    "member_of_relations": 1750,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1057,
+    "b_dimension_unmounted": 987,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes": 1,
+    "new_theme_nodes": 0,
+    "theme_updated": 1,
+    "topics_touched": 1,
+    "new_topic_nodes": 1,
+    "mounted_units": 4,
+    "secondary_mounts": 0,
+    "changed_units": 4,
+    "total_mounted_units": 868,
+    "new_topic_memberships": 4,
+    "theme_organization": "B.18.6 是 B.18 的第六个也是最后一个 Topic。切分轴仍是「这件衣物在六册里回答什么」：B.18.1 问等级如何被写成可数符号，B.18.2 问衣—裳如何被写成形制名与裁法，B.18.3 问上身短衣如何被写成一组各自命名的名目，B.18.4 问下身裙制是「形」的谱系还是「色料」的谱系，B.18.5 问头部与面部装饰的等级是「可读」还是「消解」，B.18.6 问足服与护具是按用途分还是按材料与工艺分。B.18 由此六个 Topic、四十条全部落地，待建清零。",
+    "topic_split": "B.18.6 四条（履的种类、云头锦鞋、花盆底鞋、皮甲），全部为 B.18.6 主挂载，无次挂载，无跨 Topic 双挂。B.18 累计 6 个 Topic、40 条主挂载：B.18.1 六条、B.18.2 九条、B.18.3 八条、B.18.4 七条、B.18.5 六条、B.18.6 四条。皮甲以 boundary_case 标记其处在 B.9.6（金属铠甲与造甲）与本 Topic（皮革甲胄与足服）的分界上。",
+    "role_distribution": {
+      "term_anchor": 2,
+      "representative_work": 1,
+      "boundary_case": 1
+    },
+    "type_distribution": {
+      "term": 3,
+      "work": 1
+    },
+    "source_distribution": {
+      "2009-zhaonong-zhongguo-yishu-shejishi": 2,
+      "2010-tianzibing-zhongguo-gongyi-meishishi": 1,
+      "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 1
+    },
+    "source_overlap_distribution": {
+      "single_book": 4
+    },
+    "confidence_distribution": {
+      "medium": 1,
+      "low": 3
+    },
+    "consensus_distribution": {
+      "tentative": 4
+    },
+    "primary_vs_secondary": {
+      "primary": 4,
+      "secondary": 0
+    },
+    "theme_cumulative": {
+      "topics": 6,
+      "mounted_units": 40,
+      "type_distribution": {
+        "term": 32,
+        "work": 8
+      },
+      "role_distribution": {
+        "term_anchor": 31,
+        "representative_work": 8,
+        "boundary_case": 1
+      },
+      "source_distribution": {
+        "2016-xiayanjing-zhongguo-yishu-shejishi-upgrade": 16,
+        "2009-zhaonong-zhongguo-yishu-shejishi": 16,
+        "2009-xiayanjing-zhongguo-shejishi": 13,
+        "2010-tianzibing-zhongguo-gongyi-meishishi": 6,
+        "2004-gaofeng-zhongguo-shejishi": 2,
+        "2011-lilixin-zhongguo-sheji-yishu-shilun": 2
+      },
+      "books_covered": 6,
+      "source_count": 6,
+      "confidence_distribution": {
+        "medium": 31,
+        "low": 9
+      },
+      "coverage_note": "六册全覆盖维持，但 B.18.6 本身只出自三册（赵农 2009 二、田自秉 2010 一、夏燕靖 2016 一），高丰 2004、夏燕靖 2009、李立新 2011 零覆盖；四条全为单册来源、无一条跨册互证，confidence 为 medium 1／low 3，是 B.18 六个 Topic 中证据强度最低、也是唯一以 low 占多数的一个。B.18 的六册全覆盖仍由 B.18.1 的霞帔、B.18.2 的深衣与素纱禅衣、B.18.5 的幞头与顾姑冠带动。"
+    },
+    "cross_dimension_mounts": "无新增跨维度主挂载：4 条 primary_dimension 全部为 B。terms/lv-de-zhonglei.md 与 terms/huapendi-xie.md 原有的 secondary_dimensions: [D] 按其原值镜像为 secondary_themes: [D]，本批不新设维度归属；works/yuntou-jin-xie.md 与 terms/leather-armor.md 无 secondary_dimensions，按空值跳过不写空列表。B.18.6 的 secondary_themes 为 [D]，依据是四条中两条把鞋履写成服用场合或身体改装（履的三种按祭祀、家居、雨天践泥分；花盆底鞋连写旗女天足与汉族缠足弓鞋的影响），D 是共同旁支；该判断只作用于 Topic 层，不回写到其余两条 KU。",
+    "excluded_by_boundary": [
+      "金属铠甲与造甲工序：汉代铠甲、明光铠、筒袖铠、造甲归 B.9.6；本条只以皮甲的制革与串联与它们对照，不据皮甲条回填铁甲结构。",
+      "衣装本体：深衣、袍服、圆领袍衫、襦、袄、比甲归 B.18.2 与 B.18.3；花盆底鞋条同段所及的旗女服饰整体形制不展开。",
+      "首服与妆饰：幅巾、幞头、顾姑冠、假髻、佛妆、帔子归 B.18.5；花盆底鞋条同段的旗女发式与妆饰不收。",
+      "甲胄与衣裳等级的对照：两裆衫「形制缘起于铠甲」归 B.18.3，本 Topic 只在皮甲条的串联方式上与它相互对照，不重复挂载。",
+      "缠足史与身体改装：弓鞋与汉族缠足对旗女的影响只作背景照录，身体改装归 E.6，制度与习俗问题归 D。",
+      "织造工艺本体：晕絰的色条组织与锦的织法归 B.2 与相关工艺 Theme；云头锦鞋只取「里衬用蓝、绿、浅红彩条晕絰锦」这一句用料记载。",
+      "图版本体：图 9-21（花盆底鞋）、图 3-6 与图 3-7（铜戈，非皮甲图）均未视觉核验，不据图补写鞋式与甲式。"
+    ],
+    "handoff_note": "本批闭合 h56 Theme B.18 边界「待建：鞋履与甲胄」与 h58 段落「鞋履与甲胄四条仍在库中等候」。h58 summary 第九节「下一跳优先级」第一位「鞋履与甲胄 Topic」至此完成，B.18 至六个 Topic、四十条全部落地，待建清零，B.18 闭合。"
+  },
+  "changed_files": 18,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/dimension-candidates.md",
+    "04-knowledge/structure/hierarchy/archive/v1.49.md",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/automation/index.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/index/index.md",
+    "knowledge-graph-data.js"
+  ],
+  "unresolved": [
+    "用途分类只有一条且只有一句：舄、屦、屐三分的分类标准是服用场合，但三条的形制、尺寸、材质（仅屐明言木制）与等级规定全缺；汉代以后鞋履如何分类，六册不载。",
+    "尺寸全线缺失：无鞋长、鞋宽、底高、鞋头高度，也无甲片尺寸与甲片数量；唯一数量「最多七甲」是皮革层数，且与「七札」是否为同一制度来源未说明。",
+    "皮甲与金属铠甲的关系未裁：皮甲（赵农「兵器」段）与汉代铠甲、明光铠、筒袖铠（B.9.6）分处两个 Theme，六册从未把皮革甲与铁甲并列比较；合甲层数与铁甲甲片的差异、两种甲的时代接替均无记载。本 Topic 的处置依据是 Theme B.9 的材质边界与本 Theme 的甲胄项，属结构判断而非来源结论。",
+    "「七甲」与「七札」是否同指未裁：来源作「最多时可以有七甲」「传说秦穆公穿的就是七甲，亦称七札」，先言层数、后言札数，两个计量对象的单位不同，来源未调和。",
+    "云头锦鞋只说得出里衬：鞋长、鞋宽、鞋头结构与鞋面鞋底材料全缺，「云头」的鞋头云形是据名理解而非记载；它与同出的晕絰提花锦裙共用一种织锦，但两件的关系（同墓、同批、同工）来源未述。",
+    "花盆底鞋的两名同物需靠来源自证：「前圆后方为马蹄底」与「侧面为内弧线，又称花盆底」是同一双鞋的底面与侧面两种描述，来源未明说二者同物，本库按上下文并列；若他书以此为两种鞋式，本条的合并需重估。",
+    "足服与护具之间无一条连接：四条中各说各的，履的种类不讲甲、皮甲不讲鞋；Theme 层能连起来的只有「连缀」一词（皮甲与两裆衫），足服一侧完全没有对应。",
+    "图版未核且不对题：花盆底鞋的图 9-21 未核；皮甲条所引图 3-6、图 3-7 是铜戈图而非皮甲图，不能作甲式证据；履的种类与云头锦鞋无图。",
+    "断代不连续：四条各占春秋战国、汉、唐、清一段，秦汉之间、魏晋至明四段零覆盖，无法排出足服的连续序列。",
+    "覆盖最薄且低置信：三条来源、四条全为单册，低置信 3/4；本库只记「本批未见」，不记「原书未载」。B.18 六个 Topic 中本 Topic 的证据强度最低。"
+  ],
+  "notes": "推导与实测口径：relation 增量 8 = 4 条主挂载 ×（topic member_of + theme member_of），与 build_relation_index.py 前后实测差一致（7740→7748），member_of 同增 8（1742→1750）。隔离单元减 4：4 条挂载前全部为隔离单元，取自 audit_relation_consistency.py 前后两次实测（1061→1057），本批无「原本已有显式关系」的例外，与 h58 的 5/6 情形不同。changed_files 18 = apply-plan 10 行 + 8 个生成态文件；archive 快照 hierarchy/archive/v1.49.md 不计入。B.18 四十条的 role 合计为 term_anchor 31、representative_work 8、boundary_case 1（皮甲），与 h58 的 36 条（29／7／0）相加一致。生成态：manifest 与 summary 先落盘，再连跑两次 run_sync_closure.py --refresh-generated --full；--check-generated 17 步第 17 步未 commit 时 exit=1 属预期。不 commit、不 push。"
+}

@@ -1,0 +1,99 @@
+{
+  "package_id": "2026-10-31-hierarchy-pilot-h60",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-31",
+  "goal": "把 v1.39–v1.50 建成之后仍留在早期 Theme/Topic 与两个 README 中的「待建／尚未物化／仍未建立」句子回改为指向已落地节点的实测事实，一次清零跨批文本债；本批不新建节点、不新增加载、不改任何计数。",
+  "batch_kind": "text-backedit-checkpoint",
+  "scope": {
+    "baseline_hierarchy_version": "v1.50",
+    "baseline_themes": 33,
+    "baseline_topics": 107,
+    "baseline_topic_memberships": 882,
+    "baseline_complete_assignments": 868,
+    "baseline_incomplete_assignments": 1702,
+    "baseline_relation_index": 7748,
+    "baseline_member_of_relations": 1750,
+    "baseline_isolated_units": 1057,
+    "baseline_b_dimension_unmounted": 987,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65"
+  },
+  "result": {
+    "hierarchy_version": "v1.50",
+    "themes": 33,
+    "topics": 107,
+    "topic_memberships": 882,
+    "complete_assignments": 868,
+    "incomplete_assignments": 1702,
+    "relation_index": 7748,
+    "member_of_relations": 1750,
+    "isolated_units": 1057,
+    "b_dimension_unmounted": 987,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "content_findings": 0
+  },
+  "structure": {
+    "themes": 0,
+    "new_theme_nodes": 0,
+    "topics_touched": 0,
+    "new_topic_nodes": 0,
+    "mounted_units": 0,
+    "secondary_mounts": 0,
+    "changed_units": 0,
+    "backedited_files": 22,
+    "backedited_sentences": 28,
+    "groups": {
+      "water_engineering_to_B15": [
+        "themes/b12-nongju-yu-nongye-jishu-gengzuo-shouge-yu-tishui.md (2)",
+        "topics/b12-gengzuo-yu-bozhong-leisi-dao-quyuanli.md (1)",
+        "topics/b12-shouge-jiagong-yu-tishui-lian-mo-fanche-yu-lulu.md (1)",
+        "topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md (1)"
+      ],
+      "simple_machines_to_B16": [
+        "themes/b13-huobi-yu-duliangheng-jiaohuan-meijie-yu-jiliang-biaozhun.md (1)",
+        "topics/b13-duliangheng-fangsheng-qinliang-yu-quanheng.md (2)",
+        "themes/b15-shuili-gongcheng-guangai-hangyun-yu-zhishui-jingyan.md (1)",
+        "topics/b15-xianqin-shuili-gongcheng-dujiangyan-lingqu.md (1)",
+        "topics/b16-shengli-yuanli-yu-qiju-de-fenzhi.md (1)"
+      ],
+      "money_and_farm_tools_to_B13_B12": [
+        "themes/b9-qingtong-yu-jinshu-qixing-zhuzao-yu-zhuangshi.md (2)",
+        "topics/b9-yetie-liangang-yu-diezhu.md (2)"
+      ],
+      "furniture_and_bamboo_to_B14_B147_B171": [
+        "topics/b14-muzuo-gongyi-yu-jiegou-sunmao-cuanbian-banshi.md (3)",
+        "topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md (2)",
+        "topics/b14-jinxiandai-jiaju-renzao-cailiao-gonggong-zhuzuo.md (1)",
+        "topics/b11-qiqi-shijian-yu-muzang-biaoben.md (3)"
+      ],
+      "armour_to_B18_and_B18_internal": [
+        "topics/b9-bingqi-yu-jiazhou-changbing-duanbing-yuanshe-yu-fanghu.md (1)",
+        "topics/b18-mianfu-yu-guanfu-dengji-mianfu-mianliu-yiyi-xiapei-yu-yanju.md (1)",
+        "topics/b18-paoshan-aoru-yu-liangdang-suitang-yuanling-beizhao-duanyi-yu-yuandai-bianxian-ao.md (2)",
+        "topics/b18-qunzhi-qun-ruqun-jianqun-shiliuqun-yangchangqun-yuqun-jin-qun.md (1)",
+        "topics/b18-shangyi-xiashang-yu-shenyi-xingshi-yuanshi-shenyi-paofu-yu-han-dai-chengyi.md (1)",
+        "topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md (1)"
+      ],
+      "readmes": [
+        "themes/README.md (4)",
+        "topics/README.md (3)"
+      ]
+    },
+    "version_bump": "none — 无结构节点与挂载变化；按 build-hierarchy 第 5 条，纯文本回改使用包内 checkpoint，不虚增结构版本",
+    "cross_dimension_mounts": "无"
+  },
+  "changed_files": 24,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "06-runtime/automation/index.md",
+    "06-runtime/state/generated-projections-manifest.json"
+  ],
+  "unresolved": [
+    "h46 交接的原登记有误：B.12.2 与 B.5.3 的正文与边界本无「简单机械线尚未物化」一句，该句只存在于 B.13 Theme 与 B.13.2；本批已按实测改写 B.16.1 与 themes/README.md 的表述，不沿用旧登记。",
+    "B.11.3 登记的条件已成立但未执行：金漆雕龙宝座与紫檀嵌剔红宝座应改为次挂载 B.14.5（主挂载保留在 B.11.3）；该操作属结构变更，需单独批次做语义决定与实测，本批只在文本中登记状态。",
+    "仍属真实待办的句子未改：B.5「制陶生产组织 4 条候选与青铜器形序列尚未物化」、B.11.3「重庆研磨彩绘的产业侧材料仍无 Topic」、B.9.6「民间织造与民间染业归 D 的其他 Topic（尚未物化）」、B.1「电光源、电信与货币印制技术条目尚未纳入」均与磁盘一致，不属陈旧句。",
+    "B.13 Theme 与 B.13.2 另有「制度面全部未物化（D 维度）」类句子，仍属实（D 维度前近代线只有 D.6），本批不动。"
+  ],
+  "notes": "changed_files 24 = apply-plan 22 行 + 2 个生成态文件（06-runtime/automation/index.md 因新增本包目录而重生成，06-runtime/state/generated-projections-manifest.json 因记录前者哈希而更新）；relation-index.yml、current-health.json、governance-backlog.md、05-outputs/index/index.md、knowledge-graph-data.js/.json 本批内容无变化。h59 的 18 个文件仍未提交，故不能用 git status 计数本批改动，以上按生成器行为与实际写入确定。全量闭包连跑两次通过；--check-generated 第 17 步在未 commit 时 exit=1 属预期。不 commit、不 push。"
+}

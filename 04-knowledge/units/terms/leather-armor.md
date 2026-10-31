@@ -27,17 +27,24 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
-hierarchy_scope_note: "皮甲是 B 维度下春秋战国防护装备的条目，与戈、矛、戟、殳、弩等进攻性兵器相对。Theme/Topic 尚未 materialize。"
+primary_theme: B.18
+role_in_theme: boundary_case
+topic_memberships:
+  - topic: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+    role: boundary_case
+    primary: true
+    scope_note: "只取春秋战国皮甲的制革与串联工艺（合甲、数层皮革合制、最多七甲、七札传说、牛皮切小片以皮条按身体部位串联、连缀如竹简书札故称甲札）与装饰产地（彩绘铜饰、吴甲楚甲）、战国马甲与曾侯乙墓实物；尺寸、甲片数量、编缀图式与出土单位全缺；**role 取 boundary_case**：本条处在 B.9.6（金属铠甲与造甲）与本 Topic（皮革甲胄与足服）的分界上，B.9 以材质为界不收皮革，本 Theme 标题含甲胄，故归本 Topic，与两裆衫「形制缘起于铠甲」构成衣裳—护具的对照。"
+hierarchy_scope_note: "皮甲是 B 维度下春秋战国防护装备的条目，与戈、矛、戟、殳、弩等进攻性兵器相对。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -79,10 +86,10 @@ hierarchy_scope_note: "皮甲是 B 维度下春秋战国防护装备的条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 皮甲是春秋战国防护装备的核心条目，向上关联制革与甲片编缀工艺，向下关联马甲与车战防护。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md（boundary_case，primary）
+- role_in_theme: boundary_case
+- scope_note: 只取春秋战国皮甲的制革与串联工艺（合甲、数层皮革合制、最多七甲、七札传说、牛皮切小片以皮条按身体部位串联、连缀如竹简书札故称甲札）与装饰产地（彩绘铜饰、吴甲楚甲）、战国马甲与曾侯乙墓实物；尺寸、甲片数量、编缀图式与出土单位全缺；**role 取 boundary_case**：本条处在 B.9.6（金属铠甲与造甲）与本 Topic（皮革甲胄与足服）的分界上，B.9 以材质为界不收皮革，本 Theme 标题含甲胄，故归本 Topic，与两裆衫「形制缘起于铠甲」构成衣裳—护具的对照。
 
 ## 相关知识元
 

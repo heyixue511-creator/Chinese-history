@@ -42794,11 +42794,18 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
-      "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "花盆底鞋是 B 维度下清代旗女鞋式的条目，其与汉族缠足弓鞋的关系属 D 维度。Theme/Topic 尚未 materialize。"
+      "primary_theme": "B.18",
+      "secondary_themes": [
+        "D"
+      ],
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "花盆底鞋是 B 维度下清代旗女鞋式的条目，其与汉族缠足弓鞋的关系属 D 维度。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
     },
     {
       "id": "terms:huasha",
@@ -46510,11 +46517,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.18",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "皮甲是 B 维度下春秋战国防护装备的条目，与戈、矛、戟、殳、弩等进攻性兵器相对。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "boundary_case",
+      "topic_memberships": [
+        {
+          "topic": "topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md",
+          "role": "boundary_case"
+        }
+      ],
+      "hierarchy_scope_note": "皮甲是 B 维度下春秋战国防护装备的条目，与戈、矛、戟、殳、弩等进攻性兵器相对。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
     },
     {
       "id": "terms:lei-vessel",
@@ -48304,11 +48316,18 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
-      "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "履的种类是 B 维度下汉代鞋履形制的条目，其祭祀、家居与雨行的服用场合属 D 维度。Theme/Topic 尚未 materialize。"
+      "primary_theme": "B.18",
+      "secondary_themes": [
+        "D"
+      ],
+      "role_in_theme": "term_anchor",
+      "topic_memberships": [
+        {
+          "topic": "topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md",
+          "role": "term_anchor"
+        }
+      ],
+      "hierarchy_scope_note": "履的种类是 B 维度下汉代鞋履形制的条目，其祭祀、家居与雨行的服用场合属 D 维度。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
     },
     {
       "id": "terms:lvchen-qi",
@@ -69784,9 +69803,13 @@
         {
           "topic": "topics/b11-qiqi-shijian-yu-muzang-biaoben.md",
           "role": "boundary_case"
+        },
+        {
+          "topic": "topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md",
+          "role": "boundary_case"
         }
       ],
-      "hierarchy_scope_note": "本条是 B 维度下清式宫廷家具的器物锚点，其龙纹雕刻与屏风配置属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
+      "hierarchy_scope_note": "本条是 B 维度下清式宫廷家具的器物锚点，其龙纹雕刻与屏风配置属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。另次挂载 B.14.5（明清家具风格与地域流派：明式、清式与三大名作）。"
     },
     {
       "id": "works:jinsheng-han",
@@ -79692,11 +79715,16 @@
       "primary_domain": "chinese-design-history",
       "secondary_domains": [],
       "primary_dimension": "B",
-      "primary_theme": "",
+      "primary_theme": "B.18",
       "secondary_themes": [],
-      "role_in_theme": "",
-      "topic_memberships": [],
-      "hierarchy_scope_note": "云头锦鞋是 B 维度下唐代锦鞋的器物条目，只记来源所给的一句里衬描述。Theme/Topic 尚未 materialize。"
+      "role_in_theme": "representative_work",
+      "topic_memberships": [
+        {
+          "topic": "topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md",
+          "role": "representative_work"
+        }
+      ],
+      "hierarchy_scope_note": "云头锦鞋是 B 维度下唐代锦鞋的器物条目，只记来源所给的一句里衬描述。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
     },
     {
       "id": "works:yunwen-tongjin",
@@ -81183,9 +81211,13 @@
         {
           "topic": "topics/b11-qiqi-shijian-yu-muzang-biaoben.md",
           "role": "boundary_case"
+        },
+        {
+          "topic": "topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md",
+          "role": "boundary_case"
         }
       ],
-      "hierarchy_scope_note": "本条是 B 维度下清式宫廷家具的器物锚点，其多工艺并施的装饰属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
+      "hierarchy_scope_note": "本条是 B 维度下清式宫廷家具的器物锚点，其多工艺并施的装饰属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。另次挂载 B.14.5（明清家具风格与地域流派：明式、清式与三大名作）。"
     }
   ],
   "links": [],
@@ -82125,6 +82157,21 @@
         ],
         "summary": "",
         "path": "topics/b18-shoufu-yu-zhuangshi-fujin-futou-guguguan-jiaji-fozhuang-peizi.md"
+      },
+      {
+        "id": "b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia",
+        "code": "b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia",
+        "title": "鞋履与甲胄：履的种类、云头锦鞋、花盆底鞋与皮甲",
+        "name_en": "Footwear and Armour: Types of Lu, Cloud-Head Brocade Shoes, Flowerpot-Sole Shoes and Leather Armor",
+        "core_question": "",
+        "primary_domain": "chinese-design-history",
+        "primary_dimension": "B",
+        "parent_theme": "B.18",
+        "secondary_themes": [
+          "D"
+        ],
+        "summary": "",
+        "path": "topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md"
       },
       {
         "id": "b2-cixiu-kesi-fuzhuang-gongyi",
@@ -83127,8 +83174,8 @@
   "stats": {
     "total_nodes": 2570,
     "total_links": 0,
-    "relation_index_total": 7740,
-    "skipped_non_unit_relations": 7740,
+    "relation_index_total": 7750,
+    "skipped_non_unit_relations": 7750,
     "by_type": {
       "person": 323,
       "institution": 144,
@@ -83142,14 +83189,14 @@
     "hierarchy": {
       "domain_assigned": 2570,
       "dimension_assigned": 2570,
-      "theme_assigned": 864,
-      "topic_assigned": 864
+      "theme_assigned": 868,
+      "topic_assigned": 868
     },
     "structure_nodes": {
       "domains": 0,
       "dimensions": 0,
       "themes": 33,
-      "topics": 106
+      "topics": 107
     }
   }
 }

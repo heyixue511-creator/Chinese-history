@@ -25,13 +25,13 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-30
+updated: 2026-10-31
 confidence: medium
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 2
+version: 3
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
@@ -43,9 +43,13 @@ topic_memberships:
     role: boundary_case
     primary: true
     scope_note: "只取嵌剔红与髹漆描金一面；家具体系与用材归家具线。"
+  - topic: topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
+    role: boundary_case
+    primary: false
+    scope_note: "次要挂载，主归属仍在 B.11.3：只取它作为清式宫廷家具的用材与风格实例（紫檀胎、三屏风式、足下托泥、座前脚踏、靠背嵌剔红灵仙祝寿图）与来源「最豪华富丽」的定性，供 B.14.5 的「清式」一支取证；嵌漆与髹饰做法仍归 B.11.3，尺寸、工艺与流传全缺，不据本条补写清式家具谱系。"
 secondary_dimensions:
   - C
-hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，其多工艺并施的装饰属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。"
+hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，其多工艺并施的装饰属 C 维度。已挂载 B.11.3（漆器实物与墓葬标本：从包山双联杯到新中国漆盘）。另次挂载 B.14.5（明清家具风格与地域流派：明式、清式与三大名作）。"
 ---
 
 ## 描述
@@ -90,7 +94,7 @@ hierarchy_scope_note: "本条是 B 维度下清式宫廷家具的器物锚点，
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: C（视觉传达与文字设计）
 - primary_theme: B.11（漆器与髹饰：胎骨、髹涂与装饰）
-- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（boundary_case，primary）
+- topic_memberships: topics/b11-qiqi-shijian-yu-muzang-biaoben.md（boundary_case，primary）、topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md（boundary_case，secondary）
 - role_in_theme: boundary_case
 - scope_note: 只取嵌剔红与髹漆描金一面；家具体系与用材归家具线。
 

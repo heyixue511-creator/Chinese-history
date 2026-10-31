@@ -1,7 +1,7 @@
 # Relation Index v2.1
 # generated: 2026-10-31
-# total: 7740
-# sources: {'inferred_by_rule': 1742, 'explicit': 5998}
+# total: 7750
+# sources: {'inferred_by_rule': 1752, 'explicit': 5998}
 
 - source: persons/bao-liang.md
   source_type: person
@@ -6207,6 +6207,17 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: works/jinqi-diaolong-baozuo.md
+  source_type: work
+  target: structure/topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: boundary_case'
+  evidence: 'hierarchy.topic_memberships.role: boundary_case'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: works/jinyincuo-shouliewen-tongcheshi.md
   source_type: work
   target: structure/themes/b9-qingtong-yu-jinshu-qixing-zhuzao-yu-zhuangshi.md
@@ -8165,6 +8176,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: works/yuntou-jin-xie.md
+  source_type: work
+  target: structure/themes/b18-qianjindai-fushi-yu-guanfu-dengji-mianfu-shenyi-paoshan-qunzhi-yu-jiazhou.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: representative_work'
+  evidence: 'hierarchy.role_in_theme: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/yuntou-jin-xie.md
+  source_type: work
+  target: structure/topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: representative_work'
+  evidence: 'hierarchy.topic_memberships.role: representative_work'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: works/zenghouyi-bianzhong.md
   source_type: work
   target: structure/themes/b10-yueqi-yu-bayin-caizhi-fenlei-lelv-yu-zhongqing.md
@@ -8531,6 +8564,17 @@
 - source: works/zitan-tihong-baozuo.md
   source_type: work
   target: structure/topics/b11-qiqi-shijian-yu-muzang-biaoben.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: boundary_case'
+  evidence: 'hierarchy.topic_memberships.role: boundary_case'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: works/zitan-tihong-baozuo.md
+  source_type: work
+  target: structure/topics/b14-mingqing-jiaju-fengge-yu-diyu-liupai.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: boundary_case'
@@ -11608,6 +11652,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: terms/huapendi-xie.md
+  source_type: term
+  target: structure/themes/b18-qianjindai-fushi-yu-guanfu-dengji-mianfu-shenyi-paoshan-qunzhi-yu-jiazhou.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: term_anchor'
+  evidence: 'hierarchy.role_in_theme: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/huapendi-xie.md
+  source_type: term
+  target: structure/topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: term_anchor'
+  evidence: 'hierarchy.topic_memberships.role: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: terms/huasi.md
   source_type: term
   target: structure/themes/b9-qingtong-yu-jinshu-qixing-zhuzao-yu-zhuangshi.md
@@ -12565,6 +12631,28 @@
   relation_source: inferred_by_rule
   bidirectional_required: false
   review_status: auto_validated
+- source: terms/leather-armor.md
+  source_type: term
+  target: structure/themes/b18-qianjindai-fushi-yu-guanfu-dengji-mianfu-shenyi-paoshan-qunzhi-yu-jiazhou.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: boundary_case'
+  evidence: 'hierarchy.role_in_theme: boundary_case'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/leather-armor.md
+  source_type: term
+  target: structure/topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: boundary_case'
+  evidence: 'hierarchy.topic_memberships.role: boundary_case'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
 - source: terms/leisi.md
   source_type: term
   target: structure/themes/b12-nongju-yu-nongye-jishu-gengzuo-shouge-yu-tishui.md
@@ -13085,6 +13173,28 @@
 - source: terms/luowo-yi.md
   source_type: term
   target: structure/topics/b14-juqi-fangshi-yu-zuoju-jizuo-dao-chuizu.md
+  target_type: topic
+  relation_type: member_of
+  note: 'hierarchy Topic role: term_anchor'
+  evidence: 'hierarchy.topic_memberships.role: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/lv-de-zhonglei.md
+  source_type: term
+  target: structure/themes/b18-qianjindai-fushi-yu-guanfu-dengji-mianfu-shenyi-paoshan-qunzhi-yu-jiazhou.md
+  target_type: theme
+  relation_type: member_of
+  note: 'hierarchy Theme role: term_anchor'
+  evidence: 'hierarchy.role_in_theme: term_anchor'
+  confidence: high
+  relation_source: inferred_by_rule
+  bidirectional_required: false
+  review_status: auto_validated
+- source: terms/lv-de-zhonglei.md
+  source_type: term
+  target: structure/topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
   target_type: topic
   relation_type: member_of
   note: 'hierarchy Topic role: term_anchor'

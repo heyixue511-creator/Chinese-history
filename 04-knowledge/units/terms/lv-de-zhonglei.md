@@ -22,19 +22,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取汉代鞋履按用途三分（舄为祭祀用鞋、屦为家居用鞋、屐为雨天践泥的木制鞋）这一条分类句；形制、尺寸、材质差异与等级规定全缺，来源只有一句，不据以补写三种鞋的样式；服用场合的制度侧归 D 维度。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 履的种类是 B 维度下汉代鞋履形制的条目，其祭祀、家居与雨行的服用场合属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "履的种类是 B 维度下汉代鞋履形制的条目，其祭祀、家居与雨行的服用场合属 D 维度。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -53,10 +62,10 @@ hierarchy_scope_note: 履的种类是 B 维度下汉代鞋履形制的条目，�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 履的种类是 B 维度下汉代鞋履形制的条目，其祭祀、家居与雨行的服用场合属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取汉代鞋履按用途三分（舄为祭祀用鞋、屦为家居用鞋、屐为雨天践泥的木制鞋）这一条分类句；形制、尺寸、材质差异与等级规定全缺，来源只有一句，不据以补写三种鞋的样式；服用场合的制度侧归 D 维度。
 
 ## 相关知识元
 

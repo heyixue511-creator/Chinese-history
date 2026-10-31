@@ -5,9 +5,9 @@
 
 ## Snapshot
 
-- Batch directories: `261`
-- Files: `1261`
-- Size: `17442558` bytes
+- Batch directories: `265`
+- Files: `1273`
+- Size: `17548471` bytes
 
 ## Retention Signals
 
@@ -16,7 +16,7 @@
 - Exact duplicate files beyond the first copy: `0`
 - Potential duplicate bytes: `0`
 - Ephemeral residue: `0`
-- R1 provenance: `1261` files
+- R1 provenance: `1273` files
 - R2 validated rebuildable projections: `0` files
 - Possible R2 projections without valid provenance: `0` files (`review_required`, retained as R1)
 - R3 ephemeral residue: `0` files
@@ -31,13 +31,17 @@
 | `verify` | 0 | - |
 | `relation` | 0 | - |
 | `claim` | 51 | [summary](2026-10-27-2016xiayanjing-claims-batch-cl9a/summary.md) |
-| `hierarchy` | 58 | [summary](2026-10-31-hierarchy-pilot-h58/summary.md) |
+| `hierarchy` | 61 | [summary](2026-10-31-hierarchy-pilot-h61/summary.md) |
 | `output` | 0 | - |
 | `isolated` | 0 | - |
-| `other` | 152 | [summary](2026-10-27-quality-backlog-batch-qb1/summary.md) |
+| `other` | 153 | [summary](2026-10-31-reconcile-duplicate-candidates/summary.md) |
 
 ## Recent Batches (15)
 
+- [2026-10-31-reconcile-duplicate-candidates](2026-10-31-reconcile-duplicate-candidates/summary.md)
+- [2026-10-31-hierarchy-pilot-h61](2026-10-31-hierarchy-pilot-h61/summary.md)
+- [2026-10-31-hierarchy-pilot-h60](2026-10-31-hierarchy-pilot-h60/summary.md)
+- [2026-10-31-hierarchy-pilot-h59](2026-10-31-hierarchy-pilot-h59/summary.md)
 - [2026-10-31-hierarchy-pilot-h58](2026-10-31-hierarchy-pilot-h58/summary.md)
 - [2026-10-30-hierarchy-pilot-h57](2026-10-30-hierarchy-pilot-h57/summary.md)
 - [2026-10-30-hierarchy-pilot-h56](2026-10-30-hierarchy-pilot-h56/summary.md)
@@ -49,10 +53,6 @@
 - [2026-10-30-hierarchy-pilot-h50](2026-10-30-hierarchy-pilot-h50/summary.md)
 - [2026-10-30-hierarchy-pilot-h49](2026-10-30-hierarchy-pilot-h49/summary.md)
 - [2026-10-30-hierarchy-pilot-h48](2026-10-30-hierarchy-pilot-h48/summary.md)
-- [2026-10-30-hierarchy-pilot-h47](2026-10-30-hierarchy-pilot-h47/summary.md)
-- [2026-10-30-hierarchy-pilot-h46](2026-10-30-hierarchy-pilot-h46/summary.md)
-- [2026-10-30-hierarchy-pilot-h45](2026-10-30-hierarchy-pilot-h45/summary.md)
-- [2026-10-30-hierarchy-pilot-h44](2026-10-30-hierarchy-pilot-h44/summary.md)
 
 ## Current State
 

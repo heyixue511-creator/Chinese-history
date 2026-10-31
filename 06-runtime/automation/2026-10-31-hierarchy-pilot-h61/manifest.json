@@ -1,0 +1,110 @@
+{
+  "package_id": "2026-10-31-hierarchy-pilot-h61",
+  "profile": "hierarchy-pilot-v1",
+  "date": "2026-10-31",
+  "goal": "在 Theme B.14 的 Topic B.14.5「明清家具风格与地域流派：明式、清式与三大名作」下增设两条次挂载（金漆雕龙宝座、紫檀嵌剔红宝座，主归属均保留在 B.11.3），用具体器物补齐该 Topic 长期缺「清式风格的具体器物对应」这一缺口，并执行 B.11.3 原文登记的「若家具线建立，应改为次挂载并保留本条主挂载」条件。",
+  "scope": {
+    "baseline_hierarchy_version": "v1.50",
+    "baseline_themes": 33,
+    "baseline_topics": 107,
+    "baseline_topic_memberships": 882,
+    "baseline_complete_assignments": 868,
+    "baseline_incomplete_assignments": 1702,
+    "baseline_structure_node_coverage": "2/4",
+    "baseline_relation_index": 7748,
+    "baseline_relation_types": "3/67",
+    "baseline_member_of_relations": 1750,
+    "baseline_units": 2570,
+    "baseline_translation_index": 2178,
+    "baseline_candidate_index": 5339,
+    "baseline_claim_registry": 1242,
+    "baseline_structural_health": 130,
+    "baseline_knowledge_structure_quality": "58/65",
+    "baseline_isolated_units": 1057,
+    "baseline_b_dimension_unmounted": 987
+  },
+  "result": {
+    "hierarchy_version": "v1.51",
+    "themes": 33,
+    "topics": 107,
+    "topic_memberships": 884,
+    "complete_assignments": 868,
+    "incomplete_assignments": 1702,
+    "structure_node_coverage": "2/4",
+    "relation_index": 7750,
+    "relation_types": "3/67",
+    "member_of_relations": 1752,
+    "units": 2570,
+    "translation_index": 2178,
+    "candidate_index": 5339,
+    "claim_registry": 1242,
+    "structural_health": 130,
+    "knowledge_structure_quality": "58/65",
+    "isolated_units": 1057,
+    "b_dimension_unmounted": 987,
+    "content_findings": 0,
+    "same_name_disambiguation": "10/10"
+  },
+  "structure": {
+    "themes_updated": 1,
+    "new_theme_nodes": 0,
+    "new_topic_nodes": 0,
+    "topics_touched": 1,
+    "mounted_units": 0,
+    "secondary_mounts": 2,
+    "changed_units": 2,
+    "total_mounted_units": 868,
+    "new_topic_memberships": 2,
+    "theme_organization": "B.14.5 仍是 B.14 的第五个 Topic，切分轴未变：风格由时代、宫廷还是产地界定。本批不改结构节点，只在该 Topic 下补两条次挂载，使其由「三条纯判断语的风格条」变成「三条风格条＋两件可指认的清式宫廷器物」。",
+    "topic_split": "B.14.5 由 3 条增至 5 条（主挂载 3、次挂载 2）。B.14 七个 Topic 累计 55 个 KU（主挂载 53、次挂载 2）：B.14.1 二十条、B.14.2 十六条、B.14.3 三条、B.14.4 四条、B.14.5 五条、B.14.6 四条、B.14.7 三条。",
+    "role_distribution": {
+      "boundary_case": 2
+    },
+    "type_distribution": {
+      "work": 2
+    },
+    "source_distribution": {
+      "2004-gaofeng-zhongguo-shejishi": 2
+    },
+    "source_overlap_distribution": {
+      "single_book": 2
+    },
+    "confidence_distribution": {
+      "medium": 2
+    },
+    "consensus_distribution": {
+      "tentative": 2
+    }
+  },
+  "changed_files": 15,
+  "apply_plan": "apply-plan.jsonl",
+  "result_evidence": [
+    "04-knowledge/structure/hierarchy/index.md",
+    "04-knowledge/structure/hierarchy/archive/v1.50.md",
+    "04-knowledge/structure/themes/README.md",
+    "04-knowledge/structure/topics/README.md",
+    "04-knowledge/structure/dimension-candidates.md",
+    "04-knowledge/quality/relation-index.yml",
+    "06-runtime/state/current-health.json",
+    "06-runtime/governance/governance-backlog.md",
+    "06-runtime/automation/index.md",
+    "06-runtime/state/generated-projections-manifest.json",
+    "05-outputs/index/index.md"
+  ],
+  "unresolved": [
+    "两条次挂载同出高丰《中国设计史》2004 同一段（L5013 一带），与三条风格条共用一册一段来源，只能补「清式风格有具体器物」，补不了「清式风格如何形成」，也不构成为清式评价提供独立第二证。",
+    "B.14.5 边界第二条原写「不收具体器物」，本批增设「一处例外」，属结构判断而非来源结论；若日后 B.14.1 的龙墩条扩展为具体宝座条目，两条次挂载的必要性应重估而不是默认沿用。",
+    "两件宝座的图版未核：高丰图 8-14 图注作「清式紫檀大宝座」，是否即这两件、与两件是否同一陈设组，来源未明；两件均无尺寸、无用材比例、无制作地点。",
+    "次挂载的 relation 口径按实测更正：次挂载每条只生成 topic 一条 `member_of`（+1），Theme 的 `member_of` 由 `role_in_theme` 生成、不随次挂载新增；本批实测 7748→7750（+2），此前批次「每挂载 +2」的口径只适用于主挂载。",
+    "清式风格的其余缺口未补：材质等级、构件尺寸、纹样谱系与明式—清式过渡器物仍全缺，两条宝座只提供构件名与雕饰层次。",
+    "两件宝座的管辖边界：太和殿陈设的政治象征归 D 维度、龙纹与屏风配置归 C 维度，本批只在 KU 原有 `secondary_dimensions: [C]` 内保留，未新增维度归属。"
+  ],
+  "notes": [
+    "主挂载保留：两件宝座的 `topic_memberships` 中 B.11.3 一条仍为 `primary: true`，B.14.5 一条为 `primary: false`，`primary_theme` 仍为 B.11，`role_in_theme` 仍为 `boundary_case`；B.11.3 登记的「若家具线建立应改次挂载并保留本条主挂载」至此执行完毕。",
+    "membership +2、complete/incomplete 不变（两件原本已由 B.11.3 计入 868）、隔离单元不变（两件原本已有显式 `member_of`）、B 维度未挂载不变（987）。",
+    "relation 增量 +2 而非原本预估的 +4，原因见 unresolved 第 4 条；index 的 v1.51 段已按实测写成 +2。",
+    "changed_files 15 = 8 个手写文件（2 个 KU、1 个 Topic、1 个 Theme、index、两个 README、dimension-candidates）+ 6 个实际发生变化的生成态文件（relation-index.yml、current-health.json、governance-backlog.md、automation/index.md、generated-projections-manifest.json、05-outputs/index/index.md）+ 1 个归档件（hierarchy/archive/v1.50.md）。knowledge-graph-data.js 与 .json 本批未变化（Topic membership 不变更图数据输入），故不列入。",
+    "生成态次序：apply-plan、manifest、summary 先落盘，再连跑两次 `run_sync_closure.py --refresh-generated --full`；第 8 步早于第 9 步，单跑会残留 `output_navigation_snapshot_stale`。",
+    "本包不 commit、不 push——commit/push 需用户当次明确授权。"
+  ]
+}

@@ -27,19 +27,28 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+secondary_themes:
+  - D
+role_in_theme: term_anchor
+topic_memberships:
+  - topic: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+    role: term_anchor
+    primary: true
+    scope_note: "只取清代旗女天足所穿高木底鞋的形与饰（前圆后方为马蹄底、侧面内弧线又称花盆底、绸缎面绣花纹并镶珠宝）与两名同指一鞋的并列；木底高度、鞋跟位置与制作工艺未给，图 9-21 未核；缠足与弓鞋对旗女的影响只作背景，身体改装与习俗问题归 D、E。"
 secondary_dimensions:
   - D
-hierarchy_scope_note: 花盆底鞋是 B 维度下清代旗女鞋式的条目，其与汉族缠足弓鞋的关系属 D 维度。Theme/Topic 尚未 materialize。
+hierarchy_scope_note: "花盆底鞋是 B 维度下清代旗女鞋式的条目，其与汉族缠足弓鞋的关系属 D 维度。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -61,10 +70,10 @@ hierarchy_scope_note: 花盆底鞋是 B 维度下清代旗女鞋式的条目，�
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
 - secondary_dimensions: D（商业、制度与设计教育）
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 花盆底鞋是 B 维度下清代旗女鞋式的条目，其与汉族缠足弓鞋的关系属 D 维度。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md（term_anchor，primary）
+- role_in_theme: term_anchor
+- scope_note: 只取清代旗女天足所穿高木底鞋的形与饰（前圆后方为马蹄底、侧面内弧线又称花盆底、绸缎面绣花纹并镶珠宝）与两名同指一鞋的并列；木底高度、鞋跟位置与制作工艺未给，图 9-21 未核；缠足与弓鞋对旗女的影响只作背景，身体改装与习俗问题归 D、E。
 
 ## 相关知识元
 

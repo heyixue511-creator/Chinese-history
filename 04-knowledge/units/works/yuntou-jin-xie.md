@@ -25,18 +25,25 @@ sources:
       chapter_id: null
       chunk_id: null
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-31
 confidence: low
 consensus: tentative
 source_count: 1
 last_verified: 2026-10-26
 review_due: 2027-04-26
-version: 1
+version: 2
 evidence_status: source_backed
 primary_domain: chinese-design-history
 primary_dimension: B
+primary_theme: B.18
+role_in_theme: representative_work
+topic_memberships:
+  - topic: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md
+    role: representative_work
+    primary: true
+    scope_note: "只取阿斯塔那出土唐代云头锦鞋的里衬用料（蓝、绿、浅红彩条晕絰锦）与同出关系；鞋长、鞋宽、鞋头结构与鞋面鞋底材料全缺，「云头」的鞋头云形来源未释义，不据名补写结构，也不与同出的晕絰提花锦裙合并记形制。"
 secondary_dimensions:
-hierarchy_scope_note: "云头锦鞋是 B 维度下唐代锦鞋的器物条目，只记来源所给的一句里衬描述。Theme/Topic 尚未 materialize。"
+hierarchy_scope_note: "云头锦鞋是 B 维度下唐代锦鞋的器物条目，只记来源所给的一句里衬描述。已挂载 B.18.6（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）。"
 ---
 
 ## 描述
@@ -54,11 +61,10 @@ hierarchy_scope_note: "云头锦鞋是 B 维度下唐代锦鞋的器物条目，
 
 - primary_domain: chinese-design-history
 - primary_dimension: B（造物、工艺与生产技术）
-- secondary_dimensions: 无
-- primary_theme: 未建立；Theme 尚未 materialize
-- topic_memberships: 无；Topic 尚未 materialize
-- role_in_theme: 未定
-- scope_note: 云头锦鞋是 B 维度下唐代锦鞋的器物条目，只记来源所给的一句里衬描述。Theme/Topic 尚未 materialize。
+- primary_theme: B.18（前近代服饰与冠服等级：冕服、深衣、袍衫、裙制与甲胄）
+- topic_memberships: topics/b18-xielv-yu-jiazhou-lv-de-zhonglei-yuntou-jin-xie-huapendi-xie-yu-pijia.md（representative_work，primary）
+- role_in_theme: representative_work
+- scope_note: 只取阿斯塔那出土唐代云头锦鞋的里衬用料（蓝、绿、浅红彩条晕絰锦）与同出关系；鞋长、鞋宽、鞋头结构与鞋面鞋底材料全缺，「云头」的鞋头云形来源未释义，不据名补写结构，也不与同出的晕絰提花锦裙合并记形制。
 
 ## 相关知识元
 
